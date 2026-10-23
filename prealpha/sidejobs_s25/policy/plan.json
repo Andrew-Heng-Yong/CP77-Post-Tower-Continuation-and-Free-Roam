@@ -1,0 +1,1020 @@
+{
+  "status": "PLANNED_INACTIVE_ONLY_POLICY_NOT_INSTALLED",
+  "scripts": [
+    {
+      "version": "S22",
+      "source": "prealpha/sidejobs_s22b/build/s22_03/SideJobsS22.reds",
+      "relative": "r6/scripts/TowerContinued_SideJobs_S22/SideJobsS22.reds",
+      "rows": [
+        {
+          "index": 0,
+          "id": "mq025_psycho_brawl",
+          "tag": "PTFRS22_MQ025",
+          "narrowed": [
+            {
+              "index": 0,
+              "path": "quests/minor_quest/mq025_psycho_brawl",
+              "before": [
+                4,
+                1
+              ],
+              "after": [
+                1,
+                1
+              ]
+            }
+          ],
+          "exclusion_fact": "PTFRS25_MQ025_FRESH_Issued"
+        },
+        {
+          "index": 1,
+          "id": "sq025_delamain",
+          "tag": "PTFRS22_SQ025",
+          "narrowed": [
+            {
+              "index": 0,
+              "path": "quests/side_quest/sq025_delamain",
+              "before": [
+                1,
+                4
+              ],
+              "after": [
+                1,
+                1
+              ]
+            },
+            {
+              "index": 12,
+              "path": "quests/side_quest/sq025c01_angry",
+              "before": [
+                1,
+                4
+              ],
+              "after": [
+                1,
+                1
+              ]
+            },
+            {
+              "index": 13,
+              "path": "quests/side_quest/sq025c04_manic",
+              "before": [
+                1,
+                4
+              ],
+              "after": [
+                1,
+                1
+              ]
+            },
+            {
+              "index": 14,
+              "path": "quests/side_quest/sq025c05_scared",
+              "before": [
+                1,
+                4
+              ],
+              "after": [
+                1,
+                1
+              ]
+            },
+            {
+              "index": 15,
+              "path": "quests/side_quest/sq025c06_mean",
+              "before": [
+                1,
+                4
+              ],
+              "after": [
+                1,
+                1
+              ]
+            }
+          ],
+          "exclusion_fact": "PTFRS25_SQ025_FRESH_Issued"
+        },
+        {
+          "index": 2,
+          "id": "q304_car_retrieval",
+          "tag": "PTFRS22_Q304",
+          "narrowed": [
+            {
+              "index": 0,
+              "path": "ep1/quests/minor_quest/q304_car_retrieval",
+              "before": [
+                1,
+                4
+              ],
+              "after": [
+                1,
+                1
+              ]
+            }
+          ],
+          "exclusion_fact": null
+        },
+        {
+          "index": 3,
+          "id": "sq_q001_wakako",
+          "tag": "PTFRS22_SQ_Q001",
+          "narrowed": [
+            {
+              "index": 0,
+              "path": "quests/side_quest/sq_q001_wakako",
+              "before": [
+                1,
+                4
+              ],
+              "after": [
+                1,
+                1
+              ]
+            }
+          ],
+          "exclusion_fact": null
+        }
+      ]
+    },
+    {
+      "version": "S23",
+      "source": "prealpha/sidejobs_s23/build/s23_02/SideJobsS23.reds",
+      "relative": "r6/scripts/TowerContinued_SideJobs_S23/SideJobsS23.reds",
+      "rows": [
+        {
+          "index": 0,
+          "id": "mq024_sandra",
+          "tag": "PTFRS23_MQ024",
+          "narrowed": [
+            {
+              "index": 0,
+              "path": "quests/minor_quest/mq024_sandra",
+              "before": [
+                1,
+                4
+              ],
+              "after": [
+                1,
+                1
+              ]
+            }
+          ],
+          "exclusion_fact": null
+        },
+        {
+          "index": 1,
+          "id": "mq007_smartgun",
+          "tag": "PTFRS23_MQ007",
+          "narrowed": [
+            {
+              "index": 0,
+              "path": "quests/minor_quest/mq007_smartgun",
+              "before": [
+                1,
+                4
+              ],
+              "after": [
+                1,
+                1
+              ]
+            }
+          ],
+          "exclusion_fact": null
+        },
+        {
+          "index": 2,
+          "id": "mq035_ozob",
+          "tag": "PTFRS23_MQ035",
+          "narrowed": [
+            {
+              "index": 0,
+              "path": "quests/minor_quest/mq035_ozob",
+              "before": [
+                1,
+                4
+              ],
+              "after": [
+                1,
+                1
+              ]
+            }
+          ],
+          "exclusion_fact": null
+        },
+        {
+          "index": 3,
+          "id": "mq012_stud",
+          "tag": "PTFRS23_MQ012",
+          "narrowed": [
+            {
+              "index": 0,
+              "path": "quests/minor_quest/mq012_stud",
+              "before": [
+                1,
+                4
+              ],
+              "after": [
+                1,
+                1
+              ]
+            }
+          ],
+          "exclusion_fact": null
+        },
+        {
+          "index": 4,
+          "id": "mq002_veterans",
+          "tag": "PTFRS23_MQ002",
+          "narrowed": [
+            {
+              "index": 0,
+              "path": "quests/minor_quest/mq002_veterans",
+              "before": [
+                1,
+                4
+              ],
+              "after": [
+                1,
+                1
+              ]
+            }
+          ],
+          "exclusion_fact": null
+        },
+        {
+          "index": 5,
+          "id": "mq021_guide",
+          "tag": "PTFRS23_MQ021",
+          "narrowed": [
+            {
+              "index": 0,
+              "path": "quests/minor_quest/mq021_guide",
+              "before": [
+                1,
+                4
+              ],
+              "after": [
+                1,
+                1
+              ]
+            }
+          ],
+          "exclusion_fact": null
+        },
+        {
+          "index": 6,
+          "id": "mq041_corpo",
+          "tag": "PTFRS23_MQ041",
+          "narrowed": [
+            {
+              "index": 0,
+              "path": "quests/minor_quest/mq041_corpo",
+              "before": [
+                1,
+                4
+              ],
+              "after": [
+                1,
+                1
+              ]
+            }
+          ],
+          "exclusion_fact": null
+        },
+        {
+          "index": 7,
+          "id": "mq044_jakes_vehicle",
+          "tag": "PTFRS23_MQ044",
+          "narrowed": [
+            {
+              "index": 0,
+              "path": "quests/minor_quest/mq044_jakes_vehicle",
+              "before": [
+                1,
+                4
+              ],
+              "after": [
+                1,
+                1
+              ]
+            }
+          ],
+          "exclusion_fact": null
+        },
+        {
+          "index": 8,
+          "id": "mq007_smartgun",
+          "tag": "PTFRS23_MQ007_RESUME",
+          "narrowed": [
+            {
+              "index": 0,
+              "path": "quests/minor_quest/mq007_smartgun",
+              "before": [
+                1,
+                4
+              ],
+              "after": [
+                1,
+                1
+              ]
+            }
+          ],
+          "exclusion_fact": null
+        },
+        {
+          "index": 9,
+          "id": "mq013_punks",
+          "tag": "PTFRS23_MQ013",
+          "narrowed": [],
+          "exclusion_fact": null
+        },
+        {
+          "index": 10,
+          "id": "mq030_melisa",
+          "tag": "PTFRS23_MQ030",
+          "narrowed": [],
+          "exclusion_fact": null
+        },
+        {
+          "index": 11,
+          "id": "mq011_wilson",
+          "tag": "PTFRS23_MQ011",
+          "narrowed": [],
+          "exclusion_fact": null
+        },
+        {
+          "index": 12,
+          "id": "mq038_neweridentity",
+          "tag": "PTFRS23_MQ038",
+          "narrowed": [],
+          "exclusion_fact": null
+        },
+        {
+          "index": 13,
+          "id": "mq037_brendan",
+          "tag": "PTFRS23_MQ037",
+          "narrowed": [],
+          "exclusion_fact": null
+        },
+        {
+          "index": 14,
+          "id": "mq049_edgerunners",
+          "tag": "PTFRS23_MQ049",
+          "narrowed": [],
+          "exclusion_fact": null
+        },
+        {
+          "index": 15,
+          "id": "mq026_conspiracy",
+          "tag": "PTFRS23_MQ026",
+          "narrowed": [],
+          "exclusion_fact": "PTFRS25_MQ026_FRESH_Issued"
+        },
+        {
+          "index": 16,
+          "id": "mq306_dumpster",
+          "tag": "PTFRS23_MQ306",
+          "narrowed": [
+            {
+              "index": 0,
+              "path": "ep1/quests/minor_quest/mq306_dumpster",
+              "before": [
+                1,
+                4
+              ],
+              "after": [
+                1,
+                1
+              ]
+            }
+          ],
+          "exclusion_fact": null
+        },
+        {
+          "index": 17,
+          "id": "q304_splinter_stash",
+          "tag": "PTFRS23_VOODOO",
+          "narrowed": [],
+          "exclusion_fact": null
+        },
+        {
+          "index": 18,
+          "id": "wst_ep1_11_bill_meeting",
+          "tag": "PTFRS23_BILL",
+          "narrowed": [],
+          "exclusion_fact": null
+        },
+        {
+          "index": 19,
+          "id": "wst_ep1_05",
+          "tag": "PTFRS23_HASAN",
+          "narrowed": [],
+          "exclusion_fact": null
+        },
+        {
+          "index": 20,
+          "id": "wst_ep1_04",
+          "tag": "PTFRS23_RINDER",
+          "narrowed": [],
+          "exclusion_fact": null
+        },
+        {
+          "index": 21,
+          "id": "sts_ep1_08_steven_meeting_night_city",
+          "tag": "PTFRS23_STEVEN",
+          "narrowed": [],
+          "exclusion_fact": null
+        },
+        {
+          "index": 22,
+          "id": "mq046_cave_vehicle",
+          "tag": "PTFRS23_MQ046",
+          "narrowed": [],
+          "exclusion_fact": null
+        },
+        {
+          "index": 23,
+          "id": "mq047_ad_vehicle",
+          "tag": "PTFRS23_MQ047",
+          "narrowed": [],
+          "exclusion_fact": null
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "depot": "towercontinued\\sidejobs_s22\\mq025_progress.questphase",
+      "source": "prealpha/sidejobs_s221/build/s221_01/source/towercontinued/sidejobs_s22/mq025_progress.questphase",
+      "json": "prealpha/sidejobs_s221/build/s221_01/readback/towercontinued_sidejobs_s22_mq025_progress.questphase.json",
+      "source_sha256": "39AD463D5E6E3F546D30A1E1F580A9455DA88677B3B41954253DDCA51E92BA71",
+      "changes": [
+        {
+          "graph": "root",
+          "node": 1001,
+          "narrowed_roots": [
+            "quests/minor_quest/mq025_psycho_brawl"
+          ],
+          "exclusion_facts": [
+            "PTFRS25_MQ025_FRESH_Issued"
+          ],
+          "unused_tags": [
+            "PTFRS22_MQ025"
+          ]
+        },
+        {
+          "graph": "root",
+          "node": 1002,
+          "narrowed_roots": [
+            "quests/minor_quest/mq025_psycho_brawl"
+          ],
+          "exclusion_facts": [
+            "PTFRS25_MQ025_FRESH_Issued"
+          ],
+          "unused_tags": [
+            "PTFRS22_MQ025"
+          ]
+        }
+      ]
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s22\\the_gig_reward_resume.questphase",
+      "source": "prealpha/sidejobs_s221/build/s221_01/source/towercontinued/sidejobs_s22/the_gig_reward_resume.questphase",
+      "json": "prealpha/sidejobs_s221/build/s221_01/readback/towercontinued_sidejobs_s22_the_gig_reward_resume.questphase.json",
+      "source_sha256": "3B6225CC0976061F09B7CF7843497D96ED53E240AAE12746B85755186B3F1724",
+      "changes": [
+        {
+          "graph": "root",
+          "node": 1001,
+          "narrowed_roots": [
+            "quests/side_quest/sq_q001_wakako"
+          ],
+          "exclusion_facts": [],
+          "unused_tags": [
+            "PTFRS22_SQ_Q001"
+          ]
+        },
+        {
+          "graph": "root",
+          "node": 1002,
+          "narrowed_roots": [
+            "quests/side_quest/sq_q001_wakako"
+          ],
+          "exclusion_facts": [],
+          "unused_tags": [
+            "PTFRS22_SQ_Q001"
+          ]
+        }
+      ]
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s22\\delamain\\support.questphase",
+      "source": "prealpha/sidejobs_s221/build/s221_01/source/towercontinued/sidejobs_s22/delamain/support.questphase",
+      "json": "prealpha/sidejobs_s221/build/s221_01/readback/towercontinued_sidejobs_s22_delamain_support.questphase.json",
+      "source_sha256": "0E2B207E882A1CB0A74142C8C0FF369A6DA66583B84A0DB2B62C51105EE0E3EA",
+      "changes": [
+        {
+          "graph": "root",
+          "node": 1002,
+          "narrowed_roots": [
+            "quests/side_quest/sq025_delamain",
+            "quests/side_quest/sq025c01_angry",
+            "quests/side_quest/sq025c04_manic",
+            "quests/side_quest/sq025c05_scared",
+            "quests/side_quest/sq025c06_mean"
+          ],
+          "exclusion_facts": [
+            "PTFRS25_SQ025_FRESH_Issued"
+          ],
+          "unused_tags": [
+            "PTFRS22_SQ025"
+          ]
+        },
+        {
+          "graph": "root",
+          "node": 1003,
+          "narrowed_roots": [
+            "quests/side_quest/sq025_delamain",
+            "quests/side_quest/sq025c01_angry",
+            "quests/side_quest/sq025c04_manic",
+            "quests/side_quest/sq025c05_scared",
+            "quests/side_quest/sq025c06_mean"
+          ],
+          "exclusion_facts": [
+            "PTFRS25_SQ025_FRESH_Issued"
+          ],
+          "unused_tags": [
+            "PTFRS22_SQ025"
+          ]
+        }
+      ]
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s22\\delamain\\owner.questphase",
+      "source": "prealpha/sidejobs_s221/build/s221_01/source/towercontinued/sidejobs_s22/delamain/owner.questphase",
+      "json": "prealpha/sidejobs_s221/build/s221_01/readback/towercontinued_sidejobs_s22_delamain_owner.questphase.json",
+      "source_sha256": "4756DB944DD13B4AF48B954DC8DBD4870B242FA53153129A8D05A586718A7044",
+      "changes": [
+        {
+          "graph": "root",
+          "node": 1002,
+          "narrowed_roots": [
+            "quests/side_quest/sq025_delamain",
+            "quests/side_quest/sq025c01_angry",
+            "quests/side_quest/sq025c04_manic",
+            "quests/side_quest/sq025c05_scared",
+            "quests/side_quest/sq025c06_mean"
+          ],
+          "exclusion_facts": [
+            "PTFRS25_SQ025_FRESH_Issued"
+          ],
+          "unused_tags": [
+            "PTFRS22_SQ025"
+          ]
+        },
+        {
+          "graph": "root",
+          "node": 1003,
+          "narrowed_roots": [
+            "quests/side_quest/sq025_delamain",
+            "quests/side_quest/sq025c01_angry",
+            "quests/side_quest/sq025c04_manic",
+            "quests/side_quest/sq025c05_scared",
+            "quests/side_quest/sq025c06_mean"
+          ],
+          "exclusion_facts": [
+            "PTFRS25_SQ025_FRESH_Issued"
+          ],
+          "unused_tags": [
+            "PTFRS22_SQ025"
+          ]
+        }
+      ]
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s22\\moving_heat_boot.questphase",
+      "source": "prealpha/sidejobs_s221/build/s221_01/source/towercontinued/sidejobs_s22/moving_heat_boot.questphase",
+      "json": "prealpha/sidejobs_s221/build/s221_01/readback/towercontinued_sidejobs_s22_moving_heat_boot.questphase.json",
+      "source_sha256": "F0D21C3CA29C247D2C398CC267C4C8B85F230A6D409FA70EDD9597C8B47C12AE",
+      "changes": [
+        {
+          "graph": "root",
+          "node": 2,
+          "narrowed_roots": [
+            "ep1/quests/minor_quest/q304_car_retrieval"
+          ],
+          "exclusion_facts": [],
+          "unused_tags": [
+            "PTFRS22_Q304"
+          ]
+        },
+        {
+          "graph": "root",
+          "node": 3,
+          "narrowed_roots": [
+            "ep1/quests/minor_quest/q304_car_retrieval"
+          ],
+          "exclusion_facts": [],
+          "unused_tags": [
+            "PTFRS22_Q304"
+          ]
+        }
+      ]
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s23\\base_a\\mq024_sandra.questphase",
+      "source": "prealpha/sidejobs_s23/build/s23_02/source/towercontinued/sidejobs_s23/base_a/mq024_sandra.questphase",
+      "json": "prealpha/sidejobs_s23/build/s23_02/readback/towercontinued_sidejobs_s23_base_a_mq024_sandra.questphase.json",
+      "source_sha256": "94F0B14B1D6510E797EAE34CE582E6DD115FC78FAF4CE90B945032958949F81A",
+      "changes": [
+        {
+          "graph": "root",
+          "node": 1001,
+          "narrowed_roots": [
+            "quests/minor_quest/mq024_sandra"
+          ],
+          "exclusion_facts": [],
+          "unused_tags": [
+            "PTFRS23_MQ024"
+          ]
+        },
+        {
+          "graph": "root",
+          "node": 1002,
+          "narrowed_roots": [
+            "quests/minor_quest/mq024_sandra"
+          ],
+          "exclusion_facts": [],
+          "unused_tags": [
+            "PTFRS23_MQ024"
+          ]
+        }
+      ]
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s23\\base_a\\mq007_smartgun.questphase",
+      "source": "prealpha/sidejobs_s23/build/s23_02/source/towercontinued/sidejobs_s23/base_a/mq007_smartgun.questphase",
+      "json": "prealpha/sidejobs_s23/build/s23_02/readback/towercontinued_sidejobs_s23_base_a_mq007_smartgun.questphase.json",
+      "source_sha256": "10AF8C4130C0FB06EEBD683C665FEC74DD4E526FC48C7BF8BDDE3898A0C531F6",
+      "changes": [
+        {
+          "graph": "root",
+          "node": 1001,
+          "narrowed_roots": [
+            "quests/minor_quest/mq007_smartgun"
+          ],
+          "exclusion_facts": [],
+          "unused_tags": [
+            "PTFRS23_MQ007"
+          ]
+        },
+        {
+          "graph": "root",
+          "node": 1002,
+          "narrowed_roots": [
+            "quests/minor_quest/mq007_smartgun"
+          ],
+          "exclusion_facts": [],
+          "unused_tags": [
+            "PTFRS23_MQ007"
+          ]
+        }
+      ]
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s23\\base_a\\mq035_ozob.questphase",
+      "source": "prealpha/sidejobs_s23/build/s23_02/source/towercontinued/sidejobs_s23/base_a/mq035_ozob.questphase",
+      "json": "prealpha/sidejobs_s23/build/s23_02/readback/towercontinued_sidejobs_s23_base_a_mq035_ozob.questphase.json",
+      "source_sha256": "9DF297D07DB67DEB6509C59C81F7F9982CC8ED18E6961E83AAE91FFF91C0E915",
+      "changes": [
+        {
+          "graph": "root",
+          "node": 1001,
+          "narrowed_roots": [
+            "quests/minor_quest/mq035_ozob"
+          ],
+          "exclusion_facts": [],
+          "unused_tags": [
+            "PTFRS23_MQ035"
+          ]
+        },
+        {
+          "graph": "root",
+          "node": 1002,
+          "narrowed_roots": [
+            "quests/minor_quest/mq035_ozob"
+          ],
+          "exclusion_facts": [],
+          "unused_tags": [
+            "PTFRS23_MQ035"
+          ]
+        }
+      ]
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s23\\base_a\\mq012_stud.questphase",
+      "source": "prealpha/sidejobs_s23/build/s23_02/source/towercontinued/sidejobs_s23/base_a/mq012_stud.questphase",
+      "json": "prealpha/sidejobs_s23/build/s23_02/readback/towercontinued_sidejobs_s23_base_a_mq012_stud.questphase.json",
+      "source_sha256": "D4F0D68932218B2F9E57DDE48CB281810BDA28F7AACC4EB718C41895DF41A1F5",
+      "changes": [
+        {
+          "graph": "root",
+          "node": 1001,
+          "narrowed_roots": [
+            "quests/minor_quest/mq012_stud"
+          ],
+          "exclusion_facts": [],
+          "unused_tags": [
+            "PTFRS23_MQ012"
+          ]
+        },
+        {
+          "graph": "root",
+          "node": 1002,
+          "narrowed_roots": [
+            "quests/minor_quest/mq012_stud"
+          ],
+          "exclusion_facts": [],
+          "unused_tags": [
+            "PTFRS23_MQ012"
+          ]
+        }
+      ]
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s23\\base_a\\mq002_veterans.questphase",
+      "source": "prealpha/sidejobs_s23/build/s23_02/source/towercontinued/sidejobs_s23/base_a/mq002_veterans.questphase",
+      "json": "prealpha/sidejobs_s23/build/s23_02/readback/towercontinued_sidejobs_s23_base_a_mq002_veterans.questphase.json",
+      "source_sha256": "2EC030AF6DACA485A7F5E8805FFAFF44937B635C7F55F4CD02780BC180896EB3",
+      "changes": [
+        {
+          "graph": "root",
+          "node": 1001,
+          "narrowed_roots": [
+            "quests/minor_quest/mq002_veterans"
+          ],
+          "exclusion_facts": [],
+          "unused_tags": [
+            "PTFRS23_MQ002"
+          ]
+        },
+        {
+          "graph": "root",
+          "node": 1002,
+          "narrowed_roots": [
+            "quests/minor_quest/mq002_veterans"
+          ],
+          "exclusion_facts": [],
+          "unused_tags": [
+            "PTFRS23_MQ002"
+          ]
+        }
+      ]
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s23\\base_a\\mq021_guide.questphase",
+      "source": "prealpha/sidejobs_s23/build/s23_02/source/towercontinued/sidejobs_s23/base_a/mq021_guide.questphase",
+      "json": "prealpha/sidejobs_s23/build/s23_02/readback/towercontinued_sidejobs_s23_base_a_mq021_guide.questphase.json",
+      "source_sha256": "AFD3D8816205E4A6DADB902D000F76BDEFD6DA39D5ABD29B5144A311241D0201",
+      "changes": [
+        {
+          "graph": "root",
+          "node": 1001,
+          "narrowed_roots": [
+            "quests/minor_quest/mq021_guide"
+          ],
+          "exclusion_facts": [],
+          "unused_tags": [
+            "PTFRS23_MQ021"
+          ]
+        },
+        {
+          "graph": "root",
+          "node": 1002,
+          "narrowed_roots": [
+            "quests/minor_quest/mq021_guide"
+          ],
+          "exclusion_facts": [],
+          "unused_tags": [
+            "PTFRS23_MQ021"
+          ]
+        }
+      ]
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s23\\base_a\\mq041_corpo.questphase",
+      "source": "prealpha/sidejobs_s23/build/s23_02/source/towercontinued/sidejobs_s23/base_a/mq041_corpo.questphase",
+      "json": "prealpha/sidejobs_s23/build/s23_02/readback/towercontinued_sidejobs_s23_base_a_mq041_corpo.questphase.json",
+      "source_sha256": "B622C5921F5984BA60E3D8835A0C8D89152299E196597EABD54FA0CFA56B7228",
+      "changes": [
+        {
+          "graph": "root",
+          "node": 1001,
+          "narrowed_roots": [
+            "quests/minor_quest/mq041_corpo"
+          ],
+          "exclusion_facts": [],
+          "unused_tags": [
+            "PTFRS23_MQ041"
+          ]
+        },
+        {
+          "graph": "root",
+          "node": 1002,
+          "narrowed_roots": [
+            "quests/minor_quest/mq041_corpo"
+          ],
+          "exclusion_facts": [],
+          "unused_tags": [
+            "PTFRS23_MQ041"
+          ]
+        }
+      ]
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s23\\base_a\\mq044_jakes_vehicle.questphase",
+      "source": "prealpha/sidejobs_s23/build/s23_02/source/towercontinued/sidejobs_s23/base_a/mq044_jakes_vehicle.questphase",
+      "json": "prealpha/sidejobs_s23/build/s23_02/readback/towercontinued_sidejobs_s23_base_a_mq044_jakes_vehicle.questphase.json",
+      "source_sha256": "6502B17B83B5AC502D67E14401954CC60D84DE5BAF19305BE0E91A44390F5423",
+      "changes": [
+        {
+          "graph": "root",
+          "node": 1001,
+          "narrowed_roots": [
+            "quests/minor_quest/mq044_jakes_vehicle"
+          ],
+          "exclusion_facts": [],
+          "unused_tags": [
+            "PTFRS23_MQ044"
+          ]
+        },
+        {
+          "graph": "root",
+          "node": 1002,
+          "narrowed_roots": [
+            "quests/minor_quest/mq044_jakes_vehicle"
+          ],
+          "exclusion_facts": [],
+          "unused_tags": [
+            "PTFRS23_MQ044"
+          ]
+        }
+      ]
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s23\\base_a_v2\\mq007_resume_boot.questphase",
+      "source": "prealpha/sidejobs_s23/build/s23_02/source/towercontinued/sidejobs_s23/base_a_v2/mq007_resume_boot.questphase",
+      "json": "prealpha/sidejobs_s23/build/s23_02/readback/towercontinued_sidejobs_s23_base_a_v2_mq007_resume_boot.questphase.json",
+      "source_sha256": "085322A68C4419FF3CDA163B3B1EA2EBAF8D4031F3EA3BEDF214279C2B0A2253",
+      "changes": [
+        {
+          "graph": "root",
+          "node": 1001,
+          "narrowed_roots": [
+            "quests/minor_quest/mq007_smartgun"
+          ],
+          "exclusion_facts": [],
+          "unused_tags": [
+            "PTFRS23_MQ007",
+            "PTFRS23_MQ007_RESUME"
+          ]
+        },
+        {
+          "graph": "root",
+          "node": 1002,
+          "narrowed_roots": [
+            "quests/minor_quest/mq007_smartgun"
+          ],
+          "exclusion_facts": [],
+          "unused_tags": [
+            "PTFRS23_MQ007",
+            "PTFRS23_MQ007_RESUME"
+          ]
+        }
+      ]
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s23\\base_b\\mq026.questphase",
+      "source": "prealpha/sidejobs_s23/build/s23_02/source/towercontinued/sidejobs_s23/base_b/mq026.questphase",
+      "json": "prealpha/sidejobs_s23/build/s23_02/readback/towercontinued_sidejobs_s23_base_b_mq026.questphase.json",
+      "source_sha256": "7264D972E22E2E885EF7DC229A52AD4F8FCD200AD8208A60326B810A2C49B491",
+      "changes": [
+        {
+          "graph": "root",
+          "node": 1002,
+          "narrowed_roots": [],
+          "exclusion_facts": [
+            "PTFRS25_MQ026_FRESH_Issued"
+          ],
+          "unused_tags": [
+            "PTFRS23_MQ026"
+          ]
+        },
+        {
+          "graph": "root",
+          "node": 1004,
+          "narrowed_roots": [],
+          "exclusion_facts": [
+            "PTFRS25_MQ026_FRESH_Issued"
+          ],
+          "unused_tags": [
+            "PTFRS23_MQ026"
+          ]
+        }
+      ]
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s23\\ep1\\mq306_boot.questphase",
+      "source": "prealpha/sidejobs_s23/build/s23_02/source/towercontinued/sidejobs_s23/ep1/mq306_boot.questphase",
+      "json": "prealpha/sidejobs_s23/build/s23_02/readback/towercontinued_sidejobs_s23_ep1_mq306_boot.questphase.json",
+      "source_sha256": "C2ED221A9AF8CD8BD689CB9D1B99C80557DE671B5DB02AFB98525962E3D9E938",
+      "changes": [
+        {
+          "graph": "root",
+          "node": 2,
+          "narrowed_roots": [
+            "ep1/quests/minor_quest/mq306_dumpster"
+          ],
+          "exclusion_facts": [],
+          "unused_tags": [
+            "PTFRS23_MQ306"
+          ]
+        },
+        {
+          "graph": "root",
+          "node": 3,
+          "narrowed_roots": [
+            "ep1/quests/minor_quest/mq306_dumpster"
+          ],
+          "exclusion_facts": [],
+          "unused_tags": [
+            "PTFRS23_MQ306"
+          ]
+        }
+      ]
+    }
+  ],
+  "source_pins": {
+    "prealpha/sidejobs_s22b/build/s22_03/SideJobsS22.reds": "037BB7AE91EA09A5BB7604DC27B0B45343AC16BF6435486855527BC3FE1641D7",
+    "prealpha/sidejobs_s23/build/s23_02/SideJobsS23.reds": "4634CF2C37243E59BF7CD3879441BFB47E1B8BCE1195FDC48B37C1DAA6AB8CB9",
+    "prealpha/sidejobs_s221/build/s221_01/build.json": "F154F3C4C1F17F07E24B4BCE66D210079F5370757F91D88B88B8A9ADE2953B76",
+    "prealpha/sidejobs_s221/build/s221_01/source/towercontinued/sidejobs_s22/mq025_progress.questphase": "39AD463D5E6E3F546D30A1E1F580A9455DA88677B3B41954253DDCA51E92BA71",
+    "prealpha/sidejobs_s221/build/s221_01/readback/towercontinued_sidejobs_s22_mq025_progress.questphase.json": "5545B229C1A72D9E66E525320678DA6A57E86050DEBA29C93F867F9CF0567F09",
+    "prealpha/sidejobs_s221/build/s221_01/source/towercontinued/sidejobs_s22/the_gig_reward_resume.questphase": "3B6225CC0976061F09B7CF7843497D96ED53E240AAE12746B85755186B3F1724",
+    "prealpha/sidejobs_s221/build/s221_01/readback/towercontinued_sidejobs_s22_the_gig_reward_resume.questphase.json": "0251F3954946A8B04CFA605BFD2FB5BDCDA1E99EA90D6FB3A4860F28BB6B1D76",
+    "prealpha/sidejobs_s221/build/s221_01/source/towercontinued/sidejobs_s22/delamain/support.questphase": "0E2B207E882A1CB0A74142C8C0FF369A6DA66583B84A0DB2B62C51105EE0E3EA",
+    "prealpha/sidejobs_s221/build/s221_01/readback/towercontinued_sidejobs_s22_delamain_support.questphase.json": "0AF0185961921578F8036A1365638CD0950CCAF49DAC603658225783E6C8BC5A",
+    "prealpha/sidejobs_s221/build/s221_01/source/towercontinued/sidejobs_s22/delamain/owner.questphase": "4756DB944DD13B4AF48B954DC8DBD4870B242FA53153129A8D05A586718A7044",
+    "prealpha/sidejobs_s221/build/s221_01/readback/towercontinued_sidejobs_s22_delamain_owner.questphase.json": "970BD89378BD48DBBF4264EE80931755EA037B143E3E235CB36D9D57960FACE6",
+    "prealpha/sidejobs_s221/build/s221_01/source/towercontinued/sidejobs_s22/moving_heat_boot.questphase": "F0D21C3CA29C247D2C398CC267C4C8B85F230A6D409FA70EDD9597C8B47C12AE",
+    "prealpha/sidejobs_s221/build/s221_01/readback/towercontinued_sidejobs_s22_moving_heat_boot.questphase.json": "C2CCAF2E5D32FA2E47CBB25F80586A96B2F88F0C8954A14859D1105E39AF14FC",
+    "prealpha/sidejobs_s23/build/s23_02/build.json": "84A8FB28CCAD8E209D6D3C32899E91116ECD2137B099E0A1D1A2AB8DBBFBB5DE",
+    "prealpha/sidejobs_s23/build/s23_02/source/towercontinued/sidejobs_s23/base_a/mq024_sandra.questphase": "94F0B14B1D6510E797EAE34CE582E6DD115FC78FAF4CE90B945032958949F81A",
+    "prealpha/sidejobs_s23/build/s23_02/readback/towercontinued_sidejobs_s23_base_a_mq024_sandra.questphase.json": "B8C39830959D98440000E77E6498BE18DF1B37F6EBCD3E4A85B66E9C2B5E11E4",
+    "prealpha/sidejobs_s23/build/s23_02/source/towercontinued/sidejobs_s23/base_a/mq007_smartgun.questphase": "10AF8C4130C0FB06EEBD683C665FEC74DD4E526FC48C7BF8BDDE3898A0C531F6",
+    "prealpha/sidejobs_s23/build/s23_02/readback/towercontinued_sidejobs_s23_base_a_mq007_smartgun.questphase.json": "F3F907AA401DBE0EB5F8A9ACABBD79D4246F21A6183A56E0997783272948FABF",
+    "prealpha/sidejobs_s23/build/s23_02/source/towercontinued/sidejobs_s23/base_a/mq035_ozob.questphase": "9DF297D07DB67DEB6509C59C81F7F9982CC8ED18E6961E83AAE91FFF91C0E915",
+    "prealpha/sidejobs_s23/build/s23_02/readback/towercontinued_sidejobs_s23_base_a_mq035_ozob.questphase.json": "CC8CE37FEF7D7398932383738AD129B0A71377AFB9C595718CA38F0EB5423730",
+    "prealpha/sidejobs_s23/build/s23_02/source/towercontinued/sidejobs_s23/base_a/mq012_stud.questphase": "D4F0D68932218B2F9E57DDE48CB281810BDA28F7AACC4EB718C41895DF41A1F5",
+    "prealpha/sidejobs_s23/build/s23_02/readback/towercontinued_sidejobs_s23_base_a_mq012_stud.questphase.json": "051EE75A3653B0C036716C3F7D7319D94DD3C8C2D0EEA2D85D9C8F12F1E29CB5",
+    "prealpha/sidejobs_s23/build/s23_02/source/towercontinued/sidejobs_s23/base_a/mq002_veterans.questphase": "2EC030AF6DACA485A7F5E8805FFAFF44937B635C7F55F4CD02780BC180896EB3",
+    "prealpha/sidejobs_s23/build/s23_02/readback/towercontinued_sidejobs_s23_base_a_mq002_veterans.questphase.json": "34A7637BB7FBDEB95EC7984C1547BBD4AC37958E1436B33A8F232C211B97C34A",
+    "prealpha/sidejobs_s23/build/s23_02/source/towercontinued/sidejobs_s23/base_a/mq021_guide.questphase": "AFD3D8816205E4A6DADB902D000F76BDEFD6DA39D5ABD29B5144A311241D0201",
+    "prealpha/sidejobs_s23/build/s23_02/readback/towercontinued_sidejobs_s23_base_a_mq021_guide.questphase.json": "84FF4091057FDBD22CA6281FC266F1D21019ECFDC5877F4EFAB657BA5FE6F82E",
+    "prealpha/sidejobs_s23/build/s23_02/source/towercontinued/sidejobs_s23/base_a/mq041_corpo.questphase": "B622C5921F5984BA60E3D8835A0C8D89152299E196597EABD54FA0CFA56B7228",
+    "prealpha/sidejobs_s23/build/s23_02/readback/towercontinued_sidejobs_s23_base_a_mq041_corpo.questphase.json": "851A9918A557B7B29A1C4D4B26A1763CDDC20DA7C86C8227905329B3CEDF68FB",
+    "prealpha/sidejobs_s23/build/s23_02/source/towercontinued/sidejobs_s23/base_a/mq044_jakes_vehicle.questphase": "6502B17B83B5AC502D67E14401954CC60D84DE5BAF19305BE0E91A44390F5423",
+    "prealpha/sidejobs_s23/build/s23_02/readback/towercontinued_sidejobs_s23_base_a_mq044_jakes_vehicle.questphase.json": "46AA30B75F9545BEA1194A010449149F7AC0991FD054C19B0E73DA91DEAB8FDB",
+    "prealpha/sidejobs_s23/build/s23_02/source/towercontinued/sidejobs_s23/base_a_v2/mq007_resume_boot.questphase": "085322A68C4419FF3CDA163B3B1EA2EBAF8D4031F3EA3BEDF214279C2B0A2253",
+    "prealpha/sidejobs_s23/build/s23_02/readback/towercontinued_sidejobs_s23_base_a_v2_mq007_resume_boot.questphase.json": "FA72BCB85C8802EF57567CD37FFB11F2860F5F6758F2EBB0E8689E33A6D49CA3",
+    "prealpha/sidejobs_s23/build/s23_02/source/towercontinued/sidejobs_s23/base_b/mq026.questphase": "7264D972E22E2E885EF7DC229A52AD4F8FCD200AD8208A60326B810A2C49B491",
+    "prealpha/sidejobs_s23/build/s23_02/readback/towercontinued_sidejobs_s23_base_b_mq026.questphase.json": "CE25BC23C869D519EF360A6E1170A7972FD3A88DF5C0705D8F460F8FACA7C586",
+    "prealpha/sidejobs_s23/build/s23_02/source/towercontinued/sidejobs_s23/ep1/mq306_boot.questphase": "C2ED221A9AF8CD8BD689CB9D1B99C80557DE671B5DB02AFB98525962E3D9E938",
+    "prealpha/sidejobs_s23/build/s23_02/readback/towercontinued_sidejobs_s23_ep1_mq306_boot.questphase.json": "6D7C2629A2802307A01BA511E1B706AAA324D4E4AB2552ED387031FA495F1F40"
+  },
+  "policy": "Only NEW gameJournalQuest roots accepting Inactive/Failed are narrowed to Inactive. Completed child roots, all non-root state requirements, Issued owners, IDs, edges, gameplay and rewards remain unchanged.",
+  "mod_overrides": [
+    "towercontinued\\sidejobs_s22\\mq025_progress.questphase",
+    "towercontinued\\sidejobs_s22\\the_gig_reward_resume.questphase",
+    "towercontinued\\sidejobs_s22\\delamain\\support.questphase",
+    "towercontinued\\sidejobs_s22\\delamain\\owner.questphase",
+    "towercontinued\\sidejobs_s22\\moving_heat_boot.questphase",
+    "towercontinued\\sidejobs_s23\\base_a\\mq024_sandra.questphase",
+    "towercontinued\\sidejobs_s23\\base_a\\mq007_smartgun.questphase",
+    "towercontinued\\sidejobs_s23\\base_a\\mq035_ozob.questphase",
+    "towercontinued\\sidejobs_s23\\base_a\\mq012_stud.questphase",
+    "towercontinued\\sidejobs_s23\\base_a\\mq002_veterans.questphase",
+    "towercontinued\\sidejobs_s23\\base_a\\mq021_guide.questphase",
+    "towercontinued\\sidejobs_s23\\base_a\\mq041_corpo.questphase",
+    "towercontinued\\sidejobs_s23\\base_a\\mq044_jakes_vehicle.questphase",
+    "towercontinued\\sidejobs_s23\\base_a_v2\\mq007_resume_boot.questphase",
+    "towercontinued\\sidejobs_s23\\base_b\\mq026.questphase",
+    "towercontinued\\sidejobs_s23\\ep1\\mq306_boot.questphase"
+  ],
+  "boots": [],
+  "new_owner_exclusions": {
+    "PTFRS22_MQ025": "PTFRS25_MQ025_FRESH_Issued",
+    "PTFRS22_SQ025": "PTFRS25_SQ025_FRESH_Issued",
+    "PTFRS23_MQ026": "PTFRS25_MQ026_FRESH_Issued"
+  }
+}

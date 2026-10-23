@@ -1,0 +1,462 @@
+{
+  "status": "SOURCE_CONTRACT_FRESH_ONLY_NATIVE_BUILD_PENDING",
+  "owners": [
+    {
+      "id": "mq029_tourist",
+      "title": "The Highwayman",
+      "tag": "PTFRS28_mq029_tourist",
+      "journals": [
+        {
+          "path": "quests/minor_quest/mq029_tourist",
+          "class": "gameJournalQuest",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist/mq029_garage",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist/mq029_body",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist/mq029_body/mq029_body",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist/mq029_james",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist/mq029_james/mq029_james",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist/mq029_bike",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist/mq029_bike/mq029_bike_desc",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_find_james",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_find_james/find_james_desc",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_find_james/codex_link_tiger_claws",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_find_bike",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_find_bike/mq029_bike_desc",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_find_bike/codex_link_tiger_claws",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_find_bike/codex_link_aldecaldos",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_confront_james",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_confront_james/mq029_james",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_confront_james/mappin_james",
+          "class": "gameJournalQuestMapPin",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_confront_james/codex_link_tiger_claws",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_find_garage",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_find_garage/find_garage",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_find_garage/codex_link_aldecaldos",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_find_josie_new",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_find_josie_new/josie_description_2",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_find_josie_new/mq029_garage",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_find_josie_new/mappin_area",
+          "class": "gameJournalQuestMapPin",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_find_josie_new/codex_link_aldecaldos",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_pick_up_photo",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_pick_up_photo/mappin_photo",
+          "class": "gameJournalQuestMapPin",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_pick_up_photo/codex_link_aldecaldos",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "facts_equal": {
+        "mq029_01_james_loop_on": 0,
+        "mq029_fact_james_gave_directions": 0,
+        "mq029_fact_james_hostile": 0,
+        "mq029_fact_james_knows_josie_dead": 0,
+        "mq029_fact_josie_body_found": 0,
+        "mq029_fact_read_garage_note": 0,
+        "mq029_fact_tc_bike_found": 0,
+        "mq029_josie_garage_found": 0
+      },
+      "fact_ranges": {},
+      "inventory_zero": [],
+      "vehicle_zero": [
+        {
+          "record": "Vehicle.v_sportbike2_arch_tyger_player",
+          "hash": "167323116460"
+        }
+      ],
+      "resume": "DEFER any completed, progressed, existing-owner, earned-item/vehicle or unknown state; no restart/reset/reward replay",
+      "depot": "towercontinued\\sidejobs_s28\\vehicles\\mq029_tourist_entry.questphase"
+    },
+    {
+      "id": "mq050_ken_block_tribute",
+      "title": "I'm in Love with My Car",
+      "tag": "PTFRS28_mq050_ken_block_tribute",
+      "journals": [
+        {
+          "path": "quests/minor_quest/mq050_ken_block_tribute",
+          "class": "gameJournalQuest",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq050_ken_block_tribute/mq050_warehouse",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq050_ken_block_tribute/mq050_warehouse/investigate",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq050_ken_block_tribute/mq050_warehouse/investigate/warehouse",
+          "class": "gameJournalQuestMapPin",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq050_ken_block_tribute/mq050_warehouse/get_inside_car",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq050_ken_block_tribute/mq050_warehouse/get_inside_car/car",
+          "class": "gameJournalQuestMapPin",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq050_ken_block_tribute/mq050_description",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "facts_equal": {},
+      "fact_ranges": {
+        "q101_done": {
+          "min": 1,
+          "max": 2147483647
+        }
+      },
+      "inventory_zero": [
+        {
+          "record": "Keycards.mq050_car_keys",
+          "hash": "99716362400"
+        }
+      ],
+      "vehicle_zero": [
+        {
+          "record": "Vehicle.v_sport2_quadra_type66_nomad_tribute",
+          "hash": "189393478117"
+        }
+      ],
+      "resume": "DEFER any completed, progressed, existing-owner, earned-item/vehicle or unknown state; no restart/reset/reward replay",
+      "depot": "towercontinued\\sidejobs_s28\\vehicles\\mq050_ken_block_tribute_entry.questphase"
+    }
+  ],
+  "common_equal": {
+    "PostTowerFreeRoamActive": 1,
+    "PTFRP0_DR13": 1,
+    "PTFRPA2_Finished": 1,
+    "PTFRPA2_Fault": 0,
+    "q307_done": 1,
+    "q307_finished": 1,
+    "q307_2079": 1,
+    "q307_main_game_killed": 1,
+    "q307_ep1_killed": 1,
+    "q307_active": 0,
+    "q307_debug_reset": 0,
+    "q115_point_of_no_return": 0,
+    "q305_johnny_scene_active": 0
+  },
+  "source_pins": {
+    "research/omitted_jobs_audit/native_screen_03.json": "A1F1D320484D147C9F509EE070460FB057E475DCA27AEB0DCFDA3FA085744B4C",
+    "research/omitted_jobs_audit/review_02/native_audit_02.json": "32BA2DEE0C90B73005BE1DD376F1E68C05038A661955B8B2348929B1300EF7C3",
+    "research/sidejobs_s24/ep1/native_02/json/base/journal/cooked_journal.journal.json": "FA206F673EEDE247A1B94A7320223E70839C1963FADE17F0C66533EC1CC11DA2",
+    "research/sidejobs_s24/ep1/native_02/raw/base/journal/cooked_journal.journal": "55B6E39E338A1B3C116AF074B00CFB9D5745F7D495F59541F8EA49D0B182832B",
+    "research/omitted_jobs_audit/native_01/json/base/quest/minor_quests/mq029/mq029_tourist.questphase.json": "F9C83CAFB88C969106AF1DDCCFE0DEDDDB28DCBF4A57B434B1A7F57EA785EF10",
+    "research/omitted_jobs_audit/native_01/raw/base/quest/minor_quests/mq029/mq029_tourist.questphase": "5D16CC6FF6875645CF5DAD2D5B279AE2737B9BCD923EBDED867D81E108A82498",
+    "research/omitted_jobs_audit/native_01/json/base/quest/minor_quests/mq029/phases/mq029_garage.questphase.json": "D5241FB1BBDAFC36C3D82993761A937AC2A39512ADB3C00055F129879C271397",
+    "research/omitted_jobs_audit/native_01/raw/base/quest/minor_quests/mq029/phases/mq029_garage.questphase": "B023C7285FAFC16C1AF6820494D95978FF8F18F96F257456EEDBC729BD4E612D",
+    "research/omitted_jobs_audit/native_01/json/base/quest/minor_quests/mq029/phases/mq029_james.questphase.json": "FEEC24F0AF72EB8A09AEF3D06F57F98C6CD59DA71367CA4AAE07DD02AFDAC50E",
+    "research/omitted_jobs_audit/native_01/raw/base/quest/minor_quests/mq029/phases/mq029_james.questphase": "F85AE7F631DC4983097422FE6C8452A436B0F425C9B4CFF8A46A614CA3D3729B",
+    "research/omitted_jobs_audit/native_01/json/base/quest/minor_quests/mq029/phases/mq029_josie_corpse.questphase.json": "BCAF7A709F80794BF1AEA79A1133B55D6603370DD5D3B74ECFBFF09FE82268EC",
+    "research/omitted_jobs_audit/native_01/raw/base/quest/minor_quests/mq029/phases/mq029_josie_corpse.questphase": "C4B9BAEBF69C9FBA2F37515784E233AD2597406889E63F813879420B2105ED0C",
+    "research/omitted_jobs_audit/native_01/json/base/quest/minor_quests/mq029/phases/mq029_setup.questphase.json": "9C2409532EF3EC75A6B3807F0456B6EC1E53EDEF4E7171A851DF5CD963944AEB",
+    "research/omitted_jobs_audit/native_01/raw/base/quest/minor_quests/mq029/phases/mq029_setup.questphase": "65D644C3418111E16C1B6A3ED939EA1EFE2704261113123416103E7B87A14620",
+    "research/omitted_jobs_audit/native_01/json/base/quest/minor_quests/mq029/phases/mq029_stolen_bike.questphase.json": "60678D8DC9350B038B4EE980D5731ADB31221303A565ECB8C3BD88BDB02E5445",
+    "research/omitted_jobs_audit/native_01/raw/base/quest/minor_quests/mq029/phases/mq029_stolen_bike.questphase": "997110AC8F7B9DB6B3C829046DC3BBFE765E911990C896922F438628A5BC3AC9",
+    "research/omitted_jobs_audit/native_01/json/base/quest/minor_quests/mq029/scenes/mq029_01a_garage.scene.json": "0DE53962B2CC9C791C775D201FB7CEFF32D1C3CC67F0B71797410723ECDE16AD",
+    "research/omitted_jobs_audit/native_01/raw/base/quest/minor_quests/mq029/scenes/mq029_01a_garage.scene": "BA19486693C66B746BED34F58CDA52EDB9ECC2B410F7501D90D2D8F2472D7DD5",
+    "research/omitted_jobs_audit/native_01/json/base/quest/minor_quests/mq029/scenes/mq029_01_james.scene.json": "50A978C5A1418BC7DF355F36A4BC54F70AB29DA29915E733F6F1888D2D4FE2CF",
+    "research/omitted_jobs_audit/native_01/raw/base/quest/minor_quests/mq029/scenes/mq029_01_james.scene": "5ED14875213DCA5EE51A0C06A012A2712C8814BFD1A17251BDDBF82E0B5C5F22",
+    "research/omitted_jobs_audit/native_01/json/base/quest/minor_quests/mq029/scenes/mq029_01b_josie_body.scene.json": "1D3A1383ED7AFAB100E6BB7144DBAFD2FE8F9F55F0B9DF36F15A3A04F167EFE1",
+    "research/omitted_jobs_audit/native_01/raw/base/quest/minor_quests/mq029/scenes/mq029_01b_josie_body.scene": "34FAEBBC9CE4462CAF7D30F7C1F5D7BE23C3F01E57DD2228C502FE1A3C9C686F",
+    "research/sidejobs_s25/families/native_03/json/base/quest/minor_quests/minorquests.questphase.json": "7C8CABBC750B1A37A4075B55C51027DCD9EE8FDCA195F49EF0E2FB9BBFA8223B",
+    "research/sidejobs_s25/families/native_03/raw/base/quest/minor_quests/minorquests.questphase": "89E902A6BCC783325642A6DC6D1D856BB144651136C58D423FEA6B421EFCE85A",
+    "research/omitted_jobs_audit/native_01/json/base/quest/minor_quests/mq050/mq050.questphase.json": "BCD5EEFD0439125AA31AF677D7062FC58DD046184A106D2E5391BE7D856B10E1",
+    "research/omitted_jobs_audit/native_01/raw/base/quest/minor_quests/mq050/mq050.questphase": "FC7F91A32098A475D27F4A4D3C27DC06AE2E45AF89D2D0BBAE53163651AA15C7",
+    "research/omitted_jobs_audit/native_01/json/base/quest/minor_quests/mq050/scenes/mq050_johnny_start.scene.json": "6B9A81157062498A9907273344A5F2CDD10B13367FE425EBF6F40114469FCB56",
+    "research/omitted_jobs_audit/native_01/raw/base/quest/minor_quests/mq050/scenes/mq050_johnny_start.scene": "0AA994296E3E1792AA3EA1E35FD1CA8441348A9B057F98D767E11519CC135EEB",
+    "research/races_r1/parents_01/json/base/quest/bugfixing/quest_bugfixing.questphase.json": "1E6643051EC13EE93EEC30DD8B4F38B7DA217010CFB6CCE798B9D5E9FBFFF9FD",
+    "research/races_r1/parents_01/raw/base/quest/bugfixing/quest_bugfixing.questphase": "72AC511F70DC64A80779451C894B96CEC63439D98E6AAAB090B05F4801FC9335",
+    "prealpha/sidejobs_s28/vehicles/prepare_contract_01.py": "41F6D25E1852084C87E6540606C1237A02913E904BBCC1E879BFB1987B6EF1D0"
+  },
+  "native_resources": {
+    "base\\quest\\minor_quests\\mq029\\mq029_tourist.questphase": {
+      "depot": "base\\quest\\minor_quests\\mq029\\mq029_tourist.questphase",
+      "json": "research/omitted_jobs_audit/native_01/json/base/quest/minor_quests/mq029/mq029_tourist.questphase.json",
+      "raw": "research/omitted_jobs_audit/native_01/raw/base/quest/minor_quests/mq029/mq029_tourist.questphase",
+      "json_sha256": "F9C83CAFB88C969106AF1DDCCFE0DEDDDB28DCBF4A57B434B1A7F57EA785EF10",
+      "raw_sha256": "5D16CC6FF6875645CF5DAD2D5B279AE2737B9BCD923EBDED867D81E108A82498"
+    },
+    "base\\quest\\minor_quests\\mq029\\phases\\mq029_garage.questphase": {
+      "depot": "base\\quest\\minor_quests\\mq029\\phases\\mq029_garage.questphase",
+      "json": "research/omitted_jobs_audit/native_01/json/base/quest/minor_quests/mq029/phases/mq029_garage.questphase.json",
+      "raw": "research/omitted_jobs_audit/native_01/raw/base/quest/minor_quests/mq029/phases/mq029_garage.questphase",
+      "json_sha256": "D5241FB1BBDAFC36C3D82993761A937AC2A39512ADB3C00055F129879C271397",
+      "raw_sha256": "B023C7285FAFC16C1AF6820494D95978FF8F18F96F257456EEDBC729BD4E612D"
+    },
+    "base\\quest\\minor_quests\\mq029\\phases\\mq029_james.questphase": {
+      "depot": "base\\quest\\minor_quests\\mq029\\phases\\mq029_james.questphase",
+      "json": "research/omitted_jobs_audit/native_01/json/base/quest/minor_quests/mq029/phases/mq029_james.questphase.json",
+      "raw": "research/omitted_jobs_audit/native_01/raw/base/quest/minor_quests/mq029/phases/mq029_james.questphase",
+      "json_sha256": "FEEC24F0AF72EB8A09AEF3D06F57F98C6CD59DA71367CA4AAE07DD02AFDAC50E",
+      "raw_sha256": "F85AE7F631DC4983097422FE6C8452A436B0F425C9B4CFF8A46A614CA3D3729B"
+    },
+    "base\\quest\\minor_quests\\mq029\\phases\\mq029_josie_corpse.questphase": {
+      "depot": "base\\quest\\minor_quests\\mq029\\phases\\mq029_josie_corpse.questphase",
+      "json": "research/omitted_jobs_audit/native_01/json/base/quest/minor_quests/mq029/phases/mq029_josie_corpse.questphase.json",
+      "raw": "research/omitted_jobs_audit/native_01/raw/base/quest/minor_quests/mq029/phases/mq029_josie_corpse.questphase",
+      "json_sha256": "BCAF7A709F80794BF1AEA79A1133B55D6603370DD5D3B74ECFBFF09FE82268EC",
+      "raw_sha256": "C4B9BAEBF69C9FBA2F37515784E233AD2597406889E63F813879420B2105ED0C"
+    },
+    "base\\quest\\minor_quests\\mq029\\phases\\mq029_setup.questphase": {
+      "depot": "base\\quest\\minor_quests\\mq029\\phases\\mq029_setup.questphase",
+      "json": "research/omitted_jobs_audit/native_01/json/base/quest/minor_quests/mq029/phases/mq029_setup.questphase.json",
+      "raw": "research/omitted_jobs_audit/native_01/raw/base/quest/minor_quests/mq029/phases/mq029_setup.questphase",
+      "json_sha256": "9C2409532EF3EC75A6B3807F0456B6EC1E53EDEF4E7171A851DF5CD963944AEB",
+      "raw_sha256": "65D644C3418111E16C1B6A3ED939EA1EFE2704261113123416103E7B87A14620"
+    },
+    "base\\quest\\minor_quests\\mq029\\phases\\mq029_stolen_bike.questphase": {
+      "depot": "base\\quest\\minor_quests\\mq029\\phases\\mq029_stolen_bike.questphase",
+      "json": "research/omitted_jobs_audit/native_01/json/base/quest/minor_quests/mq029/phases/mq029_stolen_bike.questphase.json",
+      "raw": "research/omitted_jobs_audit/native_01/raw/base/quest/minor_quests/mq029/phases/mq029_stolen_bike.questphase",
+      "json_sha256": "60678D8DC9350B038B4EE980D5731ADB31221303A565ECB8C3BD88BDB02E5445",
+      "raw_sha256": "997110AC8F7B9DB6B3C829046DC3BBFE765E911990C896922F438628A5BC3AC9"
+    },
+    "base\\quest\\minor_quests\\mq029\\scenes\\mq029_01a_garage.scene": {
+      "depot": "base\\quest\\minor_quests\\mq029\\scenes\\mq029_01a_garage.scene",
+      "json": "research/omitted_jobs_audit/native_01/json/base/quest/minor_quests/mq029/scenes/mq029_01a_garage.scene.json",
+      "raw": "research/omitted_jobs_audit/native_01/raw/base/quest/minor_quests/mq029/scenes/mq029_01a_garage.scene",
+      "json_sha256": "0DE53962B2CC9C791C775D201FB7CEFF32D1C3CC67F0B71797410723ECDE16AD",
+      "raw_sha256": "BA19486693C66B746BED34F58CDA52EDB9ECC2B410F7501D90D2D8F2472D7DD5"
+    },
+    "base\\quest\\minor_quests\\mq029\\scenes\\mq029_01_james.scene": {
+      "depot": "base\\quest\\minor_quests\\mq029\\scenes\\mq029_01_james.scene",
+      "json": "research/omitted_jobs_audit/native_01/json/base/quest/minor_quests/mq029/scenes/mq029_01_james.scene.json",
+      "raw": "research/omitted_jobs_audit/native_01/raw/base/quest/minor_quests/mq029/scenes/mq029_01_james.scene",
+      "json_sha256": "50A978C5A1418BC7DF355F36A4BC54F70AB29DA29915E733F6F1888D2D4FE2CF",
+      "raw_sha256": "5ED14875213DCA5EE51A0C06A012A2712C8814BFD1A17251BDDBF82E0B5C5F22"
+    },
+    "base\\quest\\minor_quests\\mq029\\scenes\\mq029_01b_josie_body.scene": {
+      "depot": "base\\quest\\minor_quests\\mq029\\scenes\\mq029_01b_josie_body.scene",
+      "json": "research/omitted_jobs_audit/native_01/json/base/quest/minor_quests/mq029/scenes/mq029_01b_josie_body.scene.json",
+      "raw": "research/omitted_jobs_audit/native_01/raw/base/quest/minor_quests/mq029/scenes/mq029_01b_josie_body.scene",
+      "json_sha256": "1D3A1383ED7AFAB100E6BB7144DBAFD2FE8F9F55F0B9DF36F15A3A04F167EFE1",
+      "raw_sha256": "34FAEBBC9CE4462CAF7D30F7C1F5D7BE23C3F01E57DD2228C502FE1A3C9C686F"
+    },
+    "base\\quest\\minor_quests\\mq050\\mq050.questphase": {
+      "depot": "base\\quest\\minor_quests\\mq050\\mq050.questphase",
+      "json": "research/omitted_jobs_audit/native_01/json/base/quest/minor_quests/mq050/mq050.questphase.json",
+      "raw": "research/omitted_jobs_audit/native_01/raw/base/quest/minor_quests/mq050/mq050.questphase",
+      "json_sha256": "BCD5EEFD0439125AA31AF677D7062FC58DD046184A106D2E5391BE7D856B10E1",
+      "raw_sha256": "FC7F91A32098A475D27F4A4D3C27DC06AE2E45AF89D2D0BBAE53163651AA15C7"
+    },
+    "base\\quest\\minor_quests\\mq050\\scenes\\mq050_johnny_start.scene": {
+      "depot": "base\\quest\\minor_quests\\mq050\\scenes\\mq050_johnny_start.scene",
+      "json": "research/omitted_jobs_audit/native_01/json/base/quest/minor_quests/mq050/scenes/mq050_johnny_start.scene.json",
+      "raw": "research/omitted_jobs_audit/native_01/raw/base/quest/minor_quests/mq050/scenes/mq050_johnny_start.scene",
+      "json_sha256": "6B9A81157062498A9907273344A5F2CDD10B13367FE425EBF6F40114469FCB56",
+      "raw_sha256": "0AA994296E3E1792AA3EA1E35FD1CA8441348A9B057F98D767E11519CC135EEB"
+    }
+  },
+  "vehicle_api": "VehicleSystem.IsVehiclePlayerUnlocked(TweakDBID); unknown context fails closed",
+  "native_vehicle_gate": "To be source-proven separately; do not equate availability/summonability with durable entitlement by name."
+}

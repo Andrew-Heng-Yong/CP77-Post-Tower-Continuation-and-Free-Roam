@@ -1,0 +1,79 @@
+module PTFR.ActivityStateR3
+// Generated read-only fact labels from the pinned U9 original-parent graph recipe.
+public abstract class GigDiagnosticsDataPA5 {
+  public static func ParentFacts(i: Int32) -> array<String> {
+    if i==0 { return ["debug_sts_start","dtn_03_finished","dyno_visited","sts_cct_dtn_tier_1"]; }
+    if i==1 { return ["dakota_visited","ina_11_finished","sts_bls_ina_tier_3","sts_bls_ina_tier_3_1"]; }
+    if i==2 { return ["debug_sts_start","dtn_02_finished","dyno_visited","sts_cct_dtn_tier_2"]; }
+    if i==3 { return ["debug_sts_start","dtn_04_finished","dyno_visited","sts_cct_dtn_tier_3"]; }
+    if i==4 { return ["debug_sts_start","padre_visited","q103_rogue_done","sts_hey_spr_06_finished","sts_hey_spr_tier_4"]; }
+    if i==5 { return ["gle_06_finished","padre_visited","sts_hey_gle_tier_1","sts_hey_gle_tier_1_1"]; }
+    if i==6 { return ["padre_visited","spr_01_finished","sts_hey_spr_tier_1","sts_hey_spr_tier_1_1"]; }
+    if i==7 { return ["arr_11_finished","el_capitan_visited","sts_std_arr_tier_2","sts_std_arr_tier_2_1"]; }
+    if i==8 { return ["arr_10_finished","el_capitan_visited","sts_std_arr_tier_2","sts_std_arr_tier_2_2"]; }
+    if i==9 { return ["nid_04_finished","reggie_visited","sts_wat_nid_tier_1","sts_wat_nid_tier_1_1","sts_wat_nid_tier_1_2"]; }
+    if i==10 { return ["kab_07_finished","reggie_visited","sts_wat_kab_tier_1","sts_wat_kab_tier_1_1"]; }
+    if i==11 { return ["kab_07_finished","kab_101_activated","kab_101_finished","reggie_visited","sts_wat_kab_101_wait_done","sts_wat_kab_tier_2","sts_wat_kab_tier_2_1"]; }
+    if i==12 { return ["kab_06_finished","reggie_visited","sts_wat_kab_tier_1","sts_wat_kab_tier_1_1","sts_wat_kab_tier_1_4"]; }
+    if i==13 { return ["lch_06_finished","reggie_visited","sts_wat_lch_tier_3","sts_wat_lch_tier_3_2"]; }
+    if i==14 { return ["jpn_03_finished","sts_wbr_jpn_tier_3","wakako_visited"]; }
+    if i==15 { return ["lch_01_finished","reggie_visited","sts_wat_lch_tier_1","sts_wat_lch_tier_1_1","sts_wat_lch_tier_1_3"]; }
+    if i==16 { return ["kab_107_finished","reggie_visited","sts_wat_kab_tier_1","sts_wat_kab_tier_1_1","sts_wat_kab_tier_1_2"]; }
+    if i==17 { return ["gle_01_finished","padre_visited","sts_hey_gle_tier_2"]; }
+    if i==18 { return ["padre_visited","rey_08_finished","sts_hey_rey_tier_1","sts_hey_rey_tier_1_1","sts_hey_rey_tier_1_2"]; }
+    if i==19 { return ["el_capitan_visited","q103_rogue_done","rcr_01_finished","sts_std_rcr_tier_4"]; }
+    if i==20 { return ["cpz_01_finished","debug_sts_start","dyno_visited","sts_cct_cpz_tier_2"]; }
+    if i==21 { return ["dakota_visited","ina_02_finished","sts_bls_ina_tier_2"]; }
+    if i==22 { return ["dakota_visited","ina_03_finished","sts_bls_ina_tier_1"]; }
+    if i==23 { return ["dakota_visited","ina_06_finished","sts_bls_ina_tier_2"]; }
+    if i==24 { return ["dakota_visited","ina_09_finished","sts_bls_ina_tier_3","sts_bls_ina_tier_3_1"]; }
+    if i==25 { return ["dakota_visited","ina_05_finished","sts_bls_ina_tier_3","sts_bls_ina_tier_3_2"]; }
+    if i==26 { return ["dakota_visited","ina_08_finished","sts_bls_ina_tier_2"]; }
+    if i==27 { return ["dakota_visited","ina_04_finished","sts_bls_ina_tier_3","sts_bls_ina_tier_3_2"]; }
+    if i==28 { return ["debug_sts_start","dtn_05_finished","dyno_visited","sts_cct_dtn_tier_3"]; }
+    if i==29 { return ["gle_04_finished","padre_visited","sts_hey_gle_tier_1","sts_hey_gle_tier_1_1"]; }
+    if i==30 { return ["padre_visited","rey_06_finished","sts_hey_rey_tier_1","sts_hey_rey_tier_1_1"]; }
+    if i==31 { return ["padre_visited","spr_03_finished","sts_hey_spr_tier_2"]; }
+    if i==32 { return ["sts_pac_cvi_tier_1"]; }
+    if i==33 { return ["el_capitan_visited","rcr_05_finished","sts_std_rcr_tier_2","sts_std_rcr_tier_2_1"]; }
+    if i==34 { return ["el_capitan_visited","rcr_03_finished","sts_std_rcr_tier_3"]; }
+    if i==35 { return ["q103_rogue_done","sts_std_rcr_tier_4"]; }
+    if i==36 { return ["arr_01_finished","el_capitan_visited","sts_std_arr_tier_1"]; }
+    if i==37 { return ["kab_02_finished","reggie_visited","sts_wat_kab_tier_1","sts_wat_kab_tier_1_1"]; }
+    if i==38 { return ["kab_01_activated","kab_107_finished","sts_wat_kab_tier_3","sts_wat_kab_tier_3_2"]; }
+    if i==39 { return ["nid_12_finished","reggie_visited","sts_wat_nid_tier_3","sts_wat_nid_tier_3_1"]; }
+    if i==40 { return ["rey_09_finished","sts_wbr_jpn_tier_2","wakako_visited"]; }
+    if i==41 { return ["jpn_05_finished","sts_wbr_jpn_tier_2","wakako_visited"]; }
+    if i==42 { return ["kab_102_finished","reggie_visited","sts_wat_kab_tier_1","sts_wat_kab_tier_1_1","sts_wat_kab_tier_1_2"]; }
+    if i==43 { return ["kab_08_finished","reggie_visited","sts_wat_kab_tier_1","sts_wat_kab_tier_1_1","sts_wat_kab_tier_1_3"]; }
+    if i==44 { return ["kab_03_finished","q003_done","reggie_visited","sts_wat_kab_tier_1","sts_wat_kab_tier_1_1","sts_wat_kab_tier_1_3"]; }
+    if i==45 { return ["kab_05_activated","kab_05_finished","reggie_visited","sts_wat_kab_tier_2","sts_wat_kab_tier_2_1","sts_wat_kab_tier_2_2"]; }
+    if i==46 { return ["nid_06_finished","reggie_visited","sts_wat_nid_tier_3","sts_wat_nid_tier_3_1"]; }
+    if i==47 { return ["lch_03_finished","reggie_visited","sts_wat_lch_tier_2","sts_wat_lch_tier_2_2"]; }
+    if i==48 { return ["sts_std_rcr_tier_4"]; }
+    if i==49 { return ["arr_05_finished","el_capitan_visited","sts_std_arr_tier_2","sts_std_arr_tier_2_1"]; }
+    if i==50 { return ["e3_2020","nid_01_finished","reggie_visited","sts_wat_nid_tier_3","sts_wat_nid_tier_3_2"]; }
+    if i==51 { return ["nid_03_finished","reggie_visited","sts_wat_nid_tier_1","sts_wat_nid_tier_1_1","sts_wat_nid_tier_1_4"]; }
+    if i==52 { return ["jpn_01_finished","sts_wbr_jpn_tier_1","sts_wbr_jpn_tier_1_1","sts_wbr_jpn_tier_1_2","wakako_visited"]; }
+    if i==53 { return ["kab_04_activated","kab_04_finished","kab_102_finished","reggie_visited","sts_wat_kab_04_wait_done","sts_wat_kab_tier_3","sts_wat_kab_tier_3_2"]; }
+    if i==54 { return ["lch_05_finished","reggie_visited","sts_wat_lch_tier_1","sts_wat_lch_tier_1_1"]; }
+    if i==55 { return ["dakota_visited","ina_07_finished","sts_bls_ina_tier_1"]; }
+    if i==56 { return ["mr_hands_dogtown_introduced"]; }
+    if i==57 { return ["debug_sts_start","q303_hands_scene_done","sts_ep1_tier_2"]; }
+    if i==58 { return ["el_capitan_visited","sts_std_rcr_tier_3","wwd_05_finished"]; }
+    if i==59 { return ["nid_05_finished","reggie_visited","sts_wat_nid_tier_1","sts_wat_nid_tier_1_1"]; }
+    if i==60 { return ["hil_07_finished","sts_wbr_hil_tier_1","sts_wbr_hil_tier_1_1","wakako_visited"]; }
+    if i==61 { return ["hil_01_finished","sts_wbr_hil_tier_1","sts_wbr_hil_tier_1_1","sts_wbr_hil_tier_1_2","wakako_visited"]; }
+    if i==62 { return ["debug_sts_start","q303_hands_scene_done","sts_ep1_tier_2"]; }
+    if i==63 { return ["mr_hands_dogtown_introduced"]; }
+    if i==64 { return ["mr_hands_dogtown_introduced"]; }
+    if i==65 { return ["mr_hands_dogtown_introduced"]; }
+    if i==66 { return ["debug_sts_start","q303_hands_scene_done","sts_ep1_tier_2"]; }
+    if i==67 { return ["debug_sts_start","q304_done","sts_ep1_tier_3","PTFRU9_EP1Tier3_Ready"]; }
+    if i==68 { return ["nid_02_finished","reggie_visited","sts_wat_nid_tier_1","sts_wat_nid_tier_1_1"]; }
+    if i==69 { return ["jpn_02_finished","sts_wbr_jpn_tier_1","sts_wbr_jpn_tier_1_1","wakako_visited"]; }
+    if i==70 { return ["debug_sts_start","q304_done","sts_ep1_tier_3","PTFRU9_EP1Tier3_Ready"]; }
+    if i==71 { return ["el_capitan_visited","rcr_02_finished","sts_std_rcr_tier_2","sts_std_rcr_tier_2_2"]; }
+    let empty: array<String>; return empty;
+  }
+}

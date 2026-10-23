@@ -1,0 +1,22 @@
+{
+  "key": "SQ_Q001",
+  "id": "sq_q001_wakako",
+  "title": "The Gig",
+  "tag": "PTFRS22_SQ_Q001",
+  "route": "Resume the outstanding tattoo reward objective after Wakako's cash reward; never replay cash, XP or messages.",
+  "native_source": "research/sidejobs_s22/the_gig/native_01/raw/base/quest/main_quests/prologue/q001/phases/q101_wakako_reward.questphase",
+  "depot": "towercontinued\\sidejobs_s22\\the_gig_reward_resume.questphase",
+  "selected_nodes": [0,25,2,15,30,28,29,18,4,26,27,1],
+  "facts_equal": {"sq_q001_done":0,"q001_wakako_reward_given":1},
+  "journals": [
+    {"path":"quests/side_quest/sq_q001_wakako","class":"gameJournalQuest","states":[1,4]},
+    {"path":"quests/side_quest/sq_q001_wakako/wakako","class":"gameJournalQuestPhase","states":[1,4]},
+    {"path":"quests/side_quest/sq_q001_wakako/wakako/00_reward","class":"gameJournalQuestObjective","states":[3]},
+    {"path":"quests/side_quest/sq_q001_wakako/wakako/01_reward","class":"gameJournalQuestObjective","states":[3]},
+    {"path":"quests/side_quest/sq_q001_wakako/wakako/02_reward","class":"gameJournalQuestObjective","states":[1,4]}
+  ],
+  "reactivate_paths": ["quests/side_quest/sq_q001_wakako","quests/side_quest/sq_q001_wakako/wakako","quests/side_quest/sq_q001_wakako/wakako/02_reward"],
+  "omitted_native_nodes": [11,12,13],
+  "not_supported": ["Wakako cash reward not yet earned", "later completion already recorded", "generic all-stage restart"],
+  "live_validation_pending": ["reward vendor availability", "tattoo acquisition and native journal completion", "new save/reload"]
+}

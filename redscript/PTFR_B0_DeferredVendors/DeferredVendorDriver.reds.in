@@ -1,0 +1,75 @@
+module PTFR.B0DeferredVendors
+
+// Two narrow native owners; no story/default/market fact writes.
+public class DeferredVendorDriver extends ScriptableSystem {
+  private let running: Bool;
+  private let epoch: Int32;
+  private func OnAttach() -> Void {
+    this.epoch += 1;
+    this.running = true;
+    this.Schedule(this.epoch);
+  }
+  private func OnDetach() -> Void { this.running = false; this.epoch += 1; }
+  private func Schedule(epoch: Int32) -> Void {
+    let d = GameInstance.GetDelaySystem(this.GetGameInstance());
+    if IsDefined(d) { d.DelayCallback(DeferredVendorTick.Create(this, epoch), 0.5, false); }
+  }
+  private func SetIfChanged(q: ref<QuestsSystem>, key: CName, value: Int32) -> Void {
+    if q.GetFact(key) != value { q.SetFact(key, value); }
+  }
+  private func Site(q: ref<QuestsSystem>, p: Vector4, safe: Bool, allowed: Bool, suspended: Bool,
+      ready: CName, enabled: CName, excluded: CName, near: CName, approach: CName, far: CName,
+      x: Float, y: Float, z: Float, entry2: Float, exit2: Float) -> Void {
+    let active = q.GetFact(near) == 1;
+    let isEnabled = q.GetFact(enabled) == 1;
+    if !suspended && allowed && safe && !active && q.GetFact(excluded) == 0 &&
+       q.GetFact(ready) == 1 && q.GetFact(enabled) == 0 && q.GetFact(far) == 0 {
+      q.SetFact(enabled, 1);
+      isEnabled = true;
+    }
+    let dx = p.X-x;
+    let dy = p.Y-y;
+    let dz = p.Z-z;
+    let d2 = dx*dx+dy*dy+dz*dz;
+    // Entry is observed at the resolved scene anchor instead of acquiring
+    // the broad #loading_conditions prefab. Native actor-distance stays vanilla.
+    let enter = isEnabled && allowed && !suspended && d2 < entry2 && (active || safe);
+    if active {
+      this.SetIfChanged(q, far, d2 > exit2 || !allowed ? 1 : 0);
+    } else {
+      // Reset only the completed owner's exit signal, never its saved Near or
+      // native counters. Write Far before opening a new approach request.
+      this.SetIfChanged(q, far, 0);
+    }
+    this.SetIfChanged(q, approach, enter ? 1 : 0);
+  }
+  public func Poll(epoch: Int32) -> Void {
+    if !this.running || epoch != this.epoch { return; }
+    let game = this.GetGameInstance();
+    let q = GameInstance.GetQuestsSystem(game);
+    if !IsDefined(q) { this.Schedule(epoch); return; }
+    let eligible = true;
+@@GUARDS@@
+    if !eligible { this.Schedule(epoch); return; }
+    let ps = GameInstance.GetPlayerSystem(game);
+    if !IsDefined(ps) { this.Schedule(epoch); return; }
+    let player = ps.GetLocalPlayerMainGameObject() as PlayerPuppet;
+    if !IsDefined(player) { this.Schedule(epoch); return; }
+    let scenes = GameInstance.GetSceneSystem(game).GetScriptInterface();
+    let workspots = GameInstance.GetWorkspotSystem(game);
+    if !IsDefined(scenes) || !IsDefined(workspots) { this.Schedule(epoch); return; }
+    let safe = !player.IsInCombat() && !scenes.IsEntityInScene(player.GetEntityID()) && !workspots.IsActorInWorkspot(player);
+    let position = player.GetWorldPosition();
+    let suspended = q.GetFact(n"PTFRB0DOV_Suspended") != 0;
+@@SITES@@
+    this.Schedule(epoch);
+  }
+}
+public class DeferredVendorTick extends DelayCallback {
+  private let driver: wref<DeferredVendorDriver>;
+  private let epoch: Int32;
+  public func Call() -> Void { if IsDefined(this.driver) { this.driver.Poll(this.epoch); } }
+  public static func Create(driver: ref<DeferredVendorDriver>, epoch: Int32) -> ref<DeferredVendorTick> {
+    let c = new DeferredVendorTick(); c.driver = driver; c.epoch = epoch; return c;
+  }
+}

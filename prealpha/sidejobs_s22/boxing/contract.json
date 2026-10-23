@@ -1,0 +1,50 @@
+{
+  "route": "mq025_after_introduction_before_any_bout",
+  "status": "SOURCE_AUDIT_AND_ADAPTER_PENDING_LIVE",
+  "family": "mq025",
+  "root": "quests/minor_quest/mq025_psycho_brawl",
+  "tag": "PTFRS22_MQ025",
+  "native_source": "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq025/mq025_psycho_brawl.questphase",
+  "selected_nodes": [0,1,3,5,7,8,9,10,11,12,24,25,31,32,33,34,39,40,55],
+  "resume_node": 55,
+  "resume_port": "In1",
+  "native_fact_writes_added": [],
+  "journal_writes": [
+    {"path":"quests/minor_quest/mq025_psycho_brawl","class":"gameJournalQuest","state":"Active"},
+    {"path":"quests/minor_quest/mq025_psycho_brawl/find_fights","class":"gameJournalQuestPhase","state":"Active"}
+  ],
+  "journals": [
+    {"path":"quests/minor_quest/mq025_psycho_brawl","class":"gameJournalQuest","states":["Failed","Inactive"]},
+    {"path":"quests/minor_quest/mq025_psycho_brawl/find_fights","class":"gameJournalQuestPhase","states":["Failed","Inactive"]},
+    {"path":"quests/minor_quest/mq025_psycho_brawl/find_fights/find_kabuki","class":"gameJournalQuestObjective","states":["Failed","Inactive"]},
+    {"path":"quests/minor_quest/mq025_psycho_brawl/find_fights/fin_arroyo","class":"gameJournalQuestObjective","states":["Failed","Inactive"]},
+    {"path":"quests/minor_quest/mq025_psycho_brawl/find_fights/find_glen","class":"gameJournalQuestObjective","states":["Failed","Inactive"]},
+    {"path":"quests/minor_quest/mq025_psycho_brawl/find_fights/find_club","class":"gameJournalQuestObjective","states":["Failed","Inactive"]},
+    {"path":"quests/minor_quest/mq025_psycho_brawl/find_fights/find_pacifica","class":"gameJournalQuestObjective","states":["Inactive"]},
+    {"path":"quests/minor_quest/mq025_02_kabuki","class":"gameJournalQuest","states":["Inactive"]},
+    {"path":"quests/minor_quest/mq025_03_arroyo","class":"gameJournalQuest","states":["Inactive"]},
+    {"path":"quests/minor_quest/mq025_05_glen","class":"gameJournalQuest","states":["Inactive"]},
+    {"path":"quests/minor_quest/mq025_07_fight_club","class":"gameJournalQuest","states":["Inactive"]},
+    {"path":"quests/minor_quest/mq025_06_pacifica","class":"gameJournalQuest","states":["Inactive"]}
+  ],
+  "fact_equal": {
+    "mq025_quest_started":1,"mq025_trainer_skipped":1,
+    "mq025_02_kabuki_active":1,"mq025_03_arroyo_active":1,"mq025_05_glen_active":1,"mq025_07_fight_club":1,
+    "mq025_06_pacifica_active":0,"mq025_02_cheer_active":0,"mq025_02_chosen":0,"mq025_02_fight_active":0,"mq025_02_fight_started":0,"mq025_02_player_wins":0,
+    "mq025_03_chosen":0,"mq025_03_fight_active":0,"mq025_03_fight_started":0,"mq025_03_player_wins":0,
+    "mq025_05_chosen":0,"mq025_05_fight_active":0,"mq025_05_fight_started":0,"mq025_05_gave_money":0,"mq025_05_player_wins":0,
+    "mq025_06_chosen":0,"mq025_06_ozob_fight_started":0,"mq025_06_ozob_player_wins":0,"mq025_06_pacifica_fight_active":0,
+    "mq025_07_chosen":0,"mq025_07_fight_started":0,"mq025_07_fight_starts":0,"mq025_07_player_wins":0,
+    "mq025_08_final_fight_active":0,"mq025_08_finale_player_wins":0,"mq025_08_finale_started":0,
+    "mq025_buck_dead":0,"mq025_cash":0,"mq025_choose_fight":0,"mq025_done":0,"mq025_finale_started":0,"mq025_fist_fight_quest_start":0,
+    "mq025_ozob_exploded":0,"mq025_razor_walks":0,"mq025_rhino_dead":0,"mq025_rhino_happy":0,"mq025_test_definition":0,"mq025_trainer_angry":0,
+    "mq025_twin_01_down":0,"mq025_twin_02_down":0,"mq025_twins_player_down":0,"ozob_weakspot_nose_destroyed":0,"wwd_05_done":0
+  },
+  "limitations": [
+    "Preserves completed introduction and skipped tutorial; not arbitrary mid-bout or won-bout resumption.",
+    "Any succeeded child, chosen wager, started fight, prize/choice marker, actor death or advanced finale refuses this bounded route; no progress is erased.",
+    "The existing post-Tower 150 HP and cyberware restriction profile remains in force. Boxing balance and death/reload need live verification; no god mode or combat-stat exemption.",
+    "Original Ozob prerequisite mq035_done and 27 game-hour delay retained; no Send in the Clowns restoration is silently implied.",
+    "Native readiness/Issued is not live interaction, reward or cleanup proof."
+  ]
+}

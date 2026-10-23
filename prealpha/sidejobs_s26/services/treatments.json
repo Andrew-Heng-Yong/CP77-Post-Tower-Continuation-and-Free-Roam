@@ -1,0 +1,245 @@
+{
+  "schema": "S26_SERVICE_AUDIT_TREATMENTS_1",
+  "groups": [
+    {
+      "ids": ["sq_q001_wilson"],
+      "classification": "shared_service_integrated_live_pending",
+      "npc_services": ["Wilson: order dialogue, gun shop, Dying Night inventory condition"],
+      "treatment": "S25 reuses the existing B0 actor and selects a bounded native order/shop/reward scene. Existing S23 MQ011 lease remains authoritative. The first-meeting prop/attention staging is intentionally omitted; no second Wilson owner is allowed.",
+      "evidence_files": ["research/sidejobs_s25/services/assessment_01.json", "prealpha/sidejobs_s25/services/contract02.json"],
+      "unverified": ["Fresh order, actual vendor stock, native reward acquisition and completion", "Restart with an already acquired Dying Night requires separate item/reward policy"]
+    },
+    {
+      "ids": ["sq_q001_wakako"],
+      "classification": "shared_service_reward_failure_reported",
+      "npc_services": ["Wakako: earned reward dialogue", "Cassius Ryder: ripperdoc shop and Tyger tattoo reward"],
+      "treatment": "FO1 supplies the original Wakako default scene; B0 Cassius supplies the complete native shop scene. S22 retains the reward tail; S24 retains the fresh native reward phase. User reports shop opens but reward missing/blocked, so prompt restoration is insufficient. Transaction/reward closure is a separate S26 repair; do not restart Cassius or grant generic cyberware.",
+      "evidence_files": ["prealpha/sidejobs_s24/services/contract.json", "research/b0_story_services/assessment.md"],
+      "unverified": ["Reward item exposure, restriction filtering, purchase/equip conditions and completion watcher", "Native reward failure cause is assigned to separate S26 Cassius audit"]
+    },
+    {
+      "ids": ["mq045_victor_debt"],
+      "classification": "shared_service_integrated_live_pending",
+      "npc_services": ["Viktor: native debt payment and ripperdoc access"],
+      "treatment": "S25 restores only native debt choices 351/840 option1 in the existing mod-owned Viktor scene, guarded by the new quest owner. Original funds/payment logic and Tower restriction profile remain. No actor replacement, blanket service unlock or debt forgiveness.",
+      "evidence_files": ["research/sidejobs_s25/services/assessment_01.json", "research/b0_story_eight/assessment.md"],
+      "unverified": ["Live funds, payment once, shop, return and reload", "Restart migration must not debit paid debt twice"]
+    },
+    {
+      "ids": ["mq024_sandra"],
+      "classification": "native_quest_owned_with_phone_support",
+      "npc_services": ["Sandra: apartment interaction and phone contact"],
+      "treatment": "Existing S23 native parent slice includes hook, data-carrier and apartment phases; S23 support restores native Sandra controller. No separate world vendor is identified for this route.",
+      "evidence_files": ["prealpha/sidejobs_s23/base_a_v2/contract.json", "prealpha/sidejobs_s23/support/build/support_02/component.json"],
+      "unverified": ["Live apartment prompt, call and native data/reward outcome", "Restart contact/item/objective migration"]
+    },
+    {
+      "ids": ["mq007_smartgun"],
+      "classification": "native_quest_owned_shared_fixer_pending_live",
+      "npc_services": ["Skippy: inventory actor/voice and mode conversation", "Regina: return dialogue and reward"],
+      "treatment": "S23 retains original return node5, ambient phases and cleanup. Existing fixer office supplies Regina service; original quest handles the return interaction. Fresh and captured-resume owners are mutually exclusive. A new restart must audit Skippy inventory/mode counters and return history, not just the journal.",
+      "evidence_files": ["prealpha/sidejobs_s23/base_a_v2/contract.json", "research/sidejobs_s23/base_a_v2/resume_02/manifest.json"],
+      "unverified": ["Return actor/dialogue and native item removal/reward", "Restart of an already owned or previously returned Skippy"]
+    },
+    {
+      "ids": ["mq035_ozob"],
+      "classification": "native_quest_owned_with_phone_support",
+      "npc_services": ["Ozob: native call, passenger and quest dialogue"],
+      "treatment": "S23 native parent/gameplay and Ozob phone controller retained. User reports completing this job; Cassius reward belongs to The Gig, not Ozob. Completion must remain protected under the new restart policy.",
+      "evidence_files": ["prealpha/sidejobs_s23/base_a_v2/contract.json", "prealpha/sidejobs_s23/support/build/support_02/component.json"],
+      "unverified": ["User report is not proof of every reward/phone/reload variant"]
+    },
+    {
+      "ids": ["mq012_stud"],
+      "classification": "native_quest_owned_with_phone_support",
+      "npc_services": ["Jesse/Flaming Crotch Man: passenger, destination ripper scene boundary and delayed phone reward"],
+      "treatment": "S23 keeps original parent and complete quest phase plus native Mr Stud phone controller. A usable public ripperdoc trade menu is not substituted for the quest's own destination/exit sequence.",
+      "evidence_files": ["prealpha/sidejobs_s23/base_a_v2/contract.json", "prealpha/sidejobs_s23/support/build/support_02/component.json"],
+      "unverified": ["Native destination/exit, later call and payout", "Restart passenger and contact lifecycle"]
+    },
+    {
+      "ids": ["mq041_corpo"],
+      "classification": "native_quest_owned_with_phone_support",
+      "npc_services": ["Frank: native call and encounter"],
+      "treatment": "S23 copies native parent/gameplay with Frank phone controller. Original lifepath/story prerequisites remain. No independent world vendor service is identified in this route.",
+      "evidence_files": ["prealpha/sidejobs_s23/base_a_v2/contract.json", "prealpha/sidejobs_s23/support/build/support_02/component.json"],
+      "unverified": ["Call, encounter, reward and alternate outcomes"]
+    },
+    {
+      "ids": ["mq002_veterans", "mq021_guide", "mq044_jakes_vehicle"],
+      "classification": "native_quest_owned_live_pending",
+      "npc_services": ["Native nomad/quest participants; Fortunate Son includes hospital doctor and camp handoff"],
+      "treatment": "S23 preserves each original per-job parent and original gameplay/scenes. No independent generic vendor actor should be added. Camp/hospital actor acquisition and native earned prerequisites need live verification; reference closure is not actor-liveness proof.",
+      "evidence_files": ["prealpha/sidejobs_s23/base_a_v2/contract.json"],
+      "unverified": ["Camp/community availability and quest scenes", "Separate restart migration and previously earned vehicles/items"]
+    },
+    {
+      "ids": ["mq013_punks"],
+      "classification": "native_quest_owned_shared_service_lifecycle",
+      "npc_services": ["Darryl: shopkeeper encounter and normal shop return"],
+      "treatment": "S23 copies the original MQ013 phase; its native default_on/active/death/discount state is retained. Quest starts with std_arr_foodshop_03_default_on=0 and mq013_active=1 captured passive setup. Never clear the native reservation merely to open a duplicate shop.",
+      "evidence_files": ["research/sidejobs_s23/base_b/assessment.json", "prealpha/sidejobs_s23/base_b/contract.json"],
+      "unverified": ["Shopkeeper scene, encounter and native shop/discount return", "Restart survival and stock state"]
+    },
+    {
+      "ids": ["mq030_melisa"],
+      "classification": "shared_service_integrated_live_pending",
+      "npc_services": ["Zane/Jinguji: first meeting, shop, attack and return service"],
+      "treatment": "S23 acquires the existing Zane QuestOwns lease, waits for actual outside/despawn acknowledgement, then copies original default_dialogs root/7/node25 alongside the original quest. Releases only after native quest output. Do not start another Zane owner.",
+      "evidence_files": ["research/sidejobs_s23/base_b/assessment.json", "prealpha/sidejobs_s23/base_b/contract.json"],
+      "unverified": ["Saved active-shop lease acquisition, attack and service return/reload", "Restart death and encounter actor cleanup"]
+    },
+    {
+      "ids": ["mq011_wilson"],
+      "classification": "shared_service_integrated_live_pending",
+      "npc_services": ["Wilson: invitation call, shooting range and ordinary shop return"],
+      "treatment": "S23 modifies the existing Wilson owner wait only, then waits Released/Near/SpawnActionOut/ActorDistanceGate before original MQ011. Native phone support and original reward/range phases retained. S25 The Gun uses the same owner and must not compete.",
+      "evidence_files": ["research/sidejobs_s23/base_b/assessment.json", "prealpha/sidejobs_s23/base_b/contract.json"],
+      "unverified": ["Active-body release, competition score/reward and return shop", "Restart item/reward and range reset"]
+    },
+    {
+      "ids": ["mq010_barry", "mq005_alley", "mq008_party", "mq032_sacrum"],
+      "classification": "native_quest_owned_live_pending",
+      "npc_services": ["Per-job native encounter actors and dialogue, not a standalone merchant"],
+      "treatment": "Existing S1/S2/S24 copies keep the native quest scenes and actors. No external shop restoration has been identified as a necessary independent service for these bounded routes. This does not establish all actor spawning or restart cleanup.",
+      "evidence_files": ["prealpha/sidejobs_s25/build/s25_04/coverage.json", "prealpha/sidejobs_s24/base/contract03.json", "prealpha/sidejobs_s2/build/s2_02/build.json"],
+      "unverified": ["Native NPC interaction, community and reward behavior after restart"]
+    },
+    {
+      "ids": ["mq038_neweridentity"],
+      "classification": "native_quest_owned_live_pending",
+      "npc_services": ["Dennis/Afterlife quest contact and Haruyoshi delivery actor"],
+      "treatment": "Original full MQ038 retained by S23; no whole Afterlife owner restart or new holo controller. Named participants are native quest actors, not ordinary vendor replacements.",
+      "evidence_files": ["research/sidejobs_s23/base_b/assessment.json", "prealpha/sidejobs_s23/base_b/contract.json"],
+      "unverified": ["Afterlife prompt, delivery actor lifetime and reward", "Restart pickup/container identity"]
+    },
+    {
+      "ids": ["mq037_brendan_dumpster", "mq037_brendan_hooligan001", "mq037_brendan"],
+      "classification": "native_quest_owned_shared_service_lifecycle",
+      "npc_services": ["Brendan and Theo", "Technician/store clerk and tech-store scene"],
+      "treatment": "One original parent34 owns all three roots; S23 retains original schedule, clerk choices, default-on and reward logic. Never restart one family child by creating a second Brendan/store owner. Native techstore default_on=0 admission protects current reservation.",
+      "evidence_files": ["research/sidejobs_s23/base_b/assessment.json", "prealpha/sidejobs_s23/base_b/contract.json"],
+      "unverified": ["All three stages and final clerk/Brendan scene", "Completed siblings preserved by restart migration"]
+    },
+    {
+      "ids": ["mq049_edgerunners"],
+      "classification": "native_messages_contact_visibility_pending_live",
+      "npc_services": ["El Capitan/Reyes and Falco: SMS contacts, jacket handoff"],
+      "treatment": "Original production quest_bugfixing nodes63/64 and full MQ049 are retained; no new holo controller. Existing Reyes support is shared with restored gigs/car theft. Contact/SMS visibility must be verified independently of a journal marker.",
+      "evidence_files": ["research/sidejobs_s23/base_b/assessment.json", "prealpha/sidejobs_s23/base_b/contract.json"],
+      "unverified": ["Initial Reyes and Falco SMS visibility/replies", "Jacket handoff and no duplicate reward after restart"]
+    },
+    {
+      "ids": ["wst_ep1_11_bill_meeting"],
+      "classification": "shared_service_integrated_live_pending",
+      "npc_services": ["Bill: hotdog quest interaction and ongoing vendor"],
+      "treatment": "S23 includes original world-story and Bill default loop, acquiring existing B0 QuestOwns before dispatch and retaining it for native default lifetime. Original Dodger outcome remains authoritative. No duplicate vendor after quest completion.",
+      "evidence_files": ["research/sidejobs_s23/ep1/assessment_01.json", "prealpha/sidejobs_s23/ep1/contract.json"],
+      "unverified": ["Native SMS, interaction, reward, vendor and reload", "Restart outcome/lease state"]
+    },
+    {
+      "ids": ["wst_ep1_05"],
+      "classification": "native_quest_owned_with_persistent_default",
+      "npc_services": ["Hasan: default conversation and gun reward"],
+      "treatment": "S23 includes original Hasan world-story and default-dialogue parent. Blueprint-choice and prior outcome gates retained; not merely an SMS/marker restoration.",
+      "evidence_files": ["research/sidejobs_s23/ep1/assessment_01.json", "prealpha/sidejobs_s23/ep1/contract.json"],
+      "unverified": ["NPC availability, dialogue and gun reward", "Restart completed gig prerequisites and consumed reward"]
+    },
+    {
+      "ids": ["sts_ep1_08_steven_meeting_night_city"],
+      "classification": "native_quest_owned_shared_gig_arbitration",
+      "npc_services": ["Steven Santos: invitation and default interaction"],
+      "treatment": "S23 copies the original night-city invitation branch plus Steven default; U9 Spy in the Jungle owner blocks duplicate S23 activation. Its own original follow-up is preferred. No independent second default owner.",
+      "evidence_files": ["research/sidejobs_s23/ep1/assessment_01.json", "prealpha/sidejobs_s23/ep1/contract.json"],
+      "unverified": ["Native invitation and correct Steven world variant", "Restart must coordinate the still-owned gig follow-up"]
+    },
+    {
+      "ids": ["q304_splinter_stash", "wst_ep1_04", "mq046_cave_vehicle", "mq047_ad_vehicle"],
+      "classification": "native_device_or_reward_route_no_new_npc_owner",
+      "npc_services": ["Native stash/garage/vehicle interactions; original prerequisite contacts as applicable"],
+      "treatment": "S23 retains original stash/garage/vehicle phases and native availability guards. These routes do not justify adding an independent world NPC service owner. Device/loot/vehicle state is a separate restart concern; original Johnny scenes remain voice-only through JV1.",
+      "evidence_files": ["research/sidejobs_s23/ep1/assessment_01.json", "prealpha/sidejobs_s23/ep1/contract.json"],
+      "unverified": ["Device/vehicle acquisition, contacts and reward once", "Restart should not duplicate owned vehicles or refill consumed loot blindly"]
+    },
+    {
+      "ids": ["mq025_psycho_brawl", "mq025_02_kabuki", "mq025_03_arroyo", "mq025_05_glen", "mq025_07_fight_club", "mq025_06_pacifica"],
+      "classification": "shared_service_integrated_live_pending",
+      "npc_services": ["Coach Fred: intro/training, invitation and service", "Native boxing opponents including Ozob; final-fight participants"],
+      "treatment": "S25 selects the native Fred intro scene in the existing Fred owner when fresh boxing owns the family; native fight phases/calls/rewards remain. S22 prior-progress family remains separate. One family owner, not one per boxing journal. Do not infer Send in the Clowns must restart to restore boxing.",
+      "evidence_files": ["prealpha/sidejobs_s25/families/contract03.json", "research/sidejobs_s25/services/families_review_01.json"],
+      "unverified": ["Fresh intro and all opponent/final interactions", "Restart must preserve completed bouts while rearming unfinished ones"]
+    },
+    {
+      "ids": ["sq025_delamain", "sq025c01_angry", "sq025c05_scared", "sq025c02_sad", "sq025c04_manic", "sq025c06_mean", "sq025c07_suicidal", "sq025c03_mean", "sq025_0_pickup", "sq025_compensation"],
+      "classification": "native_quest_owned_with_phone_support",
+      "npc_services": ["Delamain reception, office screen/scanner interaction and seven car identities"],
+      "treatment": "S25 original family and native contact51 cover eight phone identities; existing native phone controller/cleanup retained. S22 progress route is separate. Native return/scanner and reward remain, excluded Don't Lose Your Mind sequel stays omitted. Never spawn one full family per child journal.",
+      "evidence_files": ["prealpha/sidejobs_s25/families/contract03.json", "research/sidejobs_s25/services/families_review_01.json"],
+      "unverified": ["All seven car prompts, reception and final reward", "Restart completed-car siblings and owned Archer protection"]
+    },
+    {
+      "ids": ["07_nc_underground", "sq024_city_race", "sq024_badlands_race", "sq024_santo_domingo_race", "sq024_the_big_race"],
+      "classification": "unimplemented_family_native_dependency_blocked",
+      "npc_services": ["Claire: Afterlife/garage scene handoff, phone, races and outcome service"],
+      "treatment": "Existing Claire bar service preserves native default_on lifecycle, but the five story roots have no restoration owner. S25 found connected sq024_vehicle_hacking_manager.questphase absent by name and FNV in official archives. Do not cut that native branch or substitute repeatable R1 races. Complete story implementation requires resolving the dependency and coordinated native default ownership.",
+      "evidence_files": ["research/sidejobs_s25/families/claire_deferred_01.json", "research/b0_claire/quest_compatibility.md", "prealpha/sidejobs_s25/build/s25_04/coverage.json"],
+      "unverified": ["Missing native dependency resolution", "Complete story phone/garage/bar handoff, all outcomes and rewards"]
+    },
+    {
+      "ids": ["sq018_jackie"],
+      "classification": "unimplemented_family_shared_service_blocked",
+      "npc_services": ["Mama Welles phone/default", "Misty, Viktor, Padre, Pepe and Coyote/funeral actors"],
+      "treatment": "No installed Heroes restoration owner. Native full parent alone is insufficient because shared phone and world services require coordinated ownership. Preserve Jackie destination/outcome and previously completed quest. Do not clear Pepe's mq040 reservation or re-enable whole default-dialogue roots.",
+      "evidence_files": ["prealpha/sidejobs_s25/build/s25_04/coverage.json", "prealpha/sidejobs_s24/services/contract.json", "research/b0_story_services/assessment.md"],
+      "unverified": ["Complete native support closure and shared NPC release", "Quest outcome/vehicle/reward history"]
+    },
+    {
+      "ids": ["mq019_paparazzi"],
+      "classification": "native_quest_owned_with_phone_support",
+      "npc_services": ["Lizzy Wizzy: contact/phone, motel scenes", "Riot club encounter actors"],
+      "treatment": "S24 preserves native parent/gameplay; native Lizzy contact and phone controller plus cleanup are added. NPCs in motel/club scenes remain original quest-owned, not generic service replacements.",
+      "evidence_files": ["prealpha/sidejobs_s24/base/contract03.json", "research/sidejobs_s24/base/assessment_01.json"],
+      "unverified": ["First call/SMS, nightclub and motel scene acquisition", "Restart outcome and cleanup"]
+    },
+    {
+      "ids": ["mq015_wizardbook"],
+      "classification": "shared_service_integrated_live_pending",
+      "npc_services": ["Nix: Afterlife quest/default dialogue", "R3NO/seller: native phone and restaurant interaction"],
+      "treatment": "S24 restores native Nix contact and R3NO phone support. Original MQ015 hook scene toggles nix_default_on0/1 and existing B0 Nix watcher is retained. The excluded Nix q305 recruitment choice is not Spellbound and must stay excluded. No competing Nix owner or new generic lease.",
+      "evidence_files": ["prealpha/sidejobs_s24/base/contract03.json", "research/sidejobs_s24/base/assessment_01.json", "research/b0_story_eight/assessment.md"],
+      "unverified": ["Live default-to-quest scene handoff and return", "Seller phone, payment/book reward and restart stock state"]
+    },
+    {
+      "ids": ["mq026_conspiracy"],
+      "classification": "native_quest_owned_live_pending",
+      "npc_services": ["Garry and disciple: native sermon/donation/return scenes", "Native encounter participants"],
+      "treatment": "S25 fresh and S23 preserved-progress owners are mutually exclusive. Original per-job root/scenes handle Garry and disciple; no generic vendor is required. A new restart must reset only audited sermon/content state and coordinate prior running owner; Inactive root alone was never adequate freshness evidence.",
+      "evidence_files": ["prealpha/sidejobs_s25/prophet/contract.json", "research/sidejobs_s25/policy/prophet_review_01.json", "research/sidejobs_s23/base_b/assessment.json"],
+      "unverified": ["Sermons, donation choices, encounter and return reward", "Restart existing sermon/death/carrier state"]
+    },
+    {
+      "ids": ["mq305_combat_zone_report"],
+      "classification": "native_quest_owned_shared_phone_support",
+      "npc_services": ["Bree, Dante and Hands: original scenes/contact support"],
+      "treatment": "S24 fresh native parent retains quest actors and calls; existing U9 Hands controller and shared cleanup provide phone support. No independent ripper/vendor restoration is identified for this route.",
+      "evidence_files": ["prealpha/sidejobs_s24/ep1/contract02.json"],
+      "unverified": ["Phone/message delivery and NPC scenes", "Restart outcome and claimed reward"]
+    },
+    {
+      "ids": ["mq306_dumpster"],
+      "classification": "native_quest_owned_contact_gap_reported",
+      "npc_services": ["Aaron, Fred SMS, bookie, Damir ripper and Angie quest actors"],
+      "treatment": "S24 fresh path preserves the original parent including native contact and full clinic/Angie phases. S23 captured late-Aaron-SMS resume omits earlier contact-add, matching the known missing-message hypothesis; this remains unverified live. New restart owner should enter the complete original fresh route once safely migrated. Do not open a normal ripper shop to replace Damir's scripted clinic scene.",
+      "evidence_files": ["prealpha/sidejobs_s24/ep1/contract02.json", "research/sidejobs_s23/ep1/assessment_01.json", "prealpha/sidejobs_s23/ep1/contract.json"],
+      "unverified": ["Aaron contact/reply visibility and all clinic interactions", "Existing issued partial owner cannot simply be restarted concurrently"]
+    },
+    {
+      "ids": ["q304_car_retrieval"],
+      "classification": "native_messages_device_route_live_pending",
+      "npc_services": ["Ashlay SMS/contact", "Native facility guards, elevator, terminals and car interaction"],
+      "treatment": "S24 retains native fresh SMS/contact and gameplay; S22 retained accepted-SMS resume is separate. No ordinary vendor or ripperdoc is a substitute for these scripted device/quest interactions.",
+      "evidence_files": ["prealpha/sidejobs_s24/ep1/contract02.json", "prealpha/sidejobs_s25/build/s25_04/coverage.json"],
+      "unverified": ["SMS/response, elevator/device states and reward car", "Restart native device and acquired vehicle state"]
+    }
+  ]
+}

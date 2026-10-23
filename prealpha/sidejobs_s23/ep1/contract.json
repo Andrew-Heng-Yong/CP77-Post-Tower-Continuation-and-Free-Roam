@@ -1,0 +1,1399 @@
+{
+  "schema": "S23_EP1_COMPONENT_CONTRACT_1",
+  "status": "PREPARED_NOT_LIVE",
+  "common_equal": {
+    "PostTowerFreeRoamActive": 1,
+    "PTFRP0_DR13": 1,
+    "PTFRPA2_Finished": 1,
+    "PTFRPA2_Fault": 0,
+    "q307_done": 1,
+    "q307_finished": 1,
+    "q307_2079": 1,
+    "q307_active": 0,
+    "q307_main_game_killed": 1,
+    "q307_ep1_killed": 1,
+    "PTFRU9_Support_Issued": 1,
+    "PTFRU9_Support_Fault": 0,
+    "q307_debug_reset": 0,
+    "q115_point_of_no_return": 0,
+    "q305_johnny_scene_active": 0
+  },
+  "capture": "research/sidejobs_s23/live_20261016_01/capture.json",
+  "capture_sha256": "47084A3833CFE507D184A19CDD1276215A15F917F6B97AA4130E6A6E6919748A",
+  "owners": [
+    {
+      "id": "mq306_dumpster",
+      "key": "MQ306",
+      "tag": "PTFRS23_MQ306",
+      "depot": "towercontinued\\sidejobs_s23\\ep1\\mq306_boot.questphase",
+      "entry": "In1",
+      "facts_equal": {
+        "mq306_active": 1,
+        "mq306_started": 1,
+        "mq306_quest_accepted": 1,
+        "mq306_done": 0,
+        "mq306_finished": 0,
+        "mq306_animals_dead": 0,
+        "mq306_fight_clean": 0,
+        "mq306_dive": 0,
+        "mq306_intimidate": 1,
+        "mq306_truth": 1,
+        "mq306_aaron_intimidate_end": 1,
+        "mq306_aaron_path": 0,
+        "mq306_angie_path": 0,
+        "mq306_offer_declined": 0,
+        "mq306_bartender_done": 0,
+        "mq306_03_angie_turned": 1,
+        "mq306_clinic_reached": 1,
+        "mq306_leaving_ripper": 1,
+        "mq306_testdef": 0
+      },
+      "fact_ranges": {},
+      "journals": [
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster",
+          "class": "gameJournalQuest",
+          "states": [
+            1,
+            4
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/01_intro",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            4
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/01_intro/01_find_aaron",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            3
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/01_intro/01_read_coach_message",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            3
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/01_intro/01_wait_for_match",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/01_intro/01a_talk_to_bookie",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            3
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/01_intro/01b_wait_for_fight",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            3
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/01_intro/02_talk_aaron",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            3
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/01_intro/02a_consider_talking_to_aaron",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/01_intro/03_text_viktor",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/02_scav_base",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            4
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/02_scav_base/01_meet_aaron",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            3
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/02_scav_base/01a_wait_for_aaron",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            3
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/02_scav_base/02_follow_aaron",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            3
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/02_scav_base/02_talk_aaron",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            3
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/02_scav_base/03_clinic",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            3
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/02_scav_base/04_combat",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            3
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/03_ripperdoc",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            4
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/03_ripperdoc/01_talk_damir",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            3
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/03_ripperdoc/02_wait",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            3
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/03_ripperdoc/03_talk_angie",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            3
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/03_ripperdoc/04_combat",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/03_ripperdoc/05_talk_aaron",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            3
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/03_ripperdoc/06_leave_base",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            3
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/03_ripperdoc/07a_wait_news_aaron",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            3
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/03_ripperdoc/07b_wait_news_angie",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04a_aaron_meeting",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1,
+            4
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04a_aaron_meeting/01_reply_text",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1,
+            4
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04a_aaron_meeting/01a_read_aaron_message",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04a_aaron_meeting/02_meet_aaron",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04a_aaron_meeting/03a_talk_bartender",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04a_aaron_meeting/03b_talk_angie",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04a_aaron_meeting/03c_talk_aaron",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04a_aaron_meeting/04a_alley",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04a_aaron_meeting/04b_combat",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04a_aaron_meeting/05_talk_johnny",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04b_angie_meeting",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04b_angie_meeting/01_reply_text",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04b_angie_meeting/02_meet_angie",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04b_angie_meeting/03talk_to_angie",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/description",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            2
+          ]
+        },
+        {
+          "path": "ep1/contacts/aaron/mq306/01a_aaron_dive",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            2,
+            3
+          ],
+          "observed": false
+        },
+        {
+          "path": "ep1/contacts/aaron/mq306/02a_ch_dive_reply",
+          "class": "gameJournalPhoneChoiceGroup",
+          "states": [
+            2,
+            3
+          ],
+          "observed": false
+        },
+        {
+          "path": "ep1/contacts/aaron/mq306/03a_aaron_disgraced",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ],
+          "observed": false
+        },
+        {
+          "path": "ep1/contacts/aaron/mq306/03a_aaron_disgraced_reply",
+          "class": "gameJournalPhoneChoiceGroup",
+          "states": [
+            1
+          ],
+          "observed": false
+        },
+        {
+          "path": "ep1/contacts/aaron/mq306/03b_aaron_abroad",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ],
+          "observed": false
+        }
+      ],
+      "reactivate_paths": [
+        "ep1/quests/minor_quest/mq306_dumpster",
+        "ep1/quests/minor_quest/mq306_dumpster/04a_aaron_meeting",
+        "ep1/quests/minor_quest/mq306_dumpster/04a_aaron_meeting/01_reply_text"
+      ],
+      "native_only_guards": [],
+      "observed_facts": {
+        "aaron_scanned": 0,
+        "codex_angelica_wayland": 1,
+        "ep1_active": 1,
+        "full_rpg_progression_on": 1,
+        "judy_default_on": 0,
+        "judys_apartment_intercom": 1,
+        "ma306_03_cut_damir_nervous": 1,
+        "mq306_03_angie_turned": 1,
+        "mq306_aaron_entered_ripper": 1,
+        "mq306_aaron_fluff_played": 0,
+        "mq306_aaron_intimidate_end": 1,
+        "mq306_aaron_path": 0,
+        "mq306_active": 1,
+        "mq306_angie_path": 0,
+        "mq306_animals_dead": 0,
+        "mq306_bartender_done": 0,
+        "mq306_base_aaron_elevator_chat": 0,
+        "mq306_base_patrol_start": 1,
+        "mq306_bet_blueline": 1,
+        "mq306_bet_default": 0,
+        "mq306_bet_will": 0,
+        "mq306_chicken_skip_waiting": 0,
+        "mq306_clinic_reached": 1,
+        "mq306_combat": 1,
+        "mq306_combat_retreat_01": 1,
+        "mq306_combat_retreat_02": 1,
+        "mq306_combat_retreat_03": 1,
+        "mq306_combat_retreat_04": 1,
+        "mq306_damir_clinic_door_closed": 1,
+        "mq306_dive": 0,
+        "mq306_done": 0,
+        "mq306_enemy_spawn_counter": 20,
+        "mq306_exploration_00_chat_done": 1,
+        "mq306_exploration_01_chat_done": 1,
+        "mq306_exploration_02_chat_done": 0,
+        "mq306_exploration_03_chat_done": 0,
+        "mq306_fight_clean": 0,
+        "mq306_finished": 0,
+        "mq306_guard_01_defeated": 0,
+        "misty_default_on": 0,
+        "mq306_intimidate": 1,
+        "mq306_intro_cancel_fight": 1,
+        "mq306_intro_variant_activated": 1,
+        "mq306_last_warning": 0,
+        "mq306_leaving_ripper": 1,
+        "mq306_lobby_reinforcements_spawned": 1,
+        "mq306_location_chat_active": 0,
+        "disable_tutorials": 0,
+        "mq306_location_chat_part_1_done": 0,
+        "mq306_location_chat_part_2_done": 0,
+        "mq306_location_chat_part_3_done": 0,
+        "mq306_offer_declined": 0,
+        "mq306_pills": 1,
+        "mq306_quest_accepted": 1,
+        "mq306_reinforcements_counter": 1,
+        "mq306_ripper_angie_haggled": 0,
+        "mq306_ripper_reinforcements_spawned": 1,
+        "mq306_scavs_attacked": 1,
+        "mq306_server_reinforcements_spawned": 1,
+        "mq306_started": 1,
+        "mq306_stealth": 0,
+        "mq306_testdef": 0,
+        "mq306_truth": 1,
+        "mr_hands_default_ep1": 1,
+        "mr_hands_met": 1,
+        "q001_done": 1,
+        "q001_left_v_apartment": 1,
+        "q003_done": 1,
+        "ep1_standalone": 0,
+        "creole_translator_unlocked": 1,
+        "q005_done": 1,
+        "q105_active": 0,
+        "q105_chapel_visited_before": 0,
+        "q105_done": 1,
+        "mq025_02_fight_started": 0,
+        "q302_done": 1,
+        "mq025_02_player_wins": 0,
+        "sq025_delamain_fate": 0,
+        "sq032_episode_3_done": 1,
+        "sq032_episode_4_done": 1,
+        "sq032_q105_used": 1,
+        "mq025_03_player_wins": 0,
+        "sq032_tapeworm_stage": 6,
+        "unlock_car_hud_dpad": 1,
+        "mq025_05_player_wins": 0,
+        "q000_done": 1,
+        "q101_done": 1,
+        "mq025_07_player_wins": 0,
+        "claire_default_on": 1,
+        "mq025_08_finale_player_wins": 0,
+        "sq025_done": 0,
+        "mq025_done": 0,
+        "q001_mission0_complete": 1,
+        "sts_loop_start": 1,
+        "mq025_trainer_angry": 0,
+        "sq032_q110_used": 1,
+        "sq018_enable": 1,
+        "q110_sasquatch_fight_active": 1,
+        "q110_enable_post_quest_cleanup": 1,
+        "q005_disable_emmerick_oneliner": 1,
+        "q101_enable_side_content": 1,
+        "q110_done": 1,
+        "q004_done": 1,
+        "q001_start_wilson_quest": 1,
+        "watson_prolog_unlock": 1,
+        "mr_hands_default_on": 1,
+        "mq306_guard_mounted_to_elevator": 0,
+        "mq306_location_chat_done": 0
+      },
+      "observed_journals": [
+        {
+          "class": "gameJournalQuest",
+          "path": "ep1/quests/minor_quest/mq306_dumpster",
+          "state": "Failed"
+        },
+        {
+          "class": "gameJournalQuestPhase",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/01_intro",
+          "state": "Failed"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/01_intro/01_find_aaron",
+          "state": "Succeeded"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/01_intro/01_read_coach_message",
+          "state": "Succeeded"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/01_intro/01_wait_for_match",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/01_intro/01a_talk_to_bookie",
+          "state": "Succeeded"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/01_intro/01b_wait_for_fight",
+          "state": "Succeeded"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/01_intro/02_talk_aaron",
+          "state": "Succeeded"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/01_intro/02a_consider_talking_to_aaron",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/01_intro/03_text_viktor",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestPhase",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/02_scav_base",
+          "state": "Failed"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/02_scav_base/01_meet_aaron",
+          "state": "Succeeded"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/02_scav_base/01a_wait_for_aaron",
+          "state": "Succeeded"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/02_scav_base/02_follow_aaron",
+          "state": "Succeeded"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/02_scav_base/02_talk_aaron",
+          "state": "Succeeded"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/02_scav_base/03_clinic",
+          "state": "Succeeded"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/02_scav_base/04_combat",
+          "state": "Succeeded"
+        },
+        {
+          "class": "gameJournalQuestPhase",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/03_ripperdoc",
+          "state": "Failed"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/03_ripperdoc/01_talk_damir",
+          "state": "Succeeded"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/03_ripperdoc/02_wait",
+          "state": "Succeeded"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/03_ripperdoc/03_talk_angie",
+          "state": "Succeeded"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/03_ripperdoc/04_combat",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/03_ripperdoc/05_talk_aaron",
+          "state": "Succeeded"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/03_ripperdoc/06_leave_base",
+          "state": "Succeeded"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/03_ripperdoc/07a_wait_news_aaron",
+          "state": "Succeeded"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/03_ripperdoc/07b_wait_news_angie",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestPhase",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04a_aaron_meeting",
+          "state": "Failed"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04a_aaron_meeting/01_reply_text",
+          "state": "Failed"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04a_aaron_meeting/01a_read_aaron_message",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04a_aaron_meeting/02_meet_aaron",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04a_aaron_meeting/03a_talk_bartender",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04a_aaron_meeting/03b_talk_angie",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04a_aaron_meeting/03c_talk_aaron",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04a_aaron_meeting/04a_alley",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04a_aaron_meeting/04b_combat",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04a_aaron_meeting/05_talk_johnny",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestPhase",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04b_angie_meeting",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04b_angie_meeting/01_reply_text",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04b_angie_meeting/02_meet_angie",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04b_angie_meeting/03talk_to_angie",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestDescription",
+          "path": "ep1/quests/minor_quest/mq306_dumpster/description",
+          "state": "Active"
+        }
+      ],
+      "capture_sha256": "47084A3833CFE507D184A19CDD1276215A15F917F6B97AA4130E6A6E6919748A",
+      "route": "Resume original Aaron dive-reply wait (root/25 node24), preserve prior objectives and choices; native SMS, Aaron reward, Fred message and original parent final reward/cleanup."
+    },
+    {
+      "id": "q304_splinter_stash",
+      "key": "VOODOO",
+      "tag": "PTFRS23_VOODOO",
+      "depot": "towercontinued\\sidejobs_s23\\ep1\\voodoo_boot.questphase",
+      "entry": "In1",
+      "facts_equal": {},
+      "fact_ranges": {},
+      "journals": [
+        {
+          "path": "ep1/quests/minor_quest/q304_splinter_stash",
+          "class": "gameJournalQuest",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_splinter_stash/01_stash",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_splinter_stash/01_stash/01_find_stash",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_splinter_stash/desc",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "reactivate_paths": [],
+      "native_only_guards": [
+        "Stock #q304_dvc_slider_stash_door loaded AND NOT IsOpen before issue; unloaded does not mean fresh."
+      ],
+      "observed_facts": [],
+      "observed_journals": [
+        {
+          "class": "gameJournalQuest",
+          "path": "ep1/quests/minor_quest/q304_splinter_stash",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestPhase",
+          "path": "ep1/quests/minor_quest/q304_splinter_stash/01_stash",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/q304_splinter_stash/01_stash/01_find_stash",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestDescription",
+          "path": "ep1/quests/minor_quest/q304_splinter_stash/desc",
+          "state": "Inactive"
+        }
+      ],
+      "capture_sha256": "47084A3833CFE507D184A19CDD1276215A15F917F6B97AA4130E6A6E6919748A",
+      "route": "Original persistent root/30 node4 In1; native information-download gate retained; no free hint or synthetic journal activation."
+    },
+    {
+      "id": "wst_ep1_11_bill_meeting",
+      "key": "BILL",
+      "tag": "PTFRS23_BILL",
+      "depot": "towercontinued\\sidejobs_s23\\ep1\\bill_boot.questphase",
+      "entry": "In1",
+      "facts_equal": {
+        "wst_ep1_11_hotdog_finished": 0,
+        "wst_ep1_11_ncpd_start": 0,
+        "wst_ep1_11_ncpd_finished": 0,
+        "bill_default_on": 0,
+        "sts_ep1_10_debug_fact_1111": 0,
+        "ws_ep1_11_chicken_test_journal_start": 0,
+        "PTFRB0S4BILL_Enabled": 0,
+        "PTFRB0S4BILL_OwnerActive": 0,
+        "PTFRB0S4BILL_QuestOwns": 0
+      },
+      "fact_ranges": {
+        "sts_ep1_10_finished": {
+          "min": 1,
+          "max": 2147483647
+        }
+      },
+      "journals": [
+        {
+          "path": "ep1/quests/minor_quest/wst_ep1_11_bill_meeting",
+          "class": "gameJournalQuest",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/wst_ep1_11_bill_meeting/description",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/wst_ep1_11_bill_meeting/wst_ep1_11",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/wst_ep1_11_bill_meeting/wst_ep1_11/meet_bill",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/wst_ep1_11_bill_meeting/wst_ep1_11/read_message",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/wst_ep1_11_bill_meeting/wst_ep1_11/talk_bill",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "reactivate_paths": [],
+      "native_only_guards": [],
+      "observed_facts": {
+        "wst_ep1_11_hotdog_finished": 0,
+        "bill_default_on": 0,
+        "sts_ep1_10_debug_fact_1111": 0,
+        "sts_ep1_10_dodger_dead": 1,
+        "ws_ep1_11_chicken_test_journal_start": 0,
+        "ep1_standalone": 0,
+        "wst_ep1_11_ncpd_finished": 0,
+        "wst_ep1_11_ncpd_start": 0
+      },
+      "observed_journals": [
+        {
+          "class": "gameJournalQuest",
+          "path": "ep1/quests/minor_quest/wst_ep1_11_bill_meeting",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestDescription",
+          "path": "ep1/quests/minor_quest/wst_ep1_11_bill_meeting/description",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestPhase",
+          "path": "ep1/quests/minor_quest/wst_ep1_11_bill_meeting/wst_ep1_11",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/wst_ep1_11_bill_meeting/wst_ep1_11/meet_bill",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/wst_ep1_11_bill_meeting/wst_ep1_11/read_message",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/wst_ep1_11_bill_meeting/wst_ep1_11/talk_bill",
+          "state": "Inactive"
+        }
+      ],
+      "capture_sha256": "47084A3833CFE507D184A19CDD1276215A15F917F6B97AA4130E6A6E6919748A",
+      "route": "Original world-story node35 ->11; original default-dialog parent14->5 loop. Acquire existing B0 QuestOwns lease before both; retained while native default alive, not released on quest completion.",
+      "lease_facts": {
+        "PTFRB0S4BILL_QuestOwns": 1
+      }
+    },
+    {
+      "id": "wst_ep1_05",
+      "key": "HASAN",
+      "tag": "PTFRS23_HASAN",
+      "depot": "towercontinued\\sidejobs_s23\\ep1\\hasan_boot.questphase",
+      "entry": "In1",
+      "facts_equal": {
+        "wst_ep1_05_active": 0,
+        "wst_ep1_05_start": 0,
+        "wst_ep1_05_finished": 0,
+        "wst_ep1_05_gun_taken": 0,
+        "wst_ep1_05_gun_reveal": 0,
+        "sts_ep1_04_blueprints_hasan": 0
+      },
+      "fact_ranges": {
+        "hasan_default_on": {
+          "min": 1,
+          "max": 2147483647
+        },
+        "sts_ep1_04_blueprints_corpo": {
+          "min": 1,
+          "max": 2147483647
+        },
+        "sts_ep1_04_mr_hands_holo_convinced": {
+          "min": 1,
+          "max": 2147483647
+        }
+      },
+      "journals": [
+        {
+          "path": "ep1/quests/minor_quest/wst_ep1_05",
+          "class": "gameJournalQuest",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/wst_ep1_05/description",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/wst_ep1_05/wst_ep1_05",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/wst_ep1_05/wst_ep1_05/go_to_hasan_apartment",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/wst_ep1_05/wst_ep1_05/read_message_from_hands",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/wst_ep1_05/wst_ep1_05/speak_with_hasan",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/wst_ep1_05/wst_ep1_05/take_the_gun",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "reactivate_paths": [],
+      "native_only_guards": [],
+      "observed_facts": [],
+      "observed_journals": [
+        {
+          "class": "gameJournalQuest",
+          "path": "ep1/quests/minor_quest/wst_ep1_05",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestDescription",
+          "path": "ep1/quests/minor_quest/wst_ep1_05/description",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestPhase",
+          "path": "ep1/quests/minor_quest/wst_ep1_05/wst_ep1_05",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/wst_ep1_05/wst_ep1_05/go_to_hasan_apartment",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/wst_ep1_05/wst_ep1_05/read_message_from_hands",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/wst_ep1_05/wst_ep1_05/speak_with_hasan",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/wst_ep1_05/wst_ep1_05/take_the_gun",
+          "state": "Inactive"
+        }
+      ],
+      "capture_sha256": "47084A3833CFE507D184A19CDD1276215A15F917F6B97AA4130E6A6E6919748A",
+      "route": "Original world-story29->5 and default-dialog12->9 loop; wst05 eligibility, delay, messages, dialogue, gun reward untouched."
+    },
+    {
+      "id": "wst_ep1_04",
+      "key": "RINDER",
+      "tag": "PTFRS23_RINDER",
+      "depot": "towercontinued\\sidejobs_s23\\ep1\\rinder_boot.questphase",
+      "entry": "In1",
+      "facts_equal": {
+        "wst_ep1_04_active": 0,
+        "wst_ep1_04_start": 0,
+        "wst_ep1_04_finished": 0,
+        "wst_ep1_04_gun_taken": 0
+      },
+      "fact_ranges": {
+        "sts_ep1_03_dogtag_obtained": {
+          "min": 1,
+          "max": 2147483647
+        }
+      },
+      "journals": [
+        {
+          "path": "ep1/quests/minor_quest/wst_ep1_04",
+          "class": "gameJournalQuest",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/wst_ep1_04/description",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/wst_ep1_04/wst_ep1_04",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/wst_ep1_04/wst_ep1_04/enter_the_code",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/wst_ep1_04/wst_ep1_04/go_to_rinders_garage",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/wst_ep1_04/wst_ep1_04/loot_the_box",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "reactivate_paths": [],
+      "native_only_guards": [],
+      "observed_facts": [],
+      "observed_journals": [
+        {
+          "class": "gameJournalQuest",
+          "path": "ep1/quests/minor_quest/wst_ep1_04",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestDescription",
+          "path": "ep1/quests/minor_quest/wst_ep1_04/description",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestPhase",
+          "path": "ep1/quests/minor_quest/wst_ep1_04/wst_ep1_04",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/wst_ep1_04/wst_ep1_04/enter_the_code",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/wst_ep1_04/wst_ep1_04/go_to_rinders_garage",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/wst_ep1_04/wst_ep1_04/loot_the_box",
+          "state": "Inactive"
+        }
+      ],
+      "capture_sha256": "47084A3833CFE507D184A19CDD1276215A15F917F6B97AA4130E6A6E6919748A",
+      "route": "Original world-story deletion-marker47->prerequisite46->4; native garage, code, loot and completion."
+    },
+    {
+      "id": "sts_ep1_08_steven_meeting_night_city",
+      "key": "STEVEN",
+      "tag": "PTFRS23_STEVEN",
+      "depot": "towercontinued\\sidejobs_s23\\ep1\\steven_boot.questphase",
+      "entry": "In1",
+      "facts_equal": {
+        "sts_ep1_08_biomonitor_ana": 0,
+        "steven_santos_default_on": 0,
+        "PTFRU9_sts_ep1_08_ParentEntered": 0,
+        "PTFRU9_sts_ep1_08_Started": 0
+      },
+      "fact_ranges": {
+        "sts_ep1_08_finished": {
+          "min": 1,
+          "max": 2147483647
+        }
+      },
+      "journals": [
+        {
+          "path": "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city",
+          "class": "gameJournalQuest",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city/read_message_from_steven",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city/steven_meeting",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city/talk_with_steven",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city_description",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/steven_santos/sts_ep1_08/biomonitor_destroyed_meeting_invitation",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ],
+          "observed": false
+        }
+      ],
+      "reactivate_paths": [],
+      "native_only_guards": [],
+      "observed_facts": [],
+      "observed_journals": [
+        {
+          "class": "gameJournalQuest",
+          "path": "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestPhase",
+          "path": "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city/read_message_from_steven",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city/steven_meeting",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city/talk_with_steven",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestDescription",
+          "path": "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city_description",
+          "state": "Inactive"
+        }
+      ],
+      "capture_sha256": "47084A3833CFE507D184A19CDD1276215A15F917F6B97AA4130E6A6E6919748A",
+      "route": "Only night-city Steven invitation branch of original gig cleanup root/3; original Steven default parent19->17. U9-entered gig excluded because it owns its own follow-up."
+    },
+    {
+      "id": "mq046_cave_vehicle",
+      "key": "MQ046",
+      "tag": "PTFRS23_MQ046",
+      "depot": "towercontinued\\sidejobs_s23\\ep1\\mq046_boot.questphase",
+      "entry": "In1",
+      "facts_equal": {
+        "ma_bls_ina_se1_40_start": 0,
+        "ma_bls_ina_se1_40_finished": 0
+      },
+      "fact_ranges": {},
+      "journals": [
+        {
+          "path": "quests/minor_quest/mq046_cave_vehicle",
+          "class": "gameJournalQuest",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq046_cave_vehicle/mq046_container",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq046_cave_vehicle/mq046_container/get_inside_car",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq046_cave_vehicle/mq046_container/investigate",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq046_cave_vehicle/mq046_desc",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "reactivate_paths": [],
+      "native_only_guards": [
+        "NOR(questVehicleAvailable SpecificVehicle Vehicle.v_sport1_rayfield_caliburn_02_player)",
+        "Original district parent173 seven-tick startup delay retained; native gameplay progression gates retained."
+      ],
+      "observed_facts": [],
+      "observed_journals": [
+        {
+          "class": "gameJournalQuest",
+          "path": "quests/minor_quest/mq046_cave_vehicle",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestPhase",
+          "path": "quests/minor_quest/mq046_cave_vehicle/mq046_container",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "quests/minor_quest/mq046_cave_vehicle/mq046_container/get_inside_car",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "quests/minor_quest/mq046_cave_vehicle/mq046_container/investigate",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestDescription",
+          "path": "quests/minor_quest/mq046_cave_vehicle/mq046_desc",
+          "state": "Inactive"
+        }
+      ],
+      "capture_sha256": "47084A3833CFE507D184A19CDD1276215A15F917F6B97AA4130E6A6E6919748A",
+      "vehicle_not_available": "Vehicle.v_sport1_rayfield_caliburn_02_player",
+      "route": "Original district parent173 -> 141 In1, direct native gameplay, original car reward and Johnny scenes; no legacy reset."
+    },
+    {
+      "id": "mq047_ad_vehicle",
+      "key": "MQ047",
+      "tag": "PTFRS23_MQ047",
+      "depot": "towercontinued\\sidejobs_s23\\ep1\\mq047_boot.questphase",
+      "entry": "In1",
+      "facts_equal": {
+        "ma_bls_ina_se1_44_start": 0,
+        "ma_bls_ina_se1_44_finished": 0
+      },
+      "fact_ranges": {},
+      "journals": [
+        {
+          "path": "quests/minor_quest/mq047_ad_vehicle",
+          "class": "gameJournalQuest",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq047_ad_vehicle/mq046_set",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq047_ad_vehicle/mq046_set/get_inside_car",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq047_ad_vehicle/mq046_set/investigate",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq047_ad_vehicle/mq047_desc",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "reactivate_paths": [],
+      "native_only_guards": [
+        "NOR(questVehicleAvailable SpecificVehicle Vehicle.v_standard25_thorton_colby_pickup_02_player)",
+        "Original district parent173 seven-tick startup delay retained; native gameplay progression gates retained."
+      ],
+      "observed_facts": [],
+      "observed_journals": [
+        {
+          "class": "gameJournalQuest",
+          "path": "quests/minor_quest/mq047_ad_vehicle",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestPhase",
+          "path": "quests/minor_quest/mq047_ad_vehicle/mq046_set",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "quests/minor_quest/mq047_ad_vehicle/mq046_set/get_inside_car",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestObjective",
+          "path": "quests/minor_quest/mq047_ad_vehicle/mq046_set/investigate",
+          "state": "Inactive"
+        },
+        {
+          "class": "gameJournalQuestDescription",
+          "path": "quests/minor_quest/mq047_ad_vehicle/mq047_desc",
+          "state": "Inactive"
+        }
+      ],
+      "capture_sha256": "47084A3833CFE507D184A19CDD1276215A15F917F6B97AA4130E6A6E6919748A",
+      "vehicle_not_available": "Vehicle.v_standard25_thorton_colby_pickup_02_player",
+      "route": "Original district parent173 -> 145 In1, direct native gameplay, original car reward and Johnny scenes; no legacy reset."
+    }
+  ],
+  "policy": "Whitelist actual Failed/Inactive at bounded native stage. All successful history protected; unsupported partial variants defer. Runtime must treat missing entries as unknown, not Inactive. Only three MQ306 entries reactivated. No fresh-history claim."
+}

@@ -1,0 +1,45 @@
+param([string]$Output='research/dogtown_dt1/wanted/native_records_01.json')
+Set-StrictMode -Version Latest
+$ErrorActionPreference='Stop'
+$root=(Resolve-Path (Join-Path $PSScriptRoot '../../..')).Path
+. (Join-Path $root 'tools/build_phase2a.ps1') -HelpersOnly
+$dbs=@();$inputs=@()
+foreach($name in @('tweakdb_ep1.bin','tweakdb.bin')) {
+ $path=Join-Path 'C:/Program Files (x86)/Steam/steamapps/common/Cyberpunk 2077/r6/cache' $name
+ $h=(Get-FileHash $path).Hash;$s=[IO.File]::OpenRead($path);$db=$null
+ try { if(([WolvenKit.RED4.TweakDB.TweakDBReader]::new($s)).ReadFile([ref]$db).ToString() -ne 'NoError'){throw 'Read failed'} } finally {$s.Dispose()}
+ $dbs+=,$db;$inputs+=@{path=$path;sha256=$h}
+}
+Add-Type -TypeDefinition @'
+public static class DT1Hash {
+ public static ulong Append(ulong id,string suffix){byte[] b=System.Text.Encoding.UTF8.GetBytes(suffix);uint c=((uint)id)^0xffffffffu;foreach(byte x in b){c^=x;for(int j=0;j<8;j++)c=(c>>1)^((c&1)!=0?0xedb88320u:0u);}return (((id>>32)+(ulong)b.Length)<<32)|(c^0xffffffffu);}
+}
+'@
+$convert=[WolvenKit.RED4.Types.TweakDBID].GetMethods()|Where-Object {$_.Name -eq 'op_Implicit' -and $_.ReturnType -eq [uint64]}
+$known=@{}
+$names=@('PreventionData.DogTownDataMatrix','PreventionData.DogTown_Kurt_DataMatrix','PreventionData.DogTown_Bennet_DataMatrix','PreventionData.NCPDDataMatrix','PreventionData.DogTown','PreventionData.NCPD')
+foreach($n in $names) { $known[[WolvenKit.RED4.Types.TweakDBID]::CalculateHash($n).ToString()]=$n }
+function HashId($v){return $convert.Invoke($null,[object[]]@($v.PSObject.BaseObject))}
+function Primitive($v){
+ if($null -eq $v){return $null}
+ if($v -is [WolvenKit.RED4.Types.TweakDBID]){$h=(HashId $v).ToString();return @{hash=$h;name=$known[$h]}}
+ if($v -is [Collections.IEnumerable] -and $v -isnot [string]){return ,@($v|ForEach-Object {Primitive $_})}
+ return $v.ToString()
+}
+function TypeOf([uint64]$h){foreach($d in $dbs){$t=$d.Records.GetRecord($h);if($null -ne $t){return $t}};return $null}
+function Flat([uint64]$h,[string]$f){$key=[DT1Hash]::Append($h,'.'+$f);foreach($d in $dbs){if($d.Flats.Exists($key)){return ,$d.Flats.GetValue($key)}};return $null}
+function Record([uint64]$h){
+ $type=TypeOf $h;if($null -eq $type){return @{hash=$h.ToString();missing=$true}}
+ $fields=[ordered]@{}
+ foreach($p in $type.GetProperties()){$f=$p.Name.Substring(0,1).ToLowerInvariant()+$p.Name.Substring(1);$v=Flat $h $f;if($null -ne $v){$fields[$f]=Primitive $v}}
+ return @{hash=$h.ToString();name=$known[$h.ToString()];type=$type.Name;fields=$fields}
+}
+$records=@{};$pending=[Collections.Generic.Queue[object]]::new()
+foreach($n in $names){$pending.Enqueue(@{hash=[WolvenKit.RED4.Types.TweakDBID]::CalculateHash($n);depth=0})}
+while($pending.Count -gt 0){$n=$pending.Dequeue();$k=$n.hash.ToString();if($records.ContainsKey($k)){continue};$r=Record $n.hash;$r.depth=$n.depth;$records[$k]=$r
+ if($n.depth -lt 2 -and $r.ContainsKey('fields')){foreach($field in $r.fields.Keys){foreach($v in @($r.fields[$field])){if($v -is [Collections.IDictionary] -and $v.ContainsKey('hash') -and $v.hash -ne '0'){$pending.Enqueue(@{hash=[uint64]$v.hash;depth=$n.depth+1})}}}}
+}
+foreach($i in $inputs){if((Get-FileHash $i.path).Hash -ne $i.sha256){throw 'Source changed'}}
+$out=Join-Path $root $Output;if(Test-Path $out){throw 'Output exists'};[void](New-Item -ItemType Directory -Force (Split-Path $out))
+@{status='READ_ONLY_NATIVE_PREVENTION_RECORDS';inputs=$inputs;records=@($records.Values|Sort-Object depth,hash);game_writes=0;save_writes=0}|ConvertTo-Json -Depth 30|Set-Content -LiteralPath $out -Encoding utf8
+Write-Output (@{records=$records.Count;output=$out}|ConvertTo-Json)

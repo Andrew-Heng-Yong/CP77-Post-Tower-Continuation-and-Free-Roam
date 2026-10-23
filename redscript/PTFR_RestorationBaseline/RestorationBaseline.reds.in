@@ -1,0 +1,125 @@
+module PTFR.RestorationBaseline
+
+// Baseline-R1: startup for EXISTING native resources, not duplicate owners.
+// No vanilla fact writer; counters, in-flight owners and interruptions retained.
+public class RestorationBaseline extends ScriptableSystem {
+  private let running: Bool;
+  private let epoch: Int32;
+  private let startupTicks: Int32;
+  private let polls: Int32;
+  private let writes: Int32;
+  private let distances: Int32;
+  private let safetyReads: Int32;
+  private func OnAttach() -> Void {
+    this.epoch += 1; this.running = true; this.startupTicks = 0;
+    this.Schedule(this.epoch, 1.0);
+  }
+  private func OnDetach() -> Void { this.running = false; this.epoch += 1; }
+  private func Schedule(epoch: Int32, seconds: Float) -> Void {
+    let delay = GameInstance.GetDelaySystem(this.GetGameInstance());
+    if IsDefined(delay) { delay.DelayCallback(RestorationBaselineTick.Create(this, epoch), seconds, false); }
+  }
+  public func GetPolls() -> Int32 { return this.polls; }
+  public func GetWrites() -> Int32 { return this.writes; }
+  public func GetDistances() -> Int32 { return this.distances; }
+  public func GetSafetyReads() -> Int32 { return this.safetyReads; }
+  private func Set(q: ref<QuestsSystem>, key: CName, value: Int32) -> Void {
+    if q.GetFact(key) != value { q.SetFact(key, value); this.writes += 1; }
+  }
+  private func D2(p: Vector4, x: Float, y: Float, z: Float) -> Float {
+    let dx = p.X-x; let dy = p.Y-y; let dz = p.Z-z;
+    this.distances += 1;
+    return dx*dx+dy*dy+dz*dz;
+  }
+  private func Far(q: ref<QuestsSystem>, p: Vector4, enabled: CName, near: CName, far: CName, gate: CName, x: Float, y: Float, z: Float) -> Void {
+    if q.GetFact(enabled) != 1 { return; }
+    let old = q.GetFact(far);
+    if q.GetFact(near) != 1 && old != 1 { return; }
+    let value: Int32;
+    if q.GetFact(gate) != 1 { value = 1; } else {
+      let d2 = this.D2(p,x,y,z);
+      value = old == 1 ? (d2 >= 2025.0 ? 1 : 0) : (d2 > 3025.0 ? 1 : 0);
+    }
+    this.Set(q,far,value);
+  }
+  private func Startup(q: ref<QuestsSystem>, player: ref<PlayerPuppet>, p: Vector4) -> Void {
+    if q.GetFact(n"PTFRBASE_Suspended") != 0 { return; }
+    let game = this.GetGameInstance();
+    let scenes = GameInstance.GetSceneSystem(game).GetScriptInterface();
+    let workspots = GameInstance.GetWorkspotSystem(game);
+    if !IsDefined(scenes) || !IsDefined(workspots) { return; }
+    this.safetyReads += 1;
+    if player.IsInCombat() || scenes.IsEntityInScene(player.GetEntityID()) || workspots.IsActorInWorkspot(player) { return; }
+    let mounted = GameInstance.GetMountingFacility(game).GetMountingInfoSingleWithObjects(player);
+    if EntityID.IsDefined(mounted.parentId) { return; }
+    let board = player.GetPlayerStateMachineBlackboard();
+    if !IsDefined(board) { return; }
+    let high = board.GetInt(GetAllBlackboardDefs().PlayerStateMachine.HighLevel);
+    let tier = board.GetInt(GetAllBlackboardDefs().PlayerStateMachine.SceneTier);
+    if (high != 1 && high != 2) || (tier != 1 && tier != 2) { return; }
+    if GameInstance.GetQuestsContentSystem(game).IsTokensActivationBlocked() { return; }
+    let saveLocks: array<gameSaveLock>;
+    if GameInstance.IsSavingLocked(game,saveLocks) { return; }
+    // Only perform the pre-tested geometry acquisition from the supported H10
+    // corridor. Never rebuild a floor beneath V or reset an already claimed owner.
+    let dx = p.X+1382.02319; let dy = p.Y-1272.61865;
+    let corridor = high == 1 && tier == 1 && dx*dx+dy*dy <= 3600.0 && AbsF(p.Z-122.869896) < 5.0
+      && (AbsF(dx) > 8.04180908 || AbsF(dy) > 8.04180908);
+    let h10 = this.D2(p,-1383.84473,1276.34424,124.820267) <= 400.0;
+    let coyoteOutside = this.D2(p,-1244.82678,-984.757996,12.0170002) > 64.0;
+@@RULES@@
+    // Native Afterlife owner can bootstrap an unarmed completed-Tower save as
+    // well as switch a saved v5/v6 fallback. Never request both scene owners.
+    if q.GetFact(n"mirror_interaction_disabled") == 0 && q.GetFact(n"PTFRALMA1_Requested") == 0 && q.GetFact(n"PTFRALMA2_Boot") == 1 &&
+       q.GetFact(n"PTFRALMA2_Requested") == 0 && q.GetFact(n"PTFRALMA2_Active") == 0 &&
+       q.GetFact(n"PTFRALMA2_Interrupted") == 0 && q.GetFact(n"PTFRB0ALM_Active") == 0 &&
+       q.GetFact(n"PTFRB0ALM_Near") == 0 && q.GetFact(n"PTFRB0ALM_Interrupted") == 0 &&
+       (q.GetFact(n"PTFRB0ALM_Enabled") == 0 || q.GetFact(n"PTFRB0ALM_Enabled") == 1) &&
+       this.D2(p,-1438.97388,1039.22314,16.92) > 49.0 {
+      this.Set(q,n"PTFRB0ALM_Enabled",0);
+      if q.GetFact(n"PTFRB0ALM_Enabled") == 0 { this.Set(q,n"PTFRALMA2_Requested",1); }
+    }
+  }
+  public func Poll(epoch: Int32) -> Void {
+    if !this.running || epoch != this.epoch { return; }
+    this.polls += 1;
+    let game = this.GetGameInstance();
+    let q = GameInstance.GetQuestsSystem(game);
+    if !IsDefined(q) { this.Schedule(epoch,1.0); return; }
+    let eligible = true;
+@@COMMON@@
+    // Keep watching across the real ending; never force completion or stop
+    // permanently just because this session attached before the credits.
+    if !eligible { this.Schedule(epoch,1.0); return; }
+    let players = GameInstance.GetPlayerSystem(game);
+    if !IsDefined(players) { this.Schedule(epoch,1.0); return; }
+    let player = players.GetLocalPlayerMainGameObject() as PlayerPuppet;
+    if !IsDefined(player) { this.Schedule(epoch,1.0); return; }
+    let p = player.GetWorldPosition();
+    this.Set(q,n"PTFRBASE_Ready",1);
+    if this.startupTicks <= 0 {
+      this.Startup(q,player,p); this.startupTicks = 10;
+    }
+    this.startupTicks -= 1;
+@@FAR@@
+    // Wilson's proved 80/84m Near driver, now independent of CET. Enabled and
+    // native body markers are never cleared merely because a save loaded.
+    if q.GetFact(n"PTFRB0WV_Enabled") == 1 {
+      let allowed = true;
+@@WILSON@@
+      let old = q.GetFact(n"PTFRB0WV_Near");
+      let d2 = this.D2(p,-1450.37012,1318.43982,119.059998);
+      let inside = allowed && (old == 1 ? d2 <= 7056.0 : d2 <= 6400.0);
+      this.Set(q,n"PTFRB0WV_Near",inside ? 1 : 0);
+    }
+    this.Schedule(epoch,0.5);
+  }
+}
+public class RestorationBaselineTick extends DelayCallback {
+  private let driver: wref<RestorationBaseline>;
+  private let epoch: Int32;
+  public func Call() -> Void { if IsDefined(this.driver) { this.driver.Poll(this.epoch); } }
+  public static func Create(driver: ref<RestorationBaseline>,epoch: Int32) -> ref<RestorationBaselineTick> {
+    let c = new RestorationBaselineTick(); c.driver = driver; c.epoch = epoch; return c;
+  }
+}

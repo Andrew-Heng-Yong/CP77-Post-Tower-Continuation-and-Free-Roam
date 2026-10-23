@@ -1,0 +1,1758 @@
+{
+  "schema": 1,
+  "component": "base_a",
+  "capture_sha256": "47084A3833CFE507D184A19CDD1276215A15F917F6B97AA4130E6A6E6919748A",
+  "owners": [
+    {
+      "id": "mq024_sandra",
+      "key": "MQ024",
+      "title": "Full Disclosure",
+      "tag": "PTFRS23_MQ024",
+      "root": "quests/minor_quest/mq024_sandra",
+      "depot": "towercontinued\\sidejobs_s23\\base_a\\mq024_sandra.questphase",
+      "native_source": "research/sidejobs_s2/sacrum_audit/native_01/raw/base/quest/minor_quests/minorquests.questphase",
+      "selected_nodes": [
+        0,
+        9,
+        54,
+        55,
+        70,
+        80,
+        81,
+        83,
+        84,
+        86,
+        128,
+        145,
+        159,
+        165,
+        166,
+        168,
+        172
+      ],
+      "target_nodes": [
+        9,
+        128
+      ],
+      "native_edges": [
+        [
+          0,
+          "Out",
+          81,
+          "In1"
+        ],
+        [
+          54,
+          "Out",
+          86,
+          "In1"
+        ],
+        [
+          55,
+          "Out",
+          70,
+          "In1"
+        ],
+        [
+          70,
+          "Out1",
+          165,
+          "In"
+        ],
+        [
+          80,
+          "Out",
+          55,
+          "In"
+        ],
+        [
+          81,
+          "Out1",
+          83,
+          "In1"
+        ],
+        [
+          81,
+          "Out1",
+          168,
+          "In"
+        ],
+        [
+          83,
+          "Out1",
+          84,
+          "In1"
+        ],
+        [
+          84,
+          "Out1",
+          54,
+          "In"
+        ],
+        [
+          86,
+          "Out1",
+          80,
+          "In"
+        ],
+        [
+          145,
+          "Out",
+          172,
+          "In"
+        ],
+        [
+          159,
+          "Out",
+          145,
+          "In"
+        ],
+        [
+          165,
+          "Out",
+          159,
+          "In"
+        ],
+        [
+          166,
+          "Out",
+          128,
+          "In1"
+        ],
+        [
+          168,
+          "Out",
+          166,
+          "In"
+        ],
+        [
+          172,
+          "False",
+          9,
+          "In1"
+        ]
+      ],
+      "native_target_depots": [
+        "base\\quest\\minor_quests\\mq024\\mq024.questphase",
+        "base\\quest\\minor_quests\\mq024\\phases\\mq024_02a_data_carrier.questphase"
+      ],
+      "facts_equal": {
+        "mq024_active": 0,
+        "mq024_combat_sandra": 0,
+        "mq024_done": 0,
+        "mq024_hook_taken": 0,
+        "mq024_sandra_opened_door": 0,
+        "mq024_test_with_sts": 0
+      },
+      "fact_ranges": {
+        "mq024_hacked_data_carrier": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "journals": [
+        {
+          "path": "quests/minor_quest/mq024_sandra",
+          "class": "gameJournalQuest",
+          "states": [
+            1,
+            4
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq024_sandra/description",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq024_sandra/mq024_sandra",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq024_sandra/mq024_sandra/01_find_data_carrier",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq024_sandra/mq024_sandra/02_call_sandra",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq024_sandra/mq024_sandra/02_call_sandra/description",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq024_sandra/mq024_sandra/03_meet_sandra",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq024_sandra/mq024_sandra/04_defeat_sandra",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "reactivate_paths": [],
+      "conditional_reactivate_paths": [
+        "quests/minor_quest/mq024_sandra"
+      ],
+      "phone_dependency": "PTFRS23_PHONE_SANDRA_Issued",
+      "native_only_guards": [],
+      "route": "Original main and data-carrier branches share one owner; native Kabuki tier, q105 and kab_05_activated prerequisites are retained.",
+      "capture_progress_match": true,
+      "limits": [
+        "Bounded entry only: all catalogued child journals must be Inactive; no active/completed child is reset.",
+        "Failed root is reactivated explicitly only after Issued, with no recursive propagation. Inactive root remains undiscovered until stock gameplay activates it.",
+        "Native unlock waits can delay availability. Issued does not prove a visible marker or interaction.",
+        "No reconstruction of old timer remaining duration; original waits restart only for this bounded entry."
+      ],
+      "live_pending": [
+        "actual gameplay/call/interaction",
+        "reward once",
+        "Johnny voice/body policy",
+        "save/reload"
+      ]
+    },
+    {
+      "id": "mq007_smartgun",
+      "key": "MQ007",
+      "title": "Machine Gun",
+      "tag": "PTFRS23_MQ007",
+      "root": "quests/minor_quest/mq007_smartgun",
+      "depot": "towercontinued\\sidejobs_s23\\base_a\\mq007_smartgun.questphase",
+      "native_source": "research/sidejobs_s2/sacrum_audit/native_01/raw/base/quest/minor_quests/minorquests.questphase",
+      "selected_nodes": [
+        0,
+        21,
+        54,
+        55,
+        62,
+        70,
+        73,
+        80,
+        81,
+        83,
+        84,
+        86
+      ],
+      "target_nodes": [
+        21
+      ],
+      "native_edges": [
+        [
+          0,
+          "Out",
+          81,
+          "In1"
+        ],
+        [
+          54,
+          "Out",
+          86,
+          "In1"
+        ],
+        [
+          55,
+          "Out",
+          70,
+          "In1"
+        ],
+        [
+          62,
+          "Out1",
+          21,
+          "In1"
+        ],
+        [
+          70,
+          "Out1",
+          73,
+          "In1"
+        ],
+        [
+          73,
+          "Out1",
+          62,
+          "In1"
+        ],
+        [
+          80,
+          "Out",
+          55,
+          "In"
+        ],
+        [
+          81,
+          "Out1",
+          83,
+          "In1"
+        ],
+        [
+          83,
+          "Out1",
+          84,
+          "In1"
+        ],
+        [
+          84,
+          "Out1",
+          54,
+          "In"
+        ],
+        [
+          86,
+          "Out1",
+          80,
+          "In"
+        ]
+      ],
+      "native_target_depots": [
+        "base\\quest\\minor_quests\\mq007\\mq007.questphase"
+      ],
+      "facts_equal": {
+        "mq007_done": 0,
+        "mq007_debug": 0,
+        "mq007_opt_A": 0,
+        "mq007_skippy_50_enemies_defeated": 0,
+        "mq007_skippy_50_enemies_killed_and_stoneColdKiller": 0,
+        "mq007_skippy_50_enemies_maimed": 0,
+        "mq007_skippy_enemies_lethal": 0,
+        "mq007_skippy_enemies_non_lethal": 0,
+        "mq007_skippy_enemies_total": 0,
+        "mq007_skippy_owner_known": 0,
+        "mq007_skippy_re_acquiring_done": 0,
+        "mq007_skippy_goes_emo": 0,
+        "mq007_skippy_stash": 0
+      },
+      "fact_ranges": {},
+      "journals": [
+        {
+          "path": "quests/minor_quest/mq007_smartgun",
+          "class": "gameJournalQuest",
+          "states": [
+            1,
+            4
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq007_smartgun/mq007_smartgun",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq007_smartgun/mq007_smartgun/01_deliver_skippy",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq007_smartgun/mq007_smartgun/01_deliver_skippy/description",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq007_smartgun/mq007_smartgun/02_put_skippy_down",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq007_smartgun/mq007_smartgun/03_talk_to_regina",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "reactivate_paths": [],
+      "conditional_reactivate_paths": [
+        "quests/minor_quest/mq007_smartgun"
+      ],
+      "phone_dependency": null,
+      "native_only_guards": [
+        "Skippy inventory count = 0"
+      ],
+      "route": "Fresh pickup only. Native inventory-zero guard also required. Captured 95-kill gun is NOT restarted: the 50-enemy flag predates the mode-change scene and is not its completion acknowledgement.",
+      "capture_progress_match": false,
+      "limits": [
+        "Bounded entry only: all catalogued child journals must be Inactive; no active/completed child is reset.",
+        "Failed root is reactivated explicitly only after Issued, with no recursive propagation. Inactive root remains undiscovered until stock gameplay activates it.",
+        "Native unlock waits can delay availability. Issued does not prove a visible marker or interaction.",
+        "No reconstruction of old timer remaining duration; original waits restart only for this bounded entry."
+      ],
+      "live_pending": [
+        "actual gameplay/call/interaction",
+        "reward once",
+        "Johnny voice/body policy",
+        "save/reload"
+      ]
+    },
+    {
+      "id": "mq035_ozob",
+      "key": "MQ035",
+      "title": "Send in the Clowns",
+      "tag": "PTFRS23_MQ035",
+      "root": "quests/minor_quest/mq035_ozob",
+      "depot": "towercontinued\\sidejobs_s23\\base_a\\mq035_ozob.questphase",
+      "native_source": "research/sidejobs_s2/sacrum_audit/native_01/raw/base/quest/minor_quests/minorquests.questphase",
+      "selected_nodes": [
+        0,
+        32,
+        47,
+        54,
+        55,
+        59,
+        62,
+        70,
+        73,
+        76,
+        80,
+        81,
+        83,
+        84,
+        86,
+        130
+      ],
+      "target_nodes": [
+        32
+      ],
+      "native_edges": [
+        [
+          0,
+          "Out",
+          81,
+          "In1"
+        ],
+        [
+          47,
+          "Out1",
+          76,
+          "In1"
+        ],
+        [
+          54,
+          "Out",
+          86,
+          "In1"
+        ],
+        [
+          55,
+          "Out",
+          70,
+          "In1"
+        ],
+        [
+          59,
+          "Out1",
+          47,
+          "In1"
+        ],
+        [
+          62,
+          "Out1",
+          59,
+          "In1"
+        ],
+        [
+          70,
+          "Out1",
+          73,
+          "In1"
+        ],
+        [
+          73,
+          "Out1",
+          62,
+          "In1"
+        ],
+        [
+          76,
+          "Out1",
+          130,
+          "In1"
+        ],
+        [
+          80,
+          "Out",
+          55,
+          "In"
+        ],
+        [
+          81,
+          "Out1",
+          83,
+          "In1"
+        ],
+        [
+          83,
+          "Out1",
+          84,
+          "In1"
+        ],
+        [
+          84,
+          "Out1",
+          54,
+          "In"
+        ],
+        [
+          86,
+          "Out1",
+          80,
+          "In"
+        ],
+        [
+          130,
+          "Out1",
+          32,
+          "In1"
+        ]
+      ],
+      "native_target_depots": [
+        "base\\quest\\minor_quests\\mq035\\mq035_ozob.questphase"
+      ],
+      "facts_equal": {
+        "mq035_car_ride": 0,
+        "mq035_done": 0,
+        "mq035_drive_chat": 0,
+        "mq035_ow_despawn": 0
+      },
+      "fact_ranges": {},
+      "journals": [
+        {
+          "path": "quests/minor_quest/mq035_ozob",
+          "class": "gameJournalQuest",
+          "states": [
+            1,
+            4
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq035_ozob/mq035_ozob",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq035_ozob/mq035_ozob/00_call_ozob",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq035_ozob/mq035_ozob/00_call_ozob/description",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq035_ozob/mq035_ozob/02_meet_ozob",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq035_ozob/mq035_ozob/02_meet_ozob/description",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq035_ozob/mq035_ozob/03_drive_to_casino",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq035_ozob/mq035_ozob/04_wait",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq035_ozob/mq035_ozob/05_drive_to_ambush",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq035_ozob/mq035_ozob/06_kill_enemies",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq035_ozob/mq035_ozob/07_talk_ozob",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq035_ozob/mq035_ozob/honk",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq035_ozob/mq035_ozob/return_to_car",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq035_ozob/mq035_ozob/wait_for_ozob_to_get_in_car",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "reactivate_paths": [],
+      "conditional_reactivate_paths": [
+        "quests/minor_quest/mq035_ozob"
+      ],
+      "phone_dependency": "PTFRS23_PHONE_OZOB_Issued",
+      "native_only_guards": [],
+      "route": "Native street-cred/q110 unlock, message/call, car ride, ambush, cleanup and reward retained.",
+      "capture_progress_match": true,
+      "limits": [
+        "Bounded entry only: all catalogued child journals must be Inactive; no active/completed child is reset.",
+        "Failed root is reactivated explicitly only after Issued, with no recursive propagation. Inactive root remains undiscovered until stock gameplay activates it.",
+        "Native unlock waits can delay availability. Issued does not prove a visible marker or interaction.",
+        "No reconstruction of old timer remaining duration; original waits restart only for this bounded entry."
+      ],
+      "live_pending": [
+        "actual gameplay/call/interaction",
+        "reward once",
+        "Johnny voice/body policy",
+        "save/reload"
+      ]
+    },
+    {
+      "id": "mq012_stud",
+      "key": "MQ012",
+      "title": "Burning Desire/Night Moves",
+      "tag": "PTFRS23_MQ012",
+      "root": "quests/minor_quest/mq012_stud",
+      "depot": "towercontinued\\sidejobs_s23\\base_a\\mq012_stud.questphase",
+      "native_source": "research/sidejobs_s2/sacrum_audit/native_01/raw/base/quest/minor_quests/minorquests.questphase",
+      "selected_nodes": [
+        0,
+        16,
+        81,
+        117
+      ],
+      "target_nodes": [
+        16
+      ],
+      "native_edges": [
+        [
+          0,
+          "Out",
+          81,
+          "In1"
+        ],
+        [
+          81,
+          "Out1",
+          117,
+          "In"
+        ],
+        [
+          117,
+          "Out",
+          16,
+          "In1"
+        ]
+      ],
+      "native_target_depots": [
+        "base\\quest\\minor_quests\\mq012\\mq012.questphase"
+      ],
+      "facts_equal": {
+        "mq012_arrived_in_car": 0,
+        "mq012_can_stop_at_ripperdoc": 0,
+        "mq012_debug": 0,
+        "mq012_disable_blockade": 0,
+        "mq012_disabled_truck_blockade": 0,
+        "mq012_done": 0,
+        "mq012_kids_past_danger": 0,
+        "mq012_stud_dead": 0,
+        "mq012_stud_stop_pose": 0
+      },
+      "fact_ranges": {
+        "mq012_active": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "journals": [
+        {
+          "path": "quests/minor_quest/mq012_stud",
+          "class": "gameJournalQuest",
+          "states": [
+            1,
+            4
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq012_stud/00_stud",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq012_stud/00_stud/000_lose_heat",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq012_stud/00_stud/00_find_out",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq012_stud/00_stud/00_find_out/description_new",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq012_stud/00_stud/01_talk_man",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq012_stud/00_stud/01b_help",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq012_stud/00_stud/02_get_car",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq012_stud/00_stud/02b_return_to_car",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq012_stud/00_stud/03_drive_ripperdoc",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq012_stud/00_stud/04_stop_at_ripper",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq012_stud/00_stud/05_wait_for_call",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq012_stud/00_stud/06_talk_to_stud",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "reactivate_paths": [],
+      "conditional_reactivate_paths": [
+        "quests/minor_quest/mq012_stud"
+      ],
+      "phone_dependency": "PTFRS23_PHONE_MRSTUD_Issued",
+      "native_only_guards": [],
+      "route": "Original setup sets active=1 before the encounter; 0 or 1 is admitted without resetting it. All objectives remain unstarted.",
+      "capture_progress_match": true,
+      "limits": [
+        "Bounded entry only: all catalogued child journals must be Inactive; no active/completed child is reset.",
+        "Failed root is reactivated explicitly only after Issued, with no recursive propagation. Inactive root remains undiscovered until stock gameplay activates it.",
+        "Native unlock waits can delay availability. Issued does not prove a visible marker or interaction.",
+        "No reconstruction of old timer remaining duration; original waits restart only for this bounded entry."
+      ],
+      "live_pending": [
+        "actual gameplay/call/interaction",
+        "reward once",
+        "Johnny voice/body policy",
+        "save/reload"
+      ]
+    },
+    {
+      "id": "mq002_veterans",
+      "key": "MQ002",
+      "title": "Gun Music",
+      "tag": "PTFRS23_MQ002",
+      "root": "quests/minor_quest/mq002_veterans",
+      "depot": "towercontinued\\sidejobs_s23\\base_a\\mq002_veterans.questphase",
+      "native_source": "research/sidejobs_s2/sacrum_audit/native_01/raw/base/quest/minor_quests/minorquests.questphase",
+      "selected_nodes": [
+        0,
+        12,
+        47,
+        52,
+        53,
+        54,
+        55,
+        59,
+        62,
+        70,
+        73,
+        76,
+        78,
+        80,
+        81,
+        82,
+        83,
+        84,
+        86,
+        89,
+        90,
+        173
+      ],
+      "target_nodes": [
+        12
+      ],
+      "native_edges": [
+        [
+          0,
+          "Out",
+          81,
+          "In1"
+        ],
+        [
+          47,
+          "Out1",
+          76,
+          "In1"
+        ],
+        [
+          52,
+          "Out",
+          53,
+          "In"
+        ],
+        [
+          53,
+          "Out",
+          173,
+          "In"
+        ],
+        [
+          54,
+          "Out",
+          86,
+          "In1"
+        ],
+        [
+          55,
+          "Out",
+          70,
+          "In1"
+        ],
+        [
+          59,
+          "Out1",
+          47,
+          "In1"
+        ],
+        [
+          62,
+          "Out1",
+          59,
+          "In1"
+        ],
+        [
+          70,
+          "Out1",
+          73,
+          "In1"
+        ],
+        [
+          73,
+          "Out1",
+          62,
+          "In1"
+        ],
+        [
+          76,
+          "Out1",
+          82,
+          "In1"
+        ],
+        [
+          78,
+          "Out",
+          89,
+          "In1"
+        ],
+        [
+          80,
+          "Out",
+          55,
+          "In"
+        ],
+        [
+          81,
+          "Out1",
+          83,
+          "In1"
+        ],
+        [
+          82,
+          "Out1",
+          78,
+          "In"
+        ],
+        [
+          83,
+          "Out1",
+          84,
+          "In1"
+        ],
+        [
+          84,
+          "Out1",
+          54,
+          "In"
+        ],
+        [
+          86,
+          "Out1",
+          80,
+          "In"
+        ],
+        [
+          89,
+          "Out1",
+          90,
+          "In1"
+        ],
+        [
+          90,
+          "Out1",
+          52,
+          "In"
+        ],
+        [
+          173,
+          "False",
+          12,
+          "In1"
+        ]
+      ],
+      "native_target_depots": [
+        "base\\quest\\minor_quests\\mq002\\mq002.questphase"
+      ],
+      "facts_equal": {
+        "mq002_deal_broken_combat": 0,
+        "mq002_deal_proceeded": 0,
+        "mq002_done": 0,
+        "mq002_escaped": 0,
+        "mq002_escaped_combat": 0,
+        "mq002_sniper_noticed": 0
+      },
+      "fact_ranges": {
+        "mq002_active": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "journals": [
+        {
+          "path": "quests/minor_quest/mq002_veterans",
+          "class": "gameJournalQuest",
+          "states": [
+            1,
+            4
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq002_veterans/mq002_veterans",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq002_veterans/mq002_veterans/01_intro",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq002_veterans/mq002_veterans/01_intro/mq002_description",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq002_veterans/mq002_veterans/02_deal",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq002_veterans/mq002_veterans/03_fight",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq002_veterans/mq002_veterans/04_summary",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "reactivate_paths": [],
+      "conditional_reactivate_paths": [
+        "quests/minor_quest/mq002_veterans"
+      ],
+      "phone_dependency": null,
+      "native_only_guards": [],
+      "route": "Original beginning input0->fact9 active=1->trigger8. Preserve camp outcomes and stock suspension, actor setup, scene and reward branches.",
+      "capture_progress_match": true,
+      "limits": [
+        "Bounded entry only: all catalogued child journals must be Inactive; no active/completed child is reset.",
+        "Failed root is reactivated explicitly only after Issued, with no recursive propagation. Inactive root remains undiscovered until stock gameplay activates it.",
+        "Native unlock waits can delay availability. Issued does not prove a visible marker or interaction.",
+        "No reconstruction of old timer remaining duration; original waits restart only for this bounded entry."
+      ],
+      "live_pending": [
+        "actual gameplay/call/interaction",
+        "reward once",
+        "Johnny voice/body policy",
+        "save/reload"
+      ]
+    },
+    {
+      "id": "mq021_guide",
+      "key": "MQ021",
+      "title": "Fortunate Son",
+      "tag": "PTFRS23_MQ021",
+      "root": "quests/minor_quest/mq021_guide",
+      "depot": "towercontinued\\sidejobs_s23\\base_a\\mq021_guide.questphase",
+      "native_source": "research/sidejobs_s2/sacrum_audit/native_01/raw/base/quest/minor_quests/minorquests.questphase",
+      "selected_nodes": [
+        0,
+        8,
+        47,
+        52,
+        53,
+        54,
+        55,
+        56,
+        59,
+        62,
+        70,
+        73,
+        76,
+        78,
+        80,
+        81,
+        82,
+        83,
+        84,
+        86,
+        89,
+        90
+      ],
+      "target_nodes": [
+        8
+      ],
+      "native_edges": [
+        [
+          0,
+          "Out",
+          81,
+          "In1"
+        ],
+        [
+          47,
+          "Out1",
+          76,
+          "In1"
+        ],
+        [
+          52,
+          "Out",
+          53,
+          "In"
+        ],
+        [
+          53,
+          "Out",
+          56,
+          "In"
+        ],
+        [
+          54,
+          "Out",
+          86,
+          "In1"
+        ],
+        [
+          55,
+          "Out",
+          70,
+          "In1"
+        ],
+        [
+          56,
+          "Out",
+          8,
+          "In1"
+        ],
+        [
+          59,
+          "Out1",
+          47,
+          "In1"
+        ],
+        [
+          62,
+          "Out1",
+          59,
+          "In1"
+        ],
+        [
+          70,
+          "Out1",
+          73,
+          "In1"
+        ],
+        [
+          73,
+          "Out1",
+          62,
+          "In1"
+        ],
+        [
+          76,
+          "Out1",
+          82,
+          "In1"
+        ],
+        [
+          78,
+          "Out",
+          89,
+          "In1"
+        ],
+        [
+          80,
+          "Out",
+          55,
+          "In"
+        ],
+        [
+          81,
+          "Out1",
+          83,
+          "In1"
+        ],
+        [
+          82,
+          "Out1",
+          78,
+          "In"
+        ],
+        [
+          83,
+          "Out1",
+          84,
+          "In1"
+        ],
+        [
+          84,
+          "Out1",
+          54,
+          "In"
+        ],
+        [
+          86,
+          "Out1",
+          80,
+          "In"
+        ],
+        [
+          89,
+          "Out1",
+          90,
+          "In1"
+        ],
+        [
+          90,
+          "Out1",
+          52,
+          "In"
+        ]
+      ],
+      "native_target_depots": [
+        "base\\quest\\minor_quests\\mq021\\mq021.questphase"
+      ],
+      "facts_equal": {
+        "mq021_active": 0,
+        "mq021_bob_ending_approached": 0,
+        "mq021_done": 0,
+        "mq021_happy_ending": 0
+      },
+      "fact_ranges": {},
+      "journals": [
+        {
+          "path": "quests/minor_quest/mq021_guide",
+          "class": "gameJournalQuest",
+          "states": [
+            1,
+            4
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq021_guide/mq021_guide",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq021_guide/mq021_guide/04_meeting",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq021_guide/mq021_guide/04_meeting/mq021_description",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq021_guide/mq021_guide/05_participate_meeting",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq021_guide/mq021_guide/06_defend",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq021_guide/mq021_guide/07_1_kill_doctor",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq021_guide/mq021_guide/07_2_get_suitcase",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq021_guide/mq021_guide/07_confront_doctor",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq021_guide/mq021_guide/08_outcome",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq021_guide/mq021_guide/09_ending",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq021_guide/mq021_guide/10_ending_wait",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq021_guide/mq021_guide/11_ending_read",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "reactivate_paths": [],
+      "conditional_reactivate_paths": [
+        "quests/minor_quest/mq021_guide"
+      ],
+      "phone_dependency": null,
+      "native_only_guards": [],
+      "route": "Original sq004/sq027 prerequisites, camp state, briefing, hospital, choice and reward branches retained.",
+      "capture_progress_match": true,
+      "limits": [
+        "Bounded entry only: all catalogued child journals must be Inactive; no active/completed child is reset.",
+        "Failed root is reactivated explicitly only after Issued, with no recursive propagation. Inactive root remains undiscovered until stock gameplay activates it.",
+        "Native unlock waits can delay availability. Issued does not prove a visible marker or interaction.",
+        "No reconstruction of old timer remaining duration; original waits restart only for this bounded entry."
+      ],
+      "live_pending": [
+        "actual gameplay/call/interaction",
+        "reward once",
+        "Johnny voice/body policy",
+        "save/reload"
+      ]
+    },
+    {
+      "id": "mq041_corpo",
+      "key": "MQ041",
+      "title": "War Pigs",
+      "tag": "PTFRS23_MQ041",
+      "root": "quests/minor_quest/mq041_corpo",
+      "depot": "towercontinued\\sidejobs_s23\\base_a\\mq041_corpo.questphase",
+      "native_source": "research/sidejobs_s2/sacrum_audit/native_01/raw/base/quest/minor_quests/minorquests.questphase",
+      "selected_nodes": [
+        0,
+        54,
+        55,
+        70,
+        80,
+        81,
+        83,
+        84,
+        86,
+        106
+      ],
+      "target_nodes": [
+        106
+      ],
+      "native_edges": [
+        [
+          0,
+          "Out",
+          81,
+          "In1"
+        ],
+        [
+          54,
+          "Out",
+          86,
+          "In1"
+        ],
+        [
+          55,
+          "Out",
+          70,
+          "In1"
+        ],
+        [
+          70,
+          "Out1",
+          106,
+          "In1"
+        ],
+        [
+          80,
+          "Out",
+          55,
+          "In"
+        ],
+        [
+          81,
+          "Out1",
+          83,
+          "In1"
+        ],
+        [
+          83,
+          "Out1",
+          84,
+          "In1"
+        ],
+        [
+          84,
+          "Out1",
+          54,
+          "In"
+        ],
+        [
+          86,
+          "Out1",
+          80,
+          "In"
+        ]
+      ],
+      "native_target_depots": [
+        "base\\quest\\minor_quests\\mq041\\mq041_corpo.questphase"
+      ],
+      "facts_equal": {
+        "mq041_corpo_started": 0,
+        "mq041_debug": 0,
+        "mq041_done": 0
+      },
+      "fact_ranges": {},
+      "journals": [
+        {
+          "path": "quests/minor_quest/mq041_corpo",
+          "class": "gameJournalQuest",
+          "states": [
+            1,
+            4
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq041_corpo/corpo",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq041_corpo/corpo/01_find_the_briefcase",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq041_corpo/corpo/01_find_the_briefcase/description",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq041_corpo/corpo/01a_talk_with_johnny",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq041_corpo/corpo/01a_talk_with_johnny1",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq041_corpo/corpo/01b_lift_the_dumpster",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq041_corpo/corpo/02_open_the_briefcase",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq041_corpo/corpo/03_talk_with_stranger",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq041_corpo/corpo/04_confront_frank",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "reactivate_paths": [],
+      "conditional_reactivate_paths": [
+        "quests/minor_quest/mq041_corpo"
+      ],
+      "phone_dependency": "PTFRS23_PHONE_FRANK_Issued",
+      "native_only_guards": [],
+      "route": "Original Corpo lifepath and q110/EP1 gates remain authoritative; non-Corpo does not receive War Pigs.",
+      "capture_progress_match": true,
+      "limits": [
+        "Bounded entry only: all catalogued child journals must be Inactive; no active/completed child is reset.",
+        "Failed root is reactivated explicitly only after Issued, with no recursive propagation. Inactive root remains undiscovered until stock gameplay activates it.",
+        "Native unlock waits can delay availability. Issued does not prove a visible marker or interaction.",
+        "No reconstruction of old timer remaining duration; original waits restart only for this bounded entry."
+      ],
+      "live_pending": [
+        "actual gameplay/call/interaction",
+        "reward once",
+        "Johnny voice/body policy",
+        "save/reload"
+      ]
+    },
+    {
+      "id": "mq044_jakes_vehicle",
+      "key": "MQ044",
+      "title": "Sex on Wheels",
+      "tag": "PTFRS23_MQ044",
+      "root": "quests/minor_quest/mq044_jakes_vehicle",
+      "depot": "towercontinued\\sidejobs_s23\\base_a\\mq044_jakes_vehicle.questphase",
+      "native_source": "research/sidejobs_s2/sacrum_audit/native_01/raw/base/quest/minor_quests/minorquests.questphase",
+      "selected_nodes": [
+        0,
+        47,
+        54,
+        55,
+        59,
+        62,
+        70,
+        73,
+        80,
+        81,
+        83,
+        84,
+        86,
+        148,
+        149,
+        150
+      ],
+      "target_nodes": [
+        149
+      ],
+      "native_edges": [
+        [
+          0,
+          "Out",
+          81,
+          "In1"
+        ],
+        [
+          47,
+          "Out1",
+          148,
+          "In"
+        ],
+        [
+          54,
+          "Out",
+          86,
+          "In1"
+        ],
+        [
+          55,
+          "Out",
+          70,
+          "In1"
+        ],
+        [
+          59,
+          "Out1",
+          47,
+          "In1"
+        ],
+        [
+          62,
+          "Out1",
+          59,
+          "In1"
+        ],
+        [
+          70,
+          "Out1",
+          73,
+          "In1"
+        ],
+        [
+          73,
+          "Out1",
+          62,
+          "In1"
+        ],
+        [
+          80,
+          "Out",
+          55,
+          "In"
+        ],
+        [
+          81,
+          "Out1",
+          83,
+          "In1"
+        ],
+        [
+          83,
+          "Out1",
+          84,
+          "In1"
+        ],
+        [
+          84,
+          "Out1",
+          54,
+          "In"
+        ],
+        [
+          86,
+          "Out1",
+          80,
+          "In"
+        ],
+        [
+          148,
+          "Out",
+          150,
+          "In"
+        ],
+        [
+          150,
+          "Out",
+          149,
+          "In1"
+        ]
+      ],
+      "native_target_depots": [
+        "base\\quest\\minor_quests\\mq044\\phases\\mq044.questphase"
+      ],
+      "facts_equal": {
+        "mq044_done": 0,
+        "mq044_started": 0,
+        "mq_044_started_in_main": 0
+      },
+      "fact_ranges": {},
+      "journals": [
+        {
+          "path": "quests/minor_quest/mq044_jakes_vehicle",
+          "class": "gameJournalQuest",
+          "states": [
+            1,
+            4
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq044_jakes_vehicle/mq044_jakes_vehicle",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq044_jakes_vehicle/mq044_jakes_vehicle/01_reach_garage",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq044_jakes_vehicle/mq044_jakes_vehicle/01_reach_garage/brief",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq044_jakes_vehicle/mq044_jakes_vehicle/03_get_in_car",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq044_jakes_vehicle/mq044_jakes_vehicle/04_leave_area",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "reactivate_paths": [],
+      "conditional_reactivate_paths": [
+        "quests/minor_quest/mq044_jakes_vehicle"
+      ],
+      "phone_dependency": null,
+      "native_only_guards": [],
+      "route": "Original gle_06_finished prerequisite, three-game-day delay and succeed outcome gate retained; no granted vehicle or forced unlock.",
+      "capture_progress_match": true,
+      "limits": [
+        "Bounded entry only: all catalogued child journals must be Inactive; no active/completed child is reset.",
+        "Failed root is reactivated explicitly only after Issued, with no recursive propagation. Inactive root remains undiscovered until stock gameplay activates it.",
+        "Native unlock waits can delay availability. Issued does not prove a visible marker or interaction.",
+        "No reconstruction of old timer remaining duration; original waits restart only for this bounded entry."
+      ],
+      "live_pending": [
+        "actual gameplay/call/interaction",
+        "reward once",
+        "Johnny voice/body policy",
+        "save/reload"
+      ]
+    }
+  ]
+}

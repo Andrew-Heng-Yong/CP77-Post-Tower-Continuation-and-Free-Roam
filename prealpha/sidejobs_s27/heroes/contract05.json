@@ -1,0 +1,1125 @@
+{
+  "schema": "S27_HEROES_PACKAGE_CONTRACT_1",
+  "status": "PREPARED_NOT_LIVE",
+  "common_equal": {
+    "PostTowerFreeRoamActive": 1,
+    "PTFRP0_DR13": 1,
+    "PTFRPA2_Finished": 1,
+    "PTFRPA2_Fault": 0,
+    "q307_done": 1,
+    "q307_finished": 1,
+    "q307_2079": 1,
+    "q307_active": 0,
+    "q307_main_game_killed": 1,
+    "q307_ep1_killed": 1,
+    "PTFRU9_Support_Issued": 1,
+    "PTFRU9_Support_Fault": 0,
+    "q307_debug_reset": 0,
+    "q115_point_of_no_return": 0,
+    "q305_johnny_scene_active": 0
+  },
+  "owners": [
+    {
+      "id": "sq018_jackie",
+      "ids": [
+        "sq018_jackie"
+      ],
+      "title": "Heroes (original package route)",
+      "key": "HEROES_PACKAGE",
+      "tag": "PTFRS27_HEROES_PACKAGE",
+      "depot": "towercontinued\\sidejobs_s27\\heroes\\heroes_package.questphase",
+      "facts_equal": {
+        "PTFRB0ST_Suspended": 0,
+        "PTFRBASE_Suspended": 0,
+        "audio_mama_welles_calls_v_start_activate": 0,
+        "audio_v_calls_mama_welles_end_activate": 0,
+        "audio_v_calls_mama_welles_start_activate": 0,
+        "ep1_standalone": 0,
+        "holo_active_call_interrupted": 0,
+        "holo_force_reset": 0,
+        "holo_interrupt_braindance": 0,
+        "holo_interrupt_call": 0,
+        "holo_interrupt_call_manual": 0,
+        "holo_mama_welles_calls_v_end_activate": 0,
+        "holo_mama_welles_calls_v_start_activate": 0,
+        "holo_reset": 0,
+        "holo_reset_soft": 0,
+        "holo_setup_active": 0,
+        "holo_setup_started": 0,
+        "holo_v_calls_mama_welles_end_activate": 0,
+        "holo_v_calls_mama_welles_start_activate": 0,
+        "mama_welles_dd_holo": 0,
+        "mama_welles_default_on": 0,
+        "mq040_active": 0,
+        "pepe_dd_holo": 0,
+        "phonecall_player_with_mama_welles": 0,
+        "q005_jackie_stay_notell": 0,
+        "q005_jackie_to_mama": 0,
+        "sq018_01_funeral_preparations": 0,
+        "sq018_03_ball_ofrenda": 0,
+        "sq018_03_belt_ofrenda": 0,
+        "sq018_03_book_ofrenda": 0,
+        "sq018_03_done": 0,
+        "sq018_03_funeral_active": 0,
+        "sq018_03_padre_onspot": 0,
+        "sq018_03_pepe_onspot": 0,
+        "sq018_03_tequila_ofrenda": 0,
+        "sq018_03_victor_onspot": 0,
+        "sq018_03_victor_started": 0,
+        "sq018_03a_misty_invited": 0,
+        "sq018_04b_gus_drink": 0,
+        "sq018_04b_val_drink": 0,
+        "sq018_active": 0,
+        "sq018_dbg_start_apartment": 0,
+        "sq018_dbg_start_el_coyote_cojo": 0,
+        "sq018_done": 0,
+        "sq018_mama_welles_met": 0,
+        "sq018_v_called": 0
+      },
+      "fact_ranges": {
+        "sq018_enable": {
+          "min": 1,
+          "max": 2147483647
+        }
+      },
+      "journals": [
+        {
+          "path": "quests/side_quest/sq018_jackie",
+          "class": "gameJournalQuest",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/00_holocall",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/00_holocall/01_read_messages",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/00_holocall/01_read_messages/codex_link_mama_welles",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/00_holocall/01_read_messages/message",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/00_holocall/02_call_mama_welles",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/00_holocall/02_call_mama_welles/mama_welles",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/00_holocall/02_call_mama_welles/codex_link_mama_welles",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/00_holocall/04_talk_with_mama_welles",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/00_holocall/04_talk_with_mama_welles/codex_link_mama_welles",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/00_holocall/03_get_package",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/00_holocall/03_get_package/sq018_package",
+          "class": "gameJournalQuestMapPin",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/00_holocall/03_get_package/codex_link_mama_welles",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/00_holocall/01_read_messages1",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/00_holocall/01_read_messages1/codex_link_mama_welles",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/00_holocall/01_read_messages1/message",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/01_mama_welles",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/01_mama_welles/01_visit_el_coyote",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/01_mama_welles/01_visit_el_coyote/sq018_tr_el_coyote_cojo",
+          "class": "gameJournalQuestMapPin",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/01_mama_welles/01_visit_el_coyote/codex_link_mama_welles",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/01_mama_welles/01_visit_el_coyote/codex_link_glen",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/01_mama_welles/01_visit_el_coyote/codex_link_el_coyote_cojo",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/01_mama_welles/02_talk_with_mama_welles",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/01_mama_welles/02_talk_with_mama_welles/mama_welles",
+          "class": "gameJournalQuestMapPin",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/01_mama_welles/02_talk_with_mama_welles/codex_link_mama_welles",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/01_mama_welles/02_talk_with_mama_welles/codex_link_glen",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/01_mama_welles/02_talk_with_mama_welles/codex_link_el_coyote_cojo",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/01_mama_welles/03_take_keycard",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/01_mama_welles/03_take_keycard/sq018_keycard_storage",
+          "class": "gameJournalQuestMapPin",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/01_mama_welles/03_take_keycard/codex_link_mama_welles",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/01_mama_welles/03_take_keycard/codex_link_glen",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/01_mama_welles/03_take_keycard/codex_link_el_coyote_cojo",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/01_mama_welles/02a_sit_down",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/01_mama_welles/02a_sit_down/sq018_mp_sit_down",
+          "class": "gameJournalQuestMapPin",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/01_mama_welles/02a_sit_down/codex_link_mama_welles",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/01_mama_welles/02a_sit_down/codex_link_glen",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/01_mama_welles/02a_sit_down/codex_link_el_coyote_cojo",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/02_storage",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/02_storage/01_got_to_jackies_storage",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/02_storage/01_got_to_jackies_storage/sq018_tr_jackies_storage",
+          "class": "gameJournalQuestMapPin",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/02_storage/01_got_to_jackies_storage/codex_link_glen",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/02_storage/04_open_storage",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/02_storage/04_open_storage/sq018_dvc_terminal_gate_storage_code",
+          "class": "gameJournalQuestMapPin",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/02_storage/04_open_storage/codex_link_glen",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/02_storage/05_go_through_jackies_stuff",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/02_storage/05_go_through_jackies_stuff/sq018_tr_explore",
+          "class": "gameJournalQuestMapPin",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/02_storage/06_pick_things_for_ofrenda",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/02_storage/06_pick_things_for_ofrenda/codex_link_glen",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/02_storage/05_talk_with_misty",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/02_storage/05_talk_with_misty/misty",
+          "class": "gameJournalQuestMapPin",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/02_storage/05_talk_with_misty/codex_link_misty",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/02_storage/04a_find_a_key",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/02_storage/04a_find_a_key/codex_link_glen",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/02_storage/04b_open_door",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/02_storage/05a_optional_talk_misty",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/02_storage/05a_optional_talk_misty/misty",
+          "class": "gameJournalQuestMapPin",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/02_storage/05a_optional_talk_misty/codex_link_misty",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/01_go_to_el_coyote",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/01_go_to_el_coyote/sq018_tr_el_coyote_cojo",
+          "class": "gameJournalQuestMapPin",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/01_go_to_el_coyote/misty",
+          "class": "gameJournalQuestMapPin",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/01_go_to_el_coyote/codex_link_mama_welles",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/01_go_to_el_coyote/codex_link_glen",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/01_go_to_el_coyote/codex_link_el_coyote_cojo",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/02_talk_with_mama_welles",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/02_talk_with_mama_welles/mama_welles",
+          "class": "gameJournalQuestMapPin",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/02_talk_with_mama_welles/codex_link_mama_welles",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/02_talk_with_mama_welles/codex_link_glen",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/02_talk_with_mama_welles/codex_link_el_coyote_cojo",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/03_leave_things_ofrenda",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/03_leave_things_ofrenda/sq018_ofrenda",
+          "class": "gameJournalQuestMapPin",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/03_leave_things_ofrenda/codex_link_mama_welles",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/03_leave_things_ofrenda/codex_link_glen",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/03_leave_things_ofrenda/codex_link_el_coyote_cojo",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/04_talk_with_valentinos",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/04_talk_with_valentinos/valentinos",
+          "class": "gameJournalQuestMapPin",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/04_talk_with_valentinos/codex_link_glen",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/04_talk_with_valentinos/codex_link_valentinos",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/04_talk_with_valentinos/codex_link_el_coyote_cojo",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/05_talk_with_misty",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/05_talk_with_misty/misty",
+          "class": "gameJournalQuestMapPin",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/05_talk_with_misty/codex_link_glen",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/05_talk_with_misty/codex_link_misty",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/05_talk_with_misty/codex_link_el_coyote_cojo",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/06_talk_with_victor_vector",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/06_talk_with_victor_vector/victor",
+          "class": "gameJournalQuestMapPin",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/06_talk_with_victor_vector/codex_link_glen",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/06_talk_with_victor_vector/codex_link_el_coyote_cojo",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/06_talk_with_victor_vector/codex_link_viktor",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/07_leave_funeral",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/07_leave_funeral/sq018_tr_el_coyote_exit",
+          "class": "gameJournalQuestMapPin",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/03_take_part_in_ceremony",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/03_take_part_in_ceremony/03a_sit_down",
+          "class": "gameJournalQuestMapPin",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/03_take_part_in_ceremony/codex_link_mama_welles",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/03_take_part_in_ceremony/codex_link_glen",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/03_take_part_in_ceremony/codex_link_el_coyote_cojo",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/03b_drink",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/03b_drink/sq018_tequila_glass",
+          "class": "gameJournalQuestMapPin",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/03b_drink/codex_link_mama_welles",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/03b_drink/codex_link_glen",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/03b_drink/codex_link_el_coyote_cojo",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/03c_make_toast",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/03c_make_toast/codex_link_mama_welles",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/03c_make_toast/codex_link_glen",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/03c_make_toast/codex_link_el_coyote_cojo",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/03a_sit_down",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/03a_sit_down/sq018_mp_ofrenda_sit_down",
+          "class": "gameJournalQuestMapPin",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/03a_sit_down/codex_link_mama_welles",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/03a_sit_down/codex_link_glen",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/03a_sit_down/codex_link_el_coyote_cojo",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/04b_talk_with_padre",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/04b_talk_with_padre/padre",
+          "class": "gameJournalQuestMapPin",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/04b_talk_with_padre/codex_link_glen",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/04b_talk_with_padre/codex_link_padre",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/04b_talk_with_padre/codex_link_el_coyote_cojo",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/04c_talk_with_pepe",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/04c_talk_with_pepe/elcoyote_barman",
+          "class": "gameJournalQuestMapPin",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/04c_talk_with_pepe/codex_link_glen",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/03_el_coyote_funeral/04c_talk_with_pepe/codex_link_el_coyote_cojo",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq018_jackie/description",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/mama_welles/sq018_contact/sq018_01_msg_contact",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/mama_welles/sq018_contact/sq018_02_msg_urgent",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/mama_welles/sq018_contact/sq018_03_ch_answer",
+          "class": "gameJournalPhoneChoiceGroup",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/mama_welles/sq018_package/sq018_01_msg_contact",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/mama_welles/sq018_package/sq018_01_msg_package",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/mama_welles/sq018_package/sq018_02_msg_urgent",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "phone_dependencies": [
+        "MAMA"
+      ],
+      "native_only_checks": [
+        {
+          "kind": "inventory",
+          "source": "research/activity_state_r3/native_sources/raw/base/quest/side_quests/sq018/phases/sq018_00_holocall.questphase",
+          "graph": "root/47",
+          "node": 5,
+          "quantity": 0,
+          "item_id_hash": 120771320143
+        },
+        {
+          "kind": "distance",
+          "source": "research/sidejobs_s25/families/native_01/raw/base/quest/default_dialogs.questphase",
+          "graph": "root/7/27/3/16",
+          "node": 58,
+          "condition_index": 0,
+          "operator": "Greater",
+          "distance": 30
+        }
+      ],
+      "parent_source": "research/sidejobs_s27/heroes/native_04/raw/base/quest/side_quests/sidequests.questphase",
+      "parent_nodes": [
+        89,
+        119
+      ],
+      "parent_edges": [
+        [
+          89,
+          "Out",
+          119,
+          "In"
+        ]
+      ],
+      "entry_source": "research/activity_state_r3/native_sources/raw/base/quest/side_quests/sq018/sq018.questphase",
+      "entry_node": 42,
+      "entry": "In",
+      "native_outputs": {
+        "success": "Out2",
+        "unsupported_funeral": "Out1"
+      },
+      "service_source": "research/sidejobs_s25/families/native_01/raw/base/quest/default_dialogs.questphase",
+      "service_graph": "root/4",
+      "service_nodes": [
+        16,
+        17
+      ],
+      "scope": "Wholly unstarted package-outcome route only. Failed/progressed roots are not silently reset; funeral route deferred.",
+      "contact_target": "contacts/mama_welles",
+      "contact_copy": {
+        "source": "research/activity_state_r3/native_sources/raw/base/quest/side_quests/sq018/sq018.questphase",
+        "graph": "root/76",
+        "id": 4
+      }
+    }
+  ],
+  "source_pins": {
+    "research/sidejobs_s27/heroes/native_04/raw/base/quest/side_quests/sidequests.questphase": "1CF2FC2BA3B538F7496FDDF09FF319602F54F6785A925BA36AD3C9B90020F000",
+    "research/sidejobs_s27/heroes/native_04/json/base/quest/side_quests/sidequests.questphase.json": "3BEC30E11F7F49866DDD61E8E4B031F18B21AA6D3D995B1729C70E55D4DA604A",
+    "research/activity_state_r3/native_sources/raw/base/quest/side_quests/sq018/sq018.questphase": "EA5DB06676AB6BAF8DE973FA9ACD34FEF73E91255D9390B3F86BE09B86C1394D",
+    "research/activity_state_r3/native_sources/json/base/quest/side_quests/sq018/sq018.questphase.json": "49E30E8CEBE71550BF2D133CA9F228A478A84E8A27935C00FE11CF8CCA753881",
+    "research/activity_state_r3/native_sources/raw/base/quest/side_quests/sq018/phases/sq018_00_holocall.questphase": "23096DC651169B10000D19CED73664E67E5D1D2D054EDBFBAE0D4523FC566163",
+    "research/activity_state_r3/native_sources/json/base/quest/side_quests/sq018/phases/sq018_00_holocall.questphase.json": "721B1EB004346B2F85B66E5DED9D3D39FFD7BFA370CDE2D698CE5FF3F2900E3C",
+    "research/sidejobs_s24/services/native_01/raw/base/quest/side_quests/sq018/scenes/sq018_00_mama_welles_holocall.scene": "9C272D6C2B540F8FFF863BA35AFD6F38E59E3E9EE8C5A163F0EFA17A9FAD6DD5",
+    "research/sidejobs_s24/services/native_01/json/base/quest/side_quests/sq018/scenes/sq018_00_mama_welles_holocall.scene.json": "1F694C61AE418D1CC804A5D04F854961E242825B3FFCE982BEA6386FD385A73D",
+    "research/sidejobs_s25/families/native_01/raw/base/quest/default_dialogs.questphase": "4B0328731206DCAACAEDD699A23F448C464EA0700A029138FD91C56C79C8DD6E",
+    "research/sidejobs_s25/families/native_01/json/base/quest/default_dialogs.questphase.json": "AF29A6D1113D7386B9A0086E37C17FB857BD271D5136C6474F53536654FD4F1F",
+    "research/sidejobs_s27/heroes/native_04/raw/base/quest/tertiary_characters/default_dialogues/mama_welles_default.scene": "3CBA5C8AD9599041D986617CC7599C7FC3923B4F55880BCAC7A02D6E17E74575",
+    "research/sidejobs_s27/heroes/native_04/json/base/quest/tertiary_characters/default_dialogues/mama_welles_default.scene.json": "FB55AF998860276B962B91720EDF1C6F676DA481DDE2D9C7587393D19D69CFD1",
+    "research/sidejobs_s24/ep1/native_02/json/base/journal/cooked_journal.journal.json": "FA206F673EEDE247A1B94A7320223E70839C1963FADE17F0C66533EC1CC11DA2",
+    "research/sidejobs_s27/heroes/native_01/raw/base/quest/holocalls/mama_welles/mama_welles_holocall.questphase": "9B34DA3B6E083BEE82046428F25F8A6F9C06A1CBFDCC081A62F0CE4C656F1558",
+    "research/sidejobs_s27/heroes/native_01/json/base/quest/holocalls/mama_welles/mama_welles_holocall.questphase.json": "49A9C4DCEE9DE21A9931BCDD488B47F48212C2C0ED6B78E2F5740E75BCE4E582",
+    "research/sidejobs_s27/heroes/native_01/raw/base/quest/holocalls/mama_welles/mamma_welles_cleanup.questphase": "6F6C88279C986C348ED1D51A1EC4766DDAF31A46C6A5111AF82BDEBF95A6EA2E",
+    "research/sidejobs_s27/heroes/native_01/json/base/quest/holocalls/mama_welles/mamma_welles_cleanup.questphase.json": "650384E1D58DA64913847958AE158F28A56999233B695B6FB2FE34EADD84B4B2",
+    "research/sidejobs_s27/heroes/native_01/raw/base/quest/holocalls/mama_welles/mama_welles_holocall.scene": "76E62A6D617C4D3DB945EA8D9B3191A3BDCC4529B967CAB1B8D4055BF2809B43",
+    "research/sidejobs_s27/heroes/native_01/json/base/quest/holocalls/mama_welles/mama_welles_holocall.scene.json": "845F5D973F83D6A273C69A1955DB617330D9B46596A81A739967C9F5226E3D22",
+    "prealpha/sidejobs_s27/heroes/prepare.py": "CBD4321C149AE15F5E1DC5008FA2E4E97D55C877205D2C9D465D33823502900E",
+    "prealpha/sidejobs_s27/heroes/inspect.py": "AF5A2151194E8A91B0386CF417891CA7B073DE0073B1F40E6CFEF2D8748E96BE",
+    "prealpha/ncpd_scanner_n1/native_inspect.py": "079219E25CBC655FF4BE6294F6D4F85EEF4721DC271BC058015B8AE0E138CE6A",
+    "tools/audit_activity_batches_b1.py": "CE02EB8038AE99F7AD424A058DC837BCC66ED690813F4DB18C36F267F0F4B880",
+    "research/sidejobs_s23/live_20261016_01/capture.json": "47084A3833CFE507D184A19CDD1276215A15F917F6B97AA4130E6A6E6919748A",
+    "prealpha/sidejobs_s24/ep1/contract02.json": "312C1BB320D86F49AA9C9297C93D42390A11AAFEE96CCAC1BD6901AC9AC55FBA"
+  },
+  "native_resources": {
+    "base\\quest\\side_quests\\sidequests.questphase": {
+      "raw": "research/sidejobs_s27/heroes/native_04/raw/base/quest/side_quests/sidequests.questphase",
+      "raw_sha256": "1CF2FC2BA3B538F7496FDDF09FF319602F54F6785A925BA36AD3C9B90020F000",
+      "json": "research/sidejobs_s27/heroes/native_04/json/base/quest/side_quests/sidequests.questphase.json",
+      "json_sha256": "3BEC30E11F7F49866DDD61E8E4B031F18B21AA6D3D995B1729C70E55D4DA604A"
+    },
+    "base\\quest\\side_quests\\sq018\\sq018.questphase": {
+      "raw": "research/activity_state_r3/native_sources/raw/base/quest/side_quests/sq018/sq018.questphase",
+      "raw_sha256": "EA5DB06676AB6BAF8DE973FA9ACD34FEF73E91255D9390B3F86BE09B86C1394D",
+      "json": "research/activity_state_r3/native_sources/json/base/quest/side_quests/sq018/sq018.questphase.json",
+      "json_sha256": "49E30E8CEBE71550BF2D133CA9F228A478A84E8A27935C00FE11CF8CCA753881"
+    },
+    "base\\quest\\side_quests\\sq018\\phases\\sq018_00_holocall.questphase": {
+      "raw": "research/activity_state_r3/native_sources/raw/base/quest/side_quests/sq018/phases/sq018_00_holocall.questphase",
+      "raw_sha256": "23096DC651169B10000D19CED73664E67E5D1D2D054EDBFBAE0D4523FC566163",
+      "json": "research/activity_state_r3/native_sources/json/base/quest/side_quests/sq018/phases/sq018_00_holocall.questphase.json",
+      "json_sha256": "721B1EB004346B2F85B66E5DED9D3D39FFD7BFA370CDE2D698CE5FF3F2900E3C"
+    },
+    "base\\quest\\side_quests\\sq018\\scenes\\sq018_00_mama_welles_holocall.scene": {
+      "raw": "research/sidejobs_s24/services/native_01/raw/base/quest/side_quests/sq018/scenes/sq018_00_mama_welles_holocall.scene",
+      "raw_sha256": "9C272D6C2B540F8FFF863BA35AFD6F38E59E3E9EE8C5A163F0EFA17A9FAD6DD5",
+      "json": "research/sidejobs_s24/services/native_01/json/base/quest/side_quests/sq018/scenes/sq018_00_mama_welles_holocall.scene.json",
+      "json_sha256": "1F694C61AE418D1CC804A5D04F854961E242825B3FFCE982BEA6386FD385A73D"
+    },
+    "base\\quest\\default_dialogs.questphase": {
+      "raw": "research/sidejobs_s25/families/native_01/raw/base/quest/default_dialogs.questphase",
+      "raw_sha256": "4B0328731206DCAACAEDD699A23F448C464EA0700A029138FD91C56C79C8DD6E",
+      "json": "research/sidejobs_s25/families/native_01/json/base/quest/default_dialogs.questphase.json",
+      "json_sha256": "AF29A6D1113D7386B9A0086E37C17FB857BD271D5136C6474F53536654FD4F1F"
+    },
+    "base\\quest\\tertiary_characters\\default_dialogues\\mama_welles_default.scene": {
+      "raw": "research/sidejobs_s27/heroes/native_04/raw/base/quest/tertiary_characters/default_dialogues/mama_welles_default.scene",
+      "raw_sha256": "3CBA5C8AD9599041D986617CC7599C7FC3923B4F55880BCAC7A02D6E17E74575",
+      "json": "research/sidejobs_s27/heroes/native_04/json/base/quest/tertiary_characters/default_dialogues/mama_welles_default.scene.json",
+      "json_sha256": "FB55AF998860276B962B91720EDF1C6F676DA481DDE2D9C7587393D19D69CFD1"
+    },
+    "base\\quest\\holocalls\\mama_welles\\mama_welles_holocall.questphase": {
+      "raw": "research/sidejobs_s27/heroes/native_01/raw/base/quest/holocalls/mama_welles/mama_welles_holocall.questphase",
+      "raw_sha256": "9B34DA3B6E083BEE82046428F25F8A6F9C06A1CBFDCC081A62F0CE4C656F1558",
+      "json": "research/sidejobs_s27/heroes/native_01/json/base/quest/holocalls/mama_welles/mama_welles_holocall.questphase.json",
+      "json_sha256": "49A9C4DCEE9DE21A9931BCDD488B47F48212C2C0ED6B78E2F5740E75BCE4E582"
+    },
+    "base\\quest\\holocalls\\mama_welles\\mamma_welles_cleanup.questphase": {
+      "raw": "research/sidejobs_s27/heroes/native_01/raw/base/quest/holocalls/mama_welles/mamma_welles_cleanup.questphase",
+      "raw_sha256": "6F6C88279C986C348ED1D51A1EC4766DDAF31A46C6A5111AF82BDEBF95A6EA2E",
+      "json": "research/sidejobs_s27/heroes/native_01/json/base/quest/holocalls/mama_welles/mamma_welles_cleanup.questphase.json",
+      "json_sha256": "650384E1D58DA64913847958AE158F28A56999233B695B6FB2FE34EADD84B4B2"
+    },
+    "base\\quest\\holocalls\\mama_welles\\mama_welles_holocall.scene": {
+      "raw": "research/sidejobs_s27/heroes/native_01/raw/base/quest/holocalls/mama_welles/mama_welles_holocall.scene",
+      "raw_sha256": "76E62A6D617C4D3DB945EA8D9B3191A3BDCC4529B967CAB1B8D4055BF2809B43",
+      "json": "research/sidejobs_s27/heroes/native_01/json/base/quest/holocalls/mama_welles/mama_welles_holocall.scene.json",
+      "json_sha256": "845F5D973F83D6A273C69A1955DB617330D9B46596A81A739967C9F5226E3D22"
+    }
+  },
+  "phone": {
+    "initializer": 67,
+    "condition": 456,
+    "cleanup": 324,
+    "input": "In30",
+    "output": "Out30",
+    "name": "MAMA",
+    "folder": "mama_welles",
+    "cleanup_file": "mamma_welles_cleanup.questphase"
+  },
+  "current_capture_control": {
+    "id": "sq018_jackie",
+    "rootState": "Succeeded",
+    "sq018_done": 1,
+    "admit": false
+  }
+}

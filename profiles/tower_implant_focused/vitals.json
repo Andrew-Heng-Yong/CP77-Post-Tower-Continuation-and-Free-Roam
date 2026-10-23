@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "module": "vitals",
+  "health": {
+    "mode": "fixed_final_maximum",
+    "value": 150,
+    "current_policy": "clamp_without_healing"
+  },
+  "stamina": {
+    "mode": "unchanged"
+  },
+  "modifier_ownership": "mod_owned_only"
+}

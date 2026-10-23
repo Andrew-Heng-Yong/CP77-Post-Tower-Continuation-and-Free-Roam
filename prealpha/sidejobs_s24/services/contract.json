@@ -1,0 +1,131 @@
+{
+  "schema": 1,
+  "status": "FRESH_SOURCE_IMPLEMENTATION_NOT_LIVE_PROOF",
+  "policy": "Unstarted R4 only; preserve all prior restored branches and partial progress. No pre-Tower history certificate fabricated.",
+  "owners": [
+    {
+      "id": "sq_q001_wakako",
+      "ids": [
+        "sq_q001_wakako"
+      ],
+      "title": "The Gig",
+      "key": "THEGIG",
+      "tag": "PTFRS24_THEGIG",
+      "depot": "towercontinued\\sidejobs_s24\\services\\the_gig_fresh.questphase",
+      "facts_equal": {
+        "q001_wakako_reward_given": 0,
+        "sq_q001_active": 0,
+        "sq_q001_done": 0,
+        "sq_q001_add_reward": 0,
+        "PTFRS22_SQ_Q001_Issued": 0,
+        "PTFRS22_SQ_Q001_Finished": 0,
+        "PTFRS22_SQ_Q001_Fault": 0,
+        "PTFRFO1_wakako_Issued": 1,
+        "PTFRB0STCASSIUS_Ready": 1,
+        "PTFRB0STCASSIUS_Enabled": 1,
+        "PTFRB0STCASSIUS_Excluded": 0,
+        "PTFRB0ST_Suspended": 0,
+        "PTFRBASE_Suspended": 0
+      },
+      "fact_ranges": {
+        "q001_done": {
+          "min": 1,
+          "max": 2147483647
+        },
+        "q101_enable_side_content": {
+          "min": 1,
+          "max": 2147483647
+        },
+        "wakako_default_on": {
+          "min": 1,
+          "max": 2147483647
+        },
+        "wat_nid_ripperdoc_01_default_on": {
+          "min": 1,
+          "max": 2147483647
+        }
+      },
+      "journals": [
+        {
+          "path": "quests/side_quest/sq_q001_wakako",
+          "class": "gameJournalQuest",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq_q001_wakako/wakako",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq_q001_wakako/wakako/00_reward",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq_q001_wakako/wakako/00_reward/description",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq_q001_wakako/wakako/01_reward",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq_q001_wakako/wakako/02_reward",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/wakako_okada/sq_q001_reward/sq_q001_msg_reward_01",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/wakako_okada/sq_q001_reward/sq_q001_msg_reward_02",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "reactivate_paths": [],
+      "native_source": "research/sidejobs_s24/services/native_01/raw/base/quest/main_quests/prologue/q001/phases/q101_wakako_reward.questphase",
+      "native_depot": "base\\quest\\main_quests\\prologue\\q001\\phases\\q101_wakako_reward.questphase",
+      "contact_source": "research/sidejobs_s24/services/native_01/raw/base/quest/main_quests/prologue/q001/q001.questphase",
+      "contact_source_node": 168,
+      "contact_target": "contacts/wakako_okada",
+      "sourcepins": {
+        "research/sidejobs_s24/services/native_01/raw/base/quest/main_quests/prologue/q001/phases/q101_wakako_reward.questphase": "CF475689697B624DE0C9DDE71BBD2E67FC92FA8AA798638C2BD051CE581C073D",
+        "research/sidejobs_s24/services/native_01/raw/base/quest/main_quests/prologue/q001/q001.questphase": "EF429A2F4C500AD0BF660F0474BD957A877CE6EC34CB9CE1908170092CCB89CF"
+      },
+      "seam": "Only wholly Inactive journal/objectives and undelivered reward SMS; all local cash/reward state untouched. Original q101_wakako_reward entry, not the main q001 root.",
+      "notes": [
+        "Existing FO1 full Wakako default scene supplies the original cash dialogue; existing B0 Cassius full service supplies trade.",
+        "Native contact-list operation copied from q001 node168, changing only contact path from Dex to Wakako. No phone controller or actor restart.",
+        "Original reward graph has no failure path or Failed journal write. After native activation its Active root blocks old S22 admission until completion; cash0 also blocks old S22 before activation.",
+        "Tyger tattoo acquisition remains native. This component does not grant/equip items or change the existing cyberware restriction policy.",
+        "Current captured The Gig is Active with cash already earned and is protected, not a fresh fixture."
+      ]
+    }
+  ],
+  "deferred": {
+    "sq_q001_wilson": "Requires reintroducing quest choices in B0 Wilson reduced native shop scene plus cooperative lease with MQ011. No changes made.",
+    "mq045_victor_debt": "B0 Viktor deliberately excludes debt-choice routes. Needs a separate scene/ownership integration, not journal activation.",
+    "sq018_jackie": "Needs Mama Welles contact/controller and coordinated native Misty/Viktor/Padre/Pepe/Coyote ownership. Main native owner copy alone is insufficient."
+  }
+}

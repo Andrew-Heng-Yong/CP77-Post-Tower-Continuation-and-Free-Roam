@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "profile_id": "tower_implant_focused",
+  "revision": 1,
+  "name": "Tower Implant Focused",
+  "activation": "explicit_full_nerf_after_genuine_tower_completion",
+  "persistence": "save_local_id_revision_and_resolved_hash",
+  "migration": "explicit_extension_no_replayed_refunds",
+  "modules": {
+    "vitals": "vitals.json",
+    "nerf_rules": "nerf_rules.json",
+    "cyberware": "cyberware.json",
+    "perks": "perks.json"
+  },
+  "catalogue": "../catalogues/cp2077_231_modern_188.json"
+}

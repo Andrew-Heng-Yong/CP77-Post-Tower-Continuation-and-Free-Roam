@@ -1,0 +1,17 @@
+$replacePaths=@(
+ 'bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_PreAlpha/init.lua',
+ 'r6/scripts/PTFR_PreAlpha/PA1/PreAlphaArrivalPA1.reds',
+ 'r6/scripts/PTFR_PreAlpha/PA1/PreAlphaEntry.reds',
+ 'r6/scripts/PTFR_PreAlpha/PTFR_RestorationBaseline/RestorationBaseline.reds'
+)
+$addPaths=@(
+ 'archive/pc/mod/TowerContinued_Optics_PA5.archive',
+ 'archive/pc/mod/TowerContinued_Optics_PA5.archive.xl',
+ 'r6/scripts/PTFR_PreAlpha/PA5/CameraOpticsPA5.reds',
+ 'r6/scripts/PTFR_PreAlpha/PA5/GigDiagnosticsPA5.reds',
+ 'r6/scripts/PTFR_PreAlpha/PA5/GigDiagnosticsDataPA5.generated.reds'
+)
+$allowed=@($replacePaths)+@($addPaths)
+$baselineSHA='8CD6316A136BC46F5BE040C40D9886F3EED612FA9DF045C24A8D8A1A343E54FD'
+$gd2Relative='archive/pc/mod/TowerContinued_StairsFX_GD2.archive'
+$gd2SHA='03851DAA463B50FD78E2049C8A1ACDF04041E13C78B0538DCCC1955734768BDD'

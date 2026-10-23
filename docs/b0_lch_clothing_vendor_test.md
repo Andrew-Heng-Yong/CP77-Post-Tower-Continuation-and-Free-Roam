@@ -1,0 +1,17 @@
+# Little China clothing-vendor opt-in test
+
+2026-09-24. One-shop candidate only. It is installed but idle until `Enable()` on a disposable post-Tower save. No regional vendor root, vanilla scene, save, or story fact was changed by installation. The installed files and hashes are recorded in `research/b0_lch_clothing_vendor/validation/install_receipt.json`.
+
+V1 reached `Near=1` but had no seller or Trade prompt. V2 restored one seller, physical Trade, and the actual menu; its trace reached `SpawnActionOut=1` and `ActorDistanceGate=1`. It did not exit at more than 100 m (`Near=1`, `Departed=0`), so returning to the still-present seller was not a true second activation. Both failed runs ended without saving. V3 keeps the working entry/menu and adds a mod-owned distance flag for the exit branch, with markers for exit-watch and deactivation; its first live run passed the exit route below.
+
+V3 first run: seller/Trade/menu worked; the log records `Far=1`, `ExitWatchArmed=1`, `DespawnActionOut=1`, `Departed=1`, `Near=0` after V moved away. The tester stayed outside, ran Stop, and quit without saving. This passes the exit/deactivation route, not re-entry. One short second run should check return to a single seller and reopen Trade, then exit/Stop/quit without saving. No item transaction or cold save/reload has been established.
+
+V3 second run: automatic trace proves exit and native rearm: `v3-outside` at 254 m had `Far=1`, `Near=0`, `Departed=1`; `v3-return` at 2.2 m had `Far=0`, `Near=1`. The tester confirmed the Trade menu reopened on return and reported one visible seller without model abnormality. The log has no second departure or Stop before process shutdown. Item transaction and cold save/reload were not established.
+
+1. Cold-launch the game and load a disposable post-Tower save. Stand at the Little China clothing counter; the previously used safe teleport location is `(-1519.8586, 1700.9325, 18.3175)`. Before enabling, note whether a seller or Trade prompt is already present. If so, do not enable the candidate; report the baseline.
+2. After five seconds, run `GetMod("PTFR_B0_LCH_Clothing_Vendor").Inspect()` in CET. Only if it prints READY, run `GetMod("PTFR_B0_LCH_Clothing_Vendor").Enable()` as a separate command. Never set the enable fact manually to bypass a refusal.
+3. Close CET. Confirm exactly one clothing seller, physical Trade, and the actual menu. Close the menu normally. No item transaction is needed for this exit-focused retest.
+4. Walk at least 60 m away and wait a few seconds. Run `GetMod("PTFR_B0_LCH_Clothing_Vendor").Observe("v3-outside")`; the desired markers are `Far=1`, `ExitWatchArmed=1`, `DespawnActionOut=1`, `Departed=1`, and `Near=0`. If they do not appear, stop the test and quit without saving; do not force any facts.
+5. If the exit passed, return and confirm exactly one seller and that Trade/menu still works. Leave the 50 m area again, run `GetMod("PTFR_B0_LCH_Clothing_Vendor").Stop()`, and quit without saving. Report the exit markers and second-visit result.
+
+If the seller or prompt does not appear, stop after one attempt and quit without saving. Do not teleport while the trade menu is open. The logger flushes `lch_clothing_vendor_trace.jsonl`; the native Near/Departed markers are stage evidence, while the user's visible seller/menu and transaction are separate outcomes. This is not a claim that all ordinary vendors are compatible with the same owner.

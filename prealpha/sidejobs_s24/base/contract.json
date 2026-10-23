@@ -1,0 +1,837 @@
+{
+  "schema": 1,
+  "status": "SOURCE_IMPLEMENTATION_NOT_LIVE_PROOF",
+  "capture_catalogue": "research/sidejobs_s23/live_20261016_01/capture.json",
+  "capture_sha256": "47084A3833CFE507D184A19CDD1276215A15F917F6B97AA4130E6A6E6919748A",
+  "policy": "Whitelisted unstarted side jobs only. Existing S23/S22 routes preserved. Current completed roots are negative controls, not fresh fixtures.",
+  "owners": [
+    {
+      "id": "mq010_barry",
+      "ids": [
+        "mq010_barry"
+      ],
+      "title": "Happy Together",
+      "key": "MQ010",
+      "tag": "PTFRS24_MQ010",
+      "depot": "towercontinued\\sidejobs_s24\\base\\mq010.questphase",
+      "facts_equal": {
+        "mq010_active": 0,
+        "mq010_asked_about_andrew": 0,
+        "mq010_barry_turned_cyberpsycho": 0,
+        "mq010_done": 0,
+        "mq010_johnny_spawned": 0,
+        "mq010_know_about_andrew": 0,
+        "mq010_objective_started": 0,
+        "mq010_reactivate_scene": 0,
+        "mq010_talk_about_barry": 0,
+        "mq010_talk_to_barry_maybe": 0,
+        "mq010_testfact_told_police": 0,
+        "mq010_told_police_ab_andrew": 0
+      },
+      "fact_ranges": {},
+      "journals": [
+        {
+          "path": "quests/minor_quest/mq010_barry",
+          "class": "gameJournalQuest",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq010_barry/desc",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq010_barry/mq010_barry",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq010_barry/mq010_barry/01_hook",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq010_barry/mq010_barry/02_wait_for_barry",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq010_barry/mq010_barry/03_talk_to_barry",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq010_barry/mq010_barry/03a_try_talking_to_barry",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq010_barry/mq010_barry/04_columbarium",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq010_barry/mq010_barry/04a_andrew_plaque",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq010_barry/mq010_barry/05_tell_police",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq010_barry/mq010_barry/06_see_what_happened",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "reactivate_paths": [],
+      "native_source": "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq010/mq010.questphase",
+      "native_depot": "base\\quest\\minor_quests\\mq010\\mq010.questphase",
+      "parent_node": 1,
+      "parent_nodes": [
+        54,
+        80,
+        55,
+        1
+      ],
+      "parent_edges": [
+        [
+          54,
+          "Out",
+          80,
+          "In"
+        ],
+        [
+          80,
+          "Out",
+          55,
+          "In"
+        ],
+        [
+          55,
+          "Out",
+          1004,
+          "In"
+        ]
+      ],
+      "parent_start": 54,
+      "issue_target": 1,
+      "input": "In1",
+      "phone_dependencies": [],
+      "sourcepins": {
+        "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq010/mq010.questphase": "0176C77569D696877AFCE1794231B0D918C6CDDB8DD4A3293CB1F10DB4A21CE9",
+        "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq010/phases/mq010_01_start.questphase": "E3AF9EF8CEAD69577179E3A4F182A8C08D078B92CEE6BA1C727A833C193524F4",
+        "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq010/phases/mq010_02_barry_talk.questphase": "FE8E53EA0493B19CF1D5E798D7998F7EA2607DAF98169C760A6314D2969311FE",
+        "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq010/phases/mq010_03_columbarium.questphase": "F4230024A12E954D5B889A87896B94941917296F7BC921826E6C221AF8DA8A5C",
+        "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq010/phases/mq010_04_barry_combat.questphase": "35A2A5FF3CA6873CEB2507AF66625C7FD8236D4A6EFB6E3A7E63DFD0DA93235F",
+        "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq010/phases/mq010_04_finale.questphase": "741F22BF2746AEB18A565F943636CD0FE8F2DF2594E3F511FA7C4AF139FFF6F0",
+        "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq010/phases/mq010_cleanup.questphase": "1DE332BFC86D025A6AC3974E0FC270DE861BE197CC6709188B150612A8E8C462"
+      },
+      "native_closure": [
+        "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq010/mq010.questphase",
+        "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq010/phases/mq010_01_start.questphase",
+        "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq010/phases/mq010_02_barry_talk.questphase",
+        "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq010/phases/mq010_03_columbarium.questphase",
+        "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq010/phases/mq010_04_barry_combat.questphase",
+        "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq010/phases/mq010_04_finale.questphase",
+        "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq010/phases/mq010_cleanup.questphase"
+      ],
+      "seam": "Original unstarted quest entry only; root and every catalogued child Inactive, local progress zero. No reset or saved-progress inference.",
+      "capture_control_state": "Succeeded",
+      "passive_initialization": {}
+    },
+    {
+      "id": "mq019_paparazzi",
+      "ids": [
+        "mq019_paparazzi"
+      ],
+      "title": "Violence",
+      "key": "MQ019",
+      "tag": "PTFRS24_MQ019",
+      "depot": "towercontinued\\sidejobs_s24\\base\\mq019.questphase",
+      "facts_equal": {
+        "holo_v_calls_lizzy_end_activate": 0,
+        "holo_v_calls_lizzy_start_activate": 0,
+        "mq019_03_active": 0,
+        "mq019_03_barman_talked": 0,
+        "mq019_03_bouncer_talked": 0,
+        "mq019_03_liam_vip_lounge": 0,
+        "mq019_04_champagne": 0,
+        "mq019_05_didnt_tell_lizzy": 0,
+        "mq019_dbg_riot": 0,
+        "mq019_dbg_start": 0,
+        "mq019_done": 0,
+        "mq019_liam_disposed": 0,
+        "mq019_liam_disposed_failed": 0
+      },
+      "fact_ranges": {},
+      "journals": [
+        {
+          "path": "quests/minor_quest/mq019_paparazzi",
+          "class": "gameJournalQuest",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq019_paparazzi/00_hook",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq019_paparazzi/00_hook/01_read_message",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq019_paparazzi/00_hook/01_read_message/description",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq019_paparazzi/01_notell_motel",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq019_paparazzi/01_notell_motel/01_go_to_notell_motel",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq019_paparazzi/01_notell_motel/02_talk_with_client",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq019_paparazzi/01_notell_motel/02a_sit_down",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq019_paparazzi/03_riot_night_club",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq019_paparazzi/03_riot_night_club/00_suspend_quest",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq019_paparazzi/03_riot_night_club/01_go_to_riot",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq019_paparazzi/03_riot_night_club/02_ask_about_liam",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq019_paparazzi/03_riot_night_club/02_find_liam",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq019_paparazzi/03_riot_night_club/02b_break_into_security",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq019_paparazzi/03_riot_night_club/02c_check_computer",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq019_paparazzi/03_riot_night_club/02d_check_cameras",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq019_paparazzi/03_riot_night_club/03_check_vip_lounge",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq019_paparazzi/03_riot_night_club/03a_confront_liam",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq019_paparazzi/03_riot_night_club/03b_defeat_security",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq019_paparazzi/03_riot_night_club/03b_leave_vip_lounge",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq019_paparazzi/03_riot_night_club/04_talk_with_johnny",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq019_paparazzi/03_riot_night_club/05_steal_recordings",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq019_paparazzi/05_holocall",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq019_paparazzi/05_holocall/01_call_client",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq019_paparazzi/05_holocall/02_send_data",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq019_paparazzi/06_finale",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq019_paparazzi/06_finale/01_pick_up",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq019_paparazzi/06_finale/02_go_to_notell",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq019_paparazzi/06_finale/03_talk_with_client",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq019_paparazzi/06_finale/04_move_body",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq019_paparazzi/06_finale/04a_ask_about_wounds",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "reactivate_paths": [],
+      "native_source": "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq019/mq019_paparazzi.questphase",
+      "native_depot": "base\\quest\\minor_quests\\mq019\\mq019_paparazzi.questphase",
+      "parent_node": 38,
+      "parent_nodes": [
+        54,
+        80,
+        55,
+        171,
+        133,
+        94,
+        38
+      ],
+      "parent_edges": [
+        [
+          54,
+          "Out",
+          80,
+          "In"
+        ],
+        [
+          80,
+          "Out",
+          55,
+          "In"
+        ],
+        [
+          55,
+          "Out",
+          171,
+          "In"
+        ],
+        [
+          171,
+          "False",
+          133,
+          "In1"
+        ],
+        [
+          133,
+          "Out1",
+          94,
+          "In"
+        ],
+        [
+          94,
+          "Out",
+          1004,
+          "In"
+        ]
+      ],
+      "parent_start": 54,
+      "issue_target": 38,
+      "input": "In1",
+      "phone_dependencies": [
+        "LIZZY"
+      ],
+      "sourcepins": {
+        "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq019/mq019_paparazzi.questphase": "40A773B35A6E7208844D1BF6CF9364598A66BAF026A93A2507B9E1501B40F69C",
+        "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq019/phases/mq019_00_hook.questphase": "936E3FAA94542A309B045DFF258ADE09B2C79CF2289B82FD2B24AC34A3987592",
+        "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq019/phases/mq019_01_notell_motel.questphase": "2211431D684D780BBF25E14B6007A34832D42CDF2DF3005C7C91E889AF7E99FA",
+        "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq019/phases/mq019_03_night_club.questphase": "B6D0B3BC5D20AED94FF42C14D02BDA326046FD19B0F34B0DD2FDD2757CBDEF2B",
+        "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq019/phases/mq019_05_holocall.questphase": "C2820A006F1AD56DC8DA01EE9FF2A8E18825D377127FC9EE8F490AAFCA38EA0D",
+        "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq019/phases/mq019_06_finale.questphase": "93B5A4551D079DE3DD881495F9AC5ABF4CC050A5736D55F760A90D8309768C89"
+      },
+      "native_closure": [
+        "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq019/mq019_paparazzi.questphase",
+        "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq019/phases/mq019_00_hook.questphase",
+        "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq019/phases/mq019_01_notell_motel.questphase",
+        "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq019/phases/mq019_03_night_club.questphase",
+        "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq019/phases/mq019_05_holocall.questphase",
+        "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq019/phases/mq019_06_finale.questphase"
+      ],
+      "seam": "Original unstarted quest entry only; root and every catalogued child Inactive, local progress zero. No reset or saved-progress inference.",
+      "capture_control_state": "Succeeded",
+      "passive_initialization": {}
+    },
+    {
+      "id": "mq015_wizardbook",
+      "ids": [
+        "mq015_wizardbook"
+      ],
+      "title": "Spellbound",
+      "key": "MQ015",
+      "tag": "PTFRS24_MQ015",
+      "depot": "towercontinued\\sidejobs_s24\\base\\mq015.questphase",
+      "facts_equal": {
+        "mq015_01_maybe_later": 0,
+        "mq015_01_player_hesitates": 0,
+        "mq015_02_coordinates": 0,
+        "mq015_03_annoyed_seller": 0,
+        "mq015_03_combat_start": 0,
+        "mq015_05_rude_to_nix": 0,
+        "mq015_coordinates_stash": 0,
+        "mq015_dbg_afterlife": 0,
+        "mq015_dbg_restaurant": 0,
+        "mq015_dbg_start": 0,
+        "mq015_dbg_stash": 0,
+        "mq015_dbg_test_def": 0,
+        "mq015_decrypted_wizardbook": 0,
+        "mq015_done": 0,
+        "mq015_tablet_sold": 0,
+        "sq015_sellar_keepalive": 0,
+        "web_smugglers_cache_treasures": 0
+      },
+      "fact_ranges": {
+        "mq015_active": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "journals": [
+        {
+          "path": "quests/minor_quest/mq015_wizardbook",
+          "class": "gameJournalQuest",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq015_wizardbook/01_hook",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq015_wizardbook/01_hook/01_talk_with_nix",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq015_wizardbook/01_hook/01_talk_with_nix/description",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq015_wizardbook/01_hook/01a_message_from_nix",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq015_wizardbook/01_hook/02_check_website",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq015_wizardbook/01_hook/03_contact_seller",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq015_wizardbook/02_restaurant",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq015_wizardbook/02_restaurant/00_go_to_coordinates",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq015_wizardbook/02_restaurant/00_go_to_coordinates1",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq015_wizardbook/02_restaurant/01_talk_with_seller",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq015_wizardbook/02_restaurant/02_defeat_seller",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq015_wizardbook/02_restaurant/03_check_computer",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq015_wizardbook/02_restaurant/04_steal_data",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq015_wizardbook/02_restaurant/05_wait_for_contact",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq015_wizardbook/03_stash",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq015_wizardbook/03_stash/01_go_to_coordinates",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq015_wizardbook/03_stash/02_find_stash",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq015_wizardbook/03_stash/03_open_stash",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq015_wizardbook/03_stash/04_examine_tablet",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq015_wizardbook/03_stash/04_take_wizardbook",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq015_wizardbook/03_stash/05_talk_johnny",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq015_wizardbook/04_afterlife",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq015_wizardbook/04_afterlife/01_get_back_nix",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq015_wizardbook/04_afterlife/01b_ask_nix",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "reactivate_paths": [],
+      "native_source": "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq015/mq015_wizardbook.questphase",
+      "native_depot": "base\\quest\\minor_quests\\mq015\\mq015_wizardbook.questphase",
+      "parent_node": 36,
+      "parent_nodes": [
+        54,
+        80,
+        55,
+        78,
+        153,
+        152,
+        174,
+        134,
+        36
+      ],
+      "parent_edges": [
+        [
+          54,
+          "Out",
+          80,
+          "In"
+        ],
+        [
+          80,
+          "Out",
+          55,
+          "In"
+        ],
+        [
+          55,
+          "Out",
+          78,
+          "In"
+        ],
+        [
+          78,
+          "Out",
+          153,
+          "In"
+        ],
+        [
+          153,
+          "Out",
+          152,
+          "In"
+        ],
+        [
+          152,
+          "Out",
+          174,
+          "In"
+        ],
+        [
+          174,
+          "False",
+          1004,
+          "In"
+        ],
+        [
+          134,
+          "Out",
+          36,
+          "In1"
+        ]
+      ],
+      "parent_start": 54,
+      "issue_target": 134,
+      "input": "In1",
+      "phone_dependencies": [
+        "R3NO"
+      ],
+      "sourcepins": {
+        "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq015/mq015_wizardbook.questphase": "02597E97A497D9501E70FEC11FF57447A0CB5153FDA7F5482A48DE470DB29015",
+        "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq015/phases/mq015_01_hook.questphase": "66B5498A685A82D352AB21E1342F73F82022A0AF97C7EAED618985BE71AEAB27",
+        "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq015/phases/mq015_02_restaurant.questphase": "3C1C272DEFA20D0582F9061C018BC3207D3835B6A51C2425EB92DAAE53F92EE8",
+        "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq015/phases/mq015_02_restaurant_combat.questphase": "5574BB910D097639C2404FC52AF8F0505F2C8DC128EB9DE5496C50C47B2BE469",
+        "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq015/phases/mq015_03_stash.questphase": "8A68FA3D6C74B31E2A39A3463F0C8D6E70AA52BB3105998D3C7948352C661018",
+        "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq015/phases/mq015_04_afterlife.questphase": "2568F4EA63822FFAB02C9E2B57E18C3D90C193D1B7E24D3EAF870B75EADCE210",
+        "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq015/scenes/mq015_01_hook.scene": "64A234C610860780848F32F6686CFC5B48FFE3FEFC71D5F28568DC97842BB1EB",
+        "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq015/scenes/mq015_02_seller_holocall.scene": "3F19852C45592E667689E7E556F49D6D44D957FE5EDB514C03B0A3FC05FAD249",
+        "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq015/scenes/mq015_03_restaurant.scene": "BC4A9FF6ED87C54D8013CC9CC13C334C7A5294843455A8B5D264818D2AC74712",
+        "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq015/scenes/mq015_04_stash.scene": "995A7F03061D79FAD7EB6FBD87A6588FEEDB36EE2AD2ED96E085CEDFC78CFCD3",
+        "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq015/scenes/mq015_05_afterlife.scene": "2E9CE56C5500F80FBB31DA423658769BAD648AF8CA642DF7EF4AD26293208314"
+      },
+      "native_closure": [
+        "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq015/mq015_wizardbook.questphase",
+        "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq015/phases/mq015_01_hook.questphase",
+        "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq015/phases/mq015_02_restaurant.questphase",
+        "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq015/phases/mq015_02_restaurant_combat.questphase",
+        "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq015/phases/mq015_03_stash.questphase",
+        "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq015/phases/mq015_04_afterlife.questphase",
+        "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq015/scenes/mq015_01_hook.scene",
+        "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq015/scenes/mq015_02_seller_holocall.scene",
+        "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq015/scenes/mq015_03_restaurant.scene",
+        "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq015/scenes/mq015_04_stash.scene",
+        "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq015/scenes/mq015_05_afterlife.scene"
+      ],
+      "seam": "Original unstarted quest entry only; root and every catalogued child Inactive, local progress zero. No reset or saved-progress inference.",
+      "capture_control_state": "Succeeded",
+      "passive_initialization": {
+        "mq015_active": "0 or 1; exact1 is written by original parent node134 before hook."
+      }
+    }
+  ],
+  "source_pins": {
+    "research/sidejobs_s23/live_20261016_01/capture.json": "47084A3833CFE507D184A19CDD1276215A15F917F6B97AA4130E6A6E6919748A",
+    "research/sidejobs_s2/sacrum_audit/native_01/raw/base/quest/minor_quests/minorquests.questphase": "89E902A6BCC783325642A6DC6D1D856BB144651136C58D423FEA6B421EFCE85A",
+    "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq010/mq010.questphase": "0176C77569D696877AFCE1794231B0D918C6CDDB8DD4A3293CB1F10DB4A21CE9",
+    "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq010/phases/mq010_01_start.questphase": "E3AF9EF8CEAD69577179E3A4F182A8C08D078B92CEE6BA1C727A833C193524F4",
+    "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq010/phases/mq010_02_barry_talk.questphase": "FE8E53EA0493B19CF1D5E798D7998F7EA2607DAF98169C760A6314D2969311FE",
+    "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq010/phases/mq010_03_columbarium.questphase": "F4230024A12E954D5B889A87896B94941917296F7BC921826E6C221AF8DA8A5C",
+    "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq010/phases/mq010_04_barry_combat.questphase": "35A2A5FF3CA6873CEB2507AF66625C7FD8236D4A6EFB6E3A7E63DFD0DA93235F",
+    "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq010/phases/mq010_04_finale.questphase": "741F22BF2746AEB18A565F943636CD0FE8F2DF2594E3F511FA7C4AF139FFF6F0",
+    "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq010/phases/mq010_cleanup.questphase": "1DE332BFC86D025A6AC3974E0FC270DE861BE197CC6709188B150612A8E8C462",
+    "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq019/mq019_paparazzi.questphase": "40A773B35A6E7208844D1BF6CF9364598A66BAF026A93A2507B9E1501B40F69C",
+    "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq019/phases/mq019_00_hook.questphase": "936E3FAA94542A309B045DFF258ADE09B2C79CF2289B82FD2B24AC34A3987592",
+    "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq019/phases/mq019_01_notell_motel.questphase": "2211431D684D780BBF25E14B6007A34832D42CDF2DF3005C7C91E889AF7E99FA",
+    "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq019/phases/mq019_03_night_club.questphase": "B6D0B3BC5D20AED94FF42C14D02BDA326046FD19B0F34B0DD2FDD2757CBDEF2B",
+    "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq019/phases/mq019_05_holocall.questphase": "C2820A006F1AD56DC8DA01EE9FF2A8E18825D377127FC9EE8F490AAFCA38EA0D",
+    "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq019/phases/mq019_06_finale.questphase": "93B5A4551D079DE3DD881495F9AC5ABF4CC050A5736D55F760A90D8309768C89",
+    "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq015/mq015_wizardbook.questphase": "02597E97A497D9501E70FEC11FF57447A0CB5153FDA7F5482A48DE470DB29015",
+    "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq015/phases/mq015_01_hook.questphase": "66B5498A685A82D352AB21E1342F73F82022A0AF97C7EAED618985BE71AEAB27",
+    "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq015/phases/mq015_02_restaurant.questphase": "3C1C272DEFA20D0582F9061C018BC3207D3835B6A51C2425EB92DAAE53F92EE8",
+    "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq015/phases/mq015_02_restaurant_combat.questphase": "5574BB910D097639C2404FC52AF8F0505F2C8DC128EB9DE5496C50C47B2BE469",
+    "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq015/phases/mq015_03_stash.questphase": "8A68FA3D6C74B31E2A39A3463F0C8D6E70AA52BB3105998D3C7948352C661018",
+    "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq015/phases/mq015_04_afterlife.questphase": "2568F4EA63822FFAB02C9E2B57E18C3D90C193D1B7E24D3EAF870B75EADCE210",
+    "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq015/scenes/mq015_01_hook.scene": "64A234C610860780848F32F6686CFC5B48FFE3FEFC71D5F28568DC97842BB1EB",
+    "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq015/scenes/mq015_02_seller_holocall.scene": "3F19852C45592E667689E7E556F49D6D44D957FE5EDB514C03B0A3FC05FAD249",
+    "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq015/scenes/mq015_03_restaurant.scene": "BC4A9FF6ED87C54D8013CC9CC13C334C7A5294843455A8B5D264818D2AC74712",
+    "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq015/scenes/mq015_04_stash.scene": "995A7F03061D79FAD7EB6FBD87A6588FEEDB36EE2AD2ED96E085CEDFC78CFCD3",
+    "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq015/scenes/mq015_05_afterlife.scene": "2E9CE56C5500F80FBB31DA423658769BAD648AF8CA642DF7EF4AD26293208314"
+  },
+  "deferred": [
+    {
+      "id": "mq026_conspiracy",
+      "reason": "Existing S23 exact captured-progress owner can become eligible as a new fresh owner progresses; defer overlapping fresh owner without modifying preserved S23 ownership."
+    }
+  ]
+}

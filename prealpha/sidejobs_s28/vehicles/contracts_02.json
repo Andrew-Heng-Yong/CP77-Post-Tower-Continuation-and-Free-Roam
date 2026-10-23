@@ -1,0 +1,556 @@
+{
+  "status": "CURRENT_SOURCE_FRESH_CONTRACT_WITH_IMMEDIATE_NATIVE_PREDICATES",
+  "owners": [
+    {
+      "id": "mq029_tourist",
+      "title": "The Highwayman",
+      "tag": "PTFRS28_mq029_tourist",
+      "journals": [
+        {
+          "path": "quests/minor_quest/mq029_tourist",
+          "class": "gameJournalQuest",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist/mq029_garage",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist/mq029_body",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist/mq029_body/mq029_body",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist/mq029_james",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist/mq029_james/mq029_james",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist/mq029_bike",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist/mq029_bike/mq029_bike_desc",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_find_james",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_find_james/find_james_desc",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_find_james/codex_link_tiger_claws",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_find_bike",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_find_bike/mq029_bike_desc",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_find_bike/codex_link_tiger_claws",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_find_bike/codex_link_aldecaldos",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_confront_james",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_confront_james/mq029_james",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_confront_james/mappin_james",
+          "class": "gameJournalQuestMapPin",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_confront_james/codex_link_tiger_claws",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_find_garage",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_find_garage/find_garage",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_find_garage/codex_link_aldecaldos",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_find_josie_new",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_find_josie_new/josie_description_2",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_find_josie_new/mq029_garage",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_find_josie_new/mappin_area",
+          "class": "gameJournalQuestMapPin",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_find_josie_new/codex_link_aldecaldos",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_pick_up_photo",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_pick_up_photo/mappin_photo",
+          "class": "gameJournalQuestMapPin",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq029_tourist/mq029_tourist_new/mq029_pick_up_photo/codex_link_aldecaldos",
+          "class": "gameJournalQuestCodexLink",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "facts_equal": {
+        "mq029_01_james_loop_on": 0,
+        "mq029_fact_james_gave_directions": 0,
+        "mq029_fact_james_hostile": 0,
+        "mq029_fact_james_knows_josie_dead": 0,
+        "mq029_fact_josie_body_found": 0,
+        "mq029_fact_read_garage_note": 0,
+        "mq029_fact_tc_bike_found": 0,
+        "mq029_josie_garage_found": 0
+      },
+      "fact_ranges": {},
+      "inventory_zero": [],
+      "vehicle_zero": [
+        {
+          "record": "Vehicle.v_sportbike2_arch_tyger_player",
+          "hash": "167323116460"
+        }
+      ],
+      "resume": "DEFER any completed, progressed, existing-owner, earned-item/vehicle or unknown state; no restart/reset/reward replay",
+      "depot": "towercontinued\\sidejobs_s28\\vehicles\\mq029_tourist_entry.questphase",
+      "native_predicates": [
+        "PTFR.SideJobsS28.PTFRS28HighwaymanVehicleUnownedPrereq"
+      ],
+      "native_world_inventory_zero": []
+    },
+    {
+      "id": "mq050_ken_block_tribute",
+      "title": "I'm in Love with My Car",
+      "tag": "PTFRS28_mq050_ken_block_tribute",
+      "journals": [
+        {
+          "path": "quests/minor_quest/mq050_ken_block_tribute",
+          "class": "gameJournalQuest",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq050_ken_block_tribute/mq050_warehouse",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq050_ken_block_tribute/mq050_warehouse/investigate",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq050_ken_block_tribute/mq050_warehouse/investigate/warehouse",
+          "class": "gameJournalQuestMapPin",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq050_ken_block_tribute/mq050_warehouse/get_inside_car",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq050_ken_block_tribute/mq050_warehouse/get_inside_car/car",
+          "class": "gameJournalQuestMapPin",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq050_ken_block_tribute/mq050_description",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "facts_equal": {},
+      "fact_ranges": {
+        "q101_done": {
+          "min": 1,
+          "max": 2147483647
+        }
+      },
+      "inventory_zero": [
+        {
+          "record": "Keycards.mq050_car_keys",
+          "hash": "99716362400"
+        }
+      ],
+      "vehicle_zero": [
+        {
+          "record": "Vehicle.v_sport2_quadra_type66_nomad_tribute",
+          "hash": "189393478117"
+        }
+      ],
+      "resume": "DEFER any completed, progressed, existing-owner, earned-item/vehicle or unknown state; no restart/reset/reward replay",
+      "depot": "towercontinued\\sidejobs_s28\\vehicles\\mq050_ken_block_tribute_entry.questphase",
+      "native_predicates": [
+        "PTFR.SideJobsS28.PTFRS28HoonVehicleUnownedPrereq",
+        "PTFR.SideJobsS28.PTFRS28HoonWorldKeyAbsentPrereq"
+      ],
+      "native_world_inventory_zero": [
+        {
+          "class": "PTFR.SideJobsS28.PTFRS28HoonWorldKeyAbsentPrereq",
+          "kind": "loaded_world_inventory_zero",
+          "node_ref": "$/03_night_city/c_watson/northside/loc_mq050_ken_block_tribute_prefabIK2VAKA/loc_mq050_ken_block_tribute_gameplay_prefabJPVRKTI/loc_mq050_ken_block_tribute_loot_prefabPU3FSXA/#mq050_main_loot",
+          "record": "Keycards.mq050_car_keys",
+          "hash": "99716362400",
+          "unloaded": "DEFER",
+          "native_target_witness": {
+            "depot": "base\\quest\\minor_quests\\mq050\\mq050.questphase",
+            "node": 51,
+            "reference": "#mq050_main_loot"
+          }
+        }
+      ]
+    }
+  ],
+  "common_equal": {
+    "PostTowerFreeRoamActive": 1,
+    "PTFRP0_DR13": 1,
+    "PTFRPA2_Finished": 1,
+    "PTFRPA2_Fault": 0,
+    "q307_done": 1,
+    "q307_finished": 1,
+    "q307_2079": 1,
+    "q307_main_game_killed": 1,
+    "q307_ep1_killed": 1,
+    "q307_active": 0,
+    "q307_debug_reset": 0,
+    "q115_point_of_no_return": 0,
+    "q305_johnny_scene_active": 0
+  },
+  "source_pins": {
+    "prealpha/sidejobs_s28/vehicles/prepare_contract_02.py": "D3E3882676881DCA712AF3C5DEA6F2FC6DB8C5352AE8C5282A8459F3ACF285D2",
+    "prealpha/sidejobs_s28/vehicles/contracts_01.json": "5A3A4E7A99C071EF44C876909F77BF77D83A034749FA91DD366275BB3CEB9A79",
+    "research/sidejobs_s28/vehicles/official_02/inventory.json": "BD71BA6C448F89B1E5273E8C8069C439C63ABE6E7716C8F8EA2BDE4666A068AC",
+    "research/sidejobs_s28/vehicles/plan_01.json": "8E1D561331E8E235452BCABF21EC7681BAAD9250E4ED63B7B11AE6A77158F0B4",
+    "research/sidejobs_s28/vehicles/presentation_01.json": "49EC73751AC43006B96D0157B158E37E74A204D60C1A9C8A12C9869C681EDDB0",
+    "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/raw/base/quest/minor_quests/mq029/phases/mq029_garage.questphase": "B023C7285FAFC16C1AF6820494D95978FF8F18F96F257456EEDBC729BD4E612D",
+    "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/json/base/quest/minor_quests/mq029/phases/mq029_garage.questphase.json": "924A2DA5BC372D4F434679F8A6B35EA5F67EAFDD136F59E80817783C2C5D50BE",
+    "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/raw/base/quest/minor_quests/mq029/phases/mq029_james.questphase": "F85AE7F631DC4983097422FE6C8452A436B0F425C9B4CFF8A46A614CA3D3729B",
+    "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/json/base/quest/minor_quests/mq029/phases/mq029_james.questphase.json": "8FCE2D79F79E83E110A51D95712162EB0FF4A53B8D34380C6723879A299FBB1B",
+    "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/raw/base/quest/minor_quests/mq029/phases/mq029_setup.questphase": "65D644C3418111E16C1B6A3ED939EA1EFE2704261113123416103E7B87A14620",
+    "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/json/base/quest/minor_quests/mq029/phases/mq029_setup.questphase.json": "F7E46C201BAAE1810042917A182B6122AE1BCA7C66CB6E98826040E0F55C8087",
+    "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/raw/base/quest/minor_quests/mq029/scenes/mq029_01b_josie_body.scene": "34FAEBBC9CE4462CAF7D30F7C1F5D7BE23C3F01E57DD2228C502FE1A3C9C686F",
+    "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/json/base/quest/minor_quests/mq029/scenes/mq029_01b_josie_body.scene.json": "552136532ABF9E94D1EEABE245E65F3E12F170B956DB14D6D80EFE4B772988FD",
+    "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/raw/base/quest/minor_quests/mq029/scenes/mq029_01a_garage.scene": "BA19486693C66B746BED34F58CDA52EDB9ECC2B410F7501D90D2D8F2472D7DD5",
+    "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/json/base/quest/minor_quests/mq029/scenes/mq029_01a_garage.scene.json": "797A37DA390CC9AA6863794EE9604BD4E8AE206A5EAAD611A31698B496DB2593",
+    "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/raw/base/quest/minor_quests/mq050/scenes/mq050_johnny_start.scene": "0AA994296E3E1792AA3EA1E35FD1CA8441348A9B057F98D767E11519CC135EEB",
+    "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/json/base/quest/minor_quests/mq050/scenes/mq050_johnny_start.scene.json": "1244E00733BA5E4FEED316081F510FEF8CB7E66BF991CAA06386D0D588837B31",
+    "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/raw/base/open_world/street_stories/heywood/glenn/sts_hey_gle_03/scenes/sts_hey_gle_03_scene.scene": "BC6CE8D87CAD3C2FBB3645AD7319E18D224A0FE55F660FCCD9C6E082080D420A",
+    "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/json/base/open_world/street_stories/heywood/glenn/sts_hey_gle_03/scenes/sts_hey_gle_03_scene.scene.json": "5E745C20655BE7643FDCF3D7A965FD6848CCE0962B411C0C33D2D3C2EDE50FCB",
+    "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/raw/base/quest/minor_quests/mq050/mq050.questphase": "FC7F91A32098A475D27F4A4D3C27DC06AE2E45AF89D2D0BBAE53163651AA15C7",
+    "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/json/base/quest/minor_quests/mq050/mq050.questphase.json": "EC82DC292D2F1F6454759CD2DEBB47E07C5AEC9509D29141200C1C103111C36B",
+    "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/raw/base/quest/minor_quests/mq058/phases/mq058_quest_resolution.questphase": "9FE5C550BA3F91D67795EC3645F81F110AC15BA4745F917985DF41AD02B01386",
+    "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/json/base/quest/minor_quests/mq058/phases/mq058_quest_resolution.questphase.json": "BF27A3AB2DF3F60155123CE030C9E3A014FF2D80B9CE14D9B00D4430E263E0D9",
+    "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/raw/base/quest/minor_quests/mq029/scenes/mq029_01_james.scene": "5ED14875213DCA5EE51A0C06A012A2712C8814BFD1A17251BDDBF82E0B5C5F22",
+    "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/json/base/quest/minor_quests/mq029/scenes/mq029_01_james.scene.json": "404AE1F27A135F071C9C631FB16E52DE3B3BCC89ECB4F1608060FA7AE5E53F4E",
+    "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/raw/base/quest/minor_quests/minorquests.questphase": "89E902A6BCC783325642A6DC6D1D856BB144651136C58D423FEA6B421EFCE85A",
+    "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/json/base/quest/minor_quests/minorquests.questphase.json": "E7DE4349AA69E6F3C604159FAFC21A25868A73F8E497DEF42FF016F57673A786",
+    "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/raw/base/quest/minor_quests/mq029/phases/mq029_josie_corpse.questphase": "C4B9BAEBF69C9FBA2F37515784E233AD2597406889E63F813879420B2105ED0C",
+    "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/json/base/quest/minor_quests/mq029/phases/mq029_josie_corpse.questphase.json": "3258C7A40132D83138ACFAFCAE5E9C57DE364232574333CA913A2DAE9BADAE23",
+    "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/raw/base/quest/minor_quests/mq029/phases/mq029_stolen_bike.questphase": "997110AC8F7B9DB6B3C829046DC3BBFE765E911990C896922F438628A5BC3AC9",
+    "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/json/base/quest/minor_quests/mq029/phases/mq029_stolen_bike.questphase.json": "6A6CEEC3EDFF9A20E1E9A91E25FA08A8295BCB524A535EA55AE59694134A69F5",
+    "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/raw/base/quest/minor_quests/mq029/mq029_tourist.questphase": "5D16CC6FF6875645CF5DAD2D5B279AE2737B9BCD923EBDED867D81E108A82498",
+    "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/json/base/quest/minor_quests/mq029/mq029_tourist.questphase.json": "886619B0DE1CDCF9D3ECB1CD607D675F7E5B855C2F04F615C43F5F7FFD0047E2",
+    "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/raw/base/quest/bugfixing/quest_bugfixing.questphase": "A15ACF6C3824F0F947943138480131582D24BE69402EC82CD90D5D7B165D8D60",
+    "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/json/base/quest/bugfixing/quest_bugfixing.questphase.json": "A8E863CC2FD7328CC60E66AC7444891B783957A5D204C5BB80FE764E7E8BFE9F",
+    "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/raw/base/quest/persistent_content.questphase": "7E702DFE44E84719576D6BED8D87F3BDA383E308CB45C85FE34DE9CC4CA62189",
+    "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/json/base/quest/persistent_content.questphase.json": "31875FC50B698721C6235CEAADF43DB427612F66212E377EC14C9EB7F14F5249",
+    "research/sidejobs_s28/vehicles/world_03/inventory.json": "E5317F42AE8A1CC8B34094EE8E8ED3B61601C7DDF48D31269AE2A9E7242A3B26",
+    "research/sidejobs_s28/vehicles/world_03/raw/ep1_1_nightcity_always_loaded_2.streamingsector": "A29A484E5215AAD93C2F90B955D163FBEF7932AB9B6D117E67455B2D907318ED",
+    "research/sidejobs_s28/vehicles/world_03/json/ep1_1_nightcity_always_loaded_2.streamingsector.json": "5AB4EF558D1E3D150C6006A4EA7A87BC7ECF71145DD0767D3AEB47134E03E837"
+  },
+  "native_resources": {
+    "base\\quest\\minor_quests\\mq029\\phases\\mq029_garage.questphase": {
+      "depot": "base\\quest\\minor_quests\\mq029\\phases\\mq029_garage.questphase",
+      "json": "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/json/base/quest/minor_quests/mq029/phases/mq029_garage.questphase.json",
+      "raw": "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/raw/base/quest/minor_quests/mq029/phases/mq029_garage.questphase",
+      "json_sha256": "924A2DA5BC372D4F434679F8A6B35EA5F67EAFDD136F59E80817783C2C5D50BE",
+      "raw_sha256": "B023C7285FAFC16C1AF6820494D95978FF8F18F96F257456EEDBC729BD4E612D"
+    },
+    "base\\quest\\minor_quests\\mq029\\phases\\mq029_james.questphase": {
+      "depot": "base\\quest\\minor_quests\\mq029\\phases\\mq029_james.questphase",
+      "json": "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/json/base/quest/minor_quests/mq029/phases/mq029_james.questphase.json",
+      "raw": "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/raw/base/quest/minor_quests/mq029/phases/mq029_james.questphase",
+      "json_sha256": "8FCE2D79F79E83E110A51D95712162EB0FF4A53B8D34380C6723879A299FBB1B",
+      "raw_sha256": "F85AE7F631DC4983097422FE6C8452A436B0F425C9B4CFF8A46A614CA3D3729B"
+    },
+    "base\\quest\\minor_quests\\mq029\\phases\\mq029_setup.questphase": {
+      "depot": "base\\quest\\minor_quests\\mq029\\phases\\mq029_setup.questphase",
+      "json": "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/json/base/quest/minor_quests/mq029/phases/mq029_setup.questphase.json",
+      "raw": "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/raw/base/quest/minor_quests/mq029/phases/mq029_setup.questphase",
+      "json_sha256": "F7E46C201BAAE1810042917A182B6122AE1BCA7C66CB6E98826040E0F55C8087",
+      "raw_sha256": "65D644C3418111E16C1B6A3ED939EA1EFE2704261113123416103E7B87A14620"
+    },
+    "base\\quest\\minor_quests\\mq029\\scenes\\mq029_01b_josie_body.scene": {
+      "depot": "base\\quest\\minor_quests\\mq029\\scenes\\mq029_01b_josie_body.scene",
+      "json": "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/json/base/quest/minor_quests/mq029/scenes/mq029_01b_josie_body.scene.json",
+      "raw": "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/raw/base/quest/minor_quests/mq029/scenes/mq029_01b_josie_body.scene",
+      "json_sha256": "552136532ABF9E94D1EEABE245E65F3E12F170B956DB14D6D80EFE4B772988FD",
+      "raw_sha256": "34FAEBBC9CE4462CAF7D30F7C1F5D7BE23C3F01E57DD2228C502FE1A3C9C686F"
+    },
+    "base\\quest\\minor_quests\\mq029\\scenes\\mq029_01a_garage.scene": {
+      "depot": "base\\quest\\minor_quests\\mq029\\scenes\\mq029_01a_garage.scene",
+      "json": "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/json/base/quest/minor_quests/mq029/scenes/mq029_01a_garage.scene.json",
+      "raw": "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/raw/base/quest/minor_quests/mq029/scenes/mq029_01a_garage.scene",
+      "json_sha256": "797A37DA390CC9AA6863794EE9604BD4E8AE206A5EAAD611A31698B496DB2593",
+      "raw_sha256": "BA19486693C66B746BED34F58CDA52EDB9ECC2B410F7501D90D2D8F2472D7DD5"
+    },
+    "base\\quest\\minor_quests\\mq050\\scenes\\mq050_johnny_start.scene": {
+      "depot": "base\\quest\\minor_quests\\mq050\\scenes\\mq050_johnny_start.scene",
+      "json": "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/json/base/quest/minor_quests/mq050/scenes/mq050_johnny_start.scene.json",
+      "raw": "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/raw/base/quest/minor_quests/mq050/scenes/mq050_johnny_start.scene",
+      "json_sha256": "1244E00733BA5E4FEED316081F510FEF8CB7E66BF991CAA06386D0D588837B31",
+      "raw_sha256": "0AA994296E3E1792AA3EA1E35FD1CA8441348A9B057F98D767E11519CC135EEB"
+    },
+    "base\\open_world\\street_stories\\heywood\\glenn\\sts_hey_gle_03\\scenes\\sts_hey_gle_03_scene.scene": {
+      "depot": "base\\open_world\\street_stories\\heywood\\glenn\\sts_hey_gle_03\\scenes\\sts_hey_gle_03_scene.scene",
+      "json": "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/json/base/open_world/street_stories/heywood/glenn/sts_hey_gle_03/scenes/sts_hey_gle_03_scene.scene.json",
+      "raw": "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/raw/base/open_world/street_stories/heywood/glenn/sts_hey_gle_03/scenes/sts_hey_gle_03_scene.scene",
+      "json_sha256": "5E745C20655BE7643FDCF3D7A965FD6848CCE0962B411C0C33D2D3C2EDE50FCB",
+      "raw_sha256": "BC6CE8D87CAD3C2FBB3645AD7319E18D224A0FE55F660FCCD9C6E082080D420A"
+    },
+    "base\\quest\\minor_quests\\mq050\\mq050.questphase": {
+      "depot": "base\\quest\\minor_quests\\mq050\\mq050.questphase",
+      "json": "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/json/base/quest/minor_quests/mq050/mq050.questphase.json",
+      "raw": "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/raw/base/quest/minor_quests/mq050/mq050.questphase",
+      "json_sha256": "EC82DC292D2F1F6454759CD2DEBB47E07C5AEC9509D29141200C1C103111C36B",
+      "raw_sha256": "FC7F91A32098A475D27F4A4D3C27DC06AE2E45AF89D2D0BBAE53163651AA15C7"
+    },
+    "base\\quest\\minor_quests\\mq058\\phases\\mq058_quest_resolution.questphase": {
+      "depot": "base\\quest\\minor_quests\\mq058\\phases\\mq058_quest_resolution.questphase",
+      "json": "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/json/base/quest/minor_quests/mq058/phases/mq058_quest_resolution.questphase.json",
+      "raw": "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/raw/base/quest/minor_quests/mq058/phases/mq058_quest_resolution.questphase",
+      "json_sha256": "BF27A3AB2DF3F60155123CE030C9E3A014FF2D80B9CE14D9B00D4430E263E0D9",
+      "raw_sha256": "9FE5C550BA3F91D67795EC3645F81F110AC15BA4745F917985DF41AD02B01386"
+    },
+    "base\\quest\\minor_quests\\mq029\\scenes\\mq029_01_james.scene": {
+      "depot": "base\\quest\\minor_quests\\mq029\\scenes\\mq029_01_james.scene",
+      "json": "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/json/base/quest/minor_quests/mq029/scenes/mq029_01_james.scene.json",
+      "raw": "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/raw/base/quest/minor_quests/mq029/scenes/mq029_01_james.scene",
+      "json_sha256": "404AE1F27A135F071C9C631FB16E52DE3B3BCC89ECB4F1608060FA7AE5E53F4E",
+      "raw_sha256": "5ED14875213DCA5EE51A0C06A012A2712C8814BFD1A17251BDDBF82E0B5C5F22"
+    },
+    "base\\quest\\minor_quests\\minorquests.questphase": {
+      "depot": "base\\quest\\minor_quests\\minorquests.questphase",
+      "json": "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/json/base/quest/minor_quests/minorquests.questphase.json",
+      "raw": "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/raw/base/quest/minor_quests/minorquests.questphase",
+      "json_sha256": "E7DE4349AA69E6F3C604159FAFC21A25868A73F8E497DEF42FF016F57673A786",
+      "raw_sha256": "89E902A6BCC783325642A6DC6D1D856BB144651136C58D423FEA6B421EFCE85A"
+    },
+    "base\\quest\\minor_quests\\mq029\\phases\\mq029_josie_corpse.questphase": {
+      "depot": "base\\quest\\minor_quests\\mq029\\phases\\mq029_josie_corpse.questphase",
+      "json": "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/json/base/quest/minor_quests/mq029/phases/mq029_josie_corpse.questphase.json",
+      "raw": "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/raw/base/quest/minor_quests/mq029/phases/mq029_josie_corpse.questphase",
+      "json_sha256": "3258C7A40132D83138ACFAFCAE5E9C57DE364232574333CA913A2DAE9BADAE23",
+      "raw_sha256": "C4B9BAEBF69C9FBA2F37515784E233AD2597406889E63F813879420B2105ED0C"
+    },
+    "base\\quest\\minor_quests\\mq029\\phases\\mq029_stolen_bike.questphase": {
+      "depot": "base\\quest\\minor_quests\\mq029\\phases\\mq029_stolen_bike.questphase",
+      "json": "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/json/base/quest/minor_quests/mq029/phases/mq029_stolen_bike.questphase.json",
+      "raw": "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/raw/base/quest/minor_quests/mq029/phases/mq029_stolen_bike.questphase",
+      "json_sha256": "6A6CEEC3EDFF9A20E1E9A91E25FA08A8295BCB524A535EA55AE59694134A69F5",
+      "raw_sha256": "997110AC8F7B9DB6B3C829046DC3BBFE765E911990C896922F438628A5BC3AC9"
+    },
+    "base\\quest\\minor_quests\\mq029\\mq029_tourist.questphase": {
+      "depot": "base\\quest\\minor_quests\\mq029\\mq029_tourist.questphase",
+      "json": "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/json/base/quest/minor_quests/mq029/mq029_tourist.questphase.json",
+      "raw": "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/raw/base/quest/minor_quests/mq029/mq029_tourist.questphase",
+      "json_sha256": "886619B0DE1CDCF9D3ECB1CD607D675F7E5B855C2F04F615C43F5F7FFD0047E2",
+      "raw_sha256": "5D16CC6FF6875645CF5DAD2D5B279AE2737B9BCD923EBDED867D81E108A82498"
+    },
+    "base\\quest\\bugfixing\\quest_bugfixing.questphase": {
+      "depot": "base\\quest\\bugfixing\\quest_bugfixing.questphase",
+      "json": "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/json/base/quest/bugfixing/quest_bugfixing.questphase.json",
+      "raw": "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/raw/base/quest/bugfixing/quest_bugfixing.questphase",
+      "json_sha256": "A8E863CC2FD7328CC60E66AC7444891B783957A5D204C5BB80FE764E7E8BFE9F",
+      "raw_sha256": "A15ACF6C3824F0F947943138480131582D24BE69402EC82CD90D5D7B165D8D60"
+    },
+    "base\\quest\\persistent_content.questphase": {
+      "depot": "base\\quest\\persistent_content.questphase",
+      "json": "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/json/base/quest/persistent_content.questphase.json",
+      "raw": "research/sidejobs_s28/vehicles/official_02/basegame_4_gamedata/raw/base/quest/persistent_content.questphase",
+      "json_sha256": "31875FC50B698721C6235CEAADF43DB427612F66212E377EC14C9EB7F14F5249",
+      "raw_sha256": "7E702DFE44E84719576D6BED8D87F3BDA383E308CB45C85FE34DE9CC4CA62189"
+    }
+  },
+  "vehicle_api": "VehicleSystem.IsVehiclePlayerUnlocked(TweakDBID); unknown context fails closed",
+  "native_vehicle_gate": "Immediate questPrereq_ConditionType invokes read-only IScriptablePrereq.IsFulfilled on the native full admission condition. VehicleAvailable NOR remains an additional availability restriction.",
+  "native_runtime_predicates": {
+    "highwayman_vehicle": {
+      "class": "PTFR.SideJobsS28.PTFRS28HighwaymanVehicleUnownedPrereq",
+      "kind": "vehicle_unowned",
+      "record": "Vehicle.v_sportbike2_arch_tyger_player",
+      "hash": "167323116460"
+    },
+    "hoon_vehicle": {
+      "class": "PTFR.SideJobsS28.PTFRS28HoonVehicleUnownedPrereq",
+      "kind": "vehicle_unowned",
+      "record": "Vehicle.v_sport2_quadra_type66_nomad_tribute",
+      "hash": "189393478117"
+    },
+    "hoon_world_key": {
+      "class": "PTFR.SideJobsS28.PTFRS28HoonWorldKeyAbsentPrereq",
+      "kind": "loaded_world_inventory_zero",
+      "node_ref": "$/03_night_city/c_watson/northside/loc_mq050_ken_block_tribute_prefabIK2VAKA/loc_mq050_ken_block_tribute_gameplay_prefabJPVRKTI/loc_mq050_ken_block_tribute_loot_prefabPU3FSXA/#mq050_main_loot",
+      "record": "Keycards.mq050_car_keys",
+      "hash": "99716362400",
+      "unloaded": "DEFER",
+      "native_target_witness": {
+        "depot": "base\\quest\\minor_quests\\mq050\\mq050.questphase",
+        "node": 51,
+        "reference": "#mq050_main_loot"
+      }
+    }
+  }
+}

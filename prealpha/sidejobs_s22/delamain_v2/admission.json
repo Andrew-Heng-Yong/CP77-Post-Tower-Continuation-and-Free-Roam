@@ -1,0 +1,45 @@
+{
+  "key": "SQ025",
+  "status": "SOURCE_DESIGN_NOT_INSTALLED",
+  "tag": "PTFRS22_SQ025",
+  "route": "Resume Epistrophy after briefing with exactly three completed legs; no completed-leg replay and no excluded sequel.",
+  "permit_fact": "PTFRS22_SQ025_Permit",
+  "root": "quests/side_quest/sq025_delamain",
+  "root_states": [1, 4],
+  "journals": [
+    {"path":"quests/side_quest/sq025_delamain","class":"gameJournalQuest","states":[1,4]},
+    {"path":"quests/side_quest/sq025_delamain/02_briefing/02_02_leave_garage","class":"gameJournalQuestObjective","states":[3]},
+    {"path":"quests/side_quest/sq025_delamain/02_briefing/02_01c_take_scanner","class":"gameJournalQuestObjective","states":[3]},
+    {"path":"quests/side_quest/sq025_delamain/02_briefing/02_01_follow_delamain","class":"gameJournalQuestObjective","states":[3]},
+    {"path":"quests/side_quest/sq025_delamain/02_briefing/02_02b_talk_delamain","class":"gameJournalQuestObjective","states":[3]},
+    {"path":"quests/side_quest/sq025_delamain/02_briefing/02_00_talk_delamain","class":"gameJournalQuestObjective","states":[3]},
+    {"path":"quests/side_quest/sq025_delamain/03_scan","class":"gameJournalQuestPhase","states":[1,4]},
+    {"path":"quests/side_quest/sq025_delamain/03_scan/03_02_scan_delamains","class":"gameJournalQuestObjective","states":[1,4]},
+    {"path":"quests/side_quest/sq025_delamain/04_scan_types/04_01_return","class":"gameJournalQuestObjective","states":[1]},
+    {"path":"quests/side_quest/sq025c02_sad","class":"gameJournalQuest","states":[3]},
+    {"path":"quests/side_quest/sq025c03_mean","class":"gameJournalQuest","states":[3]},
+    {"path":"quests/side_quest/sq025c07_suicidal","class":"gameJournalQuest","states":[3]},
+    {"path":"quests/side_quest/sq025c01_angry","class":"gameJournalQuest","states":[1,4]},
+    {"path":"quests/side_quest/sq025c04_manic","class":"gameJournalQuest","states":[1,4]},
+    {"path":"quests/side_quest/sq025c05_scared","class":"gameJournalQuest","states":[1,4]},
+    {"path":"quests/side_quest/sq025c06_mean","class":"gameJournalQuest","states":[1,4]}
+  ],
+  "facts_equal": {
+    "sq025_active":1,"sq025_briefing_scene_done":1,"sq025_scans_done":3,
+    "sq025_sad_done":1,"sq025_mean_done":1,"sq025_suicidal_done":1,
+    "sq025_sad_mounted":0,
+    "sq025_angry_done":0,"sq025_manic_done":0,"sq025_scared_done":0,"sq025_deep_done":0,
+    "sq025_angry_talk_start":0,"sq025_angry_talk_end":0,
+    "sq025_manic_talk_start":0,"sq025_manic_talk_end":0,"sq025_manic_talk_disconnect":0,
+    "sq025_scared_talk_start":0,"sq025_scared_talk_end":0,"sq025_scared_committed":0,"sq025_scared_crashed":0,
+    "sq025_deep_active":0,"sq025_deep_av_running":0,"sq025_deep_vehicle_screen":0,
+    "sq025_debug":0,"sq025_done":0,"sq025_clean":0,"sq025_failed":0,"sq025_failed_momentarily":0,
+    "sq025_delamain_done":0,"sq025_disabled":0,"sq025_initialize_fail":0,"sq025_delamain_destroyed":0,
+    "sq025_delamain_damaged":0,"sq025_delamain_damaged_counter":0,"sq025_resurgence_start":0,
+    "sq025_scan_savelock":0,"holo_delamain_deep_vehicle_talk":0,
+    "sq025_scan_angry_intro_done":1,"sq025_scan_manic_intro_done":1,"sq025_scan_scared_intro_done":1,"sq025_scan_deep_intro_done":1
+  },
+  "required_global": "Common genuine post-Tower, PA2 finished/fault0, U9 support; BodyPolicy.Safe and stable journal reads before Permit. Native one-shot preflight independently checks all journal/fact fields and phone idle.",
+  "not_supported": ["Other completed-leg combinations", "Mid-chase or active conversation", "Genuine destroyed-car failure", "Final scanner reward already started", "Don't Lose Your Mind sequel"]
+}
+

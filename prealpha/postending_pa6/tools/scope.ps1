@@ -1,0 +1,10 @@
+$replacePaths=@(
+ 'bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_PreAlpha/init.lua',
+ 'r6/scripts/PTFR_PreAlpha/PA1/PreAlphaEntry.reds',
+ 'r6/scripts/PTFR_PreAlpha/PTFR_RestorationBaseline/RestorationBaseline.reds'
+)
+$addPaths=@('archive/pc/mod/0_TowerContinued_RogueLipsync_PA6.archive')
+$allowed=@($replacePaths)+@($addPaths)
+$baselineSHA='5638C911EE19D89EEDB14B3FBF824B51B358E390D05AA7C63203E1F5E06900CA'
+$gd2Relative='archive/pc/mod/TowerContinued_StairsFX_GD2.archive'
+$gd2SHA='03851DAA463B50FD78E2049C8A1ACDF04041E13C78B0538DCCC1955734768BDD'

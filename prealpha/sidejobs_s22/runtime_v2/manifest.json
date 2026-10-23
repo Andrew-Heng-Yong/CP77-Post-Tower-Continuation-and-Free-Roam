@@ -1,0 +1,572 @@
+{
+  "status": "GENERATED_NOT_COMPILED_OR_INSTALLED",
+  "source_pins": {
+    "prealpha/sidejobs_s22/runtime_v2/generate.py": "5A6B1E571F10C3E7ED342397ED384CFF919154C89465F8189AB318177DB18CB5",
+    "prealpha/sidejobs_s22/runtime_v2/SideJobsS22.template.reds": "92D24064A51EAA972FFCB5796FB83D42B8E7B572A0FB1F93462BEFF6F74696FF",
+    "prealpha/sidejobs_s21/SideJobsS2.reds": "68947EA168C7F3A3AD589BB8E568AF6EF4E1B54F62EB8ACE8190E339F8582C1F",
+    "prealpha/sidejobs_s22/runtime/generate.py": "6E2155CBBBD45BA8F9E29A85DA838AD52A789CA505DAD099413C851E9327675B",
+    "prealpha/sidejobs_s22/runtime/SideJobsS22.template.reds": "92D24064A51EAA972FFCB5796FB83D42B8E7B572A0FB1F93462BEFF6F74696FF",
+    "prealpha/sidejobs_s22/runtime/test.py": "272A55CF5FCAF14E588FBB28577E1D88BB25AD42387B01DC7A88CE4F1C9F6C6F",
+    "prealpha/sidejobs_s22/runtime/SideJobsS2.reds": "58F134FFE6CCD8DF0AF30FCCABBFD161BBBCC8AEF75E25C16D18303992134295",
+    "prealpha/sidejobs_s22/runtime/SideJobsS22.reds": "D5AB7605DDC8302693CF227181D3DD131FF18DF3D1BBE715C09AE949BFE5112D",
+    "prealpha/sidejobs_s22/runtime/manifest.json": "7635FCBD0E9E03E6F2519275CAD2C3E93957664CC3A7CE31B266046B946F652C",
+    "prealpha/sidejobs_s22/runtime/test_result_01.json": "17DD5836E70DC57A266DECBA1C6E154B86C54B6C606F9DC889F6A4F8ECD6C9EC",
+    "prealpha/sidejobs_s22/boxing/contract.json": "5040AE56BA4BA7057B5FEE9F8E7A0A9A0AD9DE738650BF88D5B291492489366D",
+    "prealpha/sidejobs_s22/delamain_v2/admission.json": "C07A89EA4714E644BE6108669E8BE39A1730178AF308B9A5B58293F3C49E1532",
+    "prealpha/sidejobs_s22/ep1_jobs/admission.json": "F6F04727FFB230C6D9DEE3B0C819F9888728C370461E30CB1E8ADDD08DE30302",
+    "prealpha/sidejobs_s22/the_gig/contract.json": "96CECD402EC497D78D3F4EF0DAD946F9E84A30EA701C15B4098EC0D8A0A8981E"
+  },
+  "rows": [
+    {
+      "id": "mq025_psycho_brawl",
+      "title": "Beat on the Brat",
+      "tag": "PTFRS22_MQ025",
+      "journals": [
+        {
+          "path": "quests/minor_quest/mq025_psycho_brawl",
+          "class": "gameJournalQuest",
+          "states": [
+            4,
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq025_psycho_brawl/find_fights",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            4,
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq025_psycho_brawl/find_fights/find_kabuki",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            4,
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq025_psycho_brawl/find_fights/fin_arroyo",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            4,
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq025_psycho_brawl/find_fights/find_glen",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            4,
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq025_psycho_brawl/find_fights/find_club",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            4,
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq025_psycho_brawl/find_fights/find_pacifica",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq025_02_kabuki",
+          "class": "gameJournalQuest",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq025_03_arroyo",
+          "class": "gameJournalQuest",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq025_05_glen",
+          "class": "gameJournalQuest",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq025_07_fight_club",
+          "class": "gameJournalQuest",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq025_06_pacifica",
+          "class": "gameJournalQuest",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "facts_equal": {
+        "mq025_quest_started": 1,
+        "mq025_trainer_skipped": 1,
+        "mq025_02_kabuki_active": 1,
+        "mq025_03_arroyo_active": 1,
+        "mq025_05_glen_active": 1,
+        "mq025_07_fight_club": 1,
+        "mq025_06_pacifica_active": 0,
+        "mq025_02_cheer_active": 0,
+        "mq025_02_chosen": 0,
+        "mq025_02_fight_active": 0,
+        "mq025_02_fight_started": 0,
+        "mq025_02_player_wins": 0,
+        "mq025_03_chosen": 0,
+        "mq025_03_fight_active": 0,
+        "mq025_03_fight_started": 0,
+        "mq025_03_player_wins": 0,
+        "mq025_05_chosen": 0,
+        "mq025_05_fight_active": 0,
+        "mq025_05_fight_started": 0,
+        "mq025_05_gave_money": 0,
+        "mq025_05_player_wins": 0,
+        "mq025_06_chosen": 0,
+        "mq025_06_ozob_fight_started": 0,
+        "mq025_06_ozob_player_wins": 0,
+        "mq025_06_pacifica_fight_active": 0,
+        "mq025_07_chosen": 0,
+        "mq025_07_fight_started": 0,
+        "mq025_07_fight_starts": 0,
+        "mq025_07_player_wins": 0,
+        "mq025_08_final_fight_active": 0,
+        "mq025_08_finale_player_wins": 0,
+        "mq025_08_finale_started": 0,
+        "mq025_buck_dead": 0,
+        "mq025_cash": 0,
+        "mq025_choose_fight": 0,
+        "mq025_done": 0,
+        "mq025_finale_started": 0,
+        "mq025_fist_fight_quest_start": 0,
+        "mq025_ozob_exploded": 0,
+        "mq025_razor_walks": 0,
+        "mq025_rhino_dead": 0,
+        "mq025_rhino_happy": 0,
+        "mq025_test_definition": 0,
+        "mq025_trainer_angry": 0,
+        "mq025_twin_01_down": 0,
+        "mq025_twin_02_down": 0,
+        "mq025_twins_player_down": 0,
+        "ozob_weakspot_nose_destroyed": 0,
+        "wwd_05_done": 0
+      },
+      "source": "prealpha/sidejobs_s22/boxing/contract.json",
+      "source_sha256": "5040AE56BA4BA7057B5FEE9F8E7A0A9A0AD9DE738650BF88D5B291492489366D"
+    },
+    {
+      "id": "sq025_delamain",
+      "title": "Epistrophy",
+      "tag": "PTFRS22_SQ025",
+      "journals": [
+        {
+          "path": "quests/side_quest/sq025_delamain",
+          "class": "gameJournalQuest",
+          "states": [
+            1,
+            4
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq025_delamain/02_briefing/02_02_leave_garage",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            3
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq025_delamain/02_briefing/02_01c_take_scanner",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            3
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq025_delamain/02_briefing/02_01_follow_delamain",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            3
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq025_delamain/02_briefing/02_02b_talk_delamain",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            3
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq025_delamain/02_briefing/02_00_talk_delamain",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            3
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq025_delamain/03_scan",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1,
+            4
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq025_delamain/03_scan/03_02_scan_delamains",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1,
+            4
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq025_delamain/04_scan_types/04_01_return",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq025c02_sad",
+          "class": "gameJournalQuest",
+          "states": [
+            3
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq025c03_mean",
+          "class": "gameJournalQuest",
+          "states": [
+            3
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq025c07_suicidal",
+          "class": "gameJournalQuest",
+          "states": [
+            3
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq025c01_angry",
+          "class": "gameJournalQuest",
+          "states": [
+            1,
+            4
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq025c04_manic",
+          "class": "gameJournalQuest",
+          "states": [
+            1,
+            4
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq025c05_scared",
+          "class": "gameJournalQuest",
+          "states": [
+            1,
+            4
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq025c06_mean",
+          "class": "gameJournalQuest",
+          "states": [
+            1,
+            4
+          ]
+        }
+      ],
+      "facts_equal": {
+        "sq025_active": 1,
+        "sq025_briefing_scene_done": 1,
+        "sq025_scans_done": 3,
+        "sq025_sad_done": 1,
+        "sq025_mean_done": 1,
+        "sq025_suicidal_done": 1,
+        "sq025_sad_mounted": 0,
+        "sq025_angry_done": 0,
+        "sq025_manic_done": 0,
+        "sq025_scared_done": 0,
+        "sq025_deep_done": 0,
+        "sq025_angry_talk_start": 0,
+        "sq025_angry_talk_end": 0,
+        "sq025_manic_talk_start": 0,
+        "sq025_manic_talk_end": 0,
+        "sq025_manic_talk_disconnect": 0,
+        "sq025_scared_talk_start": 0,
+        "sq025_scared_talk_end": 0,
+        "sq025_scared_committed": 0,
+        "sq025_scared_crashed": 0,
+        "sq025_deep_active": 0,
+        "sq025_deep_av_running": 0,
+        "sq025_deep_vehicle_screen": 0,
+        "sq025_debug": 0,
+        "sq025_done": 0,
+        "sq025_clean": 0,
+        "sq025_failed": 0,
+        "sq025_failed_momentarily": 0,
+        "sq025_delamain_done": 0,
+        "sq025_disabled": 0,
+        "sq025_initialize_fail": 0,
+        "sq025_delamain_destroyed": 0,
+        "sq025_delamain_damaged": 0,
+        "sq025_delamain_damaged_counter": 0,
+        "sq025_resurgence_start": 0,
+        "sq025_scan_savelock": 0,
+        "holo_delamain_deep_vehicle_talk": 0,
+        "sq025_scan_angry_intro_done": 1,
+        "sq025_scan_manic_intro_done": 1,
+        "sq025_scan_scared_intro_done": 1,
+        "sq025_scan_deep_intro_done": 1
+      },
+      "source": "prealpha/sidejobs_s22/delamain_v2/admission.json",
+      "source_sha256": "C07A89EA4714E644BE6108669E8BE39A1730178AF308B9A5B58293F3C49E1532"
+    },
+    {
+      "id": "q304_car_retrieval",
+      "title": "Moving Heat",
+      "tag": "PTFRS22_Q304",
+      "journals": [
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval",
+          "class": "gameJournalQuest",
+          "states": [
+            1,
+            4
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1,
+            4
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/01_reach_the_door",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1,
+            4
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/02_use_the_panel_in_the_security_room_to_open_the_shutter",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/03_get_to_the_car",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/04_get_into_the_car",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/05_connect_to_the_cars_onboard_computer_and_wipe_the_memory",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/02_find_a_way_in",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/01_reach_the_door1",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/07_escape_with_the_car",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/01_answer_to_ashlay_message",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            3
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/03_wait_until_ashlay_opens_the_door",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/04_dont_kill_or_alert_anyone",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/01_wait_for_ashlay_message",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/08_play_along",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/05_clear_the_area",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/09_go_back_to_the_car",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/01_answer_to_ashlay_message2",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/05_clear_the_area_retro",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/description",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            2
+          ]
+        }
+      ],
+      "facts_equal": {
+        "q304_car_retrieval_accepted": 1,
+        "q304_car_retrieval_active": 1,
+        "q304_car_retrieval_car_entered": 0,
+        "q304_car_retrieval_car_ready2go": 0,
+        "q304_car_retrieval_combat_started": 0,
+        "q304_car_retrieval_done": 0,
+        "q304_car_retrieval_driver2_spawned": 0,
+        "q304_car_retrieval_finished": 0,
+        "q304_car_retrieval_got_spotted": 0,
+        "q304_car_retrieval_guards_killed": 0,
+        "q304_car_retrieval_inner_patrol_car_moving": 0,
+        "q304_car_retrieval_player_spotted": 0,
+        "q304_car_retrieval_player_spotted_2": 0,
+        "q304_car_retrieval_started": 1,
+        "q304_car_retrieval_truck_finished_ride": 0,
+        "q304_car_retrieval_truck_reached_inner": 0,
+        "q304_car_retrieval_van_reached_inner": 0,
+        "q304_car_retrival_on_top_of_truck": 0,
+        "q304_first_track_at_the_end_of_spline": 0,
+        "q304_retrofix_56524_on": 0
+      },
+      "source": "prealpha/sidejobs_s22/ep1_jobs/admission.json",
+      "source_sha256": "F6F04727FFB230C6D9DEE3B0C819F9888728C370461E30CB1E8ADDD08DE30302"
+    },
+    {
+      "id": "sq_q001_wakako",
+      "title": "The Gig",
+      "tag": "PTFRS22_SQ_Q001",
+      "journals": [
+        {
+          "path": "quests/side_quest/sq_q001_wakako",
+          "class": "gameJournalQuest",
+          "states": [
+            1,
+            4
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq_q001_wakako/wakako",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1,
+            4
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq_q001_wakako/wakako/00_reward",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            3
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq_q001_wakako/wakako/01_reward",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            3
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq_q001_wakako/wakako/02_reward",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1,
+            4
+          ]
+        }
+      ],
+      "facts_equal": {
+        "sq_q001_done": 0,
+        "q001_wakako_reward_given": 1
+      },
+      "source": "prealpha/sidejobs_s22/the_gig/contract.json",
+      "source_sha256": "96CECD402EC497D78D3F4EF0DAD946F9E84A30EA701C15B4098EC0D8A0A8981E"
+    }
+  ],
+  "files": {
+    "SideJobsS2.reds": "58F134FFE6CCD8DF0AF30FCCABBFD161BBBCC8AEF75E25C16D18303992134295",
+    "SideJobsS22.reds": "037BB7AE91EA09A5BB7604DC27B0B45343AC16BF6435486855527BC3FE1641D7"
+  },
+  "policy": "Current whitelisted Failed/Inactive bounded routes; pre-ending certification remains separate. Unsupported progress never reset."
+}

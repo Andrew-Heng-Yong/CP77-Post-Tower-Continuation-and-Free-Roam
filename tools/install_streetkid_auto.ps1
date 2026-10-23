@@ -1,0 +1,40 @@
+param([string]$WorkspaceRoot=(Split-Path -Parent $PSScriptRoot),[string]$GameRoot='C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077')
+Set-StrictMode -Version Latest
+$ErrorActionPreference='Stop'
+if(@(Get-Process Cyberpunk2077 -ErrorAction SilentlyContinue).Count){throw 'Game must be closed'}
+$game=[IO.Path]::GetFullPath($GameRoot).TrimEnd('\')
+$audit=Join-Path $WorkspaceRoot 'research\b0_streetkid_auto'
+$manifest=Get-Content (Join-Path $audit 'manifest.json') -Raw|ConvertFrom-Json
+$prior=Get-Content (Join-Path $WorkspaceRoot 'research\b0_streetkid_seat_mirror_s2\install_receipt_revision4.json') -Raw|ConvertFrom-Json
+$pairs=@(
+ @('build\Streetkid_Auto\TowerContinued_Streetkid_Auto.archive','archive\pc\mod\TowerContinued_Streetkid_Auto.archive'),
+ @('build\Streetkid_Auto\TowerContinued_Streetkid_Auto.archive.xl','archive\pc\mod\TowerContinued_Streetkid_Auto.archive.xl'),
+ @('redscript\PTFR_Streetkid_Auto\StreetkidAuto.reds','r6\scripts\PTFR_Streetkid_Auto\StreetkidAuto.reds'),
+ @('diagnostics\PTFR_Streetkid_Auto\init.lua','bin\x64\plugins\cyber_engine_tweaks\mods\PTFR_Streetkid_Seat_Mirror_S2\init.lua'))
+$targets=@($pairs|ForEach-Object {Join-Path $game $_[1]})
+if($manifest.revision -ne 5 -or (Get-FileHash (Join-Path $WorkspaceRoot $pairs[0][0])).Hash -ne $manifest.sha256){throw 'Manifest mismatch'}
+foreach($i in 0,1,2){if(Test-Path -LiteralPath $targets[$i]){throw 'New target already exists'}}
+if($targets[3] -ne $prior.files[2] -or (Get-FileHash $targets[3]).Hash -ne $prior.sha256[2]){throw 'Unexpected legacy controller'}
+foreach($t in $targets){if(-not [IO.Path]::GetFullPath($t).StartsWith($game+'\',[StringComparison]::OrdinalIgnoreCase)){throw 'Out-of-root target'}}
+$python='C:\Users\Ayong\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe'
+& $python (Join-Path $PSScriptRoot 'test_streetkid_auto.py');if($LASTEXITCODE -ne 0){throw 'Offline test failure'}
+& (Join-Path $WorkspaceRoot 'research\finalboards_dismissal\tooling\redscript-cli.exe') lint -s (Join-Path $WorkspaceRoot $pairs[2][0]) -b (Join-Path $game 'r6\cache\final.redscripts.modded')
+if($LASTEXITCODE -ne 0){throw 'Runtime compile check failed'}
+$protected=[ordered]@{}
+foreach($dir in 'archive\pc\mod','r6\scripts','bin\x64\plugins\cyber_engine_tweaks\mods'){
+ foreach($f in Get-ChildItem (Join-Path $game $dir) -Recurse -File|Where-Object {($_.Name -like '*TowerContinued*' -or $_.FullName -match '[\\/]PTFR_') -and $_.FullName -ne $targets[3]}){$protected[$f.FullName]=(Get-FileHash $f.FullName).Hash}
+}
+$backup=Join-Path $audit 'revision4_controller.lua'
+if(Test-Path $backup){throw 'Backup exists; no overwrite'}
+Copy-Item -LiteralPath $targets[3] -Destination $backup
+if((Get-FileHash $backup).Hash -ne $prior.sha256[2]){throw 'Backup mismatch'}
+if(@(Get-Process Cyberpunk2077 -ErrorAction SilentlyContinue).Count){throw 'Game started; abort installation'}
+for($i=0;$i -lt $pairs.Count;$i++){
+ New-Item -ItemType Directory -Force -Path (Split-Path -Parent $targets[$i])|Out-Null
+ Copy-Item -LiteralPath (Join-Path $WorkspaceRoot $pairs[$i][0]) -Destination $targets[$i] -Force
+ if((Get-FileHash $targets[$i]).Hash -ne (Get-FileHash (Join-Path $WorkspaceRoot $pairs[$i][0])).Hash){throw 'Installed hash mismatch'}
+}
+foreach($p in $protected.Keys){if((Get-FileHash $p).Hash -ne $protected[$p]){throw "Protected file changed: $p"}}
+$receipt=@{status='INSTALLED_AUTOMATIC_CANDIDATE';utc=[DateTime]::UtcNow.ToString('o');files=$targets;sha256=@($targets|ForEach-Object {(Get-FileHash $_).Hash});preserved_files=$protected.Count;backup=$backup;live_repeat_reload_tested=$false;save_or_story_fact_change=$false}
+[IO.File]::WriteAllText((Join-Path $audit 'install_receipt.json'),($receipt|ConvertTo-Json -Depth 6),[Text.UTF8Encoding]::new($false))
+$receipt|ConvertTo-Json -Depth 6

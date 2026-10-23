@@ -1,0 +1,7 @@
+quest:
+  phases:
+    - path: towercontinued\postending_pa5\camera\owner.questphase
+      parent: ep1\quest\ep1.quest
+      input:
+        node: [1]
+        socket: Out

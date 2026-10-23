@@ -1,0 +1,735 @@
+{
+  "schema": 1,
+  "status": "BUILT_SOURCE_NOT_LIVE_PROOF",
+  "policy": "Only Inactive R4 roots may newly activate; all prior owners and restored progress stay unchanged.",
+  "capture": "research/sidejobs_s23/live_20261016_01/capture.json",
+  "capture_sha256": "47084A3833CFE507D184A19CDD1276215A15F917F6B97AA4130E6A6E6919748A",
+  "owners": [
+    {
+      "id": "mq045_victor_debt",
+      "ids": [
+        "mq045_victor_debt"
+      ],
+      "title": "Paid in Full",
+      "key": "PAID",
+      "tag": "PTFRS25_PAID",
+      "depot": "towercontinued\\sidejobs_s25\\services\\paid_fresh.questphase",
+      "facts_equal": {
+        "victor_debt_paid_full": 0,
+        "victor_debt_talk_active": 0,
+        "PTFRB0S4VIKTOR_Ready": 1,
+        "PTFRB0S4VIKTOR_Enabled": 1,
+        "PTFRB0S4VIKTOR_Excluded": 0,
+        "PTFRB0S4VIKTOR_QuestOwns": 0,
+        "PTFRB0S4_Suspended": 0,
+        "PTFRBASE_Suspended": 0
+      },
+      "fact_ranges": {
+        "q001_just_after_rd_scene": {
+          "min": 1,
+          "max": 2147483647
+        },
+        "victor_vector_default_on": {
+          "min": 1,
+          "max": 2147483647
+        }
+      },
+      "journals": [
+        {
+          "path": "quests/minor_quest/mq045_victor_debt",
+          "class": "gameJournalQuest",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq045_victor_debt/mq045_debt",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq045_victor_debt/mq045_debt/mq045_pay_off_victor",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq045_victor_debt/mq045_desc",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "reactivate_paths": [],
+      "phone_dependencies": [],
+      "native_source": "research/sidejobs_s25/services/native_01/raw/base/quest/bugfixing/minor_quests/mq033/mq033_quest_bugfixes.questphase",
+      "source_graph": "root/21",
+      "native_ids": [
+        13,
+        8,
+        9,
+        12,
+        10,
+        11
+      ],
+      "native_start": 13,
+      "native_finish": 11,
+      "native_start_socket": "In",
+      "native_edges": [
+        [
+          13,
+          "Out",
+          8,
+          "Active"
+        ],
+        [
+          8,
+          "Out",
+          9,
+          "Active"
+        ],
+        [
+          9,
+          "Out",
+          12,
+          "In"
+        ],
+        [
+          12,
+          "Out",
+          10,
+          "Succeeded"
+        ],
+        [
+          10,
+          "Out",
+          11,
+          "Succeeded"
+        ]
+      ],
+      "native_depot": "base\\quest\\bugfixing\\minor_quests\\mq033\\mq033_quest_bugfixes.questphase",
+      "scene_native": "research/b0_vendor_rollout/special_scene_sources/raw/base/quest/tertiary_characters/default_dialogues/victor_vector_default.scene",
+      "scene_current": "archive/b0_story_eight/source/towercontinued/b0_story_eight/viktor.scene",
+      "scene_depot": "towercontinued\\b0_story_eight\\viktor.scene",
+      "scene_options": [
+        [
+          351,
+          1
+        ],
+        [
+          840,
+          1
+        ]
+      ],
+      "sourcepins": {
+        "research/sidejobs_s25/services/native_01/raw/base/quest/bugfixing/minor_quests/mq033/mq033_quest_bugfixes.questphase": "C90EE899098AC8F5DD300BF76DB639D7C880365624488E764DA348550B583716",
+        "research/b0_vendor_rollout/special_scene_sources/raw/base/quest/tertiary_characters/default_dialogues/victor_vector_default.scene": "AF528C7D7FBEFECEEB47833FD63E73AD9D7B4414BCA586B0E8EA0826C91BD0CF",
+        "archive/b0_story_eight/source/towercontinued/b0_story_eight/viktor.scene": "ED05F3E6643249E7C4CDCBC0EBF11523C09CD3B6DDCBFED67461EA94E5F65A02"
+      },
+      "seam": "Inactive debt root/objective/description, unpaid and no active payment dialogue. Original native debt activation/completion slice and payment choices; no actor owner duplication.",
+      "notes": [
+        "Native obsolete CYB-571237 bugfix-marker increment is excluded; all six actual quest payloads and edges kept.",
+        "Only two previously hidden debt options are restored in the existing Viktor scene, preserving native payment conditions and adding owned Issued/Active-root gating.",
+        "No money debit, reward, completion, actor spawn, inventory or cyberware policy is fabricated by wrapper.",
+        "Current capture Succeeded is a protected negative control, not a fresh fixture."
+      ]
+    },
+    {
+      "id": "sq_q001_wilson",
+      "ids": [
+        "sq_q001_wilson"
+      ],
+      "title": "The Gun",
+      "key": "GUN",
+      "tag": "PTFRS25_GUN",
+      "depot": "towercontinued\\sidejobs_s25\\services\\gun_fresh.questphase",
+      "facts_equal": {
+        "wilson_met": 0,
+        "q001_wilson_shop_tutorial_seen": 0,
+        "q001_wilson_sms_tut": 0,
+        "wat_lch_gun_01_met": 0,
+        "q001_spawn_wilson_attention": 0,
+        "q101_spawn_wilson_attention": 0,
+        "q001_wilson_shooting_range": 0,
+        "wilson_default_shooting_tutorial": 0,
+        "mq011_active": 0,
+        "PTFRB0WV_QuestOwns": 0,
+        "PTFRB0WV_Near": 0,
+        "PTFRB0WV_SpawnActionOut": 0,
+        "PTFRB0WV_ActorDistanceGate": 0,
+        "PTFRB0WV_Excluded": 0,
+        "PTFRBASE_Suspended": 0,
+        "PTFRB0WV_Ready": 1,
+        "PTFRB0WV_Enabled": 1,
+        "wat_lch_gunsmith_01_default_on": 1
+      },
+      "fact_ranges": {
+        "q001_used_mb_elevator": {
+          "min": 1,
+          "max": 2147483647
+        }
+      },
+      "journals": [
+        {
+          "path": "quests/side_quest/sq_q001_wilson",
+          "class": "gameJournalQuest",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq_q001_wilson/desc",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq_q001_wilson/wilson",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq_q001_wilson/wilson/02_talk_to_wilson",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq_q001_wilson/wilson/03_enter_range",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/side_quest/sq_q001_wilson/wilson/meet_wilson",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/wilson/q001_new_gun/01_wilson_msg_gun",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "reactivate_paths": [],
+      "phone_dependencies": [],
+      "native_source": "research/sidejobs_s24/services/native_01/raw/base/quest/main_quests/prologue/q001/phases/q001_wilson.questphase",
+      "source_graph": "root",
+      "native_ids": [
+        41,
+        46,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        61,
+        65
+      ],
+      "native_edges": [
+        [
+          41,
+          "Out",
+          50,
+          "Active"
+        ],
+        [
+          49,
+          "Out",
+          56,
+          "In"
+        ],
+        [
+          50,
+          "Out",
+          65,
+          "In2"
+        ],
+        [
+          52,
+          "Out",
+          53,
+          "In"
+        ],
+        [
+          53,
+          "False",
+          49,
+          "Active"
+        ],
+        [
+          54,
+          "Out",
+          55,
+          "In"
+        ],
+        [
+          55,
+          "Out",
+          65,
+          "In1"
+        ],
+        [
+          56,
+          "Out",
+          61,
+          "In"
+        ],
+        [
+          61,
+          "Out",
+          41,
+          "Active"
+        ],
+        [
+          61,
+          "Out",
+          46,
+          "In"
+        ],
+        [
+          61,
+          "Out",
+          54,
+          "In"
+        ]
+      ],
+      "native_depot": "base\\quest\\main_quests\\prologue\\q001\\phases\\q001_wilson.questphase",
+      "scene_native": "research/b0_wilson_vendor/dialogue_extract/raw/base/open_world/vendors/watson/little_china/wat_lch_gunsmith_01/wat_lch_gunsmith_01.scene",
+      "scene_depot": "towercontinued\\sidejobs_s25\\services\\gun_order.scene",
+      "scene_ids": [
+        0,
+        42,
+        177,
+        190,
+        209,
+        212,
+        215,
+        224,
+        277,
+        281,
+        285,
+        288,
+        305,
+        308,
+        352,
+        353,
+        356,
+        361,
+        363,
+        365,
+        369,
+        415,
+        430,
+        442,
+        444,
+        447,
+        448,
+        455,
+        512,
+        573,
+        574,
+        579,
+        591,
+        594,
+        650,
+        665,
+        667,
+        678
+      ],
+      "scene_edges": {
+        "0": [
+          [
+            [
+              678,
+              0
+            ]
+          ]
+        ],
+        "42": [
+          [
+            [
+              305,
+              0
+            ]
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "177": [
+          [
+            [
+              574,
+              1
+            ]
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "190": [
+          [],
+          [
+            [
+              177,
+              0
+            ]
+          ]
+        ],
+        "209": [
+          [
+            [
+              369,
+              3
+            ]
+          ]
+        ],
+        "212": [
+          [
+            [
+              455,
+              1
+            ]
+          ]
+        ],
+        "215": [
+          [
+            [
+              190,
+              0
+            ]
+          ]
+        ],
+        "224": [
+          [
+            [
+              42,
+              0
+            ],
+            [
+              415,
+              1
+            ]
+          ]
+        ],
+        "277": [
+          [
+            [
+              281,
+              1
+            ]
+          ]
+        ],
+        "281": [
+          [
+            [
+              430,
+              1
+            ],
+            [
+              594,
+              1
+            ]
+          ],
+          [
+            [
+              442,
+              0
+            ]
+          ]
+        ],
+        "285": [
+          [
+            [
+              277,
+              1
+            ]
+          ],
+          [
+            [
+              288,
+              1
+            ]
+          ]
+        ],
+        "288": [
+          [
+            [
+              277,
+              1
+            ]
+          ]
+        ],
+        "305": [
+          [
+            [
+              285,
+              1
+            ]
+          ],
+          []
+        ],
+        "308": [
+          [
+            [
+              356,
+              0
+            ]
+          ],
+          []
+        ],
+        "352": [
+          [],
+          [
+            [
+              353,
+              1
+            ]
+          ]
+        ],
+        "353": [
+          []
+        ],
+        "356": [
+          [
+            [
+              215,
+              1
+            ],
+            [
+              352,
+              1
+            ],
+            [
+              365,
+              1
+            ]
+          ]
+        ],
+        "361": [
+          [
+            [
+              363,
+              3
+            ]
+          ]
+        ],
+        "363": [
+          [
+            [
+              650,
+              1
+            ]
+          ]
+        ],
+        "365": [
+          [
+            [
+              361,
+              1
+            ]
+          ],
+          []
+        ],
+        "369": [
+          [
+            [
+              212,
+              1
+            ]
+          ]
+        ],
+        "415": [
+          [
+            [
+              579,
+              1
+            ]
+          ]
+        ],
+        "430": [
+          [
+            [
+              209,
+              3
+            ]
+          ]
+        ],
+        "442": [
+          [
+            [
+              444,
+              0
+            ]
+          ]
+        ],
+        "444": [
+          [
+            [
+              42,
+              0
+            ]
+          ]
+        ],
+        "447": [
+          [
+            [
+              448,
+              0
+            ]
+          ]
+        ],
+        "448": [
+          [
+            [
+              177,
+              0
+            ]
+          ]
+        ],
+        "455": [
+          [
+            [
+              447,
+              0
+            ]
+          ]
+        ],
+        "512": [
+          [
+            [
+              308,
+              0
+            ]
+          ]
+        ],
+        "573": [
+          [
+            [
+              512,
+              1
+            ]
+          ]
+        ],
+        "574": [
+          [
+            [
+              356,
+              0
+            ]
+          ],
+          [
+            [
+              573,
+              1
+            ]
+          ]
+        ],
+        "579": [
+          []
+        ],
+        "591": [
+          []
+        ],
+        "594": [
+          [
+            [
+              665,
+              1
+            ]
+          ]
+        ],
+        "650": [
+          []
+        ],
+        "665": [
+          [
+            [
+              591,
+              1
+            ],
+            [
+              667,
+              1
+            ]
+          ],
+          []
+        ],
+        "667": [
+          []
+        ],
+        "678": [
+          [
+            [
+              224,
+              1
+            ]
+          ]
+        ]
+      },
+      "body_current": "archive/b0_wilson_vendor/source/towercontinued/b0_wilson_vendor/body.questphase",
+      "shop_current": "archive/b0_wilson_vendor/source/towercontinued/b0_wilson_vendor/shop.scene",
+      "body_depot": "towercontinued\\b0_wilson_vendor\\body.questphase",
+      "contact_source": "research/sidejobs_s24/services/native_01/raw/base/quest/main_quests/prologue/q001/q001.questphase",
+      "contact_source_node": 168,
+      "contact_target": "contacts/wilson",
+      "native_inventory_gate": {
+        "source_scene_node": 281,
+        "item": "Items.Preset_Q001_Lexington",
+        "quantity_less_than": 1
+      },
+      "sourcepins": {
+        "research/sidejobs_s24/services/native_01/raw/base/quest/main_quests/prologue/q001/phases/q001_wilson.questphase": "761240AD9CFFF6314DA725975FD25ED4E13B70336935EFE434735F774318EC5E",
+        "research/b0_wilson_vendor/dialogue_extract/raw/base/open_world/vendors/watson/little_china/wat_lch_gunsmith_01/wat_lch_gunsmith_01.scene": "A8CBD1B193CB051F42C300B28FD2CB6034DADED9BA5A769A31563040C2ABCD43",
+        "archive/b0_wilson_vendor/source/towercontinued/b0_wilson_vendor/body.questphase": "B9815DA91FC5AA24B868552A437F93D2302A908C6B971A9AF1A643E70BBFD876",
+        "archive/b0_wilson_vendor/source/towercontinued/b0_wilson_vendor/shop.scene": "F6D3BC2B5012449F94F6581F12FD130168338F5EDB4A679A06B77DB0E5B2F134",
+        "research/sidejobs_s24/services/native_01/raw/base/quest/main_quests/prologue/q001/q001.questphase": "EF429A2F4C500AD0BF660F0474BD957A877CE6EC34CB9CE1908170092CCB89CF",
+        "prealpha/sidejobs_s23/base_b/build/base_b_02/source/towercontinued/b0_wilson_vendor/owner.questphase": "8CF617CD64F2DDB0799FC98481954B8E4D742EE5BAB49BD9CAAD3D2BA0353BB8",
+        "redscript/PTFR_RestorationBaseline/RestorationBaseline.reds": "D31B11ACD881CA5D5759FF8D66C6C2D6C84945513A5DCAFFF62A095ADA67545B"
+      },
+      "seam": "Inactive root/all native journal children and absent reward weapon; no native greeting/tutorial/progress facts. Existing B0 vendor is sole actor/distance owner; original bounded order/vendor/inventory/reward route.",
+      "notes": [
+        "Original SMS/map/objective/tutorial startup retained. Eager q001_attention Reactivate/attention1 staging omitted: existing B0 identity supplies Wilson and baseline remains sole Near writer.",
+        "Bounded native Ask about order path restored, not the first-meet greeting or held-gun prop staging. No synthetic item, payment or reward.",
+        "Current Gun Succeeded remains protected. Native inventory check prevents already held Dying Night from admitting; native objective/fact/root guards additionally protect prior progress.",
+        "S23 MQ011 lease/root unchanged; new body selector is false when S25 unissued/completed and leaves ordinary shop path exact."
+      ]
+    }
+  ],
+  "override_donors": {
+    "towercontinued\\b0_story_eight\\viktor.scene": {
+      "source": "archive/b0_story_eight/source/towercontinued/b0_story_eight/viktor.scene",
+      "sha256": "ED05F3E6643249E7C4CDCBC0EBF11523C09CD3B6DDCBFED67461EA94E5F65A02",
+      "archive": "TowerContinued_PreAlpha.archive"
+    },
+    "towercontinued\\b0_wilson_vendor\\body.questphase": {
+      "source": "archive/b0_wilson_vendor/source/towercontinued/b0_wilson_vendor/body.questphase",
+      "sha256": "B9815DA91FC5AA24B868552A437F93D2302A908C6B971A9AF1A643E70BBFD876",
+      "archive": "TowerContinued_PreAlpha.archive"
+    }
+  }
+}

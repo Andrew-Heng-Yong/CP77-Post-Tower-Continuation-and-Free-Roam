@@ -1,0 +1,232 @@
+{
+  "id": "q304_car_retrieval",
+  "title": "Moving Heat",
+  "tag": "Q304",
+  "route": 1,
+  "status": "RESUME_ACCEPTED_SMS_FIRST_DOOR_ONLY",
+  "depot": "towercontinued\\sidejobs_s22\\moving_heat_resume.questphase",
+  "entry": "In1",
+  "output": "Out1",
+  "common_guard_equal": {
+    "PostTowerFreeRoamActive": 1,
+    "PTFRP0_DR13": 1,
+    "PTFRPA2_Finished": 1,
+    "PTFRPA2_Fault": 0,
+    "q307_done": 1,
+    "q307_finished": 1,
+    "q307_2079": 1,
+    "q307_main_game_killed": 1,
+    "q307_ep1_killed": 1,
+    "q307_active": 0,
+    "q307_debug_reset": 0,
+    "q115_point_of_no_return": 0,
+    "q305_johnny_scene_active": 0,
+    "PTFRU9_Support_Issued": 1,
+    "PTFRU9_Support_Fault": 0
+  },
+  "guard_equal": {
+    "q304_car_retrieval_accepted": 1,
+    "q304_car_retrieval_active": 1,
+    "q304_car_retrieval_car_entered": 0,
+    "q304_car_retrieval_car_ready2go": 0,
+    "q304_car_retrieval_combat_started": 0,
+    "q304_car_retrieval_done": 0,
+    "q304_car_retrieval_driver2_spawned": 0,
+    "q304_car_retrieval_finished": 0,
+    "q304_car_retrieval_got_spotted": 0,
+    "q304_car_retrieval_guards_killed": 0,
+    "q304_car_retrieval_inner_patrol_car_moving": 0,
+    "q304_car_retrieval_player_spotted": 0,
+    "q304_car_retrieval_player_spotted_2": 0,
+    "q304_car_retrieval_started": 1,
+    "q304_car_retrieval_truck_finished_ride": 0,
+    "q304_car_retrieval_truck_reached_inner": 0,
+    "q304_car_retrieval_van_reached_inner": 0,
+    "q304_car_retrival_on_top_of_truck": 0,
+    "q304_first_track_at_the_end_of_spline": 0,
+    "q304_retrofix_56524_on": 0
+  },
+  "journal_guards": [
+    {
+      "path": "ep1/quests/minor_quest/q304_car_retrieval",
+      "class": "gameJournalQuest",
+      "state": 4,
+      "allowed_states": [
+        1,
+        4
+      ]
+    },
+    {
+      "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval",
+      "class": "gameJournalQuestPhase",
+      "state": 4,
+      "allowed_states": [
+        1,
+        4
+      ]
+    },
+    {
+      "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/01_reach_the_door",
+      "class": "gameJournalQuestObjective",
+      "state": 4,
+      "allowed_states": [
+        1,
+        4
+      ]
+    },
+    {
+      "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/02_use_the_panel_in_the_security_room_to_open_the_shutter",
+      "class": "gameJournalQuestObjective",
+      "state": 1
+    },
+    {
+      "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/03_get_to_the_car",
+      "class": "gameJournalQuestObjective",
+      "state": 1
+    },
+    {
+      "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/04_get_into_the_car",
+      "class": "gameJournalQuestObjective",
+      "state": 1
+    },
+    {
+      "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/05_connect_to_the_cars_onboard_computer_and_wipe_the_memory",
+      "class": "gameJournalQuestObjective",
+      "state": 1
+    },
+    {
+      "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/02_find_a_way_in",
+      "class": "gameJournalQuestObjective",
+      "state": 1
+    },
+    {
+      "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/01_reach_the_door1",
+      "class": "gameJournalQuestObjective",
+      "state": 1
+    },
+    {
+      "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/07_escape_with_the_car",
+      "class": "gameJournalQuestObjective",
+      "state": 1
+    },
+    {
+      "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/01_answer_to_ashlay_message",
+      "class": "gameJournalQuestObjective",
+      "state": 3
+    },
+    {
+      "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/03_wait_until_ashlay_opens_the_door",
+      "class": "gameJournalQuestObjective",
+      "state": 1
+    },
+    {
+      "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/04_dont_kill_or_alert_anyone",
+      "class": "gameJournalQuestObjective",
+      "state": 1
+    },
+    {
+      "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/01_wait_for_ashlay_message",
+      "class": "gameJournalQuestObjective",
+      "state": 1
+    },
+    {
+      "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/08_play_along",
+      "class": "gameJournalQuestObjective",
+      "state": 1
+    },
+    {
+      "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/05_clear_the_area",
+      "class": "gameJournalQuestObjective",
+      "state": 1
+    },
+    {
+      "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/09_go_back_to_the_car",
+      "class": "gameJournalQuestObjective",
+      "state": 1
+    },
+    {
+      "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/01_answer_to_ashlay_message2",
+      "class": "gameJournalQuestObjective",
+      "state": 1
+    },
+    {
+      "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/05_clear_the_area_retro",
+      "class": "gameJournalQuestObjective",
+      "state": 1
+    },
+    {
+      "path": "ep1/quests/minor_quest/q304_car_retrieval/description",
+      "class": "gameJournalQuestDescription",
+      "state": 2
+    }
+  ],
+  "reactivate": [
+    {
+      "path": "ep1/quests/minor_quest/q304_car_retrieval",
+      "class": "gameJournalQuest",
+      "state": 4,
+      "allowed_states": [
+        1,
+        4
+      ]
+    },
+    {
+      "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval",
+      "class": "gameJournalQuestPhase",
+      "state": 4,
+      "allowed_states": [
+        1,
+        4
+      ]
+    },
+    {
+      "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/01_reach_the_door",
+      "class": "gameJournalQuestObjective",
+      "state": 4,
+      "allowed_states": [
+        1,
+        4
+      ]
+    }
+  ],
+  "outside_triggers": [
+    "#q304_tr_car_retrieval_main_trigger",
+    "#q304_tr_car_retrieval_entire_garage"
+  ],
+  "native_parent_gate_any": [
+    {
+      "q305_done": 1,
+      "comparison": "GreaterOrEqual"
+    },
+    {
+      "q306_done": 1,
+      "comparison": "GreaterOrEqual"
+    }
+  ],
+  "runtime_preconditions": [
+    "ProfilePolicy complete and nonfaulted",
+    "BodyPolicy.Safe",
+    "settled journal and stable exact guards",
+    "owned Permit1/Issued0/Finished0/Fault0"
+  ],
+  "journal_activation": "Only three exact Failed-or-Inactive entries become Active; no bulk operation or child reset. Recheck all 20 expected journal states and unchanged progress facts before child dispatch.",
+  "preserved": [
+    "accepted SMS objective Succeeded",
+    "all phone messages and choices",
+    "started/active/accepted=1 unchanged",
+    "unstarted later objectives Inactive",
+    "original gameplay and future rewards"
+  ],
+  "omitted_native_startup_nodes": [
+    2,
+    252,
+    253
+  ],
+  "source_log": "research\\sidejobs_s22\\live_20261015_01\\scripting.log",
+  "source_log_sha256": "D20EBEBDD5583C56C3F2E3B2FAF9E908DF880933503743CCA9E524A43A3FED8B",
+  "not_supported": [
+    "later Moving Heat stages",
+    "actual prior reward/completion",
+    "generic other-state restart"
+  ]
+}

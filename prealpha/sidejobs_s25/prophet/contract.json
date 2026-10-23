@@ -1,0 +1,763 @@
+{
+  "schema": 1,
+  "status": "FRESH_CONTRACT_NOT_LIVE",
+  "capture_catalogue": "research/sidejobs_s23/live_20261016_01/capture.json",
+  "source_pins": {
+    "research/sidejobs_s23/live_20261016_01/capture.json": "47084A3833CFE507D184A19CDD1276215A15F917F6B97AA4130E6A6E6919748A",
+    "research/sidejobs_s24/ep1/native_02/json/base/journal/cooked_journal.journal.json": "FA206F673EEDE247A1B94A7320223E70839C1963FADE17F0C66533EC1CC11DA2",
+    "research/sidejobs_s2/sacrum_audit/native_01/raw/base/quest/minor_quests/minorquests.questphase": "89E902A6BCC783325642A6DC6D1D856BB144651136C58D423FEA6B421EFCE85A",
+    "research/sidejobs_s2/sacrum_audit/native_01/json/base/quest/minor_quests/minorquests.questphase.json": "873633EB4D56A960E737D5BC7F6D0569ED404F581223C5E0512F890CF086026D",
+    "prealpha/sidejobs_s23/base_b/contract.json": "0A16D284B074F6DEB8D0C242C2715D348389DA6B6FD471ADE2B8F139B9C3A9BC",
+    "prealpha/sidejobs_s25/prophet/prepare.py": "2490433D8CCF2A47EEFE923628CD8A969BB8F8FEC3977271B8FE844FCD8C8ECD",
+    "prealpha/sidejobs_s23/audit.py": "1F1B87251DD4F72F8FE1F8EBFF388346EF3B75875AFAF0AE440D8E049D39F6EA",
+    "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq026/mq026.questphase": "99348A66C4620F986932C5EA5D596578EC90487A5808714D709BB62B27A74F9D",
+    "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/mq026.questphase.json": "F0C36EE62CC171CB0EF1E8F255CD7DFE6A94E6C463D20AB863026D4D1F39A10C",
+    "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq026/phases/mq026_03_death.questphase": "09D9F6CBCBC00A35545EF502E6341378D47A7273DC94BA20EA9C9F4EE8D6611A",
+    "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/phases/mq026_03_death.questphase.json": "26AD92C4E76FD71BA0C5E0275248AB2D3DB236BAEE32BB0A9A81EBCE7420B1B7",
+    "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq026/scenes/mq026_02_death.scene": "C088E33F1752EE467B45452E7F421E9E2EC215B47F750BF88A5ADC8DE1D8DE3F",
+    "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_02_death.scene.json": "9CAC9C9619681BCC08EFA5E030704C0E86F97A6DBBBED270E03C65D0300AE641",
+    "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq026/phases/mq026_02_cargo.questphase": "022FE3C62166CDB4ECEDA59804E0D9732BEDDAB1E46A83DB7D81C0E2737F7CFA",
+    "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/phases/mq026_02_cargo.questphase.json": "C30445C6FF55E0C83B3C7D7DB43DCAACC11CCC17D13B73C10A81B8F80E0508A8",
+    "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq026/scenes/mq026_04_smuggler.scene": "436D0517BB59A9C654CD640DEDF7A5659F5A5AF558F58280476A03F2D86BEE79",
+    "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_04_smuggler.scene.json": "54C6CB903B109E900912B6528C32EE074CA961BBFE83E1F6228B626BFAFD1BA8",
+    "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq026/phases/mq026_01_conspiracies.questphase": "C346C86C8F759AFA5E49322838851D68B4879616C50BDBAAE0C3CDECD6063128",
+    "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/phases/mq026_01_conspiracies.questphase.json": "4B531E819A204AB60B2098E38DE1A7B38E71B125FD7EB31B4D0C133D8821DC76",
+    "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq026/scenes/mq026_03_nomad.scene": "03685BB480270E81E99739D0BBEE7B8DCFF64A94D868D505F0297EE369934912",
+    "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_03_nomad.scene.json": "9FD52A025488B9CB17D2C48E34F594B0F5314C75048089A6C3DD675B9D7983C3",
+    "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene": "A13B4A2F36B6AE9B248B8B49B046F8EFE5DCA94EC0BA5B825EECB90A44C8FF4C",
+    "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json": "07EF97D22A0ABCA26278CC4B1EAFD69DCFC42C3B528E309E65026C603C94D226"
+  },
+  "owners": [
+    {
+      "id": "mq026_conspiracy",
+      "ids": [
+        "mq026_conspiracy"
+      ],
+      "title": "The Prophet's Song",
+      "key": "MQ026_FRESH",
+      "tag": "PTFRS25_MQ026_FRESH",
+      "depot": "towercontinued\\sidejobs_s25\\prophet\\mq026_fresh.questphase",
+      "facts_equal": {
+        "PTFRS23_MQ026_Fault": 0,
+        "PTFRS23_MQ026_Finished": 0,
+        "PTFRS23_MQ026_Issued": 0,
+        "mq018_begged_once": 0,
+        "mq018_ramble_pause": 0,
+        "mq018_select": 0,
+        "mq026_big_donation": 0,
+        "mq026_car_chase": 0,
+        "mq026_chip": 0,
+        "mq026_conspiracies": 0,
+        "mq026_cyberspace_done": 0,
+        "mq026_cyberspace_start": 0,
+        "mq026_death_stop_content_lock": 0,
+        "mq026_debug": 0,
+        "mq026_disturbed": 0,
+        "mq026_done": 0,
+        "mq026_eyes_done": 0,
+        "mq026_eyes_start": 0,
+        "mq026_first_conspiracy_done": 0,
+        "mq026_handover": 0,
+        "mq026_is_rambling": 0,
+        "mq026_lilith_done": 0,
+        "mq026_lookat_loop": 0,
+        "mq026_mib_fighting": 0,
+        "mq026_mib_ready": 0,
+        "mq026_nomads_beaten": 0,
+        "mq026_nomads_done": 0,
+        "mq026_nomads_start": 0,
+        "mq026_preach_skipped": 0,
+        "mq026_prophet_beaten": 0,
+        "mq026_reptilians_done": 0,
+        "mq026_reptilians_start": 0,
+        "mq026_skip_first_ramble": 0,
+        "mq026_small_donation": 0,
+        "mq026_stop_preach": 0,
+        "mq026_take_chip": 0,
+        "mq026_vampire_done": 0,
+        "mq026_vampire_start": 0,
+        "mq027_50_prophet": 0,
+        "mq027_5_prophet": 0
+      },
+      "fact_ranges": {
+        "mq026_active": {
+          "min": 0,
+          "max": 1
+        },
+        "mq026_started": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "journals": [
+        {
+          "path": "quests/minor_quest/mq026_conspiracy",
+          "class": "gameJournalQuest",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq026_conspiracy/stash",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq026_conspiracy/stash/01_01_find_stash",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq026_conspiracy/stash/01_01_find_stash/mq026_desc",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq026_conspiracy/stash/01_01b_return_factory",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq026_conspiracy/stash/01_02_find_stash",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq026_conspiracy/stash/01_02a_suspicious",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq026_conspiracy/stash/01_03_loot_corpse",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq026_conspiracy/stash/01_04_confront",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq026_conspiracy/stash/01_05_hide",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq026_conspiracy/stash/01_05a_talk",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq026_conspiracy/stash/01_05b_wait",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq026_conspiracy/stash/01_06b_take_out_carrier",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq026_conspiracy/stash/01_07_return",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq026_conspiracy/stash/01_07b_disciple",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq026_conspiracy/stash/01_08_what",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq026_conspiracy/stash/01_09_johnny",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "phone_dependencies": [],
+      "contact_copy": null,
+      "parent_nodes": [
+        39
+      ],
+      "parent_node": 39,
+      "parent_edges": [],
+      "parent_start": 1004,
+      "issue_target": 39,
+      "native_depot": "base\\quest\\minor_quests\\mq026\\mq026.questphase",
+      "native_source": "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq026/mq026.questphase",
+      "native_dependencies": [
+        "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq026/mq026.questphase",
+        "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq026/phases/mq026_03_death.questphase",
+        "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq026/scenes/mq026_02_death.scene",
+        "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq026/phases/mq026_02_cargo.questphase",
+        "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq026/scenes/mq026_04_smuggler.scene",
+        "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq026/phases/mq026_01_conspiracies.questphase",
+        "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq026/scenes/mq026_03_nomad.scene",
+        "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene"
+      ],
+      "old_owner_exclusion_required": {
+        "tag": "PTFRS23_MQ026",
+        "new_fact": "PTFRS25_MQ026_FRESH_Issued",
+        "value": 0
+      },
+      "scope": "Unstarted local entry only; every journal entry Inactive, all actual sermon/donation/combat/progress facts zero. Original parent path contains logical hubs only; original full per-job gameplay remains untouched."
+    }
+  ],
+  "native_fact_writers": [
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/mq026.questphase.json",
+      "fact": "mq026_started",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/mq026.questphase.json",
+      "fact": "mq026_active",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/mq026.questphase.json",
+      "fact": "mq026_active",
+      "value": 0,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/mq026.questphase.json",
+      "fact": "mq026_done",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/mq026.questphase.json",
+      "fact": "mq027_50_prophet",
+      "value": 0,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_02_death.scene.json",
+      "fact": "mq026_death_stop_content_lock",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_02_death.scene.json",
+      "fact": "mq026_big_donation",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_02_death.scene.json",
+      "fact": "mq026_small_donation",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_04_smuggler.scene.json",
+      "fact": "mq026_chip",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_04_smuggler.scene.json",
+      "fact": "mq026_handover",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_04_smuggler.scene.json",
+      "fact": "mq026_disturbed",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_04_smuggler.scene.json",
+      "fact": "mq026_mib_ready",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_04_smuggler.scene.json",
+      "fact": "mq026_mib_fighting",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_04_smuggler.scene.json",
+      "fact": "mq026_mib_ready",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_04_smuggler.scene.json",
+      "fact": "mq026_take_chip",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_04_smuggler.scene.json",
+      "fact": "mq026_take_chip",
+      "value": 0,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_04_smuggler.scene.json",
+      "fact": "mq026_car_chase",
+      "value": 3,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_04_smuggler.scene.json",
+      "fact": "mq026_car_chase",
+      "value": -1,
+      "exact": 0
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_04_smuggler.scene.json",
+      "fact": "mq026_car_chase",
+      "value": -1,
+      "exact": 0
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_04_smuggler.scene.json",
+      "fact": "mq026_car_chase",
+      "value": -1,
+      "exact": 0
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_04_smuggler.scene.json",
+      "fact": "mq026_lilith_done",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/phases/mq026_01_conspiracies.questphase.json",
+      "fact": "mq018_select",
+      "value": 3,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/phases/mq026_01_conspiracies.questphase.json",
+      "fact": "mq018_select",
+      "value": -1,
+      "exact": 0
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/phases/mq026_01_conspiracies.questphase.json",
+      "fact": "mq018_select",
+      "value": 2,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_03_nomad.scene.json",
+      "fact": "mq026_conspiracies",
+      "value": 1,
+      "exact": 0
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_03_nomad.scene.json",
+      "fact": "mq026_prophet_beaten",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_03_nomad.scene.json",
+      "fact": "mq026_nomads_beaten",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_03_nomad.scene.json",
+      "fact": "mq026_nomads_done",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_03_nomad.scene.json",
+      "fact": "mq026_nomads_beaten",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_03_nomad.scene.json",
+      "fact": "mq026_prophet_beaten",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq027_5_prophet",
+      "value": 1,
+      "exact": 0
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq027_50_prophet",
+      "value": 1,
+      "exact": 0
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq018_ramble_pause",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq018_ramble_pause",
+      "value": 0,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq018_ramble_pause",
+      "value": 0,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_reptilians_done",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_conspiracies",
+      "value": 1,
+      "exact": 0
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_cyberspace_done",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_conspiracies",
+      "value": 1,
+      "exact": 0
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_vampire_done",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_conspiracies",
+      "value": 1,
+      "exact": 0
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_eyes_done",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_conspiracies",
+      "value": 1,
+      "exact": 0
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_stop_preach",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_stop_preach",
+      "value": 0,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_preach_skipped",
+      "value": 0,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq018_ramble_pause",
+      "value": 0,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_stop_preach",
+      "value": 0,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_preach_skipped",
+      "value": 0,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_stop_preach",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq018_ramble_pause",
+      "value": 0,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_stop_preach",
+      "value": 0,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_preach_skipped",
+      "value": 0,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_stop_preach",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq018_ramble_pause",
+      "value": 0,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_stop_preach",
+      "value": 0,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_preach_skipped",
+      "value": 0,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_stop_preach",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq018_ramble_pause",
+      "value": 0,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_stop_preach",
+      "value": 0,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_preach_skipped",
+      "value": 0,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq018_begged_once",
+      "value": 0,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_is_rambling",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_is_rambling",
+      "value": 0,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_is_rambling",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_is_rambling",
+      "value": 0,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_is_rambling",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_is_rambling",
+      "value": 0,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_is_rambling",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_is_rambling",
+      "value": 0,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_is_rambling",
+      "value": 0,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq018_ramble_pause",
+      "value": 0,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_skip_first_ramble",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_first_conspiracy_done",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_first_conspiracy_done",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_lookat_loop",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_lookat_loop",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_lookat_loop",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_lookat_loop",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_lookat_loop",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_lookat_loop",
+      "value": 1,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_lookat_loop",
+      "value": 0,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_lookat_loop",
+      "value": 0,
+      "exact": 1
+    },
+    {
+      "source": "research/sidejobs_s23/native_01/json/base/quest/minor_quests/mq026/scenes/mq026_01_prophecy.scene.json",
+      "fact": "mq026_lookat_loop",
+      "value": 1,
+      "exact": 1
+    }
+  ],
+  "closure_resources": 8,
+  "reference_closure_checked": [
+    "base\\quest\\minor_quests\\mq026\\phases\\mq026_01_conspiracies.questphase",
+    "base\\quest\\minor_quests\\mq026\\phases\\mq026_02_cargo.questphase",
+    "base\\quest\\minor_quests\\mq026\\phases\\mq026_03_death.questphase",
+    "base\\quest\\minor_quests\\mq026\\scenes\\mq026_01_prophecy.scene",
+    "base\\quest\\minor_quests\\mq026\\scenes\\mq026_02_death.scene",
+    "base\\quest\\minor_quests\\mq026\\scenes\\mq026_03_nomad.scene",
+    "base\\quest\\minor_quests\\mq026\\scenes\\mq026_04_smuggler.scene"
+  ],
+  "limitations": [
+    "Earlier heard-sermon/donation progress is not reset; existing S23 remains authoritative for its supported stage.",
+    "Requires S25 policy resource gating old S23 unissued owner against fresh Issued1 before deployment.",
+    "Original Johnny presentation is handled by unchanged JV1; live voice/body check pending."
+  ]
+}

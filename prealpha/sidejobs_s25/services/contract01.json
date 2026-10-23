@@ -1,0 +1,142 @@
+{
+  "schema": 1,
+  "status": "BUILT_SOURCE_NOT_LIVE_PROOF",
+  "policy": "Only Inactive R4 roots may newly activate; all prior owners and restored progress stay unchanged.",
+  "capture": "research/sidejobs_s23/live_20261016_01/capture.json",
+  "capture_sha256": "47084A3833CFE507D184A19CDD1276215A15F917F6B97AA4130E6A6E6919748A",
+  "owners": [
+    {
+      "id": "mq045_victor_debt",
+      "ids": [
+        "mq045_victor_debt"
+      ],
+      "title": "Paid in Full",
+      "key": "PAID",
+      "tag": "PTFRS25_PAID",
+      "depot": "towercontinued\\sidejobs_s25\\services\\paid_fresh.questphase",
+      "facts_equal": {
+        "victor_debt_paid_full": 0,
+        "victor_debt_talk_active": 0,
+        "PTFRB0S4VIKTOR_Ready": 1,
+        "PTFRB0S4VIKTOR_Enabled": 1,
+        "PTFRB0S4VIKTOR_Excluded": 0,
+        "PTFRB0S4VIKTOR_QuestOwns": 0,
+        "PTFRB0S4_Suspended": 0,
+        "PTFRBASE_Suspended": 0
+      },
+      "fact_ranges": {
+        "q001_just_after_rd_scene": {
+          "min": 1,
+          "max": 2147483647
+        },
+        "victor_vector_default_on": {
+          "min": 1,
+          "max": 2147483647
+        }
+      },
+      "journals": [
+        {
+          "path": "quests/minor_quest/mq045_victor_debt",
+          "class": "gameJournalQuest",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq045_victor_debt/mq045_debt",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq045_victor_debt/mq045_debt/mq045_pay_off_victor",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq045_victor_debt/mq045_desc",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "reactivate_paths": [],
+      "phone_dependencies": [],
+      "native_source": "research/sidejobs_s25/services/native_01/raw/base/quest/bugfixing/minor_quests/mq033/mq033_quest_bugfixes.questphase",
+      "source_graph": "root/21",
+      "native_ids": [
+        13,
+        8,
+        9,
+        12,
+        10,
+        11
+      ],
+      "native_start": 13,
+      "native_finish": 11,
+      "native_start_socket": "In",
+      "native_edges": [
+        [
+          13,
+          "Out",
+          8,
+          "Active"
+        ],
+        [
+          8,
+          "Out",
+          9,
+          "Active"
+        ],
+        [
+          9,
+          "Out",
+          12,
+          "In"
+        ],
+        [
+          12,
+          "Out",
+          10,
+          "Succeeded"
+        ],
+        [
+          10,
+          "Out",
+          11,
+          "Succeeded"
+        ]
+      ],
+      "native_depot": "base\\quest\\bugfixing\\minor_quests\\mq033\\mq033_quest_bugfixes.questphase",
+      "scene_native": "research/b0_vendor_rollout/special_scene_sources/raw/base/quest/tertiary_characters/default_dialogues/victor_vector_default.scene",
+      "scene_current": "archive/b0_story_eight/source/towercontinued/b0_story_eight/viktor.scene",
+      "scene_depot": "towercontinued\\b0_story_eight\\viktor.scene",
+      "scene_options": [
+        [
+          351,
+          1
+        ],
+        [
+          840,
+          1
+        ]
+      ],
+      "sourcepins": {
+        "research/sidejobs_s25/services/native_01/raw/base/quest/bugfixing/minor_quests/mq033/mq033_quest_bugfixes.questphase": "C90EE899098AC8F5DD300BF76DB639D7C880365624488E764DA348550B583716",
+        "research/b0_vendor_rollout/special_scene_sources/raw/base/quest/tertiary_characters/default_dialogues/victor_vector_default.scene": "AF528C7D7FBEFECEEB47833FD63E73AD9D7B4414BCA586B0E8EA0826C91BD0CF",
+        "archive/b0_story_eight/source/towercontinued/b0_story_eight/viktor.scene": "ED05F3E6643249E7C4CDCBC0EBF11523C09CD3B6DDCBFED67461EA94E5F65A02"
+      },
+      "seam": "Inactive debt root/objective/description, unpaid and no active payment dialogue. Original native debt activation/completion slice and payment choices; no actor owner duplication.",
+      "notes": [
+        "Native obsolete CYB-571237 bugfix-marker increment is excluded; all six actual quest payloads and edges kept.",
+        "Only two previously hidden debt options are restored in the existing Viktor scene, preserving native payment conditions and adding owned Issued/Active-root gating.",
+        "No money debit, reward, completion, actor spawn, inventory or cyberware policy is fabricated by wrapper.",
+        "Current capture Succeeded is a protected negative control, not a fresh fixture."
+      ]
+    }
+  ]
+}

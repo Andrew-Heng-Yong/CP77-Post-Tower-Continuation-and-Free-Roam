@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "S26_RESTART_UNFINISHED_WHITELIST",
+  "scope": "The existing 58 R4 side-job roots only; no main-story or excluded sequel admission.",
+  "completed": "Succeeded root remains completed. Completed sibling roots remain protected even when their family is unfinished.",
+  "unfinished": "Active, Failed or Inactive non-completed roots are restart candidates, including already-issued restored jobs. Inactive is not proof of never-started history.",
+  "unknown": "Missing, Unknown, unsettled or inconsistent observations defer; never infer zero/history from absent serialized data.",
+  "execution": "This component is read-only. No restart adapter or reset manifest is installed or authorized by its output.",
+  "restart_requirements": [
+    "Current matching root and all child/sibling journal states; explicit completed-root protection.",
+    "Exact old owner identity and retirement/terminal acknowledgement; an Issued fact alone is not liveness.",
+    "Per-job native reset allowlist and initialization values, not a fact-prefix wipe.",
+    "Replay-safe communities, devices, loot, quest items, vehicles, prior rewards and shared NPC/service ownership.",
+    "Stable post-Tower and free-player context with no active scene/phone/transaction; one-shot successor admission.",
+    "Native original start route with completed sibling and already-paid reward branches protected."
+  ],
+  "next_bounded_candidate": "mq032_sacrum",
+  "candidate_reason": "Small existing standalone S2 native family; current capture determines whether its old mod owner was ever issued and which exact hook/combat/epilogue seam was reached. It is a candidate, not certified restart support.",
+  "candidate_required_followup": [
+    "If root Succeeded or mq032_complete positive: preserve it; choose another incomplete candidate.",
+    "If PTFRS2_MQ032_Issued is zero and Tower's native parent is terminated: audit/reset only this job's nonterminal journals, exact native progress and local communities before a new guarded owner. Zero Issued is not complete graph-state proof.",
+    "If PTFRS2_MQ032_Issued is positive: do not clear it. Implement and live-validate targeted retirement of the saved S2 wrapper before any new owner; journal/fact capture alone cannot validate retirement.",
+    "Audit the native loot objective and optional looted weapon/community persistence before resetting combat. Current inventory is not proof that a unique reward was never received."
+  ]
+}

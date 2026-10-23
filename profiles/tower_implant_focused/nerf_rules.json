@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "module": "nerf_rules",
+  "body": {
+    "target": 3,
+    "refund_attribute_points": true,
+    "block_increase": true
+  },
+  "relic": {
+    "hide_category": true,
+    "block_direct_open": true,
+    "refund_points": true
+  },
+  "smart_targeting": {
+    "allowed": false,
+    "tattoo_exception": "appearance_only",
+    "scope": "active_cyberware_restriction",
+    "weapons": "preserve_ownership"
+  },
+  "refunds": {
+    "purchased_ranks_only": true,
+    "order": "dependents_first",
+    "method": "native_guarded_sale",
+    "repeat_policy": "journal_no_replay",
+    "reversal": "none"
+  },
+  "preserve": [
+    "other_attributes",
+    "character_level",
+    "skill_levels",
+    "xp",
+    "inventory_and_parts",
+    "personal_link",
+    "story_facts"
+  ],
+  "incompatible_catalogue": "refuse_before_mutation",
+  "allowed_implant_in_removed_slot": "require_safe_relocation_or_refuse"
+}

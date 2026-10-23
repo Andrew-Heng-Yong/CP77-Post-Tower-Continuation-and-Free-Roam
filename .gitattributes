@@ -1,0 +1,3 @@
+# Source and deployment records use exact byte hashes. Preserve existing line
+# endings on commit and checkout instead of silently normalizing pinned files.
+* -text

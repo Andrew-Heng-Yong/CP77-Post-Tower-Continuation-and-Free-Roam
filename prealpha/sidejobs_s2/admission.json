@@ -1,0 +1,95 @@
+{
+  "schema": 1,
+  "catalogue": "S2_MQ032_MQ008_20261015_SOURCE_AUDIT_V1",
+  "policy": "Source-backed fresh entry, independent pre-Tower certificate or explicit existing PA development authorization; never infer certificate from post-Tower state.",
+  "authorized_route": {"fact_suffix":"AuthorizedRoute","allowed":[1,2],"values":{"0":"not authorized","1":"actual S2 certified pre-Tower fresh history","2":"existing PA explicit development authorization; not a certificate"}},
+  "common_guards": {
+    "PostTowerFreeRoamActive": 1,
+    "PTFRP0_DR13": 1,
+    "PTFRPA2_Finished": 1,
+    "PTFRPA2_Fault": 0,
+    "q307_done": 1,
+    "q307_finished": 1,
+    "q307_2079": 1,
+    "q307_main_game_killed": 1,
+    "q307_ep1_killed": 1,
+    "q307_active": 0,
+    "q307_debug_reset": 0,
+    "q115_point_of_no_return": 0,
+    "q305_johnny_scene_active": 0,
+    "PTFRU9_Support_Issued": 1,
+    "PTFRU9_Support_Fault": 0
+  },
+  "script_only_common": ["ProfilePolicy.PTFRPAComplete()", "!ProfilePolicy.PTFRPAFaulted()", "BodyPolicy.Safe(player)", "settled journal", "timely unchanged actual history OR PreAlphaEntry.DevelopmentArmed()"],
+  "jobs": [
+    {
+      "key": "mq032_sacrum",
+      "tag": "MQ032",
+      "title": "Sacrum Profanum / Losing My Religion",
+      "zero_facts": ["mq032_complete", "mq032_dead", "mq032_help", "mq032_monk1_met", "mq032_saved", "mq032_nonlethal", "mq032_no_help", "mq032_01_whatIgnorance", "mq032_monk_get_up", "mq032_stop_idle_gestures", "mq032_03_01_Copy", "mq032_03_02_Human", "mq032_test_def", "mq032_skip_epilogue"],
+      "terminal_facts": ["mq032_complete", "mq032_dead"],
+      "unsupported_test_facts": ["mq032_test_def", "mq032_skip_epilogue"],
+      "allowed_passive_fields": [],
+      "capture_journals": [
+        {"path":"quests/minor_quest/mq032_sacrum","class":"gameJournalQuest"},
+        {"path":"quests/minor_quest/mq032_sacrum/mq032_sacrum","class":"gameJournalQuestPhase"},
+        {"path":"quests/minor_quest/mq032_sacrum/mq032_sacrum/01_hook","class":"gameJournalQuestObjective"},
+        {"path":"quests/minor_quest/mq032_sacrum/mq032_sacrum/01_hook/description","class":"gameJournalQuestDescription"},
+        {"path":"quests/minor_quest/mq032_sacrum/mq032_sacrum/01_hook/description_johnny","class":"gameJournalQuestDescription"},
+        {"path":"quests/minor_quest/mq032_sacrum/mq032_sacrum/02_maelstrom","class":"gameJournalQuestObjective"},
+        {"path":"quests/minor_quest/mq032_sacrum/mq032_sacrum/03_monk","class":"gameJournalQuestObjective"},
+        {"path":"quests/minor_quest/mq032_sacrum/mq032_sacrum/04_loot","class":"gameJournalQuestObjective"},
+        {"path":"quests/minor_quest/mq032_sacrum/description","class":"gameJournalQuestDescription"},
+        {"path":"quests/minor_quest/mq032_sacrum/description_johnny","class":"gameJournalQuestDescription"},
+        {"path":"quests/minor_quest/mq032_sacrum/mq032_alternative_title","class":"gameJournalQuestTitleModifier"}
+      ],
+      "journals": [
+        {"path":"quests/minor_quest/mq032_sacrum","class":"gameJournalQuest"},
+        {"path":"quests/minor_quest/mq032_sacrum/mq032_sacrum","class":"gameJournalQuestPhase"},
+        {"path":"quests/minor_quest/mq032_sacrum/mq032_sacrum/01_hook","class":"gameJournalQuestObjective"},
+        {"path":"quests/minor_quest/mq032_sacrum/mq032_sacrum/02_maelstrom","class":"gameJournalQuestObjective"},
+        {"path":"quests/minor_quest/mq032_sacrum/mq032_sacrum/03_monk","class":"gameJournalQuestObjective"}
+      ],
+      "provenance": ["research/activity_state_r3/definition.json: mq032_sacrum journal_entries", "research/sidejobs_s2/sacrum_audit/native_audit_01.json", "native mq032 hook/maelstrom/epilogue quest phases and scenes: audited by sidejob_native_audit"],
+      "notes": ["No shared/global playerHasGone, cutfornow, q101_enable_side_content freshness reset or zero guard.", "Original parent has no q001/q005 requirement for this job.", "All three original scenes retain Silverhand actor for voice/timing; JV1 hides its visual components but does not prevent entity creation."]
+    },
+    {
+      "key": "mq008_party",
+      "tag": "MQ008",
+      "title": "Stadium Love",
+      "zero_facts": ["mq008_done", "mq008_agreed_to_competition", "mq008_know_rules", "mq008_leaving_spot2", "mq008_left", "mq008_no_competition", "mq008_final_score", "mq008_player_cheated", "mq008_points_20_30", "mq008_points_31_38", "mq008_points_39_43", "mq008_points_less_20", "mq008_points_more_than_43", "mq008_reward_unsealed", "mq008_shooting1_done", "mq008_shooting2_done", "mq008_shooting3_done", "mq008_shooting4_done", "mq008_talks_finished", "mq008_v_starts_competition", "mq008_v_wins", "mq008_representative_defeated", "mq008_telem_combat", "mq008_golden_knuckles_owned", "mq008_quest_item_tags_cleaned", "mq008_time_to_spot1", "v_offends_boss", "mq008_prevention_system_off"],
+      "terminal_facts": ["mq008_done"],
+      "unsupported_test_facts": [],
+      "allowed_passive_fields": [
+        {"name":"mq008_active","min":0,"max":1,"reason":"Native root/14 node3 increments during passive initialization before player approach."},
+        {"name":"mq008_quest_comm_on","min":0,"max":1,"reason":"Native root/14 node7 sets1 during passive initialization before player approach."}
+      ],
+      "journals": [
+        {"path":"quests/minor_quest/mq008_party","class":"gameJournalQuest"},
+        {"path":"quests/minor_quest/mq008_party/mq008_party","class":"gameJournalQuestPhase"},
+        {"path":"quests/minor_quest/mq008_party/mq008_party/01_check_whats_up","class":"gameJournalQuestObjective"},
+        {"path":"quests/minor_quest/mq008_party/mq008_party/01_check_whats_up/description","class":"gameJournalQuestDescription"},
+        {"path":"quests/minor_quest/mq008_party/mq008_party/02_speak_rep","class":"gameJournalQuestObjective"},
+        {"path":"quests/minor_quest/mq008_party/mq008_party/03_first_spot","class":"gameJournalQuestObjective"},
+        {"path":"quests/minor_quest/mq008_party/mq008_party/04_drink_spot1","class":"gameJournalQuestObjective"},
+        {"path":"quests/minor_quest/mq008_party/mq008_party/05_shoot_bottles1","class":"gameJournalQuestObjective"},
+        {"path":"quests/minor_quest/mq008_party/mq008_party/04_drink_spot2","class":"gameJournalQuestObjective"},
+        {"path":"quests/minor_quest/mq008_party/mq008_party/03_first_spot1","class":"gameJournalQuestObjective"},
+        {"path":"quests/minor_quest/mq008_party/mq008_party/05_shoot_bottles2","class":"gameJournalQuestObjective"},
+        {"path":"quests/minor_quest/mq008_party/mq008_party/15_back_to_rep","class":"gameJournalQuestObjective"},
+        {"path":"quests/minor_quest/mq008_party/mq008_party/03_first_spot2","class":"gameJournalQuestObjective"},
+        {"path":"quests/minor_quest/mq008_party/mq008_party/03_first_spot3","class":"gameJournalQuestObjective"},
+        {"path":"quests/minor_quest/mq008_party/mq008_party/04_drink_spot3","class":"gameJournalQuestObjective"},
+        {"path":"quests/minor_quest/mq008_party/mq008_party/04_drink_spot4","class":"gameJournalQuestObjective"},
+        {"path":"quests/minor_quest/mq008_party/mq008_party/05_shoot_bottles3","class":"gameJournalQuestObjective"},
+        {"path":"quests/minor_quest/mq008_party/mq008_party/05_shoot_bottles4","class":"gameJournalQuestObjective"},
+        {"path":"quests/minor_quest/mq008_party/mq008_party/16_talk_results","class":"gameJournalQuestObjective"},
+        {"path":"quests/minor_quest/mq008_party/mq008_party/03a_points","class":"gameJournalQuestObjective"},
+        {"path":"quests/minor_quest/mq008_party/mq008_party/02a_take_gun","class":"gameJournalQuestObjective"},
+        {"path":"quests/minor_quest/mq008_party/mq008_party/17_pick_up_the_reward","class":"gameJournalQuestObjective"}
+      ],
+      "provenance": ["research/activity_state_r3/definition.json: mq008_party journal_entries", "native mq008 root setup, hook, contest, finale, cleanup and scene progression: audited by sidejob_inventory", "persistent_content root/151/5/15 retirement cleanup: mq008_prevention_system_off reset plus TogglePreventionSystem(true, mq008_combat); nonzero remains incompatible old owner state"],
+      "notes": ["Passive setup flags are captured unchanged at cutoff, never reset, and may be0 or1 for admitted native reentry.", "Global radio_on, player_drunk, gle_06_alarm and read/config-only mq008_bonus_points_enabled are not fresh-job zero gates.", "POI state is not fresh-job evidence."]
+    }
+  ]
+}

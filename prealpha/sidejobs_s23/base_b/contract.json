@@ -1,0 +1,905 @@
+{
+  "schema": 1,
+  "status": "SOURCE_IMPLEMENTATION_NOT_LIVE_PROOF",
+  "capture": "research/sidejobs_s23/live_20261016_01/capture.json",
+  "capture_sha256": "47084A3833CFE507D184A19CDD1276215A15F917F6B97AA4130E6A6E6919748A",
+  "policy": "Current whitelist Failed OR Inactive; these seven bounded native-entry seams admit observed Inactive states only. No generic partial restart.",
+  "owners": [
+    {
+      "id": "mq013_punks",
+      "ids": [
+        "mq013_punks"
+      ],
+      "key": "MQ013",
+      "tag": "PTFRS23_MQ013",
+      "depot": "towercontinued\\sidejobs_s23\\base_b\\mq013.questphase",
+      "facts_equal": {
+        "mq013_active": 1,
+        "mq013_dealt_with_punks_somehow": 0,
+        "mq013_done": 0,
+        "mq013_far_away": 0,
+        "mq013_punch": 0,
+        "mq013_punk_combat_shopkeeper": 0,
+        "mq013_punk_combat_start": 0,
+        "mq013_punks_dead_before_scene": 0,
+        "mq013_punks_defeated": 0,
+        "sq024_mq013_active_timeskipped": 0,
+        "std_arr_foodshop_03_dead": 0,
+        "std_arr_foodshop_03_default_on": 0,
+        "std_arr_foodshop_03_discount_on": 0
+      },
+      "fact_ranges": {},
+      "journals": [
+        {
+          "path": "quests/minor_quest/mq013_punks",
+          "class": "gameJournalQuest",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq013_punks/00_punks",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq013_punks/00_punks/00_talk_shopkeep",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq013_punks/00_punks/00_talk_shopkeep/description",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq013_punks/00_punks/01_decide",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq013_punks/00_punks/02_deal_with_punks",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq013_punks/00_punks/03_defeat_punks",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq013_punks/00_punks/04_talk_shopkeep",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "reactivate_paths": [],
+      "native_source": "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq013/mq013.questphase",
+      "native_depot": "base\\quest\\minor_quests\\mq013\\mq013.questphase",
+      "parent_node": 17,
+      "input": "In1",
+      "service_lease": null,
+      "phone_dependencies": [],
+      "seam": "Captured all journal entries Inactive; native original entry preserves exact local initializer/background facts. Other progress states are not erased.",
+      "sourcepins": {
+        "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq013/mq013.questphase": "99A9C6730619779051AD48C7E57071A6FB1015B4ABDDD6CA890EEF912A13D6F5"
+      }
+    },
+    {
+      "id": "mq030_melisa",
+      "ids": [
+        "mq030_melisa"
+      ],
+      "key": "MQ030",
+      "tag": "PTFRS23_MQ030",
+      "depot": "towercontinued\\sidejobs_s23\\base_b\\mq030.questphase",
+      "facts_equal": {
+        "cct_dtn_cloth_01_default_on": 1,
+        "mq030_active": 0,
+        "mq030_done": 0,
+        "mq030_failed": 0,
+        "mq030_kill_scene": 0,
+        "mq030_maxtac_arrived": 0,
+        "mq030_zane_grateful": 0,
+        "mq030_zane_met": 0
+      },
+      "fact_ranges": {},
+      "journals": [
+        {
+          "path": "quests/minor_quest/mq030_melisa",
+          "class": "gameJournalQuest",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq030_melisa/01_melisa",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq030_melisa/01_melisa/01_defeat_psycho",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq030_melisa/01_melisa/01_defeat_psycho/description",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq030_melisa/01_melisa/02_approach_max_tac",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq030_melisa/01_melisa/03_sit_down",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq030_melisa/01_melisa/04_talk_to_melisa",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "reactivate_paths": [],
+      "native_source": "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq030/mq030.questphase",
+      "native_depot": "base\\quest\\minor_quests\\mq030\\mq030.questphase",
+      "parent_node": 18,
+      "input": "In1",
+      "service_lease": "ZAN",
+      "phone_dependencies": [],
+      "seam": "Captured all journal entries Inactive; native original entry preserves exact local initializer/background facts. Other progress states are not erased.",
+      "sourcepins": {
+        "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq030/mq030.questphase": "337C0AD54515E354F2D842CBCFE432C61F2000C727513D1BA08F9EB534D0C2E7"
+      }
+    },
+    {
+      "id": "mq011_wilson",
+      "ids": [
+        "mq011_wilson"
+      ],
+      "key": "MQ011",
+      "tag": "PTFRS23_MQ011",
+      "depot": "towercontinued\\sidejobs_s23\\base_b\\mq011.questphase",
+      "facts_equal": {
+        "holo_wilson_calls_v_end_activate": 0,
+        "holo_wilson_calls_v_start_activate": 0,
+        "mq011_active": 0,
+        "mq011_done": 0,
+        "mq011_shooting_over": 0,
+        "wat_lch_gunsmith_01_default_on": 1,
+        "wilson_shooting_range_left": 0
+      },
+      "fact_ranges": {},
+      "journals": [
+        {
+          "path": "quests/minor_quest/mq011_wilson",
+          "class": "gameJournalQuest",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq011_wilson/00_wilson",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq011_wilson/00_wilson/00_talk_wilson",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq011_wilson/00_wilson/00_talk_wilson/description",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq011_wilson/00_wilson/01_go_to_wilson",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq011_wilson/00_wilson/02_talk_to_wilson",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq011_wilson/00_wilson/03_enter_range",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq011_wilson/00_wilson/04_listen_instructions",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq011_wilson/01_competition",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq011_wilson/01_competition/000_wait",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq011_wilson/01_competition/000b_wait",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq011_wilson/01_competition/00_shoot",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq011_wilson/01_competition/00b_ready",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq011_wilson/01_competition/01_go_wilson",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq011_wilson/01_competition/01b_talk_to_wilson",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq011_wilson/01_competition/02_grab_prize",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq011_wilson/description",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "reactivate_paths": [],
+      "native_source": "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq011/mq011.questphase",
+      "native_depot": "base\\quest\\minor_quests\\mq011\\mq011.questphase",
+      "parent_node": 15,
+      "input": "In1",
+      "service_lease": "WV",
+      "phone_dependencies": [
+        "WILSON"
+      ],
+      "seam": "Captured all journal entries Inactive; native original entry preserves exact local initializer/background facts. Other progress states are not erased.",
+      "sourcepins": {
+        "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq011/mq011.questphase": "F432989578A0D071A8C273AE0B67128FBE51B1271C4F839269A8D1E7B1299FBD"
+      }
+    },
+    {
+      "id": "mq038_neweridentity",
+      "ids": [
+        "mq038_neweridentity"
+      ],
+      "key": "MQ038",
+      "tag": "PTFRS23_MQ038",
+      "depot": "towercontinued\\sidejobs_s23\\base_b\\mq038.questphase",
+      "facts_equal": {
+        "mq038_active": 0,
+        "mq038_deliver_inactive": 0,
+        "mq038_done": 0,
+        "mq038_dumpster_opened": 0,
+        "mq038_fake_01_opened": 0,
+        "mq038_fake_02_opened": 0,
+        "mq038_hide_inactive": 0
+      },
+      "fact_ranges": {},
+      "journals": [
+        {
+          "path": "quests/minor_quest/mq038_neweridentity",
+          "class": "gameJournalQuest",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq038_neweridentity/mq038_neweridentity",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq038_neweridentity/mq038_neweridentity/01_fishing_village",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq038_neweridentity/mq038_neweridentity/01_fishing_village/mq038_description",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq038_neweridentity/mq038_neweridentity/02_find_dumpster",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq038_neweridentity/mq038_neweridentity/02b_call_darryl",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq038_neweridentity/mq038_neweridentity/03_recover_body",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq038_neweridentity/mq038_neweridentity/04_deliver_to_car",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq038_neweridentity/mq038_neweridentity/05_hide_trunk",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq038_neweridentity/mq038_neweridentity/06_deliver_northside",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq038_neweridentity/mq038_neweridentity/06_enter_car",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq038_neweridentity/mq038_neweridentity/08_talk_cargo",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq038_neweridentity/mq038_neweridentity/09_leave_car",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "reactivate_paths": [],
+      "native_source": "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq038/mq038.questphase",
+      "native_depot": "base\\quest\\minor_quests\\mq038\\mq038.questphase",
+      "parent_node": 11,
+      "input": "In1",
+      "service_lease": null,
+      "phone_dependencies": [],
+      "seam": "Captured all journal entries Inactive; native original entry preserves exact local initializer/background facts. Other progress states are not erased.",
+      "sourcepins": {
+        "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq038/mq038.questphase": "29B781746BB3FA5DF380784EF4476B2CBD1611788C93CB94891C455B4C288EB3"
+      }
+    },
+    {
+      "id": "mq037_brendan",
+      "ids": [
+        "mq037_brendan",
+        "mq037_brendan_dumpster",
+        "mq037_brendan_hooligan001"
+      ],
+      "key": "MQ037",
+      "tag": "PTFRS23_MQ037",
+      "depot": "towercontinued\\sidejobs_s23\\base_b\\mq037.questphase",
+      "facts_equal": {
+        "hey_rey_techstore_01_default_on": 0,
+        "mq037_01_05Sure": 0,
+        "mq037_brendan_introduced": 0,
+        "mq037_clerk_aggroed": 0,
+        "mq037_clerk_convinced": 0,
+        "mq037_done": 0,
+        "mq037_final_scene_active": 0,
+        "mq037_kill_token_block_loop": 0,
+        "mq037_post_girl_scene_on": 0,
+        "mq037_vandal_painted_brendan": 0
+      },
+      "fact_ranges": {},
+      "journals": [
+        {
+          "path": "quests/minor_quest/mq037_brendan",
+          "class": "gameJournalQuest",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq037_brendan/mq037_brendan",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq037_brendan/mq037_brendan/01_go_to_service",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq037_brendan/mq037_brendan/01_go_to_service/description",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq037_brendan/mq037_brendan/02_find_brendan",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq037_brendan/mq037_brendan/02b_ask_clerk",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq037_brendan/mq037_brendan/02c_destroy_turret",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq037_brendan/mq037_brendan/03_talk_brendan",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq037_brendan/mq037_brendan/04_talk_theo",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq037_brendan_dumpster",
+          "class": "gameJournalQuest",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq037_brendan_dumpster/mq037_brendan_dumpster",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq037_brendan_dumpster/mq037_brendan_dumpster/00_push_dumpster",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq037_brendan_dumpster/mq037_brendan_dumpster/00_push_dumpster/description",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq037_brendan_dumpster/mq037_brendan_dumpster/01_talk_brendan",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq037_brendan_hooligan001",
+          "class": "gameJournalQuest",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq037_brendan_hooligan001/mq037_brendan_hooligan",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq037_brendan_hooligan001/mq037_brendan_hooligan/00_deal_with_the_hooligan",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq037_brendan_hooligan001/mq037_brendan_hooligan/01_talk_with_brendan",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "reactivate_paths": [],
+      "native_source": "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq037/mq037_brendan.questphase",
+      "native_depot": "base\\quest\\minor_quests\\mq037\\mq037_brendan.questphase",
+      "parent_node": 34,
+      "input": "In1",
+      "service_lease": null,
+      "phone_dependencies": [],
+      "seam": "Captured all journal entries Inactive; native original entry preserves exact local initializer/background facts. Other progress states are not erased.",
+      "sourcepins": {
+        "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq037/mq037_brendan.questphase": "CEBDE896D88AEEBB927C59AA184830965DD22E1EDD19D716EC3558F78825EF0D"
+      }
+    },
+    {
+      "id": "mq049_edgerunners",
+      "ids": [
+        "mq049_edgerunners"
+      ],
+      "key": "MQ049",
+      "tag": "PTFRS23_MQ049",
+      "depot": "towercontinued\\sidejobs_s23\\base_b\\mq049.questphase",
+      "facts_equal": {
+        "mq049_done": 0,
+        "mq049_falco_done": 0,
+        "mq049_finished": 0,
+        "mq049_jacket_looted": 0,
+        "mq049_reyes_distance_comment": 0,
+        "mq049_started": 0
+      },
+      "fact_ranges": {},
+      "journals": [
+        {
+          "path": "quests/minor_quest/mq049_edgerunners",
+          "class": "gameJournalQuest",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq049_edgerunners/01_el_captian",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq049_edgerunners/01_el_captian/01_text_capitan",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq049_edgerunners/01_el_captian/02_wait",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq049_edgerunners/02_falco",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq049_edgerunners/02_falco/01_respond_to_falco",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq049_edgerunners/03_gift",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq049_edgerunners/03_gift/02_pick_up_gift",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq049_edgerunners/desc",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "reactivate_paths": [],
+      "native_source": "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq049/mq049.questphase",
+      "native_depot": "base\\quest\\minor_quests\\mq049\\mq049.questphase",
+      "parent_node": 64,
+      "input": "In1",
+      "service_lease": null,
+      "phone_dependencies": [],
+      "seam": "Captured all journal entries Inactive; native original entry preserves exact local initializer/background facts. Other progress states are not erased.",
+      "sourcepins": {
+        "research/activity_state_r3/native_sources/raw/base/quest/minor_quests/mq049/mq049.questphase": "79878456A4DC2210CC1326BC6094C14272CE3736E4040B330D8F2AA4D3CA900B"
+      }
+    },
+    {
+      "id": "mq026_conspiracy",
+      "ids": [
+        "mq026_conspiracy"
+      ],
+      "key": "MQ026",
+      "tag": "PTFRS23_MQ026",
+      "depot": "towercontinued\\sidejobs_s23\\base_b\\mq026.questphase",
+      "facts_equal": {
+        "mq018_begged_once": 0,
+        "mq018_ramble_pause": 0,
+        "mq018_select": 0,
+        "mq026_active": 1,
+        "mq026_big_donation": 0,
+        "mq026_car_chase": 0,
+        "mq026_chip": 0,
+        "mq026_conspiracies": 0,
+        "mq026_cyberspace_done": 0,
+        "mq026_cyberspace_start": 0,
+        "mq026_death_stop_content_lock": 0,
+        "mq026_debug": 0,
+        "mq026_disturbed": 0,
+        "mq026_done": 0,
+        "mq026_eyes_done": 0,
+        "mq026_eyes_start": 0,
+        "mq026_first_conspiracy_done": 1,
+        "mq026_handover": 0,
+        "mq026_is_rambling": 0,
+        "mq026_lilith_done": 1,
+        "mq026_lookat_loop": 1,
+        "mq026_mib_fighting": 0,
+        "mq026_mib_ready": 0,
+        "mq026_nomads_beaten": 0,
+        "mq026_nomads_done": 0,
+        "mq026_nomads_start": 0,
+        "mq026_preach_skipped": 0,
+        "mq026_prophet_beaten": 0,
+        "mq026_reptilians_done": 0,
+        "mq026_reptilians_start": 0,
+        "mq026_skip_first_ramble": 0,
+        "mq026_small_donation": 0,
+        "mq026_started": 1,
+        "mq026_stop_preach": 1,
+        "mq026_take_chip": 0,
+        "mq026_vampire_done": 0,
+        "mq026_vampire_start": 0,
+        "mq027_50_prophet": 0,
+        "mq027_5_prophet": 0
+      },
+      "fact_ranges": {},
+      "journals": [
+        {
+          "path": "quests/minor_quest/mq026_conspiracy",
+          "class": "gameJournalQuest",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq026_conspiracy/stash",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq026_conspiracy/stash/01_01_find_stash",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq026_conspiracy/stash/01_01_find_stash/mq026_desc",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq026_conspiracy/stash/01_01b_return_factory",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq026_conspiracy/stash/01_02_find_stash",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq026_conspiracy/stash/01_02a_suspicious",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq026_conspiracy/stash/01_03_loot_corpse",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq026_conspiracy/stash/01_04_confront",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq026_conspiracy/stash/01_05_hide",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq026_conspiracy/stash/01_05a_talk",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq026_conspiracy/stash/01_05b_wait",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq026_conspiracy/stash/01_06b_take_out_carrier",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq026_conspiracy/stash/01_07_return",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq026_conspiracy/stash/01_07b_disciple",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq026_conspiracy/stash/01_08_what",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "quests/minor_quest/mq026_conspiracy/stash/01_09_johnny",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "reactivate_paths": [],
+      "native_source": "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq026/mq026.questphase",
+      "native_depot": "base\\quest\\minor_quests\\mq026\\mq026.questphase",
+      "parent_node": 39,
+      "input": "In1",
+      "service_lease": null,
+      "phone_dependencies": [],
+      "seam": "Captured all journal entries Inactive; native original entry preserves exact local initializer/background facts. Other progress states are not erased.",
+      "sourcepins": {
+        "research/sidejobs_s23/native_01/raw/base/quest/minor_quests/mq026/mq026.questphase": "99348A66C4620F986932C5EA5D596578EC90487A5808714D709BB62B27A74F9D"
+      }
+    }
+  ],
+  "existing_owners_unchanged": [
+    "mq005_alley",
+    "mq032_sacrum"
+  ]
+}

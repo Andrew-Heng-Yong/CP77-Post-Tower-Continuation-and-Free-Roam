@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "module": "cyberware",
+  "selection": "whitelist",
+  "outside_list": "block_installation_and_unequip_safely",
+  "vendor_purchase": "inventory_only_for_restricted_items",
+  "function_denials_override_item_permission": true,
+  "categories": {
+    "FrontalCortexCW": [],
+    "SystemReplacementCW": [],
+    "ArmsCW": [],
+    "EyesCW": [
+      "Items.AdvancedKiroshiOpticsBareCommon",
+      "Items.AdvancedKiroshiOpticsBareCommonPlus",
+      "Items.AdvancedKiroshiOpticsBareUncommon",
+      "Items.AdvancedKiroshiOpticsBareUncommonPlus",
+      "Items.AdvancedKiroshiOpticsBareRare",
+      "Items.AdvancedKiroshiOpticsBareRarePlus",
+      "Items.AdvancedKiroshiOpticsBareEpic",
+      "Items.AdvancedKiroshiOpticsBareEpicPlus",
+      "Items.AdvancedKiroshiOpticsBareLegendary",
+      "Items.AdvancedKiroshiOpticsBareLegendaryPlus",
+      "Items.AdvancedKiroshiOpticsBareLegendaryPlusPlus"
+    ],
+    "MusculoskeletalSystemCW": [],
+    "HandsCW": [
+      "Items.CasiusTattoo",
+      "Items.AdvancedCasiusTattoo"
+    ],
+    "NervousSystemCW": [],
+    "CardiovascularSystemCW": [],
+    "IntegumentarySystemCW": [],
+    "LegsCW": []
+  },
+  "preserve_outside_selectable_categories": [
+    "PersonalLink",
+    "BaseFists",
+    "Splinter"
+  ]
+}

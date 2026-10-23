@@ -1,0 +1,2187 @@
+{
+  "schema": "S24_EP1_FRESH_CONTRACT_1",
+  "common_equal": {
+    "PostTowerFreeRoamActive": 1,
+    "PTFRP0_DR13": 1,
+    "PTFRPA2_Finished": 1,
+    "PTFRPA2_Fault": 0,
+    "q307_done": 1,
+    "q307_finished": 1,
+    "q307_2079": 1,
+    "q307_active": 0,
+    "q307_main_game_killed": 1,
+    "q307_ep1_killed": 1,
+    "PTFRU9_Support_Issued": 1,
+    "PTFRU9_Support_Fault": 0,
+    "q307_debug_reset": 0,
+    "q115_point_of_no_return": 0,
+    "q305_johnny_scene_active": 0
+  },
+  "owners": [
+    {
+      "id": "mq305_combat_zone_report",
+      "key": "MQ305_FRESH",
+      "tag": "PTFRS24_MQ305_FRESH",
+      "depot": "towercontinued\\sidejobs_s24\\ep1\\mq305_fresh_boot.questphase",
+      "entry": "In1",
+      "facts_equal": {
+        "mq305_01_active": 0,
+        "mq305_01_done": 0,
+        "mq305_02_active": 0,
+        "mq305_02_dante_ignored": 0,
+        "mq305_02_dante_started_turn": 0,
+        "mq305_02_dante_talked": 0,
+        "mq305_02_dante_turned": 0,
+        "mq305_02_done": 0,
+        "mq305_03_active": 0,
+        "mq305_03_done": 0,
+        "mq305_03_johnny_end_talking": 0,
+        "mq305_04_active": 0,
+        "mq305_04_bunker_bree_worked_for_militech": 0,
+        "mq305_04_bunker_dante_introduced_himself": 0,
+        "mq305_04_done": 0,
+        "mq305_04_johnny_despawned": 0,
+        "mq305_04b_V_asks_more": 0,
+        "mq305_04b_bree_crouch": 0,
+        "mq305_04b_bree_talk": 0,
+        "mq305_04b_bree_took_card": 0,
+        "mq305_04b_combat_dialog_ended": 0,
+        "mq305_04b_door_1_dialog_ended": 0,
+        "mq305_04b_location_dialog_ended": 0,
+        "mq305_04b_militech_dialog_ended": 0,
+        "mq305_04b_reminders_enabled": 0,
+        "mq305_04b_start_turret_combat": 0,
+        "mq305_04b_start_turret_combat_2": 0,
+        "mq305_04b_told_about_max_jones": 0,
+        "mq305_05_active": 0,
+        "mq305_05_done": 0,
+        "mq305_V_told_Bree_hide": 0,
+        "mq305_active": 0,
+        "mq305_apartment_dante_knocked_second_time": 0,
+        "mq305_apartment_johnny_comments_on_fluff_plant": 0,
+        "mq305_apartment_keycard_found": 0,
+        "mq305_both_killed": 0,
+        "mq305_bree_dead": 0,
+        "mq305_bree_dead_reaction_ended": 0,
+        "mq305_bree_in_standoff_position": 0,
+        "mq305_bree_post_standoff_dialog_finished": 0,
+        "mq305_briefing_video_01_commented": 0,
+        "mq305_briefing_video_01_watched": 0,
+        "mq305_briefing_video_02_commented": 0,
+        "mq305_briefing_video_02_watched": 0,
+        "mq305_briefing_video_03_commented": 0,
+        "mq305_briefing_video_03_watched": 0,
+        "mq305_briefing_video_v_leaning": 0,
+        "mq305_bunker_video_watched": 0,
+        "mq305_chickentest_finished": 0,
+        "mq305_commenting_on_video": 0,
+        "mq305_currently_watching": 0,
+        "mq305_dante_dying_cut_combat_shouts": 0,
+        "mq305_dante_enters": 0,
+        "mq305_dante_killed": 0,
+        "mq305_dante_picked_data": 0,
+        "mq305_dante_picked_shard": 0,
+        "mq305_dante_post_standoff_dialog_finished": 0,
+        "mq305_dante_post_standoff_workspot": 0,
+        "mq305_dante_turned_around": 0,
+        "mq305_debug_run": 0,
+        "mq305_done": 0,
+        "mq305_failed": 0,
+        "mq305_finished": 0,
+        "mq305_fluff_plant_checked": 0,
+        "mq305_johnny_comment_all_dead_trigger_01": 0,
+        "mq305_johnny_comment_all_dead_trigger_02": 0,
+        "mq305_johnny_comment_all_dead_trigger_03a": 0,
+        "mq305_johnny_comment_all_dead_trigger_03b": 0,
+        "mq305_johnny_comment_all_dead_trigger_04a": 0,
+        "mq305_johnny_comment_all_dead_trigger_04b": 0,
+        "mq305_johnny_comment_all_dead_trigger_04c": 0,
+        "mq305_johnny_comment_all_dead_trigger_05": 0,
+        "mq305_johnny_comment_all_dead_trigger_06": 0,
+        "mq305_lab_cores_scanned": 0,
+        "mq305_lab_johnny_comments_on_max_jones": 0,
+        "mq305_lab_johnny_comments_on_max_jones_finished": 0,
+        "mq305_lab_mines_02_deactivated": 0,
+        "mq305_lab_mines_03_deactivated": 0,
+        "mq305_lab_mines_04_deactivated": 0,
+        "mq305_lab_mines_06_deactivated": 0,
+        "mq305_lab_mines_07_deactivated": 0,
+        "mq305_lab_turret_04_destroyed": 0,
+        "mq305_lab_turret_05_destroyed": 0,
+        "mq305_lab_turrets_01_deactivated": 0,
+        "mq305_lab_turrets_02_deactivated": 0,
+        "mq305_lab_turrets_03_deactivated": 0,
+        "mq305_lab_turrets_1_cameras_hacked": 0,
+        "mq305_lab_turrets_1_defeated": 0,
+        "mq305_lab_turrets_1_mines_deactivated": 0,
+        "mq305_lab_turrets_1_trigger_fight": 0,
+        "mq305_lab_turrets_1_trigger_scan": 0,
+        "mq305_lab_turrets_2_cameras_hacked": 0,
+        "mq305_lab_turrets_2_defeated": 0,
+        "mq305_lab_turrets_2_mines_deactivated": 0,
+        "mq305_lab_turrets_2_trigger_fight": 0,
+        "mq305_lab_turrets_2_trigger_scan": 0,
+        "mq305_mr_hands_sell_data": 0,
+        "mq305_mr_hands_sends_briefing": 0,
+        "mq305_mr_hands_sends_message_about_bree": 0,
+        "mq305_netwatch_play_line": 0,
+        "mq305_not_ch_hub_reminder": 0,
+        "mq305_player_missed_choice": 0,
+        "mq305_standoff_ended": 0,
+        "mq305_standoff_started": 0,
+        "mq305_started": 0,
+        "mq305_started_from_chicken_test_2": 0,
+        "mq305_started_from_chicken_test_3": 0,
+        "mq305_started_from_chicken_test_4": 0,
+        "mq305_started_from_chicken_test_5": 0,
+        "mq305_took_over_camera": 0,
+        "mq305_v_has_data": 0,
+        "mq305_v_killed_bree": 0,
+        "mq305_v_picked_shard_from_dante": 0,
+        "holo_setup_active": 0,
+        "holo_setup_started": 0,
+        "holo_interrupt_call": 0,
+        "holo_active_call_interrupted": 0,
+        "holo_reset": 0,
+        "holo_force_reset": 0,
+        "holo_reset_soft": 0,
+        "holo_interrupt_call_manual": 0,
+        "holo_interrupt_braindance": 0,
+        "holo_mr_hands_calls_v_start_activate": 0,
+        "holo_mr_hands_calls_v_end_activate": 0,
+        "holo_mr_hands_calls_v_start_done": 0,
+        "holo_mr_hands_calls_v_end_done": 0,
+        "holo_mr_hands_calls_v_active": 0,
+        "holo_mr_hands_calls_v_started": 0,
+        "holo_v_calls_mr_hands_start_activate": 0,
+        "holo_v_calls_mr_hands_end_activate": 0,
+        "holo_v_calls_mr_hands_start_done": 0,
+        "holo_v_calls_mr_hands_end_done": 0,
+        "holo_v_calls_mr_hands_active": 0,
+        "holo_v_calls_mr_hands_started": 0
+      },
+      "fact_ranges": {},
+      "journals": [
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report",
+          "class": "gameJournalQuest",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/placeholder",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/placeholder/placeholder",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/placeholder/read_briefing_from_mr_hands",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/placeholder/read_briefing_from_mr_hands1",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/placeholder/read_briefing_from_mr_hands2",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/02_apartment",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/02_apartment/find_building",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/02_apartment/talk_with_stranger",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/02_apartment/search_for_clues",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/02_apartment/enter_apartment",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/02_apartment/pick_a_not_with_coordinates_from_board",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/02_apartment/send_message_to_mr_hands",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/02_apartment/read_mr_hands_message",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/03_lab_explore",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/03_lab_explore/find_the_location_in_cz",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/03_lab_explore/ride_the_elevator_down",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/03_lab_explore/open_main_lab_door",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/03_lab_explore/find_the_main_entrance",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/03_lab_explore/talk_to_bree",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/03_lab_explore/follow_bree",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/03_lab_explore/neutralize_defensive_systems",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/03_lab_explore/check_the_hallway",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/03_lab_explore/scan_area_for_traps",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/04_lab_confrontation",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/04_lab_confrontation/check_computer",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/04_lab_confrontation/get_off_computer",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/04_lab_confrontation/exit_lab",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/04_lab_confrontation/watch_video_on_computer",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/04_lab_confrontation/kill_dante",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/04_lab_confrontation/talk_to_dante",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/04_lab_confrontation/talk_to_bree",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/04_lab_confrontation/talk_to_bree_or_dante",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/04_lab_confrontation/step_aside",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/04_lab_confrontation/decide_bree_fate",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/05_outcome",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/05_outcome/talk_to_mr_hands",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/05_outcome/deliver_data_to_drop_point",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq305_combat_zone_report/description",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/mr_hands/mq305",
+          "class": "gameJournalPhoneConversation",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/mr_hands/mq305/bree_address",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/mr_hands/mq305/briefing_about_wanted_person",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/mr_hands/mq305/hands_coordinates_to_cz_lab",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/mr_hands/mq305/02_ch_v_finds_keycard",
+          "class": "gameJournalPhoneChoiceGroup",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/mr_hands/mq305/02_ch_v_finds_keycard/02_ch_v_finds_keycard",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/mr_hands/mq305/02_ch_v_finds_keycard/02_ch_v_finds_keycard_alt",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/mr_hands/mq305/bree_went_to_away",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/mr_hands/mq305/v_kills_bree",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/mr_hands/mq305/01_ch_bree_address",
+          "class": "gameJournalPhoneChoiceGroup",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/mr_hands/mq305/01_ch_bree_address/01_ch_v_replies_to_bree_address",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/mr_hands/mq305/01_ch_bree_address/01_ch_v_replies_to_bree_address_alt",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/mr_hands/mq305/02a_ch_hands_coordinates_to_cz_lab",
+          "class": "gameJournalPhoneChoiceGroup",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/mr_hands/mq305/02a_ch_hands_coordinates_to_cz_lab/02a_ch_hands_coordinates_reply",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/mr_hands/mq305/02a_ch_hands_coordinates_to_cz_lab/02a_ch_hands_coordinates_reply_alt",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/mr_hands/mq305/03a_ch_commision_received",
+          "class": "gameJournalPhoneChoiceGroup",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/mr_hands/mq305/03a_ch_commision_received/03a_comission_received_reply",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/mr_hands/mq305/03a_ch_commision_received/03a_comission_received_reply_alt",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/mr_hands/mq305/03b_ch_v_kills_bree",
+          "class": "gameJournalPhoneChoiceGroup",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/mr_hands/mq305/03b_ch_v_kills_bree/03b_ch_v_kills_bree",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/mr_hands/mq305/03b_ch_v_kills_bree/03b_ch_v_kills_bree_alt",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/mr_hands/mq305/02b_hands_asks_v_to_inform_when_job_is_done",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/mr_hands/mq305/02b_ch_player_replies_to_hands_request",
+          "class": "gameJournalPhoneChoiceGroup",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/mr_hands/mq305/02b_ch_player_replies_to_hands_request/02b_ch_player_replies_to_hands_request_to_call_him",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/mr_hands/mq305/04_hands_data_sold",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/mr_hands/mq305/mq305_03c_v_leaves_bree_alone",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/mr_hands/mq305/mq305_03c_ch_v_leaves_bree_alone",
+          "class": "gameJournalPhoneChoiceGroup",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/mr_hands/mq305/mq305_03c_ch_v_leaves_bree_alone/03c_ch_v_leaves_bree_alone",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/mr_hands/mq305/mq305_03c_ch_v_leaves_bree_alone/03c_ch_v_leaves_bree_alone_alt",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/mr_hands/mq305/mq305_03d_hands_replies_to_v_after_bree_died",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/mr_hands/mq305/mq305_breifing_about_bree_rejected_holo",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "reactivate_paths": [],
+      "native_only_guards": [],
+      "native_main": "ep1\\quest\\minor_quests\\mq305\\mq305.questphase",
+      "native_dependencies": [
+        "ep1\\quest\\minor_quests\\mq305\\mq305.questphase",
+        "ep1\\quest\\minor_quests\\mq305\\phases\\mq305_netwatch_encounter.questphase",
+        "ep1\\quest\\minor_quests\\mq305\\scenes\\mq305_06_netwatch_encounter.scene",
+        "ep1\\quest\\minor_quests\\mq305\\phases\\mq305_03_bunker_exploration.questphase",
+        "ep1\\quest\\minor_quests\\mq305\\phases\\mq305_02_apartment.questphase",
+        "ep1\\quest\\minor_quests\\mq305\\test\\mq305_chickentest.scene",
+        "ep1\\quest\\minor_quests\\mq305\\phases\\mq305_01_hook.questphase",
+        "ep1\\quest\\minor_quests\\mq305\\phases\\mq305_03_bunker_exploration_setup.questphase",
+        "ep1\\quest\\minor_quests\\mq305\\scenes\\mq305_02_apartment_dante.scene",
+        "ep1\\quest\\minor_quests\\mq305\\scenes\\mq305_03_apartment_johnny.scene",
+        "ep1\\quest\\minor_quests\\mq305\\phases\\mq305_01_hook_setup.questphase",
+        "ep1\\quest\\minor_quests\\mq305\\phases\\mq305_outcome.questphase",
+        "ep1\\quest\\minor_quests\\mq305\\phases\\mq305_04_bunker_confrontation.questphase",
+        "ep1\\quest\\minor_quests\\mq305\\phases\\mq305_02_apartment_bugfixes.questphase",
+        "ep1\\quest\\minor_quests\\mq305\\phases\\mq305_04_bunker_confrontation_setup.questphase",
+        "ep1\\quest\\minor_quests\\mq305\\phases\\mq305_02_apartment_setup.questphase",
+        "ep1\\quest\\minor_quests\\mq305\\phases\\mq305_01_hook_bugfixes.questphase",
+        "ep1\\quest\\minor_quests\\mq305\\scenes\\mq305_05_outcome_mr_hands.scene",
+        "ep1\\quest\\minor_quests\\mq305\\phases\\mq305_04_bunker_confrontation_bugfixes.questphase",
+        "ep1\\quest\\minor_quests\\mq305\\phases\\mq305_03_bunker_exploration_bugfixes.questphase",
+        "ep1\\quest\\minor_quests\\mq305\\scenes\\mq305_04b_lab_exploration.scene",
+        "ep1\\quest\\minor_quests\\mq305\\scenes\\mq305_01_holocall_hook.scene",
+        "ep1\\quest\\minor_quests\\mq305\\phases\\mq305_outcome_bugfixes.questphase",
+        "ep1\\quest\\minor_quests\\mq305\\phases\\mq305_outcome_setup.questphase",
+        "ep1\\quest\\minor_quests\\mq305\\scenes\\mq305_04a_video_recordings.scene",
+        "ep1\\quest\\minor_quests\\mq305\\scenes\\mq305_04_bunker.scene"
+      ],
+      "phone_dependencies": [
+        "existing U9 Mr Hands controller and global phone cleanup"
+      ],
+      "old_owner_guards": {},
+      "contact": null,
+      "route": "Original native parent gate and entry; all stock gameplay, calls, timing, choices, rewards and cleanup retained. No direct journal or native progress reset.",
+      "parent_slice": {
+        "source": "ep1\\quest\\minor_quests\\ep1_minor_quests.questphase",
+        "graph": "root",
+        "ids": [
+          8,
+          12,
+          14,
+          27,
+          6
+        ],
+        "entry": 8,
+        "socket": "In"
+      }
+    },
+    {
+      "id": "mq306_dumpster",
+      "key": "MQ306_FRESH",
+      "tag": "PTFRS24_MQ306_FRESH",
+      "depot": "towercontinued\\sidejobs_s24\\ep1\\mq306_fresh_boot.questphase",
+      "entry": "In1",
+      "facts_equal": {
+        "aaron_scanned": 0,
+        "ma306_03_cut_damir_nervous": 0,
+        "mq306_03_angie_turned": 0,
+        "mq306_aaron_entered_ripper": 0,
+        "mq306_aaron_fluff_played": 0,
+        "mq306_aaron_intimidate_end": 0,
+        "mq306_aaron_path": 0,
+        "mq306_angie_path": 0,
+        "mq306_animals_dead": 0,
+        "mq306_bartender_done": 0,
+        "mq306_base_aaron_elevator_chat": 0,
+        "mq306_base_patrol_start": 0,
+        "mq306_bet_blueline": 0,
+        "mq306_bet_default": 0,
+        "mq306_bet_will": 0,
+        "mq306_chicken_skip_waiting": 0,
+        "mq306_clinic_reached": 0,
+        "mq306_combat": 0,
+        "mq306_combat_retreat_01": 0,
+        "mq306_combat_retreat_02": 0,
+        "mq306_combat_retreat_03": 0,
+        "mq306_combat_retreat_04": 0,
+        "mq306_damir_clinic_door_closed": 0,
+        "mq306_dive": 0,
+        "mq306_done": 0,
+        "mq306_enemy_spawn_counter": 0,
+        "mq306_exploration_00_chat_done": 0,
+        "mq306_exploration_01_chat_done": 0,
+        "mq306_exploration_02_chat_done": 0,
+        "mq306_exploration_03_chat_done": 0,
+        "mq306_fight_clean": 0,
+        "mq306_finished": 0,
+        "mq306_guard_01_defeated": 0,
+        "mq306_guard_mounted_to_elevator": 0,
+        "mq306_intimidate": 0,
+        "mq306_intro_cancel_fight": 0,
+        "mq306_intro_variant_activated": 0,
+        "mq306_last_warning": 0,
+        "mq306_leaving_ripper": 0,
+        "mq306_lobby_reinforcements_spawned": 0,
+        "mq306_location_chat_active": 0,
+        "mq306_location_chat_done": 0,
+        "mq306_location_chat_part_1_done": 0,
+        "mq306_location_chat_part_2_done": 0,
+        "mq306_location_chat_part_3_done": 0,
+        "mq306_offer_declined": 0,
+        "mq306_pills": 0,
+        "mq306_quest_accepted": 0,
+        "mq306_reinforcements_counter": 0,
+        "mq306_ripper_angie_haggled": 0,
+        "mq306_ripper_reinforcements_spawned": 0,
+        "mq306_scavs_attacked": 0,
+        "mq306_server_reinforcements_spawned": 0,
+        "mq306_started": 0,
+        "mq306_stealth": 0,
+        "mq306_testdef": 0,
+        "mq306_truth": 0,
+        "PTFRS23_MQ306_Issued": 0,
+        "holo_setup_active": 0,
+        "holo_setup_started": 0,
+        "holo_interrupt_call": 0,
+        "holo_active_call_interrupted": 0,
+        "holo_reset": 0,
+        "holo_force_reset": 0,
+        "holo_reset_soft": 0,
+        "holo_interrupt_call_manual": 0,
+        "holo_interrupt_braindance": 0
+      },
+      "fact_ranges": {
+        "mq306_active": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "journals": [
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster",
+          "class": "gameJournalQuest",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/01_intro",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/01_intro/01_find_aaron",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/01_intro/02_talk_aaron",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/01_intro/03_text_viktor",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/01_intro/01_read_coach_message",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/01_intro/01a_talk_to_bookie",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/01_intro/01b_wait_for_fight",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/01_intro/02a_consider_talking_to_aaron",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/01_intro/01_wait_for_match",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/02_scav_base",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/02_scav_base/01_meet_aaron",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/02_scav_base/02_talk_aaron",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/02_scav_base/03_clinic",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/02_scav_base/04_combat",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/02_scav_base/02_follow_aaron",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/02_scav_base/01a_wait_for_aaron",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/03_ripperdoc",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/03_ripperdoc/01_talk_damir",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/03_ripperdoc/02_wait",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/03_ripperdoc/03_talk_angie",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/03_ripperdoc/04_combat",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/03_ripperdoc/05_talk_aaron",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/03_ripperdoc/06_leave_base",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/03_ripperdoc/07a_wait_news_aaron",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/03_ripperdoc/07b_wait_news_angie",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04a_aaron_meeting",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04a_aaron_meeting/01_reply_text",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04a_aaron_meeting/02_meet_aaron",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04a_aaron_meeting/03a_talk_bartender",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04a_aaron_meeting/04a_alley",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04a_aaron_meeting/03b_talk_angie",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04a_aaron_meeting/04b_combat",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04a_aaron_meeting/03c_talk_aaron",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04a_aaron_meeting/05_talk_johnny",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04a_aaron_meeting/01a_read_aaron_message",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04b_angie_meeting",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04b_angie_meeting/01_reply_text",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04b_angie_meeting/02_meet_angie",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/04b_angie_meeting/03talk_to_angie",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/mq306_dumpster/description",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/trainer_fred/mq306_hook",
+          "class": "gameJournalPhoneConversation",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/trainer_fred/mq306_hook/01a_job",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/trainer_fred/mq306_hook/01b_job",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/trainer_fred/mq306_hook/01c_job",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/trainer_fred/mq306_hook/01d_job",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/trainer_fred/mq306_hook/failed_quest",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/trainer_fred/mq306_hook/fred_reply_a_response_1",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/trainer_fred/mq306_hook/fred_reply_a_response_2",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/trainer_fred/mq306_hook/fred_reply_b_response_1",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/trainer_fred/mq306_hook/fred_reply_b_response_2",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/trainer_fred/mq306_hook/fred_reply_c_response_1",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/trainer_fred/mq306_hook/fred_reply_c_response_2",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/trainer_fred/mq306_hook/fred_reply_d_response_1",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/trainer_fred/mq306_hook/fred_reply_d_response_2",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/trainer_fred/mq306_hook/v_reply_a",
+          "class": "gameJournalPhoneChoiceGroup",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/trainer_fred/mq306_hook/v_reply_a/ver_a_reply1",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/trainer_fred/mq306_hook/v_reply_a/ver_a_reply2",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/trainer_fred/mq306_hook/v_reply_b",
+          "class": "gameJournalPhoneChoiceGroup",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/trainer_fred/mq306_hook/v_reply_b/ver_b_reply1",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/trainer_fred/mq306_hook/v_reply_b/ver_b_reply2",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/trainer_fred/mq306_hook/v_reply_c",
+          "class": "gameJournalPhoneChoiceGroup",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/trainer_fred/mq306_hook/v_reply_c/ver_c_reply1",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/trainer_fred/mq306_hook/v_reply_c/ver_c_reply2",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/trainer_fred/mq306_hook/v_reply_d",
+          "class": "gameJournalPhoneChoiceGroup",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/trainer_fred/mq306_hook/v_reply_d/ver_d_reply1",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/trainer_fred/mq306_hook/v_reply_d/ver_d_reply2",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "contacts/trainer_fred/mq306_hook/fred_hook_reminder",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/aaron/mq306",
+          "class": "gameJournalPhoneConversation",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/aaron/mq306/01a_aaron_dive",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/aaron/mq306/01b_aaron_fight_clean",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/aaron/mq306/02a_ch_dive_reply",
+          "class": "gameJournalPhoneChoiceGroup",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/aaron/mq306/02a_ch_dive_reply/ch_01",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/aaron/mq306/02a_ch_dive_reply/ch_02",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/aaron/mq306/02b_ch_fight_clean_reply",
+          "class": "gameJournalPhoneChoiceGroup",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/aaron/mq306/02b_ch_fight_clean_reply/ch_01",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/aaron/mq306/02b_ch_fight_clean_reply/ch_02",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/aaron/mq306/03a_aaron_disgraced",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/aaron/mq306/03b_aaron_abroad",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/aaron/mq306/03a_aaron_disgraced_reply",
+          "class": "gameJournalPhoneChoiceGroup",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/aaron/mq306/03a_aaron_disgraced_reply/reply1",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/aaron/mq306/03a_aaron_disgraced_reply/reply2",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/aaron/mq306/03b_aaron_abroad_reply",
+          "class": "gameJournalPhoneChoiceGroup",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/aaron/mq306/03b_aaron_abroad_reply/reply1",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/aaron/mq306/03b_aaron_abroad_reply/reply2",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/aaron/mq306_hook",
+          "class": "gameJournalPhoneConversation",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/aaron/mq306_hook/mq306_aaron_reminder",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "reactivate_paths": [],
+      "native_only_guards": [],
+      "native_main": "ep1\\quest\\minor_quests\\mq306\\mq306.questphase",
+      "native_dependencies": [
+        "ep1\\quest\\minor_quests\\mq306\\mq306.questphase",
+        "ep1\\quest\\minor_quests\\mq306\\phases\\mq306_03_ripper.questphase",
+        "ep1\\quest\\minor_quests\\mq306\\phases\\mq306_04b_angie_meeting.questphase",
+        "ep1\\quest\\minor_quests\\mq306\\phases\\mq306_04a_aaron_meeting.questphase",
+        "ep1\\quest\\minor_quests\\mq306\\scenes\\mq306_03_expo_ripper.scene",
+        "ep1\\quest\\minor_quests\\mq306\\phases\\mq306_01_intro.questphase",
+        "ep1\\quest\\minor_quests\\mq306\\phases\\mq306_02_tech_expo.questphase",
+        "ep1\\quest\\minor_quests\\mq306\\phases\\mq306_02_tech_expo_combat.questphase",
+        "ep1\\quest\\minor_quests\\mq306\\scenes\\mq306_04a_aaron_meeting.scene",
+        "ep1\\quest\\minor_quests\\mq306\\scenes\\mq306_01_intro.scene",
+        "ep1\\quest\\minor_quests\\mq306\\scenes\\mq306_04b_angie_meeting.scene",
+        "ep1\\quest\\minor_quests\\mq306\\scenes\\mq306_02_tech_expo_exploration.scene"
+      ],
+      "phone_dependencies": [
+        "native SMS journals; no new holo controller"
+      ],
+      "old_owner_guards": {
+        "PTFRS23_MQ306_Issued": 0
+      },
+      "contact": "contacts/trainer_fred",
+      "route": "Original native parent gate and entry; all stock gameplay, calls, timing, choices, rewards and cleanup retained. No direct journal or native progress reset.",
+      "passive_init_audit": {
+        "mq306_active": "Original main node30 exact-set1 before intro setup invitation delay; root33/cleanup exact-set0. Original scene does not enter until journal started. Allow0..1 only; all other progress0 and complete quest/SMS subtree Inactive."
+      },
+      "parent_slice": {
+        "source": "ep1\\quest\\minor_quests\\ep1_minor_quests.questphase",
+        "graph": "root",
+        "ids": [
+          8,
+          7
+        ],
+        "entry": 8,
+        "socket": "In"
+      }
+    },
+    {
+      "id": "q304_car_retrieval",
+      "key": "Q304_FRESH",
+      "tag": "PTFRS24_Q304_FRESH",
+      "depot": "towercontinued\\sidejobs_s24\\ep1\\q304_fresh_boot.questphase",
+      "entry": "In1",
+      "facts_equal": {
+        "q304_car_retrieval_accepted": 0,
+        "q304_car_retrieval_active": 0,
+        "q304_car_retrieval_car_entered": 0,
+        "q304_car_retrieval_car_ready2go": 0,
+        "q304_car_retrieval_combat_started": 0,
+        "q304_car_retrieval_done": 0,
+        "q304_car_retrieval_driver2_spawned": 0,
+        "q304_car_retrieval_finished": 0,
+        "q304_car_retrieval_got_spotted": 0,
+        "q304_car_retrieval_guards_killed": 0,
+        "q304_car_retrieval_inner_patrol_car_moving": 0,
+        "q304_car_retrieval_player_spotted": 0,
+        "q304_car_retrieval_player_spotted_2": 0,
+        "q304_car_retrieval_started": 0,
+        "q304_car_retrieval_truck_finished_ride": 0,
+        "q304_car_retrieval_truck_reached_inner": 0,
+        "q304_car_retrieval_van_reached_inner": 0,
+        "q304_car_retrival_on_top_of_truck": 0,
+        "q304_first_track_at_the_end_of_spline": 0,
+        "q304_retrofix_56524_on": 0,
+        "PTFRS22_Q304_Issued": 0,
+        "holo_setup_active": 0,
+        "holo_setup_started": 0,
+        "holo_interrupt_call": 0,
+        "holo_active_call_interrupted": 0,
+        "holo_reset": 0,
+        "holo_force_reset": 0,
+        "holo_reset_soft": 0,
+        "holo_interrupt_call_manual": 0,
+        "holo_interrupt_braindance": 0
+      },
+      "fact_ranges": {},
+      "journals": [
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval",
+          "class": "gameJournalQuest",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval",
+          "class": "gameJournalQuestPhase",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/01_reach_the_door",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/02_use_the_panel_in_the_security_room_to_open_the_shutter",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/03_get_to_the_car",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/04_get_into_the_car",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/05_connect_to_the_cars_onboard_computer_and_wipe_the_memory",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/02_find_a_way_in",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/01_reach_the_door1",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/07_escape_with_the_car",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/01_answer_to_ashlay_message",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/03_wait_until_ashlay_opens_the_door",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/04_dont_kill_or_alert_anyone",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/01_wait_for_ashlay_message",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/08_play_along",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/05_clear_the_area",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/09_go_back_to_the_car",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/01_answer_to_ashlay_message2",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/01_car_retrieval/05_clear_the_area_retro",
+          "class": "gameJournalQuestObjective",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/quests/minor_quest/q304_car_retrieval/description",
+          "class": "gameJournalQuestDescription",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval",
+          "class": "gameJournalPhoneConversation",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/m1_1",
+          "class": "gameJournalPhoneChoiceGroup",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/m1_1/m1_a1",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/m1_1/m1_a2",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message2",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message3",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message1",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message2_answer",
+          "class": "gameJournalPhoneChoiceGroup",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message2_answer/m2_a1",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message2_answer/m2_a2",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message3_answer",
+          "class": "gameJournalPhoneChoiceGroup",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message3_answer/m3_a1",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message3_answer/m3_a2",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message4",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message4_answer",
+          "class": "gameJournalPhoneChoiceGroup",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message4_answer/m4_a1",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message4_answer/m4_a2",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message5",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message6",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message7",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message2b",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message3b",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message4b",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message_elevator",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message_truck",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message_truck_congrats",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message7_answer",
+          "class": "gameJournalPhoneChoiceGroup",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message7_answer/m7_a1",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message7_answer/m7_a2",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message_car_escape",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message_car_chase",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message_elevator_answer",
+          "class": "gameJournalPhoneChoiceGroup",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message_elevator_answer/m_e_1",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message_elevator_answer/m_e_2",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message3_part2",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message3b_part2",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message4_part2",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message4b_part2",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message6_part2",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message6_answer",
+          "class": "gameJournalPhoneChoiceGroup",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message6_answer/m6_a1",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message6_answer/m6_a2",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message6_part3",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message_elevator_part2",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message_elevator_part3",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message_elevator_part4",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message_elevator_part5",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message_spotted",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message_purgedata",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message7_part2",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message7_part3",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message_blocked",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message4_part3",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message4_part4",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message4b_part3",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message4b_part4",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message5_part2",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message_almost_there",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message_disappointed",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message_snake",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message1_part2",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message6_part4",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message_elevator_part2b",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message_truck_part2",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message_4_0",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message_purgedata_answer",
+          "class": "gameJournalPhoneChoiceGroup",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message_purgedata_answer/m_purgedata_1",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message_purgedata_answer/m_purgedata_2",
+          "class": "gameJournalPhoneChoiceEntry",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message_left_behind",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message_blocked2",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        },
+        {
+          "path": "ep1/contacts/dan_taylor/q304_car_retrieval/message6b",
+          "class": "gameJournalPhoneMessage",
+          "states": [
+            1
+          ]
+        }
+      ],
+      "reactivate_paths": [],
+      "native_only_guards": [
+        "NOT VehicleAvailable(SpecificVehicle Vehicle.v_sport1_quadra_sport_r7_netrunner); stock reward at main node291."
+      ],
+      "native_main": "ep1\\quest\\main_quests\\q304\\phases\\q304_car_retrieval.questphase",
+      "native_dependencies": [
+        "ep1\\quest\\main_quests\\q304\\phases\\q304_car_retrieval.questphase",
+        "ep1\\quest\\main_quests\\q304\\phases\\subphases\\q304_car_retrieval_inner_garage.questphase",
+        "ep1\\quest\\main_quests\\q304\\scenes\\q304_car_retrieval_truck_stop.scene",
+        "ep1\\quest\\main_quests\\q304\\phases\\subphases\\q304_car_retrieval_outer_garage.questphase",
+        "ep1\\quest\\main_quests\\q304\\phases\\combat_phases\\q304_car_retrieval_cmbt_outer.questphase",
+        "ep1\\quest\\main_quests\\q304\\phases\\subphases\\q304_car_retrieval_loading_area.questphase",
+        "ep1\\quest\\main_quests\\q304\\phases\\subphases\\q304_car_retrieval_messages.questphase",
+        "ep1\\quest\\main_quests\\q304\\phases\\combat_phases\\q304_car_retrieval_cmbt_inner.questphase",
+        "ep1\\quest\\main_quests\\q304\\scenes\\q304_09d_reed_escape_combat.scene",
+        "ep1\\quest\\main_quests\\q304\\phases\\combat_phases\\q304_car_retrieval_cmbt_loading.questphase",
+        "ep1\\quest\\main_quests\\q304\\scenes\\q304_car_retrieval_purge_data.scene"
+      ],
+      "phone_dependencies": [
+        "native SMS journals; no new holo controller"
+      ],
+      "old_owner_guards": {
+        "PTFRS22_Q304_Issued": 0
+      },
+      "contact": "ep1/contacts/dan_taylor",
+      "route": "Original native parent gate and entry; all stock gameplay, calls, timing, choices, rewards and cleanup retained. No direct journal or native progress reset.",
+      "vehicle_not_available": "Vehicle.v_sport1_quadra_sport_r7_netrunner",
+      "parent_slice": {
+        "source": "ep1\\quest\\ep1_persistent_content.questphase",
+        "graph": "root/30",
+        "ids": [
+          6
+        ],
+        "entry": 6,
+        "socket": "In1"
+      }
+    }
+  ],
+  "source_pins": {
+    "research/sidejobs_s24/ep1/native_02/json/base/journal/cooked_journal.journal.json": "FA206F673EEDE247A1B94A7320223E70839C1963FADE17F0C66533EC1CC11DA2",
+    "research/sidejobs_s24/ep1/native_02/raw/base/journal/cooked_journal.journal": "55B6E39E338A1B3C116AF074B00CFB9D5745F7D495F59541F8EA49D0B182832B",
+    "research/sidejobs_s24/ep1/native_02/json/ep1/journal/cooked_journal.journal.json": "55355A4A5313CA864FAF7EF0E12A74C54C2208EA3B43B3060A83BB1BBEA9FE5C",
+    "research/sidejobs_s24/ep1/native_02/raw/ep1/journal/cooked_journal.journal": "1B85CF3D05431C628A03A4D5824FA2D052C48034147550EA0720DF977F4AA7D3"
+  },
+  "policy": "New routes only restore R4-whitelisted unstarted jobs. All previous owners/progress unchanged. Current post-Tower evidence is not certified pre-Tower history. Runtime checks must resolve every journal; unknown defers.",
+  "audit": [
+    {
+      "id": "mq305_combat_zone_report",
+      "fresh_facts": 134,
+      "fresh_journals": 70,
+      "native_dependencies": 26,
+      "contact": null,
+      "unsupported": "Any Active/Failed/Succeeded root, non-Inactive descendant, nonzero progress, used prior owner or unknown journal defers. Existing partial owners remain untouched."
+    },
+    {
+      "id": "mq306_dumpster",
+      "fresh_facts": 67,
+      "fresh_journals": 87,
+      "native_dependencies": 12,
+      "contact": "contacts/trainer_fred",
+      "unsupported": "Any Active/Failed/Succeeded root, non-Inactive descendant, nonzero progress, used prior owner or unknown journal defers. Existing partial owners remain untouched."
+    },
+    {
+      "id": "q304_car_retrieval",
+      "fresh_facts": 30,
+      "fresh_journals": 91,
+      "native_dependencies": 11,
+      "contact": "ep1/contacts/dan_taylor",
+      "unsupported": "Any Active/Failed/Succeeded root, non-Inactive descendant, nonzero progress, used prior owner or unknown journal defers. Existing partial owners remain untouched."
+    }
+  ]
+}

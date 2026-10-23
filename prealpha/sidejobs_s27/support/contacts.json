@@ -1,0 +1,22 @@
+{
+  "contacts": [
+    {
+      "name": "MAMA", "folder": "mama_welles", "init": 67, "condition": 456, "cleanup": 324,
+      "input": "In30", "output": "Out30", "job": "sq018_jackie",
+      "sources": [
+        "research/sidejobs_s27/heroes/native_01/raw/base/quest/holocalls/mama_welles/mama_welles_holocall.questphase",
+        "research/sidejobs_s27/heroes/native_01/raw/base/quest/holocalls/mama_welles/mamma_welles_cleanup.questphase",
+        "research/sidejobs_s27/heroes/native_01/raw/base/quest/holocalls/mama_welles/mama_welles_holocall.scene"
+      ]
+    },
+    {
+      "name": "CLAIRE", "folder": "claire", "init": 46, "condition": 433, "cleanup": 297,
+      "input": "In7", "output": "Out7", "job": "07_nc_underground",
+      "sources": [
+        "research/sidejobs_s25/families/native_02/raw/base/quest/holocalls/claire/claire_holocall.questphase",
+        "research/sidejobs_s25/families/native_03/raw/base/quest/holocalls/claire/claire_cleanup.questphase",
+        "research/sidejobs_s25/families/native_03/raw/base/quest/holocalls/claire/claire_holocall.scene"
+      ]
+    }
+  ]
+}

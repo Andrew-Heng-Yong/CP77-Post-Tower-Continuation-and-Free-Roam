@@ -1,0 +1,345 @@
+// Candidate journal reconciliation. Explicit request only until live validation.
+// All gameplay changes use the native JournalManager API; no quest/fact writes.
+public class PTFRTowerJournalRow extends IScriptable {
+  public let path: String;
+  public let className: String;
+  public let parentPath: String;
+  public let id: String;
+  public let mutable: Bool;
+  public let entry: wref<JournalEntry>;
+  public let before: gameJournalEntryState;
+}
+
+public class PTFRTowerJournalCleanup extends IScriptable {
+  private let rows: array<ref<PTFRTowerJournalRow>>;
+  private let player: wref<PlayerPuppet>;
+  private let prepared: Bool;
+  private let attempted: Bool;
+  private let running: Bool;
+  private let index: Int32;
+  private let waiting: Int32;
+  private let ticks: Int32;
+  private let status: String;
+  private let events: array<String>;
+  private let trackedBefore: Int32;
+
+  public final func GetStatus() -> String { return this.status; }
+  public final func Cancel() -> Void { this.running = false; this.prepared = false; }
+  public final func DrainEvents() -> array<String> {
+    let result = this.events; ArrayClear(this.events); return result;
+  }
+  private final func Record(value: String) -> Void {
+    if ArraySize(this.events) < 128 { ArrayPush(this.events, value); }
+  }
+  private final func Row(j: ref<JournalManager>, path: String, className: String, parent: String, id: String, mutable: Bool) -> ref<PTFRTowerJournalRow> {
+    let r = new PTFRTowerJournalRow();
+    r.path = path; r.className = className; r.parentPath = parent; r.id = id; r.mutable = mutable;
+    r.entry = j.GetEntryByString(path,className);
+    if IsDefined(r.entry) { r.before = j.GetEntryState(r.entry); }
+    return r;
+  }
+  private final func Build(j: ref<JournalManager>) -> array<ref<PTFRTowerJournalRow>> {
+    let result: array<ref<PTFRTowerJournalRow>>;
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow","gameJournalQuest","","q307_tomorrow",true));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride","gameJournalQuestPhase","ep1/quests/main_quest/q307_tomorrow","01_hospital_cabride",true));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/01_talk_reed","gameJournalQuestObjective","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride","01_talk_reed",true));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/01_talk_reed/reed","gameJournalQuestMapPin","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/01_talk_reed","reed",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/01_talk_reed/tomorrow_post_op_desc","gameJournalQuestDescription","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/01_talk_reed","tomorrow_post_op_desc",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/01_talk_reed/codex_link_reed","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/01_talk_reed","codex_link_reed",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/01_talk_reed/codex_link_fia","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/01_talk_reed","codex_link_fia",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/01_talk_reed/codex_link_songbird","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/01_talk_reed","codex_link_songbird",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/01_talk_reed/codex_link_nusa","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/01_talk_reed","codex_link_nusa",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/02_go_chair","gameJournalQuestObjective","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride","02_go_chair",true));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/02_go_chair/window","gameJournalQuestMapPin","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/02_go_chair","window",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/02_go_chair/codex_link_reed","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/02_go_chair","codex_link_reed",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/02_go_chair/codex_link_fia","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/02_go_chair","codex_link_fia",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/02_go_chair/codex_link_songbird","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/02_go_chair","codex_link_songbird",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/02_go_chair/codex_link_nusa","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/02_go_chair","codex_link_nusa",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/03_call_friends","gameJournalQuestObjective","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride","03_call_friends",true));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/03_call_friends/codex_link_fia","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/03_call_friends","codex_link_fia",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/03_call_friends/codex_link_nusa","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/03_call_friends","codex_link_nusa",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/04_talk_delamain","gameJournalQuestObjective","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride","04_talk_delamain",true));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/04_talk_delamain/codex_link_viktor","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/04_talk_delamain","codex_link_viktor",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/04_talk_delamain/codex_link_delamain","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/04_talk_delamain","codex_link_delamain",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/04_talk_delamain/codex_link_corporations","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/04_talk_delamain","codex_link_corporations",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/05_meet_viktor","gameJournalQuestObjective","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride","05_meet_viktor",true));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/05_meet_viktor/viktor_place","gameJournalQuestMapPin","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/05_meet_viktor","viktor_place",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/05_meet_viktor/viktor_entry","gameJournalQuestMapPin","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/05_meet_viktor","viktor_entry",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/05_meet_viktor/codex_link_viktor","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/05_meet_viktor","codex_link_viktor",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/05_meet_viktor/codex_link_corporations","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/05_meet_viktor","codex_link_corporations",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/04_call_receptionist","gameJournalQuestObjective","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride","04_call_receptionist",true));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/04_call_receptionist/terminal","gameJournalQuestMapPin","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/04_call_receptionist","terminal",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/04_call_receptionist/codex_link_viktor","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/04_call_receptionist","codex_link_viktor",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/04_call_receptionist/codex_link_fia","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/04_call_receptionist","codex_link_fia",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/04_call_receptionist/codex_link_nusa","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/04_call_receptionist","codex_link_nusa",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/05_wait_pickup","gameJournalQuestObjective","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride","05_wait_pickup",true));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/05_wait_pickup/codex_link_viktor","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/05_wait_pickup","codex_link_viktor",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/03b_call_more_friends","gameJournalQuestObjective","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride","03b_call_more_friends",true));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/03b_call_more_friends/codex_link_viktor","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/03b_call_more_friends","codex_link_viktor",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/03b_call_more_friends/codex_link_fia","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/03b_call_more_friends","codex_link_fia",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/03b_call_more_friends/codex_link_nusa","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/03b_call_more_friends","codex_link_nusa",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/06a_listen_radio","gameJournalQuestObjective","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride","06a_listen_radio",true));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/06a_listen_radio/codex_link_viktor","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/06a_listen_radio","codex_link_viktor",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/06a_listen_radio/codex_link_delamain","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/06a_listen_radio","codex_link_delamain",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/06a_listen_radio/codex_link_corporations","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/06a_listen_radio","codex_link_corporations",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/06b_leave_delamain","gameJournalQuestObjective","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride","06b_leave_delamain",true));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/06b_leave_delamain/codex_link_viktor","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/06b_leave_delamain","codex_link_viktor",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/06b_leave_delamain/codex_link_delamain","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/06b_leave_delamain","codex_link_delamain",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/06b_leave_delamain/codex_link_corporations","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/06b_leave_delamain","codex_link_corporations",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/02a_get_up","gameJournalQuestObjective","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride","02a_get_up",true));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/02a_get_up/codex_link_reed","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/02a_get_up","codex_link_reed",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/02a_get_up/codex_link_fia","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/02a_get_up","codex_link_fia",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/02a_get_up/codex_link_songbird","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/02a_get_up","codex_link_songbird",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/02a_get_up/codex_link_nusa","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/01_hospital_cabride/02a_get_up","codex_link_nusa",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/02_mistys_alley","gameJournalQuestPhase","ep1/quests/main_quest/q307_tomorrow","02_mistys_alley",true));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/01_talk_viktor","gameJournalQuestObjective","ep1/quests/main_quest/q307_tomorrow/02_mistys_alley","01_talk_viktor",true));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/01_talk_viktor/viktor","gameJournalQuestMapPin","ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/01_talk_viktor","viktor",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/01_talk_viktor/codex_link_viktor","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/01_talk_viktor","codex_link_viktor",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/01_talk_viktor/codex_link_corporations","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/01_talk_viktor","codex_link_corporations",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/02_leave_viktor","gameJournalQuestObjective","ep1/quests/main_quest/q307_tomorrow/02_mistys_alley","02_leave_viktor",true));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/02_leave_viktor/viktor_exit","gameJournalQuestMapPin","ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/02_leave_viktor","viktor_exit",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/02_leave_viktor/codex_link_viktor","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/02_leave_viktor","codex_link_viktor",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/02_leave_viktor/codex_link_corporations","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/02_leave_viktor","codex_link_corporations",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/03_return_delamain","gameJournalQuestObjective","ep1/quests/main_quest/q307_tomorrow/02_mistys_alley","03_return_delamain",true));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/03_return_delamain/corridor","gameJournalQuestMapPin","ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/03_return_delamain","corridor",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/03_return_delamain/codex_link_delamain","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/03_return_delamain","codex_link_delamain",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/03_return_delamain/codex_link_corporations","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/03_return_delamain","codex_link_corporations",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/04_talk_misty","gameJournalQuestObjective","ep1/quests/main_quest/q307_tomorrow/02_mistys_alley","04_talk_misty",true));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/04_talk_misty/misty","gameJournalQuestMapPin","ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/04_talk_misty","misty",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/04_talk_misty/codex_link_misty","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/04_talk_misty","codex_link_misty",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/04_talk_misty/codex_link_corporations","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/04_talk_misty","codex_link_corporations",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/05_take_walk","gameJournalQuestObjective","ep1/quests/main_quest/q307_tomorrow/02_mistys_alley","05_take_walk",true));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/05_take_walk/misty","gameJournalQuestMapPin","ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/05_take_walk","misty",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/05_take_walk/codex_link_misty","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/05_take_walk","codex_link_misty",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/05_take_walk/codex_link_corporations","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/05_take_walk","codex_link_corporations",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/01b_sit_viktor","gameJournalQuestObjective","ep1/quests/main_quest/q307_tomorrow/02_mistys_alley","01b_sit_viktor",true));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/01b_sit_viktor/ripperdoc_chair","gameJournalQuestMapPin","ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/01b_sit_viktor","ripperdoc_chair",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/01b_sit_viktor/codex_link_viktor","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/01b_sit_viktor","codex_link_viktor",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/01b_sit_viktor/codex_link_corporations","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/01b_sit_viktor","codex_link_corporations",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/03a_deal_thugs","gameJournalQuestObjective","ep1/quests/main_quest/q307_tomorrow/02_mistys_alley","03a_deal_thugs",true));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/03a_deal_thugs/thug","gameJournalQuestMapPin","ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/03a_deal_thugs","thug",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/03a_deal_thugs/codex_link_corporations","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/03a_deal_thugs","codex_link_corporations",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/00_talk_zetatech","gameJournalQuestObjective","ep1/quests/main_quest/q307_tomorrow/02_mistys_alley","00_talk_zetatech",true));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/00_talk_zetatech/zetatech_clerk","gameJournalQuestMapPin","ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/00_talk_zetatech","zetatech_clerk",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/00_talk_zetatech/codex_link_viktor","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/00_talk_zetatech","codex_link_viktor",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/00_talk_zetatech/codex_link_corporations","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/00_talk_zetatech","codex_link_corporations",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/03b_wait_help","gameJournalQuestObjective","ep1/quests/main_quest/q307_tomorrow/02_mistys_alley","03b_wait_help",true));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/03b_wait_help/codex_link_corporations","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow/02_mistys_alley/03b_wait_help","codex_link_corporations",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/fluff_shard_01","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow","fluff_shard_01",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/fluff_shard_02","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow","fluff_shard_02",false));
+    ArrayPush(result,this.Row(j,"ep1/quests/main_quest/q307_tomorrow/fluff_shard_03","gameJournalQuestCodexLink","ep1/quests/main_quest/q307_tomorrow","fluff_shard_03",false));
+    return result;
+  }
+  private final func Ready(p: ref<PlayerPuppet>) -> Bool {
+    if !IsDefined(p) { return false; }
+    let g = p.GetGame();
+    if GameInstance.GetPlayerSystem(g).GetLocalPlayerMainGameObject() != p { return false; }
+    let q = GameInstance.GetQuestsSystem(g);
+    if !IsDefined(q) { return false; }
+    if q.GetFact(n"PostTowerFreeRoamActive") != 1 { return false; }
+    if q.GetFact(n"PTFRP0_DR13") != 1 { return false; }
+    if q.GetFact(n"q307_active") != 0 { return false; }
+    if q.GetFact(n"q307_done") != 1 { return false; }
+    if q.GetFact(n"q307_finished") != 1 { return false; }
+    if q.GetFact(n"q307_2079") != 1 { return false; }
+    if q.GetFact(n"q307_main_game_killed") != 1 { return false; }
+    if q.GetFact(n"q307_ep1_killed") != 1 { return false; }
+    if q.GetFact(n"q305_johnny_scene_active") != 0 { return false; }
+    if q.GetFact(n"q115_point_of_no_return") != 0 { return false; }
+    if q.GetFact(n"PTFRBASE_Suspended") != 0 { return false; }
+    if q.GetFact(n"PTFRTJ_Suspended") != 0 { return false; }
+    let s = GameInstance.GetSceneSystem(g).GetScriptInterface();
+    let ws = GameInstance.GetWorkspotSystem(g);
+    if !IsDefined(s) || !IsDefined(ws) || p.IsInCombat() { return false; }
+    if s.IsEntityInScene(p.GetEntityID()) || ws.IsActorInWorkspot(p) { return false; }
+    let mount = GameInstance.GetMountingFacility(g).GetMountingInfoSingleWithObjects(p);
+    if EntityID.IsDefined(mount.parentId) { return false; }
+    if GameInstance.GetQuestsContentSystem(g).IsTokensActivationBlocked() { return false; }
+    let locks: array<gameSaveLock>;
+    if GameInstance.IsSavingLocked(g,locks) { return false; }
+    let j = GameInstance.GetJournalManager(g);
+    return IsDefined(j) && !j.HasAnyDelayedStateChanges();
+  }
+  private final func Validate(j: ref<JournalManager>, rows: array<ref<PTFRTowerJournalRow>>) -> Bool {
+    let all: JournalRequestStateFilter;
+    all.inactive = true; all.active = true; all.succeeded = true; all.failed = true;
+    let children: array<wref<JournalEntry>>;
+    let i = 0;
+    let k: Int32;
+    let expected: Int32;
+    let found: Bool;
+    if ArraySize(rows) != 88 { return false; }
+    while i < ArraySize(rows) {
+      if !IsDefined(rows[i].entry) || NotEquals(rows[i].entry.GetId(), rows[i].id) { return false; }
+      if rows[i].mutable && Equals(j.GetEntryState(rows[i].entry),gameJournalEntryState.Undefined) { return false; }
+      if i > 0 {
+        found = false; k = 0;
+        while k < i {
+          if Equals(rows[k].path,rows[i].parentPath) {
+            if j.GetParentEntry(rows[i].entry) != rows[k].entry { return false; }
+            found = true;
+          }
+          k += 1;
+        }
+        if !found { return false; }
+      }
+      if IsDefined(rows[i].entry as JournalContainerEntry) {
+        expected = 0; k = i + 1;
+        while k < ArraySize(rows) {
+          if Equals(rows[k].parentPath,rows[i].path) { expected += 1; }
+          k += 1;
+        }
+        ArrayClear(children); j.GetChildren(rows[i].entry,all,children);
+        if ArraySize(children) != expected { return false; }
+        // Every expected child was independently resolved and parent-checked.
+      }
+      i += 1;
+    }
+    return j.GetEntryHash(rows[0].entry) == -984135344;
+  }
+  private final func TrackedHash(j: ref<JournalManager>) -> Int32 {
+    let e = j.GetTrackedEntry(); return IsDefined(e) ? j.GetEntryHash(e) : 0;
+  }
+  private final func TowerTracked(j: ref<JournalManager>) -> Bool {
+    let e = j.GetTrackedEntry(); let i = 0;
+    while IsDefined(e) && i < 8 {
+      if j.GetEntryHash(e) == -984135344 { return true; }
+      e = j.GetParentEntry(e); i += 1;
+    }
+    return false;
+  }
+  public final func Read(p: ref<PlayerPuppet>) -> array<String> {
+    let result: array<String>;
+    if !IsDefined(p) { ArrayPush(result,"ERROR|player absent"); return result; }
+    let j = GameInstance.GetJournalManager(p.GetGame());
+    if !IsDefined(j) { ArrayPush(result,"ERROR|journal unavailable"); return result; }
+    let current = this.Build(j); let i = 0;
+    ArrayPush(result,"VALID|" + ToString(this.Validate(j,current)));
+    ArrayPush(result,"SAFE|" + ToString(this.Ready(p)));
+    ArrayPush(result,"TRACK|" + ToString(this.TrackedHash(j)) + "|" + ToString(this.TowerTracked(j)));
+    while i < ArraySize(current) {
+      if !IsDefined(current[i].entry) { ArrayPush(result,"ERROR|" + current[i].path); }
+      else {
+        ArrayPush(result,current[i].path + "|" + current[i].className + "|" + ToString(EnumInt(j.GetEntryState(current[i].entry))) + "|" + ToString(j.GetEntryHash(current[i].entry)));
+      }
+      i += 1;
+    }
+    return result;
+  }
+  public final func ReadOtherQuests(p: ref<PlayerPuppet>) -> array<String> {
+    let result: array<String>;
+    if !IsDefined(p) { return result; }
+    let j = GameInstance.GetJournalManager(p.GetGame());
+    if !IsDefined(j) { return result; }
+    let context: JournalRequestContext;
+    context.stateFilter.inactive = true; context.stateFilter.active = true;
+    context.stateFilter.succeeded = true; context.stateFilter.failed = true;
+    let quests: array<wref<JournalEntry>>;
+    j.GetQuests(context,quests);
+    let i = 0;
+    while i < ArraySize(quests) {
+      if IsDefined(quests[i]) && j.GetEntryHash(quests[i]) != -984135344 {
+        ArrayPush(result,ToString(j.GetEntryHash(quests[i])) + "|" + ToString(EnumInt(j.GetEntryState(quests[i]))));
+      }
+      i += 1;
+    }
+    return result;
+  }
+  public final func Prepare(p: ref<PlayerPuppet>) -> String {
+    this.prepared = false;
+    if this.attempted { return "ALREADY_ATTEMPTED"; }
+    if !this.Ready(p) { this.status = "NOT_READY"; return this.status; }
+    let j = GameInstance.GetJournalManager(p.GetGame());
+    this.rows = this.Build(j);
+    if !this.Validate(j,this.rows) { this.status = "HIERARCHY_MISMATCH"; return this.status; }
+    let rootState = j.GetEntryState(this.rows[0].entry);
+    if NotEquals(rootState, gameJournalEntryState.Active) && NotEquals(rootState, gameJournalEntryState.Succeeded) {
+      this.status = "ROOT_STATE_REFUSED"; return this.status;
+    }
+    // A Failed parent contradicts the completed-Tower history being reconciled.
+    let i = 0;
+    while i < ArraySize(this.rows) {
+      if Equals(this.rows[i].className,"gameJournalQuestPhase") && Equals(this.rows[i].before,gameJournalEntryState.Failed) {
+        this.status = "FAILED_PHASE_REFUSED"; return this.status;
+      }
+      i += 1;
+    }
+    this.player = p; this.trackedBefore = this.TrackedHash(j); this.prepared = true;
+    this.status = "PREPARED"; return this.status;
+  }
+  public final func Apply(p: ref<PlayerPuppet>) -> String {
+    if this.attempted { return "ALREADY_ATTEMPTED"; }
+    if !this.prepared || p != this.player || !this.Ready(p) { return "NOT_PREPARED_OR_NOT_READY"; }
+    let j = GameInstance.GetJournalManager(p.GetGame());
+    if !this.Validate(j,this.rows) || this.TrackedHash(j) != this.trackedBefore { return "BASELINE_CHANGED"; }
+    let i = 0;
+    while i < ArraySize(this.rows) {
+      if NotEquals(j.GetEntryState(this.rows[i].entry), this.rows[i].before) { return "BASELINE_CHANGED"; }
+      i += 1;
+    }
+    this.attempted = true; this.prepared = false; this.running = true;
+    this.index = ArraySize(this.rows)-1; this.waiting = -1; this.ticks = 0;
+    this.status = "REQUESTED"; this.Schedule(); return this.status;
+  }
+  private final func Schedule() -> Void {
+    GameInstance.GetDelaySystem(this.player.GetGame()).DelayCallback(PTFRTowerJournalStep.Create(this),0.2,false);
+  }
+  private final func Stop(reason: String) -> Void {
+    this.running = false; this.status = reason; this.Record(reason);
+  }
+  public final func Advance() -> Void {
+    if !this.running { return; }
+    this.ticks += 1;
+    if this.ticks > 150 { this.Stop("PARTIAL_TIMEOUT_NO_RETRY"); return; }
+    if !IsDefined(this.player) { this.Stop("PLAYER_DETACHED"); return; }
+    let j = GameInstance.GetJournalManager(this.player.GetGame());
+    // Delay queue readiness is allowed to settle, without issuing a second write.
+    if IsDefined(j) && j.HasAnyDelayedStateChanges() { this.Schedule(); return; }
+    if !this.Ready(this.player) { this.Stop("GUARD_CHANGED_NO_RETRY"); return; }
+    let i = 0; let state: gameJournalEntryState;
+    while i < ArraySize(this.rows) {
+      if this.rows[i].mutable {
+        state = j.GetEntryState(this.rows[i].entry);
+        if NotEquals(this.rows[i].before, gameJournalEntryState.Active) && NotEquals(state, this.rows[i].before) {
+          this.Stop("INACTIVE_FAILED_OR_COMPLETE_STATE_CHANGED"); return;
+        }
+        if Equals(this.rows[i].before,gameJournalEntryState.Active) && NotEquals(state, gameJournalEntryState.Active) && NotEquals(state, gameJournalEntryState.Succeeded) {
+          this.Stop("UNEXPECTED_ACTIVE_STATE_CHANGE"); return;
+        }
+      }
+      i += 1;
+    }
+    if this.waiting >= 0 {
+      if NotEquals(j.GetEntryState(this.rows[this.waiting].entry), gameJournalEntryState.Succeeded) { this.Schedule(); return; }
+      this.Record("CONFIRMED|" + this.rows[this.waiting].path); this.waiting = -1;
+    }
+    while this.index >= 0 {
+      i = this.index; this.index -= 1;
+      if this.rows[i].mutable && Equals(j.GetEntryState(this.rows[i].entry),gameJournalEntryState.Active) {
+        // Children appear after parents in the manifest; reverse order is bottom-up.
+        this.waiting = i;
+        this.Record("REQUEST|" + this.rows[i].path);
+        let accepted = j.ChangeEntryState(this.rows[i].path,this.rows[i].className,gameJournalEntryState.Succeeded,JournalNotifyOption.DoNotNotify);
+        this.Record("RETURN|" + ToString(accepted)); this.Schedule(); return;
+      }
+    }
+    if NotEquals(j.GetEntryState(this.rows[0].entry), gameJournalEntryState.Succeeded) { this.Stop("ROOT_NOT_SUCCEEDED"); return; }
+    i = 0;
+    while i < ArraySize(this.rows) {
+      if this.rows[i].mutable && Equals(j.GetEntryState(this.rows[i].entry),gameJournalEntryState.Active) { this.Stop("ACTIVE_RESIDUE_REMAINS"); return; }
+      i += 1;
+    }
+    if this.TowerTracked(j) {
+      this.Record("UNTRACK|" + ToString(this.TrackedHash(j))); j.UntrackEntry();
+      if this.TowerTracked(j) { this.Stop("TRACKING_REMAINS"); return; }
+    }
+    this.Stop("VERIFIED_JOURNAL_STATE");
+  }
+}
+public class PTFRTowerJournalStep extends DelayCallback {
+  private let cleanup: wref<PTFRTowerJournalCleanup>;
+  public func Call() -> Void { if IsDefined(this.cleanup) { this.cleanup.Advance(); } }
+  public static func Create(cleanup: ref<PTFRTowerJournalCleanup>) -> ref<PTFRTowerJournalStep> {
+    let callback = new PTFRTowerJournalStep(); callback.cleanup = cleanup; return callback;
+  }
+}
