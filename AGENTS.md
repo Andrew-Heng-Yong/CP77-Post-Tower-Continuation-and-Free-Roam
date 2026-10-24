@@ -1,5 +1,508 @@
 # AGENTS.md — Post-Tower Free Roam / Tower Continuation Mod
 
+Latest2026-10-24 H4 PURCHASE GUARD REPAIR INSTALLED; LIVE PENDING:
+USER H3forsaleiconvisible, stillnopurchaseinteraction. FreshH3logs 18:44-18:59
+repeateddoor=true entrance=true released=true nativeUI=true popup=false,
+high=1 tier=1 scene=true dialogue=false combat=false. No purchaseconfirmation
+request. OriginalHousingState.SafeActor rejectsIsEntityInScene, soCanPurchase
+neverallowsH10offer eveninfreecontrol. ThisisOBSERVEDFIRSTblocker; otherlater
+gatesNOTruledout. H4changesONLYHousingState.reds; newPurchaseSafeActor duplicates
+alloriginalSafeActorchecks EXCEPTambientIsEntityInScene. CanPurchase+readonly
+PurchaseBlockH3 usenewguard; MigrationContextretainsoriginalSafeActor.
+OriginalcompiledPurchase/singledebit/receipt/entitlement/reconcile/publish/
+saved-schema unchanged. H3popup/icon/H2lock+insideegress/services/Wilson,
+allframeworks/archivesunchanged. Noautomaticdebit, refund, reset, save/factedit.
+InstalledStateSHA9E05BA53C51C0614CF167EDAF75D529CDAECA2FF4D1FEC93C725A4D19B91336B.
+Full90sourceSCCinclEquipmentEX PASS compiledSHA
+528E0F1BC7A23A6F7CA13BECDC7108C9D8309CCB76FDC65AD3B740B801B1ED78.
+33code/readback+265savechecksPASS;14realinstallerfixtureactionsPASS. Validate/
+Install/Verify/ValidateRollbackPASS;672protectedincl265savefilesunchanged.
+Auto15copy/hashverified recovery/h10_h4_diagnosis_01; originalunchanged.
+Noassistantlaunch/manualfacts/publicrelease. ManifestSHA
+6304F826E3C68BC040B06F723FC28E8EEF1B3CE0D19C81F4BC213B9F94D4501A.
+Assessment prealpha/h10_h4/candidate_01/assessment_01.json;finalsources/
+proofsPINNED,usesuccessors. RecoveryH4FIRST beforeH3/H2/older:
+prealpha/h10_h4/deploy_01.ps1 -Action ValidateRollback/Rollback,backup
+recovery/h10_h4_01. FileundoNOTsaveundo. NEXTcoldloadpostTower fixture,
+approachH10privateaptdoor, expectnativeYesNo25000,cancel/reapproach,
+onecharge/ownedicon/door/services/reload. LIVEPENDING. docs/h10_h4.md.
+
+Latest2026-10-24 H3 H10 NATIVE PURCHASE CONFIRMATION/MAP ICON INSTALLED:
+USER H2doorlocked/nooffer; requests purchasableinsteadownedH10icon. ClosedH2
+session normalshutdown18:26:41; doorresolved18:20:20 interiorDistance-9.245326,
+NOofferlog. ExactblockerNOTisolated; pivotrange/custompopup/playerguardcandidates.
+H3 nativeDoortrigger/SideOne/SideTwo overlapORold3.5m fallback; rearmoutsideall
+volumesAND5m. Exactdoor/localplayerbindingretained. H10nowGenericMessage native
+YesNo25000 viaPopupsManager lifecycle; token/serialconsumedbeforeexistingH1
+Purchase. Cancel/OK/stale/duplicatecallbacksnodebit; DLCpopupclassunchanged.
+HousingStateONLYreadonlydiagnosticmethodadded; alloriginalcompiledpayment/
+SafeActor/entitlement/reconcile/publish/schema methodsunchanged. H2unpaidlock,
+insideegress/paid-onlyservices/Wilsonleaseunchanged. Noarchives/frameworkedits.
+OriginaljournalPOI points_of_interest/safehouses/v_room reactivatedforSALE;
+exactjournalhashselectsoriginalmappin; unpaidZzz05_ApartmentToPurchaseVariant,
+paidApartmentVariantfromdurableEntitled. No duplicate/newpins/publicFTchanges.
+TransientcachedIDresetonreload; missscan5ticks; nolargescaneverytickafterfound.
+3files: PurchaseE0AAE026..., State3E1F0FD4..., ADD EntranceH3 5D2021BE....
+Full90sourceSCCinclEquipmentEX PASS; compiledB4A3A91E4D7338E12CFEE2336C207A9A8305F308965CB7917A40C0B05EB1B3AE.
+50code/readback+259savechecks,14actualinstallerfixtureactionsPASS. Validate/
+Install/Verify/ValidateRollbackPASS;659protectedincl259savefilesunchangedduring
+deployment. InitialcaptureprecededUSERAuto14rotation/user.glschange; finalclosed
+baselineused. Auto13/14backedupseparately recovery/h10_h3_diagnosis_01/02; original
+savefilesnotedited. Nolaunch/manualfacts/publicrelease. H3liveUI/purchase/icon/
+services/reloadPENDING; noverifiedrootcauseclaim. Earlierannotationexperiments
+failedCLIonly; nofailedcodeinstalled. Finalcompile_04/tests_01/deployment_tests_01.
+ManifestB752E44C6CAE87F14D8C6322C3CA78373DB350B19E3F5A0258C3B97F1FDD9231.
+Assessment prealpha/h10_h3/candidate_01/assessment_01.json SHA
+AC1CFB513809C4341373785B82ADC5AFFD84E9D5F15E503D84981080E1385D1F.
+Finalsources/proofsPINNED;usesuccessors. RecoveryH3FIRSTbeforeH2/HS1/olderhousing:
+prealpha/h10_h3/deploy_01.ps1 -Action ValidateRollback/Rollback; recovery/h10_h3_01.
+FileundoNOTsaveundo; savedPOIpresentationmaypersist. NEXTcoldloadsamepostTower,
+checkforsaleicon/nativeconfirm/cancel/reapproach/singledebit/ownedicon/services,
+newmanualslot/reload. ReadonlyHousingPurchaseUI.StatusH3(); docs/h10_h3.md.
+
+Latest2026-10-24 H2 H10 DOOR/PURCHASE + WILSON LEASE INSTALLED; LIVE PENDING:
+USER confirms unpaid homes need NOservices; privateH10door MUSTblockentryuntilpaid.
+PriorLC3nowliveReady17:49:09/42.5simsec, normalshutdown17:53:46; loadingloopPASS,
+NOTH2payment/vendorpass. Auto11/12unpaidHousingRecords; all6filesbackedup+hashchecked
+recovery/h10_h2_diagnosis_01. H1intentionallyleftdoorsusable; customaction lacked
+declaredchoice metadata. H2nativePaymetadata+onceperapproachpopup atEXACTh10door,
+25000explicitconfirm, cancelrearmsafter5mexit. Originalsingledebit/receipt/schema
+unchanged; NOunpaidservices. OwnprivateDoorPSlockflagpersistent; open/lock/visual
+routesguardedonlyunpaidexactH10. Outsidecloseswith0.75mthresholdmargin; inside
+saveegressallowed; onlyownlockreleasedafterpayment/egress. Liveforward+bedanchor,
+inactiveprefabfallbackCURRENT2.5nativepoint(-1377.66956,1275.32336,123.554993),
+corrected19bitnode5665/sourcebound; unknowngeometrydefer. No public/liftdoorlock.
+WilsonAuto11/12QuestOwns1/Released1/Near0; Issued/Enteredabsentserialized, runtime
+checksrequired. S23reservedvendorBEFOREnativeparent/contentwait; exactsavedwait
+notdecoded. H2newleaseAFTERparents, sameoriginalIDs/guards/child/rewards; saved
+oldwait1011stillpreparent. Eightnewnodes/fivereroutes; nativeReleased/body-idle
+ackrequired. One-timelegacyreservationreleaseguardedbynewLeaseRequested0,
+Issued/Entered/Finished/Fault0+bodyidle/nativeattention/genuineending guards.
+BaselineNearnowrespectsQuestOwns soordinarybodydrains; noactor/questrestart.
+ONLYmq011privatewrapperchanged,33otherS23resourcesbyteexact; archiveSHA
+7289DF77E4EAE2FE8133C8AF7003E6536CA645C5D696849DD4D50DE68E5AE83B.
+6files:4replace(Devices/Purchase/Baseline/S23archive),2add(DoorH2/WilsonLeaseH2).
+89sourcefullSCCinclEquipmentEX PASS; compiledSHA
+600B092B4A952D1AB2B13FF56570E8BA0CC60BB7CC6B911B515F3D0A257AB804.
+92offlinechecks+14actualinstalleractionsPASS; Validate/Install/Verify/
+ValidateRollbackPASS;653protectedincl259savefilesunchanged. Framework/cosmetic/
+mainarchive/H1archive/HS1unchanged; noassistantlaunch/saveedit/manualfacts/release.
+Finalnative_02/compile_04/tests_02/deployment_tests_01; firstnativebuilder cyclic
+Equals overflow WORKSPACEONLY, successorReferenceEquals PASS. Finalsource/proofs
+pinned;usesuccessors. ManifestC037EC9A47079C974C1E26A6F1F622C62B225591D37FBADA9102A24E2510382B.
+Assessmentprealpha/h10_h2/candidate_01/assessment_01.json SHA
+A2B91550B3F1CFA4552A632467E0C538177CCE214015C8DA497F6726B4FD09E9.
+RecoveryH2FIRSTbeforeLC3ORS23: prealpha/h10_h2/deploy_01.ps1 -Action
+ValidateRollback/Rollback;backup recovery/h10_h2_01;fileundoNOTsaveundo.
+NEXTcoldloadexistingpostendingfixture,canceloffer/lockedentry,reapproachconfirm/
+singlecharge/access/services; insideegress,newmanualsave/reload,WilsonTrade.
+AllH2livebehaviorPENDING; docs/h10_h2.md. Privatecandidates/backupsGitignored.
+
+Latest2026-10-24 LC3 EXIT REMOVAL/10-11 LOOP REPAIR INSTALLED; LIVE PENDING:
+USER removeexitoption, setuposcillates10/11.17:32sessionprofileall27ranks+HP150,
+housing/nativefinishedack,finalchecks41.31simsec;45alternations~1s. Normalshutdown
+17:33:39: passesSC1crashpoint, NOTfullstartup. H1Tick1s CanPurchase->SafeActor
+requires!InScene; PurchaseReady startsV-acquiringscene; Ready0watcherexits;
+nexttickrestart. Oldpurchasedfactadmitsremoteowners. Source-provenfeedbackmatches
+logcadence; oldcombinedcontrolpredicateNOTexactfailingtermliveproof.
+LC3Esc/cancelhint+actionremoved, includingfault/timeouttext. PublicLeave(epoch)
+retainedinertforAPIcompatibility. NativeinputblockerandALLreadinesspredicates+
+1scontinuousstabilityretained. No elapsedbypass/fakeprogress/forcedfacts.
+HousingPurchaseUI offers+Show requireGameplayReleased; offersalsorequireexisting
+exactentrancevalidator.4purchase-scenes playerActorsremoved(unused),1debugsymbol
+eachremoved;all5executablenodes/edgesunchanged. Noactorrefsremain;13otherarchive
+membersbyteexact inclSC1services+savedowners. Payment/ownershipreceiptsunchanged.
+3REPLACEMENTS StartupCoverLC1.reds,HousingPurchase.reds,H1archive SHA
+4D4CB40E745F9508F97F1A2A0F2D09DD02E0AD527BEC1A4D1B874AA647F55208.
+Addedfinalheartbeatarrival.Status/bodySafe/4purchaseactivefacts diagnostics.
+Full87sourceSCCinclEquipmentEXPASS,compiledSHA
+8BFB147CEAE835E16CFF8A2D27EE0EC20583A9BF4A867CBCD455A5075E674069.
+73offlinechecks+14actualinstalleractionsPASS. Validate/Install/Verify/
+ValidateRollbackPASS;647protectedincl253savefilesunchanged. Nolaunch/saveedit/
+manualruntimefacts/framework/mainarchive/cosmetic/publicreleasechanges.
+Evidenceprealpha/loading_cover_lc3/candidate_01/assessment_01.json SHA
+F20FA4A3B729FDD19C16C809910596BC9F5BA667576557C3D2F3017F09D8CE5F;
+manifest4DDCD26E63E6B251137271B7B36B94588AF2D5243DFF4660B68C0844A8210593.
+Finalsources/proofspinned;usesuccessors. candidate_*Gitignored.
+NEXTcoldloadsamefixture,coverrelease/control/noEscaction; newmanualslot+reload.
+Actor-freepurchasechoice/confirm/cancel/paymentLIVEpending; exactcontrolcause
+ifstillblockedloggednow. docs/loading_cover_lc3.md. RecoveryLC3FIRSTbeforeSC1OR
+LC2 (overlapsboth): prealpha/loading_cover_lc3/deploy_01.ps1 -Action
+ValidateRollback/Rollback,backup recovery/loading_cover_lc3_01. FileundoNOTsaveundo.
+
+Latest2026-10-24 SC1 STARTUP CRASH REPAIR INSTALLED; LIVE PENDING:
+USER crashwhilecovervisible41percent5/12. Actual17:07:29dump nativeoverflow:
+410592809 entries*24=9854227416. UnwoundSceneResourcehash831467AE67C510EA
+matchesH1 corpo_purchase.scene. NPCcount0/playercount1 butplayerActorId3;
+native2c9a3c passesID,2c9f30 subtractsNPCcount/indexes176byteentry. Dumpindex3
+readswrongdefinition; actualplayerfacialcount0. Confirmedourprunedsceneindexbug,
+NOTprofile/cover/driverblamefromlastlog. NineH1scenesallnondense:4purchase,
+4services+Kerryearnedservice. Remaplocalactor/typedperformerrefs; remove18stale
+actor-debugsymbols.458IDchanges; nodeIDs/edges/payment/conditions/ownerresources
+preserved; noexcludedNPCrestoration/savedownerreset. OnearchiveREPLACED:
+00000000_TowerContinued_Housing_H1.archive beforeE8F4F535...,after
+76A4DE057573AE13CB698AED6E757454A07D95DBC00A94F9D5F63DA484CBDA07.
+9privatesceneschange,8othermembersbyteexact. Audit89installedTowerscenes:
+9H1fixed; legacy streetkid_seat_s1/seat.scene also nondense, untouched/notcrash,
+reachabilityunverified.1531native/semantic/indexchecks+14actualinstalleractions
+PASS. Validate/Install/Verify/ValidateRollbackPASS;636protectedincl241savefiles
+unchanged. NoREDS/framework/cache/mainarchive/gameplayfact/savewritesorlaunch.
+LC2livepositive:opaqueprogressUI/nativefade/camera/control/BodyReliccomplete;
+HS1verified158row post_ending_fallback JSONexport. NOTpreendinghistory/livefull
+startup/profile/housingpass; fullspeedunmeasured. Samefailedattemptfixturecold
+loadNEXT; newmanualslot+reload afterready. PrioractiveH1scenesavereloadpending.
+Evidenceprealpha/startup_crash_sc1/candidate_01/assessment_01.json SHA
+86428B5CB8D52079FF6F903ED06C08BD07277CF134222EEB1E00B82363C81FDF.
+Manifest4B5413220CD8906FECE5AB4E5C1103E49BDDD464B26568B90D1D0387046EDD54.
+build_02/tests_01/cause_02 final; build_01 missingreadbackdirectoryfailedonly
+workspace; opcodeasserttranscriptioncorrectedbeforePASS. Finalproofspinned,
+usesuccessors. candidate_*Gitignored; no publicrelease. docs/startup_crash_sc1.md.
+RecoverySC1FIRSTbeforeolderH1: prealpha/startup_crash_sc1/deploy_01.ps1 -Action
+ValidateRollback/Rollback; backup recovery/startup_crash_sc1_01. Restoresknown
+defectiveH1indices. CoverrecoverychainLC2->LC1->HS1separate; fileundoNOTsaveundo.
+
+Latest2026-10-24 LC2 STALL REPAIR/PROGRESS INSTALLED; LIVE PENDING:
+USER >2min coverstall, requestslogs/fix/progressbar. 16:30-16:38 sessionnormal
+shutdown; LC1logonlytwo stagechanges, NOTproofsimulationpaused. Actualnative
+180 resetsCoverReady0 then181ONE-SHOTCondition falsehasnoedge; laterUIackcannot
+resume. LC2 changes181sameID toPauseCondition waiter, True->Out successor176;
+allothernodepayloads/615resources/current2.5lighting preserved. Noending/teleport/
+camera/transactionreplay. Nativeinputblockerretained; noaddedpause/tier/status.
+OpaqueUIanimationcompletionack replacesSimTimefirstframe dependency; epoch/
+visibilityguards retained. 12actualcheckpoints progressbar, refundcounterstext,
+100onlyfullbarrier+1simsecondstable. 5engine-secondheartbeats includefacts/wait
+reason+engine/simelapsed. 120engine-secondwarning retainscover/exit; noautounlock.
+SECONDconfirmedblocker: currentenum194 vsold189 validators. Nativebase+EP1audit
+448records,1626existingfieldsmatch; Coolroster37->42,CentralMilestone3prereqgone.
+Bind3catalogues toexactnewdata incl5newCoolrecords, retainnewperks/no newbans.
+Profilepolicy/fingerprint/savedfields/APIs/refundbodiesunchanged. NOsilent189array
+reindex orfaultedtransactionreset. Stuckold181savedownerNOTreplayed: retryretained
+pretransitionorknownpostendingfixture, notnewsavefromfailedcover.
+Installed5REPLACEMENTS: StartupCoverLC1,BodyCatalogue,RelicCatalogue,ProfileDefinition,
+mainarchiveCFB7F613EC15A934B74984B4C26392E7B4B7AC0A38B2C24067C69A395ACF2744.
+Full87sourceSCCinclEquipmentEXPASS; finalcompile_02SHA
+781D4E6272F6F20F1F62E69DE1C0466F2605DFB66D7E6D5CF379D748DB6C25A9.
+1011offlinecompiled/native/cataloguechecks+14actualinstallerfixtureactionsPASS.
+Validate/Install/Verify/ValidateRollbackPASS;625protectedincl235savefilesunchanged.
+Noassistantlaunch/saveedit/manualruntimefacts/framework/cosmetic/publicrelease.
+Finalsource/proofspinnedprealpha/loading_cover_lc2/candidate_01; usesuccessors.
+compile_01pre-shortererrortext; changes_01intermediatecoverhashNOTfinalmanifest.
+Manifest8C57D77865F0D8D0E7654DCA33D4927BFDD4EA66ACC4EA8853D6E530FC5801B5.
+AssessmentD00E8FC059B09C5A835EEF453EEE92D1013417AE966D89C2E7A5878162CBF95E.
+RecoveryFIRSTprealpha/loading_cover_lc2/deploy_01.ps1 ValidateRollback/Rollback,
+backuprecovery/loading_cover_lc2_01; THENLC1->HS1->older. LC2undoalone restores
+LC1knownloadingbug; removeLC1nexttoreturnHS1main2FC245. Neveroldcrashingsector.
+FileundoNOTsaveundo; core/cosmeticchainsseparate. docs/loading_cover_lc2.md.
+NEXTcoldloadretainedpretransitionorAuto8/9,newmanualslot; bar/inputs/firstframe/
+Esc/snapshotexport/profile/housing/world/quests/fullreveal/save+deathreload LIVE
+PENDING. No measuredspeedup. Progressbarischeckcount,NOTtimeestimate. Vikdoorseparate.
+
+Latest2026-10-24 LC1 LOADING COVER/SCHEDULING INSTALLED; LIVE PENDING:
+USER requests cover untilsetupcomplete andfasterdeployment. Installed17files:
+14existingREDS replacements+2newLC1REDS+currentmainarchive replacement. No
+framework/cache/savefileedits orassistantlaunch. All606protectedincl229saves
+unchanged. Core/cosmetic stackretained. Existing savedfields/APIs preserved.
+PTFR.LoadingCoverLC1 usesbaseCodewareCustomPopup, opaque/inputblocking, NO
+InGamePopup time dilation/modalcontext/statusrestriction/tier/cameraoverride.
+Cover waitsverifiedHS1 snapshot, arrival/optics, cyberware, Body/Relic/profile
+transactions+ledger+actualHP, housing/relationships, H10geometry+entitledservices,
+entrydispatch/nativehandoff,8adapterclassificationpasses, freshcontrol+1sstable.
+Unknown/unsupported/prerequisiteblockedquestsDEFER, notinfinitewaitforremoteactors.
+NewU9requests/unissuedS2/S22/S23/S24/S25/S27/S28/U10permits/OnlyPainactivation
+helduntilrelease; existingowners/progress/rewardsretained. Completedreloadreads
+savedprofile/body/housing/handoffreceipts; validatesledger/HP/cyberware without
+demandingnewrespec/holster/combat exit. Weapon/combat/vehiclepathLIVEPENDING.
+Esc requestsMAINMENU, keepsblockeruntildetach; neverunlocksunfinishedgameplay.
+180simsecondwarningdoesNOTsucceed/clearfault. Pendingpopupservice+epochs prevent
+oldattachmentack/duplicatequeue; actualinput/nonpause/firstframe/liveQA pending.
+Nativefinalboards adds180ownCoverReady0 and181waitCoverReady1 before176native
+fade; preservesPA3fade/Tier1/controlorder, oldpayloads/timeoutcuts and615other
+resourcesbyteexact. Mainnow
+9D9AF716B78187B2A02790CB9B57D6C87E953D9790D57513888991AAC5C2CBCC;
+finalboards4A52C9A4D7C73F4074052EE220BFC3E631DB830477D163FECAA16F9940102536.
+LightingB56A759A...current2.5 retained; q307ending/camera/teleport unchanged.
+Body/Relic refundopportunities0.25s onlywhenwarmup0/noqueued/inflight; other
+profileonlystage2 removes4tickthrottle. Nativeadmission/ledger/transactionbodies
+retained; Bodysettling>=4elapsedseconds; Entry>=3ssafe. Entryreadiness0.25s
+separatefrom5sdispatch. H10retry1suntilgeometryack. 27rankopportunities27->6.75s
+isSOURCEESTIMATE20.25slessdelay, NOTmeasuredtotal. PTFR_LoadingLC1stageelapsedlogs.
+FullSCC87sourcesinclEquipmentEX PASS; compiled
+127B94A076D754380F27EFFED1E257A9AAFB71D1E536E5686FE69FDCD3439AE5.
+129offlinecompiled/native/preservationchecks+14realinstallerfixtureactionsPASS.
+Validate/Install/Verify/ValidateRollbackPASS. Finalscriptcandidate_04/compile_02,
+tests_01/deployment_tests_01; nativecandidate_02/native_01. Earliercandidates
+historical; changes_01intermediatehashesNOTfinalmanifest. Sources/proofsPINNED,
+usesuccessors. Evidenceprealpha/loading_cover_lc1/candidate_04/assessment_01.json
+SHA3483E2795B58BD3B3FDC3736B4347CB3F2A72555DC7117B0146B0F29D2EF5188.
+Manifest23053BDD80CBBD26B44CA2756E2830082A388C4492364E36C6687EBBC7A49337.
+RecoveryFIRSTprealpha/loading_cover_lc1/deploy_01.ps1 -Action ValidateRollback/
+Rollback, backuprecovery/loading_cover_lc1_01; restoresHS1+working2FC245mainwith
+currentlighting; THENHS1/olderTowerpackages. NEVERobsoletecrashingarchive.
+FileundoNOTsaveundo. Core/cosmeticrecoveryseparate. No publicrelease/commit.
+NEXTcoldloadretainedAuto8/9,newmanualslot: coveropaque/noinputleak/setupadvances,
+Escmainmenu; fullsetuprelease; save/reloadnorefund/reward/lossreplay. Separate
+normalendingneededfornativehandofffirstframe; completedcombat/vehicle/deathreload
+alsoLIVEPENDING. docs/loading_cover_lc1.md. Vikdoorstillseparateunresolved.
+
+Latest2026-10-24 HS1 SNAPSHOT/FALLBACK INSTALLED; LIVE PENDING:
+USER explicitly accepts currentpostending snapshot when no preending snapshot
+exists. This supersedes blanketunknownhistory denial, NOT completion/reward/
+owner preservation or resume-not-restart. Never label fallback asprehistory.
+Oldprobe saveembeddedonly; newPTFR.HistorySnapshotHS1 stores158selectedroots,
+140detailed/18rootonly, NOnewrestorationcoverage. Two-passboundedread captures
+ordinaryworld; recentsettledcutoff freezespre_ending. Missingvalidfrozenbaseline
+aftergenuineTowercompletion capturesONCE post_ending_fallback. Unstable/unknown/
+completed/failed baselines denynewadmission; supportedactiveprogress preserved,
+unsupportedresumeDEFER. U9requiresfullfreshstate/factchecks; nativeguardsretained.
+Family accepts recordedq103Succeeded+done+rogue fromacceptedbaseline; doesNOT
+setfamilyPreTowerCompleted. Noexcludedparentreplay or genericrecursivecoverage.
+CET PTFR_HistorySnapshotHS1 writesverifiedJSON initsownmodfolder. Savepayload+
+filenamebinding authoritative; missingfile reexportsSAVEDpayload, notnewstate.
+Differentfile preserved; nogloballatest/import. Fileackrequiredbeforeadmission.
+TenREDSreplacements+state/dataREDS+CETinit additions=13filesinstalled. Existing
+savedfieldidentities/APIs retained. Initialstartupcycle bypass usesverified
+snapshot+genuineending/nativearrival/control/camera; nodevcertificatefabricated.
+ScopedFault2continuation validatesexactfailednativebranch, recordsownreceipt,
+clearsONLYPTFRPA2_Fault2; existingprofile/housing/arrivalcontinue. Finished1only
+afterallrequiredacknowledgements. Noending/teleport/camera/transactionreplay,
+no native story factsetters. Otherfaults untouched. Actualcurrentfinalboards
+AB65019B... boundtomain2FC245..., failure160hasnooutgoingedges; oldwaiterscut.
+FullSCC85sourcesinclEquipmentEX PASS; compiledSHA9A991411...; compiledcritical
+predicates/schemas/474arrays/316stringschecked.21offlinechecks+14realinstaller
+fixtureactionsPASS. Validate/Install/Verify/ValidateRollbackPASS;608protected
+incl229savefilesunchanged. Noassistantlaunch/savefileedit/manualruntimefacts.
+Manifest57A86058601DDA771A77BD13076FBE9389967449505E3ADDFD3AD6459E7CFFE4.
+Evidenceprealpha/history_snapshot_hs1/candidate_01/assessment_01.json SHA
+A6B8748A84B292657FE867851033B74F50B58706E86D2CB57F2349EE7EFE5259.
+Finalcompile_04/tests_02/readback_01/native_check_01/deployment_tests_01 current;
+changes_01 intermediateafterhashesNOTfinalmanifest. Finalsources/proofsPINNED,
+usesuccessors. candidate_* andprivateevidenceGitignored. No publicreleasechange.
+RecoveryFIRSTprealpha/history_snapshot_hs1/deploy_01.ps1 -Action ValidateRollback/
+Rollback, backuprecovery/history_snapshot_hs1_01; THENolderTowerscriptpackages.
+JSONfilespreservedbyrollback; fileundoNOTsaveundo. Core/cosmetic/L1chainsseparate.
+NEXTcoldloadretainedpostendingAuto8/9,newmanualslot, checkGetMod("PTFR_HistorySnapshotHS1").Status(),
+JSONorigin/ready/frozen/exported, profile/housing/quests, save+reloadwithoutreplay.
+Precutofftraversal/serialization/CETcallbacksexistonlyofflineproofsLIVEPENDING.
+Auto6/7arelate2079, NOTprecleanupcapturetest. Nonpausingcover/refundspeed/Vikdoor
+STILLSEPARATE; no measuredspeedup. docs/history_snapshot_hs1.md; mutablepolicy
+pointerupdated, pinnedR6.1selectionbytesunchanged; selected158/implemented140.
+
+Latest2026-10-24 CORE/COSMETIC USER PASS; STARTUP INVESTIGATION ONLY:
+USER reports no crash/freeze/missing models/textures after latest patches.
+14:18 session normalshutdown14:26; core0823FB99/CodewareGlobal02C3D252,
+UV C46F73/headE0E132 retained. NOT startup/housing/quest-restoration pass.
+109Towerfiles still match expected inclmain2FC245;229savefiles unchanged.
+Confirmed startupcycle: lateending Restored freezes unknownhistory; Activated
+requires endingObserved/certified OR alreadyPrepared/Finished; profile/housing
+needed to produce Prepared neverstart. BothretainedAuto8/9 Fault2, controls/
+camera/opticsready, entryonlyfrozen serialized. Unknownhistory staysunknown.
+Separatecoreinitializationauthorization fromquestcertification; no devadmission.
+Fault2nativewaiters werecut; clearingfactalone cannotresumeoldowner. Needbounded
+continuationwithoutending/teleport/camera/refund/housingtransactionreplay.
+Bothfixtures14Body+5Relic+8otherblockedranks=27 one-secondrefundopportunities,
+NOTmeasuredliveduration. Five-seconddispatchthrottlealsodelaysreadiness.
+Proposeacknowledgedshortticks+event-drivenready checks, preserveelapsedsettling.
+NativePA2blackoutheldTier5/deadlockedTier1; keepPA3nativeuncoverbeforechecks.
+Proposemodownednonpausingcoveroverrunningworld; CodewareUIcandidateexists,
+inputcapture/menu/time/firstframe/reloadbehaviorstillrequiresliveprototype.
+Readybarrier=profile/housing/localworld/camera+eligibilityclassified; unknown/
+unsupportedquestsdefer, remoteactors/unownedH10servicesdonotblockforever.
+Viktorclinicdoorseparate. NOstartupimplementation/build/install/launch/factwrite.
+Evidence diagnostics/startup_logic_20261024_01/assessment_01.json SHA
+576C22D154F7C249B1CEA759CF4BDE3C66CA9921FD8C2295F6675F6A8E6A7A9D;
+docs/startup_logic_20261024.md. Audit11sourcechecksPASS; finalinputs/proofspinned,
+usesuccessors. NEXTimplementationsequenceinreport; beta/savecontractretained.
+Rollback/core/cosmetic/Towerrecoverychainsunchanged; no new recovery package.
+
+Latest2026-10-24 CORE UPDATE RECHECK; TWO UPSTREAM PATCHES INSTALLED:
+USER explicitly approves Nexus/GitHub downloads and core installs. No newer
+official releases found: RED4ext1.30/CET1.38/redscript0.5.32/EquipmentEX1.2.9/
+DQC3.3.1 current. TweakXL22 and ModSettings33+34 heads unchanged, retained.
+ArchiveXL current PR31+SDK229+SDK230 retained; add ONLY PR32 empty partsOverrides
+guard in customization cloning. FullPR32 SDK lacks current229 mesh layouts;
+not wholesale installed. WorldStreaming source matches31, NOT new regression.
+ArchiveXL DLL before53AE211F... after
+0823FB99B45AE16519BE196E491F5CB3998BBD08475621967B5BE80D4476E2BF.
+Codeware PR63 retains DLL/types/APIs; backport PR65@39a6856c two-line explicit
+emptyVariant return. Codeware.Global.reds beforeDCC24988... after
+02C3D2529C3E7143E4E6D1D562134F6CC56A1281F8E617D1A4DFAB0ADFAD1A45.
+LOCAL patches, NOT new official releases/fullPR32/full2.5compatibility proof.
+MSVC/xmake build+AMD64/exports PASS;10759 source checks, one substantive block
+plus two generated timestamps. FullSCC83sources inclEquipmentEX PASS; compiled
+Reflection fallback readback PASS. Initial assertion syntax/timestamp mismatch
+corrected in successors; compiler itself passed, no failed output installed.
+Validate/Install/Verify/ValidateRollback PASS;660protected incl223saves unchanged.
+UV C46F73/headE0E132/Tower2FC245 preserved; caches/Persistent/settings unchanged.
+Nexus35697 bundle hidden by moderation; public GitHub sources used. RedHot held.
+Evidence diagnostics/core_updates_20261024_01/assessment_01.json; final proofs
+and package pinned; use successors. No assistant launch/save/fact/Tower writes.
+Framework recovery FIRST core_updates_20261024_01/install_01.ps1 actions
+ValidateRollback/Rollback, backup recovery/core_updates_20261024_01; THEN SDK230
+clothing_freeze installer; then older framework recovery. Cosmetic03->02->01
+and Tower L1 recovery separate. Journal/hot-reload limitations remain.
+NEXT cold load same inventory save, check head/body and white hospital shirt
+without original overwrite. Clothing freeze resolution STILL LIVE PENDING.
+
+Latest2026-10-24 BODY TEST3 USER PASS; CLOTHING FREEZE SDK230 TEST INSTALLED:
+USER bodyrestored, equippingwhitehospitalshirtFREEZE(cannotclose/tabout), NOT
+reportedcrash. EquipUI/exactitemrecordunknown. Processabsentwhenchecked; logs
+no normalshutdown, no newcrashreport/dump. Windowseventsno matchingGPU/hang
+entry inchecked3h, NOTproofGPUexcluded. Preservevisiblehead/bodyworkarounds.
+InstalledArchiveXLPR31hadoldITransactionSystemFindSlotData0x448/visual-tag
+lookups; localclothinghandlerscallthem. PR32reports2.5hangfromoldlookup;
+SDKPR230correctsFindSlotData0x450 etc. Stronglead, NOTuserfreezerootcauseproof.
+BuiltisolatedPR31@5f7dc882+ONLYSDK230headerpatch@b985c06f;10759sourcefiles
+compared,onlyotherchange2generatedVersion.rcbuildtimestampdefines. Product
+still1.27.5; distinguishhash, NOTnewofficialrelease/fullPR32compatibility.
+MSVC14.44/xmakereleasePASS; AMD64DLL/3exportschecked. SandboxedC1902failed,
+samecodeunsandboxedbuildPASS; earlierpath/timestampassertfailuresretained.
+InstalledONLYred4ext/plugins/ArchiveXL/ArchiveXL.dll:
+before2F16D9BD6B8CBF22AA004DEA198A9F8B7C4F7621CEC921682F8BA412E08EE002;
+after53AE211FE55833537101F492EE7C0C6802B39B6DCB1A19CDE68570F756D9AFD4.
+Validate/Install/Verify/ValidateRollbackPASS;635protectedincl223savesunchanged.
+Evidence diagnostics/clothing_freeze_20261024_01/assessment_01.json. Sources,
+build/package/deployer/proofsnowpinned;usesuccessors. Noassistantlaunch/saveedit/
+fact/Tower/otherframeworkwrites. UV C46F73/headE0E132workaroundsretained.
+NEXTusercoldloadsameinventorysave,checkbody/head,trywhitehospitalshirtwithout
+overwrite. FreezeFIXLIVEPENDING; no fullgarment/2.5compatibilityclaim.
+FrameworkrecoveryFIRSTclothing_freeze_20261024_01/install_01.ps1 -Action
+ValidateRollback/Rollback, backup recovery/clothing_freeze_sdk230_20261024_01;
+onlythenolderframeworkrollback. Cosmeticundo03->02->01stillseparate; L1unchanged.
+
+Latest2026-10-24 HEAD TEST2 USER PASS; FEMALE BODY UV TEST3 INSTALLED:
+USER confirmshead/faceANDarmsvisible, restofbodymissing. Test2femaleheadUV
+disable restoredhead withstockgeometry; implicatespatch/frameworkinteraction,
+NOTproofofUVpackagealonebug. OriginalVTKheadgeometrywithUVoffSTILLuntested.
+Test3 changesONLY!!!_UV4.xl: removesfemale7mesh+1morphtargetmappingpaths,
+10lines2groups; retains2malegroupsbyteexact. Femaleheadpatchstaysoff.
+BeforeSHA 7D635F2F78EBC8E861FED6B457A5030E8EF4747552603834BBFCCF7F002DD2A2;
+afterSHA C46F73C586602ED4A08382F6DFF3CEB233248A2543D87A4AE1916AD3140880CD.
+VTKheadE0E132stockgeometrytestretained; allbodyarchives/arms/nailsunchanged.
+Validate/Install/Verify/ValidateRollbackPASS;635protectedincl223savefilesunchanged.
+Evidence diagnostics/missing_head_20261024_01/assessment_03.json; test_03 prior
+userpositiveheadresult/logs/build pinned,usesuccessors. BodyLIVEPENDING.
+RecoveryFIRSTinstall_03.ps1 -Action ValidateRollback/Rollback restoresheadvisible
+test2UVconfigfrom recovery/missing_body_uv_test_20261024_03. Fullcosmeticundo
+03THEN02THEN01; donotbypasshashguards. Tower/L1recoveryseparateunchanged.
+Latest12:16RED4extlogendsafterSCCsetupwithoutshutdownmarker; NOTnormalshutdown
+proof. Nolaunch/saveedit/fact/framework/Towerwrites. NEXTcoldloadsameinventory
+savechecktorso/legsANDheadwithoutoverwrite; texturealignmentalsoLIVEpending.
+
+Latest2026-10-24 HEAD TEST1 FAILED; FEMALE UV HEAD PATCH TEST2 INSTALLED:
+USER AutoSave7cutscene andothersaveinventory stillmissingface. Geometryexclusion
+aloneNOTfix; VTKinteractionsNOTruledout. Latest12:12RED4extnormalshutdown.
+Test2 changesONLY!!!_UV4.xl: removes2linefemaleheadmapping,4othergroupsbyteexact.
+BeforeSHA 34C90A065970E9D23A58E1E6222E7C97D7E7ED47973735226A2FB6B12719FCBC;
+afterSHA 7D635F2F78EBC8E861FED6B457A5030E8EF4747552603834BBFCCF7F002DD2A2.
+Test1E0E132geometryexclusionREMAINSinstalled; now2cumulativecosmeticfilechanges.
+Validate/Install/Verify/ValidateRollbackPASS;635protectedincl223savefilesunchanged.
+Evidence diagnostics/missing_head_20261024_01/assessment_02.json; test_02 has
+usernegativeevidence/logs/build. Finaltest2sources/proofs pinned; usesuccessors.
+Recoverytest2 install_02.ps1 -Action ValidateRollback/Rollback restoresUVconfig
+from recovery/missing_head_uv_test_20261024_02. Fullcosmeticundoalsoinstall_01
+restoresVTK. Tower/L1recoveryseparateunchanged. Nogame/save/fact/frameworkwrites
+exceptoneXLconfiguration; nolaunch. NEXTcoldloadsameinventorysave/checkface;
+cutscenereplayunnecessary, nooverwrite. Rootcause/fixstillLIVEPENDING.
+
+Latest2026-10-24 MISSING HEAD: VTK GEOMETRY ISOLATION INSTALLED; LIVE PENDING:
+USER sameappearanceworkedbefore2.5; missingheadincutscene/inventory/thirdperson.
+89archiveinventory: onlyVTKreplacesstandardfemaleh0mesh+2morphs. h0mesh/morph
+both27591vertices; no internalh0mismatch. he morph53954 vs referencednativehe
+12393firstchunk isconcern, NOTprovenmissing-skinrootcause; embeddedbasecaveat.
+UVdefaultpatch doesNOTreplaceexistingnonnullrenderblob perinstalledsource.
+Onefiletest vtk_VanillaHD_Head_xBaebsae.archive omits3headgeometryresources,
+retains3seam/material/textureassetsbyteexact. Noreserialization/frameworkchange.
+OriginalSHA A910A12A16EE8D2DE0E0FA82756C08495CD1514B3715168BF898F6CABB8EF138;
+testSHA E0E132BC3D3755259A53977D3461F44AA27DBD15119CF2FCB79DB481C7FFCACB.
+Validate/Install/Verify/ValidateRollbackPASS;635protectedincl223savesunchanged.
+Evidence diagnostics/missing_head_20261024_01/assessment_01.json; scripts/pins
+retain,usesuccessors. RecoveryONLYthiscosmeticfile: samefolder/install_01.ps1
+-Action ValidateRollback/Rollback, backup recovery/missing_head_test_20261024_01.
+Tower2FC245/L1recoveryunchanged. Nolaunch/saveedit/factwrite/publicrelease.
+NEXTusercoldloadAutoSave6,checkinventoryheadwithoutoverwrite. NOTverifiedfix.
+
+Latest2026-10-24 CORRECTED PRE-ENDING AUTOSAVE BACKUPS:
+USER clarified wanted latest2 BEFOREendingcompletion, notpostending8/9.
+SelectedAutoSave7(11:29:13Toronto, takewalkwithMisty)andAutoSave6(11:24:50,
+returnDelamain); neitherlistsq307finished, bothtrackThingsDoneChanged.
+All6filescopied/hashverifiedbefore+after; originalsunmodified. Recovery:
+recovery/pre_ending_autosaves_20261024_01/{AutoSave-7,AutoSave-6,receipt.json}.
+Thesearelate2079endingfixtures, NOTpreTowerpoint-of-no-returnhistoryproof.
+Postending8/9backupsretainedseparatelyasfaileddeploymentfixtures. No game edits.
+Evidence diagnostics/pre_ending_autosaves_20261024_01/receipt.json; Gitignored.
+
+Latest2026-10-24 DEPLOYMENT TEST BACKED UP; STARTUP REGRESSION DIAGNOSED:
+USER reachedH10afterending/cameraOK/freeroamOK; H10geometry/vendors/2079scenery
+visible. FAIL no profile nerf/no restoredquests/H10interactions/housingrules;
+Viktorclinicdoorunopenable; headmissingincutscene/inventory/thirdperson(eyes/teeth).
+AutoSave8(11:36Toronto)and9(11:41)copied+all6fileshashverifiedto
+recovery/deployment_test_20261024_01; originalsunchanged. SavedatSHA8 D9536740...
+9 D14A7DD8...; fullhashesreceipt.109/109TowerfilesmatchlatestexpectedinclL1
+main2FC245...; usertraversedendingwithrebasedsector, normalshutdown11:42:51.
+Thispassesobservedload/arrival, NOTfullL1lightingvisibility/modcompatibility.
+BothsavesPTFRPA2_Fault=2 preparationtimeout; ControlReady/CameraAligned/OpticsReady1.
+SavedPreAlphaEntryonlyfrozen=true; Profile/Bodypersistentfieldsdefault/omitted;
+Housinginitialized5unknownhistoryslotsbutnotactivated. InstalledH1disablelate
+fixture+ActivatedrequiresendingObserved/certified/ALREADYcompletedhandoff:
+freshlatecutoffloadcannotinitializeprofile; housingwaitsprofile; watchdogfaults.
+Rootissupportedbyactualsources+savedstate; NOTmissinginstallation/compilerfailure.
+QuesthistoryunknownmustNOTbeinventedbyreenablingdevelopmentadmission; futurefix
+separatespostendinginitializationfromquesteligibilityandboundedfault2continuation.
+Noforcedfacts/replayteleport/cleararbitraryfaults/resetprogress. ThingsDoneChanged
+disappearance+q307completedmetadataNOTrestorationproof. DoorSEPARATE:Save9front/
+inner/rearRequests1Ready1 meansactionsissued, NOTphysicalunlockedproof. Headcause
+unisolated; VTK/UV2.5mesh-morphcompatibilitylead, NOTIFPblameorverifiedfix.
+Evidence diagnostics/deployment_test_20261024_01/assessment.json SHA
+C7A6B0007EBEA0EAE933BAF775AF9956823E3E1205F4449B87B0D5F524E6FDE6.
+No game/save/cache/fact/installation/launch/agentchanges; NOrepairinstalled.
+RecoveryFIRSTlighting_rebase_25_20261023_01 unchanged; oldcrashingarchiveprohibited.
+Backups/diagnosticsexcludedfromGit. Publicprealphastillold; nopublicbetaclaim.
+
+Latest2026-10-23 L1 CURRENT2.5 WORLD REBASE INSTALLED; LIVE PENDING:
+User PASS ManualSave-10 withothermodsrestored andoldsectoromitted. Latest23:21
+RED4extlog normalshutdown; actual83-sourceSCCsuccess.130restoredhashesverified;
+originalManual10unchanged. RedHotToolsheld; IFP Lua2.1.4starts butoldnativeheight
+plugin skipped(incompatibleruntime). ArchiveXLJournalhook837162664failure remains.
+Followuprebased12R8lightingaliases onto CURRENTep1_1_nightcity sector D0C015BA...
+Currentsectorversion68: 4539placements1631nodes; nodeindex19bitsat0x70, NOTold
+uint16at0x78. WolvenKit9.1oldbufferparser silentlymisreads4512indices; doNOT
+serializeitsparsedNodeData. Readonlynamedcooked-type adapters+rawcorrectedindex
+usedforinspection.10lights fullpayloadmatch;2meshplacementsuniqueexacttransforms
+nowworldCookedStaticMeshNode. Nativecookedmeshbytes preserved, visibilityLIVEpending.
+Rawpatchonly12zero globalNodeIDs +12existingNodeRefstrings; offsets/CRCs updated.
+2537nativechunks61otherbuffersbyteexact;4539placementreadbacks,88lightpayloads
+unchanged;615otherTowerresourcesbyteexact. Noquest/script/owner/savefactchanges.
+InstalledmainarchiveSHA 2FC245B128EFD1E6DEC9B6CF38FC037490578EC252E120FD40C57D24EFDDF255;
+rebasedsectorSHA B56A759ABCA6F86FBF7E2C61016E0F87D995ECA3E99EFBFFA253B69AEE6A311B.
+Validate/Install/actualhash/ValidateRollbackPASS;651protectedincl217savesunchanged.
+Evidence diagnostics/lighting_rebase_25_20261023_01; recoveryFIRST itsinstall.ps1
+-Action ValidateRollback/Rollback restoresWORKING55D53E...sector-exclusionarchive
+from recovery/lighting_rebase_25_20261023_01, NOTobsoletecrashing6B9AAE...archive.
+NEXTsameManualSave-10load withoutoverwriting; laterpostTowerlightingvisibility.
+Nolaunchbyassistant; nofullgameplay/betacompatibility/newpublicreleaseclaim.
+Priorpassedload evidence save_load_other_mods_restore_20261023_01/live_result_01.
+
+Latest2026-10-23 SAVE-LOAD CRASH ISOLATED; OTHER MODS RESTORED, LIVE PENDING:
+ManualSave-10 pre-ending cabride: vanilla/core-only USER PASS; Tower+core
+CRASH; disabling13XLworldblocks stillCRASH; excludingONEobsoleteofficial-sector
+override USER PASS; restoringall13XLworldblocks alsoUSER PASS. Latestlog normal
+shutdown. OldR8 exterior_-25_18_0_0.streamingsector override caused observed
+loadcrash; installedmainarchive now615retainedresources byteexact, sectoromitted.
+Current TowerContinued_PreAlpha.archive SHA
+55D53E8040656FFD0CE90420637C2EF6220C6E492AB5BA8D05AFA694D7AD10FC;
+originalXLrestoredSHA CD75C3446C74B4D57F94AD19B0A130B84E214BBED9BD2FDEDD4AE6D798A59544.
+Oldsector supplied12R8lightingaliases; compatiblecurrent-sector repair STILL
+needed. q307_ending_board nativebytes unchanged; donotblindlyrebuildq307.
+Othermods130missingfiles restoredhashverified, inclcustomnail,CET,IFP,ModSettings;
+RedHotTools native+CET remainheld.83scripts matchpriorfullSCCproof; norerunneeded.
+522protectedfiles unchanged incl217saves; noassistantlaunch/saveedit/factwrite.
+NEXT manuallyloadsameManualSave-10 withothermods; doNOToverwriteoriginalsave.
+Currentevidence diagnostics/save_load_other_mods_restore_20261023_01;
+rollbackonly130additions via its restore.ps1 -Action Rollback, receipt in
+recovery/save_load_other_mods_restore_20261023_01. DoNOTbulkrestoreoldmainarchive
+fromrecovery/release: it reintroducescrash. Publishedprealphapackage stillold;
+norebuiltlighting/fullcompatibility/newreleaseclaim. Allpinnedoldproofsretained.
+
 Latest2026-10-23 HOUSING H1 INSTALLED; BETA SAVE CONTRACT; LIVE PENDING:
 USER wants beta with initial postTower t=0 state complete; permits incomplete
 questrestoration/bugs but requires beta saves usable by futurestable. This

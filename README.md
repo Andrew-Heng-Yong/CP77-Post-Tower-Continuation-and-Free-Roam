@@ -13,17 +13,18 @@ Cyberpunk 2077: Phantom Liberty, while preserving the ending and its consequence
 
 Choose the named **TowerContinuation ZIP** under the release's **Assets**. GitHub's
 automatic **Source code** downloads are for development and do not contain the
-packaged mod. This experimental pre-alpha contains the current mod files;
-framework dependencies are separate. Live testing and beta readiness remain
-pending. Use a separate test save and read the installation instructions first.
+packaged mod. This ZIP is the **23 October pre-alpha build**; it does not include
+the newer 24 October development changes described below. Framework dependencies
+are separate. Use a separate test save and read the installation instructions first.
 
 ## Development status
 
 The repository contains source; installable mod packages are hosted in Releases.
-As of 23 October 2026, Housing H1 and the S28 side-job additions are installed in
-the development environment, with live playtesting still pending. A public beta
-has not been published, and the initial post-Tower state is not yet declared
-complete.
+As of 24 October 2026, the development environment includes a history snapshot
+fallback, a setup cover, and [H10 apartment purchase and map icon changes](docs/h10_h4.md).
+The H10 purchase correction has compiled and been installed locally, but its
+latest behavior still needs a live check. A public beta has not been published,
+and the initial post-Tower state is not yet declared complete.
 
 The current implementation covers bounded beginnings for 80 gigs and 60 side
 jobs. That does not establish every quest stage, eligibility on every save, or

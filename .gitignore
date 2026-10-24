@@ -17,6 +17,8 @@ fixtures/
 deployment_fixture*/
 installer_fixture*/
 generated_*/
+/prealpha/history_snapshot_hs1/candidate_*/
+/prealpha/loading_cover_lc1/candidate_*/
 
 # Mod archives, downloaded tools, game binaries, and compressed bundles.
 *.archive
@@ -106,3 +108,21 @@ Desktop.ini
 /docs/*_run[0-9]*.md
 /docs/whitelist_recheck_*.md
 /docs/whitelist_review_followup_*.md
+
+# Private LC2 diagnostics, donor resources, saves and compiled candidates.
+/prealpha/loading_cover_lc2/candidate_*/
+
+# Private startup-crash dumps, saved fixtures and candidate binaries.
+/prealpha/startup_crash_sc1/candidate_*/
+
+# Private LC3 startup evidence and build candidates.
+/prealpha/loading_cover_lc3/candidate_*/
+
+# Private H10/Wilson diagnostics, save captures, donors and compiled packages.
+/prealpha/h10_h2/candidate_*/
+
+# Private H3 purchase diagnostics and compiled candidates.
+/prealpha/h10_h3/candidate_*/
+
+# Private H4 purchase-gate diagnostics and compiled candidates.
+/prealpha/h10_h4/candidate_*/
