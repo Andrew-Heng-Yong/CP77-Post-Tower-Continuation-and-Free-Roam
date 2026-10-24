@@ -5,15 +5,15 @@ Cyberpunk 2077: Phantom Liberty, while preserving the ending and its consequence
 
 ## Download the mod
 
-**[Download Tower Continuation pre-alpha ZIP](https://github.com/Andrew-Heng-Yong/CP77-tower-continuation/releases/download/v0.1.1-prealpha.20261024/TowerContinuation-v0.1.1-prealpha.20261024.zip)**
+**[Download Tower Continuation Alpha Test ZIP](https://github.com/Andrew-Heng-Yong/CP77-tower-continuation/releases/download/v0.1.1-alpha.20261024/TowerContinuation-v0.1.1-alpha.20261024.zip)**
 
-[Release notes and downloads](https://github.com/Andrew-Heng-Yong/CP77-tower-continuation/releases/tag/v0.1.1-prealpha.20261024)
-| [Installation and dependencies](release/INSTALL-v0.1.1-prealpha.20261024.md)
+[Release notes and downloads](https://github.com/Andrew-Heng-Yong/CP77-tower-continuation/releases/tag/v0.1.1-alpha.20261024)
+| [Installation and dependencies](release/INSTALL-v0.1.1-alpha.20261024.md)
 | [All releases](https://github.com/Andrew-Heng-Yong/CP77-tower-continuation/releases)
 
 Choose the named **TowerContinuation ZIP** under the release's **Assets**. GitHub's
 automatic **Source code** downloads are for development and do not contain the
-packaged mod. This experimental **24 October pre-alpha** includes the current
+packaged mod. This **24 October Alpha Test** includes the current
 Tower mod snapshot. Framework dependencies are separate. Use a separate test save
 and read the installation instructions first.
 

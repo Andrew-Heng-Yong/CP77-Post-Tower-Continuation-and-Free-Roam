@@ -1,6 +1,6 @@
-# Tower Continuation: experimental pre-alpha
+# Tower Continuation: Alpha Test
 
-Version: `v0.1.1-prealpha.20261024`
+Version: `v0.1.1-alpha.20261024`
 
 This is a **full mod snapshot**, not an incremental patch. The ZIP contains 117
 Tower Continuation files: 22 archives, 20 ArchiveXL registrations, 72 REDscript
@@ -8,7 +8,7 @@ files, one tweak, and two CET scripts. It includes the history snapshot fallback
 loading cover and current H10 housing logic. It does not bundle third-party
 frameworks, other mods, saved games, generated history JSON or development data.
 
-This is an experimental testing release. A 24 October local session showed H10's
+This is an alpha test release. A 24 October local session showed H10's
 purchase offer, a payment receipt and its icon changing to owned. Physical door
 access, apartment services, save/reload, genuine first transition, and other new
 paths still need verification. Use a separate test save.
@@ -36,7 +36,7 @@ MSVC 14.44 and xmake 3.1.2. Other framework combinations remain unverified.
 
 1. Close the game. Back up saves and existing Tower Continuation files.
 2. Install compatible frameworks using their own instructions.
-3. Download `TowerContinuation-v0.1.1-prealpha.20261024.zip` under this release's
+3. Download `TowerContinuation-v0.1.1-alpha.20261024.zip` under this release's
    **Assets**. GitHub's automatic **Source code** ZIP does not contain the mod.
 4. Extract the ZIP to a temporary folder. Merge the supplied `archive/`, `r6/`
    and `bin/` into the Cyberpunk 2077 game folder. Keep the paths exactly as
@@ -71,7 +71,7 @@ review of stray files and saved progress.
 The separate `.zip.sha256` asset contains the ZIP's SHA-256 hash. In PowerShell:
 
 ```powershell
-Get-FileHash -Algorithm SHA256 .\TowerContinuation-v0.1.1-prealpha.20261024.zip
+Get-FileHash -Algorithm SHA256 .\TowerContinuation-v0.1.1-alpha.20261024.zip
 ```
 
 `TowerContinuation/FILES.json` inside the ZIP lists each packaged mod file, size

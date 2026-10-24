@@ -7,7 +7,7 @@ sys.path.insert(0,str(ROOT/'tools'))
 from package_release_v011 import allowed_path
 
 GAME=Path(r'C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077')
-TAG='v0.1.1-prealpha.20261024'
+TAG='v0.1.1-alpha.20261024'
 DEST=ROOT/f'release/manifest-{TAG}.json'
 OLD=json.loads((ROOT/'release/manifest.json').read_text(encoding='utf-8-sig'))
 def sha(p):
@@ -43,6 +43,6 @@ for name,p in sorted(found.items()):
 assert len(changed)>=30,(len(changed),changed)
 assert sha(GAME/'r6/scripts/TowerContinued_Housing_H1/HousingState.reds')=='9E05BA53C51C0614CF167EDAF75D529CDAECA2FF4D1FEC93C725A4D19B91336B'
 assert sha(GAME/'archive/pc/mod/TowerContinued_PreAlpha.archive')=='CFB7F613EC15A934B74984B4C26392E7B4B7AC0A38B2C24067C69A395ACF2744'
-output={'release':TAG,'status':'EXPERIMENTAL_PREALPHA_H10_PARTIAL_LIVE_PASS','date':'2026-10-24','components_through':['History Snapshot HS1','Loading Cover LC3','H10 Housing H4'],'previous_release':OLD['release'],'file_count':len(rows),'mod_bytes':sum(x['bytes'] for x in rows),'provenance':{'basis':'Closed current development installation; changed and added files match their installed transaction hashes','changed_or_added':len(changed),'current_full_scc_sha256':'528E0F1BC7A23A6F7CA13BECDC7108C9D8309CCB76FDC65AD3B740B801B1ED78','newest_housing_manifest_sha256':'6304F826E3C68BC040B06F723FC28E8EEF1B3CE0D19C81F4BC213B9F94D4501A','live_evidence':'H10 offer/confirm, payment receipt and owned icon observed in 2026-10-24 19:09-19:16 session logs; physical access, services and reload remain unverified','gameplay_verified_by_packaging':False},'omitted':['Third-party frameworks and unrelated mods','Saved games, generated history snapshots, caches and logs','Research, recovery backups and private diagnostics'],'files':rows}
+output={'release':TAG,'status':'ALPHA_TEST_H10_PARTIAL_LIVE_PASS','date':'2026-10-24','components_through':['History Snapshot HS1','Loading Cover LC3','H10 Housing H4'],'previous_release':OLD['release'],'file_count':len(rows),'mod_bytes':sum(x['bytes'] for x in rows),'provenance':{'basis':'Closed current development installation; changed and added files match their installed transaction hashes','changed_or_added':len(changed),'current_full_scc_sha256':'528E0F1BC7A23A6F7CA13BECDC7108C9D8309CCB76FDC65AD3B740B801B1ED78','newest_housing_manifest_sha256':'6304F826E3C68BC040B06F723FC28E8EEF1B3CE0D19C81F4BC213B9F94D4501A','live_evidence':'H10 offer/confirm, payment receipt and owned icon observed in 2026-10-24 19:09-19:16 session logs; physical access, services and reload remain unverified','gameplay_verified_by_packaging':False},'omitted':['Third-party frameworks and unrelated mods','Saved games, generated history snapshots, caches and logs','Research, recovery backups and private diagnostics'],'files':rows}
 assert not DEST.exists();DEST.write_text(json.dumps(output,indent=2)+'\n',encoding='utf-8')
 print(json.dumps({'manifest':str(DEST),'sha256':sha(DEST),'files':len(rows),'added':len(add),'changed_or_added':len(changed),'mod_bytes':output['mod_bytes']}))

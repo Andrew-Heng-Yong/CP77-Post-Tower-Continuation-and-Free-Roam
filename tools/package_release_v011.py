@@ -3,7 +3,7 @@ import argparse,hashlib,json,re,zipfile
 from pathlib import Path,PurePosixPath
 
 ROOT=Path(__file__).resolve().parents[1]
-TAG='v0.1.1-prealpha.20261024'
+TAG='v0.1.1-alpha.20261024'
 def sha(data):return hashlib.sha256(data).hexdigest().upper()
 def allowed_path(value):
  if not isinstance(value,str) or '\\' in value or ':' in value:return False
