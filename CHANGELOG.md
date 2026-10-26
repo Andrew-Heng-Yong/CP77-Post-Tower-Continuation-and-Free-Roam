@@ -15,8 +15,7 @@ These changes are in the local development installation. **No new GitHub Release
 ### Housing, reload, and dependencies
 
 - Replaced H10's automatic purchase offer with explicit native Buy/Not now choices. Repaired paid-apartment service admission and a history-snapshot JSON export crash on reload. The user's H10 purchase, interactions, and save/reload passed one fixture; broader coverage remains open. See [H5](docs/h10_h5.md) and [H6/HS2](docs/h10_h6_snapshot_reload_hs2.md).
-- Updated RED4ext, Codeware, ArchiveXL, TweakXL, and Mod Settings to the checked Patch 2.5 stack, retaining the required small Codeware script correction. EquipmentEX 1.2.10 was installed separately. Restored the UV mapping and VTK head files after isolation tests. See [framework updates](docs/core_updates_20261025.md) and [UV/VTK restoration](docs/uv_vtk_restore_20261025.md).
-
+- Updated RED4ext, Codeware, ArchiveXL, TweakXL, and Mod Settings to the checked Patch 2.5 stack, retaining the required small Codeware script correction.
 ### Packaging and project name
 
 - Combined the installed alpha and later local fixes into one ZIP with 51 game files in place of 127: one archive, one ArchiveXL file, 46 REDscript files, two CET entries, and one TweakXL file. All old files are recoverable; offline equivalence, full script compilation, install/rollback fixtures, installed hashes, and 289 unchanged save files were checked. Gameplay acceptance of the combined layout is pending. See [consolidation record](docs/full_consolidation_v1.md).
