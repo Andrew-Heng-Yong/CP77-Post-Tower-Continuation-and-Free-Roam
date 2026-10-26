@@ -126,3 +126,31 @@ Desktop.ini
 
 # Private H4 purchase-gate diagnostics and compiled candidates.
 /prealpha/h10_h4/candidate_*/
+
+# Private FS1 native donors, packed candidates and deployment fixtures.
+/prealpha/fred_scene_fs1/candidate_*/
+
+# Private H5 dialogue donors, compiled scripts, packages and fixtures.
+/prealpha/h10_h5/candidate_*/
+
+# Private reload/H10 service evidence, saves, build and deployment fixtures.
+/prealpha/h10_h6/candidate_*/
+/prealpha/snapshot_reload_hs2/candidate_*/
+
+# S29 private native donors, generated data, compiler outputs and fixtures.
+/prealpha/sidejobs_s29/prepared_*/
+/prealpha/sidejobs_s29/runtime_*/
+/prealpha/sidejobs_s29/build/
+/prealpha/sidejobs_s29/candidate_*/
+
+# Later local build candidates, extracted donor data, and recovery fixtures.
+/prealpha/*/candidate_*/
+/prealpha/full_consolidation_v1/reds_*_probe_*/
+/prealpha/judy_dennis_jd1/native_*/
+/prealpha/judy_dennis_jd1/research_*/
+/prealpha/sidejob_repair_sr1/production_*/
+/prealpha/full_consolidation_v1/inventory_archives_*.json
+/prealpha/full_consolidation_v1/external_collisions_*.json
+*.script
+*.lipmap
+*.effect

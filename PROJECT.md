@@ -1,5 +1,43 @@
 # PROJECT.md — Post Tower Continuation and Free Roam
 
+Current2026-10-25: H6 paid-H10 services and HS2 snapshot reload crash repairs
+installed. Purchase was saved correctly (one €$25,000 debit); service admission
+sat behind general scene/scheduling gates. H6 reconciles each second, retaining
+entitlement/native guards. HS2 builds a transient JSON cache in game callbacks
+so CET cannot deep-copy saved snapshot arrays during loading. Both packages
+compiled/tested/installed with backups; 265 save files unchanged at deployment.
+Later CD1 changes retained; combined 91-source SCC passed. User subsequently
+confirmed the fix works and H10 ownership/interactions persist after save/reload.
+This fixture passed; broader coverage remains untested. See
+docs/h10_h6_snapshot_reload_hs2.md and AGENTS.
+
+Current2026-10-25: H5 explicit H10 dialogue purchase installed. Native actor-free
+door choices replace the automatic popup; Buy25000/Notnow and inactive
+insufficient-funds feedback. Selection consumes a guarded request before the
+unchanged compiled payment operation. Stale requests and oldcallbacks inert.
+Full91sourceSCC/64offlinechecks/14installerfixtureactionsPASS;674protectedincl
+265savefilesunchanged. No existingarchive/framework/publicrelease changes.
+Nativeplacement/selection/payment/reload need live checks. docs/h10_h5.md and
+latest AGENTS contain evidence and H5-first housing UI rollback instructions.
+
+Current2026-10-25: FS1 installed a narrow lifecycle repair for Fred's private
+vendor scene: below8m admission/above12m release, with the original NPC spawn
+range and fresh boxing branch retained. Existing saved node identities remain;
+old departure wait now reaches a private-scene-only cut and bounded rearm.
+Offline native/installer checks passed,675protectedincl265savesunchanged.
+Engine release and vendor leave/return/reload need live testing. No scene cast,
+framework,REDS,H10payment or publicrelease changes. docs/fred_scene_fs1.md;
+latest AGENTS contains hashes, evidence and FS1-first S25 rollback instructions.
+
+Current2026-10-25: Read-only H10 scene-membership investigation identifies the
+restored Coach Fred scene as the strongest source candidate. Saved scene identity,
+player binding, owner distance gates and departure counters support attribution;
+direct runtime actor-owner proof is still absent. The old purchase guard rejected
+ambient scene membership; H4 already excludes that check only for purchases.
+No game/save changes. See docs/scene_membership_20261025.md and the latest AGENTS
+entry. The official mod name is Post Tower Continuation and Free Roam; legacy
+`PTFR` and package/file identifiers remain for compatibility.
+
 Current2026-10-14: FO1 Wakako interaction USER PASS; user verified behavior
 against pre-ending world. Screenshot shows normal prompt/two dialogue choices.
 Other six offices, separate exit/revisit/new-save/reload and fresh-ending coverage

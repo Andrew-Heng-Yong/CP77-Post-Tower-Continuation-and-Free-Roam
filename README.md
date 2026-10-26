@@ -24,13 +24,17 @@ historical download paths for compatibility with existing saves and releases.
 ## Development status
 
 The repository contains source; installable mod packages are hosted in Releases.
+The locally installed consolidated build packages the current alpha and later
+fixes in one ZIP. Its gameplay acceptance is pending;
+the linked public Alpha Test remains the published download.
+See the [unreleased change log](CHANGELOG.md) for work since that alpha.
 As of 24 October 2026, the development environment includes a history snapshot
 fallback, a setup cover, and [H10 apartment purchase and map icon changes](docs/h10_h4.md).
 Local logs now show the H10 offer, payment receipt and owned icon. Door access,
 services and reload need more testing. A public beta has not been published, and
 the initial post-Tower state is not yet declared complete.
 
-The current implementation covers bounded beginnings for 80 gigs and 60 side
+The current implementation covers bounded beginnings for 80 gigs and 78 side
 jobs. That does not establish every quest stage, eligibility on every save, or
 complete gameplay verification. Completed content and earned progress must be
 preserved; unsupported unfinished quests defer instead of restarting.
@@ -88,6 +92,8 @@ be changed through successor versions rather than overwritten.
 Start with the [beta release contract](docs/beta_release_contract.md),
 [housing checklist](docs/housing_h1_playtest.md), and
 [S28 side-job checklist](docs/sidejobs_s28_playtest.md).
+The remaining 18 selected side-job entries are now installed in the local S29 test stack;
+follow-up quest-tree testing is pending. See [S29 test notes](docs/sidejobs_s29_playtest.md).
 File rollback restores mod files only; it does not reverse changes already
 stored in a saved game.
 

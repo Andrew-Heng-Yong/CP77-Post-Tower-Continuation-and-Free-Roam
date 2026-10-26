@@ -1,7 +1,622 @@
 # AGENTS.md — Post Tower Continuation and Free Roam
 
-Official public name: Post Tower Continuation and Free Roam. Legacy `PTFR`, `TowerContinued`,
-and `TowerContinuation` identifiers remain for compatibility.
+Latest2026-10-25 OFFICIAL NAME AND REPOSITORY RENAME:
+User confirmed official public name Post Tower Continuation and Free Roam and
+renamed GitHub repository to Andrew-Heng-Yong/CP77-Post-Tower-Continuation-and-Free-Roam.
+Reader-facing documentation and distribution filename use the official name.
+Legacy PTFR/TowerContinued/TowerContinuation code, resource, save and published
+asset identifiers remain unchanged for compatibility. Renamed distribution ZIP
+`prealpha/full_consolidation_v1/candidate_01/dist/
+Post-Tower-Continuation-and-Free-Roam-v1.zip` has same 51 entries and SHA
+2A148EDF7D99AF9ECCE433959BD23F012E80BAAA764D2F5578C848C8B1AED86D.
+Naming update does not edit installed game files, saves, facts or frameworks.
+Consolidated build remains locally installed; gameplay acceptance pending.
+
+Latest2026-10-25 FULL ALPHA+FIXES CONSOLIDATION INSTALLED; LIVE PENDING:
+USER requests minimum production-install file count incl alpha; prior green flag
+to install production persists. Current full PTFR stack127 files consolidated to
+51: 25archives->1,23ArchiveXL->1,76REDS->46,2CET+1TweakXL retained.
+46REDS is tested safe minimum:45named modules+one global group; one-file-all
+fails REDscript parser at second module. One ZIP `prealpha/full_consolidation_v1/
+candidate_01/dist/Post-Tower-Continuation-and-Free-Roam-v1.zip` SHA
+2A148EDF7D99AF9ECCE433959BD23F012E80BAAA764D2F5578C848C8B1AED86D.
+Includes all117 last-alpha manifest files plus10 later installed, incl SR1; no
+development CET helpers or generated runtime data. Combined archive1153 winning
+resources byte-exact,37internal override winners preserved, zero external mod
+archive collisions. XL742 phases+13 streaming+en-us lipmap preserved. Full SCC
+inclEquipmentEX PASS; compiled E4D48E6C629379A8ADB8DA471FE08457FABBF1E70B1A12CD1FEF8FB3D9A4FFF9;
+decompiled normalized661977-line multiset matches prior compiled build. ZIP
+51paths readback PASS. Installer `prealpha/full_consolidation_v1/deploy_02.ps1`
+25fixture actions incl five interruption rollback points PASS; deploy_01 historical
+rollback edge case fixed in successor02, never run on real game. Actual Validate
+READY/Install/Verify/ValidateRollback PASS. 124retired paths absent,51new hashes
+match;289savefiles unchanged. Old127 archived `recovery/full_consolidation_v1_01/old`.
+Rollback FIRST `deploy_02.ps1 -Action ValidateRollback/Rollback`; file undo
+NOT save undo. No game launch/runtime fact/save edit/public publication; gameplay
+startup, Tower handoff, reload, sidejob/gig behavior LIVE PENDING. No claim of
+production gameplay acceptance yet. Source/proofs in `prealpha/full_consolidation_v1/
+candidate_01`; doc `docs/full_consolidation_v1.md`. Future fixes update combined
+file and archive the replaced version in workspace, not add install overlays.
+
+Latest2026-10-26 SR1 THREE-FILE PRODUCTION-LAYOUT LOCAL INSTALL VERIFIED:
+USER authorized install after requesting fewer files and versioned old-file
+archival. Consolidated candidate `prealpha/sidejob_repair_sr1/production_01`
+REPLACES existing S29 archive, archive.xl, REDS only; ZERO added game files.
+Original S29 archive194members ->199: 185 byte-exact unchanged, nine repaired
+replacements, five new resources (cross-owner Yoko/Bullets/S25 plus KOLD private
+workspot and English lipmap). Existing XL quest list verbatim + lipmap stanza.
+Old three files archived workspace `production_01/archived_previous` and verified
+rollback backup `recovery/sidejob_repair_sr1_production_01`. No zzzz SR1 overlays
+in game folder. Production ZIP contains ONLY 3 replacement paths, SHA
+E79E4E04FAE4ED01E98BEF4669FFBC69F509E0FEB1C333745C1DA4077C8765BF;
+it is existing-install update, NOT standalone/full-mod/public release.
+199-member pack/readback PASS, XL append-only PASS, prior94-source SCC PASS,
+17 production fixture install/verify/rollback/interruption actions PASS.
+Actual Validate READY; Install SR1_PRODUCTION_INSTALLED_LIVE_PENDING; Verify
+VERIFIED; ValidateRollback ROLLBACK_READY. Manifest SHA
+3E168655E2DFC9C58AB347F088F34AE9698A91C7B99DCE4F7F235C4979233043.
+Installed hashes archiveC6E962CC336C2BA9AD93A1CC0C73B2894483657BC2C6B430CCCB1A711D2CCE41,
+XL5926BE9AA5E5F78230507FA5483554899595B77A812CD1A4CE3ADF74B75903AB,
+REDSD1CDF5F27B1C2625581A6CE9A58D90965BFEF94D2E1105651B7400EA364565CB.
+No launch/save/fact/publicrelease writes; gameplay still live pending.
+Rollback FIRST for SR1: `prealpha/sidejob_repair_sr1/deploy_production_01.ps1`
+actions ValidateRollback/Rollback. Fileundo NOT savedgameundo. Historical
+candidate_02 overlays workspace-only. Broader installed alpha still71 PTFR
+archive/XL/scripts; alpha release manifest117 files. Full-mod consolidation
+SEPARATE; do not claim SR1 ZIP standalone. docs/sidejob_repair_sr1_production.md.
+
+Latest2026-10-26 SR1 SIDEJOB REPAIR STAGED; NOT INSTALLED:
+USER asked implement fixes based on side-job audits; prior do-not-install instruction
+retained. Selected `prealpha/sidejob_repair_sr1/candidate_02/package` has 5 files:
+core six-resource archive, seven-resource visual archive `Visual2`, 44-scene
+English lipmap archive+XL, and replacement S29 REDscript. Core repairs Yoko
+This Corrosion choices, Bullets Zane rearm, MQ058 End Quest receipt, Delamain
+predecessor-message guard and duplicate phone-owner protection/adoption.
+Visual fixes Sweet Dreams' two elevator smoking calls using scene-local muted
+workspot at same marker; same scoped policy for Don't Lose Your Mind, Killing
+in the Name, Freedom, KOLD MIRAGE; KOLD exact native workspot private copy
+changes only eventFilter Default->Mute. Sinnerman orphaned ember event removed.
+Six core graph comparisons, full94-source SCC inclEquipmentEX PASS compiled
+C9DBE0E6458A31F1B8F9CE4A568D201CE98C6C070F9F92AD6D91ABC941852744.
+Visual serialized-baseline preservation and 44 lipmap donor/config checks PASS;
+all 3 archives packed/read back; 17 fixture deployment/rollback actions PASS;
+real installer read-only Validate READY. Manifest SHA
+84E82D3E15E1917369E49CB85B45849204E809C8B6C80A10A54AA690F394C529;
+assessment SHA 976CE9AE54490BBD3C977373953CDC40CDC3DBD09210FB52178A5B7C212F8229.
+No game/save/fact/framework/public-release writes or launch. `Visual.archive`
+earlier staged candidate excluded; use `Visual2.archive`. Historical failed
+workspace candidates retained; selected manifest names only. Installer
+`prealpha/sidejob_repair_sr1/deploy_01.ps1` defaults Validate; do not invoke
+Install without renewed user instruction. Live all gameplay pending. Direct
+original-scene Johnny cigarette equip in Shot by Both Sides/Beat on the Brat:
+Glen, Johnny VFX policy risks, Nix/Viktor phone, Cassius tattoo, 4 gig phone
+omissions, non-English lipmaps unresolved. `docs/sidejob_repair_sr1.md`.
+
+Latest2026-10-25 SECOND VANILLA SIDEJOB AUDIT; NO INSTALL:
+USER requested continue sidejobs ONLY, every missing detail, parallel agents.
+Three cohorts audited all78selected jobs (27/29/22) with per-job entry/owner,
+dialogue, phone, items/objectives/rewards, world/VFX, cleanup, follow-up and
+save/resume evidence or explicit unknown. Combined matrix
+diagnostics/restored_audit_20261025_04/combined_78_01.{json,csv};
+docs/sidejob_vanilla_audit_20261025_r2.md. TWO new source findings:
+CA1 Bullets/Zane P2: copied vanilla default owner omits25/26 shop rearm loop;
+encounter cleanup restores default_on but copied owner terminated, private
+ZaneDriver gated by QuestOwns lease held through8h SMS/reply chain. Shop/menu
+downtime source-inferred, LIVEUNTESTED. Exact cohort_a/bullets_service_01.json.
+MQ058 Where Eagles Dare LOW: wrapper64000 listens Out1 but native child only
+returns End Quest; PTFRFinished receipt writer65007 cannot get declared output.
+Native done/journal/cleanup run before return, no selected downstream consumer;
+not claimed reward block. Exact cohort_c/mq058_receipt_01.json.
+Existing SweetDreams cigarette/smoke, ThisCorrosion Yoko, Delamain SJ1/SJ2,
+Sinnerman dangling prop, English lipmaps, Cassius and Johnny VFX risks remain.
+Bullets johnny_spawn_fast normal route and HappyTogether teleportVFX source
+risk, not observed visible defect. SQ024 presumed missing vehicle-hacking helper
+CLOSED: native inline20nodes/28edges; KOLDMIRAGE dedicated Nix scene intact;
+Fred/Viktor/Brendan/BurningDesire/MachineGun/Prophet candidates closed by
+guards/callers. Seven of eight extra Johnny world anchors resolved; no exact
+named cigarette action in seven, one finale sector decoder unknown; shared
+transition selection unknown. Snapshotfixture post_ending_fallback, NOTactive
+save;49Inactive/22Succeeded/6Failed/1ActiveSweetDreams selected roots.
+561protected game/save files rehashed unchanged; no game launch, install,
+fact/save/framework/publicrelease edits. Gameplay/reload rewards/UI still
+LIVEPENDING. Root assessment diagnostics/restored_audit_20261025_04/
+assessment_01.json SHA437FC9B37C2A32D7A24CC8C5C865EF74B2C9473A038733A7C58EEAF05024520C.
+Inputs/proofs pinned; use successors.
+
+Latest2026-10-25 SIDEJOB VANILLA AUDIT / SWEET DREAMS CIGARETTE; NO INSTALL:
+USER says keep auditing against vanilla; reports visible Johnny cigarette in
+SweetDreams elevator. Parallel review authorized from continuing audit. Source
+chain confirmed: mq036_scavengers elevator_in1048->149->158 uses world anchor
+#mq036_ws_johnny_exit, not scene workspotInstanceId. Current world resolves to
+native johnny__stand_ground_cigarette__idle__01, Default filter; exactclip
+johnny__stand__lh_cigarette__aggressive__01 equips crowd_cigarette_i_stick left
+hand +smoke/ember. Existing private copy is Mute but world route bypasses it.
+JV1 hides actor visuals only, retains voice/timing; independent items uncovered.
+Six selected world calls/fivejobs: SweetDreams158+1073, KOLDMIRAGE318,
+KillingInTheName292, DontLoseYourMind298, Freedom178. Different workspots can
+share sameclip. Only SweetDreams USER-observed; others source gaps, no agentplay.
+Additional3normal native equip calls/twojobs: ShotByBothSides apartment330
+(keycard; nativeunequip1423), bunker4733(conditionalbothdead); BeatBratGlen602
+(firstcomment). Glen itemhash101279751730=Items.cigarette_i_stick; other2
+127721248826=crowd_cigarette_i_stick. Total9calls/7jobs NOT9livebugs/orphans.
+Freedom429 Johnny_corpses alias retains johnny_appear_glitch; exactnamefilter
+misses Silverhandaliases. Actualeffectvisibleuntested. HappyTogether4teleport/
+Bullets1spawnFX furthercandidates; notcountedconfirmedvisiblebugs.
+NEW SJ3 HIGH ThisCorrosion/Yoko integration missing: q305root/4 sets talkready17,
+objective31; trigger45 then component_ready wait8. PrivateYoko779 choices4-7
+impossible+disconnected, regularentry4 cannotreach writer620. AlternateStart1
+1324 can, but no restoredcaller; no YokoQuestOwns writer/S29handoff. Two agents
+independentlyconfirm; liveuntested. Need scopedquestconversation, not forcedfacts.
+Compared89privatephases/6711commonnodes,89rootcontexts; approvedchangesonly.
+62scenevariants/61currentdonors:2506retaineddialogueevents+allstores exact;
+266changedanimationmutes allJohnny.134private scenes/236props/16669events;
+selectedscope152scenes=49private+103native,20nativeJohnny scenes freshlyread.
+18/22worldanchors resolved,13workspots/51anims;47959sectors screened.92modheaders
+zerooverridefor103native-scenes+10worldsectors.2selectedDelamainanchors decode
+unknown;4fortunetellerclips unresolved; nativeworld/transition candidates remain.
+Older derivedSweetDreams apostrophe artifact NOTinstalledtextbug. Use freshUTF8.
+Final root cross_verify_visuals_02, sidejobs/yoko_corrosion_02, dialogue/checks_02.
+No implementation/compile/install/launch/fact/save changes.561protected incl289
+saves unchanged, no save additions/removals. Priorphone/lipmap/Delamain/SQ023/
+Cassius issues remainopen. Evidence diagnostics/restored_audit_20261025_03:
+assessment_01.json SHA985C278AACC7385C3E740B5D632D0B4BB30FE351A134B1783C7E5321D5C4FF50;
+manifest2999B68A78A3E75ABF21C77DDD5DF6ECD0C6074109BEF2C9188D3087B885D3CD.
+301evidencefiles pinned;use successors. visual_routes_01.csv/json checklist.
+docs/sidejob_vanilla_audit_20261025.md. All unobserved rendering/rewards/reload
+remain livepending. No recovery/install chain changes; audit-onlyhold retained.
+
+Latest2026-10-25 PARALLEL RESTORED SIDEJOB/GIG AUDIT; NO INSTALL:
+USER explicitly authorizes multi-agent audit. Three reviews plus independent
+main cross-check complete. Three NEW source issues; no live symptom claims:
+SJ1 HIGH: S29 Don't Lose Your Mind requires seven legitimate Epistrophy phone
+history entries Inactive while requiring predecessor Succeeded; native gates
+65003/65004 and runtime Paths12 agree. Retained S22/S25 branches activate these
+messages. Conditional on history, NOT every completed Epistrophy save blocked.
+SJ2 MEDIUM: S25 persistent Delamain controller94 is sibling of content100;
+finish does not cut94 or WRITE shared SupportIssued receipt. S22 excludes S25;
+S29 may start another controller if sequel/idle gates pass. SJ1 can mask this.
+No observed duplicate call, reward or corruption. Repair both together later.
+SQ023 MEDIUM: restaurant section635 ember event2514459860119400448 still targets
+performer12802=prop50 (removed Johnny cigarette); installed props0-47. Reachable
+conservatively via cigarette_in. Engine effect unknown; NO crash claim.
+Actual owner coverage80gigs (72U9/8U10),78sidejobs via94routes. Corrects prior
+BigInJapan/Prophet/Sinnerman owner misattribution. Remove none/0/empty external
+resource sentinels BEFORE pruning inline fallback:14 false prunes corrected,
+199 real external fallbacks pruned. Prior aggregate reachability not re-certified.
+17currentnative parents/219embedded resources/115selected bindings accounted;
+no graph drift. Roads07/TreatingSymptoms12 follow-up producers and gates retained.
+134scenes/41818binding+1729animation-ref checks;46S29scenes/4954quest payloads/
+331player-camera events preserve semantics. 206stale auxiliary metadata refs
+are candidates, NOT206gameplay bugs. 8371runtime path/class pairs/232tables valid;
+four reachable stored path candidates inherited from current native nodes.
+Known4gigphone contacts/44Englishlipmaps/Nix-Vik conditional returns/Cassius
+purchase issue remain open; JD1 live checks pending. No fixes/compile/install/
+game launch/facts/save edits.561protected incl289saves unchanged. Static audit
+does NOT prove all actors, rewards, active-save resumption, reloads or gameplay.
+Final diagnostics/restored_audit_20261025_02/assessment_01.json SHA
+2FBDE625E031A7C4847776F9414327880466F374B75280C92387B3D82B66A527;
+manifest B55993654BDD7E2EA1C9D1E4A08EB586DD352D11EDC2BF987D042C863DF2C92E.
+coverage_158_01.csv/json replace prior owner mappings. Main cross_verify_03,
+journal_review_02/journal_native_review_02, complete_02 final; earlier verifier
+and report-link attempts workspace-only. Evidence pinned; use successors.
+docs/restored_audit_20261025_parallel.md. No recovery/install chain changes.
+
+Latest2026-10-25 SECOND RESTORED QUEST AUDIT; NO INSTALL:
+USER requests all restored sidejobs/quests audit. All158 selected entries
+(80gigs/78sidejobs) have installed static journal bindings; NOT gameplay proof.
+92modarchives inventoried;1044winning PTFRquest/scene resources plus1709native
+traced=2753resources/204114nodes,176425conservative reached,742injectedowners
+including services/activities. Additional EP1cleanup read confirms inline paths.
+51phone requestfacts audited;6lack restored listeners. NEW source omissions:
+NastyHangover KarlGinsky audio; DesperateMeasures PedroAimar audio;
+SpyintheJungle MarkBana audio+Janet holo. Controllers AND cleanup absent.
+Original baseinit Karl140/Pedro141; cleanup497/496. EP1init Janet20/Mark21;
+cleanup inline79/81 guarded80/82. No claimed live reproduction or universalblock.
+Nix/Viktor phone-return branches also lack support; normalinperson separate,
+actual entry context/quest-blocking impact UNPROVEN. Original init130/96,
+cleanup494/354. Meredith retained farewell is not oldholocall branch;
+Daniels inlinecleanup present. Avoid false positives from filenames alone.
+134winning scenehashes unchanged; prior44Englishlipmap omissions remainopen.
+LegacyS1seat badindices dormantoptin; doNOTarm. JD1 installed LIVEPENDING.
+Seven unmatched ports +absentSQ024vehiclehacking backgroundphase inherited
+native candidates, NOT confirmed PTFRregressions. Seven courier subdependencies
+indexedpresent but not recursively reviewed; activity outside158selectedscope.
+Static traversal overapproximates conditions/timers/outputs; arbitraryactive
+resume,excludedancestorcoverage,worldinteractions,rewards/escrow/reload LIVE
+PENDING. No general allquestswork claim.561inputs incl289saves unchanged.
+No game launch/gamewrites/save/fact/framework/publicrelease/installchanges.
+Evidence diagnostics/restored_audit_20261025_01/assessment_01.json SHA
+7FAEB79A858C531777EA3CA45AC06D9DDA78179AA84492712282C87207962013.
+Final final_review_01 +reach05/model05 (fallbackpruning applied in finalreview),
+coverage158CSV/JSON, phoneaudit01, EP1cleanup_proof02. Inputs/proofsPINNED;
+use successors. native04 partialfailedworkspaceextract; native05+ successors
+used. No failed output installed. docs/restored_audit_20261025.md.
+Next authorized scope was AUDITONLY; earlier lipmap installhold remains.
+Future repair original scoped phoneboot+cleanup, preserve queued requests and
+existing owners; never restart global initializer or force quest facts.
+
+Latest2026-10-25 JD1 JUDY DOOR / DENNIS PHONE INSTALLED; LIVE PENDING:
+USER reports upstairsJudydoorunlocked; Dennisnoincomingcall,proceededbytalking.
+Explicitapproval installtwofixes. HousinghadnostrictJudyprivateentrancelock.
+JD1 exactupstairsdooronly; outsideclose/lock, ownlockreleaseforinsideegress;
+nativeinterioranchor+pathboundtocurrentworld; unknowndefer,thresholdmargin.
+Visualopen suppression synchronizesPSfirsttoavoidrecursiveUpdateDeviceState.
+MQ038 originalcallsretainedbutDenniscontroller/cleanupmissing. Log19:49:20
+start_activate1withoutstart. Newonce-onlynative106handler; freshMQ038wait1003
+requiresreceipt. ExistingPTFR-ownedunfinishedresume permitsqueuedrequest,
+noquestrestart/factclear. NativeMQ038holdsmanualinterruptuntilcall_out: existing
+listenerbootstrapmustnotwaitonthatflag; setup/resetguardsretained. Original
+cleanup439/303 appendedbehindownreceipt; old69nodepayloads unchanged.
+Fourfiles: HousingPurchaseoneTickline replacement; addJudyDoorJD1+archive+XL.
+Threearchiveresources:1newphoneboot,2PTFRoverrides; noofficialoverrides.
+Full94sourceSCCinclEquipmentEXPASS; 27803offlinechecks+14installeractionsPASS.
+Install/Verify/ValidateRollbackPASS;721protectedincl289savesunchanged.
+Noassistantlaunch/manualfacts/framework/lipsync/publicreleasewrites.
+Finalnative_02/tests_02,compile_04; sources/proofsPINNED,usesuccessors.
+ManifestB9B0A332D3177FD80E40AF684AE369F43412CD24AF4330302AFD62B5D286D3C6.
+Assessmentprealpha/judy_dennis_jd1/candidate_01/assessment_01.json SHA
+AB09FE7D7E06CFD5FE7A7FB649BF84AA72D1DF66673FAE749425504C69233B22.
+RollbackJD1FIRSTbeforeS29/S23/H5:prealpha/judy_dennis_jd1/deploy_01.ps1
+-ActionValidateRollback/Rollback;recovery/judy_dennis_jd1_01.
+FileundoNOTsaveundo; retainpreJD1saveforremovingnewphoneowner.
+NEXTcoldloadprivateJudylock/insideexit/reload; Dennisnextnativecall/end/interrupt,
+earlierfixtureforalready-passedcalls. AllLIVEPENDING. docs/judy_dennis_jd1.md.
+USER nowrequests anotherbroadmissingdependency auditofrestoredsidejobs/quests.
+
+Latest2026-10-25 ENGLISH LIPSYNC AUDIT; USER SAYS DO NOT INSTALL YET:
+Stefan Englishvoice/body work, mouthstatic. CurrentEnglish lipmap registers
+originalscene17020050437040647170, NOT private17166679345968396119; Stefan
+voiceTag1624173162010259716 andall29usedlineclips present. NoJohnny adaptation
+onStefanscene. Confirmedregistrationomission; gameplayrepairNOTtested.
+Userbroadensaudit+NOINSTALL. 134winning/136entries/24PTFRarchives inspected,
+91modarchivesresourceindex; nocustomlipmapconfigs. 44scenes/122actorbindings
+missingnativeEnglishregistration:30S29+10main+2S25+1RoguePA6+1U10. Bindings
+NOTuniqueNPCs; retainedbranchreachabilityunproven. Johnnyvoicealiasesexcluded.
+114facialassets/1377event-referencedlines/rigsallpresent; zeroadditionalinvalid
+actorrefs/animationindices/missingdirectanimationresources/unresolvedlineIDs.
+245additionalRID/dynamicindicesPASS. SevenunusedNix/Mateoscreenplayclipsnotbugs.
+Nativeandroid/Delamainbackoffice/podsoldiercaseslackNPCmapinoriginaltoo,excluded.
+SeparateknownlegacyStreetkidS1seatIDs0,1,3 stillbad; gateEnabled1, superseded
+opt-in, currentruntimeflagunknown; doNOTarm. Noinstalledchanges/game/save/facts.
+91PTFRarchive/configfileshashunchanged. Preliminaryone-sceneSL1 workspaceONLY
+prealpha/stefan_lipsync_sl1/candidate_01; packednotinstalled, nofull/liveclaim.
+Preferconsolidatedfuturemappingrepair; USERhasNOTauthorizedinstallationyet.
+Evidence diagnostics/stefan_lipsync_20261025_01/assessment_01.json SHA
+D964375963C7012B6A0E9A7AFFE53D8EED5998044152D3CF5B6F24BA56FE4830;
+finalinstalled_audit_01/analysis_02+clip_audit_01/line_checks_02. Full44CSV;
+docs/lipsync_audit_20261025.md. FinalsPINNED,usesuccessors. Englishonlychecked;
+initialanalysis01Johnnyaliases/unusedlinesovercount correctedin02.
+
+Latest2026-10-25 ORIGINAL UV/VTK RESTORED; NEW-STACK VISUAL TEST PENDING:
+USER restoreuv/vkt. Verified/reversedcosmetic03->02->01 usingoriginalinstallers.
+UVmapping now34C90A065970E9D23A58E1E6222E7C97D7E7ED47973735226A2FB6B12719FCBC;
+VTKhead nowA910A12A16EE8D2DE0E0FA82756C08495CD1514B3715168BF898F6CABB8EF138.
+All11installedfiles match originalZIPs:UV4.1,VTKBody3.4,Head3.1,ExtraTextures1.0.
+Restoresfemalehead/bodyUVmappingand3VTKheadgeometryresources;otherassetsunchanged.
+Validate/3ValidateRollback+Rollback/Verify/ValidateUndoPASS;770protectedincl289
+savefiles unchanged. CapturedCURRENTclosed-gamebaseline afterusercache/save
+changes; earlierinstallcachebaselinewasstale. Newframeworks+EquipmentEX1.2.10+
+PTFRpreserved. Noassistantlaunch/save/facts/frameworkchanges. Previousvisualpass
+wasWORKAROUNDS;originalUV/VTKwithnewofficialstack LIVEPENDING. Inputs/proofs pinned.
+Manifest1DDBB21CA6A56312ED8815E7486B42F4291EC736DEE1493488C7B8347D69DA05.
+Evidence diagnostics/uv_vtk_restore_20261025_01/assessment_01.json;
+docs/uv_vtk_restore_20261025.md. ToREINSTATEworkarounds useNEW restore_01.ps1
+-ActionValidateUndo thenUndo;backup recovery/uv_vtk_restore_20261025_01.
+Old03/02/01receiptsnowROLLED_BACK. FileundoNOTsaveundo. USERalsorequestsupdate
+check:publicUVlisting4.1;liveUV/VTKpagesadult-content-gated;USERreportsnoupdate
+needed. OriginalUV/VTK restoration reverified;770protected unchanged, no rewrite.
+No newer cosmetic download/install in restoration. NEXTcoldloadappearance.
+
+Latest2026-10-25 EQUIPMENTEX1.2.10 INSTALLED; LIVE PENDING:
+USER downloaded NexusZIP and requestsinstall, superseding self-install plan.
+Source Equipment-EX6945 1.2.10 ZIP SHA
+BD3628AF0851AF4CC5083E40F890E9E7423305CB7E3017F48F9E06A8BC6B6E17.
+3replacements:EquipmentEx.reds,EquipmentEx.Global.reds,redsUserHints TOML.
+Archive/XL/license byteidentical retained. NewrequirementsCW1.21.1/AXL1.28/
+TXL1.12 match justinstalledframeworks. Full93sourceSCCinclEquipmentEX PASS,
+compiledD0C7F643A7601B96F71D3B02C069E57F2F3258E7E66A07F88817FA0B5DA0954B.
+ActualcompiledchangesONLYEquipmentEx.Version +3CompatibilityManager minimum
+versionconstants;allotherclasses/savedfields unchanged.14installerfixturesPASS;
+Validate/Install/Verify/ValidateRollbackPASS;762protectedincl283saves unchanged.
+No game launch/saveedit/facts/PTFR/framework/cosmetic changes. EquipmentEX is
+OPTIONALforPTFR,installedasuserexistingoutfitmod. candidate01 proofs PINNED.
+Manifest1268D6C252702E6FF6AE1C388336DB59AEFE857776B4B10413618DA60A053787.
+Evidence diagnostics/equipmentex_20261025_01/assessment_01.json; rollback via
+diagnostics/equipmentex_20261025_01/install_01.ps1 -ActionValidateRollback/
+Rollback;backup recovery/equipmentex_20261025_01. UndoEquipmentEX BEFORE
+downgradingOct25frameworks to avoid minimumversionfailure. FileundoNOTsaveundo.
+NEXTcoldstartWardrobe/outfits,thenS29followups. LivebehaviorPENDING.
+
+Latest2026-10-25 FIVE ESSENTIAL FRAMEWORK UPDATES INSTALLED; LIVE PENDING:
+USER installthem; EquipmentEX USER handles separately after Chrome access denied.
+Official RED4ext1.31.0(+winmm),Codeware1.21.1,ArchiveXL1.28.0,TweakXL1.12.0,
+ModSettings0.2.22for2.50 installed. Five official ZIP published SHA256 PASS.
+Codeware DLL official; Global.reds retains ONLY earlier PR65 two-line empty
+Variant fallback, absent upstream. GlobalSHA9736FEBC39BF88AD920068737BA6BBD0B
+C78F39D3E785FB629558E39AAAF990B. AXL official SDK5246e659 preserves slot450/
+tag4E0,CMesh220,StatIDTypeint8 and emptyparts guard; no older SDK regression.
+CET1.38/redscript0.5.32/DQC3.3.1/EquipmentEX1.2.9 retained; RHT held outside.
+Full93sourceSCCinclEquipmentEX PASS;146PTFRclasses unchanged;212classeswith
+persistentfields retain schemas;51Codeware class names retained. CompiledSHA
+9AE65E63F6E164814BB23605E2426B10C6FF95A89E5B2257F1FC69FB66852CE3.
+23replacements+2newAXLfiles;14installerfixtureactions PASS. Validate/Install/
+Verify/ValidateRollback PASS;740protectedincl283savefiles unchanged. PTFR S29/
+CF1/H6/HS2/H5/FS1,cosmetics/settings/Persistent/caches preserved. No game launch,
+saveedit/manualfacts/publicreleasechanges. Initialcandidate01 assertionfailed
+workspaceonly;candidate02 finalinputs/proofs PINNED,use successors. Manifest
+5650192109AFB6564C785FA6EB64817FDDB97544FED47E39C9665D8C0356C75D.
+Evidence diagnostics/core_updates_20261025_01/assessment_01.json;
+docs/core_updates_20261025.md. Recovery FIRST for framework stack:
+diagnostics/core_updates_20261025_01/install_01.ps1 -Action ValidateRollback/
+Rollback;backup recovery/core_updates_20261025_01;THENOct24/SDK230/olderPR63.
+FileundoNOTsaveundo. NEXTuser addsEquipmentEX,coldstart/checkModSettings/setup/
+outfitdisplay,thenS29followups. New framework live behavior PENDING.
+
+Latest2026-10-25 ESSENTIAL MOD UPDATE CHECK; NO INSTALL:
+Live GitHub API/Nexus now show SIX newer releases: RED4ext1.31.0 (24Oct),
+Codeware1.21.1 (25Oct21:05Z; 1.21.0 earlier same day), ArchiveXL1.28.0,
+TweakXL1.12.0, ModSettings0.2.22, EquipmentEX1.2.10 (Nexus25Oct21:07).
+Installed remains RED4ext1.30/CET1.38/redscript0.5.32; CW PR63+65 reports1.20.6,
+AXL PR31+SDK229/230+PR32guard reports1.27.5; TXL PR22 reports1.11.5;
+ModSettings PR33+34 reports0.2.21; EquipmentEX1.2.9. Hashes match prior receipts.
+CET1.38/redscriptstable0.5.32/DQC3.3.1 current. RHT1.3rc3 unchanged/held.
+ModSettings0.2.22 requires RED4ext>=1.31,AXL>=1.28,redscript>=0.5.32.
+CW1.21.1 fixes mixed streaming-sector versions/scripted ink event propagation;
+AXL1.28 fixes potential ent-patching crash. Author release claims, NOT new-stack
+PTFR compile/live proof. Latest web caches initially lagged CW/MS; API/tag pages
+confirmed hotfixes. Future install must retain local-patch comparison/rollback.
+Read-only check; no downloads/install/game/save/fact changes. Evidence
+diagnostics/core_updates_20261025_01/upstream_check_01.json and installed_01.json.
+
+Latest2026-10-25 S29 REMAINING18 SIDEJOB ENTRY POINTS INSTALLED; LIVE PENDING:
+USER requests remaining18 then tests follow-up quest trees. Added16native job
+owners/18journals (3Sinnerman oneowner),7phoneboots,194resources. Coverage80/80
+gigs+78/78sidejobs=158/158ENTRYIMPLEMENTATIONS, NOTgameplay/resumeproof. Full
+native delays/AND-OR gates/choices/rewards/escrow retained. ScopedVenus excludes
+Pickup money/corpse/cat branches; Delamain starts afterEpistrophy with original
+sequel; Corrosion breadcrumb excludes equippedCanto reactions. Corpo actual
+wst_ep1_02; OneWay parentSTS_EP1_07. Nix/Pepe wait actual service release;
+6newphonecontacts+sharedS22Delamain claim, currentS27cleanup extended. Private
+Johnny presentation retains actors/IDs/voice, strips own visualevents/props,
+mutes ownworkspots and splits sharedbinding; no official-resource overrides.
+Fresh-only2observations+native recheck; existingIssuedneverreset. BaselineActive/
+Succeeded/Failed denied; unsupportedunfinishedDEFER, no restart. HS1catalogue
+140detailed/18rootonly andfingerprint/savedfieldsunchanged; one readonlyFreshS29
+method added. 4files:3add(archive/XL/REDS),1replaceSnapshotStateHS1. Combined93
+sourceSCCinclEquipmentEX PASS;17664nativechecks/14installeractionsPASS.
+13836othercompiledclasses andall13838existingsavedclassschemasunchanged.
+Validate/Install/Verify/ValidateRollbackPASS;703protectedincl283savesunchanged.
+No assistantlaunch/manualfacts/save/framework/publicreleasewrites. CF1,H6/HS2,
+H5,FS1 preserved. Buildnative_04/runtime_06/compile_04 andproofsPINNED;successors.
+Earlierfailedworkspacecandidates correctedbeforeinstall. Manifest
+973B6786717643457B45206456FB4D84D462159394A7672B7129C6C9932D901A.
+Assessmentprealpha/sidejobs_s29/candidate_01/assessment_01.json; docs/sidejobs_s29_playtest.md.
+RollbackS29 FIRSTbeforeHS2/HS1/olderphonecleanup:prealpha/sidejobs_s29/deploy_01.ps1
+-ActionValidateRollback/Rollback;recovery/sidejobs_s29_01. FileundoNOTsaveundo.
+NEXTcoldloadpreS29postTowerfixture; normalprerequisites/calls/delays/followups,
+nativechoices/rewards/inventoryescrow, newmanualslot/reload.LIVEPENDING.
+
+Latest2026-10-25 CF1 LOCAL REPRODUCTION LIVE PASS:
+USER "fixed". Log16:21:32T1000/16:21:33PainDistributor:CF1nativecleanupguard
+executedforboth,CD1exactitem/dataID/hash/seedunchanged,qty1->1,parts2->2with
+identicalpartIDs/seeds/slots,equippedslotempty,bothresult1. Ready16:22:07,
+elapsedSim42.312500;nonewCD1FAIL/result-1inthisattempt. Confirmslocalfixof
+reproducedstopandpreservationforbothrecords, includingnativeeffectorroute.
+InstalledCF1hashmatchespinnedsource. Runtimecompile16:14:25PASS. Evidencecopied/
+hashverifieddiagnostics/alpha_cyberware_20261025_01/local_pass_01/assessment_01.json
+SHAD702E467DE4387C3ACB3DB26906D84314E3B29641DE17217720E41E2CA72D141.
+DoNOTrepeatbasicendingrepro. Remote tester/manualsave-reload/exhaustiveeffect
+cleanupNOTverifiedbythisrun. No newinstall/runtime/save/fact/publicreleasewrite.
+ExistingCF1/CD1sources/proofs/rollbackchainretained; docs/cyberware_cf1.md.
+
+Latest2026-10-25 CF1 CYBERWARE PRESERVATION FIX INSTALLED; LIVE PENDING:
+USER reproducedbeforethugq307 withbothSkeletonIDsverifiedequipped. CD1at16:04:56
+T1000exactinstanceqty1->0/readbackfalse,slotempty;2partsBEFORE. Maskpasses;
+Painnotattemptedafterlatch. StockSkeletonOnInsertion->PowerUpCyberwareEffector;
+nativeRemoveSlotGLPsbeforeclearslot->UninitializedeletesenhancednoSideUpgradeItem.
+Runtimeexact-itemlossconfirmed; nativesource/datapathmatches, directCF1logNEXT.
+Noevidencebodymodcause; absenceofallbasecompanionsNOTproven. CF1ONEaddedREDS
+CyberwarePreservationCF1:wrapeffectorUninitialize, skipdeletionONLYsameowner/data,
+boundedSkeletonslot,exacttransientPTFRremovalID+activeDenied. Allothercallsnative.
+Existingnativeunequip/statcleanup/conservationfaults/returns/savedfieldsunchanged.
+Retainexistingadvancedinstance;nogrant/recreation/baseconversion/faultclear.
+SCC92inclEquipmentEXPASS compiled69048139F144775725FADF354506BB475C1CCE21746BC0B6646D5C649C5A574A.
+Compiledreadback13836otherclassesunchanged(normalizemethodorder/generatedIDs),
+allpersistentfields/originalremoval/fallbackunchanged;14installerfixtureactionsPASS.
+Verifier01methodorderassertfailed,02PASSwithoutcodechange. Validate/Install/Verify/
+ValidateRollbackPASS;696protectedincl277savesunchanged. Noassistantlaunch/facts/
+save/framework/archive/publicreleasechanges. H6/HS2/CD1/H5/FS1retained.
+Manifest759A188913CEFC7E0D1B452F00CFEE195FEB221AC4819FE3D7BF916C4D1FF3FD.
+Assessmentprealpha/cyberware_cf1/candidate_01/assessment_01.json SHA
+6ECB083B73E883F4AAAE24F687E3B9A038C0457BF04A625F281CD8DFDD7A73A5.
+Sources/proofsPINNED;usesuccessors. Evidencealpha_cyberware_20261025_01/local_repro_02.
+RollbackCF1FIRSTbeforeCD1/olderR1:prealpha/cyberware_cf1/deploy_01.ps1
+-ActionValidateRollback/Rollback;recovery/cyberware_cf1_01. FileundoNOTsaveundo.
+NEXTcoldloadoriginalprefailfixture,bothSkeletonsequipped,CF1logs+CD1parts/qty
+conserved/results1,Ready,removed-effects/newmanualslot+reload.LIVEPENDING.
+docs/cyberware_cf1.md. PriorSkinreadbackwrong;actualSkeletonsuserconfirmed.
+
+Latest2026-10-25 CD1 REPRO SLOT-CHECK CORRECTION:
+USER beforethugsceneq307, liveR1 mode0/activefalse/pending0/faultfalse. PTFR
+restrictionNOTblockingatthatmoment; priorcompleted-saveinferencewasincorrect.
+BothAdvancedT1000Legendary2/AdvancedPainDistributorLegendary2 stockequipArea
+161463225742 resolvesMusculoskeletalSystemCW(Skeleton), NOTIntegumentary(Skin).
+Assistantpreviouslygavewrongskin-slotreadback; its3emptyIDsDONOTprovefailed
+targetequip. NEXTcheckactualrecord-derivedarea/skeletonslots. Sharedvariant
+prereqHumanityAvailableexists; failureNOTproven. Earlierlocalrunstilldidnotlog
+targetremovals. Evidence diagnostics/alpha_cyberware_20261025_01/equip_area_03.json.
+No runtime/save/fact/installationchanges; testerconservationfailureunresolved.
+
+Latest2026-10-25 H6/HS2 USER LIVE PASS + RELOAD PERSISTENCE CONFIRMED:
+After H6/HS2 install user reported "it works", then confirmed persistence after
+the requested manual-save/reload check. Record paid H10 ownership/interactions
+and successful reload as USER-REPORTED PASS for this fixture. Exact slot and
+postreload balance were not supplied; no new log/save inspection this turn.
+No claim of exhaustive housing/other-save/locale coverage or unrelated CD1 fix.
+Documentation only; pinned build/install evidence and rollback chains unchanged.
+See docs/h10_h6_snapshot_reload_hs2.md. No further repetition of this test needed.
+
+Latest2026-10-25 CD1 LOCAL REPRO PASSED SETUP; TARGET REMOVALS NOT EXERCISED:
+User session15:31:47-15:40:30 Toronto on confirmed2.50; scriptscompilePASS,
+normalshutdown. Ready15:37:38 elapsedSim42.968750. CD1 onlyremovedMaskCWPlusPlus
+andAdvancedSmartLinkLegendary successfully; quantities/partidentities conserved.
+NoCD1FAIL/result-1/SetupStopped inthissession. CET loggedfourtargetEquipRequests,
+butneitherAdvancedT1000Legendary2 norAdvancedPainDistributorLegendary2 entered
+CD1removal. SubmittedrequestNOTproofequipped; refusalvslaternativeendingremoval
+undistinguished. TesterfailureUNRESOLVED; thisrunNOTnegative reproduction of
+targetremoval. CD1installedhashesunchanged. Evidencecopied/hashverified under
+diagnostics/alpha_cyberware_20261025_01/local_repro_01/assessment_01.json.
+NEXTverifyactualskin-slotsafterequipBEFOREending, or testerreproducewithCD1.
+Noassistantlaunch/runtime/save/fact/installchanges; H6/HS2/otherchainsretained.
+
+Latest2026-10-25 H6 H10 SERVICES + HS2 RELOAD CRASH FIX INSTALLED; LIVE PENDING:
+USER H5dialogue/doorPASS; ownediconappearsafterleave/return;NOinteriorprompts.
+Auto19/Auto2 copies/hashverified diagnostics/h10_services_20261025_01/inputs_02.
+BothHousingRecordstate3,one25000debit219342->194342,Entitled/AccessApplied1.
+H10PReady1;Enabled/Active/Interruptedabsentserialized,NOTassertedlivezero.
+H10sceneabsentinstances;Auto19nearaptincludesWilsonscene. OldH10admissionbehind
+general!IsEntityInScene+10tickthrottle; sourceblockerconsistentlogs, exactlive
+predicateNOTrecorded. H6movesONLYsameH10permission/revocationblock to1secpoll;
+ambientscene->actualdialogueguard. Combat/workspot/mount/tier/savelock/tokens/
+location/nativeack/idle/entitlementretained. Noownerreset,replay,debit,sceneedit.
+H6oneBaselineREDS SHA5D03F0FF9E6E6C521C7A1FC6A9F0DBBAA892461C9A850F5194BEE72D9CB5DED0.
+USERAuto2loadcrash15:18:10BEFOREinstall. Dump7bb890copySnapshotRowHS1.facts
+inRowJSONfromCET,index150/count179/sourceheader0. OldCanExportsavedready/frozen;
+load/restore raceinferred,clearingwriterunidentified. HS2simcallbackserializes
+16rows/tick totransientJSONcacheafterattachment;CETreadscompletedcacheonly,
+attached/pregamegate;restore/detachinvalidate. Savedfields/format/origin/admission/
+fileverification/ackunchanged. TwofilesSnapshotStateHS1+snapshotLua replaced.
+HS2SCC91/30checks/14installeractionsPASS;H6SCC91/53checks/14actionsPASS.
+BothValidate/Install/Verify/ValidateRollbackPASS;protected679/680incl265saves
+unchangedatdeploy. Userloadchangeduser.glsbeforeclosedbaseline;save-slotfiles
+unchanged. InitialH6CLIstringoperator/testparsererrorsfixedbeforepackaging.
+LaterOTHERtaskCD1twofileschanged,verifiedreceipt;combined91sourcecompile04PASS
+SHA1AB2995A3D18E1F6F2A13E0E1EF6A8D753C679544A81F0A1B1B63E0A44629115.
+Noassistantlaunch/manualfacts/save/archive/framework/cache/publicreleaseedits.
+Assessment diagnostics/h10_services_20261025_01/assessment_02.json SHA
+B490D16C17BBDDED57BCAAE6E68DF55284B0A513E199A9DAD0278335299431A2.
+Finalsources/proofsPINNED;usesuccessors. H6FIRSTbeforeolderBaseline rollback:
+prealpha/h10_h6/deploy_01.ps1 ValidateRollback/Rollback;recovery/h10_h6_01.
+HS2FIRSTbeforeolderHS1snapshot:prealpha/snapshot_reload_hs2/deploy_01.ps1 same
+actions;recovery/snapshot_reload_hs2_01. Disjointtargets;HS2undo restoresunsafe
+exporter. FileundoNOTsave/paymentundo. H5/FS1/CD1chainsseparate. NEXTAuto19paid
+nearH10coldload,prompts,newmanualslot/reload;Auto2crashfixture.LIVEPENDING.
+docs/h10_h6_snapshot_reload_hs2.md. Immediateiconrefreshnotchanged.
+
+Latest2026-10-25 CD1 LOCALLY INSTALLED AT USER REQUEST; REPRODUCTION PENDING:
+Installed ONLY the two existing CD1 diagnostic scripts, EquipmentHooks.reds and
+StartupCoverLC1.reds. Hashes match pinned diagnostic ZIP; all removal guards,
+returns, native call, profile transactions, saved fields and readiness retained.
+CurrentH5/FS1 stack compiled91sourcesinclEquipmentEX PASS SHA
+9C07BDB0A24D3D850063BC7D0A98615FF681B05DA0EF3B76242AE88732B0BFA6.
+14realinstallerfixtureactionsPASS. Validate/Install/Verify/ValidateRollbackPASS;
+679protectedfiles incl265savefiles unchanged. Game/launcher closed throughout;
+no assistant launch, CET command, save/fact/archive/framework/publicrelease edit.
+Recovery FIRST for these files: prealpha/cyberware_cd1/deploy_local_01.ps1
+-Action ValidateRollback/Rollback; backup recovery/cyberware_cd1_local_01.
+Local proofs build/local_install_01; manifest SHA
+DC6CD1D231FD73E647DD6EBE2CF4A2CE3B9357A86EE8C12345352A4262C990CC.
+Original tester ZIP/proofs remain pinned. Diagnostic-only, NOT a gameplay fix.
+NEXT user reproduces on disposable untouchedpreending save, preserves gamelog
+CD1 BEFORE/AFTER/FAIL rows before another launch. FileundoNOTsaveundo.
+
+Latest2026-10-25 CD1 ALPHA TESTER CYBERWARE STOP DIAGNOSED; PATCH NOT INSTALLED:
+Tester alpha/pre-ending log has AdvancedT1000Legendary2 result=-1 twice and
+AdvancedPainDistributorLegendary2 result=-1 once, each immediately before cover
+SetupStopped. Five preceding implant removals conserve item/parts. Camera/control
+ack1; native arrival/optics/housing faults0/0/0. Confirmed R1 conservation latch;
+missing item vs quantity vs part-count vs identity/slot NOT distinguished by old
+log. Body mod reported; game probably2.5, exact loadout/patch unconfirmed. No proof
+of item destruction or body-mod cause. CD1 diagnostics-only two-file alpha overlay
+adds bounded pre/post item/part/quantity logging and all-six-fault popup/status.
+Original native removal/control flow/guards/returns and saved fields unchanged;
+compiled removal equivalence after removing log calls PASS. Full90source SCC
+inclEquipmentEX PASS B99B66B86D1CF9C7589E8621D20CA854B6428ED449AA4DF32AEF1CE83671D3ED.
+ZIP dist/cyberware-cd1/PTFR-CD1-diagnostics-for-alpha.zip SHA
+989E5B3E196698F6B872CC2EC3E35A854DB9D7F67EA6E6532B806229B80EEEF8; readbackPASS.
+NOT gameplay fix; tester must reproduce once from untouched pre-ending save and
+return gamelog CD1 rows. No local install/launch/save/fact/framework/archive or
+public-release writes. CurrentH5/FS1 remain installed. OriginalalphaZIP unchanged.
+Sources prealpha/cyberware_cd1; proof build/candidate_01; evidence diagnostics/
+alpha_cyberware_20261025_01/assessment_01.json. docs/cyberware_cd1.md. Rollback on
+tester closesgame/restores2originalalpha files; fileundoNOTsavedgameundo.
+
+Latest2026-10-25 H5 EXPLICIT H10 DIALOGUE PURCHASE INSTALLED; LIVE PENDING:
+USER requests conversation-style choice instead of automatic activation.
+H5 actor-free native scene attaches onScreen to exactH10door;3.5m activation/
+5m indication. English Buy25000/Notnow; inactive insufficient-funds row.
+No proximityShow; oldH3Show/callback+olddevicehandler inert, duplicate action
+removed. Native entryONLYchoice+Ready0watch; explicitbuyONLYRequest1writer;
+cancelwritesCancel1. UI consumes/disarms BEFORE unchanged HousingState.Purchase.
+Attach/reset clears stale UI requests, eligibility/source/quote rechecked;
+Notnow/refusal suppressuntilleave/reapproach. No automaticdebit/retry/refund.
+EntirecompiledHousingState, Price,Location,Popup(DLC),Website,Map,Doorunchanged.
+Existing lock/egress/payment/receipt/schema/paidservices/FS1 preserved.
+5files:replaceHousingPurchase/HousingDevices;addHousingDialogueH5.reds,newH5
+archive+XL (2unique resources,nooverrides,noactors). Noexistingarchive/framework
+or save edits; no launch/manualfacts/publicrelease. Full91sourceSCCinclEquipmentEX
+PASS compiledB7BEA2FF79DF6320D81727427746909C377FE7026EA735E0DCC9771DAF98FAC4.
+64offlinechecks+14actualinstalleractionsPASS; Validate/Install/Verify/
+ValidateRollbackPASS;674protectedincl265savefilesunchanged. Initialtestassert
+scopedtoH10UI becauseunchangedwebsiteguardretainsinfoPopup; nofailedcodeinstalled.
+Manifest8208BD53DCE5DB41E4D885CD3F3628FA491D9111E3515C4DD71EC02D31628AC9.
+Assessmentprealpha/h10_h5/candidate_01/assessment_01.json SHA
+9AC52AD8B9EF7A42842CDB30C3926526C1BF78FBF7AC7F9EF3410F26B2F9EC86.
+Sources/proofsPINNED;usesuccessors. H5rollbackFIRSTbeforeolderhousingUI:
+prealpha/h10_h5/deploy_01.ps1 ValidateRollback/Rollback; recovery/h10_h5_01.
+FileundoNOTsave/paymentundo;keep preH5save forremovingnewnativeowner.
+NEXTcoldloadunpaidpostTowerfixture,doorchoice/cancel/nocharge/reapproach/buyonce/
+unlock/icon/services,newmanualslot+reload. Placement/input/transactionLIVEPENDING;
+Englishonly,otherlanguagesuntested. docs/h10_h5.md. FS1livealso stillpending.
+
+Latest2026-10-25 FS1 FRED PRIVATE SCENE RANGE REPAIR INSTALLED; LIVE PENDING:
+USER requests fix after scene-source investigation. Fred requires V for real
+spoken dialogue; cast/scene unchanged. Existing S25 fred.questphase ONLY changed:
+ordinary scene admission<8m/departure>12m from original Fred reference; NPC
+spawn/despawn remains original100m loading-marker lifecycle. Freshboxing
+Issued1/Fault0 retains original50m admission/100m departure and scene300.
+All original IDs/types retained. Nodes4/5 conditions updated;5.Out->400;new
+400farbranch/401cutONLYprivate3+pending4/402nearORfarwait/403farbranch, then
+rearm4+5 onreturn. Oldsavedwait5 canreachrelease withoutparentrestart; engine
+savedconditionresumption/actorrelease LIVEPENDING. No300cut,spawnreplay,factreset,
+saveedit,reward/quest/H10change. Fred.scene and mainarchive unchanged.
+S25archive beforeDDCDA373...,afterFABEC35F7E3EFB0A017798C0F464FD17762F8206C2EDA344780C7A3A44B35E24.
+FredphaseDF55D1C3725EDC1D9009F017E8D44679B6F718982E84C51BB47224C7672B94A0.
+25otherresourcesbyteexact.702offlinechecksincl162conditioncases+14actual
+installerfixtureactionsPASS. Validate/Install/Verify/ValidateRollbackPASS;
+675protectedincl265savefilesunchanged;116otherPTFRfilesunchanged. No launch,
+manualfacts,framework/REDS/newcompile/publicrelease. Initialbuild01 Clear alias
+consolefailure WORKSPACEONLY; build02/candidate02final, pinned, use successors.
+ManifestAC3BBE9A1DEB88FCAB27EBE831415F75224545ED587A08675361F52E3F160507.
+Assessmentprealpha/fred_scene_fs1/candidate_02/assessment_01.json SHA
+AA76BE4781ABF2DE409FFD236C2CF6181789509945FA4DC1E8332AC8C9026BC5.
+RollbackFS1 FIRSTbeforeolderS25: prealpha/fred_scene_fs1/deploy_01.ps1 actions
+ValidateRollback/Rollback; backuprecovery/fred_scene_fs1_01. FileundoNOTsaveundo;
+preFS1fixture neededifrollingbacksavewithnewnodes. NEXTcoldloadAuto15,H10,
+Fredtrade/smalltalk/leave/return,newmanualslot+reload. docs/fred_scene_fs1.md.
+Fredsourceattribution remainsstrongcandidate, notdirectenginecallstackproof.
+H10 explicit dialogue-style purchase remains separate pending work.
+
+Latest2026-10-25 SCENE MEMBERSHIP INVESTIGATION; NO RUNTIME CHANGES:
+Strongest source candidate is restored Coach Fred private fred.scene, NOT a
+manually set quest fact. Auto15 exact depot hash in SceneSystem instances and
+inspectionServices; Auto16/17 absent, their instances blobs byteidentical.
+Fred Entries/Exits/SceneRequests=2/1/1 ->2/2/1 ->3/2/1; wrapperOwnerActive1
+throughout. Matching-position load logs Auto15 scene=true, Auto17 scene=false.
+Installed scene playerActor1=V/contextPlayer; service route1->96->choice3 plus
+NPC workspot99. Owner starts scene <50m from Fred; exits >100m from loading
+marker. S25 owner301 selects private branch unless freshboxingIssued1/Fault0.
+Scene9BE6FC14..., S25phase06DE4B05... extracted from current installed archives.
+Strong evidence, NOT direct runtime owner-table/callstack proof; other saved
+scene records changed. Do not claim all scene=true episodes caused by Fred.
+Keep H4 purchase-only guard repair; no global scene reset or blind actor removal.
+117installed files match release;265savefiles unchanged. No launch/deploy/facts/
+save edits. Evidence diagnostics/scene_membership_20261025_01/assessment_01.json;
+docs/scene_membership_20261025.md. Inputs/proofs pinned; use successors.
+At that time public documentation used the former name; the later official-name
+decision above supersedes it. Legacy file IDs, URLs and
+published assets retained. H10 dialogue-style purchase implementation
+still separate pending work.
 
 Latest2026-10-24 H4 PURCHASE GUARD REPAIR INSTALLED; LIVE PENDING:
 USER H3forsaleiconvisible, stillnopurchaseinteraction. FreshH3logs 18:44-18:59

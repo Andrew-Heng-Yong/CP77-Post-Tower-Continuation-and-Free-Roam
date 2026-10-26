@@ -1,5 +1,11 @@
 # Post Tower Continuation and Free Roam — Development Roadmap
 
+**25 October — S29 remaining 18 side-job entry points installed.**
+Entry coverage is now 80/80 gigs and 78/78 side jobs (158/158 selected entries).
+Native follow-up trees, rewards and save/reload are ready for user testing;
+implementation coverage is not a live pass or generic unfinished-stage resume.
+See [S29 test notes](docs/sidejobs_s29_playtest.md).
+
 ## Current alpha target
 
 **23 October — S28 four-side-job package and approved Patch 2.5 frameworks installed.**

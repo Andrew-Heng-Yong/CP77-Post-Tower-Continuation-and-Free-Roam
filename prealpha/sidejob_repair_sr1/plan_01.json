@@ -1,0 +1,55 @@
+{
+  "status": "PINNED_STAGED_REPAIR_INPUTS_NO_GAME_WRITES",
+  "installed": [
+    {
+      "depot": "towercontinued\\b0_story_eight\\yoko.scene",
+      "raw": "diagnostics/stefan_lipsync_20261025_01/installed_audit_01/scenes/TowerContinued_PreAlpha.archive/12097446348887851029.scene",
+      "sha256": "621B582008B5600BAA7309E295AB0677D79E35D78410F67A6CA5B6528D2D32A9",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\mod\\TowerContinued_PreAlpha.archive"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s23\\base_b\\mq030.questphase",
+      "raw": "diagnostics/restored_audit_20261025_01/installed_01/resources/10260615261550143857.questphase",
+      "sha256": "21AAE52E9BAC836141FC651C8DB58D5C5C6DCC3A56958648D9166E99DA85BA1A",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\mod\\0000_TowerContinued_SideJobs_S23.archive"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\entries\\mq058_semimaru_crystalcoat.questphase",
+      "raw": "diagnostics/restored_audit_20261025_01/installed_01/resources/13830700907388169785.questphase",
+      "sha256": "B4372B469F3D57FC9B4BC8741297A3A88CB1F54F3C07355D9EA179C2552F7D3D",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\mod\\00000000_TowerContinued_SideJobs_S29.archive"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s25\\families\\sq025_fresh.questphase",
+      "raw": "diagnostics/restored_audit_20261025_01/installed_01/resources/5517384288046496702.questphase",
+      "sha256": "505FB961D3379D588E3B6758728353C01FC113EA5E6FBDEF03774A3EE98B843A",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\mod\\000000_TowerContinued_SideJobs_S25.archive"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\entries\\sq025b_delamain_insurgence.questphase",
+      "raw": "diagnostics/restored_audit_20261025_01/installed_01/resources/29079903758833597.questphase",
+      "sha256": "E8526C69CEC26E5257A681A05CEA316217D773751B1126FD5EAAF5366F00F96C",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\mod\\00000000_TowerContinued_SideJobs_S29.archive"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\phone\\delamain.questphase",
+      "raw": "diagnostics/restored_audit_20261025_01/installed_01/resources/10045429710312956203.questphase",
+      "sha256": "1BD43963953BB4345ACF6BE6D2D9AB55D112575AB3651CA58BC08D59DCDE4B3D",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\mod\\00000000_TowerContinued_SideJobs_S29.archive"
+    }
+  ],
+  "native_bullets": {
+    "path": "research/sidejobs_s29/native_01/basegame_4_gamedata/raw/base/quest/default_dialogs.questphase",
+    "sha256": "A7AAEFDD18141A874EE6CBA02094C4CACA9DF60E2D87A1F085A4C0388E2D5980"
+  },
+  "native_yoko_json": {
+    "path": "diagnostics/restored_audit_20261025_03/dialogue/native_01/15651456292936307253.scene.json",
+    "sha256": "8FD036764C36615058AC7C0BC98388C802DC94EEB276DE1E87A2E073EC863DB2"
+  },
+  "reds_s29": {
+    "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\TowerContinued_SideJobs_S29\\SideJobsS29.reds",
+    "sha256": "BD1C5E247C33EACDDA091DF87E9042A6916421ED6AAF72862B28B12ED9B3377E"
+  },
+  "game_writes": 0,
+  "save_writes": 0
+}
