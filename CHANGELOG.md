@@ -15,7 +15,7 @@ These changes are in the local development installation. **No new GitHub Release
 ### Housing, reload, and dependencies
 
 - Replaced H10's automatic purchase offer with explicit native Buy/Not now choices. Repaired paid-apartment service admission and a history-snapshot JSON export crash on reload. The user's H10 purchase, interactions, and save/reload passed one fixture; broader coverage remains open. See [H5](docs/h10_h5.md) and [H6/HS2](docs/h10_h6_snapshot_reload_hs2.md).
-- Updated RED4ext, Codeware, ArchiveXL, TweakXL, and Mod Settings to the checked Patch 2.5 stack. The local Codeware installation retains an earlier two-line script correction; an isolated compile confirmed PTFR also builds with untouched public Codeware 1.21.1. Runtime testing with that untouched script is pending. See [framework follow-up](docs/core_updates_20261025.md).
+- Updated RED4ext, Codeware, ArchiveXL, TweakXL, and Mod Settings to the checked Patch 2.5 stack. An isolated compile confirmed PTFR builds with untouched public Codeware 1.21.1, which is now installed locally with all nine files matching the official ZIP. Runtime testing with that package is pending. See [framework follow-up](docs/core_updates_20261025.md).
 
 ### Packaging and project name
 

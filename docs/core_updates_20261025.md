@@ -1,11 +1,13 @@
 # Essential mod updates — 25 October 2026
 
+**Public Codeware test update:** The untouched public Codeware 1.21.1 package is now installed locally. All nine files match the verified official ZIP. Only `Codeware.Global.reds` needed replacement; the earlier two-line local patch is backed up at `recovery/public_codeware_v1_21_1_01`. The unmodified package passed the isolated full REDscript compile before installation. Install, Verify, and ValidateRollback passed; game startup with the public package is the user's next test. No PTFR file or save was edited. Installer: `prealpha/full_consolidation_v1/deploy_public_codeware_01.py`.
+
 The user requested installation after the update check. EquipmentEX is excluded because the user chose to update it themselves after Chrome access was declined.
 
 | Component | Previous installation | Installed |
 | --- | --- | --- |
 | RED4ext | 1.30.0 | Official 1.31.0, including winmm loader |
-| Codeware | Local PR63 build + PR65 script fix | Official 1.21.1 binary and scripts, retaining the two-line PR65 fallback-return fix |
+| Codeware | Local PR63 build + PR65 script fix | Official 1.21.1 files; the retained two-line script fix was removed in the later public-package test |
 | ArchiveXL | Local PR31 + SDK229/230 + PR32 guard | Official 1.28.0 |
 | TweakXL | Local PR22 build | Official 1.12.0 |
 | Mod Settings | Local PR33 + PR34 build | Official 0.2.22 for game 2.50 |
@@ -18,9 +20,9 @@ All five ZIPs came from their authors' GitHub releases and match the published S
 
 The ArchiveXL 1.28.0 tag uses SDK commit `5246e659d783e5834cc08a90e56c8932c9ed3449`. Its sources retain the corrected FindSlotData offset 0x450, MatchVisualTag offset 0x4E0, CMesh size 0x220, StatIDType int8 representation, and the empty partsOverrides guard. These are the relevant equivalents of the previously installed local fixes.
 
-Codeware 1.21.1 still omits an explicit fallback return in Reflection.Call. The staged global script adds only `let result: Variant;` and `return result;` to preserve the already installed PR65 correction. Its DLL and all other changed files match the official packages. The install is therefore an official Codeware binary with a small retained local script patch, not an entirely untouched release.
+Codeware 1.21.1 still omits an explicit fallback return in Reflection.Call. The earlier local install added only `let result: Variant;` and `return result;` to preserve the prior PR65 correction. Its DLL and all other files matched the official package then. The later public-package test removed those two lines by installing the untouched official script.
 
-**Public-package compatibility follow-up:** The official [Codeware 1.21.1 release](https://github.com/psiberx/cp2077-codeware/releases/tag/v1.21.1) is the latest public release checked on 25 October. Its [unmodified Reflection source](https://github.com/psiberx/cp2077-codeware/blob/v1.21.1/scripts/Reflection/Reflection.reds) lacks those two fallback lines. An isolated full REDscript compile replaced the local patched `Codeware.Global.reds` with the byte-exact file from the official release ZIP; all 64 combined PTFR and dependency script files compiled successfully. PTFR does not call `Reflection.Call`. The two-line patch is therefore **not required for PTFR compilation**. The local installation still carries it, and a cold load using the untouched public script has not been run. Evidence: local-only `prealpha/full_consolidation_v1/public_codeware_probe_01/result.json`; repeatable source `prealpha/full_consolidation_v1/test_public_codeware_01.py`.
+**Public-package compatibility follow-up:** The official [Codeware 1.21.1 release](https://github.com/psiberx/cp2077-codeware/releases/tag/v1.21.1) is the latest public release checked on 25 October. Its [unmodified Reflection source](https://github.com/psiberx/cp2077-codeware/blob/v1.21.1/scripts/Reflection/Reflection.reds) lacks those two fallback lines. An isolated full REDscript compile replaced the local patched `Codeware.Global.reds` with the byte-exact file from the official release ZIP; all 64 combined PTFR and dependency script files compiled successfully. PTFR does not call `Reflection.Call`. The two-line patch is therefore **not required for PTFR compilation**. All nine official package files now match the local installation; a cold load using the untouched public script has not yet been reported. Evidence: local-only `prealpha/full_consolidation_v1/public_codeware_probe_01/result.json` and `diagnostics/public_codeware_install_20261025_01/preflight_01.json`; repeatable sources `prealpha/full_consolidation_v1/test_public_codeware_01.py` and `audit_public_codeware_01.py`.
 
 The full current stack of 93 redscript sources compiled successfully with EquipmentEX 1.2.9 included. Compiled comparison verifies all 146 PTFR classes unchanged, all 212 existing classes containing persistent fields retain those fields, and all 51 Codeware namespace class names remain present. The official update removes the unused native InkGameSystem declaration and adds two native declarations. Compilation does not prove live engine behavior.
 

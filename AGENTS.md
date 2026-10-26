@@ -1,5 +1,22 @@
 # AGENTS.md — Post Tower Continuation and Free Roam
 
+Latest2026-10-25 PUBLIC CODEWARE 1.21.1 INSTALLED; USER LIVE TEST PENDING:
+Official ZIP `diagnostics/core_updates_20261025_01/downloads/Codeware-1.21.1.zip`
+SHA7CEA413C39BBA6DEA15DE558E95BB0E04F63AF3D3CB35C6D854ED65382FD41A7.
+All9 Codeware package files compared; prior local install differed ONLY at
+`red4ext/plugins/Codeware/Scripts/Codeware.Global.reds` (two-line PR65 return).
+Isolated combined64-source SCC with exact unmodified public Global.reds PASS;
+PTFR has no Reflection.Call usage. Game closed; replaced ONLY Global.reds, old
+SHA9736FEBC... backed up in `recovery/public_codeware_v1_21_1_01`; public
+SHA83CEBFDA... installed. Validate/Install/Verify/ValidateRollback PASS; all9
+installed Codeware files now match official ZIP. No PTFR/archive/framework-other/
+save/fact/cache edit or assistant game launch. Public-package cold load and
+restored-quest test USER PENDING. Rollback FIRST via
+`prealpha/full_consolidation_v1/deploy_public_codeware_01.py Rollback`, game
+closed; file undo NOT save undo. Source/audit/proof under
+`prealpha/full_consolidation_v1` and
+`diagnostics/public_codeware_install_20261025_01` (ignored local evidence).
+
 Latest2026-10-25 OFFICIAL NAME AND REPOSITORY RENAME:
 User confirmed official public name Post Tower Continuation and Free Roam and
 renamed GitHub repository to Andrew-Heng-Yong/CP77-Post-Tower-Continuation-and-Free-Roam.
