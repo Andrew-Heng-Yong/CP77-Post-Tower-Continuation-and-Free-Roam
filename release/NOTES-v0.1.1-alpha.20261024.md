@@ -1,4 +1,4 @@
-# Tower Continuation Alpha Test — 24 October 2026
+# Post Tower Continuation and Free Roam Alpha Test — 24 October 2026
 
 Download **TowerContinuation-v0.1.1-alpha.20261024.zip** under **Assets** for
 the playable mod package. GitHub's automatic Source code archives are for

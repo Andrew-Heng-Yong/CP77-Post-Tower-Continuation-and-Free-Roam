@@ -1,21 +1,25 @@
-# Cyberpunk 2077: Tower Continuation
+# Cyberpunk 2077: Post Tower Continuation and Free Roam
 
 A work-in-progress mod for continuing free roam after **The Tower** ending in
 Cyberpunk 2077: Phantom Liberty, while preserving the ending and its consequences.
 
 ## Download the mod
 
-**[Download Tower Continuation Alpha Test ZIP](https://github.com/Andrew-Heng-Yong/CP77-tower-continuation/releases/download/v0.1.1-alpha.20261024/TowerContinuation-v0.1.1-alpha.20261024.zip)**
+**[Download Post Tower Continuation and Free Roam Alpha Test ZIP](https://github.com/Andrew-Heng-Yong/CP77-Post-Tower-Continuation-and-Free-Roam/releases/download/v0.1.1-alpha.20261024/TowerContinuation-v0.1.1-alpha.20261024.zip)**
 
-[Release notes and downloads](https://github.com/Andrew-Heng-Yong/CP77-tower-continuation/releases/tag/v0.1.1-alpha.20261024)
+[Release notes and downloads](https://github.com/Andrew-Heng-Yong/CP77-Post-Tower-Continuation-and-Free-Roam/releases/tag/v0.1.1-alpha.20261024)
 | [Installation and dependencies](release/INSTALL-v0.1.1-alpha.20261024.md)
-| [All releases](https://github.com/Andrew-Heng-Yong/CP77-tower-continuation/releases)
+| [All releases](https://github.com/Andrew-Heng-Yong/CP77-Post-Tower-Continuation-and-Free-Roam/releases)
 
 Choose the named **TowerContinuation ZIP** under the release's **Assets**. GitHub's
 automatic **Source code** downloads are for development and do not contain the
 packaged mod. This **24 October Alpha Test** includes the current
 Tower mod snapshot. Framework dependencies are separate. Use a separate test save
 and read the installation instructions first.
+
+**Post Tower Continuation and Free Roam** is the mod's official name.
+`PTFR`, `TowerContinuation`, and `TowerContinued` remain in internal IDs and
+historical download paths for compatibility with existing saves and releases.
 
 ## Development status
 

@@ -1,4 +1,7 @@
-# AGENTS.md — Post-Tower Free Roam / Tower Continuation Mod
+# AGENTS.md — Post Tower Continuation and Free Roam
+
+Official public name: Post Tower Continuation and Free Roam. Legacy `PTFR`, `TowerContinued`,
+and `TowerContinuation` identifiers remain for compatibility.
 
 Latest2026-10-24 H4 PURCHASE GUARD REPAIR INSTALLED; LIVE PENDING:
 USER H3forsaleiconvisible, stillnopurchaseinteraction. FreshH3logs 18:44-18:59
@@ -4826,7 +4829,7 @@ Use Deceptious Quest Core only if it proves to be the cleanest compatible produc
 
 Use runtime logic for persistent behavior such as:
 
-- detect Post-Tower Free Roam state on load
+- detect Post Tower Continuation and Free Roam state on load
 - enforce cyberware restrictions
 - prevent invalid equipment
 - restore or reassert required sandbox conditions after reload

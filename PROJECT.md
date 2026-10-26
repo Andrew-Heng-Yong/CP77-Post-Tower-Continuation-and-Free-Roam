@@ -1,4 +1,4 @@
-# PROJECT.md — Post-Tower Free Roam Mod
+# PROJECT.md — Post Tower Continuation and Free Roam
 
 Current2026-10-14: FO1 Wakako interaction USER PASS; user verified behavior
 against pre-ending world. Screenshot shows normal prompt/two dialogue choices.
@@ -1388,9 +1388,9 @@ Current focused Phase 4 finding (2026-09-24): Afterlife A2/A4 survived cold load
 
 ## Project name
 
-**Working title:** Post-Tower Free Roam / Tower Continuation Mod
+**Mod name:** Post Tower Continuation and Free Roam
 
-The project may be renamed later. The design target is a post-ending sandbox, not a new story campaign.
+The official name was confirmed on 25 October 2026. The design target is a post-ending sandbox, not a new story campaign. Legacy `PTFR` identifiers remain for save compatibility.
 
 ---
 
@@ -1792,7 +1792,7 @@ Use for persistent runtime behavior.
 
 Potential duties:
 
-- detect Post-Tower Free Roam state on load
+- detect Post Tower Continuation and Free Roam state on load
 - enforce cyberware restrictions
 - prevent invalid equipment
 - restore/reassert required sandbox conditions after reload
@@ -1821,7 +1821,7 @@ Investigate as a possible cleaner implementation for cyberware/equipment restric
 
 Potential approach:
 
-- modify relevant gameplay records while Post-Tower Free Roam is active
+- modify relevant gameplay records while Post Tower Continuation and Free Roam is active
 - prevent restricted implants from being equipped rather than repeatedly removing them
 
 Adopt only after testing.

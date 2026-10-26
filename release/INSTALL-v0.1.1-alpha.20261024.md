@@ -1,9 +1,9 @@
-# Tower Continuation: Alpha Test
+# Post Tower Continuation and Free Roam: Alpha Test
 
 Version: `v0.1.1-alpha.20261024`
 
 This is a **full mod snapshot**, not an incremental patch. The ZIP contains 117
-Tower Continuation files: 22 archives, 20 ArchiveXL registrations, 72 REDscript
+Post Tower Continuation and Free Roam files: 22 archives, 20 ArchiveXL registrations, 72 REDscript
 files, one tweak, and two CET scripts. It includes the history snapshot fallback,
 loading cover and current H10 housing logic. It does not bundle third-party
 frameworks, other mods, saved games, generated history JSON or development data.
@@ -34,7 +34,7 @@ MSVC 14.44 and xmake 3.1.2. Other framework combinations remain unverified.
 
 ## Install
 
-1. Close the game. Back up saves and existing Tower Continuation files.
+1. Close the game. Back up saves and existing Post Tower Continuation and Free Roam files.
 2. Install compatible frameworks using their own instructions.
 3. Download `TowerContinuation-v0.1.1-alpha.20261024.zip` under this release's
    **Assets**. GitHub's automatic **Source code** ZIP does not contain the mod.

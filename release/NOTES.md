@@ -1,4 +1,4 @@
-# Tower Continuation pre-alpha - 23 October 2026
+# Post Tower Continuation and Free Roam pre-alpha - 23 October 2026
 
 Download **TowerContinuation-v0.1.0-prealpha.20261023.zip** under **Assets** for the
 mod. The automatic **Source code** archives are developer downloads.
@@ -14,7 +14,7 @@ live playtesting. Actual initial-transition and save-upgrade fixtures are pendin
 Use a separate test save. Save continuity for the future beta remains a release
 requirement, not a claim of completed testing for this pre-alpha.
 
-Read [installation instructions and exact dependencies](https://github.com/Andrew-Heng-Yong/CP77-tower-continuation/blob/v0.1.0-prealpha.20261023/release/INSTALL.md)
+Read [installation instructions and exact dependencies](https://github.com/Andrew-Heng-Yong/CP77-Post-Tower-Continuation-and-Free-Roam/blob/v0.1.0-prealpha.20261023/release/INSTALL.md)
 before installing. This package depends on the documented experimental Patch 2.5
 framework stack. Framework binaries and unrelated mods are not included.
 

@@ -1,8 +1,8 @@
-# Tower Continuation: experimental pre-alpha
+# Post Tower Continuation and Free Roam: experimental pre-alpha
 
 Version: `v0.1.0-prealpha.20261023`
 
-This is a full snapshot of the currently installed Tower Continuation mod,
+This is a full snapshot of the currently installed Post Tower Continuation and Free Roam mod,
 including Housing H1, S28, and the earlier installed components. It is not just
 an incremental housing patch. It contains 109 mod files: 22 archives, 20 ArchiveXL
 registrations, 65 REDscript files, one tweak file, and one optional CET diagnostic
@@ -41,7 +41,7 @@ has not been established.
 
 ## Install
 
-1. Close the game. Back up your saves and any existing Tower Continuation files.
+1. Close the game. Back up your saves and any existing Post Tower Continuation and Free Roam files.
 2. Install the required frameworks using their own instructions.
 3. Download `TowerContinuation-v0.1.0-prealpha.20261023.zip` from the release's
    **Assets** section. Do not use GitHub's automatic source-code ZIP.
