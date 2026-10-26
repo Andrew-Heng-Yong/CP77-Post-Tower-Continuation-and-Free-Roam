@@ -23,3 +23,5 @@ Use [deploy_02.ps1](../prealpha/full_consolidation_v1/deploy_02.ps1) to validate
 For a manual install, remove the 124 retired PTFR paths listed in the manifest before extracting the ZIP into the game root. Do not layer the ZIP over an older PTFR installation: duplicate owners and stale overrides can result.
 
 The source archives, previous repair builds and recovery files remain in the workspace. Rollback restores files, not saved quest state. The package has offline equivalence checks; game startup, the Tower handoff, save/reload and side job behavior still require live acceptance. Keep the untouched pre-ending test save while validating this layout. The game was not launched by the installer.
+
+The combined REDscript package also compiled with the unmodified public Codeware 1.21.1 scripts. The local machine retains an earlier two-line Codeware script correction, but the public Codeware package does not need that edit for PTFR to compile. A live cold load with untouched public Codeware remains pending; see [the framework follow-up](core_updates_20261025.md).
