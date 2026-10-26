@@ -25,8 +25,9 @@ historical download paths for compatibility with existing saves and releases.
 
 The repository contains source; installable mod packages are hosted in Releases.
 The locally installed consolidated build packages the current alpha and later
-fixes in one ZIP. Its gameplay acceptance is pending;
-the linked public Alpha Test remains the published download.
+fixes in one ZIP. The user reports it working with public Codeware 1.21.1;
+full quest coverage remains under test.
+The linked public Alpha Test remains the published download.
 See the [unreleased change log](CHANGELOG.md) for work since that alpha.
 As of 24 October 2026, the development environment includes a history snapshot
 fallback, a setup cover, and [H10 apartment purchase and map icon changes](docs/h10_h4.md).

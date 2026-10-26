@@ -1,5 +1,15 @@
 # AGENTS.md — Post Tower Continuation and Free Roam
 
+Latest2026-10-26 USER LIVE PASS ON PUBLIC CODEWARE:
+User reports all previous fixes they tested worked and combined PTFR runs with
+untouched public Codeware1.21.1. This is direct user-reported live acceptance of
+their current fixture, not an exhaustive route-by-route/fresh-transition/save-
+upgrade proof; no individual quest list or new log supplied. Do NOT require
+custom Codeware for PTFR. All9 official Codeware files were byte-verified at
+installation; isolated64-source SCC with stock script PASS. Existing local
+rollback preserved. No assistant game/save/fact writes or new GitHub Release.
+CHANGELOG/README/core-updates/consolidation docs updated; push source/docs only.
+
 Latest2026-10-25 PUBLIC CODEWARE 1.21.1 INSTALLED; USER LIVE TEST PENDING:
 Official ZIP `diagnostics/core_updates_20261025_01/downloads/Codeware-1.21.1.zip`
 SHA7CEA413C39BBA6DEA15DE558E95BB0E04F63AF3D3CB35C6D854ED65382FD41A7.

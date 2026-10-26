@@ -1,6 +1,6 @@
 # Post Tower Continuation and Free Roam — full consolidation v1
 
-**Status:** Installed locally and file-verified on 25 October 2026. Gameplay acceptance is pending.
+**Status:** Installed locally and file-verified on 25 October 2026. On 26 October, the user reported the combined mod and previous fixes working with public Codeware 1.21.1. Full restored-quest coverage remains pending.
 
 This package combines the complete installed alpha stack and subsequent local fixes, including the installed SR1 side job repair. The local ZIP `prealpha/full_consolidation_v1/candidate_01/dist/Post-Tower-Continuation-and-Free-Roam-v1.zip` contains 51 game files, replacing 127 legacy PTFR files in the current installation. The ZIP is not in Git or a GitHub Release yet. The number of archives falls from 25 to one, ArchiveXL registration files from 23 to one, and REDscript files from 76 to 46. The two CET entry files and one TweakXL file retain their paths. Three development CET helper mods and generated runtime data are outside the package.
 
@@ -22,6 +22,6 @@ Use [deploy_02.ps1](../prealpha/full_consolidation_v1/deploy_02.ps1) to validate
 
 For a manual install, remove the 124 retired PTFR paths listed in the manifest before extracting the ZIP into the game root. Do not layer the ZIP over an older PTFR installation: duplicate owners and stale overrides can result.
 
-The source archives, previous repair builds and recovery files remain in the workspace. Rollback restores files, not saved quest state. The package has offline equivalence checks; game startup, the Tower handoff, save/reload and side job behavior still require live acceptance. Keep the untouched pre-ending test save while validating this layout. The game was not launched by the installer.
+The source archives, previous repair builds and recovery files remain in the workspace. Rollback restores files, not saved quest state. The package has offline equivalence checks and the user reports a successful current-fixture run; the Tower handoff on a fresh fixture, full save-upgrade behavior and restored side-job branches still need individual coverage. Keep the untouched pre-ending test save while validating this layout. The game was not launched by the installer.
 
-The combined REDscript package also compiled with the unmodified public Codeware 1.21.1 scripts. The local machine now has all nine untouched public Codeware files; the earlier two-line script correction was archived for rollback. A live cold load with public Codeware remains pending; see [the framework follow-up](core_updates_20261025.md).
+The combined REDscript package also compiled with the unmodified public Codeware 1.21.1 scripts. The local machine now has all nine untouched public Codeware files; the earlier two-line script correction was archived for rollback. The user reports a successful live run with the public package. Exact quest branches and fresh-transition coverage were not itemized; see [the framework follow-up](core_updates_20261025.md).
