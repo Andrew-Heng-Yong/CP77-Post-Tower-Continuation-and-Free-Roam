@@ -6,6 +6,23 @@ This package combines the complete installed alpha stack and subsequent local fi
 
 REDscript accepts one module declaration per file. The current code uses 45 named modules plus one global script group, so 46 REDscript files are the smallest grouping validated without changing module identities or saved script types. The old archives and scripts remain recoverable in the deployment backup; future repairs should update the combined archive, registration file, or affected module script and archive the replaced version in the workspace.
 
+## Policy for subsequent fixes
+
+Build each production fix into a successor of the complete consolidated package.
+Replace the affected archive, ArchiveXL registration, REDscript module, CET entry,
+or TweakXL file at its existing install path. Do not leave a sequence of hotfix
+overlays or obsolete versions in the player's game folder. Keep old packages and
+replaced source files in the workspace for debugging and rollback; they are not
+part of the new install. Add a new installed path only when the engine needs a
+distinct resource or module. Record that need in the change log and remove any
+retired path through the installer.
+
+Before installing a successor, verify the full package manifest, native archive
+resource winners, script compilation, installer replacement and rollback, and
+preservation of save files. Maintain a separate rollback receipt for each
+installed version. File rollback cannot undo quest or reward changes already
+written into a save.
+
 ## Preservation checks
 
 - The combined archive contains 1,153 effective resources. Every resource was read back and checked against the last winning bytes from the 25 installed archives. The 37 internal override keys resolve to the same bytes. No installed non-PTFR archive uses any of these resource keys.

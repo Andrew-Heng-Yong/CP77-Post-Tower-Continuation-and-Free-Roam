@@ -20,6 +20,7 @@ These changes are in the local development installation. **No new GitHub Release
 ### Packaging and project name
 
 - Combined the installed alpha and later local fixes into one ZIP with 51 game files in place of 127: one archive, one ArchiveXL file, 46 REDscript files, two CET entries, and one TweakXL file. All old files are recoverable; offline equivalence, full script compilation, install/rollback fixtures, installed hashes, and 289 unchanged save files were checked. The user reports the combined mod and previous fixes working with public Codeware; full quest coverage remains pending. See [consolidation record](docs/full_consolidation_v1.md).
+- Documented the production update rule: subsequent fixes replace affected files in a complete consolidated package, with previous versions kept for debugging and rollback. A new installed file requires a distinct engine resource or script module.
 - Confirmed the official name **Post Tower Continuation and Free Roam** and updated the repository name and public documentation. Legacy `PTFR`, `TowerContinuation`, and `TowerContinued` identifiers remain for compatibility.
 
 ## v0.1.1-alpha.20261024 — 24 October 2026

@@ -1,5 +1,14 @@
 # AGENTS.md — Post Tower Continuation and Free Roam
 
+Current production packaging rule (user request, 2026-10-26): keep future fixes
+in a successor of the consolidated package. Replace affected files at their
+existing install paths and remove superseded paths; do not pile separate hotfix
+overlays into the game folder. Archive previous versions in the workspace for
+debugging and rollback. Add an installed file only when a distinct engine
+resource or script module requires it. Check the full manifest, compilation,
+resource winners, save preservation and rollback before installing a successor.
+See README.md and docs/full_consolidation_v1.md.
+
 Latest2026-10-26 USER LIVE PASS ON PUBLIC CODEWARE:
 User reports all previous fixes they tested worked and combined PTFR runs with
 untouched public Codeware1.21.1. This is direct user-reported live acceptance of

@@ -44,6 +44,16 @@ The beta release target requires save continuity into future stable versions.
 Actual transition and save-upgrade fixtures are still required. See the
 [beta release contract](docs/beta_release_contract.md).
 
+### Future fixes and package size
+
+Keep the production install consolidated. Update the affected file in the current
+package and ship a new complete version of that package; do not stack separate
+hotfix overlays in the player's game directory. Keep the previous package and
+replaced files in the development archive for comparison and rollback. Add an
+installed file only when the game requires a separate resource or script module,
+and remove superseded paths from the next package. See the
+[consolidation and recovery record](docs/full_consolidation_v1.md).
+
 ## Repository contents
 
 | Path | Contents |
