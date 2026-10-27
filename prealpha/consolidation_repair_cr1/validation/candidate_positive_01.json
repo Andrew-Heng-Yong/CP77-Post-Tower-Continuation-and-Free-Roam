@@ -1,0 +1,183 @@
+{
+  "status": "PASS_INDEPENDENT_SEMANTIC_REPAIR_AND_PRESERVATION_NOT_LIVE",
+  "candidate": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\consolidation_repair_cr1\\candidate_01",
+  "readback_index": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\consolidation_repair_cr1\\validation\\cr1_positive_readback_01\\inventory.json",
+  "readback_index_sha256": "41B11ABB3C5E4110CC05D2126985173B38A1CB0FA7D0A96C3B66FD2F2833BA0A",
+  "checks_contract_sha256": "501AFD3384103C790B4891C0BA24970B641850795B1BA40F538AAFD25849E801",
+  "tester_sha256": "22611D5680F6E8CE8E3EF42841F08AE231359EFC608326F506D19B837D76C65E",
+  "checks": 2057,
+  "groups": 30,
+  "failed_groups": [],
+  "results": [
+    {
+      "id": "full_preservation",
+      "result": "PASS",
+      "checks": 1224
+    },
+    {
+      "id": "yoko_component_choices",
+      "result": "PASS",
+      "checks": 290
+    },
+    {
+      "id": "viktor_debt_choices",
+      "result": "PASS",
+      "checks": 24
+    },
+    {
+      "id": "wilson_gun_dispatch",
+      "result": "PASS",
+      "checks": 12
+    },
+    {
+      "id": "wilson_lease_ack",
+      "result": "PASS",
+      "checks": 6
+    },
+    {
+      "id": "fred_native_intro",
+      "result": "PASS",
+      "checks": 10
+    },
+    {
+      "id": "bullets_rearm",
+      "result": "PASS",
+      "checks": 5
+    },
+    {
+      "id": "dennis_entry_ack",
+      "result": "PASS",
+      "checks": 2
+    },
+    {
+      "id": "shared_phone_cleanup",
+      "result": "PASS",
+      "checks": 27
+    },
+    {
+      "id": "s25_delamain_receipt",
+      "result": "PASS",
+      "checks": 4
+    },
+    {
+      "id": "native_policy_towercontinued_sidejobs_s22_mq025_progress.questphase",
+      "result": "PASS",
+      "checks": 21
+    },
+    {
+      "id": "native_policy_towercontinued_sidejobs_s22_the_gig_reward_resume.questphase",
+      "result": "PASS",
+      "checks": 13
+    },
+    {
+      "id": "native_policy_towercontinued_sidejobs_s22_delamain_support.questphase",
+      "result": "PASS",
+      "checks": 61
+    },
+    {
+      "id": "native_policy_towercontinued_sidejobs_s22_delamain_owner.questphase",
+      "result": "PASS",
+      "checks": 61
+    },
+    {
+      "id": "native_policy_towercontinued_sidejobs_s22_moving_heat_boot.questphase",
+      "result": "PASS",
+      "checks": 13
+    },
+    {
+      "id": "native_policy_towercontinued_sidejobs_s23_base_a_mq024_sandra.questphase",
+      "result": "PASS",
+      "checks": 13
+    },
+    {
+      "id": "native_policy_towercontinued_sidejobs_s23_base_a_mq007_smartgun.questphase",
+      "result": "PASS",
+      "checks": 13
+    },
+    {
+      "id": "native_policy_towercontinued_sidejobs_s23_base_a_mq035_ozob.questphase",
+      "result": "PASS",
+      "checks": 13
+    },
+    {
+      "id": "native_policy_towercontinued_sidejobs_s23_base_a_mq012_stud.questphase",
+      "result": "PASS",
+      "checks": 13
+    },
+    {
+      "id": "native_policy_towercontinued_sidejobs_s23_base_a_mq002_veterans.questphase",
+      "result": "PASS",
+      "checks": 13
+    },
+    {
+      "id": "native_policy_towercontinued_sidejobs_s23_base_a_mq021_guide.questphase",
+      "result": "PASS",
+      "checks": 13
+    },
+    {
+      "id": "native_policy_towercontinued_sidejobs_s23_base_a_mq041_corpo.questphase",
+      "result": "PASS",
+      "checks": 13
+    },
+    {
+      "id": "native_policy_towercontinued_sidejobs_s23_base_a_mq044_jakes_vehicle.questphase",
+      "result": "PASS",
+      "checks": 13
+    },
+    {
+      "id": "native_policy_towercontinued_sidejobs_s23_base_a_v2_mq007_resume_boot.questphase",
+      "result": "PASS",
+      "checks": 13
+    },
+    {
+      "id": "native_policy_towercontinued_sidejobs_s23_base_b_mq026.questphase",
+      "result": "PASS",
+      "checks": 11
+    },
+    {
+      "id": "native_policy_towercontinued_sidejobs_s23_ep1_mq306_boot.questphase",
+      "result": "PASS",
+      "checks": 13
+    },
+    {
+      "id": "native_policy_towercontinued_side_job_pilot_s1_owner.questphase",
+      "result": "PASS",
+      "checks": 7
+    },
+    {
+      "id": "retained_sr1_mq058_sequel_phone",
+      "result": "PASS",
+      "checks": 11
+    },
+    {
+      "id": "retained_s30_three_entries",
+      "result": "PASS",
+      "checks": 119
+    },
+    {
+      "id": "retained_runtime_and_dennis_initializer",
+      "result": "PASS",
+      "checks": 6
+    }
+  ],
+  "expected_negative_control": false,
+  "negative_required_groups": [
+    "bullets_rearm",
+    "dennis_entry_ack",
+    "fred_native_intro",
+    "s25_delamain_receipt",
+    "shared_phone_cleanup",
+    "viktor_debt_choices",
+    "wilson_gun_dispatch",
+    "wilson_lease_ack",
+    "yoko_component_choices"
+  ],
+  "game_writes": 0,
+  "save_writes": 0,
+  "game_launches": 0,
+  "limits": [
+    "Offline resource/guard validation is not engine execution or saved-phase migration proof.",
+    "No11-marker investigation.",
+    "Compilation, archive packed readback, install/rollback fixtures and actual deployment are parent responsibilities."
+  ]
+}

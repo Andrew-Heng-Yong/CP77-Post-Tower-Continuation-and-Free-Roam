@@ -1,0 +1,7 @@
+# Keep the explicit approval contract and compact result in source control.
+# Decoded evidence, raw game payloads and scratch inspection remain local.
+*.json
+!selection_01.json
+!review_01.json
+__pycache__/
+selected_raw/

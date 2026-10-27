@@ -28,6 +28,25 @@ The locally installed consolidated build packages the current alpha and later
 fixes in one ZIP. The user reports it working with public Codeware 1.21.1;
 full quest coverage remains under test.
 The linked public Alpha Test remains the published download.
+The current local [CC1 successor](docs/coaster_post_doublelife_20261027.md) removes
+new post-Double-Life admission to Jean's one-time Love Rollercoaster story. It
+retains already-issued quest progress and the repeatable ride. All 51 installed
+paths and 301 save files were verified; gameplay after a new load is pending.
+The preceding [SC3 successor](docs/skippy_ambient_sc3_20261026.md) repairs
+Skippy's equip/unequip loop after SC2 also failed to restore his combat lines.
+Logs and saved state show that SC1 permanently stopped its controller when
+Skippy was unequipped. SC3 preserves that receipt and starts a corrected native
+loop after the old controller has retired. The same 51-file install retains
+the Love Rollercoaster Johnny-dialogue removal. Installation, rollback readiness
+and all 301 unchanged saves are verified. The user now reports audible enemy
+reactions and matching hologram expressions. A [trigger follow-up](docs/skippy_triggers_20261027.md)
+confirms native aim/autofire and draw behavior, and no authored jump-confirmation
+response for that ambient line; reload remarks and the one-time quest remain
+unverified in gameplay. SC3 is local and unreleased.
+The earlier [CR1 repair](docs/consolidation_repair_cr1.md) restores 30
+corrective resources discarded by consolidation, replacing only the existing
+combined archive. Its static checks and installation verification passed;
+gameplay and already-running saved quest owners still need validation.
 See the [unreleased change log](CHANGELOG.md) for work since that alpha.
 As of 24 October 2026, the development environment includes a history snapshot
 fallback, a setup cover, and [H10 apartment purchase and map icon changes](docs/h10_h4.md).
@@ -35,10 +54,12 @@ Local logs now show the H10 offer, payment receipt and owned icon. Door access,
 services and reload need more testing. A public beta has not been published, and
 the initial post-Tower state is not yet declared complete.
 
-The current implementation covers bounded beginnings for 80 gigs and 78 side
+The local development installation covers bounded beginnings for 80 gigs and 81 side
 jobs. That does not establish every quest stage, eligibility on every save, or
 complete gameplay verification. Completed content and earned progress must be
-preserved; unsupported unfinished quests defer instead of restarting.
+preserved; unsupported unfinished quests defer instead of restarting. The latest
+three additions and the River hold are documented in the
+[S30 side-job record](docs/sidejobs_s30_20261026.md).
 
 The beta release target requires save continuity into future stable versions.
 Actual transition and save-upgrade fixtures are still required. See the
@@ -53,6 +74,10 @@ replaced files in the development archive for comparison and rollback. Add an
 installed file only when the game requires a separate resource or script module,
 and remove superseded paths from the next package. See the
 [consolidation and recovery record](docs/full_consolidation_v1.md).
+The earlier temporary Scav workspot prototype was folded into the 51-file
+successor and its three diagnostic install files were removed. The user reports
+hostile NPC animations restored in their current test; the source scope is
+recorded in the [ambient investigation](docs/world_hostile_idle_report_20261026.md).
 
 ## Repository contents
 

@@ -1,5 +1,244 @@
 # AGENTS.md — Post Tower Continuation and Free Roam
 
+Latest 2026-10-27 SKIPPY POST/PRE LOG COMPARISON; READ-ONLY, NO FIX:
+User requested compare recent post-ending Skippy run with pre-ending reference,
+without implementation. Latest CET capture ends14:00:26 Toronto; report
+diagnostics/skippy_post_compare_20261027_01/comparison_01.md. Post-ending
+13:56 SC3 Claimed/Entered1,13:59:08 Active1; pre-ending11:43:58 towerfalse
+SC3 Claim/Entry/Active0. Both windows log aiming and reload fact transitions,
+enemy counters, dialogue and holo interruption flags. Post total97->100,
+reload starts13:59:15/26; pre total94->98, reload starts11:44:21/11:45:01.
+Post rapid_interrupt transition absent in latest window, pre had one. User
+confirmed pre-ending reload/draw/aim-only lines and matching holo, but gave
+no direct observation for this recent post run. Logs cannot prove speech or
+hologram rendering, draw frequency, or equivalent line selection. No game,
+save, native fact, installed mod, or source fix changes for this comparison.
+
+Latest 2026-10-27 CC1 COASTER CUTOFF INSTALLED; WILSON/MOVING HEAT DIAGNOSIS:
+User requested remove post-Double-Life one-time Jean entry. CC1 successor now
+installed at SAME51 paths, replaces ONLY combined archive and S29 REDS; archive
+1185 members, only MQ006 private entry resource changes. Both graph entry guards
+and S30 fact table require q105_done0, which blocks new Jean post-Double-Life
+admission. Existing issued owner progress, separate repeatable ride, SC3 Skippy
+and W3 owners unchanged. Source64 SCC PASS, semantic2guard+3script-line diff
+PASS,68archive one expected winner,20fixture actions incl5 interrupted rollback
+PASS. Actual Install/Verify/ValidateRollback PASS,301 savefiles/names unchanged.
+Full unreleased ZIP SHA B6E8A9BFCCB7EE39FF7F0D38CB89F1169E04C82C3CD5D25E5DF2504041F7E290.
+Assessment prealpha/coaster_cutoff_cc1/candidate_01/assessment_01.json.
+Rollback CC1 FIRST with game closed: prealpha/coaster_cutoff_cc1/deploy_01.ps1
+-Action ValidateRollback then Rollback; recovery/coaster_cutoff_cc1_01. File
+rollback NOT save undo. No assistant launch/fact/save edits/push/release.
+New-load live behavior PENDING. Wilson usercurrent Entered1 but active0 and
+call counts0; native q101_done wait4gamehours then outsidequestarea+content
+gate. Native owner entry time unlogged, so delay failure not established.
+MovingHeat journal Failed4 with accepted1/started1/active1/done0, consistent
+with but not proof of pre-Tower acceptance and Tower failure. No quest/fact fix.
+S22 accepted-message adapter source requires ROOT Inactive1 in both rows;
+only its first phase may be Failed4. Current root Failed4 therefore does not
+match S22 source; direct S22 Inspect/issued receipt still pending. Do not
+restart/reset without exact native owner and reward/vehicle safety review.
+docs/coaster_post_doublelife_20261027.md and
+diagnostics/wilson_q304_20261027_01/assessment_01.json.
+
+Latest 2026-10-27 USER ORDERS JEAN POST-DOUBLE-LIFE ENTRY REMOVAL; CC1 STAGED:
+User explicitly chooses remove post-Double-Life one-time Jean entry, preserve
+current save/repeatable coaster. CC1 candidate_01 in prealpha/coaster_cutoff_cc1
+adds q105_done==0 to both MQ006 entry graph guards and S30 script fact-range;
+native q105_complete writes q105_done after Judy main chain. Other resources
+unchanged; archive1185, full51 paths, changed archive+S29 only. Full64-source
+SCC PASS; semantic two-guard/3-script-line diff PASS; 68-archive single PTFR
+winner PASS. Fixture deployment testing in progress; NOT YET INSTALLED. Game
+process last checked closed. See docs/coaster_post_doublelife_20261027.md.
+User live CET: Wilson S23 Entered1/Finished0,mq011_active0/done0, call
+start/end count0/0; native root q101_done ->4 in-game hour delay -> outside
+quest area/MinorQuestAndSts -> intro/active. Owner entry timestamp unknown;
+not proven stalled. Pre-ending different load at12:07 showed two start/end
+calls, not current restored call. Moving Heat S24 journal Failed(enum4),
+accepted1/started1/active1/done0; fresh adapter protects. User hypothesis
+accepted before Tower plausible; exact fail transition unbound. Diagnostics
+wilson_q304_20261027_01/assessment_01.json. No fact/save edits.
+
+Latest 2026-10-27 COASTER POST-DOUBLE-LIFE HANDLING + CURRENT S23/S24:
+User completed Double Life then played Jean Love Rollercoaster due to mod. S30
+post-Tower one-time wrapper intentionally permits fresh MQ006 after vanilla's
+availability window. Copied minorquests parent retains q001_done>0,
+q005_done>0 (q005 is Heist), q101_enable_side_content>0; no Double Life upper
+bound. Fresh journal/native facts, owner exclusion, repeatable gate protect
+duplicates; JC1 permits mq006_ride_no_quest0..1 and leases finale dialogue via
+PTFRWORLD_Coaster_QuestOwns. SC1 removed14 Johnny finale dialogue events;
+SC3 retains. User gameplay report supports availability, not exact reward/reload.
+User CET S23 mq011 Wilson ready/permit/issued/finished1/1/1/0 fault0,
+currentMatch/safe true: issued owner, call delivery unproven. S24 q304 Moving
+Heat1/0/0/0 fault0 currentMatchfalse/safetrue, root journal state4=FAILED;
+fresh adapter protects it. Earlier S22 accepted-message save not necessarily
+same current branch. See docs/coaster_post_doublelife_20261027.md.
+
+Latest 2026-10-27 MATCHED POST BOTTLE ACTION GAP:
+User POST_MATCH9007073/spawner8640981183263935109/goon2: workspottrue,
+scenefalse/combatfalse/forceShootfalse/holdPositionfalse/count0. Group179
+Ready0/Request0/Claimed1/Entered1/Hold0. Ready/Request clear after claim by design;
+do NOT reset receipts. Pre matched pause had holdPositiontrue/count1 and user
+observed repeated firing/pauses. Native omitted phase61 supplies hold+shoot:
+source and matched runtime support action-controller gap, not missing prefab
+admission. One post sample, no fresh30s observation; speech still unbound.
+Review isolated action owner compatible with persisted W3 owner, exact refs,
+targets, duplicates, combat/NotReady cuts and reload before successor. Never
+restart full encounter Reactivate/ResetKillCount. No repair/install or AI writes.
+Evidence diagnostics/bottle_shooting_20261027_01/matched_post_observation_01.json.
+
+Latest 2026-10-27 PRE GOON2 IDENTITY AND PAUSE CONFIRMED:
+Combined BOTTLE_PRE_MATCH confirms9007073/spawner8640981183263935109/goon2,
+forceShootfalse/holdPositiontrue/count1. User clarifies firing bursts, pauses,
+then resumed fire. False sample is normal pause-compatible, not broken behavior
+or evidence of permanently distinct shooter/nonshooter roles. Next exact post
+spawner+entry capture with workspot/scene/combat/AI and group179 owner receipts.
+No need further pre samples. Source shooting omission remains; live post pending.
+
+Latest 2026-10-27 PRE AI SHOOTER/NONSHOOTER CLARIFICATION:
+User attributes forceShoot=false/holdPosition=true/count=1 to a non-shooter,
+and forceShoot=true/holdPosition=true/count=2 to a shooter. Outputs contain no
+identity; earlier command hardcoded9007073. Do not assume same-actor samples or
+assign new result to goon2 without combined identity+AI capture. Next capture
+actual pre shooter with one look-target read, persistent spawner/entry and AI.
+Native review complete21checks: root/28/14/61 32nodes43edges absent from W3
+three-node owner. Selection is RANDOM goon2/goon3, not strict alternation.
+Source omission matches symptom; matched post runtime pending; speech unbound.
+No game/save/AI writes or install. See docs/bottle_shooting_20261027.md.
+
+Latest 2026-10-27 BOTTLE SHOOTER SPAWNER MATCHED; POST CAPTURE PENDING:
+Directpre-ending stubquery succeeded: actor9007073 spawner8640981183263935109
+entrygoon2. W3manifest03 AND installedBaseline map to group179/PTFRWW2_179_,
+Coastview native root/28/14 shooting_openworld_002 prefabPFINICQ, community
+cs_goons_shooting_com;#ce_pac_cvi_112_com, quest_fee7188755b56c93.streamingsector.
+Group already supported, NOT a newly omitted owner. Earlierrestoredlog11:42:36
+Request179 only; exact postactor+workspot/scene/combat+Ready/Request/Claimed/
+Entered/Hold pending. Needcompare same spawner/entry, not assumeentityIDcrosssave.
+Native action/dialogue dependency review delegated read-only to skippy_stop_trace,
+evidence diagnostics/bottle_shooting_20261027_01/native_review. No newinstall or
+quest/AI writes. docs/bottle_shooting_20261027.md. User permits commandtests.
+Initial source trace: native root/28/14/61 separately commands ShootAt forgoon2/3;
+W3 group179 supportowner restores aimworkspot but noShootAt graph. Sourcegap
+matches symptom; not yet live command-proven/repaired. Before changing saves,
+capture actor9007073 AIForceShootCommand/AIHoldPositionCommand/count3samples
+~8s apart (CETclosedbetween); then exactpostmatch+ownerreceipts. NoAIcommandwrites.
+
+Latest 2026-10-27 PRE-ENDING BOTTLE NPC IDENTIFIED; SKIPPY LIVE REFERENCE:
+User captured bottle shooter record Character.cvi_scavenger_grunt1_ranged1_nova_ma,
+entity9007073, pos(-2107.72265625,-1901.9067382813,7.6898651123047), workspot=true,
+scene=false,combat=false; user saw shots and heard lines pre-ending. Second
+look-target query returned nil, so spawner/entry are still pending. Next read-only
+command uses CreatePersistentID(EntityID.FromHash(9007073ULL), stub component)
+directly, with null guard; no repeated look-target dependency. Don't treat entityID
+alone as cross-save community identity or infer exact prefab from coordinates.
+User ALSO explicitly confirms pre-ending Skippy reload remarks, draw remarks,
+aim-only shot/comment and matching hologram (answer all). Currentmodsetup remains
+installed; NOT clean-unmodded test. Log11:43:58 tower=false andSC3Claimed/Active0,
+then aiming11:44:15-19, reload11:44:21-23+11:45:01, interrupt11:44:25-11:45:22,
+native total94->98. Do not claim logs transcribe speech; live observation from
+user. Restored reload/draw-frequency concerns remain separate/unresolved.
+docs/skippy_preending_reference_20261027.md; pinned logs and user_observations_01
+under diagnostics/bottle_skippy_preending_20261027_01. No game/save/fact writes.
+
+Latest 2026-10-27 BOTTLE-SHOOTING NPC FOLLOW-UP; PRE-ENDING CAPTURE REQUESTED:
+User reports an ambient NPC shoots bottles and speaks pre-ending, but the same
+NPC only aims without shots/lines in the restored world. User is currently in
+the pre-ending world and explicitly ready for console tests. This supersedes
+the earlier no-in-game-test request for this investigation. Begin with read-only
+target identity/position/workspot/scene/combat and persistent spawner/entry.
+No actor identified or comparison captured yet. Match exact spawner+entry before
+selecting native prefab/scene dependencies or proposing a repair. Current SC3
+includes W3; do not assume restoring prefab workspots also restored every action
+or dialogue controller. No broad community/AI/fact resets are authorized by the
+diagnostic request. Historical commands in CET scripting.log use GetLookAtObject,
+IsActorInWorkspot and GetConstAccessToPSObject; CET dofile is unavailable.
+
+Latest 2026-10-27 SC3 PARTIAL LIVE PASS; TRIGGER REVIEW, NO INSTALL:
+User reports downing-enemy lines and matching hologram expressions now work.
+Also reports aim-only "reason for firing unknown", near-every-draw lines,
+no observed reload reactions, and no response to "jump to confirm". Current
+51 SC3 hashes match. Latest11:14-11:25 Toronto session shows SC3 claim/entry,
+repeated equip/unequip Active toggles without Stop, reload/aiming native fact
+transitions and native enemy count95->97. LatestManualSave-23 confirms SC3
+Claimed1/Entered1/Active1/Stop0/Stopped0, bothS23storyIssued0, oldSC1Stopped1.
+Fresh125archive census has single native winner for root/comments/reset/scene;
+root/comments/reset match old donors, reaction scene matches reviewed donor.
+Independent reviews find aim fact deliberately requests weaponShoot before
+random Autofire commentary; native draw has four-outputIgnoreAllUsed with only
+one speech path. Original parent also restarts comments on unequip, so this
+is not a demonstrated SC3 frequency regression. Reload waits2.5s plus equipped/
+Tier1/no-competing-section gates and two-output randomizer, one speech path;
+30s rearm. Actual missed reload gate/reason not logged; audible reload unverified.
+Jump line is nativeAutofire variant:4.905s section then cleanup, no jump response.
+Exactprop SceneScreen, exactwidget CustomAnimationsGameController, six animation
+callbacksNone; no authored input/confirmation continuation. Entity/two widgets
+also single native winners/nooverride. No demonstrated trigger bug to patch.
+No successor/install/game launch/nativefact/save edits/push/release this review;
+51installed files and301save files byte-identical. Current remains SC3. Do not
+ask in-game tests/commands. One-time quest and reload still LIVE UNVERIFIED.
+Evidence diagnostics/skippy_triggers_20261027_01; docs/skippy_triggers_20261027.md.
+Selected runtime verification_02, scene assessment_01;46source/log/UIchecks PASS.
+Review assessment_01.json SHA
+9816091C4E359CFDD2D6F5BDB879A5E774BD772E57352B54D1162BBE80FA8DA8.
+Native equivalence is NOT restored-game runtime proof for every reaction.
+
+Latest 2026-10-26 SC3 SKIPPY EQUIP LOOP REPAIR INSTALLED; LIVE PENDING:
+User confirmed SC2 still has no Skippy combat lines/hologram. SC2 log22:52:10
+and read-only ManualSave-23 show old Ambient Claimed1/Entered1/Stopped1/Stop0.
+SC1 incorrectly treats native unequip TurnOff as permanent owner termination;
+SC2 requires Stopped0 and cannot recover this saved state. SC3 preserves old
+receipt/resource and requires old retirement before entering a distinct private
+owner with the exact native equipped wait -> ambient -> TurnOff -> equipped loop.
+Active old owner must acknowledge Stop; unclaimed old owner is blocked/cancelled.
+One-time S23 quest priority cuts the whole new loop, including its pending wait,
+and waits for new Stopped receipt. No native quest/counter/mode/item/reward reset.
+Selected prealpha/skippy_ambient_sc3/candidate_02; native candidate_02. Both
+candidate_01 resources REJECTED due WolvenKit DeepCopy shared-socket duplication,
+NEVER installed. Direct native object preserves6graphs/68nodes/73edges;
+74payload/guard checks and independent88assertions/17guardcases/3negativecontrols
+PASS. Same script hash reuses64-source publicCodeware1.21.1 SCC PASS.
+Full51-path successor replaces ONLY combined archive, XL and existing S23 REDS;
+1185members=1184byte-unchanged+new SC3 owner. Fullreadback/68archivecollision and
+4native dependency winner checks PASS.20recorded fixture actions incl5interrupted
+rollbacks PASS. Actual gameclosed Validate/Install/Verify/ValidateRollback PASS;
+all51hashesmatch,301savefiles/names byte-identical. Recovery
+recovery/skippy_ambient_sc3_01; rollback SC3 FIRST with gameclosed via
+prealpha/skippy_ambient_sc3/deploy_02.ps1 -Action ValidateRollback then Rollback.
+File undo NOT save undo. Full unreleased ZIP SHA
+0644159D08F51568A3F15AFC9A360348B3838B9CF9686E6B826C8CCC78D35547;
+manifest AF2B50683688B8D15425F6DE90067539B7D5842B52E940A36974BD16E6BB5DAD.
+No assistant launch/save/nativefact edit/Gitpush/release. Speech, hologram and
+one-time quest LIVE UNVERIFIED. Do not ask further in-game tests/commands.
+docs/skippy_ambient_sc3_20261026.md; current installed SC3 supersedes SC2.
+Final candidate_02/assessment_01.json SHA
+FEE1DFEF7A220B7AF1D188B1698164A7F54CB1B0CC4AF4D0705D24D5475612DB.
+
+Latest 2026-10-26 SC2 SKIPPY AMBIENT ADMISSION INSTALLED; LIVE PENDING:
+User reported Skippy combat lines still silent under SC1. Latest SC1 ArchiveXL
+log confirms private ambient phase merged; Skippy reload fact changed, but no
+SC1 owner-entry telemetry existed. Saved ManualSave-23 has exact Skippy item,
+95 native Skippy enemy counts and no S23 one-time owner issued. SC1 driver
+could defer on unrelated HS1/Common/BodyPolicy/overshield gates. SC2 narrows
+ambient admission to completed Tower, living player and released gameplay;
+progressed Skippy state does not depend on snapshot/transaction quantity while
+equipped. Fresh gun retains snapshot/item priority for one-time quest. Native
+private inventory and story-owner exclusion/stop guards remain. Stage-change
+ModLog PTFR_SkippySC2 added; no fact reset or reward/Regina branch requested.
+Full 51-path successor changes ONLY existing PTFR_SideJobsS23.reds; combined
+archive/XL and 48 others byte-identical to SC1, retaining coaster Johnny VO
+removal. 64-source public Codeware compile PASS, 20 deployment fixture actions
+incl five interruption rollbacks PASS. Actual closed-game Install/Verify all51/
+ValidateRollback PASS. Recovery recovery/skippy_coaster_sc2_01; rollback SC2
+FIRST via prealpha/skippy_coaster_sc2/deploy_01.ps1 -Action
+ValidateRollback/Rollback with game closed. Unreleased full ZIP SHA
+6C78604BB0CD14FD8444912B61C118AC40231DDA64EA035469C4E42F037D9948.
+Initial 301-file save baseline was taken while user still playing: ManualSave-23
+three files and user.gls changed at22:48:59-22:49:00 before22:49:36 install
+receipt; other297 unchanged. No save overwrite, assistant game launch/fact edit,
+Git push or release. Live lines/hologram and untested Skippy quest PENDING;
+do NOT claim fixed until observed. docs/skippy_coaster_sc2_20261026.md and
+prealpha/skippy_coaster_sc2/candidate_01/save_comparison_02.json. Do not ask
+user for further in-game test commands under standing user constraint.
+
 Current production packaging rule (user request, 2026-10-26): keep future fixes
 in a successor of the consolidated package. Replace affected files at their
 existing install paths and remove superseded paths; do not pile separate hotfix
@@ -8,6 +247,418 @@ debugging and rollback. Add an installed file only when a distinct engine
 resource or script module requires it. Check the full manifest, compilation,
 resource winners, save preservation and rollback before installing a successor.
 See README.md and docs/full_consolidation_v1.md.
+
+Latest2026-10-26 SC1 SKIPPY AMBIENT AND COASTER VO SUCCESSOR INSTALLED; LIVE PENDING:
+User reports hostile NPC animations restored under W3 and requests Skippy combat
+one-liners/hologram plus no Johnny VO on Love Rollercoaster. Skippy one-time
+quest remains UNTESTED. SC1 rehosts ONLY original MQ007 ambient node3 behind
+owned Items.mq007_skippy, Tower/safety and S23 handoff gates; no pickup, mode,
+counter, journal or reward replay. Native Skippy inner six graphs/68 nodes/73
+edges compared after binary cook. The private MQ006 finale removes all14 Johnny
+scnDialogLineEvents,14 debug symbols and2 persistent references;60 other
+dialogue/271 scene events and section durations/5 JC1 quest-own conditions
+preserved. Separate repeatable coaster scene has0 dialogue events. Full51-path
+successor adds one archive member=1184; replaces ONLY combined archive, its XL
+and existing PTFR_SideJobsS23.reds.64-source public Codeware1.21.1 SCC PASS;
+all1184 packed members read back;68-archive collision scan has only expected
+old MQ006 PTFR winner.20 fixture actions incl5 interrupted rollbacks PASS.
+Actual closed-game Validate/Install/Verify/ValidateRollback PASS;301 savefiles
+byte-identical. Unreleased ZIP SHA
+DEA168F87D3D074BF71780C7CA6E50642851314B55EBABC5EE310739448DD504.
+Recovery recovery/skippy_coaster_sc1_01. Roll back SC1 FIRST, game closed,
+using prealpha/skippy_coaster_sc1/deploy_01.ps1 -Action ValidateRollback then
+Rollback; file undo is NOT save undo. W3 remains previous production package.
+No assistant game launch, save/fact edits, Git push or public release. Gameplay,
+reload, and one-time Skippy quest are live pending; do not claim live fix. See
+docs/skippy_coaster_sc1_20261026.md and prealpha/skippy_coaster_sc1/candidate_07.
+Current installed SC1.
+
+Latest2026-10-26 W3 AMBIENT WORKSPOT SUCCESSOR INSTALLED; NEW GROUPS LIVE PENDING:
+WW1 Pacifica car-goon group patrol resumed after user dismounted; only this one
+group has live proof. W3 extends W2 from206 to237 exact native combat-event
+prefab owners (245 spawner IDs), NOT 237 NPCs. The31 Rancho Coronado native
+authored `/#rancho_coronado` and registry `/rancho_coronado` prefab resources
+were extracted and byte-compared per group; original authored owner/community
+pairing retained. Private Rancho phase has31 owners/496 bounded gates; full
+64-source SCC with public Codeware1.21.1 PASS. Combined archive1183 winning
+members=W2's1182+one new phase; all readback, zero new-resource collisions in
+68 installed archives. Full51-path unreleased ZIP SHA
+FDC18332867CADD84A6FC0ACE22E0FDF491B696173DBA8EF7A78ACF7ED29508D.
+Actual install replaced ONLY combined archive, its XL and existing Baseline
+REDS; no new game paths.20 fixture actions incl5 interrupted rollback cases,
+actual Validate/Install/Verify/ValidateRollback PASS,301savefiles unchanged.
+Previous3 files in recovery/world_workspots_w3_01. Rollback W3 FIRST with game
+closed via prealpha/world_workspots_w2/deploy_w3_01.ps1 -Action
+ValidateRollback/Rollback; file undo NOT save undo. Then W2 rollback only if
+needed. W3 does not establish all-NPC patrol:240 other combat-event source
+rows and courier/scene/quest/non-combat families remain outside verified scope.
+No assistant launch, save/fact writes, Git push or public release.
+docs/world_workspots_w3_20261026.md; source/proofs under
+prealpha/world_workspots_w2/candidate_04. Current installed W3.
+
+Latest2026-10-26 W2 AMBIENT WORKSPOT SUCCESSOR INSTALLED; BROAD LIVE PENDING:
+User reports WW1 probe05 Scav car-goon patrol resumed after dismount. Read-only
+gamelog shows 3matched actors, owner Request then Claimed/Entered1; one-group
+live pass only. W2 reviewed477 native combat-event prefab refs:206 exact
+source-matched support owners admitted,31 Rancho path mismatch and240 other
+rows withheld. Counts are prefab refs/owners, NOT NPCs. Nine new private quest
+phase resources hold205 additional original prefabs; the proven WW1 resource
+and saved claim facts are preserved byte-exact. Admission requires a living
+streamed actor with exact native community spawner/active entry and two
+settled safe samples; no native combat reactivation/reset/AI role writes.
+Full51-file successor, combined archive1182members=1172old+10new, same51
+game paths. Installation replaced ONLY combined archive, archive.xl and
+existing PTFR_RestorationBaseline.reds, removed all3 temporary WW1 files.
+64-source SCC on publicCodeware1.21.1 PASS;205 graph readbacks/3280 gate
+assertions,69-archive collision scan(only expected retired WW1 probe hit),
+23fixture actions incl6 interrupted rollbacks PASS. Actual closed-game
+Validate/Install/Verify/ValidateRollback PASS;301 save files unchanged.
+Recovery recovery/world_workspots_w2_01. Rollback FIRST with game closed via
+prealpha/world_workspots_w2/deploy_01.ps1 -Action ValidateRollback/Rollback;
+file undo NOT save undo. Full local unreleased51-file ZIP SHA
+9931A611F7E2DAF73CB13DF0C78A0A27CE5A49F4324C0A387418B6ED3A312A52.
+Assessment prealpha/world_workspots_w2/assessment_01.json. No assistant
+game launch/fact/save edit/Git push/release. NEW205 owner patrol/reload LIVE
+UNKNOWN. El Coyote actors, GIM courier and separate NPC families remain
+unbound/not claimed fixed; user forbids further in-game test requests. W2 is
+NOT a verified all-NPC repair. See docs/world_workspots_w2_20261026.md.
+
+Latest2026-10-26 WW1 LIVE PASS; W2 BROAD AMBIENT REPAIR IN PROGRESS:
+User reports exact Pacifica car goons resume patrol after dismounting from
+motorcycle with probe05. Read-only gamelog18:28:31-50 shows admission waiting
+while mounted, then eligible3, native prefab owner requested, and
+Request/Claimed/Entered/Hold=0/1/1/0. This confirms only CVI116 owner entry and
+user-observed patrol recovery, not every NPC family. Pinned log
+diagnostics/world_npc_idle_20261026_04/gamelog_probe05_live_success.log SHA
+23A822597915AE70BBDC2D42CC89D136D9E7B54C65B9CCC83E600A8373C145E5.
+User now requests main fix for all NPCs; scope interpreted as post-Tower
+nonquest ambient hostile behavior. Do not request further in-game tests.
+Broader 477-ref offline census is NOT an allowlist. New W2 audit_01 found237
+resolved support-shaped owner candidates/240 excluded; static NodeRef mapping
+245 community hashes including WW1 exact hash. Native owner binary validation
+found31 Rancho Coronado path mismatches (`/#rancho_coronado` authored versus
+registry `/rancho_coronado`); do NOT use those registry paths as owners. Read-only
+exact-native-resource lookup found all31 real authored sectors; they still need
+decode and classification. W2 has NOT built/compiled/installed a production
+successor. Current install remains JC1 51 paths plus WW1 three-path temporary
+probe05. No assistant game launch, fact/save edits, push or release. Eventual
+production update MUST be a full 51-path consolidated successor removing the
+three probe paths, with save-compatible owner migration, manifest/readback,
+collision, compilation, rollback and save-preservation checks. Sources
+prealpha/world_workspots_w2 and docs/world_hostile_idle_report_20261026.md.
+
+Latest2026-10-26 WW1 PROBE04 LIVE NEGATIVE; PROBE05 INSTALLED, LIVE UNKNOWN:
+User reports the exact Pacifica car-goon Scavs remain idle under installed WW1
+probe04. Do not call the ambient issue fixed or ask for more in-game tests.
+Read-only game logs confirm REDscript compiled and ArchiveXL merged the private
+quest phase, but do NOT prove owner entry, Ready=1, actor admission or workspot
+activation. At the exact Scav location, the activity log reports player
+scene/dialogue=true/false during ordinary play; probe04 rejected scene=true.
+This is a plausible gate error, not a confirmed complete cause. Probe05 changes
+only the probe REDS file to reject active dialogue instead, and emits ModLog
+PTFR_WW1 stage transitions (attach, near/Ready, waiting, candidates, request,
+receipt). Archive and XL are byte-identical; JC1 51 production paths unchanged.
+65-source public Codeware SCC PASS, 4 installer interruption/rollback fixtures
+PASS. Actual game-closed Validate/Install/Verify/ValidateRollback PASS. All 301
+save files byte-identical across install. New script SHA
+53923E0F1E1F6A760ABFA3FF6278B50B5882A4B51A2394DE4764038ACB68D8EB.
+No assistant game launch/fact/save edits/push/release. Current install is JC1
+51 paths plus 3 temporary WW1 probe paths; PROBE05 runtime result UNKNOWN.
+Assessment diagnostics/world_npc_idle_20261026_03/assessment_01.json.
+To remove probe with game closed, rollback probe05 FIRST via
+prealpha/world_workspots_ww1/deploy_probe_05.ps1 ValidateRollback/Rollback,
+then probe04 via deploy_probe_04.ps1 ValidateRollback/Rollback. Production
+ambient fix still requires a new 51-path consolidated successor removing all
+probe-only files. See docs/world_hostile_idle_report_20261026.md.
+
+Latest2026-10-26 WW1 SCAV WORKSPOT PROTOTYPE INSTALLED; LIVE UNTESTED:
+User explicitly requested install of temporary additive prototype after
+clarifying prototype may add files; eventual TOTAL production fix must return
+to51consolidated paths and remove every probe-only path. Selected
+prealpha/world_workspots_ww1/probe_04 adds EXACTLY3 game files: one archive,
+one archive.xl, one REDS script; none of JC1's51 paths replaced. Source
+candidate02 nativeprefabowner has16guards/4negativecontrols; standalone script
+adds player-load startup hook, noNPC hook, and bounds original living Scav
+spawner/entry+two settled safe samples.65-source SCC with publicCW1.21.1 PASS;
+one-resource readback,68-installed-archive zero collision, ZIP3 hashes PASS.
+deploy_probe_04.ps1 six interruption/rollback fixtures+preexisting refusal PASS.
+Gameclosed actual Validate/Install/Verify/ValidateRollback PASS; all51JC1 files
+hashmatch.301save files before/after byte-identical. Recovery receipt/ZIP at
+recovery/world_workspots_ww1_probe_04_01; rollback FIRST when gameclosed:
+prealpha/world_workspots_ww1/deploy_probe_04.ps1 -Action ValidateRollback,
+then -Action Rollback (removes only3 exact probe files). ZIP SHA
+1214D5CEFA35F6A80264900AF7DDDA60F5928829170D3A15B9F63226D051E5F1.
+Installed assessment prealpha/world_workspots_ww1/probe_04/installed_assessment_01.json
+SHA FA9203120D310D60E10C4D311C3E20E24731F2C2BCC0F8860DA268669DBA31EA.
+No assistant game launch/fact/save edits/Gitpush/release. Ambient movement,
+runtime owner entry and reload NOT live verified; user forbids further in-game
+test requests. The total fix still needs per-group safe eligibility and the
+51-path successor; this prototype covers ONLY original CVI116 Scavs.
+
+User packaging clarification (2026-10-26): the temporary single-community
+Scav workspot PROTOTYPE may use additive installed files for diagnosis. The
+TOTAL production ambient fix must return to a 51-file consolidated successor,
+with all prototype-only paths removed. The local additive WW1 probe04 is
+three distinct engine files (archive, ArchiveXL registration, REDscript),
+now installed at the three additive paths above. Probe03 lacks guaranteed startup
+and is historical only. Probe04 adds one PlayerPuppet load hook and no NPC
+wrapper; 65-source public-Codeware compilation, one-resource archive readback,
+68-archive collision scan, three-file ZIP readback and installed JC1 51-file
+hash check PASS. Do not present it as the total fix or a public release.
+
+Current investigation constraint (user, 2026-10-26): continue the hostile-NPC
+ambient-behavior investigation with multi-agent work allowed, but STOP asking
+the user for in-game tests. Use existing source, logs and saved evidence.
+The earlier pending pre/post AI-role CET request is superseded by this rule.
+
+Latest2026-10-26 OFFLINE HOSTILE NPC WORKSPOT TRACE; NO INSTALL:
+Three-agent source/save/world audit maps3savedCVI116Scavs' usedSpotIds exactly
+to3human spots in original #ce_pac_cvi_116 quest prefab. Actualcommunity spawn
+area remains separate defaultworld. Native owner root/28/18 PhaseInstancePrefabs
+WAS OMITTED byWA1, which copied onlyPhaseGraph: negativeWA1 doesNOTreject missing
+prefab ownership. Saved sampledAI StoryTierGameplay, nullmount/unmount,notalerted;
+native idle tree selects/moves/uses communityspots withoutAIPatrolRole.
+Exact24nodeprefab has2previewcars spawnOnStart0/alwaysSpawnedfalse,triggeronly
+notifier,noauthoredreset; workspotscurrentEP1unpaused.57native+68modresource
+winnercheck0modoverrides for7exactresources. Savedprefabhandleropaque/identical;
+aggregate23->0savedworkspots NOT exactruntimeactivationproof. Cause remains
+strongsourcecandidate, no gameplayfixclaim. Local WW1 exact-group persistent
+prefabowner prototype only; no Reactivate/ResetKillCount/nativefact/AIrolewrites.
+CompletedTower16guards+readback/4negativecontrolsPASS; existingmodule admission
+scaffold64sourceSCCpublicCW PASS. NOT installed/packed/registered;51JC1paths
+VerifyPASS. Full473owners/477refs inventoried;385refsresolve374unique paths,
+353sectorsdecoded,21absent,92unresolvedrefs.254support-shaped,87ambientreview,
+10otherreview,2auto-spawnprefabs(CVI07/CVI09)withheld; NID08hascorpses+savearea.
+CensusNOTallowlist; automaticspawn/listener/alias hazards requirepergroupreview.
+Selectedlocalownerprototype candidate_02; compiledadmission03(noNPCwrapper,
+boundednearbylookupatoneexactsite)64sourcesPASS. User forbids in-game test asks.
+Evidence diagnostics/world_npc_idle_20261026_02; prototype prealpha/world_workspots_ww1;
+docs/world_hostile_idle_report_20261026.md corrects earlierWA1 interpretation.
+Finalassessment01SHA38B609AD0C1B1E92D7EC0682DEB67077C3277D9DDC83F58B3950F1D3B81CE0E7.
+All16districtowners share fresh-proven Tower-retired ancestry; courieractor9016721
+and exactElCoyoteactors stillunbound, notclaimedfixed. PrototypeNOTdeployableZIP;
+do notinstallsourcefolder. No launch/install/save/fact/push/release thispass.
+
+Latest2026-10-26 WA1 HOSTILE NPC PATROL TEST NEGATIVE; JC1 RESTORED:
+User confirmed exact Pacifica Scav record/spawner13399962301655001666/entrygoon1
+patrols pre-Tower, animates in place post-Tower; detection/combat work,
+pedestrians/traffic normal, time unpaused/no dilation. Native combat-event
+parent ends with Tower, but community active pre/post. Scoped Codeware
+ActivateCommunity changed group but idle remained. WA1 rehosted only vanilla
+#ce_pac_cvi_116 loop in private gated phase inside same51-path package;
+1172 old archive resources unchanged, 1 new; XL+archive replacements only.
+64-source SCC,1173-member readback, semantic 11-node/12-edge preservation,
+67-archive collision scan,38 installer fixture actions PASS. Actual Install/
+Verify/ValidateRollback PASS; user set PTFRWA1_TestRequest on disposable
+post-ending load and reports STILL IDLE. Thus native loop reinstatement NOT
+sufficient; no production ambient fix. WA1 Rollback PASS, current JC1 all51
+paths Verify PASS. Game auto-rewrote AutoSave-18; test slot archived under
+recovery/world_combat_wa1_01/test_autosave_18 and original3files restored
+from byte-verified pretest backup. 300/301 baseline save files now hash-match;
+only user.gls changed by game (no original byte backup; current archived).
+No assistant game launch, quest/kill fact changes, Git push or release.
+Docs docs/world_hostile_idle_report_20261026.md and docs/world_combat_wa1.md;
+workspace candidate prealpha/world_combat_wa1/candidate_04. Subsequent offline
+audit above supersedes the request for more live AI comparisons and identifies
+omitted native prefab ownership. Do not blanket restart16 district CE roots
+or repeat failed activation/loop test. JC1 production install remains.
+
+Latest2026-10-26 JC1 JEAN LOVE ROLLERCOASTER REPAIR INSTALLED; LIVE PENDING:
+User's post-Tower S30 Inspect ready1/permit0/issued0/finished0/fault0/entered0,
+baselineFreshtrue, eventually safetrue; only blocker
+mq006_ride_no_quest1 expected0. User had not ridden. Other MQ006 done/repair/
+repeatable/PTFR-owner facts all0. Native MQ006 graph sets noquest1 when opening
+standalone route BEFORE ride, so S30 guard was too strict. JC1 admits0..1 in
+both private entry guards and S30 FactMax0; all other safety gates retained.
+Private finale's five native noquest conditions instead test own
+PTFRWORLD_Coaster_QuestOwns==0, so one-time story lease1 selects Jean dialogue.
+Native saved fact remains1; no CET/save/fact rewrite. Full51-file successor
+replaces combined archive+S29 REDS, no added game paths.1172 archive members
+readback; only2 resources changed; scene has exact15 value diffs in5 conditions;
+64-source SCC with public CW1.21.1 PASS;38 deployment fixture actions incl6
+interruptions PASS. Two changed resources have0collisions among67other mod
+archives. Initial actual stage-copy denied by sandbox; both game
+files stayed RC2, rollback PASS, interrupted backup archived separately.
+Elevated retry installed; Verify all51 and ValidateRollback PASS;301 savefile
+hashes unchanged. No assistant game launch/Git push/release. Complete ZIP SHA
+6AC85EA6A325DF78FEA39101C4313C4EAE39B17B676E74E0F2EF59316E36C431.
+Evidence/source prealpha/coaster_jean_jc1/assessment_01.json
+SHAB52D0DC4ABF87245A998CBFCEBACD027412B35FD80CA983C33F1AB382ADE8555;
+doc docs/coaster_jean_jc1.md.
+Rollback JC1 FIRST via prealpha/coaster_jean_jc1/deploy_01.ps1
+-Action ValidateRollback/Rollback; backup recovery/coaster_jean_jc1_01.
+Interrupted rolled-back backup recovery/coaster_jean_jc1_interrupted_01.
+File rollback NOT save undo. NEXT user cold-load same save, S30 Inspect,
+Jean introduction/repair/ride/finale/reward/reload, watch duplicate owner/cart.
+Current installed JC1; live route pending.
+
+Latest2026-10-26 RAYMOND-PATTERN AUDIT OF ALL RESTORED ENTRY OWNERS; NO INSTALL:
+User requested similar issues across all restored quests. Read-only screen of
+81selectedsidejob+80gig roots,144distinct current RC2 owner resources; all51
+installed PTFR package hashes match.21owners have any time condition; only
+MQ040(12h,USER quest returned after SkipTime) and MQ028 EveryBreathYouTake(2d)
+have substantial mandatory Issued->Entered game-time waits.12other owners use
+two-tick settle/recheck.80gig entry owners have no time condition in their
+private owner graph (8U10 use other receipts; external/native progress unproven).
+Current native MQ018 KillingInTheName writes started/active before message phase
+but S29 fresh guard requires0; MQ028 writes started before call but S29 requires0.
+Both are SOURCE candidates for inactive-journal partial-owner deferral; no live
+matching failures. Steven ShowMustGoOn has nested66h invitation branch when
+biomonitor_ana0; copied fallback root Inactive/fact0, prior timer origin unknown.
+SexOnWheels3d follows reactivated journal; possible repeat unproven. S30 trio
+early fact ordering rechecked, no analogous persistent wait established. Static
+entry audit does NOT explain11 missing icons or certify gameplay/reload.
+No assistant game launch/install/save/fact/public release. Matrix161 and pinned
+assessment diagnostics/raymond_pattern_audit_20261026_01/assessment_01.json
+SHA6272B540AB03C3B622DB5450D7F43882F60401FF3710A44E621BDB1A4DED7C25;
+docs/raymond_pattern_audit_20261026.md. Current RC2 remains installed.
+
+Latest2026-10-26 RC2 RAYMOND LOCAL TEST REPAIR INSTALLED; ENTRY LIVE PASS:
+User reports Pepe+Valentinos/corpo physically present but idle after Tower.
+Captured mq040_active1/done0/pepe_intro0/gangers_done0/barman_default0/
+PTFRB0STPEPE_OwnerActive0; S29 fresh guard expected active0. Original native
+owner liveness still unproven; q307_main_game_killed fact not decisive. RC2
+admits active1 only with owner/barman off and original progress guards, two
+settled ticks. Private MQ040 active1 branch skips setup spawns and enters native
+bar phase; active0 path unchanged. Full CR1 successor51paths;2 existing install
+files replaced (combined archive+S29 REDS),2 private resources changed of1172;
+all30 CR1 repairs retained.64-source SCC PASS, graph/guard/0-collision/readback
+checks PASS,38fixture actions PASS incl6 interruption points. Actual closed-game
+Install/Verify/ValidateRollback PASS;301 save files unchanged. Previous files in
+recovery/raymond_rc2_01. First sandbox-denied attempt made zero game changes;
+rolled-back receipt retained recovery/raymond_rc2_interrupted_01. Full unreleased
+51-file ZIP SHA EC133E6CF8CC3A56196D95309B0B4F3E7462538A6B385EFB79D331736B28F8B7.
+No assistant game launch/save/fact/public release. First user post-install
+Inspect: ready/permit/issued/finished1/1/1/0,entered0,currentMatchtrue.
+Private owner had passed admission but copied vanilla parent still runs 12h
+game-time delay after Heroes. User skipped12h and reports quest came back on
+their current fixture: ENTRY LIVE PASS only. Dialogue/completion/reload and
+duplicate-scene checks still PENDING; current installed RC2 left untouched.
+Future successor may skip repeated wait for proven active1 setup, but none
+installed. Rollback FIRST via prealpha/raymond_rc1/deploy_03.ps1
+-Action ValidateRollback/Rollback, game closed. File undo NOT save undo.
+docs/raymond_rc2.md; prealpha/raymond_rc1/candidate_03 selected;
+candidate_01 REJECTED_UNSAFE, candidate_02 historical failed workspace build.
+
+Latest2026-10-26 FAST TRAVEL BLACKOUT LOG REVIEW; NO FIX/INSTALL:
+User live report BuranSt->ElCoyote ~13:22-13:25: world+menus black, input/audio
+still active. CurrentCR1 all51hashesmatch. Captured37logs/sources under
+diagnostics/fast_travel_blackout_20261026_01. SCCsuccess; LC3Ready13:21:53,
+source then released/Drop, no latercoverlog; visualteardown NOT logged/proven.
+Facts13:23:47/13:24:04 and IFP pause/vehicle logs continue; RED4ext orderlyexit
+13:25:05-08. No newcrashreport. IFP0.2.0DLL refused incompatiblepatch, separate
+CETlogic logs; notdemonstratedcause. WindowsSystem13:15-30 NoMatchingEventsFound.
+CauseUNCONFIRMED; stuckfade/loading/UI candidate, renderingfault notexcluded.
+Needreadonlyfasttravelloadingcompletion/UI-fade/popup/playerstate at reproduction.
+No assistant game launch, installed/save/fact edits or rollback; do NOT claim
+CR1causal or fix by blindfade/factclear. docs/fast_travel_blackout_20261026.md.
+
+Latest2026-10-26 CR1 CONSOLIDATION REPAIR INSTALLED; LIVE PENDING:
+User requested implement fixes and excluded identifying11 missing markers.
+Three independent agents reviewed donors, semantic checks and Raymond safety.
+CR1 candidate_01 explicitly restores ALL30 conflicting corrective donors from
+verified preconsolidation backups; do NOT reuse historical overwrite-order build.
+Restores Yoko/Viktor choices, Wilson gun dispatch+lease acknowledgement, Fred
+boxing+FS1, Bullets rearm, Dennis issued guard, shared phone cleanup49root+6inline,
+S25 Delamain receipt/S22 exclusion and native admission guards. Other reviewed
+conflicts H10/mirror, PA6 Rogue lipsync index and U10 retaliation gates restored.
+S30 trio/48scene lipmap/SR1 visual and MQ058/runtime guards retained. Same51paths;
+ONLY combined archive replaced;1172members=30repaired+1142byteunchanged,50other
+files unchanged. No new overlay/resourcepaths. All1172readback/67otherarchives
+zero collisions; independent2057assertions/30groupsPASS plus S30negativecontrol;
+full64sourceSCC with publicCodewarePASS. deploy_02.ps1 38fixtureactions incl6
+interruptions/partialstage recovery PASS; deploy_01 failed nullargument fixture
+only, NEVER realinstalled. Actual Validate/Install/Verify/ValidateRollbackPASS.
+All51installedhashes match;498unaffectedfiles incl295saves/names unchanged.
+ArchiveSHA BDDAE9BB742041B74B10B2C2F814C286BD4C740452E517835952968B1B59BC31.
+Manifest02SHA B93D40F32706B8106570FB27B0139B44C554558473D80771C98FA22F508CFD73.
+Full51ZIP prealpha/consolidation_repair_cr1/candidate_01/dist/
+Post-Tower-Continuation-and-Free-Roam-CR1-unreleased.zip SHA
+E50D2A253107953C3FBB5426D01D4563CE1B9983C3786CF5EFBB00CAFBA9A75E.
+Previousfull51 in candidate_01/archived_previous; actual backup/receipt in
+recovery/consolidation_repair_cr1_01. RollbackCR1 FIRST beforeS30 using
+prealpha/consolidation_repair_cr1/deploy_02.ps1 -Action ValidateRollback/Rollback,
+game closed. Fileundo NOT saveundo. No assistant launch/fact/save/framework edit
+or Gitpush/release. Gameplay/rewards/reload and serialized-owner migration pending.
+Raymond partialowner NOT patched: q307_main_game_killed has2writers/different
+retirement targets, no capture acknowledgement that original MQ040 owner stopped.
+No forcedfacts/Pepe release/secondowner/customCodeware. MQ018/MQ028 unconfirmed.
+docs/consolidation_repair_cr1.md; candidate_01/assessment_01.json SHA
+0587BFB8578A54D7B4DA6BDA719C3EF7264107824D5A05F4D31B9FFFA822B631.
+Use successors.
+
+Latest2026-10-26 ALL81 SIDEJOB ENTRY/PHONE AUDIT; NO INSTALL:
+User explicitly approved multi-agent audit and clarified ALL restored sidejobs.
+Final cohorts A27+B29+C22+S30three=81 unique roots; full78 prior entry census,
+61 original entry owners freshly decoded. Current51 package hashes and all1172
+installed archive payloads match S30 candidate_02; zero collisions67other mods.
+CRITICAL source discovery: consolidation build_archive_02 iterates ascending
+archive inventory and overwrites repeated depots;37 overwrite events affect30
+distinct paths, ALL30 current choose last/older donor rather than first repair.
+Fresh donor/current decode proves known repairs lost. Earlier claim of preserved
+internal winners/equivalence WITHDRAWN; hash/readback/compile pass alone missed it.
+Lost Yoko779 component choices, Viktor351/840 debt options, Wilson gun-order
+dispatch and quest-release acknowledgement, Fred fresh-boxing native scene
+selector, Bullets1021 rearm, Dennis1003 issued acknowledgement, S25 Delamain
+65020 receipt; common cleanup72->23 root nodes loses49 +6inline courier nodes,
+17character contacts+NCPD cleanup branches. Scoped phone listeners still exist;
+ordinary call completion/saved global native cleanup separate and liveunknown.
+13older resources reintroduce Failed alternatives plus missing native sibling/
+root rechecks, BUT runtime HS1/current-root/sibling guards survive: NO blanket
+failed replay/duplicate reward/corruption claim. SR1 S29 seven-message correction,
+runtime Delamain adoption and MQ058 End Quest receipt still present.
+Raymond captured handoff gap now pinned from existing CETlog2473-2494/2513-2526:
+rootInactive+mq040_active1, S29baselineFresh true/currentMatch false, Pepe owner0.
+Old native owner liveness unknown; do NOT clearfacts or issue secondowner.
+MQ018/KillingInTheName and MQ028/EveryBreath source-only partial-state candidates;
+GunMusic/BurningDesire/AdayInLife activefacts accepted by their bounded adapters.
+19->8 map report remains11 unidentified marker difference, not11 proved failures.
+Existing latest fallback original78:49Inactive22Succeeded6Failed1Active; not
+current-live/save-ancestry assertion; HS1 still excludes3S30 IDs. All499 protected
+files incl295savefiles unchanged; no game launch, install, fact/save edit,
+compile, rollback, push or release. Final diagnostics/sidejob_entry_phone_audit_
+20261026_01/assessment_01.json +coverage_81_01.json/csv; use phone_entry matrix27_02,
+messages assessment02, entry_state cohort22_phone_entry02/coverage78_02.
+docs/sidejob_entry_phone_audit_20261026.md. Future repair must reconcile ALL30
+donors explicitly in SAME51-path consolidated successor; no overlay/fact reset.
+Current S30 rollback chain remains unchanged. Other housing/mirror/Rogue/
+retaliation donor deltas recorded, NOT full gameplay-audited by this sidejob pass.
+Supplement: retained Heroes S27 package route is R6.2-excluded/HS1-absent,
+normal new admission blocked; prior Issued owners preserved. Dedicated runtime
+table scan finds no other extra selected-sidejob adapter; S21 wider list is
+diagnostic. scope_reconciliation_02.json records this without whitelist changes.
+
+Latest2026-10-26 S30 THREE SIDE JOBS INSTALLED; LIVE PENDING:
+User authorized whitelist promotion and restoration of Love Rollercoaster
+`mq006_rollercoaster`, Shape of a Pony `mws_se5_07`, and Career Opportunities
+`mws_wat_08_trauma_drama`; River's Motorbreath `mq057_motorbreath` explicitly
+held/excluded. R6.2 broad selector now 80 gigs+81 side/minor jobs=161 entry
+implementations; prior HS1 snapshot still has original158 IDs, so S30 uses
+two settled current journal/fact/vehicle samples for its three new IDs and
+does not claim generic active-progress resume. Corrected S30 candidate_02
+successor has SAME51 install paths; actual install replaced ONLY combined
+archive, its XL, and existing PTFR_SideJobsS29.reds. Older candidate_01
+workspace-only missed Pony's `#johnny` camp workspot and had an unnecessary
+shared-instance split; DO NOT use it. Candidate_02 copies 4quest phases,
+5scenes,7Johnny workspots with private paths; all16 serialized/readback exact,
+4native phase graphs exact after reversing private refs, scene cast/dialogue
+retained, Johnny workspot effect hubs muted/initial equip cleared, no scoped
+Johnny standalone VFX/equip events. Existing JV1 actor mesh hide retained;
+live rendering not yet proved. English lipmap44->48 using4 native donors;
+Career scene had no native map. Archive1153->1172 winning members, 1152
+old members unchanged, one lipmap replaced,19 new resource paths; zero
+collision in67other installed archives. Full64-source SCC with public Codeware
+PASS. Static asset592/entry111checks,17 installer fixture actions PASS.
+Actual Validate/Install/Verify/ValidateRollback and full51 installed file
+hashes PASS. 295 current savefiles/names byte-unchanged; no assistant game
+launch/fact/save writes or new GitHub Release. Recovery backup
+`recovery/sidejobs_s30_02`, rollback FIRST when game closed via
+`prealpha/sidejobs_s30/deploy_02.ps1 -Action ValidateRollback/Rollback`;
+file rollback NOT saved-game undo. Full local unreleased ZIP
+`prealpha/sidejobs_s30/candidate_02/dist/Post-Tower-Continuation-and-Free-Roam-S30-unreleased.zip`
+SHA42AF01F1CD3B4D0E6F11990EDBF22B1A138335311D8C48EB3DD8E5744BD20F07;
+NO GitHub push/release this turn. Gameplay marker, actor visibility, original
+rewards and save/reload LIVE PENDING. docs/sidejobs_s30_20261026.md.
 
 Latest2026-10-26 USER LIVE PASS ON PUBLIC CODEWARE:
 User reports all previous fixes they tested worked and combined PTFR runs with

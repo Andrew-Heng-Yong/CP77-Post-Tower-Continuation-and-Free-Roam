@@ -1,6 +1,10 @@
 # Post Tower Continuation and Free Roam — full consolidation v1
 
+**Current successor:** [CC1](coaster_post_doublelife_20261027.md) was installed on 27 October. It retains the 30 corrective donors restored by [CR1](consolidation_repair_cr1.md), the S30 additions, and the same 51 install paths. Use CC1's rollback first. The audit correction and historical results below remain part of the record.
+
 **Status:** Installed locally and file-verified on 25 October 2026. On 26 October, the user reported the combined mod and previous fixes working with public Codeware 1.21.1. Full restored-quest coverage remains pending.
+
+**26 October audit correction:** The [all-sidejob entry/phone audit](sidejob_entry_phone_audit_20261026.md) found that consolidation selected superseded donors at 30 conflicting resource paths (37 overwrite events), discarding several prior repairs. Package hashes and read-back remain valid, but the earlier claim of preserved internal override winners is withdrawn. The installed S30 successor inherits these losses. No repair or installation was performed by the audit; consult its per-job findings before treating the combined package as equivalent to the previous stack.
 
 This package combines the complete installed alpha stack and subsequent local fixes, including the installed SR1 side job repair. The local ZIP `prealpha/full_consolidation_v1/candidate_01/dist/Post-Tower-Continuation-and-Free-Roam-v1.zip` contains 51 game files, replacing 127 legacy PTFR files in the current installation. The ZIP is not in Git or a GitHub Release yet. The number of archives falls from 25 to one, ArchiveXL registration files from 23 to one, and REDscript files from 76 to 46. The two CET entry files and one TweakXL file retain their paths. Three development CET helper mods and generated runtime data are outside the package.
 
@@ -16,6 +20,11 @@ replaced source files in the workspace for debugging and rollback; they are not
 part of the new install. Add a new installed path only when the engine needs a
 distinct resource or module. Record that need in the change log and remove any
 retired path through the installer.
+The temporary Scav workspot prototype approved on 26 October is a scoped
+diagnostic exception. It adds three reversible files alongside the current
+51-file package. Its eventual production replacement must return to 51 files
+and remove all prototype-only paths; see the
+[ambient investigation](world_hostile_idle_report_20261026.md).
 
 Before installing a successor, verify the full package manifest, native archive
 resource winners, script compilation, installer replacement and rollback, and
@@ -25,7 +34,7 @@ written into a save.
 
 ## Preservation checks
 
-- The combined archive contains 1,153 effective resources. Every resource was read back and checked against the last winning bytes from the 25 installed archives. The 37 internal override keys resolve to the same bytes. No installed non-PTFR archive uses any of these resource keys.
+- The combined archive contains 1,153 effective resources. Every resource was read back against the builder-selected bytes from the 25 installed archives. **Superseded equivalence claim:** later review found that the builder's repeated overwrites discarded prior corrective donors at 30 distinct paths; the 37 figure counts overwrite events, not unique keys. No installed non-PTFR archive uses these resource keys.
 - The combined ArchiveXL file retains 742 distinct quest phase registrations, 13 streaming block registrations and the English lipmap registration.
 - The 46 REDscript files compile with the full installed script set, including EquipmentEX. Every original PTFR script body is preserved, and the decompiled output has the same 661,977 nonblank lines as the current compiled build after normalization of generated wrapper numbers.
 - The two CET entry files and the TweakXL file are byte identical to the current installation. All 117 files in the last alpha release manifest and ten later installed files are accounted for.

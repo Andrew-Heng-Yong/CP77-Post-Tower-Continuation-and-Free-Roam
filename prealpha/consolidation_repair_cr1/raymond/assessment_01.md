@@ -1,0 +1,15 @@
+# Raymond partial-owner handoff investigation
+
+No runtime admission change is included for Raymond Chandler Evening. The captured `mq040_active=1`, inactive journal root, and disabled Pepe service establish the entry gap. They do not establish the original saved quest owner's execution state. CR1's restoration of the thirty known repair donors can proceed independently.
+
+The normal native `base/quest/cyberpunk2077.questphase` root contains MQ040 through inline node 82, child 6 (`minorquests.questphase`), and child 49 (`mq040_biosculpt.questphase`). Its node 106 observes `q307_before_tomorrow` Succeeded, node 109 writes `q307_main_game_killed=1`, and node 107 is a Terminating output. This is source evidence of intended retirement, but the fact is written before the termination.
+
+The separate native `q307.quest` also writes `q307_main_game_killed=1` at root node 18. It then runs cut 17 against its own inline phase 6. That phase contains additional game elements, holocall initializers, and bugfixing resources; it does not contain the base MQ040 owner. Consequently, the fact alone cannot identify which retirement occurred. The existing capture has no acknowledgement tied to the original MQ040 phase's retirement.
+
+MQ040's setup also has obligations beyond its journal: root/3 writes active=1 at node 14, cycles the Coyote community, reactivates Pepe in `mq040_01_bartop`, disables his default service at node 11, and spawns the initial encounter communities. Its cleanup restores Pepe's service; the separate active-clear writer is reached from the failure input through an outside-trigger and content-token branch. Restarting setup or forcibly releasing the service would require a verified single-owner handoff and preservation of these obligations, choices, calls, and rewards.
+
+The installed public Codeware script adds only `ExecuteNode` to QuestsSystem. That method mutates quest execution; it is not an owner-liveness query. The inspected C++ `QuestPhaseRegistry::GetPhaseInstance` is internal infrastructure, not a public script method, and the mere existence of a phase object would not certify that it is executing. The inspected `questNodeLoadingCondition` uses a world NodeRef and is not a quest graph phase-state predicate. No usable public owner-retirement query was established in these local sources. This is a scoped finding, not a claim that every engine interface has been exhausted.
+
+The current S29 `mq040_active=0` guard remains intact. No fact clearing, forced Pepe enablement, second owner, graph reset, custom Codeware requirement, game launch, install, or save write was performed by this investigation. MQ018 and MQ028 remain source-only candidates with no new live defect evidence.
+
+`verify_01.py` pins the source hashes and checks the exact writer, termination, cut target, owner chain, setup obligations, and existing guard. Its result is `assessment_01.json`. `native_owner_trace_02.json` contains expanded source graphs. These checks establish why a fact-only bypass is not justified; they do not prove live quest behavior.

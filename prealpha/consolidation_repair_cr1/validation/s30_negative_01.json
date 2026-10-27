@@ -1,0 +1,265 @@
+{
+  "status": "NEGATIVE_CONTROL_DETECTED_KNOWN_S30_REGRESSIONS",
+  "candidate": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\sidejobs_s30\\candidate_02",
+  "readback_index": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\consolidation_repair_cr1\\validation\\s30_negative_readback_01\\inventory.json",
+  "readback_index_sha256": "F43A9271F9D4A76828B73EBA9D5F6D307F64CE0D886C29B24104008E23894E9F",
+  "checks_contract_sha256": "501AFD3384103C790B4891C0BA24970B641850795B1BA40F538AAFD25849E801",
+  "tester_sha256": "22611D5680F6E8CE8E3EF42841F08AE231359EFC608326F506D19B837D76C65E",
+  "checks": 439,
+  "groups": 30,
+  "failed_groups": [
+    "bullets_rearm",
+    "dennis_entry_ack",
+    "fred_native_intro",
+    "full_preservation",
+    "native_policy_towercontinued_side_job_pilot_s1_owner.questphase",
+    "native_policy_towercontinued_sidejobs_s22_delamain_owner.questphase",
+    "native_policy_towercontinued_sidejobs_s22_delamain_support.questphase",
+    "native_policy_towercontinued_sidejobs_s22_moving_heat_boot.questphase",
+    "native_policy_towercontinued_sidejobs_s22_mq025_progress.questphase",
+    "native_policy_towercontinued_sidejobs_s22_the_gig_reward_resume.questphase",
+    "native_policy_towercontinued_sidejobs_s23_base_a_mq002_veterans.questphase",
+    "native_policy_towercontinued_sidejobs_s23_base_a_mq007_smartgun.questphase",
+    "native_policy_towercontinued_sidejobs_s23_base_a_mq012_stud.questphase",
+    "native_policy_towercontinued_sidejobs_s23_base_a_mq021_guide.questphase",
+    "native_policy_towercontinued_sidejobs_s23_base_a_mq024_sandra.questphase",
+    "native_policy_towercontinued_sidejobs_s23_base_a_mq035_ozob.questphase",
+    "native_policy_towercontinued_sidejobs_s23_base_a_mq041_corpo.questphase",
+    "native_policy_towercontinued_sidejobs_s23_base_a_mq044_jakes_vehicle.questphase",
+    "native_policy_towercontinued_sidejobs_s23_base_a_v2_mq007_resume_boot.questphase",
+    "native_policy_towercontinued_sidejobs_s23_base_b_mq026.questphase",
+    "native_policy_towercontinued_sidejobs_s23_ep1_mq306_boot.questphase",
+    "s25_delamain_receipt",
+    "shared_phone_cleanup",
+    "viktor_debt_choices",
+    "wilson_gun_dispatch",
+    "wilson_lease_ack",
+    "yoko_component_choices"
+  ],
+  "results": [
+    {
+      "id": "full_preservation",
+      "result": "FAIL",
+      "checks": 16,
+      "detail": "Unexpected resource payload towercontinued/afterlife_interactions_r8/rogue.scene",
+      "exception": "AssertionError"
+    },
+    {
+      "id": "yoko_component_choices",
+      "result": "FAIL",
+      "checks": 262,
+      "detail": "Yoko component choice has no output",
+      "exception": "AssertionError"
+    },
+    {
+      "id": "viktor_debt_choices",
+      "result": "FAIL",
+      "checks": 1,
+      "detail": "Viktor debt choice disconnected",
+      "exception": "AssertionError"
+    },
+    {
+      "id": "wilson_gun_dispatch",
+      "result": "FAIL",
+      "checks": 1,
+      "detail": "Wilson order selector/scene missing",
+      "exception": "AssertionError"
+    },
+    {
+      "id": "wilson_lease_ack",
+      "result": "FAIL",
+      "checks": 1,
+      "detail": "Wilson quest-lease acknowledgement missing",
+      "exception": "AssertionError"
+    },
+    {
+      "id": "fred_native_intro",
+      "result": "FAIL",
+      "checks": 1,
+      "detail": "Fred native conversation selector missing",
+      "exception": "AssertionError"
+    },
+    {
+      "id": "bullets_rearm",
+      "result": "FAIL",
+      "checks": 1,
+      "detail": "Bullets rearm wait missing",
+      "exception": "AssertionError"
+    },
+    {
+      "id": "dennis_entry_ack",
+      "result": "FAIL",
+      "checks": 1,
+      "detail": "MQ038 no longer awaits its phone handler",
+      "exception": "AssertionError"
+    },
+    {
+      "id": "shared_phone_cleanup",
+      "result": "FAIL",
+      "checks": 1,
+      "detail": "Shared cleanup is missing corrective branches",
+      "exception": "AssertionError"
+    },
+    {
+      "id": "s25_delamain_receipt",
+      "result": "FAIL",
+      "checks": 1,
+      "detail": "Shared Delamain phone receipt writer missing",
+      "exception": "AssertionError"
+    },
+    {
+      "id": "native_policy_towercontinued_sidejobs_s22_mq025_progress.questphase",
+      "result": "FAIL",
+      "checks": 1,
+      "detail": "Original corrective node payload regressed",
+      "exception": "AssertionError"
+    },
+    {
+      "id": "native_policy_towercontinued_sidejobs_s22_the_gig_reward_resume.questphase",
+      "result": "FAIL",
+      "checks": 1,
+      "detail": "Original corrective node payload regressed",
+      "exception": "AssertionError"
+    },
+    {
+      "id": "native_policy_towercontinued_sidejobs_s22_delamain_support.questphase",
+      "result": "FAIL",
+      "checks": 1,
+      "detail": "Original corrective node payload regressed",
+      "exception": "AssertionError"
+    },
+    {
+      "id": "native_policy_towercontinued_sidejobs_s22_delamain_owner.questphase",
+      "result": "FAIL",
+      "checks": 1,
+      "detail": "Original corrective node payload regressed",
+      "exception": "AssertionError"
+    },
+    {
+      "id": "native_policy_towercontinued_sidejobs_s22_moving_heat_boot.questphase",
+      "result": "FAIL",
+      "checks": 1,
+      "detail": "Original corrective node payload regressed",
+      "exception": "AssertionError"
+    },
+    {
+      "id": "native_policy_towercontinued_sidejobs_s23_base_a_mq024_sandra.questphase",
+      "result": "FAIL",
+      "checks": 1,
+      "detail": "Original corrective node payload regressed",
+      "exception": "AssertionError"
+    },
+    {
+      "id": "native_policy_towercontinued_sidejobs_s23_base_a_mq007_smartgun.questphase",
+      "result": "FAIL",
+      "checks": 1,
+      "detail": "Original corrective node payload regressed",
+      "exception": "AssertionError"
+    },
+    {
+      "id": "native_policy_towercontinued_sidejobs_s23_base_a_mq035_ozob.questphase",
+      "result": "FAIL",
+      "checks": 1,
+      "detail": "Original corrective node payload regressed",
+      "exception": "AssertionError"
+    },
+    {
+      "id": "native_policy_towercontinued_sidejobs_s23_base_a_mq012_stud.questphase",
+      "result": "FAIL",
+      "checks": 1,
+      "detail": "Original corrective node payload regressed",
+      "exception": "AssertionError"
+    },
+    {
+      "id": "native_policy_towercontinued_sidejobs_s23_base_a_mq002_veterans.questphase",
+      "result": "FAIL",
+      "checks": 1,
+      "detail": "Original corrective node payload regressed",
+      "exception": "AssertionError"
+    },
+    {
+      "id": "native_policy_towercontinued_sidejobs_s23_base_a_mq021_guide.questphase",
+      "result": "FAIL",
+      "checks": 1,
+      "detail": "Original corrective node payload regressed",
+      "exception": "AssertionError"
+    },
+    {
+      "id": "native_policy_towercontinued_sidejobs_s23_base_a_mq041_corpo.questphase",
+      "result": "FAIL",
+      "checks": 1,
+      "detail": "Original corrective node payload regressed",
+      "exception": "AssertionError"
+    },
+    {
+      "id": "native_policy_towercontinued_sidejobs_s23_base_a_mq044_jakes_vehicle.questphase",
+      "result": "FAIL",
+      "checks": 1,
+      "detail": "Original corrective node payload regressed",
+      "exception": "AssertionError"
+    },
+    {
+      "id": "native_policy_towercontinued_sidejobs_s23_base_a_v2_mq007_resume_boot.questphase",
+      "result": "FAIL",
+      "checks": 1,
+      "detail": "Original corrective node payload regressed",
+      "exception": "AssertionError"
+    },
+    {
+      "id": "native_policy_towercontinued_sidejobs_s23_base_b_mq026.questphase",
+      "result": "FAIL",
+      "checks": 1,
+      "detail": "Original corrective node payload regressed",
+      "exception": "AssertionError"
+    },
+    {
+      "id": "native_policy_towercontinued_sidejobs_s23_ep1_mq306_boot.questphase",
+      "result": "FAIL",
+      "checks": 1,
+      "detail": "Original corrective node payload regressed",
+      "exception": "AssertionError"
+    },
+    {
+      "id": "native_policy_towercontinued_side_job_pilot_s1_owner.questphase",
+      "result": "FAIL",
+      "checks": 1,
+      "detail": "Original corrective node payload regressed",
+      "exception": "AssertionError"
+    },
+    {
+      "id": "retained_sr1_mq058_sequel_phone",
+      "result": "PASS",
+      "checks": 11
+    },
+    {
+      "id": "retained_s30_three_entries",
+      "result": "PASS",
+      "checks": 119
+    },
+    {
+      "id": "retained_runtime_and_dennis_initializer",
+      "result": "PASS",
+      "checks": 6
+    }
+  ],
+  "expected_negative_control": true,
+  "negative_required_groups": [
+    "bullets_rearm",
+    "dennis_entry_ack",
+    "fred_native_intro",
+    "s25_delamain_receipt",
+    "shared_phone_cleanup",
+    "viktor_debt_choices",
+    "wilson_gun_dispatch",
+    "wilson_lease_ack",
+    "yoko_component_choices"
+  ],
+  "game_writes": 0,
+  "save_writes": 0,
+  "game_launches": 0,
+  "limits": [
+    "Offline resource/guard validation is not engine execution or saved-phase migration proof.",
+    "No11-marker investigation.",
+    "Compilation, archive packed readback, install/rollback fixtures and actual deployment are parent responsibilities."
+  ]
+}

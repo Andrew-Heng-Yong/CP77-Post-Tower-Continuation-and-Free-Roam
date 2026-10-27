@@ -1,0 +1,1527 @@
+{
+  "schema": "PTFR_CR1_EXPLICIT_DONORS_V1",
+  "status": "APPROVED_30_RESOURCE_RECONCILIATION",
+  "selection_policy": "Each named depot is independently approved. Never infer an unlisted winner by archive order.",
+  "baseline": "S30 candidate_02 1172-member combined archive",
+  "resource_count": 30,
+  "install_path_count_change": 0,
+  "source_evidence": [
+    {
+      "path": "recovery/full_consolidation_v1_01/install_manifest_01.json",
+      "sha256": "03445E667D5F91E3BEEA8F924B8D9DB292C24B61FA947D91E031677D977B087B"
+    },
+    {
+      "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/inventory.json",
+      "sha256": "BB92FADD53ECB1159EFB5EA04A9813A8B87B17D23D07736A037A704E2BB207E1"
+    },
+    {
+      "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_donors_01.json",
+      "sha256": "2B7453262A26566A63F4D863D39FF71EFA5EA2B121E759E753C3BC711AE2F845"
+    }
+  ],
+  "rows": [
+    {
+      "depot": "towercontinued\\sidejobs_s23\\base_b\\mq038.questphase",
+      "key": "2447455146621282329",
+      "decision": "RESTORE_REVIEWED_PRECONSOLIDATION_REPAIR",
+      "repair": "JD1 Dennis",
+      "rationale": "Restore JD1 Dennis phone-handler Issued acknowledgement in wait 1003 before fresh Big in Japan admission; the restored native controller is already packaged.",
+      "current_sha256": "68750EC42A1F2DBDDE58F3BAF0A5E94AF5573FEC192885E724D7C10278ACD5A1",
+      "selected_sha256": "9E1C9646659F1C77AE435335777EB207A026399AE13ADA1AFCFABA746CC797AC",
+      "source": "prealpha/consolidation_repair_cr1/donor_review/selected_raw/towercontinued/sidejobs_s23/base_b/mq038.questphase",
+      "original_extracted_source": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_raw/towercontinued/sidejobs_s23/base_b/mq038.questphase",
+      "archived_source": {
+        "path": "recovery/full_consolidation_v1_01/old/archive/pc/mod/000000000_TowerContinued_JD1.archive",
+        "sha256": "2AF165E9292CCAB188D73295F4E02396B3BB38B4E89955AFB6D3F72C2BF3388C"
+      },
+      "decoded_sources": [
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_json/towercontinued/sidejobs_s23/base_b/mq038.questphase.json",
+          "sha256": "DC7013B71996DDA87A4BE6162A5E8F051536AB2A44E43BC46042791E0BE6277E"
+        },
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/current_json/towercontinued/sidejobs_s23/base_b/mq038.questphase.json",
+          "sha256": "2C327FDAE7CBE4BF1820C7FD5CF8EA29A1865C779EE79F06E3126116759F315E"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "docs/judy_dennis_jd1.md",
+          "sha256": "50F328964F7262795C5B20D298A49F81FFEF2878CC58032ACDB54887CAC514A9"
+        }
+      ],
+      "semantic_delta_current_to_selected": [
+        [
+          "root",
+          [
+            1003
+          ],
+          [],
+          0,
+          0
+        ]
+      ],
+      "root_metadata_exception": null
+    },
+    {
+      "depot": "towercontinued\\gig_phone_u9\\fixer_cleanup.questphase",
+      "key": "10185319308765527676",
+      "decision": "RESTORE_REVIEWED_PRECONSOLIDATION_REPAIR",
+      "repair": "JD1 and prior phone cleanup",
+      "rationale": "Restore the accumulated scoped cleanup branches: 49 root nodes and six inline courier nodes. Original 23 root payloads remain exact; receipt-gated character/NCPD branches and native cleanup are restored without global phone initialization or clearing queued requests.",
+      "current_sha256": "67AD9F17622C6DAE342953925C8DCCC155C4E4740A96C2D2B609AC8FF5F00341",
+      "selected_sha256": "461C7703BB004193F50A247C466916D4D2DFCBFE9FA0BFAD182546A8F24738DA",
+      "source": "prealpha/consolidation_repair_cr1/donor_review/selected_raw/towercontinued/gig_phone_u9/fixer_cleanup.questphase",
+      "original_extracted_source": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_raw/towercontinued/gig_phone_u9/fixer_cleanup.questphase",
+      "archived_source": {
+        "path": "recovery/full_consolidation_v1_01/old/archive/pc/mod/000000000_TowerContinued_JD1.archive",
+        "sha256": "2AF165E9292CCAB188D73295F4E02396B3BB38B4E89955AFB6D3F72C2BF3388C"
+      },
+      "decoded_sources": [
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_json/towercontinued/gig_phone_u9/fixer_cleanup.questphase.json",
+          "sha256": "0D8298706756369EC693A9417E378C672435F93C020F843779BA41B17B7DE6C5"
+        },
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/current_json/towercontinued/gig_phone_u9/fixer_cleanup.questphase.json",
+          "sha256": "7E6DCAC619A6BEF5AA63494EDC801B731C9316C41A590811F57978747DB851B7"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "docs/judy_dennis_jd1.md",
+          "sha256": "50F328964F7262795C5B20D298A49F81FFEF2878CC58032ACDB54887CAC514A9"
+        },
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/phone_entry/cleanup_census_01.json",
+          "sha256": "ACF218A3DC4BB6BE482B2EE21FA3DDF5C20E266145050560DBA66BA40EAB2065"
+        }
+      ],
+      "semantic_delta_current_to_selected": [
+        [
+          "root",
+          [],
+          [
+            334,
+            466,
+            600,
+            601,
+            700,
+            701,
+            800,
+            801,
+            802,
+            803,
+            804,
+            805,
+            806,
+            807,
+            808,
+            809,
+            900,
+            901,
+            902,
+            903,
+            910,
+            911,
+            1000,
+            1001,
+            1002,
+            1003,
+            1010,
+            1011,
+            1200,
+            1201,
+            1202,
+            1203,
+            1204,
+            1205,
+            1206,
+            1207,
+            1208,
+            1209,
+            1210,
+            1211,
+            1240,
+            1251,
+            1252,
+            1253,
+            1254,
+            1255,
+            1300,
+            1301,
+            1302
+          ],
+          82,
+          3
+        ],
+        [
+          "root/601",
+          [],
+          [
+            0,
+            1,
+            2,
+            3,
+            68,
+            69
+          ],
+          7,
+          0
+        ]
+      ],
+      "root_metadata_exception": null
+    },
+    {
+      "depot": "towercontinued\\relationship_mirrors\\m10_owner.questphase",
+      "key": "2086648073147301083",
+      "decision": "RESTORE_REVIEWED_PRECONSOLIDATION_REPAIR",
+      "repair": "H1 mirror lease",
+      "rationale": "Restore PTFRRM10_Suspended == 0 AND gates at existing nodes 7 and 13, retaining each original condition and every edge. This lets the H1 lease suspend the existing mirror owner; no owner identity changes.",
+      "current_sha256": "40450D8C24FD38D5FE25E22EC7E80A3C06A48EE21F6E2CD62E5EEB0E5022424E",
+      "selected_sha256": "84CB8A4831EE4E01044BA3BE663EA35E7B8CCC14FB631925A386F7EFE13B73C2",
+      "source": "prealpha/consolidation_repair_cr1/donor_review/selected_raw/towercontinued/relationship_mirrors/m10_owner.questphase",
+      "original_extracted_source": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_raw/towercontinued/relationship_mirrors/m10_owner.questphase",
+      "archived_source": {
+        "path": "recovery/full_consolidation_v1_01/old/archive/pc/mod/00000000_TowerContinued_Housing_H1.archive",
+        "sha256": "4D4CB40E745F9508F97F1A2A0F2D09DD02E0AD527BEC1A4D1B874AA647F55208"
+      },
+      "decoded_sources": [
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_json/towercontinued/relationship_mirrors/m10_owner.questphase.json",
+          "sha256": "0099859CA5EFDC567443A025869ED73B5131E2F348852603D80689BC05C17FB1"
+        },
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/current_json/towercontinued/relationship_mirrors/m10_owner.questphase.json",
+          "sha256": "D9385D3298A877273D9E06AAE4E535365EF16D25F8F84C2A2C7A6DE63BFD0123"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "research/housing_h1/compatibility/assessment_02.json",
+          "sha256": "10AE0B3DA15C5EE40D896EDBBE7FF5CBE483894A09905AEAB76129E49362959B"
+        },
+        {
+          "path": "prealpha/housing_h1/native/build_06.ps1",
+          "sha256": "1BBA4147AF1DB4B1D6B9DC47FD1F6E07A63C7FC65AA1A8CEB9E286CC37296D80"
+        }
+      ],
+      "semantic_delta_current_to_selected": [
+        [
+          "root",
+          [
+            7,
+            13
+          ],
+          [],
+          0,
+          0
+        ]
+      ],
+      "root_metadata_exception": null
+    },
+    {
+      "depot": "towercontinued\\b0_h10_persistent\\h10_owner.questphase",
+      "key": "11524073238605970903",
+      "decision": "RESTORE_REVIEWED_PRECONSOLIDATION_REPAIR",
+      "repair": "H1 H10 entitlement",
+      "rationale": "Restore the H1 availability gate (Ready == 0 OR h10_Entitled == 1) AND the complete previous node-2 condition. Existing node IDs and every edge stay exact; housing access coordination is restored.",
+      "current_sha256": "3749424884D739DEFDD6F45EC03AC1C49CBAD10E47B56C9A3F26272B857984EF",
+      "selected_sha256": "A36D90404F030EDAA6BB498F27FDDE60F8FF40F89AB4D614E29F4CF38AC9C0AE",
+      "source": "prealpha/consolidation_repair_cr1/donor_review/selected_raw/towercontinued/b0_h10_persistent/h10_owner.questphase",
+      "original_extracted_source": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_raw/towercontinued/b0_h10_persistent/h10_owner.questphase",
+      "archived_source": {
+        "path": "recovery/full_consolidation_v1_01/old/archive/pc/mod/00000000_TowerContinued_Housing_H1.archive",
+        "sha256": "4D4CB40E745F9508F97F1A2A0F2D09DD02E0AD527BEC1A4D1B874AA647F55208"
+      },
+      "decoded_sources": [
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_json/towercontinued/b0_h10_persistent/h10_owner.questphase.json",
+          "sha256": "421979C239B59A2F2484D4FB597F339FA62BEA49ED8ACCE8BD7DF00789FA4848"
+        },
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/current_json/towercontinued/b0_h10_persistent/h10_owner.questphase.json",
+          "sha256": "51F71E5586BD6193378BDDC0C3EC45FB4B1509E384B591B70D2A487F2EF160BC"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "research/housing_h1/compatibility/assessment_02.json",
+          "sha256": "10AE0B3DA15C5EE40D896EDBBE7FF5CBE483894A09905AEAB76129E49362959B"
+        },
+        {
+          "path": "prealpha/housing_h1/native/build_06.ps1",
+          "sha256": "1BBA4147AF1DB4B1D6B9DC47FD1F6E07A63C7FC65AA1A8CEB9E286CC37296D80"
+        }
+      ],
+      "semantic_delta_current_to_selected": [
+        [
+          "root",
+          [
+            2
+          ],
+          [],
+          0,
+          0
+        ]
+      ],
+      "root_metadata_exception": null
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s25\\families\\sq025_fresh.questphase",
+      "key": "5517384288046496702",
+      "decision": "RESTORE_REVIEWED_PRECONSOLIDATION_REPAIR",
+      "repair": "SR1 Delamain receipt",
+      "rationale": "Restore shared SupportIssued receipt 65020 between existing 92 and persistent controller 94. It records the existing controller for the S29 adoption guards, preventing a second support owner; no controller restart.",
+      "current_sha256": "505FB961D3379D588E3B6758728353C01FC113EA5E6FBDEF03774A3EE98B843A",
+      "selected_sha256": "8009B1F1E528005A50B36FB38FA7D1BCB4F26BE46275558B3DBF1D808E44701B",
+      "source": "prealpha/consolidation_repair_cr1/donor_review/selected_raw/towercontinued/sidejobs_s25/families/sq025_fresh.questphase",
+      "original_extracted_source": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_raw/towercontinued/sidejobs_s25/families/sq025_fresh.questphase",
+      "archived_source": {
+        "path": "recovery/full_consolidation_v1_01/old/archive/pc/mod/00000000_TowerContinued_SideJobs_S29.archive",
+        "sha256": "C6E962CC336C2BA9AD93A1CC0C73B2894483657BC2C6B430CCCB1A711D2CCE41"
+      },
+      "decoded_sources": [
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_json/towercontinued/sidejobs_s25/families/sq025_fresh.questphase.json",
+          "sha256": "FED41DDA50326DA2669DF5BD4CD8F0A191D0EAF99DD0A185ECDC6B47B69B81EB"
+        },
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/current_json/towercontinued/sidejobs_s25/families/sq025_fresh.questphase.json",
+          "sha256": "C9C02CD5B4343C7F483945FA9352418F6728B1FC7710734DD0635CA9DCA47EFD"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "docs/sidejob_repair_sr1_production.md",
+          "sha256": "E6095771B1051FB51DEEFA1AC54F9BD0A88383F4CBCEA9E041005BEFEFE376EA"
+        }
+      ],
+      "semantic_delta_current_to_selected": [
+        [
+          "root",
+          [],
+          [
+            65020
+          ],
+          2,
+          1
+        ]
+      ],
+      "root_metadata_exception": null
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s23\\base_b\\mq030.questphase",
+      "key": "10260615261550143857",
+      "decision": "RESTORE_REVIEWED_PRECONSOLIDATION_REPAIR",
+      "repair": "SR1 Bullets shop rearm",
+      "rationale": "Restore wait 1021 and its two edges that rearm the copied Zane shop owner after the encounter releases it; preserve all original encounter and phone nodes.",
+      "current_sha256": "21AAE52E9BAC836141FC651C8DB58D5C5C6DCC3A56958648D9166E99DA85BA1A",
+      "selected_sha256": "888B87EDCDCF8B8BCFE162261904B4F325C37D525D26DA3C87E75762BEA83D5E",
+      "source": "prealpha/consolidation_repair_cr1/donor_review/selected_raw/towercontinued/sidejobs_s23/base_b/mq030.questphase",
+      "original_extracted_source": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_raw/towercontinued/sidejobs_s23/base_b/mq030.questphase",
+      "archived_source": {
+        "path": "recovery/full_consolidation_v1_01/old/archive/pc/mod/00000000_TowerContinued_SideJobs_S29.archive",
+        "sha256": "C6E962CC336C2BA9AD93A1CC0C73B2894483657BC2C6B430CCCB1A711D2CCE41"
+      },
+      "decoded_sources": [
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_json/towercontinued/sidejobs_s23/base_b/mq030.questphase.json",
+          "sha256": "2AB74E1D6135BAB52EE8D5F9349024B95E7BCB9A0FCB2E8F497A129E108929DB"
+        },
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/current_json/towercontinued/sidejobs_s23/base_b/mq030.questphase.json",
+          "sha256": "53E3EE10835EB721E258D3673D21F251DEB6C96690FEEB52E96E3BC5A6A82FD2"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "docs/sidejob_repair_sr1_production.md",
+          "sha256": "E6095771B1051FB51DEEFA1AC54F9BD0A88383F4CBCEA9E041005BEFEFE376EA"
+        }
+      ],
+      "semantic_delta_current_to_selected": [
+        [
+          "root",
+          [],
+          [
+            1021
+          ],
+          2,
+          0
+        ]
+      ],
+      "root_metadata_exception": null
+    },
+    {
+      "depot": "towercontinued\\b0_story_eight\\yoko.scene",
+      "key": "12097446348887851029",
+      "decision": "RESTORE_REVIEWED_PRECONSOLIDATION_REPAIR",
+      "repair": "SR1 This Corrosion choices",
+      "rationale": "Restore node-779 component conversation options 4\u20137 with scoped quest prerequisites and their original continuations. Retain all other scene nodes, dialogue, cast, workspots and scene identity.",
+      "current_sha256": "621B582008B5600BAA7309E295AB0677D79E35D78410F67A6CA5B6528D2D32A9",
+      "selected_sha256": "0B888FB40D3CC63E8DF832A637298877E5291EB0C2D9962B20D4BAB86449F757",
+      "source": "prealpha/consolidation_repair_cr1/donor_review/selected_raw/towercontinued/b0_story_eight/yoko.scene",
+      "original_extracted_source": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_raw/towercontinued/b0_story_eight/yoko.scene",
+      "archived_source": {
+        "path": "recovery/full_consolidation_v1_01/old/archive/pc/mod/00000000_TowerContinued_SideJobs_S29.archive",
+        "sha256": "C6E962CC336C2BA9AD93A1CC0C73B2894483657BC2C6B430CCCB1A711D2CCE41"
+      },
+      "decoded_sources": [
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_json/towercontinued/b0_story_eight/yoko.scene.json",
+          "sha256": "17615F536EE223C853F58075A3B32D84C9EF0D6B57CCC0A4AC2D5AB5134331EB"
+        },
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/current_json/towercontinued/b0_story_eight/yoko.scene.json",
+          "sha256": "00B49DC8B5432D007E461C2DC1B1EAF740DF4D67285843B561686A89EA9E03D3"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "docs/sidejob_repair_sr1_production.md",
+          "sha256": "E6095771B1051FB51DEEFA1AC54F9BD0A88383F4CBCEA9E041005BEFEFE376EA"
+        }
+      ],
+      "semantic_delta_current_to_selected": {
+        "retained_nodes": 257,
+        "changed_nodes": [
+          779
+        ],
+        "non_graph": "exact"
+      },
+      "root_metadata_exception": null
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s23\\base_a\\mq024_sandra.questphase",
+      "key": "496253757355042959",
+      "decision": "RESTORE_REVIEWED_PRECONSOLIDATION_REPAIR",
+      "repair": "S25 Full Disclosure",
+      "rationale": "Restore the previously installed S25 native root/ownership recheck at both admission nodes; retain the complete quest body, journal paths and saved node IDs. This tightens owner admission and does not reset facts or permit replay of a Failed/Succeeded root.",
+      "current_sha256": "94F0B14B1D6510E797EAE34CE582E6DD115FC78FAF4CE90B945032958949F81A",
+      "selected_sha256": "3F62096544B2E07F7BE681D1A373A6D1339F728A250089DEA6F92C176E661B81",
+      "source": "prealpha/consolidation_repair_cr1/donor_review/selected_raw/towercontinued/sidejobs_s23/base_a/mq024_sandra.questphase",
+      "original_extracted_source": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_raw/towercontinued/sidejobs_s23/base_a/mq024_sandra.questphase",
+      "archived_source": {
+        "path": "recovery/full_consolidation_v1_01/old/archive/pc/mod/000000_TowerContinued_SideJobs_S25.archive",
+        "sha256": "FABEC35F7E3EFB0A017798C0F464FD17762F8206C2EDA344780C7A3A44B35E24"
+      },
+      "decoded_sources": [
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_json/towercontinued/sidejobs_s23/base_a/mq024_sandra.questphase.json",
+          "sha256": "8C8AFACB1E4C86243EB496C6B69E4789099027CCE9A85D047B7F85FF38C9E345"
+        },
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/current_json/towercontinued/sidejobs_s23/base_a/mq024_sandra.questphase.json",
+          "sha256": "3692D2452247290E301CF377E8824566F5964E3D41A48B19858D32F3E63310CD"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "recovery/fred_scene_fs1_01/receipt.json",
+          "sha256": "0CA709B7653630CA7BAC16AD546AD2B4E75B040074C8D845D269E9C594396A9D"
+        },
+        {
+          "path": "prealpha/sidejobs_s25/build/s25_04/build.json",
+          "sha256": "5884AEB720E9AF6272A277F3750497B3C46021C165C2C3D10B1B56711F3AF6E6"
+        }
+      ],
+      "semantic_delta_current_to_selected": [
+        [
+          "root",
+          [
+            1001,
+            1002
+          ],
+          [],
+          0,
+          0
+        ]
+      ],
+      "root_metadata_exception": null
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s23\\base_a\\mq041_corpo.questphase",
+      "key": "1014671245445932960",
+      "decision": "RESTORE_REVIEWED_PRECONSOLIDATION_REPAIR",
+      "repair": "S25 War Pigs",
+      "rationale": "Restore the previously installed S25 native root/ownership recheck at both admission nodes; retain the complete quest body, journal paths and saved node IDs. This tightens owner admission and does not reset facts or permit replay of a Failed/Succeeded root.",
+      "current_sha256": "B622C5921F5984BA60E3D8835A0C8D89152299E196597EABD54FA0CFA56B7228",
+      "selected_sha256": "9BD00C77752505856975442D0EEB131B3D65B7E61E155EDD64775D04F09FD753",
+      "source": "prealpha/consolidation_repair_cr1/donor_review/selected_raw/towercontinued/sidejobs_s23/base_a/mq041_corpo.questphase",
+      "original_extracted_source": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_raw/towercontinued/sidejobs_s23/base_a/mq041_corpo.questphase",
+      "archived_source": {
+        "path": "recovery/full_consolidation_v1_01/old/archive/pc/mod/000000_TowerContinued_SideJobs_S25.archive",
+        "sha256": "FABEC35F7E3EFB0A017798C0F464FD17762F8206C2EDA344780C7A3A44B35E24"
+      },
+      "decoded_sources": [
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_json/towercontinued/sidejobs_s23/base_a/mq041_corpo.questphase.json",
+          "sha256": "BC9F60B00F0478840E1A8CD36962029C73B7C264B71AE296FD65849EA2B2123A"
+        },
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/current_json/towercontinued/sidejobs_s23/base_a/mq041_corpo.questphase.json",
+          "sha256": "84034F7201A0A67E3E85C26CD53C6F60D08FEA8F95C5264EB97A78CF3481A871"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "recovery/fred_scene_fs1_01/receipt.json",
+          "sha256": "0CA709B7653630CA7BAC16AD546AD2B4E75B040074C8D845D269E9C594396A9D"
+        },
+        {
+          "path": "prealpha/sidejobs_s25/build/s25_04/build.json",
+          "sha256": "5884AEB720E9AF6272A277F3750497B3C46021C165C2C3D10B1B56711F3AF6E6"
+        }
+      ],
+      "semantic_delta_current_to_selected": [
+        [
+          "root",
+          [
+            1001,
+            1002
+          ],
+          [],
+          0,
+          0
+        ]
+      ],
+      "root_metadata_exception": null
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s22\\delamain\\support.questphase",
+      "key": "1821571823886391187",
+      "decision": "RESTORE_REVIEWED_PRECONSOLIDATION_REPAIR",
+      "repair": "S25 Delamain support exclusion",
+      "rationale": "Restore S25 fresh-owner exclusion in both S22 support admission conditions 1002/1003; retain the native phone body and all saved identities. This is coordinated with SR1 shared receipt restoration.",
+      "current_sha256": "0E2B207E882A1CB0A74142C8C0FF369A6DA66583B84A0DB2B62C51105EE0E3EA",
+      "selected_sha256": "CA531827F244D0A42BCDB480AC6982895BC9ADF78FD8F2B189B40275A83ACD2D",
+      "source": "prealpha/consolidation_repair_cr1/donor_review/selected_raw/towercontinued/sidejobs_s22/delamain/support.questphase",
+      "original_extracted_source": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_raw/towercontinued/sidejobs_s22/delamain/support.questphase",
+      "archived_source": {
+        "path": "recovery/full_consolidation_v1_01/old/archive/pc/mod/000000_TowerContinued_SideJobs_S25.archive",
+        "sha256": "FABEC35F7E3EFB0A017798C0F464FD17762F8206C2EDA344780C7A3A44B35E24"
+      },
+      "decoded_sources": [
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_json/towercontinued/sidejobs_s22/delamain/support.questphase.json",
+          "sha256": "8251A06F62064D9C1861A3F2F9E0B8102DF84609BF8993E99EA137A4FC869A76"
+        },
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/current_json/towercontinued/sidejobs_s22/delamain/support.questphase.json",
+          "sha256": "FE48AC43D00188A4EAD196186FB0CDC818D4B9F9D4E46BDF2A3ADDD1F6E5D52B"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "recovery/fred_scene_fs1_01/receipt.json",
+          "sha256": "0CA709B7653630CA7BAC16AD546AD2B4E75B040074C8D845D269E9C594396A9D"
+        },
+        {
+          "path": "prealpha/sidejobs_s25/build/s25_04/build.json",
+          "sha256": "5884AEB720E9AF6272A277F3750497B3C46021C165C2C3D10B1B56711F3AF6E6"
+        }
+      ],
+      "semantic_delta_current_to_selected": [
+        [
+          "root",
+          [
+            1002,
+            1003
+          ],
+          [],
+          0,
+          0
+        ]
+      ],
+      "root_metadata_exception": null
+    },
+    {
+      "depot": "towercontinued\\side_job_pilot_s1\\owner.questphase",
+      "key": "1887621714427826988",
+      "decision": "RESTORE_REVIEWED_PRECONSOLIDATION_REPAIR",
+      "repair": "S25 Happy Together guard",
+      "rationale": "Restore native Inactive-root check at existing admission wait 402. Do not arm this legacy owner or alter its runtime selection; all body nodes and reward guards remain unchanged.",
+      "current_sha256": "026729CE2662611485DC23CDDEEB6CEF8C7F507DE9148DF03D76282B48932580",
+      "selected_sha256": "C037E2C93142C7BFA9ABDAAD13E843D8DD0BF87B44C6F190239635C475A6AF4F",
+      "source": "prealpha/consolidation_repair_cr1/donor_review/selected_raw/towercontinued/side_job_pilot_s1/owner.questphase",
+      "original_extracted_source": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_raw/towercontinued/side_job_pilot_s1/owner.questphase",
+      "archived_source": {
+        "path": "recovery/full_consolidation_v1_01/old/archive/pc/mod/000000_TowerContinued_SideJobs_S25.archive",
+        "sha256": "FABEC35F7E3EFB0A017798C0F464FD17762F8206C2EDA344780C7A3A44B35E24"
+      },
+      "decoded_sources": [
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_json/towercontinued/side_job_pilot_s1/owner.questphase.json",
+          "sha256": "37E5D18B38C0BD397F26FCC1D2713732BA02CE0A66665993419740D77FF593A1"
+        },
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/current_json/towercontinued/side_job_pilot_s1/owner.questphase.json",
+          "sha256": "BEBE28C6DD85999E3E9A4927FDAAC36E2A8CF603B8D56CA79F7430B28A42CE3C"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "recovery/fred_scene_fs1_01/receipt.json",
+          "sha256": "0CA709B7653630CA7BAC16AD546AD2B4E75B040074C8D845D269E9C594396A9D"
+        },
+        {
+          "path": "prealpha/sidejobs_s25/build/s25_04/build.json",
+          "sha256": "5884AEB720E9AF6272A277F3750497B3C46021C165C2C3D10B1B56711F3AF6E6"
+        }
+      ],
+      "semantic_delta_current_to_selected": [
+        [
+          "root",
+          [
+            402
+          ],
+          [],
+          0,
+          0
+        ]
+      ],
+      "root_metadata_exception": null
+    },
+    {
+      "depot": "towercontinued\\b0_story_eight\\viktor.scene",
+      "key": "3209069133792903840",
+      "decision": "RESTORE_REVIEWED_PRECONSOLIDATION_REPAIR",
+      "repair": "S25 Viktor debt choice",
+      "rationale": "Restore the two paid-debt options on nodes 351/840 with paid permission and active quest prerequisites, leading to retained native debt continuations. Other scene graph nodes, dialogue and actor bindings are exact.",
+      "current_sha256": "ED05F3E6643249E7C4CDCBC0EBF11523C09CD3B6DDCBFED67461EA94E5F65A02",
+      "selected_sha256": "3E21F17C9124DEB39165ACAE54AF4AA3557ED26C0E929DBC84C1DB2B5933BDED",
+      "source": "prealpha/consolidation_repair_cr1/donor_review/selected_raw/towercontinued/b0_story_eight/viktor.scene",
+      "original_extracted_source": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_raw/towercontinued/b0_story_eight/viktor.scene",
+      "archived_source": {
+        "path": "recovery/full_consolidation_v1_01/old/archive/pc/mod/000000_TowerContinued_SideJobs_S25.archive",
+        "sha256": "FABEC35F7E3EFB0A017798C0F464FD17762F8206C2EDA344780C7A3A44B35E24"
+      },
+      "decoded_sources": [
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_json/towercontinued/b0_story_eight/viktor.scene.json",
+          "sha256": "CAD9C3828939E53DCAF3DF37E312CD527F81D9B6EAFE5C10F33CD60C3D1435C7"
+        },
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/current_json/towercontinued/b0_story_eight/viktor.scene.json",
+          "sha256": "17EC53C9872E6C3889FD6489E5A7B70FD262B92E91E92357B2E4F94EDD67F524"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "recovery/fred_scene_fs1_01/receipt.json",
+          "sha256": "0CA709B7653630CA7BAC16AD546AD2B4E75B040074C8D845D269E9C594396A9D"
+        },
+        {
+          "path": "prealpha/sidejobs_s25/build/s25_04/build.json",
+          "sha256": "5884AEB720E9AF6272A277F3750497B3C46021C165C2C3D10B1B56711F3AF6E6"
+        }
+      ],
+      "semantic_delta_current_to_selected": {
+        "retained_nodes": 172,
+        "changed_nodes": [
+          351,
+          840
+        ],
+        "non_graph": "exact"
+      },
+      "root_metadata_exception": null
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s22\\the_gig_reward_resume.questphase",
+      "key": "3388560424625015126",
+      "decision": "RESTORE_REVIEWED_PRECONSOLIDATION_REPAIR",
+      "repair": "S25 The Gig reward continuation",
+      "rationale": "Restore the previously installed S25 native root/ownership recheck at both admission nodes; retain the complete quest body, journal paths and saved node IDs. This tightens owner admission and does not reset facts or permit replay of a Failed/Succeeded root.",
+      "current_sha256": "3B6225CC0976061F09B7CF7843497D96ED53E240AAE12746B85755186B3F1724",
+      "selected_sha256": "7D8DEA52ABD640959199B8B0B1F2EFA72DF5BD5BFA05B8DCDDAFA062EB13123D",
+      "source": "prealpha/consolidation_repair_cr1/donor_review/selected_raw/towercontinued/sidejobs_s22/the_gig_reward_resume.questphase",
+      "original_extracted_source": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_raw/towercontinued/sidejobs_s22/the_gig_reward_resume.questphase",
+      "archived_source": {
+        "path": "recovery/full_consolidation_v1_01/old/archive/pc/mod/000000_TowerContinued_SideJobs_S25.archive",
+        "sha256": "FABEC35F7E3EFB0A017798C0F464FD17762F8206C2EDA344780C7A3A44B35E24"
+      },
+      "decoded_sources": [
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_json/towercontinued/sidejobs_s22/the_gig_reward_resume.questphase.json",
+          "sha256": "5E70F1831BA290033C9859BB264E198EC9D863654ECAC67B88C69007228C9B74"
+        },
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/current_json/towercontinued/sidejobs_s22/the_gig_reward_resume.questphase.json",
+          "sha256": "C5FEC370D5F20BA4F1117EE15B9E5CA6B4DBC0D9DA6524D1CE4E83B0D040CB9C"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "recovery/fred_scene_fs1_01/receipt.json",
+          "sha256": "0CA709B7653630CA7BAC16AD546AD2B4E75B040074C8D845D269E9C594396A9D"
+        },
+        {
+          "path": "prealpha/sidejobs_s25/build/s25_04/build.json",
+          "sha256": "5884AEB720E9AF6272A277F3750497B3C46021C165C2C3D10B1B56711F3AF6E6"
+        }
+      ],
+      "semantic_delta_current_to_selected": [
+        [
+          "root",
+          [
+            1001,
+            1002
+          ],
+          [],
+          0,
+          0
+        ]
+      ],
+      "root_metadata_exception": null
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s22\\moving_heat_boot.questphase",
+      "key": "3648504109221795323",
+      "decision": "RESTORE_REVIEWED_PRECONSOLIDATION_REPAIR",
+      "repair": "S25 Moving Heat",
+      "rationale": "Restore the previously installed S25 native root/ownership recheck at both admission nodes; retain the complete quest body, journal paths and saved node IDs. This tightens owner admission and does not reset facts or permit replay of a Failed/Succeeded root.",
+      "current_sha256": "F0D21C3CA29C247D2C398CC267C4C8B85F230A6D409FA70EDD9597C8B47C12AE",
+      "selected_sha256": "DF949CACE3DE7C450F014F0D7727F7C4FEFB1328218863C4A8F4E5C3B1AD4D8F",
+      "source": "prealpha/consolidation_repair_cr1/donor_review/selected_raw/towercontinued/sidejobs_s22/moving_heat_boot.questphase",
+      "original_extracted_source": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_raw/towercontinued/sidejobs_s22/moving_heat_boot.questphase",
+      "archived_source": {
+        "path": "recovery/full_consolidation_v1_01/old/archive/pc/mod/000000_TowerContinued_SideJobs_S25.archive",
+        "sha256": "FABEC35F7E3EFB0A017798C0F464FD17762F8206C2EDA344780C7A3A44B35E24"
+      },
+      "decoded_sources": [
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_json/towercontinued/sidejobs_s22/moving_heat_boot.questphase.json",
+          "sha256": "6079DA7EDB87647253E7A711CA5DBA66DF901A402646E16E4AFC6B466879B802"
+        },
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/current_json/towercontinued/sidejobs_s22/moving_heat_boot.questphase.json",
+          "sha256": "9E91109F1A1CD06D0B3F8EFDF8CFB596DC7ED151F320BD29811A51DA26C916E1"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "recovery/fred_scene_fs1_01/receipt.json",
+          "sha256": "0CA709B7653630CA7BAC16AD546AD2B4E75B040074C8D845D269E9C594396A9D"
+        },
+        {
+          "path": "prealpha/sidejobs_s25/build/s25_04/build.json",
+          "sha256": "5884AEB720E9AF6272A277F3750497B3C46021C165C2C3D10B1B56711F3AF6E6"
+        }
+      ],
+      "semantic_delta_current_to_selected": [
+        [
+          "root",
+          [
+            2,
+            3
+          ],
+          [],
+          0,
+          0
+        ]
+      ],
+      "root_metadata_exception": null
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s23\\base_a\\mq012_stud.questphase",
+      "key": "4164895270305765417",
+      "decision": "RESTORE_REVIEWED_PRECONSOLIDATION_REPAIR",
+      "repair": "S25 A Day in the Life",
+      "rationale": "Restore the previously installed S25 native root/ownership recheck at both admission nodes; retain the complete quest body, journal paths and saved node IDs. This tightens owner admission and does not reset facts or permit replay of a Failed/Succeeded root.",
+      "current_sha256": "D4F0D68932218B2F9E57DDE48CB281810BDA28F7AACC4EB718C41895DF41A1F5",
+      "selected_sha256": "AA1A37BA05DF98253589ED766AE4C859C3ED033AC84318C1D13F5BE5DCB2F726",
+      "source": "prealpha/consolidation_repair_cr1/donor_review/selected_raw/towercontinued/sidejobs_s23/base_a/mq012_stud.questphase",
+      "original_extracted_source": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_raw/towercontinued/sidejobs_s23/base_a/mq012_stud.questphase",
+      "archived_source": {
+        "path": "recovery/full_consolidation_v1_01/old/archive/pc/mod/000000_TowerContinued_SideJobs_S25.archive",
+        "sha256": "FABEC35F7E3EFB0A017798C0F464FD17762F8206C2EDA344780C7A3A44B35E24"
+      },
+      "decoded_sources": [
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_json/towercontinued/sidejobs_s23/base_a/mq012_stud.questphase.json",
+          "sha256": "64A2B0FB87069C3BFD976E84682660198190680B8D3A2341AE9288C701FF6666"
+        },
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/current_json/towercontinued/sidejobs_s23/base_a/mq012_stud.questphase.json",
+          "sha256": "B75C0B87796C0024B3A8403CA6B13D10EAD418A5441BC323AF5104867F362E4F"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "recovery/fred_scene_fs1_01/receipt.json",
+          "sha256": "0CA709B7653630CA7BAC16AD546AD2B4E75B040074C8D845D269E9C594396A9D"
+        },
+        {
+          "path": "prealpha/sidejobs_s25/build/s25_04/build.json",
+          "sha256": "5884AEB720E9AF6272A277F3750497B3C46021C165C2C3D10B1B56711F3AF6E6"
+        }
+      ],
+      "semantic_delta_current_to_selected": [
+        [
+          "root",
+          [
+            1001,
+            1002
+          ],
+          [],
+          0,
+          0
+        ]
+      ],
+      "root_metadata_exception": null
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s23\\base_a\\mq002_veterans.questphase",
+      "key": "4540823433444371638",
+      "decision": "RESTORE_REVIEWED_PRECONSOLIDATION_REPAIR",
+      "repair": "S25 Gun Music",
+      "rationale": "Restore the previously installed S25 native root/ownership recheck at both admission nodes; retain the complete quest body, journal paths and saved node IDs. This tightens owner admission and does not reset facts or permit replay of a Failed/Succeeded root.",
+      "current_sha256": "2EC030AF6DACA485A7F5E8805FFAFF44937B635C7F55F4CD02780BC180896EB3",
+      "selected_sha256": "2CBDA4FDDC0008D198336DC5011FF800356651B28FCDCA80ECB6F40CCE59D605",
+      "source": "prealpha/consolidation_repair_cr1/donor_review/selected_raw/towercontinued/sidejobs_s23/base_a/mq002_veterans.questphase",
+      "original_extracted_source": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_raw/towercontinued/sidejobs_s23/base_a/mq002_veterans.questphase",
+      "archived_source": {
+        "path": "recovery/full_consolidation_v1_01/old/archive/pc/mod/000000_TowerContinued_SideJobs_S25.archive",
+        "sha256": "FABEC35F7E3EFB0A017798C0F464FD17762F8206C2EDA344780C7A3A44B35E24"
+      },
+      "decoded_sources": [
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_json/towercontinued/sidejobs_s23/base_a/mq002_veterans.questphase.json",
+          "sha256": "828C45FEF49A82A70B7563BAE43802AAFFFAA30EBCCAE907F5CDCC00F264EB2B"
+        },
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/current_json/towercontinued/sidejobs_s23/base_a/mq002_veterans.questphase.json",
+          "sha256": "F02850B78AF96DD333569DE53703920AD79E3F4C7CF651D3AF871B73C233B10C"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "recovery/fred_scene_fs1_01/receipt.json",
+          "sha256": "0CA709B7653630CA7BAC16AD546AD2B4E75B040074C8D845D269E9C594396A9D"
+        },
+        {
+          "path": "prealpha/sidejobs_s25/build/s25_04/build.json",
+          "sha256": "5884AEB720E9AF6272A277F3750497B3C46021C165C2C3D10B1B56711F3AF6E6"
+        }
+      ],
+      "semantic_delta_current_to_selected": [
+        [
+          "root",
+          [
+            1001,
+            1002
+          ],
+          [],
+          0,
+          0
+        ]
+      ],
+      "root_metadata_exception": null
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s23\\base_b\\mq026.questphase",
+      "key": "8064575578415780880",
+      "decision": "RESTORE_REVIEWED_PRECONSOLIDATION_REPAIR",
+      "repair": "S25 Prophet sibling exclusion",
+      "rationale": "Restore PTFRS25_MQ026_FRESH_Issued == 0 exclusion in existing nodes 1002 and 1004. Preserve the existing partial-progress/native gates; do not start a fresh sibling over its owner.",
+      "current_sha256": "7264D972E22E2E885EF7DC229A52AD4F8FCD200AD8208A60326B810A2C49B491",
+      "selected_sha256": "47F53E947809826A46CC1007A8FF70937191FB8739B5B6ACF4A0E01443B3D5C2",
+      "source": "prealpha/consolidation_repair_cr1/donor_review/selected_raw/towercontinued/sidejobs_s23/base_b/mq026.questphase",
+      "original_extracted_source": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_raw/towercontinued/sidejobs_s23/base_b/mq026.questphase",
+      "archived_source": {
+        "path": "recovery/full_consolidation_v1_01/old/archive/pc/mod/000000_TowerContinued_SideJobs_S25.archive",
+        "sha256": "FABEC35F7E3EFB0A017798C0F464FD17762F8206C2EDA344780C7A3A44B35E24"
+      },
+      "decoded_sources": [
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_json/towercontinued/sidejobs_s23/base_b/mq026.questphase.json",
+          "sha256": "6D75CD32D13D792AA3864ABAF4FCFCAB1DEA635CBC59C5A11980CB78545E7E1E"
+        },
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/current_json/towercontinued/sidejobs_s23/base_b/mq026.questphase.json",
+          "sha256": "F8D12AAB19DED1998F2890D21FECDFF038A75426680B27B20FBEC163B1E32B8F"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "recovery/fred_scene_fs1_01/receipt.json",
+          "sha256": "0CA709B7653630CA7BAC16AD546AD2B4E75B040074C8D845D269E9C594396A9D"
+        },
+        {
+          "path": "prealpha/sidejobs_s25/build/s25_04/build.json",
+          "sha256": "5884AEB720E9AF6272A277F3750497B3C46021C165C2C3D10B1B56711F3AF6E6"
+        }
+      ],
+      "semantic_delta_current_to_selected": [
+        [
+          "root",
+          [
+            1002,
+            1004
+          ],
+          [],
+          0,
+          0
+        ]
+      ],
+      "root_metadata_exception": null
+    },
+    {
+      "depot": "towercontinued\\b0_story_services\\fred.questphase",
+      "key": "8153220663872160140",
+      "decision": "RESTORE_REVIEWED_PRECONSOLIDATION_REPAIR",
+      "repair": "S25 boxing selector plus FS1 release",
+      "rationale": "Restore native boxing scene selector 300/301 and FS1 private-scene release/rearm 400\u2013403. Private ambient admission/release uses 8m/12m, while original boxing admission/unload retains 50m/100m. The archived S25 package is the exact later FS1 installed revision.",
+      "current_sha256": "8A5E5A1F100E16C4F6A130356D87EC6A2BB5A2C1043BD1F6308F3170FE81D72A",
+      "selected_sha256": "DF55D1C3725EDC1D9009F017E8D44679B6F718982E84C51BB47224C7672B94A0",
+      "source": "prealpha/consolidation_repair_cr1/donor_review/selected_raw/towercontinued/b0_story_services/fred.questphase",
+      "original_extracted_source": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_raw/towercontinued/b0_story_services/fred.questphase",
+      "archived_source": {
+        "path": "recovery/full_consolidation_v1_01/old/archive/pc/mod/000000_TowerContinued_SideJobs_S25.archive",
+        "sha256": "FABEC35F7E3EFB0A017798C0F464FD17762F8206C2EDA344780C7A3A44B35E24"
+      },
+      "decoded_sources": [
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_json/towercontinued/b0_story_services/fred.questphase.json",
+          "sha256": "B6AAD9C91F8BDA9E5860E7916951A58563A5F85D70689492A9A00FB3C1DC6828"
+        },
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/current_json/towercontinued/b0_story_services/fred.questphase.json",
+          "sha256": "716E7AA4354DF029C060B97A964CFE5479C8D92C1EE8B84BFE85F4C12D85120A"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "recovery/fred_scene_fs1_01/receipt.json",
+          "sha256": "0CA709B7653630CA7BAC16AD546AD2B4E75B040074C8D845D269E9C594396A9D"
+        },
+        {
+          "path": "prealpha/sidejobs_s25/build/s25_04/build.json",
+          "sha256": "5884AEB720E9AF6272A277F3750497B3C46021C165C2C3D10B1B56711F3AF6E6"
+        },
+        {
+          "path": "docs/fred_scene_fs1.md",
+          "sha256": "41A32745F03CC1C80D0ABFD603A2F60502ABE90EFA3952EF8C362425F625C621"
+        }
+      ],
+      "semantic_delta_current_to_selected": [
+        [
+          "root/5/14",
+          [
+            4,
+            5
+          ],
+          [
+            300,
+            301,
+            400,
+            401,
+            402,
+            403
+          ],
+          13,
+          2
+        ]
+      ],
+      "root_metadata_exception": {
+        "cookingPlatform": [
+          "PLATFORM_PC",
+          "PLATFORM_None"
+        ]
+      }
+    },
+    {
+      "depot": "towercontinued\\b0_wilson_vendor\\body.questphase",
+      "key": "10944367613162990102",
+      "decision": "RESTORE_REVIEWED_PRECONSOLIDATION_REPAIR",
+      "repair": "S25 The Gun dispatch",
+      "rationale": "Restore fresh gun-order scene dispatch 100/101 under the existing Wilson body; retain the default vendor branch, original dialogue and rewards.",
+      "current_sha256": "B9815DA91FC5AA24B868552A437F93D2302A908C6B971A9AF1A643E70BBFD876",
+      "selected_sha256": "F35A8156A3AB35EAA35A71359B10FE13965EC62006D1FE241D62F555486B388D",
+      "source": "prealpha/consolidation_repair_cr1/donor_review/selected_raw/towercontinued/b0_wilson_vendor/body.questphase",
+      "original_extracted_source": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_raw/towercontinued/b0_wilson_vendor/body.questphase",
+      "archived_source": {
+        "path": "recovery/full_consolidation_v1_01/old/archive/pc/mod/000000_TowerContinued_SideJobs_S25.archive",
+        "sha256": "FABEC35F7E3EFB0A017798C0F464FD17762F8206C2EDA344780C7A3A44B35E24"
+      },
+      "decoded_sources": [
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_json/towercontinued/b0_wilson_vendor/body.questphase.json",
+          "sha256": "B77FF15E661BC848C29FFB399ED3A8A0834557717261C32D6B8B4B2B0CDE559F"
+        },
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/current_json/towercontinued/b0_wilson_vendor/body.questphase.json",
+          "sha256": "70E9B6B74948B71D35A315AFD697F2FC73945AF64789AAC90A0766FD3F63CB53"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "recovery/fred_scene_fs1_01/receipt.json",
+          "sha256": "0CA709B7653630CA7BAC16AD546AD2B4E75B040074C8D845D269E9C594396A9D"
+        },
+        {
+          "path": "prealpha/sidejobs_s25/build/s25_04/build.json",
+          "sha256": "5884AEB720E9AF6272A277F3750497B3C46021C165C2C3D10B1B56711F3AF6E6"
+        }
+      ],
+      "semantic_delta_current_to_selected": [
+        [
+          "root",
+          [],
+          [
+            100,
+            101
+          ],
+          4,
+          1
+        ]
+      ],
+      "root_metadata_exception": null
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s23\\base_a_v2\\mq007_resume_boot.questphase",
+      "key": "11290784984204597750",
+      "decision": "RESTORE_REVIEWED_PRECONSOLIDATION_REPAIR",
+      "repair": "S25 Machine Gun continuation",
+      "rationale": "Restore the previously installed S25 native root/ownership recheck at both admission nodes; retain the complete quest body, journal paths and saved node IDs. This tightens owner admission and does not reset facts or permit replay of a Failed/Succeeded root.",
+      "current_sha256": "085322A68C4419FF3CDA163B3B1EA2EBAF8D4031F3EA3BEDF214279C2B0A2253",
+      "selected_sha256": "A90EDBDB4E09A257B8B78150E7008A4B59CC7D10E83FAEF9F99F292B613ED5EE",
+      "source": "prealpha/consolidation_repair_cr1/donor_review/selected_raw/towercontinued/sidejobs_s23/base_a_v2/mq007_resume_boot.questphase",
+      "original_extracted_source": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_raw/towercontinued/sidejobs_s23/base_a_v2/mq007_resume_boot.questphase",
+      "archived_source": {
+        "path": "recovery/full_consolidation_v1_01/old/archive/pc/mod/000000_TowerContinued_SideJobs_S25.archive",
+        "sha256": "FABEC35F7E3EFB0A017798C0F464FD17762F8206C2EDA344780C7A3A44B35E24"
+      },
+      "decoded_sources": [
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_json/towercontinued/sidejobs_s23/base_a_v2/mq007_resume_boot.questphase.json",
+          "sha256": "3F1B6BB1631B7DAEB8C001EC72DC479C5D8343E94C6C02367646BE98C636D0B7"
+        },
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/current_json/towercontinued/sidejobs_s23/base_a_v2/mq007_resume_boot.questphase.json",
+          "sha256": "8A89398A0CE4347B9DC38123CBF9935B5D6A39373C02604E9BC95915B40F3967"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "recovery/fred_scene_fs1_01/receipt.json",
+          "sha256": "0CA709B7653630CA7BAC16AD546AD2B4E75B040074C8D845D269E9C594396A9D"
+        },
+        {
+          "path": "prealpha/sidejobs_s25/build/s25_04/build.json",
+          "sha256": "5884AEB720E9AF6272A277F3750497B3C46021C165C2C3D10B1B56711F3AF6E6"
+        }
+      ],
+      "semantic_delta_current_to_selected": [
+        [
+          "root",
+          [
+            1001,
+            1002
+          ],
+          [],
+          0,
+          0
+        ]
+      ],
+      "root_metadata_exception": null
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s23\\base_a\\mq044_jakes_vehicle.questphase",
+      "key": "13472719120474562205",
+      "decision": "RESTORE_REVIEWED_PRECONSOLIDATION_REPAIR",
+      "repair": "S25 Sex on Wheels",
+      "rationale": "Restore the previously installed S25 native root/ownership recheck at both admission nodes; retain the complete quest body, journal paths and saved node IDs. This tightens owner admission and does not reset facts or permit replay of a Failed/Succeeded root.",
+      "current_sha256": "6502B17B83B5AC502D67E14401954CC60D84DE5BAF19305BE0E91A44390F5423",
+      "selected_sha256": "46492C7C75453766E1B037E1A38F3180F8549CF878F6631E5B187CA1AD66DD8F",
+      "source": "prealpha/consolidation_repair_cr1/donor_review/selected_raw/towercontinued/sidejobs_s23/base_a/mq044_jakes_vehicle.questphase",
+      "original_extracted_source": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_raw/towercontinued/sidejobs_s23/base_a/mq044_jakes_vehicle.questphase",
+      "archived_source": {
+        "path": "recovery/full_consolidation_v1_01/old/archive/pc/mod/000000_TowerContinued_SideJobs_S25.archive",
+        "sha256": "FABEC35F7E3EFB0A017798C0F464FD17762F8206C2EDA344780C7A3A44B35E24"
+      },
+      "decoded_sources": [
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_json/towercontinued/sidejobs_s23/base_a/mq044_jakes_vehicle.questphase.json",
+          "sha256": "74DCDB784A9E1DD73C401FDA52F73A9BFB12DA397ABDECA310D7196DC44C6EAA"
+        },
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/current_json/towercontinued/sidejobs_s23/base_a/mq044_jakes_vehicle.questphase.json",
+          "sha256": "6E183762D55EF4D63D210A1B4B8BCE0695F4C2A99137C8BB8B9E7027650D3825"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "recovery/fred_scene_fs1_01/receipt.json",
+          "sha256": "0CA709B7653630CA7BAC16AD546AD2B4E75B040074C8D845D269E9C594396A9D"
+        },
+        {
+          "path": "prealpha/sidejobs_s25/build/s25_04/build.json",
+          "sha256": "5884AEB720E9AF6272A277F3750497B3C46021C165C2C3D10B1B56711F3AF6E6"
+        }
+      ],
+      "semantic_delta_current_to_selected": [
+        [
+          "root",
+          [
+            1001,
+            1002
+          ],
+          [],
+          0,
+          0
+        ]
+      ],
+      "root_metadata_exception": null
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s22\\mq025_progress.questphase",
+      "key": "14098721078125905644",
+      "decision": "RESTORE_REVIEWED_PRECONSOLIDATION_REPAIR",
+      "repair": "S25 Beat on the Brat continuation",
+      "rationale": "Restore the previously installed S25 native root/ownership recheck at both admission nodes; retain the complete quest body, journal paths and saved node IDs. This tightens owner admission and does not reset facts or permit replay of a Failed/Succeeded root.",
+      "current_sha256": "39AD463D5E6E3F546D30A1E1F580A9455DA88677B3B41954253DDCA51E92BA71",
+      "selected_sha256": "0C45A44A57F01393A926C569667A0D8491ED1FE5C954EF52A7F4B081A0AAE971",
+      "source": "prealpha/consolidation_repair_cr1/donor_review/selected_raw/towercontinued/sidejobs_s22/mq025_progress.questphase",
+      "original_extracted_source": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_raw/towercontinued/sidejobs_s22/mq025_progress.questphase",
+      "archived_source": {
+        "path": "recovery/full_consolidation_v1_01/old/archive/pc/mod/000000_TowerContinued_SideJobs_S25.archive",
+        "sha256": "FABEC35F7E3EFB0A017798C0F464FD17762F8206C2EDA344780C7A3A44B35E24"
+      },
+      "decoded_sources": [
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_json/towercontinued/sidejobs_s22/mq025_progress.questphase.json",
+          "sha256": "AC19FAD7EE185F73E0B8816FFCCBBE0DF504D9328833D530BC8E530282971AA8"
+        },
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/current_json/towercontinued/sidejobs_s22/mq025_progress.questphase.json",
+          "sha256": "C0A366FABDA2E1BC1DD9457498790750890218D5D429147C4E273C65947AC70A"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "recovery/fred_scene_fs1_01/receipt.json",
+          "sha256": "0CA709B7653630CA7BAC16AD546AD2B4E75B040074C8D845D269E9C594396A9D"
+        },
+        {
+          "path": "prealpha/sidejobs_s25/build/s25_04/build.json",
+          "sha256": "5884AEB720E9AF6272A277F3750497B3C46021C165C2C3D10B1B56711F3AF6E6"
+        }
+      ],
+      "semantic_delta_current_to_selected": [
+        [
+          "root",
+          [
+            1001,
+            1002
+          ],
+          [],
+          0,
+          0
+        ]
+      ],
+      "root_metadata_exception": null
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s22\\delamain\\owner.questphase",
+      "key": "14155005234465728895",
+      "decision": "RESTORE_REVIEWED_PRECONSOLIDATION_REPAIR",
+      "repair": "S25 Delamain owner guard",
+      "rationale": "Restore the previously installed S25 native root/ownership recheck at both admission nodes; retain the complete quest body, journal paths and saved node IDs. This tightens owner admission and does not reset facts or permit replay of a Failed/Succeeded root.",
+      "current_sha256": "4756DB944DD13B4AF48B954DC8DBD4870B242FA53153129A8D05A586718A7044",
+      "selected_sha256": "033B2C2C9F40CCFC0A40A3FFFDFF556D8686C7B59CBFFAB4A5CB36DC929ECB45",
+      "source": "prealpha/consolidation_repair_cr1/donor_review/selected_raw/towercontinued/sidejobs_s22/delamain/owner.questphase",
+      "original_extracted_source": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_raw/towercontinued/sidejobs_s22/delamain/owner.questphase",
+      "archived_source": {
+        "path": "recovery/full_consolidation_v1_01/old/archive/pc/mod/000000_TowerContinued_SideJobs_S25.archive",
+        "sha256": "FABEC35F7E3EFB0A017798C0F464FD17762F8206C2EDA344780C7A3A44B35E24"
+      },
+      "decoded_sources": [
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_json/towercontinued/sidejobs_s22/delamain/owner.questphase.json",
+          "sha256": "90CBD2AC58DEB8B40F35C1C836034342A3FD0193DC7265B3767D3FF03871BE63"
+        },
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/current_json/towercontinued/sidejobs_s22/delamain/owner.questphase.json",
+          "sha256": "305B2DA806C852D82A3AB26B36B4B2C73A2CA7EE3D5DD3B7158E2455EAEDA4A0"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "recovery/fred_scene_fs1_01/receipt.json",
+          "sha256": "0CA709B7653630CA7BAC16AD546AD2B4E75B040074C8D845D269E9C594396A9D"
+        },
+        {
+          "path": "prealpha/sidejobs_s25/build/s25_04/build.json",
+          "sha256": "5884AEB720E9AF6272A277F3750497B3C46021C165C2C3D10B1B56711F3AF6E6"
+        }
+      ],
+      "semantic_delta_current_to_selected": [
+        [
+          "root",
+          [
+            1002,
+            1003
+          ],
+          [],
+          0,
+          0
+        ]
+      ],
+      "root_metadata_exception": null
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s23\\base_a\\mq007_smartgun.questphase",
+      "key": "15278645475332259690",
+      "decision": "RESTORE_REVIEWED_PRECONSOLIDATION_REPAIR",
+      "repair": "S25 Machine Gun fresh owner",
+      "rationale": "Restore the previously installed S25 native root/ownership recheck at both admission nodes; retain the complete quest body, journal paths and saved node IDs. This tightens owner admission and does not reset facts or permit replay of a Failed/Succeeded root.",
+      "current_sha256": "10AF8C4130C0FB06EEBD683C665FEC74DD4E526FC48C7BF8BDDE3898A0C531F6",
+      "selected_sha256": "EDFFB1ECAC9C0BBCDC6DE4990DB249320104F687D16414427B5667BE34649D60",
+      "source": "prealpha/consolidation_repair_cr1/donor_review/selected_raw/towercontinued/sidejobs_s23/base_a/mq007_smartgun.questphase",
+      "original_extracted_source": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_raw/towercontinued/sidejobs_s23/base_a/mq007_smartgun.questphase",
+      "archived_source": {
+        "path": "recovery/full_consolidation_v1_01/old/archive/pc/mod/000000_TowerContinued_SideJobs_S25.archive",
+        "sha256": "FABEC35F7E3EFB0A017798C0F464FD17762F8206C2EDA344780C7A3A44B35E24"
+      },
+      "decoded_sources": [
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_json/towercontinued/sidejobs_s23/base_a/mq007_smartgun.questphase.json",
+          "sha256": "7B8C1F19ADA68E9616F40D3DE2D07024F2F954E731C32B233FD4D2E402775D4E"
+        },
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/current_json/towercontinued/sidejobs_s23/base_a/mq007_smartgun.questphase.json",
+          "sha256": "89ED11315774BA649592C23C2A2366C7DA92304009AD349ED5625B35150E815D"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "recovery/fred_scene_fs1_01/receipt.json",
+          "sha256": "0CA709B7653630CA7BAC16AD546AD2B4E75B040074C8D845D269E9C594396A9D"
+        },
+        {
+          "path": "prealpha/sidejobs_s25/build/s25_04/build.json",
+          "sha256": "5884AEB720E9AF6272A277F3750497B3C46021C165C2C3D10B1B56711F3AF6E6"
+        }
+      ],
+      "semantic_delta_current_to_selected": [
+        [
+          "root",
+          [
+            1001,
+            1002
+          ],
+          [],
+          0,
+          0
+        ]
+      ],
+      "root_metadata_exception": null
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s23\\ep1\\mq306_boot.questphase",
+      "key": "16931320738259951756",
+      "decision": "RESTORE_REVIEWED_PRECONSOLIDATION_REPAIR",
+      "repair": "S25 Balls to the Wall",
+      "rationale": "Restore the previously installed S25 native root/ownership recheck at both admission nodes; retain the complete quest body, journal paths and saved node IDs. This tightens owner admission and does not reset facts or permit replay of a Failed/Succeeded root.",
+      "current_sha256": "C2ED221A9AF8CD8BD689CB9D1B99C80557DE671B5DB02AFB98525962E3D9E938",
+      "selected_sha256": "D448D1B20836A57CFFEAE36AE4686BF5292602985C3A10CCD3CE4B257C761DCD",
+      "source": "prealpha/consolidation_repair_cr1/donor_review/selected_raw/towercontinued/sidejobs_s23/ep1/mq306_boot.questphase",
+      "original_extracted_source": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_raw/towercontinued/sidejobs_s23/ep1/mq306_boot.questphase",
+      "archived_source": {
+        "path": "recovery/full_consolidation_v1_01/old/archive/pc/mod/000000_TowerContinued_SideJobs_S25.archive",
+        "sha256": "FABEC35F7E3EFB0A017798C0F464FD17762F8206C2EDA344780C7A3A44B35E24"
+      },
+      "decoded_sources": [
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_json/towercontinued/sidejobs_s23/ep1/mq306_boot.questphase.json",
+          "sha256": "094CB50811F82EC60BE024D3F48D8AF650A5F915D03D5D78105052D1EB87399A"
+        },
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/current_json/towercontinued/sidejobs_s23/ep1/mq306_boot.questphase.json",
+          "sha256": "6C53172C959642AD5D2B68440D17A71E58D7C65C09DA0C24B15FAC64E46EF1A9"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "recovery/fred_scene_fs1_01/receipt.json",
+          "sha256": "0CA709B7653630CA7BAC16AD546AD2B4E75B040074C8D845D269E9C594396A9D"
+        },
+        {
+          "path": "prealpha/sidejobs_s25/build/s25_04/build.json",
+          "sha256": "5884AEB720E9AF6272A277F3750497B3C46021C165C2C3D10B1B56711F3AF6E6"
+        }
+      ],
+      "semantic_delta_current_to_selected": [
+        [
+          "root",
+          [
+            2,
+            3
+          ],
+          [],
+          0,
+          0
+        ]
+      ],
+      "root_metadata_exception": null
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s23\\base_a\\mq021_guide.questphase",
+      "key": "16997389144529816285",
+      "decision": "RESTORE_REVIEWED_PRECONSOLIDATION_REPAIR",
+      "repair": "S25 Stadium Love",
+      "rationale": "Restore the previously installed S25 native root/ownership recheck at both admission nodes; retain the complete quest body, journal paths and saved node IDs. This tightens owner admission and does not reset facts or permit replay of a Failed/Succeeded root.",
+      "current_sha256": "AFD3D8816205E4A6DADB902D000F76BDEFD6DA39D5ABD29B5144A311241D0201",
+      "selected_sha256": "5DB756E2E556C37B35C7E4828A1824BF3C2F402E1DBE2E2E96032DFF73FFAF35",
+      "source": "prealpha/consolidation_repair_cr1/donor_review/selected_raw/towercontinued/sidejobs_s23/base_a/mq021_guide.questphase",
+      "original_extracted_source": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_raw/towercontinued/sidejobs_s23/base_a/mq021_guide.questphase",
+      "archived_source": {
+        "path": "recovery/full_consolidation_v1_01/old/archive/pc/mod/000000_TowerContinued_SideJobs_S25.archive",
+        "sha256": "FABEC35F7E3EFB0A017798C0F464FD17762F8206C2EDA344780C7A3A44B35E24"
+      },
+      "decoded_sources": [
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_json/towercontinued/sidejobs_s23/base_a/mq021_guide.questphase.json",
+          "sha256": "8C8F5FCF2274AF23DB6ADD93BC5BEEF9C42F79BE3DB4072F5B2A76B6AFDFE4CB"
+        },
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/current_json/towercontinued/sidejobs_s23/base_a/mq021_guide.questphase.json",
+          "sha256": "D1451BDEC096D741857C20A467A824FB98119D9D5C5A0507DD1BF6A6250EA9B3"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "recovery/fred_scene_fs1_01/receipt.json",
+          "sha256": "0CA709B7653630CA7BAC16AD546AD2B4E75B040074C8D845D269E9C594396A9D"
+        },
+        {
+          "path": "prealpha/sidejobs_s25/build/s25_04/build.json",
+          "sha256": "5884AEB720E9AF6272A277F3750497B3C46021C165C2C3D10B1B56711F3AF6E6"
+        }
+      ],
+      "semantic_delta_current_to_selected": [
+        [
+          "root",
+          [
+            1001,
+            1002
+          ],
+          [],
+          0,
+          0
+        ]
+      ],
+      "root_metadata_exception": null
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s23\\base_a\\mq035_ozob.questphase",
+      "key": "17926244317709735152",
+      "decision": "RESTORE_REVIEWED_PRECONSOLIDATION_REPAIR",
+      "repair": "S25 Send in the Clowns",
+      "rationale": "Restore the previously installed S25 native root/ownership recheck at both admission nodes; retain the complete quest body, journal paths and saved node IDs. This tightens owner admission and does not reset facts or permit replay of a Failed/Succeeded root.",
+      "current_sha256": "9DF297D07DB67DEB6509C59C81F7F9982CC8ED18E6961E83AAE91FFF91C0E915",
+      "selected_sha256": "D40C63198C619CFF1E3C0491C296FD585FCA5B154FC240AFE95AEEF5ECF4802F",
+      "source": "prealpha/consolidation_repair_cr1/donor_review/selected_raw/towercontinued/sidejobs_s23/base_a/mq035_ozob.questphase",
+      "original_extracted_source": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_raw/towercontinued/sidejobs_s23/base_a/mq035_ozob.questphase",
+      "archived_source": {
+        "path": "recovery/full_consolidation_v1_01/old/archive/pc/mod/000000_TowerContinued_SideJobs_S25.archive",
+        "sha256": "FABEC35F7E3EFB0A017798C0F464FD17762F8206C2EDA344780C7A3A44B35E24"
+      },
+      "decoded_sources": [
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_json/towercontinued/sidejobs_s23/base_a/mq035_ozob.questphase.json",
+          "sha256": "DBFD0BB4ED17FA86D796AF9DFEE068098004ABD50F6801F6369083D6FCE446F2"
+        },
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/current_json/towercontinued/sidejobs_s23/base_a/mq035_ozob.questphase.json",
+          "sha256": "A481BE5F40604BBD4F59E29E1D2CF0375D8651D4299D7AAFF2AF7CD755C602FD"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "recovery/fred_scene_fs1_01/receipt.json",
+          "sha256": "0CA709B7653630CA7BAC16AD546AD2B4E75B040074C8D845D269E9C594396A9D"
+        },
+        {
+          "path": "prealpha/sidejobs_s25/build/s25_04/build.json",
+          "sha256": "5884AEB720E9AF6272A277F3750497B3C46021C165C2C3D10B1B56711F3AF6E6"
+        }
+      ],
+      "semantic_delta_current_to_selected": [
+        [
+          "root",
+          [
+            1001,
+            1002
+          ],
+          [],
+          0,
+          0
+        ]
+      ],
+      "root_metadata_exception": null
+    },
+    {
+      "depot": "towercontinued\\b0_wilson_vendor\\owner.questphase",
+      "key": "9769795932682034261",
+      "decision": "RESTORE_REVIEWED_PRECONSOLIDATION_REPAIR",
+      "repair": "S23/H2 Wilson owner release",
+      "rationale": "Restore the bounded owner handoff/release acknowledgement at nodes 100\u2013103 and node-3 lease gate. H2 receipt exactly pins this S23 archive; restoring only the S25 body would omit this required coordination.",
+      "current_sha256": "62803881CEF5F389DD6E2FF339C6B8D246EBEDFE5CC892C36686DBB940DD2283",
+      "selected_sha256": "8CF617CD64F2DDB0799FC98481954B8E4D742EE5BAB49BD9CAAD3D2BA0353BB8",
+      "source": "prealpha/consolidation_repair_cr1/donor_review/selected_raw/towercontinued/b0_wilson_vendor/owner.questphase",
+      "original_extracted_source": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_raw/towercontinued/b0_wilson_vendor/owner.questphase",
+      "archived_source": {
+        "path": "recovery/full_consolidation_v1_01/old/archive/pc/mod/0000_TowerContinued_SideJobs_S23.archive",
+        "sha256": "7289DF77E4EAE2FE8133C8AF7003E6536CA645C5D696849DD4D50DE68E5AE83B"
+      },
+      "decoded_sources": [
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_json/towercontinued/b0_wilson_vendor/owner.questphase.json",
+          "sha256": "E2D83A93E327936EDECC224BC4694A5F0A406D9337B65C41CA51B7B130F381F7"
+        },
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/current_json/towercontinued/b0_wilson_vendor/owner.questphase.json",
+          "sha256": "1C3132C5B858A6EBAAD6D11CA170B2A97E699FFA438E32477D93942E523CC4A3"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "recovery/h10_h2_01/receipt.json",
+          "sha256": "10F8742FC19C6D857D2E5759321270E540C2E435DC28F44E6AEE3375A14161D0"
+        }
+      ],
+      "semantic_delta_current_to_selected": [
+        [
+          "root",
+          [
+            3
+          ],
+          [
+            100,
+            101,
+            102,
+            103
+          ],
+          6,
+          1
+        ]
+      ],
+      "root_metadata_exception": null
+    },
+    {
+      "depot": "towercontinued\\afterlife_interactions_r8\\rogue.scene",
+      "key": "4595725825309208210",
+      "decision": "RESTORE_REVIEWED_PRECONSOLIDATION_REPAIR",
+      "repair": "PA6 Rogue lipsync bounds repair",
+      "rationale": "Restore the exact PA6 fault repair: remove unused duplicate Rogue lipsync resource slot and change V index 2 to 1. Keep all 47 scene nodes, physical Rogue actor, dialogue, workspots, saved scene interface and interruptions exact. PA6 tied this out-of-bounds index to a captured crash.",
+      "current_sha256": "E408759C3B9B501D28AE397C485D739E665BEC5273E2DE54CF7FA7B6A2BD586D",
+      "selected_sha256": "D7E06882A91FA760F565837AD13EE6295A16198836E8976D70759852EF8EEB24",
+      "source": "prealpha/consolidation_repair_cr1/donor_review/selected_raw/towercontinued/afterlife_interactions_r8/rogue.scene",
+      "original_extracted_source": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_raw/towercontinued/afterlife_interactions_r8/rogue.scene",
+      "archived_source": {
+        "path": "recovery/full_consolidation_v1_01/old/archive/pc/mod/0_TowerContinued_RogueLipsync_PA6.archive",
+        "sha256": "407DE13D2D60DC16DD25C33C57C6A1BB95B697EFD55D4FEEC20363D039B1E33C"
+      },
+      "decoded_sources": [
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_json/towercontinued/afterlife_interactions_r8/rogue.scene.json",
+          "sha256": "C1971302D856E3A2C6D8ABD9987F2760CAFB1DC8B2143A5C5CD8B5D703C6955D"
+        },
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/current_json/towercontinued/afterlife_interactions_r8/rogue.scene.json",
+          "sha256": "3C7710A4EADE7894F67221E71252515E995D721DBDA58135DF788D2DD1F8C868"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "prealpha/postending_pa6/rogue/build/rogue_02/tests.json",
+          "sha256": "84CE1244760517B0319063D57A39F44F7D324AE09CB7C1C708E9FD70E3632FF7"
+        },
+        {
+          "path": "research/postending_pa6/rogue/crash_probe.json",
+          "sha256": "FC80323B135BD3444224EA88F38F7C32495112C31C752387118AE7C66747C5A1"
+        },
+        {
+          "path": "prealpha/postending_pa6/rogue/test.py",
+          "sha256": "A64CA1DC2D0FAD019351FC05087DBE7CC26F267F44E6078856D9087A70EA6C6D"
+        }
+      ],
+      "semantic_delta_current_to_selected": {
+        "retained_nodes": 47,
+        "changed_nodes": [],
+        "non_graph": "PA6 exact duplicate removal and V2->1"
+      },
+      "root_metadata_exception": null
+    },
+    {
+      "depot": "towercontinued\\special_gigs_u9\\gang_retaliation.questphase",
+      "key": "3802401156708882349",
+      "decision": "RESTORE_REVIEWED_PRECONSOLIDATION_REPAIR",
+      "repair": "U10 scoped retaliation",
+      "rationale": "Restore the two U10 Started-owner gates around the unchanged native retaliation conditions and the two activation edges. No historical gang retaliation fact is reset; content remains restricted to the corresponding restored gig owners.",
+      "current_sha256": "7B45FC9F27DB1EE48A018AB9A407845168E99AFD5D166491AC77503261DDBBA0",
+      "selected_sha256": "78B8E6F3C1747F51CD42DE5ACB741D969230696A4C8C8C46F85B88019A52BF99",
+      "source": "prealpha/consolidation_repair_cr1/donor_review/selected_raw/towercontinued/special_gigs_u9/gang_retaliation.questphase",
+      "original_extracted_source": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_raw/towercontinued/special_gigs_u9/gang_retaliation.questphase",
+      "archived_source": {
+        "path": "recovery/full_consolidation_v1_01/old/archive/pc/mod/TowerContinued_Gigs_U10.archive",
+        "sha256": "2DD9DEC6814817086D88CD4DD9B6979E49FDEC02D15864779EE36A8CE276C64B"
+      },
+      "decoded_sources": [
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/donor_json/towercontinued/special_gigs_u9/gang_retaliation.questphase.json",
+          "sha256": "2E47A647DBED60716CEC83301ECB1FB6B635FE987263E7D9E6F56E9771539C04"
+        },
+        {
+          "path": "diagnostics/sidejob_entry_phone_audit_20261026_01/collision_decoded_01/current_json/towercontinued/special_gigs_u9/gang_retaliation.questphase.json",
+          "sha256": "6C8305290FD0A6AD2C01C5926E8B72BA78E53B669214E36F53D089554D922C7D"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "prealpha/gigs_u10/native/build_03.ps1",
+          "sha256": "A26D7D84A90288B0A3D3F63C28919A84E6E952FA7F098C883BDAF682EAE89911"
+        },
+        {
+          "path": "prealpha/gigs_u10/native/test_04.py",
+          "sha256": "43964F458A53809C7D0AB133D019DB76F454B50F6EC912FAFB519A6E9D91CA1A"
+        },
+        {
+          "path": "research/gigs_u10/native/assessment_03.json",
+          "sha256": "1A486BFED0E03D09BA9A22F4BAFA28F4133BF58A5DC3A2378A034ADADF023742"
+        }
+      ],
+      "semantic_delta_current_to_selected": [
+        [
+          "root/22/33/227",
+          [
+            37
+          ],
+          [],
+          1,
+          0
+        ],
+        [
+          "root/22/37/298",
+          [
+            79
+          ],
+          [],
+          1,
+          0
+        ]
+      ],
+      "root_metadata_exception": null
+    }
+  ],
+  "limitations": [
+    "Static restoration of prior repairs; no live gameplay assertion.",
+    "Existing saved owners retain saved node identities. Restored resource definition does not guarantee a running saved node will revisit its admission gate.",
+    "No fact reset, root replay, global initializer restart, new journal admission, whitelist expansion or installation is performed by this review.",
+    "No donor is rejected, but each depends on the existing complete consolidated runtime; these are not standalone hotfix packages.",
+    "The H1 archive is pinned to the final preconsolidation manifest, not falsely equated with the initial H1 install receipt. H2 pins S23 Wilson; FS1 pins the later S25 archive."
+  ]
+}

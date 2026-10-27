@@ -16,6 +16,7 @@ packages/
 fixtures/
 deployment_fixture*/
 installer_fixture*/
+deploy_fixtures_*/
 generated_*/
 /prealpha/history_snapshot_hs1/candidate_*/
 /prealpha/loading_cover_lc1/candidate_*/
@@ -145,6 +146,24 @@ Desktop.ini
 
 # Later local build candidates, extracted donor data, and recovery fixtures.
 /prealpha/*/candidate_*/
+/prealpha/*/compile_*/
+/prealpha/*/evidence_*/
+/prealpha/*/probe_*/
+/prealpha/*/decoded_mismatch_*/
+/prealpha/*/diagnostics_*/
+/prealpha/*/validation/cr1_positive_readback_*/
+/prealpha/*/api_probe_*/
+/prealpha/*/assessment_*.json*
+/prealpha/*/validation_*.json
+/prealpha/*/audit_*.json
+/prealpha/*/manifest_*.json
+/prealpha/*/decoded_mismatch_*.json
+/prealpha/*/mismatch_resolution_*.json
+/prealpha/*/native_validation_*.json
+/prealpha/*/donor_review/*.json
+/prealpha/*/raymond/*.json
+/prealpha/*/native_review/*.json
+/prealpha/*/runtime_review/*.json
 /prealpha/full_consolidation_v1/reds_*_probe_*/
 /prealpha/full_consolidation_v1/public_codeware_probe_*/
 /prealpha/judy_dennis_jd1/native_*/
