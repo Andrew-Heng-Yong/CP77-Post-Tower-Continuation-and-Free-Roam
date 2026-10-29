@@ -1,6 +1,6 @@
 # Post Tower Continuation and Free Roam — full consolidation v1
 
-**Current successor:** [CC1](coaster_post_doublelife_20261027.md) was installed on 27 October. It retains the 30 corrective donors restored by [CR1](consolidation_repair_cr1.md), the S30 additions, and the same 51 install paths. Use CC1's rollback first. The audit correction and historical results below remain part of the record.
+**Current successor:** [WA2](world_actions_wa2_20261028.md) was installed on 28 October. It retains CC1, the 30 corrective donors restored by [CR1](consolidation_repair_cr1.md), the S30 additions, and the same 51 install paths. Use WA2's rollback first. The audit correction and historical results below remain part of the record.
 
 **Status:** Installed locally and file-verified on 25 October 2026. On 26 October, the user reported the combined mod and previous fixes working with public Codeware 1.21.1. Full restored-quest coverage remains pending.
 

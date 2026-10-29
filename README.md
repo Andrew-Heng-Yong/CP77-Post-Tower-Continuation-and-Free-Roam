@@ -5,6 +5,17 @@ Cyberpunk 2077: Phantom Liberty, while preserving the ending and its consequence
 
 ## Download the mod
 
+**Open Beta 0.2.0 is prepared locally**, including the user-confirmed
+Viktor clinic-door repair and the required Atelier compatibility correction.
+See the [beta installation guide](release/INSTALL-v0.2.0-beta.md) and
+[release notes](release/NOTES-v0.2.0-beta.md). Installed filenames stay stable:
+future full updates merge into the game folder with **Replace the files in the
+destination**. For an older installation, ask an AI to read
+`readme/AI_CLEANUP_INSTRUCTIONS.md`, or follow the manual cleanup guide beside
+it. The ZIP contains only `archive`, `bin`, `r6` and `readme`. No old ZIP or
+backup is required. The required Atelier edit is documented in the manual guide.
+The public download below remains the previous release until the beta is published.
+
 **[Download Post Tower Continuation and Free Roam Alpha Test ZIP](https://github.com/Andrew-Heng-Yong/CP77-Post-Tower-Continuation-and-Free-Roam/releases/download/v0.1.1-alpha.20261024/TowerContinuation-v0.1.1-alpha.20261024.zip)**
 
 [Release notes and downloads](https://github.com/Andrew-Heng-Yong/CP77-Post-Tower-Continuation-and-Free-Roam/releases/tag/v0.1.1-alpha.20261024)
@@ -28,7 +39,20 @@ The locally installed consolidated build packages the current alpha and later
 fixes in one ZIP. The user reports it working with public Codeware 1.21.1;
 full quest coverage remains under test.
 The linked public Alpha Test remains the published download.
-The current local [CC1 successor](docs/coaster_post_doublelife_20261027.md) removes
+The current local [WA3 successor](docs/world_support_wa3_20261028.md) extends native
+NPC support to 296 additional exact owners and includes the computer compatibility
+fix for Virtual Atelier. The 51-path Tower package and the existing Atelier script
+were installed together after full compilation and rollback checks; all 301 saves
+are unchanged. The user reports that both installed fixes work as expected in
+their recent run; individual NPC families and save/reload were not itemized.
+The preceding [WA2 successor](docs/world_actions_wa2_20261028.md) extends the
+user-confirmed [BA1 prototype](docs/bottle_actions_ba1_20261028.md) to five more
+shooting groups and twenty native vehicle-ambience groups. It also adds one
+exact native support owner omitted by the earlier mapping. The same 51-path
+package, full compilation, archive preservation, installation and rollback are
+verified; saves are unchanged. Broader gameplay remains unverified, and
+stateful encounter/scene actions remain outside this repair.
+The preceding [CC1 successor](docs/coaster_post_doublelife_20261027.md) removes
 new post-Double-Life admission to Jean's one-time Love Rollercoaster story. It
 retains already-issued quest progress and the repeatable ride. All 51 installed
 paths and 301 save files were verified; gameplay after a new load is pending.

@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "revision": "AI_CLEANUP_NO_OLD_ZIP_NO_BACKUP",
+  "obsolete_paths": 124,
+  "no_current_paths_in_cleanup": true,
+  "cleanup_script_in_package": false,
+  "Atelier_only_patch_cases": 4,
+  "no_backup_files_created": true,
+  "game_writes": 0,
+  "save_writes": 0,
+  "results": [
+    {
+      "case": "original",
+      "actions": [
+        {
+          "action": "Validate",
+          "exit": 0
+        },
+        {
+          "action": "Apply",
+          "exit": 0
+        },
+        {
+          "action": "Verify",
+          "exit": 0
+        },
+        {
+          "action": "Apply",
+          "exit": 0
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "case": "patched",
+      "actions": [
+        {
+          "action": "Verify",
+          "exit": 0
+        },
+        {
+          "action": "Apply",
+          "exit": 0
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "case": "absent",
+      "actions": [
+        {
+          "action": "Apply",
+          "exit": 0
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "case": "unknown",
+      "actions": [
+        {
+          "action": "Apply",
+          "exit": 1
+        }
+      ],
+      "status": "PASS"
+    }
+  ]
+}

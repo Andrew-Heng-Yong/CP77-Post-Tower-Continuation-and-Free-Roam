@@ -1,5 +1,17 @@
 # Beta release and save continuity
 
+Open Beta 0.2.0 preparation resumed on 29 October 2026 after the user confirmed
+the Viktor clinic-door repair. Saves created with this beta are supported inputs
+for future iterations. Successors must preserve or explicitly migrate this saved
+state and pass the runtime upgrade checks below. The prepared download records
+all 51 source-file hashes, 1,564 packed-resource hashes and the registration hash
+as its compatibility baseline; these static pins do not replace runtime checks.
+
+Installed paths must remain stable so users can drop future complete updates
+into the game folder and choose Replace. Version only the outer download ZIP.
+The required Atelier correction is supplied as an Atelier-only patch whenever
+Virtual Atelier is present, at its existing `SetupNewTab.reds` path.
+
 The release target set on 23 October 2026 is a complete initial post-Tower
 transition and world state, with some selected quests still unavailable and
 known bugs documented. A beta save must remain a supported input to the stable

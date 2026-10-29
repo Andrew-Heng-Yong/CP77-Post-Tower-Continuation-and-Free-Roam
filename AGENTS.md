@@ -1,5 +1,325 @@
 # AGENTS.md — Post Tower Continuation and Free Roam
 
+Latest 2026-10-29 BETA ZIP FOUR-FOLDER LAYOUT:
+User requests only archive/bin/r6 plus readme, containing AI cleanup guide,
+manual cleanup guide and supporting hash JSON; remove all other ZIP extras.
+Supersedes older TowerContinuation-folder and patch-script packaging below.
+Current readme has exactly AI_CLEANUP_INSTRUCTIONS.md,
+MANUAL_CLEANUP_INSTRUCTIONS.md, FILES.json and OBSOLETE_FILES.json.55entries:
+51unchangedcore+4referencefiles. No scripts, release notes, persistence baseline,
+contract, oldZIP or backup in ZIP. Required Atelier edit remains explicitly
+documented in manual guide with original/corrected hashes. Applying the documented
+edit to reviewed original reproduces exact CO1 hash5743CDCD...; PASS. AI guide
+points to manual section, not missing scripts. No oldZIP/backups required.
+ZIP SHA F3FFEEED127532FF9F3DB5B4BCBB364FA673A9A50F519AF106D9E6D87030D7AE,
+10127545bytes, same dist/v0.2.0-beta path. Fullreadback/CRC+filehashes PASS.
+Staged package also has only four folders. Native game/save files untouched.
+Canonical builder tools/package_release_020_readme.py. Historical revision
+scripts must not be rerun. release/package-v0.2.0-beta.json records current proof.
+No publication or Gitpush.
+
+Latest 2026-10-29 BETA CLEANUP REVISION: AI GUIDE, NO OLD ZIP, NO BACKUP:
+User explicitly removed cleanup-script requirement, then said no old ZIP and
+no backup. Supersedes older beta installer/rollback instructions below. Current
+beta ZIP contains AI_CLEANUP_INSTRUCTIONS.md and OBSOLETE_FILES.json (124 known
+obsolete paths with accepted hashes from recorded manifests; no current51path
+overlap). AI deletes only exact path+hash matches with native LiteralPath after
+containment/link checks, without backups; changed/unknown files remain. No old
+ZIP needed or bundled. Install-OpenBeta.ps1 removed from source and package.
+Required CO1 remains as Apply-Atelier-Compatibility.ps1, Atelier-only with no
+cleanup or backup creation. Four patchfixture cases pass (original, patched,
+absent, unknown), and ZIP readback passes.51core+8helper/docs=59entries.
+Current ZIP SHA2700AAC4AAEF0392417053DE7499EC1BEBD11586264322F7167B25C549DC4E0B,
+10213741bytes. Same dist/v0.2.0-beta download path. No backup of revised ZIP
+created; old prepared ZIP replaced as requested. Actual game/saves untouched.
+INSTALL.md, release notes and README explain asking AI to read the included
+cleanup guide. Future update filenames remain stable/drop-in Replace. No push
+or publication. Validation now tools/test_release_020_cleanup_02.py; previous
+test_release_020.py forwards to current tests (fixtures require fresh directory).
+
+Latest 2026-10-29 OPEN BETA 0.2.0 PREPARED; VD1 USER LIVE PASS:
+User confirms Viktor door fixed and resumes beta0.2.0 preparation. Later user
+correction: Atelier compatibility fix is REQUIRED, not an optional patch. Beta
+installer automatically applies/verifies exact CO1 when Virtual Atelier is
+present; unsupported Atelier bytes refuse. User requires stable installed names
+for future drop-in/Replace updates, documented in release/INSTALL-v0.2.0-beta.md.
+Only outer ZIP is versioned; all51installedTower paths and Atelier target retained.
+Prepared dist/v0.2.0-beta/Post-Tower-Continuation-and-Free-Roam-v0.2.0-beta.zip,
+10213245bytes,58entries=51core+7management/docs. SHA256
+E9A4C1FD1FA53DAEE626239FEDD69C389A80D87B58357D1C5EC295EAECDAD934.
+ZIP full readback PASS; fourinstallerfixturecases/16actions PASS: clean,
+clean+requiredAtelier, alpha114retired+Atelier, unknownAtelierrejection; original
+fixturebytes/rollback preserved. Source/package/core installed hashes matchVD1.
+Release manifest and1564resource/script compatibilitybaseline under release/.
+Knownissues: possible missingassets/minoractions, misconfigured sidejobentries,
+documented progressedSkippyMachineGungap. No knownfatalbugs is user report.
+Futuremodsavecompatibility is release commitment; actual future successor tests
+remain required and are NOT claimed passed. No further gameplaytestrequest.
+No gameinstall/save/fact edits, game launch, Gitcommit/push/tag or publicrelease
+by beta preparation. Installed payload remainsVD1 with CO1. No need rerun75GB
+wholearchivehashes for packaging unchanged files. No public beta URL yet.
+tools/package_release_020.py and tools/test_release_020.py reproduce preparation;
+existingdist must be preserved. release/package-v0.2.0-beta.json and
+release/validation-v0.2.0-beta.json record results.
+
+Latest 2026-10-29 OPEN BETA HELD; VIKTOR CLINIC VD1 INSTALLED, LIVE PENDING:
+User first requested preparing Open Beta with no known fatal bugs, possible
+missing assets/minor actions, misconfigured side-job entries, and future save
+compatibility. User then explicitly held that work to fix Viktor's clinic door.
+Confirmed symptom is AFTER Tower, in free roam. No Open Beta artifact or public
+release created. VD1 candidate_02 adds one native ForceUnlock owner for exact
+q115_dvc_ripperdoc_room_door, omitted by existing R11 (which handles three other
+doors). All1563 LC4 members preserved, total1564; same51paths, archive+XL only.
+18guards include existing17 R11 world gates plus PA2Finished1; one-time claim,
+loaded wait/recheck and unload/guard-loss rearm.89serialized checks/262144guard
+combinations PASS.133archive fresh census: native phase/scene single, sector
+basegame+EP1 only, newprivate depotfree. Native sector WK9.1 DynamicBaseClass
+decode limitation; no sector edit. Current112sources exactly match WA3compile.
+EndGame62 read-only did not contain historical entityID PS entry; no live door
+state captured.6deploymentfixtures/20actions incl5interruptedrollbacks PASS.
+Actual gameclosed Validate/Install/Verify/ValidateRollback PASS.52managedfiles
+match;307savefiles/names/bytes unchanged. Current installed is VD1. Full51path
+unreleasedZIP SHA ADA69E9D0AF95E2B836BD0914D7E9F4E3F7BEF09782F46506AD8F2B7B5EC2E62.
+Rollback VD1 FIRST beforeLC4: gameclosed prealpha/viktor_door_vd1/deploy_01.ps1
+-Action ValidateRollback then Rollback; recovery/viktor_door_vd1_01. Fileundo
+NOTsaveundo. Physical opening/streaming/reload LIVEUNVERIFIED. No further test
+request. Selected assessment candidate_02/assessment_01.json.
+No game launch, questfact/save edit, Gitpush or release. See
+docs/viktor_door_vd1_20261029.md and prealpha/viktor_door_vd1/candidate_02.
+
+Latest 2026-10-28 SKIPPY VANILLA/WIKI AUDIT; NO FIX:
+User requested read-only comparison of current Skippy restoration with vanilla
+and Cyberpunk Wiki. Fresh 133-archive census found single providers for six
+native MQ007 resources and four private SC3/S23 resources, no overrides;
+installed S23/archive hashes match LC4, SC3 owner byte-exact. SC3 equip loop
+matches native source and prior live downing-line/hologram report. Aim-only
+autofire and nonresponsive jump prompt match vanilla. Draw frequency and reload
+speech remain unmeasured/unverified. Concrete S23 Machine Gun gap: installed
+MQ007_RESUME requires mod ModeTalkConfirmed1 and exact lethal/nonlethal/total
+11/51/95; historical ManualSave-23 has total97 and fact absent, later run total100.
+These saved/observed states cannot match the exact captured seam if retained;
+current save not decoded. Wiki says about8 days from mode change; copied native
+return phase node83 waits2game days from phase start plus other gates. No
+elapsed-time reconciliation or live Regina/reacquire proof. No implementation,
+install/game/save/fact write or test request. Evidence
+docs/skippy_vanilla_wiki_review_20261028.md and
+diagnostics/skippy_vanilla_wiki_audit_20261028_01/assessment_01.json.
+
+Latest 2026-10-28 LC4 CREDITS-TO-SETUP COVER INSTALLED; LIVE PENDING:
+User authorized implement+install. Candidate_02 under prealpha/credits_cover_lc4
+changes only combined archive phase final_boards: Q307 guard before node27
+instant black, same guard after27 suppresses original node28 instant reveal;
+nonTower false branches retain28. Node27 credit notification and current
+CreditsRolling->Started/fadeout->CoverReady181->fadein176->control path
+untouched. New fact PTFRLC4_CreditsBlackHeld is owned diagnostic. Full51path
+ZIP with only1 changed production file, archive1563 members/1562unchanged.
+Graph13checks, exact112source compile reuse, 5newarchives no collisions,
+5fixture deploymentcases incl4interruptions PASS. Actual gameclosed Validate,
+Install,Verify,ValidateRollback PASS.301savefiles/names/bytes unchanged.
+Installed archive SHA D6C1D7949C935BD567B81FB1011827D7313048DEAFDA68CB29B2A9D4250B091D.
+ZIP SHA 56AB77B32CA382FFBF693853CF1D08C3112C84F7C66780F30461AD5884719FF4.
+Rollback LC4 FIRST gameclosed via prealpha/credits_cover_lc4/deploy_01.ps1
+-Action ValidateRollback then Rollback; recovery/credits_cover_lc4_01.
+File rollback NOT saveundo. Watched/skipped first-frame LIVE UNVERIFIED. No
+assistant game launch/fact/save edit/Git push/release. docs/credits_cover_lc4_20261028.md.
+
+Latest 2026-10-28 CREDITS-TO-SETUP CAMERA FLASH INVESTIGATION; NO FIX:
+User put Skippy aside and reports brief credits staging-world/Afterlife view
+after credits close before setup cover. Fresh133archive three-depot scan:
+expected PTFR/native phase providers only, one native menu. Installed4 scoped
+hashes matchWA3. Current shared final_boards27->28 instantfadein exposes world;
+setup awaits CreditsRollingfalse twice100ms thenStarted140/fadeout141250ms.
+Popup Required waitsStarted. Candidate: guardedQ307 black after callphase return/
+cut beforevideos notification, suppress28reveal onlyownedTowerhandoff, preserve
+nonToweroriginal and cancellationrelease. Keep181CoverReadywait->176nativefade
+release->PA3control beforefullsetup; holdingnativefadeuntilsetupdone deadlocks.
+Native credits menu isAffectedByFadeout0; no rendered-frame proof. Skip path
+native7black is later undone by28; nativeUI/scheduler ordering remainsunmeasured.
+PrecloseUIbridge fallback onlyifresidualskiprace; Codeware ShowPopup isasync and
+not atomiccover. No implementation/install/game/save/fact writes/testrequest.
+docs/credits_transition_cover_20261028.md and diagnostics/credits_transition_cover_20261028_01.
+
+Latest 2026-10-28 SKIPPY RECORDED-LOG INVESTIGATION; NO FIX:
+User requested investigation from recorded logs. Snapshot ends19:58:31Toronto;
+87SC3 status rows have no Stop/Stopped1 or fresh/resume/storytrue. Restored
+27Oct11:17-11:25 has9Active entries (first+8reactivations), same claimed owner.
+Later13:59 reload starts15s/26s are11s apart versus native30s rearm; conditional
+cooldown explanation, not proof of selected/suppressed dialogue. Pre starts
+11:44:21/11:45:01 are40s apart. Interruption high in both worlds; no per-line
+selection/playback telemetry. Correction:11:20:33 clears dialogue-interruption,
+NOT reload as prior runtime review stated. Historical proof retained.28Oct no
+mq007fact changes/Active1 in capture; persisted claim+Active0 is wait-compatible,
+not new failure proof. Installed S23 unchanged sinceSC3; archive/XL matchWA3;
+5packed MQ007/Skippy resources unchanged by readback proofs. No new full winner
+census. One-time story and restored reload speech remain unverified; no fix,
+install/game/save/fact write/push/test request. docs/skippy_restoration_log_review_20261028.md
+and diagnostics/skippy_restoration_review_20261028_01/assessment_01.json.
+
+Latest 2026-10-28 WA3 + COMPUTER CO1 USER LIVE PASS:
+After the combined candidate_02 installation, user reports "both fix worked as
+expected." Interpret as user-confirmed WA3 NPC support and CO1 in-game computer
+compatibility in their recent run. Evidence
+prealpha/world_support_wa3/candidate_02/user_live_observation_01.json. The
+user did not itemize individual NPC families, all296 owners, staged NPC-versus-
+NPC fights, excluded24 progress-gated families/group1013, or save/reload.
+Installed hashes,301 unchanged saves and rollback readiness remain as recorded
+below. Do not request more game tests based on this report; no new install,
+game/save/fact write, Git push or release was performed for this update.
+
+Latest 2026-10-28 WA3 + COMPUTER CO1 INSTALLED; LIVE PENDING:
+User explicitly requested installation. Selected candidate_02 under
+prealpha/world_support_wa3 installed while game and launcher closed. Full51
+Tower paths remain; one existing VirtualAtelier SetupNewTab.reds is the CO1
+compatibility component. Exactly4 files replaced in a guarded52-path
+transaction. 296 new passive support owners/421 community bindings, plus4
+environment variants and1 greeting, join238 preserved WA2 owners. 351 new
+archive resources; all1212 WA2 resources unchanged, total1563. Full112 REDS
+compile incl CO1 PASS; independent owner10469 checks, private sector19780
+checks,128archive winner/collision scan, 26 deployment fixture actions incl7
+interruption rollbacks PASS. Actual Validate/Install/Verify/ValidateRollback
+PASS and all301 save files/names/bytes unchanged. Unreleased51-path ZIP SHA
+D050D8B4B7EF1E73C140748C43A5E29A24BBB5DF4D91138643FDA51FDBCF957C.
+Recovery recovery/world_support_wa3_02. Roll back WA3+CO1 FIRST with game
+closed via prealpha/world_support_wa3/deploy_02.ps1 -Action ValidateRollback
+then Rollback; file undo is NOT save undo. Installed assessment
+prealpha/world_support_wa3/candidate_02/installed_assessment_01.json. No game
+launch, save/nativefact writes, Git push or public release. Gameplay LIVE
+UNVERIFIED. 24 additional families with native progress/lifetime facts and
+unreadable core group1013 withheld; actual scripted NPC-versus-NPC fights not
+restarted. Previous "not installed" blocks below are historical, superseded.
+
+Latest 2026-10-28 WA3 COMPREHENSIVE PRIVATE SUPPORT BUILD; NOT INSTALLED:
+User reiterated continue fix, including NPC-versus-NPC fights. Native review
+found Northside convoy and Charter Hill guards/bots fight controllers, but their
+combat commands are tied to vehicles, faction attitudes, loot and progression;
+do not restart those fights from an idle actor. Root then found 481 quest
+notifier triggers in 222 new core sectors and 126 in 94 additional CE sectors.
+These can reach existing native encounter consumers, so new support copies
+filter them; 1246 also filters two automatic vehicle previews. Specs:
+combat_review/filters_core_spec_01.json and filters_additional_spec_01.json.
+Comprehensive private build source_comprehensive_09 has 315 sectors and one
+streaming block, retaining 5,514 workspot placements. Independent
+private_sectors/verification_comprehensive_01.json PASS 19,780 checks of
+retained node definitions, opaque placement bytes, variant index relocations,
+descriptor identity and file hashes. Group1013 is excluded because WolvenKit
+9.1 cannot parse its native DynamicBaseClass worldNode; DO NOT promote its
+unfiltered original to a new owner. Previous partial source_comprehensive_01
+through_08 are rejected evidence. Existing WA2 resources remain unchanged.
+Still needed: reconcile 315 filtered sectors with core/additional owner manifests,
+native admission/lifetime gates for additional families, recook owner phases,
+full112-source compile including CO1, fresh128archive winners, full51-path ZIP,
+combined52-path deployment fixtures, actual closed-game install/verify/save
+preservation. Current installed remains WA2. Three agents hit account usage
+limit on 28 Oct; root continued the sector build. Do not claim live NPC fix.
+
+Latest 2026-10-28 WA3 + COMPUTER CO1 COMBINED INSTALL AUTHORIZED:
+User now explicitly authorizes installing the completed NPC successor with the
+in-game computer fix included. This supersedes the earlier dont-install request.
+Finish vanilla support review, full current-input compilation, archive readback,
+winner checks and deployment/rollback fixtures before installing game-closed.
+Include selected computer_overlay_co1 candidate_02; preserve external mod bytes
+except its explicitly reviewed SetupNewTab.reds compatibility change. Capture
+save hashes immediately before deployment and verify unchanged afterward. Root
+owns actual deployment; agents build/review only. No game launch, fact/save
+writes, Git push or release. Current installed remains WA2 until verified deploy.
+
+Latest 2026-10-28 WA3 COMPREHENSIVE NATIVE NPC SUPPORT REQUEST; DO NOT INSTALL:
+User requests implementing all possible NPC support types, including party
+workspots, using vanilla as reference. Explicit follow-up: "dont install".
+Build/audit/compile/package/fixture validation only; keep game installation at
+WA2. Do not ask to close the game or capture saves for deployment. Work under
+prealpha/world_support_wa3. Reopen prior ambient/audio/conversation exclusions
+with concrete dependency review; audit beyond477combat-event refs, including
+16district community routines and other native world roots. Preserve all1212
+WA2 resources and existing owners/receipts. No native encounter reset/reward
+replay. Stage full51-path successor. Runtime agent owns new support manifest/
+Baseline mapping; native agent outsidefamilies/conversation/actions; validation
+agent packaging/independent review+private160/161preview-spawner filtering;
+root reviews existing200/202/210/461 environmentalvariant support.
+User added NPCItemsForV_EdgerunnerItems, NPCItemsForVAtelier, VirtualAtelier
+archives during audit; current128archives/112REDS inputs rather than125/64.
+Use fresh winner checks and exact full compiler inventory, do not modify those
+external mods. Currentparty193diagnostic and WA2installation remain below.
+
+Latest 2026-10-28 PARTY193 MATCHED RUNTIME IDLE; READ-ONLY DIAGNOSIS:
+User explicitly requests CET tests for a mixed hostile/neutral party; this
+authorizes read-only command tests for this investigation despite the prior
+general no-test-request constraint. Both entries share13790632485457691133:
+goon_m entity9007047 and junkie_f10101731. Both live workspot/scene/combat=false,
+active AI commands0. Command probes BOTH fixedIDs eachrun; duplicate pasted
+sets are not four actors. Positions match native group193 dance workspots
+ganger_010 (headphones dance) and ganger_002 (nightclub dance), respectively,
+within0.000006m. Exact community hash -> Coastview root/28/33, prefab
+cs_goons_rave_party_openworld_prefabLHWSZBA, quest_567b9ed4e0fd9ed5 sector.
+No W3/WA2 owner for193; earlier ambient conversation/audio review exclusion.
+Source11checks:60prefabnodes/21AIspots; all5communityentries'21unique spots
+mapinside; goon_m12, junkie_f8. Player-trigger conversation is separate;
+previewspawner spawnOnStart0/alwaysSpawnedfalse. Strong missing-support cause,
+not yet repair-proven; no new resource-winner scan or repair/install/game/save
+writes in this diagnostic. Current installed remainsWA2. Evidence
+diagnostics/party_idle_20261028_01/native_review/assessment_01.json and
+runtime_observation_01.json. No further sample needed from these two actors.
+
+Latest 2026-10-28 WA2 BROAD ACTION SUCCESSOR INSTALLED; EXPANSION LIVE PENDING:
+User confirms BA1 prototype works and requests all affected NPCs. Audited237W3
+owners+240otherCErefs and168externalphases. WA2 adds5shooting controllers
+(172173246250289),20nativevehicle radio/light/door controllers and250support.
+ExistingBA1group179+all237W3resources/receipts unchanged. Newsupport total238.
+Vehicleevents onceperReady lifetime, nativeNotReadyonlyrearm; no globalsafety
+bounce replay. Shooting preserves full safetycut+nativecombat loops. Explicit
+246foursecurityref rebind,256twoReady/NotReadyrefs,319Spawnedref; exact registry
+names/counts preserved.2503line Baseline mapappend,64sourcefreshSCC PASS.
+Independent295actionchecks+supportcrosscheck PASS; all1212archivemembers read,
+1186oldbyteunchanged,68modarchive newresource0collisions. Full51paths replaces
+archive+XL+Baseline only.23fixtureactions incl6interruptedrollbacks PASS.
+Actual gameclosed Validate/Install/Verify/ValidateRollback PASS;
+301savefiles/names unchanged. Userliveproof onlyBA1; WA2expandedruntimeunverified.
+Source130/306 no currentcommunity/supportbinding; statefulmount/storysecurity/
+attitude/scene/fullencounteroperations withheld with exactdispositions, NOT
+allNPCgameplayclaim. Do not request moreingametests. No launch/save/nativefact
+edit/Gitpush/release. Final candidate_01/assessment_01.json under
+prealpha/world_actions_wa2. ZIP SHA 005971C576A5CC3788C434332F315595C528758F6D6B90FFAB95A52C641BCE91.
+Rollback WA2 FIRST gameclosed via prealpha/world_actions_wa2/deploy_01.ps1
+-Action ValidateRollback then Rollback; recovery/world_actions_wa2_01.
+Fileundo NOT saveundo. docs/world_actions_wa2_20261028.md.
+
+Latest 2026-10-28 BA1 USER LIVE PASS; BROADER ACTION RESTORATION REQUESTED:
+User reports "the prototype works" and requests applying the action-controller
+fix to all NPCs. This confirms the matched group179 BA1 result on their fixture;
+speech, full streaming and save/reload were not separately itemized. BA1 remains
+installed. Broad native action-owner census of237W3 owners and remaining240CE
+rows started under prealpha/world_actions_wa2. Preserve BA1 and all existing W3
+owners/receipts; no blanket Reactivate/ResetKillCount or arbitrary AI writes.
+Latest logs pinned diagnostics/world_actions_wa2_live_20261028_01. Build full
+consolidated successor after exact per-controller identity/lifecycle review;
+do not generalize one group's live pass to all NPC families.
+
+Latest 2026-10-28 BA1 BOTTLE ACTION CONTROLLER INSTALLED; LIVE PENDING:
+User requested missing NPC action-controller fix. BA1 adds ONLY isolated native
+Coastview group179 root/28/14/61, preserves existing W3 owner/receipts and all1185
+prior archive members. New private resource retains32nodes43edges; only10native
+communityrefs fully qualified to spawner8640981183263935109. Native random delay,
+goon2/goon3 selection,7s shooting,combat targets/cuts and NotReady preserved.
+15Tower/support gates plus one-time claim; whole-loop loss cut includes pending
+Ready/timers, then gated rearm. No encounter Reactivate/ResetKillCount, prefab,
+native/W3 fact or REDS changes. Independent46checks32768guardstates5negative
+controls PASS. Environment28checks locate targets71/72 and security79/81 in
+default/exterior_-33_-30_0_0, Exterior level0 questPrefabNodeRef0;125archive
+census no mod override. Speech origin remains unbound; this is ONLY group179.
+Full51-path successor replaces combined archive+XL;1186members,68modarchive
+newdepot no collisions. Exact64-source CC1 compilation reuse;20fixture actions
+incl5 interrupted rollback cases PASS. Actual gameclosed Validate/Install/Verify/
+ValidateRollback PASS,301savefiles/names unchanged. Current installed BA1.
+Recovery recovery/bottle_actions_ba1_01; rollback BA1 FIRST with gameclosed via
+prealpha/bottle_actions_ba1/deploy_01.ps1 -Action ValidateRollback then Rollback.
+File rollback NOT save undo. ZIP SHA
+6348515E7103D45AB07A0EB006507CDD52F6335419AD25C5B7EB2D1DD285DFB5.
+Manifest SHA B1E381553E2D2DD062BA01ED77465E08EC61DED2C2FF890F5AD732975C70FD9F.
+Evidence prealpha/bottle_actions_ba1/candidate_01/installed_assessment_01.json,
+native_review/assessment_01.json,environment_review/assessment_01.json.
+docs/bottle_actions_ba1_20261028.md. Shooting/speech/streaming/save-reload LIVE
+UNVERIFIED. No assistant launch,save/nativefact edits,Gitpush or release.
+
 Latest 2026-10-27 SKIPPY POST/PRE LOG COMPARISON; READ-ONLY, NO FIX:
 User requested compare recent post-ending Skippy run with pre-ending reference,
 without implementation. Latest CET capture ends14:00:26 Toronto; report

@@ -1,0 +1,23 @@
+{
+  "id": 1246,
+  "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/{mce_}01_prefabKRFCBWA;#03_night_cityc_watsonnorthsidenorthside_openworld_prefabIDPOWEInorthside_openworld_community_prefabKQCEUTYmce_01_prefabKRFCBWA",
+  "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_29796327537b62ba.streamingsector",
+  "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_29796327537b62ba.streamingsector",
+  "sector_sha256": "BA0277324882436E383D906186923326939E9624C3E99D4BD9EF3AEE56F68B38",
+  "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_29796327537b62ba.json",
+  "drop_nodes": [
+    29,
+    34
+  ],
+  "drop_types": [
+    "worldPopulationSpawnerNode",
+    "worldPopulationSpawnerNode"
+  ],
+  "drop_placements": [
+    29,
+    34
+  ],
+  "preserve_ai_spots": 18,
+  "preserve_nodes": 33,
+  "reason": "Omit two automatic vehicle preview spawners. Preserve native support for already-active exact NPC entries; do not replay the staged convoy, mounting, faction or fight controller."
+}

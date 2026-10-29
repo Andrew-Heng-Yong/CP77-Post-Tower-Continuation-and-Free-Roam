@@ -163,6 +163,7 @@ Desktop.ini
 /prealpha/*/donor_review/*.json
 /prealpha/*/raymond/*.json
 /prealpha/*/native_review/*.json
+/prealpha/viktor_door_vd1/native_review_*/
 /prealpha/*/runtime_review/*.json
 /prealpha/full_consolidation_v1/reds_*_probe_*/
 /prealpha/full_consolidation_v1/public_codeware_probe_*/
@@ -174,3 +175,25 @@ Desktop.ini
 *.script
 *.lipmap
 *.effect
+
+# Generated native inspections and build receipts for the beta successors.
+/prealpha/bottle_actions_ba1/**/*.json
+/prealpha/computer_overlay_co1/**/*.json
+/prealpha/credits_cover_lc4/**/*.json
+/prealpha/viktor_door_vd1/**/*.json
+/prealpha/world_actions_wa2/**/*.json
+/prealpha/world_support_wa3/**/*.json
+/prealpha/bottle_actions_ba1/**/*.txt
+/prealpha/computer_overlay_co1/**/*.txt
+/prealpha/credits_cover_lc4/**/*.txt
+/prealpha/viktor_door_vd1/**/*.txt
+/prealpha/world_actions_wa2/**/*.txt
+/prealpha/world_support_wa3/**/*.txt
+# Authored filter contracts are source inputs, not decoded native assets.
+!/prealpha/world_support_wa3/combat_review/filter1246_spec_01.json
+!/prealpha/world_support_wa3/combat_review/filters_additional_spec_01.json
+!/prealpha/world_support_wa3/combat_review/filters_core_spec_01.json
+# Corrupted local scratch derivation (null-byte content); keep off the source remote.
+/prealpha/world_support_wa3/private_sectors/derive_02.py
+/prealpha/world_support_wa3/private_sectors/build_02.ps1
+/prealpha/world_support_wa3/private_sectors/verify_02.ps1

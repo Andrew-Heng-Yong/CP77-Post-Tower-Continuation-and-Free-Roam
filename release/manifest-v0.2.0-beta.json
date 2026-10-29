@@ -1,0 +1,293 @@
+{
+  "release": "v0.2.0-beta",
+  "name": "Post Tower Continuation and Free Roam \u2014 Open Beta 0.2.0",
+  "version": "0.2.0",
+  "channel": "Open Beta",
+  "date": "2026-10-29",
+  "file_count": 51,
+  "mod_bytes": 13458127,
+  "files": [
+    {
+      "path": "archive/pc/mod/zzzz_PTFR_Combined.archive",
+      "bytes": 10051584,
+      "sha256": "007CC2DFDBC1AB709ACFA34AB96E990E5ED210327AE2E15491C62D3BA672063E"
+    },
+    {
+      "path": "archive/pc/mod/zzzz_PTFR_Combined.archive.xl",
+      "bytes": 133289,
+      "sha256": "FCA092379EAFA1EEE5628163D68655D87EB4A29F117711C9282B7CDB4FA36B9E"
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_HistorySnapshotHS1/init.lua",
+      "bytes": 4547,
+      "sha256": "CA110EC574E6B67327B77A90A2600B7444FD98CE616D96C9C74D4C64163A3DF2"
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_PreAlpha/init.lua",
+      "bytes": 5362,
+      "sha256": "641726D256E98472EF8BB3962F238A1165C4843C1F63636104B14E74AF723907"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_ActivityStateR3.reds",
+      "bytes": 254901,
+      "sha256": "06806391C2D9B3E66517C7D9EF8D69A87B2BF0DF52B23343E4793317E4F07615"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_AfterlifeFacesR5.reds",
+      "bytes": 22648,
+      "sha256": "D536145CB5F45D30E85669B343184753C1DD8E3A492ADACF4543F9E69F323074"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_AfterlifeIdlesR3.reds",
+      "bytes": 9293,
+      "sha256": "5899B6DC726B6D5EE74DC5DA21A9D39DDCE30028DABF161E0EF6D91ECD13128A"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_AfterlifeInteractionsR8.reds",
+      "bytes": 13232,
+      "sha256": "8E1F054C3AD9B1D5ACEDEA47EA90171D01474627B7EA74163E265B4BAC290CE7"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_AfterlifeNativeBootstrapA4.reds",
+      "bytes": 4849,
+      "sha256": "E908FD9894D3583C180BE8C8FE462EEE8904262B76B81984F037E36F6A6D431C"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_AfterlifeR1.reds",
+      "bytes": 3465,
+      "sha256": "65B8AE0074132281181263AD636A4590A7513B65A048164B0E2CE5F380B4CF70"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0AfterlifeMirror.reds",
+      "bytes": 3154,
+      "sha256": "51B4E455EA80BC958504F4B6EA9C8DF45DE99E8AD88961C5A37705900F169CF6"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0CPZFood02.reds",
+      "bytes": 8092,
+      "sha256": "9F1238DC73AA7B7BBFBA0F4BFFE43FD1F595F7486137E2ADA2DD5667194F319B"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0Claire.reds",
+      "bytes": 3671,
+      "sha256": "760790330C6783F103E9B8F94980297D9747E027830158CF6D5114C63F3E336B"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0DeferredVendors.reds",
+      "bytes": 4864,
+      "sha256": "510AF5E9FAE980213658263CF83F65034B74231BE8A6EFB3BCC57EA2B1EA2A77"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0OrdinaryBars.reds",
+      "bytes": 9619,
+      "sha256": "FEF1F5F1779FCA14D32BE892E30E2CA48C082E4CBB7C50199385BCE5EF829CE6"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0OrdinaryVendors.reds",
+      "bytes": 20426,
+      "sha256": "473E42266A54B49235B6A133617835B4A36A5D055FEAB60E2A787575DC565ABB"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0SpecialServices.reds",
+      "bytes": 8216,
+      "sha256": "7D4C86C748E6DD3856FB69B3E6286D7DA4BD9155F7CFE6BE192ECA2C5B942FF2"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0StoryEight.reds",
+      "bytes": 6086,
+      "sha256": "AF316AFC167E4B142E0DC8E58604126A25605CEE09A1B2D064E2A06EBA8C6273"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0StoryServices.reds",
+      "bytes": 4691,
+      "sha256": "CDAC6032029A087235E604E563B94698EC083FF80BEADF31B055100D324E0103"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0StoryZane.reds",
+      "bytes": 3712,
+      "sha256": "5F11C301EA96F1E794D9F9A9F29B53C55A324C865A6CFCD93E57B132D70DCC56"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0VendorShared.reds",
+      "bytes": 5194,
+      "sha256": "F9B5F3F8D08E050A4FABBC9AA4F13C8698FB25CEAE29163B1B2EB5B640C132FB"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0VendorVariants.reds",
+      "bytes": 10177,
+      "sha256": "B8513C33D4288894D078BFD63A43E242F6F1862EEB07F0F20D41C5F7C2AFC7CD"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_GigsU10.reds",
+      "bytes": 44360,
+      "sha256": "BA8DE611800530A9D6675FF47D1A208F607E2C8F8AA469BE6B6E49BA7E1EF8A3"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_Global.reds",
+      "bytes": 34305,
+      "sha256": "F6BC1F69F80F9D2F2AA495B026137EFC76F2D5B29C88B12F2C8D04A0954F9FDE"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_HistorySnapshotHS1.reds",
+      "bytes": 1131282,
+      "sha256": "24D25D8EBF369935A0D0388C3A32378615550D0FD1C9B89E11EC91F78293765E"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_Housing.reds",
+      "bytes": 79880,
+      "sha256": "54AFAD6B60BE7CF060AB12FD35A671556C84510FD1C329B9FFED40A4CB7355B0"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_JohnnyVoiceJV1.reds",
+      "bytes": 4490,
+      "sha256": "1338B05F41A88D222BEABCFF4F9D23D3B87B42B1A67E7019678DDA60F7917FE5"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_JournalLabelJ1.reds",
+      "bytes": 1431,
+      "sha256": "EC73A2B370169E5890D8F8194E264F2E7D31F9A73FC6C899144CFB51DEEF1DA0"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_LoadingCoverLC1.reds",
+      "bytes": 22636,
+      "sha256": "AEABE27EEB93714CE7F2106AA0FFD42F7D5D354484663C357DCF2AE54C809B94"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_MistyViktorAuto.reds",
+      "bytes": 3466,
+      "sha256": "70590A4F2BCF3122D2DE866C1E3886F6ACFB282B8BA8869B10ADD0621B175D73"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_MistyViktorTerryR11.reds",
+      "bytes": 8772,
+      "sha256": "B19F81B817237208BD9F18FEB6AA64BADC81E43BCF86B69B3D529453789439B7"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_NCPDRepairN21.reds",
+      "bytes": 23384,
+      "sha256": "8F4DDBF69C7BA62984B6236EEF9461EF16AC4D639D1FB50CDFE0C3FCB121BEB3"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_NCPDScannersN2.reds",
+      "bytes": 4455,
+      "sha256": "A6D7810B6A7657D3CD68013337DF83E63EE64EAB1425EC380A1D8603472CE7CD"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_RestorationBaseline.reds",
+      "bytes": 264912,
+      "sha256": "50EEBE4A0D41EF6648A1E685A3A823C1F8E637BF5F5BD0AA7A50DD669829E5C8"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR1.reds",
+      "bytes": 33291,
+      "sha256": "6663F0D4EB2A6DA449C9965CB05C98287E62828FF422141AA7745E88DCEB234C"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR2.reds",
+      "bytes": 72219,
+      "sha256": "49A38CC6636F1D6D5AEAE21130FCBB1CB8B57C85942CFECBE7549FCB5832FE26"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR3.reds",
+      "bytes": 284480,
+      "sha256": "1E47D68F827496FAFED5E82D755DF0AFF6111E602F852323E4E843DB792C8DA1"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobPilotS1.reds",
+      "bytes": 12569,
+      "sha256": "E7725897767793879BA4D5C6FC390996B7DDFA565A51BBD7BF7538EBF4CB8889"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS2.reds",
+      "bytes": 211606,
+      "sha256": "839675C7BFAC6F7055A2DC18C9D2D410FD257814A6E4A95716D98EDCA8468E39"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS22.reds",
+      "bytes": 23270,
+      "sha256": "93DB76BD6719FCA2E60EBFE771AF8F612F9AB986B90D1604EB9EE316310A48D8"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS23.reds",
+      "bytes": 74756,
+      "sha256": "6CE6D1BEF1AE2F2AF42CD44CCAE61D5EC4767DA466C9F40D263E1A85B323C606"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS24.reds",
+      "bytes": 65976,
+      "sha256": "010332E333074AC20278B0B7F24A05744C55048F92F4480715BDC30E77F153E6"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS25.reds",
+      "bytes": 110757,
+      "sha256": "3B9BF09D6F0A93B69984B582C57989529B9EFBE2AB0689A8A5E32C3409F23466"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS27.reds",
+      "bytes": 90996,
+      "sha256": "FB822EB9A6C2871D44129BE94DB0DE47BBAEC17B980986760BABA34211F551FF"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS28.reds",
+      "bytes": 29454,
+      "sha256": "762FCF420FE412A4CCF6590F528A78B5570FEEF83281D4CAE0079FE2DE08CD2B"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS29.reds",
+      "bytes": 217644,
+      "sha256": "ECA10FA8E04D88F31B7DED67967B646A1E329C7F819C81BBCC5196A45B5CEE0D"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_StreetkidAuto.reds",
+      "bytes": 3859,
+      "sha256": "30C9141D1093B20F354C0E77ADC0CB036BE8AC35BC907DA1084BDCCB764F6DC0"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_TimeAuto.reds",
+      "bytes": 3836,
+      "sha256": "9A531BAD92D5D79B4ECF3A9C02D55B3037E4D7A43F3409D3621F201C424E9EAA"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_TowerJournalAuto.reds",
+      "bytes": 3561,
+      "sha256": "F7AE504E79CC2B3983C9D7267B70F65AED25D7E9B95B9C70451C0CE10FA208A0"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_ZetatechIdlesR12.reds",
+      "bytes": 5208,
+      "sha256": "D4C2B4438E2803ED4C81B9AB12DCB503213FEBF8130C8E1A8D9A53FFA7CD4848"
+    },
+    {
+      "path": "r6/tweaks/TowerContinued_PreAlpha.yaml",
+      "bytes": 200,
+      "sha256": "4DBE8CD5C3BC6254900B6951919B346F6DCEB7BD9CE9C94FA4B4A27CB7704E05"
+    }
+  ],
+  "required_compatibility": {
+    "component": "CO1",
+    "applies_when": "Virtual Atelier is installed",
+    "target": "r6/scripts/virtual-atelier-full/SetupNewTab.reds",
+    "supported_original_sha256": "14B651576CC6D1FCEDBC11A48A96D1A2AC79DD84FCCFB90097F4169057378F80",
+    "patched_sha256": "5743CDCD6F8CD46A58F9642002F75EBCA25D84BE340856C2E6D85B15DAD973F8",
+    "installed_by": "readme/MANUAL_CLEANUP_INSTRUCTIONS.md \u2014 required Atelier correction"
+  },
+  "save_compatibility": "Saves made with this Open Beta are supported by future updates; future successors must preserve or explicitly migrate saved state and pass upgrade checks.",
+  "known_issues": [
+    "Some assets may be missing.",
+    "Some minor actions may be missing.",
+    "Some side jobs have misconfigured entry handlers.",
+    "Skippy Machine Gun return can miss progressed saved states."
+  ],
+  "no_known_fatal_bugs": "Maintainer report, 2026-10-29",
+  "live_observations": {
+    "Viktor_clinic_door": "User confirms fixed, 2026-10-29",
+    "WA3_and_CO1": "User reported both fixes worked, 2026-10-28"
+  },
+  "validation_limits": [
+    "Full coverage of restored quests and NPC families is not established.",
+    "A future successor has not yet been built or tested against beta saves."
+  ],
+  "published": false,
+  "installed_filename_policy": "Keep all installed paths stable across future versions. Version only the outer ZIP; users merge and replace files for updates after the initial alpha migration.",
+  "cleanup": "readme/AI_CLEANUP_INSTRUCTIONS.md or readme/MANUAL_CLEANUP_INSTRUCTIONS.md; no old ZIP or backups"
+}

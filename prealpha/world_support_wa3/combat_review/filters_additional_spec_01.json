@@ -1,0 +1,1986 @@
+{
+  "groups": [
+    {
+      "id": 1200,
+      "native_prefab": "$/03_night_city/se1/se1_ce_prefabREB6KYA/cs_bls_wraiths_rave_party_openworld_002_prefabAAEZUJY",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_cf49ce634291dba6.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_cf49ce634291dba6.streamingsector",
+      "sector_sha256": "C03B3BBA29DA210121B040E9D940FA382D7826634E6CC138A7684BD9452DEC40",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_cf49ce634291dba6.json",
+      "drop_nodes": [
+        27,
+        28
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode",
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        27,
+        28
+      ],
+      "preserve_ai_spots": 21,
+      "preserve_nodes": 29,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1201,
+      "native_prefab": "$/03_night_city/se1/se1_ce_prefabREB6KYA/cs_bls_wraiths_rave_party_openworld_001_prefabAAEZUJY",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_c81ea27fc54296b3.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_c81ea27fc54296b3.streamingsector",
+      "sector_sha256": "1AA84166A1E92988B1422BF88E3E52055DF82BDBCB09C7668AC83611C68740BA",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_c81ea27fc54296b3.json",
+      "drop_nodes": [
+        27,
+        28
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode",
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        27,
+        28
+      ],
+      "preserve_ai_spots": 21,
+      "preserve_nodes": 29,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1202,
+      "native_prefab": "$/03_night_city/se1/se1_ce_prefabREB6KYA/cs_bls_wraiths_rave_party_openworld_prefabAAEZUJY",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_43e233112f181167.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_43e233112f181167.streamingsector",
+      "sector_sha256": "A126B0B2F9F96D509082DD60249DCE90F82AE942226F11083C931CA25FC2BAA6",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_43e233112f181167.json",
+      "drop_nodes": [
+        27,
+        28
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode",
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        27,
+        28
+      ],
+      "preserve_ai_spots": 21,
+      "preserve_nodes": 29,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1203,
+      "native_prefab": "$/03_night_city/se1/se1_ce_prefabREB6KYA/cs_bls_wraiths_rave_party_openworld_003_prefabAAEZUJY",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_012f231d133da449.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_012f231d133da449.streamingsector",
+      "sector_sha256": "EC491472E60B269FEB82740F4C92DCD6400E03C085825DB6437198BCBE170C13",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_012f231d133da449.json",
+      "drop_nodes": [
+        27,
+        28
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode",
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        27,
+        28
+      ],
+      "preserve_ai_spots": 21,
+      "preserve_nodes": 29,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1204,
+      "native_prefab": "#ce_bls_ina_se5_105",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_0f6ed9cc14cd47e5.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_02\\basegame_3_nightcity.archive\\quest_0f6ed9cc14cd47e5.streamingsector",
+      "sector_sha256": "66C42B18303FBF40F910BD850DD40B86F13C58BC2294551F42A80B1954AED67C",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_02\\quest_0f6ed9cc14cd47e5.json",
+      "drop_nodes": [
+        22
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        22
+      ],
+      "preserve_ai_spots": 8,
+      "preserve_nodes": 28,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1205,
+      "native_prefab": "$/03_night_city/se5/se5_cs_prefab6655QHY/cs_bls_wraiths_rave_party_openworld_prefabULUC4QQ",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_a86d7c621fb358af.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_a86d7c621fb358af.streamingsector",
+      "sector_sha256": "EC9C203C36D64ECBD2931FDC0716EF29843D9230260766AAF0AECEC1C307118B",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_a86d7c621fb358af.json",
+      "drop_nodes": [
+        27,
+        28
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode",
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        27,
+        28
+      ],
+      "preserve_ai_spots": 21,
+      "preserve_nodes": 29,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1207,
+      "native_prefab": "$/03_night_city/se5/se5_cs_prefab6655QHY/cs_bls_wraiths_rave_party_openworld_001_prefabULUC4QQ",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_e53698942b5f39ab.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_e53698942b5f39ab.streamingsector",
+      "sector_sha256": "03A371A56CDF111D91F648404C087617AF05C2DB59F5944E0D4676D4B392D47B",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_e53698942b5f39ab.json",
+      "drop_nodes": [
+        27,
+        28
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode",
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        27,
+        28
+      ],
+      "preserve_ai_spots": 21,
+      "preserve_nodes": 29,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1208,
+      "native_prefab": "#ce_bls_ina_se5_101",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_a6391a3709b4aca9.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_02\\basegame_3_nightcity.archive\\quest_a6391a3709b4aca9.streamingsector",
+      "sector_sha256": "90610170F6344618460B2DBE50100D2016FDA83B6FBA454565572AE5CC6DFF40",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_02\\quest_a6391a3709b4aca9.json",
+      "drop_nodes": [
+        28
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        28
+      ],
+      "preserve_ai_spots": 11,
+      "preserve_nodes": 36,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1209,
+      "native_prefab": "$/03_night_city/#c_city_center/downtown/dtn_ce_prefab5R2E3QY/{ce_cct_dtn_}109_prefabHANMRLI",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_146e94fd6e3c6549.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_146e94fd6e3c6549.streamingsector",
+      "sector_sha256": "1291CE3CC829841E7CE4AC08F09107FC74CFB2C7908D5DD3DF2EB4A43A8B31E9",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_146e94fd6e3c6549.json",
+      "drop_nodes": [
+        16
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        16
+      ],
+      "preserve_ai_spots": 3,
+      "preserve_nodes": 18,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1211,
+      "native_prefab": "$/03_night_city/#c_city_center/downtown/dtn_ce_prefab5R2E3QY/{ce_cct_dtn_}111_prefabHANMRLI",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_2da8924932677c20.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_2da8924932677c20.streamingsector",
+      "sector_sha256": "B9D3A8BB391824E34269380645EDCF10A4A33C2977E6148BF1EE952B1196CE97",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_2da8924932677c20.json",
+      "drop_nodes": [
+        16
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        16
+      ],
+      "preserve_ai_spots": 3,
+      "preserve_nodes": 18,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1212,
+      "native_prefab": "$/03_night_city/#c_city_center/downtown/dtn_ce_prefab5R2E3QY/{ce_cct_dtn_}112_prefab5CEPAYI",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_deeddb07f830f900.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_deeddb07f830f900.streamingsector",
+      "sector_sha256": "D82D83A2EAB5790DFEB4739C369583B377334729FF96BEAB463BC11140128902",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_deeddb07f830f900.json",
+      "drop_nodes": [
+        13
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        13
+      ],
+      "preserve_ai_spots": 3,
+      "preserve_nodes": 15,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1213,
+      "native_prefab": "#ce_cct_dtn_113",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_4f893d7db6946874.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_02\\basegame_3_nightcity.archive\\quest_4f893d7db6946874.streamingsector",
+      "sector_sha256": "8BD233F371C2B89B13C3A22BC28689A9038DFA1693EBB324EA204CC59DA9402C",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_02\\quest_4f893d7db6946874.json",
+      "drop_nodes": [
+        26
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        26
+      ],
+      "preserve_ai_spots": 6,
+      "preserve_nodes": 28,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1215,
+      "native_prefab": "#ce_cct_dtn_101",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_4f85bb7db69155b7.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_02\\basegame_3_nightcity.archive\\quest_4f85bb7db69155b7.streamingsector",
+      "sector_sha256": "1098E43F3AABF6978051E3FDE932A78BFFDC1CC6696F19505B84805842BCF8C6",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_02\\quest_4f85bb7db69155b7.json",
+      "drop_nodes": [
+        26
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        26
+      ],
+      "preserve_ai_spots": 6,
+      "preserve_nodes": 28,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1216,
+      "native_prefab": "#ce_cct_dtn_102_openworld",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_b3b02cb633f68c39.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_02\\basegame_3_nightcity.archive\\quest_b3b02cb633f68c39.streamingsector",
+      "sector_sha256": "ED88E6501E60AE7666F3C753CB2D7174AC0881EA90527DF98F577CD42DC9FD80",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_02\\quest_b3b02cb633f68c39.json",
+      "drop_nodes": [
+        56,
+        57
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode",
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        56,
+        57
+      ],
+      "preserve_ai_spots": 21,
+      "preserve_nodes": 58,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1217,
+      "native_prefab": "#ce_cct_dtn_103",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_4f85bd7db691591d.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_02\\basegame_3_nightcity.archive\\quest_4f85bd7db691591d.streamingsector",
+      "sector_sha256": "5196444BB0302C49827C1C0679DFE05E37DD813041FDA11BF9D63DD046044531",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_02\\quest_4f85bd7db691591d.json",
+      "drop_nodes": [
+        26
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        26
+      ],
+      "preserve_ai_spots": 6,
+      "preserve_nodes": 32,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1218,
+      "native_prefab": "#ce_cct_dtn_104",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_4f85b67db6914d38.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_02\\basegame_3_nightcity.archive\\quest_4f85b67db6914d38.streamingsector",
+      "sector_sha256": "7640FED3A964866ED626D6922A4140AC2B9CF727EC47695B56C063BF00414417",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_02\\quest_4f85b67db6914d38.json",
+      "drop_nodes": [
+        28
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        28
+      ],
+      "preserve_ai_spots": 11,
+      "preserve_nodes": 36,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1219,
+      "native_prefab": "$/03_night_city/#c_city_center/downtown/dtn_ce_prefab5R2E3QY/{ce_cct_dtn_}105_prefabHANMRLI",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_d3c98257cae73fc5.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_d3c98257cae73fc5.streamingsector",
+      "sector_sha256": "82C7E6EB2C871AF72BB05F9D1BCABCB62A38C39475BCE148096B73A851F471C7",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_d3c98257cae73fc5.json",
+      "drop_nodes": [
+        16
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        16
+      ],
+      "preserve_ai_spots": 3,
+      "preserve_nodes": 18,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1220,
+      "native_prefab": "$/03_night_city/#c_city_center/downtown/dtn_ce_prefab5R2E3QY/{ce_cct_dtn_}106_prefabUDO6MBA",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_f71a9e17fe7c3fd5.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_f71a9e17fe7c3fd5.streamingsector",
+      "sector_sha256": "2B0B71FC7A7E5EEAB18983ACBE4CE203F19A2D32AC90B58BA6F7211B7B1580FA",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_f71a9e17fe7c3fd5.json",
+      "drop_nodes": [
+        18
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        18
+      ],
+      "preserve_ai_spots": 3,
+      "preserve_nodes": 20,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1221,
+      "native_prefab": "$/03_night_city/#c_city_center/downtown/dtn_ce_prefab5R2E3QY/{ce_cct_dtn_}107_prefabHANMRLI",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_07cb60a77f4808eb.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_07cb60a77f4808eb.streamingsector",
+      "sector_sha256": "19BDE15307A54D5F3FFC581DE703CF37D8E150DB1A0F27BB55FCDADFF2429B17",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_07cb60a77f4808eb.json",
+      "drop_nodes": [
+        16
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        16
+      ],
+      "preserve_ai_spots": 3,
+      "preserve_nodes": 18,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1222,
+      "native_prefab": "$/03_night_city/#c_city_center/downtown/dtn_ce_prefab5R2E3QY/{ce_cct_dtn_}108_prefabLTYHK6A",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_735693049b6886e6.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_735693049b6886e6.streamingsector",
+      "sector_sha256": "7BF05885122E1B0A2B6F166EDCEC9D1514E88B64A0DCC2C5A0CF1E8B5945F278",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_735693049b6886e6.json",
+      "drop_nodes": [
+        26
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        26
+      ],
+      "preserve_ai_spots": 6,
+      "preserve_nodes": 28,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1223,
+      "native_prefab": "#ce_hey_spr_101",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_fa7aca99fe3b4adc.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_02\\basegame_3_nightcity.archive\\quest_fa7aca99fe3b4adc.streamingsector",
+      "sector_sha256": "6534D1CC5638136B0E83B9A6CCB85649C07E8DC2B45287C38494105C13718CA1",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_02\\quest_fa7aca99fe3b4adc.json",
+      "drop_nodes": [
+        18
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        18
+      ],
+      "preserve_ai_spots": 5,
+      "preserve_nodes": 23,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1224,
+      "native_prefab": "#ce_hey_spr_102",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_fa7acd99fe3b4ff5.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_02\\basegame_3_nightcity.archive\\quest_fa7acd99fe3b4ff5.streamingsector",
+      "sector_sha256": "8006CC30990C5A638A3443A0D5A4BAF37333972A2E90F86BB79926C788A101B9",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_02\\quest_fa7acd99fe3b4ff5.json",
+      "drop_nodes": [
+        25
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        25
+      ],
+      "preserve_ai_spots": 5,
+      "preserve_nodes": 29,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1225,
+      "native_prefab": "#ce_hey_spr_112",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_fa774399fe382fa0.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_02\\basegame_3_nightcity.archive\\quest_fa774399fe382fa0.streamingsector",
+      "sector_sha256": "2DB5D21B6540237A501A3A2018EA76CE7B1A800A6E8582C35A5256B52E04344F",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_02\\quest_fa774399fe382fa0.json",
+      "drop_nodes": [
+        18
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        18
+      ],
+      "preserve_ai_spots": 3,
+      "preserve_nodes": 20,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1226,
+      "native_prefab": "#ce_hey_spr_113",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_fa774499fe383153.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_02\\basegame_3_nightcity.archive\\quest_fa774499fe383153.streamingsector",
+      "sector_sha256": "AF6EB9F0D1ED0609DF7B71A96108557ADE1C6CC49B98E7BABDE5D32BF7B371F9",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_02\\quest_fa774499fe383153.json",
+      "drop_nodes": [
+        13
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        13
+      ],
+      "preserve_ai_spots": 3,
+      "preserve_nodes": 15,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1227,
+      "native_prefab": "#ce_hey_spr_114",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_fa774999fe3839d2.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_02\\basegame_3_nightcity.archive\\quest_fa774999fe3839d2.streamingsector",
+      "sector_sha256": "56A967878853A2221EE62D2C074D0F5CA803E6DDAA828DFAC23F91845C522444",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_02\\quest_fa774999fe3839d2.json",
+      "drop_nodes": [
+        18
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        18
+      ],
+      "preserve_ai_spots": 3,
+      "preserve_nodes": 20,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1228,
+      "native_prefab": "$/03_night_city/#c_heywood/wellsprings/spr_ce_prefabTG75OKQ/cs_goons_bbq_openworld_prefabIKUX5II",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_af0b2dd961bb63df.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_af0b2dd961bb63df.streamingsector",
+      "sector_sha256": "F56959E623C31350E77EDE6B31CAF8B0EF887A99AB291224428C4C504299E67D",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_af0b2dd961bb63df.json",
+      "drop_nodes": [
+        22
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        22
+      ],
+      "preserve_ai_spots": 4,
+      "preserve_nodes": 25,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1229,
+      "native_prefab": "#ce_hey_spr_116",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_fa774799fe38366c.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_02\\basegame_3_nightcity.archive\\quest_fa774799fe38366c.streamingsector",
+      "sector_sha256": "37385F8CAEF21F71D78D73E9DD4977044EA0E16993A19D07D902440E3F0BBD5D",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_02\\quest_fa774799fe38366c.json",
+      "drop_nodes": [
+        26
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        26
+      ],
+      "preserve_ai_spots": 6,
+      "preserve_nodes": 28,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1230,
+      "native_prefab": "$/03_night_city/#c_heywood/wellsprings/spr_ce_prefabTG75OKQ/cs_goons_cards_openworld_001_prefabXYD5FVI",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_58f1125a64e0202a.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_58f1125a64e0202a.streamingsector",
+      "sector_sha256": "10B2D0F999C29149B6BFDA2D53CA0016468EB42D776D0B038B7549B59CC3C339",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_58f1125a64e0202a.json",
+      "drop_nodes": [
+        27
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        27
+      ],
+      "preserve_ai_spots": 3,
+      "preserve_nodes": 28,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1232,
+      "native_prefab": "#ce_hey_spr_118",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_fa774d99fe38409e.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_02\\basegame_3_nightcity.archive\\quest_fa774d99fe38409e.streamingsector",
+      "sector_sha256": "A2B9B5FEAB9DBA38DD8BC129C33C5CF5505657BFA2FFF33289BB010F5898240F",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_02\\quest_fa774d99fe38409e.json",
+      "drop_nodes": [
+        26
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        26
+      ],
+      "preserve_ai_spots": 6,
+      "preserve_nodes": 28,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1233,
+      "native_prefab": "#ce_hey_spr_104",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_fa7ac799fe3b45c3.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_02\\basegame_3_nightcity.archive\\quest_fa7ac799fe3b45c3.streamingsector",
+      "sector_sha256": "D80AE34501786240E6DBBA6B7F2CDC0E67036BE5E4C441B24581B943430D8A54",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_02\\quest_fa7ac799fe3b45c3.json",
+      "drop_nodes": [
+        16
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        16
+      ],
+      "preserve_ai_spots": 3,
+      "preserve_nodes": 18,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1234,
+      "native_prefab": "#ce_hey_spr_105",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_fa7ac699fe3b4410.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_02\\basegame_3_nightcity.archive\\quest_fa7ac699fe3b4410.streamingsector",
+      "sector_sha256": "CCB73F7419180F36C186895CD05676FD91AAD1F6B18D3509B777B37EC394FD5B",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_02\\quest_fa7ac699fe3b4410.json",
+      "drop_nodes": [
+        28
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        28
+      ],
+      "preserve_ai_spots": 11,
+      "preserve_nodes": 36,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1235,
+      "native_prefab": "#ce_hey_spr_106",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_fa7ac999fe3b4929.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_02\\basegame_3_nightcity.archive\\quest_fa7ac999fe3b4929.streamingsector",
+      "sector_sha256": "33D004FE57315F8265F8000B8CBDF51579950A25DC1156F8665208F14A97ED2E",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_02\\quest_fa7ac999fe3b4929.json",
+      "drop_nodes": [
+        24,
+        25
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode",
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        24,
+        25
+      ],
+      "preserve_ai_spots": 7,
+      "preserve_nodes": 29,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1236,
+      "native_prefab": "#ce_hey_spr_107",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_fa7ac899fe3b4776.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_02\\basegame_3_nightcity.archive\\quest_fa7ac899fe3b4776.streamingsector",
+      "sector_sha256": "31B2BD76EF8EC4DB6DE28CAF741D7370058647E4E1D699A332DB45A05332A6E6",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_02\\quest_fa7ac899fe3b4776.json",
+      "drop_nodes": [
+        26
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        26
+      ],
+      "preserve_ai_spots": 6,
+      "preserve_nodes": 28,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1237,
+      "native_prefab": "#ce_hey_spr_110",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_fa774599fe383306.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_02\\basegame_3_nightcity.archive\\quest_fa774599fe383306.streamingsector",
+      "sector_sha256": "3F966206EBC9EB8732CC226FE9E1F3BA495E92647D6D9BBBCFF5A4AA06A60416",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_02\\quest_fa774599fe383306.json",
+      "drop_nodes": [
+        16
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        16
+      ],
+      "preserve_ai_spots": 3,
+      "preserve_nodes": 18,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1238,
+      "native_prefab": "#ce_hey_spr_111",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_fa774699fe3834b9.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_02\\basegame_3_nightcity.archive\\quest_fa774699fe3834b9.streamingsector",
+      "sector_sha256": "0FB1FC1315C0060D70CEE0F5C1213DEEC118E1E7E5369B5DD048AF1BD3C66B71",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_02\\quest_fa774699fe3834b9.json",
+      "drop_nodes": [
+        25
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        25
+      ],
+      "preserve_ai_spots": 5,
+      "preserve_nodes": 29,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1239,
+      "native_prefab": "#ce_hey_spr_06_openworld",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_be612fe7834b798c.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_02\\basegame_3_nightcity.archive\\quest_be612fe7834b798c.streamingsector",
+      "sector_sha256": "08EFF26B62E6B5B1CF49E6E1273EC3C164913760EE9F112E28EDEE2CAD971BC0",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_02\\quest_be612fe7834b798c.json",
+      "drop_nodes": [
+        0,
+        1,
+        19
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode",
+        "worldTriggerAreaNode",
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        0,
+        1,
+        19
+      ],
+      "preserve_ai_spots": 15,
+      "preserve_nodes": 18,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1240,
+      "native_prefab": "#ce_hey_spr_08_openworld",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_ca3801c15eb06b4a.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_02\\basegame_3_nightcity.archive\\quest_ca3801c15eb06b4a.streamingsector",
+      "sector_sha256": "B73F9D1D4C4A28DCDA4DB05EA28518C011349097B283766B4EAC39B019533C89",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_02\\quest_ca3801c15eb06b4a.json",
+      "drop_nodes": [
+        33,
+        34,
+        35
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode",
+        "worldTriggerAreaNode",
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        33,
+        34,
+        35
+      ],
+      "preserve_ai_spots": 31,
+      "preserve_nodes": 36,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1242,
+      "native_prefab": "#ce_hey_spr_09_openworld",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_a5d555dd6c3a1367.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_02\\basegame_3_nightcity.archive\\quest_a5d555dd6c3a1367.streamingsector",
+      "sector_sha256": "428DE2831540CBF4BFC792B7617E5C72B18E7938174E03D4EA016B35F5BE1CC7",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_02\\quest_a5d555dd6c3a1367.json",
+      "drop_nodes": [
+        28,
+        29,
+        30
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode",
+        "worldTriggerAreaNode",
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        28,
+        29,
+        30
+      ],
+      "preserve_ai_spots": 26,
+      "preserve_nodes": 29,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1243,
+      "native_prefab": "#ce_pac_wwd_04_openworld",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_8608d54eb9577a85.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_02\\ep1_1_nightcity.archive\\quest_8608d54eb9577a85.streamingsector",
+      "sector_sha256": "26D61288149778171ACF21AD90321F7C1D1BBAD526F7CDDDDBD6A046C03675E0",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_02\\quest_8608d54eb9577a85.json",
+      "drop_nodes": [
+        23,
+        24
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode",
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        23,
+        24
+      ],
+      "preserve_ai_spots": 21,
+      "preserve_nodes": 23,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1244,
+      "native_prefab": "$/03_night_city/c_watson/kabuki/kab_ce_prefabKAROLKA/ce_wat_kab_01_prefabLXF7MXY/ce_wat_kab_01_openworld_prefabGSQV53Q",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_efc994f1b8c4c381.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_efc994f1b8c4c381.streamingsector",
+      "sector_sha256": "E51A364CF2CA1334E6093ED677BF20D2C2E7BAC6EE0D220EDF540A6F0475AF74",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_efc994f1b8c4c381.json",
+      "drop_nodes": [
+        29,
+        30,
+        31
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode",
+        "worldTriggerAreaNode",
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        29,
+        30,
+        31
+      ],
+      "preserve_ai_spots": 29,
+      "preserve_nodes": 34,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1245,
+      "native_prefab": "$/03_night_city/c_watson/kabuki/loc_sts_wat_kab_102_cargo_prefabOGVNRJA/loc_sts_wat_kab_102_cargo_openworld_prefabSTWD6XA/sts_wat_kab_102_after_prefabTR3FHSI",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_c7b45f38dc09c112.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_c7b45f38dc09c112.streamingsector",
+      "sector_sha256": "5FC50CB4749B00711BB53B2077E95D329EABD57DA5305E8A8CC6376920FC96C9",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_c7b45f38dc09c112.json",
+      "drop_nodes": [
+        10,
+        24,
+        25
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode",
+        "worldTriggerAreaNode",
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        10,
+        24,
+        25
+      ],
+      "preserve_ai_spots": 21,
+      "preserve_nodes": 27,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1246,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/{mce_}01_prefabKRFCBWA;#03_night_cityc_watsonnorthsidenorthside_openworld_prefabIDPOWEInorthside_openworld_community_prefabKQCEUTYmce_01_prefabKRFCBWA",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_29796327537b62ba.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_29796327537b62ba.streamingsector",
+      "sector_sha256": "BA0277324882436E383D906186923326939E9624C3E99D4BD9EF3AEE56F68B38",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_29796327537b62ba.json",
+      "drop_nodes": [
+        22,
+        23,
+        24,
+        25,
+        29,
+        34
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode",
+        "worldTriggerAreaNode",
+        "worldTriggerAreaNode",
+        "worldTriggerAreaNode",
+        "worldPopulationSpawnerNode",
+        "worldPopulationSpawnerNode"
+      ],
+      "drop_placements": [
+        22,
+        23,
+        24,
+        25,
+        29,
+        34
+      ],
+      "preserve_ai_spots": 18,
+      "preserve_nodes": 29,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1247,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/{mce_}02_prefabX2TLOKQ",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_8d4564bc931d891c.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_8d4564bc931d891c.streamingsector",
+      "sector_sha256": "7F2FA5E9BD607B0D677EF30A55E29625C138A9BEB52A79C65FC969CBD3F0C6D6",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_8d4564bc931d891c.json",
+      "drop_nodes": [
+        22
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        22
+      ],
+      "preserve_ai_spots": 8,
+      "preserve_nodes": 28,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1248,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/cs_goons_rave_party_openworld_prefab2WPUHCI",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_94598320121a4f2b.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_94598320121a4f2b.streamingsector",
+      "sector_sha256": "CA13CE888BD77AC5EB2F73EBCD1D209A5ADE27C3572A511A98E402378910E686",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_94598320121a4f2b.json",
+      "drop_nodes": [
+        56,
+        57
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode",
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        56,
+        57
+      ],
+      "preserve_ai_spots": 21,
+      "preserve_nodes": 58,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1249,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/{mce_}04_prefab7QRGQAY",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_790634c7d6c59b35.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_790634c7d6c59b35.streamingsector",
+      "sector_sha256": "033FC7C1F0377222308B61BBE01C4DB11023BA20A99C58D8C4BA477A66BB65A9",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_790634c7d6c59b35.json",
+      "drop_nodes": [
+        26
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        26
+      ],
+      "preserve_ai_spots": 6,
+      "preserve_nodes": 28,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1250,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/{mce_}05_prefabIBQCSZA",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_2c0888a0e05c8e63.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_2c0888a0e05c8e63.streamingsector",
+      "sector_sha256": "5F9D5B27C4BBD4A8B4A3C23680D8F9CAFCC9F84FC2438DD558C21ED1AF70554A",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_2c0888a0e05c8e63.json",
+      "drop_nodes": [
+        18
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        18
+      ],
+      "preserve_ai_spots": 3,
+      "preserve_nodes": 20,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1251,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/{mce_}06_prefabUDZZGFY",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_024a8ccbcebf4a20.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_024a8ccbcebf4a20.streamingsector",
+      "sector_sha256": "DB16DA560AD80E759A56B9F2B5033BE26103931A37C3093DFDFC0D8BA50D7D71",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_024a8ccbcebf4a20.json",
+      "drop_nodes": [
+        5
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        5
+      ],
+      "preserve_ai_spots": 5,
+      "preserve_nodes": 23,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1252,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/cs_goons_couch_openworld_prefab2GRO3VY",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_c6ed8df760789956.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_c6ed8df760789956.streamingsector",
+      "sector_sha256": "E90CEBEEF49206873E1271875D10AB2761473AFB43308C825BE2DBE3EDBBD9F6",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_c6ed8df760789956.json",
+      "drop_nodes": [
+        17
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        17
+      ],
+      "preserve_ai_spots": 4,
+      "preserve_nodes": 18,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1253,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/{mce_}08_prefab6QQRYHY",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_66b83e9dfc191a27.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_66b83e9dfc191a27.streamingsector",
+      "sector_sha256": "A6C05472C84A09F48B9FBF650B7018011FBCDA9736F64B42453332F83ABC9B40",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_66b83e9dfc191a27.json",
+      "drop_nodes": [
+        24,
+        25
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode",
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        24,
+        25
+      ],
+      "preserve_ai_spots": 7,
+      "preserve_nodes": 29,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1254,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/cs_goons_bbq_openworld_prefabGOMSUNI",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_b789d630ac70f98b.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_b789d630ac70f98b.streamingsector",
+      "sector_sha256": "AA8634D0DA553215F5CD0A12DEC8DFACA16A9D9496542FDE0FFD0C1390CE4EA0",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_b789d630ac70f98b.json",
+      "drop_nodes": [
+        24
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        24
+      ],
+      "preserve_ai_spots": 4,
+      "preserve_nodes": 25,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1255,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/{mce_}10_prefabX2TLOKQ",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_4d6687e78eabfc47.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_4d6687e78eabfc47.streamingsector",
+      "sector_sha256": "82BC3CDA859F835EF77381473DEF2BEB76045BC6E3E2F4549E2D27791CF5D3F0",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_4d6687e78eabfc47.json",
+      "drop_nodes": [
+        22
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        22
+      ],
+      "preserve_ai_spots": 8,
+      "preserve_nodes": 28,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1256,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/cs_goons_rave_party_openworld_001_prefab2WPUHCI",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_af8824f298ca6c33.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_af8824f298ca6c33.streamingsector",
+      "sector_sha256": "CE351157E361B8CC7AC569BCD866A4CE5ECCDB133469AC2A193B13941E83E8FC",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_af8824f298ca6c33.json",
+      "drop_nodes": [
+        56,
+        57
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode",
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        56,
+        57
+      ],
+      "preserve_ai_spots": 21,
+      "preserve_nodes": 58,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1257,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/cs_goons_cards_openworld_prefabU5JP6ZQ",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_f80060d9d164ef80.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_f80060d9d164ef80.streamingsector",
+      "sector_sha256": "C076F1829DFBB5892F12AAD5FCB1DE0939A13F07F32A874951C0AA65069BE2DD",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_f80060d9d164ef80.json",
+      "drop_nodes": [
+        28
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        28
+      ],
+      "preserve_ai_spots": 3,
+      "preserve_nodes": 28,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1258,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/{mce_}13_prefab3COHVGY",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_21d89d83ccf3f4d8.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_21d89d83ccf3f4d8.streamingsector",
+      "sector_sha256": "937569847F21610ABA2C4B3C59D7DEB9A855216FD77C769D93D05397C97AF79E",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_21d89d83ccf3f4d8.json",
+      "drop_nodes": [
+        16
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        16
+      ],
+      "preserve_ai_spots": 3,
+      "preserve_nodes": 18,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1259,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/cs_goons_rave_party_openworld_002_prefab2WPUHCI",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_13ce23afdd1cd74e.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_13ce23afdd1cd74e.streamingsector",
+      "sector_sha256": "B72F08BCD9EC3258D9A0FF9943666787B4B6EE4F6E5488B022DD8C6334747C0D",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_13ce23afdd1cd74e.json",
+      "drop_nodes": [
+        56,
+        57
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode",
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        56,
+        57
+      ],
+      "preserve_ai_spots": 21,
+      "preserve_nodes": 58,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1260,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/{mce_}15_prefabUDZZGFY",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_e408053577ea3b30.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_e408053577ea3b30.streamingsector",
+      "sector_sha256": "055710E1974782AEC252956CACF04AF1882963FF7F0B2E9597BEAE81E8E0B569",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_e408053577ea3b30.json",
+      "drop_nodes": [
+        18
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        18
+      ],
+      "preserve_ai_spots": 5,
+      "preserve_nodes": 23,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1261,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/cs_goons_couch_openworld_001_prefab2GRO3VY",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_f7eaf28108f69dda.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_f7eaf28108f69dda.streamingsector",
+      "sector_sha256": "88F529317AB95ABAC887D9114C029A2D6D6E50101C5239AB46E649B2B5325057",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_f7eaf28108f69dda.json",
+      "drop_nodes": [
+        17
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        17
+      ],
+      "preserve_ai_spots": 4,
+      "preserve_nodes": 18,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1262,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/cs_goons_rave_party_openworld_003_prefab2WPUHCI",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_4a63e387a3b815a9.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_4a63e387a3b815a9.streamingsector",
+      "sector_sha256": "B50688AF61B9AFF2A28F9CC679FE3D479633E437A10313EAB22B2BC0A46FEFF6",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_4a63e387a3b815a9.json",
+      "drop_nodes": [
+        56,
+        57
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode",
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        56,
+        57
+      ],
+      "preserve_ai_spots": 21,
+      "preserve_nodes": 58,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1263,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/cs_goons_bbq_openworld_001_prefabGOMSUNI",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_bc205ed766476493.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_bc205ed766476493.streamingsector",
+      "sector_sha256": "0C4E22EB4DE4ECE26C3F778B11CD048493CEE15698371D487908BC79C3E5EAE4",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_bc205ed766476493.json",
+      "drop_nodes": [
+        24
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        24
+      ],
+      "preserve_ai_spots": 4,
+      "preserve_nodes": 25,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1264,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/{mce_}19_prefabUDZZGFY",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_6e76d5103aed32ac.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_6e76d5103aed32ac.streamingsector",
+      "sector_sha256": "4E1CDC37711C16979ACED75B2B32AF10A36D87C645002EE6D09059F556153665",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_6e76d5103aed32ac.json",
+      "drop_nodes": [
+        18
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        18
+      ],
+      "preserve_ai_spots": 5,
+      "preserve_nodes": 23,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1265,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/cs_goons_cards_openworld_001_prefabU5JP6ZQ",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_e251e9caf7664ea0.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_e251e9caf7664ea0.streamingsector",
+      "sector_sha256": "3A2501EC0A53C27864EE12E2B2250EABBC7166AB8FDD8C864DEF36EAAC91B908",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_e251e9caf7664ea0.json",
+      "drop_nodes": [
+        27
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        27
+      ],
+      "preserve_ai_spots": 3,
+      "preserve_nodes": 28,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1266,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/{mce_}21_prefab7QRGQAY",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_5c9efdf35f108a80.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_5c9efdf35f108a80.streamingsector",
+      "sector_sha256": "EEB0BFB79990E1AA3967C9AE205C6B834E9475906871B9ECFC82A002D308D382",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_5c9efdf35f108a80.json",
+      "drop_nodes": [
+        26
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        26
+      ],
+      "preserve_ai_spots": 6,
+      "preserve_nodes": 28,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1267,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/cs_goons_rave_party_openworld_004_prefab2WPUHCI",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_db524fee0df1b6b4.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_db524fee0df1b6b4.streamingsector",
+      "sector_sha256": "BB3DAE0F144ACEA83A8B789A05D1C3B3339A6839B7090781243C0E969A51ACC2",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_db524fee0df1b6b4.json",
+      "drop_nodes": [
+        56,
+        57
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode",
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        56,
+        57
+      ],
+      "preserve_ai_spots": 21,
+      "preserve_nodes": 58,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1268,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/{mce_}23_prefabTKPR4JY",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_2d6899156c554d46.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_2d6899156c554d46.streamingsector",
+      "sector_sha256": "3FED7A6370B037E18950CEC4C9A980DF48F1AFEA086C0DF56ACE6BED0E18A252",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_2d6899156c554d46.json",
+      "drop_nodes": [
+        25
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        25
+      ],
+      "preserve_ai_spots": 5,
+      "preserve_nodes": 29,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1269,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/{mce_}24_prefab2DJ7JTY",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_cefc19753a502605.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_cefc19753a502605.streamingsector",
+      "sector_sha256": "2C2A15AEC87C09325D653E7DB64F223FED9CE059EA9CAAE8D30A57D34BE1AE0B",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_cefc19753a502605.json",
+      "drop_nodes": [
+        26
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        26
+      ],
+      "preserve_ai_spots": 6,
+      "preserve_nodes": 32,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1270,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/{mce_}25_prefab3COHVGY",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_3c3d7b0b655aa799.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_3c3d7b0b655aa799.streamingsector",
+      "sector_sha256": "45F1849883E8CBBA01536A4AFFB4F19F4284BA9A8EEA82BDF14A3BF2787FDD76",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_3c3d7b0b655aa799.json",
+      "drop_nodes": [
+        16
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        16
+      ],
+      "preserve_ai_spots": 3,
+      "preserve_nodes": 18,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1271,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/{mce_}26_prefabUDZZGFY",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_002af3274eb143ae.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_002af3274eb143ae.streamingsector",
+      "sector_sha256": "AE945DAD5FE0D7B905DBC759B09AB3208DB932B50A89D454E243E3D3C6F1E85A",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_002af3274eb143ae.json",
+      "drop_nodes": [
+        18
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        18
+      ],
+      "preserve_ai_spots": 5,
+      "preserve_nodes": 23,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1272,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/{mce_}27_prefab3COHVGY",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_21dd2ffc709b8ed7.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_21dd2ffc709b8ed7.streamingsector",
+      "sector_sha256": "40999B773A28EC9937AB8E92863A781D8953C8F878270E4BC790AFD734682AFF",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_21dd2ffc709b8ed7.json",
+      "drop_nodes": [
+        16
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        16
+      ],
+      "preserve_ai_spots": 3,
+      "preserve_nodes": 18,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1273,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/cs_goons_couch_openworld_002_prefab2GRO3VY",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_1ba6f15d9147b38b.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_1ba6f15d9147b38b.streamingsector",
+      "sector_sha256": "145F9C61DFCAECC062BA33A7EF89F11BD25FE05497E2EC2BEBA8B783B8B97C73",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_1ba6f15d9147b38b.json",
+      "drop_nodes": [
+        17
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        17
+      ],
+      "preserve_ai_spots": 4,
+      "preserve_nodes": 18,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1274,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/cs_goons_knife_prefabIKFK3BA",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_1fa85d62990acc63.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_1fa85d62990acc63.streamingsector",
+      "sector_sha256": "257EBC3B85B06905A5D6D405D67677172965061114DCD61BF179977C45106FF7",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_1fa85d62990acc63.json",
+      "drop_nodes": [
+        26
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        26
+      ],
+      "preserve_ai_spots": 6,
+      "preserve_nodes": 28,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1275,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/spray_tags_prefabXKJ2III",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_d32e2a575a1a639c.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_d32e2a575a1a639c.streamingsector",
+      "sector_sha256": "D112F0C75EE65A0C53DEB763F540AAE089BD944D5091CC7DFE68F4E6C5F73D28",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_d32e2a575a1a639c.json",
+      "drop_nodes": [
+        2
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        2
+      ],
+      "preserve_ai_spots": 2,
+      "preserve_nodes": 4,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1276,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/{mce_}28_prefabUDZZGFY",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_248bda490a8ef970.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_248bda490a8ef970.streamingsector",
+      "sector_sha256": "2D63F624707F3AF6F22674E8FE74842A50A4172D834028BFF30E9B9F714C7C80",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_248bda490a8ef970.json",
+      "drop_nodes": [
+        18
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        18
+      ],
+      "preserve_ai_spots": 5,
+      "preserve_nodes": 23,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1277,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/{mce_}029_prefabUDZZGFY",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_e37cb8571b83d5cf.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_e37cb8571b83d5cf.streamingsector",
+      "sector_sha256": "9A03DEDF5F7004ED1CD4C9D391C806CE5804F0B9702B9EB3A75248443293C5CC",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_e37cb8571b83d5cf.json",
+      "drop_nodes": [
+        23
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        23
+      ],
+      "preserve_ai_spots": 5,
+      "preserve_nodes": 23,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1278,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/{mce_}030_prefab7QRGQAY",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_a10b948d9ab0cbaa.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_a10b948d9ab0cbaa.streamingsector",
+      "sector_sha256": "D45A79DC7C694D9321F5DAAD645A1D15411223B368E75082A9A2088F29E26D5D",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_a10b948d9ab0cbaa.json",
+      "drop_nodes": [
+        26
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        26
+      ],
+      "preserve_ai_spots": 6,
+      "preserve_nodes": 28,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1279,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/{mce_}31_prefabIKFK3BA",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_7f33df7aecdb8fd4.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_7f33df7aecdb8fd4.streamingsector",
+      "sector_sha256": "B9C86FF5BE00E01413D4AB6D3F323507121EC5408F7F5C191EA7230A8AC30991",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_7f33df7aecdb8fd4.json",
+      "drop_nodes": [
+        26
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        26
+      ],
+      "preserve_ai_spots": 6,
+      "preserve_nodes": 28,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1280,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/{mce_}032_prefab3COHVGY",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_50e3be2422df8d01.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_50e3be2422df8d01.streamingsector",
+      "sector_sha256": "25F43F2C841FE77BF863053619CECBEB909D40D235B197BA02D6FBC4A4DC4B4E",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_50e3be2422df8d01.json",
+      "drop_nodes": [
+        16
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        16
+      ],
+      "preserve_ai_spots": 3,
+      "preserve_nodes": 18,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1281,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/{mce_}033_prefabUDZZGFY",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_158a5249c7077af4.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_158a5249c7077af4.streamingsector",
+      "sector_sha256": "5B5571BC6BFB50EDEDB1B0762262F39BD6D6803147181AB7ADDD1474917F0251",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_158a5249c7077af4.json",
+      "drop_nodes": [
+        18
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        18
+      ],
+      "preserve_ai_spots": 5,
+      "preserve_nodes": 23,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1282,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/cs_goons_couch_openworld_003_prefab2GRO3VY",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_ca53b617457d01b8.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_ca53b617457d01b8.streamingsector",
+      "sector_sha256": "EFEF42312C00CA4D7F4AC913F7BB8CD86C5CE1CDB6E7D13BD06F2C7ADFC35D7E",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_ca53b617457d01b8.json",
+      "drop_nodes": [
+        17
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        17
+      ],
+      "preserve_ai_spots": 4,
+      "preserve_nodes": 18,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1283,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/{mce_}034_prefabUDZZGFY",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_4565c4578126a079.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_4565c4578126a079.streamingsector",
+      "sector_sha256": "AD7A9B8ED6421D675434518D07D78C13BA36C1299F9206C3A323B62E29473833",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_4565c4578126a079.json",
+      "drop_nodes": [
+        18
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        18
+      ],
+      "preserve_ai_spots": 5,
+      "preserve_nodes": 23,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1284,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/{mce_}035_prefab3COHVGY",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_02b4530986c9682c.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_02b4530986c9682c.streamingsector",
+      "sector_sha256": "1CF449BC39EE92F04E19D150E0EED7611793B4EC019831FA0144667FCF682CE5",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_02b4530986c9682c.json",
+      "drop_nodes": [
+        16
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        16
+      ],
+      "preserve_ai_spots": 3,
+      "preserve_nodes": 18,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1285,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/{mce_}036_prefabUDZZGFY",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_35f43eb6f82c09b7.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_35f43eb6f82c09b7.streamingsector",
+      "sector_sha256": "B5F21378A45D804532FA4280830E4E7BA9A2C42C9544467079D4BA3DB7291FA4",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_35f43eb6f82c09b7.json",
+      "drop_nodes": [
+        18
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        18
+      ],
+      "preserve_ai_spots": 5,
+      "preserve_nodes": 23,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1286,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/{mce_}037_prefabIKFK3BA",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_bf8fad4f3236c252.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_bf8fad4f3236c252.streamingsector",
+      "sector_sha256": "BFBBC5D6F32E76BCCE25B8885FEE4AE5A046FC40D4DA94FC691658BB191E60B8",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_bf8fad4f3236c252.json",
+      "drop_nodes": [
+        26
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        26
+      ],
+      "preserve_ai_spots": 6,
+      "preserve_nodes": 28,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1288,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/{mce_}038_prefabUDZZGFY",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_e997c09ab3fa9c45.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_e997c09ab3fa9c45.streamingsector",
+      "sector_sha256": "60AE81986762FD4D4D5242287AC5F3E7ACA6FB609A12FB1F7EE172C03BB2A821",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_e997c09ab3fa9c45.json",
+      "drop_nodes": [
+        18
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        18
+      ],
+      "preserve_ai_spots": 5,
+      "preserve_nodes": 23,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1289,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/cs_goons_bbq_openworld_002_prefabGOMSUNI",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_fdd10ee0815cbb82.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_fdd10ee0815cbb82.streamingsector",
+      "sector_sha256": "D23A304E6699FB3A530C721D118B3B9B71E283C1CD709BB3E11E42E17911E981",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_fdd10ee0815cbb82.json",
+      "drop_nodes": [
+        24
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        24
+      ],
+      "preserve_ai_spots": 4,
+      "preserve_nodes": 25,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1290,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/{mce_}039_prefabUDZZGFY",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_de8cd6de3e41305e.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_de8cd6de3e41305e.streamingsector",
+      "sector_sha256": "FDB8FBF3A5559ACCA3446899C0CD90330C58A5CDE3470A74DE51C15BDE52EBA0",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_de8cd6de3e41305e.json",
+      "drop_nodes": [
+        18
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        18
+      ],
+      "preserve_ai_spots": 5,
+      "preserve_nodes": 23,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1291,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/{mce_}040_prefabUDZZGFY",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_2f307941e103d862.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_2f307941e103d862.streamingsector",
+      "sector_sha256": "6399DB902C891B30A741D6916A403507FF0A005464B9E532F9D90461C633EAF3",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_2f307941e103d862.json",
+      "drop_nodes": [
+        18
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        18
+      ],
+      "preserve_ai_spots": 5,
+      "preserve_nodes": 23,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1292,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/cs_goons_bbq_openworld_003_prefabGOMSUNI",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_3da9e5215e050365.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_3da9e5215e050365.streamingsector",
+      "sector_sha256": "F139D3AD00EC79C2C045734497E3070D12AB9178327140A5E124EF1E57AEB386",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_3da9e5215e050365.json",
+      "drop_nodes": [
+        7
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        7
+      ],
+      "preserve_ai_spots": 4,
+      "preserve_nodes": 25,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1293,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/{mce_}041_prefabUDZZGFY",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_36f0dea4e0b4af19.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_36f0dea4e0b4af19.streamingsector",
+      "sector_sha256": "614B39F57A0B6DEA590CEFD09B07382945B1FBDB7C8F0D3175C237BA5AE8B304",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_36f0dea4e0b4af19.json",
+      "drop_nodes": [
+        18
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        18
+      ],
+      "preserve_ai_spots": 5,
+      "preserve_nodes": 23,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1294,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/{mce_}042_prefabIKFK3BA",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_2a2f86b037b3bd32.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_2a2f86b037b3bd32.streamingsector",
+      "sector_sha256": "6E98B1744A3A36DD1279CDC5062628AA16F9507E8E36F13CCF6F265810F57E16",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_2a2f86b037b3bd32.json",
+      "drop_nodes": [
+        26
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        26
+      ],
+      "preserve_ai_spots": 6,
+      "preserve_nodes": 28,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1295,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/{mce_}43_prefabUDZZGFY",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_c94bb6f55aecee9f.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_c94bb6f55aecee9f.streamingsector",
+      "sector_sha256": "E382F0AF48B38266DF3B06670AA09F3B1EF3E557DCE39D4ACF2D27682D712690",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_c94bb6f55aecee9f.json",
+      "drop_nodes": [
+        18
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        18
+      ],
+      "preserve_ai_spots": 5,
+      "preserve_nodes": 23,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1296,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_openworld_community_prefabKQCEUTY/{mce_}44_prefab7QRGQAY",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_c348f1d38c3cfca1.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_c348f1d38c3cfca1.streamingsector",
+      "sector_sha256": "97D522EC149DD1549B82E04691F4D93F8560B6BF4C5749C36A3979F110361653",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_c348f1d38c3cfca1.json",
+      "drop_nodes": [
+        26
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        26
+      ],
+      "preserve_ai_spots": 6,
+      "preserve_nodes": 28,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1298,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_chats_prefab5XRYNXY/wat_nid_chat_006_prefabNLQRT4A",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_65609a3e9c79222d.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_65609a3e9c79222d.streamingsector",
+      "sector_sha256": "6359D006D882965A4818F2C72584B73CC8903F3CA44ACCAC68E8B126A77C80D2",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_65609a3e9c79222d.json",
+      "drop_nodes": [
+        7,
+        14
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode",
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        7,
+        14
+      ],
+      "preserve_ai_spots": 7,
+      "preserve_nodes": 13,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1299,
+      "native_prefab": "$/03_night_city/c_watson/northside/northside_openworld_prefabIDPOWEI/northside_combat_events_prefabKKF6TPY/ce_wat_nid_33_prefab27MFZLA/ce_wat_nid_33_openworld_prefabZYTDGAI",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_13aac18704462fde.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_01\\basegame_3_nightcity.archive\\quest_13aac18704462fde.streamingsector",
+      "sector_sha256": "4BF6DB73A31C7EDAB0EEC3FF51DA2186490A94D1899B699F3502AA95F692034E",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_01\\quest_13aac18704462fde.json",
+      "drop_nodes": [
+        5,
+        6
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode",
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        5,
+        6
+      ],
+      "preserve_ai_spots": 4,
+      "preserve_nodes": 6,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    },
+    {
+      "id": 1300,
+      "native_prefab": "#ce_wbr_hil_06_openworld",
+      "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_a4f19181aceaba75.streamingsector",
+      "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\combat_prefab_native_02\\basegame_3_nightcity.archive\\quest_a4f19181aceaba75.streamingsector",
+      "sector_sha256": "B817829ED3E39F392649D037170ABEA3AF065428845477CBBBBDEBFC27E93B5C",
+      "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\combat_review\\decoded_02\\quest_a4f19181aceaba75.json",
+      "drop_nodes": [
+        29,
+        30,
+        31
+      ],
+      "drop_types": [
+        "worldTriggerAreaNode",
+        "worldTriggerAreaNode",
+        "worldTriggerAreaNode"
+      ],
+      "drop_placements": [
+        29,
+        30,
+        31
+      ],
+      "preserve_ai_spots": 28,
+      "preserve_nodes": 30,
+      "reason": "Omit quest-notifier triggers whose encounter controllers are not rehosted; group1246 also omits two automatic vehicle previews. Preserve exact native passive support for already-active entries without exposing reset/spawn/fight triggers to existing consumers."
+    }
+  ]
+}

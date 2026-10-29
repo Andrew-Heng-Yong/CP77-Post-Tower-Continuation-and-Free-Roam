@@ -1,5 +1,7 @@
 # Coastview bottle-shooting comparison — 27 October 2026
 
+**28 October implementation:** [BA1](bottle_actions_ba1_20261028.md) now installs the isolated native action controller for this exact group, preserving its W3 support owner. Package/guard/environment/rollback checks passed; live shooting and speech remain unverified. The diagnosis and earlier no-repair statements below describe the evidence before BA1.
+
 The user reports that a Scav shoots bottles and speaks in the pre-ending world, but the corresponding restored-world actor only aims and is silent. The user has explicitly authorized console diagnostics for this investigation.
 
 Latest matched post capture: entity `9007073`, spawner `8640981183263935109`, entry `goon2`; `workspot=true`, `scene=false`, `combat=false`, `forceShoot=false`, `holdPosition=false`, active count `0`. Group179 reports `Ready=0 Request=0 Claimed=1 Entered=1 Hold=0`. The pre-ending matched pause sample had hold-position active and count1. Combined with the native/private graph comparison, this supports the omitted action controller as the cause of the aim-only behavior. The post command sample alone does not prove continuous inactivity; no new 30-second observation was provided with it. Speech remains separately unbound.

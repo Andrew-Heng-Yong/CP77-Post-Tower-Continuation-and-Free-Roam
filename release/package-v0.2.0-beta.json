@@ -1,0 +1,27 @@
+{
+  "status": "PASS_OPEN_BETA_PACKAGE_READBACK",
+  "revision": "FOUR_FOLDERS_README_ONLY",
+  "release": "v0.2.0-beta",
+  "zip": "dist\\v0.2.0-beta\\Post-Tower-Continuation-and-Free-Roam-v0.2.0-beta.zip",
+  "zip_sha256": "F3FFEEED127532FF9F3DB5B4BCBB364FA673A9A50F519AF106D9E6D87030D7AE",
+  "zip_bytes": 10127545,
+  "core_files": 51,
+  "zip_entries": 55,
+  "top_level": [
+    "archive",
+    "bin",
+    "r6",
+    "readme"
+  ],
+  "readme_files": [
+    "AI_CLEANUP_INSTRUCTIONS.md",
+    "FILES.json",
+    "MANUAL_CLEANUP_INSTRUCTIONS.md",
+    "OBSOLETE_FILES.json"
+  ],
+  "manual_Atelier_edit_exact_hash": "PASS",
+  "game_writes": 0,
+  "save_writes": 0,
+  "published": false,
+  "helper_scripts_in_zip": false
+}
