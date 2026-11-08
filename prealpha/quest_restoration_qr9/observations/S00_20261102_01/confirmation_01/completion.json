@@ -1,0 +1,23 @@
+{
+  "status": "GIG_IDENTITY_CONFIRMED_BOUNDED_PASS_RECORDED",
+  "recorded_utc": "2026-11-02T17:05:48.397002+00:00",
+  "quest_id": "sts_wbr_hil_01",
+  "title": "Until Death Do Us Part",
+  "gig_route_status": "PASS_USER_REPORTED_WITH_LOG_AND_METADATA_CORROBORATION",
+  "scope": "One already-active route completed without reported problems. Not fresh admission/all contracts/reward idempotence/reload proof.",
+  "loaded_save_slot": "UNKNOWN_USER_DID_NOT_SPECIFY",
+  "probe_duration_seconds": 300,
+  "probe_ended_before_completion": true,
+  "replay_requested": false,
+  "runtime_changes": 0,
+  "artifacts": [
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S00_20261102_01\\confirmation_01\\user_confirmation.json",
+      "sha256": "623180ED66186458F6A2187821CCD06BF8BD981ED12B8BAF1945CBA75B44016E"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S00_20261102_01\\confirmation_01\\results.json",
+      "sha256": "62917794804B32C9ED52490C1C3B61B426C8A2AA1A96A99E4604ACFC2E87EED5"
+    }
+  ]
+}

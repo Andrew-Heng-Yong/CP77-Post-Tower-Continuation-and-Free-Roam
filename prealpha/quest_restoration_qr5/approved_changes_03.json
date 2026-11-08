@@ -1,0 +1,89 @@
+{
+  "version": 3,
+  "status": "APPROVED_EXACT_SERIALIZED_SUCCESSOR_FOR_PACKAGE_VALIDATION",
+  "relative_to": "QR4canonical03",
+  "resources": [
+    {
+      "depot": "towercontinued\\native_gigs_u9\\sts_std_arr_12_entry.questphase",
+      "before": "184C754141A52D6E7B10EACD3F6EB59AC47351DED87A92D3B306FEC53777EDD6",
+      "after": "C724360402300A455949A6C42878FA6AB1C6CB2B6858F5718BDE80C43F79D0FF",
+      "intent": "Fresh65003 entry enrolls exact native ARR12 failure/abandonment monitor, guarded by private receipt and unchanged native failure states; bypass retired global arming prefix without resetting it. Full native failure/reward exclusion preserved.",
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G04\\arr12_failure_01\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G07\\reviews\\ARR12\\verification_03\\review.json"
+      ],
+      "tests": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\candidate_01\\repair_arr12\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\reviews\\ARR12_serialized\\verification_02\\review.json"
+      ],
+      "independent_source_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G07\\reviews\\ARR12\\verification_03\\review.json",
+      "independent_source_review_sha256": "E0667EE385618DEDDAAFDAE7B4C04D125A143FEE5CB8BEFCFA23756DF4C2AC97",
+      "independent_serialized_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\reviews\\ARR12_serialized\\verification_02\\review.json",
+      "independent_serialized_review_sha256": "3575A51433D9CDB6D2916680E72CBCEB0B7B56721D2687C7C859CD6E8762DE60"
+    },
+    {
+      "depot": "towercontinued\\native_gigs_u9\\sts_ep1_08_entry.questphase",
+      "before": "783C9C6355E93C3C61350C22AE54542B6AC3D0593D50C068795DDB14779D77F6",
+      "after": "5D1FE58F41739C231B5006FF134EB78207FC879B9AB8652FADE69899242C2F62",
+      "intent": "Future U9 Steven actor-only helper with ordered enrollment and late Ana choice/history fences; preserve native invitation timer/SMS and old S23 owner.",
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G15\\actor_proposal_02\\proposal.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\reviews\\STEVEN\\proposal02_verification_01\\review.json"
+      ],
+      "tests": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\candidate_02\\repair_steven\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_a\\STEVEN_serialized\\verification_02\\review.json"
+      ],
+      "independent_source_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\reviews\\STEVEN\\proposal02_verification_01\\review.json",
+      "independent_source_review_sha256": "23CE232D1D3DE41174249A2AE1522A407369957BE5DB32793BC6370B190A6F48",
+      "independent_serialized_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_a\\STEVEN_serialized\\verification_02\\review.json",
+      "independent_serialized_review_sha256": "6F0442571AC1F922DBCAC22457BAD4226B8EC43AB29D281B403AC56CDE73BF15"
+    },
+    {
+      "depot": "towercontinued\\native_gigs_u9\\sts_wat_nid_03_entry.questphase",
+      "before": "28E5ED99BD0BEE6FD5F89399FAC4861609E63EDF99A49F88F1E139B04F5B9DC6",
+      "after": "787F10377AD24030FA9B14F944F31076047925233842D2A1158E9F012D3A662A",
+      "intent": "Future Cheetah fallback monitor, preserving native XOR/AND and exact shared prefab lease; bypass original arm prefix without resetting it.",
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G12\\cheetah_proposal_02\\proposal.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_a\\CHEETAH\\verification_03\\review.json"
+      ],
+      "tests": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\candidate_02\\monitor_verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_a\\CHEETAH_serialized\\verification_01\\review.json"
+      ],
+      "independent_source_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_a\\CHEETAH\\verification_03\\review.json",
+      "independent_source_review_sha256": "EE79127D3C79EE3F54AC45F0DA126805E890DC3DC5175DC46E71D0603659376E",
+      "independent_serialized_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_a\\CHEETAH_serialized\\verification_01\\review.json",
+      "independent_serialized_review_sha256": "D4FFC16D96173EC4E6CB47817EAFC2279D7800C857076E6F7D81B8059EC0F23A"
+    },
+    {
+      "depot": "towercontinued\\native_gigs_u9\\sts_wat_nid_02_entry.questphase",
+      "before": "8FD5E94E8F0BBC5A815B24377101B7EEE176462E0E126D5179FAE79A23F1C636",
+      "after": "AFB055A4E79D14472F29EC1883B9607FE1F18347F853EE4A482CAF483C7B4F87",
+      "intent": "Future Many Ways van-failure monitor, preserving native health/water/listener/cleanup/journals; bypass original arm prefix without resetting it.",
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\nid02_failure\\proposal_01\\proposal.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_b\\NID02\\review.json"
+      ],
+      "tests": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\candidate_02\\monitor_verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_b\\NID02_serialized\\verification_01\\review.json"
+      ],
+      "independent_source_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_b\\NID02\\review.json",
+      "independent_source_review_sha256": "3EFA4494D82579013EDAD4CE734C2847772490075D9B0C3E38665ADD15C578E5",
+      "independent_serialized_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_b\\NID02_serialized\\verification_01\\review.json",
+      "independent_serialized_review_sha256": "70B10EFD7F5F0B98607ACB846E90845A588D957CBF77789089BCF2AF817CFC15"
+    }
+  ],
+  "new_unique_defects": 4,
+  "new_affected_quests": [
+    "sts_std_arr_12",
+    "sts_ep1_08_steven_meeting_night_city",
+    "sts_wat_nid_03",
+    "sts_wat_nid_02"
+  ],
+  "scope": "Four existing private resource repairs cumulative versus QR4; three new relative to QR5candidate01. Spy in the Jungle also depends on the Steven repair carrier and requires preservation review. No new depots, XL registrations, scripts, game or save changes.",
+  "supersedes_allowlist": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\approved_changes_02.json",
+  "supersedes_allowlist_sha256": "4765BB5F41586A2D4C56B0F9CF765C63CE4C74047FA53634CE5349EC8B9D5D5C"
+}

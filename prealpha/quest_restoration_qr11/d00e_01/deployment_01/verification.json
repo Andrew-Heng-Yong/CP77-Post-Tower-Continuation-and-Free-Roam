@@ -1,0 +1,13 @@
+{
+  "status": "PASS_SINGLE_PROFILE_DEPLOYMENT_PRESERVATION",
+  "changed_game_paths": [
+    "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_QR9_Diagnostics/watch.json"
+  ],
+  "save_files_unchanged": 310,
+  "protected_files_verified": 84,
+  "Lua_Core_dependencies": "UNCHANGED",
+  "old_evidence": "UNCHANGED_METADATA_AND_PINNED_HASHES",
+  "native_callbacks": "UNSUPPORTED_NOT_VERIFIED",
+  "live_sampling": "NOT_TESTED",
+  "limits": "All save/protected bytes and full game/old-evidence metadata compared; unpinned bulk not all byte-hashed."
+}

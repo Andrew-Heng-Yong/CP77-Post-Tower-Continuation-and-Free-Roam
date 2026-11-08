@@ -1,0 +1,179 @@
+{
+  "quest_id": "mq012_stud",
+  "title": "Burning Desire / Night Moves",
+  "status": "DEEP_REVIEWED_WITH_EXPLICIT_STATIC_LIMITS",
+  "fully_static_verified": false,
+  "effective_resource": "towercontinued\\sidejobs_s23\\base_a\\mq012_stud.questphase",
+  "effective_resource_sha256": "AA1A37BA05DF98253589ED766AE4C859C3ED033AC84318C1D13F5BE5DCB2F726",
+  "source_epoch": "QR3 candidate_01; these resources unchanged from pinned PH3; installed PH3 is separate",
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "0\u21921000Ready\u21921001pause\u21921002recheck\u21921003Issued\u21921004False\u21921007postclaimpause\u21921008\u219281 nativehub\u2192117q001_left_v_apartment>=1\u21921100finalguard\u21921101Entered_16\u219216.In1. Completion observer1010 runs in parallel after1101.",
+        "Contact is MR_STUD, not Dennis. Privatephone74 equals native initializer and must already be Issued1 in1001/1002. Parent task label Dennis was corrected; no contact resources were changed."
+      ],
+      "approved_differences": [
+        "Existing S23 fresh owner retains native MQ012 input/body and receipt fencing."
+      ],
+      "remaining": [
+        "LIVE_ONLY: Original apartment history and actor acquisition remain engine/save inputs."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    },
+    "eligibility": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "1001/1002 require all thirteen journal paths Inactive, done/death/driving/blockade/progress facts0, mq012_active within0..1, phoneIssued1 and unused receipts; completed Tower prerequisites remain.",
+        "Legacy1004 tests Failed but current1001/1002 admit only Inactive journals. It is not a current generic failed-quest restart; postclaim1007/1008/1100 rechecks all history before native entry."
+      ],
+      "approved_differences": [
+        "Fresh guarded entry; no synthetic progress reset, Dead flag reset or arbitrary AI/device action."
+      ],
+      "remaining": [
+        "CONDITIONAL: Allowing nativeactive1 with all journals Inactive does not itself prove old owner retirement; exact engine/saved context remains required."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    },
+    "communications": {
+      "status": "PASS",
+      "proven": [
+        "Real MR_STUD scene1795\u21921789 waits start_done and1796\u21921791 waits end_done. Controller0\u219228False\u21929\u219221holo_mr_stud_calls_v_start and2\u219210\u2192end reaches native scene41/42 acknowledgements.",
+        "MQ012 root/8 native43HolocallRET\u2192202startrequest andINT\u2192203endrequest retained. Phonewrapper1003True\u21921004Issued\u219274.In1; shared802True\u2192803.In37\u2192Out37\u2192804 cleanup connected. No fake ack or counter reset."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Actual interrupted call recovery, counter cleanup, request delivery and phone presentation remain engine-dependent."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native body16 references complete mq012.questphase. Native root8 owns#mq012_pr_ripperdoc/#mq012_pr_stud,root13 cleanup retains#mq012_pr_stud; blockade01/02 owners and cleanup nodes remain.",
+        "No Dennis controller, extra ripperdoc service owner or duplicate request listener was introduced. Existing saved/resource identities stay unchanged."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Whether original saved stud/car/blockade owners retired, and safe reuse of actors/vehicle after Tower, remains unproven by source presence."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Native0\u219212startup\u21928main\u219213cleanup handles both8.Out1 andOut2. Authored car/ripperdoc drive, return-to-car, children/blockade progress and stud death/refusal paths remain inside untouched original body.",
+        "Native root/8 and scene payloads retain original actions, timers and quest state. Completion observer1010 waits native rootSucceeded; Entered does not directly grant completion or rewards."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Vehicle mounting, road/blockade arbitration, timed interruptions and actual encounter failures require playtests."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Native stud/ripperdoc/blockade instance scopes and local scene actor/vehicle/trigger references are retained exactly. Native #mounted_vehicle/#mq012_spwn_stud/near-ripperdoc nodes are inventoried."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "OPAQUE: Full world prefab placement, actor/vehicle binding, workspots/cameras and post-Tower streaming were not decoded. Preserving names is not verified runtime ownership."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    },
+    "journal": {
+      "status": "PASS",
+      "proven": [
+        "Thirteen exact root/phase/objective/description paths protect native lose_heat/find_out/talk/help/car/return/drive/stop/wait_call/talk_stud stages. Native scene/body remains sole objective/outcome writer.",
+        "Legacy1005Active/1006RootReactivated branch is retained for identity compatibility; fresh guards do not establish a route for arbitrary Failed history into it."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: Target journal definitions and interleavings in already saved legacy branch states remain unresolved."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native root/8 node128 retains QuestRewards.mq012_stud_finished; scene1106 retains QuestRewards.mq012_stud_done. Native cleanup13 writesactive0 then done1 and retains stud/blockade cleanup.",
+        "Private1010 observer waits rootSucceeded before1011Finished; native reward/death/outcome branches are preserved, not emulated."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "UNKNOWN: Reward record definitions and prior inventory/payment evidence are not fully resolved. Gameplay reward-once/failure cleanup requires exact save fixtures."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "No resource/node/receipt identities changed. Fresh postclaim guards fence progress again after parent wait117; all Active/Succeeded/Failed authored histories reject admission and missing evidence defers."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Original owner survival, active1 ambiguity, reload during vehicle/call and saved old reactivation route require transition fixtures."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "NativeMR_STUD listener, actual sceneacks and cleanup plus PH3studio are pinned; full quest prefab ownership retained. It does not share BigInJapan Dennis contact simply because both are side quests."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "OPAQUE: Studio placement/TDB and full world dependency closure remain unresolved.",
+        "LIVE_ONLY: Shared phone arbitration, interrupt timing, actor/vehicle release and post-Tower original-owner retirement remain separate from static validity."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    }
+  },
+  "policy_evidence": [
+    "research/sidejobs_s23/assessment_01.json",
+    "research/sidejobs_s23/base_a/assessment_01.json"
+  ],
+  "confirmed_defects": [],
+  "runtime_changes": []
+}

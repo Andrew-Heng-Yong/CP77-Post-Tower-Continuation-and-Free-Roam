@@ -1,0 +1,83 @@
+{
+  "state": "Q01_FIRST_THREE_DEEP_REVIEWED_WITH_STATIC_LIMITS",
+  "baseline": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\phone_studios_ph3\\candidate_01",
+  "queue": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\queue.json",
+  "queue_sha256": "DD06BF40C79E80CAFE80256D88E68EA91495D5FCED5A421263FF3E3058F6DE3E",
+  "previous": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr1\\checkpoint.json",
+  "investigated": [
+    "mq045_victor_debt",
+    "mq038_neweridentity",
+    "mq035_ozob"
+  ],
+  "contract_status_counts": {
+    "APPROVED_DEVIATION": 5,
+    "PASS": 12,
+    "OPAQUE": 3,
+    "CONDITIONAL": 10
+  },
+  "static_verified_count": 0,
+  "runtime_repairs": 0,
+  "remaining_Q01": [
+    {
+      "id": "07_nc_underground",
+      "title": "The Beast in Me"
+    },
+    {
+      "id": "mq046_cave_vehicle",
+      "title": "Murk Man Returns Again Once More Forever"
+    },
+    {
+      "id": "mq037_brendan",
+      "title": "Coin Operated Boy"
+    },
+    {
+      "id": "mq047_ad_vehicle",
+      "title": "Dressed to Kill"
+    },
+    {
+      "id": "mq037_brendan_hooligan001",
+      "title": "Spray Paint"
+    },
+    {
+      "id": "mq041_corpo",
+      "title": "War Pigs"
+    },
+    {
+      "id": "mq044_jakes_vehicle",
+      "title": "Sex on Wheels"
+    },
+    {
+      "id": "mq049_edgerunners",
+      "title": "Over the Edge"
+    },
+    {
+      "id": "mq030_melisa",
+      "title": "Bullets"
+    },
+    {
+      "id": "mq032_sacrum",
+      "title": "Sacrum Profanum / Losing My Religion"
+    },
+    {
+      "id": "mq026_conspiracy",
+      "title": "The Prophet's Song"
+    },
+    {
+      "id": "mq025_06_pacifica",
+      "title": "Beat on the Brat: Pacifica"
+    },
+    {
+      "id": "mq025_psycho_brawl",
+      "title": "Beat on the Brat"
+    }
+  ],
+  "next": {
+    "id": "07_nc_underground",
+    "title": "The Beast in Me"
+  },
+  "full_scope_quests": 161,
+  "not_deep_reviewed": 158,
+  "package_created": false,
+  "restrictions": "No deployment, game launch, saves/facts, releases or publication",
+  "required_reuse": "QR1 131-source compile, 1574-payload reproduction and38 controls remain pinned; no unchanged baseline build was repeated"
+}

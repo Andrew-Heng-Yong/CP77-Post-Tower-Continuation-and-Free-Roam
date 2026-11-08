@@ -1,0 +1,1600 @@
+{
+  "quest_id": "sts_bls_ina_05",
+  "title": "Goodbye, Night City",
+  "source_epoch": "source_epoch_00",
+  "status": "DEEP_CONTRACTS_INVESTIGATED_WITH_EXPLICIT_LIMITS",
+  "fully_static_verified": false,
+  "defects": [],
+  "repairs": [],
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Actual entry towercontinued\\native_gigs_u9\\sts_bls_ina_05_entry.questphase retains native selected parent5, POI46 and full-body node9→base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_05\\sts_bls_ina_05.questphase. POI.Out→65004 Started1→body.In1; main native root starts original gameplay/openworld owners in parallel. Native input and complete referenced body remain original.",
+        "All selected recipe payloads and copied nested graphs match manifest-pinned native donors, accounting only for the exact previously approved adaptations. Full native root prefab inventory is retained in evidence."
+      ],
+      "approved_differences": [
+        "Existing Tower wrapper65000Ready→65001Revision→65002guard→65003ParentEntered→original parent, receipt65004Started and65005/65006 completion observers. Original Embedded→Soft body reference retains exactly the same native resource path. Flying Drugs alone preserves the pinned plan edit bypassing foreign INA07 POI node6 in root/3; own tier and POI remain.",
+        "Radar Love credit_alias1 is the existing collision-safe name for the one matching native credit branch; no second credit owner is added."
+      ],
+      "remaining": [
+        "LIVE_ONLY: Registered activation and native approach/POI/briefing have not been observed."
+      ],
+      "evidence": [
+        {
+          "resource": "towercontinued\\native_gigs_u9\\sts_bls_ina_05_entry.questphase",
+          "nodes": [
+            5,
+            46,
+            9,
+            65002,
+            65003,
+            65004
+          ]
+        },
+        {
+          "resource": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_05\\sts_bls_ina_05.questphase"
+        },
+        "verification_08/graph_evidence.json",
+        "verification_08/source_pins.json"
+      ]
+    },
+    "eligibility": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Copied native eligibility predicates are recorded per node/socket in native_entry_predicates.json (4 predicate nodes). INA05/INA04 preserve tier3 ORtier3_2 joins; Flying Drugs root/3 keeps earned tier1; Big Pete preserves its original parent phase and approach/journal arbitration.",
+        "Actual resource65002 requires native start/finished0, own Request/Permit1, ParentEntered/Fault0 and Tower/U9 readiness. It has no journal predicates. Effective packaged NativeGigsU9.EntrySafe/Request/Poll independently require catalogue journal enum1, native fact0, legacy unused owners, genuine Tower/support/snapshot readiness and prevent used Started/terminal reissue.",
+        "Current catalogue index25 is tied to this exact ID/root/terminal fact; no historical unbundled RestoreCertified stub is used."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        {
+          "status": "CONDITIONAL_REFERENCE_COVERAGE",
+          "details": {
+            "native_journal_refs_not_catalogued": [
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_to_archibald/bruce",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/help_escape/bruce",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/rescue"
+            ],
+            "native_fact_refs_not_catalogued": [],
+            "limit": "Reference absence from EntrySafe catalogue is a coverage discrepancy, not a confirmed valid save state or a repair justification; journal definitions/reachability/history implications need target evidence."
+          }
+        },
+        "CONDITIONAL: Exact catalogue references omitted above need authoritative journal/target definitions and route/history implication before proving complete admission. A missing reference alone does not establish a valid hazardous save or authorize a reset.",
+        "LIVE_ONLY: Actual accepted snapshot entitlement, native earned tiers and dynamic proximity/token inputs are not measured."
+      ],
+      "evidence": [
+        {
+          "script": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\candidate_01\\package\\r6\\scripts\\PTFR_Consolidated\\PTFR_ActivityStateR3.reds",
+          "sha256": "06806391C2D9B3E66517C7D9EF8D69A87B2BF0DF52B23343E4793317E4F07615",
+          "class_name": "NativeGigsU9",
+          "line_start": 1520,
+          "catalogue_index": 25,
+          "catalogue": {
+            "Paths": [
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_in_farm",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/find_bruce",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_to_truck",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/talk_bruce",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_to_archibald",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/help_escape",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_to_area",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_to_bruce",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_out_car",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/talk_archibald",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/collect_reward",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/dont_kill_militech",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/wait_for_archie",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/take_bruce_to_meeting_point",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/escort_bruce_new",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/brefing"
+            ],
+            "Facts": [
+              "ina_05_archi_talk_ended",
+              "ina_05_arrived_by_car",
+              "ina_05_arrived_to_bruce",
+              "ina_05_bruce_left_alone",
+              "ina_05_bruce_mail",
+              "ina_05_car_arrives",
+              "ina_05_car_near_gate",
+              "ina_05_card",
+              "ina_05_cc_start",
+              "ina_05_done",
+              "ina_05_finished",
+              "ina_05_follow",
+              "ina_05_gates",
+              "ina_05_militech_killed",
+              "ina_05_objective_escort",
+              "ina_05_optional_failed",
+              "ina_05_recon_done",
+              "ina_05_start",
+              "ina_05_start_talk",
+              "ina_05_talked",
+              "ina_05_track",
+              "sts_bls_ina_05_combat_start",
+              "sts_bls_ina_05_loop"
+            ],
+            "TerminalFacts": [
+              "ina_05_finished"
+            ],
+            "LegacyTags": [
+              "PTFRB7_bls_ina_05"
+            ],
+            "LegacyOwnerFacts": []
+          },
+          "reference_coverage": {
+            "native_journal_refs_not_catalogued": [
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_to_archibald/bruce",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/help_escape/bruce",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/rescue"
+            ],
+            "native_fact_refs_not_catalogued": [],
+            "limit": "Reference absence from EntrySafe catalogue is a coverage discrepancy, not a confirmed valid save state or a repair justification; journal definitions/reachability/history implications need target evidence."
+          },
+          "limit": "Resource65002 has no journal predicates. Current EntrySafe/Request/Poll enforce catalogue journal/fact/legacy preconditions before issuing Permit; execution/races remain LIVE_ONLY."
+        },
+        {
+          "path": "quests/sts_bls_ina_05/native_entry_predicates.json"
+        },
+        "verification_08/graph_evidence.json",
+        "verification_08/source_pins.json",
+        "verification_08/tests.json"
+      ]
+    },
+    "communications": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "8 real caller-context producer paths (5 unique scene producer nodes) are traced from actual prebrief/debrief input sockets into native Dakota requests, real done>0 waits/clear0 and native controller/scene acknowledgement writers41/42. All source paths/nodes are in evidence.",
+        "Shared Dakota core is frozen at BDD1BB748A68160491FE98715951DAD7C79D8CB8233333255C250D2FF060A857, with13 current source hashes and38 independent common checks reused. It verifies queued native request38→count39→clear40 and count/listener41→44→scene21; cleanup437→301.In11→Out11→441 and native initializer50.",
+        "Each native debrief includes an original retry producer that rejoins its scene hub without a new local acknowledgement wait. Its primary scene wait is recorded; this context is preserved explicitly rather than adding an invented waiter. Native debrief rejection falls back to the original SMS/outcome route."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL_NATIVE_SHARED_WAIT_CONTEXT: Retry/hub and pre-existing waiting scope require engine scene-lifecycle interpretation; source topology preserves original behavior but does not formally prove callback scheduling.",
+        "LIVE_ONLY: SupportIssued is a receipt before native parent startup, not proof the engine completed every listener activation. Calls, retry/rejection UI, interrupt queue and playback remain untested."
+      ],
+      "evidence": [
+        {
+          "shared_core": "../G09/shared_core.json",
+          "sha256": "BDD1BB748A68160491FE98715951DAD7C79D8CB8233333255C250D2FF060A857"
+        },
+        {
+          "protocols": [
+            {
+              "scene": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_05\\scenes\\sts_bls_ina_05_holocall_prebrief.scene",
+              "input": "Start 0",
+              "producer": "89",
+              "request": "holo_dakota_calls_v_start_activate",
+              "waits": [
+                "267"
+              ],
+              "clears": [
+                "84"
+              ],
+              "readers": [
+                "38"
+              ],
+              "ack_writers": [
+                "41"
+              ],
+              "entry_to_request": [
+                "1",
+                "254",
+                "89"
+              ],
+              "native_retry": false,
+              "scene_waits": [
+                "267"
+              ],
+              "status": "PASS_STRUCTURAL_REQUEST_ACK_PATH"
+            },
+            {
+              "scene": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_05\\scenes\\sts_bls_ina_05_holocall_prebrief.scene",
+              "input": "Start 0",
+              "producer": "90",
+              "request": "holo_dakota_calls_v_end_activate",
+              "waits": [
+                "85"
+              ],
+              "clears": [
+                "86"
+              ],
+              "readers": [
+                "2"
+              ],
+              "ack_writers": [
+                "42"
+              ],
+              "entry_to_request": [
+                "1",
+                "254",
+                "89",
+                "83",
+                "267",
+                "271",
+                "84",
+                "87",
+                "68",
+                "88",
+                "90"
+              ],
+              "native_retry": false,
+              "scene_waits": [
+                "85"
+              ],
+              "status": "PASS_STRUCTURAL_REQUEST_ACK_PATH"
+            },
+            {
+              "scene": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_05\\scenes\\sts_bls_ina_05_holocall_debriefs.scene",
+              "input": "Start 0",
+              "producer": "117",
+              "request": "holo_dakota_calls_v_start_activate",
+              "waits": [
+                "268"
+              ],
+              "clears": [
+                "112"
+              ],
+              "readers": [
+                "38"
+              ],
+              "ack_writers": [
+                "41"
+              ],
+              "entry_to_request": [
+                "1",
+                "279",
+                "117"
+              ],
+              "native_retry": false,
+              "scene_waits": [
+                "268"
+              ],
+              "status": "PASS_STRUCTURAL_REQUEST_ACK_PATH"
+            },
+            {
+              "scene": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_05\\scenes\\sts_bls_ina_05_holocall_debriefs.scene",
+              "input": "Start 0",
+              "producer": "118",
+              "request": "holo_dakota_calls_v_end_activate",
+              "waits": [
+                "113"
+              ],
+              "clears": [
+                "114"
+              ],
+              "readers": [
+                "2"
+              ],
+              "ack_writers": [
+                "42"
+              ],
+              "entry_to_request": [
+                "1",
+                "279",
+                "117",
+                "111",
+                "268",
+                "271",
+                "112",
+                "115",
+                "80",
+                "82",
+                "71",
+                "116",
+                "118"
+              ],
+              "native_retry": false,
+              "scene_waits": [
+                "113"
+              ],
+              "status": "PASS_STRUCTURAL_REQUEST_ACK_PATH"
+            },
+            {
+              "scene": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_05\\scenes\\sts_bls_ina_05_holocall_debriefs.scene",
+              "input": "Start 0",
+              "producer": "259",
+              "request": "holo_dakota_calls_v_start_activate",
+              "waits": [],
+              "clears": [],
+              "readers": [
+                "38"
+              ],
+              "ack_writers": [
+                "41"
+              ],
+              "entry_to_request": [
+                "1",
+                "279",
+                "117",
+                "111",
+                "249",
+                "251",
+                "253",
+                "255",
+                "259"
+              ],
+              "native_retry": true,
+              "scene_waits": [
+                "268"
+              ],
+              "status": "CONDITIONAL_NATIVE_SHARED_WAIT_CONTEXT"
+            },
+            {
+              "scene": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_05\\scenes\\sts_bls_ina_05_holocall_debriefs.scene",
+              "input": "Start 0",
+              "producer": "117",
+              "request": "holo_dakota_calls_v_start_activate",
+              "waits": [
+                "268"
+              ],
+              "clears": [
+                "112"
+              ],
+              "readers": [
+                "38"
+              ],
+              "ack_writers": [
+                "41"
+              ],
+              "entry_to_request": [
+                "1",
+                "279",
+                "117"
+              ],
+              "native_retry": false,
+              "scene_waits": [
+                "268"
+              ],
+              "status": "PASS_STRUCTURAL_REQUEST_ACK_PATH"
+            },
+            {
+              "scene": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_05\\scenes\\sts_bls_ina_05_holocall_debriefs.scene",
+              "input": "Start 0",
+              "producer": "118",
+              "request": "holo_dakota_calls_v_end_activate",
+              "waits": [
+                "113"
+              ],
+              "clears": [
+                "114"
+              ],
+              "readers": [
+                "2"
+              ],
+              "ack_writers": [
+                "42"
+              ],
+              "entry_to_request": [
+                "1",
+                "279",
+                "117",
+                "111",
+                "268",
+                "271",
+                "112",
+                "115",
+                "80",
+                "82",
+                "71",
+                "116",
+                "118"
+              ],
+              "native_retry": false,
+              "scene_waits": [
+                "113"
+              ],
+              "status": "PASS_STRUCTURAL_REQUEST_ACK_PATH"
+            },
+            {
+              "scene": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_05\\scenes\\sts_bls_ina_05_holocall_debriefs.scene",
+              "input": "Start 0",
+              "producer": "259",
+              "request": "holo_dakota_calls_v_start_activate",
+              "waits": [],
+              "clears": [],
+              "readers": [
+                "38"
+              ],
+              "ack_writers": [
+                "41"
+              ],
+              "entry_to_request": [
+                "1",
+                "279",
+                "117",
+                "111",
+                "249",
+                "251",
+                "253",
+                "255",
+                "259"
+              ],
+              "native_retry": true,
+              "scene_waits": [
+                "268"
+              ],
+              "status": "CONDITIONAL_NATIVE_SHARED_WAIT_CONTEXT"
+            }
+          ]
+        },
+        "verification_08/graph_evidence.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native parent/body identities 5/9, full native root PhasePrefab and all current U9 resource names/receipts are stable. Source-recipe comparisons include inline gates; body/OW/GPL remain original executing owners rather than reconstructed quest actors.",
+        "Entry65003ParentEntered and65004Started are durable one-shot receipts. Current producer refuses old tags/owner facts and prior requests/Started; credit65001 claims before native completion wait, then65002 marks receipt. Map observers have independent entered receipts and MapPermit."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: Native main-tree retirement and actual saved executing descendants cannot be established solely by native terminal facts, history flags or resource presence.",
+        "LIVE_ONLY: Concurrent original/private owners, already-issued interrupted states, reload/teardown and future-version save transitions need matched owner fixtures."
+      ],
+      "evidence": [
+        {
+          "entry": "towercontinued\\native_gigs_u9\\sts_bls_ina_05_entry.questphase",
+          "body": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_05\\sts_bls_ina_05.questphase"
+        },
+        {
+          "script": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\candidate_01\\package\\r6\\scripts\\PTFR_Consolidated\\PTFR_ActivityStateR3.reds",
+          "sha256": "06806391C2D9B3E66517C7D9EF8D69A87B2BF0DF52B23343E4793317E4F07615",
+          "class_name": "NativeGigsU9",
+          "line_start": 1520,
+          "catalogue_index": 25,
+          "catalogue": {
+            "Paths": [
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_in_farm",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/find_bruce",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_to_truck",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/talk_bruce",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_to_archibald",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/help_escape",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_to_area",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_to_bruce",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_out_car",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/talk_archibald",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/collect_reward",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/dont_kill_militech",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/wait_for_archie",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/take_bruce_to_meeting_point",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/escort_bruce_new",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/brefing"
+            ],
+            "Facts": [
+              "ina_05_archi_talk_ended",
+              "ina_05_arrived_by_car",
+              "ina_05_arrived_to_bruce",
+              "ina_05_bruce_left_alone",
+              "ina_05_bruce_mail",
+              "ina_05_car_arrives",
+              "ina_05_car_near_gate",
+              "ina_05_card",
+              "ina_05_cc_start",
+              "ina_05_done",
+              "ina_05_finished",
+              "ina_05_follow",
+              "ina_05_gates",
+              "ina_05_militech_killed",
+              "ina_05_objective_escort",
+              "ina_05_optional_failed",
+              "ina_05_recon_done",
+              "ina_05_start",
+              "ina_05_start_talk",
+              "ina_05_talked",
+              "ina_05_track",
+              "sts_bls_ina_05_combat_start",
+              "sts_bls_ina_05_loop"
+            ],
+            "TerminalFacts": [
+              "ina_05_finished"
+            ],
+            "LegacyTags": [
+              "PTFRB7_bls_ina_05"
+            ],
+            "LegacyOwnerFacts": []
+          },
+          "reference_coverage": {
+            "native_journal_refs_not_catalogued": [
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_to_archibald/bruce",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/help_escape/bruce",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/rescue"
+            ],
+            "native_fact_refs_not_catalogued": [],
+            "limit": "Reference absence from EntrySafe catalogue is a coverage discrepancy, not a confirmed valid save state or a repair justification; journal definitions/reachability/history implications need target evidence."
+          },
+          "limit": "Resource65002 has no journal predicates. Current EntrySafe/Request/Poll enforce catalogue journal/fact/legacy preconditions before issuing Permit; execution/races remain LIVE_ONLY."
+        },
+        {
+          "credit": "towercontinued\\native_gigs_u9\\sts_bls_ina_05_credit.questphase",
+          "maps": [
+            {
+              "resource": "towercontinued\\native_gigs_u9\\sts_bls_ina_05_map0.questphase",
+              "native_graph": "root/52",
+              "guard": {
+                "$type": "questLogicalCondition",
+                "conditions": [
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_sts_bls_ina_05_Started",
+                      "value": 1
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_sts_bls_ina_05_MapPermit",
+                      "value": 1
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_sts_bls_ina_05_Map0Entered",
+                      "value": 0
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_Support_Issued",
+                      "value": 1
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_Support_Fault",
+                      "value": 0
+                    }
+                  }
+                ],
+                "operation": "AND"
+              },
+              "journal_nodes": [
+                "16"
+              ]
+            },
+            {
+              "resource": "towercontinued\\native_gigs_u9\\sts_bls_ina_05_map1.questphase",
+              "native_graph": "root/72",
+              "guard": {
+                "$type": "questLogicalCondition",
+                "conditions": [
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_sts_bls_ina_05_Started",
+                      "value": 1
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_sts_bls_ina_05_MapPermit",
+                      "value": 1
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_sts_bls_ina_05_Map1Entered",
+                      "value": 0
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_Support_Issued",
+                      "value": 1
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_Support_Fault",
+                      "value": 0
+                    }
+                  }
+                ],
+                "operation": "AND"
+              },
+              "journal_nodes": [
+                "16"
+              ]
+            }
+          ]
+        },
+        "verification_08/graph_evidence.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Bruce rescue/leave-alone and optional pacifist outcomes; native root/2 and root/9 debrief routes remain distinct.",
+        "Entire original gameplay/openworld/scenes are pinned and referenced by the unchanged body. Exact native completion fact ina_05_finished is written at base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_05\\phases\\sts_bls_ina_05_openworld_phase.questphase:root/2/294; all native branches, read predicates, writers and incoming/outgoing sockets are inventoried.",
+        "Original native main input starts full gameplay plus openworld phases. The wrapper observes natural main output and leaves its phase owner nonterminating; no forced device/AI/quest advancement is added."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Actual stealth, vehicle/chase, combat, rescue/kill/spare and dialogue execution are engine dependent; graph MAY reachability is not branch feasibility or gameplay success."
+      ],
+      "evidence": [
+        {
+          "resource": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_05\\phases\\sts_bls_ina_05_openworld_phase.questphase",
+          "graph": "root/2",
+          "node": 294
+        },
+        {
+          "native_root": {
+            "nodes": {
+              "6": {
+                "id": "6",
+                "type": "questInputNodeDefinition",
+                "payload": {
+                  "$type": "questInputNodeDefinition",
+                  "id": 6,
+                  "socketName": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "In1"
+                  }
+                },
+                "payload_sha256": "FBE7CDE272D59C519C9B7D033C3857EF0C5CDF9048401B26CA1155388A6C409F",
+                "sockets": [
+                  {
+                    "name": "CutDestination",
+                    "type": "CutDestination"
+                  },
+                  {
+                    "name": "Out",
+                    "type": "Output"
+                  }
+                ],
+                "reads": [],
+                "writes": [],
+                "refs": [],
+                "journal_paths": [],
+                "prefabs": [],
+                "reward": false,
+                "sms": false,
+                "conditions": [],
+                "node_refs": []
+              },
+              "7": {
+                "id": "7",
+                "type": "questOutputNodeDefinition",
+                "payload": {
+                  "$type": "questOutputNodeDefinition",
+                  "id": 7,
+                  "socketName": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "Out1"
+                  },
+                  "type": "Terminating"
+                },
+                "payload_sha256": "A4BF973F1BD80139C48B6408584E4C2E66A5A40B81C10E20154783285362C3BA",
+                "sockets": [
+                  {
+                    "name": "CutDestination",
+                    "type": "CutDestination"
+                  },
+                  {
+                    "name": "In",
+                    "type": "Input"
+                  }
+                ],
+                "reads": [],
+                "writes": [],
+                "refs": [],
+                "journal_paths": [],
+                "prefabs": [],
+                "reward": false,
+                "sms": false,
+                "conditions": [],
+                "node_refs": []
+              },
+              "17": {
+                "id": "17",
+                "type": "questPhaseNodeDefinition",
+                "payload": {
+                  "$type": "questPhaseNodeDefinition",
+                  "id": 17,
+                  "phaseInstancePrefabs": [],
+                  "phaseResource": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_05\\phases\\sts_bls_ina_05_gameplay_phase.questphase"
+                    },
+                    "Flags": "Soft"
+                  },
+                  "saveLock": 0,
+                  "unfreezingTriggerNodeRef": {
+                    "$type": "NodeRef",
+                    "$storage": "uint64",
+                    "$value": "0"
+                  }
+                },
+                "payload_sha256": "307EE92AD35DF74CB61DFBEF6834AC30EBD6E80E549FF3AB780C15AB13FF3108",
+                "sockets": [
+                  {
+                    "name": "In1",
+                    "type": "Input"
+                  },
+                  {
+                    "name": "CutDestination",
+                    "type": "CutDestination"
+                  }
+                ],
+                "reads": [],
+                "writes": [],
+                "refs": [
+                  "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_05\\phases\\sts_bls_ina_05_gameplay_phase.questphase"
+                ],
+                "journal_paths": [],
+                "prefabs": [],
+                "reward": false,
+                "sms": false,
+                "conditions": [],
+                "node_refs": []
+              },
+              "18": {
+                "id": "18",
+                "type": "questPhaseNodeDefinition",
+                "payload": {
+                  "$type": "questPhaseNodeDefinition",
+                  "id": 18,
+                  "phaseInstancePrefabs": [],
+                  "phaseResource": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_05\\phases\\sts_bls_ina_05_openworld_phase.questphase"
+                    },
+                    "Flags": "Soft"
+                  },
+                  "saveLock": 0,
+                  "unfreezingTriggerNodeRef": {
+                    "$type": "NodeRef",
+                    "$storage": "uint64",
+                    "$value": "0"
+                  }
+                },
+                "payload_sha256": "1F19F26E3B851419D480A1DBEC2460B97E377FF97EE4FAB0EC4ED0AA157E5637",
+                "sockets": [
+                  {
+                    "name": "In1",
+                    "type": "Input"
+                  },
+                  {
+                    "name": "Out1",
+                    "type": "Output"
+                  },
+                  {
+                    "name": "CutDestination",
+                    "type": "CutDestination"
+                  }
+                ],
+                "reads": [],
+                "writes": [],
+                "refs": [
+                  "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_05\\phases\\sts_bls_ina_05_openworld_phase.questphase"
+                ],
+                "journal_paths": [],
+                "prefabs": [],
+                "reward": false,
+                "sms": false,
+                "conditions": [],
+                "node_refs": []
+              }
+            },
+            "edges": [
+              [
+                "18",
+                "Out1",
+                "7",
+                "In"
+              ],
+              [
+                "6",
+                "Out",
+                "17",
+                "In1"
+              ],
+              [
+                "6",
+                "Out",
+                "18",
+                "In1"
+              ]
+            ],
+            "entries": {
+              "In1": "6"
+            },
+            "reachable": [
+              "17",
+              "18",
+              "6",
+              "7"
+            ],
+            "unreachable": []
+          }
+        },
+        "verification_08/graph_evidence.json",
+        "verification_08/tests.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Exact root prefab(s) and original actor/spawner/trigger/camera/workspot NodeRefs are inventoried across sts_bls_ina_05 resources; native full body owns original prefab(s), not an invented private support layer.",
+        "Original scene bindings, native Dakota phone studio dependencies and caller inputs remain pinned. No unfiltered world prefab is promoted into a new owner."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "OPAQUE: Streamed sector placements, complete prefab contents, actor/vehicle/workspot/camera targets, localization/lipsync and effective target overrides are not fully decoded/resolved.",
+        "LIVE_ONLY: Actual car/actor loading, anim/VO/render/focus and restored studio behavior remain unobserved."
+      ],
+      "evidence": [
+        {
+          "root_prefabs": {
+            "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_05\\phases\\sts_bls_ina_05_bugfixing.questphase": [],
+            "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_05\\phases\\sts_bls_ina_05_gameplay_phase.questphase": [],
+            "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_05\\scenes\\sts_bls_ina_05_holocall_debriefs.scene": [],
+            "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_05\\sts_bls_ina_05.questphase": [
+              "#sts_bls_ina_05_streetstory"
+            ],
+            "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_05\\phases\\sts_bls_ina_05_openworld_phase.questphase": [],
+            "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_05\\scenes\\sts_bls_ina_05_archibald.scene": [],
+            "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_05\\scenes\\sts_bls_ina_05_holocall_prebrief.scene": [],
+            "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_05\\scenes\\sts_bls_ina_05_chats.scene": [],
+            "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_05\\scenes\\sts_bls_ina_05_bruce.scene": []
+          }
+        },
+        "verification_08/graph_evidence.json",
+        "verification_08/source_pins.json",
+        {
+          "shared_core": "../G09/shared_core.json"
+        }
+      ]
+    },
+    "journal": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "All original sts_bls_ina_05 journal/objective/POI/contact references and their actual incoming/outgoing sockets are inventoried. Own entry POI46.Active and original Dakota map observer(s) remain tied to this job; maps require dakota_visited>0 and original finished-fact check.",
+        "2 private map observer(s) retain exact native selected payloads and source graph lineages, with recorded foreign-POI contraction. Current MapPermit requires Root==1 and nonterminal, rather than inventing marker/state changes."
+      ],
+      "approved_differences": [
+        "The existing foreign-POI contraction removes only unrelated job map activations; it does not bypass this job’s gate, objective or completion."
+      ],
+      "remaining": [
+        {
+          "status": "CONDITIONAL_REFERENCE_COVERAGE",
+          "missing_paths": [
+            "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_to_archibald/bruce",
+            "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/help_escape/bruce",
+            "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/rescue"
+          ]
+        },
+        "CONDITIONAL: Complete journal-definition validity and catalogue omission implications remain unresolved; legacy/deprecated/path-class aliases must be distinguished from active objectives.",
+        "LIVE_ONLY: Actual displayed markers, delayed states, SMS notification order and reload behavior are not measured."
+      ],
+      "evidence": [
+        {
+          "maps": [
+            {
+              "resource": "towercontinued\\native_gigs_u9\\sts_bls_ina_05_map0.questphase",
+              "native_graph": "root/52",
+              "guard": {
+                "$type": "questLogicalCondition",
+                "conditions": [
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_sts_bls_ina_05_Started",
+                      "value": 1
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_sts_bls_ina_05_MapPermit",
+                      "value": 1
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_sts_bls_ina_05_Map0Entered",
+                      "value": 0
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_Support_Issued",
+                      "value": 1
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_Support_Fault",
+                      "value": 0
+                    }
+                  }
+                ],
+                "operation": "AND"
+              },
+              "journal_nodes": [
+                "16"
+              ]
+            },
+            {
+              "resource": "towercontinued\\native_gigs_u9\\sts_bls_ina_05_map1.questphase",
+              "native_graph": "root/72",
+              "guard": {
+                "$type": "questLogicalCondition",
+                "conditions": [
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_sts_bls_ina_05_Started",
+                      "value": 1
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_sts_bls_ina_05_MapPermit",
+                      "value": 1
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_sts_bls_ina_05_Map1Entered",
+                      "value": 0
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_Support_Issued",
+                      "value": 1
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_Support_Fault",
+                      "value": 0
+                    }
+                  }
+                ],
+                "operation": "AND"
+              },
+              "journal_nodes": [
+                "16"
+              ]
+            }
+          ]
+        },
+        {
+          "script": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\candidate_01\\package\\r6\\scripts\\PTFR_Consolidated\\PTFR_ActivityStateR3.reds",
+          "sha256": "06806391C2D9B3E66517C7D9EF8D69A87B2BF0DF52B23343E4793317E4F07615",
+          "class_name": "NativeGigsU9",
+          "line_start": 1520,
+          "catalogue_index": 25,
+          "catalogue": {
+            "Paths": [
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_in_farm",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/find_bruce",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_to_truck",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/talk_bruce",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_to_archibald",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/help_escape",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_to_area",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_to_bruce",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_out_car",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/talk_archibald",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/collect_reward",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/dont_kill_militech",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/wait_for_archie",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/take_bruce_to_meeting_point",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/escort_bruce_new",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/brefing"
+            ],
+            "Facts": [
+              "ina_05_archi_talk_ended",
+              "ina_05_arrived_by_car",
+              "ina_05_arrived_to_bruce",
+              "ina_05_bruce_left_alone",
+              "ina_05_bruce_mail",
+              "ina_05_car_arrives",
+              "ina_05_car_near_gate",
+              "ina_05_card",
+              "ina_05_cc_start",
+              "ina_05_done",
+              "ina_05_finished",
+              "ina_05_follow",
+              "ina_05_gates",
+              "ina_05_militech_killed",
+              "ina_05_objective_escort",
+              "ina_05_optional_failed",
+              "ina_05_recon_done",
+              "ina_05_start",
+              "ina_05_start_talk",
+              "ina_05_talked",
+              "ina_05_track",
+              "sts_bls_ina_05_combat_start",
+              "sts_bls_ina_05_loop"
+            ],
+            "TerminalFacts": [
+              "ina_05_finished"
+            ],
+            "LegacyTags": [
+              "PTFRB7_bls_ina_05"
+            ],
+            "LegacyOwnerFacts": []
+          },
+          "reference_coverage": {
+            "native_journal_refs_not_catalogued": [
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_to_archibald/bruce",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/help_escape/bruce",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/rescue"
+            ],
+            "native_fact_refs_not_catalogued": [],
+            "limit": "Reference absence from EntrySafe catalogue is a coverage discrepancy, not a confirmed valid save state or a repair justification; journal definitions/reachability/history implications need target evidence."
+          },
+          "limit": "Resource65002 has no journal predicates. Current EntrySafe/Request/Poll enforce catalogue journal/fact/legacy preconditions before issuing Permit; execution/races remain LIVE_ONLY."
+        },
+        "verification_08/graph_evidence.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native completion writer294 and distinct actual reward/achievement nodes are recorded below. Full branch-selected rewards, no-kill/kill/spare/rescue outcomes and native SMS fallback remain unchanged.",
+        "Exact native credit towercontinued\\native_gigs_u9\\sts_bls_ina_05_credit.questphase: guard65000 requires Started1/CreditEntered0/CreditDone0/U9 support;65001 claims→native wait10 on ina_05_finished>0→node11 adds bls_sts_counter+1 (setExactValue0)→65002CreditDone1. Each actual raw credit mutation1to2 fails native-donor equality.",
+        {
+          "native_reward_nodes": [
+            {
+              "resource": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_05\\phases\\sts_bls_ina_05_openworld_phase.questphase",
+              "graph": "root/2",
+              "node": "346",
+              "payload": {
+                "$type": "questRewardManagerNodeDefinition",
+                "id": 346,
+                "type": {
+                  "$type": "questGiveReward_NodeType",
+                  "rewards": [
+                    {
+                      "$type": "TweakDBID",
+                      "$storage": "string",
+                      "$value": "QuestRewards.sts_bls_ina_05_completion_pacifist"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "resource": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_05\\phases\\sts_bls_ina_05_openworld_phase.questphase",
+              "graph": "root/2",
+              "node": "357",
+              "payload": {
+                "$type": "questAchievementManagerNodeDefinition",
+                "id": 357,
+                "type": {
+                  "$type": "questSetProgress_NodeType",
+                  "achievement": {
+                    "$type": "TweakDBID",
+                    "$storage": "string",
+                    "$value": "Achievements.NoMansLand"
+                  },
+                  "currentValue": 0,
+                  "factName": "bls_achievement",
+                  "maxValue": 36
+                }
+              }
+            },
+            {
+              "resource": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_05\\phases\\sts_bls_ina_05_openworld_phase.questphase",
+              "graph": "root/9",
+              "node": "39",
+              "payload": {
+                "$type": "questRewardManagerNodeDefinition",
+                "id": 39,
+                "type": {
+                  "$type": "questGiveReward_NodeType",
+                  "rewards": [
+                    {
+                      "$type": "TweakDBID",
+                      "$storage": "string",
+                      "$value": "QuestRewards.sts_bls_ina_05_completion_pacifist"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "resource": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_05\\phases\\sts_bls_ina_05_openworld_phase.questphase",
+              "graph": "root/9",
+              "node": "51",
+              "payload": {
+                "$type": "questAchievementManagerNodeDefinition",
+                "id": 51,
+                "type": {
+                  "$type": "questSetProgress_NodeType",
+                  "achievement": {
+                    "$type": "TweakDBID",
+                    "$storage": "string",
+                    "$value": "Achievements.NoMansLand"
+                  },
+                  "currentValue": 0,
+                  "factName": "bls_achievement",
+                  "maxValue": 36
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "STATIC_TARGET_DATA_GAP: Exact QuestRewards.*, payout/items/economic and achievement definitions/current providers remain unverified; preserving record pointers does not prove numerical outcomes.",
+        "CONDITIONAL: The native shared Badlands district completion/achievement semantics and already-counted historical state require the original loop and saved receipts; no synthetic counter adjustment is proposed.",
+        "LIVE_ONLY: Exactly-once reward/credit, token release and post-gig/native actor cleanup through interruptions/reloads require transition fixtures."
+      ],
+      "evidence": [
+        {
+          "depot": "towercontinued\\native_gigs_u9\\sts_bls_ina_05_credit.questphase",
+          "guard": {
+            "$type": "questLogicalCondition",
+            "conditions": [
+              {
+                "$type": "questFactsDBCondition",
+                "type": {
+                  "$type": "questVarComparison_ConditionType",
+                  "comparisonType": "Equal",
+                  "factName": "PTFRU9_sts_bls_ina_05_Started",
+                  "value": 1
+                }
+              },
+              {
+                "$type": "questFactsDBCondition",
+                "type": {
+                  "$type": "questVarComparison_ConditionType",
+                  "comparisonType": "Equal",
+                  "factName": "PTFRU9_sts_bls_ina_05_CreditEntered",
+                  "value": 0
+                }
+              },
+              {
+                "$type": "questFactsDBCondition",
+                "type": {
+                  "$type": "questVarComparison_ConditionType",
+                  "comparisonType": "Equal",
+                  "factName": "PTFRU9_sts_bls_ina_05_CreditDone",
+                  "value": 0
+                }
+              },
+              {
+                "$type": "questFactsDBCondition",
+                "type": {
+                  "$type": "questVarComparison_ConditionType",
+                  "comparisonType": "Equal",
+                  "factName": "PTFRU9_Support_Issued",
+                  "value": 1
+                }
+              },
+              {
+                "$type": "questFactsDBCondition",
+                "type": {
+                  "$type": "questVarComparison_ConditionType",
+                  "comparisonType": "Equal",
+                  "factName": "PTFRU9_Support_Fault",
+                  "value": 0
+                }
+              }
+            ],
+            "operation": "AND"
+          },
+          "native_recipe": {
+            "graph": "root/2/2",
+            "depot": "towercontinued\\native_gigs_u9\\sts_bls_ina_05_credit.questphase",
+            "ids": [
+              0,
+              10,
+              11
+            ],
+            "edges": [
+              [
+                65001,
+                "Out",
+                10,
+                "In"
+              ],
+              [
+                10,
+                "Out",
+                11,
+                "In"
+              ],
+              [
+                0,
+                "Out",
+                65000,
+                "In"
+              ],
+              [
+                65000,
+                "Out",
+                65001,
+                "In"
+              ],
+              [
+                11,
+                "Out",
+                65002,
+                "In"
+              ]
+            ],
+            "id": "sts_bls_ina_05",
+            "raw": "research/gig_restoration/lifecycle_sources/raw/base/open_world/street_stories/street_stories_new_fixer_loop.questphase",
+            "kind": "credit"
+          }
+        },
+        "verification_08/graph_evidence.json",
+        "verification_08/tests.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Saved native/current resource, node and private receipt identities remain unchanged, including towercontinued\\native_gigs_u9\\sts_bls_ina_05_credit.questphase. Entered claims precede parent/credit/map use; raw mutations verify the actual credit implementation against independent native donor fields.",
+        "Effective current Request refuses an existing request, terminal job, unsafe journal/fact state and used Started/OwnerFinished/CreditDone. Poll continuously rechecks EntrySafe/OldUnused before issuing parent Permit; this is distinct from the resource’s narrower fact gate."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        {
+          "status": "CONDITIONAL_CATALOGUE_GAP",
+          "details": {
+            "native_journal_refs_not_catalogued": [
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_to_archibald/bruce",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/help_escape/bruce",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/rescue"
+            ],
+            "native_fact_refs_not_catalogued": [],
+            "limit": "Reference absence from EntrySafe catalogue is a coverage discrepancy, not a confirmed valid save state or a repair justification; journal definitions/reachability/history implications need target evidence."
+          }
+        },
+        "CONDITIONAL: Guard checks are source proofs for catalogued state, not proof of every possible unlisted/deprecated native state or saved child-owner liveness.",
+        "LIVE_ONLY: Save/reload between claim, native finish and payout, old issued orphan recovery and future-version migrations need exact saved transition evidence."
+      ],
+      "evidence": [
+        {
+          "script": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\candidate_01\\package\\r6\\scripts\\PTFR_Consolidated\\PTFR_ActivityStateR3.reds",
+          "sha256": "06806391C2D9B3E66517C7D9EF8D69A87B2BF0DF52B23343E4793317E4F07615",
+          "class_name": "NativeGigsU9",
+          "line_start": 1520,
+          "catalogue_index": 25,
+          "catalogue": {
+            "Paths": [
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_in_farm",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/find_bruce",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_to_truck",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/talk_bruce",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_to_archibald",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/help_escape",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_to_area",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_to_bruce",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_out_car",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/talk_archibald",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/collect_reward",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/dont_kill_militech",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/wait_for_archie",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/take_bruce_to_meeting_point",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/escort_bruce_new",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/brefing"
+            ],
+            "Facts": [
+              "ina_05_archi_talk_ended",
+              "ina_05_arrived_by_car",
+              "ina_05_arrived_to_bruce",
+              "ina_05_bruce_left_alone",
+              "ina_05_bruce_mail",
+              "ina_05_car_arrives",
+              "ina_05_car_near_gate",
+              "ina_05_card",
+              "ina_05_cc_start",
+              "ina_05_done",
+              "ina_05_finished",
+              "ina_05_follow",
+              "ina_05_gates",
+              "ina_05_militech_killed",
+              "ina_05_objective_escort",
+              "ina_05_optional_failed",
+              "ina_05_recon_done",
+              "ina_05_start",
+              "ina_05_start_talk",
+              "ina_05_talked",
+              "ina_05_track",
+              "sts_bls_ina_05_combat_start",
+              "sts_bls_ina_05_loop"
+            ],
+            "TerminalFacts": [
+              "ina_05_finished"
+            ],
+            "LegacyTags": [
+              "PTFRB7_bls_ina_05"
+            ],
+            "LegacyOwnerFacts": []
+          },
+          "reference_coverage": {
+            "native_journal_refs_not_catalogued": [
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_to_archibald/bruce",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/help_escape/bruce",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/rescue"
+            ],
+            "native_fact_refs_not_catalogued": [],
+            "limit": "Reference absence from EntrySafe catalogue is a coverage discrepancy, not a confirmed valid save state or a repair justification; journal definitions/reachability/history implications need target evidence."
+          },
+          "limit": "Resource65002 has no journal predicates. Current EntrySafe/Request/Poll enforce catalogue journal/fact/legacy preconditions before issuing Permit; execution/races remain LIVE_ONLY."
+        },
+        {
+          "resource": "towercontinued\\native_gigs_u9\\sts_bls_ina_05_entry.questphase",
+          "guard": 65002
+        },
+        {
+          "depot": "towercontinued\\native_gigs_u9\\sts_bls_ina_05_credit.questphase",
+          "guard": {
+            "$type": "questLogicalCondition",
+            "conditions": [
+              {
+                "$type": "questFactsDBCondition",
+                "type": {
+                  "$type": "questVarComparison_ConditionType",
+                  "comparisonType": "Equal",
+                  "factName": "PTFRU9_sts_bls_ina_05_Started",
+                  "value": 1
+                }
+              },
+              {
+                "$type": "questFactsDBCondition",
+                "type": {
+                  "$type": "questVarComparison_ConditionType",
+                  "comparisonType": "Equal",
+                  "factName": "PTFRU9_sts_bls_ina_05_CreditEntered",
+                  "value": 0
+                }
+              },
+              {
+                "$type": "questFactsDBCondition",
+                "type": {
+                  "$type": "questVarComparison_ConditionType",
+                  "comparisonType": "Equal",
+                  "factName": "PTFRU9_sts_bls_ina_05_CreditDone",
+                  "value": 0
+                }
+              },
+              {
+                "$type": "questFactsDBCondition",
+                "type": {
+                  "$type": "questVarComparison_ConditionType",
+                  "comparisonType": "Equal",
+                  "factName": "PTFRU9_Support_Issued",
+                  "value": 1
+                }
+              },
+              {
+                "$type": "questFactsDBCondition",
+                "type": {
+                  "$type": "questVarComparison_ConditionType",
+                  "comparisonType": "Equal",
+                  "factName": "PTFRU9_Support_Fault",
+                  "value": 0
+                }
+              }
+            ],
+            "operation": "AND"
+          },
+          "native_recipe": {
+            "graph": "root/2/2",
+            "depot": "towercontinued\\native_gigs_u9\\sts_bls_ina_05_credit.questphase",
+            "ids": [
+              0,
+              10,
+              11
+            ],
+            "edges": [
+              [
+                65001,
+                "Out",
+                10,
+                "In"
+              ],
+              [
+                10,
+                "Out",
+                11,
+                "In"
+              ],
+              [
+                0,
+                "Out",
+                65000,
+                "In"
+              ],
+              [
+                65000,
+                "Out",
+                65001,
+                "In"
+              ],
+              [
+                11,
+                "Out",
+                65002,
+                "In"
+              ]
+            ],
+            "id": "sts_bls_ina_05",
+            "raw": "research/gig_restoration/lifecycle_sources/raw/base/open_world/street_stories/street_stories_new_fixer_loop.questphase",
+            "kind": "credit"
+          }
+        },
+        "verification_08/graph_evidence.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Frozen Dakota/U9 core validates the actual queue, native initializer50, real acknowledgements41/42, connected shared cleanup and PH3 studio ownership under current source hashes. Per-case native gate/body/map/credit donor ancestry and all own sources are independently checked here.",
+        "Current consolidated package script and XL registration source remain source-epoch00; the full QR3 package/compile/readback/collision proofs are reused without rebuilding or redeploying. Case-specific facts, rewards, native branch and main input remain separate evidence."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "SupportIssued is written before parent initializer is entered, not a scheduler proof each listener already running",
+        "Exact native saved owner retirement, call arbitration and interrupts remain LIVE_ONLY",
+        "Studio world placement, TDB reward definitions and full target closure remain OPAQUE/UNKNOWN",
+        "Credit increments bls_sts_counter on original outcome predicates, including original failure predicates where present; it is not an extra reward grant",
+        "Three original slice donors absent from old model inventory are reopened with U9 manifest exact JSON hashes and available raw pins; no new extraction or original-file changes",
+        "CONDITIONAL: Original district owner/loop retirement, catalogue gap implications and authoritative TweakDB/world providers remain unresolved; no direct reference alone proves an executing shared owner."
+      ],
+      "evidence": [
+        {
+          "shared_core": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G09\\shared_core.json",
+          "sha256": "BDD1BB748A68160491FE98715951DAD7C79D8CB8233333255C250D2FF060A857"
+        },
+        {
+          "script": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\candidate_01\\package\\r6\\scripts\\PTFR_Consolidated\\PTFR_ActivityStateR3.reds",
+          "sha256": "06806391C2D9B3E66517C7D9EF8D69A87B2BF0DF52B23343E4793317E4F07615",
+          "class_name": "NativeGigsU9",
+          "line_start": 1520,
+          "catalogue_index": 25,
+          "catalogue": {
+            "Paths": [
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_in_farm",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/find_bruce",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_to_truck",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/talk_bruce",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_to_archibald",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/help_escape",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_to_area",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_to_bruce",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_out_car",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/talk_archibald",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/collect_reward",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/dont_kill_militech",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/wait_for_archie",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/take_bruce_to_meeting_point",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/escort_bruce_new",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/brefing"
+            ],
+            "Facts": [
+              "ina_05_archi_talk_ended",
+              "ina_05_arrived_by_car",
+              "ina_05_arrived_to_bruce",
+              "ina_05_bruce_left_alone",
+              "ina_05_bruce_mail",
+              "ina_05_car_arrives",
+              "ina_05_car_near_gate",
+              "ina_05_card",
+              "ina_05_cc_start",
+              "ina_05_done",
+              "ina_05_finished",
+              "ina_05_follow",
+              "ina_05_gates",
+              "ina_05_militech_killed",
+              "ina_05_objective_escort",
+              "ina_05_optional_failed",
+              "ina_05_recon_done",
+              "ina_05_start",
+              "ina_05_start_talk",
+              "ina_05_talked",
+              "ina_05_track",
+              "sts_bls_ina_05_combat_start",
+              "sts_bls_ina_05_loop"
+            ],
+            "TerminalFacts": [
+              "ina_05_finished"
+            ],
+            "LegacyTags": [
+              "PTFRB7_bls_ina_05"
+            ],
+            "LegacyOwnerFacts": []
+          },
+          "reference_coverage": {
+            "native_journal_refs_not_catalogued": [
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_to_archibald/bruce",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/help_escape/bruce",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/rescue"
+            ],
+            "native_fact_refs_not_catalogued": [],
+            "limit": "Reference absence from EntrySafe catalogue is a coverage discrepancy, not a confirmed valid save state or a repair justification; journal definitions/reachability/history implications need target evidence."
+          },
+          "limit": "Resource65002 has no journal predicates. Current EntrySafe/Request/Poll enforce catalogue journal/fact/legacy preconditions before issuing Permit; execution/races remain LIVE_ONLY."
+        },
+        "verification_08/source_pins.json",
+        "verification_08/graph_evidence.json"
+      ]
+    }
+  },
+  "source_resources": "verification_08/source_pins.json",
+  "test_results": "verification_08/tests.json"
+}

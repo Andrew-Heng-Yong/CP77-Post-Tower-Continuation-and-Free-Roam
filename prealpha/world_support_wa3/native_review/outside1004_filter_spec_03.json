@@ -1,0 +1,590 @@
+{
+  "id": 1004,
+  "native_prefab": "$/03_night_city/#c_heywood/glen/gle_ma_prefab6YIXIPY/ma_hey_gle_05_prefabMWDGIAA/ma_hey_gle_05_openworld_prefab4ABZFDY",
+  "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_fa6df5356603d67f.streamingsector",
+  "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\outside_prefab_native_02\\basegame_3_nightcity.archive\\quest_fa6df5356603d67f.streamingsector",
+  "sector_sha256": "88B014D1BCB52C7099061D492D396EC727C04A51EC11131D0C7CB0A2D399C259",
+  "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\outside_prefab_decoded_01\\quest_fa6df5356603d67f.json",
+  "drop_nodes": [
+    63,
+    64,
+    65
+  ],
+  "drop_types": [
+    "worldInterestingConversationsAreaNode",
+    "worldInterestingConversationsAreaNode",
+    "worldAudioAttractAreaNode"
+  ],
+  "drop_placements": [
+    63,
+    64,
+    65
+  ],
+  "preserve_ai_spots": 61,
+  "conversation_dependency": {
+    "copy": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\lore_native_01\\basegame_3_nightcity.archive\\la_street_violence_02.scene",
+    "sha256": "7A31E61EB0100AF3F5AA77459BD7C7C0771C3B7C935F6BABF13D89C1FDF616DD",
+    "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_3_nightcity.archive",
+    "depot": "base\\open_world\\scenes\\lore_animations\\la_street_violence_02.scene"
+  },
+  "unsafe_operations": [
+    {
+      "$type": "questSetVar_NodeType",
+      "factName": "la_street_violence_02",
+      "setExactValue": 1,
+      "value": 1
+    },
+    {
+      "$type": "questSetVar_NodeType",
+      "factName": "la_street_violence_02_pause",
+      "setExactValue": 1,
+      "value": 1
+    },
+    {
+      "$type": "questCharacterManagerParameters_SetStatusEffect",
+      "isPlayer": 0,
+      "isPlayerStatusEffectSource": 1,
+      "puppetRef": {
+        "$type": "gameEntityReference",
+        "dynamicEntityUniqueName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "None"
+        },
+        "names": [],
+        "reference": {
+          "$type": "NodeRef",
+          "$storage": "uint64",
+          "$value": "0"
+        },
+        "sceneActorContextName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "~/../la_street_violence_02_gang"
+        },
+        "slotName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "None"
+        },
+        "type": "SceneActorContextName"
+      },
+      "recordSelector": {
+        "HandleId": "39",
+        "Data": {
+          "$type": "questRecordSelector",
+          "characterRecordID": {
+            "$type": "TweakDBID",
+            "$storage": "uint64",
+            "$value": "0"
+          },
+          "deviceRecordID": {
+            "$type": "TweakDBID",
+            "$storage": "uint64",
+            "$value": "0"
+          },
+          "isCharacter": 1,
+          "isDevice": 0,
+          "isItem": 0,
+          "itemRecordID": {
+            "$type": "TweakDBID",
+            "$storage": "uint64",
+            "$value": "0"
+          }
+        }
+      },
+      "set": 1,
+      "statusEffectID": {
+        "$type": "TweakDBID",
+        "$storage": "string",
+        "$value": "BaseStatusEffect.LoreAnim"
+      },
+      "statusEffectSourceObject": {
+        "$type": "gameEntityReference",
+        "dynamicEntityUniqueName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "None"
+        },
+        "names": [],
+        "reference": {
+          "$type": "NodeRef",
+          "$storage": "uint64",
+          "$value": "0"
+        },
+        "sceneActorContextName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "~/../la_street_violence_02_civilian"
+        },
+        "slotName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "None"
+        },
+        "type": "SceneActorContextName"
+      }
+    },
+    {
+      "$type": "questCharacterManagerParameters_SetStatusEffect",
+      "isPlayer": 0,
+      "isPlayerStatusEffectSource": 1,
+      "puppetRef": {
+        "$type": "gameEntityReference",
+        "dynamicEntityUniqueName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "None"
+        },
+        "names": [],
+        "reference": {
+          "$type": "NodeRef",
+          "$storage": "uint64",
+          "$value": "0"
+        },
+        "sceneActorContextName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "~/../la_street_violence_02_gang"
+        },
+        "slotName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "None"
+        },
+        "type": "SceneActorContextName"
+      },
+      "recordSelector": {
+        "HandleId": "153",
+        "Data": {
+          "$type": "questRecordSelector",
+          "characterRecordID": {
+            "$type": "TweakDBID",
+            "$storage": "uint64",
+            "$value": "0"
+          },
+          "deviceRecordID": {
+            "$type": "TweakDBID",
+            "$storage": "uint64",
+            "$value": "0"
+          },
+          "isCharacter": 1,
+          "isDevice": 0,
+          "isItem": 0,
+          "itemRecordID": {
+            "$type": "TweakDBID",
+            "$storage": "uint64",
+            "$value": "0"
+          }
+        }
+      },
+      "set": 0,
+      "statusEffectID": {
+        "$type": "TweakDBID",
+        "$storage": "string",
+        "$value": "BaseStatusEffect.LoreAnim"
+      },
+      "statusEffectSourceObject": {
+        "$type": "gameEntityReference",
+        "dynamicEntityUniqueName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "None"
+        },
+        "names": [],
+        "reference": {
+          "$type": "NodeRef",
+          "$storage": "uint64",
+          "$value": "0"
+        },
+        "sceneActorContextName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "None"
+        },
+        "slotName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "None"
+        },
+        "type": "EntityRef"
+      }
+    },
+    {
+      "$type": "questSetVar_NodeType",
+      "factName": "la_street_violence_02",
+      "setExactValue": 1,
+      "value": 0
+    },
+    {
+      "$type": "questCharacterManagerCombat_Kill",
+      "bodyPart": "0",
+      "dismembermentStrenght": 8,
+      "doDismemberment": 0,
+      "isPlayer": 0,
+      "noAnimation": 0,
+      "noRagdoll": 0,
+      "puppetRef": {
+        "$type": "gameEntityReference",
+        "dynamicEntityUniqueName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "None"
+        },
+        "names": [],
+        "reference": {
+          "$type": "NodeRef",
+          "$storage": "uint64",
+          "$value": "0"
+        },
+        "sceneActorContextName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "~/../la_street_violence_02_civilian"
+        },
+        "slotName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "None"
+        },
+        "type": "SceneActorContextName"
+      },
+      "skipDefeatedState": 1,
+      "woundType": "COARSE"
+    },
+    {
+      "$type": "questSetVar_NodeType",
+      "factName": "la_street_violence_02_victim_on_ground",
+      "setExactValue": 1,
+      "value": 1
+    },
+    {
+      "$type": "questSetVar_NodeType",
+      "factName": "la_street_violence_02_victim_on_ground",
+      "setExactValue": 1,
+      "value": 0
+    },
+    {
+      "$type": "questSetVar_NodeType",
+      "factName": "la_street_violence_02_victim_on_ground",
+      "setExactValue": 1,
+      "value": 1
+    },
+    {
+      "$type": "questSetVar_NodeType",
+      "factName": "la_street_violence_02_victim_handled",
+      "setExactValue": 1,
+      "value": 1
+    },
+    {
+      "$type": "questSetVar_NodeType",
+      "factName": "la_street_violence_02_victim_handled",
+      "setExactValue": 1,
+      "value": 0
+    },
+    {
+      "$type": "questSetVar_NodeType",
+      "factName": "la_street_violence_02_victim_handled",
+      "setExactValue": 1,
+      "value": 1
+    },
+    {
+      "$type": "questSetVar_NodeType",
+      "factName": "ma_scene_thanks",
+      "setExactValue": 1,
+      "value": 1
+    },
+    {
+      "$type": "questCharacterManagerParameters_SetStatusEffect",
+      "isPlayer": 0,
+      "isPlayerStatusEffectSource": 1,
+      "puppetRef": {
+        "$type": "gameEntityReference",
+        "dynamicEntityUniqueName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "None"
+        },
+        "names": [],
+        "reference": {
+          "$type": "NodeRef",
+          "$storage": "uint64",
+          "$value": "0"
+        },
+        "sceneActorContextName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "~/../la_street_violence_02_civilian"
+        },
+        "slotName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "None"
+        },
+        "type": "SceneActorContextName"
+      },
+      "recordSelector": {
+        "HandleId": "558",
+        "Data": {
+          "$type": "questRecordSelector",
+          "characterRecordID": {
+            "$type": "TweakDBID",
+            "$storage": "uint64",
+            "$value": "0"
+          },
+          "deviceRecordID": {
+            "$type": "TweakDBID",
+            "$storage": "uint64",
+            "$value": "0"
+          },
+          "isCharacter": 1,
+          "isDevice": 0,
+          "isItem": 0,
+          "itemRecordID": {
+            "$type": "TweakDBID",
+            "$storage": "uint64",
+            "$value": "0"
+          }
+        }
+      },
+      "set": 1,
+      "statusEffectID": {
+        "$type": "TweakDBID",
+        "$storage": "string",
+        "$value": "BaseStatusEffect.LoreVictimSaved"
+      },
+      "statusEffectSourceObject": {
+        "$type": "gameEntityReference",
+        "dynamicEntityUniqueName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "None"
+        },
+        "names": [],
+        "reference": {
+          "$type": "NodeRef",
+          "$storage": "uint64",
+          "$value": "0"
+        },
+        "sceneActorContextName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "~/../la_street_violence_02_gang"
+        },
+        "slotName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "None"
+        },
+        "type": "SceneActorContextName"
+      }
+    },
+    {
+      "$type": "questSetVar_NodeType",
+      "factName": "la_street_violence_02_victim_handled",
+      "setExactValue": 1,
+      "value": 1
+    },
+    {
+      "$type": "questSetVar_NodeType",
+      "factName": "de_enemies_defeated",
+      "setExactValue": 1,
+      "value": 0
+    },
+    {
+      "$type": "questSetVar_NodeType",
+      "factName": "street_violence_02_thx",
+      "setExactValue": 1,
+      "value": 0
+    },
+    {
+      "$type": "questSetVar_NodeType",
+      "factName": "la_street_violence_02_victim_on_ground",
+      "setExactValue": 1,
+      "value": 0
+    },
+    {
+      "$type": "questSetVar_NodeType",
+      "factName": "la_street_violence_02_victim_handled",
+      "setExactValue": 1,
+      "value": 0
+    },
+    {
+      "$type": "questSetVar_NodeType",
+      "factName": "de_enemies_defeated",
+      "setExactValue": 1,
+      "value": 0
+    },
+    {
+      "$type": "questSetVar_NodeType",
+      "factName": "la_street_violence_02_pause",
+      "setExactValue": 1,
+      "value": 0
+    }
+  ],
+  "reason": "Remove complete linkedoneoffscene support63thanks receiptconsumer,64loreanimation/nativekill,65audioattractor. Preserve61AIspots, genericValentinos62 andpairedambient73.",
+  "negative_control": "Unfiltered source contains17fact writes and one scriptedkill via scene; must fail pureambient classification.",
+  "dependent_audio_node": {
+    "index": 65,
+    "interestingConversationsNodeRef": "~/../la_street_violence_02_ic_animation",
+    "metadataName": "la_street_violence_02_tyger_claws"
+  },
+  "thanks_scenes": [
+    {
+      "sha256": "7B404C102F9DCAF896404041DC343BD6D28909A00AEA41B94BFCA33925ED824D",
+      "copy": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\thanks_scenes_native_01\\basegame_3_nightcity.archive\\base\\open_world\\scenes\\ma_scenes\\ma_scene_civ_thanks_08.scene",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_3_nightcity.archive",
+      "depot": "base\\open_world\\scenes\\ma_scenes\\ma_scene_civ_thanks_08.scene"
+    },
+    {
+      "sha256": "4EEE74CF32D58EB6B1D2E57A9FBFDE1B1276279D834A79947300D2A4AF739EE5",
+      "copy": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\thanks_scenes_native_01\\basegame_3_nightcity.archive\\base\\open_world\\scenes\\ma_scenes\\ma_scene_civ_thanks_07.scene",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_3_nightcity.archive",
+      "depot": "base\\open_world\\scenes\\ma_scenes\\ma_scene_civ_thanks_07.scene"
+    },
+    {
+      "sha256": "55958AD42F8EBF8DFD92596C507C3DA2DC0FF3591D32E260145FA08F8DF77F5A",
+      "copy": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\thanks_scenes_native_01\\basegame_3_nightcity.archive\\base\\open_world\\scenes\\ma_scenes\\ma_scene_cop_thanks_01.scene",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_3_nightcity.archive",
+      "depot": "base\\open_world\\scenes\\ma_scenes\\ma_scene_cop_thanks_01.scene"
+    },
+    {
+      "sha256": "734384F64455C8C5F383AC1D4E9E353DF978427C1B407FF63DEC4BF78014725F",
+      "copy": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\thanks_scenes_native_01\\basegame_3_nightcity.archive\\base\\open_world\\scenes\\ma_scenes\\ma_scene_civ_thanks_01.scene",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_3_nightcity.archive",
+      "depot": "base\\open_world\\scenes\\ma_scenes\\ma_scene_civ_thanks_01.scene"
+    },
+    {
+      "sha256": "BF7FC995D5BE716218906E32DE78102AAB0522F3D00FE57E96ABFBE75D3AB988",
+      "copy": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\thanks_scenes_native_01\\basegame_3_nightcity.archive\\base\\open_world\\scenes\\ma_scenes\\ma_scene_civ_thanks_10.scene",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_3_nightcity.archive",
+      "depot": "base\\open_world\\scenes\\ma_scenes\\ma_scene_civ_thanks_10.scene"
+    },
+    {
+      "sha256": "EBA20E1872C690AD85BFED2D61B912E4DE5D2B948EE3A5DEFD17AF0A708BFC8A",
+      "copy": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\thanks_scenes_native_01\\basegame_3_nightcity.archive\\base\\open_world\\scenes\\ma_scenes\\ma_scene_kid_thanks_02.scene",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_3_nightcity.archive",
+      "depot": "base\\open_world\\scenes\\ma_scenes\\ma_scene_kid_thanks_02.scene"
+    },
+    {
+      "sha256": "27BC22709103FC4C9E97CAA761AF7F68F82D94DC4774B026CE8B82721F667B11",
+      "copy": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\thanks_scenes_native_01\\basegame_3_nightcity.archive\\base\\open_world\\scenes\\ma_scenes\\ma_scene_civ_thanks_02.scene",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_3_nightcity.archive",
+      "depot": "base\\open_world\\scenes\\ma_scenes\\ma_scene_civ_thanks_02.scene"
+    },
+    {
+      "sha256": "5C3DFE99AC55484975529CC4A26AB143F0AF9BA89BA1F5FF93D5C6E82DFBFB7C",
+      "copy": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\thanks_scenes_native_01\\basegame_3_nightcity.archive\\base\\open_world\\scenes\\ma_scenes\\ma_scene_civ_thanks_11.scene",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_3_nightcity.archive",
+      "depot": "base\\open_world\\scenes\\ma_scenes\\ma_scene_civ_thanks_11.scene"
+    },
+    {
+      "sha256": "BDB6EF8C69A3F52111A83C97223AF89EA694A3F529C8F4F0E698390A20AADF8F",
+      "copy": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\thanks_scenes_native_01\\basegame_3_nightcity.archive\\base\\open_world\\scenes\\ma_scenes\\ma_scene_civ_thanks_05.scene",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_3_nightcity.archive",
+      "depot": "base\\open_world\\scenes\\ma_scenes\\ma_scene_civ_thanks_05.scene"
+    },
+    {
+      "sha256": "02668915CD9EAFD2C715887E7D35E06F1A85394ED752EBBDA5389801AA3688CB",
+      "copy": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\thanks_scenes_native_01\\basegame_3_nightcity.archive\\base\\open_world\\scenes\\ma_scenes\\ma_scene_kid_thanks_01.scene",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_3_nightcity.archive",
+      "depot": "base\\open_world\\scenes\\ma_scenes\\ma_scene_kid_thanks_01.scene"
+    },
+    {
+      "sha256": "8554D1F1CFDBD7B406085264DC4D81CC0D3D33E757AFE97B4C6900BFD9873EB5",
+      "copy": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\thanks_scenes_native_01\\basegame_3_nightcity.archive\\base\\open_world\\scenes\\ma_scenes\\ma_scene_civ_thanks_12.scene",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_3_nightcity.archive",
+      "depot": "base\\open_world\\scenes\\ma_scenes\\ma_scene_civ_thanks_12.scene"
+    },
+    {
+      "sha256": "889DE72036780D1E005D339312C1ABC8FF15DAFFCCC95D4C4C46F2C554BA5987",
+      "copy": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\thanks_scenes_native_01\\basegame_3_nightcity.archive\\base\\open_world\\scenes\\ma_scenes\\ma_scene_cop_thanks_02.scene",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_3_nightcity.archive",
+      "depot": "base\\open_world\\scenes\\ma_scenes\\ma_scene_cop_thanks_02.scene"
+    },
+    {
+      "sha256": "2DBC20B1B0C1A70C5554F4E5B8000AED4FB362B2EBF9DFCD0BA3938BC50B8BFC",
+      "copy": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\thanks_scenes_native_01\\basegame_3_nightcity.archive\\base\\open_world\\scenes\\ma_scenes\\ma_scene_cop_thanks_06.scene",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_3_nightcity.archive",
+      "depot": "base\\open_world\\scenes\\ma_scenes\\ma_scene_cop_thanks_06.scene"
+    },
+    {
+      "sha256": "AA5FE08971FCED2491A3B587C20D07C404A0896FB4E90612606DE75FD9E0256D",
+      "copy": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\thanks_scenes_native_01\\basegame_3_nightcity.archive\\base\\open_world\\scenes\\ma_scenes\\ma_scene_civ_thanks_06.scene",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_3_nightcity.archive",
+      "depot": "base\\open_world\\scenes\\ma_scenes\\ma_scene_civ_thanks_06.scene"
+    },
+    {
+      "sha256": "3DFEA6F62AF65DEC2BD3EE1408924EB7B1D38D921588A7561E0DA033382635FF",
+      "copy": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\thanks_scenes_native_01\\basegame_3_nightcity.archive\\base\\open_world\\scenes\\ma_scenes\\ma_scene_cop_thanks_04.scene",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_3_nightcity.archive",
+      "depot": "base\\open_world\\scenes\\ma_scenes\\ma_scene_cop_thanks_04.scene"
+    },
+    {
+      "sha256": "DA4475DF26C49B7E3F0EDA6F77570D63B5DF9493B8E74F23E326BE23DFCBD5DF",
+      "copy": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\thanks_scenes_native_01\\basegame_3_nightcity.archive\\base\\open_world\\scenes\\ma_scenes\\ma_scene_cop_thanks_07.scene",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_3_nightcity.archive",
+      "depot": "base\\open_world\\scenes\\ma_scenes\\ma_scene_cop_thanks_07.scene"
+    },
+    {
+      "sha256": "CE2B18B86FB5FEACC711A2E89C229A09C4E9AAB95F46943DE3F3D30A1A21FAFF",
+      "copy": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\thanks_scenes_native_01\\basegame_3_nightcity.archive\\base\\open_world\\scenes\\ma_scenes\\ma_scene_civ_thanks_09.scene",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_3_nightcity.archive",
+      "depot": "base\\open_world\\scenes\\ma_scenes\\ma_scene_civ_thanks_09.scene"
+    },
+    {
+      "sha256": "F6D0644964A70E959D9FDDF9980D20376DE3914FB2F679690083F3A92D9BE805",
+      "copy": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\thanks_scenes_native_01\\basegame_3_nightcity.archive\\base\\open_world\\scenes\\ma_scenes\\ma_scene_kid_thanks_06.scene",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_3_nightcity.archive",
+      "depot": "base\\open_world\\scenes\\ma_scenes\\ma_scene_kid_thanks_06.scene"
+    },
+    {
+      "sha256": "47DEE616C6BA3F9F9268977813E275C2590379D74D0E5EBF22DC0AC1E685CF30",
+      "copy": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\thanks_scenes_native_01\\basegame_3_nightcity.archive\\base\\open_world\\scenes\\ma_scenes\\ma_scene_kid_thanks_03.scene",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_3_nightcity.archive",
+      "depot": "base\\open_world\\scenes\\ma_scenes\\ma_scene_kid_thanks_03.scene"
+    },
+    {
+      "sha256": "AF18656D657315B843004DC215C1511549D6C87E13C7819D5F163A4EE8E3D732",
+      "copy": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\thanks_scenes_native_01\\basegame_3_nightcity.archive\\base\\open_world\\scenes\\ma_scenes\\ma_scene_civ_thanks_04.scene",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_3_nightcity.archive",
+      "depot": "base\\open_world\\scenes\\ma_scenes\\ma_scene_civ_thanks_04.scene"
+    },
+    {
+      "sha256": "8BD5307B8A304713080D458F2B9DEEEFA07B491425F1BB87C29407DAAC85E197",
+      "copy": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\thanks_scenes_native_01\\basegame_3_nightcity.archive\\base\\open_world\\scenes\\ma_scenes\\ma_scene_cop_thanks_05.scene",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_3_nightcity.archive",
+      "depot": "base\\open_world\\scenes\\ma_scenes\\ma_scene_cop_thanks_05.scene"
+    },
+    {
+      "sha256": "3FC3114636D5E83A4757B33701580A7B9F6EE0C0CD8038EA60AAD73B1725C58D",
+      "copy": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\thanks_scenes_native_01\\basegame_3_nightcity.archive\\base\\open_world\\scenes\\ma_scenes\\ma_scene_kid_thanks_04.scene",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_3_nightcity.archive",
+      "depot": "base\\open_world\\scenes\\ma_scenes\\ma_scene_kid_thanks_04.scene"
+    },
+    {
+      "sha256": "7D9DEADFEA99CFB015E4CF8FE631E4A6F8EBA3682A4E8B58F26BAF042D38C21D",
+      "copy": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\thanks_scenes_native_01\\basegame_3_nightcity.archive\\base\\open_world\\scenes\\ma_scenes\\ma_scene_civ_thanks_03.scene",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_3_nightcity.archive",
+      "depot": "base\\open_world\\scenes\\ma_scenes\\ma_scene_civ_thanks_03.scene"
+    },
+    {
+      "sha256": "E6D7F02BC4AA057452ACB1E76AE9CF5322B4C4EFA4FEE4966C9FB0CB946E9079",
+      "copy": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\thanks_scenes_native_01\\basegame_3_nightcity.archive\\base\\open_world\\scenes\\ma_scenes\\ma_scene_cop_thanks_08.scene",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_3_nightcity.archive",
+      "depot": "base\\open_world\\scenes\\ma_scenes\\ma_scene_cop_thanks_08.scene"
+    },
+    {
+      "sha256": "B45A41BE2E45CDD48B5883274251594421E7DEA7A70841853F1EC6F6A5EFB325",
+      "copy": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\thanks_scenes_native_01\\basegame_3_nightcity.archive\\base\\open_world\\scenes\\ma_scenes\\ma_scene_cop_thanks_03.scene",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_3_nightcity.archive",
+      "depot": "base\\open_world\\scenes\\ma_scenes\\ma_scene_cop_thanks_03.scene"
+    },
+    {
+      "sha256": "56E02A297EF1294E3C0883A070B86FD1307AA9331336A32FCB3D20D009BEE06B",
+      "copy": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\thanks_scenes_native_01\\basegame_3_nightcity.archive\\base\\open_world\\scenes\\ma_scenes\\ma_scene_kid_thanks_05.scene",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_3_nightcity.archive",
+      "depot": "base\\open_world\\scenes\\ma_scenes\\ma_scene_kid_thanks_05.scene"
+    }
+  ]
+}

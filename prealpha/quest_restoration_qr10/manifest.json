@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "version": "QR10D01",
+  "status": "PREPARED_NOT_INSTALLED",
+  "files": [
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_QR9_Diagnostics/init.lua",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr10\\candidate_01\\bin\\x64\\plugins\\cyber_engine_tweaks\\mods\\PTFR_QR9_Diagnostics\\init.lua",
+      "before_sha256": "ACCE8B7E4E1E355BBC6D6F4752FDBCC7BB3034F594B13AB055EC35742D333718",
+      "after_sha256": "1A366E1075A9EBCA46686EF76AB724B7F5C3EE51445E13A3BC02B97194D21F90",
+      "bytes": 13991
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_QR9_Diagnostics/watch.json",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr10\\candidate_01\\bin\\x64\\plugins\\cyber_engine_tweaks\\mods\\PTFR_QR9_Diagnostics\\watch.json",
+      "before_sha256": "AEC4D4921AC64B0C37006E7839DD3F9466457B44A735DFFD4637C4261D5EAED2",
+      "after_sha256": "FCD5C312BDD98B8530E916F9F900D1C605EF198840825655CBE4CC00218C1025",
+      "bytes": 20710
+    }
+  ],
+  "scope": "Two diagnostic leaves only. Stable GetMod name; preserve all existing logs/unknown files. No Core/REDscript/save writes.",
+  "native_callback_delivery": "UNSUPPORTED_NATIVE_PROXY_RECEIVER; no bridge installed or claimed",
+  "live_getter_difference_validation": "NOT_RUN",
+  "core_rebuild": "NOT_REQUIRED_LUA_ONLY"
+}

@@ -1,0 +1,37 @@
+# QR15 — native support and saved-car lifecycle
+
+**The native lease path and the saved car record are now source-bound. No runtime successor is staged.** The remaining unsupported boundary is the car's exact setup/event stage; neither replaying nor skipping its visual/door setup is justified by the available state evidence. No new manual test is qualified.
+
+## Source-confirmed advances
+
+- **Prefab support:** native phases have two ticket lifetimes: handler readiness/preload and the actual child phase lease. Cleanup cancels both. Shared resolved-NodeRef counts prevent one owner's release from disabling another owner's support; last release queues a desired-state change. Reacquisition uses the same resolved world references and native materialization. This establishes a reusable native PhaseNode lease pattern, conditional on graph retirement and the separate population/state contract. CutControl Out still does not acknowledge physical world detach. [25-check proof](prefab_native/REPORT.md).
+- **Actual action types:** startup101 is a population `questSpawner_NodeType`;86/142/143 are `questCommunityTemplate_NodeType`. Their shared field name `spawnerReference` does not make their dispatch interchangeable. The initially misstated type grouping was corrected against exact native payloads before any runtime design. [31-check dispatch proof](spawn_action_review/REPORT.md).
+- **Ordinary activation:** initialized population-spawner Activate returns without calling activation again when already active. Community entry Activate also returns when its active Int32 is already nonzero; it does not increment a counter. These are limited operation proofs. Full community Deactivate143 first cancels matching pending pairs, so its complete effect cannot be reduced to the final inactive-state guard. Reactivate and Reset remain distinct operations. [Native lifecycle/schema](community_native/REPORT.md).
+- **Saved car:** a strict source-backed reader decoded the complete2,191,992-byte CommunitySystem tail in the same pinned historical AutoSave-8, including all footer sections. The first map has10,294outer keys/43,473nested rows; the spawner map has3,160keys. Exact native car key17433794865907239043 selects row2132739..2132770. Its saved active byte is1, and its reserved/filtered group contains associated ID10229047; other arrays are empty. The active byte's native copy path is independently traced. This is persisted activation intent/associated data, not a current initialized/spawned owner. [Decoder result](save_community/decode_02/result.json), [22-check independent decode](save_community/review_01/REPORT.md).
+- **Installed diagnostic:** the current Codeware DLL's PopulationSpawnerWrapper reads active+0x10 and initialized+0x11, matching the actual native allocation. The local research header's+0x08/+0x09 labels are stale. Both available PDBs mismatch the installed CodeView identity and were rejected. No framework correction is warranted. [22-check installed-binary proof](installed_wrapper_review/REPORT.md).
+
+These findings explain why an unresolved live getter cannot be treated as absence of saved car data. They do not establish the exact reason JF02 returned nil, the body loaded during JF01/JF02, or currently executing ownership.
+
+## Exact setup-stage boundary
+
+The current installed base script cache was freshly decompiled read-only, pinned by SHA256 B78043064AE90FB80861B0D885D1C8DBCD22070F1DB71F20664D19F2D83C4AAC. Historical2.31 source was used only as a lead. The current PS handler for VehicleQuestVisualDestructionEvent forwards the event to the entity; the actor handler calls the native destruction-grid setter for two layers with the event's accumulate argument. Neither inspected script handler directly writes the generic persistent visual flag. Native setter side effects remain unreviewed, so this does **not** prove the flag can never change indirectly; it means no specific node103 receipt is established. The door command follows a separate queued PS path. [9-control source trace](script_source/event_contract_01.json), [independent qualification](script_source/review_01/REPORT.md).
+
+The saved active byte is not a receipt for native101→102→103→104 completion. Repeating Activate being idempotent does not prove visual-event/door/pending-pair replay safe, and it does not establish the other startup dispositions.
+
+A targeted read inspected two SDK-derived controller PersistentID hash candidates for associated ID10229047 among116,594parsed PersistencySystem2 entries. Neither candidate matched. The native hash/identity mapping is not bound, and parsed defaults are not proof of originally serialized properties. These misses do **not** establish no PS, never spawned, or incomplete setup. They cannot authorize running103/104 as fresh. [Candidate lookup limits](save_community/vehicle_ps_01/result.json).
+
+## Repair decision and next exact work
+
+Prepared entry remains unsupported under the preservation rules. Do not relax U9/HS1 admission or replay native setup to obtain a working-looking quest. No mod defect is inferred from JF02's correctly retained unresolved status, and no change to the validated sampler or installed Codeware is justified.
+
+The next missing contract is specific: bind saved associated ID10229047 to the native entity/stub/PersistentID representation and its vehicle state or queued-event records. Establish a discriminator for pending versus previously applied visual/door setup, or demonstrate a source-supported continuation that preserves both cases. Keep all16startup preserve/rearm/hold decisions, the shared courier increment and original cleanup review intact. The normal prefab lease path can then be used without copying a private world tree. No arbitrary Activate/Reactivate/ResetKillCount, door/AI command, acknowledgement fact, reward or history reset is permitted.
+
+## Verification and preservation
+
+Results are separate:25prefab checks,30community/schema checks,31action-dispatch checks,15primary decoder controls,22independent decoder controls,22installed-wrapper checks and9script-path controls. They overlap in inputs and must not be added into a quest coverage statistic or gameplay PASS. New decoder controls mutate actual captured counts, names, truncation and trailing bytes; no playable save is generated or modified.
+
+The component's node-size equation is exact:4-byte nodeID +4-byte outer count +8*10,294keys +2,191,992tail bytes =2,274,352bytes, with no trailing gap. All source/metadata reads enforce the original historical body hash AE7331494F242FDCFA9008D86588F9C431B9ABA6092B7E9C845EE78D3D30CE9E; no newer slot is silently substituted. Complete decompressed saves are not persisted.
+
+Failure examples remain preserved: the initial component-selector script used an instance property for a static NodeName and failed before capture output; its source copy is retained. The native schema's first verification miscounted the literal-name offset50instead of51; failed run01 remains, corrected run02 is authoritative. Earlier partial decode01 remains labelled footer-opaque; complete decode02 supersedes it for structural byte coverage.
+
+No game/launcher control, CUA, live Game API, runtime build, package rebuild, deployment, save/fact edit, release or push occurred. The current consolidated Core and validated diagnostics remain selected. `completion.json` and `verification.json` record final preservation/readback; `HANDOFF.md` names the remaining source work.

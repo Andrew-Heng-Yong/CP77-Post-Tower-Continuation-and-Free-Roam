@@ -1,0 +1,80 @@
+{
+  "status": "B_PRIMARY_AND_A_PEER_FROZEN_COORDINATOR_INTEGRATION_SEPARATE",
+  "canonical_baseline": "QR7:04 = QR8:00",
+  "primary_results": [
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_b\\ASSESSMENT.md",
+      "sha256": "E7C43E8B84D590AFC835432B74AB1E4EB329FF75E79215260195115E51AE0170"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_b\\INGAME_TESTS.md",
+      "sha256": "B1DFBF013D2EF1D6127F3BB372D7651E6D2D2250A95CC57C65C8E21E6F9AAD51"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_b\\contract_addendum.json",
+      "sha256": "CB4250AF11E0D9EA4CAA1F6F05368A018023BC7DAEA37A245A4FB060DE18749B"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_b\\history_boundaries.json",
+      "sha256": "E739EA5CEE5E0A09855B1F9DDEB216C0BD9A2EE523DA3E1C9F964879B41ED469"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_b\\enrollment_verification_03\\evidence.json",
+      "sha256": "0486DBE2333EB58EFD808077B948FEA10B24F5B2F64EFB36347931275A9D1BDE"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_b\\late_future_verification_02\\evidence.json",
+      "sha256": "AD5A485A9BFBC7D809611F389C40051789D0B393EC8655705103FAF11BEAC905"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_b\\cvi_history_01\\evidence.json",
+      "sha256": "DE0A74BB57FDD95437DB7070F66AA989C1FFDD2C11F8B21AFCBD95EFE658F452"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_b\\late_future_plan_01.json",
+      "sha256": "044C3AA43946A2EA417199C1CFCFDA4A1DD03DF79919CCE507D8EC5D4B45D8DA"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_b\\proposal_late_future_03\\NOT_FOR_INTEGRATION.json",
+      "sha256": "7135F6120707B88AEEE34BD47E62F95CFB803F7F121A8448A8F4E8E02EFC898D"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_b\\reviews\\A_integration\\verification_01\\review.json",
+      "sha256": "4FE1D260D51DE983F0FA795681BC444AE4C256DAB7A22C76B8FBA776F9EE59E5"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_c\\reviews\\late_future_02\\review.json",
+      "sha256": "C7C25EF298C2850AAC7BDF47EAF8FAF85508315F398DF4AA25196154F86C2B6C"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_c\\reviews\\enrollment_02\\review.json",
+      "sha256": "ADE941DDE40FCB2363F792034208243F4CA2D6487B51DAAFA189373F323167E0"
+    }
+  ],
+  "reproduce": [
+    [
+      "enrollment investigation",
+      "& 'C:/Users/Ayong/.local/bin/python3.14.exe' -X utf8 -B prealpha/quest_restoration_qr8/worker_b/investigate_enrollment.py --out enrollment_verification_FRESH"
+    ],
+    [
+      "private repair source regression",
+      "& 'C:/Users/Ayong/.local/bin/python3.14.exe' -X utf8 -B prealpha/quest_restoration_qr8/worker_b/check_late_future.py --out late_future_verification_FRESH"
+    ],
+    [
+      "CVI history controls",
+      "& 'C:/Users/Ayong/.local/bin/python3.14.exe' -X utf8 -B prealpha/quest_restoration_qr8/worker_b/check_cvi_history.py --out cvi_history_FRESH"
+    ],
+    [
+      "independent installedDLL/namespace review",
+      "& 'C:/Users/Ayong/.local/bin/python3.14.exe' -X utf8 -B prealpha/quest_restoration_qr8/worker_b/review_a_integration.py --out verification_FRESH"
+    ]
+  ],
+  "failed_or_superseded": [
+    "enrollment_verification_01 property name failure",
+    "enrollment_verification_02 display-name matching failure; exact NodeRef03 authoritative",
+    "proposal_late_future_01 old not-yet-issued-only prose superseded; prototype02 added unnecessary done>=1 conjunction; only03 exact literal-Armed OR is C-approved",
+    "late_future_verification_01 passed133 checks before the two full parent bindings were added;02 passes147 with complete six native parent/completion inputs"
+  ],
+  "production_writes": 0,
+  "runtime_calls": 0
+}

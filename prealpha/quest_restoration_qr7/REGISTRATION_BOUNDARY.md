@@ -1,0 +1,13 @@
+# ArchiveXL registration and restore evidence boundary
+
+Final package readback proves the new phase and streaming block are append-only. Existing registrations/order/paths/IDs are unchanged. New `towercontinued\quest_restoration_qr7\ronald_news_future.questphase` targets the actual EP1 root quest `[1].Out`; generatedCRC19913 is clear of native IDs and every installed target-root addition. No invented forceStart YAML field is added.
+
+The installed ArchiveXL DLL is official1.28.0, SHA256 `C07DA66DF4E4D57401FA3DF0F6288F3B780F01102A98807B6ADAABAEF45F69BF`, matching the installation receipt and observed ProductVersion. This differs from the older local PR63 package; the attempted old-package equality assertion correctly failed and is not current runtime proof.
+
+Worker A reviewed [official exact-v1.28.0 source](https://raw.githubusercontent.com/psiberx/cp2077-archive-xl/v1.28.0/src/App/Extensions/QuestPhase/Extension.cpp). Released-source expectation: root quest registrations enter the forced set; on restore, a new private phase starts at In1 only when its corresponding engine receipt is absent, then that receipt is recorded. Ordinary quest start records the same receipts. Under that released-source expectation, the new private wait graph can start on an existing save; exact installed-DLL dispatch remains unproved. Its reviewed Tower/native-retirement/contact/enrollment/idle predicates and actual future admission-produced Armed signals bound acquisition; absence of startup is not the safety argument. Historical native owners are not restarted and old entered/sent/done/pending histories are not adopted or reset.
+
+**UNKNOWN:** exact installed-DLL method/address/PDB/reproducible-build instruction mapping for OnGameRestored/ForceStartNode under this SHA has not been established. Official matching version/source and receipt identify expected behavior, not exact method identity. All825previous registrations and prior live fixtures are corroboration only. This separate shared engine boundary is visible in coverage.json and remaining_blockers.json; it is not hidden by the five remaining original-target UNKNOWN contract count.
+
+**LIVE_ONLY:** actual owner restore scheduling, old-owner concurrency, private marker acquisition/release, queue interruption and supported save transitions were not executed. Artifact/static registration correctness remains distinct.
+
+Authoritative bounded review: [restore_current_release_01/evidence.json](worker_a/restore_current_release_01/evidence.json); [final artifact review](worker_a/FINAL_REVIEW.md). No candidate, package, game or save was changed by this follow-up.

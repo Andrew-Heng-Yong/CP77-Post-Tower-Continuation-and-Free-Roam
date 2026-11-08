@@ -1,0 +1,60 @@
+{
+  "status": "TARGETED_21_DISPOSITIONS_COMPLETE_SOURCE_AND_PACKAGE_BOUNDARIES_EXPLICIT",
+  "selected": 161,
+  "retained_deep": 161,
+  "new_whitelist_deep_audits": 0,
+  "contracts": 1610,
+  "original_target_contracts": 21,
+  "original_FAIL": 13,
+  "original_UNKNOWN": 8,
+  "targeted_quests": 9,
+  "before_status_counts": {
+    "APPROVED_DEVIATION": 175,
+    "PASS": 349,
+    "CONDITIONAL": 903,
+    "OPAQUE": 162,
+    "FAIL": 13,
+    "UNKNOWN": 8
+  },
+  "after_status_counts": {
+    "APPROVED_DEVIATION": 177,
+    "PASS": 349,
+    "CONDITIONAL": 917,
+    "OPAQUE": 162,
+    "UNKNOWN": 5
+  },
+  "target_status_counts": {
+    "UNKNOWN": 5,
+    "APPROVED_DEVIATION": 2,
+    "CONDITIONAL": 14
+  },
+  "fully_static_verified": 0,
+  "static_PASS_or_approved": 526,
+  "remaining_UNKNOWN": [
+    {
+      "quest_id": "sts_std_rcr_02",
+      "stage": "shared_dependencies"
+    },
+    {
+      "quest_id": "q304_splinter_stash",
+      "stage": "eligibility"
+    },
+    {
+      "quest_id": "q304_splinter_stash",
+      "stage": "completion_rewards_cleanup"
+    },
+    {
+      "quest_id": "q304_splinter_stash",
+      "stage": "persistence"
+    },
+    {
+      "quest_id": "mws_wat_08_trauma_drama",
+      "stage": "persistence"
+    }
+  ],
+  "source_epoch": "QR7:04",
+  "source_epoch_manifest": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\source_epoch_04.json",
+  "source_epoch_sha256": "8B0D8249908A9D96CF5564C9581ED466C061350B96A4BEE767D744B01DE28A1F",
+  "queue_sha256": "45A5CC2EF6E91C5334E3315D72A04FD6CEEFE0EAD06EF6697FAC8373357E0123",
+  "scope": "No gameplay-success percentage. CONDITIONAL prospective scopes do not repair absent enrollment, old entered/queued histories or prove saved-owner retirement."
+}

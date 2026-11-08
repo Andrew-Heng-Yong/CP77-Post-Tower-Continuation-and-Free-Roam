@@ -1,0 +1,857 @@
+{
+  "quest_id": "sts_ep1_12",
+  "title": "Treating Symptoms",
+  "source_epoch": "QR5epoch00; G20 investigated resource hashes unchanged in canonical05",
+  "fully_static_verified": false,
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Native prestate8→POI16→body26.Start and output29→original cleanup51 input4→10 are traced. Current16→65004 Started→26 retains actual Start socket; ParentEntered65003 forks prestate8 and original bugfix64001, while body.Out1 starts cleanup64000.",
+        "Original phase50 wake scope, selected payloads, complete native nested phases, output/cleanup mapping and fresh binary readbacks match exact pinned source."
+      ],
+      "approved_differences": [
+        "Existing private genuine Tower/U9/fresh guard and receipts; no new runtime behavior change."
+      ],
+      "remaining": [
+        "LIVE_ONLY: actual fresh enrollment and wake/schedule behavior in a genuine supported post-Tower retained session."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\shared_verification_01\\tests.json",
+          "sha256": "EAEF054F1EAC1EB3ABABB6B2A7D547E9E789740E5427AC52D747BE85C930A15F"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\tests.json",
+          "sha256": "A8BF930EFE1A06DBD581602F8E44395C64F083D97A514DE071597AF8FDF74060"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\tests.json",
+          "sha256": "36E6D598CBBC23BF40BCC3FDA929B36C7FB327089D388A5EF8D89DC88F74FA4A"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\lifecycle_01\\tests.json",
+          "sha256": "C34DD9B36A38C8BBEAC04B5E6FF4213B75798C6BE836394304DB20C2380A8B5D"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\ronald_verification_02\\tests.json",
+          "sha256": "7C12108186440E5F8D8F94A228C5E48F1F80BD18D360B0DD2796A9C850421665"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\source_pins.json",
+          "sha256": "EB8FE9068244ADA89DF00BACA3CE3B6AA26E80E9A3407A3B6C78E6A54CE60E29"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\protocols.json",
+          "sha256": "F979396B5EBC0C864E641AB5ACE917E4A9ECABB6781C743D84BC37C6D1C4DAAD"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\source_pins.json",
+          "sha256": "C032D0120F9A969C46269E3D7753167D7D5D8CC4606786072C866D027EC067A1"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\journal.json",
+          "sha256": "29F2F21C59F9F4B400DB94ACF2DD29BF92D834200BD7F5607B53C1C2C941E44F"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\stock_applicability.json",
+          "sha256": "2F330F2877B393F5976EA7F1DFACA34420BC69371ED329BB9ECD4EB99BD73D0D"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\lifecycle_01\\journal_omissions.json",
+          "sha256": "2970BB4DFF2EBC8A2D62B53614B41A0366BCB61DCCBE21F3BE66DFD0DCAE69F6"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\ronald_verification_02\\evidence.json",
+          "sha256": "28234973623EE917C537FBD2A7B11BB8348C95F5E8B6EA49A1605C89955EF879"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\ronald_verification_02\\routes.json",
+          "sha256": "6E4D4CE8DE1B7DE7A8D1159FC0E1273DCC835628622DE1E5C635C86F75BF0C40"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\raw_exports_01\\manifest.json",
+          "sha256": "F6F61BEA9E8A7D071CD53F8629CA2DA630ED8CDE409DFE94CBD89B1805263E0F"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\shared_core.json",
+          "sha256": "97F7F30E81EA363C193138A1DE9ACE405DE6739F3FA349380417C62C0C0ABF82"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\handlers.json",
+          "sha256": "65BA4014FC3988C2B334A0E8714E1E7D1A10234CAA798DDA04F92C9ADD6989D1",
+          "json_pointer": "/sts_ep1_12"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\lifecycle_01\\journal_omissions.json",
+          "sha256": "2970BB4DFF2EBC8A2D62B53614B41A0366BCB61DCCBE21F3BE66DFD0DCAE69F6",
+          "json_pointer": "/sts_ep1_12"
+        }
+      ]
+    },
+    "eligibility": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Exact native prestate root/50/8:0→25 Pause(mr_hands_dogtown_introduced>0)→1 is retained. Actual U9 row guards13 journal paths/32 facts and rejects native start/finished or existing ParentEntered/Fault. No Hands introduction or excluded original outcome is fabricated.",
+        "Three omitted local names are identified: native cleanup_done root/36:43 (+1) and chicken_droid71/chicken_final_scene74/123 in q110_chicken_test.scene. Complete resource-reference census finds no indexed graph referrer for that test scene; dynamic/foreign/save writes are still not certified."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: exact saved/foreign journal and actor/quest history is not inferred from missing scalar0, a map pin, or local source writer coverage; unsupported histories defer."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\shared_verification_01\\tests.json",
+          "sha256": "EAEF054F1EAC1EB3ABABB6B2A7D547E9E789740E5427AC52D747BE85C930A15F"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\tests.json",
+          "sha256": "A8BF930EFE1A06DBD581602F8E44395C64F083D97A514DE071597AF8FDF74060"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\tests.json",
+          "sha256": "36E6D598CBBC23BF40BCC3FDA929B36C7FB327089D388A5EF8D89DC88F74FA4A"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\lifecycle_01\\tests.json",
+          "sha256": "C34DD9B36A38C8BBEAC04B5E6FF4213B75798C6BE836394304DB20C2380A8B5D"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\ronald_verification_02\\tests.json",
+          "sha256": "7C12108186440E5F8D8F94A228C5E48F1F80BD18D360B0DD2796A9C850421665"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\source_pins.json",
+          "sha256": "EB8FE9068244ADA89DF00BACA3CE3B6AA26E80E9A3407A3B6C78E6A54CE60E29"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\protocols.json",
+          "sha256": "F979396B5EBC0C864E641AB5ACE917E4A9ECABB6781C743D84BC37C6D1C4DAAD"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\source_pins.json",
+          "sha256": "C032D0120F9A969C46269E3D7753167D7D5D8CC4606786072C866D027EC067A1"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\journal.json",
+          "sha256": "29F2F21C59F9F4B400DB94ACF2DD29BF92D834200BD7F5607B53C1C2C941E44F"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\stock_applicability.json",
+          "sha256": "2F330F2877B393F5976EA7F1DFACA34420BC69371ED329BB9ECD4EB99BD73D0D"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\lifecycle_01\\journal_omissions.json",
+          "sha256": "2970BB4DFF2EBC8A2D62B53614B41A0366BCB61DCCBE21F3BE66DFD0DCAE69F6"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\ronald_verification_02\\evidence.json",
+          "sha256": "28234973623EE917C537FBD2A7B11BB8348C95F5E8B6EA49A1605C89955EF879"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\ronald_verification_02\\routes.json",
+          "sha256": "6E4D4CE8DE1B7DE7A8D1159FC0E1273DCC835628622DE1E5C635C86F75BF0C40"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\raw_exports_01\\manifest.json",
+          "sha256": "F6F61BEA9E8A7D071CD53F8629CA2DA630ED8CDE409DFE94CBD89B1805263E0F"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\shared_core.json",
+          "sha256": "97F7F30E81EA363C193138A1DE9ACE405DE6739F3FA349380417C62C0C0ABF82"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\handlers.json",
+          "sha256": "65BA4014FC3988C2B334A0E8714E1E7D1A10234CAA798DDA04F92C9ADD6989D1",
+          "json_pointer": "/sts_ep1_12"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\lifecycle_01\\journal_omissions.json",
+          "sha256": "2970BB4DFF2EBC8A2D62B53614B41A0366BCB61DCCBE21F3BE66DFD0DCAE69F6",
+          "json_pointer": "/sts_ep1_12"
+        }
+      ]
+    },
+    "communications": {
+      "status": "FAIL",
+      "proven": [
+        "Ten actual incoming Hands start/end producers, including main root/154 RET8/17 and INT9/18, prebrief/debrief and retry paths, resolve to the pinned generic Hands owner/real ACKs/cleanup. Main154 rejected-result Milko selector25 preserves original alive/dead message24/23, and cleanup retains their real response choices.",
+        "Source-confirmed missing optional Ronald post-gig news: genuine earned enrollment and unsent0, followed by preserved sts_ep1_12_done1, requires native root/11:2→35 sent1→10 pause1→110 two days→122 standalone selector→111 MinorQuestAndSts AND outside→124→11 SMS. Original additional/persistent ancestor is Tower-cut, current B0 omits11/12, and all5136 pinned models/current private/script census finds no replacement consumer or message writer."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: real queue, rejection, interrupt/retry, ACK, reply and reload behavior. EP103/EP112 also have the separately confirmed missing Ronald optional news dependency; no blanket communication PASS."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\shared_verification_01\\tests.json",
+          "sha256": "EAEF054F1EAC1EB3ABABB6B2A7D547E9E789740E5427AC52D747BE85C930A15F"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\tests.json",
+          "sha256": "A8BF930EFE1A06DBD581602F8E44395C64F083D97A514DE071597AF8FDF74060"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\tests.json",
+          "sha256": "36E6D598CBBC23BF40BCC3FDA929B36C7FB327089D388A5EF8D89DC88F74FA4A"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\lifecycle_01\\tests.json",
+          "sha256": "C34DD9B36A38C8BBEAC04B5E6FF4213B75798C6BE836394304DB20C2380A8B5D"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\ronald_verification_02\\tests.json",
+          "sha256": "7C12108186440E5F8D8F94A228C5E48F1F80BD18D360B0DD2796A9C850421665"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\source_pins.json",
+          "sha256": "EB8FE9068244ADA89DF00BACA3CE3B6AA26E80E9A3407A3B6C78E6A54CE60E29"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\protocols.json",
+          "sha256": "F979396B5EBC0C864E641AB5ACE917E4A9ECABB6781C743D84BC37C6D1C4DAAD"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\source_pins.json",
+          "sha256": "C032D0120F9A969C46269E3D7753167D7D5D8CC4606786072C866D027EC067A1"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\journal.json",
+          "sha256": "29F2F21C59F9F4B400DB94ACF2DD29BF92D834200BD7F5607B53C1C2C941E44F"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\stock_applicability.json",
+          "sha256": "2F330F2877B393F5976EA7F1DFACA34420BC69371ED329BB9ECD4EB99BD73D0D"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\lifecycle_01\\journal_omissions.json",
+          "sha256": "2970BB4DFF2EBC8A2D62B53614B41A0366BCB61DCCBE21F3BE66DFD0DCAE69F6"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\ronald_verification_02\\evidence.json",
+          "sha256": "28234973623EE917C537FBD2A7B11BB8348C95F5E8B6EA49A1605C89955EF879"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\ronald_verification_02\\routes.json",
+          "sha256": "6E4D4CE8DE1B7DE7A8D1159FC0E1273DCC835628622DE1E5C635C86F75BF0C40"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\raw_exports_01\\manifest.json",
+          "sha256": "F6F61BEA9E8A7D071CD53F8629CA2DA630ED8CDE409DFE94CBD89B1805263E0F"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\shared_core.json",
+          "sha256": "97F7F30E81EA363C193138A1DE9ACE405DE6739F3FA349380417C62C0C0ABF82"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\handlers.json",
+          "sha256": "65BA4014FC3988C2B334A0E8714E1E7D1A10234CAA798DDA04F92C9ADD6989D1",
+          "json_pointer": "/sts_ep1_12"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\lifecycle_01\\journal_omissions.json",
+          "sha256": "2970BB4DFF2EBC8A2D62B53614B41A0366BCB61DCCBE21F3BE66DFD0DCAE69F6",
+          "json_pointer": "/sts_ep1_12"
+        }
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native main/combat root owns #sts_ep1_12_streetstory_quest_prefab; original bugfix root17 and cleanup root36 carry exact matching native PIP. They remain in the copied current native body/parallel bugfix/cleanup scope and are not replaced by bare initializer assumptions.",
+        "S29 sts_ep1_12_pickup is separately traced as the guarded WST02 aftermath owner, not another fresh Treating Symptoms body. Actual start/finished/Issued/Entered fences and wst_ep1_02_active wait remain. Ronald old queue/B0 vendor lease and arbitrary saved descendants need separate arbitration."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: matching saved-owner transition, scene/streaming lease and reload evidence is required; source presence/cut topology is not executing-owner proof."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\shared_verification_01\\tests.json",
+          "sha256": "EAEF054F1EAC1EB3ABABB6B2A7D547E9E789740E5427AC52D747BE85C930A15F"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\tests.json",
+          "sha256": "A8BF930EFE1A06DBD581602F8E44395C64F083D97A514DE071597AF8FDF74060"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\tests.json",
+          "sha256": "36E6D598CBBC23BF40BCC3FDA929B36C7FB327089D388A5EF8D89DC88F74FA4A"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\lifecycle_01\\tests.json",
+          "sha256": "C34DD9B36A38C8BBEAC04B5E6FF4213B75798C6BE836394304DB20C2380A8B5D"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\ronald_verification_02\\tests.json",
+          "sha256": "7C12108186440E5F8D8F94A228C5E48F1F80BD18D360B0DD2796A9C850421665"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\source_pins.json",
+          "sha256": "EB8FE9068244ADA89DF00BACA3CE3B6AA26E80E9A3407A3B6C78E6A54CE60E29"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\protocols.json",
+          "sha256": "F979396B5EBC0C864E641AB5ACE917E4A9ECABB6781C743D84BC37C6D1C4DAAD"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\source_pins.json",
+          "sha256": "C032D0120F9A969C46269E3D7753167D7D5D8CC4606786072C866D027EC067A1"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\journal.json",
+          "sha256": "29F2F21C59F9F4B400DB94ACF2DD29BF92D834200BD7F5607B53C1C2C941E44F"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\stock_applicability.json",
+          "sha256": "2F330F2877B393F5976EA7F1DFACA34420BC69371ED329BB9ECD4EB99BD73D0D"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\lifecycle_01\\journal_omissions.json",
+          "sha256": "2970BB4DFF2EBC8A2D62B53614B41A0366BCB61DCCBE21F3BE66DFD0DCAE69F6"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\ronald_verification_02\\evidence.json",
+          "sha256": "28234973623EE917C537FBD2A7B11BB8348C95F5E8B6EA49A1605C89955EF879"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\ronald_verification_02\\routes.json",
+          "sha256": "6E4D4CE8DE1B7DE7A8D1159FC0E1273DCC835628622DE1E5C635C86F75BF0C40"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\raw_exports_01\\manifest.json",
+          "sha256": "F6F61BEA9E8A7D071CD53F8629CA2DA630ED8CDE409DFE94CBD89B1805263E0F"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\shared_core.json",
+          "sha256": "97F7F30E81EA363C193138A1DE9ACE405DE6739F3FA349380417C62C0C0ABF82"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\handlers.json",
+          "sha256": "65BA4014FC3988C2B334A0E8714E1E7D1A10234CAA798DDA04F92C9ADD6989D1",
+          "json_pointer": "/sts_ep1_12"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\lifecycle_01\\journal_omissions.json",
+          "sha256": "2970BB4DFF2EBC8A2D62B53614B41A0366BCB61DCCBE21F3BE66DFD0DCAE69F6",
+          "json_pointer": "/sts_ep1_12"
+        }
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Native courier helping1071, droid/servers combat, Alan final scene and Milko outcome bindings remain exact. Alive path146→143 objective→152 milko_alive(+1)→144 exit-trigger; death path320.True or323→308 objective→153 milko_dead(+1)→139 same exit-trigger. Final scene939 free_to_move and1367 said_we_kill_milko choices preserve authored predicates.",
+        "Main phase51 Succeeded→quest165 Succeeded→66 finished→256 done→257 active0→61 reward→288 gig count→290 DirtyWork→67 checkpoint remains. Native objective/exit/courier/agent scenes and nested retry/cancellation edges are source/readback preserved, without a forced kill or outcome rewrite."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "PASS is limited to proven static native main-story structure and identified outcomes; gameplay/interrupt/reload completion remains untested."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\shared_verification_01\\tests.json",
+          "sha256": "EAEF054F1EAC1EB3ABABB6B2A7D547E9E789740E5427AC52D747BE85C930A15F"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\tests.json",
+          "sha256": "A8BF930EFE1A06DBD581602F8E44395C64F083D97A514DE071597AF8FDF74060"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\tests.json",
+          "sha256": "36E6D598CBBC23BF40BCC3FDA929B36C7FB327089D388A5EF8D89DC88F74FA4A"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\lifecycle_01\\tests.json",
+          "sha256": "C34DD9B36A38C8BBEAC04B5E6FF4213B75798C6BE836394304DB20C2380A8B5D"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\ronald_verification_02\\tests.json",
+          "sha256": "7C12108186440E5F8D8F94A228C5E48F1F80BD18D360B0DD2796A9C850421665"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\source_pins.json",
+          "sha256": "EB8FE9068244ADA89DF00BACA3CE3B6AA26E80E9A3407A3B6C78E6A54CE60E29"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\protocols.json",
+          "sha256": "F979396B5EBC0C864E641AB5ACE917E4A9ECABB6781C743D84BC37C6D1C4DAAD"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\source_pins.json",
+          "sha256": "C032D0120F9A969C46269E3D7753167D7D5D8CC4606786072C866D027EC067A1"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\journal.json",
+          "sha256": "29F2F21C59F9F4B400DB94ACF2DD29BF92D834200BD7F5607B53C1C2C941E44F"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\stock_applicability.json",
+          "sha256": "2F330F2877B393F5976EA7F1DFACA34420BC69371ED329BB9ECD4EB99BD73D0D"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\lifecycle_01\\journal_omissions.json",
+          "sha256": "2970BB4DFF2EBC8A2D62B53614B41A0366BCB61DCCBE21F3BE66DFD0DCAE69F6"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\ronald_verification_02\\evidence.json",
+          "sha256": "28234973623EE917C537FBD2A7B11BB8348C95F5E8B6EA49A1605C89955EF879"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\ronald_verification_02\\routes.json",
+          "sha256": "6E4D4CE8DE1B7DE7A8D1159FC0E1273DCC835628622DE1E5C635C86F75BF0C40"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\raw_exports_01\\manifest.json",
+          "sha256": "F6F61BEA9E8A7D071CD53F8629CA2DA630ED8CDE409DFE94CBD89B1805263E0F"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\shared_core.json",
+          "sha256": "97F7F30E81EA363C193138A1DE9ACE405DE6739F3FA349380417C62C0C0ABF82"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\handlers.json",
+          "sha256": "65BA4014FC3988C2B334A0E8714E1E7D1A10234CAA798DDA04F92C9ADD6989D1",
+          "json_pointer": "/sts_ep1_12"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\lifecycle_01\\journal_omissions.json",
+          "sha256": "2970BB4DFF2EBC8A2D62B53614B41A0366BCB61DCCBE21F3BE66DFD0DCAE69F6",
+          "json_pointer": "/sts_ep1_12"
+        }
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Exact native streetstory prefab root/PIPs, Voodoo community/guards, courier, Alan Noel/target/droids/security/miniboss scenes and workspot/camera/NodeRef bindings remain. Direct scene inputs are checked against their actual declared sockets; native Prefetch controls are distinguished from scene entries.",
+        "Existing R4/JV1 covers supporting Johnny voice/internal scene bindings in final scene. Full sector placement, independent props, device streaming, live acquisition and actual renderer behavior remain unresolved; literal prefab/depot presence is not world ownership proof."
+      ],
+      "approved_differences": [
+        "Existing R4 supporting voice-only Johnny policy; no new cast change."
+      ],
+      "remaining": [
+        "OPAQUE: native sector placement, runtime actor/prefab acquisition, camera/workspot execution and JV1 render/independent-prop behavior."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\shared_verification_01\\tests.json",
+          "sha256": "EAEF054F1EAC1EB3ABABB6B2A7D547E9E789740E5427AC52D747BE85C930A15F"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\tests.json",
+          "sha256": "A8BF930EFE1A06DBD581602F8E44395C64F083D97A514DE071597AF8FDF74060"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\tests.json",
+          "sha256": "36E6D598CBBC23BF40BCC3FDA929B36C7FB327089D388A5EF8D89DC88F74FA4A"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\lifecycle_01\\tests.json",
+          "sha256": "C34DD9B36A38C8BBEAC04B5E6FF4213B75798C6BE836394304DB20C2380A8B5D"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\ronald_verification_02\\tests.json",
+          "sha256": "7C12108186440E5F8D8F94A228C5E48F1F80BD18D360B0DD2796A9C850421665"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\source_pins.json",
+          "sha256": "EB8FE9068244ADA89DF00BACA3CE3B6AA26E80E9A3407A3B6C78E6A54CE60E29"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\protocols.json",
+          "sha256": "F979396B5EBC0C864E641AB5ACE917E4A9ECABB6781C743D84BC37C6D1C4DAAD"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\source_pins.json",
+          "sha256": "C032D0120F9A969C46269E3D7753167D7D5D8CC4606786072C866D027EC067A1"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\journal.json",
+          "sha256": "29F2F21C59F9F4B400DB94ACF2DD29BF92D834200BD7F5607B53C1C2C941E44F"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\stock_applicability.json",
+          "sha256": "2F330F2877B393F5976EA7F1DFACA34420BC69371ED329BB9ECD4EB99BD73D0D"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\lifecycle_01\\journal_omissions.json",
+          "sha256": "2970BB4DFF2EBC8A2D62B53614B41A0366BCB61DCCBE21F3BE66DFD0DCAE69F6"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\ronald_verification_02\\evidence.json",
+          "sha256": "28234973623EE917C537FBD2A7B11BB8348C95F5E8B6EA49A1605C89955EF879"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\ronald_verification_02\\routes.json",
+          "sha256": "6E4D4CE8DE1B7DE7A8D1159FC0E1273DCC835628622DE1E5C635C86F75BF0C40"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\raw_exports_01\\manifest.json",
+          "sha256": "F6F61BEA9E8A7D071CD53F8629CA2DA630ED8CDE409DFE94CBD89B1805263E0F"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\shared_core.json",
+          "sha256": "97F7F30E81EA363C193138A1DE9ACE405DE6739F3FA349380417C62C0C0ABF82"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\handlers.json",
+          "sha256": "65BA4014FC3988C2B334A0E8714E1E7D1A10234CAA798DDA04F92C9ADD6989D1",
+          "json_pointer": "/sts_ep1_12"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\lifecycle_01\\journal_omissions.json",
+          "sha256": "2970BB4DFF2EBC8A2D62B53614B41A0366BCB61DCCBE21F3BE66DFD0DCAE69F6",
+          "json_pointer": "/sts_ep1_12"
+        }
+      ]
+    },
+    "journal": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "All39 native journal uses are enumerated against13 U9 paths.28 omitted references include three own quest map pins, Hands alive/dead SMS/replies, native foreign MQ301 Paco/rifle objectives and Ronald news conversation/choices. Actual writers and classes remain recorded.",
+        "Native main143/308 exit objectives, phase51 and quest165 completion and corresponding alive/dead debrief variants are preserved. Ronald reply/timeout cleanup is source identified but unreachable from current restored owner chain; that gap is not approved away."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: runtime journal definitions, foreign writers and actual pre-Tower saved history; every omitted path remains visible with exact class/owner."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\shared_verification_01\\tests.json",
+          "sha256": "EAEF054F1EAC1EB3ABABB6B2A7D547E9E789740E5427AC52D747BE85C930A15F"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\tests.json",
+          "sha256": "A8BF930EFE1A06DBD581602F8E44395C64F083D97A514DE071597AF8FDF74060"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\tests.json",
+          "sha256": "36E6D598CBBC23BF40BCC3FDA929B36C7FB327089D388A5EF8D89DC88F74FA4A"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\lifecycle_01\\tests.json",
+          "sha256": "C34DD9B36A38C8BBEAC04B5E6FF4213B75798C6BE836394304DB20C2380A8B5D"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\ronald_verification_02\\tests.json",
+          "sha256": "7C12108186440E5F8D8F94A228C5E48F1F80BD18D360B0DD2796A9C850421665"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\source_pins.json",
+          "sha256": "EB8FE9068244ADA89DF00BACA3CE3B6AA26E80E9A3407A3B6C78E6A54CE60E29"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\protocols.json",
+          "sha256": "F979396B5EBC0C864E641AB5ACE917E4A9ECABB6781C743D84BC37C6D1C4DAAD"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\source_pins.json",
+          "sha256": "C032D0120F9A969C46269E3D7753167D7D5D8CC4606786072C866D027EC067A1"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\journal.json",
+          "sha256": "29F2F21C59F9F4B400DB94ACF2DD29BF92D834200BD7F5607B53C1C2C941E44F"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\stock_applicability.json",
+          "sha256": "2F330F2877B393F5976EA7F1DFACA34420BC69371ED329BB9ECD4EB99BD73D0D"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\lifecycle_01\\journal_omissions.json",
+          "sha256": "2970BB4DFF2EBC8A2D62B53614B41A0366BCB61DCCBE21F3BE66DFD0DCAE69F6"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\ronald_verification_02\\evidence.json",
+          "sha256": "28234973623EE917C537FBD2A7B11BB8348C95F5E8B6EA49A1605C89955EF879"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\ronald_verification_02\\routes.json",
+          "sha256": "6E4D4CE8DE1B7DE7A8D1159FC0E1273DCC835628622DE1E5C635C86F75BF0C40"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\raw_exports_01\\manifest.json",
+          "sha256": "F6F61BEA9E8A7D071CD53F8629CA2DA630ED8CDE409DFE94CBD89B1805263E0F"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\shared_core.json",
+          "sha256": "97F7F30E81EA363C193138A1DE9ACE405DE6739F3FA349380417C62C0C0ABF82"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\handlers.json",
+          "sha256": "65BA4014FC3988C2B334A0E8714E1E7D1A10234CAA798DDA04F92C9ADD6989D1",
+          "json_pointer": "/sts_ep1_12"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\lifecycle_01\\journal_omissions.json",
+          "sha256": "2970BB4DFF2EBC8A2D62B53614B41A0366BCB61DCCBE21F3BE66DFD0DCAE69F6",
+          "json_pointer": "/sts_ep1_12"
+        }
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Exact reward61 follows terminal facts66/256/257, then gig achievement/checkpoint; cleanup root/36:43 increments cleanup_done rather than setting exact1 and retains Milko-dead condition11 outcome cleanup. All34 direct stock targets and two reward/achievement uses exist, with156 immediate child refs uncaptured.",
+        "Original CP77-36823 finished snapshot/VFX, CP77-58937 cleanup/world-state/PIP and CP77-58921 WST02/WST14 device corrections remain native one-shot branches. Saved application/device state is not reset, and full bugfix replay is not newly introduced."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: economic children/runtime overrides, saved entitlement and actual engine once-only/cleanup behavior. Source preservation is not an inventory or gameplay test."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\shared_verification_01\\tests.json",
+          "sha256": "EAEF054F1EAC1EB3ABABB6B2A7D547E9E789740E5427AC52D747BE85C930A15F"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\tests.json",
+          "sha256": "A8BF930EFE1A06DBD581602F8E44395C64F083D97A514DE071597AF8FDF74060"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\tests.json",
+          "sha256": "36E6D598CBBC23BF40BCC3FDA929B36C7FB327089D388A5EF8D89DC88F74FA4A"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\lifecycle_01\\tests.json",
+          "sha256": "C34DD9B36A38C8BBEAC04B5E6FF4213B75798C6BE836394304DB20C2380A8B5D"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\ronald_verification_02\\tests.json",
+          "sha256": "7C12108186440E5F8D8F94A228C5E48F1F80BD18D360B0DD2796A9C850421665"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\source_pins.json",
+          "sha256": "EB8FE9068244ADA89DF00BACA3CE3B6AA26E80E9A3407A3B6C78E6A54CE60E29"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\protocols.json",
+          "sha256": "F979396B5EBC0C864E641AB5ACE917E4A9ECABB6781C743D84BC37C6D1C4DAAD"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\source_pins.json",
+          "sha256": "C032D0120F9A969C46269E3D7753167D7D5D8CC4606786072C866D027EC067A1"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\journal.json",
+          "sha256": "29F2F21C59F9F4B400DB94ACF2DD29BF92D834200BD7F5607B53C1C2C941E44F"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\stock_applicability.json",
+          "sha256": "2F330F2877B393F5976EA7F1DFACA34420BC69371ED329BB9ECD4EB99BD73D0D"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\lifecycle_01\\journal_omissions.json",
+          "sha256": "2970BB4DFF2EBC8A2D62B53614B41A0366BCB61DCCBE21F3BE66DFD0DCAE69F6"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\ronald_verification_02\\evidence.json",
+          "sha256": "28234973623EE917C537FBD2A7B11BB8348C95F5E8B6EA49A1605C89955EF879"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\ronald_verification_02\\routes.json",
+          "sha256": "6E4D4CE8DE1B7DE7A8D1159FC0E1273DCC835628622DE1E5C635C86F75BF0C40"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\raw_exports_01\\manifest.json",
+          "sha256": "F6F61BEA9E8A7D071CD53F8629CA2DA630ED8CDE409DFE94CBD89B1805263E0F"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\shared_core.json",
+          "sha256": "97F7F30E81EA363C193138A1DE9ACE405DE6739F3FA349380417C62C0C0ABF82"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\handlers.json",
+          "sha256": "65BA4014FC3988C2B334A0E8714E1E7D1A10234CAA798DDA04F92C9ADD6989D1",
+          "json_pointer": "/sts_ep1_12"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\lifecycle_01\\journal_omissions.json",
+          "sha256": "2970BB4DFF2EBC8A2D62B53614B41A0366BCB61DCCBE21F3BE66DFD0DCAE69F6",
+          "json_pointer": "/sts_ep1_12"
+        }
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Original resource/node IDs, native journals/outcomes, main/cleanup/bugfix metadata and current private receipts are unchanged; fresh start/finished/ParentEntered guards persist. Distinct S29 pickup claims its own Issued before native WST02 active wait/Entered and retains real terminal/journal fences.",
+        "Ronald sent35 precedes timer110, so pending/delivered saved histories cannot safely be distinguished by sent1 alone. No synthetic counter reset, fabricated native history, reward replay or full-controller adoption is performed."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL/LIVE_ONLY: exact preexisting controller/timer descendants, cold reload and version transition fixtures; no general migration guarantee."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\shared_verification_01\\tests.json",
+          "sha256": "EAEF054F1EAC1EB3ABABB6B2A7D547E9E789740E5427AC52D747BE85C930A15F"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\tests.json",
+          "sha256": "A8BF930EFE1A06DBD581602F8E44395C64F083D97A514DE071597AF8FDF74060"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\tests.json",
+          "sha256": "36E6D598CBBC23BF40BCC3FDA929B36C7FB327089D388A5EF8D89DC88F74FA4A"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\lifecycle_01\\tests.json",
+          "sha256": "C34DD9B36A38C8BBEAC04B5E6FF4213B75798C6BE836394304DB20C2380A8B5D"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\ronald_verification_02\\tests.json",
+          "sha256": "7C12108186440E5F8D8F94A228C5E48F1F80BD18D360B0DD2796A9C850421665"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\source_pins.json",
+          "sha256": "EB8FE9068244ADA89DF00BACA3CE3B6AA26E80E9A3407A3B6C78E6A54CE60E29"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\protocols.json",
+          "sha256": "F979396B5EBC0C864E641AB5ACE917E4A9ECABB6781C743D84BC37C6D1C4DAAD"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\source_pins.json",
+          "sha256": "C032D0120F9A969C46269E3D7753167D7D5D8CC4606786072C866D027EC067A1"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\journal.json",
+          "sha256": "29F2F21C59F9F4B400DB94ACF2DD29BF92D834200BD7F5607B53C1C2C941E44F"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\stock_applicability.json",
+          "sha256": "2F330F2877B393F5976EA7F1DFACA34420BC69371ED329BB9ECD4EB99BD73D0D"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\lifecycle_01\\journal_omissions.json",
+          "sha256": "2970BB4DFF2EBC8A2D62B53614B41A0366BCB61DCCBE21F3BE66DFD0DCAE69F6"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\ronald_verification_02\\evidence.json",
+          "sha256": "28234973623EE917C537FBD2A7B11BB8348C95F5E8B6EA49A1605C89955EF879"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\ronald_verification_02\\routes.json",
+          "sha256": "6E4D4CE8DE1B7DE7A8D1159FC0E1273DCC835628622DE1E5C635C86F75BF0C40"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\raw_exports_01\\manifest.json",
+          "sha256": "F6F61BEA9E8A7D071CD53F8629CA2DA630ED8CDE409DFE94CBD89B1805263E0F"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\shared_core.json",
+          "sha256": "97F7F30E81EA363C193138A1DE9ACE405DE6739F3FA349380417C62C0C0ABF82"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\handlers.json",
+          "sha256": "65BA4014FC3988C2B334A0E8714E1E7D1A10234CAA798DDA04F92C9ADD6989D1",
+          "json_pointer": "/sts_ep1_12"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\lifecycle_01\\journal_omissions.json",
+          "sha256": "2970BB4DFF2EBC8A2D62B53614B41A0366BCB61DCCBE21F3BE66DFD0DCAE69F6",
+          "json_pointer": "/sts_ep1_12"
+        }
+      ]
+    },
+    "shared_dependencies": {
+      "status": "FAIL",
+      "proven": [
+        "Current main generic Hands protocol, local alive/dead SMS cleanup and complete native prefab-bearing bugfix scope are source verified. S29 aftermath uses exact private WST02 target and its own admission/lifecycle, while foreign MQ301/q110 history and streamed device context remain visible.",
+        "Native Ronald optional post-gig news dependency is missing under the exact earned-unsent fixture; service-only B0 exclusion does not authorize this selected-quest gap. An isolated future-only repair must preserve the original shared queue, two-day timer, token/outside gates, old saved owner and physical B0 lease; no safe repair approved here."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL/OPAQUE: native streaming/context support and executing shared leases; EP103/EP112 additionally FAIL for absent Ronald optional news owner."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\shared_verification_01\\tests.json",
+          "sha256": "EAEF054F1EAC1EB3ABABB6B2A7D547E9E789740E5427AC52D747BE85C930A15F"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\tests.json",
+          "sha256": "A8BF930EFE1A06DBD581602F8E44395C64F083D97A514DE071597AF8FDF74060"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\tests.json",
+          "sha256": "36E6D598CBBC23BF40BCC3FDA929B36C7FB327089D388A5EF8D89DC88F74FA4A"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\lifecycle_01\\tests.json",
+          "sha256": "C34DD9B36A38C8BBEAC04B5E6FF4213B75798C6BE836394304DB20C2380A8B5D"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\ronald_verification_02\\tests.json",
+          "sha256": "7C12108186440E5F8D8F94A228C5E48F1F80BD18D360B0DD2796A9C850421665"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\source_pins.json",
+          "sha256": "EB8FE9068244ADA89DF00BACA3CE3B6AA26E80E9A3407A3B6C78E6A54CE60E29"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\protocols.json",
+          "sha256": "F979396B5EBC0C864E641AB5ACE917E4A9ECABB6781C743D84BC37C6D1C4DAAD"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\source_pins.json",
+          "sha256": "C032D0120F9A969C46269E3D7753167D7D5D8CC4606786072C866D027EC067A1"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\journal.json",
+          "sha256": "29F2F21C59F9F4B400DB94ACF2DD29BF92D834200BD7F5607B53C1C2C941E44F"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\deep_02\\stock_applicability.json",
+          "sha256": "2F330F2877B393F5976EA7F1DFACA34420BC69371ED329BB9ECD4EB99BD73D0D"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\lifecycle_01\\journal_omissions.json",
+          "sha256": "2970BB4DFF2EBC8A2D62B53614B41A0366BCB61DCCBE21F3BE66DFD0DCAE69F6"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\ronald_verification_02\\evidence.json",
+          "sha256": "28234973623EE917C537FBD2A7B11BB8348C95F5E8B6EA49A1605C89955EF879"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\ronald_verification_02\\routes.json",
+          "sha256": "6E4D4CE8DE1B7DE7A8D1159FC0E1273DCC835628622DE1E5C635C86F75BF0C40"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\raw_exports_01\\manifest.json",
+          "sha256": "F6F61BEA9E8A7D071CD53F8629CA2DA630ED8CDE409DFE94CBD89B1805263E0F"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\shared_core.json",
+          "sha256": "97F7F30E81EA363C193138A1DE9ACE405DE6739F3FA349380417C62C0C0ABF82"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\verification_01\\handlers.json",
+          "sha256": "65BA4014FC3988C2B334A0E8714E1E7D1A10234CAA798DDA04F92C9ADD6989D1",
+          "json_pointer": "/sts_ep1_12"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\lifecycle_01\\journal_omissions.json",
+          "sha256": "2970BB4DFF2EBC8A2D62B53614B41A0366BCB61DCCBE21F3BE66DFD0DCAE69F6",
+          "json_pointer": "/sts_ep1_12"
+        }
+      ]
+    }
+  },
+  "confirmed_defects": [
+    {
+      "id": "QR5_G20_RONALD_OPTIONAL_NEWS",
+      "status": "CONFIRMED_SOURCE_DEFECT_REPAIR_BLOCKED",
+      "severity": "MEDIUM_OPTIONAL_POST_GIG_COMMUNICATIONS",
+      "quests": [
+        "sts_ep1_03",
+        "sts_ep1_12"
+      ],
+      "evidence": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\ronald_verification_02\\evidence.json",
+      "evidence_sha256": "28234973623EE917C537FBD2A7B11BB8348C95F5E8B6EA49A1605C89955EF879",
+      "runtime_changes": []
+    }
+  ],
+  "runtime_changes": []
+}

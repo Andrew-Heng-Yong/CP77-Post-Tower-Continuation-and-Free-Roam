@@ -1,0 +1,107 @@
+{
+  "status": "CANONICAL_CAR_IDENTITY_BOUND_SAVED_SETUP_STAGE_NOT_DISCRIMINATED",
+  "utc": "2026-11-04T23:42:44.868897+00:00",
+  "evidence_manifest": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\identity_01\\evidence_manifest_01.json",
+    "sha256": "0A1E1912284996C880549A8BC90F5A3FFD3E2C86B19AA53FCCBC251AB8547D6B"
+  },
+  "knowledge_pointers": [
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\docs\\knowledge\\current-state.md",
+      "sha256": "1156611063FED8AED757C0760BEAB164B00193689D3161B6C84663042F4F0578"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\docs\\knowledge\\native-saved-graph-state.md",
+      "sha256": "53A143FFE4D6FFD99D10EBA582F80143F2CDC3B440E0D359122A0A6784444BE2"
+    }
+  ],
+  "source_controls": [
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\identity_01\\entity_origin\\verification_02.json",
+      "count": 17,
+      "result": "RECORDED_PASS_INPUTS_REUSED"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\identity_01\\native_pid\\verification_01.json",
+      "count": 32,
+      "result": "RECORDED_PASS_INPUTS_REUSED"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\identity_01\\native_pid\\zero_entries_01\\verification_01.json",
+      "count": 26,
+      "result": "RECORDED_PASS_INPUTS_REUSED"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\identity_01\\vehicle_data_native\\verification_01.json",
+      "count": 14,
+      "result": "RECORDED_PASS_INPUTS_REUSED"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\identity_01\\save_inventory\\review_01\\verification_01.json",
+      "count": 27,
+      "result": "RECORDED_PASS_INPUTS_REUSED"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\identity_01\\native_pid\\flags_lifecycle_01\\verification_01.json",
+      "count": 31,
+      "result": "RECORDED_PASS_INPUTS_REUSED"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\identity_01\\review_04.json",
+      "count": 14,
+      "result": "RECORDED_PASS_INPUTS_REUSED"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\identity_01\\review_04_addendum.json",
+      "count": 5,
+      "result": "RECORDED_PASS_INPUTS_REUSED"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\identity_01\\actor_assignment\\evidence_01.json",
+      "count": 11,
+      "result": "RECORDED_PASS_INPUTS_REUSED"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\identity_01\\actor_assignment\\evidence_02.json",
+      "count": 8,
+      "result": "RECORDED_PASS_INPUTS_REUSED"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\identity_01\\actor_assignment\\evidence_03.json",
+      "count": 14,
+      "result": "RECORDED_PASS_INPUTS_REUSED"
+    }
+  ],
+  "arithmetic_controls_recorded": 12,
+  "controls_limit": "Overlapping static source and extraction controls; do not sum as quest/gameplay coverage.",
+  "restoration_complete": false,
+  "runtime_candidate": null,
+  "runtime_changes": 0,
+  "save_or_fact_writes": 0,
+  "automated_game_calls": 0,
+  "ready_human_tests": [],
+  "canonical_entity_id": "10229047",
+  "native_vehicle_component": "vehiclePersistentDataPS",
+  "canonical_native_key_u64": "17113219195054135786",
+  "nonzero_key_matches_in_pinned_body": 0,
+  "actual_loaded_body_bound": false,
+  "pending_vs_applied_setup_proven": false,
+  "unsafe_diagnostic_rejected": "GetConstAccessToPSObject permits creation/hydration/initialization; not passive.",
+  "next": "A non-replaying continuation still needs native setup/queued-event stage evidence or a source-proven route preserving both possible histories. A missing PS key is not a stage certificate; do not repeat JF01/JF02 or weaken U9/HS1.",
+  "closed": [
+    "Saved associated ID enters the native EntityID/stub namespace unchanged",
+    "Exact native PersistentID arithmetic and PS2 entry-key serialization",
+    "Canonical native vehiclePersistentDataPS component and stub lookup address",
+    "Global four-key membership and retention of all 200 native vehicle-data payloads",
+    "Native anonymous-zero filtering and matching parser semantics",
+    "Native persistence-selection flag lifecycle refutes PS absence as a setup receipt",
+    "Registered population queue and materialization parameter source trace",
+    "Const PS lookup is allocation-enabled, unsuitable for a passive diagnostic"
+  ],
+  "unresolved": [
+    "Actual historical/current visual-door and queued-event stage",
+    "Complete 16-branch startup preserve/rearm/hold design",
+    "Shared courier saved-stage and non-repeating increment contract",
+    "Exact body loaded during JF01/JF02 and current executing-owner/physical lease state"
+  ]
+}

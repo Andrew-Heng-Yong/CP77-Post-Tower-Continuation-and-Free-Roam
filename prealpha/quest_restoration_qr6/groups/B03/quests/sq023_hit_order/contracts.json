@@ -1,0 +1,279 @@
+{
+  "quest_id": "sq023_hit_order",
+  "title": "Sinnerman",
+  "source_epoch": "QR6:00 = QR5:08 exact effective bytes",
+  "fully_static_verified": false,
+  "effective_resources": [
+    {
+      "depot": "towercontinued\\fixer_offices_fo1\\wakako.questphase",
+      "sha256": "2DD591E0CC81FC058398C5A58C8DD4AF0E3918A9630931AA18B99606E24A7D1C"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\entries\\sq023_hit_order.questphase",
+      "sha256": "09D7EEAF1EA143A52A9A5BE458621162AC22140224839DAFB2E083BFF619D302"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq023\\phases\\sq023_aftermath.questphase",
+      "sha256": "69EBDF068A18CE0C88776F112CA87694551B2DE03D0F36530FF49359EFD62AC8"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq023\\phases\\sq023_bd_studio.questphase",
+      "sha256": "917D4C158DA62BF77C2124483751186A15138C9A9E4F1F0C21B05F3DE4F77790"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq023\\phases\\sq023_carchase_traffic.questphase",
+      "sha256": "44780694851DFFE7F6542EAFFBCC6CD80491D8276A610E9BD3145D273B09A137"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq023\\phases\\sq023_cleanup.questphase",
+      "sha256": "3F2BEC64A65F6DA35FE3ABD1B5C17ECF03028023A27E4D2DDF9C2B77C7659693"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq023\\phases\\sq023_cleanup_aftermath.questphase",
+      "sha256": "D2A4E78AFC9E9B48FD94ECBA894BBD25135252D5919476425942993C71E80402"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq023\\phases\\sq023_fail_cleanup.questphase",
+      "sha256": "82A68E414B50434A6F8E8A1AB88070C231D16D7E7D60DF7AE5C97AEA00A697BE"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq023\\phases\\sq023_flux_capacitor.questphase",
+      "sha256": "94E62B185D0F696DE3EC731621EED674E8B675ED633E60612A5488ED941FED67"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq023\\phases\\sq023_glorias_house.questphase",
+      "sha256": "7F4592987502EFD6D4098D41EF9AF0F91FC3A83016A0672CCD4A89EB9F8A67DD"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq023\\phases\\sq023_hook.questphase",
+      "sha256": "3CC9BD10A2092B25BEB6DAE1EDF1FFFE2CDD32DEF06F31B827DF004284A812DF"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq023\\phases\\sq023_quest_ends_cleanup.questphase",
+      "sha256": "1069BD01AF0CC5127EAAC3EDE09CFD0144EFD43AD14EC1A5CD16E9CE365FBCA6"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq023\\phases\\sq023_restaurant.questphase",
+      "sha256": "49D492AA3D7AC9AA9F0B847A299085982037E11C364225016DC70576DBB30D94"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq023\\phases\\sq023_ride_to_gloria.questphase",
+      "sha256": "DAD782736B74827ED973A59A982D56C7AADCA6CEE31EDE0DBCABBB81635295B7"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq023\\phases\\sq023_ride_to_restaurant.questphase",
+      "sha256": "6731E22AFB6CFE76020149ABB5BE2EBFDD6859D1AC82F2925C43A1A65A94C51F"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq023\\phases\\sq023_time_control.questphase",
+      "sha256": "77421A0BD569D105519A38804EDC613C55EC62C22982EE6C3B8FDE9D8FB282D2"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq023\\scenes\\sq023_01_hook.scene",
+      "sha256": "6CB236E6708C5A23E1D93022D9E5D7F1CB8BF1AC34333CC86FACE115879A88D3"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq023\\scenes\\sq023_02_ride_gloria.scene",
+      "sha256": "19148C96204F018064F7D74312DCA2A83896D19E465762C6963DE45D16AF0F79"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq023\\scenes\\sq023_03_call.scene",
+      "sha256": "B51769799EE10411804E2279A8D10F20F792139001E98E0FEF4787A17713D330"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq023\\scenes\\sq023_04_glorias_house.scene",
+      "sha256": "8B041F1567C6C7BD69C2E7570A1E11117C8DAD1215FA202611D6F59BEF78DA69"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq023\\scenes\\sq023_07_restaurant.scene",
+      "sha256": "CB9EB11731A3423B4E4CC781A5EF835966D5BA245114E68AB2452031C57B4CF7"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq023\\scenes\\sq023_10_bd_studio.scene",
+      "sha256": "27E98AACF9A0F41E8D6EC286A782C58F59D3767BE6F2A633949922A54929F144"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq023\\scenes\\sq023_11_01a_after_chase.scene",
+      "sha256": "6A8E004825CC0B27B9D578AA5F196596D66EBA011557E5EC813E0ABF5A7A15E1"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq023\\scenes\\sq023_11_protesters_chats.scene",
+      "sha256": "062F8E9FFE2DF7FAD8EBD5CDCE3EB5F7C21575CCC848A64D70038AEF20C3247E"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq023\\sq023.questphase",
+      "sha256": "66524F7BDD0D698F8507EC724B6E48FDE231B262B1793406FAF9292F572B60BC"
+    }
+  ],
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "One S29 sq023_hit_order owner covers all3selected SQ023 journals; no separate downstream fresh controllers. Actual original sidequests parent chain31 q101_enable_side_content>0→42 q104_done>=1→160deletionmarker→158 q104_done>0→159 SideQuest_Standalone→59.In1 is retained, with only65006 before59 and59.Out1→65007."
+      ],
+      "approved_differences": [
+        "Existing post-Tower narrow fresh entry/explicit private depot relocation and approved Johnny voice-only adaptations; native outcomes and saved IDs retained."
+      ],
+      "remaining": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\script_pins.json"
+      ]
+    },
+    "eligibility": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Current186history fresh guard covers original SQ023chain journals/contact messages and listed native progress0 predicates; actual q104 completion, side-content and SideQuest_Standalone token remain original. Completed/failed/partially progressed chain histories refuse rather than replay. No native Joshua doubt, Bill fate, bribe or earlier choice is fabricated."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "No gameplay/saved-owner/save-transition, effective TDB override winner or opaque world placement certification; exact stated stage boundary remains."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\script_pins.json"
+      ]
+    },
+    "communications": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native hook/root431 retains Wakako incoming/outgoing queue interactions, q105_wakako_holocall_active0 waiting and real scene callback paths. Raw request nodes91/101 without incoming edges are explicitly inventoried as unconnected native helpers, not proof they execute. Actual private scene side effects and whole native controller binding remain exact; Rachel specialized initializer83 and U9 master cleanup1255→1210→1211.In47→1300 are separately verified for later chain calls."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "No gameplay/saved-owner/save-transition, effective TDB override winner or opaque world placement certification; exact stated stage boundary remains."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\script_pins.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Exact whole SQ023 body retains#sq023_pr_chase and nested original car/traffic/scene PIP owners; original sidequests belongs to genuinely retired main ancestry. One issued S29 receipt protects all3journals; no extra Bill/Joshua/Gloria/restaurant owner is imported. Saved original owner/scene liveness is not proved by source retirement alone."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "No gameplay/saved-owner/save-transition, effective TDB override winner or opaque world placement certification; exact stated stage boundary remains."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\script_pins.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "All original SQ023root and phase node payloads/socket edges/predicates match after explicit private depot relocation: native12hook→13rideGloria→15Gloria→32rideRestaurant→33restaurant→34studio. Bill/crash/Joshua failure ports route87failcleanup; hookquest_ends/root100 and josh_killed/root110 remain distinct. No missingbranch or arbitrary fallback added."
+      ],
+      "approved_differences": [],
+      "remaining": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\script_pins.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Original car/traffic/community actors, Bill/Joshua/Vasquez/Rachel/Gloria scene bindings, workspots/cameras and chase prefab are retained. Johnny-only presentation events/props/workspots follow existing R4 voice-only adaptation; scene callback graphs, screenplay and native fact/journal effects compare exact. Streamed actor/traffic/vehicle placement remains opaque/live."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "No gameplay/saved-owner/save-transition, effective TDB override winner or opaque world placement certification; exact stated stage boundary remains."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\script_pins.json"
+      ]
+    },
+    "journal": {
+      "status": "PASS",
+      "proven": [
+        "Sinnerman hook stop-car/join-Joshua/Bill waits and exact success/failure journal paths remain source authored. Hook571 reads stop_carSucceeded and572 join_joshuaSucceeded; native actual scene callbacks drive objectives, not private entry.186fresh paths preserve prior outcomes and include downstream chain rather than resetting them."
+      ],
+      "approved_differences": [],
+      "remaining": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\script_pins.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native hook537 reward99366973171 and distinct bribe outcome root487/6 reward142645533156 retain exact routes; obsolete unconnected root486/20 is not claimed as executing reward. Native failure87 and quest-end100 cleanup converge108checkpoint→1Terminating. No duplicate quest entry or reward added. Actual reward transactions/record overrides and interrupted cleanup remain live."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "No gameplay/saved-owner/save-transition, effective TDB override winner or opaque world placement certification; exact stated stage boundary remains."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\script_pins.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "All saved original/root/nested IDs and S29receipt fields remain exact. Singlefreshchain admission protects history across3selectedjobs; existing progressed/issued states defer without arbitrary resumestart or reward replay. Old native main-tree termination, timers/scene-owner persistence and future save transitions still require fixtures."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "No gameplay/saved-owner/save-transition, effective TDB override winner or opaque world placement certification; exact stated stage boundary remains."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\script_pins.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Shared native dependencies include SideQuest_Standalone, real q104/q105Wakako arbitration, exact chase traffic/bodyprefab, current U9 Wakako listener/cleanup, PH3 studios and later Rachel specialized owner. Exact later chain paths are independently reviewed per journal below; shared source is not counted as three separately restored controllers."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "No gameplay/saved-owner/save-transition, effective TDB override winner or opaque world placement certification; exact stated stage boundary remains."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\script_pins.json"
+      ]
+    }
+  },
+  "confirmed_defects": [],
+  "runtime_changes": [],
+  "ownership_group": "SQ023_SHARED_CHAIN"
+}

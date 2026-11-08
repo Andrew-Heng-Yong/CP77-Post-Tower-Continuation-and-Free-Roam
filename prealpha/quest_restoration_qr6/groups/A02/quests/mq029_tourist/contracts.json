@@ -1,0 +1,185 @@
+{
+  "quest_id": "mq029_tourist",
+  "title": "The Highwayman",
+  "source_epoch": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\source_epoch_08.json",
+  "source_epoch_sha256": "B8BC8D6630F51E07125789FAB5A54D188EB45CE7044F35E2E6F09DE460B91D83",
+  "fully_static_verified": false,
+  "effective_resource": "towercontinued\\sidejobs_s28\\vehicles\\mq029_tourist_entry.questphase",
+  "effective_resource_sha256": "9BF35E539B36AB1D46BACB75B610A60A57531AF380561E7CC18A8F6C56140390",
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Current S28 wrapper100 retains exact original minorquests26 main reference payload redirected only to private native ancestor. The actual9edge recipe is reproduced; one-real-second retry3→condition4→Issued5→Entered6→100.In1→Finished101 is preserved.",
+        "The original main setup9 fans into garage10,James11,Josie13 and stolen-bike14 with logicalAND16 completion; a new parallel shortcut or forced garage/bike entry is not substituted."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\quest_evidence.json"
+      ],
+      "remaining": [
+        "Runtime registration/world acquisition and original saved owner retirement remain conditional."
+      ],
+      "approved_differences": [
+        "Private exact ancestor rehost plus read-only unowned-vehicle guard and R4 Johnny workspot adapters."
+      ]
+    },
+    "eligibility": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Current condition4 preserves32Inactive journal paths, eight exact local progress facts0, unused private receipts and genuine Tower/Permit. Typed player-context PTFRS28HighwaymanVehicleUnownedPrereq and native vehicle-availability NOR protect Vehicle.v_sportbike2_arch_tyger_player entitlement.",
+        "Actual current script fails closed for missing/replacer/nonlocal player or vehicle system and tests !IsVehiclePlayerUnlocked for the exact reward vehicle. Prior owned bike or unknown engine context does not receive a duplicate grant."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\quest_evidence.json"
+      ],
+      "remaining": [
+        "Actual runtime vehicle entitlement and original saved-world owner liveness remain engine-dependent; unknown facts/history are not manufactured."
+      ],
+      "approved_differences": []
+    },
+    "communications": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Complete source-specific native/private body census found no generic positive holo/audio producer. James/garage/Josie scenes, device/password/photo and clue events are actual local mechanisms retained in the full graph inventory.",
+        "No character-name heuristic is used to invent a missing phone listener; all native typed journal and event operations remain intact."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\quest_evidence.json"
+      ],
+      "remaining": [
+        "Local scene/event/interaction delivery remains live-only; exact absence of generic producers does not certify every engine service."
+      ],
+      "approved_differences": []
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Original main root#mq029_dakotas_workshop and child garage/James/Josie/metro/stolen-bike PIPs are preserved. Exact setup fan-out and four-way AND16 join retain native ownership and output ordering.",
+        "S28 only replaces ancestors directly referencing the two approved Johnny scene adapters; all other native phase references and local scopes remain original. No actor presence is used as old-owner retirement proof."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\quest_evidence.json"
+      ],
+      "remaining": [
+        "Native saved setup/garage/James/body/bike and world/community leases remain unobserved; no unsafe second owner/restart is proposed."
+      ],
+      "approved_differences": []
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "All modified Highwayman scene/phase resources compare to native after only exact reference replacements and two specific Johnny workspot conversions. Native garage discovery/note/photo, James lie/hostile/confrontation, Josie corpse and stolen-bike branches remain distinct.",
+        "Stolen-bike native13 enables exact reward vehicle only after original trigger2→nested prologue-stage17→13→spawn14→bike_found7→checkpoint6→output10; main four-wayAND16 still precedes questSucceeded15."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\quest_evidence.json"
+      ],
+      "remaining": [
+        "Structural proof does not certify physical keypad/marker/terminal/corpse interaction or engine vehicle grant."
+      ],
+      "approved_differences": []
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Two source-confirmed R4 world workspot commands28garage and19Josie become dedicated scene instance65000/data4282800001 at original#mq029_ws_johhny_josie_garage and#mq029_ws_johnny_find_josie, with unchanged original actor command fields and muted private workspots.",
+        "All original dialogue, scene nodes/edges, player clue props, native camera and non-Johnny fields remain exact after that explicit transformation."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\quest_evidence.json"
+      ],
+      "remaining": [
+        "Original world marker placement/loading, independent props and actual voice-only Johnny/workspot/camera rendering remain opaque/live-only."
+      ],
+      "approved_differences": []
+    },
+    "journal": {
+      "status": "PASS",
+      "proven": [
+        "Every native original objective/mappin payload is retained, including James/confront/find-body/find-garage/bike and photo paths. Native main23 waits actual confront-journalSucceeded before19find_bikeActive;21then tests genuine bike_found before22Succeeded.",
+        "Four native child outputs still join16 before15rootSucceeded→17output. No journal enum is reset to bypass original investigation."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\quest_evidence.json"
+      ],
+      "remaining": [
+        "Journal/UI/save atomicity and physical clue callbacks remain engine-dependent."
+      ],
+      "approved_differences": []
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native stolen-bike grant13 is questEnablePlayerVehicle(enable1,despawn1,makeActive1) for Vehicle.v_sportbike2_arch_tyger_player, followed by original actor/spawn cleanup14, factual bike_found7 and checkpoint6. Completion waits all four native investigation branches.",
+        "Current admission separately refuses existing vehicle entitlement using actual typed runtime predicate and preserves all choices/history. No forced bike spawn, completion or new reward is added."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\quest_evidence.json"
+      ],
+      "remaining": [
+        "Effective vehicle TweakDB descendants/override winner, actual world/save cleanup and grant atomicity require further evidence."
+      ],
+      "approved_differences": []
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Original main/child graph IDs, resource paths and once receipts remain exact current bytes. The two private workspot65000IDs are local scene instances, not new global generated phase IDs, and remain unchanged.",
+        "Current unsupported partial/owned/completed histories defer; no garage/James/bike/photo fact or journal is reset."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\quest_evidence.json"
+      ],
+      "remaining": [
+        "Future save transitions, existing in-flight clue/actor/device/vehicle ownership and external mod state remain untested."
+      ],
+      "approved_differences": []
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native Dakota workshop, James/body/garage/bike scopes, prologue journal stage checks and exact vehicle-system prerequisite are explicit dependencies. No fixer call or paid reward substitute is inferred from quest title.",
+        "Only direct ancestor references to the two R4 scenes are private; native unaffected branch resources remain pinned providers."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\quest_evidence.json"
+      ],
+      "remaining": [
+        "World marker/actor/shared vehicle-system state and effective TweakDB winner remain conditional/opaque."
+      ],
+      "approved_differences": []
+    }
+  },
+  "confirmed_defects": [],
+  "runtime_changes": []
+}

@@ -1,0 +1,22 @@
+{
+  "status": "PASS_QR19_REVIEWED_TRANSACTION_DELTA",
+  "predecessor_installer_sha256": "D93DC0001B2B5CC1751BE4CB9DE3DF4A3E92EF93F252CFB407411161238AA17B",
+  "installer_sha256": "4B320A14E4B404E4FBAEDF33FC0B296243EF866191586B75846AADD0134BB61B",
+  "manifest_sha256": "AC73C58689393CB9C1E89E19AE5D485602D7ADB7923659EAE93F8B3E58C5BE14",
+  "allowed_replacements": [
+    "archive/pc/mod/zzzz_PTFR_Combined.archive",
+    "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS29.reds"
+  ],
+  "exact_verified_zip": "CBED68B9868EDDD5A3F097DBD45F4D6A48E0C7E51327A5DCF975B41FB733521E",
+  "engine_delta": [
+    "# QR19 deployment. Real mutations require authorization. Fixtures stay under this task.",
+    "# Derived from the QR18 transaction. Only two existing Core files may change.",
+    "$PinnedCoreManifestSHA='AC73C58689393CB9C1E89E19AE5D485602D7ADB7923659EAE93F8B3E58C5BE14'",
+    "PTFR_QR19_JOURNAL_V1",
+    "'PTFR_QR19_CORE_V1'",
+    "$manifest.source_epoch -cne 'QR19' -or $manifest.predecessor_epoch -cne 'QR18'",
+    "('recovery/core_qr19_01')",
+    "'r6/scripts/PTFR_Consolidated/PTFR_SideJobsS29.reds'"
+  ],
+  "review_scope": "Identity, two-file allowlist and recovery namespace only. Locks, containment, journal, write path, process guard and recovery are inherited."
+}

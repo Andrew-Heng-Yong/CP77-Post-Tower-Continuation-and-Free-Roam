@@ -1,0 +1,22 @@
+{
+  "status": "JF02_ASSESSED_NO_READY_MANUAL_TEST_REPAIR_UNIMPLEMENTED",
+  "result": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\observations\\jf02_01\\result.json",
+    "sha256": "B0B885EE13D273A5283B4D884B3EB265D90DE4ACB12B4EEE26A3F2B3FCAB42CC"
+  },
+  "report": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\observations\\jf02_01\\REPORT.md",
+    "sha256": "E02F040ACDD1A5165306365735D292359B82A1C688A2242F222B557ECF098569"
+  },
+  "handoff": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\observations\\jf02_01\\HANDOFF.md",
+    "sha256": "2DC387CC65C9903F3406A1F54C9487864195AA733A2EBEEBAA925CDE3155E3D5"
+  },
+  "preserved_installed_hashes": 77,
+  "preserved_original_save_hashes": 6,
+  "ready_human_tests": [],
+  "runtime_candidate": null,
+  "runtime_changes": 0,
+  "restoration_complete": false,
+  "next": "No repeat JF01/JF02 or general scalar snapshot. Remaining repair work is the source-supported car/prefab lifecycle and full startup disposition; no runtime bypass is justified."
+}

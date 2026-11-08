@@ -1,0 +1,99 @@
+{
+  "id": 1108,
+  "native_prefab": "$/03_night_city/c_pacifica/combat_zone_prefabUEX7DCY/hillpark_prefabUSVYBBQ/loc_q303_hill_park_spa_prefabZEWHEAA/#loc_q303_hill_park_spa_openworld",
+  "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\ep1\\quest_1aa164f3a67b057d.streamingsector",
+  "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\ep1_prefab_native_03\\ep1_1_nightcity.archive\\base\\worlds\\03_night_city\\_compiled\\default\\ep1\\quest_1aa164f3a67b057d.streamingsector",
+  "sector_sha256": "BEEC107F99651FB83334CD5774FE2D96B01E7574BB41F5057541DC5EF5EDF998",
+  "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\ep1_prefab_decoded_01\\base\\worlds\\03_night_city\\_compiled\\default\\ep1\\quest_1aa164f3a67b057d.streamingsector.json",
+  "native_block_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\ep1_block_native_01\\ep1_1_nightcity.archive\\base\\worlds\\03_night_city\\_compiled\\default\\ep1\\blocks\\all.streamingblock",
+  "native_block_sha256": "4F17762B48D9F5019228B1BF930558A9CC1E7C365E7002725D670A23585215B9",
+  "native_descriptor_index": 1852,
+  "native_descriptor": {
+    "$type": "worldStreamingSectorDescriptor",
+    "blockIndex": {
+      "$type": "worldStreamingBlockIndex",
+      "oup": "EP1",
+      "rldGridCell": 0
+    },
+    "category": "Quest",
+    "data": {
+      "DepotPath": {
+        "$type": "ResourcePath",
+        "$storage": "string",
+        "$value": "base\\worlds\\03_night_city\\_compiled\\default\\ep1\\quest_1aa164f3a67b057d.streamingsector"
+      },
+      "Flags": "Soft"
+    },
+    "level": 0,
+    "numNodeRanges": 1,
+    "questPrefabNodeRef": {
+      "$type": "NodeRef",
+      "$storage": "string",
+      "$value": "$/03_night_city/c_pacifica/combat_zone_prefabUEX7DCY/hillpark_prefabUSVYBBQ/loc_q303_hill_park_spa_prefabZEWHEAA/#loc_q303_hill_park_spa_openworld"
+    },
+    "streamingBox": {
+      "$type": "Box",
+      "Max": {
+        "$type": "Vector4",
+        "W": 3.40282347e+38,
+        "X": 3.40282347e+38,
+        "Y": 3.40282347e+38,
+        "Z": 3.40282347e+38
+      },
+      "Min": {
+        "$type": "Vector4",
+        "W": -3.40282347e+38,
+        "X": -3.40282347e+38,
+        "Y": -3.40282347e+38,
+        "Z": -3.40282347e+38
+      }
+    },
+    "variants": []
+  },
+  "drop_nodes": [
+    70
+  ],
+  "drop_types": [
+    "worldTriggerAreaNode"
+  ],
+  "drop_placements": [
+    70
+  ],
+  "retained_nodes": 70,
+  "preserve_ai_spots": 61,
+  "preserve_disabled_preview_spawners": 0,
+  "remaining_references_to_removed": [],
+  "removed_quest_trigger_refs": [
+    "$/03_night_city/c_pacifica/combat_zone_prefabUEX7DCY/hillpark_prefabUSVYBBQ/loc_q303_hill_park_spa_prefabZEWHEAA/#loc_q303_hill_park_spa_openworld/#q303_tr_hill_park_spa_respawn"
+  ],
+  "retained_types": {
+    "worldAISpotNode": 61,
+    "worldInterestingConversationsAreaNode": 6,
+    "worldPatrolSplineNode": 3
+  },
+  "reason": "Retain exact passive NPCworkspots/guard/patrol support; omit native quest encounter/stage/respawn triggernotifiers, so rehost cannotnotify survivingquestowners. No retainedpayload depends on removedtargets. HighPeak additionallyomits12lore/thanksconversations+2attractors.",
+  "checks": [
+    {
+      "name": "retained native workspots",
+      "pass": true
+    },
+    {
+      "name": "no retained ref to removed node",
+      "pass": true
+    },
+    {
+      "name": "no population/device entity nodes in retained",
+      "pass": true
+    },
+    {
+      "name": "all removed trigger nodes carry Quest notifier",
+      "pass": true
+    },
+    {
+      "name": "no retained raw questtrigger nodes",
+      "pass": true
+    }
+  ],
+  "game_writes": 0,
+  "save_writes": 0
+}

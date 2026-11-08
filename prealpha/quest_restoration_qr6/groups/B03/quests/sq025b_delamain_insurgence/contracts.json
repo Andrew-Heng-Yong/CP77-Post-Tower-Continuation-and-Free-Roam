@@ -1,0 +1,231 @@
+{
+  "quest_id": "sq025b_delamain_insurgence",
+  "title": "Don't Lose Your Mind",
+  "source_epoch": "QR6:00 = QR5:08 exact effective bytes",
+  "fully_static_verified": false,
+  "effective_resources": [
+    {
+      "depot": "towercontinued\\sidejobs_s25\\families\\sq025_fresh.questphase",
+      "sha256": "8009B1F1E528005A50B36FB38FA7D1BCB4F26BE46275558B3DBF1D808E44701B"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\entries\\sq025b_delamain_insurgence.questphase",
+      "sha256": "01259BE401895022B7121FFF9F1636787C177F03E45E94F723A48A925BF70B19"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq025\\phases\\sq025_05_resurgence.questphase",
+      "sha256": "C4A6107F4CBDDF6CB6AD4CEF82E86A8403DCE1A08AB516FACC9DAE2437B0B652"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq025\\phases\\sq025_05a_messages.questphase",
+      "sha256": "F3C0FF59D54C65872954100185745141F96DA25F6E7F96DA3B84F525A08D5EC2"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq025\\phases\\sq025_06_backoffice.questphase",
+      "sha256": "B60338037491C3DB9384917DB020DAB7D43E8944E4886B83D594BCB902F82C82"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq025\\phases\\sq025_07_workshop.questphase",
+      "sha256": "38F3FE27EA4D4B9E8A7239D9B0232A35CF35211D3EC59AD6297A12758B74EFF4"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq025\\phases\\sq025_07_workshop_gameplay.questphase",
+      "sha256": "53E38FDD6E4A93FBFA2F767D4C72481514A11E7454BEDAF64C8C8B8336DC6399"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq025\\phases\\sq025_08_core.questphase",
+      "sha256": "8E987DB7BAB91FECF54FC08FCBC20BD01AB4F62CBE45124C97EB6A8366D6AD07"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq025\\scenes\\sq025_07_resurgence.scene",
+      "sha256": "45D2F02D0887C6BFDBCC35B2131E2A8A5C74259E9CDA4219E6FCE9C3A7AD16A7"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq025\\scenes\\sq025_08_backoffice.scene",
+      "sha256": "F3C1273F2759EBEC58907911F3E61D709257D523ACFEF75DE025F5E7ED926182"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq025\\scenes\\sq025_09_labyrinth.scene",
+      "sha256": "A1408CC9C737F568F8009753488C1E88296D8C562182E1AD2A99363553FBBA29"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq025\\scenes\\sq025_10_resolution.scene",
+      "sha256": "9FE4A265A8066594CD8800CE761B3CD242E8533D498CA63F1346EDCB67A9B6A0"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq025\\sq025.questphase",
+      "sha256": "BC33583B745B6E34611B9F7C7C8247BED9F6F3F20871D4CFB2AA77F61AF8A3AB"
+    }
+  ],
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Current S29wrapper64000 invokes a narrowed original SQ025body at newinput65000→native134messages.In1, then original134.continue→80resurgence→81backoffice→82workshop→83core. Eighteen retained native root nodes and ten retained nestedgraphs are exact; scan79 and return/reward124 are excluded. Epistrophy setup/reward is not replayed."
+      ],
+      "approved_differences": [
+        "Existing post-Tower narrow fresh entry/explicit private depot relocation and approved Johnny voice-only adaptations; native outcomes and saved IDs retained."
+      ],
+      "remaining": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\script_pins.json"
+      ]
+    },
+    "eligibility": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Guard65003/4 requires exact218history predicates, original Epistrophy rootSucceeded, five relevant native resurgence/deep/fate progressfacts0 and real PTFRS22_SQ025_SupportIssued1. Native message choices/timers, actual garage/backoffice/core and outcome prerequisites remain unchanged. Existing contacted/message/partial states defer; rejected broad Delamain admission and counter reset are not retried."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "No gameplay/saved-owner/save-transition, effective TDB override winner or opaque world placement certification; exact stated stage boundary remains."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\script_pins.json"
+      ]
+    },
+    "communications": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native messages0→41debugFalse→55→53fourgamehours→54contentunblocked→67, then real selected SMS choices14/15/9 and24–27 Succeeded callbacks are preserved. Native resurgence63/65 onegameday waits and actual incoming/outgoing Delamain scene protocols remain original. Current specialized initializer51 equals native; real ACK scene41/42/43/44 and U9cleanup700True→701In12→800 are verified. Existing S25 persistent phone can be adopted only through current private receipt path, without replay/reset."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "No gameplay/saved-owner/save-transition, effective TDB override winner or opaque world placement certification; exact stated stage boundary remains."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\script_pins.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "The narrowed body preserves original resource/node identities and all retained nested110/26 cleanup plus161state owner. Native whole root has no root prefab; resurgence/backoffice/workshop/core retain their exact original scoped prefab obligations. S29phone and S22support both share the sameSupportIssued latch/fresh fences; saved S25owner recognition is distinct from starting another listener. Actual old-owner liveness still needs fixtures."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "No gameplay/saved-owner/save-transition, effective TDB override winner or opaque world placement certification; exact stated stage boundary remains."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\script_pins.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "All18retained original root payloads and ten nested graphs are exact, with only input65000.Out→134.In1 added and other originalroot sections excluded. Full native descendants preserve traffic/race/River-suspend AND/OR conditions, real call waits, maze/core outcomes and actual reset/merge/destroy choice branches. No synthetic facts, forced doors or fakeACK added."
+      ],
+      "approved_differences": [],
+      "remaining": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\script_pins.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Exact original garage/workshop/core/resurgence actors, prefabs, terminals, scene markers/cameras/workspots and dedicated car references remain. Johnny-only scene/workspot presentation adaptations retain callback graphs/dialogue/gameplay effects; the Delamain holocall uses PH3shared studios. Streamed placement, independent props, car delivery and actual scene acquisition remain live/opaque."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "No gameplay/saved-owner/save-transition, effective TDB override winner or opaque world placement certification; exact stated stage boundary remains."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\script_pins.json"
+      ]
+    },
+    "journal": {
+      "status": "PASS",
+      "proven": [
+        "Exact original insurgency root/objectives/pins, SMS choices and terminal journal writers remain source-authored. Epistrophy root is requiredSucceeded and retained, never reset; prior scan reward/journal path is outside copied root. Real selected phone choices and native stage outputs alone advance insurgency objectives."
+      ],
+      "approved_differences": [],
+      "remaining": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\script_pins.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native terminal83→126active0→127done1→150airtraffic0→139/128/137restrictions→129checkpoint→110cleanup→130clean1→131checkpoint→86 remains exact. Core native merge/reset/destroy and resulting car/reward outcomes remain distinct; excluded earlier scan reward124 is absent. Actual reward/car/record transactions and cleanup/reload remain untested."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "No gameplay/saved-owner/save-transition, effective TDB override winner or opaque world placement certification; exact stated stage boundary remains."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\script_pins.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "All retained body/nested resource/node/field IDs and private S29/S22receipt identities remain exact; current218history/positiveEpistrophy guard refuses unsupported pending message/partial-owner states. Current AdoptS25DelamainPhone requires S25Issued1/Finished1/Fault0 and only sets missing privateSupportIssued once. No native counter/ACK/history reset, old owner restart or previously rejected admission widening is implemented."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "No gameplay/saved-owner/save-transition, effective TDB override winner or opaque world placement certification; exact stated stage boundary remains."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\script_pins.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Exact shared dependencies include earned Epistrophy completion, original scan-result messages, S22/S25 persistent Delamain phone ownership arbitration, real request/ACK/cleanup protocol, PH3studios, race/River interruption predicates and all native maze/car/reward cleanup. Prior saved-owner/phone counter ambiguity remains unresolved rather than erased; no synthetic reset or blanket static success claim."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "No gameplay/saved-owner/save-transition, effective TDB override winner or opaque world placement certification; exact stated stage boundary remains."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B03\\verification_02\\script_pins.json"
+      ]
+    }
+  },
+  "confirmed_defects": [],
+  "runtime_changes": [],
+  "ownership_group": "SQ025_POSTSCAN_ONLY"
+}

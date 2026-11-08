@@ -1,0 +1,539 @@
+{
+  "Roads": {
+    "writer08": {
+      "$type": "questFactsDBManagerNodeDefinition",
+      "id": 11,
+      "type": {
+        "$type": "questSetVar_NodeType",
+        "factName": "wst_ep1_08_active",
+        "setExactValue": 1,
+        "value": 1
+      }
+    },
+    "writer09": {
+      "$type": "questFactsDBManagerNodeDefinition",
+      "id": 14,
+      "type": {
+        "$type": "questSetVar_NodeType",
+        "factName": "wst_ep1_09_active",
+        "setExactValue": 1,
+        "value": 1
+      }
+    },
+    "current_wst09_resource": "towercontinued\\sidejobs_s29\\entries\\wst_ep1_09.questphase",
+    "catalogue_matches": [
+      {
+        "id": "wst_ep1_09",
+        "title": "One Way or Another",
+        "category": "side_and_minor_jobs",
+        "selection": "INCLUDE",
+        "status": "IDENTITY_CORRELATED_DEEP_CONTRACTS_PENDING",
+        "vanilla_candidates": [
+          "ep1\\openworld\\community\\boulevard_av\\boulevard_av.questphase",
+          "ep1\\openworld\\community\\ep1_community.questphase",
+          "ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase"
+        ],
+        "restored_candidates": [
+          "towercontinued\\sidejobs_s29\\entries\\wst_ep1_09.questphase",
+          "towercontinued\\sidejobs_s29\\native\\ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase"
+        ],
+        "dependencies": [
+          "towercontinued\\sidejobs_s29\\entries\\wst_ep1_09.questphase",
+          "towercontinued\\sidejobs_s29\\native\\ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase"
+        ],
+        "contracts": {
+          "entry": {
+            "status": "IDENTITY_CORRELATED_ONLY",
+            "evidence": [
+              "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr1\\identity_resolution_02.json",
+              "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr1\\admission_guard_checks_01.json"
+            ]
+          },
+          "eligibility": {
+            "status": "PARTIAL_SYMBOLIC_CHECK",
+            "evidence": [
+              "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr1\\identity_resolution_02.json",
+              "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr1\\admission_guard_checks_01.json"
+            ]
+          },
+          "communications": {
+            "status": "TOPOLOGY_PRESENT_PROTOCOL_LIFECYCLE_PENDING",
+            "evidence": [
+              "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr1\\identity_resolution_02.json",
+              "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr1\\admission_guard_checks_01.json"
+            ]
+          },
+          "ownership": {
+            "status": "NATIVE_AND_SAVED_OWNER_REVIEW_PENDING",
+            "evidence": [
+              "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr1\\identity_resolution_02.json",
+              "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr1\\admission_guard_checks_01.json"
+            ]
+          },
+          "progression": {
+            "status": "FULL_NATIVE_PARITY_PENDING",
+            "evidence": [
+              "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr1\\identity_resolution_02.json",
+              "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr1\\admission_guard_checks_01.json"
+            ]
+          },
+          "presentation": {
+            "status": "ASSET_SEMANTICS_PENDING_OPAQUE_LIMITS",
+            "evidence": [
+              "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr1\\identity_resolution_02.json",
+              "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr1\\admission_guard_checks_01.json"
+            ]
+          },
+          "journal": {
+            "status": "FULL_TRANSITION_PARITY_PENDING",
+            "evidence": [
+              "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr1\\identity_resolution_02.json",
+              "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr1\\admission_guard_checks_01.json"
+            ]
+          },
+          "completion_rewards_cleanup": {
+            "status": "OUTCOMES_REWARDS_EXIT_REVIEW_PENDING",
+            "evidence": [
+              "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr1\\identity_resolution_02.json",
+              "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr1\\admission_guard_checks_01.json"
+            ]
+          },
+          "persistence": {
+            "status": "IDENTITIES_PRESERVED_RELATIVE_PH3_LIVENESS_LIVE_ONLY",
+            "evidence": [
+              "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr1\\identity_resolution_02.json",
+              "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr1\\admission_guard_checks_01.json"
+            ]
+          },
+          "shared_dependencies": {
+            "status": "EXISTING_SHARED_LIFETIMES_PENDING",
+            "evidence": [
+              "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr1\\identity_resolution_02.json",
+              "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr1\\admission_guard_checks_01.json"
+            ]
+          }
+        },
+        "prior_audit_stages": [
+          {
+            "quest_id": "wst_ep1_09",
+            "stage": "entry",
+            "status": "CONDITIONAL",
+            "reason": "Native route/owner constraints retained; condition feasibility and exact stage admission not proved",
+            "private_roots": [
+              "towercontinued\\sidejobs_s29\\entries\\wst_ep1_09.questphase",
+              "towercontinued\\sidejobs_s29\\native\\ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase"
+            ],
+            "native_roots": [
+              "ep1\\openworld\\community\\boulevard_av\\boulevard_av.questphase",
+              "ep1\\openworld\\community\\ep1_community.questphase",
+              "ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase"
+            ],
+            "findings": [],
+            "mapped_resources": 2,
+            "unknown_resources": 1
+          },
+          {
+            "quest_id": "wst_ep1_09",
+            "stage": "phone",
+            "status": "CONDITIONAL",
+            "reason": "Active MAY-closure request/listener/ack presence; listener admission, UI and playback remain unproved",
+            "private_roots": [
+              "towercontinued\\sidejobs_s29\\entries\\wst_ep1_09.questphase",
+              "towercontinued\\sidejobs_s29\\native\\ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase"
+            ],
+            "native_roots": [
+              "ep1\\openworld\\community\\boulevard_av\\boulevard_av.questphase",
+              "ep1\\openworld\\community\\ep1_community.questphase",
+              "ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase"
+            ],
+            "findings": [],
+            "mapped_resources": 2,
+            "unknown_resources": 1
+          },
+          {
+            "quest_id": "wst_ep1_09",
+            "stage": "sms",
+            "status": "UNKNOWN",
+            "reason": "Normalized direct-root comparisons; no reward execution/delivery claim; missing comparisons prohibit PASS",
+            "private_roots": [
+              "towercontinued\\sidejobs_s29\\entries\\wst_ep1_09.questphase",
+              "towercontinued\\sidejobs_s29\\native\\ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase"
+            ],
+            "native_roots": [
+              "ep1\\openworld\\community\\boulevard_av\\boulevard_av.questphase",
+              "ep1\\openworld\\community\\ep1_community.questphase",
+              "ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase"
+            ],
+            "findings": [],
+            "mapped_resources": 2,
+            "unknown_resources": 1
+          },
+          {
+            "quest_id": "wst_ep1_09",
+            "stage": "progression",
+            "status": "UNKNOWN",
+            "reason": "Normalized direct-root comparisons; no reward execution/delivery claim; missing comparisons prohibit PASS",
+            "private_roots": [
+              "towercontinued\\sidejobs_s29\\entries\\wst_ep1_09.questphase",
+              "towercontinued\\sidejobs_s29\\native\\ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase"
+            ],
+            "native_roots": [
+              "ep1\\openworld\\community\\boulevard_av\\boulevard_av.questphase",
+              "ep1\\openworld\\community\\ep1_community.questphase",
+              "ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase"
+            ],
+            "findings": [],
+            "mapped_resources": 2,
+            "unknown_resources": 1
+          },
+          {
+            "quest_id": "wst_ep1_09",
+            "stage": "cleanup",
+            "status": "UNKNOWN",
+            "reason": "Counter/reset and graph inventory; exact lifecycle exits and reward uniqueness not universally proved",
+            "private_roots": [
+              "towercontinued\\sidejobs_s29\\entries\\wst_ep1_09.questphase",
+              "towercontinued\\sidejobs_s29\\native\\ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase"
+            ],
+            "native_roots": [
+              "ep1\\openworld\\community\\boulevard_av\\boulevard_av.questphase",
+              "ep1\\openworld\\community\\ep1_community.questphase",
+              "ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase"
+            ],
+            "findings": [],
+            "mapped_resources": 2,
+            "unknown_resources": 1
+          },
+          {
+            "quest_id": "wst_ep1_09",
+            "stage": "rewards",
+            "status": "UNKNOWN",
+            "reason": "Normalized direct-root comparisons; no reward execution/delivery claim; missing comparisons prohibit PASS",
+            "private_roots": [
+              "towercontinued\\sidejobs_s29\\entries\\wst_ep1_09.questphase",
+              "towercontinued\\sidejobs_s29\\native\\ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase"
+            ],
+            "native_roots": [
+              "ep1\\openworld\\community\\boulevard_av\\boulevard_av.questphase",
+              "ep1\\openworld\\community\\ep1_community.questphase",
+              "ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase"
+            ],
+            "findings": [],
+            "mapped_resources": 2,
+            "unknown_resources": 1
+          },
+          {
+            "quest_id": "wst_ep1_09",
+            "stage": "assets",
+            "status": "OPAQUE",
+            "reason": "Referenced assets checked for presence; full actor/world/prefab placement semantics not decoded by this pass",
+            "private_roots": [
+              "towercontinued\\sidejobs_s29\\entries\\wst_ep1_09.questphase",
+              "towercontinued\\sidejobs_s29\\native\\ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase"
+            ],
+            "native_roots": [
+              "ep1\\openworld\\community\\boulevard_av\\boulevard_av.questphase",
+              "ep1\\openworld\\community\\ep1_community.questphase",
+              "ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase"
+            ],
+            "findings": [],
+            "mapped_resources": 2,
+            "unknown_resources": 1
+          },
+          {
+            "quest_id": "wst_ep1_09",
+            "stage": "saved_owners",
+            "status": "LIVE_ONLY",
+            "reason": "Persistent identities recorded; actual serialized owner liveness/migration requires save/runtime evidence",
+            "private_roots": [
+              "towercontinued\\sidejobs_s29\\entries\\wst_ep1_09.questphase",
+              "towercontinued\\sidejobs_s29\\native\\ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase"
+            ],
+            "native_roots": [
+              "ep1\\openworld\\community\\boulevard_av\\boulevard_av.questphase",
+              "ep1\\openworld\\community\\ep1_community.questphase",
+              "ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase"
+            ],
+            "findings": [],
+            "mapped_resources": 2,
+            "unknown_resources": 1
+          }
+        ],
+        "differences_registry": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\diagnostics\\vanilla_parity_20261029_01\\analysis_02\\intentional_differences.json",
+        "defects": [],
+        "repairs": [],
+        "tests": [
+          {
+            "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr1\\candidate_01\\tests_01.json",
+            "scope": "Build/identity/guard controls; not quest-specific gameplay proof"
+          },
+          {
+            "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr1\\candidate_01\\regressions_02\\mutation_suite.json",
+            "scope": "Shared CR1/PH1/PH2/PH3 controls"
+          },
+          {
+            "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr1\\candidate_01\\compile_01\\result.json",
+            "scope": "Full current-source compilation"
+          }
+        ],
+        "remaining": [
+          "Verify each of the ten static contracts against matching original resources and explicit differences",
+          "Review native/saved owner ancestry and interrupted/reload paths",
+          "Review SMS, rewards and shared prefab/workspot/camera ownership",
+          "Use exact native predicates; do not infer a defect from UNKNOWN/OPAQUE",
+          "Do not replay or reset completed/failed/unsupported progress"
+        ],
+        "batch": "Q10",
+        "identity_evidence": [
+          {
+            "resource": "towercontinued\\sidejobs_s29\\entries\\wst_ep1_09.questphase",
+            "native_depot": "ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase",
+            "private_native": "towercontinued\\sidejobs_s29\\native\\ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase",
+            "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\sidejobs_s29\\prepared_02\\prepared.json",
+            "source_sha256": "5675BBE210EB0929A91CCC31A8197DB511BC2CFF93D2A9B889091072AE586A0A",
+            "status": "EXACT_CURRENT_DISPATCH_REFERENCE",
+            "resource_sha256": "BAB71A02ADA83D0BF60F5D73F0B0A0A94B76A44A9DAC3F94A9D202B0632BCEFB",
+            "registered": true,
+            "limit": "Exact declared identity/current source correlation, not native ownership or complete quest verification"
+          },
+          {
+            "resource": "towercontinued\\sidejobs_s29\\entries\\wst_ep1_09.questphase",
+            "native_depot": "ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase",
+            "private_native": "towercontinued\\sidejobs_s29\\native\\ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase",
+            "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\sidejobs_s29\\prepared_03\\prepared.json",
+            "source_sha256": "213183261AA40E0A75F187DC8B161A659108A4469A06FDD878C65BA9E7A20EB3",
+            "status": "EXACT_CURRENT_DISPATCH_REFERENCE",
+            "resource_sha256": "BAB71A02ADA83D0BF60F5D73F0B0A0A94B76A44A9DAC3F94A9D202B0632BCEFB",
+            "registered": true,
+            "limit": "Exact declared identity/current source correlation, not native ownership or complete quest verification"
+          },
+          {
+            "resource": "towercontinued\\sidejobs_s29\\entries\\wst_ep1_09.questphase",
+            "native_depot": "ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase",
+            "private_native": "towercontinued\\sidejobs_s29\\native\\ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase",
+            "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\sidejobs_s29\\prepared_04\\prepared.json",
+            "source_sha256": "F85A587D833B2F1EA9A7220D3BDDC762848E4ABE60D8E5CE432A5D54FF05E2D5",
+            "status": "EXACT_CURRENT_DISPATCH_REFERENCE",
+            "resource_sha256": "BAB71A02ADA83D0BF60F5D73F0B0A0A94B76A44A9DAC3F94A9D202B0632BCEFB",
+            "registered": true,
+            "limit": "Exact declared identity/current source correlation, not native ownership or complete quest verification"
+          }
+        ],
+        "entry_guard_evidence": [
+          {
+            "resource": "towercontinued\\sidejobs_s29\\entries\\wst_ep1_09.questphase",
+            "graph": "root",
+            "node": "65003",
+            "sha256": "BAB71A02ADA83D0BF60F5D73F0B0A0A94B76A44A9DAC3F94A9D202B0632BCEFB",
+            "source_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\diagnostics\\restored_audit_20261025_01\\installed_01\\resources\\859272543010232823.questphase.json",
+            "status": "NO_KNOWN_CONTRADICTION",
+            "clauses": 1,
+            "contradictions": [],
+            "limit": "Integer fact/journal-state predicates solved; unknown/native conditions remain unproved"
+          },
+          {
+            "resource": "towercontinued\\sidejobs_s29\\entries\\wst_ep1_09.questphase",
+            "graph": "root",
+            "node": "65004",
+            "sha256": "BAB71A02ADA83D0BF60F5D73F0B0A0A94B76A44A9DAC3F94A9D202B0632BCEFB",
+            "source_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\diagnostics\\restored_audit_20261025_01\\installed_01\\resources\\859272543010232823.questphase.json",
+            "status": "NO_KNOWN_CONTRADICTION",
+            "clauses": 1,
+            "contradictions": [],
+            "limit": "Integer fact/journal-state predicates solved; unknown/native conditions remain unproved"
+          }
+        ]
+      },
+      {
+        "quest_id": "wst_ep1_09",
+        "stage": "entry",
+        "status": "CONDITIONAL",
+        "reason": "Native route/owner constraints retained; condition feasibility and exact stage admission not proved",
+        "private_roots": [
+          "towercontinued\\sidejobs_s29\\entries\\wst_ep1_09.questphase",
+          "towercontinued\\sidejobs_s29\\native\\ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase"
+        ],
+        "native_roots": [
+          "ep1\\openworld\\community\\boulevard_av\\boulevard_av.questphase",
+          "ep1\\openworld\\community\\ep1_community.questphase",
+          "ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase"
+        ],
+        "findings": [],
+        "mapped_resources": 2,
+        "unknown_resources": 1
+      },
+      {
+        "quest_id": "wst_ep1_09",
+        "stage": "phone",
+        "status": "CONDITIONAL",
+        "reason": "Active MAY-closure request/listener/ack presence; listener admission, UI and playback remain unproved",
+        "private_roots": [
+          "towercontinued\\sidejobs_s29\\entries\\wst_ep1_09.questphase",
+          "towercontinued\\sidejobs_s29\\native\\ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase"
+        ],
+        "native_roots": [
+          "ep1\\openworld\\community\\boulevard_av\\boulevard_av.questphase",
+          "ep1\\openworld\\community\\ep1_community.questphase",
+          "ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase"
+        ],
+        "findings": [],
+        "mapped_resources": 2,
+        "unknown_resources": 1
+      },
+      {
+        "quest_id": "wst_ep1_09",
+        "stage": "sms",
+        "status": "UNKNOWN",
+        "reason": "Normalized direct-root comparisons; no reward execution/delivery claim; missing comparisons prohibit PASS",
+        "private_roots": [
+          "towercontinued\\sidejobs_s29\\entries\\wst_ep1_09.questphase",
+          "towercontinued\\sidejobs_s29\\native\\ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase"
+        ],
+        "native_roots": [
+          "ep1\\openworld\\community\\boulevard_av\\boulevard_av.questphase",
+          "ep1\\openworld\\community\\ep1_community.questphase",
+          "ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase"
+        ],
+        "findings": [],
+        "mapped_resources": 2,
+        "unknown_resources": 1
+      },
+      {
+        "quest_id": "wst_ep1_09",
+        "stage": "progression",
+        "status": "UNKNOWN",
+        "reason": "Normalized direct-root comparisons; no reward execution/delivery claim; missing comparisons prohibit PASS",
+        "private_roots": [
+          "towercontinued\\sidejobs_s29\\entries\\wst_ep1_09.questphase",
+          "towercontinued\\sidejobs_s29\\native\\ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase"
+        ],
+        "native_roots": [
+          "ep1\\openworld\\community\\boulevard_av\\boulevard_av.questphase",
+          "ep1\\openworld\\community\\ep1_community.questphase",
+          "ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase"
+        ],
+        "findings": [],
+        "mapped_resources": 2,
+        "unknown_resources": 1
+      },
+      {
+        "quest_id": "wst_ep1_09",
+        "stage": "cleanup",
+        "status": "UNKNOWN",
+        "reason": "Counter/reset and graph inventory; exact lifecycle exits and reward uniqueness not universally proved",
+        "private_roots": [
+          "towercontinued\\sidejobs_s29\\entries\\wst_ep1_09.questphase",
+          "towercontinued\\sidejobs_s29\\native\\ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase"
+        ],
+        "native_roots": [
+          "ep1\\openworld\\community\\boulevard_av\\boulevard_av.questphase",
+          "ep1\\openworld\\community\\ep1_community.questphase",
+          "ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase"
+        ],
+        "findings": [],
+        "mapped_resources": 2,
+        "unknown_resources": 1
+      },
+      {
+        "quest_id": "wst_ep1_09",
+        "stage": "rewards",
+        "status": "UNKNOWN",
+        "reason": "Normalized direct-root comparisons; no reward execution/delivery claim; missing comparisons prohibit PASS",
+        "private_roots": [
+          "towercontinued\\sidejobs_s29\\entries\\wst_ep1_09.questphase",
+          "towercontinued\\sidejobs_s29\\native\\ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase"
+        ],
+        "native_roots": [
+          "ep1\\openworld\\community\\boulevard_av\\boulevard_av.questphase",
+          "ep1\\openworld\\community\\ep1_community.questphase",
+          "ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase"
+        ],
+        "findings": [],
+        "mapped_resources": 2,
+        "unknown_resources": 1
+      },
+      {
+        "quest_id": "wst_ep1_09",
+        "stage": "assets",
+        "status": "OPAQUE",
+        "reason": "Referenced assets checked for presence; full actor/world/prefab placement semantics not decoded by this pass",
+        "private_roots": [
+          "towercontinued\\sidejobs_s29\\entries\\wst_ep1_09.questphase",
+          "towercontinued\\sidejobs_s29\\native\\ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase"
+        ],
+        "native_roots": [
+          "ep1\\openworld\\community\\boulevard_av\\boulevard_av.questphase",
+          "ep1\\openworld\\community\\ep1_community.questphase",
+          "ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase"
+        ],
+        "findings": [],
+        "mapped_resources": 2,
+        "unknown_resources": 1
+      },
+      {
+        "quest_id": "wst_ep1_09",
+        "stage": "saved_owners",
+        "status": "LIVE_ONLY",
+        "reason": "Persistent identities recorded; actual serialized owner liveness/migration requires save/runtime evidence",
+        "private_roots": [
+          "towercontinued\\sidejobs_s29\\entries\\wst_ep1_09.questphase",
+          "towercontinued\\sidejobs_s29\\native\\ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase"
+        ],
+        "native_roots": [
+          "ep1\\openworld\\community\\boulevard_av\\boulevard_av.questphase",
+          "ep1\\openworld\\community\\ep1_community.questphase",
+          "ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase"
+        ],
+        "findings": [],
+        "mapped_resources": 2,
+        "unknown_resources": 1
+      }
+    ],
+    "scope": "08 has no selected identity; do not create it.09 remains selected downstream Q10 with distinct own admission/state; this review does not certify that future quest lifecycle."
+  },
+  "sts_ep1_07": {
+    "contract_statuses": {
+      "entry": "APPROVED_DEVIATION",
+      "eligibility": "CONDITIONAL",
+      "communications": "CONDITIONAL",
+      "ownership": "CONDITIONAL",
+      "progression": "PASS",
+      "presentation": "OPAQUE",
+      "journal": "PASS",
+      "completion_rewards_cleanup": "CONDITIONAL",
+      "persistence": "CONDITIONAL",
+      "shared_dependencies": "CONDITIONAL"
+    },
+    "review": "Native main/entry/credit/prefab/scene source proof upheld with engine and history limits. Saints communications/shared_dependencies require source-confirmed Ronald FAIL addendum; original remains frozen."
+  },
+  "sts_ep1_04": {
+    "contract_statuses": {
+      "entry": "APPROVED_DEVIATION",
+      "eligibility": "CONDITIONAL",
+      "communications": "CONDITIONAL",
+      "ownership": "CONDITIONAL",
+      "progression": "PASS",
+      "presentation": "OPAQUE",
+      "journal": "PASS",
+      "completion_rewards_cleanup": "CONDITIONAL",
+      "persistence": "CONDITIONAL",
+      "shared_dependencies": "CONDITIONAL"
+    },
+    "review": "Native main/entry/credit/prefab/scene source proof upheld with engine and history limits. Saints communications/shared_dependencies require source-confirmed Ronald FAIL addendum; original remains frozen."
+  },
+  "sts_ep1_01": {
+    "contract_statuses": {
+      "entry": "APPROVED_DEVIATION",
+      "eligibility": "CONDITIONAL",
+      "communications": "CONDITIONAL",
+      "ownership": "CONDITIONAL",
+      "progression": "PASS",
+      "presentation": "OPAQUE",
+      "journal": "PASS",
+      "completion_rewards_cleanup": "CONDITIONAL",
+      "persistence": "CONDITIONAL",
+      "shared_dependencies": "CONDITIONAL"
+    },
+    "review": "Native main/entry/credit/prefab/scene source proof upheld with engine and history limits. Saints communications/shared_dependencies require source-confirmed Ronald FAIL addendum; original remains frozen."
+  }
+}

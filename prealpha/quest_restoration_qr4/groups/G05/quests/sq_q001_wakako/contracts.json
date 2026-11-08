@@ -1,0 +1,181 @@
+{
+  "quest_id": "sq_q001_wakako",
+  "title": "The Gig",
+  "status": "DEEP_REVIEWED_WITH_EXPLICIT_STATIC_LIMITS",
+  "fully_static_verified": false,
+  "effective_resource": "towercontinued\\sidejobs_s24\\services\\the_gig_fresh.questphase",
+  "effective_resource_sha256": "0089744A7590921C755DD00525B7B4B102DA4BA14FFD3CFDCD124AFB4022BF38",
+  "source_epoch": "QR3 candidate_01; these resources unchanged from pinned PH3; installed PH3 is separate",
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Fresh0\u21921001Ready\u21921002pause\u21921003recheck\u21921004Issued\u21921006native AddContact(Wakako)\u21921005Entered\u2192native25active1. Native payment/journal/SMS/tattoo/completion route remains exact.",
+        "Separate S22 resume0\u21921000Ready\u21921001/1002\u21921003Issued\u219225\u21922\u21921006\u219215Active\u21921007/1008\u219230 targets outstanding tattoo stage; it omits original monetary reward11 and SMS12/13."
+      ],
+      "approved_differences": [
+        "Existing S24 fresh owner and S22 earned-payment resume; no pre-Tower/prologue replay."
+      ],
+      "remaining": [
+        "CONDITIONAL: Resume stage acceptance includes Inactive/Failed child phase/02; matching original saved-owner retirement and failure provenance are not established by journal enums."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    },
+    "eligibility": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Fresh1002/1003 require eight journal/contact entries Inactive, cash-given/active/done/add_reward0, old S22 owner unused, fresh receipt unused, FO1_Wakako Issued1, Cassius Ready/Enabled and no exclusion/suspension.",
+        "Native q001_done>=1, q101_enable_side_content>=1, wakako_default_on>=1 and wat_nid_ripperdoc_01_default_on>=1 are required, never fabricated. S22 instead requires cash-given1, done0 and native00_reward/01_rewardSucceeded, protecting already-earned payment."
+      ],
+      "approved_differences": [
+        "Fresh and reward-resume admissions are disjoint on q001_wakako_reward_given0 versus1."
+      ],
+      "remaining": [
+        "LIVE_ONLY: Current saved history, original owner retirement and reward entitlement require matching save evidence."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    },
+    "communications": {
+      "status": "PASS",
+      "proven": [
+        "Original SMS12\u219213 remain exact contacts/wakako_okada/sq_q001_reward/sq_q001_msg_reward_01 and _02. Fresh activates them only after native3 cash-given wait\u219211 reward\u21926 objectiveSucceeded.",
+        "AddContact uses native PhoneManager shape; resume omits both messages and payment rather than replaying them. This graph is SMS-based; no new Wakako phone listener is falsely treated as required by the reward phase."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: Actual journal target definitions and delivery ordering/UI visibility are not fully resolved; SMS activation edges prove request structure."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "FO1 Wakako100 owns #wakako_okada_default and invokes exact native default scene; its scene35 writes q001_wakako_reward_given1 from29 output2:1. Cassius5 owns distinct #pr_wat_nid_ripperdoc_01.",
+        "Fresh admission refuses used S22 receipts. No new actor owner or shared prefab owner was added."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "OPAQUE: Native q101_wakako_reward root owns #sq_q001_pr_wakako_reward; both private variants omit it. This is distinct from both service prefabs, not an approved omission. Its content and original lifecycle obligation remain unresolved.",
+        "LIVE_ONLY: Old retained native/reward owner retirement is not proven by inactive journals alone."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "All retained original payloads compare byte-derived JSON exactly to q101_wakako_reward. Fresh3\u219211\u21926\u219212\u219213\u219215\u219230\u219228\u219229\u219218\u21924\u219226\u219227 retains authored cash/SMS/tattoo progression.",
+        "Native29 OR predicate accepts Items.YakuzaTattoo>=1 OR Items.AdvancedYakuzaTattoo>=1; no forced door, fake acknowledgement or inventory grant substitutes for acquisition. Native30 is deletion marker removing24; no live24 consumer remains in current native graph."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: Native deletion marker may explain historical placement, but does not independently prove omitted root-prefab content harmless."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Decoded graph has no live NodeRef consumer in the native reward phase. Existing service bindings are retained; native deletion-marker30 records removed node24."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "OPAQUE: #sq_q001_pr_wakako_reward world/prefab content, placement and old consumer scope were not decoded, so parity of that obligation remains unproved. Service prefab presence does not discharge it.",
+        "LIVE_ONLY: Wakako dialogue, Cassius trade UI, tattoo acquisition and native marker visibility remain unobserved."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    },
+    "journal": {
+      "status": "PASS",
+      "proven": [
+        "Native objectives00_reward/01_reward/02_reward, root and phase paths remain exact; branch completion uses native18.Succeeded\u21924.Succeeded. Fresh root is activated after claim; S22 explicitly resumes only earned first two objective successes.",
+        "Current S22 root admission is Inactive only, stricter than old contract.json root Failed allowance; historical document does not override current resource. Child phase and02 still explicitly permit Failed."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: Exact failure provenance and journal target semantics need the original saved stage; no generic Failed-root restart is authorized."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native11 QuestRewards.sq_q001_wakako_done occurs after actual cash-given wait; S22 contains no reward node11. Native tattoo inventory wait29 precedes18Succeeded\u21924Succeeded\u219226active0\u219227done1\u2192Finished.",
+        "No cash, XP, tattoo or reward facts are manufactured. Receipt prevents repeat fresh claims and both variants protect done1."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "UNKNOWN: Reward/TDB definitions, actual Cassius inventory entitlement and persistent inventory state are not fully resolved by resource pointers; no duplicate-payment gameplay claim."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Existing resource/node/receipt identities are untouched. Fresh/refusal guards reject Active/Succeeded/Failed histories and q307_done0; S22 earned objective state and old receipt fencing are explicit."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Saved phase node survival, parallel old owner progress, future-version transition and rollback safety require matching saves. File preservation alone is not saved-owner proof."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Pinned FO1 Wakako, Cassius and both exact native service scenes; required fresh prologue/history is read, excluded q001 is not restarted. Private fresh/resume native reward payloads are independently compared."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "OPAQUE: Distinct native root-prefab ownership and unexpanded vendor item/TDB records remain coverage obligations.",
+        "LIVE_ONLY: Service availability, interruption/reload and native transaction success require gameplay."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    }
+  },
+  "policy_evidence": [
+    "research/sidejobs_s24/services/assessment_01.json",
+    "prealpha/sidejobs_s22/the_gig/contract.json (historical; root Failed allowance superseded by current resource)"
+  ],
+  "confirmed_defects": [],
+  "runtime_changes": []
+}

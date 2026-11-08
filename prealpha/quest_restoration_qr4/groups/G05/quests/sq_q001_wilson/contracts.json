@@ -1,0 +1,180 @@
+{
+  "quest_id": "sq_q001_wilson",
+  "title": "The Gun",
+  "status": "DEEP_REVIEWED_WITH_EXPLICIT_STATIC_LIMITS",
+  "fully_static_verified": false,
+  "effective_resource": "towercontinued\\sidejobs_s25\\services\\gun_fresh.questphase",
+  "effective_resource_sha256": "E9308A7CCA0A26CB9F4CA35B2B35C9B07600912FABBC4282B03434CC546A2D0F",
+  "source_epoch": "QR3 candidate_01; these resources unchanged from pinned PH3; installed PH3 is separate",
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "1000\u21921001Ready\u21921002pause\u21921003recheck\u21921004Issued\u21921006AddContactWilson\u21921005Entered fans out to native51Active/52 elevator wait and1008 completion observer.",
+        "Original q001_wilson nodes41/46/49/50/51/52/53/54/55/56/61/65 retain exact native payloads. Existing B0 body4\u2192100selector chooses private101 order scene when owned; False uses unchanged ordinary5 shop."
+      ],
+      "approved_differences": [
+        "Existing S25 bounded native order scene and B0-owned actor, not full first-meet staging."
+      ],
+      "remaining": [
+        "LIVE_ONLY: Issued does not guarantee immediate visible prompt; native first SMS notification and actor approach still gate progression."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    },
+    "eligibility": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Fresh1002/1003 require all seven journal/contact states Inactive, native met/tutorial/SMS/attention/range facts0, mq011_active0, B0 stable and nonexcluded, own receipts unused and earned q001_used_mb_elevator>=1.",
+        "Actual inventory predicate additionally requires Items.Preset_Q001_Lexington<1. Tests use explicit absent-item fixture, not missing-inventory=zero. Native elevator52 and shop tutorial53 remain unchanged."
+      ],
+      "approved_differences": [
+        "Fresh ownership and actual inventory rejection preserve earned histories."
+      ],
+      "remaining": [
+        "CONDITIONAL: Actual stock entitlement and prior sold/dismantled item history cannot be inferred from present inventory absence alone; authored native tutorial/journal guards are also required."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    },
+    "communications": {
+      "status": "PASS",
+      "proven": [
+        "Native56 writes q001_wilson_sms_tut+1 and enters61 journal notification wait for contacts/wilson/q001_new_gun/01_wilson_msg_gun. Five-second native54/tutorial55 remain unchanged.",
+        "AddContactWilson precedes native SMS sequence. The Gun is not a new holocall producer; shared Wilson phone controller belongs to separate MQ011 and is not bypassed here."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: SMS journal target definition, notification event and actual phone UI delivery remain unexpanded/live."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Existing B0 actor owner is reused; private order101 uses same sceneLocation/#wilson and interruption options as ordinary5. No duplicate physical Wilson owner added. Wanted-level11\u219212 cuts both101/5.",
+        "Order selector100 requires GUNIssued1/Finished0/Fault0 and root Inactive OR Active; after completion it returns ordinary service. MQ011 retains separate explicit release handshake."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Actor streaming, service lease arbitration, saved active B0/shop nodes and old native quest ownership require transition fixtures; B0 Released alone is not proof all saved descendants retired."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Actual retained order42 Ask about order\u2192305\u2192285\u2192277 native vendor UI\u2192281 inventory check. True goes430 remove Quest tag\u2192209 objectiveSucceeded\u2192369 rootSucceeded. No item grant is added to force this result.",
+        "Native fallback Shop177 and inventory pause365\u2192361\u2192363.Succeeded remain. Private graph keeps original retained payloads; bounded scene rewires entry678\u2192224 and redirects self-condition512 to private scene."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: Successful trade, actual free-item stock and later Shop fallback need live verification."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Actors/playerActors, workspots/workspotInstances, referencePoints/localMarkers, ridResources/resouresReferences match original scene metadata. All38 retained scene IDs remain native.",
+        "Authorized bounded differences: one main entry, omit held-gun prop and first-greeting/attention1 staging, drop second choice177 option, absolute trigger path224 and private selfref512. Existing B0 supplies actor."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "OPAQUE: World trigger absolute-path resolution and full actor/prop/workspot binding are not proven. Omitted prop staging is documented bounded presentation, not certified full first encounter parity."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    },
+    "journal": {
+      "status": "PASS",
+      "proven": [
+        "Native209/415 meet_wilson objective and363/369 root completion remain exact; success sockets are entered only on original inventory paths.1008 explicitly waits rootSucceeded before1007Finished.",
+        "Fresh guards reject every Active/Failed/Succeeded relevant history and unknown inputs defer; no completed current capture is reset."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: Journal target payload and engine notification/quest reward dispatch are not fully decoded."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Items.Preset_Q001_Lexington quantity>=1 gates281/361 are exact native.430 removes Quest tag before native objective/root success; post-menu594\u2192665 iconic tutorial gate retains native behavior.",
+        "No arbitrary free gun/QuestRewards write is inserted. Original record pointers and journal completion remain; receipt is written after real root success, not immediately upon admission."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "UNKNOWN: Vendors.wat_lch_gunsmith_01 stock, weapon entitlement and QuestRewards.q001_wilson/journal dispatch definitions are not independently resolved by graph pointers. Historical successful component review is not a current stock/reward proof."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Private resources/receipt/node identities unchanged. GUN root and descendants are fresh-only, and held target weapon independently blocks admission. Existing service False selector falls back to prior scene."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Saved scene continuation, inventory persistence, duplicate reward prevention across reload and MQ011 lease transitions require game fixtures."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Both B0 body/owner/shop and native gunsmith scene are raw/model pinned. MQ011 listeners and native firing-range actor scope are separately traced in this group; S25 does not replace their lease owner."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "OPAQUE: Native stock/TDB records and unexpanded world bindings remain.",
+        "LIVE_ONLY: Requested lease yield, actor return and interruption/reload remain engine behavior."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    }
+  },
+  "policy_evidence": [
+    "research/sidejobs_s25/services/assessment_01.json",
+    "research/sidejobs_s25/policy/services_review_01.json"
+  ],
+  "confirmed_defects": [],
+  "runtime_changes": []
+}

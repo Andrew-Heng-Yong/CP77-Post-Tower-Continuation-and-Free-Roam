@@ -1,0 +1,29 @@
+{
+  "status": "D00E_SAMPLER_PASS_NO_ADDITIONAL_QUALIFIED_QUEST_TEST",
+  "result_sha256": "3C59C53C4B74077CB51F1D223B3777FC5A86BCB3D0A14B785BE3C1BF853B4689",
+  "artifacts": [
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\observations\\D00E_20261103_01\\REPORT.md",
+      "sha256": "9B292B57B3E144D4AA159322B267D015A51B11008E3A044C9FCAB86B57D11ACA"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\observations\\D00E_20261103_01\\HANDOFF.md",
+      "sha256": "AA0D6388C7D9E577388A55DF251C12876BF293B6FE9860754F683F2C8FB2C1E7"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\observations\\D00E_20261103_01\\result.json",
+      "sha256": "3C59C53C4B74077CB51F1D223B3777FC5A86BCB3D0A14B785BE3C1BF853B4689"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\observations\\D00E_20261103_01\\coverage.json",
+      "sha256": "79A577960019C1F76BB493651F7864743F7E31649FED900F4424F18519C19DA2"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\observations\\D00E_20261103_01\\assess.py",
+      "sha256": "DC7E55CB8560944E6AC248A37C2BBE876E7D97D04D91402413D52D51850BBE6B"
+    }
+  ],
+  "native_callbacks": "UNSUPPORTED_NOT_TESTED",
+  "scope": "One human natural call validates sampled values only",
+  "next": "No repeat or new gameplay requested. Remaining quest tests require genuine qualified fixtures."
+}

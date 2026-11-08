@@ -1,0 +1,15 @@
+{
+  "resources": [
+    {
+      "depot": "towercontinued\\sidejobs_s23\\base_b\\mq037.questphase",
+      "proposed_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr17\\proposal_01\\mq037.questphase.json",
+      "proposed_json_sha256": "22F14E214738A35491409BB0A2975EAC34F003C42C6D0EDE5FD66B2A0A26F9F9"
+    }
+  ],
+  "script": {
+    "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS23.reds",
+    "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr17\\proposal_01\\PTFR_SideJobsS23.reds",
+    "sha256": "E65AAA349B999953DAE8F99426DBEF142D68AE088242BBC43AFF2CB166260707"
+  },
+  "policy": "Portable runtime-earned post-Spray fallback; restart native six-hour wait only."
+}

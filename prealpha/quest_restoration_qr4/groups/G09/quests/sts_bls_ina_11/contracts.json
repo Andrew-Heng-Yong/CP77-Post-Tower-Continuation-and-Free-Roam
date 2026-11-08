@@ -1,0 +1,492 @@
+{
+  "quest_id": "sts_bls_ina_11",
+  "title": "Sparring Partner",
+  "source_epoch": "QR3 candidate_01; installed PH3 separate",
+  "status": "DEEP_REVIEWED_WITH_SPECIFIC_STATIC_LIMITS",
+  "fully_static_verified": false,
+  "effective_resource": "towercontinued\\native_gigs_u9\\sts_bls_ina_11_entry.questphase",
+  "effective_resource_sha256": "82A1D962047CD8F4A651C13937411A3253BDDF1E6AE73C6FAD3AC0FD45D8652D",
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Native inline5\u219274(sts_bls_ina_tier_3_1>0) OR91(sts_bls_ina_tier_3>0) throughXOR90, then69outside#ina_11_tr_setup OR84nativePOIActive throughXOR85\u219245POIActive\u2192Started\u219214.In1.",
+        "Current root0\u219265000Ready\u219265001Revision\u219265002permission pause\u219265003ParentEntered\u2192native inline then originalPOI\u219265004Started\u2192native main. Main.Out1\u219265005MainFinished\u219265006OwnerFinished. Every retained original payload/nested graph is compared; only mainphase storageFlags Embedded\u2192Soft differs."
+      ],
+      "approved_differences": [
+        "Existing U9 additive private entry/receipt adapters; exact original native body and saved node/input identities retained."
+      ],
+      "remaining": [
+        "CONDITIONAL: Registration activation, native trigger/POI event timing and saved original owner retirement are engine inputs."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/script_pins.json",
+        "../../verification_02/quest_evidence.json",
+        "../../verification_02/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json"
+      ]
+    },
+    "eligibility": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Effective consolidated NativeGigsU9.Request/EntrySafe/Poll uses certified or acceptedHS1 history, completedTower/LC1/startup/support/legacy/consequence guards. EntrySafe requires each of 13 enumerated journal paths Inactive and 12 native facts0; missing journal lookup returns-1, notInactive.",
+        "CR2W65002 itself has fact predicates only; current scripted Permit carries the journal/legacy protection. Both layers are pinned, and old source RestoreCertified stub is not mistaken for production. buy_robot is an original objective read58/62 and writtenInactive57/61; playstyles is native journal3/103 with classNone. Both are absent current EntrySafe.Paths; target/provenance implications remain unproved."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: Exact journal-target coverage/provenance gaps listed in journal_target_gaps.json remain visible. Inactive roots/facts do not prove native saved owner retirement.",
+        "LIVE_ONLY: Current save history and scheduling between Permit poll and graph admission are not observed."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/script_pins.json",
+        "../../verification_02/quest_evidence.json",
+        "../../verification_02/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json"
+      ]
+    },
+    "communications": {
+      "status": "PASS",
+      "proven": [
+        "Actual connected native primary producer\u2192ack waits: sts_bls_ina_11_holocall_debriefs.scene:start 97\u2192268; sts_bls_ina_11_holocall_debriefs.scene:end 98\u219293; sts_bls_ina_11_holocall_prebrief.scene:start 89\u2192267; sts_bls_ina_11_holocall_prebrief.scene:end 90\u219285. Start requests pass through native scnDeletionMarker before the real wait267/268/270/250; removed old wait IDs are not treated as active listeners.",
+        "Shared native Dakota38\u219239requestcount+1\u219240request0\u219243loop and41count/setup conditions\u219234False\u219244count-1\u219221start; end2\u219210\u219221end. Actual native scene41/42 write done1. U9 initializer25\u219250 and cleanup437True\u2192301In11\u2192Out11\u2192441 are connected; PH3 owns both global studio prefab scopes."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Call arbitration, 30-second timeout/reject/retry, additional native INT/RET fire-and-forget request branches, UI/counter cleanup and saved pending requests are not engine-simulated.",
+        "CONDITIONAL: SupportIssued receipt precedes parent startup; it does not prove each listener is already running at that instant."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/script_pins.json",
+        "../../verification_02/quest_evidence.json",
+        "../../verification_02/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native mainnode14 invokes base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_11\\phases\\sts_bls_ina_11.questphase In1 with rootprefab #loc_sts_bls_ina_11_logic. Whole body resources remain official/unoverridden. Embedded donor graphs equal external body graphs after only Embedded\u2192Soft reference storage adaptation.",
+        "Legacy tags ['PTFRB7_bls_ina_11'] and per-owner receipts block known old/private reuse; current scripted OldUnused checks all legacy keys and LegacyOwnerFacts. Native buyer/robot/courier scene ownership, robot transport state and physical logic prefab remain source-defined. Own inactive roots/facts do not prove saved robot/courier owners retired."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: A retired original saved owner cannot be inferred from killed Tower state, missing actors or unused private receipts alone. Exact executing-owner/transition proof remains open."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/script_pins.json",
+        "../../verification_02/quest_evidence.json",
+        "../../verification_02/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Sparring Partner retains robot discovery/purchase/threaten/courier/combat and delivery branches; source OWroot/24 node83 writesina_11_finished1, then authored end/debrief/reward scope remains.",
+        "Exact original default main input socket, body phase/scene references, graph edges and branch predicates are retained. Native stage/outcome writes and per-route incoming/outgoing sockets are materialized in quest_evidence.json, not inferred from the restoration label."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Native scene outcomes, AI/combat/vehicle/body transport events, triggers and interrupt timing remain unobserved; static parity is not gameplay success."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/script_pins.json",
+        "../../verification_02/quest_evidence.json",
+        "../../verification_02/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Whole official body owns #loc_sts_bls_ina_11_logic and exact nested PhaseInstancePrefabs/scene/camera/workspot/actor/NodeRef data. No private bare initializer is used as a replacement for native physical support.",
+        "Map owners: sts_bls_ina_11_map0.questphase fromDakota root/52; sts_bls_ina_11_map1.questphase fromDakota root/71. Native Dakota visited2 predicate remains; map branches require ownStarted1/MapPermit1 and per-mapEntered0."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "OPAQUE: Full world sector/prefab content, inherited embedded/native-provider lifetimes, actor/camera/workspot/vehicle placements and journal mappin targets are not completely decoded.",
+        "LIVE_ONLY: Render/VO/global JV1 policy and streaming effects are not verified by preserved resource pointers."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/script_pins.json",
+        "../../verification_02/quest_evidence.json",
+        "../../verification_02/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json"
+      ]
+    },
+    "journal": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "All native root/phase/objective/mappin references are retained. Private selected map payloads compare to exact Dakota native graphs; only documented unrelated-POI contraction edges are omitted. buy_robot is an original objective read58/62 and writtenInactive57/61; playstyles is native journal3/103 with classNone. Both are absent current EntrySafe.Paths; target/provenance implications remain unproved.",
+        "Current per-quest admissions and native referenced targets are independently cross-listed; source paths/classes/IDs for discrepancies are in journal_target_gaps.json."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "UNKNOWN: Exact journal target definitions and obsolete/dynamic class interpretation are not fully resolved. A pointer alone is not target verification or permission to synthesize history."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/script_pins.json",
+        "../../verification_02/quest_evidence.json",
+        "../../verification_02/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native OWroot/25 node31 QuestRewards.sts_bls_ina_11_completion and37 Achievements.NoMansLand. Credit native8 waitsina_11_finished>0 then11 bls_sts_counter+=1; no failure shortcut.",
+        "Credit guard65000 requires Started1/CreditEntered0/CreditDone0 plus U9support, then65001 claims once before original finish/fail predicate and native11 increment. 11.Out\u219265002CreditDone is connected. Native rewards are solely body-owned; no custom payout or completion substitute is added."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "UNKNOWN: Reward/TDB record definitions, item/accounting entitlement, actual original saved credit owner and once-only execution across save/reload remain unproved.",
+        "LIVE_ONLY: Native failure cleanup, garage release, district-tier progression and achievement dispatch need fixtures."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/script_pins.json",
+        "../../verification_02/quest_evidence.json",
+        "../../verification_02/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Existing resource/node/field/receipt names are untouched; ParentEntered/Started/OwnerFinished/CreditEntered/CreditDone prevent known new-input reclaims. Current Request rejects terminal facts and prior requests, while Poll revalidates EntrySafe/OldUnused before Permit.",
+        "No facts, journals, counters, items, rewards, actors or saves were reset; old resources and exact native failure examples remain unchanged."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Durable executing node state, original district credit/map loops, already-running legacy controllers and future-version transitions need save-compatible fixtures. Receipt fencing is not a proof of all saved owner retirement."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/script_pins.json",
+        "../../verification_02/quest_evidence.json",
+        "../../verification_02/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native buyer/robot/courier scene ownership, robot transport state and physical logic prefab remain source-defined. Own inactive roots/facts do not prove saved robot/courier owners retired.",
+        "Pinned original district, native fixer-loop credit and Dakota map donors plus exact controller/cleanup/PH3studio core are reused. Shared core has38 independent controls; these five quests add319 focused checks and12 actual graph/predicate mutations."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: Original return/garage/consequence owner context and exact journal/reward targets remain unresolved.",
+        "LIVE_ONLY: Startup event ordering, Studio ownership stream-in and native phone/actor interrupts remain engine behavior."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/script_pins.json",
+        "../../verification_02/quest_evidence.json",
+        "../../verification_02/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json"
+      ]
+    }
+  },
+  "native_rewards": [
+    {
+      "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_11\\phases\\sts_bls_ina_11_ow.questphase",
+      "graph": "root/25",
+      "node": "31",
+      "records": [
+        "QuestRewards.sts_bls_ina_11_completion"
+      ]
+    },
+    {
+      "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_11\\phases\\sts_bls_ina_11_ow.questphase",
+      "graph": "root/25",
+      "node": "37",
+      "records": [
+        "Achievements.NoMansLand"
+      ]
+    }
+  ],
+  "source_details": {
+    "entry": "towercontinued\\native_gigs_u9\\sts_bls_ina_11_entry.questphase",
+    "entry_main_node": 14,
+    "inline_node": 5,
+    "poi_node": 45,
+    "body": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_11\\phases\\sts_bls_ina_11.questphase",
+    "native_prefab": "#loc_sts_bls_ina_11_logic",
+    "index": 1,
+    "admission_paths": [
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_11",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_11/find_the_robot",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_11/find_the_robot/extract_data",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_11/find_the_robot/go_to_robot",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_11/find_the_robot/find_data_on_robot_location",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_11/find_the_robot/deliver_chip",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_11/find_the_robot/get_to_landfill",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_11/find_the_robot/get_to_landfill/ina_11_briefing",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_11/find_the_robot/wait_for_robot",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_11/find_the_robot/find_robot",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_11/find_the_robot/00_boxing_robot_shard",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_11/find_the_robot/collect_reward",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_11/brief"
+    ],
+    "admission_classes": [
+      "gameJournalQuest",
+      "gameJournalQuestPhase",
+      "gameJournalQuestObjective",
+      "gameJournalQuestObjective",
+      "gameJournalQuestObjective",
+      "gameJournalQuestObjective",
+      "gameJournalQuestObjective",
+      "gameJournalQuestDescription",
+      "gameJournalQuestObjective",
+      "gameJournalQuestObjective",
+      "gameJournalQuestObjective",
+      "gameJournalQuestObjective",
+      "gameJournalQuestDescription"
+    ],
+    "native_fact_guards": [
+      "bls_ina_11_active",
+      "ina_11_buy_start",
+      "ina_11_courier_dead",
+      "ina_11_finished",
+      "ina_11_ppl_killed",
+      "ina_11_robot_delivered",
+      "ina_11_robot_discovered",
+      "ina_11_robot_location",
+      "ina_11_robot_transport_stopped",
+      "ina_11_test_def",
+      "ina_11_threaten",
+      "sts_bls_ina_11_combat_triggered"
+    ],
+    "legacy_tags": [
+      "PTFRB7_bls_ina_11"
+    ],
+    "terminal_facts": [
+      "ina_11_finished"
+    ],
+    "native_journal_paths": [
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_11",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_11/brief",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_11/find_the_robot/buy_robot",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_11/find_the_robot/deliver_chip",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_11/find_the_robot/extract_data",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_11/find_the_robot/find_robot",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_11/find_the_robot/get_to_landfill",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_11/find_the_robot/go_to_robot",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_11/find_the_robot/playstyles",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_11/find_the_robot/wait_for_robot"
+    ],
+    "journal_paths_not_in_EntrySafe": [
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_11/find_the_robot/buy_robot",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_11/find_the_robot/playstyles"
+    ],
+    "maps": [
+      {
+        "depot": "towercontinued\\native_gigs_u9\\sts_bls_ina_11_map0.questphase",
+        "native_graph": "root/52",
+        "foreign_poi_contraction": [
+          10,
+          16,
+          39
+        ]
+      },
+      {
+        "depot": "towercontinued\\native_gigs_u9\\sts_bls_ina_11_map1.questphase",
+        "native_graph": "root/71",
+        "foreign_poi_contraction": [
+          39
+        ]
+      }
+    ],
+    "credit": "towercontinued\\native_gigs_u9\\sts_bls_ina_11_credit.questphase",
+    "credit_finished_node": 8,
+    "native_terminal_routes": [
+      {
+        "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_11\\phases\\sts_bls_ina_11_ow.questphase",
+        "graph": "root/24",
+        "node": "83",
+        "writes": [
+          {
+            "$type": "questSetVar_NodeType",
+            "factName": "ina_11_finished",
+            "setExactValue": 1,
+            "value": 1
+          }
+        ],
+        "incoming": [
+          [
+            "31",
+            "Out",
+            "83",
+            "In"
+          ]
+        ],
+        "outgoing": [
+          [
+            "83",
+            "Out",
+            "151",
+            "In"
+          ]
+        ]
+      }
+    ],
+    "rewards": [
+      {
+        "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_11\\phases\\sts_bls_ina_11_ow.questphase",
+        "graph": "root/25",
+        "node": "31",
+        "records": [
+          "QuestRewards.sts_bls_ina_11_completion"
+        ]
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_11\\phases\\sts_bls_ina_11_ow.questphase",
+        "graph": "root/25",
+        "node": "37",
+        "records": [
+          "Achievements.NoMansLand"
+        ]
+      }
+    ],
+    "scene_phase_bindings": [
+      {
+        "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_11\\phases\\sts_bls_ina_11.questphase",
+        "graph": "root",
+        "node": "120",
+        "refs": [
+          "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_11\\phases\\sts_bls_ina_11_gpl.questphase"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_11\\phases\\sts_bls_ina_11.questphase",
+        "graph": "root",
+        "node": "121",
+        "refs": [
+          "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_11\\phases\\sts_bls_ina_11_ow.questphase"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_11\\phases\\sts_bls_ina_11_bugfixing.questphase",
+        "graph": "root/3",
+        "node": "21",
+        "refs": [
+          "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_11\\scenes\\sts_bls_ina_11_robot_fake_scene.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_11\\phases\\sts_bls_ina_11_gpl.questphase",
+        "graph": "root/2/3/56",
+        "node": "7",
+        "refs": [
+          "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_11\\scenes\\sts_bls_ina_11_mood_scenes_chats.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_11\\phases\\sts_bls_ina_11_ow.questphase",
+        "graph": "root/23/34/21",
+        "node": "38",
+        "refs": [
+          "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_11\\scenes\\sts_bls_ina_11_robot_fake_scene.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_11\\phases\\sts_bls_ina_11_ow.questphase",
+        "graph": "root/23/34/21",
+        "node": "40",
+        "refs": [
+          "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_11\\scenes\\sts_bls_ina_11_robot_fake_scene.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_11\\phases\\sts_bls_ina_11_ow.questphase",
+        "graph": "root/23/34/21",
+        "node": "45",
+        "refs": [
+          "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_11\\scenes\\sts_bls_ina_11_robot_fake_scene.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_11\\phases\\sts_bls_ina_11_ow.questphase",
+        "graph": "root/23/34/22",
+        "node": "2",
+        "refs": [
+          "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_11\\scenes\\sts_bls_ina_11_robot_fake_scene.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_11\\phases\\sts_bls_ina_11_ow.questphase",
+        "graph": "root/23/34/22",
+        "node": "17",
+        "refs": [
+          "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_11\\scenes\\sts_bls_ina_11_robot_fake_scene.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_11\\phases\\sts_bls_ina_11_ow.questphase",
+        "graph": "root/24",
+        "node": "132",
+        "refs": [
+          "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_11\\scenes\\sts_bls_ina_11_holocall_prebrief.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_11\\phases\\sts_bls_ina_11_ow.questphase",
+        "graph": "root/24",
+        "node": "151",
+        "refs": [
+          "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_11\\scenes\\sts_bls_ina_11_holocall_prebrief.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_11\\phases\\sts_bls_ina_11_ow.questphase",
+        "graph": "root/25",
+        "node": "30",
+        "refs": [
+          "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_11\\scenes\\sts_bls_ina_11_holocall_debriefs.scene"
+        ],
+        "prefabs": []
+      }
+    ]
+  },
+  "confirmed_defects": [],
+  "runtime_changes": []
+}

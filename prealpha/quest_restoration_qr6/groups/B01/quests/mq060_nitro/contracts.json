@@ -1,0 +1,273 @@
+{
+  "quest_id": "mq060_nitro",
+  "title": "Nitro (Youth Energy)",
+  "source_epoch": "QR6:00 = QR5:08 unchanged effective bytes",
+  "fully_static_verified": false,
+  "effective_resources": [
+    {
+      "depot": "towercontinued\\sidejobs_s29\\entries\\mq060_nitro.questphase",
+      "sha256": "1301290462DC5908A16587A899AF1C55DC2CBFD522FEF566A2E3838C89F77FC7"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq060\\mq060.questphase",
+      "sha256": "3B2DA6DBE37AD737EDB15955B2255BDD74866436154B7F91F9E16BE2B43868AC"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq060\\phases\\mq060_androids.questphase",
+      "sha256": "8523ABE169F9A37BE60F5E990C5FAADFD7C65C3C249CE97DD33FF113AD6DD82D"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq060\\phases\\mq060_cleanup.questphase",
+      "sha256": "4FB5D300A885D39776C042434BA8EBB03C2DDD06049B35E8E74CD0D8C146EBD2"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq060\\phases\\mq060_docks.questphase",
+      "sha256": "D04BEE0A595E7B1249657284AE0280630145B8BC517D87AEB5D074DF0E5DA539"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq060\\phases\\mq060_emails.questphase",
+      "sha256": "8A41F5AEC5A563AC9C2C0210EC5B7124DEC1E1EA97E0BDFE070C2D253AA90253"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq060\\phases\\mq060_fail.questphase",
+      "sha256": "6B2868FEE80E59769F12797FD032FF1DB29B87643FD45F5750753A993A5B1050"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq060\\phases\\mq060_scanning.questphase",
+      "sha256": "30947835BCA64639C1E9A00803EB137A72EE7D89FA97D97ECE6EA8265B26C842"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq060\\phases\\mq060_securityarea.questphase",
+      "sha256": "EA9B092EFB514C32554723CC0E7AC5754DDF84840F4B71921EB3D20BF5BB43CB"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq060\\phases\\mq060_setup.questphase",
+      "sha256": "7946CE81A43EA9D8F30ACBE2D021B8ACDAC36BB6607E967036651FFFEA9A1DD5"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq060\\phases\\mq060_spawn.questphase",
+      "sha256": "F8913EBAFA468F94A7766AC69C6A93B5AFFE54FC4FB9C2D2926D3CA78881FA9C"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq060\\phases\\mq060_wait.questphase",
+      "sha256": "31EF35A81522644EF3E7EE7ADE552C6C35506E417705084EDB9EF06130613371"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq060\\phases\\mq060_yaiba_showroom.questphase",
+      "sha256": "F979FDCCDD9732B642FA8360AC5B61F3E9B5133880AC47AAF65725434A0F4FA8"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq060\\scenes\\mq060_android.scene",
+      "sha256": "FB0D7DB988385E316036079EE2D01D4DB0C087BC206BABB662EDAA4A150A1DCF"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq060\\scenes\\mq060_connecttoterminal.scene",
+      "sha256": "91F474AF48679FD4B82117CB063F1B41C2D09FE89ECE0EB24869E72003D2E846"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq060\\scenes\\mq060_identify.scene",
+      "sha256": "F7DF244AD282AAF34859679EAC0BD8939D9C0677438022243B59205878F1C036"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq060\\scenes\\mq060_voicelines.scene",
+      "sha256": "874761D4BFC721AEAC0EE80886D6391C65A6FBCFB4691FBC18A6F8A5FB6E310C"
+    }
+  ],
+  "contracts": {
+    "entry": {
+      "status": "UNKNOWN",
+      "proven": [
+        "SOURCE_AUTHORITY_CONFLICT: current S29 retains native standalone mq060.quest root8/9/10/11 four bike gates→XOR12→4.Start. Actual global quest_bugfixing root/3 uses93 OR(threeKusanagi variants) AND104 carbought_counter>=3→106AND→89.Start. Both invoke the same mq060 body. Standalone native parent has no captured reverse-reference among5136models, which does not exclude engine root registration."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Independent C review and coordinator reject automatic intersection repair: Tyger-only authored route could be legitimate. Exact missing evidence is startup/quest-registry authority or dated native-entry policy;47of80boundedfixtures differ, without observed gameplay."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\nitro_admission_01\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\reviews\\B01_nitro\\verification_01\\review.json"
+      ]
+    },
+    "eligibility": {
+      "status": "UNKNOWN",
+      "proven": [
+        "Current native four-vehicle selector and absence of carbought_counter are proven from fresh serialized entry; S29 source registry likewise has no count requirement. Main global gate requires purchases>=3 and only three original bike variants; current adds Tyger. Other fresh guards preserve71Inactive histories and18nativeprogress0 facts."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Native winning parent and historical intended version policy are unresolved; conservative narrowing is not automatically vanilla parity and is not approved."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\nitro_admission_01\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\reviews\\B01_nitro\\verification_01\\review.json"
+      ]
+    },
+    "communications": {
+      "status": "PASS",
+      "proven": [
+        "Native Nitro body and all subphases retain direct customer_servive_mq060 SMS (authored spelling preserved), readiness/order/delivery and Muamar fail_autofixer message875. No separate holo/audio request family in this exact authored closure; the email, terminal and journal choice callbacks remain original."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Actual phone UI/message read and notification timing remain engine-dependent; entry authority conflict is separate."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\nitro_admission_01\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\reviews\\B01_nitro\\verification_01\\review.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Complete copied body retains#mq060; emails phase retains#mws_wat_02_pr_starter. Native global caller89 is inside genuinely retired main bugfix tree; independent standalone .quest owner/startup scope is not established by absence of captured references."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Winning parent, saved/native body ownership and standalone engine registration remain precise blockers; no duplicate-controller claim is inferred."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\nitro_admission_01\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\reviews\\B01_nitro\\verification_01\\review.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "All Nitro native questphase nodes/nested graphs/edges/predicates, including scanning, emails, securityarea, wait, docks, showroom, failure and cleanup phases, compare exact after explicit private references. Original AND878/897 and XOR885/886 remain their authored types."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "This proves body parity independently of unresolved entry authority; device/scan/vehicle events are not executed."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\nitro_admission_01\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\reviews\\B01_nitro\\verification_01\\review.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Native body/root prefab, emails starter PIP, android actors, showroom/dock terminals, vehicle and camera/workspot/scene bindings remain exact. All copied native Nitro scene graph/socket/dialogue/effect comparisons pass."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "WorldNode placement, actor replacement/inventory serialization and vehicle/workspot streaming remain opaque/live."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\nitro_admission_01\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\reviews\\B01_nitro\\verification_01\\review.json"
+      ]
+    },
+    "journal": {
+      "status": "PASS",
+      "proven": [
+        "Seventy-one selected fresh journal/phone paths preserve exact native classes/states and source writing handlers. Native hook01b/01c branches, six case-sensitive Mq060_mail_read_0x conditions292, delivery/fail objectives and cleanup paths remain unchanged."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Engine journal aliases/notifications and persistent website/terminal state require runtime fixtures."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\nitro_admission_01\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\reviews\\B01_nitro\\verification_01\\review.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native root875 fail message,876 yaiba_muramasa_available1,851/877 exact cleanup phases and879/881 android restriction removals are retained. All original reward/item/vehicle/variant operations and native success/failure outputs are copied; no purchased vehicle is granted by the wrapper."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Reward/vehicle record descendants, transactions, replacement persistence and effective TDB overrides remain unverified; entry authority remains UNKNOWN."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\nitro_admission_01\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\reviews\\B01_nitro\\verification_01\\review.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "All saved native/private graph identifiers and current S29 fields/receipts remain unchanged. Fresh history guard defers selected nonInactive/progressed states. Proposed count/vehicle intersection was source-only and not approved or integrated; old issued paths remain byte-identical."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Native startup owner, already-pending XOR stage and future save-transition behavior need fixtures; no history reset or re-admission patch."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\nitro_admission_01\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\reviews\\B01_nitro\\verification_01\\review.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "UNKNOWN",
+      "proven": [
+        "Exact authority discrepancy links standalone authored .quest, globalbugfix parent, S29source registry and current serialized entry. Native body dependencies are preserved including emails PIP, customer contact, scans, android inventory and vehicle entitlement."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Need native quest startup/registry evidence to reconcile competing parents; current broad model census cannot prove engine root ownership. No exception is silently approved."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\nitro_admission_01\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\reviews\\B01_nitro\\verification_01\\review.json"
+      ]
+    }
+  },
+  "confirmed_defects": [],
+  "source_authority_conflicts": [
+    "QR6-MQ060-ENTRY-PARENT-CONFLICT"
+  ],
+  "runtime_changes": []
+}

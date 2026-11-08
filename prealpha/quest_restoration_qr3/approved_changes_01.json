@@ -1,0 +1,13 @@
+{
+  "resources": [
+    {
+      "depot": "towercontinued\\sidejobs_s23\\base_b\\mq037.questphase",
+      "before": "E42A7DE2591C367ACD1FCFAFD0D9BA728204034D57CEA0577848445C7C8DD94E",
+      "after": "59A9A88DB5AB6AC3566B58005BDD178524C165905BEBD59DB742C3105ED18AB4",
+      "evidence": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\defects.json",
+      "tests": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\candidate_01\\repair\\verification_01\\tests.json",
+      "independent_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_b\\reviews\\brendan_quarantine.json",
+      "intent": "Contain invalid fresh excluded activation; preserve saved descendants, not a claim of restored sequels"
+    }
+  ]
+}

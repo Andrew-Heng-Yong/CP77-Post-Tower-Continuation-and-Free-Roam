@@ -1,0 +1,52 @@
+{
+  "status": "PASS_INSTRUCTION_AND_DOCUMENTATION_ONLY",
+  "utc": "2026-10-30T00:09:15.908954+00:00",
+  "original_sizes": {
+    "AGENTS.md": 544256,
+    "PROJECT.md": 155934,
+    "ROADMAP.md": 201112,
+    "README.md": 9962
+  },
+  "new_sizes": {
+    "AGENTS.md": 8183,
+    "PROJECT.md": 5011,
+    "ROADMAP.md": 3876,
+    "README.md": 10366
+  },
+  "changed_existing": [
+    "AGENTS.md",
+    "PROJECT.md",
+    "README.md",
+    "ROADMAP.md"
+  ],
+  "added": [
+    "docs/AGENTS.md",
+    "docs/history/instructions/2026-10-29/AGENTS.original.md",
+    "docs/history/instructions/2026-10-29/PROJECT.original.md",
+    "docs/history/instructions/2026-10-29/README.original.md",
+    "docs/history/instructions/2026-10-29/ROADMAP.original.md",
+    "docs/knowledge/README.md",
+    "docs/knowledge/conflicts.md",
+    "docs/knowledge/consolidated-build.md",
+    "docs/knowledge/current-state.md",
+    "docs/knowledge/history-index.md",
+    "docs/knowledge/invariants.md",
+    "docs/knowledge/packaging-deployment.md",
+    "docs/knowledge/quest-investigation.md",
+    "docs/knowledge/redscript-toolchain.md",
+    "docs/knowledge/static-parity-audits.md",
+    "docs/knowledge/vanilla-resources.md",
+    "prealpha/AGENTS.md",
+    "profiles/AGENTS.md",
+    "redscript/AGENTS.md",
+    "release/AGENTS.md",
+    "tools/AGENTS.md"
+  ],
+  "repo_files_metadata_checked": 380126,
+  "game_files_metadata_checked": 855,
+  "sha256_protected_files_checked": 4762,
+  "removed_files": 0,
+  "reparse_points_followed": false,
+  "runtime_build_deploy_or_quest_auditor_executed": false,
+  "scope_limit": "All repository/game file path-size-mtime metadata compared; SHA256 covers project source, top-level candidate utilities, all current package/source files, dist, release, 51 installed Tower files, Atelier, 49 Lizzie files, all saves and global Codex configuration. Historical extracted/vendor/fixture resource payloads and native game archives receive metadata comparison, not whole-content rehash."
+}

@@ -1,0 +1,198 @@
+{
+  "status": "NO_READY_TEST",
+  "ready": [],
+  "human_Brendan_history_answer": "Don\u2019t remember",
+  "prioritized": [
+    {
+      "scenario": "CVI02_fresh_specialized_calls",
+      "priority": 1,
+      "current_game_status_counts": {
+        "BLOCKED_BY_HISTORY": 99,
+        "NOT_TESTABLE": 3
+      },
+      "working_ManualSave24": {
+        "source": "C:\\Users\\Ayong\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-24\\sav.dat",
+        "kind": "GAME_SAVE",
+        "slot": "ManualSave-24",
+        "timestamp": "16:37:02, 2.11.2026",
+        "save_sha256": "39F8172D440E173C4FBF118A91302508EDCFD8DE8C63C39E8CF93812D97CCAB2",
+        "scenario": "CVI02_fresh_specialized_calls",
+        "priority": 1,
+        "status": "BLOCKED_BY_HISTORY",
+        "reason": "Native completion/finished metadata forbids fresh replay.",
+        "missing_prerequisite": "Another genuine future-fresh CVI02 history with no entered/request/outcome/controller history; then full source eligibility/ownership precheck."
+      }
+    },
+    {
+      "scenario": "RONALD_prospective_news",
+      "priority": 2,
+      "current_game_status_counts": {
+        "UNKNOWN": 91,
+        "NOT_TESTABLE": 9,
+        "REQUIRES_MANUAL_PREREQUISITE": 2
+      },
+      "working_ManualSave24": {
+        "source": "C:\\Users\\Ayong\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-24\\sav.dat",
+        "kind": "GAME_SAVE",
+        "slot": "ManualSave-24",
+        "timestamp": "16:37:02, 2.11.2026",
+        "save_sha256": "39F8172D440E173C4FBF118A91302508EDCFD8DE8C63C39E8CF93812D97CCAB2",
+        "scenario": "RONALD_prospective_news",
+        "priority": 2,
+        "status": "REQUIRES_MANUAL_PREREQUISITE",
+        "reason": "No saved positive subscription evidence. Selected live reports show Inactive contact/disabled messages; first enrollment is held.",
+        "missing_prerequisite": "Genuine pre-existing subscription plus Active contact; first enrollment is an unimplemented development blocker, not a fixture-making instruction."
+      }
+    },
+    {
+      "scenario": "SKIPPY_supported_return_1101",
+      "priority": 3,
+      "current_game_status_counts": {
+        "UNKNOWN": 93,
+        "NOT_TESTABLE": 9
+      },
+      "working_ManualSave24": {
+        "source": "C:\\Users\\Ayong\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-24\\sav.dat",
+        "kind": "GAME_SAVE",
+        "slot": "ManualSave-24",
+        "timestamp": "16:37:02, 2.11.2026",
+        "save_sha256": "39F8172D440E173C4FBF118A91302508EDCFD8DE8C63C39E8CF93812D97CCAB2",
+        "scenario": "SKIPPY_supported_return_1101",
+        "priority": 3,
+        "status": "UNKNOWN",
+        "reason": "Kill progression does not identify the saved native pre1101 owner/stage. No exact executing-stage decoder is available.",
+        "missing_prerequisite": "Source-supported exact pre1101 return/handoff state and earned Regina history; old11/51/95 admissions/opaque loot remain unsupported."
+      }
+    },
+    {
+      "scenario": "BRENDAN_unearned_fresh_containment",
+      "priority": 4,
+      "current_game_status_counts": {
+        "UNKNOWN": 91,
+        "NOT_TESTABLE": 9,
+        "REQUIRES_MANUAL_PREREQUISITE": 2
+      },
+      "working_ManualSave24": {
+        "source": "C:\\Users\\Ayong\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-24\\sav.dat",
+        "kind": "GAME_SAVE",
+        "slot": "ManualSave-24",
+        "timestamp": "16:37:02, 2.11.2026",
+        "save_sha256": "39F8172D440E173C4FBF118A91302508EDCFD8DE8C63C39E8CF93812D97CCAB2",
+        "scenario": "BRENDAN_unearned_fresh_containment",
+        "priority": 4,
+        "status": "REQUIRES_MANUAL_PREREQUISITE",
+        "reason": "No positive progression found; absence/post-ending cache cannot prove never-earned history. User does not remember pre-Tower Brendan history.",
+        "missing_prerequisite": "Known genuine never-started pre-Tower Dumpster history with no contradictory progress. User replied Don\u2019t remember; do not infer it."
+      }
+    },
+    {
+      "scenario": "BRENDAN_earned_descendant_preservation",
+      "priority": 5,
+      "current_game_status_counts": {
+        "UNKNOWN": 93,
+        "NOT_TESTABLE": 9
+      },
+      "working_ManualSave24": {
+        "source": "C:\\Users\\Ayong\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-24\\sav.dat",
+        "kind": "GAME_SAVE",
+        "slot": "ManualSave-24",
+        "timestamp": "16:37:02, 2.11.2026",
+        "save_sha256": "39F8172D440E173C4FBF118A91302508EDCFD8DE8C63C39E8CF93812D97CCAB2",
+        "scenario": "BRENDAN_earned_descendant_preservation",
+        "priority": 5,
+        "status": "UNKNOWN",
+        "reason": "No positive earned descendant evidence. Opaque journal bytes do not supply the missing history.",
+        "missing_prerequisite": "Already-earned Dumpster completion and genuinely progressed Spray Paint/Coin Operated Boy descendant, exact journal/owner stage; no fresh excluded chain."
+      }
+    },
+    {
+      "scenario": "NITRO_fresh_admission",
+      "priority": 6,
+      "current_game_status_counts": {
+        "BLOCKED_BY_HISTORY": 22,
+        "NOT_TESTABLE": 9,
+        "REQUIRES_MANUAL_PREREQUISITE": 71
+      },
+      "working_ManualSave24": {
+        "source": "C:\\Users\\Ayong\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-24\\sav.dat",
+        "kind": "GAME_SAVE",
+        "slot": "ManualSave-24",
+        "timestamp": "16:37:02, 2.11.2026",
+        "save_sha256": "39F8172D440E173C4FBF118A91302508EDCFD8DE8C63C39E8CF93812D97CCAB2",
+        "scenario": "NITRO_fresh_admission",
+        "priority": 6,
+        "status": "BLOCKED_BY_HISTORY",
+        "reason": "Already-issued/terminal history is not a fresh admission fixture; do not impose new fresh prerequisites on its preserved selector.",
+        "missing_prerequisite": "A separate unissued genuine history with an earned allowed native Kusanagi and >=3native purchases. No purchases/counter changes are requested to create a test."
+      }
+    },
+    {
+      "scenario": "NITRO_existing_issued_preservation",
+      "priority": 7,
+      "current_game_status_counts": {
+        "UNKNOWN": 93,
+        "NOT_TESTABLE": 9
+      },
+      "working_ManualSave24": {
+        "source": "C:\\Users\\Ayong\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-24\\sav.dat",
+        "kind": "GAME_SAVE",
+        "slot": "ManualSave-24",
+        "timestamp": "16:37:02, 2.11.2026",
+        "save_sha256": "39F8172D440E173C4FBF118A91302508EDCFD8DE8C63C39E8CF93812D97CCAB2",
+        "scenario": "NITRO_existing_issued_preservation",
+        "priority": 7,
+        "status": "UNKNOWN",
+        "reason": "Issued marker, where present, does not reveal exact saved selector/owner liveness.",
+        "missing_prerequisite": "Actual compatible already-issued selector/owner stage and reload continuity; do not reset Issued or reapply fresh gates."
+      }
+    },
+    {
+      "scenario": "PENDING_owner_interrupt_reload_rewards",
+      "priority": 8,
+      "current_game_status_counts": {
+        "UNKNOWN": 93,
+        "NOT_TESTABLE": 9
+      },
+      "working_ManualSave24": {
+        "source": "C:\\Users\\Ayong\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-24\\sav.dat",
+        "kind": "GAME_SAVE",
+        "slot": "ManualSave-24",
+        "timestamp": "16:37:02, 2.11.2026",
+        "save_sha256": "39F8172D440E173C4FBF118A91302508EDCFD8DE8C63C39E8CF93812D97CCAB2",
+        "scenario": "PENDING_owner_interrupt_reload_rewards",
+        "priority": 8,
+        "status": "UNKNOWN",
+        "reason": "Saved receipts/counters and raw journal records do not prove a currently pending supported native owner, timer or clean reward baseline.",
+        "missing_prerequisite": "A separate genuine supported pending request/callback/cleanup fixture; natural save permitted; exact reward/item/currency baseline and owner review."
+      }
+    },
+    {
+      "scenario": "OTHER_shared_owner_lifecycles",
+      "priority": 9,
+      "current_game_status_counts": {
+        "UNKNOWN": 93,
+        "NOT_TESTABLE": 9
+      },
+      "working_ManualSave24": {
+        "source": "C:\\Users\\Ayong\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-24\\sav.dat",
+        "kind": "GAME_SAVE",
+        "slot": "ManualSave-24",
+        "timestamp": "16:37:02, 2.11.2026",
+        "save_sha256": "39F8172D440E173C4FBF118A91302508EDCFD8DE8C63C39E8CF93812D97CCAB2",
+        "scenario": "OTHER_shared_owner_lifecycles",
+        "priority": 9,
+        "status": "UNKNOWN",
+        "reason": "No verified saved native graph/listener/studio/lease enumeration; prior successful phone/vendor routes are not repeated.",
+        "missing_prerequisite": "Named source-supported untested route with genuine eligibility and exact ownership/interrupt prerequisites; unresolved Career/Cuckoo/Voodoo evidence stays separate."
+      }
+    }
+  ],
+  "accepted_do_not_repeat": [
+    "D00E natural El Capitan sampler PASS",
+    "Wilson invitation/completion/eventual shop/reload",
+    "Bullets completion/Zane shop/post-line/reload",
+    "Cynthia delivered call",
+    "Until Death Do Us Part observed completion"
+  ],
+  "next": "No immediate special test. Await genuine history/stage evidence arising from ordinary play; do not manufacture it."
+}

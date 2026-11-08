@@ -1,0 +1,15 @@
+{
+  "status": "PASS_SOURCE_CHECKS_WITH_EXPLICIT_CONTRACT_LIMITS",
+  "quests": [
+    "sts_ep1_07",
+    "sts_ep1_04",
+    "sts_ep1_01"
+  ],
+  "checks": 568,
+  "mutations": 8,
+  "fresh_raw_exports": 59,
+  "source_models": 62,
+  "handler_rows": 1207,
+  "protocol_producers": 22,
+  "no_runtime_edits": true
+}

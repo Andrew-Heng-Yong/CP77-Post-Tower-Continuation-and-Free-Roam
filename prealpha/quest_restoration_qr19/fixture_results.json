@@ -1,0 +1,218 @@
+{
+  "status": "PASS_QR19_TWO_FILE_DEPLOYMENT_FIXTURES",
+  "installer_sha256": "4B320A14E4B404E4FBAEDF33FC0B296243EF866191586B75846AADD0134BB61B",
+  "manifest_sha256": "AC73C58689393CB9C1E89E19AE5D485602D7ADB7923659EAE93F8B3E58C5BE14",
+  "scope": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr19\\fixtures\\deployment_01",
+  "actions": [
+    {
+      "fixture": "actual_Core51",
+      "action": "Preflight",
+      "exit": 0,
+      "options": [],
+      "output": "{\"status\":\"PREFLIGHT_READY\",\"component\":\"Core\",\"action\":\"Preflight\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\quest_restoration_qr19\\\\fixtures\\\\deployment_01\\\\actual_Core51\\\\recovery\\\\core\",\"manifest_sha256\":\"A9769B80A731781977A342A49E30E6D54E99B3DC0986CE78183E986979741CB8\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}",
+      "error": ""
+    },
+    {
+      "fixture": "actual_Core51",
+      "action": "Install",
+      "exit": 0,
+      "options": [],
+      "output": "{\"status\":\"INSTALLED_VERIFIED\",\"component\":\"Core\",\"action\":\"Install\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\quest_restoration_qr19\\\\fixtures\\\\deployment_01\\\\actual_Core51\\\\recovery\\\\core\",\"manifest_sha256\":\"A9769B80A731781977A342A49E30E6D54E99B3DC0986CE78183E986979741CB8\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}",
+      "error": ""
+    },
+    {
+      "fixture": "actual_Core51",
+      "action": "Verify",
+      "exit": 0,
+      "options": [],
+      "output": "{\"status\":\"VERIFIED_AFTER\",\"component\":\"Core\",\"action\":\"Verify\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\quest_restoration_qr19\\\\fixtures\\\\deployment_01\\\\actual_Core51\\\\recovery\\\\core\",\"manifest_sha256\":\"A9769B80A731781977A342A49E30E6D54E99B3DC0986CE78183E986979741CB8\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}",
+      "error": ""
+    },
+    {
+      "fixture": "actual_Core51",
+      "action": "ValidateRollback",
+      "exit": 0,
+      "options": [],
+      "output": "{\"status\":\"ROLLBACK_READY\",\"component\":\"Core\",\"action\":\"ValidateRollback\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\quest_restoration_qr19\\\\fixtures\\\\deployment_01\\\\actual_Core51\\\\recovery\\\\core\",\"manifest_sha256\":\"A9769B80A731781977A342A49E30E6D54E99B3DC0986CE78183E986979741CB8\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}",
+      "error": ""
+    },
+    {
+      "fixture": "actual_Core51",
+      "action": "Rollback",
+      "exit": 0,
+      "options": [],
+      "output": "{\"status\":\"ROLLED_BACK_VERIFIED\",\"component\":\"Core\",\"action\":\"Rollback\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\quest_restoration_qr19\\\\fixtures\\\\deployment_01\\\\actual_Core51\\\\recovery\\\\core\",\"manifest_sha256\":\"A9769B80A731781977A342A49E30E6D54E99B3DC0986CE78183E986979741CB8\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}",
+      "error": ""
+    },
+    {
+      "fixture": "actual_Core51",
+      "action": "Verify",
+      "exit": 0,
+      "options": [
+        "-ExpectedState",
+        "Before"
+      ],
+      "output": "{\"status\":\"VERIFIED_BEFORE\",\"component\":\"Core\",\"action\":\"Verify\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\quest_restoration_qr19\\\\fixtures\\\\deployment_01\\\\actual_Core51\\\\recovery\\\\core\",\"manifest_sha256\":\"A9769B80A731781977A342A49E30E6D54E99B3DC0986CE78183E986979741CB8\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}",
+      "error": ""
+    },
+    {
+      "fixture": "AfterFirstReplace",
+      "action": "Install",
+      "exit": 1,
+      "options": [
+        "-FailurePoint",
+        "AfterFirstReplace"
+      ],
+      "output": "",
+      "error": "Exception: C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr19\\deploy_core.ps1:290\nLine |\n 290 |    throw ('Install stopped; '+$script:journal.state+': '+$script:journ .\n     |    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n     | Install stopped; RESTORED_BEFORE_VERIFIED: Fixture interruption: AfterFirstReplace"
+    },
+    {
+      "fixture": "AfterFirstReplace",
+      "action": "Verify",
+      "exit": 0,
+      "options": [
+        "-ExpectedState",
+        "Before"
+      ],
+      "output": "{\"status\":\"VERIFIED_BEFORE\",\"component\":\"Core\",\"action\":\"Verify\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\quest_restoration_qr19\\\\fixtures\\\\deployment_01\\\\AfterFirstReplace\\\\recovery\\\\core\",\"manifest_sha256\":\"B30F77EE1D5F9D93C42DC59103BA618F0E83FC78293D8991411459887E227277\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}",
+      "error": ""
+    },
+    {
+      "fixture": "AfterSecondReplace",
+      "action": "Install",
+      "exit": 1,
+      "options": [
+        "-FailurePoint",
+        "AfterSecondReplace"
+      ],
+      "output": "",
+      "error": "Exception: C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr19\\deploy_core.ps1:290\nLine |\n 290 |    throw ('Install stopped; '+$script:journal.state+': '+$script:journ .\n     |    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n     | Install stopped; RESTORED_BEFORE_VERIFIED: Fixture interruption: AfterSecondReplace"
+    },
+    {
+      "fixture": "AfterSecondReplace",
+      "action": "Verify",
+      "exit": 0,
+      "options": [
+        "-ExpectedState",
+        "Before"
+      ],
+      "output": "{\"status\":\"VERIFIED_BEFORE\",\"component\":\"Core\",\"action\":\"Verify\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\quest_restoration_qr19\\\\fixtures\\\\deployment_01\\\\AfterSecondReplace\\\\recovery\\\\core\",\"manifest_sha256\":\"68410BF793DA42CC02B33022AF4E2B81CA602C1E2C4AEAFED42CE50E82313AED\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}",
+      "error": ""
+    },
+    {
+      "fixture": "CrashAfterFirstReplace",
+      "action": "Install",
+      "exit": 72,
+      "options": [
+        "-FailurePoint",
+        "CrashAfterFirstReplace"
+      ],
+      "output": "",
+      "error": ""
+    },
+    {
+      "fixture": "CrashAfterFirstReplace",
+      "action": "Recover",
+      "exit": 0,
+      "options": [],
+      "output": "{\"status\":\"RECOVERED_BEFORE\",\"component\":\"Core\",\"action\":\"Recover\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\quest_restoration_qr19\\\\fixtures\\\\deployment_01\\\\CrashAfterFirstReplace\\\\recovery\\\\core\",\"manifest_sha256\":\"805F96307EEE557330298D606A3068D3D7644EA10C123F8F1356B854F69B35DB\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}",
+      "error": ""
+    },
+    {
+      "fixture": "CrashAfterFirstReplace",
+      "action": "Verify",
+      "exit": 0,
+      "options": [
+        "-ExpectedState",
+        "Before"
+      ],
+      "output": "{\"status\":\"VERIFIED_BEFORE\",\"component\":\"Core\",\"action\":\"Verify\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\quest_restoration_qr19\\\\fixtures\\\\deployment_01\\\\CrashAfterFirstReplace\\\\recovery\\\\core\",\"manifest_sha256\":\"805F96307EEE557330298D606A3068D3D7644EA10C123F8F1356B854F69B35DB\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}",
+      "error": ""
+    },
+    {
+      "fixture": "CrashAfterSecondReplace",
+      "action": "Install",
+      "exit": 72,
+      "options": [
+        "-FailurePoint",
+        "CrashAfterSecondReplace"
+      ],
+      "output": "",
+      "error": ""
+    },
+    {
+      "fixture": "CrashAfterSecondReplace",
+      "action": "Recover",
+      "exit": 0,
+      "options": [],
+      "output": "{\"status\":\"RECOVERED_BEFORE\",\"component\":\"Core\",\"action\":\"Recover\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\quest_restoration_qr19\\\\fixtures\\\\deployment_01\\\\CrashAfterSecondReplace\\\\recovery\\\\core\",\"manifest_sha256\":\"5234A5AF40C4F1783DEEE4B674780E7AA58793CF0A425775CD75EF6F9F4475D2\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}",
+      "error": ""
+    },
+    {
+      "fixture": "CrashAfterSecondReplace",
+      "action": "Verify",
+      "exit": 0,
+      "options": [
+        "-ExpectedState",
+        "Before"
+      ],
+      "output": "{\"status\":\"VERIFIED_BEFORE\",\"component\":\"Core\",\"action\":\"Verify\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\quest_restoration_qr19\\\\fixtures\\\\deployment_01\\\\CrashAfterSecondReplace\\\\recovery\\\\core\",\"manifest_sha256\":\"5234A5AF40C4F1783DEEE4B674780E7AA58793CF0A425775CD75EF6F9F4475D2\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}",
+      "error": ""
+    },
+    {
+      "fixture": "interrupted_rollback",
+      "action": "Install",
+      "exit": 0,
+      "options": [],
+      "output": "{\"status\":\"INSTALLED_VERIFIED\",\"component\":\"Core\",\"action\":\"Install\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\quest_restoration_qr19\\\\fixtures\\\\deployment_01\\\\interrupted_rollback\\\\recovery\\\\core\",\"manifest_sha256\":\"D9DAF21594EFB3DD98171A27BD77695BC022445742AC096E32DB2A0B5DC57B6C\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}",
+      "error": ""
+    },
+    {
+      "fixture": "interrupted_rollback",
+      "action": "Rollback",
+      "exit": 72,
+      "options": [
+        "-FailurePoint",
+        "CrashAfterFirstRollback"
+      ],
+      "output": "",
+      "error": ""
+    },
+    {
+      "fixture": "interrupted_rollback",
+      "action": "Recover",
+      "exit": 0,
+      "options": [],
+      "output": "{\"status\":\"RECOVERED_AFTER\",\"component\":\"Core\",\"action\":\"Recover\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\quest_restoration_qr19\\\\fixtures\\\\deployment_01\\\\interrupted_rollback\\\\recovery\\\\core\",\"manifest_sha256\":\"D9DAF21594EFB3DD98171A27BD77695BC022445742AC096E32DB2A0B5DC57B6C\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}",
+      "error": ""
+    },
+    {
+      "fixture": "interrupted_rollback",
+      "action": "Verify",
+      "exit": 0,
+      "options": [],
+      "output": "{\"status\":\"VERIFIED_AFTER\",\"component\":\"Core\",\"action\":\"Verify\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\quest_restoration_qr19\\\\fixtures\\\\deployment_01\\\\interrupted_rollback\\\\recovery\\\\core\",\"manifest_sha256\":\"D9DAF21594EFB3DD98171A27BD77695BC022445742AC096E32DB2A0B5DC57B6C\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}",
+      "error": ""
+    },
+    {
+      "fixture": "game_running",
+      "action": "Install",
+      "exit": 1,
+      "options": [
+        "-FixtureProcesses",
+        "Cyberpunk2077"
+      ],
+      "output": "",
+      "error": "Exception: C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr19\\deploy_core.ps1:85\nLine |\n  85 |  . ning.Count){throw ('Game or REDlauncher must be closed naturally: '+( .\n     |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n     | Game or REDlauncher must be closed naturally: Cyberpunk2077"
+    },
+    {
+      "fixture": "wrong_file",
+      "action": "Install",
+      "exit": 1,
+      "options": [],
+      "output": "",
+      "error": "Exception: C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr19\\deploy_core.ps1:90\nLine |\n  90 |  . sh $path -Fresh:$Fresh) -cne $expected){throw ('Hash drift: '+$path)}\n     |                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n     | Hash drift: C:\\Users\\Ayong\\Documents\\cp77 modding\\tower\n     | ws\\prealpha\\quest_restoration_qr19\\fixtures\\deployment_01\\wrong_file\\game\\r6\\scripts\\PTFR_Consolidated\\PTFR_SideJobsS29.reds"
+    }
+  ],
+  "notes": "Exact full Core51 normal install and rollback. Other cases use synthetic fixture files."
+}

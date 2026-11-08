@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "status": "APPROVED_EXACT_SERIALIZED_SUCCESSOR_FOR_PACKAGE_VALIDATION",
+  "relative_to": "QR4canonical03",
+  "resources": [
+    {
+      "depot": "towercontinued\\native_gigs_u9\\sts_std_arr_12_entry.questphase",
+      "before": "184C754141A52D6E7B10EACD3F6EB59AC47351DED87A92D3B306FEC53777EDD6",
+      "after": "C724360402300A455949A6C42878FA6AB1C6CB2B6858F5718BDE80C43F79D0FF",
+      "intent": "Fresh65003 entry enrolls exact native ARR12 failure/abandonment monitor, guarded by private receipt and unchanged native failure states; bypass retired global arming prefix without resetting it. Full native failure/reward exclusion preserved.",
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G04\\arr12_failure_01\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G07\\reviews\\ARR12\\verification_03\\review.json"
+      ],
+      "tests": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\candidate_01\\repair_arr12\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\reviews\\ARR12_serialized\\verification_02\\review.json"
+      ],
+      "independent_source_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G07\\reviews\\ARR12\\verification_03\\review.json",
+      "independent_source_review_sha256": "E0667EE385618DEDDAAFDAE7B4C04D125A143FEE5CB8BEFCFA23756DF4C2AC97",
+      "independent_serialized_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\reviews\\ARR12_serialized\\verification_02\\review.json",
+      "independent_serialized_review_sha256": "3575A51433D9CDB6D2916680E72CBCEB0B7B56721D2687C7C859CD6E8762DE60"
+    }
+  ],
+  "new_unique_defects": 1,
+  "new_affected_quests": [
+    "sts_std_arr_12"
+  ],
+  "scope": "One existing private resource; no new depot or XL registration. No package/deployment certification yet.",
+  "supersedes_allowlist": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\approved_changes_01.json",
+  "supersedes_allowlist_sha256": "7C2638356338AABE20D8946FBB4BF8E5570A27A09771F27DE7ECF0F964EFB062"
+}

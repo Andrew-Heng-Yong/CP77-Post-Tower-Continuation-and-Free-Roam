@@ -1,0 +1,89 @@
+{
+  "local_inputs": [
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\plugins\\cyber_engine_tweaks\\mods\\PTFR_HistorySnapshotHS1\\snapshot_hs1_20261102T214659Z_36_1.json",
+      "sha256": "B04F54914E41D84FDA3E23114DECAFC8E0872E7B38D8F3BE44B9546C0F29F92B",
+      "bytes": 527362
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_c\\card_spec.json",
+      "sha256": "BA098AFF450DD6D3B6A1037548774CC3BB417B14C71D95309A705500CDDB9ADF",
+      "bytes": 24079
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\stage_report_01\\coverage.json",
+      "sha256": "D6B8EDEBD975B6CA5311B509F8207CC5BDE14CB59A078AA4417F0DC8128B98FC",
+      "bytes": 8111
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\report.md",
+      "sha256": "A2BBDE0F6590BA56392B40A5CB2FCA4CDD6CD69C422391FF5747472C82AD63C9",
+      "bytes": 12402
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\research\\b0_missing_content\\regina\\json\\base\\open_world\\fixers\\reggie\\phases\\reggie.questphase.json",
+      "sha256": "D14741DB0749653E8A5985732CDA3440F7B96847DE6F01B5FAD4CB413054E051",
+      "bytes": 1342410
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\research\\b0_missing_content\\regina\\inventory.json",
+      "sha256": "E27DBE99F41E3DE8FB702AD7A0CC10FFBE20B8ECBD152A6300163B05F5E3ADC3",
+      "bytes": 461
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\research\\finalboards_dismissal\\decompiled\\cyberpunk\\systems\\phoneSystem.script",
+      "sha256": "BF483F7F6BB2706171998892B8554485EA47B4984AF4C9DF2C8C3C4137AF21E7",
+      "bytes": 20477
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\research\\finalboards_dismissal\\decompiled\\cyberpunk\\UI\\fullscreen\\phone_sms\\messengerUtils.script",
+      "sha256": "896A2349182D178C04A02213A5B65A09EE997D99C4B30D854DB8C1E2FC10D41A",
+      "bytes": 15228
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\research\\finalboards_dismissal\\decompiled\\cyberpunk\\UI\\hud\\phone\\newHudPhoneGameController.script",
+      "sha256": "B06F162A10D52773CD142F19EE7AEEC1AE2F25601EF185ABA1D067A0BAF00314",
+      "bytes": 68198
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\research\\framework_pr63_01\\codeware\\vendor\\RED4ext.SDK\\include\\RED4ext\\RTTITypes.hpp",
+      "sha256": "0F36F51DFB31685F65ACAEEBE9D8C45845D2A93513134C5D4DFC92BC968251D7",
+      "bytes": 26373
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\research\\framework_pr63_01\\codeware\\scripts\\Quest\\QuestsSystem.reds",
+      "sha256": "2506D36F7E1D739DBF56C6229C89BE63DFEFE826B9353F4C0ADD637709C87490",
+      "bytes": 114
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\research\\finalboards_dismissal\\tooling\\python\\capstone\\lib\\capstone.dll",
+      "sha256": "76958E18380023A68FD1714FA2E01C594CC6DB1955A07AD6937B66E66DC5D6C3",
+      "bytes": 7576576
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_b\\tooling\\lupa\\luajit21.cp314-win_amd64.pyd",
+      "sha256": "DE4FD4E1D0E32912443AC61B181E13961305FC329463DCFB37200805711F9526",
+      "bytes": 803328
+    }
+  ],
+  "installed_binaries": "Exact hashes in review installed_game_guard.json + installed_cet_proxy_02.json",
+  "upstream": {
+    "repository": "maximegmd/CyberEngineTweaks",
+    "commit": "b160d68cf923f2535cb3a6ebe006de86ef21e359",
+    "files": [
+      {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr10\\evidence\\cet\\src\\reverse\\NativeProxy.cpp",
+        "sha256": "8690B36D23843650C21B1F108B049EB14C9DD81DB9A07359E7DCFB2F90F6A32E",
+        "url": "https://github.com/maximegmd/CyberEngineTweaks/blob/b160d68cf923f2535cb3a6ebe006de86ef21e359/src/reverse/NativeProxy.cpp"
+      },
+      {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr10\\evidence\\cet\\src\\reverse\\NativeProxy.h",
+        "sha256": "B9559AEF53EE4DA0352E84B2D193461F6155DF05A7CA7D2ECC258790076E6576",
+        "url": "https://github.com/maximegmd/CyberEngineTweaks/blob/b160d68cf923f2535cb3a6ebe006de86ef21e359/src/reverse/NativeProxy.h"
+      }
+    ],
+    "limits": "Pinned official source corroborates installed binary evidence; not asserted to be the installed full build. Local saved text is line-normalized."
+  },
+  "phone_card_limits": "Historical pinned native exports/decompiled scripts establish contact/fact naming. Current compiled PhoneSystem/callability not certified; natural validation still required.",
+  "engine_overlay": "Unversioned third-party engine-overlay source used only for discovery, not retained as installed-contract proof. Exact installed disassembly independently establishes class guard."
+}

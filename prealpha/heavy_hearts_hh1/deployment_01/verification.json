@@ -1,0 +1,39 @@
+{
+  "all_save_names_and_hashes_unchanged": true,
+  "changed_paths": [
+    "archive/pc/mod/zzzz_PTFR_Combined.archive",
+    "archive/pc/mod/zzzz_PTFR_Combined.archive.xl"
+  ],
+  "core_epoch": "HH1",
+  "core_files": 51,
+  "game_launches": 0,
+  "gameplay_qualification": "UNTESTED",
+  "old_and_new_recovery_payloads": [
+    {
+      "bytes": 10137600,
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\heavy_hearts_hh1\\recovery\\core_hh1_01\\old\\archive\\pc\\mod\\zzzz_PTFR_Combined.archive",
+      "sha256": "2988A138B7AA529714BA1762A338C89D624C3C11D1C8F7449C6BF9571F216A2B"
+    },
+    {
+      "bytes": 10158080,
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\heavy_hearts_hh1\\recovery\\core_hh1_01\\new\\archive\\pc\\mod\\zzzz_PTFR_Combined.archive",
+      "sha256": "E33E4C73400C5EC96FD94B666DF2AC46432AACC06FD68544528B0F391622B49E"
+    },
+    {
+      "bytes": 134936,
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\heavy_hearts_hh1\\recovery\\core_hh1_01\\old\\archive\\pc\\mod\\zzzz_PTFR_Combined.archive.xl",
+      "sha256": "F22693981B0A10DB21B47AFAD7FC8BCAEF1F021D9EA99548BA4FF80F56D18245"
+    },
+    {
+      "bytes": 135153,
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\heavy_hearts_hh1\\recovery\\core_hh1_01\\new\\archive\\pc\\mod\\zzzz_PTFR_Combined.archive.xl",
+      "sha256": "510C49490C4B068F6CF0562AD8505D1276AE4B167F855B7730D583250ADA3056"
+    }
+  ],
+  "required_files": 26,
+  "rollback_ready": true,
+  "save_files": 313,
+  "save_or_fact_writes": 0,
+  "status": "PASS_HH1_INSTALLED_AND_PRESERVED",
+  "unmanaged_metadata_unchanged": true
+}

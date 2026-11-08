@@ -1,0 +1,519 @@
+{
+  "quest_id": "sq025c02_sad",
+  "title": "Epistrophy: North Oak",
+  "source_epoch": "source_epoch_00",
+  "status": "DEEP_CONTRACTS_INVESTIGATED_WITH_EXPLICIT_LIMITS",
+  "fully_static_verified": false,
+  "defects": [],
+  "repairs": [],
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Exact native case identity is base\\quest\\side_quests\\sq025\\phases\\sq025_04_scan.questphase:root/190, phase190, prefab#sq025_pr_sad; native normal input fans 24.Out2â†’12.sad_in and talk fan 24.Out1â†’23.sad_in_talk. Both are retained byte-structure-exact in the S22 scan copy.",
+        "Fresh S25 actual preclaim3/postclaim90 guards preserve zero scan count/all-car zero state. S22 owner1003 is a distinct bounded three-completed-car seam, not an arbitrary unfinished quest restart.",
+        "This case is already completed and bypassed in the S22 seam: sq025_sad_done=1; exact opposite-state fixtures reject admission. Fresh always requires0."
+      ],
+      "approved_differences": [
+        "Existing approved Tower family rehosting: S25 fresh wrapper receipt4/postclaim90 into native body100, with parallel listener94 via SupportIssued65020 and companion95. S22 separately supports earned briefing plus scans_done3 and sad/mean/suicidal completed. No new deviation or runtime change."
+      ],
+      "remaining": [
+        "CONDITIONAL: Native sidequests.questphase154 OR(SideQuest_Standalone token, pickup-car administration SMS visited) has no complete post-Tower replacement/context equivalence evidence; inherited shared-core blocker retained."
+      ],
+      "evidence": [
+        {
+          "resource": "base\\quest\\side_quests\\sq025\\phases\\sq025_04_scan.questphase",
+          "graph": "root/190",
+          "nodes": [
+            190,
+            24,
+            12,
+            23
+          ]
+        },
+        {
+          "resource": "towercontinued\\sidejobs_s25\\families\\sq025_fresh.questphase",
+          "nodes": [
+            3,
+            4,
+            90,
+            92,
+            100,
+            65020,
+            94,
+            95
+          ]
+        },
+        {
+          "resource": "towercontinued\\sidejobs_s22\\delamain\\owner.questphase",
+          "node": 1003
+        },
+        "verification_02/graph_evidence.json"
+      ]
+    },
+    "eligibility": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Fresh and bounded progressed serialized Boolean trees are evaluated directly for quests/side_quest/sq025c02_sad, sq025_sad_done and scans_done. Opposite done states and completed fresh history are rejected; existing Succeeded sad/mean are admitted only by the bounded progressed seam.",
+        "Actual nearby scan admission scene/3476 retains AND(distance<=30, content unblocked) plus mq014_roundabout<1 for North Oak.",
+        "North Oak escort: readiness3476 additionally ANDs mq014_roundabout <1; vehicle door1541, player mount1106, native stop trigger1112 and unmount2689 remain; damaged/crowd/water/breaks reactions bind the default Delamain scene."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "STATIC_CONTEXT_GAP: The original outer154 content-token/mail arbitration is not proven equivalent after Tower; no token/message visitation was fabricated.",
+        "CONDITIONAL: Exact player/save entitlement, retained original executing owner and supported S22 three-car stage require matching saved-owner evidence; unsupported partial states defer."
+      ],
+      "evidence": [
+        {
+          "resource": "towercontinued\\sidejobs_s25\\families\\sq025_fresh.questphase",
+          "nodes": [
+            3,
+            90
+          ]
+        },
+        {
+          "resource": "towercontinued\\sidejobs_s22\\delamain\\owner.questphase",
+          "node": 1003
+        },
+        {
+          "resource": "base\\quest\\side_quests\\sq025\\scenes\\sq025_05_scan.scene",
+          "node": 3476
+        },
+        "verification_02/graph_evidence.json",
+        "verification_02/tests.json"
+      ]
+    },
+    "communications": {
+      "status": "PASS",
+      "proven": [
+        "All 3 actual sad request producers in both owned inputs are individually linked to matching native done>0 wait and clear0, controller request reader/reset0â†’scene21 named input and reachable real acknowledgement writer. Producer/input/readers/clears/ack nodes and connected paths are in evidence.",
+        "Native Delamain scene/controller/cleanup binaries match pinned providers; shared fixer cleanup invokes the native cleanup owner by frozen G02 proof. Native talk pause/return operations are retained in the exact per-case phase graph.",
+        "Native case incoming cleanup reader24 compares actual sad start/end counters and retains its True reset receipt/native end scene route. No synthetic acknowledgement or reset."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Holocall playback/UI, incoming rejection, counter delivery and callback scheduling are engine-dependent. Native outgoing angry/deep cleanup label differences are inherited (not a restored-vs-native defect).",
+        "LIVE_ONLY: Body100 and SupportIssued65020â†’listener94 are parallel branches after92; no strict listener-before-body ordering is asserted. Pending/queued requests are not simulated."
+      ],
+      "evidence": [
+        {
+          "resource": "base\\quest\\side_quests\\sq025\\scenes\\sq025_05_scan.scene",
+          "protocols": [
+            {
+              "producer": "7257",
+              "request": "holo_delamain_sad_calls_v_start_activate",
+              "waits": [
+                "7254"
+              ],
+              "clears": [
+                "7255"
+              ],
+              "controller_readers": [
+                "62"
+              ],
+              "controller_clears": [
+                "66"
+              ],
+              "ack_writers": [
+                "645"
+              ],
+              "actual_case_input": "sad_in",
+              "producer_path": [
+                "6",
+                "395",
+                "6630",
+                "2490",
+                "8704",
+                "8707",
+                "9131",
+                "9133",
+                "9129",
+                "396",
+                "3476",
+                "383",
+                "404",
+                "6564",
+                "4375",
+                "8144",
+                "8141",
+                "9620",
+                "8160",
+                "6696",
+                "2890",
+                "6698",
+                "6694",
+                "8168",
+                "4404",
+                "7446",
+                "7257"
+              ],
+              "ack_paths": [
+                [
+                  "610",
+                  "2516",
+                  "649",
+                  "628",
+                  "2428",
+                  "662",
+                  "3533",
+                  "3497",
+                  "3501",
+                  "618",
+                  "3505",
+                  "3436",
+                  "620",
+                  "615",
+                  "617",
+                  "627",
+                  "645"
+                ]
+              ]
+            },
+            {
+              "producer": "7264",
+              "request": "holo_delamain_sad_calls_v_end_activate",
+              "waits": [
+                "7261"
+              ],
+              "clears": [
+                "7262"
+              ],
+              "controller_readers": [
+                "63"
+              ],
+              "controller_clears": [
+                "67"
+              ],
+              "ack_writers": [
+                "646"
+              ],
+              "actual_case_input": "sad_in",
+              "producer_path": [
+                "6",
+                "395",
+                "6630",
+                "2490",
+                "8704",
+                "8707",
+                "9131",
+                "9133",
+                "9129",
+                "396",
+                "3476",
+                "383",
+                "404",
+                "6564",
+                "4375",
+                "8144",
+                "8141",
+                "9620",
+                "8160",
+                "6696",
+                "2890",
+                "6698",
+                "6694",
+                "8168",
+                "4404",
+                "7446",
+                "7257",
+                "7254",
+                "7255",
+                "7256",
+                "7441",
+                "3174",
+                "2901",
+                "6567",
+                "3177",
+                "2905",
+                "4455",
+                "7263",
+                "7264"
+              ],
+              "ack_paths": [
+                [
+                  "611",
+                  "2914",
+                  "629",
+                  "654",
+                  "663",
+                  "625",
+                  "626",
+                  "2065",
+                  "623",
+                  "624",
+                  "630",
+                  "3569",
+                  "646"
+                ]
+              ]
+            },
+            {
+              "producer": "7501",
+              "request": "holo_delamain_sad_calls_v_end_activate",
+              "waits": [
+                "7499"
+              ],
+              "clears": [
+                "7500"
+              ],
+              "controller_readers": [
+                "63"
+              ],
+              "controller_clears": [
+                "67"
+              ],
+              "ack_writers": [
+                "646"
+              ],
+              "actual_case_input": "sad_in_talk",
+              "producer_path": [
+                "2926",
+                "2928",
+                "79",
+                "6583",
+                "6616",
+                "7505",
+                "7501"
+              ],
+              "ack_paths": [
+                [
+                  "611",
+                  "2914",
+                  "629",
+                  "654",
+                  "663",
+                  "625",
+                  "626",
+                  "2065",
+                  "623",
+                  "624",
+                  "630",
+                  "3569",
+                  "646"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "resource": "base\\quest\\holocalls\\delamain\\delamain_cleanup.questphase",
+          "node": "24"
+        },
+        {
+          "shared_core": "../G02/shared_core.json",
+          "correction": "../G06/G02_self_correction.json"
+        },
+        "verification_02/graph_evidence.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Per-case root/190 saved node identity, sockets and native phaseInstancePrefab#sq025_pr_sad are unchanged. S22 and fresh routes have distinct issued guards; case completion returns to native seven-car AND198.In2.",
+        "The CR1 receipt65020 names the existing fresh listener for S29 adoption guards; it does not create a second controller or impose a serial scheduling barrier.",
+        "Progressed skip1002 requires BOTH native done1 and quests/side_quest/sq025c02_sad Succeeded; True feeds198 directly and False enters native activation260."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: A native persistent return-car owner and already executing/saved private descendants cannot be proved retired/adopted from receipt/fact equality alone.",
+        "LIVE_ONLY: Cancellation, reload, lease lifetime and already-issued interrupted states need exact transition fixtures."
+      ],
+      "evidence": [
+        {
+          "resource": "towercontinued\\sidejobs_s22\\delamain\\scan.questphase",
+          "nodes": [
+            190,
+            1002,
+            198
+          ]
+        },
+        {
+          "resource": "towercontinued\\sidejobs_s22\\delamain\\owner.questphase",
+          "node": 1003
+        },
+        {
+          "resource": "towercontinued\\sidejobs_s25\\families\\sq025_fresh.questphase",
+          "nodes": [
+            92,
+            65020,
+            94
+          ]
+        },
+        "verification_02/source_pins.json",
+        "verification_02/graph_evidence.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Every node payload/socket/edge/reachability set in actual case root/190 equals pinned vanilla; original normal and talk scene input bindings retained. North Oak escort: readiness3476 additionally ANDs mq014_roundabout <1; vehicle door1541, player mount1106, native stop trigger1112 and unmount2689 remain; damaged/crowd/water/breaks reactions bind the default Delamain scene.",
+        "Actual scene entry6 reaches normal producer7257, receipt7693, additive scan counter3782, journal1267 and reward3941. Normal-requestâ†’done/counter paths and counterâ†’success/reward paths are separately recorded, avoiding a guessed direct doneâ†’counter chain.",
+        "Reachability is MAY reachability over actual edges; native choice predicates, waits, trigger/mount and combat conditions remain part of the contract rather than being assumed true."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Actual sad driving/combat/choice/talk and scene interruption execution, especially save during scan or reward, is not established by static topology."
+      ],
+      "evidence": [
+        {
+          "resource": "base\\quest\\side_quests\\sq025\\phases\\sq025_04_scan.questphase",
+          "graph": "root/190"
+        },
+        {
+          "resource": "base\\quest\\side_quests\\sq025\\scenes\\sq025_05_scan.scene",
+          "nodes": [
+            7257,
+            7693,
+            3782,
+            1267,
+            3941
+          ]
+        },
+        "verification_02/graph_evidence.json",
+        "verification_02/tests.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Native per-case prefab#sq025_pr_sad, scene marker#sq025_05_sm_scan, actor naming and talk interruption operations are unchanged. Shared scan root prefab#sq025_pr_03_street_find_delamain is preserved by frozen shared proof.",
+        "North Oak binds sad_water/sad_damage/sad_crowd/sad_death outputs to native default Delamain scene nodes25/26/27/28."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "OPAQUE: World sector/prefab placement, #sq025_com_delamain_sad, car spawn/trigger NodeRefs, camera/workspot/vehicle target definitions and localization/lipsync are not all decoded or independently resolved.",
+        "LIVE_ONLY: Streaming, vehicle AI, audio-only JV1 presentation and restored studio/focus behavior require engine observations; source binding equality is not placement proof."
+      ],
+      "evidence": [
+        {
+          "resource": "base\\quest\\side_quests\\sq025\\phases\\sq025_04_scan.questphase",
+          "graph": "root/190",
+          "prefab": [
+            "#sq025_pr_sad"
+          ]
+        },
+        "verification_02/source_pins.json",
+        "verification_02/graph_evidence.json"
+      ]
+    },
+    "journal": {
+      "status": "PASS",
+      "proven": [
+        "All case journal paths are inventoried from pinned native scan scene. Specific root quests/side_quest/sq025c02_sad is completed through journal node1267 input0:3 (Succeeded), reached from actual scan counter path.",
+        "Progressed cleanup graphroot/267 guard103 reads this exact root Succeeded: True bypasses journal deactivation; False enters node3.Inactive. Existing completed case history is preserved.",
+        "Per-case native debug-only reset/track outputs remain separate from normal input; native find/scan/disable/wait and case branch objective bindings remain unchanged in root/190/scene."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Actual marker display, localization, notification order and existing saved journal transitions are not observed."
+      ],
+      "evidence": [
+        {
+          "resource": "base\\quest\\side_quests\\sq025\\scenes\\sq025_05_scan.scene",
+          "node": 1267,
+          "input": "0:3"
+        },
+        {
+          "resource": "towercontinued\\sidejobs_s22\\delamain\\scan.questphase",
+          "graph": "root/267",
+          "guard": 103
+        },
+        "verification_02/graph_evidence.json",
+        "verification_02/tests.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native done writer7693 sets sq025_sad_done exactly1. Native counter3782 adds1 (setExactValue0), preserving seven-car family accounting. Raw-source mutation of this writer from1to2 is detected.",
+        "Counterâ†’reward3941 retains exact QuestRewards.sq025_each_scan_completed reference and separate Succeeded journal1267. Native case output returns to parent198.In2; native interrupt/counter and cleanup graph paths are pinned.",
+        "Existing Succeeded case histories bypass S22 cleanup deactivation; no reward/setup replay introduced."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "STATIC_TARGET_DATA_GAP: Exact QuestRewards.sq025_each_scan_completed TweakDB definition, resolved current overrides, amount scaling and downstream item/entitlement targets remain unverified.",
+        "LIVE_ONLY: Exactly-once receipt, actor/prefab teardown, interrupted conversation cleanup and native seven-car join completion require live/save fixtures."
+      ],
+      "evidence": [
+        {
+          "resource": "base\\quest\\side_quests\\sq025\\scenes\\sq025_05_scan.scene",
+          "nodes": [
+            7693,
+            3782,
+            3941,
+            1267
+          ]
+        },
+        {
+          "resource": "base\\quest\\side_quests\\sq025\\phases\\sq025_04_scan.questphase",
+          "graph": "root/190"
+        },
+        {
+          "resource": "towercontinued\\sidejobs_s22\\delamain\\scan.questphase",
+          "graph": "root/267"
+        },
+        "verification_02/graph_evidence.json",
+        "verification_02/tests.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "The existing S25/S22 resource/node/field receipts remain stable. Fresh1st issue requires this case done0 and no completed history; bounded S22 seam preserves and bypasses this already-completed case. Serialized opposite-state and journal fixtures test the actual guards.",
+        "S22 restart-skip node1002 requires done1 AND rootSucceeded; neither one alone bypasses native activation. Succeeded journal protection guard103 independently prevents history deactivation."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: HS1/fact snapshots do not deserialize saved running descendants. Arbitrary partially completed per-car states and already-issued orphan recovery are not certified.",
+        "LIVE_ONLY: Reload at scan/call/reward boundaries, pending callbacks, original-owner retirement and future-version transition safety require actual saved transition evidence."
+      ],
+      "evidence": [
+        {
+          "resource": "towercontinued\\sidejobs_s25\\families\\sq025_fresh.questphase",
+          "nodes": [
+            3,
+            90
+          ]
+        },
+        {
+          "resource": "towercontinued\\sidejobs_s22\\delamain\\owner.questphase",
+          "node": 1003
+        },
+        {
+          "resource": "towercontinued\\sidejobs_s22\\delamain\\scan.questphase",
+          "nodes": [
+            1002
+          ],
+          "cleanup": 103
+        },
+        "verification_02/graph_evidence.json",
+        "verification_02/tests.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Frozen G02 core is SHA-validated and all53 recorded native/private core binary hashes are revalidated; its graph/source/test artifact hashes are checked. Nine case-relevant resources are independently parsed against pinned normalized models, not merely copied statuses.",
+        "This case adds 3 actual communication producer checks, exact graphroot/190/prefab equality, distinct reward/journal/counter nodes and current-owner seam cases. Shared proof is supplemented by G06 concurrency correction; its old strict-before wording is not adopted.",
+        "Main body/support/listener/return-car dependencies remain original native ownership or the already-reviewed S22/S25 support; no new controller or synthetic Sandra/Delamain reset is proposed."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "STATIC_CONTEXT_GAP: Native parent154 token/mail admission, persistent return-car saved ownership and authoritative TweakDB/world definitions remain open shared obligations.",
+        "OPAQUE/LIVE_ONLY: Actual native garage/street/studio placement, phone arbitration and loaded owner coexistence remain outside static proof."
+      ],
+      "evidence": [
+        {
+          "shared_core": "../G02/shared_core.json",
+          "sha256": "6C7DAF85ED6345729092B3BF22EF6E1C176E95B6829824D11BD19A49D6DED4EC",
+          "correction": "../G06/G02_self_correction.json"
+        },
+        "verification_02/source_pins.json",
+        "verification_02/graph_evidence.json",
+        "verification_02/tests.json"
+      ]
+    }
+  },
+  "source_resources": "verification_02/source_pins.json",
+  "test_results": "verification_02/tests.json"
+}

@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "step": 2,
+  "status": "STEP2_PARENT_PRESERVED_VERIFIED_SUCCESSOR_SELECTED",
+  "scope": "Searchable dialogue index across the full scene census, with post-Tower availability preserved as a later review question.",
+  "plan": "docs/johnny_dialogue_removal_plan_20261107.md",
+  "preparation": "preparation.json",
+  "input_manifest": "evidence_01/prepared.json",
+  "export_manifest": "evidence_01/exports.jsonl",
+  "database_target": "index_02/dialogue.sqlite3",
+  "summary": "summary.json",
+  "report": "REPORT.md",
+  "verification": "index_02/verification.json",
+  "coverage_followup": "prealpha/johnny_dialogue_coverage_20261107_01/REPORT.md",
+  "successor_handoff": "prealpha/johnny_dialogue_coverage_20261107_01/STEP2_HANDOFF.md",
+  "step3_started": false,
+  "selected_successor": "prealpha/johnny_dialogue_index_20261107_02/index_05/dialogue.sqlite3",
+  "selected_successor_report": "prealpha/johnny_dialogue_index_20261107_02/REPORT.md",
+  "next_action": "Use the verified successor for future review. Preserve this parent snapshot and its original proof. Wait for the user to start Step 3."
+}

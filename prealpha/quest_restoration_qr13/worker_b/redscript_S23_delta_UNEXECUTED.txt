@@ -1,0 +1,22 @@
+UNEXECUTED EXACT INSERTION RECIPE — PTFR_SideJobsS23.reds
+
+Inside existing private Read(i:Int32)->SideJobSampleS23, AFTER both complete
+state/fact array sampling loops and BEFORE the existing final
+`if jm.HasAnyDelayedStateChanges()` invalidation, insert this block:
+
+    if i == 13 && SnapshotStateHS1.AdmitsBrendanFinalQR13(this.GetGameInstance(), paths, sample.states, names, sample.facts) {
+      sample.valid = true;
+      sample.reason = "Verified pre-ending earned final Theo continuation; native choices retained.";
+    }
+
+Do not change existing shape checks/early unavailable/unsettled returns, arrays,
+Fresh A/B vectors, Same(), two-pass Poll(), Ready(), Common()/Safe(), or the
+existing Permit() Issued!=0 no-revocation guard. The additive method is imported
+through the existing `import PTFR.HistorySnapshotHS1.*`.
+
+This leaves old all-Inactive sampling unchanged, while the serialized wrapper
+still refuses fresh issuance. Earned-case shape/stage/choice/certificate mismatch
+cannot override the invalid sample; the later unsettled check still wins.
+
+No private or native fact setter is added here: existing Permit writer remains
+the only producer. No new persistent S23 field or callback is introduced.

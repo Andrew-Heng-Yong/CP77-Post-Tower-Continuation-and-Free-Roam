@@ -1,0 +1,93 @@
+{
+  "status": "SOURCE_CORRECTIONS_INTEGRATED_STATIC_LIMITS_RETAINED",
+  "originals_preserved": true,
+  "corrections": [
+    {
+      "quest_id": "sq025_delamain",
+      "stage": "communications",
+      "change": "Supersede incorrect before-body prose with actual concurrent92fanout; preserve original findings.",
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G06\\G02_self_correction.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G05\\reviews\\G02.json"
+      ]
+    },
+    {
+      "quest_id": "sq025_compensation",
+      "stage": "communications",
+      "change": "Supersede incorrect before-body prose with actual concurrent92fanout; preserve original findings.",
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G06\\G02_self_correction.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G05\\reviews\\G02.json"
+      ]
+    },
+    {
+      "quest_id": "sq025_0_pickup",
+      "stage": "communications",
+      "change": "Supersede incorrect before-body prose with actual concurrent92fanout; preserve original findings.",
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G06\\G02_self_correction.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G05\\reviews\\G02.json"
+      ]
+    },
+    {
+      "quest_id": "sq025c05_scared",
+      "stage": "communications",
+      "change": "Supersede incorrect before-body prose with actual concurrent92fanout; preserve original findings.",
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G06\\G02_self_correction.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G05\\reviews\\G02.json"
+      ]
+    },
+    {
+      "quest_id": "sq025c07_suicidal",
+      "stage": "communications",
+      "change": "Supersede incorrect before-body prose with actual concurrent92fanout; preserve original findings.",
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G06\\G02_self_correction.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G05\\reviews\\G02.json"
+      ]
+    },
+    {
+      "quest_id": "sts_hey_gle_06",
+      "change": "Post-completion evidence refinement explicitly supersedes prior hash; reconstructed prior matches original SHA. Status/runtime inputs unchanged.",
+      "revision": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G12\\revisions\\stable_fences_01\\revision.json"
+    }
+  ],
+  "items": [
+    {
+      "id": "S24_PHONE_RACE_REJECTED",
+      "resolution": "Actual Pause1003requiresissued1; earlier hypothesis skipped the barrier. No patch.",
+      "evidence": "groups/G03/verification_01/hypothesis_correction.json"
+    },
+    {
+      "id": "G02_COUNTER_MUTATION",
+      "resolution": "Original normalized metadata mutation supplemented with actual rawSetVar mutation and renormalization.",
+      "evidence": "groups/G06/G02_self_correction.json"
+    },
+    {
+      "id": "MQ007_OWNER_REFINEMENT",
+      "resolution": "Initial scope block resolved by exact persistent-world descriptors; nested helper lease retained despite empty outerprefabs. Sector content staysOPAQUE.",
+      "evidence": "groups/G10/reviews/MQ007_followup_addendum.json"
+    },
+    {
+      "id": "FACTSDB_FIXTURE_BOUNDARY",
+      "resolution": "Original reviewer missing-any-fact rejection was conservative simulator policy. Root fixture uses absent scalar0; missing expected0 is accepted. Positive private receipts+futureevent are provenance boundary; no engine missing0 rejection claimed.",
+      "evidence": "candidate_01/repair_mq007/verification_01/tests.json"
+    },
+    {
+      "id": "MQ044_TIMER",
+      "resolution": "One-day corrective and three-day normal routes distinguished; late normal/main guards retained. No proven duplicate runtime owners or guessed timer repair.",
+      "evidence": "groups/G11/reviews/G12.json"
+    },
+    {
+      "id": "NATIVE_ODDITIES",
+      "resolution": "SerialSuicide selfrequest wait retained as native; Cole sibling-community disconnect pinned to prior approvedU9isolation. Neither is a new QR4 repair.",
+      "evidence": "groups/G10/reviews/G11.json"
+    },
+    {
+      "id": "PROSE_PRECISION",
+      "resolution": "Kabuki loss53→65→54, BigRace sq024_05 socket prefix, vendor MR_STUD, End 0 socket, Embedded/Soft normalization and parallel retry ACK assumptions corrected against source. Original evidence retained.",
+      "evidence": "group_evidence_index.json"
+    }
+  ]
+}

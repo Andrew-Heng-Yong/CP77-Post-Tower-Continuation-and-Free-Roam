@@ -1,0 +1,263 @@
+{
+  "quest_id": "sts_ep1_01",
+  "title": "Dogtown Saints",
+  "source_epoch": "QR5 frozen source_epoch00; G21 resource hashes unchanged in current candidate03/epoch08; installed PH3 separate",
+  "status": "DEEP_REVIEWED_WITH_SPECIFIC_NATIVE_AND_ENGINE_LIMITS",
+  "fully_static_verified": false,
+  "effective_resource": "towercontinued\\native_gigs_u9\\sts_ep1_01_entry.questphase",
+  "effective_resource_sha256": "62C689FE3EA2268C46CE90ADEA7E3B01626610590F811222D36A0D34F5B4F2A4",
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "65003\u21928.In1; original inline8:0\u219225 Pause(mr_hands_dogtown_introduced>0)\u21921.Out1\u219212.Active\u219265004Started\u219211.In1. No introduced/history fact is fabricated.",
+        "Actual root0\u219265000Ready\u219265001Revision\u219250.In1; scoped0\u219265000\u219265001\u219265002 native-history/Tower pause\u219265003ParentEntered. All recipe edges, companion routes and embedded original body counterparts were compared to pinned native inputs."
+      ],
+      "approved_differences": [
+        "Existing U9 private once-only entry/credit isolation; genuine Tower/request/permit ownership; original external native body and original saved internal node identities retained. Companion copies receive private64000+ local identities; only phaseResource storage Embedded\u2192Soft changes where recorded."
+      ],
+      "remaining": [
+        "Registration activation and native trigger/content time conditions require the engine. Roads pre-entry IsOutside trigger ownership/placement cannot be inferred solely from the later streetstory prefab."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\findings.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\protocols.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\mutations.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\scene_bindings_01.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\outcome_writers_01.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\bugfix_routes_01.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\raw_exports_01\\manifest.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\followup_consumer_census_01.json"
+      ]
+    },
+    "eligibility": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Current consolidated catalogue index63: 22 exact journal paths/classes, 50 native fact guards, legacy tags and terminal list are extracted in findings.json; EntrySafe checks all paths Inactive, all native facts0, and Poll revalidates OldUnused AND EntrySafe before Permit. Missing journal state is not accepted as Inactive.",
+        "65003\u21928.In1; original inline8:0\u219225 Pause(mr_hands_dogtown_introduced>0)\u21921.Out1\u219212.Active\u219265004Started\u219211.In1. No introduced/history fact is fabricated."
+      ],
+      "approved_differences": [
+        "Fresh-only authorized restoration preserves original prerequisites and native branch timing; it does not fabricate q304/introduced/earned outcomes."
+      ],
+      "remaining": [
+        "Exact native journal paths outside generated EntrySafe are enumerated in findings.json. Own quest omissions are map pins/objective children; foreign q303/mq304/mq305 paths in Prototype belong to original shared-call context. Their mere presence is not an unsafe route, but a complete saved-state implication proof from all parent/child journals is not available. Historical ownership/live save state must still be checked."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\findings.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\protocols.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\mutations.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\scene_bindings_01.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\outcome_writers_01.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\bugfix_routes_01.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\raw_exports_01\\manifest.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\followup_consumer_census_01.json"
+      ]
+    },
+    "communications": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Openworld root/4/163 prebrief7:8.True\u2192Start0, End/reject\u21922.Active, Default RET9/INT10. Root/4/164 debrief112 accepts Start0/not_rejectable_q303_start, End\u2192127.In2 or native nonreject end\u2192127.In1, reject\u2192122; Default RET117/INT118 retained.",
+        "Native prebrief119 start producer waits113 and clears115. Native end192\u2192125 disables interruption scenarios\u2192190 end_done0\u2192209 holocall_active0\u21922 output HAS NO end_done wait. This exact original route is preserved and disclosed; master42 still writes genuine end_done. Debrief38/46 retain real waits and72/42 clears.",
+        "Actual master Hands listener32/36 incoming and4 outgoing,3/5 end paths, scene0 input sockets, real ACK41/42/43/44 and bidirectional count/reset cleanup are pinned and checked. Across these three native scene families22 request producers including retries are inventoried with connected waits/resets or the exact Dogtown native exception. SMS journal changes and choice listeners are listed by graph/node/socket, not replaced by fake ACKs."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Native scheduler, rejection races, content interruption, scene startup and physical/holo studio lease availability remain engine-dependent. Existing native Dogtown no-end-wait semantics are not certified race-free or changed. CVI02 custom new_sts/new_q110 controller is unrelated and not inherited here."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\findings.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\protocols.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\mutations.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\scene_bindings_01.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\outcome_writers_01.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\bugfix_routes_01.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\raw_exports_01\\manifest.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\followup_consumer_census_01.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Main11.Out1 fans65005MainFinished and64000cleanup; cleanup.Out1\u219265006OwnerFinished. Main and cleanup have native Terminating outputs; private root and parallel native bugfix lifecycle remain separately owned.",
+        "Original EP1 streetstory parent root50/51/52/53 and selected main/cleanup/bugfix/aftergig instance PIPs were inspected: all are empty. Full referenced native child root leases and recursive PIPs are inventoried independently. Existing ParentEntered/Started/CreditEntered/CreditDone and consolidated snapshot admission prevent unconditional second fresh dispatch."
+      ],
+      "approved_differences": [
+        "Existing U9 private once-only entry/credit isolation; genuine Tower/request/permit ownership; original external native body and original saved internal node identities retained. Companion copies receive private64000+ local identities; only phaseResource storage Embedded\u2192Soft changes where recorded."
+      ],
+      "remaining": [
+        "Genuine Tower ancestry and receipts are source-backed gates; actual pre-existing saved native owners, reload scheduling and ongoing shared phone/combat leases require live or save evidence. No native owner is adopted/reset based on a killed fact or journal enum alone."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\findings.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\protocols.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\mutations.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\scene_bindings_01.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\outcome_writers_01.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\bugfix_routes_01.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\raw_exports_01\\manifest.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\followup_consumer_census_01.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Native openworld/combat/Anderson/final/Nika/Scav scenes are original pinned bodies. Final NikaAlive writers and Anderson branch callbacks remain distinct and no outcome is forced.",
+        "Native openworld root/4/164:83\u219256Finished\u219285.Succeeded; scene15.failed\u219289Failed\u219233.Failed;129.Out1\u2192124Done\u2192125Finished\u2192119. Success/debrief and failed-call branches retain original journal transitions."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "PASS is exact static native branch preservation and callback binding, not proof of reachable in-game actors, triggers or every dialogue execution."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\findings.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\protocols.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\mutations.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\scene_bindings_01.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\outcome_writers_01.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\bugfix_routes_01.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\raw_exports_01\\manifest.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\followup_consumer_census_01.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Exact native root leases: {'ep1\\\\openworld\\\\street_stories\\\\sts_ep1_01\\\\phases\\\\sts_ep1_01_bugfixing.questphase': [], 'ep1\\\\openworld\\\\street_stories\\\\sts_ep1_01\\\\phases\\\\sts_ep1_01_cleanup.questphase': ['#sts_ep1_01_streetstory'], 'ep1\\\\openworld\\\\street_stories\\\\sts_ep1_01\\\\phases\\\\sts_ep1_01_combat.questphase': [], 'ep1\\\\openworld\\\\street_stories\\\\sts_ep1_01\\\\phases\\\\sts_ep1_01_openworld.questphase': [], 'ep1\\\\openworld\\\\street_stories\\\\sts_ep1_01\\\\phases\\\\sts_ep1_01_phase.questphase': ['#sts_ep1_01_streetstory']}. Native scene actor/cast IDs, node references, workspot/camera references, scene input/output ownership and recursive instance PIPs are enumerated in findings/handler inventory. No initializer-empty shortcut was used.",
+        "Actual raw\u2192fresh JSON\u2192pinned model equality permits only exact TDBID numeric identity/storage plus derived digests and tuple/list representation; NodeRefs and scene graph payloads are preserved."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Streaming-sector worldNode/physical placement and complete transitive workspot/camera/variant resolution are not proved. Native Johnny metadata/context is not itself visual execution; current R4/voice-only policy must be tested with the selected presentation route. Physical Hands/holo startup ownership remains conditional; no unfiltered global default controller is imported."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\findings.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\protocols.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\mutations.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\scene_bindings_01.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\outcome_writers_01.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\bugfix_routes_01.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\raw_exports_01\\manifest.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\followup_consumer_census_01.json"
+      ]
+    },
+    "journal": {
+      "status": "PASS",
+      "proven": [
+        "Exact journal objectives, quest descriptions, POI/map-pin paths and phone message/choice changes are inventoried across the actual native bodies; 22 generated admission paths/classes are compared separately. Native entry POI node12 Active payload is identical and raw wrong-path mutations fail.",
+        "Native body resources are not patched or journal-reset by this group; native Active/Succeeded/Failed/socket choices and markers stay exact. Parent-inactive admission implications beyond enumerated paths are explicitly conditional in eligibility."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Static journal path/transition preservation does not certify map marker placement, localization or actual UI timing."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\findings.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\protocols.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\mutations.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\scene_bindings_01.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\outcome_writers_01.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\bugfix_routes_01.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\raw_exports_01\\manifest.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\followup_consumer_census_01.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Root/4/164 normal/retry debrief127.Out1 or132.Out1\u2192114 QuestRewards.sts_ep1_01_reward\u2192233 achievement increment\u2192188 DirtyWork\u2192115; success/failure terminal writers remain distinct. Credit1 waits finished>0\u219214 ep1_sts_counter+1.",
+        "Native cleanup retains debrief sms In binding15 and reply/choice prerequisites, then native cleanup output. No external reward or history reset was added.",
+        "35 actual route-referenced stock target identities are matched to captured base/EP1 definitions; native reward, achievement and item nodes are retained with incoming/outgoing sockets."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Captured stock target existence/types are not complete descendant reward expansion or effective TweakXL/CET winner proof. Native cleanup completion/callback does not prove all actor/phone leases retired; actual grant/save atomicity requires engine/save evidence."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\findings.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\protocols.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\mutations.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\scene_bindings_01.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\outcome_writers_01.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\bugfix_routes_01.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\raw_exports_01\\manifest.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\followup_consumer_census_01.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Existing private entry/saved field/node/depot identities are unchanged. Guard refuses ParentEntered1 or Fault1; credit requires Started1/CreditEntered0/CreditDone0 and native finished>0, then writes CreditEntered before native +1 and CreditDone after. Raw credit+2 mutations are rejected against exact original native increment.",
+        "Native old corrective bugfix phases are included with all original arm predicates and outcome guards; no synthetic counters or replay of earned reward history. Unsupported active/terminal native history defers through snapshot/EntrySafe."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Once-only structural receipts are not save write atomicity or proof that an arbitrary progressed/oldclaimed owner is safe. Cross-version/reload transition fixtures and actual saved-owner evidence remain required; no rollback-as-save-undo claim."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\findings.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\protocols.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\mutations.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\scene_bindings_01.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\outcome_writers_01.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\bugfix_routes_01.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\raw_exports_01\\manifest.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\followup_consumer_census_01.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native NikaAlive outcome is retained and remains a producer for original EP1 worldstory25\u2192Nika followup scope. The separate downstream selected worldstory/default adapters and q302 Ronald message source are dependencies, not a reason to replay q302 or fake Nika history. Full native/source queue ownership remains separately bounded.",
+        "Actual Hands incoming/outgoing listener/real ACK and cleanup core is source-hash matched per case; current U9initializer/parent/cleanup and PH3studio support are explicitly inventoried. Prototype q303 Hands context and native aftergig combat scope remain visible instead of claiming all three use only a generic incoming call."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Downstream Q10/worldstory gameplay and all streaming-world target availability remain unproved. Complete arbitrary runtime mod/provider overrides and saved shared-owner liveness are outside a static resource certificate."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\findings.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\protocols.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\verification_06\\mutations.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\scene_bindings_01.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\outcome_writers_01.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\bugfix_routes_01.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\raw_exports_01\\manifest.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\followup_consumer_census_01.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\shared_core.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G03\\shared_core.json"
+      ]
+    }
+  },
+  "confirmed_defects": [],
+  "no_runtime_changes": true
+}

@@ -1,0 +1,25 @@
+// UNEXECUTED: insert INSIDE existing SnapshotStateHS1, without altering fields.
+public static func AdmitsBrendanFinalQR13(game:GameInstance,paths:array<String>,states:array<Int32>,names:array<String>,facts:array<Int32>) -> Bool {
+  let s=SnapshotStateHS1.Get(game);
+  return IsDefined(s) && s.AllowsBrendanFinalQR13(paths,states,names,facts);
+}
+public func AllowsBrendanFinalQR13(paths:array<String>,states:array<Int32>,names:array<String>,facts:array<Int32>) -> Bool {
+  if !this.Ready() || this.schema!=1 || NotEquals(this.catalogue,SnapshotDataHS1.Fingerprint()) || NotEquals(this.origin,n"pre_ending") { return false; }
+  let i=SnapshotDataHS1.Index("mq037_brendan");
+  if i<0 || i>=ArraySize(this.rows) || !this.rows[i].stable { return false; }
+  let oldPaths=SnapshotDataHS1.Paths(i);let oldNames=SnapshotDataHS1.Facts(i);
+  if !BrendanFinalDataQR13.Match(oldPaths,this.rows[i].states,oldNames,this.rows[i].facts) ||
+    !BrendanFinalDataQR13.Match(paths,states,names,facts) { return false; }
+  // All eighteen observed journal identities and all ten native MQ037 facts
+  // must still equal the frozen earned state, regardless of catalogue order.
+  // No optional/tracked/counter field is changed or promoted into ownership.
+  let k=0;
+  while k<ArraySize(oldPaths) {
+    if BrendanFinalDataQR13.State(paths,states,oldPaths[k])!=this.rows[i].states[k] { return false; }k+=1;
+  }
+  let nativeNames=BrendanFinalDataQR13.Names();k=0;
+  while k<ArraySize(nativeNames) {
+    if BrendanFinalDataQR13.Fact(names,facts,nativeNames[k])!=BrendanFinalDataQR13.Fact(oldNames,this.rows[i].facts,nativeNames[k]) { return false; }k+=1;
+  }
+  return true;
+}

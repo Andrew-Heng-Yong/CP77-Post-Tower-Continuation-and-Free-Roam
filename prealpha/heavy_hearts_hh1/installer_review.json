@@ -1,0 +1,21 @@
+{
+  "allowed_replacements": [
+    "archive/pc/mod/zzzz_PTFR_Combined.archive",
+    "archive/pc/mod/zzzz_PTFR_Combined.archive.xl"
+  ],
+  "engine_delta": [
+    "# HH1 deployment. User authorized installation. Fixtures stay under this task.",
+    "# Derived from the QR19 transaction. Only the archive and XL may change.",
+    "$PinnedCoreManifestSHA='067481C8B6D41FF456DBBD62406F8F2F9665766A88AD29F6575309737DADB2FC'",
+    "PTFR_HH1_JOURNAL_V1",
+    "'PTFR_HH1_CORE_V1'",
+    "$manifest.source_epoch -cne 'HH1' -or $manifest.predecessor_epoch -cne 'QR19'",
+    "('recovery/core_hh1_01')",
+    "'archive/pc/mod/zzzz_PTFR_Combined.archive.xl'"
+  ],
+  "installer_sha256": "368EEC162431322C3C82A0DA9932D375ED030955BFB7B6FBB70D037F7D58C4A9",
+  "manifest_sha256": "067481C8B6D41FF456DBBD62406F8F2F9665766A88AD29F6575309737DADB2FC",
+  "predecessor_installer_sha256": "4B320A14E4B404E4FBAEDF33FC0B296243EF866191586B75846AADD0134BB61B",
+  "scope": "Identity, archive/XL allowlist and private recovery namespace. Transaction logic is inherited unchanged.",
+  "status": "PASS_HH1_REVIEWED_TRANSACTION_DELTA"
+}

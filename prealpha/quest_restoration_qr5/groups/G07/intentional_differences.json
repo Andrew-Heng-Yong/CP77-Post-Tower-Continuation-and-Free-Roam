@@ -1,0 +1,52 @@
+{
+  "existing_adaptations": [
+    {
+      "quest_id": "sts_wat_kab_101",
+      "adaptations": [
+        "U9 additive permission/receipt entry, private credit once guard, focused map controllers",
+        "Original embedded native body externalized with Flags Soft; every other payload field preserved"
+      ],
+      "evidence": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G07\\verification_02\\intentional_differences.json",
+      "new_change": false
+    },
+    {
+      "quest_id": "sts_wat_kab_107",
+      "adaptations": [
+        "U9 additive permission/receipt entry, private credit once guard, focused map controllers",
+        "Original embedded native body externalized with Flags Soft; every other payload field preserved",
+        "Original lifecycle parallel prestate controller launched at64000, source identities unchanged"
+      ],
+      "evidence": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G07\\verification_02\\intentional_differences.json",
+      "new_change": false
+    },
+    {
+      "quest_id": "sts_wat_kab_102",
+      "adaptations": [
+        "U9 additive permission/receipt entry, private credit once guard, focused map controllers",
+        "Original embedded native body externalized with Flags Soft; every other payload field preserved",
+        "Original lifecycle parallel prestate controller launched at64000, source identities unchanged"
+      ],
+      "evidence": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G07\\verification_02\\intentional_differences.json",
+      "new_change": false
+    },
+    {
+      "quest_id": "sts_wat_kab_07",
+      "adaptations": [
+        "U9 additive permission/receipt entry, private credit once guard, focused map controllers",
+        "Original embedded native body externalized with Flags Soft; every other payload field preserved"
+      ],
+      "evidence": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G07\\verification_02\\intentional_differences.json",
+      "new_change": false
+    }
+  ],
+  "native_anomalies": [
+    {
+      "quest_id": "sts_wat_kab_07",
+      "finding": "Native generic Tyger retaliation signal without a dedicated Monster selector",
+      "status": "CONDITIONAL",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G07\\deep_verification_03\\retaliation.json",
+      "new_change_authorized": false
+    }
+  ],
+  "new_runtime_changes": []
+}

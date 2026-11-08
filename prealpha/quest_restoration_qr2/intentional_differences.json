@@ -1,0 +1,254 @@
+{
+  "scope": "Existing adaptations reviewed in this batch; no new runtime differences",
+  "differences": [
+    {
+      "quest_id": "mq045_victor_debt",
+      "contract": "entry",
+      "difference": "S25 adds post-Tower/PA2/U9/owned Permit+receipt gates and admits only all-four-Inactive debt journal entries. The obsolete native CYB-571237 bugfix-marker increment and terminating output are excluded; actual quest payloads are retained.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\quests\\mq045_victor_debt\\contracts.json",
+      "source_sha256": "0F21F49B99D2F45C6EB0D40AEDCA94D2C847AC23930CB2A7B275F9E4CBC12272",
+      "new_in_qr2": false,
+      "authority": "Root AGENTS.md invariants2-5; PROJECT restoration policy; existing source-pinned donor contracts cited by quest findings",
+      "evidence": [
+        "verification_02/evidence.json#native_slice",
+        "verification_02/evidence.json#entry",
+        "verification_02/tests.json",
+        "../../../sidejobs_s25/services/contract02.json",
+        "../../../phone_studios_ph3/candidate_01/package/archive/pc/mod/zzzz_PTFR_Combined.archive.xl:183"
+      ]
+    },
+    {
+      "quest_id": "mq045_victor_debt",
+      "contract": "eligibility",
+      "difference": "Fresh-only admission intentionally refuses active, completed, failed or contradictory historical states. No native debt, q001 or journal fact is reset to fabricate availability.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\quests\\mq045_victor_debt\\contracts.json",
+      "source_sha256": "0F21F49B99D2F45C6EB0D40AEDCA94D2C847AC23930CB2A7B275F9E4CBC12272",
+      "new_in_qr2": false,
+      "authority": "Root AGENTS.md invariants2-5; PROJECT restoration policy; existing source-pinned donor contracts cited by quest findings",
+      "evidence": [
+        "verification_02/evidence.json#entry",
+        "verification_02/tests.json",
+        "../../../phone_studios_ph3/candidate_01/package/r6/scripts/PTFR_Consolidated/PTFR_SideJobsS25.reds"
+      ]
+    },
+    {
+      "quest_id": "mq045_victor_debt",
+      "contract": "ownership",
+      "difference": "Post-Tower private debt journal owner is added only after genuine parent-tree retirement gates. It reuses the existing restored B0 service, instead of spawning another Viktor.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\quests\\mq045_victor_debt\\contracts.json",
+      "source_sha256": "0F21F49B99D2F45C6EB0D40AEDCA94D2C847AC23930CB2A7B275F9E4CBC12272",
+      "new_in_qr2": false,
+      "authority": "Root AGENTS.md invariants2-5; PROJECT restoration policy; existing source-pinned donor contracts cited by quest findings",
+      "evidence": [
+        "verification_02/tests.json",
+        "resources.json",
+        "../../ancestor_review.json",
+        "../../provider_readback_01/capture.json",
+        "../../../phone_studios_ph3/candidate_01/package/r6/scripts/PTFR_Consolidated/PTFR_SideJobsS25.reds"
+      ]
+    },
+    {
+      "quest_id": "mq045_victor_debt",
+      "contract": "presentation",
+      "difference": "B0 routes1/411 suppress incompatible pre-Tower staging while preserving the default service and840 payment hub. Nodes198/718/721 relocate self-scene references. The two paid options retain native payment data with CR1-reviewed receipt+Active-root guards.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\quests\\mq045_victor_debt\\contracts.json",
+      "source_sha256": "0F21F49B99D2F45C6EB0D40AEDCA94D2C847AC23930CB2A7B275F9E4CBC12272",
+      "new_in_qr2": false,
+      "authority": "Root AGENTS.md invariants2-5; PROJECT restoration policy; existing source-pinned donor contracts cited by quest findings",
+      "evidence": [
+        "verification_02/evidence.json#scene_metadata_exact_to_native",
+        "verification_02/evidence.json#scene_changed_nodes",
+        "verification_02/tests.json",
+        "../../provider_readback_01/capture.json",
+        "../../../consolidation_repair_cr1/donor_review/selection_01.json"
+      ]
+    },
+    {
+      "quest_id": "mq045_victor_debt",
+      "contract": "shared_dependencies",
+      "difference": "Existing PH1 native service listener and PH3 shared studio ownership are preserved; QR2 adds no phone owner.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\quests\\mq045_victor_debt\\contracts.json",
+      "source_sha256": "0F21F49B99D2F45C6EB0D40AEDCA94D2C847AC23930CB2A7B275F9E4CBC12272",
+      "new_in_qr2": false,
+      "authority": "Root AGENTS.md invariants2-5; PROJECT restoration policy; existing source-pinned donor contracts cited by quest findings",
+      "evidence": [
+        "verification_02/tests.json",
+        "resources.json",
+        "../../provider_readback_01/capture.json"
+      ]
+    },
+    {
+      "quest_id": "mq035_ozob",
+      "contract": "entry",
+      "difference": "Private Tower readiness, history/permit, fresh-state and once-only receipt guards precede the original native entry chain. Native body and input remain unchanged; this is the existing S23/S25/CR1 adaptation, not a QR2 change.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\quests\\mq035_ozob\\contracts.json",
+      "source_sha256": "5739C38835A312A339806A79139A952E2C1BCA63266140BE3B099E07E954345B",
+      "new_in_qr2": false,
+      "authority": "Root AGENTS.md invariants2-5; PROJECT restoration policy; existing source-pinned donor contracts cited by quest findings",
+      "evidence": [
+        "source_pins.json",
+        "graph_evidence.json",
+        "tests.json: native_ancestor_node_32; final_native_gate_before_native_body"
+      ]
+    },
+    {
+      "quest_id": "mq035_ozob",
+      "contract": "eligibility",
+      "difference": "Stricter fresh-only admission and genuine Tower completion restrictions are established project policy. Unsupported unfinished states defer; this adapter does not claim an arbitrary resume seam.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\quests\\mq035_ozob\\contracts.json",
+      "source_sha256": "5739C38835A312A339806A79139A952E2C1BCA63266140BE3B099E07E954345B",
+      "new_in_qr2": false,
+      "authority": "Root AGENTS.md invariants2-5; PROJECT restoration policy; existing source-pinned donor contracts cited by quest findings",
+      "evidence": [
+        "graph_evidence.json",
+        "tests.json: native_q110_and_seven_streetcred_branches_exact; reject_Active_1002; reject_Failed_1002; reject_Succeeded_1002",
+        "prealpha/phone_studios_ph3/candidate_01/package/r6/scripts/PTFR_Consolidated/PTFR_SideJobsS23.reds:79-140,427,631,682"
+      ]
+    },
+    {
+      "quest_id": "mq035_ozob",
+      "contract": "communications",
+      "difference": "The established S23 private phone wrapper restores a native listener under post-Tower admission; PH3 shared studio support is retained. No synthetic acknowledgement or counter writer was added.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\quests\\mq035_ozob\\contracts.json",
+      "source_sha256": "5739C38835A312A339806A79139A952E2C1BCA63266140BE3B099E07E954345B",
+      "new_in_qr2": false,
+      "authority": "Root AGENTS.md invariants2-5; PROJECT restoration policy; existing source-pinned donor contracts cited by quest findings",
+      "evidence": [
+        "source_pins.json",
+        "graph_evidence.json",
+        "tests.json: native_protocol_audio_v_calls_ozob_start_activate; native_protocol_audio_v_calls_ozob_end_activate; native_cleanup_outgoing_balanced_route"
+      ]
+    },
+    {
+      "quest_id": "mq035_ozob",
+      "contract": "ownership",
+      "difference": "Only the established fresh private owner is admitted after the genuine Tower teardown. Existing saved node/resource identities remain unchanged; QR2 changed no runtime resource.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\quests\\mq035_ozob\\contracts.json",
+      "source_sha256": "5739C38835A312A339806A79139A952E2C1BCA63266140BE3B099E07E954345B",
+      "new_in_qr2": false,
+      "authority": "Root AGENTS.md invariants2-5; PROJECT restoration policy; existing source-pinned donor contracts cited by quest findings",
+      "evidence": [
+        "source_pins.json",
+        "graph_evidence.json",
+        "tests.json: reject_issued_1001;reject_issued_1002;postclaim_identity_preserved",
+        "Root QR2 native ancestor trace (integrated report)",
+        "../../ancestor_review.json"
+      ]
+    },
+    {
+      "quest_id": "mq035_ozob",
+      "contract": "presentation",
+      "difference": "Existing PH3 shared studio restoration remains unchanged and is reused from QR1 evidence.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\quests\\mq035_ozob\\contracts.json",
+      "source_sha256": "5739C38835A312A339806A79139A952E2C1BCA63266140BE3B099E07E954345B",
+      "new_in_qr2": false,
+      "authority": "Root AGENTS.md invariants2-5; PROJECT restoration policy; existing source-pinned donor contracts cited by quest findings",
+      "evidence": [
+        "source_pins.json",
+        "graph_evidence.json:asset_bindings,prefab_roots",
+        "provider_requests.json",
+        "../../provider_readback_01/capture.json"
+      ]
+    },
+    {
+      "quest_id": "mq035_ozob",
+      "contract": "journal",
+      "difference": "Private1010 observes native root Succeeded and writes only private Finished receipt. Dormant Failed -> Active nodes1004-1006 are inherited, but both fresh guards require Inactive; they are not an admitted Failed-history route under a stable snapshot.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\quests\\mq035_ozob\\contracts.json",
+      "source_sha256": "5739C38835A312A339806A79139A952E2C1BCA63266140BE3B099E07E954345B",
+      "new_in_qr2": false,
+      "authority": "Root AGENTS.md invariants2-5; PROJECT restoration policy; existing source-pinned donor contracts cited by quest findings",
+      "evidence": [
+        "graph_evidence.json:journal",
+        "tests.json:completion_receipt_observes_native_success;reject_Failed_1001;reject_Failed_1002"
+      ]
+    },
+    {
+      "quest_id": "mq035_ozob",
+      "contract": "shared_dependencies",
+      "difference": "Shared native studio support is the existing PH3 correction. QR2 retains the consolidated registration/provider behavior and all CR1/PH1/PH2/PH3 baseline bytes.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\quests\\mq035_ozob\\contracts.json",
+      "source_sha256": "5739C38835A312A339806A79139A952E2C1BCA63266140BE3B099E07E954345B",
+      "new_in_qr2": false,
+      "authority": "Root AGENTS.md invariants2-5; PROJECT restoration policy; existing source-pinned donor contracts cited by quest findings",
+      "evidence": [
+        "source_pins.json",
+        "graph_evidence.json",
+        "tests.json:native_cleanup_in_shared_chain;phone_owner_before_quest_owner",
+        "provider_requests.json"
+      ]
+    },
+    {
+      "quest_id": "mq038_neweridentity",
+      "contract": "entry",
+      "difference": "Private Tower/2079/support guards, all-inactive fresh seam, one-time receipts and JD1 listener dependency are the established S23/JD1 adaptation. No native prerequisite is waived.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\quests\\mq038_neweridentity\\contracts.json",
+      "source_sha256": "EC62CF3FA9DECAA38852E0D097A45C3A9BFB5B27806B96653FF80F5472F6B6FA",
+      "new_in_qr2": false,
+      "authority": "Root AGENTS.md invariants2-5; PROJECT restoration policy; existing source-pinned donor contracts cited by quest findings",
+      "evidence": [
+        {
+          "resource": "towercontinued\\sidejobs_s23\\base_b\\mq038.questphase",
+          "resource_sha256": "9E1C9646659F1C77AE435335777EB207A026399AE13ADA1AFCFABA746CC797AC",
+          "source_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\diagnostics\\restored_audit_20261025_01\\installed_01\\resources\\2447455146621282329.questphase.json",
+          "graph": "root",
+          "nodes": [
+            "1000",
+            "1002",
+            "1003",
+            "54",
+            "80",
+            "55",
+            "1004",
+            "1005",
+            "1006",
+            "11"
+          ],
+          "detail": "Actual connected entry"
+        },
+        {
+          "resource": "base\\quest\\minor_quests\\minorquests.questphase",
+          "resource_sha256": "89E902A6BCC783325642A6DC6D1D856BB144651136C58D423FEA6B421EFCE85A",
+          "source_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\research\\sidejobs_s29\\native_03\\basegame_4_gamedata\\raw\\base\\quest\\minor_quests\\minorquests.questphase.json",
+          "graph": "root",
+          "nodes": [
+            "54",
+            "80",
+            "55",
+            "11"
+          ],
+          "detail": "Native parent prerequisite/binding comparison"
+        }
+      ]
+    },
+    {
+      "quest_id": "mq038_neweridentity",
+      "contract": "eligibility",
+      "difference": "Only the bounded fresh Inactive seam is admitted after Tower; unsupported progressed states defer.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\quests\\mq038_neweridentity\\contracts.json",
+      "source_sha256": "EC62CF3FA9DECAA38852E0D097A45C3A9BFB5B27806B96653FF80F5472F6B6FA",
+      "new_in_qr2": false,
+      "authority": "Root AGENTS.md invariants2-5; PROJECT restoration policy; existing source-pinned donor contracts cited by quest findings",
+      "evidence": [
+        {
+          "resource": "towercontinued\\sidejobs_s23\\base_b\\mq038.questphase",
+          "resource_sha256": "9E1C9646659F1C77AE435335777EB207A026399AE13ADA1AFCFABA746CC797AC",
+          "source_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\diagnostics\\restored_audit_20261025_01\\installed_01\\resources\\2447455146621282329.questphase.json",
+          "graph": "root",
+          "nodes": [
+            "1002",
+            "1004",
+            "54",
+            "80",
+            "55"
+          ],
+          "detail": "Serialized predicates including AND/OR structure;39 per-journal Active/Succeeded/Failed and7 progressed-fact refusals verified"
+        },
+        {
+          "file": "prealpha/phone_studios_ph3/candidate_01/package/r6/scripts/PTFR_Consolidated/PTFR_SideJobsS23.reds",
+          "lines": "Permit/Common/Read/Ready/Poll and Paths12/FactNames12; SHA in tests_04.json"
+        }
+      ]
+    }
+  ]
+}

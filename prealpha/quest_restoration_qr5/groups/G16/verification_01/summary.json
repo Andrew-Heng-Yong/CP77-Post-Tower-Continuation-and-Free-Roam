@@ -1,0 +1,19 @@
+{
+  "status": "PASS_SPECIFIC_STATIC_CONTRACT_CHECKS_WITH_LIMITS",
+  "checks": 299,
+  "mutations": 6,
+  "source_models": 27,
+  "source_pins": 48,
+  "fresh_exports": 11,
+  "quest_ids": [
+    "wst_ep1_05",
+    "wst_ep1_11_bill_meeting",
+    "wst_ep1_04"
+  ],
+  "tests": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\tests.json",
+  "code": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verify.py",
+  "code_sha256": "91EBA9975CD56659DC4A1C169D1284FB10A82DE361A493CA44EDDDCC1BBC89A7",
+  "confirmed_defects": [],
+  "fully_static_verified": false,
+  "runtime_changes": []
+}

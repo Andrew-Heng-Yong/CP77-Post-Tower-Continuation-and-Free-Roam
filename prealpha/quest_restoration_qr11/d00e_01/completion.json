@@ -1,0 +1,64 @@
+{
+  "status": "INSTALLED_D00E_PROFILE_VERIFIED_AWAITING_HUMAN_EVENT",
+  "utc": "2026-11-03T16:16:13.422972+00:00",
+  "profile": "D00E",
+  "contact": "El Capitan",
+  "fact": "phonecall_player_with_muamar_el_capitan_reyes",
+  "scope": "one watch.json update under existing diagnostic-deployment approval",
+  "changed_paths": [
+    "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_QR9_Diagnostics/watch.json"
+  ],
+  "manifest_sha256": "C4BC8A6AB6FDF2948DAF7C2F04EDDB34B8287FA9794040701D09E48E9160B5F5",
+  "artifacts": [
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\d00e_01\\REPORT.md",
+      "sha256": "2CE08FB08CD85BE6CC78D5110DE63A63E7B5CBB16A21E22D1B410DA42A3CA3EA"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\d00e_01\\MANUAL_TEST_PLAN.md",
+      "sha256": "985A8AF3D99CAD9111521B2D083D29997F86787601070D4546428F757DD430A2"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\d00e_01\\HANDOFF.md",
+      "sha256": "5A76250F20245FF48C1A3FD30ED99252353FB768FB85D8B672163E4F17E4FAE1"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\d00e_01\\evidence.json",
+      "sha256": "B99A66D7169DAC0D0D13869409982A2F80A10E0D74F132841DAECC97E2AD166C"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\d00e_01\\test_result_01.json",
+      "sha256": "B4E814320CEB5528DF8B19FBE254D4FEDC6C97049D57C18459342BD979A5A8AF"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\d00e_01\\review\\result.json",
+      "sha256": "ECA430518EAD2FF59D1E35C26B87247CBF5B3B62E62400FCD829A98C5B2D0DF2"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\d00e_01\\collector_controls_02.json",
+      "sha256": "CDC0AEB98BFCB586657AC389E96CDE4DA75A582F5249EF844AED5A69F426C53C"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\d00e_01\\collect_d00e.py",
+      "sha256": "FF958685AD320D8FFB35DB786AF03B3FF9468481D73633F50B072FCF9D44D7A9"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\d00e_01\\deployment_01\\install.json",
+      "sha256": "ED3FCBCDBA6A91984664C80038A8AAE5555C291617AE8FE20038E79B6DA910EB"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\d00e_01\\deployment_01\\verify.json",
+      "sha256": "D642BE8F5D08BA8050686A046B488035366F7DB08BB60BD82C5581BF108C79C3"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\d00e_01\\deployment_01\\rollback_readiness.json",
+      "sha256": "B1A13071EF7C60086970B36D57ED9D50D9B1FB16A235B6EEE24FA15B5EEFECE3"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\d00e_01\\deployment_01\\verification.json",
+      "sha256": "C30C1129A9BC8F8816AB677405C5FFA15244439AA460D3EF7F06FE5DD546E949"
+    }
+  ],
+  "native_callbacks": "UNSUPPORTED_NOT_VERIFIED",
+  "live_sampling": "NOT_TESTED"
+}

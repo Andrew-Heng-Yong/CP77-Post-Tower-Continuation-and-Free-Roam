@@ -1,0 +1,2695 @@
+{
+  "version": 1,
+  "source_epoch": 2,
+  "differences": [
+    {
+      "quest_id": "mq045_victor_debt",
+      "contract": "entry",
+      "difference": "S25 adds post-Tower/PA2/U9/owned Permit+receipt gates and admits only all-four-Inactive debt journal entries. The obsolete native CYB-571237 bugfix-marker increment and terminating output are excluded; actual quest payloads are retained.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\quests\\mq045_victor_debt\\contracts.json",
+      "source_sha256": "0F21F49B99D2F45C6EB0D40AEDCA94D2C847AC23930CB2A7B275F9E4CBC12272",
+      "new_in_qr2": false,
+      "authority": "Root AGENTS.md invariants2-5; PROJECT restoration policy; existing source-pinned donor contracts cited by quest findings",
+      "evidence": [
+        "verification_02/evidence.json#native_slice",
+        "verification_02/evidence.json#entry",
+        "verification_02/tests.json",
+        "../../../sidejobs_s25/services/contract02.json",
+        "../../../phone_studios_ph3/candidate_01/package/archive/pc/mod/zzzz_PTFR_Combined.archive.xl:183"
+      ]
+    },
+    {
+      "quest_id": "mq045_victor_debt",
+      "contract": "eligibility",
+      "difference": "Fresh-only admission intentionally refuses active, completed, failed or contradictory historical states. No native debt, q001 or journal fact is reset to fabricate availability.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\quests\\mq045_victor_debt\\contracts.json",
+      "source_sha256": "0F21F49B99D2F45C6EB0D40AEDCA94D2C847AC23930CB2A7B275F9E4CBC12272",
+      "new_in_qr2": false,
+      "authority": "Root AGENTS.md invariants2-5; PROJECT restoration policy; existing source-pinned donor contracts cited by quest findings",
+      "evidence": [
+        "verification_02/evidence.json#entry",
+        "verification_02/tests.json",
+        "../../../phone_studios_ph3/candidate_01/package/r6/scripts/PTFR_Consolidated/PTFR_SideJobsS25.reds"
+      ]
+    },
+    {
+      "quest_id": "mq045_victor_debt",
+      "contract": "ownership",
+      "difference": "Post-Tower private debt journal owner is added only after genuine parent-tree retirement gates. It reuses the existing restored B0 service, instead of spawning another Viktor.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\quests\\mq045_victor_debt\\contracts.json",
+      "source_sha256": "0F21F49B99D2F45C6EB0D40AEDCA94D2C847AC23930CB2A7B275F9E4CBC12272",
+      "new_in_qr2": false,
+      "authority": "Root AGENTS.md invariants2-5; PROJECT restoration policy; existing source-pinned donor contracts cited by quest findings",
+      "evidence": [
+        "verification_02/tests.json",
+        "resources.json",
+        "../../ancestor_review.json",
+        "../../provider_readback_01/capture.json",
+        "../../../phone_studios_ph3/candidate_01/package/r6/scripts/PTFR_Consolidated/PTFR_SideJobsS25.reds"
+      ]
+    },
+    {
+      "quest_id": "mq045_victor_debt",
+      "contract": "presentation",
+      "difference": "B0 routes1/411 suppress incompatible pre-Tower staging while preserving the default service and840 payment hub. Nodes198/718/721 relocate self-scene references. The two paid options retain native payment data with CR1-reviewed receipt+Active-root guards.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\quests\\mq045_victor_debt\\contracts.json",
+      "source_sha256": "0F21F49B99D2F45C6EB0D40AEDCA94D2C847AC23930CB2A7B275F9E4CBC12272",
+      "new_in_qr2": false,
+      "authority": "Root AGENTS.md invariants2-5; PROJECT restoration policy; existing source-pinned donor contracts cited by quest findings",
+      "evidence": [
+        "verification_02/evidence.json#scene_metadata_exact_to_native",
+        "verification_02/evidence.json#scene_changed_nodes",
+        "verification_02/tests.json",
+        "../../provider_readback_01/capture.json",
+        "../../../consolidation_repair_cr1/donor_review/selection_01.json"
+      ]
+    },
+    {
+      "quest_id": "mq045_victor_debt",
+      "contract": "shared_dependencies",
+      "difference": "Existing PH1 native service listener and PH3 shared studio ownership are preserved; QR2 adds no phone owner.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\quests\\mq045_victor_debt\\contracts.json",
+      "source_sha256": "0F21F49B99D2F45C6EB0D40AEDCA94D2C847AC23930CB2A7B275F9E4CBC12272",
+      "new_in_qr2": false,
+      "authority": "Root AGENTS.md invariants2-5; PROJECT restoration policy; existing source-pinned donor contracts cited by quest findings",
+      "evidence": [
+        "verification_02/tests.json",
+        "resources.json",
+        "../../provider_readback_01/capture.json"
+      ]
+    },
+    {
+      "quest_id": "mq035_ozob",
+      "contract": "entry",
+      "difference": "Private Tower readiness, history/permit, fresh-state and once-only receipt guards precede the original native entry chain. Native body and input remain unchanged; this is the existing S23/S25/CR1 adaptation, not a QR2 change.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\quests\\mq035_ozob\\contracts.json",
+      "source_sha256": "5739C38835A312A339806A79139A952E2C1BCA63266140BE3B099E07E954345B",
+      "new_in_qr2": false,
+      "authority": "Root AGENTS.md invariants2-5; PROJECT restoration policy; existing source-pinned donor contracts cited by quest findings",
+      "evidence": [
+        "source_pins.json",
+        "graph_evidence.json",
+        "tests.json: native_ancestor_node_32; final_native_gate_before_native_body"
+      ]
+    },
+    {
+      "quest_id": "mq035_ozob",
+      "contract": "eligibility",
+      "difference": "Stricter fresh-only admission and genuine Tower completion restrictions are established project policy. Unsupported unfinished states defer; this adapter does not claim an arbitrary resume seam.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\quests\\mq035_ozob\\contracts.json",
+      "source_sha256": "5739C38835A312A339806A79139A952E2C1BCA63266140BE3B099E07E954345B",
+      "new_in_qr2": false,
+      "authority": "Root AGENTS.md invariants2-5; PROJECT restoration policy; existing source-pinned donor contracts cited by quest findings",
+      "evidence": [
+        "graph_evidence.json",
+        "tests.json: native_q110_and_seven_streetcred_branches_exact; reject_Active_1002; reject_Failed_1002; reject_Succeeded_1002",
+        "prealpha/phone_studios_ph3/candidate_01/package/r6/scripts/PTFR_Consolidated/PTFR_SideJobsS23.reds:79-140,427,631,682"
+      ]
+    },
+    {
+      "quest_id": "mq035_ozob",
+      "contract": "communications",
+      "difference": "The established S23 private phone wrapper restores a native listener under post-Tower admission; PH3 shared studio support is retained. No synthetic acknowledgement or counter writer was added.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\quests\\mq035_ozob\\contracts.json",
+      "source_sha256": "5739C38835A312A339806A79139A952E2C1BCA63266140BE3B099E07E954345B",
+      "new_in_qr2": false,
+      "authority": "Root AGENTS.md invariants2-5; PROJECT restoration policy; existing source-pinned donor contracts cited by quest findings",
+      "evidence": [
+        "source_pins.json",
+        "graph_evidence.json",
+        "tests.json: native_protocol_audio_v_calls_ozob_start_activate; native_protocol_audio_v_calls_ozob_end_activate; native_cleanup_outgoing_balanced_route"
+      ]
+    },
+    {
+      "quest_id": "mq035_ozob",
+      "contract": "ownership",
+      "difference": "Only the established fresh private owner is admitted after the genuine Tower teardown. Existing saved node/resource identities remain unchanged; QR2 changed no runtime resource.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\quests\\mq035_ozob\\contracts.json",
+      "source_sha256": "5739C38835A312A339806A79139A952E2C1BCA63266140BE3B099E07E954345B",
+      "new_in_qr2": false,
+      "authority": "Root AGENTS.md invariants2-5; PROJECT restoration policy; existing source-pinned donor contracts cited by quest findings",
+      "evidence": [
+        "source_pins.json",
+        "graph_evidence.json",
+        "tests.json: reject_issued_1001;reject_issued_1002;postclaim_identity_preserved",
+        "Root QR2 native ancestor trace (integrated report)",
+        "../../ancestor_review.json"
+      ]
+    },
+    {
+      "quest_id": "mq035_ozob",
+      "contract": "presentation",
+      "difference": "Existing PH3 shared studio restoration remains unchanged and is reused from QR1 evidence.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\quests\\mq035_ozob\\contracts.json",
+      "source_sha256": "5739C38835A312A339806A79139A952E2C1BCA63266140BE3B099E07E954345B",
+      "new_in_qr2": false,
+      "authority": "Root AGENTS.md invariants2-5; PROJECT restoration policy; existing source-pinned donor contracts cited by quest findings",
+      "evidence": [
+        "source_pins.json",
+        "graph_evidence.json:asset_bindings,prefab_roots",
+        "provider_requests.json",
+        "../../provider_readback_01/capture.json"
+      ]
+    },
+    {
+      "quest_id": "mq035_ozob",
+      "contract": "journal",
+      "difference": "Private1010 observes native root Succeeded and writes only private Finished receipt. Dormant Failed -> Active nodes1004-1006 are inherited, but both fresh guards require Inactive; they are not an admitted Failed-history route under a stable snapshot.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\quests\\mq035_ozob\\contracts.json",
+      "source_sha256": "5739C38835A312A339806A79139A952E2C1BCA63266140BE3B099E07E954345B",
+      "new_in_qr2": false,
+      "authority": "Root AGENTS.md invariants2-5; PROJECT restoration policy; existing source-pinned donor contracts cited by quest findings",
+      "evidence": [
+        "graph_evidence.json:journal",
+        "tests.json:completion_receipt_observes_native_success;reject_Failed_1001;reject_Failed_1002"
+      ]
+    },
+    {
+      "quest_id": "mq035_ozob",
+      "contract": "shared_dependencies",
+      "difference": "Shared native studio support is the existing PH3 correction. QR2 retains the consolidated registration/provider behavior and all CR1/PH1/PH2/PH3 baseline bytes.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\quests\\mq035_ozob\\contracts.json",
+      "source_sha256": "5739C38835A312A339806A79139A952E2C1BCA63266140BE3B099E07E954345B",
+      "new_in_qr2": false,
+      "authority": "Root AGENTS.md invariants2-5; PROJECT restoration policy; existing source-pinned donor contracts cited by quest findings",
+      "evidence": [
+        "source_pins.json",
+        "graph_evidence.json",
+        "tests.json:native_cleanup_in_shared_chain;phone_owner_before_quest_owner",
+        "provider_requests.json"
+      ]
+    },
+    {
+      "quest_id": "mq038_neweridentity",
+      "contract": "entry",
+      "difference": "Private Tower/2079/support guards, all-inactive fresh seam, one-time receipts and JD1 listener dependency are the established S23/JD1 adaptation. No native prerequisite is waived.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\quests\\mq038_neweridentity\\contracts.json",
+      "source_sha256": "EC62CF3FA9DECAA38852E0D097A45C3A9BFB5B27806B96653FF80F5472F6B6FA",
+      "new_in_qr2": false,
+      "authority": "Root AGENTS.md invariants2-5; PROJECT restoration policy; existing source-pinned donor contracts cited by quest findings",
+      "evidence": [
+        {
+          "resource": "towercontinued\\sidejobs_s23\\base_b\\mq038.questphase",
+          "resource_sha256": "9E1C9646659F1C77AE435335777EB207A026399AE13ADA1AFCFABA746CC797AC",
+          "source_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\diagnostics\\restored_audit_20261025_01\\installed_01\\resources\\2447455146621282329.questphase.json",
+          "graph": "root",
+          "nodes": [
+            "1000",
+            "1002",
+            "1003",
+            "54",
+            "80",
+            "55",
+            "1004",
+            "1005",
+            "1006",
+            "11"
+          ],
+          "detail": "Actual connected entry"
+        },
+        {
+          "resource": "base\\quest\\minor_quests\\minorquests.questphase",
+          "resource_sha256": "89E902A6BCC783325642A6DC6D1D856BB144651136C58D423FEA6B421EFCE85A",
+          "source_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\research\\sidejobs_s29\\native_03\\basegame_4_gamedata\\raw\\base\\quest\\minor_quests\\minorquests.questphase.json",
+          "graph": "root",
+          "nodes": [
+            "54",
+            "80",
+            "55",
+            "11"
+          ],
+          "detail": "Native parent prerequisite/binding comparison"
+        }
+      ]
+    },
+    {
+      "quest_id": "mq038_neweridentity",
+      "contract": "eligibility",
+      "difference": "Only the bounded fresh Inactive seam is admitted after Tower; unsupported progressed states defer.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\quests\\mq038_neweridentity\\contracts.json",
+      "source_sha256": "EC62CF3FA9DECAA38852E0D097A45C3A9BFB5B27806B96653FF80F5472F6B6FA",
+      "new_in_qr2": false,
+      "authority": "Root AGENTS.md invariants2-5; PROJECT restoration policy; existing source-pinned donor contracts cited by quest findings",
+      "evidence": [
+        {
+          "resource": "towercontinued\\sidejobs_s23\\base_b\\mq038.questphase",
+          "resource_sha256": "9E1C9646659F1C77AE435335777EB207A026399AE13ADA1AFCFABA746CC797AC",
+          "source_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\diagnostics\\restored_audit_20261025_01\\installed_01\\resources\\2447455146621282329.questphase.json",
+          "graph": "root",
+          "nodes": [
+            "1002",
+            "1004",
+            "54",
+            "80",
+            "55"
+          ],
+          "detail": "Serialized predicates including AND/OR structure;39 per-journal Active/Succeeded/Failed and7 progressed-fact refusals verified"
+        },
+        {
+          "file": "prealpha/phone_studios_ph3/candidate_01/package/r6/scripts/PTFR_Consolidated/PTFR_SideJobsS23.reds",
+          "lines": "Permit/Common/Read/Ready/Poll and Paths12/FactNames12; SHA in tests_04.json"
+        }
+      ]
+    },
+    {
+      "quest_id": "07_nc_underground",
+      "contract": "entry",
+      "difference": "Established S27 fresh-story adaptation adds genuine Tower/PA2/U9, history/permit, phone-owner and once-only receipts before the unchanged original sq024_in. It does not restore the native standalone/debug entry sockets or overwrite a progressed story family.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_a\\quests\\07_nc_underground\\contracts.json",
+      "source_sha256": "6638BAA770EF7BCCB4B1779B21D291DB4796B31B971B7ED009E88733238EBF76",
+      "new_in_qr3": false,
+      "evidence": [
+        "../../verification_03/source_pins.json",
+        "../../verification_03/graph_evidence.json",
+        "../../verification_03/tests.json",
+        "../../../../../sidejobs_s27/claire/contract03.json",
+        "../../../../owner_gap_readback_01/capture.json"
+      ]
+    },
+    {
+      "quest_id": "07_nc_underground",
+      "contract": "eligibility",
+      "difference": "Fresh-only five-root admission is deliberately stricter than native availability. q101 enablement and q105 completion are retained even though this task does not restore excluded main-story prerequisites. mq057_motorbreath remains held; MQ056 repeatable races are a different native quest.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_a\\quests\\07_nc_underground\\contracts.json",
+      "source_sha256": "6638BAA770EF7BCCB4B1779B21D291DB4796B31B971B7ED009E88733238EBF76",
+      "new_in_qr3": false,
+      "evidence": [
+        "../../verification_03/source_pins.json",
+        "../../verification_03/graph_evidence.json",
+        "../../verification_03/tests.json",
+        "../../../../../phone_studios_ph3/candidate_01/package/r6/scripts/PTFR_Consolidated/PTFR_SideJobsS27.reds"
+      ]
+    },
+    {
+      "quest_id": "07_nc_underground",
+      "contract": "ownership",
+      "difference": "Private S27 story and R1 replay owners retain established scoped admission and saved identities. No old native bugfix tree or arbitrary encounter controller is restarted.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_a\\quests\\07_nc_underground\\contracts.json",
+      "source_sha256": "6638BAA770EF7BCCB4B1779B21D291DB4796B31B971B7ED009E88733238EBF76",
+      "new_in_qr3": false,
+      "evidence": [
+        "../../verification_03/source_pins.json",
+        "../../verification_03/graph_evidence.json",
+        "../../verification_03/tests.json",
+        "../../ancestry.json"
+      ]
+    },
+    {
+      "quest_id": "07_nc_underground",
+      "contract": "progression",
+      "difference": "Existing R1 invitation-history shortcut avoids replaying a previously delivered SMS and delay. It is not a story restart or an interrupted-race migration.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_a\\quests\\07_nc_underground\\contracts.json",
+      "source_sha256": "6638BAA770EF7BCCB4B1779B21D291DB4796B31B971B7ED009E88733238EBF76",
+      "new_in_qr3": false,
+      "evidence": [
+        "../../verification_03/source_pins.json",
+        "../../verification_03/graph_evidence.json",
+        "../../verification_03/tests.json"
+      ]
+    },
+    {
+      "quest_id": "07_nc_underground",
+      "contract": "presentation",
+      "difference": "Existing approved voice-only Johnny compromise and PH3 studio support remain unchanged; JR3 creates no new actors or presentation override.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_a\\quests\\07_nc_underground\\contracts.json",
+      "source_sha256": "6638BAA770EF7BCCB4B1779B21D291DB4796B31B971B7ED009E88733238EBF76",
+      "new_in_qr3": false,
+      "evidence": [
+        "../../verification_03/source_pins.json",
+        "../../verification_03/graph_evidence.json",
+        "../../verification_03/tests.json",
+        "../../../../../phone_studios_ph3/candidate_01/package/r6/scripts/PTFR_Consolidated/PTFR_JohnnyVoiceJV1.reds"
+      ]
+    },
+    {
+      "quest_id": "07_nc_underground",
+      "contract": "shared_dependencies",
+      "difference": "Existing PH1 cleanup/listener layers and PH3 shared studios remain installed unchanged; this batch adds no shared controller or new lease.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_a\\quests\\07_nc_underground\\contracts.json",
+      "source_sha256": "6638BAA770EF7BCCB4B1779B21D291DB4796B31B971B7ED009E88733238EBF76",
+      "new_in_qr3": false,
+      "evidence": [
+        "../../verification_03/source_pins.json",
+        "../../verification_03/graph_evidence.json",
+        "../../verification_03/tests.json"
+      ]
+    },
+    {
+      "quest_id": "mq046_cave_vehicle",
+      "contract": "entry",
+      "difference": "Existing S23 post-Tower fresh-only wrapper adds genuine-ending/PA2/U9/history/receipt guards, two-tick postclaim recheck and private receipts; native body, original seven-tick delay and In1 remain unchanged.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_b\\quests\\mq046_cave_vehicle\\contracts.json",
+      "source_sha256": "AC2EA1B9E1E6EE8F0BA6C968C199EBC8E823B32813B81CBD2BF14647F8559F1D",
+      "new_in_qr3": false,
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_b\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_b\\verification_01\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_b\\verification_01\\tests.json"
+      ]
+    },
+    {
+      "quest_id": "mq046_cave_vehicle",
+      "contract": "eligibility",
+      "difference": "Fresh-only admission and refusal of existing vehicle entitlement are the existing save-protection adaptation. For Murk Man, native two-day wait begins when this new owner enters; no pre-Tower elapsed timestamp is fabricated or fast-forwarded.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_b\\quests\\mq046_cave_vehicle\\contracts.json",
+      "source_sha256": "AC2EA1B9E1E6EE8F0BA6C968C199EBC8E823B32813B81CBD2BF14647F8559F1D",
+      "new_in_qr3": false,
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_b\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_b\\verification_01\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_b\\verification_01\\tests.json"
+      ]
+    },
+    {
+      "quest_id": "mq046_cave_vehicle",
+      "contract": "presentation",
+      "difference": "Approved supporting voice-only Johnny presentation is implemented by existing JV1/whitelist policy. The logical native supporting actor survives for timing; the rendered projection is suppressed. QR3 adds no engram, visible projection or takeover.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_b\\quests\\mq046_cave_vehicle\\contracts.json",
+      "source_sha256": "AC2EA1B9E1E6EE8F0BA6C968C199EBC8E823B32813B81CBD2BF14647F8559F1D",
+      "new_in_qr3": false,
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_b\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_b\\verification_01\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_b\\verification_01\\tests.json"
+      ]
+    },
+    {
+      "quest_id": "mq047_ad_vehicle",
+      "contract": "entry",
+      "difference": "Existing S23 post-Tower fresh-only wrapper adds genuine-ending/PA2/U9/history/receipt guards, two-tick postclaim recheck and private receipts; native body, original seven-tick delay and In1 remain unchanged.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_b\\quests\\mq047_ad_vehicle\\contracts.json",
+      "source_sha256": "391C6035ABF608A3B622A62625D12ECCCD3AC08D687C7F4A529CA817A441EDA7",
+      "new_in_qr3": false,
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_b\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_b\\verification_01\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_b\\verification_01\\tests.json"
+      ]
+    },
+    {
+      "quest_id": "mq047_ad_vehicle",
+      "contract": "eligibility",
+      "difference": "Fresh-only admission and refusal of existing vehicle entitlement are the existing save-protection adaptation. For Murk Man, native two-day wait begins when this new owner enters; no pre-Tower elapsed timestamp is fabricated or fast-forwarded.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_b\\quests\\mq047_ad_vehicle\\contracts.json",
+      "source_sha256": "391C6035ABF608A3B622A62625D12ECCCD3AC08D687C7F4A529CA817A441EDA7",
+      "new_in_qr3": false,
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_b\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_b\\verification_01\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_b\\verification_01\\tests.json"
+      ]
+    },
+    {
+      "quest_id": "mq047_ad_vehicle",
+      "contract": "presentation",
+      "difference": "Approved supporting voice-only Johnny presentation is implemented by existing JV1/whitelist policy. The logical native supporting actor survives for timing; the rendered projection is suppressed. QR3 adds no engram, visible projection or takeover.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_b\\quests\\mq047_ad_vehicle\\contracts.json",
+      "source_sha256": "391C6035ABF608A3B622A62625D12ECCCD3AC08D687C7F4A529CA817A441EDA7",
+      "new_in_qr3": false,
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_b\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_b\\verification_01\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_b\\verification_01\\tests.json"
+      ]
+    },
+    {
+      "quest_id": "mq037_brendan",
+      "contract": "entry",
+      "difference": "Genuine Tower/fresh-state receipts are approved generally; inclusion of the excluded fresh prerequisite is NOT an approved difference.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\quests\\mq037_brendan\\contracts.json",
+      "source_sha256": "27C5F9FDF96B7D89BFADDF7BAFFC00A659FB1733C8E17ACD8C22857B3B2CA3F4",
+      "new_in_qr3": true,
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\defects.json",
+        "candidate_01/repair/verification_01/tests.json",
+        "agents/agent_d/reviews/brendan_serialized.json"
+      ]
+    },
+    {
+      "quest_id": "mq037_brendan",
+      "contract": "entry",
+      "difference": "Contain invalid fresh excluded activation; preserve saved descendants, not a claim of restored sequels",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\quests\\mq037_brendan\\contracts.json",
+      "source_sha256": "27C5F9FDF96B7D89BFADDF7BAFFC00A659FB1733C8E17ACD8C22857B3B2CA3F4",
+      "new_in_qr3": true,
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\defects.json",
+        "candidate_01/repair/verification_01/tests.json",
+        "agents/agent_d/reviews/brendan_serialized.json"
+      ]
+    },
+    {
+      "quest_id": "mq037_brendan",
+      "contract": "eligibility",
+      "difference": "Contain invalid fresh excluded activation; preserve saved descendants, not a claim of restored sequels",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\quests\\mq037_brendan\\contracts.json",
+      "source_sha256": "27C5F9FDF96B7D89BFADDF7BAFFC00A659FB1733C8E17ACD8C22857B3B2CA3F4",
+      "new_in_qr3": true,
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\docs\\whitelist_final_r6.md",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\defects.json",
+        "candidate_01/repair/verification_01/tests.json",
+        "agents/agent_d/reviews/brendan_serialized.json"
+      ]
+    },
+    {
+      "quest_id": "mq037_brendan",
+      "contract": "progression",
+      "difference": "Contain invalid fresh excluded activation; preserve saved descendants, not a claim of restored sequels",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\quests\\mq037_brendan\\contracts.json",
+      "source_sha256": "27C5F9FDF96B7D89BFADDF7BAFFC00A659FB1733C8E17ACD8C22857B3B2CA3F4",
+      "new_in_qr3": true,
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\tests.json",
+        "candidate_01/repair/verification_01/tests.json",
+        "agents/agent_d/reviews/brendan_serialized.json"
+      ]
+    },
+    {
+      "quest_id": "mq037_brendan",
+      "contract": "journal",
+      "difference": "Contain invalid fresh excluded activation; preserve saved descendants, not a claim of restored sequels",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\quests\\mq037_brendan\\contracts.json",
+      "source_sha256": "27C5F9FDF96B7D89BFADDF7BAFFC00A659FB1733C8E17ACD8C22857B3B2CA3F4",
+      "new_in_qr3": true,
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\tests.json",
+        "candidate_01/repair/verification_01/tests.json",
+        "agents/agent_d/reviews/brendan_serialized.json"
+      ]
+    },
+    {
+      "quest_id": "mq037_brendan",
+      "contract": "shared_dependencies",
+      "difference": "Contain invalid fresh excluded activation; preserve saved descendants, not a claim of restored sequels",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\quests\\mq037_brendan\\contracts.json",
+      "source_sha256": "27C5F9FDF96B7D89BFADDF7BAFFC00A659FB1733C8E17ACD8C22857B3B2CA3F4",
+      "new_in_qr3": true,
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\tests.json",
+        "candidate_01/repair/verification_01/tests.json",
+        "agents/agent_d/reviews/brendan_serialized.json"
+      ]
+    },
+    {
+      "quest_id": "mq037_brendan_hooligan001",
+      "contract": "entry",
+      "difference": "Genuine Tower/fresh-state receipts are approved generally; inclusion of the excluded fresh prerequisite is NOT an approved difference.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\quests\\mq037_brendan_hooligan001\\contracts.json",
+      "source_sha256": "69D1F7713CDEFDDF7173234E80ACBB5E19E0A00F67B7E230A9666C25AEE45B0D",
+      "new_in_qr3": true,
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\defects.json",
+        "candidate_01/repair/verification_01/tests.json",
+        "agents/agent_d/reviews/brendan_serialized.json"
+      ]
+    },
+    {
+      "quest_id": "mq037_brendan_hooligan001",
+      "contract": "entry",
+      "difference": "Contain invalid fresh excluded activation; preserve saved descendants, not a claim of restored sequels",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\quests\\mq037_brendan_hooligan001\\contracts.json",
+      "source_sha256": "69D1F7713CDEFDDF7173234E80ACBB5E19E0A00F67B7E230A9666C25AEE45B0D",
+      "new_in_qr3": true,
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\defects.json",
+        "candidate_01/repair/verification_01/tests.json",
+        "agents/agent_d/reviews/brendan_serialized.json"
+      ]
+    },
+    {
+      "quest_id": "mq037_brendan_hooligan001",
+      "contract": "eligibility",
+      "difference": "Contain invalid fresh excluded activation; preserve saved descendants, not a claim of restored sequels",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\quests\\mq037_brendan_hooligan001\\contracts.json",
+      "source_sha256": "69D1F7713CDEFDDF7173234E80ACBB5E19E0A00F67B7E230A9666C25AEE45B0D",
+      "new_in_qr3": true,
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\docs\\whitelist_final_r6.md",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\defects.json",
+        "candidate_01/repair/verification_01/tests.json",
+        "agents/agent_d/reviews/brendan_serialized.json"
+      ]
+    },
+    {
+      "quest_id": "mq037_brendan_hooligan001",
+      "contract": "progression",
+      "difference": "Contain invalid fresh excluded activation; preserve saved descendants, not a claim of restored sequels",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\quests\\mq037_brendan_hooligan001\\contracts.json",
+      "source_sha256": "69D1F7713CDEFDDF7173234E80ACBB5E19E0A00F67B7E230A9666C25AEE45B0D",
+      "new_in_qr3": true,
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\tests.json",
+        "candidate_01/repair/verification_01/tests.json",
+        "agents/agent_d/reviews/brendan_serialized.json"
+      ]
+    },
+    {
+      "quest_id": "mq037_brendan_hooligan001",
+      "contract": "journal",
+      "difference": "Contain invalid fresh excluded activation; preserve saved descendants, not a claim of restored sequels",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\quests\\mq037_brendan_hooligan001\\contracts.json",
+      "source_sha256": "69D1F7713CDEFDDF7173234E80ACBB5E19E0A00F67B7E230A9666C25AEE45B0D",
+      "new_in_qr3": true,
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\tests.json",
+        "candidate_01/repair/verification_01/tests.json",
+        "agents/agent_d/reviews/brendan_serialized.json"
+      ]
+    },
+    {
+      "quest_id": "mq037_brendan_hooligan001",
+      "contract": "shared_dependencies",
+      "difference": "Contain invalid fresh excluded activation; preserve saved descendants, not a claim of restored sequels",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\quests\\mq037_brendan_hooligan001\\contracts.json",
+      "source_sha256": "69D1F7713CDEFDDF7173234E80ACBB5E19E0A00F67B7E230A9666C25AEE45B0D",
+      "new_in_qr3": true,
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\tests.json",
+        "candidate_01/repair/verification_01/tests.json",
+        "agents/agent_d/reviews/brendan_serialized.json"
+      ]
+    },
+    {
+      "quest_id": "mq041_corpo",
+      "contract": "entry",
+      "difference": "Existing S23 private Tower/PA2/U9/history/Permit and one-time receipts gate a conservative fresh seam. Current native nodes, journal identities and body references are retained; QR3 changes none of these resources.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_d\\quests\\mq041_corpo\\contracts.json",
+      "source_sha256": "0453863DA834835D6C7CDDF51F920438FF01322350C483927E6BEE55AA0002E5",
+      "new_in_qr3": false,
+      "evidence": [
+        "../../verification_03/source_pins.json",
+        "../../verification_03/graph_evidence.json",
+        "../../verification_03/tests.json"
+      ]
+    },
+    {
+      "quest_id": "mq041_corpo",
+      "contract": "eligibility",
+      "difference": "Existing S23 private Tower/PA2/U9/history/Permit and one-time receipts gate a conservative fresh seam. Current native nodes, journal identities and body references are retained; QR3 changes none of these resources.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_d\\quests\\mq041_corpo\\contracts.json",
+      "source_sha256": "0453863DA834835D6C7CDDF51F920438FF01322350C483927E6BEE55AA0002E5",
+      "new_in_qr3": false,
+      "evidence": [
+        "../../verification_03/source_pins.json",
+        "../../verification_03/graph_evidence.json",
+        "../../verification_03/tests.json"
+      ]
+    },
+    {
+      "quest_id": "mq044_jakes_vehicle",
+      "contract": "entry",
+      "difference": "Existing S23 private Tower/PA2/U9/history/Permit and one-time receipts gate a conservative fresh seam. Current native nodes, journal identities and body references are retained; QR3 changes none of these resources.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_d\\quests\\mq044_jakes_vehicle\\contracts.json",
+      "source_sha256": "EDB493CC1E6DC000B18A91CC65DD0C6D93EF69FF6DA5582223BF2C949CB25DCF",
+      "new_in_qr3": false,
+      "evidence": [
+        "../../verification_03/source_pins.json",
+        "../../verification_03/graph_evidence.json",
+        "../../verification_03/tests.json"
+      ]
+    },
+    {
+      "quest_id": "mq044_jakes_vehicle",
+      "contract": "eligibility",
+      "difference": "Existing S23 private Tower/PA2/U9/history/Permit and one-time receipts gate a conservative fresh seam. Current native nodes, journal identities and body references are retained; QR3 changes none of these resources.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_d\\quests\\mq044_jakes_vehicle\\contracts.json",
+      "source_sha256": "EDB493CC1E6DC000B18A91CC65DD0C6D93EF69FF6DA5582223BF2C949CB25DCF",
+      "new_in_qr3": false,
+      "evidence": [
+        "../../verification_03/source_pins.json",
+        "../../verification_03/graph_evidence.json",
+        "../../verification_03/tests.json"
+      ]
+    },
+    {
+      "quest_id": "mq049_edgerunners",
+      "contract": "entry",
+      "difference": "Existing S23 private Tower/PA2/U9/history/Permit and one-time receipts gate a conservative fresh seam. Current native nodes, journal identities and body references are retained; QR3 changes none of these resources.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_d\\quests\\mq049_edgerunners\\contracts.json",
+      "source_sha256": "6DF3B64A4EDD5DC8FAB55D170D63B7002DFD05D498CDB93C339B505CF8891254",
+      "new_in_qr3": false,
+      "evidence": [
+        "../../verification_03/source_pins.json",
+        "../../verification_03/graph_evidence.json",
+        "../../verification_03/tests.json"
+      ]
+    },
+    {
+      "quest_id": "mq049_edgerunners",
+      "contract": "eligibility",
+      "difference": "Existing S23 private Tower/PA2/U9/history/Permit and one-time receipts gate a conservative fresh seam. Current native nodes, journal identities and body references are retained; QR3 changes none of these resources.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_d\\quests\\mq049_edgerunners\\contracts.json",
+      "source_sha256": "6DF3B64A4EDD5DC8FAB55D170D63B7002DFD05D498CDB93C339B505CF8891254",
+      "new_in_qr3": false,
+      "evidence": [
+        "../../verification_03/source_pins.json",
+        "../../verification_03/graph_evidence.json",
+        "../../verification_03/tests.json"
+      ]
+    },
+    {
+      "quest_id": "mq030_melisa",
+      "contract": "entry",
+      "difference": "Established S23/CR1 adds genuine Tower, U9, settled history and explicit B0 Zane lease handoff to a fresh native entry.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_e\\quests\\mq030_melisa\\contracts.json",
+      "source_sha256": "D5430AC698C11A62CEC7297CFE8BE3B2CA6EE3BCE57DF15F59B21A87F35D9E63",
+      "new_in_qr3": false,
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    {
+      "quest_id": "mq030_melisa",
+      "contract": "eligibility",
+      "difference": "Fresh-only admission preserves progressed/completed/failed native histories and original prerequisites.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_e\\quests\\mq030_melisa\\contracts.json",
+      "source_sha256": "D5430AC698C11A62CEC7297CFE8BE3B2CA6EE3BCE57DF15F59B21A87F35D9E63",
+      "new_in_qr3": false,
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    {
+      "quest_id": "mq030_melisa",
+      "contract": "ownership",
+      "difference": "Native helper retirement acknowledged before releasing shared vendor lease; pending wait and saved identifiers preserved",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_e\\quests\\mq030_melisa\\contracts.json",
+      "source_sha256": "D5430AC698C11A62CEC7297CFE8BE3B2CA6EE3BCE57DF15F59B21A87F35D9E63",
+      "new_in_qr3": true,
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json",
+        "../../verification_02/defect_mq030.json",
+        "../../verification_02/proposal_mq030.json",
+        "candidate_01/repair_mq030/verification_01/tests.json",
+        "agents/agent_d/reviews/mq030_serialized.json"
+      ]
+    },
+    {
+      "quest_id": "mq030_melisa",
+      "contract": "completion_rewards_cleanup",
+      "difference": "Native helper retirement acknowledged before releasing shared vendor lease; pending wait and saved identifiers preserved",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_e\\quests\\mq030_melisa\\contracts.json",
+      "source_sha256": "D5430AC698C11A62CEC7297CFE8BE3B2CA6EE3BCE57DF15F59B21A87F35D9E63",
+      "new_in_qr3": true,
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json",
+        "../../verification_02/defect_mq030.json",
+        "candidate_01/repair_mq030/verification_01/tests.json",
+        "agents/agent_d/reviews/mq030_serialized.json"
+      ]
+    },
+    {
+      "quest_id": "mq030_melisa",
+      "contract": "persistence",
+      "difference": "Native helper retirement acknowledged before releasing shared vendor lease; pending wait and saved identifiers preserved",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_e\\quests\\mq030_melisa\\contracts.json",
+      "source_sha256": "D5430AC698C11A62CEC7297CFE8BE3B2CA6EE3BCE57DF15F59B21A87F35D9E63",
+      "new_in_qr3": true,
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json",
+        "../../verification_02/proposal_mq030.json",
+        "candidate_01/repair_mq030/verification_01/tests.json",
+        "agents/agent_d/reviews/mq030_serialized.json"
+      ]
+    },
+    {
+      "quest_id": "mq030_melisa",
+      "contract": "shared_dependencies",
+      "difference": "Native helper retirement acknowledged before releasing shared vendor lease; pending wait and saved identifiers preserved",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_e\\quests\\mq030_melisa\\contracts.json",
+      "source_sha256": "D5430AC698C11A62CEC7297CFE8BE3B2CA6EE3BCE57DF15F59B21A87F35D9E63",
+      "new_in_qr3": true,
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json",
+        "../../verification_02/defect_mq030.json",
+        "candidate_01/repair_mq030/verification_01/tests.json",
+        "agents/agent_d/reviews/mq030_serialized.json"
+      ]
+    },
+    {
+      "quest_id": "mq032_sacrum",
+      "contract": "entry",
+      "difference": "S2 supplies Tower/U9/history/once-only guards before unchanged native beginning.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_e\\quests\\mq032_sacrum\\contracts.json",
+      "source_sha256": "A6AB1CCD0CA7800C369538D2DDFE5714B5E80D52951589A778A611F9D588A113",
+      "new_in_qr3": false,
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    {
+      "quest_id": "mq032_sacrum",
+      "contract": "eligibility",
+      "difference": "Established conservative fresh-only S2 route retains original native availability and histories.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_e\\quests\\mq032_sacrum\\contracts.json",
+      "source_sha256": "A6AB1CCD0CA7800C369538D2DDFE5714B5E80D52951589A778A611F9D588A113",
+      "new_in_qr3": false,
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    {
+      "quest_id": "mq026_conspiracy",
+      "contract": "entry",
+      "difference": "Established S25 fresh and S23 exact captured-seam entries retain original quest behavior with separate owned receipts.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_e\\quests\\mq026_conspiracy\\contracts.json",
+      "source_sha256": "AE1CF6AB49F8F5EC199254DA245C51D326F85857AB067F188B1B3B165C5DA5A8",
+      "new_in_qr3": false,
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    {
+      "quest_id": "mq026_conspiracy",
+      "contract": "eligibility",
+      "difference": "Only the exact approved early seam may resume; unverified other unfinished states defer.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_e\\quests\\mq026_conspiracy\\contracts.json",
+      "source_sha256": "AE1CF6AB49F8F5EC199254DA245C51D326F85857AB067F188B1B3B165C5DA5A8",
+      "new_in_qr3": false,
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    {
+      "quest_id": "mq025_06_pacifica",
+      "contract": "entry",
+      "difference": "Existing approved exact quiet pre-bout continuation and fresh-only family entry preserve durable receipts; this is not arbitrary mid-fight resumption.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\quests\\mq025_06_pacifica\\contracts.json",
+      "source_sha256": "57DFB5D1DD4E0B2CEED249A5E034399B4239B4E6D3AC85C077690CFE9C93CA77",
+      "new_in_qr3": false,
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\tests.json"
+      ]
+    },
+    {
+      "quest_id": "mq025_06_pacifica",
+      "contract": "eligibility",
+      "difference": "Genuine failed or completed primary roots remain refused. A known old source report is not authority to widen current predicates.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\quests\\mq025_06_pacifica\\contracts.json",
+      "source_sha256": "57DFB5D1DD4E0B2CEED249A5E034399B4239B4E6D3AC85C077690CFE9C93CA77",
+      "new_in_qr3": false,
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\sidejobs_s22\\boxing\\contract.json"
+      ]
+    },
+    {
+      "quest_id": "mq025_06_pacifica",
+      "contract": "presentation",
+      "difference": "Existing R4 supporting-voice Johnny policy/JV1 presentation is retained; no Relic/engram/takeover or new projection feature is added.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\quests\\mq025_06_pacifica\\contracts.json",
+      "source_sha256": "57DFB5D1DD4E0B2CEED249A5E034399B4239B4E6D3AC85C077690CFE9C93CA77",
+      "new_in_qr3": false,
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\tests.json"
+      ]
+    },
+    {
+      "quest_id": "mq025_psycho_brawl",
+      "contract": "entry",
+      "difference": "Existing approved exact quiet pre-bout continuation and fresh-only family entry preserve durable receipts; this is not arbitrary mid-fight resumption.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\quests\\mq025_psycho_brawl\\contracts.json",
+      "source_sha256": "8CAD1E35C0C11055008C5F693D2E5C99C5AC290A2DCB3704218D43F31D278DE2",
+      "new_in_qr3": false,
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\tests.json"
+      ]
+    },
+    {
+      "quest_id": "mq025_psycho_brawl",
+      "contract": "eligibility",
+      "difference": "Genuine failed or completed primary roots remain refused. A known old source report is not authority to widen current predicates.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\quests\\mq025_psycho_brawl\\contracts.json",
+      "source_sha256": "8CAD1E35C0C11055008C5F693D2E5C99C5AC290A2DCB3704218D43F31D278DE2",
+      "new_in_qr3": false,
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\sidejobs_s22\\boxing\\contract.json"
+      ]
+    },
+    {
+      "quest_id": "mq025_psycho_brawl",
+      "contract": "presentation",
+      "difference": "Existing R4 supporting-voice Johnny policy/JV1 presentation is retained; no Relic/engram/takeover or new projection feature is added.",
+      "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\quests\\mq025_psycho_brawl\\contracts.json",
+      "source_sha256": "8CAD1E35C0C11055008C5F693D2E5C99C5AC290A2DCB3704218D43F31D278DE2",
+      "new_in_qr3": false,
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\tests.json"
+      ]
+    },
+    {
+      "quest_id": "mq025_02_kabuki",
+      "contract": "entry",
+      "difference": "Existing supported fresh/quiet-prebout Tower adapters are retained, not widened into arbitrary mid-fight resumption.",
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\graph_evidence.json"
+      ],
+      "findings_source_sha256": "94F0F4E90A428B969FA3BD47CF2C401444DD76CA22BBBA05BBE7E54E294972EC",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "mq024_sandra",
+      "contract": "entry",
+      "difference": "Existing S23/CR1 private admission and once-only receipts restore only the bounded unstarted seam.",
+      "evidence": [
+        "../../verification_01/tests.json",
+        "../../verification_01/source_pins.json",
+        "../../verification_01/graph_evidence.json"
+      ],
+      "findings_source_sha256": "74C769F66CD1EE2AB912FF92A58E9FDE2952FAC1276B6992271B3A88BBE1560C",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "mq024_sandra",
+      "contract": "eligibility",
+      "difference": "Stricter fresh-only state protects previous failure/completion and unsupported partial states.",
+      "evidence": [
+        "../../verification_01/tests.json",
+        "../../verification_01/source_pins.json",
+        "../../verification_01/graph_evidence.json"
+      ],
+      "findings_source_sha256": "74C769F66CD1EE2AB912FF92A58E9FDE2952FAC1276B6992271B3A88BBE1560C",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "mq025_03_arroyo",
+      "contract": "entry",
+      "difference": "Existing supported fresh/quiet-prebout Tower adapters are retained, not widened into arbitrary mid-fight resumption.",
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\graph_evidence.json"
+      ],
+      "findings_source_sha256": "D9FD9962B66D70FBB34B4C4A39551DA8E90C7CD85EF5E92B23EFB3F1595E732E",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "mq010_barry",
+      "contract": "entry",
+      "difference": "Existing S24 unstarted private wrapper/receipts are approved post-Tower admission.",
+      "evidence": [
+        "../../verification_01/tests.json",
+        "../../verification_01/source_pins.json",
+        "../../verification_01/graph_evidence.json"
+      ],
+      "findings_source_sha256": "EDAEC96B8D96678DDB486FC07A8B00F7BBEDA53592B4039957C61BCA09839DEC",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "mq010_barry",
+      "contract": "eligibility",
+      "difference": "Fresh-only scope refuses unsupported unfinished/dead/failed states.",
+      "evidence": [
+        "../../verification_01/tests.json",
+        "../../verification_01/source_pins.json",
+        "../../verification_01/graph_evidence.json"
+      ],
+      "findings_source_sha256": "EDAEC96B8D96678DDB486FC07A8B00F7BBEDA53592B4039957C61BCA09839DEC",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "mq025_05_glen",
+      "contract": "entry",
+      "difference": "Existing supported fresh/quiet-prebout Tower adapters are retained, not widened into arbitrary mid-fight resumption.",
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\graph_evidence.json"
+      ],
+      "findings_source_sha256": "FE221D0687385230B19C41EDBE80A73B7D86E53BC73672818FE0384238F47C04",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "mq025_07_fight_club",
+      "contract": "entry",
+      "difference": "Existing supported fresh/quiet-prebout Tower adapters are retained, not widened into arbitrary mid-fight resumption.",
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\graph_evidence.json"
+      ],
+      "findings_source_sha256": "8012DF34F96462357DB29F77FD952ADF42FC69C5666E01C7E8070E7EE46CA155",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "mq015_wizardbook",
+      "contract": "entry",
+      "difference": "Existing S24 reveals Nix contact and protects unstarted native ownership with private receipts.",
+      "evidence": [
+        "../../verification_01/tests.json",
+        "../../verification_01/source_pins.json",
+        "../../verification_01/graph_evidence.json"
+      ],
+      "findings_source_sha256": "BAA03C56571EECBF1693EABF86BC4A6092E5C3981321B29C640A44DA1212F8F8",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "mq015_wizardbook",
+      "contract": "eligibility",
+      "difference": "Fresh-only scope protects already earned/failed/completed progression.",
+      "evidence": [
+        "../../verification_01/tests.json",
+        "../../verification_01/source_pins.json",
+        "../../verification_01/graph_evidence.json"
+      ],
+      "findings_source_sha256": "BAA03C56571EECBF1693EABF86BC4A6092E5C3981321B29C640A44DA1212F8F8",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "mq011_wilson",
+      "contract": "entry",
+      "difference": "Existing S23 private entry delegates the complete native MQ011 body after native prerequisites.",
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ],
+      "findings_source_sha256": "33A97FFCE60D961A7B38909CE75D0FF194FD088818A9DDAF0361FC4C46FB3691",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "mq011_wilson",
+      "contract": "eligibility",
+      "difference": "Fresh-only private receipts protect completed/failed/active quest histories.",
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ],
+      "findings_source_sha256": "33A97FFCE60D961A7B38909CE75D0FF194FD088818A9DDAF0361FC4C46FB3691",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "mq012_stud",
+      "contract": "entry",
+      "difference": "Existing S23 fresh owner retains native MQ012 input/body and receipt fencing.",
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ],
+      "findings_source_sha256": "B13A50C34459309187FE25C0980386CD3DE621CA04E7F01A1044E6C33E78A3CC",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "mq012_stud",
+      "contract": "eligibility",
+      "difference": "Fresh guarded entry; no synthetic progress reset, Dead flag reset or arbitrary AI/device action.",
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ],
+      "findings_source_sha256": "B13A50C34459309187FE25C0980386CD3DE621CA04E7F01A1044E6C33E78A3CC",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "mq019_paparazzi",
+      "contract": "entry",
+      "difference": "Existing S24 private fresh-only owner/contact reveal is the reviewed Tower adaptation.",
+      "evidence": [
+        "../../verification_01/tests.json",
+        "../../verification_01/source_pins.json",
+        "../../verification_01/graph_evidence.json"
+      ],
+      "findings_source_sha256": "6A991FF7539A9B32F5596DF7AE5585FE11A294E62C762692A23191E66DF72C63",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "mq008_party",
+      "contract": "entry",
+      "difference": "Existing bounded post-Tower S2 rehost preserves native body and original parent predicates.",
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/guard_fixtures.json",
+        "../../verification_02/tests.json"
+      ],
+      "findings_source_sha256": "238528B453F93ED4DABB263DB4CC553D98874F4FCE27C4CFCE0DDC85C4BAB1B4",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "mq021_guide",
+      "contract": "entry",
+      "difference": "Existing bounded fresh S23 post-Tower owner retains original Bob/Panam/camp entry graph.",
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/guard_fixtures.json",
+        "../../verification_02/tests.json"
+      ],
+      "findings_source_sha256": "D8761C16527ADBF3DA86423E5D8CB1F2A97EE633E50DAC2E40D8245B5F4F23CA",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "mq005_alley",
+      "contract": "entry",
+      "difference": "Private post-Tower rehosting after genuine ending cleanup; the exact current CR1 repaired Inactive guard is preserved.",
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/scene_evidence.json",
+        "../../verification_02/tests.json"
+      ],
+      "findings_source_sha256": "0F68B10AF0D9A50F942EC73B8017FB02A398D28E0D57A7E678610A595A36AAA7",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "mq005_alley",
+      "contract": "completion_rewards_cleanup",
+      "difference": "S1.1 documented bounded completed-police-left cleanup fallback; research assessment/live_result and docs/gig_pilot_r1_check.md are pinned. Historical successful fixture is scoped to its observed route.",
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/scene_evidence.json",
+        "../../verification_02/tests.json"
+      ],
+      "findings_source_sha256": "0F68B10AF0D9A50F942EC73B8017FB02A398D28E0D57A7E678610A595A36AAA7",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "mq007_smartgun",
+      "contract": "entry",
+      "difference": "Existing bounded post-Tower fresh and source-reviewed post-mode resume adapters; no arbitrary mid-dialogue/mid-reward restart.",
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/guard_fixtures.json",
+        "../../verification_02/tests.json"
+      ],
+      "findings_source_sha256": "86209D9EE7E332E8F216D8E918872A77E9C170EBD0F1D7ACA92527A459D64775",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "mq007_smartgun",
+      "contract": "communications",
+      "difference": "Future supported MQ007 entry enrolls exact native bugfix14 continuation with recursive helper lease, original done wait/five days/context/variant/Regina messages/receipt. No retroactive adoption or altered admission.",
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/guard_fixtures.json",
+        "../../verification_02/tests.json",
+        "../../verification_02/communications.json",
+        "../../regina_followup_01/evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\candidate_01\\repair_mq007\\patch.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\candidate_01\\repair_mq007\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G10\\reviews\\MQ007_serialized\\verification_01\\review.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G08\\regina_world_01\\ownership.json"
+      ],
+      "findings_source_sha256": "86209D9EE7E332E8F216D8E918872A77E9C170EBD0F1D7ACA92527A459D64775",
+      "source_epoch": 2,
+      "new_in_qr4": true
+    },
+    {
+      "quest_id": "mq007_smartgun",
+      "contract": "completion_rewards_cleanup",
+      "difference": "Future supported MQ007 entry enrolls exact native bugfix14 continuation with recursive helper lease, original done wait/five days/context/variant/Regina messages/receipt. No retroactive adoption or altered admission.",
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/guard_fixtures.json",
+        "../../verification_02/tests.json",
+        "../../regina_followup_01/evidence.json",
+        "../../regina_world_01/ownership.json",
+        "../../regina_proposal_01/proposal.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\candidate_01\\repair_mq007\\patch.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\candidate_01\\repair_mq007\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G10\\reviews\\MQ007_serialized\\verification_01\\review.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G08\\regina_world_01\\ownership.json"
+      ],
+      "findings_source_sha256": "86209D9EE7E332E8F216D8E918872A77E9C170EBD0F1D7ACA92527A459D64775",
+      "source_epoch": 2,
+      "new_in_qr4": true
+    },
+    {
+      "quest_id": "mq007_smartgun",
+      "contract": "shared_dependencies",
+      "difference": "Future supported MQ007 entry enrolls exact native bugfix14 continuation with recursive helper lease, original done wait/five days/context/variant/Regina messages/receipt. No retroactive adoption or altered admission.",
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/guard_fixtures.json",
+        "../../verification_02/tests.json",
+        "../../verification_02/dependencies.json",
+        "../../regina_followup_01/evidence.json",
+        "../../regina_world_01/ownership.json",
+        "../../regina_proposal_01/proposal.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\candidate_01\\repair_mq007\\patch.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\candidate_01\\repair_mq007\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G10\\reviews\\MQ007_serialized\\verification_01\\review.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G08\\regina_world_01\\ownership.json"
+      ],
+      "findings_source_sha256": "86209D9EE7E332E8F216D8E918872A77E9C170EBD0F1D7ACA92527A459D64775",
+      "source_epoch": 2,
+      "new_in_qr4": true
+    },
+    {
+      "quest_id": "mq013_punks",
+      "contract": "entry",
+      "difference": "Existing bounded fresh-only S23 post-Tower owner replaces the killed original parent while retaining the native entry resource.",
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/scene_evidence.json",
+        "../../verification_02/tests.json"
+      ],
+      "findings_source_sha256": "B265668566D54068867375C603218A461FD0591A9799A0EB595F26428CA5B3EA",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "mq002_veterans",
+      "contract": "entry",
+      "difference": "Existing bounded S23 fresh rehosting after Tower cleanup; original parent ancestor predicates and native MQ002 resource remain.",
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/scene_evidence.json",
+        "../../verification_02/tests.json"
+      ],
+      "findings_source_sha256": "17502A2449FE2C2FB4A61E0D4405D091DDC95E125197078C7F0AEA8D9C9080D9",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sq_q001_wakako",
+      "contract": "entry",
+      "difference": "Existing S24 fresh owner and S22 earned-payment resume; no pre-Tower/prologue replay.",
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ],
+      "findings_source_sha256": "A91185091DA1A173D7C0081941B462335E647EF678A4614E591D6260A3975E8C",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sq_q001_wakako",
+      "contract": "eligibility",
+      "difference": "Fresh and reward-resume admissions are disjoint on q001_wakako_reward_given0 versus1.",
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ],
+      "findings_source_sha256": "A91185091DA1A173D7C0081941B462335E647EF678A4614E591D6260A3975E8C",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sq025c05_scared",
+      "contract": "entry",
+      "difference": "Shared family fresh owner or exact captured-progress seam; completed cars bypass replay.",
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ],
+      "findings_source_sha256": "45882F58A7C102F682DD5BB5F0E304C4D48A0C83DA46651137BFF63261DBA56C",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sq025c07_suicidal",
+      "contract": "entry",
+      "difference": "Completed captured Glen history is preserved, while a genuine all-unstarted fresh family can use native suicidal branch.",
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ],
+      "findings_source_sha256": "7FC757E324099926F3BAF38DB295B2BA6054AA7CAC95C7A9A089EBEBB4E6E83F",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sq024_santo_domingo_race",
+      "contract": "entry",
+      "difference": "Existing fresh-only Tower story adapter and its durable master receipts are retained; no independent district restart or bypass was added.",
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_a\\verification_03\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_a\\verification_03\\graph_evidence.json"
+      ],
+      "findings_source_sha256": "019106F2BFE7243C1AD301925114B1BCF2F8D8A30F5FFB799889366B27AE0E5E",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sq024_city_race",
+      "contract": "entry",
+      "difference": "Existing fresh-only Tower story adapter and its durable master receipts are retained; no independent district restart or bypass was added.",
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_a\\verification_03\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_a\\verification_03\\graph_evidence.json"
+      ],
+      "findings_source_sha256": "2AA9EBD2EEF87FF0D418800D802A56839E7C76AAB3BDC7A29D8C24013711F776",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sq025c04_manic",
+      "contract": "entry",
+      "difference": "Existing approved Tower family rehosting: S25 fresh wrapper receipt4/postclaim90 into native body100, with parallel listener94 via SupportIssued65020 and companion95. S22 separately supports earned briefing plus scans_done3 and sad/mean/suicidal completed. No new deviation or runtime change.",
+      "evidence": [
+        {
+          "resource": "base\\quest\\side_quests\\sq025\\phases\\sq025_04_scan.questphase",
+          "graph": "root/192",
+          "nodes": [
+            192,
+            23,
+            12,
+            22
+          ]
+        },
+        {
+          "resource": "towercontinued\\sidejobs_s25\\families\\sq025_fresh.questphase",
+          "nodes": [
+            3,
+            4,
+            90,
+            92,
+            100,
+            65020,
+            94,
+            95
+          ]
+        },
+        {
+          "resource": "towercontinued\\sidejobs_s22\\delamain\\owner.questphase",
+          "node": 1003
+        },
+        "verification_02/graph_evidence.json"
+      ],
+      "findings_source_sha256": "1F65CE7F824A2875C0A90F8465D3A1F31A719E9DB2BCE0F268FC514A1B0A521D",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sq025c01_angry",
+      "contract": "entry",
+      "difference": "Existing approved Tower family rehosting: S25 fresh wrapper receipt4/postclaim90 into native body100, with parallel listener94 via SupportIssued65020 and companion95. S22 separately supports earned briefing plus scans_done3 and sad/mean/suicidal completed. No new deviation or runtime change.",
+      "evidence": [
+        {
+          "resource": "base\\quest\\side_quests\\sq025\\phases\\sq025_04_scan.questphase",
+          "graph": "root/189",
+          "nodes": [
+            189,
+            57,
+            17,
+            58
+          ]
+        },
+        {
+          "resource": "towercontinued\\sidejobs_s25\\families\\sq025_fresh.questphase",
+          "nodes": [
+            3,
+            4,
+            90,
+            92,
+            100,
+            65020,
+            94,
+            95
+          ]
+        },
+        {
+          "resource": "towercontinued\\sidejobs_s22\\delamain\\owner.questphase",
+          "node": 1003
+        },
+        "verification_02/graph_evidence.json"
+      ],
+      "findings_source_sha256": "24A371B15D1DC93F11AB09D29D71CE9B5D331C1DFF8E5292ABDB7365A1D93301",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sq025_delamain",
+      "contract": "entry",
+      "difference": "Established fresh-only private owner after genuine Tower cleanup; native later resurgence is split into separate S29 earned entry, not replayed from this fresh owner.",
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ],
+      "findings_source_sha256": "0F5D038ECE96A0BFEEB67EA9345E6E2681092DD8C0211B3446BCF19E9AE587E1",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sq_q001_wilson",
+      "contract": "entry",
+      "difference": "Existing S25 bounded native order scene and B0-owned actor, not full first-meet staging.",
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ],
+      "findings_source_sha256": "7D7435A60CE25B801B9364CE7A5BC34E99D66F5F24F479530DFC7F8287F0BA8B",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sq_q001_wilson",
+      "contract": "eligibility",
+      "difference": "Fresh ownership and actual inventory rejection preserve earned histories.",
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ],
+      "findings_source_sha256": "7D7435A60CE25B801B9364CE7A5BC34E99D66F5F24F479530DFC7F8287F0BA8B",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sq024_the_big_race",
+      "contract": "entry",
+      "difference": "Existing fresh-only Tower story adapter and its durable master receipts are retained; no independent district restart or bypass was added.",
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_a\\verification_03\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_a\\verification_03\\graph_evidence.json"
+      ],
+      "findings_source_sha256": "9307F917C9273B97052F6CB6C21F093CC1CF0F466E9AA99EFC896BA1240D8643",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sq025_compensation",
+      "contract": "entry",
+      "difference": "Established fresh-only private owner after genuine Tower cleanup; native later resurgence is split into separate S29 earned entry, not replayed from this fresh owner.",
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ],
+      "findings_source_sha256": "1B94B0CB05B66AF8B6907BC3F6817ED194A1E15525E120F0AB5E0194F2A71E17",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sq025c02_sad",
+      "contract": "entry",
+      "difference": "Existing approved Tower family rehosting: S25 fresh wrapper receipt4/postclaim90 into native body100, with parallel listener94 via SupportIssued65020 and companion95. S22 separately supports earned briefing plus scans_done3 and sad/mean/suicidal completed. No new deviation or runtime change.",
+      "evidence": [
+        {
+          "resource": "base\\quest\\side_quests\\sq025\\phases\\sq025_04_scan.questphase",
+          "graph": "root/190",
+          "nodes": [
+            190,
+            24,
+            12,
+            23
+          ]
+        },
+        {
+          "resource": "towercontinued\\sidejobs_s25\\families\\sq025_fresh.questphase",
+          "nodes": [
+            3,
+            4,
+            90,
+            92,
+            100,
+            65020,
+            94,
+            95
+          ]
+        },
+        {
+          "resource": "towercontinued\\sidejobs_s22\\delamain\\owner.questphase",
+          "node": 1003
+        },
+        "verification_02/graph_evidence.json"
+      ],
+      "findings_source_sha256": "44A1A87C0D21C0B874AB38DF8B48E5411DB3D87512B5B1CA95048B84CDA42041",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sq025c03_mean",
+      "contract": "entry",
+      "difference": "Existing approved Tower family rehosting: S25 fresh wrapper receipt4/postclaim90 into native body100, with parallel listener94 via SupportIssued65020 and companion95. S22 separately supports earned briefing plus scans_done3 and sad/mean/suicidal completed. No new deviation or runtime change.",
+      "evidence": [
+        {
+          "resource": "base\\quest\\side_quests\\sq025\\phases\\sq025_04_scan.questphase",
+          "graph": "root/191",
+          "nodes": [
+            191,
+            31,
+            12,
+            32
+          ]
+        },
+        {
+          "resource": "towercontinued\\sidejobs_s25\\families\\sq025_fresh.questphase",
+          "nodes": [
+            3,
+            4,
+            90,
+            92,
+            100,
+            65020,
+            94,
+            95
+          ]
+        },
+        {
+          "resource": "towercontinued\\sidejobs_s22\\delamain\\owner.questphase",
+          "node": 1003
+        },
+        "verification_02/graph_evidence.json"
+      ],
+      "findings_source_sha256": "9BF77B908A6EC624318CF7DBDF4111A2A664D53CD215F6ADB04FDC3BBBCC5A42",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sq024_badlands_race",
+      "contract": "entry",
+      "difference": "Existing fresh-only Tower story adapter and its durable master receipts are retained; no independent district restart or bypass was added.",
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_a\\verification_03\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_a\\verification_03\\graph_evidence.json"
+      ],
+      "findings_source_sha256": "9E25AF27844DAA31F85EA05785BD6B9A6DD71EB6CE2AA8EDC315ED600067E55F",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sq025_0_pickup",
+      "contract": "entry",
+      "difference": "Established fresh-only private owner after genuine Tower cleanup; native later resurgence is split into separate S29 earned entry, not replayed from this fresh owner.",
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ],
+      "findings_source_sha256": "DAA4B23FE715C8F3A9060BA17F6FB97A37E69AAA0F112E93082BB1C0F62C086D",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sq025c06_mean",
+      "contract": "entry",
+      "difference": "Existing approved Tower family rehosting: S25 fresh wrapper receipt4/postclaim90 into native body100, with parallel listener94 via SupportIssued65020 and companion95. S22 separately supports earned briefing plus scans_done3 and sad/mean/suicidal completed. No new deviation or runtime change.",
+      "evidence": [
+        {
+          "resource": "base\\quest\\side_quests\\sq025\\phases\\sq025_04_scan.questphase",
+          "graph": "root/194",
+          "nodes": [
+            194,
+            25,
+            12,
+            24
+          ]
+        },
+        {
+          "resource": "towercontinued\\sidejobs_s25\\families\\sq025_fresh.questphase",
+          "nodes": [
+            3,
+            4,
+            90,
+            92,
+            100,
+            65020,
+            94,
+            95
+          ]
+        },
+        {
+          "resource": "towercontinued\\sidejobs_s22\\delamain\\owner.questphase",
+          "node": 1003
+        },
+        "verification_02/graph_evidence.json"
+      ],
+      "findings_source_sha256": "4A236D304BC00D0FB7E53DA12B9515CB68B77D4DB8AB5A85EF2A5121F9D15678",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sts_bls_ina_11",
+      "contract": "entry",
+      "difference": "Existing U9 additive private entry/receipt adapters; exact original native body and saved node/input identities retained.",
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/script_pins.json",
+        "../../verification_02/quest_evidence.json",
+        "../../verification_02/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json"
+      ],
+      "findings_source_sha256": "8912ABA558A8DA1404430282FC188E132B5045B9B65092B68E9E3A30799AD19B",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sts_bls_ina_09",
+      "contract": "entry",
+      "difference": "Existing U9 additive private entry/receipt adapters; exact original native body and saved node/input identities retained.",
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/script_pins.json",
+        "../../verification_02/quest_evidence.json",
+        "../../verification_02/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json"
+      ],
+      "findings_source_sha256": "D9B6182C4F26F018402FA9B78D892F1419B1EAAD75034AC9176719D38545CC35",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sts_bls_ina_08",
+      "contract": "entry",
+      "difference": "Existing U9 additive private entry/receipt adapters; exact original native body and saved node/input identities retained.",
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/script_pins.json",
+        "../../verification_02/quest_evidence.json",
+        "../../verification_02/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json"
+      ],
+      "findings_source_sha256": "721661970F1B2AF9FFDD7B8A43F8AC7349EAF2E1F736ED8FA1953F198FDF5633",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sts_bls_ina_07",
+      "contract": "entry",
+      "difference": "Existing U9 additive private entry/receipt adapters; exact original native body and saved node/input identities retained.",
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/script_pins.json",
+        "../../verification_02/quest_evidence.json",
+        "../../verification_02/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json"
+      ],
+      "findings_source_sha256": "7769518E6674931633EAF3D102DD913751CE7D0D4328F979B81706172AF9A15A",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sts_bls_ina_06",
+      "contract": "entry",
+      "difference": "Existing U9 additive private entry/receipt adapters; exact original native body and saved node/input identities retained.",
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/script_pins.json",
+        "../../verification_02/quest_evidence.json",
+        "../../verification_02/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json"
+      ],
+      "findings_source_sha256": "338FE8F554B4934EA959D272DDB41F59FC5038337D5EBE103D342DC0C383E51D",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sts_bls_ina_05",
+      "contract": "entry",
+      "difference": "Existing Tower wrapper65000Ready→65001Revision→65002guard→65003ParentEntered→original parent, receipt65004Started and65005/65006 completion observers. Original Embedded→Soft body reference retains exactly the same native resource path. Flying Drugs alone preserves the pinned plan edit bypassing foreign INA07 POI node6 in root/3; own tier and POI remain.",
+      "evidence": [
+        {
+          "resource": "towercontinued\\native_gigs_u9\\sts_bls_ina_05_entry.questphase",
+          "nodes": [
+            5,
+            46,
+            9,
+            65002,
+            65003,
+            65004
+          ]
+        },
+        {
+          "resource": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_05\\sts_bls_ina_05.questphase"
+        },
+        "verification_08/graph_evidence.json",
+        "verification_08/source_pins.json"
+      ],
+      "findings_source_sha256": "F1D12A1683621E4711007DA2E719C263006F0C0A9E122ECAE3AB76672A11D91F",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sts_bls_ina_05",
+      "contract": "entry",
+      "difference": "Radar Love credit_alias1 is the existing collision-safe name for the one matching native credit branch; no second credit owner is added.",
+      "evidence": [
+        {
+          "resource": "towercontinued\\native_gigs_u9\\sts_bls_ina_05_entry.questphase",
+          "nodes": [
+            5,
+            46,
+            9,
+            65002,
+            65003,
+            65004
+          ]
+        },
+        {
+          "resource": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_05\\sts_bls_ina_05.questphase"
+        },
+        "verification_08/graph_evidence.json",
+        "verification_08/source_pins.json"
+      ],
+      "findings_source_sha256": "F1D12A1683621E4711007DA2E719C263006F0C0A9E122ECAE3AB76672A11D91F",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sts_bls_ina_05",
+      "contract": "journal",
+      "difference": "The existing foreign-POI contraction removes only unrelated job map activations; it does not bypass this job’s gate, objective or completion.",
+      "evidence": [
+        {
+          "maps": [
+            {
+              "resource": "towercontinued\\native_gigs_u9\\sts_bls_ina_05_map0.questphase",
+              "native_graph": "root/52",
+              "guard": {
+                "$type": "questLogicalCondition",
+                "conditions": [
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_sts_bls_ina_05_Started",
+                      "value": 1
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_sts_bls_ina_05_MapPermit",
+                      "value": 1
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_sts_bls_ina_05_Map0Entered",
+                      "value": 0
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_Support_Issued",
+                      "value": 1
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_Support_Fault",
+                      "value": 0
+                    }
+                  }
+                ],
+                "operation": "AND"
+              },
+              "journal_nodes": [
+                "16"
+              ]
+            },
+            {
+              "resource": "towercontinued\\native_gigs_u9\\sts_bls_ina_05_map1.questphase",
+              "native_graph": "root/72",
+              "guard": {
+                "$type": "questLogicalCondition",
+                "conditions": [
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_sts_bls_ina_05_Started",
+                      "value": 1
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_sts_bls_ina_05_MapPermit",
+                      "value": 1
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_sts_bls_ina_05_Map1Entered",
+                      "value": 0
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_Support_Issued",
+                      "value": 1
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_Support_Fault",
+                      "value": 0
+                    }
+                  }
+                ],
+                "operation": "AND"
+              },
+              "journal_nodes": [
+                "16"
+              ]
+            }
+          ]
+        },
+        {
+          "script": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\candidate_01\\package\\r6\\scripts\\PTFR_Consolidated\\PTFR_ActivityStateR3.reds",
+          "sha256": "06806391C2D9B3E66517C7D9EF8D69A87B2BF0DF52B23343E4793317E4F07615",
+          "class_name": "NativeGigsU9",
+          "line_start": 1520,
+          "catalogue_index": 25,
+          "catalogue": {
+            "Paths": [
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_in_farm",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/find_bruce",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_to_truck",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/talk_bruce",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_to_archibald",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/help_escape",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_to_area",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_to_bruce",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_out_car",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/talk_archibald",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/collect_reward",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/dont_kill_militech",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/wait_for_archie",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/take_bruce_to_meeting_point",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/escort_bruce_new",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/brefing"
+            ],
+            "Facts": [
+              "ina_05_archi_talk_ended",
+              "ina_05_arrived_by_car",
+              "ina_05_arrived_to_bruce",
+              "ina_05_bruce_left_alone",
+              "ina_05_bruce_mail",
+              "ina_05_car_arrives",
+              "ina_05_car_near_gate",
+              "ina_05_card",
+              "ina_05_cc_start",
+              "ina_05_done",
+              "ina_05_finished",
+              "ina_05_follow",
+              "ina_05_gates",
+              "ina_05_militech_killed",
+              "ina_05_objective_escort",
+              "ina_05_optional_failed",
+              "ina_05_recon_done",
+              "ina_05_start",
+              "ina_05_start_talk",
+              "ina_05_talked",
+              "ina_05_track",
+              "sts_bls_ina_05_combat_start",
+              "sts_bls_ina_05_loop"
+            ],
+            "TerminalFacts": [
+              "ina_05_finished"
+            ],
+            "LegacyTags": [
+              "PTFRB7_bls_ina_05"
+            ],
+            "LegacyOwnerFacts": []
+          },
+          "reference_coverage": {
+            "native_journal_refs_not_catalogued": [
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/get_to_archibald/bruce",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/help_escape/bruce",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_05/sts_bls_ina_05/rescue"
+            ],
+            "native_fact_refs_not_catalogued": [],
+            "limit": "Reference absence from EntrySafe catalogue is a coverage discrepancy, not a confirmed valid save state or a repair justification; journal definitions/reachability/history implications need target evidence."
+          },
+          "limit": "Resource65002 has no journal predicates. Current EntrySafe/Request/Poll enforce catalogue journal/fact/legacy preconditions before issuing Permit; execution/races remain LIVE_ONLY."
+        },
+        "verification_08/graph_evidence.json"
+      ],
+      "findings_source_sha256": "F1D12A1683621E4711007DA2E719C263006F0C0A9E122ECAE3AB76672A11D91F",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sts_bls_ina_04",
+      "contract": "entry",
+      "difference": "Existing Tower wrapper65000Ready→65001Revision→65002guard→65003ParentEntered→original parent, receipt65004Started and65005/65006 completion observers. Original Embedded→Soft body reference retains exactly the same native resource path. Flying Drugs alone preserves the pinned plan edit bypassing foreign INA07 POI node6 in root/3; own tier and POI remain.",
+      "evidence": [
+        {
+          "resource": "towercontinued\\native_gigs_u9\\sts_bls_ina_04_entry.questphase",
+          "nodes": [
+            5,
+            43,
+            8,
+            65002,
+            65003,
+            65004
+          ]
+        },
+        {
+          "resource": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_04\\phases\\sts_bls_ina_04.questphase"
+        },
+        "verification_08/graph_evidence.json",
+        "verification_08/source_pins.json"
+      ],
+      "findings_source_sha256": "E9FF97CC3F005CF2F14D0525EE1621541FB85683AD0D8D8EF21DD2852C4143BA",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sts_bls_ina_04",
+      "contract": "entry",
+      "difference": "Radar Love credit_alias1 is the existing collision-safe name for the one matching native credit branch; no second credit owner is added.",
+      "evidence": [
+        {
+          "resource": "towercontinued\\native_gigs_u9\\sts_bls_ina_04_entry.questphase",
+          "nodes": [
+            5,
+            43,
+            8,
+            65002,
+            65003,
+            65004
+          ]
+        },
+        {
+          "resource": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_04\\phases\\sts_bls_ina_04.questphase"
+        },
+        "verification_08/graph_evidence.json",
+        "verification_08/source_pins.json"
+      ],
+      "findings_source_sha256": "E9FF97CC3F005CF2F14D0525EE1621541FB85683AD0D8D8EF21DD2852C4143BA",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sts_bls_ina_04",
+      "contract": "journal",
+      "difference": "The existing foreign-POI contraction removes only unrelated job map activations; it does not bypass this job’s gate, objective or completion.",
+      "evidence": [
+        {
+          "maps": [
+            {
+              "resource": "towercontinued\\native_gigs_u9\\sts_bls_ina_04_map0.questphase",
+              "native_graph": "root/52",
+              "guard": {
+                "$type": "questLogicalCondition",
+                "conditions": [
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_sts_bls_ina_04_Started",
+                      "value": 1
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_sts_bls_ina_04_MapPermit",
+                      "value": 1
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_sts_bls_ina_04_Map0Entered",
+                      "value": 0
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_Support_Issued",
+                      "value": 1
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_Support_Fault",
+                      "value": 0
+                    }
+                  }
+                ],
+                "operation": "AND"
+              },
+              "journal_nodes": [
+                "10"
+              ]
+            },
+            {
+              "resource": "towercontinued\\native_gigs_u9\\sts_bls_ina_04_map1.questphase",
+              "native_graph": "root/72",
+              "guard": {
+                "$type": "questLogicalCondition",
+                "conditions": [
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_sts_bls_ina_04_Started",
+                      "value": 1
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_sts_bls_ina_04_MapPermit",
+                      "value": 1
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_sts_bls_ina_04_Map1Entered",
+                      "value": 0
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_Support_Issued",
+                      "value": 1
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_Support_Fault",
+                      "value": 0
+                    }
+                  }
+                ],
+                "operation": "AND"
+              },
+              "journal_nodes": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "script": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\candidate_01\\package\\r6\\scripts\\PTFR_Consolidated\\PTFR_ActivityStateR3.reds",
+          "sha256": "06806391C2D9B3E66517C7D9EF8D69A87B2BF0DF52B23343E4793317E4F07615",
+          "class_name": "NativeGigsU9",
+          "line_start": 1520,
+          "catalogue_index": 27,
+          "catalogue": {
+            "Paths": [
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_04",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_04/retrieve_the_van",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_04/retrieve_the_van/steal_the_van",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_04/retrieve_the_van/find_the_mobile_radar",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_04/retrieve_the_van/deliver_car",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_04/retrieve_the_van/leave_workshop",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_04/retrieve_the_van/go_to_motel",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_04/retrieve_the_van/get_dakota_mobile_radar",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_04/retrieve_the_van/get_back_to_van",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_04/retrieve_the_van/lose_chase",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_04/retrieve_the_van/get_out_of_the_van",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_04/ina_04_briefing"
+            ],
+            "Facts": [
+              "ina_04_car_segment_start",
+              "ina_04_cars_in_chase",
+              "ina_04_combat_started",
+              "ina_04_find_progress",
+              "ina_04_finished",
+              "ina_04_start",
+              "ina_04_test_def",
+              "sts_bls_ina_04_chase_objective_active"
+            ],
+            "TerminalFacts": [
+              "ina_04_finished"
+            ],
+            "LegacyTags": [
+              "PTFRB7_bls_ina_04"
+            ],
+            "LegacyOwnerFacts": []
+          },
+          "reference_coverage": {
+            "native_journal_refs_not_catalogued": [
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_04/retrieve_the_van/kill_chasing_militech/mp_reinforcements_car_01"
+            ],
+            "native_fact_refs_not_catalogued": [
+              "#ina_04_car_down",
+              "#ina_04_chase_is_on",
+              "#ina_04_officer_scene_ended",
+              "#ina_04_ready",
+              "#ina_04_v_in_car"
+            ],
+            "limit": "Reference absence from EntrySafe catalogue is a coverage discrepancy, not a confirmed valid save state or a repair justification; journal definitions/reachability/history implications need target evidence."
+          },
+          "limit": "Resource65002 has no journal predicates. Current EntrySafe/Request/Poll enforce catalogue journal/fact/legacy preconditions before issuing Permit; execution/races remain LIVE_ONLY."
+        },
+        "verification_08/graph_evidence.json"
+      ],
+      "findings_source_sha256": "E9FF97CC3F005CF2F14D0525EE1621541FB85683AD0D8D8EF21DD2852C4143BA",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sts_bls_ina_03",
+      "contract": "entry",
+      "difference": "Existing Tower wrapper65000Ready→65001Revision→65002guard→65003ParentEntered→original parent, receipt65004Started and65005/65006 completion observers. Original Embedded→Soft body reference retains exactly the same native resource path. Flying Drugs alone preserves the pinned plan edit bypassing foreign INA07 POI node6 in root/3; own tier and POI remain.",
+      "evidence": [
+        {
+          "resource": "towercontinued\\native_gigs_u9\\sts_bls_ina_03_entry.questphase",
+          "nodes": [
+            3,
+            72,
+            7,
+            65002,
+            65003,
+            65004
+          ]
+        },
+        {
+          "resource": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_03\\phases\\sts_bls_ina_03.questphase"
+        },
+        "verification_08/graph_evidence.json",
+        "verification_08/source_pins.json"
+      ],
+      "findings_source_sha256": "39AE9E9FA96867BC106BF2D054762A52B19D8610D16C852A16FB7B96515A1F4F",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sts_bls_ina_03",
+      "contract": "entry",
+      "difference": "Radar Love credit_alias1 is the existing collision-safe name for the one matching native credit branch; no second credit owner is added.",
+      "evidence": [
+        {
+          "resource": "towercontinued\\native_gigs_u9\\sts_bls_ina_03_entry.questphase",
+          "nodes": [
+            3,
+            72,
+            7,
+            65002,
+            65003,
+            65004
+          ]
+        },
+        {
+          "resource": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_03\\phases\\sts_bls_ina_03.questphase"
+        },
+        "verification_08/graph_evidence.json",
+        "verification_08/source_pins.json"
+      ],
+      "findings_source_sha256": "39AE9E9FA96867BC106BF2D054762A52B19D8610D16C852A16FB7B96515A1F4F",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sts_bls_ina_03",
+      "contract": "journal",
+      "difference": "The existing foreign-POI contraction removes only unrelated job map activations; it does not bypass this job’s gate, objective or completion.",
+      "evidence": [
+        {
+          "maps": [
+            {
+              "resource": "towercontinued\\native_gigs_u9\\sts_bls_ina_03_map0.questphase",
+              "native_graph": "root/50",
+              "guard": {
+                "$type": "questLogicalCondition",
+                "conditions": [
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_sts_bls_ina_03_Started",
+                      "value": 1
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_sts_bls_ina_03_MapPermit",
+                      "value": 1
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_sts_bls_ina_03_Map0Entered",
+                      "value": 0
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_Support_Issued",
+                      "value": 1
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_Support_Fault",
+                      "value": 0
+                    }
+                  }
+                ],
+                "operation": "AND"
+              },
+              "journal_nodes": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "script": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\candidate_01\\package\\r6\\scripts\\PTFR_Consolidated\\PTFR_ActivityStateR3.reds",
+          "sha256": "06806391C2D9B3E66517C7D9EF8D69A87B2BF0DF52B23343E4793317E4F07615",
+          "class_name": "NativeGigsU9",
+          "line_start": 1520,
+          "catalogue_index": 22,
+          "catalogue": {
+            "Paths": [
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_03",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_03/sts_bls_ina_03",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_03/sts_bls_ina_03/missing_drones",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_03/sts_bls_ina_03/destroy_antenna",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_03/sts_bls_ina_03/examine_drone",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_03/sts_bls_ina_03/find_missing_drone",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_03/sts_bls_ina_03/find_source_of_transmission",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_03/sts_bls_ina_03/netrunner_destroy",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_03/sts_bls_ina_03/find_antenna",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_03/sts_bls_ina_03/investigate_the_area",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_03/sts_bls_ina_03/collect_reward",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_03/sts_bls_ina_03/go_to_the_signal_destination",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_03/sts_bls_ina_03/leave_the_outpost",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_03/sts_bls_ina_03/call_fixer",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_03/ina_03_brief"
+            ],
+            "Facts": [
+              "ina_03_antenna_sbotaged",
+              "ina_03_community_end",
+              "ina_03_community_start",
+              "ina_03_file_seen",
+              "ina_03_finished",
+              "ina_03_gang_chase",
+              "ina_03_gang_retaliation",
+              "ina_03_mail_seen",
+              "ina_03_start",
+              "ina_03_test_def"
+            ],
+            "TerminalFacts": [
+              "ina_03_finished"
+            ],
+            "LegacyTags": [
+              "PTFRB7_bls_ina_03"
+            ],
+            "LegacyOwnerFacts": []
+          },
+          "reference_coverage": {
+            "native_journal_refs_not_catalogued": [],
+            "native_fact_refs_not_catalogued": [
+              "#ina_03_antenna_explained",
+              "#ina_03_antenna_hacked",
+              "#ina_03_carrier_scene_concluded",
+              "#ina_03_data_gathered",
+              "#ina_03_done",
+              "#ina_03_investigation_progress",
+              "#ina_03_proper",
+              "#ina_03_ready",
+              "#ina_03_shortcut"
+            ],
+            "limit": "Reference absence from EntrySafe catalogue is a coverage discrepancy, not a confirmed valid save state or a repair justification; journal definitions/reachability/history implications need target evidence."
+          },
+          "limit": "Resource65002 has no journal predicates. Current EntrySafe/Request/Poll enforce catalogue journal/fact/legacy preconditions before issuing Permit; execution/races remain LIVE_ONLY."
+        },
+        "verification_08/graph_evidence.json"
+      ],
+      "findings_source_sha256": "39AE9E9FA96867BC106BF2D054762A52B19D8610D16C852A16FB7B96515A1F4F",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sts_bls_ina_02",
+      "contract": "entry",
+      "difference": "Existing Tower wrapper65000Ready→65001Revision→65002guard→65003ParentEntered→original parent, receipt65004Started and65005/65006 completion observers. Original Embedded→Soft body reference retains exactly the same native resource path. Flying Drugs alone preserves the pinned plan edit bypassing foreign INA07 POI node6 in root/3; own tier and POI remain.",
+      "evidence": [
+        {
+          "resource": "towercontinued\\native_gigs_u9\\sts_bls_ina_02_entry.questphase",
+          "nodes": [
+            4,
+            41,
+            2,
+            65002,
+            65003,
+            65004
+          ]
+        },
+        {
+          "resource": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_02\\phases\\sts_bls_ina_02_phase.questphase"
+        },
+        "verification_08/graph_evidence.json",
+        "verification_08/source_pins.json"
+      ],
+      "findings_source_sha256": "DF2452CAB20A03DAA116E94ED6B37DEBDFC342563E5039DC62D45679E9CDB6C7",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sts_bls_ina_02",
+      "contract": "entry",
+      "difference": "Radar Love credit_alias1 is the existing collision-safe name for the one matching native credit branch; no second credit owner is added.",
+      "evidence": [
+        {
+          "resource": "towercontinued\\native_gigs_u9\\sts_bls_ina_02_entry.questphase",
+          "nodes": [
+            4,
+            41,
+            2,
+            65002,
+            65003,
+            65004
+          ]
+        },
+        {
+          "resource": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_02\\phases\\sts_bls_ina_02_phase.questphase"
+        },
+        "verification_08/graph_evidence.json",
+        "verification_08/source_pins.json"
+      ],
+      "findings_source_sha256": "DF2452CAB20A03DAA116E94ED6B37DEBDFC342563E5039DC62D45679E9CDB6C7",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sts_bls_ina_02",
+      "contract": "journal",
+      "difference": "The existing foreign-POI contraction removes only unrelated job map activations; it does not bypass this job’s gate, objective or completion.",
+      "evidence": [
+        {
+          "maps": [
+            {
+              "resource": "towercontinued\\native_gigs_u9\\sts_bls_ina_02_map0.questphase",
+              "native_graph": "root/51",
+              "guard": {
+                "$type": "questLogicalCondition",
+                "conditions": [
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_sts_bls_ina_02_Started",
+                      "value": 1
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_sts_bls_ina_02_MapPermit",
+                      "value": 1
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_sts_bls_ina_02_Map0Entered",
+                      "value": 0
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_Support_Issued",
+                      "value": 1
+                    }
+                  },
+                  {
+                    "$type": "questFactsDBCondition",
+                    "type": {
+                      "$type": "questVarComparison_ConditionType",
+                      "comparisonType": "Equal",
+                      "factName": "PTFRU9_Support_Fault",
+                      "value": 0
+                    }
+                  }
+                ],
+                "operation": "AND"
+              },
+              "journal_nodes": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "script": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\candidate_01\\package\\r6\\scripts\\PTFR_Consolidated\\PTFR_ActivityStateR3.reds",
+          "sha256": "06806391C2D9B3E66517C7D9EF8D69A87B2BF0DF52B23343E4793317E4F07615",
+          "class_name": "NativeGigsU9",
+          "line_start": 1520,
+          "catalogue_index": 21,
+          "catalogue": {
+            "Paths": [
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_02",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_02/get_data",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_02/get_data/find_big_pete",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_02/get_data/eliminate_big_pete",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_02/get_data/leave",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_02/get_data/get_in",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_02/get_data/complete_the_hit_on_big_pete",
+              "quests/street_stories/badlands/inland_avenue/sts_bls_ina_02/ina_02_briefing"
+            ],
+            "Facts": [
+              "ina_02_after_holocall",
+              "ina_02_big_pete_dead",
+              "ina_02_big_pete_spared",
+              "ina_02_bp_attack",
+              "ina_02_finished",
+              "ina_02_found_email",
+              "ina_02_gang_retaliation",
+              "ina_02_impossible_fact",
+              "ina_02_no_combat_fix",
+              "ina_02_pete_afraid",
+              "ina_02_post_community",
+              "ina_02_ready",
+              "ina_02_scene_started",
+              "ina_02_start",
+              "ina_02_test_def"
+            ],
+            "TerminalFacts": [
+              "ina_02_finished"
+            ],
+            "LegacyTags": [
+              "PTFRB7_bls_ina_02"
+            ],
+            "LegacyOwnerFacts": []
+          },
+          "reference_coverage": {
+            "native_journal_refs_not_catalogued": [],
+            "native_fact_refs_not_catalogued": [
+              "#ina_02_combat_triggered",
+              "#ina_02_fluff_concluded",
+              "#ina_02_pete_found"
+            ],
+            "limit": "Reference absence from EntrySafe catalogue is a coverage discrepancy, not a confirmed valid save state or a repair justification; journal definitions/reachability/history implications need target evidence."
+          },
+          "limit": "Resource65002 has no journal predicates. Current EntrySafe/Request/Poll enforce catalogue journal/fact/legacy preconditions before issuing Permit; execution/races remain LIVE_ONLY."
+        },
+        "verification_08/graph_evidence.json"
+      ],
+      "findings_source_sha256": "DF2452CAB20A03DAA116E94ED6B37DEBDFC342563E5039DC62D45679E9CDB6C7",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sts_cct_cpz_01",
+      "contract": "entry",
+      "difference": "Existing U9 additive private entry/receipt adapters; exact original native body and saved node/input identities retained.",
+      "evidence": [
+        "../../verification_05/tests.json",
+        "../../verification_05/source_pins.json",
+        "../../verification_05/script_pins.json",
+        "../../verification_05/quest_evidence.json",
+        "../../verification_05/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json",
+        "../../verification_05/intentional_differences.json"
+      ],
+      "findings_source_sha256": "598E440F48E16692510E90C413E93CD6AA4EAA7309BB374D23D405F47538FB11",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sts_cct_dtn_05",
+      "contract": "entry",
+      "difference": "Existing U9 additive private entry/receipt adapters; exact original native body and saved node/input identities retained.",
+      "evidence": [
+        "../../verification_05/tests.json",
+        "../../verification_05/source_pins.json",
+        "../../verification_05/script_pins.json",
+        "../../verification_05/quest_evidence.json",
+        "../../verification_05/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json",
+        "../../verification_05/intentional_differences.json"
+      ],
+      "findings_source_sha256": "9629346055B890CEC9BD67B8BA1C36D594D26120A807E925F2B16E52A49CA662",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sts_cct_dtn_03",
+      "contract": "entry",
+      "difference": "Existing U9 additive private entry/receipt adapters; exact original native body and saved node/input identities retained.",
+      "evidence": [
+        "../../verification_05/tests.json",
+        "../../verification_05/source_pins.json",
+        "../../verification_05/script_pins.json",
+        "../../verification_05/quest_evidence.json",
+        "../../verification_05/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json",
+        "../../verification_05/intentional_differences.json"
+      ],
+      "findings_source_sha256": "98BA729FE381B702CFFC11F310B9D67666DA5DB60C9EF5A566BC9D56134C61D9",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sts_cct_dtn_04",
+      "contract": "entry",
+      "difference": "Existing U9 additive private entry/receipt adapters; exact original native body and saved node/input identities retained.",
+      "evidence": [
+        "../../verification_05/tests.json",
+        "../../verification_05/source_pins.json",
+        "../../verification_05/script_pins.json",
+        "../../verification_05/quest_evidence.json",
+        "../../verification_05/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json",
+        "../../verification_05/intentional_differences.json"
+      ],
+      "findings_source_sha256": "AC7C9781B7C2FCD9BFB52FB244011AD2AD49A499FC70F845AB9D1F8D5AC17D3A",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sts_cct_dtn_02",
+      "contract": "entry",
+      "difference": "Existing U9 additive private entry/receipt adapters; exact original native body and saved node/input identities retained.",
+      "evidence": [
+        "../../verification_05/tests.json",
+        "../../verification_05/source_pins.json",
+        "../../verification_05/script_pins.json",
+        "../../verification_05/quest_evidence.json",
+        "../../verification_05/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json",
+        "../../verification_05/intentional_differences.json"
+      ],
+      "findings_source_sha256": "40AE1F4347D9F050521C67AF22CABEE9E4742F33FA06D629BF6D5EF2667075BD",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sts_hey_gle_06",
+      "contract": "entry",
+      "difference": "Existing U9 bounded post-Tower parent/map/credit rehosting and exact native standalone-body externalization.",
+      "evidence": [
+        "../../verification_01/source_pins.json",
+        "../../verification_01/graph_evidence.json",
+        "../../verification_01/tests.json",
+        "../../verification_01/embedded_parity.json"
+      ],
+      "findings_source_sha256": "49FE0B2006E77581F563A6E5B5AA0FAD852675A9DFA1E068AF90DC1769F58B0C",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    },
+    {
+      "quest_id": "sts_hey_gle_01",
+      "contract": "entry",
+      "difference": "Existing U9 bounded post-Tower parent/map/credit rehosting and exact native standalone-body externalization.",
+      "evidence": [
+        "../../verification_01/source_pins.json",
+        "../../verification_01/graph_evidence.json",
+        "../../verification_01/tests.json",
+        "../../verification_01/embedded_parity.json"
+      ],
+      "findings_source_sha256": "4DD88E0019B0C4719656BB9ADA80AEE6E1D0D077F06B2AE04DB0CF352753CD85",
+      "source_epoch": 2,
+      "new_in_qr4": false
+    }
+  ],
+  "approval_boundary": "Existing adaptations retain their pinned native/corrected-builder evidence and original limitations. Only MQ007 has new QR4 gameplay changes; prose is not blanket authorization."
+}

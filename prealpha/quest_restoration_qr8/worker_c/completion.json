@@ -1,0 +1,42 @@
+{
+  "status": "QR8_WORKER_C_COMPLETE_TARGETED_FINDINGS_AND_ASSIGNED_PEER_REVIEWS",
+  "remaining_unknown_contract_rows": 5,
+  "source_confirmed_repairs_implemented_by_worker_c": 0,
+  "peer_approved_minimal_repair_for_coordinator": "late-future four-condition delta only",
+  "outputs": [
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_c\\findings_03\\evidence.json",
+      "sha256": "41D197CF91C66E7936CC2D2EDA063B3DFAFD4A0CADD94DC8F7EA6C5936AD5DF6"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_c\\findings_03\\contract_updates.json",
+      "sha256": "49762E62CB258EA6616C11FB5B52F429C3032557AE8FE16F7045836303F59239"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_c\\reviews\\enrollment_02\\review.json",
+      "sha256": "ADE941DDE40FCB2363F792034208243F4CA2D6487B51DAAFA189373F323167E0"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_c\\reviews\\late_future_02\\review.json",
+      "sha256": "C7C25EF298C2850AAC7BDF47EAF8FAF85508315F398DF4AA25196154F86C2B6C"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_c\\REPORT.md",
+      "sha256": "364D259B1B4040A99A4D5E0604F218896988A1E772687D907F69AFB0207B9091"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_c\\REPRODUCE.md",
+      "sha256": "E683A23C122E319469A811D23F38EABB4D832AAC7D2BBD24494D04C716173C49"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_c\\WORKER_HANDOFF.md",
+      "sha256": "E41752E08A92572A8D591D30039768AD462A94B0A211A87BD9CFDB10BFFE0387"
+    }
+  ],
+  "C_findings_independent_peer": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\reviews\\C_five_01\\review.json",
+    "sha256": "A5285890D61E8580936D052CCE6203296353AE33F55CDAC6F75E9A0866379206"
+  },
+  "write_scope": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_c",
+  "runtime_candidate_game_save_fact_deploy_release_writes": 0
+}

@@ -1,0 +1,121 @@
+{
+  "status": "FIRST_MEETING_RECORDED_NATIVE_LEAVE_AREA_GATE_PENDING_DIAGNOSTIC_CALLBACK_GAP",
+  "recorded_utc": "2026-11-02T21:15:09.708246+00:00",
+  "quest_id": "mq030_melisa",
+  "gameplay_result": "INCONCLUSIVE_PENDING_NORMAL_LEAVE_RETURN",
+  "met_broadlog_values": [
+    1,
+    2,
+    3
+  ],
+  "native_leave_gate": "root/43/12met>0 ->14playerOutside mq030_tr_jinguji_away",
+  "probe_watch_callbacks": "COVERAGE_FAILURE_OBSERVED_ROOT_CAUSE_UNCONFIRMED",
+  "probe_rows": 6,
+  "probe_fact_delivery_rows": 0,
+  "native_fact_transitions_inside_probe": 3,
+  "callback_repair": "NOT_IMPLEMENTED_NO_GUESSED_API_CHANGE",
+  "runtime_or_save_changes": 0,
+  "next_test": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\NEXT_JINGUJI_RETURN.md",
+  "artifacts": [
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S05_20261102_01\\capture_analysis.json",
+      "sha256": "63893577FE080F2D3504D2393EF0EB7A96D4265BF726F4EA07E2EA40DB0CDA81",
+      "bytes": 932
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S05_20261102_01\\collection.json",
+      "sha256": "B56D1B141F229BB14F5F3952EFAD825EB26B7DE97AB4DDE24C19AC090D5EF9C0",
+      "bytes": 1068
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S05_20261102_01\\human_result.json",
+      "sha256": "D3555C82CACA9F0F921BA856FA47D3A043F5133D66166E94C5BF1EC6F9DF319E",
+      "bytes": 382
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S05_20261102_01\\logs\\ArchiveXL_0_ArchiveXL-2026-11-02-15-56-49.log",
+      "sha256": "8FE52A9F2ED1243954810B2442F8B8BA1D182536B1F7183C1DCC99EB3915B23A",
+      "bytes": 170797
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S05_20261102_01\\logs\\ArchiveXL_1_ArchiveXL-2026-11-02-15-50-18.log",
+      "sha256": "E2B4B9B422237BEE71900F125F819B44F163CD2C12222CC409AB2E29D258D371",
+      "bytes": 170837
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S05_20261102_01\\logs\\CET_0_cyber_engine_tweaks.log",
+      "sha256": "6D498C44C8E0B9C155BAAB9D0C60D42B0F4E15282AADA730A749475D989DD005",
+      "bytes": 374860
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S05_20261102_01\\logs\\CET_scripting_0_scripting.log",
+      "sha256": "A0CC34444B1D8995C2EC0E69CE4A72D3F890B4312D74C737E29999AE861D9410",
+      "bytes": 955523
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S05_20261102_01\\logs\\QR9_capture_20261102T210825Z_0001.jsonl",
+      "sha256": "8B701660BC35EB18D9FA4779CA8F450018D1FD52AFF8E35124C63406B55F4796",
+      "bytes": 5003
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S05_20261102_01\\logs\\RED4ext_0_red4ext-2026-11-02-15-56-48.log",
+      "sha256": "6CB01B422966FE7F41127462ABE6E5005F5643D2B73BF5CDD55A0BE529D29B22",
+      "bytes": 4014
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S05_20261102_01\\logs\\RED4ext_1_red4ext-2026-11-02-15-50-16.log",
+      "sha256": "DC2E304744C3DAA5C71B3D5B4B6E95E5484988203D9A15532DC5D618C12C7690",
+      "bytes": 4014
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S05_20261102_01\\logs\\REDscript_0_redscript_rCURRENT.log",
+      "sha256": "9A9B4629D7657FAC4AFD2E68902F3B41E63B7114F5A3EF130EEB7413667B9969",
+      "bytes": 9142
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S05_20261102_01\\logs\\REDscript_1_redscript_r2026-11-02_15-56-54.log",
+      "sha256": "B6334EA3A8DAF67332137777AC21A41A747DA657AF488C915714B56C7746A94E",
+      "bytes": 9142
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S05_20261102_01\\native_starter_trace.json",
+      "sha256": "C94AD87EE1508DFF70E1D9399ACA2EB748D6D485B78A88F6BB35A7B3B7ABFDDD",
+      "bytes": 3914
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S05_20261102_01\\REPORT.md",
+      "sha256": "12A481949AC429B3D0B0BD3651864B12828241F93847B4BC5F3FEEF02EAFC26D",
+      "bytes": 3923
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S05_20261102_01\\resource_observations.json",
+      "sha256": "752CBE9A3F4D134B4AF745DF35617A510E7A2A4F6CC49CE6EB4C70C4C6B552C7",
+      "bytes": 30877
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S05_20261102_01\\support_line_candidates.json",
+      "sha256": "577C279527F3EDF879FB4CA203D808219580EA4F9A0009935DCBDEE021DB6B98",
+      "bytes": 80768
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S05_20261102_01\\support_log_candidates.json",
+      "sha256": "9BD1B06BB72711D5CD935A94923B244AF9BC0DD0915456B05609128E1474C6A8",
+      "bytes": 6229
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S05_20261102_01\\timeline.json",
+      "sha256": "3F6A346809CAEDC6C209AD07D24E5AE1E0AB115F7E4399D261325AAA7163B920",
+      "bytes": 1197
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S05_20261102_01\\user_report.json",
+      "sha256": "511D453576AAC8A8F6C51E2C1F23A5F3E4CC56EFDD000CD70B4CE8231505C72F",
+      "bytes": 495
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S05_20261102_01\\user_zane_dialogue.png",
+      "sha256": "C22401D898F61781C0B776F84A0B319097E890F8ABB048E312D2B76DD9092EE8",
+      "bytes": 901720
+    }
+  ]
+}

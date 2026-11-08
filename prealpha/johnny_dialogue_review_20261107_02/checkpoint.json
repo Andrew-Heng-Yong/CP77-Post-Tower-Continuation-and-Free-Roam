@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "step": 3,
+  "status": "SUPERSEDED_BY_TWO_QUEST_VIDEO_REVIEW",
+  "revision": "J5-03",
+  "request": "Five quests worth of every Johnny line, with three preceding lines from any speaker and five following V lines; no total line limit.",
+  "plan": "docs/johnny_dialogue_removal_plan_20261107.md",
+  "report": "REPORT.md",
+  "document": "output_03/Johnny_review_five_quests_03.txt",
+  "document_sha256": "D898BECCEE1F05D392207B46253B79EB1C04BFC9EDACF2E6ACCF33A8D9FD9C78",
+  "mapping": "evidence_05/review_manifest.json",
+  "preserved_original": "evidence_05/original_review_five_quests_03.txt",
+  "verification": "qa_03/verification.json",
+  "independent_verification": "qa_03/independent_verification.json",
+  "source_index": "prealpha\\johnny_dialogue_index_20261107_02\\index_05\\dialogue.sqlite3",
+  "current_scope_policy": "prealpha/johnny_dialogue_scope_audit_20261107_01/scope_policy.json",
+  "counts": {
+    "quests": 5,
+    "johnny_entries": 49,
+    "displayed_entries": 455,
+    "unique_event_ids": 121,
+    "before_alternatives": 68,
+    "after_v_alternatives": 81,
+    "approved_removal_events": 0
+  },
+  "game_writes": 0,
+  "save_writes": 0,
+  "next_action": "Await five-word-or-longer dialogue quotes or full short option labels for the two-quest YouTube pilot: KOLD MIRAGE and Sweet Dreams. Resolve spoken-event and choice identities separately; timestamps are optional unless matching is ambiguous.",
+  "review_protocol": "review_protocol.json",
+  "superseded_by": "prealpha/johnny_video_review_20261107_01/checkpoint.json"
+}

@@ -1,0 +1,716 @@
+{
+  "quest_id": "sq025c04_manic",
+  "title": "Epistrophy: Rancho Coronado",
+  "source_epoch": "source_epoch_00",
+  "status": "DEEP_CONTRACTS_INVESTIGATED_WITH_EXPLICIT_LIMITS",
+  "fully_static_verified": false,
+  "defects": [],
+  "repairs": [],
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Exact native case identity is base\\quest\\side_quests\\sq025\\phases\\sq025_04_scan.questphase:root/192, phase192, prefab#sq025_pr_manic; native normal input fans 23.Out2â†’12.manic_in and talk fan 23.Out1â†’22.manic_in_talk. Both are retained byte-structure-exact in the S22 scan copy.",
+        "Fresh S25 actual preclaim3/postclaim90 guards preserve zero scan count/all-car zero state. S22 owner1003 is a distinct bounded three-completed-car seam, not an arbitrary unfinished quest restart.",
+        "This case is unfinished and started natively in the S22 seam: sq025_manic_done=0; exact opposite-state fixtures reject admission. Fresh always requires0."
+      ],
+      "approved_differences": [
+        "Existing approved Tower family rehosting: S25 fresh wrapper receipt4/postclaim90 into native body100, with parallel listener94 via SupportIssued65020 and companion95. S22 separately supports earned briefing plus scans_done3 and sad/mean/suicidal completed. No new deviation or runtime change."
+      ],
+      "remaining": [
+        "CONDITIONAL: Native sidequests.questphase154 OR(SideQuest_Standalone token, pickup-car administration SMS visited) has no complete post-Tower replacement/context equivalence evidence; inherited shared-core blocker retained."
+      ],
+      "evidence": [
+        {
+          "resource": "base\\quest\\side_quests\\sq025\\phases\\sq025_04_scan.questphase",
+          "graph": "root/192",
+          "nodes": [
+            192,
+            23,
+            12,
+            22
+          ]
+        },
+        {
+          "resource": "towercontinued\\sidejobs_s25\\families\\sq025_fresh.questphase",
+          "nodes": [
+            3,
+            4,
+            90,
+            92,
+            100,
+            65020,
+            94,
+            95
+          ]
+        },
+        {
+          "resource": "towercontinued\\sidejobs_s22\\delamain\\owner.questphase",
+          "node": 1003
+        },
+        "verification_02/graph_evidence.json"
+      ]
+    },
+    "eligibility": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Fresh and bounded progressed serialized Boolean trees are evaluated directly for quests/side_quest/sq025c04_manic, sq025_manic_done and scans_done. Opposite done states and completed fresh history are rejected; existing Succeeded sad/mean are admitted only by the bounded progressed seam.",
+        "Actual nearby scan admission scene/3515 retains AND(distance<=60, content unblocked).",
+        "Destroy eight flamingos: scene/2617 requires sq025_flamingos_destroyed >7; repeat conversation has second start request7513."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "STATIC_CONTEXT_GAP: The original outer154 content-token/mail arbitration is not proven equivalent after Tower; no token/message visitation was fabricated.",
+        "CONDITIONAL: Exact player/save entitlement, retained original executing owner and supported S22 three-car stage require matching saved-owner evidence; unsupported partial states defer."
+      ],
+      "evidence": [
+        {
+          "resource": "towercontinued\\sidejobs_s25\\families\\sq025_fresh.questphase",
+          "nodes": [
+            3,
+            90
+          ]
+        },
+        {
+          "resource": "towercontinued\\sidejobs_s22\\delamain\\owner.questphase",
+          "node": 1003
+        },
+        {
+          "resource": "base\\quest\\side_quests\\sq025\\scenes\\sq025_05_scan.scene",
+          "node": 3515
+        },
+        "verification_02/graph_evidence.json",
+        "verification_02/tests.json"
+      ]
+    },
+    "communications": {
+      "status": "PASS",
+      "proven": [
+        "All 5 actual manic request producers in both owned inputs are individually linked to matching native done>0 wait and clear0, controller request reader/reset0â†’scene21 named input and reachable real acknowledgement writer. Producer/input/readers/clears/ack nodes and connected paths are in evidence.",
+        "Native Delamain scene/controller/cleanup binaries match pinned providers; shared fixer cleanup invokes the native cleanup owner by frozen G02 proof. Native talk pause/return operations are retained in the exact per-case phase graph.",
+        "Native case incoming cleanup reader21 compares actual manic start/end counters and retains its True reset receipt/native end scene route. No synthetic acknowledgement or reset."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Holocall playback/UI, incoming rejection, counter delivery and callback scheduling are engine-dependent. Native outgoing angry/deep cleanup label differences are inherited (not a restored-vs-native defect).",
+        "LIVE_ONLY: Body100 and SupportIssued65020â†’listener94 are parallel branches after92; no strict listener-before-body ordering is asserted. Pending/queued requests are not simulated."
+      ],
+      "evidence": [
+        {
+          "resource": "base\\quest\\side_quests\\sq025\\scenes\\sq025_05_scan.scene",
+          "protocols": [
+            {
+              "producer": "7372",
+              "request": "holo_delamain_manic_calls_v_start_activate",
+              "waits": [
+                "7369"
+              ],
+              "clears": [
+                "7370"
+              ],
+              "controller_readers": [
+                "54"
+              ],
+              "controller_clears": [
+                "58"
+              ],
+              "ack_writers": [
+                "1181"
+              ],
+              "actual_case_input": "manic_in",
+              "producer_path": [
+                "11",
+                "620",
+                "6642",
+                "6408",
+                "7870",
+                "8737",
+                "8743",
+                "9191",
+                "9193",
+                "9189",
+                "621",
+                "3515",
+                "608",
+                "628",
+                "4347",
+                "8286",
+                "8289",
+                "9600",
+                "8292",
+                "6791",
+                "3068",
+                "3070",
+                "6789",
+                "8300",
+                "4415",
+                "7372"
+              ],
+              "ack_paths": [
+                [
+                  "1146",
+                  "2532",
+                  "1185",
+                  "1164",
+                  "2460",
+                  "1198",
+                  "3924",
+                  "3888",
+                  "3892",
+                  "1154",
+                  "3896",
+                  "3470",
+                  "1156",
+                  "1151",
+                  "1153",
+                  "1163",
+                  "1181"
+                ]
+              ]
+            },
+            {
+              "producer": "7376",
+              "request": "holo_delamain_manic_calls_v_end_activate",
+              "waits": [
+                "7373"
+              ],
+              "clears": [
+                "7374"
+              ],
+              "controller_readers": [
+                "55"
+              ],
+              "controller_clears": [
+                "59"
+              ],
+              "ack_writers": [
+                "1182"
+              ],
+              "actual_case_input": "manic_in",
+              "producer_path": [
+                "11",
+                "620",
+                "6642",
+                "6408",
+                "7870",
+                "8737",
+                "8743",
+                "9191",
+                "9193",
+                "9189",
+                "621",
+                "3515",
+                "608",
+                "628",
+                "4347",
+                "8286",
+                "8289",
+                "9600",
+                "8292",
+                "6791",
+                "3068",
+                "3070",
+                "6789",
+                "8300",
+                "4415",
+                "7372",
+                "7369",
+                "7370",
+                "7371",
+                "3197",
+                "609",
+                "3200",
+                "3096",
+                "4495",
+                "7375",
+                "7376"
+              ],
+              "ack_paths": [
+                [
+                  "1147",
+                  "2978",
+                  "1165",
+                  "1190",
+                  "1199",
+                  "1161",
+                  "1162",
+                  "2111",
+                  "1159",
+                  "1160",
+                  "1166",
+                  "3962",
+                  "1182"
+                ]
+              ]
+            },
+            {
+              "producer": "7392",
+              "request": "holo_delamain_manic_calls_v_end_activate",
+              "waits": [
+                "7389"
+              ],
+              "clears": [
+                "7390"
+              ],
+              "controller_readers": [
+                "55"
+              ],
+              "controller_clears": [
+                "59"
+              ],
+              "ack_writers": [
+                "1182"
+              ],
+              "actual_case_input": "manic_in",
+              "producer_path": [
+                "11",
+                "620",
+                "6642",
+                "6408",
+                "7870",
+                "8737",
+                "8743",
+                "9191",
+                "9193",
+                "9189",
+                "621",
+                "3515",
+                "608",
+                "628",
+                "4347",
+                "8286",
+                "8289",
+                "9600",
+                "8292",
+                "6791",
+                "3068",
+                "3070",
+                "6789",
+                "8300",
+                "4415",
+                "7372",
+                "7369",
+                "7370",
+                "7371",
+                "3197",
+                "3194",
+                "3090",
+                "4974",
+                "4973",
+                "7391",
+                "7392"
+              ],
+              "ack_paths": [
+                [
+                  "1147",
+                  "2978",
+                  "1165",
+                  "1190",
+                  "1199",
+                  "1161",
+                  "1162",
+                  "2111",
+                  "1159",
+                  "1160",
+                  "1166",
+                  "3962",
+                  "1182"
+                ]
+              ]
+            },
+            {
+              "producer": "7400",
+              "request": "holo_delamain_manic_calls_v_end_activate",
+              "waits": [
+                "7397"
+              ],
+              "clears": [
+                "7398"
+              ],
+              "controller_readers": [
+                "55"
+              ],
+              "controller_clears": [
+                "59"
+              ],
+              "ack_writers": [
+                "1182"
+              ],
+              "actual_case_input": "manic_in",
+              "producer_path": [
+                "11",
+                "620",
+                "6642",
+                "6408",
+                "7870",
+                "8737",
+                "8743",
+                "9191",
+                "9193",
+                "9189",
+                "621",
+                "3515",
+                "608",
+                "628",
+                "4347",
+                "8286",
+                "8289",
+                "9600",
+                "8292",
+                "6791",
+                "3068",
+                "3070",
+                "6789",
+                "8300",
+                "4415",
+                "7372",
+                "7369",
+                "7370",
+                "7371",
+                "3197",
+                "3194",
+                "3090",
+                "4974",
+                "3089",
+                "3075",
+                "2617",
+                "8779",
+                "1209",
+                "3848",
+                "4962",
+                "7513",
+                "7510",
+                "7511",
+                "7512",
+                "1258",
+                "605",
+                "3102",
+                "7399",
+                "7400"
+              ],
+              "ack_paths": [
+                [
+                  "1147",
+                  "2978",
+                  "1165",
+                  "1190",
+                  "1199",
+                  "1161",
+                  "1162",
+                  "2111",
+                  "1159",
+                  "1160",
+                  "1166",
+                  "3962",
+                  "1182"
+                ]
+              ]
+            },
+            {
+              "producer": "7513",
+              "request": "holo_delamain_manic_calls_v_start_activate",
+              "waits": [
+                "7510"
+              ],
+              "clears": [
+                "7511"
+              ],
+              "controller_readers": [
+                "54"
+              ],
+              "controller_clears": [
+                "58"
+              ],
+              "ack_writers": [
+                "1181"
+              ],
+              "actual_case_input": "manic_in",
+              "producer_path": [
+                "11",
+                "620",
+                "6642",
+                "6408",
+                "7870",
+                "8737",
+                "8743",
+                "9191",
+                "9193",
+                "9189",
+                "621",
+                "3515",
+                "608",
+                "628",
+                "4347",
+                "8286",
+                "8289",
+                "9600",
+                "8292",
+                "6791",
+                "3068",
+                "3070",
+                "6789",
+                "8300",
+                "4415",
+                "7372",
+                "7369",
+                "7370",
+                "7371",
+                "3197",
+                "3194",
+                "3090",
+                "4974",
+                "3089",
+                "3075",
+                "2617",
+                "8779",
+                "1209",
+                "3848",
+                "4962",
+                "7513"
+              ],
+              "ack_paths": [
+                [
+                  "1146",
+                  "2532",
+                  "1185",
+                  "1164",
+                  "2460",
+                  "1198",
+                  "3924",
+                  "3888",
+                  "3892",
+                  "1154",
+                  "3896",
+                  "3470",
+                  "1156",
+                  "1151",
+                  "1153",
+                  "1163",
+                  "1181"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "resource": "base\\quest\\holocalls\\delamain\\delamain_cleanup.questphase",
+          "node": "21"
+        },
+        {
+          "shared_core": "../G02/shared_core.json",
+          "correction": "../G06/G02_self_correction.json"
+        },
+        "verification_02/graph_evidence.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Per-case root/192 saved node identity, sockets and native phaseInstancePrefab#sq025_pr_manic are unchanged. S22 and fresh routes have distinct issued guards; case completion returns to native seven-car AND198.In4.",
+        "The CR1 receipt65020 names the existing fresh listener for S29 adoption guards; it does not create a second controller or impose a serial scheduling barrier.",
+        "Progressed skip1004 requires BOTH native done1 and quests/side_quest/sq025c04_manic Succeeded; True feeds198 directly and False enters native activation263."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: A native persistent return-car owner and already executing/saved private descendants cannot be proved retired/adopted from receipt/fact equality alone.",
+        "LIVE_ONLY: Cancellation, reload, lease lifetime and already-issued interrupted states need exact transition fixtures."
+      ],
+      "evidence": [
+        {
+          "resource": "towercontinued\\sidejobs_s22\\delamain\\scan.questphase",
+          "nodes": [
+            192,
+            1004,
+            198
+          ]
+        },
+        {
+          "resource": "towercontinued\\sidejobs_s22\\delamain\\owner.questphase",
+          "node": 1003
+        },
+        {
+          "resource": "towercontinued\\sidejobs_s25\\families\\sq025_fresh.questphase",
+          "nodes": [
+            92,
+            65020,
+            94
+          ]
+        },
+        "verification_02/source_pins.json",
+        "verification_02/graph_evidence.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Every node payload/socket/edge/reachability set in actual case root/192 equals pinned vanilla; original normal and talk scene input bindings retained. Destroy eight flamingos: scene/2617 requires sq025_flamingos_destroyed >7; repeat conversation has second start request7513.",
+        "Actual scene entry11 reaches normal producer7372, receipt942, additive scan counter3820, journal1283 and reward4175. Normal-requestâ†’done/counter paths and counterâ†’success/reward paths are separately recorded, avoiding a guessed direct doneâ†’counter chain.",
+        "Reachability is MAY reachability over actual edges; native choice predicates, waits, trigger/mount and combat conditions remain part of the contract rather than being assumed true."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Actual manic driving/combat/choice/talk and scene interruption execution, especially save during scan or reward, is not established by static topology."
+      ],
+      "evidence": [
+        {
+          "resource": "base\\quest\\side_quests\\sq025\\phases\\sq025_04_scan.questphase",
+          "graph": "root/192"
+        },
+        {
+          "resource": "base\\quest\\side_quests\\sq025\\scenes\\sq025_05_scan.scene",
+          "nodes": [
+            7372,
+            942,
+            3820,
+            1283,
+            4175
+          ]
+        },
+        "verification_02/graph_evidence.json",
+        "verification_02/tests.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Native per-case prefab#sq025_pr_manic, scene marker#sq025_05_sm_scan, actor naming and talk interruption operations are unchanged. Shared scan root prefab#sq025_pr_03_street_find_delamain is preserved by frozen shared proof.",
+        "Actor/vehicle/trigger refs from full native root/192 payload are pinned in the exact graph and scene evidence; no new private support owner added."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "OPAQUE: World sector/prefab placement, #sq025_com_delamain_manic, car spawn/trigger NodeRefs, camera/workspot/vehicle target definitions and localization/lipsync are not all decoded or independently resolved.",
+        "LIVE_ONLY: Streaming, vehicle AI, audio-only JV1 presentation and restored studio/focus behavior require engine observations; source binding equality is not placement proof."
+      ],
+      "evidence": [
+        {
+          "resource": "base\\quest\\side_quests\\sq025\\phases\\sq025_04_scan.questphase",
+          "graph": "root/192",
+          "prefab": [
+            "#sq025_pr_manic"
+          ]
+        },
+        "verification_02/source_pins.json",
+        "verification_02/graph_evidence.json"
+      ]
+    },
+    "journal": {
+      "status": "PASS",
+      "proven": [
+        "All case journal paths are inventoried from pinned native scan scene. Specific root quests/side_quest/sq025c04_manic is completed through journal node1283 input0:3 (Succeeded), reached from actual scan counter path.",
+        "Progressed cleanup graphroot/267 guard106 reads this exact root Succeeded: True bypasses journal deactivation; False enters node6.Inactive. Existing completed case history is preserved.",
+        "Per-case native debug-only reset/track outputs remain separate from normal input; native find/scan/disable/wait and case branch objective bindings remain unchanged in root/192/scene."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Actual marker display, localization, notification order and existing saved journal transitions are not observed."
+      ],
+      "evidence": [
+        {
+          "resource": "base\\quest\\side_quests\\sq025\\scenes\\sq025_05_scan.scene",
+          "node": 1283,
+          "input": "0:3"
+        },
+        {
+          "resource": "towercontinued\\sidejobs_s22\\delamain\\scan.questphase",
+          "graph": "root/267",
+          "guard": 106
+        },
+        "verification_02/graph_evidence.json",
+        "verification_02/tests.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native done writer942 sets sq025_manic_done exactly1. Native counter3820 adds1 (setExactValue0), preserving seven-car family accounting. Raw-source mutation of this writer from1to2 is detected.",
+        "Counterâ†’reward4175 retains exact QuestRewards.sq025_each_scan_completed reference and separate Succeeded journal1283. Native case output returns to parent198.In4; native interrupt/counter and cleanup graph paths are pinned.",
+        "Existing Succeeded case histories bypass S22 cleanup deactivation; no reward/setup replay introduced."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "STATIC_TARGET_DATA_GAP: Exact QuestRewards.sq025_each_scan_completed TweakDB definition, resolved current overrides, amount scaling and downstream item/entitlement targets remain unverified.",
+        "LIVE_ONLY: Exactly-once receipt, actor/prefab teardown, interrupted conversation cleanup and native seven-car join completion require live/save fixtures."
+      ],
+      "evidence": [
+        {
+          "resource": "base\\quest\\side_quests\\sq025\\scenes\\sq025_05_scan.scene",
+          "nodes": [
+            942,
+            3820,
+            4175,
+            1283
+          ]
+        },
+        {
+          "resource": "base\\quest\\side_quests\\sq025\\phases\\sq025_04_scan.questphase",
+          "graph": "root/192"
+        },
+        {
+          "resource": "towercontinued\\sidejobs_s22\\delamain\\scan.questphase",
+          "graph": "root/267"
+        },
+        "verification_02/graph_evidence.json",
+        "verification_02/tests.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "The existing S25/S22 resource/node/field receipts remain stable. Fresh1st issue requires this case done0 and no completed history; bounded S22 seam starts this previously uncompleted case. Serialized opposite-state and journal fixtures test the actual guards.",
+        "S22 restart-skip node1004 requires done1 AND rootSucceeded; neither one alone bypasses native activation. Succeeded journal protection guard106 independently prevents history deactivation."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: HS1/fact snapshots do not deserialize saved running descendants. Arbitrary partially completed per-car states and already-issued orphan recovery are not certified.",
+        "LIVE_ONLY: Reload at scan/call/reward boundaries, pending callbacks, original-owner retirement and future-version transition safety require actual saved transition evidence."
+      ],
+      "evidence": [
+        {
+          "resource": "towercontinued\\sidejobs_s25\\families\\sq025_fresh.questphase",
+          "nodes": [
+            3,
+            90
+          ]
+        },
+        {
+          "resource": "towercontinued\\sidejobs_s22\\delamain\\owner.questphase",
+          "node": 1003
+        },
+        {
+          "resource": "towercontinued\\sidejobs_s22\\delamain\\scan.questphase",
+          "nodes": [
+            1004
+          ],
+          "cleanup": 106
+        },
+        "verification_02/graph_evidence.json",
+        "verification_02/tests.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Frozen G02 core is SHA-validated and all53 recorded native/private core binary hashes are revalidated; its graph/source/test artifact hashes are checked. Nine case-relevant resources are independently parsed against pinned normalized models, not merely copied statuses.",
+        "This case adds 5 actual communication producer checks, exact graphroot/192/prefab equality, distinct reward/journal/counter nodes and current-owner seam cases. Shared proof is supplemented by G06 concurrency correction; its old strict-before wording is not adopted.",
+        "Main body/support/listener/return-car dependencies remain original native ownership or the already-reviewed S22/S25 support; no new controller or synthetic Sandra/Delamain reset is proposed."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "STATIC_CONTEXT_GAP: Native parent154 token/mail admission, persistent return-car saved ownership and authoritative TweakDB/world definitions remain open shared obligations.",
+        "OPAQUE/LIVE_ONLY: Actual native garage/street/studio placement, phone arbitration and loaded owner coexistence remain outside static proof."
+      ],
+      "evidence": [
+        {
+          "shared_core": "../G02/shared_core.json",
+          "sha256": "6C7DAF85ED6345729092B3BF22EF6E1C176E95B6829824D11BD19A49D6DED4EC",
+          "correction": "../G06/G02_self_correction.json"
+        },
+        "verification_02/source_pins.json",
+        "verification_02/graph_evidence.json",
+        "verification_02/tests.json"
+      ]
+    }
+  },
+  "source_resources": "verification_02/source_pins.json",
+  "test_results": "verification_02/tests.json"
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PASS_SPECIFIC_STATIC_CHECKS_WITH_NATIVE_DIAGNOSTICS_AND_LIVE_LIMITS",
+  "checks": 237,
+  "mutations": 6,
+  "resources": 69,
+  "fresh_exports": 18,
+  "phone_request_sites": 38,
+  "native_diagnostic_resources": 1,
+  "quest_ids": [
+    "sts_ep1_10",
+    "sts_ep1_08",
+    "sts_ep1_13"
+  ],
+  "source_epoch": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\source_epoch_05.json",
+  "source_epoch_sha256": "EFFD80F3A4413A0AAF0127DCC215ED4E3850262FA1388358996A15994C1CCE0D",
+  "fully_static_verified": false,
+  "runtime_changes": [],
+  "code_sha256": "0A8EF56F51030DFD4A7F1945DBF24E0138E263E482EB65F299D9632A8138B89A"
+}

@@ -1,0 +1,45 @@
+{
+  "status": "PASS_TYPED_JUDY_TRAVEL_GUARDS",
+  "resources": [
+    {
+      "depot": "base\\quest\\side_quests\\sq030\\phases\\sq030_msg_left_01.questphase",
+      "sha256": "476C944214733CA7CC167FB636FB2A8782AF3CF771E3224EA8FC38FD466C6483",
+      "native_nodes_preserved": 30,
+      "verified_boundaries": [
+        0,
+        2,
+        7,
+        8,
+        15,
+        16
+      ],
+      "expiry_node": 26
+    },
+    {
+      "depot": "base\\quest\\side_quests\\sq030\\phases\\sq030_msg_left_02.questphase",
+      "sha256": "896D8B2BABCD7EE4EF3D4A89FA853A2CD70D6F73AB88700AF71662230AFFD694",
+      "native_nodes_preserved": 5,
+      "verified_boundaries": [
+        0
+      ],
+      "expiry_node": null
+    },
+    {
+      "depot": "base\\quest\\side_quests\\sq030\\phases\\sq030_msg_left_03.questphase",
+      "sha256": "3F68E0B0B2809A6DED8FAF7F1B3AC648AF53B9726AC8E3A1BBEBF8C0FCED6C80",
+      "native_nodes_preserved": 41,
+      "verified_boundaries": [
+        0,
+        2,
+        6,
+        7,
+        19,
+        20,
+        30,
+        31
+      ],
+      "expiry_node": 11
+    }
+  ],
+  "gameplay": "UNTESTED"
+}

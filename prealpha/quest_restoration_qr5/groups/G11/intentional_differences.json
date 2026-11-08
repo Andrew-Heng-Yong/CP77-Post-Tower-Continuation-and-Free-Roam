@@ -1,0 +1,52 @@
+{
+  "existing_adaptations": [
+    {
+      "quest_id": "sts_wat_nid_12",
+      "adaptations": [
+        "U9 additive permission/receipt entry, private credit once guard, focused map controllers",
+        "Original embedded native body externalized with Flags Soft; every other payload field preserved"
+      ],
+      "evidence": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\verification_01\\intentional_differences.json",
+      "new_change": false
+    },
+    {
+      "quest_id": "sts_wat_nid_05",
+      "adaptations": [
+        "U9 additive permission/receipt entry, private credit once guard, focused map controllers",
+        "Original embedded native body externalized with Flags Soft; every other payload field preserved"
+      ],
+      "evidence": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\verification_01\\intentional_differences.json",
+      "new_change": false
+    },
+    {
+      "quest_id": "sts_wat_nid_02",
+      "adaptations": [
+        "U9 additive permission/receipt entry, private credit once guard, focused map controllers",
+        "Original embedded native body externalized with Flags Soft; every other payload field preserved"
+      ],
+      "evidence": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\verification_01\\intentional_differences.json",
+      "new_change": false
+    },
+    {
+      "quest_id": "sts_wat_nid_01",
+      "adaptations": [
+        "U9 additive permission/receipt entry, private credit once guard, focused map controllers",
+        "Original embedded native body externalized with Flags Soft; every other payload field preserved"
+      ],
+      "evidence": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\verification_01\\intentional_differences.json",
+      "new_change": false
+    }
+  ],
+  "native_source_limits": [
+    {
+      "quest_id": "sts_wat_nid_02",
+      "file": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\deep_verification_03\\cross_quest_history_risks.json",
+      "finding": "Original native foreign PAC02 objective Inactive write; terminal target semantics unresolved, no repair approved"
+    },
+    {
+      "quest_id": "sts_wat_nid_05",
+      "finding": "Native IN/OUT and steetstory alias retained"
+    }
+  ],
+  "new_runtime_changes": []
+}

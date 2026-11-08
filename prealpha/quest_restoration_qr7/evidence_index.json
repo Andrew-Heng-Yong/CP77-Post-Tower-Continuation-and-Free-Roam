@@ -1,0 +1,70 @@
+{
+  "epoch": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\source_epoch_04.json",
+    "sha256": "8B0D8249908A9D96CF5564C9581ED466C061350B96A4BEE767D744B01DE28A1F"
+  },
+  "changes": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\approved_changes_03.json",
+    "sha256": "CCC7F777A288E481E8B5D6EF3CDDCFE7E41191BC25C9B7FBBC8B45365A63640C"
+  },
+  "targets": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\target_contracts_00.json",
+    "sha256": "1D3B2F97EC33D06A280989712C9673544DB67DAAC060DC9666C66D8EFA255769"
+  },
+  "dispositions": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\targeted_dispositions.json",
+    "sha256": "D5240715150138B3A27AA2CD34794275AB037A6DE7408FF78DBB8C9469C9B50E"
+  },
+  "matrix": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\contract_status_matrix.json",
+    "sha256": "8276DEEFF390407696E8A8BD71FD8AA3E3800347EF653C214EBA51CEAC77365B"
+  },
+  "shared": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\shared_evidence_registry.json",
+    "sha256": "97C7F8A17C9A590A8EDA82917669F1BD3189BF29DB10E027F9CA03D5E500F163"
+  },
+  "regression": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\regression_evidence.json",
+    "sha256": "8A864ADC01C7E163565C4FB1D682F222502DE48E3423E5A8274E5CDE2F469981"
+  },
+  "ledger": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\defects_and_repairs.json",
+    "sha256": "28DD10855474031DE30AE45B5A2C81C0C6881F987C74D01E399268999EA09DC2"
+  },
+  "blockers": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\remaining_blockers.json",
+    "sha256": "FD136447926F1B15B5B696B3362E73977B83A7DD0917D471CD058101FE5FE5AB"
+  },
+  "final_C_scope": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\final_scope_03\\applicability.json",
+    "sha256": "66D843889D7CAC1845902A0A3549BFE0A66AB7A6D4A75F765D5FDF6488D89B07"
+  },
+  "final_C_checks": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\final_scope_03\\shared_checks_inventory.json",
+    "sha256": "9AF48B07506BA7FB440FC9D761C54C9C3BB86B1A118405653B8B628CF3986863"
+  },
+  "preservation": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\verification\\preservation_01\\result.json",
+    "sha256": "D82614F573343DACBC7698AED16E7B8917E0F638EFDB524DDB92745B7BDB4AE6"
+  },
+  "package": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\candidate_01\\package_manifest.json",
+    "sha256": "98F4D1C1E109846E4D85CF0657A5B835D4542890BE3DE183494A670FD10A2279"
+  },
+  "final_package_review": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_a\\final_package_02\\verification\\evidence.json",
+    "sha256": "F686FF99F4A2FED17828A95506039998FC6B36A200CD1359D51CE0C8324A7C20"
+  },
+  "matrix_review": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\final_matrix_02\\review.json",
+    "sha256": "CAD08C71CCEE7B67364A2C5F028A2C0DDF3C96323BFF4DF1B654D838B4A729AF"
+  },
+  "registration_boundary": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_a\\restore_current_release_01\\evidence.json",
+    "sha256": "5F0026E4A8B37E476A0C0D9BE462B63C9D583521E7D4275EB1EDEFEDE92E03D8"
+  },
+  "historical_matrix_supersession": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\publication_supersession_01\\manifest.json",
+    "sha256": "A5A0B95C4C5DFB0125492A967AE18719E760F3EB0422F0AD0228C373328299CD"
+  }
+}

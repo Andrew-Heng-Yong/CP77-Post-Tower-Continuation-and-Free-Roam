@@ -1,0 +1,17 @@
+# Read-only owner observability
+
+No supported interface inspected in QR10 establishes the full actual engine owner tree. This is an interface/evidence boundary, not a claim that engine internals contain no such information.
+
+| Property | Available evidence | Remaining boundary |
+| --- | --- | --- |
+| Actual private graph activation | ArchiveXL merge records; startup receipt; private/native fact and journal changes; visible behavior | QR8 proved the startup receipt is written after a void dispatch attempt. Neither that receipt nor source presence proves a specific private graph/node is executing. No safe bound Lua active-graph query was established. |
+| Native/private listener ownership | Source-pinned handler graph and cleanup routes; request/ACK facts where watched | NativeProxy cannot register with this QuestsSystem API. A fact getter identifies no writer, listener set or controller instance. No listener-registry enumeration was verified. |
+| Phone request/ACK/cleanup | Existing S01/S02/S04 profiles retain exact native/private signals; `PhoneManager:IsPhoneCallActive()` getter; human audio/UI; native/broader logs | Samples can miss transient ACK/clear. Global phone-active state is not the request queue, dialogue completion or per-controller ownership. No exact native-write ordering is available. |
+| Controller termination/shared leases | Retired/Finished/lease-related signals and native source paths | A retired flag, usable vendor or inactive journal does not prove the old graph, descendants, studio lease or listener has terminated. No verified safe terminating-owner query is exposed by this probe. |
+| Save/reload identity/liveness | User-selected working slot, saved metadata, separate capture segments; observed PlayerPuppet detach; player attached/pregame/entity guards | Entity `1ULL` is not a save ID. A fast reload reusing the entity between checks can escape a sampled guard if detach is not observed. Stop before deliberate load; restart manually after loading. Same receipt values do not prove same executing owner. |
+| Native pending timers | Authored graph waits, source conditions and human elapsed-game-time observations | No current safe getter for the relevant internal wait/remaining delay was established. A binary `GetGameplayTimerData` name is insufficient proof that it enumerates these saved controller waits; not used. |
+| Scriptable-system saved state | Existing HS1 post-ending snapshots and reviewed current REDscript fields | Post-ending fallback is not earned pre-Tower evidence. Fields do not expose native phase identities, pending engine queues or all descendants. |
+
+Inputs: [provenance](provenance.json), QR9 [API surface evidence](../quest_restoration_qr9/worker_b/api_proof_02.json), current installed-hash baseline, local Codeware `scripts/Quest/QuestsSystem.reds` and QR8's exact ArchiveXL receipt/dispatch analysis. Codeware's added `ExecuteNode` is mutating and is excluded. No guessed `GetActiveQuests`, listener enumeration, owner-kill command, fact setter or debug engine attachment is introduced.
+
+QR10 improves **value-change observation**, not writer attribution. Bounded gameplay observations can support a route result while actual graph/lease identity remains INCONCLUSIVE. A future scripted bridge could improve delivery telemetry but would still not identify every graph owner or make callback time equal native-write time.

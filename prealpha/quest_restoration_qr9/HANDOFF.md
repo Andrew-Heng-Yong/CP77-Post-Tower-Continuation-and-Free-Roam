@@ -1,0 +1,19 @@
+# QR9 continuation handoff
+
+State: **offline preparation complete; waiting for explicit deployment authorization and human testing**. Read `readiness.json`, `READINESS.md`, `USER_PROCEDURE.md` and `worker_c/verification_01/FIRST_TEST.md`. Follow root/prealpha AGENTS and the current QR9 request preserved in `REQUEST.md`.
+
+No CUA/GUI automation, simulated input, automatic game launch/closure or gameplay. The user runs the installer, operates CET and plays. No real installer action, including Preflight, has occurred. No selected save was copied or edited. Do not infer deployment authority from the master-save selection.
+
+Canonical core remains QR8:02 at `prealpha/quest_restoration_qr8/candidate_01`: 1,577 payloads/51 paths; only archive+XL differ from installed PH3. Do not rebuild it or repeat QR1–QR8 broad audits. No gameplay repair was implemented here. The separately staged QR9B04 CET observer has two files and remains outside Core51.
+
+Final user installer is `worker_a/deploy_qr9_guarded.ps1`, SHA `CE020172988081100199A35C9FAA9131444DB4DED52893480F2BA746EFFDA39E`; manifests are Core02/Diagnostics01. Use the frozen command contract and readiness evidence, not old script filenames. Original29, C8EE7/actual-payload and finalCE0204 fixture results have explicit source applicability, plus independent C review. Do not rerun them without a changed risk/input. The independent real-state preparation checker passed; it did not invoke the installer. Future user Preflight must recheck then-current state after authorization.
+
+Untouched master: **ManualSave-23, 29 Oct 7:23 PM**, user-confirmed genuine Tower completion. Original SHA pins are in `selected_master.json`. Future authorized Core Install requires `-BackupMaster`; its recovery copy is not yet created. The user alone creates a native New Save working branch after loading23. Never invent a recognized raw-folder clone, overwrite23, reset facts or restore saves automatically. Bootstrap is not disposable-startup proof; later reload is retained-owner evidence.
+
+First manual scenario is S00 only. The guide supplies exact start/stop/collection commands and the short observation to return. Stop before every intentional reload and preserve each segment. The collector's `VALID_CAPTURE` is log integrity, never a gameplay PASS or exact graph trace. Graph/native owner/receipt/clock/queue/save-ID observations remain unsupported. An unconditional plugin receipt proves an attempt, not activation ACK.
+
+Fresh CVI02/Saints/Spy are unavailable on this selected completed-history fixture. Do not repeat successful generic Ana testing as broad proof. Jason03/Symptoms12/Nitro are candidates only until genuine eligibility/ownership is established. Later cards remain unperformed; use genuine independent branches for incompatible histories and long timer cases. QR8's held first Ronald enrollment, five UNKNOWN contracts and inherited opaque/conditional boundaries remain unchanged.
+
+Next action: wait for authorization. Then the user follows `USER_PROCEDURE.md`, verifies the installation/master backup, makes the working branch, performs S00 and returns its observation/log bundle. Analyze exact hashes, capture limits, timestamps, prerequisites and visible behavior before awarding a bounded result or choosing another card. No new source successor/ZIP unless an actual source-confirmed runtime defect warrants a minimal repair with failing-before/passing-after and preservation checks.
+
+Workspace is the existing checkout at `C:\Users\Ayong\Documents\cp77 modding\tower ws`, branch `main`, HEAD `ff336a14675b3385b1a4a6b4a27ce23086b61ce3`. Pre-existing tracked edits remain unchanged; all QR9 additions are under this task directory. No commit, push, release, game launch or thread transfer occurred. Goal status is none. Reply language is English.

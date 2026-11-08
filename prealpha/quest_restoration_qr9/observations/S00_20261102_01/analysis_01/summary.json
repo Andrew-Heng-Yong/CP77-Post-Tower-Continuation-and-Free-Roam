@@ -1,0 +1,36 @@
+{
+  "status": "S00_BOUNDED_VISIBLE_AND_RESOURCE_MERGE_PASS_PRIVATE_OWNER_INCONCLUSIVE",
+  "analyzed_utc": "2026-11-02T16:57:52.581223+00:00",
+  "probe_window_Toronto": {
+    "start": "2026-11-02 11:44:34 EST",
+    "end": "2026-11-02 11:49:34 EST",
+    "reason": "DURATION_LIMIT"
+  },
+  "gig_finished_log_Toronto": "2026-11-02 11:53:34 EST",
+  "manual_stop_command_Toronto": "2026-11-02 11:53:59 EST",
+  "probe_rows": 8,
+  "fact_delivery_rows": 0,
+  "listener_ids_returned": 17,
+  "cleanup_call_failures": 0,
+  "current_scripting_error_candidates": 0,
+  "ArchiveXL_prior_error_or_warning_signatures": [
+    "[error] [ResourceManager] Link \"colioli\\legs\\shorts_panties\\meshes\\l1_shorts_panties_ebbprb.mesh\" is an existing resource.",
+    "[error] [ResourceManager] Link \"colioli\\legs\\shorts_panties\\meshes\\l1_shorts_panties_ebbrb.mesh\" is an existing resource.",
+    "[error] [ResourceManager] Link \"colioli\\torso\\tank_bra\\meshes\\t1_tank_bra_ebbprb.mesh\" is an existing resource.",
+    "[error] [ResourceManager] Link \"colioli\\torso\\tank_bra\\meshes\\t1_tank_bra_ebbrb.mesh\" is an existing resource.",
+    "[warning] [QuestPhase] Phase \"mod\\quest\\newgameplus.quest\" doesn't exist. Skipped.",
+    "[warning] [QuestPhase] Phase \"mod\\quest\\newgameplus_q001.quest\" doesn't exist. Skipped.",
+    "[warning] [QuestPhase] Phase \"mod\\quest\\newgameplus_standalone.quest\" doesn't exist. Skipped."
+  ],
+  "ArchiveXL_new_error_or_warning_signatures": [],
+  "ArchiveXL_message_count": 7,
+  "redscript_compilation": "CURRENT_RUN_LOG_SUCCESS",
+  "collector_dependency_limit": "LizziesBDs.archive exceeds the collector's64MiB bound and is UNAVAILABLE there; separate Core Verify rehashed all six pinned dependencies successfully.",
+  "current_installation": "Core51 and Diagnostics2 VERIFIED_AFTER; master3 and backup exact.",
+  "repair_justified": false,
+  "remaining": [
+    "User confirmation of exact gig and loaded slot",
+    "Private graph/owner/receipt/timer/queue/save identity not observed",
+    "Further cards require genuine eligible fixtures; Ronald contact is Inactive/messages0 in this S00 baseline."
+  ]
+}

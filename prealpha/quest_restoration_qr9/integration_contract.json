@@ -1,0 +1,114 @@
+{
+  "schema": 1,
+  "status": "FROZEN_OFFLINE_VERIFIED_COMMAND_CONTRACT",
+  "unresolved": [],
+  "source_pins": [
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\baseline.json",
+      "sha256": "A630CEBF7E286E880112CB898E12C1541F071E0A9D1C284DC1AE3303908A0060"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\selected_master.json",
+      "sha256": "9B63B9F913F446EBF6C3CB151798E0D38F1A508F33503E03EA6444544144FC55"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\collection_config.json",
+      "sha256": "4302FD2B1DA2E6D495AEDAFAF47A633CAA340F74E78821937E9403B27EEEC07B"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\collect_observation.py",
+      "sha256": "97DA66067CDB3D967111B1094936AA4E826C4C714B94C42D53C7A1DE4B4EFF20"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\collector_test_result.json",
+      "sha256": "64C3925B4CB72A81E75131C49420B38ABFD250E24B4914ADDAAAF731AE85BD7D"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\check_preparation.py",
+      "sha256": "99181754988A76E35861068D10CD539F18A5BF68A96F2250464CD53EC24CD36F"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\preflight_01\\result.json",
+      "sha256": "B63FA6C369EE1D382E7402E833A8AEBE8C7F1E6C6038251C7BF734634DA1F4B4"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\USER_PROCEDURE.md",
+      "sha256": "16EE7F99FB9DD31CEB2FB7BB42D407808505296DC8D9C97B1C09248E91BB150C"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_a\\deploy_qr9_guarded.ps1",
+      "sha256": "CE020172988081100199A35C9FAA9131444DB4DED52893480F2BA746EFFDA39E"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_a\\core_manifest_02.json",
+      "sha256": "06CD479C47E32403371E360092648431EAE1BC93DEE3E61BD6822560133CBCF1"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_a\\diagnostics_manifest_01.json",
+      "sha256": "C41A1547DB7B33F0F97B68ADC7509E937A6487B85D95E34F7AAFBF83991C38E1"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_a\\prepared_01.json",
+      "sha256": "33EFAC9AA011AD112785A04CB1DAA2563857AE7C1445C8CAF46FB0949DC0DB72"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_a\\canonical_promotion_01.json",
+      "sha256": "63A0CED4212F2F8F2A5A09C3BEFF34661C51575EACCE55642D344CBBDDB07C03"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_b\\addon_manifest_04.json",
+      "sha256": "59B3CE96220B807D87AF67B66A47ED02549D66B59A5BEA8F620C2910D55C0580"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_b\\verification_04\\result.json",
+      "sha256": "216F057FFDA9EE70B2A570D21B95A9B22AFB3B63C8A05ACFD3EE0E148E019A9C"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_a\\reviews\\diagnostics_01\\result.json",
+      "sha256": "604A6130FC77C3CF0876125E812A5CE5C53C76B033A418DA77EF9474007C2EAA"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_b\\reviews\\collector_01\\review.json",
+      "sha256": "87F149B1763B44E4876F5659531809CCE620A41B7805B86510B42CABEC8E236E"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_b\\reviews\\preparation_01\\review.json",
+      "sha256": "C0E5ED64CFA35F49D4FAB273293153C89404E8F508421C83FB6FAD402150D9C7"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_c\\reviews\\installer_final_01\\review.json",
+      "sha256": "D5A13B8DF11C4E61F8DA800B6211A671E016F52E541F6A541E53ABDFA9D605A1"
+    }
+  ],
+  "diagnostics": {
+    "start_template": "GetMod(\"PTFR_QR9_Diagnostics\").start(\"{profile}\")",
+    "stop": "GetMod(\"PTFR_QR9_Diagnostics\").stop()",
+    "status": "GetMod(\"PTFR_QR9_Diagnostics\").status()",
+    "mark_template": "GetMod(\"PTFR_QR9_Diagnostics\").mark(\"{label}\")",
+    "duration_seconds": 300,
+    "log_directory": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\plugins\\cyber_engine_tweaks\\mods\\PTFR_QR9_Diagnostics",
+    "collect_command": "& 'C:\\Users\\Ayong\\.local\\bin\\python3.14.exe' -X utf8 -B 'C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\collect_observation.py' --run-id S00_01 --card S00",
+    "collect_command_template": "& 'C:\\Users\\Ayong\\.local\\bin\\python3.14.exe' -X utf8 -B 'C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\collect_observation.py' --run-id {profile}_01 --card {profile}",
+    "coverage_limits": [
+      "Graph/node execution, native owner, numeric ArchiveXL receipt, native clock/queue and save identity NOT_OBSERVED.",
+      "Declared build metadata and current hashes do not prove executed bytes at prior capture time.",
+      "Stop before every deliberate load. Initial bootstrap is not disposable startup; later reload is retained-owner evidence only."
+    ]
+  },
+  "deployment": {
+    "document": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\USER_PROCEDURE.md",
+    "installer": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_a\\deploy_qr9_guarded.ps1",
+    "installer_sha256": "CE020172988081100199A35C9FAA9131444DB4DED52893480F2BA746EFFDA39E",
+    "read_only_preparation_check": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\preflight_01\\result.json",
+    "real_installer_Preflight": "NOT_RUN"
+  },
+  "working_save": {
+    "status": "REVIEWED_USER_OPERATED_PROCEDURE",
+    "recognized_copy_not_assumed": true,
+    "summary": "Future authorized Install -BackupMaster preserves the exact original3files in workspace recovery. The user then loads ManualSave-23 solely to use native Save Game/New Save, identifies the actual new slot and keeps bootstrap separate. No backup or working copy has yet been created; never assume a renamed raw folder is recognized.",
+    "document": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\USER_PROCEDURE.md"
+  },
+  "game_launches": 0,
+  "deployments": 0,
+  "save_or_fact_writes_by_codex": 0
+}

@@ -1,0 +1,736 @@
+{
+  "status": "WORKER_A_STATIC_EVIDENCE_FROZEN_PENDING_INDEPENDENT_PEER",
+  "created_utc": "2026-10-31T20:45:14.746584+00:00",
+  "primary_results": [
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\binary_verification_01\\evidence.json",
+      "sha256": "92815D2D01E68D5ECCB42C2616C1008A8F15FFDED4AF6988F5438A2D7A3B3337",
+      "size": 5533
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\namespace_verification_01\\result.json",
+      "sha256": "BB4CE2E19B6FC044FBBB9FA1A64C02D1571008BCD0ACE65BF8E723C0DEAEBD2A",
+      "size": 2954
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\identifier_algebra_01\\result.json",
+      "sha256": "93361731246CACDD1EC824B2A5E6860C88881A5E0C47EF69C425E8105D297701",
+      "size": 1393
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\replay_01\\result.json",
+      "sha256": "9ED7B0F57DAEF00D0564AF1E81DDA7AE5484566BD33877C0D4C797D0392784E9",
+      "size": 11796
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\engine_observability_review_01\\result.json",
+      "sha256": "B30436BF0F0EFF3071A7515A9CAB7FC4B300D64E4F559BAFB5F91DAB5A4C0C54",
+      "size": 1776
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\ASSESSMENT.md",
+      "sha256": "64973BAE3C31848717DE58EE05C9E263D81FD04D74740C2ACB312BD8CC0E8CF1",
+      "size": 5374
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\DIAGNOSTIC.md",
+      "sha256": "7E50BC5C41DFF534EABAD84F74C43D1CA60688C831FA4BA93C4F1583A16BAD2F",
+      "size": 4114
+    }
+  ],
+  "all_worker_files": [
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\ASSESSMENT.md",
+      "sha256": "64973BAE3C31848717DE58EE05C9E263D81FD04D74740C2ACB312BD8CC0E8CF1",
+      "size": 5374
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\binary_capture_01\\function_000f37e0.asm",
+      "sha256": "7753AD32BFC4F812C588F5C493BE92C74FA4697F47DE0BF553F0E62BAB90CB43",
+      "size": 42710
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\binary_capture_01\\function_000f4de0.asm",
+      "sha256": "1471F2EA57B49E64B15D37C1D9C4AA3F007B43C18CD60C025685A0DBE201BC3F",
+      "size": 307
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\binary_capture_01\\function_000f5f40.asm",
+      "sha256": "8D4C261E1263A28DC2C488750A12CFB6B226CBA020796A422C5518247240A3BF",
+      "size": 8654
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\binary_capture_01\\function_000f6470.asm",
+      "sha256": "3BCB19555CA0B80A65E3975DDACC4B431F05FDB8C13047D78FD087E1D0A87494",
+      "size": 36907
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\binary_capture_01\\function_00115660.asm",
+      "sha256": "0BCDF56946AB2E4149280A2D272882BFB1A50FB8C4B0C47E96155AF1EB8CB143",
+      "size": 307
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\binary_capture_01\\function_001174a0.asm",
+      "sha256": "44367888A06472C2D2B3F5E1B3F50054285F2ABE93715EB5754CFDF0AC3DBB3B",
+      "size": 64151
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\binary_capture_01\\function_00119c20.asm",
+      "sha256": "7B5E72A4C89270CC00955FF092DAB110D4C31C75705BAC3C6E91C8D0BF9C8FA3",
+      "size": 74764
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\binary_capture_01\\function_0011c110.asm",
+      "sha256": "C5F915AC917942BB609886E0795CBA5D11C724099E018946B026D615CDB9A4B3",
+      "size": 56131
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\binary_capture_01\\function_0011d9f0.asm",
+      "sha256": "797C9C88598C7E476AA683E24E70CC1BEC8EFB62A6A7A2CC6E23DBC6E7A9B45F",
+      "size": 74668
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\binary_capture_01\\function_0011eeb0.asm",
+      "sha256": "CA6DA6EFBE7C1244BAC11FD2B21B3FCD9063B5149AD8742B834C6413E7D961E5",
+      "size": 63300
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\binary_capture_01\\function_00120bb0.asm",
+      "sha256": "B9A8B4AB7DCF9709C29F88017CDA4549AEABA9038E030315ED53FD8A8FD1482E",
+      "size": 23579
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\binary_capture_01\\function_0012d2a0.asm",
+      "sha256": "0A1A75854489F784B68AB741665B3ACEDB2A08ABF326360354DBD487AD813B18",
+      "size": 41299
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\binary_capture_01\\function_0012dd80.asm",
+      "sha256": "02C16E05B2B50B856E9AE7494E2812FA6A7C98455021059F90F58E9368CBD166",
+      "size": 307
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\binary_capture_01\\function_0012e450.asm",
+      "sha256": "C549C4CAEA006292E9A8C90C4E21ECBE2A67034509B1A2E3CB352B1344D4A926",
+      "size": 12299
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\binary_capture_01\\function_0012e780.asm",
+      "sha256": "31507382B63B55A5F03328EE2175DF555029DA5004503369F88D49C37303F43F",
+      "size": 130615
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\binary_capture_01\\manifest.json",
+      "sha256": "05368F33BE6330DF359A1B7D71E8116164D26A8A0FD12C7981D33405F3FB3795",
+      "size": 9385
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\binary_verification_01\\checks.json",
+      "sha256": "4E4467487F9FF067E5E40983E1AC928BEE6A6C76E23D266870467E23DA81A4FE",
+      "size": 8632
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\binary_verification_01\\controls.json",
+      "sha256": "4A62737B3DF4A5733375C86A44CAF95BD19356E331318296A121DE9EFF8DCD57",
+      "size": 1220
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\binary_verification_01\\evidence.json",
+      "sha256": "92815D2D01E68D5ECCB42C2616C1008A8F15FFDED4AF6988F5438A2D7A3B3337",
+      "size": 5533
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\capture_namespace.ps1",
+      "sha256": "FD6800313CC9B8ED37A6154738AE0FD4A77583669688A2B7788E365ED6E211DE",
+      "size": 5998
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\capture_streaming_chain.py",
+      "sha256": "C9F9744D0EE9E5AB1B935DDEA82B1315EE0C3BBF625B5D6C8C34D107E94B76CA",
+      "size": 1189
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\capture_targets.py",
+      "sha256": "86E0119B7275560983DFB4979B2D775DE7B47CC9E20D4D6764FC5968CF519951",
+      "size": 2115
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\DIAGNOSTIC.md",
+      "sha256": "7E50BC5C41DFF534EABAD84F74C43D1CA60688C831FA4BA93C4F1583A16BAD2F",
+      "size": 4114
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\engine_observability_review_01\\result.json",
+      "sha256": "B30436BF0F0EFF3071A7515A9CAB7FC4B300D64E4F559BAFB5F91DAB5A4C0C54",
+      "size": 1776
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_0000b540.asm",
+      "sha256": "67AEBCCE18D0960B7AC208DBD423EB8E44743B4603333B3144C4C007D669C110",
+      "size": 48
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_0000c8a0.asm",
+      "sha256": "1B6A926E7EA73A05835A1A4941F04C0C9517A22BC8430395FD5FA8F87D978499",
+      "size": 595
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_00069b40.asm",
+      "sha256": "4AECEC4966ACBE7522F2DD8EF305038136B9721BF1CBF4DD0891E97CE6777931",
+      "size": 243
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_00086c00.asm",
+      "sha256": "6C6277188707C37AA7454ED82916FD57CF9B98191A2A24DA605945B2F1CF3467",
+      "size": 910
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_00086de0.asm",
+      "sha256": "EE55B710166F8938B9537423999B202071DAEC78027B69E20D09EAA6657A1C36",
+      "size": 1944
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_00086e50.asm",
+      "sha256": "44B9142312D6C822A283B6A78D0644CD269EF6E32051FD045121C02358A7EF26",
+      "size": 965
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_00086ed0.asm",
+      "sha256": "2CFF7225D81116FFEFBECA2126D537613451B06A6D004EC2688CA1F136CFCB15",
+      "size": 1944
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_00086f40.asm",
+      "sha256": "20353E1AF9C276D08FE2EB8FE05095C48B357D5FA2EDBAF7B6A987572C87C7EF",
+      "size": 1944
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_000887a0.asm",
+      "sha256": "97056111C5A91869BF1315323EEA9C26A92FC70032B64D610D7C724DC91F2C9E",
+      "size": 13921
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_00089010.asm",
+      "sha256": "4852AB54C4C0686CB5B84B1ED4F858A7C5C6AA385C2B2A55AB0C857FFDFB0A76",
+      "size": 9255
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_00089260.asm",
+      "sha256": "BAB75B4DEEA22F8E8FF6B553BE7716FE1E7C37DE114047CAFE10087080335958",
+      "size": 13778
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_0008be70.asm",
+      "sha256": "2BABDAD3DBAA9B8587174E205D80B97E8134B0C2B4BBBA60B41FF0808FA50FF1",
+      "size": 121
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_0008f530.asm",
+      "sha256": "F46CC6584B3E3C23953066F5EF02DA008E636CB9837A652739F7A3B4991DF65F",
+      "size": 842
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_0008f600.asm",
+      "sha256": "66178901208821C853118194D0AD659B5CF9F7F867168F155F6276BF3E66FDFD",
+      "size": 842
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_0008f630.asm",
+      "sha256": "4BB7860428376BF45B54ECF5FF820CB9F0DB4BD13A1D73ACE846CBC151000CB0",
+      "size": 842
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_000f37e0.asm",
+      "sha256": "7753AD32BFC4F812C588F5C493BE92C74FA4697F47DE0BF553F0E62BAB90CB43",
+      "size": 42710
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_000f4de0.asm",
+      "sha256": "1471F2EA57B49E64B15D37C1D9C4AA3F007B43C18CD60C025685A0DBE201BC3F",
+      "size": 307
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_000f4e00.asm",
+      "sha256": "FC3223A06D2B684B1915571B2C9F55508F838D9449857F5240F73E1F9A7640AC",
+      "size": 979
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_000f4e40.asm",
+      "sha256": "CBD9AAE181F797DF58720756B8BE5448EAB0E6D563DE8D6E59F0BD1FCB6A69DD",
+      "size": 979
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_000f4e80.asm",
+      "sha256": "9AD95447E7C89E7BD1AB78A7FBA513F816E035E84EF9576BA8279FCDECC0EF5D",
+      "size": 468
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_000f4ea0.asm",
+      "sha256": "0EA01BA326BBD33725A1D59182FE2843DA8B82D2A7A979C449A5856F1242A58B",
+      "size": 16971
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_000f5370.asm",
+      "sha256": "EF2859BDC6430283A9B1B4A89405E561456D00C59DA5D70228D728046ECDE83E",
+      "size": 7431
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_000f5550.asm",
+      "sha256": "04E8A500EFE0F5E8FA12EB70B3369B5BF63F54CAABA984C3ACE0FA313A2E5E5A",
+      "size": 7431
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_000f5730.asm",
+      "sha256": "C6E86A4230D35B129E86C7BE353BAC55D8F8F26D4CDAF86D1B321BB915129EAE",
+      "size": 11515
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_000f5a10.asm",
+      "sha256": "53A9B16D984F3C0577060EB058703ADFC43902EF75E1C817BBB11C860036C999",
+      "size": 21833
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_000f5f40.asm",
+      "sha256": "8D4C261E1263A28DC2C488750A12CFB6B226CBA020796A422C5518247240A3BF",
+      "size": 8654
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_000f6160.asm",
+      "sha256": "23F30520F741718AABAFAD5A17E1241E85C3C34BCB1984D12EA4E19C50C8A8A4",
+      "size": 12782
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_000f76f0.asm",
+      "sha256": "18AB756539E3657CBDD4C6A48EE72A8DC85C0B2792FBF748DBF72F5DD93DE23B",
+      "size": 5762
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_000f87e0.asm",
+      "sha256": "F270FB456E624833B7E70DF691F2F57C4748EA0DC005677B6E254BEED88EA58C",
+      "size": 361
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_000f8800.asm",
+      "sha256": "F03E42D60FC7F1B91CFD34852B44BD789D01845EB60E27C31A394C75F3CF55DF",
+      "size": 45552
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_00113b00.asm",
+      "sha256": "4C4989D2BC3239A69FB53EA39882E4576651566ECE420FFAFCEF220529649A1F",
+      "size": 48686
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_00115660.asm",
+      "sha256": "0BCDF56946AB2E4149280A2D272882BFB1A50FB8C4B0C47E96155AF1EB8CB143",
+      "size": 307
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_00116070.asm",
+      "sha256": "027C5207F3CEFCE2F2E5582D06A78F71CE2E81454F1B7B394FCCDCB74993D3F7",
+      "size": 53439
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_00122c80.asm",
+      "sha256": "A16855DF6ABA8FA55FD0E9B32E825CC6AB429F565ECE8A196D867A67BD3627E0",
+      "size": 20145
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_00123b70.asm",
+      "sha256": "CB145D33C9ADA15DEFF60A4B91B75E27FAE5569C2550676DEFC3B5072D530373",
+      "size": 305
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_00123bb0.asm",
+      "sha256": "18BCC874E1818C41BA49CC9738FE7FD1788BA231EDE3E24C94348FEE686E8968",
+      "size": 9832
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_001242c0.asm",
+      "sha256": "BA6C4013ADE8A0F7DA662A97413056184DAC16CBC22C128DFF9DEC164B46A96C",
+      "size": 3964
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_0012d2a0.asm",
+      "sha256": "0A1A75854489F784B68AB741665B3ACEDB2A08ABF326360354DBD487AD813B18",
+      "size": 41299
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_0012dd80.asm",
+      "sha256": "02C16E05B2B50B856E9AE7494E2812FA6A7C98455021059F90F58E9368CBD166",
+      "size": 307
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_0012dde0.asm",
+      "sha256": "AB84C3413FE7242AB103D42465E78B7F5846CB41225FC7BE47680A5CBC14C535",
+      "size": 20749
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_00130a00.asm",
+      "sha256": "42894EA2C605EEADE761D70AF9F898B00FFBA1D14D10C84BA529758F95F1823E",
+      "size": 418
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_00130ac0.asm",
+      "sha256": "B2AF57014BEB94DFD9B771CAE2F1E9B40E7BBE1065AD385DDEF1509373579704",
+      "size": 3964
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\function_0015d370.asm",
+      "sha256": "C342A42818104FE6884D2CE7468CB20331021BEC15ACAEC5B6FB44F6A1CD5D6C",
+      "size": 72
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\extension_tables_01\\manifest.json",
+      "sha256": "AD79F996539BB74A5613BF57A74FAB1B5AC01A6B3762D404C531AB8425726EC6",
+      "size": 21372
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\freeze_evidence.py",
+      "sha256": "F98E60396E53093BE0DDD473B6C15E0F39D414187D26162DE7D008141B6FDF0C",
+      "size": 2529
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\identifier_algebra_01\\result.json",
+      "sha256": "93361731246CACDD1EC824B2A5E6860C88881A5E0C47EF69C425E8105D297701",
+      "size": 1393
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\inspect_archivexl.py",
+      "sha256": "9838561B302A93FEC0A3D95FDB397B4DF925BF6CC157049F80FB91D7ADDF8AEE",
+      "size": 5320
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\integration_capture_01\\axl_000f3fe0.asm",
+      "sha256": "2A50A6BA0B74385ED3C8F76DADBD405AC5CB4BF850876F9D6DF5AE61E04CC172",
+      "size": 57664
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\integration_capture_01\\axl_000f4de0.asm",
+      "sha256": "1471F2EA57B49E64B15D37C1D9C4AA3F007B43C18CD60C025685A0DBE201BC3F",
+      "size": 307
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\integration_capture_01\\axl_000f4e80.asm",
+      "sha256": "9AD95447E7C89E7BD1AB78A7FBA513F816E035E84EF9576BA8279FCDECC0EF5D",
+      "size": 468
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\integration_capture_01\\axl_000f4ea0.asm",
+      "sha256": "0EA01BA326BBD33725A1D59182FE2843DA8B82D2A7A979C449A5856F1242A58B",
+      "size": 16971
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\integration_capture_01\\axl_000f5a10.asm",
+      "sha256": "53A9B16D984F3C0577060EB058703ADFC43902EF75E1C817BBB11C860036C999",
+      "size": 21833
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\integration_capture_01\\axl_000f6160.asm",
+      "sha256": "23F30520F741718AABAFAD5A17E1241E85C3C34BCB1984D12EA4E19C50C8A8A4",
+      "size": 12782
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\integration_capture_01\\axl_000f6470.asm",
+      "sha256": "3BCB19555CA0B80A65E3975DDACC4B431F05FDB8C13047D78FD087E1D0A87494",
+      "size": 36907
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\integration_capture_01\\axl_00114920.asm",
+      "sha256": "1F746D771573C2461597939E569AD6D02FE7D9F86A464E10AC38023F25C7F666",
+      "size": 11708
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\integration_capture_01\\axl_00115680.asm",
+      "sha256": "DCECE6890C721AD01FAB70869DA8E676AA04D4F51E5CC086A9108E49C84C468A",
+      "size": 2907
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\integration_capture_01\\axl_00120bb0.asm",
+      "sha256": "B9A8B4AB7DCF9709C29F88017CDA4549AEABA9038E030315ED53FD8A8FD1482E",
+      "size": 23579
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\integration_capture_01\\axl_00130a00.asm",
+      "sha256": "42EA1153978A28AA37AE5CA25570FBA67A5A6F027E079FB469DAD69CB14A168B",
+      "size": 3335
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\integration_capture_01\\red4ext_00008ed0.asm",
+      "sha256": "41440E93AB266A0CED2061569DCEA3244CA934D6B765B09FAB4180CB9C721305",
+      "size": 191
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\integration_capture_02\\axl_000f42b0.asm",
+      "sha256": "5854F5AA9AB22B5CA2A7E5A7F716BAB68400CBF81680E730E3CCA91EB677D254",
+      "size": 29020
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\integration_capture_02\\axl_000f4a90.asm",
+      "sha256": "CDBE8EF67B25421157315CCDE0AFD12DE64C89DDEDE82A8D10689381CEF6943D",
+      "size": 13570
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\integration_capture_02\\axl_000f4de0.asm",
+      "sha256": "1471F2EA57B49E64B15D37C1D9C4AA3F007B43C18CD60C025685A0DBE201BC3F",
+      "size": 307
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\integration_capture_02\\axl_000f4e00.asm",
+      "sha256": "FC3223A06D2B684B1915571B2C9F55508F838D9449857F5240F73E1F9A7640AC",
+      "size": 979
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\integration_capture_02\\axl_000f4e40.asm",
+      "sha256": "CBD9AAE181F797DF58720756B8BE5448EAB0E6D563DE8D6E59F0BD1FCB6A69DD",
+      "size": 979
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\integration_capture_02\\axl_000f4e80.asm",
+      "sha256": "9AD95447E7C89E7BD1AB78A7FBA513F816E035E84EF9576BA8279FCDECC0EF5D",
+      "size": 468
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\integration_capture_02\\axl_000f4ea0.asm",
+      "sha256": "0EA01BA326BBD33725A1D59182FE2843DA8B82D2A7A979C449A5856F1242A58B",
+      "size": 16971
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\integration_capture_02\\axl_000f5a10.asm",
+      "sha256": "53A9B16D984F3C0577060EB058703ADFC43902EF75E1C817BBB11C860036C999",
+      "size": 21833
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\integration_capture_02\\axl_000f6160.asm",
+      "sha256": "23F30520F741718AABAFAD5A17E1241E85C3C34BCB1984D12EA4E19C50C8A8A4",
+      "size": 12782
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\integration_capture_02\\axl_000f6470.asm",
+      "sha256": "3BCB19555CA0B80A65E3975DDACC4B431F05FDB8C13047D78FD087E1D0A87494",
+      "size": 36907
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\integration_capture_02\\axl_000f6dd0.asm",
+      "sha256": "87105B4E4FA6240E50DE113323D701BE851E0B5896626B85201EDF48C96DEA13",
+      "size": 11759
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\integration_capture_02\\axl_00115680.asm",
+      "sha256": "DCECE6890C721AD01FAB70869DA8E676AA04D4F51E5CC086A9108E49C84C468A",
+      "size": 2907
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\integration_capture_02\\axl_00120bb0.asm",
+      "sha256": "B9A8B4AB7DCF9709C29F88017CDA4549AEABA9038E030315ED53FD8A8FD1482E",
+      "size": 23579
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\integration_capture_02\\axl_00122630.asm",
+      "sha256": "0E9FD1D7649DC61B7B86BFBD7D4F83AE2AE95711E62D1C0C6603ABB7D4132E0D",
+      "size": 3172
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\integration_capture_02\\axl_00130a00.asm",
+      "sha256": "42EA1153978A28AA37AE5CA25570FBA67A5A6F027E079FB469DAD69CB14A168B",
+      "size": 3335
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\integration_capture_02\\manifest.json",
+      "sha256": "A22D4991F766717739FFDE4F28594F0B4CE205E51E0EB28B45A47C54A693F6AD",
+      "size": 7528
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\integration_capture_02\\red4ext_000056e0.asm",
+      "sha256": "C55D4A13882D6B7A455C3F271B22A49CF19E40F99966668C930CBDD5506578DE",
+      "size": 7766
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\integration_capture_02\\red4ext_00008ed0.asm",
+      "sha256": "41440E93AB266A0CED2061569DCEA3244CA934D6B765B09FAB4180CB9C721305",
+      "size": 191
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\namespace_capture_01\\manifest.json",
+      "sha256": "6BBA2A228F4CD1D4D91ADA21458913E6AC9448388AE24C89AE566A8E1A4831A5",
+      "size": 20318768
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\namespace_capture_01\\provider_0.quest",
+      "sha256": "A7021A4BF056C48DBDDE4C526E5C6462E7F71B5307861875000B100598048632",
+      "size": 3388
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\namespace_capture_01\\provider_0.quest.json",
+      "sha256": "20510DCD1FCF4834E5248A96C7EB524D5A87A8B45EA26D6BF4797C4E4BB47493",
+      "size": 13381
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\namespace_capture_01\\provider_1.questphase",
+      "sha256": "86C436F556A5BDBAB8851ED3EC6688BBA6728C7001A17A4F6E24F192CF82E26E",
+      "size": 44126
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\namespace_capture_01\\provider_1.questphase.json",
+      "sha256": "086EAC52452086805F22F208AE98C4E33968E59B5AF59BB019D228C0FA5338BD",
+      "size": 398775
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\namespace_capture_01\\provider_2.streamingblock",
+      "sha256": "5C6D82492BAEB83CCD27ED4D1C4573770C8AC38B621941CB56CCF82594DDFAC4",
+      "size": 1211
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\namespace_capture_01\\provider_2.streamingblock.json",
+      "sha256": "D4E1CC8CA0D8D38BF445FB03C6C9E29C573748D08AB32952455AB1EA358F1B94",
+      "size": 1872
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\namespace_capture_01\\provider_3.streamingsector",
+      "sha256": "E108497953E2444767DE3664944469B2679020E840BEB2D4A345FBD08807F7D9",
+      "size": 1774
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\namespace_capture_01\\provider_3.streamingsector.json",
+      "sha256": "9900AF1112B7FAD8D4DF545C5ABF124143F196F0EB03FBDA7F844D7531ED46F1",
+      "size": 10095
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\namespace_verification_01\\checks.json",
+      "sha256": "F09B12945C06140C06089969F288DD85A16B3538F4E0258BA68B0DE9691895BB",
+      "size": 143005
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\namespace_verification_01\\classification.json",
+      "sha256": "B837C920E724521F1975E8E72CD77E21503826BE438E76D9EC651EF0A28E9D3D",
+      "size": 17207
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\namespace_verification_01\\registration_inventory.json",
+      "sha256": "FCE9B0571119D8F39E314C1947BC2B037F0DA82288E4610CF5C18ED6F0440C4E",
+      "size": 804247
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\namespace_verification_01\\result.json",
+      "sha256": "BB4CE2E19B6FC044FBBB9FA1A64C02D1571008BCD0ACE65BF8E723C0DEAEBD2A",
+      "size": 2954
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\namespace_verification_01\\unsupported.json",
+      "sha256": "4F53CDA18C2BAA0C0354BB5F9A3ECBE5ED12AB4D8E11BA873C2F11161202B945",
+      "size": 2
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\receipt_key.py",
+      "sha256": "FD53929733C37669C542C1B4907A96EBD22B7A8C6B9DC8B848904DDA1652F0C5",
+      "size": 1121
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\recheck_binary.py",
+      "sha256": "0127DD767EE35C71865F022C5237688A6881083804CAF97A39E5294453F4A000",
+      "size": 1416
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\replay_01\\result.json",
+      "sha256": "9ED7B0F57DAEF00D0564AF1E81DDA7AE5484566BD33877C0D4C797D0392784E9",
+      "size": 11796
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\source_v1_28_0\\AddressLibrary.hpp",
+      "sha256": "E9959266F0471708B9287BE577511B46380A37F4433F2100A96372C31A1968EE",
+      "size": 9185
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\source_v1_28_0\\QuestLoader.hpp",
+      "sha256": "C6C2D6B818CFAC58EF412FF593024B335AFBC6518CB09B4B9317B74D8BEC43D8",
+      "size": 326
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\source_v1_28_0\\QuestPhaseConfig.cpp",
+      "sha256": "A2DB0A53BA0A1E4A72E4FD2559408A5B6330C3269298AC1D6E2E13CEBCA7BC1F",
+      "size": 2045
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\source_v1_28_0\\QuestPhaseExtension.cpp",
+      "sha256": "1D96F95FC322EBAA445F69998FA94929AB3F4A9A66132F24046040C71BE09F3A",
+      "size": 13168
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\source_v1_28_0\\QuestPhaseExtension.hpp",
+      "sha256": "2AB43A3F76483B615B0B48DF0AAEA03CDE840675D7164F4A0D100A25B025FB35",
+      "size": 2533
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\source_v1_28_0\\QuestsSystem.hpp",
+      "sha256": "F31327FDF8F23CBC8AD2F7E85257CCDD493A61AF063A3019C2AE61CA9EF3FF42",
+      "size": 5241
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\source_v1_28_0\\ResourcePatchExtension.cpp",
+      "sha256": "6D80C4176B12AE67F7C244DA1037875E605A95545F2CACF9B34E391264BFE540",
+      "size": 59503
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\source_v1_28_0\\StreamingWorld.hpp",
+      "sha256": "585D58A6488C03C96928A7F25242139F571C65393B52BB386CD157BDC232244E",
+      "size": 772
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\source_v1_28_0\\WorldStreamingConfig.cpp",
+      "sha256": "49FCEC13341C13695D54DEF5A4A189394AE355539CDE8DCCD6465B248D25590C",
+      "size": 20515
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\source_v1_28_0\\WorldStreamingExtension.cpp",
+      "sha256": "7420DF6E9D10815E343795EFF0B2AF349DC73382DAAA99FA4F8B8BC52CA8946D",
+      "size": 26695
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\streaming_chain_01\\function_0010a570.asm",
+      "sha256": "7CA64C4969CF97F40025377D2DC872A4B26CB028B64DD7AC701E63DE91C90A83",
+      "size": 15357
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\streaming_chain_01\\function_00120430.asm",
+      "sha256": "D9BB694DBD7A5B73569465192FFF76779D0D683F69E8D462062AA47D688E636B",
+      "size": 13916
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\streaming_chain_01\\function_00122440.asm",
+      "sha256": "C48835E876F66453A45C35001D543239804507C76B66026D1268628DF3937F81",
+      "size": 8892
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\streaming_chain_01\\function_00122630.asm",
+      "sha256": "0E9FD1D7649DC61B7B86BFBD7D4F83AE2AE95711E62D1C0C6603ABB7D4132E0D",
+      "size": 3172
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\streaming_chain_01\\manifest.json",
+      "sha256": "530F939127E78A6ECDFBFEF1E4151B841AB9E521BAF80E52ACD6F57F056FE04B",
+      "size": 1745
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\trace_extension_tables.py",
+      "sha256": "A8C968154723B8A33F6643BEECAFB2806176496FEF9E7058F06AA3B6F3C2E283",
+      "size": 1560
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\verify_binary_contract.py",
+      "sha256": "0DDB19AED14BB85AA7EEF1C166DEE417DCF14C73A951F59CB5DD3E1E14635E4D",
+      "size": 10153
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\verify_identifier_algebra.py",
+      "sha256": "1FB09504B03681AB69814502DCEC0F19118EE52BF7FAD6B64E79573C652F48D1",
+      "size": 2525
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\verify_namespace.py",
+      "sha256": "BAB12404CFB059F03B20A38C2C81CF5BAA5974C3ED8037750AEA5A8949DB613A",
+      "size": 9440
+    }
+  ],
+  "prior_evidence_modified": false,
+  "candidate_runtime_game_save_writes": 0,
+  "source_epoch": "QR8:00=QR7:04"
+}

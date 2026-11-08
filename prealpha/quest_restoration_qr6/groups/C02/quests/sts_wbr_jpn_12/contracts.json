@@ -1,0 +1,189 @@
+{
+  "quest_id": "sts_wbr_jpn_12",
+  "title": "Greed Never Pays",
+  "source_epoch": "QR5:08 = QR6:00 frozen source bytes",
+  "status": "DEEP_SOURCE_INVESTIGATED_WITH_SPECIFIC_LIMITS",
+  "fully_static_verified": false,
+  "effective_resource": "towercontinued\\gigs_u10\\native\\sts_wbr_jpn_12_entry.questphase",
+  "effective_resource_sha256": "8B2CD8685FB7AD3D47C1467FB90C40AE5623812DF0A4B7DE2CD00879DC07893F",
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Native Japantown nested2→deletion71→tier69(sts_wbr_jpn_tier_1_2>0) OR70(AND tier_1_1=0,tier_1>0) through XOR68→57.Active→Started65004→body13.In1 is exact. U10 once claim/recheck and existing Tygerclaws support receipts precede native body admission."
+      ],
+      "remaining": [
+        "Native entry predicates and exact wrapper are statically proved; runtime registration/streaming timing is not gameplay proof."
+      ],
+      "approved_differences": [
+        "Existing approved genuine-Tower private U10 fresh rehost, explicit once receipts and conservative eligibility. Psychofan only additionally uses the reviewed R4 adapter; no new QR6 behavior change."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_jpn_12\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_jpn_12\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\quests\\sts_wbr_jpn_12\\mechanisms.json"
+      ]
+    },
+    "eligibility": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Fourteen Inactive journal states, 43 fact conjuncts and held Items.sts_wbr_jpn_12_corpo_cracker=0 preserve both locations and all original optional progress. Existing U9 global/Tygerclaws Issued1/Fault0 support is required; the request helper does not invent eligibility or reset chase queues."
+      ],
+      "remaining": [
+        "Current finite guards preserve the named native beginnings; unobserved external/saved-owner state and live admission timing remain conditional. Exact omitted native fact/journal census is retained in evidence.json."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_jpn_12\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_jpn_12\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\quests\\sts_wbr_jpn_12\\mechanisms.json"
+      ]
+    },
+    "communications": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Five actual Wakako prebrief/debrief Start0 request producers retain real listener/ACK/wait/clear paths and native retry/rejection/SMS behavior. Both location phases preserve their actual phone callback writers and native outcomes, separately from Tygerclaws retaliation services."
+      ],
+      "remaining": [
+        "Real request/listener/ACK/wait/clear authoring is proved; actual scheduling, actor acquisition, interruption and reload delivery remain live-dependent."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_jpn_12\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_jpn_12\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\quests\\sts_wbr_jpn_12\\mechanisms.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Private64000 retains original LOOP root/3:12 parallel prestate. Main owns both first-location and second-location phases; native main21 waits jpn_12_second_location_active>0 before16.In1. Existing Tygerclaws support is requested and reused under U9; no duplicate global gang controller is booted."
+      ],
+      "remaining": [
+        "Exact selected original parent/companion scopes are traced; arbitrary old executing saved owners and native global bugfix controller states are not certified by zero scalar facts or presence."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_jpn_12\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_jpn_12\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\quests\\sts_wbr_jpn_12\\mechanisms.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "First OW root/4 retains start94 and first-stage finished93; main21 gates second location. Second OW root/4 retains start46, finished47→overall jpn_12_finished54. Optional scanned movable-object127 and nested optional code13 remain exact. Native two-location actor, loot and escape branches are unchanged."
+      ],
+      "remaining": [],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_jpn_12\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_jpn_12\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\quests\\sts_wbr_jpn_12\\mechanisms.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Original apartment/second-location communities, movable object, corpo-cracker item, markers, authored scenes, workspots and root/nested prefab scopes are listed with exact owners. No unfiltered private location controller was added; presence alone does not certify world streaming or actor acquisition."
+      ],
+      "remaining": [
+        "DynamicBaseClass/worldNode streaming placement, effective spawned actor acquisition, animation/workspot/camera execution and JV1 timing are not certified by preserved binding literals."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_jpn_12\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_jpn_12\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\quests\\sts_wbr_jpn_12\\mechanisms.json"
+      ]
+    },
+    "journal": {
+      "status": "PASS",
+      "proven": [
+        "Fourteen initial quest/phase/objective guards protect both locations and optional code/search paths. All native objective/mappin state-change sockets, first-stage and second-stage completion and full overall finished route are retained rather than inferred from first-location success."
+      ],
+      "remaining": [],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_jpn_12\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_jpn_12\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\quests\\sts_wbr_jpn_12\\mechanisms.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Second OW root/5 retains native scene30.End1 or SMS44→reward15 QuestRewards.sts_wbr_jpn_12_completion→18 and achievement33. Native LOOP wbr counter and once private credit remain distinct from first-location finished93 and overall finished54. Original Tygerclaws queue producer/cleanup is retained."
+      ],
+      "remaining": [
+        "Native reward/cleanup authoring and once gates are proved; effective merged TDB definitions, atomic engine rewards, pending old owners and cleanup/reload behavior need separate evidence."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_jpn_12\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_jpn_12\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\quests\\sts_wbr_jpn_12\\mechanisms.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Stable U10/LOOP prestate/credit/map and native two-location IDs remain exact QR5 bytes. First-stage progress, cracker ownership, prior choices and pending gang queues are not cleared. Current producer requires consecutive equal observations and does not restart issued owners."
+      ],
+      "remaining": [
+        "No save-transition fixtures were executed; source identity preservation does not prove arbitrary future-version saved-owner compatibility."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_jpn_12\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_jpn_12\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\quests\\sts_wbr_jpn_12\\mechanisms.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Current Wakako initializer97/cleanup355, native LOOP prestate12, U9 Tygerclaws request-only helper/retaliation owner and PH3 studio support are individually pinned. Dependency receipts do not substitute for native ACKs, actor leases, reward collection or saved-owner proof."
+      ],
+      "remaining": [
+        "Original exact bindings and shared byte applicability are proved; external world marker acquisition, all effective record override winners and live shared-owner leases remain conditional."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_jpn_12\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_jpn_12\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\quests\\sts_wbr_jpn_12\\mechanisms.json"
+      ]
+    }
+  }
+}

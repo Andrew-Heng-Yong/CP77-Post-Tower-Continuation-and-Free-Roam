@@ -1,0 +1,55 @@
+{
+  "status": "FROZEN_ADDON_AND_OFFLINE_RESULTS_WITH_PEER_REVIEW",
+  "version": "QR9B04",
+  "files": [
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_b\\addon_manifest_04.json",
+      "sha256": "59B3CE96220B807D87AF67B66A47ED02549D66B59A5BEA8F620C2910D55C0580"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_b\\api_proof_02.json",
+      "sha256": "8B0FAB72B0AFAFF4D0B312C866ABB0E4AA603914D2BB1E608A2F2EA6EE13C3B1"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_b\\signal_catalog.json",
+      "sha256": "9627AC1F779B925431F405379911B6AD2C003DCEBB9C89D8FB7BF6254EA93C91"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_b\\capabilities.json",
+      "sha256": "B5800E386923D69A9A973ED4ED77DF01C12184052EF7AF52C929AD2626E20C27"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_b\\log_schema.json",
+      "sha256": "19BEAF8CF546C5C5B3CDA87A55AF2630E4A9912E97FEE734FBEB2847F5BF2AF8"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_b\\README.md",
+      "sha256": "E11FDF1B3470B73C6B48B60D12943C91696526E616089E5D4B4E8BD90DBDD50D"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_b\\verification_04\\result.json",
+      "sha256": "216F057FFDA9EE70B2A570D21B95A9B22AFB3B63C8A05ACFD3EE0E148E019A9C"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_b\\tooling_provenance_01\\manifest.json",
+      "sha256": "63949E0EA938E23605CE1F5F46DE78295F7E605D6AB58947C86E667B42256CD5"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_b\\test_offline.py",
+      "sha256": "54716F77D0384D26FA4FE1161FD1DEDB3DA8E7378BA792F145024B683BCE5043"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_b\\reviews\\collector_01\\review.json",
+      "sha256": "87F149B1763B44E4876F5659531809CCE620A41B7805B86510B42CABEC8E236E"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_a\\reviews\\diagnostics_01\\result.json",
+      "sha256": "604A6130FC77C3CF0876125E812A5CE5C53C76B033A418DA77EF9474007C2EAA"
+    }
+  ],
+  "actual_game_calls": 0,
+  "actual_deployments": 0,
+  "core_runtime_resources_changed": 0,
+  "selected_addon_manifest": "addon_manifest_04.json",
+  "earlier_prototypes": "snapshots/prototype_01..03 and earlier manifests/tests preserved; not deployment inputs."
+}

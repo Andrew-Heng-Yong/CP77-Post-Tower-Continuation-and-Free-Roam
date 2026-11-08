@@ -1,0 +1,322 @@
+{
+  "schema": 1,
+  "status": "QR8_COMPLETE_STATIC_INTEGRATION_WITH_LIMITED_CONTROLLED_TEST_READINESS",
+  "completed_utc": "2026-10-31T21:39:18.329575+00:00",
+  "objective": "One source-confirmed four-guard repair implemented and independently packaged; installedDLL methods directly matched; remaining actionable boundaries investigated and controlled tests prepared.",
+  "technical_readiness": "CONDITIONALLY_READY_FOR_DISPOSABLE_CONTROLLED_TESTS",
+  "general_release_readiness": "BLOCKED_NOT_RUNTIME_QUALIFIED",
+  "canonical_epoch": {
+    "key": "QR8:02",
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\source_epoch_02.json",
+    "sha256": "F42680E09E2B61BC926798DD5FA5B4E728CB20057382591D5BD5353B197FC38F"
+  },
+  "candidate": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\candidate_01",
+  "selected_quests": 161,
+  "retained_deep_investigations": 161,
+  "new_broad_census_or_deep_audits": 0,
+  "contracts": 1610,
+  "targeted_contract_updates": 18,
+  "original_parent_status_counts": {
+    "APPROVED_DEVIATION": 177,
+    "PASS": 349,
+    "CONDITIONAL": 917,
+    "OPAQUE": 162,
+    "UNKNOWN": 5
+  },
+  "final_parent_status_counts": {
+    "APPROVED_DEVIATION": 177,
+    "PASS": 349,
+    "CONDITIONAL": 917,
+    "OPAQUE": 162,
+    "UNKNOWN": 5
+  },
+  "parent_status_changes": 0,
+  "fully_static_verified_quests": 0,
+  "remaining_quest_UNKNOWN_contracts": [
+    {
+      "quest_id": "sts_std_rcr_02",
+      "stage": "shared_dependencies"
+    },
+    {
+      "quest_id": "q304_splinter_stash",
+      "stage": "eligibility"
+    },
+    {
+      "quest_id": "q304_splinter_stash",
+      "stage": "completion_rewards_cleanup"
+    },
+    {
+      "quest_id": "q304_splinter_stash",
+      "stage": "persistence"
+    },
+    {
+      "quest_id": "mws_wat_08_trauma_drama",
+      "stage": "persistence"
+    }
+  ],
+  "held_first_enrollment_FAIL_subroutes": 8,
+  "held_first_enrollment_unique_scope_families": 1,
+  "status_scope_rule": "The eight parent records are CONDITIONAL strictly for genuine existing-contact prospective news. First-enrollment/menu/physical-owner subroutes are explicitly FAIL/held; zero parent FAIL is not zero known scope gaps.",
+  "prior_plugin_source_inference_UNKNOWN": "RESOLVED_FOR_INDEPENDENTLY_INSPECTED_INSTALLED_DLL_METHODS",
+  "engine_boundary": "Actual address resolution/hook installation, native dispatch success, receipt/save serialization, PIP leases and saved condition refresh remain LIVE_ONLY; receipt is attempt bookkeeping, not ACK.",
+  "new_staged_repairs": 1,
+  "previous_staged_repairs_or_containments": 11,
+  "cumulative_staged_interventions": 12,
+  "changed_existing_resources_vs_QR7": 1,
+  "added_resources": 0,
+  "unchanged_payloads_vs_QR7": 1576,
+  "source_payloads": 1577,
+  "package_paths": 51,
+  "changed_package_paths_vs_QR7": [
+    "archive/pc/mod/zzzz_PTFR_Combined.archive"
+  ],
+  "future_replacement_paths_vs_installed_PH3": [
+    "archive/pc/mod/zzzz_PTFR_Combined.archive",
+    "archive/pc/mod/zzzz_PTFR_Combined.archive.xl"
+  ],
+  "archive_sha256": "2AB35CC95931CD3C7BB2FB3A4C8B52746DE7847D42AE1DD3503A90A965FD2039",
+  "xl_sha256": "F22693981B0A10DB21B47AFAD7FC8BCAEF1F021D9EA99548BA4FF80F56D18245",
+  "zip": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\candidate_01\\PTFR_QR8_Staged_NotInstalled.zip",
+  "zip_sha256": "A8EDD59A9D69EFB34D6B98CD558B7EECC58C7F5AA9CEDE00302B5F9ACCE978DA",
+  "final_package_review": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\final_package_01\\verification\\result.json",
+    "sha256": "783639D1F515016F7D7CF2AAD03AC6F18E5039D13108B35A00197C68C0668CA7"
+  },
+  "final_completeness_review": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_b\\reviews\\final_publication\\verification_03\\review.json",
+    "sha256": "9C0B559F5A6AA5A4E77482E0D46A4359FD3885818B151C1A941405D2F5D2C009",
+    "assertion_events": 13654,
+    "reviewed_input_pins": 3517
+  },
+  "adversarial_publication_review": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_b\\reviews\\final_publication\\adversarial_01\\review.json",
+    "sha256": "E40CE3D76CF5028531DC27404EFFFDAC9720D9B431B746C26C09DADF1C86EC62",
+    "manual_dispositions": 14,
+    "reviewed_input_pins": 21
+  },
+  "post_review_unique_current_SHA_pins_reverified": 3519,
+  "acceptance_review": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_c\\reviews\\acceptance_03\\review.json",
+    "sha256": "D6FDF74579A7A82B97E934967D5406989D6681F81175B33459E20D047F36C8CA"
+  },
+  "tests_prepared": 9,
+  "tests_executed": 0,
+  "compile_reuse": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\verification\\compile_successor_01\\result.json",
+    "sha256": "DC4DD6214782A6504A422145F1F17C75691B3095A265EF8166E652B6E1BB7513"
+  },
+  "fresh_QR8_SCC_invocations": 0,
+  "preservation": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\verification\\preservation_01\\result.json",
+    "sha256": "7B566E2E9183087E7F677EEE5A65919D8361777C30D645B170A5B66BBCA3DBBA"
+  },
+  "preservation_scope": {
+    "protected_sha256_files": 19824,
+    "whole_game_metadata_files": 856,
+    "whole_save_metadata_files": 307,
+    "protected_hash_differences": 0,
+    "game_metadata_differences": 0,
+    "save_metadata_differences": 0,
+    "current_compile_input_pins_rechecked": 134,
+    "tracked_diff_unchanged": true,
+    "scope": "All named protected files byte-hashed, complete game/save filenames+sizes+mtimes compared; not a SHA of every unlisted multi-GB game file. Current-session baseline preserves external changes already present before QR8."
+  },
+  "artifacts": {
+    "REQUEST.md": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\REQUEST.md",
+      "sha256": "57A9234489A09720927FB77580A29F5E47054AD435368C1CC2254A9141FDC6C5"
+    },
+    "sentinel.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\sentinel.json",
+      "sha256": "FC04B7D09BE95B0AD0DE4A79F1FF90D251078295CAFCC1947AC7D4F29D3B675E"
+    },
+    "source_epoch_00.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\source_epoch_00.json",
+      "sha256": "F2D9F3A757C27CCE36D761C0E4D25774EA8C15FEC6C5C6B32374DDB726AF3DDA"
+    },
+    "source_epoch_01.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\source_epoch_01.json",
+      "sha256": "7018EA511164F32EC608FEDBE005184AD851378B8D8FF5B1C1942556F353A4FF"
+    },
+    "source_epoch_02.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\source_epoch_02.json",
+      "sha256": "F42680E09E2B61BC926798DD5FA5B4E728CB20057382591D5BD5353B197FC38F"
+    },
+    "approved_changes_01.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\approved_changes_01.json",
+      "sha256": "3FFDE985D36AA1A266157CA73631D349B099B330EAF447546D3DA603FB7D25D8"
+    },
+    "queue.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\queue.json",
+      "sha256": "6C53DB3F6442F56A667FFD1D0C39A5C9F0A9C72E8EF794CF872AE8FB6079E039"
+    },
+    "coverage.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\coverage.json",
+      "sha256": "E71ECB06401A3D8698C13ED6B857880A900F416FAED75D9EA4863C36A41547CA"
+    },
+    "contract_status_matrix.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\contract_status_matrix.json",
+      "sha256": "922E824F395B95BD94384840E0FC043DDC203E69A3A637E40D4F7A113FC9B2EA"
+    },
+    "contract_status_matrix.csv": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\contract_status_matrix.csv",
+      "sha256": "B19A75318BC2090727DF6CDCFCBE639AF4BAF23EF163D7C5F3F7C9B4287EFE05"
+    },
+    "quest_status_matrix.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\quest_status_matrix.json",
+      "sha256": "8BBEF0BA33A0B1ABF499F2AB2A8BBFFE9BD0BA804B1C0A04050CDA7E43E49992"
+    },
+    "quest_status_matrix.csv": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\quest_status_matrix.csv",
+      "sha256": "AF51026CEBBEA14B5435EE9A6CF45CA744B2BCF02C08ED0F176B310EDE201E91"
+    },
+    "contract_comparison.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\contract_comparison.json",
+      "sha256": "FEE71E3FE550242AB803F615A1654DD8EA3BE237BE80938B77E64BF20A6D11D6"
+    },
+    "contract_comparison.csv": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\contract_comparison.csv",
+      "sha256": "0972A466B87C72C59D91D0E574A45D93EC03C4A952A5B41F6D83271F4FEA92E1"
+    },
+    "targeted_contract_updates.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\targeted_contract_updates.json",
+      "sha256": "7E52E4FB0033330184356B0B1B70441BC351C7ED8249CD082955CFD49CC565CB"
+    },
+    "targeted_contract_updates.csv": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\targeted_contract_updates.csv",
+      "sha256": "3F5D6630722B276BD823FAFA10A872139A2FA76A6AA5A8382C0455FCEBE20915"
+    },
+    "regression_evidence.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\regression_evidence.json",
+      "sha256": "662B3105AF2F2B7F010F51239218CF063953F472AC0B6769178218CB49801F64"
+    },
+    "shared_evidence_registry.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\shared_evidence_registry.json",
+      "sha256": "8FBD4786540F14D98C63B7E35FB5E02A7B3985C9D3D631EF31651EA06EEBC235"
+    },
+    "defects_and_repairs.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\defects_and_repairs.json",
+      "sha256": "255522B5012FBC29B145E179C911D14D0072924D0736959BC7001110044A0896"
+    },
+    "repair_queue.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\repair_queue.json",
+      "sha256": "5D1FE87B0BBCEE4D03234E33B00F373988DE837DA95DCF302F578B53EE2E1BD2"
+    },
+    "history_boundaries.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\history_boundaries.json",
+      "sha256": "D48F6573A365D14F7FFA45640CC118D9FAE595C6116FD43BFCD2FAB16C0C3970"
+    },
+    "remaining_blockers.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\remaining_blockers.json",
+      "sha256": "945F8AFD0FA54BB553E6B8BC616E79AD714D57FA60E3422644E1EBB548A8F8C5"
+    },
+    "release_readiness.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\release_readiness.json",
+      "sha256": "3C060243BD2479516D348E60E4035CF8BFB9583078C49551BC4FE34B58EDCECC"
+    },
+    "installation_layout.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\installation_layout.json",
+      "sha256": "6A1AE74BBCBA5BE13CB0AEEAB65BC01AE11B44497F824A1B7C8474BA5056F771"
+    },
+    "acceptance_tests.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\acceptance_tests.json",
+      "sha256": "65E41DAD86CBE46E8AA599F9A990CBEB198396929227C934D0F3BE5E09D6EB8D"
+    },
+    "acceptance_tests.csv": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\acceptance_tests.csv",
+      "sha256": "169957435993F359997AA1852335B3B078A4DDD4BFFBBBC9144A0E9766BE7393"
+    },
+    "ACCEPTANCE_CHECKLIST.md": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\ACCEPTANCE_CHECKLIST.md",
+      "sha256": "D1AE120E037174064079846F16D9347B2D2CB3D99C6328528547838F02D71593"
+    },
+    "ENGINE_DIAGNOSTIC.md": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\ENGINE_DIAGNOSTIC.md",
+      "sha256": "694B578EE9171A80BF2BA4332029D5A39D30B8C4D18591286A5EFD7E57A1B5EC"
+    },
+    "REPORT.md": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\REPORT.md",
+      "sha256": "F01F0B81F20AB81753C1E594B3F0C5D27A804E2F64C6B19A06D42AC3618F6E3C"
+    },
+    "HANDOFF.md": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\HANDOFF.md",
+      "sha256": "653696D66E0D5308DC31227B02E2C4A73F54D0009278FC3BB70FDDE45F57FF5A"
+    },
+    "README.md": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\README.md",
+      "sha256": "73B68A4B680568ADF813B651BDF031A188992EE4B83908B893CC338DF98EF486"
+    },
+    "checkpoint.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\checkpoint.json",
+      "sha256": "B9274BA2F68467834FD4FB75E87EC94FDDA6DF59CB762440228B397851F4E8DB"
+    },
+    "candidate_01/package_manifest.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\candidate_01\\package_manifest.json",
+      "sha256": "A6667FBF05C88F0056D0626112353C2E91651A956CD9275FBF0D7DD19BFA9EC0"
+    },
+    "verification/preservation_01/result.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\verification\\preservation_01\\result.json",
+      "sha256": "7B566E2E9183087E7F677EEE5A65919D8361777C30D645B170A5B66BBCA3DBBA"
+    },
+    "verification/compile_successor_01/result.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\verification\\compile_successor_01\\result.json",
+      "sha256": "DC4DD6214782A6504A422145F1F17C75691B3095A265EF8166E652B6E1BB7513"
+    },
+    "work_queue.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\work_queue.json",
+      "sha256": "366B6AD336F1B28840A3BBF46735908D7CED166D9FD6B1F157987A62CE024798"
+    },
+    "publication_01.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\publication_01.json",
+      "sha256": "52C6EDA5290E949218FAD6368DBF24F0E764847D4E4F890A0FF301F8B1FFF526"
+    },
+    "publication_02.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\publication_02.json",
+      "sha256": "EBE9D4AADD5612C32C709B86DE711D6F9D0EAE8B38F469FCA6C05347DD216869"
+    },
+    "publication_supersession_01/manifest.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\publication_supersession_01\\manifest.json",
+      "sha256": "EB41B9BD465A2796532DFAA094D3D10AC63FD996E8C1CF7EAE7947453AEF5B51"
+    },
+    "worker_a/evidence_index_04.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\evidence_index_04.json",
+      "sha256": "47258CAEBD58E2910FFC15DADFF05AB2E62DB7E670FB7A055F5F646B6642C8A1"
+    },
+    "worker_b/evidence_index.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_b\\evidence_index.json",
+      "sha256": "DD4170F3B68314A6BA919AC4E866ECB7F113389FDA20AD47F441A8F3A364B52F"
+    },
+    "worker_b/evidence_index_addendum_01.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_b\\evidence_index_addendum_01.json",
+      "sha256": "4CC09D278281445A9F91C4EB6CD3FEBF09EB982DA5306E3C345101A5727E7A2F"
+    },
+    "worker_c/completion.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_c\\completion.json",
+      "sha256": "617792199D40D8E7E318239E5AB99A02CCB04C803E8584C32A25E63221AEAC3C"
+    },
+    "worker_c/reviews/acceptance_03/review.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_c\\reviews\\acceptance_03\\review.json",
+      "sha256": "D6FDF74579A7A82B97E934967D5406989D6681F81175B33459E20D047F36C8CA"
+    },
+    "worker_a/final_package_01/verification/result.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\final_package_01\\verification\\result.json",
+      "sha256": "783639D1F515016F7D7CF2AAD03AC6F18E5039D13108B35A00197C68C0668CA7"
+    }
+  },
+  "authority": "This terminal seal supersedes immutable reviewed pre-seal pending-review checkpoint/workqueue states. publication02 is the current publication; publication01 historical changed pointers resolve through exact snapshots.",
+  "installed_baseline": "PH3 unchanged; QR8 staged only",
+  "game_launches": 0,
+  "game_or_installed_file_writes": 0,
+  "save_or_fact_writes": 0,
+  "deployments": 0,
+  "debugger_or_runtime_probe_activations": 0,
+  "collector_game_runs": 0,
+  "published_release_changes": 0,
+  "git_publications": 0,
+  "remaining_limits": [
+    "Controlled tests require separate deployment/gameplay authority, guarded recovery/interruption fixtures and genuine disposable save baselines.",
+    "First subscription/contact/physical-owner extension remains heldFAIL; parent news scope is existing genuine Active contact plus future provenance only.",
+    "Five quest UNKNOWNs and inherited continuation/admission limits remain. No arbitrary-save or full161-restoration certification.",
+    "Actual hook/address resolution and owner execution, receipt/save effects, world leases, SMS/call/timer/queue/interrupt/reload and saved predicate refresh are unexecuted LIVE_ONLY. Plugin receipt is attempt bookkeeping, not successful-owner ACK."
+  ]
+}

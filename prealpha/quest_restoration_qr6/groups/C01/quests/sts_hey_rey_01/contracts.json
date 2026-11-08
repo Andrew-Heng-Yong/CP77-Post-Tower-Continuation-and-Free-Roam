@@ -1,0 +1,189 @@
+{
+  "quest_id": "sts_hey_rey_01",
+  "title": "Bring Me the Head of Gustavo Orta",
+  "source_epoch": "QR5:08 = QR6:00 frozen source bytes",
+  "status": "DEEP_SOURCE_INVESTIGATED_WITH_SPECIFIC_LIMITS",
+  "fully_static_verified": false,
+  "effective_resource": "towercontinued\\gigs_u10\\native\\sts_hey_rey_01_entry.questphase",
+  "effective_resource_sha256": "E5DDF2608BD6AEAB3450202C6F60DCA6CE62A656E778BE4BE710DDB49741E797",
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Vista del Rey parent2→deletion60→tier58 OR59 through XOR57→outside38 or POI47 via XOR48→44.Active→Started65004→body5.In1. Tier59 remains AND(tier_1_1=0,tier_1>0), preserving native alternative rather than flattening all facts into one conjunction."
+      ],
+      "remaining": [
+        "Native entry predicates and exact wrapper are statically proved; runtime registration/streaming timing is not gameplay proof."
+      ],
+      "approved_differences": [
+        "Existing approved genuine-Tower private U10 fresh rehost, explicit once receipts and conservative eligibility. Psychofan only additionally uses the reviewed R4 adapter; no new QR6 behavior change."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_rey_01\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_rey_01\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\quests\\sts_hey_rey_01\\mechanisms.json"
+      ]
+    },
+    "eligibility": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Twelve Inactive journal paths and all actual fresh local outcomes/interaction/start/finished flags are required, including kill/spare/persuade/inside_trunk/Gustavo dead/visited and sts_rey_01_done. Actual runtime arrays and graph late guard match; debug_sts_start0 prevents the native debug path from granting availability."
+      ],
+      "remaining": [
+        "Current finite guards preserve the named native beginnings; unobserved external/saved-owner state and live admission timing remain conditional. Exact omitted native fact/journal census is retained in evidence.json."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_rey_01\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_rey_01\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\quests\\sts_hey_rey_01\\mechanisms.json"
+      ]
+    },
+    "communications": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Both native prebrief/debrief Start0 inputs preserve real Padre requests, retry producers, readers32/3, ACK41/42 and caller wait/clear paths. Body RET/INT callbacks and original rejected/SMS outcomes are retained; optional route selection does not synthesize a telephone result."
+      ],
+      "remaining": [
+        "Real request/listener/ACK/wait/clear authoring is proved; actual scheduling, actor acquisition, interruption and reload delivery remain live-dependent."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_rey_01\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_rey_01\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\quests\\sts_hey_rey_01\\mechanisms.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Private64000 preserves native LOOP root/3:14 prestate controller; original body5, native actors and post-completion output stay under the original main owner. Current added once claim precedes tier service and body; native saved controllers cannot be proved absent merely from zero progress."
+      ],
+      "remaining": [
+        "Exact selected original parent/companion scopes are traced; arbitrary old executing saved owners and native global bugfix controller states are not certified by zero scalar facts or presence."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_rey_01\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_rey_01\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\quests\\sts_hey_rey_01\\mechanisms.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Native OW root/4:177 waits rey_01_kill>0;233 waits rey_01_spare>0;221 tests inside_trunk before the carry objective. Distinct nested163/164/165 paths retain finished20/27/24 writers, preserving authored kill/spare/body-delivery outcomes and exact branch/cut topology."
+      ],
+      "remaining": [],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_rey_01\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_rey_01\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\quests\\sts_hey_rey_01\\mechanisms.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Native #sts_hey_rey_01 actor/prefab scopes and Gustavo/intercom/chats/prebrief/debrief scene bindings remain untouched. Scene actor acquisition, community and world-marker literals are inventoried; existing actors do not independently prove original owner retirement."
+      ],
+      "remaining": [
+        "DynamicBaseClass/worldNode streaming placement, effective spawned actor acquisition, animation/workspot/camera execution and JV1 timing are not certified by preserved binding literals."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_rey_01\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_rey_01\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\quests\\sts_hey_rey_01\\mechanisms.json"
+      ]
+    },
+    "journal": {
+      "status": "PASS",
+      "proven": [
+        "All native branch objectives remain exact, including apartment/get_inside_flat/kill/find/persuade/take_body_outside/drop_body/get_reward and floor markers. The entry checks all twelve quest/phase/objective beginnings; branch-specific success/failure sockets are retained."
+      ],
+      "remaining": [],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_rey_01\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_rey_01\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\quests\\sts_hey_rey_01\\mechanisms.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native root/10 rewards2/19/22 all retain QuestRewards.sts_hey_rey_01_completion on their distinct authored outcomes; native failed46 and failure-debrief branch remain separate. Achievement76 and exact native LOOP hey counter path are preserved with private once credit arbitration. Static topology does not simulate mutually exclusive live outcomes or reward delivery."
+      ],
+      "remaining": [
+        "Native reward/cleanup authoring and once gates are proved; effective merged TDB definitions, atomic engine rewards, pending old owners and cleanup/reload behavior need separate evidence."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_rey_01\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_rey_01\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\quests\\sts_hey_rey_01\\mechanisms.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Saved native and private node/fact/resource identities remain exact, including native additive finished writers and private credit/map receipts. Existing choices/outcomes/failed progress cause defer; no restart or fabricated Gustavo history is introduced."
+      ],
+      "remaining": [
+        "No save-transition fixtures were executed; source identity preservation does not prove arbitrary future-version saved-owner compatibility."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_rey_01\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_rey_01\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\quests\\sts_hey_rey_01\\mechanisms.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native LOOP prestate14, district tier alternatives, Padre queue/ACK/cleanup and PH3 root studio support each retain source-pinned bindings. Native body/vehicle/drop targets and original counter ownership are inventoried as distinct dependencies; external placement and saved lease execution remain open."
+      ],
+      "remaining": [
+        "Original exact bindings and shared byte applicability are proved; external world marker acquisition, all effective record override winners and live shared-owner leases remain conditional."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_rey_01\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_rey_01\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\quests\\sts_hey_rey_01\\mechanisms.json"
+      ]
+    }
+  }
+}

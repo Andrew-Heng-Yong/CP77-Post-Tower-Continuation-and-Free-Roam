@@ -1,0 +1,9 @@
+# JF01 pending human observation
+
+User requested useful read-only command tests before a repair. TEST_CARD.md and readiness.json select two exact single-line commands. No installation or runtime change. A fresh GG1 external capture is recording, selected by readiness.json/active.json, execution session97879,90minute limit. It is not a quest-fact sampler or native event logger.
+
+After user says JF01 done: query GG1 status, request stop only if current selected run matches the JF01 readiness and is still active, wait for STOPPED. Preserve that capture and parse appended script.log lines tagged [JF01-F] and [JF01-W] with exact timestamps/hashes. Exclude preexisting context and previous Jeopardy capture. Require distinct command BEGIN/END markers; absent output/ERROR/UNRESOLVED/TRUNCATED stays unknown. Do not interpret missing wrappers as inactive/retired owners or overwrite QR15 historical evidence.
+
+Collect raw fact values and two community entry/active counts plus broken-car initialized/active state. These are real source-backed public getters, but live binding is pending. Error paths were tested offline; native GetEntries materializes its selected list before Lua cap64. No global census or callbacks. The new partial observability does not enumerate quest owner graphs, saved pending nodes or prefab leases. No inactive/allzero output is sufficient alone to implement an adapter.
+
+Retain QR15 exact native startup/world/courier findings, old guard/catalogue identity and previous successful quests. Decide the smallest justified next engineering action using these new observations. User has authorized implementation of a source-supported compatible fix; deployment remains separate. Never replace a missing ownership proof with resets, a developer start or a replayed reward. No request to repeat Jeopardy, Ronald enrollment/reload, Bullets/Zane/Wilson/Cynthia/D00E.

@@ -1,0 +1,104 @@
+{
+  "status": "PASS_SERIALIZED_HANDOFF_CONTRACT",
+  "resource_sha256": "4479680EDC81A16C820C31EDD0A89EBB78314589F9BBD50A689F14D7597D5980",
+  "resource_manifest_sha256": "7FA22F3E730E10E9A2C477D68EFBE82334719C8FBD6DC8464E6940794DF8836A",
+  "native_nodes": [
+    54,
+    24,
+    25,
+    26
+  ],
+  "prior_eligible": false,
+  "successor_eligible": true,
+  "rejected_witnesses": [
+    [
+      "quests/minor_quest/mq037_brendan_dumpster",
+      "Inactive"
+    ],
+    [
+      "quests/minor_quest/mq037_brendan_hooligan001",
+      "Active"
+    ],
+    [
+      "quests/minor_quest/mq037_brendan_hooligan001",
+      "Failed"
+    ],
+    [
+      "quests/minor_quest/mq037_brendan",
+      "Active"
+    ],
+    [
+      "quests/minor_quest/mq037_brendan",
+      "Succeeded"
+    ],
+    [
+      "quests/minor_quest/mq037_brendan_hooligan001/mq037_brendan_hooligan/00_deal_with_the_hooligan",
+      "Active"
+    ],
+    [
+      "quests/minor_quest/mq037_brendan",
+      null
+    ],
+    [
+      "mq037_post_girl_scene_on",
+      1
+    ],
+    [
+      "mq037_vandal_painted_brendan",
+      1
+    ],
+    [
+      "mq037_01_05Sure",
+      1
+    ],
+    [
+      "mq037_brendan_introduced",
+      0
+    ],
+    [
+      "q307_main_game_killed",
+      0
+    ],
+    [
+      "PTFRS23_MQ037_Issued",
+      1
+    ],
+    [
+      "PTFRS23_MQ037_Entered",
+      1
+    ],
+    [
+      "PTFRS23_MQ037_Finished",
+      1
+    ],
+    [
+      "PTFRQR17_MQ037_HandoffPending",
+      1
+    ],
+    [
+      "PTFRQR13_MQ037_FinalSupportHeld",
+      1
+    ]
+  ],
+  "script_and_graph_agree": true,
+  "predecessor_nested_graphs_preserved": true,
+  "private_mutations": {
+    "1141": [
+      "PTFRQR17_MQ037_HandoffPending",
+      2
+    ],
+    "1149": [
+      "PTFRS23_MQ037_Entered",
+      1
+    ],
+    "1150": [
+      "PTFRQR17_MQ037_HandoffPending",
+      0
+    ],
+    "1147": [
+      "PTFRS23_MQ037_Issued",
+      1
+    ]
+  },
+  "gameplay_and_save_reload": "UNTESTED"
+}

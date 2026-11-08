@@ -1,0 +1,26 @@
+{
+  "status": "JF02_READY_FOR_ONE_MANUAL_READ_ONLY_LOOKUP_NOT_A_QUEST_TEST",
+  "test": "JF02",
+  "card": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\runtime_probe_02\\TEST_CARD.md",
+    "sha256": "D9D7E083523FCC0B341D21CA47B8B3F0AA35E41A5508AC832821636676689C1A"
+  },
+  "command": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\runtime_probe_02\\car.command.txt",
+    "sha256": "B136FC39DE50884C8C3CB06FE523B283E4F886A9F3364F8114F2947AA5BC274C"
+  },
+  "primary_validation": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\runtime_probe_02\\validation_01.json",
+    "sha256": "D667B8F1E60AD49B8327486AA1CDE170402FB5EDEDADE34D893C4D286208FAB9"
+  },
+  "independent_review": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\runtime_probe_02\\review_01\\review.json",
+    "sha256": "6757A7E1234239E6D942B59F12C2A0A18474D59F69604264709E6894D3434B6E"
+  },
+  "installation_required": false,
+  "logger_start_stop_required": false,
+  "recorder_state": "STOPPED",
+  "player_state": "Current loaded working post-Tower playthrough; exact JF01 loaded-body identity remains unknown. Report save switch/reload and slot if known.",
+  "human_output": "Complete [JF02] line only; no quest replay or save/fact mutation.",
+  "limits": "Resolution and exposed stored-list sizes are not native VehicleSpawned, visual/door, unique live actor, executing-owner or released-lease proof."
+}

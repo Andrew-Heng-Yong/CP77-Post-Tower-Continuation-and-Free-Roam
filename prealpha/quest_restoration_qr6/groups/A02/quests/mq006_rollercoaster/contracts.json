@@ -1,0 +1,182 @@
+{
+  "quest_id": "mq006_rollercoaster",
+  "title": "Love Rollercoaster",
+  "source_epoch": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\source_epoch_08.json",
+  "source_epoch_sha256": "B8BC8D6630F51E07125789FAB5A54D188EB45CE7044F35E2E6F09DE460B91D83",
+  "fully_static_verified": false,
+  "effective_resource": "towercontinued\\sidejobs_s30\\entries\\mq006_rollercoaster.questphase",
+  "effective_resource_sha256": "DF954E559C37164306CDCB99BF110A7F8503375CAD5615D204A852FD85E5F718",
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Native q001/q005/side-content parent chain and selected story20.In1 are retained. Current story acquires PTFRWORLD_Coaster_QuestOwns at65008 before Entered65006 and releases65009 only after actual20.Out1 before Finished65007.",
+        "CC1 user-requested post-Double-Life removal remains exact q105_done==0 in both65003/65004 and the effective S30 runtime0bound. This intentionally defers ordinary Tower histories with q105done1; no availability relaxation is authorized."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\quest_evidence.json"
+      ],
+      "remaining": [
+        "Current full story is intentionally unavailable after earned Double Life; this is not a newly discovered defect or permission to rewrite history."
+      ],
+      "approved_differences": [
+        "CC1 cutoff per docs/coaster_post_doublelife_20261027.md; JC1 story/repeatable lease; private retained-session owner."
+      ]
+    },
+    "eligibility": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Both guards require unused root journal/progress/repair/repeatable state, story lease0 and repeatable Registered0. JC1 allows native mq006_ride_no_quest in0..1 because vanilla standalone setup can set it before any ride; it is never reset.",
+        "Native body root/50 q110Active monitor30 and its conditional failure/ride-no-quest alternative remain exact. CC1 q105 upper bound and native q110 journal gate are distinct conditions with distinct provenance."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\quest_evidence.json"
+      ],
+      "remaining": [
+        "Native saved cart/story/repeatable ownership and preexisting repair/issued state are not inferred from fact0 alone. Unknown/used histories defer."
+      ],
+      "approved_differences": []
+    },
+    "communications": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Complete actual own-body census found no positive generic phone-call request producer. Jean intro/party dialogue, terminal events, actual finale ride callback and journal actions remain authored scene/event mechanisms.",
+        "The existing SC1 specifically removes14Johnny actor5 dialogue events from the private finale while preserving all60otherdialogue events, node topology and section durations. That explicit older user change is preserved, not silently restored because general R4 allows supporting voice."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\quest_evidence.json"
+      ],
+      "remaining": [
+        "Real scene dialogue/event/ride callbacks and playback remain live-only; no phone listener is invented for a quest with no such authored producer."
+      ],
+      "approved_differences": []
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native story root owns#mq006_pr_rollercoaster and#mq006_pr_rollercoaster_ride, with actual controller/ride nested scope preserved. Story lease brackets real body lifetime.",
+        "Current independent repeatable gate1 and owner32 both require native mq006_enable_repeatable_rollercoaster1 AND PTFRWORLD_Coaster_QuestOwns0; native repeatable controller is separately inventoried. Existing owner Registered1 blocks a new story claim."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\quest_evidence.json"
+      ],
+      "remaining": [
+        "Facts and literal scopes do not certify old cart-owner retirement, physical cart uniqueness or in-flight saved ride state. No duplicate cart/controller is launched by this work."
+      ],
+      "approved_differences": []
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Native setup15→story50 and parallel weather55 remain exact. Intro2→finale4→reward26→mq006 receipt61→checkpoint24, repair reward25, abandoned/failure and native RideNoQuest52 alternatives retain all graph/scene edge multisets.",
+        "JC1 five actual native no-quest predicates now test private story lease0; native saved mq006_ride_no_quest is not overwritten. All other source node payloads are exact outside documented R4/SC1 edits."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\quest_evidence.json"
+      ],
+      "remaining": [
+        "Static topology/payload parity does not certify rail movement, control-terminal callbacks or actual exit."
+      ],
+      "approved_differences": []
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Native scene/main/ride bindings and actual PIPs remain exact. Only actor5 Johnny animation muting, one dedicated muted ride workspot, JC1 five lease predicates and SC1 fourteen actor5 dialogue removals differ; the exact before/after comparison preserves all other dialogue/events/durations/actors."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\quest_evidence.json"
+      ],
+      "remaining": [
+        "Cart, actor, rail, camera, workspot and world trigger placement/loading are opaque/live-only. Historical arms-animation/observer tests are not rerun or promoted to new success."
+      ],
+      "approved_differences": []
+    },
+    "journal": {
+      "status": "PASS",
+      "proven": [
+        "Native repair objective/mappin conditions, Jean return, root success/failure and q110Active failure payloads remain exact. Original finale26reward precedes61mq0061 and native body output; no synthetic journal success substitutes for the ride.",
+        "Original locate-control-box/restart/return-to-Jean state writers remain branch-specific. Repeated attraction uses a separate owner and does not satisfy the one-time story journal by presence."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\quest_evidence.json"
+      ],
+      "remaining": [
+        "UI/event save execution remains engine dependent; current CC1 prevents normal post-DoubleLife fresh play by policy."
+      ],
+      "approved_differences": []
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native repair and finale reward26/25 targets, mq0061 after finale, weather source resets and original full-root output are preserved. Private story lease releases only on20.Out1 then Finished65007; no reward or native completion fact is reset.",
+        "Repeatable attraction requires the actual native earned enable fact and separate lease exclusion; its scope is not counted as completed Jean story restoration."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\quest_evidence.json"
+      ],
+      "remaining": [
+        "Engine termination/cart cleanup, failed/frozen owner release and exact saved reward atomicity remain conditional. Native repeating-controller side effects are not inferred from the gate fact."
+      ],
+      "approved_differences": []
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Stable installed entry/body/scene names, all native graph IDs, JC1 private lease and SC1 presentation choices remain exact QR5:08. CC1 only affects future unissued story admission; existing saved issued progress is retained and no old completion can be undone by file update."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\quest_evidence.json"
+      ],
+      "remaining": [
+        "Old already-issued cart/ride states and future transition compatibility remain untested; file rollback is not saved progress rollback."
+      ],
+      "approved_differences": []
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "One-time story and repeatable attraction owners are separately traced against exact current resources. Native repair/ride/controller/Jean-after-quest PIPs and q110 monitor coexist with explicit CC1 q105 cutoff and JC1 lease tests."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A02\\verification_05\\quest_evidence.json"
+      ],
+      "remaining": [
+        "Shared cart/rail/world leases, callbacks and old saved-owner state still require engine evidence. No broad restoration/unlock is claimed."
+      ],
+      "approved_differences": []
+    }
+  },
+  "confirmed_defects": [],
+  "runtime_changes": []
+}

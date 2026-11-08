@@ -1,0 +1,33 @@
+{
+  "status": "USER_SELECTED_LATEST_SAVE_COMPARED_PREPARED_ADAPTER_DEFERRED",
+  "report": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\latest_save_01\\REPORT.md",
+    "sha256": "0F714F5B54D8F0DBA9C47416E2EDEEA7EA7BA0354E8B75FE773D7D8CE3C53871"
+  },
+  "result": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\latest_save_01\\compare_01\\result.json",
+    "sha256": "F7A79423E72045DDAE1DCB1137A29484919193150CDFD99627DB771962A09F84"
+  },
+  "selected_save": {
+    "slot": "AutoSave-8",
+    "timestamp_from_menu": "2026-11-04 00:30:56",
+    "inputs": [
+      {
+        "path": "C:\\Users\\Ayong\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-8\\sav.dat",
+        "sha256": "AE7331494F242FDCFA9008D86588F9C431B9ABA6092B7E9C845EE78D3D30CE9E"
+      },
+      {
+        "path": "C:\\Users\\Ayong\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-8\\metadata.9.json",
+        "sha256": "BF3131F582656050F4CAE2A860C93548C1CC4B506B6649B6C8B93D78A24A7D5E"
+      }
+    ],
+    "selection": "User identified the newest in-game save. The current file matches the previously decoded body."
+  },
+  "preservation_pins_verified": {
+    "installed": 77,
+    "original_saves": 6
+  },
+  "runtime_candidate": null,
+  "runtime_changes": 0,
+  "ready_human_tests": []
+}

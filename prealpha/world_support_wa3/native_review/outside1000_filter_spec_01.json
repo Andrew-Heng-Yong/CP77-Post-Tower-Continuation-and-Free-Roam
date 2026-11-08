@@ -1,0 +1,42 @@
+{
+  "id": 1000,
+  "native_prefab": "$/03_night_city/sw2/#loc_q000_border_crossing/#loc_q000_border_crossing_openworld",
+  "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_769927088f9d9c0c.streamingsector",
+  "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\outside_prefab_native_02\\basegame_3_nightcity.archive\\quest_769927088f9d9c0c.streamingsector",
+  "sector_sha256": "49A10D9B37BCC52381DE8AA60606FE7FDD5B3118339A4F7301C51A95033641F2",
+  "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\outside_prefab_decoded_01\\quest_769927088f9d9c0c.json",
+  "drop_nodes": [
+    26,
+    27,
+    28,
+    50,
+    51,
+    52,
+    53,
+    60
+  ],
+  "drop_types": [
+    "worldTriggerAreaNode",
+    "worldTriggerAreaNode",
+    "worldTriggerAreaNode",
+    "worldTriggerAreaNode",
+    "worldDeviceNode",
+    "worldDeviceNode",
+    "worldDeviceNode",
+    "worldTriggerAreaNode"
+  ],
+  "drop_placements": [
+    26,
+    27,
+    28,
+    50,
+    51,
+    52,
+    53,
+    60
+  ],
+  "preserve_ai_spots": 41,
+  "preserve_nodes": 53,
+  "reason": "Do not restore border respawn, combat, kill or security triggers or security connections to external cameras/turrets. Preserve native workspots and passive support for already-active matched communities.",
+  "requires_native_parent_gate_review": true
+}

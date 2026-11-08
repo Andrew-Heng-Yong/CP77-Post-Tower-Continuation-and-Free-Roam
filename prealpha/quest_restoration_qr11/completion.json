@@ -1,0 +1,134 @@
+{
+  "status": "READY_NOT_INSTALLED_AWAITING_USER_DEPLOYMENT_AND_D00",
+  "utc": "2026-11-03T15:45:50.645696+00:00",
+  "primary_plan": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\MANUAL_TEST_PLAN.md",
+  "readiness": "48fixturechecks/86actions +8independent/7actions +13collectorcontrols; actualread-onlyPREFLIGHT_READY",
+  "runtime_actions": {
+    "real_Install": 0,
+    "real_Rollback": 0,
+    "real_Recover": 0,
+    "game_launch": 0,
+    "CUA": 0,
+    "save_or_fact_write": 0
+  },
+  "artifacts": [
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\MANUAL_TEST_PLAN.md",
+      "sha256": "02DDE21A7228DC387683AF1EEF7B9CD82FFE7D9D25A0C647B9603CEEECCAD405",
+      "bytes": 12870
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\REPORT.md",
+      "sha256": "AA33AC0D6859A24EC9F0D78DAB4E48EEB1B92ECC06901AB8C248DC186FD7F4B1",
+      "bytes": 5661
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\HANDOFF.md",
+      "sha256": "9F4949EFBD7ED204B1437CF2F0D99449D5A248014C6E702F677727EBDFDD5774",
+      "bytes": 3487
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\DEPLOYMENT_AND_ROLLBACK.md",
+      "sha256": "3D8AFDC84496986CFA50837B344BE9A120E71EED3DB282BD4307F301E1E718D4",
+      "bytes": 5788
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\deploy_diagnostics.ps1",
+      "sha256": "400438835F72415A78D6604EC9551034A2967BEB42206132FC94714E8496806E",
+      "bytes": 26553
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\diagnostics_manifest_01.json",
+      "sha256": "8B42EAC8C161256534DB26F859A62447E8A9921104929B10ADFF83020C1B2DD0",
+      "bytes": 17451
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\readiness.json",
+      "sha256": "589A3AC559DBC07838BAD679452A6C06501F139E13865FDD21E659DBB76BE6A1",
+      "bytes": 1198
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\preflight_real_01.json",
+      "sha256": "783E4050A894FF448EE24AA2EEB54FA3DA3E44412D12C7CFB8222DA03FEA5120",
+      "bytes": 301709
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\run_02_results.json",
+      "sha256": "7E8720E3A1EE1C1145D74E766DD5B84AE3A2429A91CB6853A72C6352591DB320",
+      "bytes": 55121
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\runtime_test_queue.json",
+      "sha256": "9B0E58B048AA5BF2C3B4405B1CCCDCA113E2F5132EFB2DE829E68E492E488542",
+      "bytes": 4886
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\preservation_final_01.json",
+      "sha256": "A10F78569DA433475F17521AE2A3958CC39EF85713DB749BA9329C1AF217C323",
+      "bytes": 645
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\save_selection.json",
+      "sha256": "DBAE1AC61146220A1CE9E561EACD1B2A6E9DE768F8CE90BD4C6E626B5B8E35D4",
+      "bytes": 3591
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\controls_evidence.json",
+      "sha256": "9A0C8F6C38045380D957BDFD7F8E619E7E38F41992403165BB2BF38B67FEB503",
+      "bytes": 1021
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\collect_d00.py",
+      "sha256": "1095CFDEA41C6AF711838FAEAC60339F666FA44F14D1EA245B53196886D7BA60",
+      "bytes": 8870
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\test_collector.py",
+      "sha256": "403ABC2198B1B3D9AA7E283CEB6DCB19210147DECAD725C32CFDD059571E0C2A",
+      "bytes": 2925
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\collector_controls_02.json",
+      "sha256": "CDC0AEB98BFCB586657AC389E96CDE4DA75A582F5249EF844AED5A69F426C53C",
+      "bytes": 733
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\test_deployment.py",
+      "sha256": "65C32F43D3542022EB219E60396FEA20844499BE3F4AEAC66A3B36392FF87802",
+      "bytes": 11318
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\prepare.py",
+      "sha256": "732E6D1053B7C8CE213D4C78C4C02506425CFE9D7435D2D19F39304DA4CB2A86",
+      "bytes": 11930
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\seal_ready.py",
+      "sha256": "607F1F9B29C27CE9AE64BD06F19A9116A5D04512E5D96DCD5A28BE878CBDFF19",
+      "bytes": 3504
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\finalize.py",
+      "sha256": "EF0866467935E25964BDCC47DABE47D14FE3F8EA22FB3A61A0D3E75D008D2505",
+      "bytes": 4885
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\review\\REVIEW.md",
+      "sha256": "2250C7B8CE2BF2A553680E8F5A5A2E95F96795A07A44DE4AD9CB7F5207C6196D",
+      "bytes": 6640
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\review\\result.json",
+      "sha256": "6F27596B527D667499EB5755829F6D03C71AB50E31269E2798C03AC473CFB40F",
+      "bytes": 1806
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\review\\adversarial_results_02.json",
+      "sha256": "08D4C0AD4EF1FEDA492687ED1CFDDCC7ECCFC3EB1C2C006809BDED80F2C9F097",
+      "bytes": 5804
+    }
+  ],
+  "native_callbacks": "UNSUPPORTED_NOT_VERIFIED",
+  "live_sampling": "NOT_TESTED",
+  "next": "User authorizes or performs exact diagnostic-only deployment, then conditional D00. No other qualified quest tests."
+}

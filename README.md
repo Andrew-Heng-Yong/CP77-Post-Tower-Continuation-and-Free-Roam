@@ -34,12 +34,22 @@ historical download paths for compatibility with existing saves and releases.
 
 ## Development status
 
+**Current local baseline: HH1 on QR19 (6 November 2026).** The 51-path Core
+installation and diagnostics are file-verified. Heavy Hearts animation recovery
+and save/reload still need gameplay qualification. The QR20 Bartmoss visibility
+repair is staged, and the Johnny dialogue removal work is in source review.
+See [current state](docs/knowledge/current-state.md) for exact installed hashes,
+bounded playtest results and the separate prepared beta, and the
+[Johnny dialogue plan](docs/johnny_dialogue_removal_plan_20261107.md) for that work.
+Developer procedures are indexed in [the knowledge base](docs/knowledge/README.md).
+The component chronology below is historical context, not the current build recipe.
+
 The repository contains source; installable mod packages are hosted in Releases.
 The locally installed consolidated build packages the current alpha and later
 fixes in one ZIP. The user reports it working with public Codeware 1.21.1;
 full quest coverage remains under test.
 The linked public Alpha Test remains the published download.
-The current local [WA3 successor](docs/world_support_wa3_20261028.md) extends native
+The earlier local [WA3 successor](docs/world_support_wa3_20261028.md) extends native
 NPC support to 296 additional exact owners and includes the computer compatibility
 fix for Virtual Atelier. The 51-path Tower package and the existing Atelier script
 were installed together after full compilation and rollback checks; all 301 saves
@@ -116,12 +126,11 @@ recorded in the [ambient investigation](docs/world_hostile_idle_report_20261026.
 | `docs/` | Design, policy, and playtest documentation |
 | [PROJECT.md](PROJECT.md) | Project context and recorded development state |
 | [ROADMAP.md](ROADMAP.md) | Scope, priorities, and outstanding work |
-| [AGENTS.md](AGENTS.md) | Development constraints and chronological handoff records |
+| [AGENTS.md](AGENTS.md) | Concise project-wide operating instructions |
 
 Versioned predecessors are retained because existing saves and pinned build
 records can depend on their identities. Directory presence does not mean a
-component is currently installed or approved for a new release. Consult the most
-recent status entries before using older instructions.
+component is currently installed or approved for a new release. Consult the current-state manifest pointers before using older instructions.
 
 ## Local development inputs
 

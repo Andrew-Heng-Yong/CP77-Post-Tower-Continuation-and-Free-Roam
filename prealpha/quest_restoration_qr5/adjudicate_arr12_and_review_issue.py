@@ -1,0 +1,26 @@
+"""Apply reviewed current-byte repair disposition and retain an open review issue."""
+from pathlib import Path
+import sys,copy
+W=Path(__file__).resolve().parents[2];O=Path(__file__).resolve().parent
+sys.path.insert(0,str(W/'tools/parity_audit'))
+from common import read,write,sha
+assert not (O/'review_issues.json').exists()
+q=read(O/'queue.json');rows=read(O/'contract_status_matrix.json');p=read(O/'progress.json')
+package_review=O/'groups/G09/reviews/QR5_package/verification_01/REPORT.json';pr=read(package_review);assert pr['status'].startswith('PASS')
+patch=read(O/'candidate_01/repair_arr12/patch.json');source_review=O/'groups/G07/reviews/ARR12/verification_03/review.json';serial_review=O/'groups/G02/reviews/ARR12_serialized/verification_02/review.json';test=O/'candidate_01/repair_arr12/verification_02/tests.json'
+item=next(x for x in q['quests']if x['id']=='sts_std_arr_12')
+for stage,v in item['contracts'].items():
+ if v['status']!='FAIL':continue
+ v['pre_repair_status']='FAIL';v['pre_repair_proven']=copy.deepcopy(v['proven']);v['pre_repair_remaining']=copy.deepcopy(v.get('remaining',[]));v['status']='CONDITIONAL';v['proven']=['Current serialized QR5 ARR12 entry includes the independently approved native failure/abandonment monitor from future65003 events. Old node payloads/IDs remain; only the reviewed branch plus three new local nodes and exact native subtree are added.','Native old arm0/arm1 are accepted without resetting or writing the arm receipt. Exact failed1 dominance, debrief scene AND guards and native reward exclusion remain; no direct/fake outcome or payout is introduced.'];v['remaining']=['LIVE_ONLY: Actual convoy/NodeRef binding, engine fanout, abandonment timing, interruption and reload remain untested.','SAVED_SCOPE: Already-Entered/Started saved owners receive no retroactive monitor adoption.'];v['evidence'] += [str(test),str(source_review),str(serial_review),str(package_review)];v['verified_candidate_resource_sha256']=patch['after'];v['effective_source_epoch']='QR5:02';v['repair']='QR5-G04-ARR12-MISSING-FUTURE-FAILURE-MONITOR'
+for row in rows:
+ if row['quest_id']=='sts_std_arr_12':row.update(copy.deepcopy(item['contracts'][row['stage']]))
+issue={'id':'QR5-G02-SPR01-OUTGOING-CALL','status':'AWAITING_FROZEN_AUTHOR_ADDENDUM_AND_INDEPENDENT_SUPERSESSION_REVIEW','quest_id':'sts_hey_spr_01','stage':'communications','source':'Independent reviewer B actual raw Padre scene','wrong_original':'Physical Padre conversation / only incoming generic prebrief call','actual':'Padre actor uses padre_holo/#padre_holo; outgoing holo_v_calls_padre producer/wait/clear routes and controller real ACK43/44 exist. Previous incoming-only filter omitted this direction.','review':str(O/'groups/G10/reviews/G02.json'),'review_sha256':sha(O/'groups/G10/reviews/G02.json'),'required_action':'Preserve frozen G02 originals; apply source-specific outgoing addendum and supersede the prior PASS/physical-conversation wording centrally. No runtime fix inferred.'}
+write(O/'review_issues.json',{'issues':[issue]})
+it=next(x for x in q['quests']if x['id']==issue['quest_id']);v=it['contracts']['communications'];v['pre_review_status']=v['status'];v['original_proven']=copy.deepcopy(v['proven']);v['status']='CONDITIONAL';v['proven']=['Independent raw review establishes outgoing Padre holographic calls in the actual fixer conversation; prior physical-visit/incoming-only description is superseded pending complete addendum integration.'];v['remaining']=v.get('remaining',[])+['REVIEW_OPEN: Validate and independently review all outgoing producer/listener/ACK/cleanup routes before reconsidering the previous communications PASS.'];v['evidence'] += [str(O/'review_issues.json'),issue['review']]
+for row in rows:
+ if row['quest_id']==issue['quest_id']and row['stage']=='communications':row.update(copy.deepcopy(v))
+q['package_verification']='PASS_INDEPENDENT_ACTUAL_QR4_TO_QR5_PACKAGE_DIFF';q['independent_package_review']={'path':str(package_review),'sha256':sha(package_review)};write(O/'queue.json',q);write(O/'contract_status_matrix.json',rows)
+p['new_defects'][0]['status']='REPAIRED_FUTURE_ONLY_STATIC_SERIALIZED_AND_PACKAGE_VERIFIED_LIVE_PENDING';p['new_defects'][0]['independent_package_review']=q['independent_package_review'];p['groups']['G02']['review_addendum_required']=issue['id'];write(O/'progress.json',p)
+rq=read(O/'repair_queue.json');rq['items'][0]=p['new_defects'][0];rq['source_epoch']=2;write(O/'repair_queue.json',rq)
+cp=read(O/'WORKING_CHECKPOINT.json');cp['state']='ARR12_FULL_STATIC_PACKAGE_VERIFIED_PRIMARY_INVESTIGATIONS_CONTINUE';cp['working_candidate']=q['working_candidate'];cp['source_epoch']=q['source_epoch_manifest'];cp['new_completed']=p['completed_quests'];cp['active_groups']={k:v['ids']for k,v in p['groups'].items()if v['status']=='CLAIMED'};cp['open_review_issue']=issue;cp['next_action']='Continue assigned G03/G10/G11/G13 and rootG15 as progress indicates. RootG15 has independently reviewed source-gap proposal pending, no second patch. Preserve original G02 and apply outgoing-call addendum once B approves it.';write(O/'WORKING_CHECKPOINT.json',cp)
+print({'ARR12':'REPAIRED_STATIC_PACKAGE_VERIFIED_LIVE_PENDING','G02_outgoing_call_review':'OPEN','runtime_resource_changes':1})

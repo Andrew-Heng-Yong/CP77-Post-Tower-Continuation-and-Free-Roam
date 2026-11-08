@@ -1,0 +1,240 @@
+{
+  "quest_id": "sq025c05_scared",
+  "title": "Epistrophy: Northside",
+  "source_epoch": "QR3 candidate_01; unchanged relevant inputs (two QR3 repairs preserved elsewhere)",
+  "status": "DEEP_REVIEWED_CONDITIONAL",
+  "fully_static_verified": false,
+  "defects": [],
+  "repairs": [],
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "This is a child branch of the shared fresh/progressed family, not an independent new owner. Native scanner main dispatcher can enter193; debug explicit scan_scared_in188→193.chicken_in also remains native. S22 root195.Out5→1005 checks scared_done; false follows264→397 to native branch, true feeds all-cars AND198.In5."
+      ],
+      "approved_differences": [
+        "Shared family fresh owner or exact captured-progress seam; completed cars bypass replay."
+      ],
+      "remaining": [
+        "CONDITIONAL: Fresh family inherits the exact outer154 parent-gate gap; arbitrary in-progress Northside saves are not adopted."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "eligibility": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Actual S25 guards2/3 require all bounded family journal entries Inactive, native progress/failure/damage/scan/dialogue flags neutral, own Permit1/Issued0/Finished0/Fault0, S22Issued0/SupportIssued0, genuine Tower/PA2/U9 gates. After claim90 requires own Issued1 and original protections; facts/journals are not reset.",
+        "S22 progressed owner1002/1003 requires exact sq025_scans_done3 with sad/mean/suicidal done1, other four done0, earned briefing objectives Succeeded, primary Epistrophy Inactive and bounded scan children Inactive/Failed. Its Support owner must first claim native listener; FreshIssued1 excludes this legacy route.",
+        "Native original sidequests155→154→48.In1 has exact OR(SideQuest_Standalone content token, administration pickup-car message visited). Direct S25 inner In1 does not contain this outer154 condition. Internal native hook parking/vehicle and return-car gates are retained."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "STATIC_CONTEXT_GAP: Post-Tower content-token context and an explicit approved replacement for outer154 token/mail arbitration are not established by these inputs. Do not call full native prerequisite equivalence PASS or synthesize a visited message.",
+        "CONDITIONAL: S22 exact saved-stage/child-failure provenance and native owner retirement/adoption need matching state/transition evidence.",
+        "LIVE_ONLY: Actual current player entitlement and all native gate values were not read from a save."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "communications": {
+      "status": "PASS",
+      "proven": [
+        "Fresh94 and S22support51 preserve the exact native holocall_initializers51 binding to delamain_holocall.questphase. SupportIssued is claimed before fresh native body and mutually excluded from a second S22 fresh listener.",
+        "Scared caller7350→7347wait→7348clear and7354→7351wait→7352clear match native controller38→114.False→42→21.start and39→43→21.end; true acknowledgements are reachable scene1047/1048.",
+        "Suicidal caller7271→7268wait→7269clear and7275→7272wait→7273clear match native controller22→106.False→26→21.start and23→27→21.end; real acknowledgements scene779/780 are reachable.",
+        "Base reward holocall225→219wait→220clear /226→221wait→222clear matches native controller0→…→9→21 and2→10→21 with actual scene41/42 acknowledgements. Shared fixer_cleanup700.True→701.In12 invokes exact native cleanup and701.Out12→800. Scared20.True→39→4.end and suicidal25.True→50→15.end retain native count/cleanup routes."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Playback/UI, interrupt/rejection counter delivery, callback ordering and restored pending calls are engine-dependent. Native angry/deep outgoing counter-name mismatches are inherited and not synthetically reset."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Fresh and captured-progress owners are mutually exclusive through actual FreshIssued and S22Issued/SupportIssued predicates; the entire AND/OR tree was evaluated, not flattened.",
+        "S29 later entry uses AND(SupportIssued1, OR(S22Issued0,S22Finished1)), not an impossible Issued0 AND Finished1 requirement. No extra listener is justified from that flattened interpretation.",
+        "QR3 native ancestor evidence places original sidequests under genuine main-root journal-success→Terminating teardown. Private saved resource/node IDs are unchanged by this investigation; support/owner claim receipts remain durable."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: Native persistent return_archer companion and already executing/saved private descendants need exact owner adoption/retirement evidence beyond facts. Native persistent-content caller is pinned, but no live quest tree is inspected.",
+        "LIVE_ONLY: Engine cancellation, saved already-issued instances and save-version transitions are not certified."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Native root/193 graph is exact:0→23;23.Out2→22.scared_in_talk and23.Out3→12.scared_in.23.Out1→24 waits scared_crashed>0 then25.CutSource22. Native scene done939 sets scared_done1→3810 increments scans_done by1; original reward/return branches and vehicle fear-driving behavior retained."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Driving speed, crash/arrival, talk scheduling and player choices are not simulated."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Native scan root prefab #sq025_pr_03_street_find_delamain is preserved. Case193 owns #sq025_pr_scared;196 owns #sq025_pr_suicidal. Garage instance prefabs on native110/124/147/166 are retained in fresh root/100; native resource-root prefabs are not incorrectly inferred from initializer emptiness.",
+        "Native scene actor, vehicle, camera, workspot, trigger and lipsync references are retained through exact native resources; PH3 studio_support hash is pinned unchanged. No unfiltered sector or new actor controller was introduced."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "OPAQUE: Exact current world sector/prefab placement, vehicle/spawn/trigger NodeRefs, workspot/camera binding and localized lipsync definitions are not all decoded/resolved.",
+        "LIVE_ONLY: Human Nature Johnny presentation relies on existing approved voice-only/JV1 behavior; actual visibility, camera focus, lip playback and streaming are not proven here."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "journal": {
+      "status": "PASS",
+      "proven": [
+        "Native journal writers and state input sockets are retained in delegated native body. Compensation reception scene313→316.Succeeded and native reward scene88.Succeeded remain authored.",
+        "Scared scene1280 and suicidal1272 receive actual Succeeded input0:3. Native done939→scan increment3810 and done933→increment3792 remain; root/267 guards105/108 bypass Inactive journal commands for already Succeeded case roots in S22.",
+        "Fresh scope ends through own Finished receipt after actual reward phase. It does not fabricate the native sq025_done final-story outcome that belongs to the later resurgence/core sequence."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Journal delivery, notifications, markers, delayed state changes and current saved journal are not measured."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native compensation scene12 output2:1 reaches reward609 QuestRewards.sq025_compensation; root completion316 and reward signal are connected from the compensation entry. Epistrophy reward88.Succeeded→101 grants exact QuestRewards.sq025_all_scans_completed.",
+        "Fresh reward124.Out1→1000FreshFinished→1001CutSource(114,142,147)→1002 air_traffic_off0→1003 Unblock sq025_delamain_garage token. Captured owner similarly1008Finished→1010CutSource→1011traffic0→1012unblock. Native body and once-only case increment parameters are retained."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "STATIC_TARGET_DATA_GAP: QuestRewards.sq025_compensation, QuestRewards.sq025_all_scans_completed and branch reward/vehicle definitions/current TweakDB overrides are not independently resolved.",
+        "LIVE_ONLY: Actual exactly-once reward delivery, token release and owned prefab teardown across interruptions/load transitions are not gameplay-tested."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "All current QR3 resource hashes match the pinned source/model evidence for these adapters; investigation edits no runtime resource or saved identifier. Fresh Issued guards, S22 captured-three-complete seam and per-car done/cleanup checks protect already completed/failed history.",
+        "Mutations against actual graph data detect a missing car scene branch, disconnected listener/cleanup, altered scan counter and removed return-car delay input. Positive symbolic fixtures use actual serialized logical trees with missing inputs refused."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: HS1 snapshots constrain primary history but do not decode actual saved descendants or prove every interrupted per-car state. Arbitrary partially finished states remain unsupported.",
+        "LIVE_ONLY: Old-owner adoption, pending-start/end calls, saving during driving/reward and future-version compatibility require transition fixtures."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Fresh core, captured-progress scanner, all seven car branches, native Delamain variant controller, shared cleanup and PH3 studios form one shared family; separate per-car catalogue rows are not separate owners.",
+        "Fresh94 remains a resident native listener for later work. S22 support rejects FreshIssued1. S29 actual OR completion/adoption guard and native cleanup references are preserved; the previously rejected fresh-listener race and synthetic counter resets were not retried."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "STATIC_CONTEXT_GAP: Outer154 native token/mail gate and persistent return-car owner context need resolution before complete family certification.",
+        "OPAQUE: Shared garage/street/studio bindings and exact TweakDB target definitions remain as documented.",
+        "LIVE_ONLY: Native phone arbitration, original persistent-owner retirement and saved callbacks are not simulated."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    }
+  },
+  "source_resources": [
+    "base\\quest\\bugfixing\\sidequests\\sq025\\sq025_cinematic_bugfixes.questphase",
+    "base\\quest\\bugfixing\\sidequests\\sq025\\sq025_encounter_bugfixes.questphase",
+    "base\\quest\\bugfixing\\sidequests\\sq025\\sq025_quest_bugfixes.questphase",
+    "base\\quest\\holocalls\\delamain\\delamain_cleanup.questphase",
+    "base\\quest\\holocalls\\delamain\\delamain_holocall.questphase",
+    "base\\quest\\holocalls\\delamain\\delamain_holocall.scene",
+    "base\\quest\\holocalls\\holocall_initializers.questphase",
+    "base\\quest\\persistent_content.questphase",
+    "base\\quest\\side_quests\\sidequests.questphase",
+    "base\\quest\\side_quests\\sq025\\phases\\sq025_01_hook.questphase",
+    "base\\quest\\side_quests\\sq025\\phases\\sq025_02_reception.questphase",
+    "base\\quest\\side_quests\\sq025\\phases\\sq025_03_briefing.questphase",
+    "base\\quest\\side_quests\\sq025\\phases\\sq025_04_scan.questphase",
+    "base\\quest\\side_quests\\sq025\\phases\\sq025_05_resurgence.questphase",
+    "base\\quest\\side_quests\\sq025\\phases\\sq025_05a_messages.questphase",
+    "base\\quest\\side_quests\\sq025\\phases\\sq025_06_backoffice.questphase",
+    "base\\quest\\side_quests\\sq025\\phases\\sq025_07_workshop.questphase",
+    "base\\quest\\side_quests\\sq025\\phases\\sq025_07_workshop_gameplay.questphase",
+    "base\\quest\\side_quests\\sq025\\phases\\sq025_08_core.questphase",
+    "base\\quest\\side_quests\\sq025\\phases\\sq025_finished.questphase",
+    "base\\quest\\side_quests\\sq025\\phases\\sq025_return_archer.questphase",
+    "base\\quest\\side_quests\\sq025\\phases\\sq025_smalltalk.questphase",
+    "base\\quest\\side_quests\\sq025\\scenes\\sq025_01_crash.scene",
+    "base\\quest\\side_quests\\sq025\\scenes\\sq025_03_reception.scene",
+    "base\\quest\\side_quests\\sq025\\scenes\\sq025_04_briefing.scene",
+    "base\\quest\\side_quests\\sq025\\scenes\\sq025_05_scan.scene",
+    "base\\quest\\side_quests\\sq025\\scenes\\sq025_06_reward.scene",
+    "base\\quest\\side_quests\\sq025\\scenes\\sq025_06b_reward_holocall.scene",
+    "base\\quest\\side_quests\\sq025\\scenes\\sq025_07_resurgence.scene",
+    "base\\quest\\side_quests\\sq025\\scenes\\sq025_08_backoffice.scene",
+    "base\\quest\\side_quests\\sq025\\scenes\\sq025_09_labyrinth.scene",
+    "base\\quest\\side_quests\\sq025\\scenes\\sq025_10_resolution.scene",
+    "base\\quest\\side_quests\\sq025\\sq025.questphase",
+    "base\\quest\\side_quests\\sq025\\test\\sq025_00_setup_chicken_test.scene",
+    "base\\quest\\side_quests\\sq025\\test\\sq025_04_scan_mean_gameplay.questphase",
+    "towercontinued\\gig_phone_u9\\fixer_cleanup.questphase",
+    "towercontinued\\phone_studios_ph3\\studio_support.questphase",
+    "towercontinued\\sidejobs_s22\\delamain\\owner.questphase",
+    "towercontinued\\sidejobs_s22\\delamain\\scan.questphase",
+    "towercontinued\\sidejobs_s22\\delamain\\support.questphase",
+    "towercontinued\\sidejobs_s25\\families\\sq025_fresh.questphase",
+    "towercontinued\\sidejobs_s29\\entries\\sq025b_delamain_insurgence.questphase",
+    "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq025\\phases\\sq025_05_resurgence.questphase",
+    "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq025\\phases\\sq025_05a_messages.questphase",
+    "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq025\\phases\\sq025_06_backoffice.questphase",
+    "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq025\\phases\\sq025_07_workshop.questphase",
+    "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq025\\phases\\sq025_07_workshop_gameplay.questphase",
+    "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq025\\phases\\sq025_08_core.questphase",
+    "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq025\\scenes\\sq025_07_resurgence.scene",
+    "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq025\\scenes\\sq025_08_backoffice.scene",
+    "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq025\\scenes\\sq025_09_labyrinth.scene",
+    "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq025\\scenes\\sq025_10_resolution.scene",
+    "towercontinued\\sidejobs_s29\\native\\base\\quest\\side_quests\\sq025\\sq025.questphase"
+  ],
+  "test_results": "../../verification_02/tests.json"
+}

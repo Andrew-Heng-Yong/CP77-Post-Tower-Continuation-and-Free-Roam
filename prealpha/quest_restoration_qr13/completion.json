@@ -1,0 +1,198 @@
+{
+  "status": "QR13_COMPLETE_IMPLEMENTED_STAGED_CONDITIONAL_RESTORATION_WITH_EXPLICIT_BLOCKERS",
+  "utc": "2026-11-03T20:02:46.974620+00:00",
+  "canonical_epoch": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr13\\source_epoch_02.json",
+  "canonical_epoch_sha256": "A2EABC90B9A30E831703B1121BCD350D1AEA6C07C3453C696BBB5A0D56AED5F6",
+  "candidate": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr13\\candidate_01",
+  "zip": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr13\\candidate_01\\PTFR_QR13_Staged_NotInstalled.zip",
+  "zip_sha256": "B2BDC04BE7CF202047C3E7CF85F9BB3BD8F0D77B9D98ACA7C1377F5E5AD52EB8",
+  "archive_sha256": "97D3C65BB72F4BA4F3BCB6AECDE9ABA105315D0340918F42590363F9F90A32BF",
+  "implemented": [
+    "Ronald prospective real-consent first enrollment/contact and reviewed native shared bar support",
+    "Strict pre-ending-certified earned peaceful Coin Operated Boy final-Theo continuation with bounded passive support lifetime"
+  ],
+  "changed_resources": [
+    "towercontinued\\b0_story_eight\\ronald.questphase",
+    "towercontinued\\b0_story_eight\\ronald.scene",
+    "towercontinued\\sidejobs_s23\\base_b\\mq037.questphase"
+  ],
+  "changed_scripts": [
+    "r6/scripts/PTFR_Consolidated/PTFR_HistorySnapshotHS1.reds",
+    "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS23.reds"
+  ],
+  "package_paths": 51,
+  "archive_payloads": 1577,
+  "unchanged_old_payloads": 1574,
+  "unchanged_package_paths": 48,
+  "fresh_compile_sources": 131,
+  "fresh_compile_input_pins": 134,
+  "independent_final_checks": 2390,
+  "installed_pins_preserved": 60,
+  "save_files_preserved": 310,
+  "installed": false,
+  "published": false,
+  "game_launches": 0,
+  "CUA_or_live_game_API_calls": 0,
+  "save_or_live_fact_writes": 0,
+  "deployments": 0,
+  "remaining_limits": [
+    "Machine-spot placement OPAQUE; exact original prefab references only",
+    "Saved-owner/prefab/edge acquisition and actual runtime behavior LIVE_ONLY",
+    "Earlier Spray/timer/hostile or failed final/private-issued adapters remain unsupported",
+    "Skippy has no new safe-widening evidence",
+    "No currently qualified new manual test fixture or universal runtime/all-save/release PASS"
+  ],
+  "artifacts": {
+    "baseline.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr13\\baseline.json",
+      "sha256": "4C699D0890D3F90BA366BD8AFD06B46986064B80C78E4EE222436A4F7D968718",
+      "bytes": 6691157
+    },
+    "source_epoch_02.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr13\\source_epoch_02.json",
+      "sha256": "A2EABC90B9A30E831703B1121BCD350D1AEA6C07C3453C696BBB5A0D56AED5F6",
+      "bytes": 256897
+    },
+    "candidate_01\\package_manifest.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr13\\candidate_01\\package_manifest.json",
+      "sha256": "BC5766179423ED3D9A0C5DF7029E5B1D7D262214D44A182CFB17003312C7243B",
+      "bytes": 15172
+    },
+    "worker_c\\final_package_01\\verification\\review.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr13\\worker_c\\final_package_01\\verification\\review.json",
+      "sha256": "781B777060597EDB940B9A3206DE626445DE61F3BA6793892CF2C33A9FAE745F",
+      "bytes": 4904
+    },
+    "worker_c\\FINAL_PACKAGE_REVIEW.md": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr13\\worker_c\\FINAL_PACKAGE_REVIEW.md",
+      "sha256": "A65564E392B85F37CB2F2D72F8CC16107DBFF8FED9E1AA91B6201B4D103E8EC6",
+      "bytes": 5320
+    },
+    "verification\\compile_01\\result.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr13\\verification\\compile_01\\result.json",
+      "sha256": "65F763F9F9B3C0F4EF1DB6BD4DD1E76B02E56A4DED0E634C1B7422AAFBE611DA",
+      "bytes": 60841
+    },
+    "candidate_01\\rebuild_01.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr13\\candidate_01\\rebuild_01.json",
+      "sha256": "14ECA2395A5BC86EC25D395673E2CACA16E6828528702F9BE91BCB7F72F02AB1",
+      "bytes": 360738
+    },
+    "candidate_01\\promotion.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr13\\candidate_01\\promotion.json",
+      "sha256": "02EFD1F8B024C514FE4B2422D8DCBCA331E4C475937B6C46A74B8959B0C0943B",
+      "bytes": 4766
+    },
+    "worker_c\\ronald_serialized_01\\review.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr13\\worker_c\\ronald_serialized_01\\review.json",
+      "sha256": "79D8677B933E972B64E63FA0133AE0770860432696D37ACFE00904F4E8F412A5",
+      "bytes": 4727
+    },
+    "worker_a\\actual_brendan06_02\\review.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr13\\worker_a\\actual_brendan06_02\\review.json",
+      "sha256": "745A80C4A89B45CD0AACC1270E7DFD75553CB0B3CE3D2C4887C2A07B10BC37AE",
+      "bytes": 9762
+    },
+    "worker_c\\brendan_support_scope_01\\review.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr13\\worker_c\\brendan_support_scope_01\\review.json",
+      "sha256": "BAFAD71C551E5D871D6CFD57D9F69DE951613EC7750516F282D6AD774035D1C9",
+      "bytes": 14925
+    },
+    "brendan_provider_match.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr13\\brendan_provider_match.json",
+      "sha256": "41BFC914633F3D9F1E29817E3863240337AF004310CFD7BA6CC7B96249257786",
+      "bytes": 5592
+    },
+    "REPORT.md": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr13\\REPORT.md",
+      "sha256": "FED745A6ABCC10DC79D92ACFC5DE349393DC2D046344B5B91E1AC40F22174607",
+      "bytes": 9183
+    },
+    "HANDOFF.md": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr13\\HANDOFF.md",
+      "sha256": "19BB4D98325826B3C54D26DF6EC8B722AF63E97203546462EECD0FA9C2AE656E",
+      "bytes": 5063
+    },
+    "TEST_CARDS.md": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr13\\TEST_CARDS.md",
+      "sha256": "AC2490EB50A2849F0790AD7D9E1A4FE8B9DD6CE3EE8740F317020C5425D84152",
+      "bytes": 3955
+    },
+    "REGRESSION_REPORT.md": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr13\\REGRESSION_REPORT.md",
+      "sha256": "1C22A9C120CD7605DC64BA8111DA57BA13C56DCE5D646C35463246A3954D6E91",
+      "bytes": 3704
+    },
+    "REPRODUCE.md": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr13\\REPRODUCE.md",
+      "sha256": "8F9CF3761B2CC113F1F753E9B88E2AF0F67947CDA3F44C3BC157A1735B1F1425",
+      "bytes": 3391
+    },
+    "development_queue.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr13\\development_queue.json",
+      "sha256": "4428B40C0B16E506030AB9D712AA67C34DBBEC34E8C8D941F5975B264AECFFD4",
+      "bytes": 5069
+    },
+    "seal.py": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr13\\seal.py",
+      "sha256": "4EBB3EE62DF971AEBB7D5ED578B58C258F647615CA998DA8528A3D45EACA66DC",
+      "bytes": 5119
+    }
+  },
+  "local_links_verified": [
+    {
+      "document": "REPORT.md",
+      "target": "worker_a/proposal_02.json"
+    },
+    {
+      "document": "REPORT.md",
+      "target": "worker_c/ronald_serialized_01/review.json"
+    },
+    {
+      "document": "REPORT.md",
+      "target": "worker_b/revision_02/proposal.json"
+    },
+    {
+      "document": "REPORT.md",
+      "target": "worker_a/actual_brendan06_02/review.json"
+    },
+    {
+      "document": "REPORT.md",
+      "target": "worker_c/brendan_support_scope_01/review.json"
+    },
+    {
+      "document": "REPORT.md",
+      "target": "source_epoch_02.json"
+    },
+    {
+      "document": "REPORT.md",
+      "target": "verification/compile_01/result.json"
+    },
+    {
+      "document": "REPORT.md",
+      "target": "worker_c/FINAL_PACKAGE_REVIEW.md"
+    },
+    {
+      "document": "REPORT.md",
+      "target": "worker_c/final_package_01/verification/review.json"
+    },
+    {
+      "document": "REPORT.md",
+      "target": "development_queue.json"
+    },
+    {
+      "document": "REPORT.md",
+      "target": "TEST_CARDS.md"
+    },
+    {
+      "document": "REPORT.md",
+      "target": "HANDOFF.md"
+    }
+  ],
+  "current_state_pointer": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\docs\\knowledge\\current-state.md",
+    "sha256": "6DA5F00BE9D0F4276F436507565CEC851E018E6169C6055056E8A268F4B86CBD",
+    "before_sha256": "EDB168A3158AC9D89782F733F9A876D31B3126B7241D16D3813AD33CE679DD86"
+  },
+  "next": "No more closed-route tests. Review exact staged successor/remaining queue; any later deployment requires separate explicit authorization and guarded current-input installation/rollback. Do not rerun one-shot builders or manufacture fixtures."
+}

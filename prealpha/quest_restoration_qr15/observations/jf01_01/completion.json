@@ -1,0 +1,32 @@
+{
+  "status": "JF01_ASSESSED_RESTORATION_STILL_UNIMPLEMENTED",
+  "utc": "2026-11-04T15:57:30.809317+00:00",
+  "observation": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\observations\\jf01_01\\result.json",
+    "sha256": "2816A405F94A5EEA0CCA2DB62FBC6A8B25F75CEE1C2542AA3ABD75083487BB50"
+  },
+  "disposition": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\observations\\jf01_01\\engineering_disposition.json",
+    "sha256": "866E04E322B91659F581A7C52DEB31AF94D352BBD29B1823525C085B4F546420"
+  },
+  "native_store_semantics": {
+    "report": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\saved_graph_state_01\\REPORT.md",
+    "manifest": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\saved_graph_state_01\\manifest_01.json",
+    "manifest_sha256": "342B776BFD8476BA279FD0B0F03F9337E7365832A1532E87D7E25C8A067E0ED9",
+    "verification": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\saved_graph_state_01\\verification_01.json",
+    "verification_sha256": "C71BBFE461CF3A5D6F5BCB0E792F00BB85A14A0EF94C665DE8B3FCF45498E615",
+    "static_checks": 17
+  },
+  "one_save_read": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\stores_autosave8_01\\facts.json",
+    "sha256": "DA29A25034670AC5CCF26C7663FDD3C70E24D609B11A39A2DA812652CCBD42CE",
+    "source_save_hash": "AE7331494F242FDCFA9008D86588F9C431B9ABA6092B7E9C845EE78D3D30CE9E",
+    "unchanged_after_read": true,
+    "live_body_binding": "UNKNOWN"
+  },
+  "remaining": "Exact saved phase/root binding, pending owners/handlers and full16branch world/car/prefab lifecycle. No unsafe or speculative fix selected.",
+  "runtime_changes": 0,
+  "new_candidate": null,
+  "new_installation": false,
+  "additional_ready_human_tests": []
+}

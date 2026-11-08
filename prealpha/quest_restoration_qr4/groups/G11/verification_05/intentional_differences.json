@@ -1,0 +1,54 @@
+{
+  "existing_private_adaptations": [
+    {
+      "quest_id": "sts_cct_cpz_01",
+      "kind": "Embedded_to_Soft_native_reference",
+      "evidence": "Exact payload comparison and external/native embedded graph equivalence"
+    },
+    {
+      "quest_id": "sts_cct_dtn_05",
+      "kind": "Embedded_to_Soft_native_reference",
+      "evidence": "Exact payload comparison and external/native embedded graph equivalence"
+    },
+    {
+      "quest_id": "sts_cct_dtn_03",
+      "kind": "Embedded_to_Soft_native_reference",
+      "evidence": "Exact payload comparison and external/native embedded graph equivalence"
+    },
+    {
+      "quest_id": "sts_cct_dtn_04",
+      "kind": "Embedded_to_Soft_native_reference",
+      "evidence": "Exact payload comparison and external/native embedded graph equivalence"
+    },
+    {
+      "quest_id": "sts_cct_dtn_02",
+      "kind": "Embedded_to_Soft_native_reference",
+      "evidence": "Exact payload comparison and external/native embedded graph equivalence"
+    },
+    {
+      "quest_id": "sts_cct_dtn_05",
+      "graph": "root/4",
+      "removed_edge": [
+        "0",
+        "Out",
+        "6",
+        "In"
+      ],
+      "kept_nodes": [
+        6,
+        7
+      ],
+      "reason": "Existing whitelist isolation of sibling GuineaPigs default community deactivation",
+      "recipe_plan_sha256": "573D3A358101C2327D3AE88A03A919E6F6ACF6ADA49A98438192C30E867C5256"
+    }
+  ],
+  "native_protocol_anomalies": [
+    {
+      "quest_id": "sts_cct_cpz_01",
+      "caller": "sts_cct_cpz_01_holocall_prebrief.scene",
+      "route": "65end_activate1\u219260waitsame_request>0\u219261end_done0\u2192terminating2",
+      "status": "CONDITIONAL_NATIVE_PROTOCOL_PARITY_NOT_RUNTIME_ACK_PROOF",
+      "change_authorized": false
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+# Violence — G03
+
+No source-confirmed defect; no runtime changes. Full static certification remains blocked.
+
+## entry — APPROVED_DEVIATION
+
+- Current root1002.Out->1003Lizzy listener wait->54/80/55->171doneFalse->native133->94->1004->1005Issued->1006Entered->1010AddContactLizzy->38.In1. Native root133 and all copied ancestor payloads/edges remain exact.
+
+Remaining:
+
+- LIVE_ONLY: Actual native-token admission and phase scheduling are unobserved.
+
+## eligibility — CONDITIONAL
+
+- Native root/133 waits q112_done>0 then seven StreetCredTier district alternatives through XOR17;94 preserves sq017_active0 AND MinorQuestAndSts token. No arbitrary q112/sq017 facts are written.
+- All61 journal/contact paths and progress facts must remain native-unstarted at1002/1004; all known progressed/failed/succeeded/missing states are rejected.
+
+Remaining:
+
+- STATIC_UNRESOLVED: Exact StreetCredTier.*Tier3 definitions/effective thresholds are native-data dependencies not numerically resolved here.
+- LIVE_ONLY: Earned q112 state and actual player tier/token inputs remain save/engine facts.
+
+## communications — PASS
+
+- Actual1003 PauseCondition requires PTFRS24_PHONE_LIZZY_Issued1 before quest claim; phonewrapper66 starts while parentPermit1/Issued0. The discarded race jumped past this wait and is not a defect.
+- Native scene471->465(startwait),488->482(endwait),508->502 and522->516 alternate pairs retain actual lizzy request/done names. Controller4->30.False->12->scene holo_v_calls_lizzy_wizzy_start and5->13->end produce real43/44 acks; display-name alias is native. Shared cleanup900.True->901.In29->Out29->911 is connected.
+
+Remaining:
+
+- LIVE_ONLY: Native reject/retry/audio routes, pending ends, counters, actual call UI and playback remain unobserved.
+
+## ownership — CONDITIONAL
+
+- Native body38 and its motel/nightclub/holocall/finale phase owners remain exact. The root motel prefab and native parallel wait for sq017 completion are retained, rather than restarting the nightclub during an active excluded story.
+- Fresh unissued guards and real phone pause order private ownership; original main/minorquest terminating ancestry is reused.
+
+Remaining:
+
+- LIVE_ONLY: Actual saved original/private descendant retirement and old issued request adoption require fixtures.
+
+## progression — PASS
+
+- Native root0->hook3->motel2->nightclub8->holocall13->finale14 remains. Nightclub out_sq017_active waits22sq017_done then reenters8; out_clean_up24 is retained.
+- Native final/report-recording/rejection, body disposal and no-help outcomes remain delegated; no synthetic success or actor/device bypass is inserted.
+
+Remaining:
+
+- LIVE_ONLY: Choice/scene, club restrictions, actor and disposal execution require gameplay.
+
+## presentation — OPAQUE
+
+- Native #mq019_pr_notell_motel and nightclub/finale actor, body, camera, workspot and scene references remain exact, including original actor bindings and native scene assets.
+
+Remaining:
+
+- OPAQUE: Full streamed prefab/marker/actor/camera/workspot and localized VO semantics are not independently world-resolved.
+- LIVE_ONLY: Presentation, camera/render, phone playback and supporting voice-only policy effect need observation.
+
+## journal — PASS
+
+- Hook read_message, motel coordinates, riot Liam/VIP objectives and holocall call_client retain exact paths/socket states. Native35.Out->5.Succeeded completes initial work; finale normal/failure roots6/12/47 remain authored.
+
+Remaining:
+
+- LIVE_ONLY: Delayed journal-state processing and displayed markers are not executed by static checks.
+
+## completion_rewards_cleanup — CONDITIONAL
+
+- Original motel12/riot18 and holocall root/15 reward3/6 retain reward_didnt_tell/recording branching; finale root/43 reward2 retains body_dispossed reward. Native finale40 writes mq019_done1, original NoTimeSkip restoration/cleanup paths remain unchanged.
+
+Remaining:
+
+- STATIC_UNRESOLVED: Current QuestRewards.mq019_* definitions, providers and numeric reward outcomes are not resolved by pointer preservation.
+- LIVE_ONLY: Exactly-once delayed SMS/reward, corpse cleanup and reload transitions need fixtures.
+
+## persistence — CONDITIONAL
+
+- All original resource/node IDs and S24 durable receipts remain. No new source change, reinitialization or listener is needed; actual1003 barrier is already present and mutation-tested.
+
+Remaining:
+
+- LIVE_ONLY: Old manually issued/listener0 saves and interrupted native scenes remain explicit owner-adoption boundaries, not a reset or restart authorization.
+
+## shared_dependencies — CONDITIONAL
+
+- Native Lizzy listener66, real alias request/ack scene, cleanup901, PH3 studio and sq017 pause/reentry controls are traced together.
+- Native token/quest and phone ordering is retained; independent raw review confirms the initially proposed redundant patch must be rejected.
+
+Remaining:
+
+- OPAQUE: Shared studio/club and physical actor bindings remain unresolved.
+- LIVE_ONLY: Shared phone/SQ017/scene arbitration and saved interrupt lifetimes remain untested.

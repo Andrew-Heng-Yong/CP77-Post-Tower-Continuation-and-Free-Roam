@@ -1,0 +1,192 @@
+{
+  "quest_id": "mq003_orbitals",
+  "title": "Space Oddity",
+  "source_epoch": "QR6:00 = QR5:08 exact effective bytes",
+  "fully_static_verified": false,
+  "effective_resources": [
+    {
+      "depot": "towercontinued\\sidejobs_s28\\encounters\\mq003_main.questphase",
+      "sha256": "DF838E030B70FA94E2CD74580E2944C7CBC572FDF044A1ABBE22C9E3BA353E50"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s28\\encounters\\mq003_orbitals_entry.questphase",
+      "sha256": "577D2ADE50ACDEE60DBA7003EAB7CA92F5D4CF00AC9D149E0558813D41332742"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s28\\encounters\\mq003_pod.scene",
+      "sha256": "3322A0E24DBD2F1476008E8C65A61DF1BFB9CC2106036BC522C1421B816561B6"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s28\\encounters\\mq003_pod_phase.questphase",
+      "sha256": "2B662C4BF9F61AB68ABD22040C8DCA2042F1FB0A78A8AB5F2B8B5CFD97B683A1"
+    }
+  ],
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "S28 wrapper retains native minorquests root child7 and q001_done>0,q005_done>0,q101_enable_side_content>0 chain; native mq003_main body preserved with only orbital-pod phase reference relocated. Whole original homeless/corpse setup ancestry remains in exact root/nested phases."
+      ],
+      "approved_differences": [
+        "Existing post-Tower fresh wrapper/private resource relocation and scoped voice-only Johnny adaptations; exact donor comparisons retained."
+      ],
+      "remaining": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\script_pins.json"
+      ]
+    },
+    "eligibility": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Current guard has17Inactive histories, all listed native MQ003progress0 and ep1_standalone0/cp77_ep1_testing0, and exact earned q001/q005/q101/side-content facts. Native dialog/skill/item/coordinate and actual dropped-pod predicates remain inside body. No pre-Tower homeless outcome, suitcase/shard or drop coordinates are fabricated."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "No gameplay/old-owner/save-transition, effective override winner or undecoded world placement certification."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\script_pins.json"
+      ]
+    },
+    "communications": {
+      "status": "PASS",
+      "proven": [
+        "Actual source closure uses homeless and orbital-pod local scenes with original callback ports, not independent holo/audio phone requests or SMS. Current private pod scene retains same screenplay/callback/quest effects while Johnny presentation is adapted; no missing phone listener or synthetic ACK is inferred."
+      ],
+      "approved_differences": [],
+      "remaining": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\script_pins.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Main retains#mq003_pr_homeless and#mq003_pr_corpse; actual orbital-pod phase retains#mq003_pr_orbital_pod. All native nested2/9/13 setup/cleanup owners remain. Only whole scoped body is rehosted after original main ancestry retirement; no unfiltered world/encounter controller added."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "No gameplay/old-owner/save-transition, effective override winner or undecoded world placement certification."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\script_pins.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Exact original root/nested graph nodes, sockets, predicates and edges remain after explicit mq003_main→privatepod and pod75/53/94→privatescene references. Original homeless negotiation/attack/corpse alternatives, enemy intercept, actual pod opening/looting, cleanupAND10 and genuine mq003_done12 remain native."
+      ],
+      "approved_differences": [],
+      "remaining": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\script_pins.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Original homeless/corpse/pod prefab leases, dropped-pod markers/enemy group and scene cameras/workspots/actor bindings are preserved. Private pod scene mutes only Johnny presentation/workspot events under existing voice-only policy, retaining dialogue and gameplay callbacks. World placement, independent prop rendering and enemy streaming remain opaque/live."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "No gameplay/old-owner/save-transition, effective override winner or undecoded world placement certification."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\script_pins.json"
+      ]
+    },
+    "journal": {
+      "status": "PASS",
+      "proven": [
+        "Seventeen selected journal/objective/description/pin histories retain exact classes and source predicates. Homeless suitcase_open150/154 and shard_used183 only follow actual native choices; private wrapper does not fake suitcase/coordinates. Actual dropped-pod and terminal quest states retain native writing sockets."
+      ],
+      "approved_differences": [],
+      "remaining": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\script_pins.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native homeless130 reward150894402697 and pod66 reward155544231233 remain separate authored outcomes; pod66→127 and original item/loot event then rootmq003_done12 are unchanged. Original community/variant/restriction cleanup and saved actor references remain exact. Effective economic/item definitions and exactly-once transaction/reload behavior remain engine-dependent."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "No gameplay/old-owner/save-transition, effective override winner or undecoded world placement certification."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\script_pins.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "All native root/nested resource/node IDs and private S28saved receipt names are stable. Fresh17-history/nativefacts guard preserves choices and defers progressed jobs; no suitcase/shard/pod history reset or new grant. Persistent drop-pod container and old executing owner transitions require exact save fixtures."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "No gameplay/old-owner/save-transition, effective override winner or undecoded world placement certification."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\script_pins.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Source dependencies include earned main story/side-content, exact homeless/corpse/pod prefabs, real computer/shard coordinate callback, native enemy intercept and existing JV1 voice-only boundary. Unknown actor/container history and external world/TDB providers remain explicit; no Reactivate/ResetKillCount support is invented."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "No gameplay/old-owner/save-transition, effective override winner or undecoded world placement certification."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\script_pins.json"
+      ]
+    }
+  },
+  "confirmed_defects": [],
+  "runtime_changes": []
+}

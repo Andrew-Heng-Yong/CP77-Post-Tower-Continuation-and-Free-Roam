@@ -1,0 +1,137 @@
+[
+  {
+    "quest_id": "mws_wat_08_trauma_drama",
+    "title": "Career Opportunities",
+    "stage": "persistence",
+    "previous_status": "UNKNOWN",
+    "status": "UNKNOWN",
+    "source_epoch_investigated": "QR6:00 exact baseline with targeted QR7:01 repair applicability",
+    "effective_source_epoch": "QR7:04",
+    "proven": [
+      "Native/current SMS7 and56 are identical journal identities and sendNotification1/trackQuest0 writes. Native6→68→7→57(two seconds)→56→8 occurs before first-place8→9→started66, so early completed message histories are source-realizable.",
+      "Current RTTI/constructor/vtable evidence ties JournalQuestEntry_NodeType vfunc108 to processing56455C, which calls JournalManager290→565DFC→268→6C1A48→Active6543EC→common654C0C→guard6545D0.",
+      "The actual machine-code guard compares old/new states and immediately returns false when equal, before state writes/listener notifications. Five native-state equality fixtures and a flipped actual JNE negative control verify this property; the current input executable remains unchanged.",
+      "No duplicate notification or reward was asserted. No SMS receipt, native counter or synthetic acknowledgement was added."
+    ],
+    "approved_differences": [],
+    "remaining": [
+      "Saved early native-owner retirement and concurrent/queued owner state for the exact pre-first-place history remain unproved; the new proof does not create an old-owner transition fixture.",
+      "LIVE_ONLY: separate tracking callbacks, other journal ancestor states, game notifications and future-version save transitions remain outside this bounded equality proof."
+    ],
+    "evidence": [
+      "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\journal_proof_02\\result.json",
+      "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\journal_node_03\\manifest.json",
+      "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\quest_providers_01\\manifest.json",
+      "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\tests.json",
+      "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\handler_inventory.json",
+      "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\comparisons.json",
+      "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\source_pins.json",
+      "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\script_pins.json",
+      {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\candidate_01\\package_manifest.json",
+        "sha256": "98F4D1C1E109846E4D85CF0657A5B835D4542890BE3DE183494A670FD10A2279"
+      },
+      {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\candidate_01\\rebuild_01.json",
+        "sha256": "D2C17AD7A9BCCF8A0DFB4291E208742928104BD42A470DE8380B0223D65481C1"
+      },
+      {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\compile_reuse_01.json",
+        "sha256": "2E67E541D0EF98FE03F40BEF77EF0BAC95AB1F5340DED60FF873A1D3D34D9227"
+      },
+      {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\source_epoch_04.json",
+        "sha256": "8B0D8249908A9D96CF5564C9581ED466C061350B96A4BEE767D744B01DE28A1F"
+      },
+      {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_a\\reviews\\unknowns_final_01\\review.json",
+        "sha256": "E46C5CA390B175743ECDDFEAC68BD70F1D57D3EC38AE113A1EE31C3B97D918A7"
+      }
+    ],
+    "resolved_unknowns": [
+      "Native JournalManager same-state rejection and actual graph-operation applicability are proven on the exact current executable, rather than inferred from an API declaration."
+    ],
+    "remaining_unknowns": [
+      "Saved early native-owner retirement and concurrent/queued owner state for the exact pre-first-place history remain unproved; the new proof does not create an old-owner transition fixture."
+    ],
+    "runtime_changes": [],
+    "original_findings_source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\quests\\mws_wat_08_trauma_drama\\contracts.json",
+    "original_findings_source_sha256": "13307114EC66FD47ABDD2ECB15A72938C4C1AA5F62415AC44FD898E387577AB2",
+    "independent_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_a\\reviews\\unknowns_final_01\\review.json",
+    "original_QR6_status": "UNKNOWN",
+    "superseded_QR6_finding": {
+      "status": "UNKNOWN",
+      "proven": [
+        "All body/private identities are unchanged. Current guard protects rootInactive plus four progress0 facts but has no explicit prior congratulations message-state predicate. A pre-first-place native history can have7/56Active while rootInactive/started0. Native JournalManager reactivation notification idempotence and saved early owner state are exact missing evidence; no duplicate notification or reward is asserted, and no speculative receipt/reset is proposed."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "No gameplay/old-owner/save-transition, effective override winner or undecoded world placement certification."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\script_pins.json"
+      ],
+      "findings_source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\quests\\mws_wat_08_trauma_drama\\contracts.json",
+      "findings_source_sha256": "13307114EC66FD47ABDD2ECB15A72938C4C1AA5F62415AC44FD898E387577AB2",
+      "original_findings_source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\quests\\mws_wat_08_trauma_drama\\contracts.json",
+      "original_findings_source_sha256": "13307114EC66FD47ABDD2ECB15A72938C4C1AA5F62415AC44FD898E387577AB2",
+      "source_epoch_investigated": "QR6:00 (byte-identical QR5:08)",
+      "effective_source_epoch": "QR6:00",
+      "independent_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\reviews\\B02\\verification_01\\review.json",
+      "independent_review_sha256": "FEEB072826B895AD6A693EBEDF2DEC1DB38B6F7C2A4EBCA623D6422D069C3B7D"
+    },
+    "worker_finding": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\results_01\\contract_updates.json",
+      "sha256": "0C975F89D51B463D90984D2754A553EA45A9061C4F52738177B63DA48496262E",
+      "original_record": {
+        "quest_id": "mws_wat_08_trauma_drama",
+        "title": "Career Opportunities",
+        "stage": "persistence",
+        "previous_status": "UNKNOWN",
+        "status": "UNKNOWN",
+        "source_epoch_investigated": "QR6:00 exact baseline with targeted QR7:01 repair applicability",
+        "effective_source_epoch": "QR7:01",
+        "proven": [
+          "Native/current SMS7 and56 are identical journal identities and sendNotification1/trackQuest0 writes. Native6→68→7→57(two seconds)→56→8 occurs before first-place8→9→started66, so early completed message histories are source-realizable.",
+          "Current RTTI/constructor/vtable evidence ties JournalQuestEntry_NodeType vfunc108 to processing56455C, which calls JournalManager290→565DFC→268→6C1A48→Active6543EC→common654C0C→guard6545D0.",
+          "The actual machine-code guard compares old/new states and immediately returns false when equal, before state writes/listener notifications. Five native-state equality fixtures and a flipped actual JNE negative control verify this property; the current input executable remains unchanged.",
+          "No duplicate notification or reward was asserted. No SMS receipt, native counter or synthetic acknowledgement was added."
+        ],
+        "approved_differences": [],
+        "remaining": [
+          "Saved early native-owner retirement and concurrent/queued owner state for the exact pre-first-place history remain unproved; the new proof does not create an old-owner transition fixture.",
+          "LIVE_ONLY: separate tracking callbacks, other journal ancestor states, game notifications and future-version save transitions remain outside this bounded equality proof."
+        ],
+        "evidence": [
+          "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\journal_proof_02\\result.json",
+          "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\journal_node_03\\manifest.json",
+          "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\quest_providers_01\\manifest.json",
+          "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\tests.json",
+          "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\handler_inventory.json",
+          "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\comparisons.json",
+          "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\source_pins.json",
+          "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\script_pins.json"
+        ],
+        "resolved_unknowns": [
+          "Native JournalManager same-state rejection and actual graph-operation applicability are proven on the exact current executable, rather than inferred from an API declaration."
+        ],
+        "remaining_unknowns": [
+          "Saved early native-owner retirement and concurrent/queued owner state for the exact pre-first-place history remain unproved; the new proof does not create an old-owner transition fixture."
+        ],
+        "runtime_changes": [],
+        "original_findings_source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\quests\\mws_wat_08_trauma_drama\\contracts.json",
+        "original_findings_source_sha256": "13307114EC66FD47ABDD2ECB15A72938C4C1AA5F62415AC44FD898E387577AB2",
+        "independent_review": "Pending worker review for new Career/Cuckoo/Voodoo properties; Nitro accepted source and serialized review separately pinned."
+      }
+    },
+    "source_epoch_manifest": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\source_epoch_04.json",
+    "source_epoch_sha256": "8B0D8249908A9D96CF5564C9581ED466C061350B96A4BEE767D744B01DE28A1F",
+    "coordinator_disposition_scope": "Current staged successor only. No deployment or gameplay success; prior source finding is preserved separately.",
+    "independent_review_sha256": "E46C5CA390B175743ECDDFEAC68BD70F1D57D3EC38AE113A1EE31C3B97D918A7",
+    "final_gate_boundary": "Independent final package and completeness reviews are separate evidence pinned by completion.json; this matrix does not infer their outcome."
+  }
+]

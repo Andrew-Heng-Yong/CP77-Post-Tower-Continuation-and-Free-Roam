@@ -1,0 +1,22 @@
+{
+  "state": "READ_ONLY_SAVE_DISCOVERY_IN_PROGRESS",
+  "slots": 102,
+  "offline_backups": 102,
+  "unique_body_jobs": 171,
+  "completed_body_results": 109,
+  "active_batches": [
+    73,
+    85,
+    97
+  ],
+  "next_batch_starts": [
+    109,
+    121,
+    133,
+    145,
+    157,
+    169
+  ],
+  "preserve": "baseline/inventory/probe/batch outputs; do not rerun occupied outputs or mutate saves",
+  "scope": "QR12 no install/game/CUA/fact/save edits"
+}

@@ -1,0 +1,21 @@
+# Where Eagles Dare
+
+entry: APPROVED_DEVIATION. S29 fresh65005→native64001 exact copied global quest_bugfixing root/3 node100 condition→65006→64000.StartQuest. The complete original body and all nested phases are copied with exact private resource relocation; EndQuest returns65007. Limits: Actual original predecessor history remains required; no excluded Motorbreath or Claire story is started.
+
+eligibility: CONDITIONAL. Exact immediate native AND requires sq024_done1, mq057_done1, mounted Vehicle.v_sport1_yaiba_semimaru_player (enterAnimationFinished1), and mq058_failed_to_open_vvc1. Current guard also requires118Inactive histories and tenfresh MQ058progress0 facts. Native Claire attitude initialization reads real sq024_claire_pissed and yaiba_semimaru_available rather than fabricating either. Limits: Motorbreath is excluded restoration content; its genuine earned completion may still satisfy this prerequisite. Missing/contradictory history defers; engine vehicle/VVC state remains live.
+
+communications: PASS. Original Marianne/Claire direct SMS conversations, real JournalPhoneChoiceEntry Succeeded waits and separate attitude0/1 choice routes are preserved throughout hook/resolution. Exact forced phone restriction source mq058_PhoneRestriction_TransferSemimaruData is applied/released by native nodes128/129. No holo caller/ACK is invented. Limits: UI response/read events, restriction delivery and interrupted transfer/reload require gameplay evidence.
+
+ownership: CONDITIONAL. Original global caller100→98 is under genuinely retired main bugfix ancestry. Private whole body retains#mq058_quest, with exact native content-token setup/main enable/disable control and cleanup phase; no whole global bugfix parent or extra default/Claire owner is imported. Limits: Saved native owner and existing personal vehicle/website/controller leases remain fixture-dependent.
+
+progression: PASS. All native Eagles questphase nodes, nested graphs, condition trees and edges compare exactly after private references. Original ClaireAttitude switches, mint hideout/computer hack, optional branches, transfer scene End, VVC opened wait124 and cleanup remain exact. Limits: Authored transfer branch parity does not guarantee engine vehicle feature support, UI callbacks or actual unlock rendering.
+
+presentation: OPAQUE. Exact dedicated root prefab, Semimaru vehicle, Mint actors/devices, cameras/workspots/scene markers and scene callback bindings are retained; copied scene graph and dialogue/side effects compare native. Limits: World sector placement, VVC feature/vehicle registration and streamed actor/workspot behavior remain opaque/live.
+
+journal: PASS. All118selected quest/phase/objective/pin/description/contact histories are exact guard paths/classes withInactive requirements. Resolution56/66 and rooted native end/failed paths retain original state sockets; no fake unlock/completion journal state is written. Limits: Effective JournalManager resolution and actual vehicle UI notifications need engine observation.
+
+completion_rewards_cleanup: CONDITIONAL. Native update_applied123/151, opened_vvc wait124, mq058_done64, active0 terminal211 and Quest_Status101 remain exact. Native phone/content-token cleanup and Semimaru enable/disable alternatives remain unmodified; no duplicated economic reward is added. Limits: Actual CrystalCoat entitlement, runtime TDB vehicle definitions/effective winners, cleanup and reload remain untested.
+
+persistence: CONDITIONAL. Original quest resource/node/field IDs and S29private receipts are unchanged. Fresh guards refuse selected MQ058history/progress; native predecessor completions and existing player vehicle are read, never reset or re-awarded. Limits: Unsupported unfinished/saved transfer owners and future-version save transitions remain deferred to precise fixtures.
+
+shared_dependencies: CONDITIONAL. Native dependencies include earned sq024/mq057 outcomes, exact Semimaru mounting/VVC state, Claire attitude, Marianne SMS choices, dedicated prefab and content-token arbitration. Selected restoration does not broaden whitelist or synthesize excluded prerequisite completion. Limits: World/vehicle/shared-phone token execution and external TDB modifications remain separate from proven source predicates.

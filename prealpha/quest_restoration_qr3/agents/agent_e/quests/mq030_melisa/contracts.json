@@ -1,0 +1,201 @@
+{
+  "quest_id": "mq030_melisa",
+  "title": "Bullets",
+  "status": "CONFIRMED_DEFECT_PENDING_ROOT_REPAIR",
+  "static_verified": false,
+  "defects": [
+    {
+      "id": "QR3-E-MQ030-LEASE",
+      "status": "CONFIRMED_STRUCTURAL_DUPLICATE_OWNER_ROUTE_REVIEW_REQUIRED",
+      "resource": "towercontinued\\sidejobs_s23\\base_b\\mq030.questphase",
+      "resource_sha256": "888B87EDCDCF8B8BCFE162261904B4F325C37D525D26DA3C87E75762BEA83D5E",
+      "competing_resource": "towercontinued\\b0_story_zane\\zane_service.questphase",
+      "route": "native18.Out1->1007.Finished->1012.QuestOwns0 leaves helper1020/1021 alive;B0 root2 then admits5 with same #pr_cct_dtn_cloth_01",
+      "current_regression_pass": false,
+      "proposal_regression_pass": true,
+      "proposal": "Use existing helper3->5->1.Terminating natural completion as retirement acknowledgement. Stop helper on own Finished1; route helperOut1 through completion check before1012;wake pending1021 onFinished. No cut/release fanout. Preserve existingIDs andnativefacts.",
+      "limits": "Actual actor duplication is LIVE_ONLY; old-save paused condition re-evaluation and pre-existing overlap need transition review. No runtime patch performed by agent."
+    }
+  ],
+  "repairs": [],
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Current wrapper starts1000->1001Ready->1002guard->1003PA2 pause->1010 QuestOwns1->1011 waits B0 released/inactive/outside ->native54(q001_done)->80(q005_done)->55(q101_enable_side_content)->1004 recheck.True->1005Issued->1006Entered.1006 starts18.In1 exact original MQ030 body and temporary vendor helper1020. False1004->1013 QuestOwns0->1002 rearms.",
+        "Current18 phase payload equals native minorquests18. Native body0->43 initial encounter->63 Melisa quest->64 cleanup->83 followup messages->1 output is unmodified; second_meeting_in debug/resume entry is not used."
+      ],
+      "approved_differences": [
+        "Established S23/CR1 adds genuine Tower, U9, settled history and explicit B0 Zane lease handoff to a fresh native entry."
+      ],
+      "remaining": [
+        "LIVE_ONLY: Activation/actual eligible fixture is not observed."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "eligibility": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Both1002 and1004 require root/child journal freshness, native mq030 active/done/failed/kill_scene/maxtac/progress facts neutral, Permit1 and Issued/Finished/Fault0. Automated guards reject Active/Succeeded/Failed root, missing journal, used owner and non-Tower state.",
+        "Exact native q001_done>0,q005_done>0,q101_enable_side_content>0 ancestor nodes54/80/55 are preserved. Current S23 Read/Ready uses defined settled journal/facts and repeated matching samples; no native state is reset to fabricate readiness."
+      ],
+      "approved_differences": [
+        "Fresh-only admission preserves progressed/completed/failed native histories and original prerequisites."
+      ],
+      "remaining": [
+        "LIVE_ONLY: Current player history and safe sampling state are not inspected."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "communications": {
+      "status": "PASS",
+      "proven": [
+        "Full native MQ030 closure has no positive audio/holo phone request producer. No caller/listener acknowledgement repair is required for this quest. Native face-to-face Melisa/MaxTac scene is referenced unchanged.",
+        "Real native SMS is root/83:2->3->4.Active contacts/zane/mq030_follow_up/mq030_01_msg_thanks ->7.Active gossip->12.Active choice;5 waits always choice,24 waits nah choice,29/31 and37/38 retain later response alternatives. Native failed17.True->18->19->20->21.Failed remains. Body does not return until authored followup branch has returned."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: SMS delivery, actual answers and conversation execution remain engine behavior. No phone test is requested."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "ownership": {
+      "status": "FAIL",
+      "proven": [
+        "Initial handoff is explicit:1010 asserts B0 QuestOwns before1011 waits Released1/OwnerActive0/Inside0; temporary helper1020 and B0 owner5 each bind #pr_cct_dtn_cloth_01 and Activate #zane/zane_jagger.",
+        "Confirmed faulty completion route:18.Out1->1007Finished1->1012 QuestOwns0 while1020.Out1->1021 default_on>0->1020.In1 remains armed. Native cleanup makes default_on positive. B0 root2 admits when QuestOwns0,Enabled1,default_on>0, even mq030_done1. Thus an old helper owner and newly admitted B0 owner may structurally overlap after completion.",
+        "Current native helper root/1020 node3(default_on<1)->5 mappinInactive->1 Terminating provides a natural retirement acknowledgement. It currently does not observe the private completion fact; baseline retirement regression fails."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "IMPLEMENTATION: Root controls the acknowledged-retirement repair after independent review. Agent E changed no runtime resource.",
+        "LIVE_ONLY: Actual saved owner retirement, interrupted scenes and restore/reload scheduling require matching runtime fixtures; no save was decoded or modified."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json",
+        "../../verification_02/defect_mq030.json",
+        "../../verification_02/proposal_mq030.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Native root43 concurrently starts Jinguji community scene17 and waits12 mq030_zane_met>0 before enabling encounter9 active1 then10 default service off. No fresh adapter substitutes the second_meeting input.",
+        "Native root63 invokes full Melisa phase, then cleanup64 resets active16,sets done17,restores native default service19 and Zane gratitude47 before original followup83. All native combat/scene/death branches, actor/crowd operations and original nested connections are byte-pinned."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Cyberpsycho combat, MaxTac arrival and dialogue/performance execution are not simulated. The separate confirmed service-owner cleanup defect is not a native quest branch rewrite."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Native MQ030 root retains #mq030_pr_melisa. Existing B0 and temporary service prefabs, Melisa/Jinguji scenes, actor bindings, NodeRefs and workspots are inventoried and unchanged. Fresh wrapper18 delegates the full native resource, including root prefab obligations.",
+        "Recorded native source hashes and raw JSON/model equality establish graph/binding preservation; they do not prove actual world placement or prefab instance retirement."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "OPAQUE/CONDITIONAL: Full world-sector placement/variant/camera/workspot resolution and localization references have not been independently decoded. Shared studio opacity is inherited where applicable.",
+        "LIVE_ONLY: Visible actor duplication from the source-confirmed lease overlap, crowd/animation/rendering and streaming are runtime observations, not claimed results."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "journal": {
+      "status": "PASS",
+      "proven": [
+        "Native MQ030 objective/point-of-interest and followup-message state writers retain exact paths and input sockets. Root/43 node24.Out->20.Active marks the encounter POI; root/83 failed17.True branch reaches quest21.Failed.",
+        "Wrapper does not reset journals or synthesize success. Native scene/current branch and followup text remain original; wrapperFinished records body return, not fake quest success."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Engine journal propagation and displayed markers/messages are not executed."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "FAIL",
+      "proven": [
+        "Native scene553->814 grants QuestRewards.mq030_cyberpsycho_defeated;486->817 grants QuestRewards.mq030_testimony_given; original outcomes/record pointers are unchanged. Native root/64 restores default_on and sets done, preserving native actor/security cleanup.",
+        "Private cleanup releases B0 lease at1012 before retiring helper1020 or pending rearm1021. This is the confirmed source defect; native gameplay reward nodes do not justify replay/reset or another spawn owner."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "IMPLEMENTATION: Root repair should release the lease only after helper natural Terminating output or a completed pending-wait decision; proposed two-decision graph preserves all old IDs.",
+        "CONDITIONAL: Exact QuestRewards target definitions/current providers and numeric outcomes remain unresolved.",
+        "LIVE_ONLY: Actual saved owner retirement, interrupted scenes and restore/reload scheduling require matching runtime fixtures; no save was decoded or modified."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json",
+        "../../verification_02/defect_mq030.json"
+      ]
+    },
+    "persistence": {
+      "status": "FAIL",
+      "proven": [
+        "All current source hashes and saved node/resource identities are unchanged by this investigation. Issued receipt prevents fresh restart. Existing helper1020/1021 can remain executing when main18 returns, so a saved completed owner can retain the faulty helper/rearm scope.",
+        "Proposed model preserves all old parent/helper IDs and introduces only1022/1023. Eight explicit symbolic fixtures cover active helper versus pending rearm, finished0/1 and default_on0/1; already-finished pending scope releases without reentering/spawn flash."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "IMPLEMENTATION: Proposed fixtures are not proof that a serialized patch or old saved pause reevaluates correctly; root serialization/readback and later saved transition validation are required.",
+        "LIVE_ONLY: Actual saved owner retirement, interrupted scenes and restore/reload scheduling require matching runtime fixtures; no save was decoded or modified."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json",
+        "../../verification_02/proposal_mq030.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "FAIL",
+      "proven": [
+        "Confirmed overlap affects B0 Jinguji/Zane default service, not the three QR2 quests. Competing scopes use identical #pr_cct_dtn_cloth_01 and #zane binding. B0 private root2 excludes QuestOwns1 but does not exclude mq030_done1, which is appropriate for restored postquest shop availability.",
+        "Correct repair targets temporary helper retirement before lease release, retaining the ordinary B0 owner. It must not permanently hold the lease, force default_on changes, reset story facts or duplicate a replacement service."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "IMPLEMENTATION: Root coordinates independent review and actual successor; Agent E proposal is data-only and not an installed/cooked resource.",
+        "CONDITIONAL: Shared prefab/world semantics and live lease ordering remain additional limits."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json",
+        "../../verification_02/defect_mq030.json"
+      ]
+    }
+  },
+  "tests": "../../verification_02/tests.json",
+  "scope": "Current PH3 baseline. Root may add a separate repaired-successor adjudication; baseline findings remain immutable."
+}

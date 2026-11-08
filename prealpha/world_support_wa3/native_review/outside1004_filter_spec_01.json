@@ -1,0 +1,421 @@
+{
+  "id": 1004,
+  "native_prefab": "$/03_night_city/#c_heywood/glen/gle_ma_prefab6YIXIPY/ma_hey_gle_05_prefabMWDGIAA/ma_hey_gle_05_openworld_prefab4ABZFDY",
+  "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_fa6df5356603d67f.streamingsector",
+  "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\outside_prefab_native_02\\basegame_3_nightcity.archive\\quest_fa6df5356603d67f.streamingsector",
+  "sector_sha256": "88B014D1BCB52C7099061D492D396EC727C04A51EC11131D0C7CB0A2D399C259",
+  "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\outside_prefab_decoded_01\\quest_fa6df5356603d67f.json",
+  "drop_nodes": [
+    64
+  ],
+  "drop_types": [
+    "worldInterestingConversationsAreaNode"
+  ],
+  "drop_placements": [
+    64
+  ],
+  "preserve_ai_spots": 61,
+  "conversation_dependency": {
+    "copy": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\lore_native_01\\basegame_3_nightcity.archive\\la_street_violence_02.scene",
+    "sha256": "7A31E61EB0100AF3F5AA77459BD7C7C0771C3B7C935F6BABF13D89C1FDF616DD",
+    "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_3_nightcity.archive",
+    "depot": "base\\open_world\\scenes\\lore_animations\\la_street_violence_02.scene"
+  },
+  "unsafe_operations": [
+    {
+      "$type": "questSetVar_NodeType",
+      "factName": "la_street_violence_02",
+      "setExactValue": 1,
+      "value": 1
+    },
+    {
+      "$type": "questSetVar_NodeType",
+      "factName": "la_street_violence_02_pause",
+      "setExactValue": 1,
+      "value": 1
+    },
+    {
+      "$type": "questCharacterManagerParameters_SetStatusEffect",
+      "isPlayer": 0,
+      "isPlayerStatusEffectSource": 1,
+      "puppetRef": {
+        "$type": "gameEntityReference",
+        "dynamicEntityUniqueName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "None"
+        },
+        "names": [],
+        "reference": {
+          "$type": "NodeRef",
+          "$storage": "uint64",
+          "$value": "0"
+        },
+        "sceneActorContextName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "~/../la_street_violence_02_gang"
+        },
+        "slotName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "None"
+        },
+        "type": "SceneActorContextName"
+      },
+      "recordSelector": {
+        "HandleId": "39",
+        "Data": {
+          "$type": "questRecordSelector",
+          "characterRecordID": {
+            "$type": "TweakDBID",
+            "$storage": "uint64",
+            "$value": "0"
+          },
+          "deviceRecordID": {
+            "$type": "TweakDBID",
+            "$storage": "uint64",
+            "$value": "0"
+          },
+          "isCharacter": 1,
+          "isDevice": 0,
+          "isItem": 0,
+          "itemRecordID": {
+            "$type": "TweakDBID",
+            "$storage": "uint64",
+            "$value": "0"
+          }
+        }
+      },
+      "set": 1,
+      "statusEffectID": {
+        "$type": "TweakDBID",
+        "$storage": "string",
+        "$value": "BaseStatusEffect.LoreAnim"
+      },
+      "statusEffectSourceObject": {
+        "$type": "gameEntityReference",
+        "dynamicEntityUniqueName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "None"
+        },
+        "names": [],
+        "reference": {
+          "$type": "NodeRef",
+          "$storage": "uint64",
+          "$value": "0"
+        },
+        "sceneActorContextName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "~/../la_street_violence_02_civilian"
+        },
+        "slotName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "None"
+        },
+        "type": "SceneActorContextName"
+      }
+    },
+    {
+      "$type": "questCharacterManagerParameters_SetStatusEffect",
+      "isPlayer": 0,
+      "isPlayerStatusEffectSource": 1,
+      "puppetRef": {
+        "$type": "gameEntityReference",
+        "dynamicEntityUniqueName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "None"
+        },
+        "names": [],
+        "reference": {
+          "$type": "NodeRef",
+          "$storage": "uint64",
+          "$value": "0"
+        },
+        "sceneActorContextName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "~/../la_street_violence_02_gang"
+        },
+        "slotName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "None"
+        },
+        "type": "SceneActorContextName"
+      },
+      "recordSelector": {
+        "HandleId": "153",
+        "Data": {
+          "$type": "questRecordSelector",
+          "characterRecordID": {
+            "$type": "TweakDBID",
+            "$storage": "uint64",
+            "$value": "0"
+          },
+          "deviceRecordID": {
+            "$type": "TweakDBID",
+            "$storage": "uint64",
+            "$value": "0"
+          },
+          "isCharacter": 1,
+          "isDevice": 0,
+          "isItem": 0,
+          "itemRecordID": {
+            "$type": "TweakDBID",
+            "$storage": "uint64",
+            "$value": "0"
+          }
+        }
+      },
+      "set": 0,
+      "statusEffectID": {
+        "$type": "TweakDBID",
+        "$storage": "string",
+        "$value": "BaseStatusEffect.LoreAnim"
+      },
+      "statusEffectSourceObject": {
+        "$type": "gameEntityReference",
+        "dynamicEntityUniqueName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "None"
+        },
+        "names": [],
+        "reference": {
+          "$type": "NodeRef",
+          "$storage": "uint64",
+          "$value": "0"
+        },
+        "sceneActorContextName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "None"
+        },
+        "slotName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "None"
+        },
+        "type": "EntityRef"
+      }
+    },
+    {
+      "$type": "questSetVar_NodeType",
+      "factName": "la_street_violence_02",
+      "setExactValue": 1,
+      "value": 0
+    },
+    {
+      "$type": "questCharacterManagerCombat_Kill",
+      "bodyPart": "0",
+      "dismembermentStrenght": 8,
+      "doDismemberment": 0,
+      "isPlayer": 0,
+      "noAnimation": 0,
+      "noRagdoll": 0,
+      "puppetRef": {
+        "$type": "gameEntityReference",
+        "dynamicEntityUniqueName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "None"
+        },
+        "names": [],
+        "reference": {
+          "$type": "NodeRef",
+          "$storage": "uint64",
+          "$value": "0"
+        },
+        "sceneActorContextName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "~/../la_street_violence_02_civilian"
+        },
+        "slotName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "None"
+        },
+        "type": "SceneActorContextName"
+      },
+      "skipDefeatedState": 1,
+      "woundType": "COARSE"
+    },
+    {
+      "$type": "questSetVar_NodeType",
+      "factName": "la_street_violence_02_victim_on_ground",
+      "setExactValue": 1,
+      "value": 1
+    },
+    {
+      "$type": "questSetVar_NodeType",
+      "factName": "la_street_violence_02_victim_on_ground",
+      "setExactValue": 1,
+      "value": 0
+    },
+    {
+      "$type": "questSetVar_NodeType",
+      "factName": "la_street_violence_02_victim_on_ground",
+      "setExactValue": 1,
+      "value": 1
+    },
+    {
+      "$type": "questSetVar_NodeType",
+      "factName": "la_street_violence_02_victim_handled",
+      "setExactValue": 1,
+      "value": 1
+    },
+    {
+      "$type": "questSetVar_NodeType",
+      "factName": "la_street_violence_02_victim_handled",
+      "setExactValue": 1,
+      "value": 0
+    },
+    {
+      "$type": "questSetVar_NodeType",
+      "factName": "la_street_violence_02_victim_handled",
+      "setExactValue": 1,
+      "value": 1
+    },
+    {
+      "$type": "questSetVar_NodeType",
+      "factName": "ma_scene_thanks",
+      "setExactValue": 1,
+      "value": 1
+    },
+    {
+      "$type": "questCharacterManagerParameters_SetStatusEffect",
+      "isPlayer": 0,
+      "isPlayerStatusEffectSource": 1,
+      "puppetRef": {
+        "$type": "gameEntityReference",
+        "dynamicEntityUniqueName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "None"
+        },
+        "names": [],
+        "reference": {
+          "$type": "NodeRef",
+          "$storage": "uint64",
+          "$value": "0"
+        },
+        "sceneActorContextName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "~/../la_street_violence_02_civilian"
+        },
+        "slotName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "None"
+        },
+        "type": "SceneActorContextName"
+      },
+      "recordSelector": {
+        "HandleId": "558",
+        "Data": {
+          "$type": "questRecordSelector",
+          "characterRecordID": {
+            "$type": "TweakDBID",
+            "$storage": "uint64",
+            "$value": "0"
+          },
+          "deviceRecordID": {
+            "$type": "TweakDBID",
+            "$storage": "uint64",
+            "$value": "0"
+          },
+          "isCharacter": 1,
+          "isDevice": 0,
+          "isItem": 0,
+          "itemRecordID": {
+            "$type": "TweakDBID",
+            "$storage": "uint64",
+            "$value": "0"
+          }
+        }
+      },
+      "set": 1,
+      "statusEffectID": {
+        "$type": "TweakDBID",
+        "$storage": "string",
+        "$value": "BaseStatusEffect.LoreVictimSaved"
+      },
+      "statusEffectSourceObject": {
+        "$type": "gameEntityReference",
+        "dynamicEntityUniqueName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "None"
+        },
+        "names": [],
+        "reference": {
+          "$type": "NodeRef",
+          "$storage": "uint64",
+          "$value": "0"
+        },
+        "sceneActorContextName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "~/../la_street_violence_02_gang"
+        },
+        "slotName": {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "None"
+        },
+        "type": "SceneActorContextName"
+      }
+    },
+    {
+      "$type": "questSetVar_NodeType",
+      "factName": "la_street_violence_02_victim_handled",
+      "setExactValue": 1,
+      "value": 1
+    },
+    {
+      "$type": "questSetVar_NodeType",
+      "factName": "de_enemies_defeated",
+      "setExactValue": 1,
+      "value": 0
+    },
+    {
+      "$type": "questSetVar_NodeType",
+      "factName": "street_violence_02_thx",
+      "setExactValue": 1,
+      "value": 0
+    },
+    {
+      "$type": "questSetVar_NodeType",
+      "factName": "la_street_violence_02_victim_on_ground",
+      "setExactValue": 1,
+      "value": 0
+    },
+    {
+      "$type": "questSetVar_NodeType",
+      "factName": "la_street_violence_02_victim_handled",
+      "setExactValue": 1,
+      "value": 0
+    },
+    {
+      "$type": "questSetVar_NodeType",
+      "factName": "de_enemies_defeated",
+      "setExactValue": 1,
+      "value": 0
+    },
+    {
+      "$type": "questSetVar_NodeType",
+      "factName": "la_street_violence_02_pause",
+      "setExactValue": 1,
+      "value": 0
+    }
+  ],
+  "reason": "Auto lore conversation can write native progress, apply statuses and kill existing actor; omit only exact conversation-area node. Generic conversations and61AIspots remain.",
+  "negative_control": "Unfiltered source contains17fact writes and one scriptedkill via scene; must fail pureambient classification."
+}

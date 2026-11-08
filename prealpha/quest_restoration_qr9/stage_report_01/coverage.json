@@ -1,0 +1,229 @@
+{
+  "schema": 1,
+  "status": "PARTIAL_RUNTIME_VALIDATION_NO_BLANKET_PASS",
+  "original_cards": 9,
+  "original_subcases": 26,
+  "original_subcase_status_counts": {
+    "PASS": 2,
+    "INCONCLUSIVE": 3,
+    "NOT_TESTABLE": 5,
+    "NOT_TESTED": 16
+  },
+  "functional_observation_rows": 9,
+  "functional_observation_status_counts": {
+    "PASS": 9
+  },
+  "denominator_rule": "Additional successful quest/call/vendor/reload observations are separate from exact planned alternatives. No percentage or161-quest runtime certification.",
+  "remaining_by_card": {
+    "S00": [
+      {
+        "variant": "private_owner_activation",
+        "status": "INCONCLUSIVE",
+        "limitations": [
+          "Only the first five minutes were captured; gig completion occurred later.",
+          "Loaded-slot identity awaits user confirmation; entity ID and metadata alone do not prove it.",
+          "No standalone map/UI or all-route acceptance is inferred from the user's successful gig."
+        ],
+        "analysis_notes": "Issued/retired/native facts and resource merge lines do not prove actual owner execution."
+      }
+    ],
+    "S01": [
+      {
+        "variant": "success",
+        "status": "NOT_TESTABLE",
+        "limitations": [
+          "Scoped to selected ManualSave-23 completed CVI02 history; not unavailable on all possible genuine saves."
+        ],
+        "analysis_notes": null
+      },
+      {
+        "variant": "failure",
+        "status": "NOT_TESTABLE",
+        "limitations": [
+          "Scoped to selected ManualSave-23 completed CVI02 history; not unavailable on all possible genuine saves."
+        ],
+        "analysis_notes": null
+      },
+      {
+        "variant": "muted_no_scene",
+        "status": "NOT_TESTABLE",
+        "limitations": [
+          "Scoped to selected ManualSave-23 completed CVI02 history; not unavailable on all possible genuine saves."
+        ],
+        "analysis_notes": null
+      }
+    ],
+    "S02": [
+      {
+        "variant": "ordinary_future",
+        "status": "NOT_TESTED",
+        "limitations": [],
+        "analysis_notes": null
+      },
+      {
+        "variant": "late_future_pre_gate",
+        "status": "NOT_TESTED",
+        "limitations": [],
+        "analysis_notes": null
+      },
+      {
+        "variant": "timer_reload_and_queue",
+        "status": "NOT_TESTED",
+        "limitations": [],
+        "analysis_notes": null
+      }
+    ],
+    "S03": [
+      {
+        "variant": "prospective_positive",
+        "status": "NOT_TESTABLE",
+        "limitations": [
+          "Saved fact values do not identify an executing original/private owner.",
+          "Player-unlocked getters are not full native VehicleAvailable condition evaluation.",
+          "State before initial capture/issuance and actual loaded slot are unknown."
+        ],
+        "analysis_notes": "Fresh positive/negative admission requires a genuine not-yet-Issued history. No reset, vehicle purchase or synthetic entitlement requested."
+      },
+      {
+        "variant": "prospective_negative",
+        "status": "NOT_TESTABLE",
+        "limitations": [
+          "Saved fact values do not identify an executing original/private owner.",
+          "Player-unlocked getters are not full native VehicleAvailable condition evaluation.",
+          "State before initial capture/issuance and actual loaded slot are unknown."
+        ],
+        "analysis_notes": "Fresh positive/negative admission requires a genuine not-yet-Issued history. No reset, vehicle purchase or synthetic entitlement requested."
+      },
+      {
+        "variant": "already_issued",
+        "status": "INCONCLUSIVE",
+        "limitations": [
+          "Saved fact values do not identify an executing original/private owner.",
+          "Player-unlocked getters are not full native VehicleAvailable condition evaluation.",
+          "State before initial capture/issuance and actual loaded slot are unknown."
+        ],
+        "analysis_notes": "No changes among the watched Nitro facts and inactive journal are bounded observations, not proof of retained selector execution or a confirmed progression defect."
+      }
+    ],
+    "S04": [
+      {
+        "variant": "future_return",
+        "status": "NOT_TESTED",
+        "limitations": [],
+        "analysis_notes": null
+      },
+      {
+        "variant": "timer_reload",
+        "status": "NOT_TESTED",
+        "limitations": [],
+        "analysis_notes": null
+      }
+    ],
+    "S05": [
+      {
+        "variant": "handoff_cleanup",
+        "status": "INCONCLUSIVE",
+        "limitations": [
+          "Actual helper retirement/vendor return remains unobserved.",
+          "Fact callback coverage remains unreliable; absence is not gameplay-negative evidence."
+        ],
+        "analysis_notes": "Functional reached route PASS separately; direct helper Terminating acknowledgement and saved private lease execution remain unobserved, so original full handoff contract remains INCONCLUSIVE."
+      },
+      {
+        "variant": "cleanup_reload",
+        "status": "NOT_TESTED",
+        "limitations": [],
+        "analysis_notes": "Completed-state reload is confirmed in the additional functional observation. The planned separate pending-cleanup-stage reload was not observed; retain NOT_TESTED for that exact variant."
+      }
+    ],
+    "S06": [
+      {
+        "variant": "unearned_containment",
+        "status": "NOT_TESTED",
+        "limitations": [],
+        "analysis_notes": null
+      },
+      {
+        "variant": "progressed_preservation",
+        "status": "NOT_TESTED",
+        "limitations": [],
+        "analysis_notes": null
+      }
+    ],
+    "S07": [
+      {
+        "variant": "completed_history",
+        "status": "NOT_TESTED",
+        "limitations": [],
+        "analysis_notes": null
+      },
+      {
+        "variant": "old_entered_no_arm",
+        "status": "NOT_TESTED",
+        "limitations": [],
+        "analysis_notes": null
+      },
+      {
+        "variant": "old_native_pending_clock",
+        "status": "NOT_TESTED",
+        "limitations": [],
+        "analysis_notes": null
+      },
+      {
+        "variant": "missing_enrollment_or_contact",
+        "status": "NOT_TESTED",
+        "limitations": [],
+        "analysis_notes": null
+      },
+      {
+        "variant": "old_cvi_request",
+        "status": "NOT_TESTED",
+        "limitations": [],
+        "analysis_notes": null
+      }
+    ],
+    "S08": [
+      {
+        "variant": "native_interrupt",
+        "status": "NOT_TESTED",
+        "limitations": [],
+        "analysis_notes": null
+      },
+      {
+        "variant": "permitted_stage_reload",
+        "status": "NOT_TESTED",
+        "limitations": [],
+        "analysis_notes": null
+      },
+      {
+        "variant": "completed_revisit",
+        "status": "NOT_TESTED",
+        "limitations": [],
+        "analysis_notes": null
+      }
+    ]
+  },
+  "critical_blockers": [
+    {
+      "id": "QR9_DIAGNOSTIC_FACT_CALLBACK_GAP",
+      "status": "OBSERVED_COVERAGE_FAILURE_ROOT_CAUSE_UNCONFIRMED",
+      "evidence": "observations/S05_20261102_01/REPORT.md; observations/S05_20261102_02/analysis_01/evidence.json",
+      "consequence": "No negative gameplay conclusion from absent probe fact events. Fix/validate real API before claiming callback completeness."
+    },
+    {
+      "id": "EXACT_PRIVATE_OWNER_RECEIPT_CLOCK_QUEUE",
+      "status": "NOT_OBSERVED",
+      "consequence": "Functional outcomes/merge records do not prove internal owner/lease activation or cleanup."
+    },
+    {
+      "id": "GENUINE_ALTERNATIVE_FIXTURES",
+      "status": "PARTLY_UNAVAILABLE_OR_UNESTABLISHED",
+      "consequence": "Never reset facts/journals/owners, manufacture entitlement or enroll Ronald to force coverage."
+    },
+    {
+      "id": "INHERITED_QR8_UNKNOWN_OPAQUE_CONTRACTS",
+      "status": "UNCHANGED",
+      "evidence": "../quest_restoration_qr8/REPORT.md"
+    }
+  ]
+}

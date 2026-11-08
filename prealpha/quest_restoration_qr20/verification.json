@@ -1,0 +1,18 @@
+{
+  "status": "PASS_QR20_BOUNDED_CONTACT_VISIBILITY_REPAIR",
+  "native": {
+    "phone_query": "public final static func GetSimpleContactDataArray(journal: ref<JournalManager>, includeUnknown: Bool, skipEmpty: Bool, includeWithNoUnread: Bool, opt activeDataSync: wref<MessengerContactSyncData>) -> [ref<IScriptable>] {\n    let contactDataArray: array<ref<IScriptable>>;\n    let contactEntry: wref<JournalContact>;\n    let context: JournalRequestContext;\n    let entries: array<wref<JournalEntry>>;\n    let i: Int32;\n    let trackedEntriesHashList: array<Int32>;\n    context.stateFilter.active = true;\n    journal.GetContacts(context, entries);\n    trackedEntriesHashList = MessengerUtils.FetchTrackedQuestCodexLinks(journal, context);\n    i = 0;\n    while i < ArraySize(entries) {\n      contactEntry = entries[i] as JournalContact;\n      MessengerUtils.AddContactData(journal, contactDataArray, contactEntry, trackedEntriesHashList, includeUnknown, skipEmpty, includeWithNoUnread, false, activeDataSync);\n      i += 1;\n    };\n    return contactDataArray;\n  }",
+    "decompile_manifest_sha256": "6B6E771F3AFC1B318FE92306EAB07628290FE9A3E7AF369C998F3E32292FBACA"
+  },
+  "rejected_mutations": [
+    "remove held-owner gate",
+    "allow unrelated contact",
+    "allow duplicate state writes",
+    "skip retained-message history",
+    "send notification"
+  ],
+  "changed_script_sha256": "885ED18E546356A5507108D859A67BD5A64EFD6B44E3A4D05F0674DE3AD15125",
+  "compile_result_sha256": "E8E69AA1B05F854DFC0A866EE8247F20109E0C942E0C63C1C972BFAB86F51835",
+  "archive_readback_sha256": "871B30C20EAD08CBEE3CAB9A43DA86FC80D2D80815671E67EEA6E160839B0315",
+  "runtime_test": "PENDING"
+}

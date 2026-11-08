@@ -1,0 +1,85 @@
+# A Day in the Life — mq013_punks
+
+Source-specific ten-contract review. No source-confirmed defect or runtime repair.
+
+## entry — APPROVED_DEVIATION
+
+- Private S23 base_b root1000→1001Ready→1002guard→1003PA2 pause→54(q001)→80(q005)→55(q101-enable)→1004recheck.True→1005Issued→1006Entered→17.In1. Native binding17 payload equals original minorquests17. False1004 returns to1002;17.Out1 writes1007Finished.
+- Native MQ013 In1 enters8 startup, then9 main and10 cleanup. Alternate native debug In2 exists but the private wrapper enters In1; it does not bypass the native startup.
+
+Approved differences:
+- Existing bounded fresh-only S23 post-Tower owner replaces the killed original parent while retaining the native entry resource.
+
+Remaining:
+- LIVE_ONLY: Automatic permit delivery/injection execution is not live-observed.
+
+## eligibility — PASS
+
+- Ancestor q001_done>0, q005_done>0 and q101_enable_side_content>0 match original parent nodes54/80/55. Native root/8 still waits6 q101_done>0 before the authored startup; the outer enable flag is not substituted for that completed-story prerequisite.
+- Actual1002/1004 AND require genuine Tower/PA2/U9 support, own Permit1/Issued0/Finished0/Fault0, all eight journal entries Inactive; exact fresh seam mq013_active1 with dealt/punch/combat/punks-defeated/dead-before-scene/far-away/timeskip0 and shopkeeper dead/default/discount0. All root terminal/active and each Succeeded child fixture reject. Script StatesA9/StatesB9 are all Inactive; no journal/fact reset is used.
+
+Remaining:
+- LIVE_ONLY: Prior mq013_active1 evidence and actual player values/certificate are not inferred; static PASS describes the bounded input seam only.
+
+## communications — PASS
+
+- Native MQ013 main, all nested graphs, punks scene and private wrapper contain zero Phone/SMS and zero holo_/audio_ request/listener/ack fact nodes. Actual main14/76/91 direct scene inputs control shopkeeper dialogue/combat; no missing holocall listener is implied by this street encounter.
+
+Remaining:
+- LIVE_ONLY: Spoken choices/barks and scene playback/interruption require gameplay.
+
+## ownership — CONDITIONAL
+
+- Native resource owns #mq013_pr_punks. Main7 turns std_arr_foodshop_03_default_on0 before scene14; alive route16 sets discount1 then15 restores default1; dead route17 sets dead1 and skips reward. These original vendor leases are intact.
+- Private Issued is claimed once before native17; Finished is written only from its output. Actual guards prohibit already-issued and progressed/terminal histories; S23 reads stable journal/fact samples across ticks and HS1 before issuing Permit.
+
+Remaining:
+- CONDITIONAL: Current saved original encounter/default-vendor execution and shared vendor ownership are not decoded. mq013_active1 plus Inactive journals is an exact admission seam, not independent proof of original descendant retirement.
+
+## progression — PASS
+
+- Native entire resource is referenced without modification. Main14.alive→77→16→15→78reward→79→output;14.dead→17→82→output. Combat14 branches to52 combat and85 escape/interrupt monitor;76 combat-scene alive/dead routes join their native outcomes and91 combat_shop preserves the dead route.
+- Native interrupt cut89 targets scene14/76, far-away85 and cleanup10 remain connected. Per-node/socket source assertions exercise alive, dead, combat, shop combat and terminal cleanup routes; no added completion branch bypasses the native scene.
+
+Remaining:
+- LIVE_ONLY: Native combat, escape distance, shopkeeper survival and scene outcome timing need live cases.
+
+## presentation — OPAQUE
+
+- Pinned native punks scene has shopkeep spawnSet #std_arr_foodshop_03, punk_01/punk_02/customer community #mq013_com_punks and bike spawnSet #std_arr_foodshop_03;9 workspots/15 instances. All entry/exit declarations and resource literals are preserved.
+- Native resource-root #mq013_pr_punks is retained by the referenced resource. Original world-data/spawn/crowd nodes are not replaced by synthetic idle NPC spawns.
+
+Remaining:
+- OPAQUE: Shopkeeper/vendor definition, root placement, workspot/camera/animation bindings and current-world actor existence are not established by declarations alone.
+
+## journal — PASS
+
+- Native punks scene retains talk336, description622, decide338/339, deal383/341/951, defeat1415/1416 and talk-shopkeep519/345/1067 actual paths.345→347 input0:3 succeeds root;156→374 input0:4 and11→619 input0:4 preserve failure routes. Mutation removing shopkeeper-dead branch is detected.
+- Native cleanup root/10 input0 sends POI21.Inactive,4 writes mq013_active0 and3 mq013_done1; no private post-outcome journal rewrite is added.
+
+Remaining:
+- LIVE_ONLY: Journal definitions/localization and rendered tracking are distinct from retained path/socket parity.
+
+## completion_rewards_cleanup — CONDITIONAL
+
+- Only the native alive outcome16→15→78 grants QuestRewards.mq013_punks_done; dead17→82 reaches output without that reward. Native default/discount/dead vendor flags remain separate. Cleanup10 preserves mq013_done1, active0, native deactivation/joins and output33.
+- Private Finished follows native questphase output, with no independent forced reward, synthetic vendor acknowledgement or replay adapter.
+
+Remaining:
+- CONDITIONAL: The exact reward record definition and engine award delivery are not decoded. Native cleanup geometry/deactivation and vendor persistence need matching live/save fixtures.
+
+## persistence — CONDITIONAL
+
+- Current wrapper retains saved PTFRS23_MQ013 Ready/Permit/Issued/Entered/Finished/Fault identities and native resource/node paths. Admission rejects terminal/progressed journals and every used scene/vendor fact; Issued prevents replay. Original vendor outcome receipts are not reset.
+- Native completion/failure paths, actor cleanup and vendor state writes remain in their original resource, preserving their original owner serialization boundary.
+
+Remaining:
+- CONDITIONAL: No current saved MQ013 owner or transition fixture confirms execution adoption after save/reload at shop dialogue, combat, flight or reward.
+
+## shared_dependencies — CONDITIONAL
+
+- Native parent prerequisites, root punks prefab, shop vendor community, direct scene resources, S23/HS1 permit dependencies and original MQ013 bugfix marker owner are inventoried with exact hashes. All local decoded graphs are structurally valid.
+- No phone studio owner is needed by this local closure; U9 support remains a global S23 admission prerequisite and is not evidence of a missing local call.
+
+Remaining:
+- CONDITIONAL: Vendor shared lifecycle and original saved support leases remain unresolved. Literal asset references do not prove transitive definitions/provider precedence or world placement.

@@ -1,0 +1,30 @@
+{
+  "state": "ALL33_SOURCE_INVESTIGATIONS_FROZEN_PEER_GATES_PENDING",
+  "candidate": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\candidate_03",
+  "canonical_epoch": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\source_epoch_00.json",
+  "installed": "PH3 unchanged",
+  "next_action": "Complete nine source-specific groups, rotate independent cross-reviews, investigate repair blockers and integrate only proven fixes",
+  "restrictions": "No game/deploy/save/fact/release/Git publication writes",
+  "baseline_verification": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\verification\\baseline_01\\result.json",
+  "compile_verification": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\verification\\compile_01\\result.json",
+  "protection": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\protection_before.json",
+  "ronald_followup": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\blockers\\ronald_01\\evidence.json",
+  "potential_MQ060_conflict": "Worker B investigating exact active global vs standalone native parent authority; no approved repair",
+  "recovery_packet": "C:\\Users\\Ayong\\.codex\\visualizations\\2026\\10\\29\\01a187f9-62cf-7710-94f5-b14c888b3237\\QR6-working-recovery-20261031.md",
+  "new_source_frozen": 33,
+  "new_independently_reviewed": 13,
+  "deep_total": 141,
+  "primary_remaining_not_frozen": [],
+  "source_authority_conflict": "adjudications/MQ060_source_authority_01.json; no repair approved",
+  "new_runtime_changes": 0,
+  "last_update_utc": "2026-10-31T15:09:53.366157+00:00",
+  "peer_pending": [
+    "A01",
+    "A02",
+    "A03",
+    "B03",
+    "C02",
+    "C03"
+  ],
+  "CVI02_followup": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\CVI02_context_01\\evidence.json"
+}

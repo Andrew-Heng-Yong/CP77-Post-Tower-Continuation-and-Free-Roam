@@ -1,0 +1,78 @@
+{
+  "schema": "PTFR_QR9_COMPONENT_V1",
+  "component": "Diagnostics",
+  "status": "PREPARED_NOT_INSTALLED",
+  "source_epoch": "QR8:02",
+  "game_root": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077",
+  "save_root": "C:\\Users\\Ayong\\Saved Games\\CD Projekt Red\\Cyberpunk 2077",
+  "package_root": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_b\\addon",
+  "zip": "",
+  "zip_sha256": null,
+  "files": [
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_QR9_Diagnostics/init.lua",
+      "before": null,
+      "before_bytes": 0,
+      "after": "ACCE8B7E4E1E355BBC6D6F4752FDBCC7BB3034F594B13AB055EC35742D333718",
+      "after_bytes": 12561
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_QR9_Diagnostics/watch.json",
+      "before": null,
+      "before_bytes": 0,
+      "after": "AEC4D4921AC64B0C37006E7839DD3F9466457B44A735DFFD4637C4261D5EAED2",
+      "after_bytes": 19787
+    }
+  ],
+  "changing_paths": [
+    "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_QR9_Diagnostics/init.lua",
+    "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_QR9_Diagnostics/watch.json"
+  ],
+  "required_files": [
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks.asi",
+      "sha256": "ACB12B25CFCF77C3F5A84DF7CD4F4AE5074B8269E7C7389F349E12B237F88D6E",
+      "bytes": 7665152,
+      "active_only": false
+    }
+  ],
+  "proofs": [
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\baseline.json",
+      "sha256": "A630CEBF7E286E880112CB898E12C1541F071E0A9D1C284DC1AE3303908A0060"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_b\\addon_manifest_04.json",
+      "sha256": "59B3CE96220B807D87AF67B66A47ED02549D66B59A5BEA8F620C2910D55C0580"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_b\\api_proof_02.json",
+      "sha256": "8B0FAB72B0AFAFF4D0B312C866ABB0E4AA603914D2BB1E608A2F2EA6EE13C3B1"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_b\\verification_04\\result.json",
+      "sha256": "216F057FFDA9EE70B2A570D21B95A9B22AFB3B63C8A05ACFD3EE0E148E019A9C"
+    }
+  ],
+  "process_names": [
+    "Cyberpunk2077",
+    "REDprelauncher",
+    "REDlauncher"
+  ],
+  "installed_core_observation": "NOT_OBSERVED_BY_CET; separate Core Verify receipt is required before gameplay.",
+  "expected_core": {
+    "epoch": "QR8:02",
+    "files": [
+      {
+        "path": "archive/pc/mod/zzzz_PTFR_Combined.archive",
+        "sha256": "2AB35CC95931CD3C7BB2FB3A4C8B52746DE7847D42AE1DD3503A90A965FD2039"
+      },
+      {
+        "path": "archive/pc/mod/zzzz_PTFR_Combined.archive.xl",
+        "sha256": "F22693981B0A10DB21B47AFAD7FC8BCAEF1F021D9EA99548BA4FF80F56D18245"
+      }
+    ]
+  },
+  "rollback_policy": "Remove only the exact unchanged two addon files; retain JSONL logs, unknown files and all directories. Never recursively delete.",
+  "runtime_limits": "Existing CET ASI only. QR8 expected core is metadata, NOT an observed installed state; separate Core Verify receipt required before gameplay."
+}

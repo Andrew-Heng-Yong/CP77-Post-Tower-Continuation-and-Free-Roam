@@ -1,0 +1,577 @@
+{
+  "schema": 1,
+  "module": "PTFR_QR9_Diagnostics",
+  "version": "QR9B04",
+  "declared_build": {
+    "source_lua_sha256": "ACCE8B7E4E1E355BBC6D6F4752FDBCC7BB3034F594B13AB055EC35742D333718",
+    "signal_catalog_sha256": "9627AC1F779B925431F405379911B6AD2C003DCEBB9C89D8FB7BF6254EA93C91",
+    "core_epoch": "QR8:02",
+    "core_manifest_sha256": "F42680E09E2B61BC926798DD5FA5B4E728CB20057382591D5BD5353B197FC38F",
+    "core_archive_sha256": "2AB35CC95931CD3C7BB2FB3A4C8B52746DE7847D42AE1DD3503A90A965FD2039",
+    "CET_expected_sha256": "ACB12B25CFCF77C3F5A84DF7CD4F4AE5074B8269E7C7389F349E12B237F88D6E"
+  },
+  "profiles": {
+    "S00": {
+      "facts": [
+        "PTFRP0_DR13",
+        "PTFRQR7_CVI02_CustomControllerIssued",
+        "PTFRQR7_RonaldNews_Issued",
+        "PTFRQR7_RonaldNews_Retired",
+        "PTFRU9_Support_Fault",
+        "PTFRU9_Support_Issued",
+        "PostTowerFreeRoamActive",
+        "cvi_02_finished",
+        "q115_point_of_no_return",
+        "q302_ronald_messages_enabled",
+        "q305_johnny_scene_active",
+        "q307_2079",
+        "q307_active",
+        "q307_done",
+        "q307_ep1_killed",
+        "q307_finished",
+        "q307_main_game_killed"
+      ],
+      "journals": [
+        {
+          "path": "ep1/quests/main_quest/q307_before_tomorrow",
+          "class": "gameJournalQuest"
+        },
+        {
+          "path": "ep1/contacts/ronald",
+          "class": "gameJournalContact"
+        }
+      ],
+      "description": "Bounded signal observations for S00; no automatic graph/ownership/eligibility proof"
+    },
+    "S01": {
+      "facts": [
+        "PTFRP0_DR13",
+        "PTFRQR7_CVI02_CustomControllerIssued",
+        "PTFRQR7_CVI02_CustomControllerRetired",
+        "PTFRQR7_CVI02_FailedInFlight",
+        "PTFRQR7_CVI02_PerfectInFlight",
+        "PTFRQR7_CVI02_PrebriefInFlight",
+        "PTFRU9_Support_Fault",
+        "PTFRU9_Support_Issued",
+        "PTFRU9_sts_pac_cvi_02_Fault",
+        "PTFRU9_sts_pac_cvi_02_MainFinished",
+        "PTFRU9_sts_pac_cvi_02_OwnerFinished",
+        "PTFRU9_sts_pac_cvi_02_ParentEntered",
+        "PTFRU9_sts_pac_cvi_02_Permit",
+        "PTFRU9_sts_pac_cvi_02_Ready",
+        "PTFRU9_sts_pac_cvi_02_Request",
+        "PTFRU9_sts_pac_cvi_02_Revision",
+        "PTFRU9_sts_pac_cvi_02_Started",
+        "PostTowerFreeRoamActive",
+        "cvi_02_finished",
+        "cvi_02_start",
+        "ep1_installed",
+        "holo_mr_hands_calls_v_end_activate",
+        "holo_mr_hands_calls_v_start_activate",
+        "new_q110_debrief_failed_end",
+        "new_q110_debrief_perfect_end",
+        "new_q110_prebrief_rejected_or_end",
+        "new_q110_rejected_failed_out",
+        "new_q110_rejected_perfect_out",
+        "new_sts_pac_cvi_02_holocall_debrief_failed",
+        "new_sts_pac_cvi_02_holocall_debrief_perfect",
+        "new_sts_pac_cvi_02_holocall_prebrief",
+        "q115_point_of_no_return",
+        "q305_johnny_scene_active",
+        "q307_2079",
+        "q307_active",
+        "q307_done",
+        "q307_ep1_killed",
+        "q307_finished",
+        "q307_main_game_killed"
+      ],
+      "journals": [
+        {
+          "path": "ep1/quests/main_quest/q307_before_tomorrow",
+          "class": "gameJournalQuest"
+        },
+        {
+          "path": "quests/street_stories/pacifica/coastview/sts_pac_cvi_02",
+          "class": "gameJournalQuest"
+        }
+      ],
+      "description": "Bounded signal observations for S01; no automatic graph/ownership/eligibility proof"
+    },
+    "S02": {
+      "facts": [
+        "PTFRP0_DR13",
+        "PTFRQR7_RonaldNews_Armed_sts_ep1_01",
+        "PTFRQR7_RonaldNews_Armed_sts_ep1_03",
+        "PTFRQR7_RonaldNews_Armed_sts_ep1_08",
+        "PTFRQR7_RonaldNews_Armed_sts_ep1_12",
+        "PTFRQR7_RonaldNews_Issued",
+        "PTFRQR7_RonaldNews_Retired",
+        "PTFRU9_Support_Fault",
+        "PTFRU9_Support_Issued",
+        "PTFRU9_sts_ep1_01_MainFinished",
+        "PTFRU9_sts_ep1_01_OwnerFinished",
+        "PTFRU9_sts_ep1_01_ParentEntered",
+        "PTFRU9_sts_ep1_01_Started",
+        "PTFRU9_sts_ep1_03_MainFinished",
+        "PTFRU9_sts_ep1_03_OwnerFinished",
+        "PTFRU9_sts_ep1_03_ParentEntered",
+        "PTFRU9_sts_ep1_03_Started",
+        "PTFRU9_sts_ep1_08_MainFinished",
+        "PTFRU9_sts_ep1_08_OwnerFinished",
+        "PTFRU9_sts_ep1_08_ParentEntered",
+        "PTFRU9_sts_ep1_08_Started",
+        "PTFRU9_sts_ep1_12_MainFinished",
+        "PTFRU9_sts_ep1_12_OwnerFinished",
+        "PTFRU9_sts_ep1_12_ParentEntered",
+        "PTFRU9_sts_ep1_12_Started",
+        "PostTowerFreeRoamActive",
+        "ep1_standalone",
+        "q000_done",
+        "q115_point_of_no_return",
+        "q302_done",
+        "q302_msg_ronald_sts_ep1_01",
+        "q302_msg_ronald_sts_ep1_03",
+        "q302_msg_ronald_sts_ep1_08",
+        "q302_msg_ronald_sts_ep1_12",
+        "q302_ronald_message_pause",
+        "q302_ronald_messages_enabled",
+        "q302_ronald_tree",
+        "q305_johnny_scene_active",
+        "q307_2079",
+        "q307_active",
+        "q307_done",
+        "q307_ep1_killed",
+        "q307_finished",
+        "q307_main_game_killed",
+        "sts_ep1_01_done",
+        "sts_ep1_03_done",
+        "sts_ep1_08_done",
+        "sts_ep1_12_done"
+      ],
+      "journals": [
+        {
+          "path": "ep1/contacts/ronald",
+          "class": "gameJournalContact"
+        },
+        {
+          "path": "ep1/quests/street_stories/sts_ep1_01",
+          "class": "gameJournalQuest"
+        },
+        {
+          "path": "ep1/quests/street_stories/sts_ep1_03",
+          "class": "gameJournalQuest"
+        },
+        {
+          "path": "ep1/quests/street_stories/sts_ep1_08",
+          "class": "gameJournalQuest"
+        },
+        {
+          "path": "ep1/quests/street_stories/sts_ep1_12",
+          "class": "gameJournalQuest"
+        }
+      ],
+      "description": "Bounded signal observations for S02; no automatic graph/ownership/eligibility proof"
+    },
+    "S03": {
+      "facts": [
+        "PTFRP0_DR13",
+        "PTFRS29_mq060_nitro_Entered",
+        "PTFRS29_mq060_nitro_Fault",
+        "PTFRS29_mq060_nitro_Finished",
+        "PTFRS29_mq060_nitro_Issued",
+        "PTFRS29_mq060_nitro_Permit",
+        "PTFRS29_mq060_nitro_Ready",
+        "PTFRS29_mq060_nitro_Revision",
+        "PTFRU9_Support_Fault",
+        "PTFRU9_Support_Issued",
+        "PostTowerFreeRoamActive",
+        "carbought_counter",
+        "mq060_active",
+        "mq060_citycenter_01",
+        "mq060_citycenter_02",
+        "mq060_cleanup_showroom",
+        "mq060_computer_done",
+        "mq060_done",
+        "mq060_fail",
+        "mq060_glen",
+        "mq060_hook_done",
+        "mq060_japantown",
+        "mq060_littlechina",
+        "mq060_muramasa_chosen",
+        "mq060_northside",
+        "mq060_objective_trigger",
+        "mq060_replaced",
+        "mq060_scandone",
+        "mq060_security_on",
+        "mq060_terminal",
+        "q115_point_of_no_return",
+        "q305_johnny_scene_active",
+        "q307_2079",
+        "q307_active",
+        "q307_done",
+        "q307_ep1_killed",
+        "q307_finished",
+        "q307_main_game_killed"
+      ],
+      "journals": [
+        {
+          "path": "quests/minor_quest/mq060_nitro",
+          "class": "gameJournalQuest"
+        }
+      ],
+      "description": "Bounded signal observations for S03; no automatic graph/ownership/eligibility proof",
+      "vehicles": [
+        "Vehicle.v_sportbike1_yaiba_kusanagi_player",
+        "Vehicle.v_sportbike1_yaiba_kusanagi_player_02",
+        "Vehicle.v_sportbike1_yaiba_kusanagi_player_03",
+        "Vehicle.v_sportbike1_yaiba_kusanagi_tyger_player"
+      ],
+      "vehicle_semantics": "Native typed vehicle record identities. Getter reports player-unlocked entitlement, not inventory possession or proof of native VehicleAvailable evaluation/full eligibility."
+    },
+    "S04": {
+      "facts": [
+        "PTFRP0_DR13",
+        "PTFRQR4_MQ007_ReacquisitionFinished",
+        "PTFRQR4_MQ007_ReacquisitionIssued",
+        "PTFRS23_MQ007_Entered_21",
+        "PTFRS23_MQ007_Fault",
+        "PTFRS23_MQ007_Finished",
+        "PTFRS23_MQ007_Issued",
+        "PTFRS23_MQ007_ModeTalkConfirmed",
+        "PTFRS23_MQ007_Permit",
+        "PTFRS23_MQ007_RESUME_Entered_21",
+        "PTFRS23_MQ007_RESUME_Fault",
+        "PTFRS23_MQ007_RESUME_Finished",
+        "PTFRS23_MQ007_RESUME_Issued",
+        "PTFRS23_MQ007_RESUME_Permit",
+        "PTFRS23_MQ007_RESUME_Ready",
+        "PTFRS23_MQ007_RESUME_Refused",
+        "PTFRS23_MQ007_RESUME_RootReactivated",
+        "PTFRS23_MQ007_Ready",
+        "PTFRS23_MQ007_Refused",
+        "PTFRS23_MQ007_RootReactivated",
+        "PTFRU9_Support_Fault",
+        "PTFRU9_Support_Issued",
+        "PostTowerFreeRoamActive",
+        "mq007_done",
+        "mq007_opt_A",
+        "mq007_skippy_owner_known",
+        "mq007_skippy_re_acquiring_done",
+        "q115_point_of_no_return",
+        "q305_johnny_scene_active",
+        "q307_2079",
+        "q307_active",
+        "q307_done",
+        "q307_ep1_killed",
+        "q307_finished",
+        "q307_main_game_killed"
+      ],
+      "journals": [
+        {
+          "path": "quests/minor_quest/mq007_smartgun",
+          "class": "gameJournalQuest"
+        }
+      ],
+      "description": "Bounded signal observations for S04; no automatic graph/ownership/eligibility proof"
+    },
+    "S05": {
+      "facts": [
+        "PTFRB0ZAN_Enabled",
+        "PTFRB0ZAN_Inside",
+        "PTFRB0ZAN_OwnerActive",
+        "PTFRB0ZAN_QuestOwns",
+        "PTFRB0ZAN_Released",
+        "PTFRP0_DR13",
+        "PTFRS23_MQ030_Entered",
+        "PTFRS23_MQ030_Fault",
+        "PTFRS23_MQ030_Finished",
+        "PTFRS23_MQ030_Issued",
+        "PTFRS23_MQ030_Permit",
+        "PTFRS23_MQ030_Ready",
+        "PTFRS23_MQ030_Refused",
+        "PTFRU9_Support_Fault",
+        "PTFRU9_Support_Issued",
+        "PostTowerFreeRoamActive",
+        "cct_dtn_cloth_01_default_on",
+        "mq030_active",
+        "mq030_done",
+        "mq030_failed",
+        "mq030_kill_scene",
+        "mq030_maxtac_arrived",
+        "mq030_zane_grateful",
+        "mq030_zane_met",
+        "q115_point_of_no_return",
+        "q305_johnny_scene_active",
+        "q307_2079",
+        "q307_active",
+        "q307_done",
+        "q307_ep1_killed",
+        "q307_finished",
+        "q307_main_game_killed"
+      ],
+      "journals": [
+        {
+          "path": "quests/minor_quest/mq030_melisa",
+          "class": "gameJournalQuest"
+        }
+      ],
+      "description": "Bounded signal observations for S05; no automatic graph/ownership/eligibility proof"
+    },
+    "S06": {
+      "facts": [
+        "PTFRP0_DR13",
+        "PTFRS23_MQ037_Entered",
+        "PTFRS23_MQ037_Fault",
+        "PTFRS23_MQ037_Finished",
+        "PTFRS23_MQ037_Issued",
+        "PTFRS23_MQ037_Permit",
+        "PTFRS23_MQ037_Ready",
+        "PTFRS23_MQ037_Refused",
+        "PTFRU9_Support_Fault",
+        "PTFRU9_Support_Issued",
+        "PostTowerFreeRoamActive",
+        "hey_rey_techstore_01_default_on",
+        "mq037_01_05Sure",
+        "mq037_brendan_introduced",
+        "mq037_clerk_aggroed",
+        "mq037_clerk_convinced",
+        "mq037_done",
+        "mq037_final_scene_active",
+        "mq037_kill_token_block_loop",
+        "mq037_post_girl_scene_on",
+        "mq037_vandal_painted_brendan",
+        "q115_point_of_no_return",
+        "q305_johnny_scene_active",
+        "q307_2079",
+        "q307_active",
+        "q307_done",
+        "q307_ep1_killed",
+        "q307_finished",
+        "q307_main_game_killed"
+      ],
+      "journals": [
+        {
+          "path": "quests/minor_quest/mq037_brendan",
+          "class": "gameJournalQuest"
+        },
+        {
+          "path": "quests/minor_quest/mq037_brendan_dumpster",
+          "class": "gameJournalQuest"
+        },
+        {
+          "path": "quests/minor_quest/mq037_brendan_hooligan001",
+          "class": "gameJournalQuest"
+        }
+      ],
+      "description": "Bounded signal observations for S06; no automatic graph/ownership/eligibility proof"
+    },
+    "S07": {
+      "facts": [
+        "PTFRP0_DR13",
+        "PTFRQR7_CVI02_CustomControllerIssued",
+        "PTFRQR7_CVI02_CustomControllerRetired",
+        "PTFRQR7_CVI02_FailedInFlight",
+        "PTFRQR7_CVI02_PerfectInFlight",
+        "PTFRQR7_CVI02_PrebriefInFlight",
+        "PTFRQR7_RonaldNews_Armed_sts_ep1_01",
+        "PTFRQR7_RonaldNews_Armed_sts_ep1_03",
+        "PTFRQR7_RonaldNews_Armed_sts_ep1_08",
+        "PTFRQR7_RonaldNews_Armed_sts_ep1_12",
+        "PTFRQR7_RonaldNews_Issued",
+        "PTFRQR7_RonaldNews_Retired",
+        "PTFRU9_Support_Fault",
+        "PTFRU9_Support_Issued",
+        "PTFRU9_sts_ep1_01_ParentEntered",
+        "PTFRU9_sts_ep1_03_ParentEntered",
+        "PTFRU9_sts_ep1_08_ParentEntered",
+        "PTFRU9_sts_ep1_12_ParentEntered",
+        "PTFRU9_sts_pac_cvi_02_Fault",
+        "PTFRU9_sts_pac_cvi_02_MainFinished",
+        "PTFRU9_sts_pac_cvi_02_OwnerFinished",
+        "PTFRU9_sts_pac_cvi_02_ParentEntered",
+        "PTFRU9_sts_pac_cvi_02_Permit",
+        "PTFRU9_sts_pac_cvi_02_Ready",
+        "PTFRU9_sts_pac_cvi_02_Request",
+        "PTFRU9_sts_pac_cvi_02_Revision",
+        "PTFRU9_sts_pac_cvi_02_Started",
+        "PostTowerFreeRoamActive",
+        "cvi_02_finished",
+        "cvi_02_start",
+        "ep1_installed",
+        "ep1_standalone",
+        "holo_mr_hands_calls_v_end_activate",
+        "holo_mr_hands_calls_v_start_activate",
+        "new_q110_debrief_failed_end",
+        "new_q110_debrief_perfect_end",
+        "new_q110_prebrief_rejected_or_end",
+        "new_q110_rejected_failed_out",
+        "new_q110_rejected_perfect_out",
+        "new_sts_pac_cvi_02_holocall_debrief_failed",
+        "new_sts_pac_cvi_02_holocall_debrief_perfect",
+        "new_sts_pac_cvi_02_holocall_prebrief",
+        "q000_done",
+        "q115_point_of_no_return",
+        "q302_done",
+        "q302_msg_ronald_sts_ep1_01",
+        "q302_msg_ronald_sts_ep1_03",
+        "q302_msg_ronald_sts_ep1_08",
+        "q302_msg_ronald_sts_ep1_12",
+        "q302_ronald_message_pause",
+        "q302_ronald_messages_enabled",
+        "q302_ronald_tree",
+        "q305_johnny_scene_active",
+        "q307_2079",
+        "q307_active",
+        "q307_done",
+        "q307_ep1_killed",
+        "q307_finished",
+        "q307_main_game_killed",
+        "sts_ep1_01_done",
+        "sts_ep1_03_done",
+        "sts_ep1_08_done",
+        "sts_ep1_12_done"
+      ],
+      "journals": [
+        {
+          "path": "ep1/quests/main_quest/q307_before_tomorrow",
+          "class": "gameJournalQuest"
+        },
+        {
+          "path": "quests/street_stories/pacifica/coastview/sts_pac_cvi_02",
+          "class": "gameJournalQuest"
+        },
+        {
+          "path": "ep1/contacts/ronald",
+          "class": "gameJournalContact"
+        },
+        {
+          "path": "ep1/quests/street_stories/sts_ep1_01",
+          "class": "gameJournalQuest"
+        },
+        {
+          "path": "ep1/quests/street_stories/sts_ep1_03",
+          "class": "gameJournalQuest"
+        },
+        {
+          "path": "ep1/quests/street_stories/sts_ep1_08",
+          "class": "gameJournalQuest"
+        },
+        {
+          "path": "ep1/quests/street_stories/sts_ep1_12",
+          "class": "gameJournalQuest"
+        }
+      ],
+      "description": "Bounded signal observations for S07; no automatic graph/ownership/eligibility proof"
+    },
+    "S08": {
+      "facts": [
+        "PTFRP0_DR13",
+        "PTFRQR7_CVI02_CustomControllerIssued",
+        "PTFRQR7_CVI02_CustomControllerRetired",
+        "PTFRQR7_CVI02_FailedInFlight",
+        "PTFRQR7_CVI02_PerfectInFlight",
+        "PTFRQR7_CVI02_PrebriefInFlight",
+        "PTFRQR7_RonaldNews_Armed_sts_ep1_01",
+        "PTFRQR7_RonaldNews_Armed_sts_ep1_03",
+        "PTFRQR7_RonaldNews_Armed_sts_ep1_08",
+        "PTFRQR7_RonaldNews_Armed_sts_ep1_12",
+        "PTFRQR7_RonaldNews_Issued",
+        "PTFRQR7_RonaldNews_Retired",
+        "PTFRU9_Support_Fault",
+        "PTFRU9_Support_Issued",
+        "PTFRU9_sts_ep1_01_MainFinished",
+        "PTFRU9_sts_ep1_01_OwnerFinished",
+        "PTFRU9_sts_ep1_01_ParentEntered",
+        "PTFRU9_sts_ep1_01_Started",
+        "PTFRU9_sts_ep1_03_MainFinished",
+        "PTFRU9_sts_ep1_03_OwnerFinished",
+        "PTFRU9_sts_ep1_03_ParentEntered",
+        "PTFRU9_sts_ep1_03_Started",
+        "PTFRU9_sts_ep1_08_MainFinished",
+        "PTFRU9_sts_ep1_08_OwnerFinished",
+        "PTFRU9_sts_ep1_08_ParentEntered",
+        "PTFRU9_sts_ep1_08_Started",
+        "PTFRU9_sts_ep1_12_MainFinished",
+        "PTFRU9_sts_ep1_12_OwnerFinished",
+        "PTFRU9_sts_ep1_12_ParentEntered",
+        "PTFRU9_sts_ep1_12_Started",
+        "PTFRU9_sts_pac_cvi_02_Fault",
+        "PTFRU9_sts_pac_cvi_02_MainFinished",
+        "PTFRU9_sts_pac_cvi_02_OwnerFinished",
+        "PTFRU9_sts_pac_cvi_02_ParentEntered",
+        "PTFRU9_sts_pac_cvi_02_Permit",
+        "PTFRU9_sts_pac_cvi_02_Ready",
+        "PTFRU9_sts_pac_cvi_02_Request",
+        "PTFRU9_sts_pac_cvi_02_Revision",
+        "PTFRU9_sts_pac_cvi_02_Started",
+        "PostTowerFreeRoamActive",
+        "cvi_02_finished",
+        "cvi_02_start",
+        "ep1_installed",
+        "ep1_standalone",
+        "holo_mr_hands_calls_v_end_activate",
+        "holo_mr_hands_calls_v_start_activate",
+        "new_q110_debrief_failed_end",
+        "new_q110_debrief_perfect_end",
+        "new_q110_prebrief_rejected_or_end",
+        "new_q110_rejected_failed_out",
+        "new_q110_rejected_perfect_out",
+        "new_sts_pac_cvi_02_holocall_debrief_failed",
+        "new_sts_pac_cvi_02_holocall_debrief_perfect",
+        "new_sts_pac_cvi_02_holocall_prebrief",
+        "q000_done",
+        "q115_point_of_no_return",
+        "q302_done",
+        "q302_msg_ronald_sts_ep1_01",
+        "q302_msg_ronald_sts_ep1_03",
+        "q302_msg_ronald_sts_ep1_08",
+        "q302_msg_ronald_sts_ep1_12",
+        "q302_ronald_message_pause",
+        "q302_ronald_messages_enabled",
+        "q302_ronald_tree",
+        "q305_johnny_scene_active",
+        "q307_2079",
+        "q307_active",
+        "q307_done",
+        "q307_ep1_killed",
+        "q307_finished",
+        "q307_main_game_killed",
+        "sts_ep1_01_done",
+        "sts_ep1_03_done",
+        "sts_ep1_08_done",
+        "sts_ep1_12_done"
+      ],
+      "journals": [
+        {
+          "path": "ep1/quests/main_quest/q307_before_tomorrow",
+          "class": "gameJournalQuest"
+        },
+        {
+          "path": "quests/street_stories/pacifica/coastview/sts_pac_cvi_02",
+          "class": "gameJournalQuest"
+        },
+        {
+          "path": "ep1/contacts/ronald",
+          "class": "gameJournalContact"
+        },
+        {
+          "path": "ep1/quests/street_stories/sts_ep1_01",
+          "class": "gameJournalQuest"
+        },
+        {
+          "path": "ep1/quests/street_stories/sts_ep1_03",
+          "class": "gameJournalQuest"
+        },
+        {
+          "path": "ep1/quests/street_stories/sts_ep1_08",
+          "class": "gameJournalQuest"
+        },
+        {
+          "path": "ep1/quests/street_stories/sts_ep1_12",
+          "class": "gameJournalQuest"
+        }
+      ],
+      "description": "Bounded signal observations for S08; no automatic graph/ownership/eligibility proof"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+# These Boots Are Made for Walkin'
+
+entry: APPROVED_DEVIATION. S29 wrapper retains18 exact original minorquests root parent nodes and their edges. Original chain includes54 q001_done>0,80 q005_done>0,55 q101_enable_side_content>0,78 q103_rogue_done>0 then original24.In1; private65006 only precedes24 and24.Out1→65007. Limits: Actual original lifecycle retirement and native content scheduling are separately reviewed, not inferred from permit.
+
+eligibility: CONDITIONAL. Actual native body6 requires LifePath Nomad record67091901544 with inverted0;21 ep1_standalone<1 chooses17 versus20. Both real distance>50 from#mq042_distance_check and MinorQuestAndSts token remain AND, with20 additionally outside#pacifica_content_tr. Current guard65003/4 has38Inactive histories and five exact native progress0 facts. Limits: Missing journal evidence refuses; Nomad identity, content-token/event state and exact saved prior scene progress remain fixture-dependent.
+
+communications: PASS. Exact hook sceneGPS5 End0→native13 mq042_started1 and car-scene8 End0/journal_update/interrupt route remain unchanged. Native body closure has no independent holo/audio request protocol; GPS/vehicle voice is local scene behavior. Limits: Local scene/phone UI presentation still needs live observation; no generic listener/ACK fix is supported.
+
+ownership: CONDITIONAL. Exact native minorquests caller24 ancestry is rehosted narrowly; whole body retains#mq042_pr_nomad_distance_check and hook/car phases each retain#mq042_pr_nomad. No whole minorquests owner is started. Tower genuine main termination structurally retires the original enclosing main tree. Limits: Native/saved ongoing Nomad owner retirement and world vehicle persistence require exact save-transition fixtures.
+
+progression: PASS. All native main/hook/car phase nodes, socket edges, nested root/22 interrupt loop and every condition/write match after private depot relocation. Original debug branch10, lifepathFalse nonNomad path, standalone branch21, sceneEnd8→cut25 and car-completion11 remain original. Limits: Static graph parity preserves authored branches without proving actual event scheduling or loaded actor availability.
+
+presentation: OPAQUE. Original distance/vehicle prefabs and all scene actor/marker/workspot/camera payloads are retained. Nomad car scene only resolves numeric AttachmentSlots ID118070326407 to exact string AttachmentSlots.WeaponRight, whose CRC/length TDB identity is equal; callbacks/dialogue and side effects compare exactly. Limits: WorldNode placement and runtime TDB/attachment resolution remain opaque; visible/voice scene behavior needs live validation.
+
+journal: PASS. Exact38 fresh paths/classes include original GPS, find-car, talk/vehicle/description/pins; hook24/32/22/23 and car3/24/27 retain their native states/socket sequencing. Native car journal_update34→35→inactive/active objective updates remain unchanged. Limits: JournalManager propagation, engine scene output timing and earlier untracked vehicle history remain outside static proof.
+
+completion_rewards_cleanup: CONDITIONAL. Native scene outcomes and car ownership writes remain untouched; car8.End0→cut25→24objectiveSucceeded→27rootSucceeded→28→11mq042_done1→26→10→Terminating1. The exact original scene outcome branches decide entitlement/payment; no new purchase/refund/reward is synthesized. Limits: Actual scene choices, payment and item/vehicle transactions/effective TDB descendants require engine/save fixtures.
+
+persistence: CONDITIONAL. Original saved body/nested graph IDs and all private S29 receipts are unchanged. Existing started/done/car_taken/talk_started/interrupt facts0 plus38Inactive histories guard fresh admission; unsupported partial owners defer rather than restart. Limits: No arbitrary live owner adoption, completed history reset or future-version save compatibility is certified.
+
+shared_dependencies: CONDITIONAL. Earned q001/q005/side-content/q103 prerequisites, Nomad identity, MinorQuestAndSts token, Pacifica trigger and shared native distance/car scene prefabs remain exact source dependencies. No predecessor story progression is fabricated. Limits: Token leases, persistent vehicle ownership, external overrides and reload ordering remain unmeasured.

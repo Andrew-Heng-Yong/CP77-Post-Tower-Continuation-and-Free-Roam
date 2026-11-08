@@ -1,0 +1,52 @@
+{
+  "existing_adaptations": [
+    {
+      "quest_id": "sts_wat_kab_04",
+      "adaptations": [
+        "U9 additive permission/receipt entry, private credit once guard, focused map controllers",
+        "Original embedded native body externalized with Flags Soft; every other payload field preserved"
+      ],
+      "evidence": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G08\\verification_01\\intentional_differences.json",
+      "new_change": false
+    },
+    {
+      "quest_id": "sts_wat_kab_05",
+      "adaptations": [
+        "U9 additive permission/receipt entry, private credit once guard, focused map controllers",
+        "Original embedded native body externalized with Flags Soft; every other payload field preserved"
+      ],
+      "evidence": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G08\\verification_01\\intentional_differences.json",
+      "new_change": false
+    },
+    {
+      "quest_id": "sts_wat_kab_01",
+      "adaptations": [
+        "U9 additive permission/receipt entry, private credit once guard, focused map controllers",
+        "Original embedded native body externalized with Flags Soft; every other payload field preserved"
+      ],
+      "evidence": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G08\\verification_01\\intentional_differences.json",
+      "new_change": false
+    },
+    {
+      "quest_id": "sts_wat_kab_03",
+      "adaptations": [
+        "U9 additive permission/receipt entry, private credit once guard, focused map controllers",
+        "Original embedded native body externalized with Flags Soft; every other payload field preserved",
+        "Original lifecycle parallel prestate controller launched at64000, source identities unchanged"
+      ],
+      "evidence": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G08\\verification_01\\intentional_differences.json",
+      "new_change": false
+    }
+  ],
+  "specific_source_exceptions": [
+    {
+      "quest_id": "sts_wat_kab_01",
+      "difference": "Original DLC entry has no separate normal U9 credit/map recipe, not treated as missing from historical count"
+    },
+    {
+      "quest_id": "sts_wat_kab_03",
+      "difference": "Approved R4 voice-only policy uses pinned JV1 visual actor hiding, independent props/performer applicability unproven"
+    }
+  ],
+  "new_runtime_changes": []
+}

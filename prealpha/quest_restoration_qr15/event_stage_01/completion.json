@@ -1,0 +1,82 @@
+{
+  "status": "NO_SAFE_SETUP_CERTIFICATE_IN_REVIEWED_HANDLER_EVENT_PROJECTIONS",
+  "utc": "2026-11-05T04:08:04.502621+00:00",
+  "evidence_manifest": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\event_stage_01\\evidence_manifest_01.json",
+    "sha256": "A069318CE812631D45A2B82039B479EE8397DDEFAAC567050C3D91AD973ACE70"
+  },
+  "controls": [
+    {
+      "evidence": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\event_stage_01\\analysis_01.json",
+        "sha256": "C12BE6B0646C639831CA11869847F720341CF72216EB040B2F16D321FF178ED2"
+      },
+      "recorded_controls": 13,
+      "scope": "Static source, framing or review; not gameplay"
+    },
+    {
+      "evidence": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\event_stage_01\\native_layout_01.json",
+        "sha256": "C85617D4E518782F0123375D6A7FD1629C38AF1138CA63AC57EB444C1D29D206"
+      },
+      "recorded_controls": 7,
+      "scope": "Static source, framing or review; not gameplay"
+    },
+    {
+      "evidence": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\event_stage_01\\quest_handlers\\verification_01.json",
+        "sha256": "2C0725584A0BEBF29A73A70C72A71B1BDDF86C35C57B16AB8DF513A04E0F05EF"
+      },
+      "recorded_controls": 36,
+      "scope": "Static source, framing or review; not gameplay"
+    },
+    {
+      "evidence": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\event_stage_01\\vehicle_events\\reproduce_02\\verification_01.json",
+        "sha256": "6E0DC35FAA9F4F204BFEAFD610AF8B6C138AE3D83434C9B58E4E3DFAFC34813C"
+      },
+      "recorded_controls": 38,
+      "scope": "Static source, framing or review; not gameplay"
+    }
+  ],
+  "extraction_controls": 12,
+  "independent_review": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\event_stage_01\\review_01.json",
+    "sha256": "F372B3F81211C3B3C312E0C0829F37266020F505111A6342D437A5CA1C660727"
+  },
+  "controls_limit": "Overlapping static checks, not aggregate quest coverage or gameplay proof.",
+  "restoration_complete": false,
+  "confirmed_runtime_defect": false,
+  "runtime_candidate": null,
+  "runtime_changes": 0,
+  "save_or_fact_writes": 0,
+  "automated_game_calls": 0,
+  "ready_human_tests": [],
+  "decision": "Prepared Jason state remains unsupported. No safe replay/skip or admission exemption is justified.",
+  "source_closed": [
+    "Interned phase paths retained through cut are not active-owner/completion receipts",
+    "Saved handler removal clears reusable identity slots; no finished-node history",
+    "Exact original descendant and parent-context owner addresses queried",
+    "Full32 nodeID query avoids managed low16 alias; current results independently checked",
+    "103/104 advance without final visual/door application acknowledgement",
+    "Source-bound wrapper, door-state and destruction-state component owners distinguished",
+    "PersistencySystem own save/load does not serialize its live request ring"
+  ],
+  "unresolved": [
+    "Exact visual/door application history and actual loaded JF01/JF02 body",
+    "Higher-level save barriers, actor event-queue persistence and actual Tower queue scheduling",
+    "Opaque saved subtype contents in other selected support/state blocks",
+    "Full startup and shared-courier preservation contract for a non-replaying adapter"
+  ],
+  "next": "Keep this prepared instance deferred unless new positive genuine-stage evidence or a source-proven continuation preserving both histories becomes available. Do not repeat rejected key/path/queue/flag probes or successful gameplay tests.",
+  "knowledge_pointers": [
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\docs\\knowledge\\current-state.md",
+      "sha256": "74DB6F1251216EF72F86784D18CC4003AD5178DBCD5476479F1FA5E86B4BA883"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\docs\\knowledge\\native-saved-graph-state.md",
+      "sha256": "62514D41DC98C2506A64C6328677C2543219F5469EBAB06A642B88DCE2B8A39A"
+    }
+  ]
+}

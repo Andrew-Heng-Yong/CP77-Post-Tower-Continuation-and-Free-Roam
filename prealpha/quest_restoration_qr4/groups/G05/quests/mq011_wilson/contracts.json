@@ -1,0 +1,180 @@
+{
+  "quest_id": "mq011_wilson",
+  "title": "Shoot to Thrill",
+  "status": "DEEP_REVIEWED_WITH_EXPLICIT_STATIC_LIMITS",
+  "fully_static_verified": false,
+  "effective_resource": "towercontinued\\sidejobs_s23\\base_b\\mq011.questphase",
+  "effective_resource_sha256": "E18D8866B9DA33C53A91AE3EC93CCACEEDC4BC4E7EF44C8FF891774C0B6F3F99",
+  "source_epoch": "QR3 candidate_01; these resources unchanged from pinned PH3; installed PH3 is separate",
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Actual1002.Out\u21921003 PauseCondition(PHONE_WILSON_Issued1)\u219254q001_done\u219280q005_done\u219255q101_enable_side_content\u2192184 ep1_standalone branch. Normal also retains93 MinorQuestAndSts token; standalone goes authored EP1_Standalone input.",
+        "Normal93\u21921110LeaseRequested1\u21921111QuestOwns1\u21921112releasewait\u21921004recheck\u21921005Issued\u21921006Entered\u219215.In1. Standalone1120\u21921121\u21921122\u21921104\u21921105\u21921106\u219215.EP1_Standalone retains same handoff."
+      ],
+      "approved_differences": [
+        "Existing S23 private entry delegates the complete native MQ011 body after native prerequisites."
+      ],
+      "remaining": [
+        "LIVE_ONLY: Content-token and standalone scheduling/actual owner readiness are engine inputs."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    },
+    "eligibility": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Fresh1002/1004/1104 require all native journal/contact histories Inactive, mq011_active/done/shooting_over0, shooting_range_left0, native default_on1, empty outgoing requests and unused owner receipts; completed Tower required.",
+        "Native q001/q005/side-content prerequisites and AND/OR semantics preserved through exact original ancestor payload comparisons."
+      ],
+      "approved_differences": [
+        "Fresh-only private receipts protect completed/failed/active quest histories."
+      ],
+      "remaining": [
+        "LIVE_ONLY: Journal target resolution and current eligible saved history are not established from static resources alone."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    },
+    "communications": {
+      "status": "PASS",
+      "proven": [
+        "Actual intermediate1003 blocks all fresh claim paths with phoneIssued0. Phonewrapper99 equals exact native holocall initializer, with1003.True\u21921004Issued\u219299.In1.",
+        "Native caller1474\u21921468 waits holo_wilson_calls_v_start_done;1475\u21921470 waits end_done; listener1\u219228False\u219210\u2192scene0 holo_wilson_calls_v_start and3\u219211\u2192end reaches real native scene41/42 acknowledgements. Rejection wait1674 remains. Shared808.True\u2192809.In63\u2192Out63\u2192910 cleanup is connected."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Real arbitration, rejection, interruption/retry, counter lifecycle and phone UI delivery remain unexecuted."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Both real1112/1122 release waits require Released1, Near0, SpawnActionOut0, ActorDistanceGate0 AFTER own lease/request writes. They do not require QuestOwns0.",
+        "Existing B0 owner100True\u2192101Released1\u2192102waitQuestOwns0 and False\u2192103Released0\u21924 native servicebody remain;15.Out1\u21921007Finished\u21921012QuestOwns0 releases quest authority. Whole native body owns root#mq011_pr_wilson."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: In-flight original/shop saved owners, actual H2 lease execution and actor retirement remain unproven. Old1010\u21921011 path is unreachable from new input but saved legacy nodes require transition fixtures."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Native bodyroot1\u219237\u219238\u219243\u219223; authored EP1 standalone47\u219249\u219223 and39 path retained unchanged. Native23\u219227 competition\u219224 cleanup are intact.",
+        "Native scene winning/second/loss/rejection and shooting-over state writers retained, including competition_won1224/second1227, rejectable1673/rejected1676 and took_reward1653. No forced score/win or fabricated outcome was added."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Range event callbacks, scoring, timing, weapon restrictions and authored winner branch behavior require gameplay."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Full native MQ011 root#mq011_pr_wilson remains owned by original referenced body. Native#mq011_tr_outside_quest_area and contestants/Wilson refs, original range scenes/cameras/workspots are pinned and retained.",
+        "Private entry has no root prefab because it delegates the complete native body, rather than copying an initializer and dropping that body."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "OPAQUE: Full world sector/prefab contents and actual actor/camera/workspot binding are not decoded; preserved refs alone do not prove placement."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    },
+    "journal": {
+      "status": "PASS",
+      "proven": [
+        "Native hook root/27/88/6 keeps phone-message00_wilson_start,02a/02bresponse and rejection behavior. Contact shop-closed message root/27 node98 remains authored.",
+        "All parent/inline original payloads are compared; objective/root journal writers remain within native delegated body, not synthetic completion."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: Journal target definitions and live marker/notification display remain unexpanded."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native27 node69 competition_out\u219285 QuestRewards.mq011_finished\u2192terminal, thenroot24 writes2active0\u21923done1 and other actor/crowd cleanup. Original handgun/second/win reward scene346/348/349/1632 retained.",
+        "EntryFinished is downstream of native15.Out1 then clearsQuestOwns; shared Wilson phone cleanup preserves native references."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "UNKNOWN: TDB reward contents, concrete item/XP entitlement and saved prior reward receipts are not fully resolved; live payout once is separate from structural routes."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Existing owner IDs, entry resources, native input names and old nodes preserved. Fresh guards prevent replay; failed recheck1004/1104 clearsQuestOwns1013 thenLeaseRequested1113 before returning1002.",
+        "The potentially contradictory old1011 condition is not on fresh input reachability; tests and mutations use real1112/1122, avoiding a false deadlock claim from unused nodes."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Saved old1011 waits, queue/lease cancellation, reload and native actor return require compatibility fixtures."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Wilson ordinary vendor, TheGun order entitlement and MQ011 physical range use cooperative existing B0 owner/lease boundary. PHONE_WILSON native controller and cleanup plus PH3studio pinned; no private substitute ack or counter reset."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "OPAQUE: Shared studio root placement, full target definition closure and original owner retirement remain open.",
+        "LIVE_ONLY: Vendor interruption and safe lease return are not proven by fact presence alone."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json"
+      ]
+    }
+  },
+  "policy_evidence": [
+    "research/sidejobs_s23/base_b/assessment.json (historical policy wording not substituted for current guards)"
+  ],
+  "confirmed_defects": [],
+  "runtime_changes": []
+}

@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "status": "OPTIONAL_DIAGNOSTIC_PREPARED_NOT_DEPLOYED",
+  "source_root": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_b\\addon",
+  "core_package_unchanged": true,
+  "core_epoch": "QR8:02",
+  "files": [
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_QR9_Diagnostics/init.lua",
+      "sha256": "B008BE9149F76A84A939FC19389D24B7550E9F87790F8A0260C2D79B15A55963",
+      "bytes": 12428,
+      "before": "ABSENT_REQUIRED"
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_QR9_Diagnostics/watch.json",
+      "sha256": "B85739186C6FBC2809EB73C43D95285027E727DF08E79A1F0813DCB60795F8A5",
+      "bytes": 19787,
+      "before": "ABSENT_REQUIRED"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks.asi",
+      "sha256": "ACB12B25CFCF77C3F5A84DF7CD4F4AE5074B8269E7C7389F349E12B237F88D6E",
+      "scope": "Pinned existing CET, not installed/updated by addon"
+    }
+  ],
+  "runtime_log_pattern": "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_QR9_Diagnostics/QR9_capture_*.jsonl",
+  "rollback_scope": "Only exact unchanged two managed addon files may be removed; preserve generated logs, unknown files and directory. No recursive delete. No core51 changes.",
+  "default_duration_s": 300,
+  "maximum_duration_s": 900,
+  "maximum_rows": 2048,
+  "maximum_bytes": 8388608,
+  "runtime_calls": 0,
+  "game_writes": 0,
+  "save_writes": 0,
+  "version": "QR9B03",
+  "predecessor_snapshot": "snapshots/prototype_02",
+  "active_dependencies_scope": "Existing CET ASI only. QR8 expected core is metadata, NOT an observed installed state; separate Core Verify receipt required before gameplay."
+}

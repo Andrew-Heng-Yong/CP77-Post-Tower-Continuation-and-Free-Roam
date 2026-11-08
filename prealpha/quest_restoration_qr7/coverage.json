@@ -1,0 +1,98 @@
+{
+  "status": "TARGETED_21_DISPOSITIONS_COMPLETE_SOURCE_AND_PACKAGE_BOUNDARIES_EXPLICIT",
+  "selected": 161,
+  "retained_deep": 161,
+  "new_whitelist_deep_audits": 0,
+  "contracts": 1610,
+  "original_target_contracts": 21,
+  "original_FAIL": 13,
+  "original_UNKNOWN": 8,
+  "targeted_quests": 9,
+  "before_status_counts": {
+    "APPROVED_DEVIATION": 175,
+    "PASS": 349,
+    "CONDITIONAL": 903,
+    "OPAQUE": 162,
+    "FAIL": 13,
+    "UNKNOWN": 8
+  },
+  "after_status_counts": {
+    "APPROVED_DEVIATION": 177,
+    "PASS": 349,
+    "CONDITIONAL": 917,
+    "OPAQUE": 162,
+    "UNKNOWN": 5
+  },
+  "target_status_counts": {
+    "UNKNOWN": 5,
+    "APPROVED_DEVIATION": 2,
+    "CONDITIONAL": 14
+  },
+  "fully_static_verified": 0,
+  "static_PASS_or_approved": 526,
+  "remaining_UNKNOWN": [
+    {
+      "quest_id": "sts_std_rcr_02",
+      "stage": "shared_dependencies"
+    },
+    {
+      "quest_id": "q304_splinter_stash",
+      "stage": "eligibility"
+    },
+    {
+      "quest_id": "q304_splinter_stash",
+      "stage": "completion_rewards_cleanup"
+    },
+    {
+      "quest_id": "q304_splinter_stash",
+      "stage": "persistence"
+    },
+    {
+      "quest_id": "mws_wat_08_trauma_drama",
+      "stage": "persistence"
+    }
+  ],
+  "source_epoch": "QR7:04",
+  "source_epoch_manifest": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\source_epoch_04.json",
+  "source_epoch_sha256": "8B0D8249908A9D96CF5564C9581ED466C061350B96A4BEE767D744B01DE28A1F",
+  "queue_sha256": "123485D639B7DD5FC72247E4ECBA88F5562A1508F1F756DDBE415728A9C7F684",
+  "scope": "No gameplay-success percentage. CONDITIONAL prospective scopes do not repair absent enrollment, old entered/queued histories or prove saved-owner retirement.",
+  "shared_registration_engine_boundary": {
+    "classification": "UNKNOWN_EXACT_BINARY_DISPATCH",
+    "evidence": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_a\\restore_current_release_01\\evidence.json",
+      "sha256": "5F0026E4A8B37E476A0C0D9BE462B63C9D583521E7D4275EB1EDEFEDE92E03D8"
+    },
+    "released_source_expectation": {
+      "url": "https://raw.githubusercontent.com/psiberx/cp2077-archive-xl/v1.28.0/src/App/Extensions/QuestPhase/Extension.cpp",
+      "retrieved": "2026-10-31",
+      "reviewed_line_ranges": [
+        [
+          13,
+          21
+        ],
+        [
+          88,
+          129
+        ],
+        [
+          130,
+          161
+        ],
+        [
+          162,
+          217
+        ],
+        [
+          324,
+          361
+        ]
+      ],
+      "review_method": "Read official exact version tag via browser tool and inspect named restore/start/patch/ID-generation functions. No old PR63 source is treated as current binary authority.",
+      "source_mechanism": "Root quest registrations enter s_forced. Restore finds their quest, derives phase fact IDs, and starts In1 only when the corresponding engine receipt is absent; it then records that receipt. Normal quest start records the same receipts. The new binding uses this standard mechanism, without an explicit forceStart setting."
+    },
+    "missing": "A matching installed DLL method/address/PDB/reproducible-build mapping or direct native instruction proof for OnGameRestored/ForceStartNode dispatch under SHA C07DA66D…; official version/source and receipt identify expected behavior but do not by themselves prove exact binary method identity.",
+    "live_only": "Actual new-owner restore scheduling, private marker acquisition/release, queued saves and interruption/reload delivery need supported in-game fixtures.",
+    "scope": "Separate shared registration-engine boundary; not an additional original21 target contract or source graph error."
+  }
+}

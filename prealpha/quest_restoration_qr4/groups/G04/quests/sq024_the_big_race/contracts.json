@@ -1,0 +1,203 @@
+{
+  "schema": 1,
+  "quest_id": "sq024_the_big_race",
+  "title": "The Beast in Me: The Big Race",
+  "status": "DEEP_REVIEWED_WITH_STATIC_LIMITS",
+  "fully_static_verified": false,
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Master10 follows Santo7.Out1->43.Out1. Preparation43 retains dam/fluff and16-active journal sequencing,12 AND(Fixer token,5gamehours), plus separate6hour timers. Native story and final-race inputs remain unchanged.",
+        "This district is a child of one original SQ024 story, reached through the current S27 master sq024_in route. Native stage phase/resource/socket bindings and normal versus chicken/test inputs are retained. Shared QR3 entry/contact/B0/Claire listener proofs are reused by exact pinned hash."
+      ],
+      "approved_differences": [
+        "Existing fresh-only Tower story adapter and its durable master receipts are retained; no independent district restart or bypass was added."
+      ],
+      "remaining": [
+        "LIVE_ONLY: Actual existing ArchiveXL registration scheduling and saved descendant activation are not observed."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_a\\verification_03\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_a\\verification_03\\graph_evidence.json"
+      ]
+    },
+    "eligibility": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Master10 follows Santo7.Out1->43.Out1. Preparation43 retains dam/fluff and16-active journal sequencing,12 AND(Fixer token,5gamehours), plus separate6hour timers. Native story and final-race inputs remain unchanged.",
+        "The current S27 fresh owner requires all485 bounded journal states/five story roots Inactive, native progress neutral, q105 earned, Tower/PA2/U9 and phone support ready. A partially completed district is not silently reset or re-admitted. Native stage AND, delay, failure/recovery and choice predicates remain exact."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "STATIC/SAVED-STATE: Supported stage/owner adoption for older interrupted or partially completed racing stories is not proved by fresh-only guards.",
+        "LIVE_ONLY: Actual player choices, current district progress, token/safety/area and timer satisfaction require an eligible save/runtime fixture."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_a\\verification_03\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_a\\verification_03\\graph_evidence.json"
+      ]
+    },
+    "communications": {
+      "status": "PASS",
+      "proven": [
+        "Actual phaseroot/62 node6 connects input sq024_05_call_in to scenebase\\quest\\side_quests\\sq024\\scenes\\sq024_05_big_race.scene. Starting only that scene entry reaches both outgoing request/wait/clear chains [[1188, 1181, 1182], [1189, 1183, 1184]] in static MAY traversal. Each request writes holo_v_calls_claire_start/end_activate1, waits matching native *_done>0 and clears it after acknowledgement.",
+        "SMS phases have actual named input callers, incoming-message Active operations and explicit visited/choice waits. Claire internal contact is marianne. Shared native controller, real acknowledgement writers and fixer_cleanup connections are retained from QR3 proof; no fake acknowledgement or new listener is introduced."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: MAY reachability does not evaluate all scene predicates or prove displayed/voiced calls, SMS delivery, interruption or UI order."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_a\\verification_03\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_a\\verification_03\\graph_evidence.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native parent node10 owns exact base\\quest\\side_quests\\sq024\\phases\\sq024_05_the_big_race.questphase In1; root prefabs stay on the native phase, not copied into a second district controller. One S27 story owner handles the four stages.",
+        "QR3 source/native ancestor evidence and separate B0 Claire/R1 stage leases are retained. Native q101/q105/body state and reciprocal receipt guards remain. R1/MQ056 is later repeatable support, not proof that the selected story district is replayed."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "STATIC/ENGINE: Exact saved native/private descendants, old interrupted owners and service/call/vehicle leases require matching owner evidence. A killed flag/resource alone does not prove retirement."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_a\\verification_03\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_a\\verification_03\\graph_evidence.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Actual fork root/57/185 scene9.follow_dominic_1_out ->114.In1 and scene14.continue_race_2_out ->116.In1 is retained. Follow/chase, finish-race, injured Sampson/trauma-team and leave-area death penalty85->96 are preserved. Win record sits at116/50; finish record at116/118/7. Parent106 uses genuine Sampson-dead predicate; its alive branch waits1day AND unblocked content before the subsequent3day SMS wait, message-visited wait and exact native Vehicle.v_sport2_quadra_type66_nomad_ncu_player grant103. Do not assume a vehicle name from that record string.",
+        "Authored master sequence is City9->78->Badlands8->77->Santo7->43->Big10. Source numbering02/04 is not story chronology. Native body/scenes and optional failure/departure/call branches are original-byte pinned, raw-JSON renormalized and unchanged in the QR3 successor."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Vehicle/race controller scheduling, AI/checkpoint geometry, rank producers, driving/scene decisions and cancellation are not simulated."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_a\\verification_03\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_a\\verification_03\\graph_evidence.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Native #sq024_pr_05_the_big_race, Dominic/Sampson aliases, trauma-team actors, pursuit/finish tracks, wreck/camera/props and barriers remain. Exact vehicle/reward record definitions and placement are not resolved here.",
+        "Every inspected graph retains root/instance prefab, actor/variant/NodeRef, workspot, camera, track/checkpoint and animation references. There is no QR4 rebind. Existing JV1 voice-only presentation policy and opaque shared studio support are unchanged."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "OPAQUE: Full world sector/prefab/track and actor/workspot/camera binding semantics, localization/lipsync and independent Johnny props are not completely decoded/correlated.",
+        "LIVE_ONLY: Actual rendering, speech, driving, camera cuts, weather, visual suppression and streaming require runtime observations."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_a\\verification_03\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_a\\verification_03\\graph_evidence.json"
+      ]
+    },
+    "journal": {
+      "status": "PASS",
+      "proven": [
+        "Native root/57/185/116 node70 receives district Succeeded. Abandonment root/160/18:2->6.Failed and7 Sampson-escaped remain. The main finale, Claire messages, Sampson outcome, gift response and master quest success are separate authored continuations, not one forced win.",
+        "Exact native Active/Succeeded/Failed and message/choice/visited socket destinations are recorded per graph/node. Native journal field spelling and historical source aliases remain intact; no private district completion/reset is added."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Journal notification/propagation, choice acknowledgement and concurrent delayed-state changes remain engine behavior."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_a\\verification_03\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_a\\verification_03\\graph_evidence.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Actual fork root/57/185 scene9.follow_dominic_1_out ->114.In1 and scene14.continue_race_2_out ->116.In1 is retained. Follow/chase, finish-race, injured Sampson/trauma-team and leave-area death penalty85->96 are preserved. Win record sits at116/50; finish record at116/118/7. Parent106 uses genuine Sampson-dead predicate; its alive branch waits1day AND unblocked content before the subsequent3day SMS wait, message-visited wait and exact native Vehicle.v_sport2_quadra_type66_nomad_ncu_player grant103. Do not assume a vehicle name from that record string.",
+        "The distinction between authored finish reward, winner reward, scene aftercare/departure and shared-story completion is retained. Native vehicle/actor/track cleanup and original mortality/security/controller commands are delegated unchanged; wrappers do not manufacture wins or grants."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "STATIC: Exact current QuestRewards/TweakDB vehicle/status/economic targets and numerical/variant meanings are unresolved; preserving their references proves structural parity only.",
+        "LIVE_ONLY: Actual rank/reward/entitlement delivery, exactly-once operations across interruption/crash/reload and teardown require runtime fixtures."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_a\\verification_03\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_a\\verification_03\\graph_evidence.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "All inspected current private and native source hashes, resource/node/field/socket identifiers and durable master receipts remain unchanged. No runtime source/save/fact changes are made by this investigation. The frozen QR3 epoch retains both QR3 repairs.",
+        "Fresh S27 refusal of prior story state and R1 earned-completed admission remain separate. No per-district reset, new save identity or arbitrary mid-race resume adapter is introduced."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "STATIC/SAVED-STATE: Older queued owners and stage-specific native/private adoption require transition evidence; fresh guard equality alone cannot certify them.",
+        "LIVE_ONLY: Mid-race/scene/reward save/load, death/crash and old-version transitions are not tested."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_a\\verification_03\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_a\\verification_03\\graph_evidence.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native #sq024_pr_05_the_big_race, Dominic/Sampson aliases, trauma-team actors, pursuit/finish tracks, wreck/camera/props and barriers remain. Exact vehicle/reward record definitions and placement are not resolved here.",
+        "Shared main-story Claire phone cleanup/B0 service and original R1 post-story support proofs are reused only for matching frozen inputs. Regional phases retain all original cross-race joins, native reuse scenes and message interfaces; no second family owner is invented."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "STATIC: Native target-data, opaque world/track bindings and shared studio/presentation semantics remain the exact unresolved static dependencies.",
+        "LIVE_ONLY: Actor/service/phone/vehicle arbitration, cancellation and reload behavior need actual engine evidence."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_a\\verification_03\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_a\\verification_03\\graph_evidence.json"
+      ]
+    }
+  },
+  "source_epoch": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\source_epoch_00.json",
+    "sha256": "CBF774F8BFC0A50F5AB2C8E01C4DF0A5E84506E2EC92EE8AC214C58A79677CC6"
+  },
+  "defects": [],
+  "repairs": [],
+  "source_version": "Frozen QR3 candidate01; installed PH3 is separate"
+}

@@ -1,0 +1,210 @@
+{
+  "quest_id": "wst_ep1_04",
+  "title": "Addicted to Chaos",
+  "source_epoch": "QR5epoch00 frozenQR4candidate/epoch03; same-byte stagedcandidate02 adapter check passed",
+  "fully_static_verified": false,
+  "effective_resource": "towercontinued\\sidejobs_s23\\ep1\\rinder_boot.questphase",
+  "effective_resource_sha256": "947B9CAF21D2B46C22DEE63F0E7AC37112675AC4FC9877FF348E7B17077B8600",
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Rinder boot100 keeps exact native world parent47 deletion marker→46 sts_ep1_03_dogtag_obtained>0→4 original wst_ep1_04.In1. It adds no invented native main-job-finished prerequisite and does not force a Rinder outcome.",
+        "Actual root2/3 preflight→Issued4→two ticks89→recheck90→Entered92 starts100. Current XL is stable EP1root1 sibling of the retired native open-world tree."
+      ],
+      "approved_differences": [
+        "Existing approved additive S23 post-Tower rehost preserves native phase/resource/node identities and original entry/body/default fragments; private once/recheck receipts adapt owner lifetime without resetting native history."
+      ],
+      "remaining": [
+        "Native item/event/streaming callbacks and saved prior-job ownership remain engine/save boundaries."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\admission.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\native_contract_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\bindings.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\dependencies_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\dependencies_02\\source_pins.json"
+      ]
+    },
+    "eligibility": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Exact original positive requirement is dogtagObtained1..max, with active/start/finished/gunTaken0 and six real journal entries Inactive. Native prior root4/59 inventory101 checks Items.sts_ep1_03_rinder_dogtag quantity1 before102 writes that receipt.",
+        "The adapter never gives a dogtag, resets CP77-58786 or manufactures the old job result. Native world parent waited on the same dogtag receipt, so adding unrelated completion conditions would change original admission."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Receipt alone does not prove every old main-job/SMS stage retired safely; unknown saved owner/progress remains a bounded risk rather than fabricated history."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\admission.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\native_contract_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\bindings.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\dependencies_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\dependencies_02\\source_pins.json"
+      ]
+    },
+    "communications": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Own native wst04 body has no standalone holo/audio/new_sts/new_q110 call producer or new invitation/SMS handler. Its prior native garage-code producer is explicitly traced: main-job root4/59 node132 OR(noGarageNumber>=1,calledRegina>0).False→135 outside-content→133 addRinderContact→134 garage-info-code SMS Active.",
+        "Native intentional no-code/Regina outcomes suppress the SMS. S23 consumes only the genuine dogtag prerequisite and does not replay that prior message or invent its acknowledgement; Rinder code information is not restored by a generic phone listener."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Old dogtag1 alone does not prove optional garage-code SMS was delivered; prior unfinished message/choice histories and live callbacks remain conditional. No speculative replay or forced garage access is justified."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\admission.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\native_contract_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\bindings.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\dependencies_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\dependencies_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\dependencies_02\\Rinder_SMS_scope.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native world parent and full original body are owned by exact S23 fragment after actual Tower cut of EP1 open-world parent. Empty parent/root PF arrays are verified; original garage/device/loot/vehicle NodeRefs remain real dependencies.",
+        "Native CP77-58786 bugfix16 is immediate historical migration logic: receipt guard→active test8→not-finished9→code objective/root journal checks→optional code Active. It is not a future missing phone listener and is not blindly promoted or reset."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "World streaming/save-persistent device/loot owners and arbitrary old unfinished main-job descendants are not observed."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\admission.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\native_contract_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\bindings.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\dependencies_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\dependencies_02\\source_pins.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Native0→20 active1→garage objective6→13 player inside→19 vehicle restriction→11 device operation→36 500ms→35 door operation→8 approachSucceeded→29 codeActive. Original device37 IsOpen ultimately31 codeSucceeded→1 start1→32 event→9 lootActive.",
+        "Native loot interaction45 forks3 finished1→10 lootSucceeded→14 rootSucceeded and separate24 inventory/22 gunTaken increment. Existing loading/device conditions and exact native predicates are retained; no fake door-open or synthetic completion is added."
+      ],
+      "approved_differences": [],
+      "remaining": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\admission.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\native_contract_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\bindings.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\dependencies_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\dependencies_02\\source_pins.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Original#wst_ep1_04_tr_doors, garage doors, main-loot object, vehicle forbidden area and exact absolute door NodeRef are pinned. Native loading47, world variants, device action properties and container item references remain unchanged."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "World sector/container/default loot/door controller/vehicle trigger placement is not fully decoded; real streaming and collision/interaction behavior require gameplay."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\admission.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\native_contract_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\bindings.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\dependencies_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\dependencies_02\\source_pins.json"
+      ]
+    },
+    "journal": {
+      "status": "PASS",
+      "proven": [
+        "Exact six root/description/phase/goGarage/enterCode/lootBox histories and original Active/Succeeded operations remain. Native rootSucceeded14 is observed by private102 before101 Finished; original duplicate debug input is never called by S23.",
+        "Historical bugfix objective correction is separately recorded as a native migration condition, not used to fake completion or erase failed/succeeded history."
+      ],
+      "approved_differences": [],
+      "remaining": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\admission.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\native_contract_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\bindings.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\dependencies_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\dependencies_02\\source_pins.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Original loading47→48 ten ticks→49 injects Items.money quantity5000 into native main-loot; stock money51369838828 exists. Actual loot interaction45, not a fabricated grant, writes finish3 and rootSucceeded14.",
+        "Native24 uses original LootTables.wst_ep1_04_reward_loot_table as Inventory-condition itemID with quantity0. This unusual original predicate is preserved and explicitly not relabelled weapon-possession1. Native28 requires player outside AND two realtime hours before27 ForceClose→25 ForceUnpower."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Actual loot-table inventory semantics, container contents, economic children/modifiers and engine lifetime of vehicle restriction19 remain unresolved. No matching explicit vehicle-disable node is present in this body; unchanged vanilla source alone is not proof of engine release."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\admission.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\native_contract_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\bindings.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\dependencies_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\dependencies_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\dependencies_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\shared\\G16_target_links_01.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native start/active/finish/gunTaken, dogtag outcome, CP77 history and all private resource/node/receipt IDs stay stable. Actual negative fixtures refuse any own progress or non-Inactive/missing selected journal entry; claim recheck accepts its own Issued1.",
+        "No dogtag/money/reward/door/quest counter reset is added. Native optional no-code/Regina history is retained; no broad parent or already-used saved owner is restarted."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Unsupported old predecessor/SMS/loot/device states and future save migration remain explicit; no live save was changed or tested."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\admission.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\native_contract_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\bindings.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\dependencies_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\dependencies_02\\source_pins.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Exact native dogtag producer, original world parent wait, conditional prior code SMS and S23 current source/XL attachment are separately pinned. Generic prefix phone scans are supplemented with all own facts, journal phone actions and the out-of-body Rinder SMS path.",
+        "Original CP77 historical repair, loading gates, money target, code-door condition, loot-table quantity0 and delayed closure are all preserved as native mechanisms rather than replaced by generic fixes."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Prior main-job phone/scene progress and saved actors/devices, default container definitions and live runtime callback semantics need separate evidence."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\admission.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\native_contract_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\verification_01\\bindings.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\dependencies_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\dependencies_02\\source_pins.json"
+      ]
+    }
+  }
+}

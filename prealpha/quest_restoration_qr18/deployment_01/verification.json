@@ -1,0 +1,39 @@
+{
+  "status": "PASS_QR18_INSTALLED_AND_PRESERVED",
+  "core_epoch": "QR18",
+  "core_files": 51,
+  "required_files": 26,
+  "save_files": 313,
+  "changed_paths": [
+    "archive/pc/mod/zzzz_PTFR_Combined.archive",
+    "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS23.reds"
+  ],
+  "old_and_new_recovery_payloads": [
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr18\\recovery\\core_qr18_01\\old\\archive\\pc\\mod\\zzzz_PTFR_Combined.archive",
+      "sha256": "97D3C65BB72F4BA4F3BCB6AECDE9ABA105315D0340918F42590363F9F90A32BF",
+      "bytes": 10129408
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr18\\recovery\\core_qr18_01\\new\\archive\\pc\\mod\\zzzz_PTFR_Combined.archive",
+      "sha256": "A6D37F00CBC3FD907E2B29A2B93364FC3A00A5A7845D5A751DE321CFC506939C",
+      "bytes": 10137600
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr18\\recovery\\core_qr18_01\\old\\r6\\scripts\\PTFR_Consolidated\\PTFR_SideJobsS23.reds",
+      "sha256": "F29ECBA24DA9507ADD0365BA95A205406C4A4412CDDD164C12FBB7326C64BE97",
+      "bytes": 75022
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr18\\recovery\\core_qr18_01\\new\\r6\\scripts\\PTFR_Consolidated\\PTFR_SideJobsS23.reds",
+      "sha256": "8B62F4BA6A81AE558D88311A307934A790528875CE76A4EE751988D76664F3EC",
+      "bytes": 80100
+    }
+  ],
+  "unmanaged_metadata_unchanged": true,
+  "all_save_names_and_hashes_unchanged": true,
+  "save_or_fact_writes": 0,
+  "game_launches": 0,
+  "rollback_ready": true,
+  "gameplay_qualification": "UNTESTED"
+}

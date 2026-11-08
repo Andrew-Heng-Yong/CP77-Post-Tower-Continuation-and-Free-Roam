@@ -1,0 +1,189 @@
+{
+  "quest_id": "sts_hey_gle_05",
+  "title": "Going Up or Down?",
+  "source_epoch": "QR5:08 = QR6:00 frozen source bytes",
+  "status": "DEEP_SOURCE_INVESTIGATED_WITH_SPECIFIC_LIMITS",
+  "fully_static_verified": false,
+  "effective_resource": "towercontinued\\gigs_u10\\native\\sts_hey_gle_05_entry.questphase",
+  "effective_resource_sha256": "3796C1BFB69E1BD9A5B686BC3AD6ED76DDD447AE5D0C2B27D7C6644A2D906C7F",
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Native Glenn nested12.Out1 arms outside43 or existing POI55→XOR56→50.Active→Started65004→native14.In1. Exact parent nested graph, AND/OR gates, sockets and body binding are retained behind U10 once claim and late recheck."
+      ],
+      "remaining": [
+        "Native entry predicates and exact wrapper are statically proved; runtime registration/streaming timing is not gameplay proof."
+      ],
+      "approved_differences": [
+        "Existing approved genuine-Tower private U10 fresh rehost, explicit once receipts and conservative eligibility. Psychofan only additionally uses the reviewed R4 adapter; no new QR6 behavior change."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_05\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_05\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\quests\\sts_hey_gle_05\\mechanisms.json"
+      ]
+    },
+    "eligibility": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Actual guard preserves ten Inactive journal paths, zero native #gle_05_combat/start/talk/escape/killed/core flags and inventory Items.sts_hey_gle_05_scandium_cores=0. Native main8 tests gle_05_finished>0 and launches OW3/combat4 only on False. Both current compiled data arrays and graph inventory gates match the source contract."
+      ],
+      "remaining": [
+        "Current finite guards preserve the named native beginnings; unobserved external/saved-owner state and live admission timing remain conditional. Exact omitted native fact/journal census is retained in evidence.json."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_05\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_05\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\quests\\sts_hey_gle_05\\mechanisms.json"
+      ]
+    },
+    "communications": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native prebrief/debrief Start0 requests are traced through Padre32/3 listeners and real ACK41/42 to caller waits/clears. OW root/4 rejected debrief44→SMS56→15 still reaches native reward14. Retried requests and native phone-mutegroup paths remain authored; no generic missing-listener assumption is made."
+      ],
+      "remaining": [
+        "Real request/listener/ACK/wait/clear authoring is proved; actual scheduling, actor acquisition, interruption and reload delivery remain live-dependent."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_05\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_05\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\quests\\sts_hey_gle_05\\mechanisms.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "The original main root #sts_hey_gle_05_streetstory holds combat4 and OW3 until terminating native output1. Private parent keeps nested12 and U10 Issued/Started lifecycle; no extra parallel El Gallo owner is introduced. CYB-627445_A/B and CYB-646456 historical fix controllers remain explicitly inventoried rather than silently assumed fresh."
+      ],
+      "remaining": [
+        "Exact selected original parent/companion scopes are traced; arbitrary old executing saved owners and native global bugfix controller states are not certified by zero scalar facts or presence."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_05\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_05\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\quests\\sts_hey_gle_05\\mechanisms.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Native OW root/5 starts101, selects find path via54(gle_05_track>0) and XOR104, retains cores/search/talk routes, and waits real gle_05_talked>0 at56. Native quest9.Succeeded→108 increments gle_05_finished→109 checkpoint remains exact; combat/el_gallo scene branches are untouched native resources."
+      ],
+      "remaining": [],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_05\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_05\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\quests\\sts_hey_gle_05\\mechanisms.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Native main #sts_hey_gle_05_streetstory, combat, El Gallo conversation/opening scenes, original community names, scene markers and referenced workspots are inventoried with exact owner/node paths. This gig uses original native scenes; no new private presentation or unfiltered owner was created."
+      ],
+      "remaining": [
+        "DynamicBaseClass/worldNode streaming placement, effective spawned actor acquisition, animation/workspot/camera execution and JV1 timing are not certified by preserved binding literals."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_05\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_05\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\quests\\sts_hey_gle_05\\mechanisms.json"
+      ]
+    },
+    "journal": {
+      "status": "PASS",
+      "proven": [
+        "Every decoded native journal objective and mappin transition remains exact; find/look_for_cores/take_parts/talk_el_gallo/talk/leave/deliver paths are enumerated with incoming activation/success sockets. Ten initial quest/phase/objective states are checked before initial claim."
+      ],
+      "remaining": [],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_05\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_05\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\quests\\sts_hey_gle_05\\mechanisms.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native root/4 reward14 targets QuestRewards.sts_hey_gle_05_completion after native debrief/SMS branch convergence, then cleanup31 onward; achievement47 retains LikeFatherLikeSon. Finished108 is authored in progression rather than reimplemented by the coordinator. Native LOOP hey counter receipt and private once credit retain exact source payloads."
+      ],
+      "remaining": [
+        "Native reward/cleanup authoring and once gates are proved; effective merged TDB definitions, atomic engine rewards, pending old owners and cleanup/reload behavior need separate evidence."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_05\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_05\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\quests\\sts_hey_gle_05\\mechanisms.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Original root/node IDs, fact names including gle_05_lighs_off spelling and scoped combat flag are preserved. U10 once credit/map/Issued guards reject existing use and current script leaves issued owners untouched during attach/reload preparation; no save fixture was changed."
+      ],
+      "remaining": [
+        "No save-transition fixtures were executed; source identity preservation does not prove arbitrary future-version saved-owner compatibility."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_05\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_05\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\quests\\sts_hey_gle_05\\mechanisms.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Actual Padre initializer79/cleanup336, shared U9 holder and PH3 studio bytes match inherited shared evidence. Native El Gallo, cores item, drop-point and Heywood credit dependencies remain explicit, with no new owner or reward implementation."
+      ],
+      "remaining": [
+        "Original exact bindings and shared byte applicability are proved; external world marker acquisition, all effective record override winners and live shared-owner leases remain conditional."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_05\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_05\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\quests\\sts_hey_gle_05\\mechanisms.json"
+      ]
+    }
+  }
+}

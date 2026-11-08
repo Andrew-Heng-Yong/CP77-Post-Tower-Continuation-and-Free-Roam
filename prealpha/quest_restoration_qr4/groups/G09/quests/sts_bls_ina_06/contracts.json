@@ -1,0 +1,599 @@
+{
+  "quest_id": "sts_bls_ina_06",
+  "title": "No Fixers",
+  "source_epoch": "QR3 candidate_01; installed PH3 separate",
+  "status": "DEEP_REVIEWED_WITH_SPECIFIC_STATIC_LIMITS",
+  "fully_static_verified": false,
+  "effective_resource": "towercontinued\\native_gigs_u9\\sts_bls_ina_06_entry.questphase",
+  "effective_resource_sha256": "A4C24A9994933303426F72453AA6074166FACCE0B7803A97E16F9E36CA99020B",
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Native inline4\u219266outside#ina_06_tr_setup OR79POIActive viaXOR78\u219240POIActive\u2192Started\u219210.In1. Full original native phase owns physical logic; no actor restart shortcut.",
+        "Current root0\u219265000Ready\u219265001Revision\u219265002permission pause\u219265003ParentEntered\u2192native inline then originalPOI\u219265004Started\u2192native main. Main.Out1\u219265005MainFinished\u219265006OwnerFinished. Every retained original payload/nested graph is compared; only mainphase storageFlags Embedded\u2192Soft differs."
+      ],
+      "approved_differences": [
+        "Existing U9 additive private entry/receipt adapters; exact original native body and saved node/input identities retained."
+      ],
+      "remaining": [
+        "CONDITIONAL: Registration activation, native trigger/POI event timing and saved original owner retirement are engine inputs."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/script_pins.json",
+        "../../verification_02/quest_evidence.json",
+        "../../verification_02/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json"
+      ]
+    },
+    "eligibility": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Effective consolidated NativeGigsU9.Request/EntrySafe/Poll uses certified or acceptedHS1 history, completedTower/LC1/startup/support/legacy/consequence guards. EntrySafe requires each of 16 enumerated journal paths Inactive and 17 native facts0; missing journal lookup returns-1, notInactive.",
+        "CR2W65002 itself has fact predicates only; current scripted Permit carries the journal/legacy protection. Both layers are pinned, and old source RestoreCertified stub is not mistaken for production. Own kill_chasing_raffens objective is read inOWroot/5 node52 and55 but absent EntrySafe.Paths; Dakota map-pin186 also absent. Cross-gig INA07/INA04 garage paths are separately classified. No target/provenance-supported repair is justified."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: Exact journal-target coverage/provenance gaps listed in journal_target_gaps.json remain visible. Inactive roots/facts do not prove native saved owner retirement.",
+        "LIVE_ONLY: Current save history and scheduling between Permit poll and graph admission are not observed."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/script_pins.json",
+        "../../verification_02/quest_evidence.json",
+        "../../verification_02/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json"
+      ]
+    },
+    "communications": {
+      "status": "PASS",
+      "proven": [
+        "Actual connected native primary producer\u2192ack waits: sts_bls_ina_06_holocall_debriefs.scene:start 98\u2192268; sts_bls_ina_06_holocall_debriefs.scene:end 99\u219294; sts_bls_ina_06_holocall_prebrief.scene:start 88\u2192267; sts_bls_ina_06_holocall_prebrief.scene:end 89\u219284. Start requests pass through native scnDeletionMarker before the real wait267/268/270/250; removed old wait IDs are not treated as active listeners.",
+        "Shared native Dakota38\u219239requestcount+1\u219240request0\u219243loop and41count/setup conditions\u219234False\u219244count-1\u219221start; end2\u219210\u219221end. Actual native scene41/42 write done1. U9 initializer25\u219250 and cleanup437True\u2192301In11\u2192Out11\u2192441 are connected; PH3 owns both global studio prefab scopes."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Call arbitration, 30-second timeout/reject/retry, additional native INT/RET fire-and-forget request branches, UI/counter cleanup and saved pending requests are not engine-simulated.",
+        "CONDITIONAL: SupportIssued receipt precedes parent startup; it does not prove each listener is already running at that instant."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/script_pins.json",
+        "../../verification_02/quest_evidence.json",
+        "../../verification_02/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native mainnode10 invokes base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\phases\\sts_bls_ina_06.questphase In1 with rootprefab #sts_bls_ina_06_logic. Whole body resources remain official/unoverridden. Embedded donor graphs equal external body graphs after only Embedded\u2192Soft reference storage adaptation.",
+        "Legacy tags ['PTFRB7_bls_ina_06'] and per-owner receipts block known old/private reuse; current scripted OldUnused checks all legacy keys and LegacyOwnerFacts. Native OWroot/4 node245 waitsINA07park_in_garage and247 waitsINA04leave_workshop. These shared garage dependencies and original Iris/Tanner/car owners remain; body flags do not prove saved release."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: A retired original saved owner cannot be inferred from killed Tower state, missing actors or unused private receipts alone. Exact executing-owner/transition proof remains open."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/script_pins.json",
+        "../../verification_02/quest_evidence.json",
+        "../../verification_02/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "No Fixers retains Tanner/Iris rescue/hire/leave-alone, gang chase, optional car delivery/pacifist outcome and Dakota meeting. Native OWroot/4 node109 incrementsina_06_start and195/214 incrementina_06_finished on authored branches. Distinct outcome edges are not flattened.",
+        "Exact original default main input socket, body phase/scene references, graph edges and branch predicates are retained. Native stage/outcome writes and per-route incoming/outgoing sockets are materialized in quest_evidence.json, not inferred from the restoration label."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Native scene outcomes, AI/combat/vehicle/body transport events, triggers and interrupt timing remain unobserved; static parity is not gameplay success."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/script_pins.json",
+        "../../verification_02/quest_evidence.json",
+        "../../verification_02/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Whole official body owns #sts_bls_ina_06_logic and exact nested PhaseInstancePrefabs/scene/camera/workspot/actor/NodeRef data. No private bare initializer is used as a replacement for native physical support.",
+        "Map owners: sts_bls_ina_06_map0.questphase fromDakota root/51. Native Dakota visited2 predicate remains; map branches require ownStarted1/MapPermit1 and per-mapEntered0."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "OPAQUE: Full world sector/prefab content, inherited embedded/native-provider lifetimes, actor/camera/workspot/vehicle placements and journal mappin targets are not completely decoded.",
+        "LIVE_ONLY: Render/VO/global JV1 policy and streaming effects are not verified by preserved resource pointers."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/script_pins.json",
+        "../../verification_02/quest_evidence.json",
+        "../../verification_02/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json"
+      ]
+    },
+    "journal": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "All native root/phase/objective/mappin references are retained. Private selected map payloads compare to exact Dakota native graphs; only documented unrelated-POI contraction edges are omitted. Own kill_chasing_raffens objective is read inOWroot/5 node52 and55 but absent EntrySafe.Paths; Dakota map-pin186 also absent. Cross-gig INA07/INA04 garage paths are separately classified. No target/provenance-supported repair is justified.",
+        "Current per-quest admissions and native referenced targets are independently cross-listed; source paths/classes/IDs for discrepancies are in journal_target_gaps.json."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "UNKNOWN: Exact journal target definitions and obsolete/dynamic class interpretation are not fully resolved. A pointer alone is not target verification or permission to synthesize history."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/script_pins.json",
+        "../../verification_02/quest_evidence.json",
+        "../../verification_02/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native OWroot/4 node220 andOWroot/6 node6 QuestRewards.sts_bls_ina_06_completion;OW6 node32 preserves completion_pacifist and24 NoMansLand. Credit5finished\u219211 incrementsbls_sts_counter without giving quest rewards again.",
+        "Credit guard65000 requires Started1/CreditEntered0/CreditDone0 plus U9support, then65001 claims once before original finish/fail predicate and native11 increment. 11.Out\u219265002CreditDone is connected. Native rewards are solely body-owned; no custom payout or completion substitute is added."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "UNKNOWN: Reward/TDB record definitions, item/accounting entitlement, actual original saved credit owner and once-only execution across save/reload remain unproved.",
+        "LIVE_ONLY: Native failure cleanup, garage release, district-tier progression and achievement dispatch need fixtures."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/script_pins.json",
+        "../../verification_02/quest_evidence.json",
+        "../../verification_02/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Existing resource/node/field/receipt names are untouched; ParentEntered/Started/OwnerFinished/CreditEntered/CreditDone prevent known new-input reclaims. Current Request rejects terminal facts and prior requests, while Poll revalidates EntrySafe/OldUnused before Permit.",
+        "No facts, journals, counters, items, rewards, actors or saves were reset; old resources and exact native failure examples remain unchanged."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Durable executing node state, original district credit/map loops, already-running legacy controllers and future-version transitions need save-compatible fixtures. Receipt fencing is not a proof of all saved owner retirement."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/script_pins.json",
+        "../../verification_02/quest_evidence.json",
+        "../../verification_02/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native OWroot/4 node245 waitsINA07park_in_garage and247 waitsINA04leave_workshop. These shared garage dependencies and original Iris/Tanner/car owners remain; body flags do not prove saved release.",
+        "Pinned original district, native fixer-loop credit and Dakota map donors plus exact controller/cleanup/PH3studio core are reused. Shared core has38 independent controls; these five quests add319 focused checks and12 actual graph/predicate mutations."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: Original return/garage/consequence owner context and exact journal/reward targets remain unresolved.",
+        "LIVE_ONLY: Startup event ordering, Studio ownership stream-in and native phone/actor interrupts remain engine behavior."
+      ],
+      "evidence": [
+        "../../verification_02/tests.json",
+        "../../verification_02/source_pins.json",
+        "../../verification_02/script_pins.json",
+        "../../verification_02/quest_evidence.json",
+        "../../verification_02/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json"
+      ]
+    }
+  },
+  "native_rewards": [
+    {
+      "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\phases\\sts_bls_ina_06_ow.questphase",
+      "graph": "root/4",
+      "node": "220",
+      "records": [
+        "QuestRewards.sts_bls_ina_06_completion"
+      ]
+    },
+    {
+      "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\phases\\sts_bls_ina_06_ow.questphase",
+      "graph": "root/6",
+      "node": "6",
+      "records": [
+        "QuestRewards.sts_bls_ina_06_completion"
+      ]
+    },
+    {
+      "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\phases\\sts_bls_ina_06_ow.questphase",
+      "graph": "root/6",
+      "node": "24",
+      "records": [
+        "Achievements.NoMansLand"
+      ]
+    },
+    {
+      "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\phases\\sts_bls_ina_06_ow.questphase",
+      "graph": "root/6",
+      "node": "32",
+      "records": [
+        "QuestRewards.sts_bls_ina_06_completion_pacifist"
+      ]
+    }
+  ],
+  "source_details": {
+    "entry": "towercontinued\\native_gigs_u9\\sts_bls_ina_06_entry.questphase",
+    "entry_main_node": 10,
+    "inline_node": 4,
+    "poi_node": 40,
+    "body": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\phases\\sts_bls_ina_06.questphase",
+    "native_prefab": "#sts_bls_ina_06_logic",
+    "index": 23,
+    "admission_paths": [
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_06",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_06/sts_bls_ina_06",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_06/sts_bls_ina_06/find_tanner",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_06/sts_bls_ina_06/talk_tanner",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_06/sts_bls_ina_06/deliver_tanner_to_dakota",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_06/sts_bls_ina_06/talk_dakota",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_06/sts_bls_ina_06/kill_guard",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_06/sts_bls_ina_06/01_get_to_outpost",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_06/sts_bls_ina_06/02_get_inside_outpost",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_06/sts_bls_ina_06/03_find_tanner",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_06/sts_bls_ina_06/opt_get_iris_car",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_06/sts_bls_ina_06/rescue_iris_tanner",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_06/sts_bls_ina_06/park_car_in_garage",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_06/sts_bls_ina_06/pick_up_optional_reward",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_06/sts_bls_ina_06/leave_area",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_06/ina_06_briefing"
+    ],
+    "admission_classes": [
+      "gameJournalQuest",
+      "gameJournalQuestPhase",
+      "gameJournalQuestObjective",
+      "gameJournalQuestObjective",
+      "gameJournalQuestObjective",
+      "gameJournalQuestObjective",
+      "gameJournalQuestObjective",
+      "gameJournalQuestObjective",
+      "gameJournalQuestObjective",
+      "gameJournalQuestObjective",
+      "gameJournalQuestObjective",
+      "gameJournalQuestObjective",
+      "gameJournalQuestObjective",
+      "gameJournalQuestObjective",
+      "gameJournalQuestObjective",
+      "gameJournalQuestDescription"
+    ],
+    "native_fact_guards": [
+      "ina_06_active",
+      "ina_06_all_enemies_killed",
+      "ina_06_car_delivered",
+      "ina_06_car_destroyed",
+      "ina_06_cc_start",
+      "ina_06_combat",
+      "ina_06_dakota_met",
+      "ina_06_finished",
+      "ina_06_gangers_melee_CallReinforcements",
+      "ina_06_impossible_fact",
+      "ina_06_iris_gone",
+      "ina_06_iris_hired",
+      "ina_06_start",
+      "ina_06_tanner_left_alone",
+      "ina_06_test_def",
+      "sts_bls_ina_06_ce_start",
+      "sts_bls_ina_06_talk_to_T"
+    ],
+    "legacy_tags": [
+      "PTFRB7_bls_ina_06"
+    ],
+    "terminal_facts": [
+      "ina_06_finished"
+    ],
+    "native_journal_paths": [
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_04/retrieve_the_van/leave_workshop",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_06",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_06/ina_06_briefing",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_06/sts_bls_ina_06",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_06/sts_bls_ina_06/01_get_to_outpost",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_06/sts_bls_ina_06/02_get_inside_outpost",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_06/sts_bls_ina_06/deliver_tanner_to_dakota",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_06/sts_bls_ina_06/find_tanner",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_06/sts_bls_ina_06/kill_chasing_raffens",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_06/sts_bls_ina_06/kill_guard",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_06/sts_bls_ina_06/leave_area",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_06/sts_bls_ina_06/opt_get_iris_car",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_06/sts_bls_ina_06/park_car_in_garage",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_06/sts_bls_ina_06/pick_up_optional_reward",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_06/sts_bls_ina_06/talk_dakota",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_06/sts_bls_ina_06/talk_dakota/mp_dakota",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_06/sts_bls_ina_06/talk_tanner",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_07/get_hdd_from_ghost_car/park_in_garage"
+    ],
+    "journal_paths_not_in_EntrySafe": [
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_04/retrieve_the_van/leave_workshop",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_06/sts_bls_ina_06/kill_chasing_raffens",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_06/sts_bls_ina_06/talk_dakota/mp_dakota",
+      "quests/street_stories/badlands/inland_avenue/sts_bls_ina_07/get_hdd_from_ghost_car/park_in_garage"
+    ],
+    "maps": [
+      {
+        "depot": "towercontinued\\native_gigs_u9\\sts_bls_ina_06_map0.questphase",
+        "native_graph": "root/51",
+        "foreign_poi_contraction": [
+          10,
+          39
+        ]
+      }
+    ],
+    "credit": "towercontinued\\native_gigs_u9\\sts_bls_ina_06_credit.questphase",
+    "credit_finished_node": 5,
+    "native_terminal_routes": [
+      {
+        "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\phases\\sts_bls_ina_06_ow.questphase",
+        "graph": "root/4",
+        "node": "195",
+        "writes": [
+          {
+            "$type": "questSetVar_NodeType",
+            "factName": "ina_06_finished",
+            "setExactValue": 0,
+            "value": 1
+          }
+        ],
+        "incoming": [
+          [
+            "197",
+            "Out",
+            "195",
+            "In"
+          ]
+        ],
+        "outgoing": [
+          [
+            "195",
+            "Out",
+            "202",
+            "In"
+          ],
+          [
+            "195",
+            "Out",
+            "203",
+            "In"
+          ]
+        ]
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\phases\\sts_bls_ina_06_ow.questphase",
+        "graph": "root/4",
+        "node": "214",
+        "writes": [
+          {
+            "$type": "questSetVar_NodeType",
+            "factName": "ina_06_finished",
+            "setExactValue": 0,
+            "value": 1
+          }
+        ],
+        "incoming": [
+          [
+            "215",
+            "Out",
+            "214",
+            "In"
+          ]
+        ],
+        "outgoing": [
+          [
+            "214",
+            "Out",
+            "205",
+            "Active"
+          ]
+        ]
+      }
+    ],
+    "rewards": [
+      {
+        "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\phases\\sts_bls_ina_06_ow.questphase",
+        "graph": "root/4",
+        "node": "220",
+        "records": [
+          "QuestRewards.sts_bls_ina_06_completion"
+        ]
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\phases\\sts_bls_ina_06_ow.questphase",
+        "graph": "root/6",
+        "node": "6",
+        "records": [
+          "QuestRewards.sts_bls_ina_06_completion"
+        ]
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\phases\\sts_bls_ina_06_ow.questphase",
+        "graph": "root/6",
+        "node": "24",
+        "records": [
+          "Achievements.NoMansLand"
+        ]
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\phases\\sts_bls_ina_06_ow.questphase",
+        "graph": "root/6",
+        "node": "32",
+        "records": [
+          "QuestRewards.sts_bls_ina_06_completion_pacifist"
+        ]
+      }
+    ],
+    "scene_phase_bindings": [
+      {
+        "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\phases\\sts_bls_ina_06.questphase",
+        "graph": "root",
+        "node": "13",
+        "refs": [
+          "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\phases\\sts_bls_ina_06_gpl.questphase"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\phases\\sts_bls_ina_06.questphase",
+        "graph": "root",
+        "node": "14",
+        "refs": [
+          "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\phases\\sts_bls_ina_06_ow.questphase"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\phases\\sts_bls_ina_06_gpl.questphase",
+        "graph": "root/4/19",
+        "node": "3",
+        "refs": [
+          "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\scenes\\sts_bls_ina_06_01_hostage.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\phases\\sts_bls_ina_06_gpl.questphase",
+        "graph": "root/4/34",
+        "node": "3",
+        "refs": [
+          "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\scenes\\sts_bls_ina_06_gangers.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\phases\\sts_bls_ina_06_ow.questphase",
+        "graph": "root/4",
+        "node": "151",
+        "refs": [
+          "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\scenes\\sts_bls_ina_06_holocall_prebrief.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\phases\\sts_bls_ina_06_ow.questphase",
+        "graph": "root/4",
+        "node": "152",
+        "refs": [
+          "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\scenes\\sts_bls_ina_06_holocall_debriefs.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\phases\\sts_bls_ina_06_ow.questphase",
+        "graph": "root/4",
+        "node": "202",
+        "refs": [
+          "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\scenes\\sts_bls_ina_06_holocall_debriefs.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\phases\\sts_bls_ina_06_ow.questphase",
+        "graph": "root/4",
+        "node": "203",
+        "refs": [
+          "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\scenes\\sts_bls_ina_06_holocall_prebrief.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\phases\\sts_bls_ina_06_ow.questphase",
+        "graph": "root/4",
+        "node": "231",
+        "refs": [
+          "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\scenes\\sts_bls_ina_06_holocall_debriefs.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\phases\\sts_bls_ina_06_ow.questphase",
+        "graph": "root/4",
+        "node": "232",
+        "refs": [
+          "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\scenes\\sts_bls_ina_06_holocall_prebrief.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\phases\\sts_bls_ina_06_ow.questphase",
+        "graph": "root/5",
+        "node": "3",
+        "refs": [
+          "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\scenes\\sts_bls_ina_06_01_hostage.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\phases\\sts_bls_ina_06_ow.questphase",
+        "graph": "root/5",
+        "node": "9",
+        "refs": [
+          "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\scenes\\sts_bls_ina_06_meeting_dakota.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\phases\\sts_bls_ina_06_ow.questphase",
+        "graph": "root/5",
+        "node": "53",
+        "refs": [
+          "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\scenes\\sts_bls_ina_06_01_hostage.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\phases\\sts_bls_ina_06_ow.questphase",
+        "graph": "root/5",
+        "node": "199",
+        "refs": [
+          "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\scenes\\sts_bls_ina_06_01_hostage.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\scenes\\sts_bls_ina_06_01_hostage.scene",
+        "graph": "scene",
+        "node": "93",
+        "refs": [
+          "base\\open_world\\street_stories\\badlands\\inland_avenue\\sts_bls_ina_06\\scenes\\sts_bls_ina_06_01_hostage.scene"
+        ],
+        "prefabs": []
+      }
+    ]
+  },
+  "confirmed_defects": [],
+  "runtime_changes": []
+}

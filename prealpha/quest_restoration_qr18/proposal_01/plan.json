@@ -1,0 +1,15 @@
+{
+  "resources": [
+    {
+      "depot": "towercontinued\\sidejobs_s23\\base_b\\mq037.questphase",
+      "proposed_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr18\\proposal_01\\mq037.questphase.json",
+      "proposed_json_sha256": "FA0B08400631EA03EC20EDEA8E7F2DE4493DD0A4CDEA9F30BD58D85D40870E84"
+    }
+  ],
+  "script": {
+    "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS23.reds",
+    "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr18\\proposal_01\\PTFR_SideJobsS23.reds",
+    "sha256": "8B62F4BA6A81AE558D88311A307934A790528875CE76A4EE751988D76664F3EC"
+  },
+  "policy": "Portable stage-start fallback for the native post-Dumpster wait and Theo introduction."
+}

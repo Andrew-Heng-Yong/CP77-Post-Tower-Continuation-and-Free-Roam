@@ -1,0 +1,179 @@
+{
+  "quest_id": "sts_ep1_12_pickup",
+  "title": "Corpo of the Month",
+  "source_epoch": "QR5:08 = QR6:00 frozen bytes",
+  "status": "DEEP_SOURCE_INVESTIGATED_WITH_SPECIFIC_LIMITS",
+  "fully_static_verified": false,
+  "effective_resource": "towercontinued\\sidejobs_s29\\entries\\sts_ep1_12_pickup.questphase",
+  "effective_resource_sha256": "46C29A8FA0EA5E1BFA5F223067825304F432D63C3750BB98FECF859CBF542A2C",
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Original ep1_world_stories root26 waits wst_ep1_02_active>0 then2.In1. Current entry preserves exact predicate/node and full native wst_ep1_02 body; the selected quest ID maps to this differently named native world story. Body root retains #loc_sts_ep1_12_questdesign lease."
+      ],
+      "remaining": [
+        "Actual native predicates and current source rehost are proved; registration and trigger timing require engine execution."
+      ],
+      "approved_differences": [
+        "Existing genuine-Tower private S29 fresh rehost/once guards; This Corrosion deliberately selects breadcrumb subtree and excludes equipment-whisper owner. No new QR6 gameplay change."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\quests\\sts_ep1_12_pickup\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\crossowner_paths.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\crossowners_01\\census_pins.json"
+      ]
+    },
+    "eligibility": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Actual entry protects twelve Inactive quest/phase/objective/codex/mappin states and wst_ep1_02_start/finished0 behind S29 once guards. Native Treating Symptoms cleanup root/36:14 is the earned active1 producer. Body48 preserves standalone-dependent token49/50→XOR55→outside trigger7, rather than granting content or fabricating an Alan outcome."
+      ],
+      "remaining": [
+        "Fresh guards protect the enumerated states; earned activation/recipe receipts and unobserved saved-owner histories are not created by this adapter and require actual save context."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\quests\\sts_ep1_12_pickup\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\crossowner_paths.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\crossowners_01\\census_pins.json"
+      ]
+    },
+    "communications": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native Alan message choice5 depends on earned sts_ep1_12_corpo_blueline outcome; actual SMS read34, reply choice26 and Succeeded reply listener27→Alan response28 are retained. Completion32 tests original active reply alternatives, either retaining them or inactivating31 before reward8. This is native journal/phone-choice handling with no holocall listener requirement."
+      ],
+      "remaining": [
+        "Source-specific native messages, choices and real callback writers are proved; journal UI notifications, timers, interruption/reload scheduling and actual vendor delivery remain live-dependent."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\quests\\sts_ep1_12_pickup\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\crossowner_paths.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\crossowners_01\\census_pins.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Full native body root #loc_sts_ep1_12_questdesign owns Alan reward marker/variant and spawn/cleanup scope. Original parent2 PIPs and ep1_world_stories root PIPs are empty, verified directly; the body root lease is nevertheless retained. Private Finished waits original Out1 after native cleanup, rather than treating local quest success as lease retirement."
+      ],
+      "remaining": [
+        "Original root/PIP and parent scopes are checked; opaque streamed markers and arbitrary saved controllers/old timers cannot be certified from static receipts."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\quests\\sts_ep1_12_pickup\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\crossowner_paths.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\crossowners_01\\census_pins.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Native condition5 preserves corpo_blueline message/variant branch36; native10 requires real Executed interaction with #sts_ep1_12_corpo_loot before11 quest.Succeeded. Original message-read/objective transitions and reward-choice arbitration32 remain exact, followed by reward8→finished24→outside40/device/spawn cleanup37/41/42→output13."
+      ],
+      "remaining": [],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\quests\\sts_ep1_12_pickup\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\crossowner_paths.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\crossowners_01\\census_pins.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Exact native body lease #loc_sts_ep1_12_questdesign, absolute corpo_reward prefab variant target, loot container, trigger, community and mappin bindings are retained. No new physical actor or scene is invented. Engine placement and interaction/event acquisition remain opaque despite source-preserved markers."
+      ],
+      "remaining": [
+        "DynamicBaseClass/worldNode placement, scene/actor/loot acquisition, prefab streaming, workspots/cameras and effective presentation execution remain opaque or live-dependent."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\quests\\sts_ep1_12_pickup\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\crossowner_paths.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\crossowners_01\\census_pins.json"
+      ]
+    },
+    "journal": {
+      "status": "PASS",
+      "proven": [
+        "All12 initial state guards and native read_message→take_reward→quest success transitions/mappins match exact original graph payloads and sockets. Real loot interaction10 and message-read34 supply progression evidence; private facts do not force success or choose Alan dialogue."
+      ],
+      "remaining": [],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\quests\\sts_ep1_12_pickup\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\crossowner_paths.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\crossowners_01\\census_pins.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native8 retains QuestRewards.sts_ep1_12_reward_alan after real loot interaction/quest11.Succeeded and native reply-state32 handling. Native24 writes finished1, then waits outside40 before device/community cleanup37/41/42 and original terminating13.Out1; the private wrapper receives this real exit at65007. No extra district counter or grant is added."
+      ],
+      "remaining": [
+        "Native completion/cleanup authoring is proved. Effective item/reward/economic record definitions, real collection, engine once semantics, old timers and saved owner retirement remain conditional."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\quests\\sts_ep1_12_pickup\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\crossowner_paths.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\crossowners_01\\census_pins.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native wst_ep1_02 start/finished and prior sts_ep1_12 outcome facts, journal choice history, root node IDs and S29 receipts remain unchanged. FreshS29 history and stable observations reject unsupported partial state; there is no reset of sent/receipt choices or reward ownership."
+      ],
+      "remaining": [
+        "Exact saved names and no-restart source are checked; no save-transition fixture was run and future-version/arbitrary saved-owner compatibility is not certified."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\quests\\sts_ep1_12_pickup\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\crossowner_paths.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\crossowners_01\\census_pins.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Actual Treating Symptoms cleanup root/36:14 activates the native follow-up; source census independently maps selected sts_ep1_12_pickup to wst_ep1_02. Retained root location lease, Alan message/reply resources, original reward record and physical loot interaction are distinct obligations. Ronald optional news remains a separate QR5 blocker, not a reason to replace Alan flow."
+      ],
+      "remaining": [
+        "Targeted5136 captured-model census proves the named producer relationships only after exact source hash matching. Whole world placement and engine acquired leases, current record overrides and live shared-controller arbitration remain open."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\quests\\sts_ep1_12_pickup\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\crossowner_paths.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\crossowners_01\\census_pins.json"
+      ]
+    }
+  }
+}

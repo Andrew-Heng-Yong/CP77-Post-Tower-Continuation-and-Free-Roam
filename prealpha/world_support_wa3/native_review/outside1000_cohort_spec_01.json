@@ -1,0 +1,284 @@
+{
+  "id": 1000,
+  "prefab": "$/03_night_city/sw2/#loc_q000_border_crossing/#loc_q000_border_crossing_openworld",
+  "community_refs": [
+    "$/03_night_city/sw2/#loc_q000_border_crossing/#loc_q000_border_crossing_openworld/#q000_nomad_ow_civilians_com",
+    "$/03_night_city/sw2/#loc_q000_border_crossing/#loc_q000_border_crossing_openworld/#q000_ow_com"
+  ],
+  "spawner_hashes": [
+    "6960310025632154600",
+    "11917571111345842641"
+  ],
+  "native_binary": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\outside_phases_native_01\\basegame_4_gamedata.archive\\bad_ina_phase.questphase",
+  "native_binary_sha256": "F8DD69744C647EB5F7AB72C500C48BC62D1ED1D3987E5859C2C460557A15141B",
+  "node_path": "root/159",
+  "resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_769927088f9d9c0c.streamingsector",
+  "support_sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_769927088f9d9c0c.streamingsector",
+  "support_sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\outside_prefab_native_02\\basegame_3_nightcity.archive\\quest_769927088f9d9c0c.streamingsector",
+  "support_sector_sha256": "49A10D9B37BCC52381DE8AA60606FE7FDD5B3118339A4F7301C51A95033641F2",
+  "support_sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\outside_prefab_decoded_01\\quest_769927088f9d9c0c.json",
+  "proof": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\border_support_assessment_01.json",
+  "prefix": "PTFRWA3_1000_",
+  "native_admission_facts": [],
+  "communities": [
+    {
+      "ref": "$/03_night_city/sw2/#loc_q000_border_crossing/#loc_q000_border_crossing_openworld/#q000_nomad_ow_civilians_com",
+      "hash": "6960310025632154600",
+      "registry": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\outside_registry_01\\ep1_1_nightcity.archive_6960310025632154600.json",
+      "registry_sha256": "57AE4589F35B490FE89613FDED0E316B4588611D3B1579BA3EB038DAB42CD24B",
+      "entries": [
+        {
+          "entry": "civilian_01_01",
+          "spot_bindings": [
+            {
+              "native_ref": "#q000_nomad_ws_ow_passenger_001_01",
+              "matches": [
+                "$/03_night_city/sw2/#loc_q000_border_crossing/#loc_q000_border_crossing_openworld/#q000_nomad_ws_ow_passenger_001_01"
+              ]
+            }
+          ],
+          "markings": [],
+          "unmapped_markings": []
+        },
+        {
+          "entry": "civilian_01_02",
+          "spot_bindings": [
+            {
+              "native_ref": "#q000_nomad_ws_ow_passenger_001_02",
+              "matches": [
+                "$/03_night_city/sw2/#loc_q000_border_crossing/#loc_q000_border_crossing_openworld/#q000_nomad_ws_ow_passenger_001_02"
+              ]
+            }
+          ],
+          "markings": [],
+          "unmapped_markings": []
+        },
+        {
+          "entry": "civilian_02",
+          "spot_bindings": [
+            {
+              "native_ref": "#q000_nomad_ws_ow_passenger_002",
+              "matches": [
+                "$/03_night_city/sw2/#loc_q000_border_crossing/#loc_q000_border_crossing_openworld/#q000_nomad_ws_ow_passenger_002"
+              ]
+            }
+          ],
+          "markings": [],
+          "unmapped_markings": []
+        },
+        {
+          "entry": "civilian_03_01",
+          "spot_bindings": [
+            {
+              "native_ref": "#q000_nomad_ws_ow_passenger_003_001",
+              "matches": [
+                "$/03_night_city/sw2/#loc_q000_border_crossing/#loc_q000_border_crossing_openworld/#q000_nomad_ws_ow_passenger_003_001"
+              ]
+            }
+          ],
+          "markings": [],
+          "unmapped_markings": []
+        },
+        {
+          "entry": "civilian_03_02",
+          "spot_bindings": [
+            {
+              "native_ref": "#q000_nomad_ws_ow_passenger_003_002",
+              "matches": [
+                "$/03_night_city/sw2/#loc_q000_border_crossing/#loc_q000_border_crossing_openworld/#q000_nomad_ws_ow_passenger_003_002"
+              ]
+            }
+          ],
+          "markings": [],
+          "unmapped_markings": []
+        },
+        {
+          "entry": "civilian_04_01",
+          "spot_bindings": [
+            {
+              "native_ref": "#q000_nomad_ws_ow_passenger_004_001",
+              "matches": [
+                "$/03_night_city/sw2/#loc_q000_border_crossing/#loc_q000_border_crossing_openworld/#q000_nomad_ws_ow_passenger_004_001"
+              ]
+            }
+          ],
+          "markings": [],
+          "unmapped_markings": []
+        },
+        {
+          "entry": "civilian_04_02",
+          "spot_bindings": [
+            {
+              "native_ref": "#q000_nomad_ws_ow_passenger_004_002",
+              "matches": [
+                "$/03_night_city/sw2/#loc_q000_border_crossing/#loc_q000_border_crossing_openworld/#q000_nomad_ws_ow_passenger_004_002"
+              ]
+            }
+          ],
+          "markings": [],
+          "unmapped_markings": []
+        },
+        {
+          "entry": "civilian_04_03",
+          "spot_bindings": [
+            {
+              "native_ref": "#q000_nomad_ws_ow_passenger_004_003",
+              "matches": [
+                "$/03_night_city/sw2/#loc_q000_border_crossing/#loc_q000_border_crossing_openworld/#q000_nomad_ws_ow_passenger_004_003"
+              ]
+            }
+          ],
+          "markings": [],
+          "unmapped_markings": []
+        },
+        {
+          "entry": "civilian_04_04",
+          "spot_bindings": [
+            {
+              "native_ref": "#q000_nomad_ws_ow_passenger_004_004",
+              "matches": [
+                "$/03_night_city/sw2/#loc_q000_border_crossing/#loc_q000_border_crossing_openworld/#q000_nomad_ws_ow_passenger_004_004"
+              ]
+            }
+          ],
+          "markings": [],
+          "unmapped_markings": []
+        },
+        {
+          "entry": "civilian_05",
+          "spot_bindings": [
+            {
+              "native_ref": "#q000_nomad_ws_ow_passenger_005_001",
+              "matches": [
+                "$/03_night_city/sw2/#loc_q000_border_crossing/#loc_q000_border_crossing_openworld/#q000_nomad_ws_ow_passenger_005_001"
+              ]
+            }
+          ],
+          "markings": [],
+          "unmapped_markings": []
+        },
+        {
+          "entry": "civilian_06_01",
+          "spot_bindings": [
+            {
+              "native_ref": "#q000_nomad_ws_ow_passenger_006_01",
+              "matches": [
+                "$/03_night_city/sw2/#loc_q000_border_crossing/#loc_q000_border_crossing_openworld/#q000_nomad_ws_ow_passenger_006_01"
+              ]
+            }
+          ],
+          "markings": [],
+          "unmapped_markings": []
+        },
+        {
+          "entry": "civilian_06_02",
+          "spot_bindings": [
+            {
+              "native_ref": "#q000_nomad_ws_ow_passenger_006_02",
+              "matches": [
+                "$/03_night_city/sw2/#loc_q000_border_crossing/#loc_q000_border_crossing_openworld/#q000_nomad_ws_ow_passenger_006_02"
+              ]
+            }
+          ],
+          "markings": [],
+          "unmapped_markings": []
+        },
+        {
+          "entry": "civilian_07",
+          "spot_bindings": [
+            {
+              "native_ref": "#q000_nomad_ws_ow_passenger_007_001",
+              "matches": [
+                "$/03_night_city/sw2/#loc_q000_border_crossing/#loc_q000_border_crossing_openworld/#q000_nomad_ws_ow_passenger_007_001"
+              ]
+            }
+          ],
+          "markings": [],
+          "unmapped_markings": []
+        },
+        {
+          "entry": "civilian_08_01",
+          "spot_bindings": [
+            {
+              "native_ref": "#q000_nomad_ws_ow_passenger_008_01",
+              "matches": [
+                "$/03_night_city/sw2/#loc_q000_border_crossing/#loc_q000_border_crossing_openworld/#q000_nomad_ws_ow_passenger_008_01"
+              ]
+            }
+          ],
+          "markings": [],
+          "unmapped_markings": []
+        },
+        {
+          "entry": "civilian_08_02",
+          "spot_bindings": [
+            {
+              "native_ref": "#q000_nomad_ws_ow_passenger_008_02",
+              "matches": [
+                "$/03_night_city/sw2/#loc_q000_border_crossing/#loc_q000_border_crossing_openworld/#q000_nomad_ws_ow_passenger_008_02"
+              ]
+            }
+          ],
+          "markings": [],
+          "unmapped_markings": []
+        }
+      ]
+    },
+    {
+      "ref": "$/03_night_city/sw2/#loc_q000_border_crossing/#loc_q000_border_crossing_openworld/#q000_ow_com",
+      "hash": "11917571111345842641",
+      "registry": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\outside_registry_01\\ep1_1_nightcity.archive_11917571111345842641.json",
+      "registry_sha256": "620C8E53F0B477E08C11E6ACAE165713E25A01ABC83FBBF8FA792092139B3087",
+      "entries": [
+        {
+          "entry": "militech_01",
+          "spot_bindings": [],
+          "markings": [
+            "border_guard_ranged"
+          ],
+          "unmapped_markings": []
+        },
+        {
+          "entry": "militech_02",
+          "spot_bindings": [],
+          "markings": [
+            "border_guard_melee"
+          ],
+          "unmapped_markings": []
+        },
+        {
+          "entry": "militech_03",
+          "spot_bindings": [],
+          "markings": [
+            "border_guard_shotgun"
+          ],
+          "unmapped_markings": []
+        },
+        {
+          "entry": "militech_additional",
+          "spot_bindings": [],
+          "markings": [
+            "border_guard_additional"
+          ],
+          "unmapped_markings": []
+        },
+        {
+          "entry": "octan_01",
+          "spot_bindings": [
+            {
+              "native_ref": "#q000_ow_ws_drones_001",
+              "matches": [
+                "$/03_night_city/sw2/#loc_q000_border_crossing/#loc_q000_border_crossing_openworld/#q000_ow_ws_drones_001"
+              ]
+            }
+          ],
+          "markings": [],
+          "unmapped_markings": []
+        }
+      ]
+    }
+  ],
+  "requires_private_filtered_sector": true,
+  "filter_spec": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\outside1000_filter_spec_01.json",
+  "lifecycle": "Native root/159 startsfromq000_done>=1; commonWA3q000_done==1 preserves. Otherq305_border_prevention_off guards onlykill/security branches omitted."
+}

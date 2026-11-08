@@ -1,0 +1,53 @@
+{
+  "state": "QR13_02_INSTALLED_VERIFIED_ROLLBACK_READY",
+  "completion": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\deployment_01\\completion.json",
+  "completion_sha256": "DAFCC2C6A84F7013F6477832A80C3DB913A4A63F643A172820A6CC24140E09CE",
+  "installed": "QR13:02 Core + unchanged QR10D01/D00E",
+  "handoff": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\deployment_01\\HANDOFF.md",
+  "next": "General gig capture started at user request. Human plays one naturally available uncompleted gig on working branch, exits normally and reports done + gig name + issues. Stop GG1 external recorder, preserve raw evidence and correlate. No special Ronald fixture qualified; keep that separate limitation and all accepted observations.",
+  "latest_ronald_eligibility": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_eligibility_01\\result.json",
+    "sha256": "B3F0E80F0D957891047D1F65C43615D1488CC262EF3D90A6EFCAB64DAACF8BF4",
+    "card": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_eligibility_01\\TEST_CARD.md"
+  },
+  "latest_ronald_attempt": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_attempt_01\\result.json",
+    "sha256": "B524D610B9C36CEB586BEC4B24D047D18DEE8302DBA73A45A3D0FC1BDC61152F",
+    "report": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_attempt_01\\REPORT.md",
+    "continuation": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_attempt_01\\CONTINUE.md"
+  },
+  "latest_ronald_enrollment": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_enrollment_01\\result.json",
+    "sha256": "877DEDFB0130FEE945A44123B588B9B89BDDDFDECCBA257A63A5299791B8316B",
+    "report": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_enrollment_01\\REPORT.md",
+    "next_steps": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_enrollment_01\\NEXT_STEPS.md"
+  },
+  "latest_ronald_reload": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_reload_01\\result.json",
+    "sha256": "586C00A2541853991A763DF4670EA92591381C720FD9B19FAFFFDA4CDFF0A682",
+    "report": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_reload_01\\REPORT.md"
+  },
+  "pending_ronald_news_qualification": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\test_preparation\\ronald_future_news_01\\plan.json",
+    "sha256": "39957791FDFEEC7886CA8AC0AE5FACB7F27689EE1A15BCBF7E3AE023286D7C3F",
+    "card": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\test_preparation\\ronald_future_news_01\\CHECK.md"
+  },
+  "latest_ronald_news_qualification": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\test_preparation\\ronald_future_news_01\\community_setup_finding_01\\result.json",
+    "sha256": "BBB44C1637BD0F35080D32D19DBBED0282016C24060CA388F3180576FB111D25",
+    "report": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\test_preparation\\ronald_future_news_01\\community_setup_finding_01\\REPORT.md"
+  },
+  "latest_command_syntax_check": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\test_preparation\\ronald_future_news_01\\qualification_02\\syntax_recovery_01.json",
+    "sha256": "FA9CEDAD6000D5A3B60EDEA2AD65A8F5DC490CC8FB52D74B353DECD127E34609"
+  },
+  "general_gig_capture": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\general_gig_probe_gg1\\readiness_01.json",
+    "sha256": "A6F3E75B180FC7E7E3C93310B696685EEF03AAEF9D8D7145A18F88734BA2468D",
+    "probe": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\general_gig_probe_gg1\\probe.py",
+    "active_pointer": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\general_gig_probe_gg1\\active.json",
+    "run_id": "GG1_20261104T050208Z_7a4ab752",
+    "output": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\general_gig_probe_gg1\\captures\\GG1_20261104T050208Z_7a4ab752",
+    "exec_session_id": 18567
+  }
+}

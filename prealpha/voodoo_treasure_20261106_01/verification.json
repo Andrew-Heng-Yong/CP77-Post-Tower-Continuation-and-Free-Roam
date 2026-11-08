@@ -1,0 +1,88 @@
+{
+  "status": "STATIC_AND_PINNED_SAVED_IDENTITY_CHECKS",
+  "checks": [
+    "installed QR19 combined archive",
+    "installed S23 equals pinned candidate",
+    "installed engine matches native captures",
+    "captured raw payload asset_0_door_terminal_1.ent",
+    "typed export asset_0_door_terminal_1.ent.json",
+    "captured raw payload asset_1_all.streamingblock",
+    "captured raw payload asset_2_q304_slider_stash.ent",
+    "typed export asset_2_q304_slider_stash.ent.json",
+    "captured raw payload asset_3_q304_slider_stash_loot.ent",
+    "typed export asset_3_q304_slider_stash_loot.ent.json",
+    "captured raw payload asset_4_q304_slider_stash_door.ent",
+    "typed export asset_4_q304_slider_stash_door.ent.json",
+    "captured raw payload asset_5_all.streamingblock",
+    "captured raw payload asset_6_ep1_persistent_content.questphase",
+    "typed export asset_6_ep1_persistent_content.questphase.json",
+    "captured raw payload asset_7_q304_slider_stash.questphase",
+    "typed export asset_7_q304_slider_stash.questphase.json",
+    "captured raw payload asset_8_voodoo_boot.questphase",
+    "typed export asset_8_voodoo_boot.questphase.json",
+    "native and private phases each have one archive provider",
+    "installed private payload equals QR19 source",
+    "EP1 block capture still matches scan authority",
+    "original body called by root/100/4",
+    "loaded closed-door gate 2",
+    "four exact inactive journals at gate 2",
+    "loaded closed-door gate 3",
+    "four exact inactive journals at gate 3",
+    "loaded closed-door gate 90",
+    "four exact inactive journals at gate 90",
+    "loaded-gate recheck, claim, late fault and entry edges",
+    "native false-journal branch still reaches Inject",
+    "all three native inject operations and exact shared target",
+    "native empty-container termination route",
+    "native node 21 requests TerminalControllerPS on the door",
+    "reproduced placement evidence",
+    "always-loaded reference directory is not the placement",
+    "reject joining parallel reference/definition lists",
+    "reject treating node index as export index",
+    "reject old packed node-index offset",
+    "pinned instance override LootContainerObjectAnimatedByTransform",
+    "pinned instance override DoorController",
+    "pinned instance override TerminalController",
+    "placed door is normally closed with auto-close off",
+    "placed keypad's distinct terminal PS has an authored local code",
+    "placed container enables area loot with authored quest mark",
+    "saved sample 1 binds all four placed identities and classes",
+    "saved sample 2 binds all four placed identities and classes"
+  ],
+  "ps2_keys": {
+    "12853314834284644214": "DoorControllerPS",
+    "9989375000956130078": "TerminalControllerPS",
+    "16080207676021322947": "GenericDeviceControllerPS",
+    "10192301459743777947": "LootContainerObjectAnimatedByTransformPS"
+  },
+  "archive_sha256": "2988A138B7AA529714BA1762A338C89D624C3C11D1C8F7449C6BF9571F216A2B",
+  "native_phase": {
+    "provider": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\ep1\\ep1_2_gamedata.archive",
+    "json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\voodoo_treasure_20261106_01\\assets_02\\asset_7_q304_slider_stash.questphase.json",
+    "sha256": "F00FBE5F669CE247043F047A0CAE99CD5520763C2D188490B5BA738C6BA7A28A",
+    "depot": "ep1\\quest\\main_quests\\q304\\phases\\q304_slider_stash.questphase",
+    "metadata": [
+      5880397824,
+      639282791264455166
+    ],
+    "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\voodoo_treasure_20261106_01\\assets_02\\asset_7_q304_slider_stash.questphase",
+    "json_sha256": "EBB3FFAA391E675BF7406D33CD551B28EB3C6AC7AA7C06935FD67ED2B5500A23"
+  },
+  "wrapper": {
+    "provider": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\mod\\zzzz_PTFR_Combined.archive",
+    "json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\voodoo_treasure_20261106_01\\assets_02\\asset_8_voodoo_boot.questphase.json",
+    "sha256": "130C276B05BCBAB1B977A97986ED3D17C5BB9B157B2E4BCE0452BC0762C116BD",
+    "depot": "towercontinued\\sidejobs_s23\\ep1\\voodoo_boot.questphase",
+    "metadata": [
+      10137600,
+      639295737070442585
+    ],
+    "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\voodoo_treasure_20261106_01\\assets_02\\asset_8_voodoo_boot.questphase",
+    "json_sha256": "70F0FA10812A719BCEDFF279A5CD480EF468FCBABD2126197849A802D7664641"
+  },
+  "limits": [
+    "No native callback execution",
+    "No earlier-claim fixture",
+    "No saved inventory or liveness inference"
+  ]
+}

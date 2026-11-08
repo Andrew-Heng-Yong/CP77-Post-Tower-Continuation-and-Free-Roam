@@ -1,0 +1,202 @@
+{
+  "quest_id": "mq035_ozob",
+  "title": "Send in the Clowns",
+  "status": "DEEP_REVIEW_PARTIAL_STATIC_PARITY",
+  "fully_static_verified": false,
+  "runtime_repairs": [],
+  "contracts": {
+    "entry": {
+      "status": "PASS",
+      "proven": [
+        "The private root retains native minorquests node32 and calls exact native mq035_ozob.questphase through In1. It does not use ride_in, robbery_in or start_in resume bypasses.",
+        "The actual route is 0 -> 1000 Ready -> 1001 pause -> 1002 recheck -> 1003 Issued -> 1004.False -> 1007 pause -> 1008.True -> 81 -> 83 -> 84 -> 54 -> 86 -> 80 -> 55 -> 70 -> 73 -> 62 -> 59 -> 47 -> 76 -> 130 -> 1100.True -> 1101 Entered -> 32.In1. Node1101 also arms native Succeeded observer1010 -> 1011 Finished.",
+        "All 15 retained native ancestor node payloads match the independent native minorquests source; all applicable native ancestor edges are retained. The full root/130 graph is identical: 12 nodes,17 edges."
+      ],
+      "approved_differences": [
+        "Private Tower readiness, history/permit, fresh-state and once-only receipt guards precede the original native entry chain. Native body and input remain unchanged; this is the existing S23/S25/CR1 adaptation, not a QR2 change."
+      ],
+      "remaining": [
+        "Engine scheduling/activation and actual gameplay entry remain LIVE_ONLY; structural route proof is not a live entry claim."
+      ],
+      "evidence": [
+        "source_pins.json",
+        "graph_evidence.json",
+        "tests.json: native_ancestor_node_32; final_native_gate_before_native_body"
+      ]
+    },
+    "eligibility": {
+      "status": "PASS",
+      "proven": [
+        "Original q001_done>0 (54), q005_done>0 (80), q101_enable_side_content>0 (55) are preserved in order. Original root/130 node22 requires q110_done>0 before seven native StreetCredTier branch predicates13,14,15,17,18,19,20 feed native XOR16 and terminating output1. No predicate or threshold was substituted.",
+        "Serialized guard1001 and recheck1002 require root Inactive, all bounded child journal entries Inactive, mq035_car_ride/done/drive_chat/ow_despawn=0, private Issued/Finished/Fault=0, Permit=1 and phone owner Issued=1. Actual serialized AND/OR trees reject Active,Failed,Succeeded roots, pre-Tower and used native car-ride states in automated controls.",
+        "PTFR_SideJobsS23.Read/Ready requires journal/facts present and settled, validates all paths and fact bounds, matches repeated stable observations, and uses history admission/StartupReady. The current service coordinates Permit; it does not reset native progress."
+      ],
+      "approved_differences": [
+        "Stricter fresh-only admission and genuine Tower completion restrictions are established project policy. Unsupported unfinished states defer; this adapter does not claim an arbitrary resume seam."
+      ],
+      "remaining": [
+        "Actual StreetCred value, earned prerequisite history and player eligibility are save-specific LIVE_ONLY inputs. No save was decoded or modified."
+      ],
+      "evidence": [
+        "graph_evidence.json",
+        "tests.json: native_q110_and_seven_streetcred_branches_exact; reject_Active_1002; reject_Failed_1002; reject_Succeeded_1002",
+        "prealpha/phone_studios_ph3/candidate_01/package/r6/scripts/PTFR_Consolidated/PTFR_SideJobsS23.reds:79-140,427,631,682"
+      ]
+    },
+    "communications": {
+      "status": "PASS",
+      "proven": [
+        "Native car-theft21 activates contacts/ozob/mq035/hook_message, then concurrently arms incoming phone11 and message-visited20; visited20 activates00_call_ozob22 and description25/contact29. Player -> Ozob hook12 rejects to18 -> 17 -> 12.call_again_in. INT/RET reissue exact end/start audio requests28/27.",
+        "Native hook scene118 writes audio_v_calls_ozob_start_activate;111 waits holo_v_calls_ozob_start_done>0;112 clears that ack. End119 -> 113 -> 114 similarly writes/waits/clears. Retry146 -> 143 -> 144 and alternate end136 -> 133 -> 134 retain authored interruption routes.",
+        "Private phone wrapper78 invokes exact native ozob_holocall.questphase, claimed before quest admission. Native readers17/18 consume audio_v_calls_ozob_start/end_activate through19/20 resetters and audio_v_calls_ozob_start/end scene inputs. Native scene22/23 write matching holo_v_calls_ozob_start/end_done. Audio request / holo acknowledgement prefix difference is native, not a missing listener.",
+        "Existing private fixer_cleanup804.True -> 805.In41 invokes exact Ozob cleanup, then805.Out41 -> 806. Native cleanup5 compares actual v_calls_ozob start/end counts;True -> 7 increment reset_counter -> 2.audio_v_calls_ozob_end -> 3.Out41. Native outgoing/incoming counters and interruption flags are preserved."
+      ],
+      "approved_differences": [
+        "The established S23 private phone wrapper restores a native listener under post-Tower admission; PH3 shared studio support is retained. No synthetic acknowledgement or counter writer was added."
+      ],
+      "remaining": [
+        "Phone UI, sound, actual acknowledgement scheduling, interrupt/resume and reload behavior are LIVE_ONLY. Native engine dispatch/counter delivery is not simulated by these tests."
+      ],
+      "evidence": [
+        "source_pins.json",
+        "graph_evidence.json",
+        "tests.json: native_protocol_audio_v_calls_ozob_start_activate; native_protocol_audio_v_calls_ozob_end_activate; native_cleanup_outgoing_balanced_route"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native minorquests parent32 invokes MQ035; native parent has no resource-root prefabs to copy. New wrapper32 preserves native body ownership and does not flatten or restart its descendants.",
+        "Private admission/root ownership at both1001 and1002 is the reviewed CR1 corrected donor D40C63198C619CFF1E3C0491C296FD585FCA5B154FC240AFE95AEEF5ECF4802F. Active/failed/succeeded roots and prior private Issued are excluded. Postclaim1007/1008 require the same Issued=1 receipt.",
+        "Root integration separately traces genuine native cyberpunk2077.questphase root/82 node6 minorquests ownership and root106 -> 109(q307_main_game_killed=1) -> 107 Terminating after q307_before_tomorrow Succeeded; this is structural termination ancestry rather than killed-flag-only inference."
+      ],
+      "approved_differences": [
+        "Only the established fresh private owner is admitted after the genuine Tower teardown. Existing saved node/resource identities remain unchanged; QR2 changed no runtime resource."
+      ],
+      "remaining": [
+        "A saved older private/native descendant owner can only be certified with matching saved owner evidence or transition fixtures. No such save was decoded here. Actual Terminating cancellation and serialization are engine-dependent.",
+        "Native MQ035 bugfix companion is inventoried separately (CYB-629847/CYB-622671/CYB-645026/CP77-35243 one-time repair graphs). Its surviving saved ownership after Tower has not been established; do not restart its one-time corrective graphs speculatively."
+      ],
+      "evidence": [
+        "source_pins.json",
+        "graph_evidence.json",
+        "tests.json: reject_issued_1001;reject_issued_1002;postclaim_identity_preserved",
+        "Root QR2 native ancestor trace (integrated report)",
+        "../../ancestor_review.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Wrapper body32 references pinned native MQ035 root unchanged. Native root0 -> 102 car-theft -> 103 car-ride -> 104 robbery -> 105 ambush retains all output sockets and branches. No private branch rewrites occur inside the body.",
+        "103/104/105.failed all reach197 -> 200, then cleanup192 or199 according to native05_drive_to_ambush Succeeded. 105.patch0 reaches199,105.Out1 reaches192. Normal192 and patch/failure199 terminate through root1.",
+        "All nested inline graphs and external native car theft/ride/robbery/ambush/combat phases are raw-binary pinned and raw JSON normalization checked, including native unreachable/deletion-marker branches; no branch was omitted by a private copy."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Driving, combat/wave scheduling, distance failures, crowd transitions and actual scene transitions require LIVE_ONLY validation. Native unreachable branches are preserved evidence, not automatically defects."
+      ],
+      "evidence": [
+        "source_pins.json",
+        "graph_evidence.json",
+        "tests.json: native_success_and_failure_routes_retained"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Exact native root owns #mq035_pr_car_theft. Car-ride phase root owns #mq035_pr_pickup and #mq035_pr_robbery; robbery owns #mq035_pr_robbery; ambush owns #mq035_pr_ambush and #mq035_pr_robbery. Native inline robbery resume191 additionally has a phaseInstancePrefab. These obligations are retained through native resource references, not assumed empty because wrapper32 has no instance prefabs.",
+        "Native Ozob/dialogue and hook scenes, actor/NodeRef bindings, lipsync, animation/workspot references and scene locations are unmodified. graph_evidence records every inspected resource reference,NodeRef and prefab binding. PH3 studio_support is included in source pins; audio Ozob scene marker remains #ozob_sm_holocall.",
+        "Root fresh 134-archive QR2 lookup found all 86 Ozob queried depots present; graph hashes match pinned inputs, with no differing-provider hashes. Evidence ../../provider_readback_01/capture.json."
+      ],
+      "approved_differences": [
+        "Existing PH3 shared studio restoration remains unchanged and is reused from QR1 evidence."
+      ],
+      "remaining": [
+        "The actual world placement, resolved prefab streaming-sector content and all actor/workspot/camera marker bindings have not been fully decoded independently. Native resource presence/hash equivalence proves reference preservation, not complete streamed placement ownership.",
+        "Rendering, lipsync, marker resolution and actor availability remain LIVE_ONLY. Fresh provider lookup is integrated separately from provider_requests.json."
+      ],
+      "evidence": [
+        "source_pins.json",
+        "graph_evidence.json:asset_bindings,prefab_roots",
+        "provider_requests.json",
+        "../../provider_readback_01/capture.json"
+      ]
+    },
+    "journal": {
+      "status": "PASS",
+      "proven": [
+        "Native journal paths and state-changing destination sockets are retained verbatim; graph_evidence includes exact incoming Active/Succeeded/Failed edges for every MQ035 node. No private body journal replacement exists.",
+        "Robbery2 activates04_wait;8 succeeds it;25 activates06_kill_enemies;267 succeeds it;268 activates07_talk_ozob;276 succeeds talk;277 succeeds quest. Failed roots remain on authored46 and associated fail-objective/SMS routes.",
+        "Ambush4 activates05_drive_to_ambush;28 succeeds drive then29 activates combat;33 succeeds combat then36 activates talk;42.ending_out -> 43 talk Succeeded -> 44 quest Succeeded. Native118/126/182 root Failed and associated objective/SMS cleanup remain unchanged."
+      ],
+      "approved_differences": [
+        "Private1010 observes native root Succeeded and writes only private Finished receipt. Dormant Failed -> Active nodes1004-1006 are inherited, but both fresh guards require Inactive; they are not an admitted Failed-history route under a stable snapshot."
+      ],
+      "remaining": [
+        "Delayed engine journal delivery and concurrent mutation between guard and node1004 are not simulated; see persistence limitation. No journal was changed during this investigation."
+      ],
+      "evidence": [
+        "graph_evidence.json:journal",
+        "tests.json:completion_receipt_observes_native_success;reject_Failed_1001;reject_Failed_1002"
+      ]
+    },
+    "completion": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native scene ending choice branch57 -> 278 grants exact QuestRewards.mq035_done then282. Its authored branch and record identity are unchanged.",
+        "Robbery success277 -> 280 adds one Items.RecipeGrenadeOzobsNose then339 -> 278 sets mq035_done=1. Ambush234 -> 330 adds the same quantity-one recipe -> 46 sets mq035_done=1 -> 517. This preserves authored alternative rewards rather than unconditionally granting both.",
+        "Original spawn deactivation, mortality resets, security transitions, crowd restoration and despawn cleanup in native root192/199 are referenced unchanged; private completion observer adds only its own Finished receipt. No new item/reward/reset command is introduced."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "STATIC: The target QuestRewards.mq035_done TweakDB record definition/existence and its numerical values have not been independently resolved. Authored native reward branch/reference parity is proven; full record resolution remains open. Actual inventory/reward transaction execution is separately LIVE_ONLY."
+      ],
+      "evidence": [
+        "source_pins.json",
+        "graph_evidence.json",
+        "tests.json:native_recipe_rewards_on_both_authored_branches;native_ending_reward_record;completion_receipt_observes_native_success"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "QR2 changes no runtime bytes or identifiers. Current wrapper hash equals reviewed PH3/CR1 donor. Existing private Ready/Issued/Entered/Finished receipts are preserved, and both preclaim guards reject Issued=1; existing saved owner cannot be deliberately reissued through the fresh route.",
+        "Native and private serialized nodes/resources retain exact identities. Existing S23.Restored clears transient sampling and revokes Permit only for unissued owners; durable Issued is never reset. Guard1007/1008 explicitly recognize postclaim Issued=1.",
+        "Root Failed-reactivation1004 -> 1005.Active -> 1006 remains predicate-infeasible under the stable fresh snapshot because guards1001/1002 require rootInactive. This is documented rather than rewritten into a speculative cleanup."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "A concurrent engine journal change from Inactive to Failed between admission and node1004 could reach the dormant reactivation branch; no source-confirmed executing writer/timing case has been established, so no patch is justified. A future repair needs that precise race evidence.",
+        "Saved descendant owner adoption, old-version transitions and exactly-once reward replay under save/reload remain unverified without matching fixture evidence. No save mutation or decode was performed."
+      ],
+      "evidence": [
+        "source_pins.json",
+        "graph_evidence.json",
+        "tests.json:reject_issued_1001;reject_issued_1002;postclaim_identity_preserved",
+        "prealpha/phone_studios_ph3/candidate_01/package/r6/scripts/PTFR_Consolidated/PTFR_SideJobsS23.reds:36-42,62-75"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "The quest waits for existing U9 supportIssued=1/Fault=0 and its Ozob listenerIssued=1. Native listener and cleanup are both present; cleanup805 is actually connected within the shared chain, not merely listed as a reference.",
+        "Native caller rejection/retry and INT/RET routes are retained; native holocall scene interruption read/writers and start/end acknowledgements are inventoried. Existing PH3 studio owner is unchanged and source-pinned.",
+        "The separate native MQ035 bugfix companion and all nested phase/scene dependencies are enumerated. Native main-tree termination ancestry is supplied by root integration; there is no new blanket bugfix/controller restart."
+      ],
+      "approved_differences": [
+        "Shared native studio support is the existing PH3 correction. QR2 retains the consolidated registration/provider behavior and all CR1/PH1/PH2/PH3 baseline bytes."
+      ],
+      "remaining": [
+        "Saved native bugfix-owner retirement/survival, actual engine interrupt arbitration and fully decoded shared studio placement remain unresolved. Provider-key evidence alone cannot prove these lifetimes.",
+        "Native audio request pending before a newly claimed listener is an owner-adoption case, not an acknowledged fresh-admission defect. Current quest cannot emit its requests before the private phone owner is Issued; broader previously saved requests need fixture evidence."
+      ],
+      "evidence": [
+        "source_pins.json",
+        "graph_evidence.json",
+        "tests.json:native_cleanup_in_shared_chain;phone_owner_before_quest_owner",
+        "provider_requests.json"
+      ]
+    }
+  }
+}

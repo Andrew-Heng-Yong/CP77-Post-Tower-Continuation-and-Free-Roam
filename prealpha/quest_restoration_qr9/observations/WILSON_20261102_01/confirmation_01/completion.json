@@ -1,0 +1,22 @@
+{
+  "status": "WILSON_COMPLETION_AND_EVENTUAL_SHOP_RECOVERY_PASS_BOUNDED",
+  "recorded_utc": "2026-11-02T20:46:17.395046+00:00",
+  "quest_id": "mq011_wilson",
+  "contest_completion": "PASS_BOUNDED",
+  "eventual_shop_recovery": "PASS_USER_CONFIRMED",
+  "immediate_shop_unavailability": "Preserved observed symptom; recovered through ordinary play. No source-confirmed mod defect established.",
+  "exact_recovery_action": "UNRESOLVED_LEAVING_RETURNING_OR_WAITING",
+  "no_replay_needed": true,
+  "repair_justified": false,
+  "runtime_changes": 0,
+  "artifacts": [
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\WILSON_20261102_01\\confirmation_01\\user_confirmation.json",
+      "sha256": "20972EE70EF93558B21C943705B31E74C8AB38E37A55059448DB24C15C6CB1F1"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\WILSON_20261102_01\\confirmation_01\\results.json",
+      "sha256": "B8B2D555803752BD7920B3C95F6DA8E168F1B6419EB64B397EA52182F640D3EC"
+    }
+  ]
+}

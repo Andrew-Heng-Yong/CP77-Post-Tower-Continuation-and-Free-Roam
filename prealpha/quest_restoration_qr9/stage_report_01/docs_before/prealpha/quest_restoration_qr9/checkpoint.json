@@ -1,0 +1,47 @@
+{
+  "state": "BULLETS_COMPLETION_AND_FUNCTIONAL_ZANE_RETURN_PASS_RELOAD_PENDING",
+  "deployment_authorized": true,
+  "authorization_message": "approved for deployment",
+  "completion": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\deployment_01\\completion.json",
+  "completion_sha256": "725CF3E0F3AE54833A967BF9944968B21145D70A157BA013D21AE9754A959812",
+  "installed_core": "QR8:02",
+  "installed_diagnostics": "QR9B04",
+  "source_candidate": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\candidate_01",
+  "selected_master": "ManualSave-23 and three-file recovery backup unchanged after humanrun; VERIFIED_AFTER",
+  "native_working_save_created": "ManualSave-24 observed in metadata; user-loaded slot pending confirmation",
+  "next_action": "User reloads completedBulletsworkingprogress, confirmsquestremainscompletedandZanetradeworks. NoextraCETcommandsorquestreplay. Callbackcoveragegapremainsseparate.",
+  "next_test": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\NEXT_ZANE_COMPLETED.md",
+  "game_launches": 0,
+  "save_or_fact_writes": 0,
+  "CUA_calls": 0,
+  "goal_status": "none",
+  "latest_observation": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S05_20261102_02\\shop_return_confirmation_01\\completion.json",
+  "latest_observation_sha256": "2B8A912BE5E51D68B2BDB23F323ECD77B37204C599A42226EF038843C90670D3",
+  "latest_assessment": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S05_20261102_02\\REPORT.md",
+  "matrix_statuses": {
+    "PASS": 2,
+    "INCONCLUSIVE": 3,
+    "NOT_TESTABLE": 5,
+    "NOT_TESTED": 16
+  },
+  "game_launches_by_Codex": 0,
+  "save_or_fact_writes_by_Codex": 0,
+  "confirmed_gig": {
+    "id": "sts_wbr_hil_01",
+    "title": "Until Death Do Us Part",
+    "status": "PASS_BOUNDED_CONTINUED_ROUTE"
+  },
+  "loaded_save_slot": "UNKNOWN_USER_DID_NOT_SPECIFY",
+  "nitro_state": "S03alreadyIssued1;counter1/unlocks0; do notreset; notafreshadmissionfixture",
+  "additional_call_passes": [
+    "Cynthia delivered/startend",
+    "Wilson delivered/startend/mq011_active1"
+  ],
+  "wilson_progression": "Winning completion/reward receipt, eventual shop recovery, and user-confirmed completed journal/shop after reload PASS on observed route. Exact reward idempotence/all variants unproven.",
+  "runtime_validation_complete": false,
+  "initial_smoke_and_observed_routes": "Bounded successes; comprehensive runtime acceptance incomplete.",
+  "next_test_sha256": "50DF8C9DC143F4E94B2716F6AE046EDB01EF7A2E646CF2747514AB16E1D2E1CE",
+  "next_precheck": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\JINGUJI_precheck_20261102_01.json",
+  "diagnostic_fact_delivery": "UNRELIABLE; finalS05hasbroadlogwatchedtransitionswith0callbackrows; journalgetterswork; causepending",
+  "bullets_progression": "CompletionPASS; user-reportedfunctionalZaneshopafterreturnPASS; completedreloadpending. Actualhelperretirementnotobserved."
+}

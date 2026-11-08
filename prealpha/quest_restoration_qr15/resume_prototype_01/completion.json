@@ -1,0 +1,33 @@
+{
+  "status": "OFFLINE_CURSOR_MODEL_PASSES_ACTUAL_FIXTURE_DEFERRED",
+  "report": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\resume_prototype_01\\REPORT.md",
+    "sha256": "0760E7CF2E40B63CCCEECB200F81BDAD4FEB7215686DC2B558415B08C2EA80A7"
+  },
+  "result": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\resume_prototype_01\\run_01\\result.json",
+    "sha256": "61E48A5C062FB94D0A7692DD387EEED1116A6384CA00CE28D1636DBA2387EE02"
+  },
+  "model_checks": 24,
+  "prior_effect_evidence_files_verified": 30,
+  "preservation_pins_verified": {
+    "installed": 77,
+    "original_saves": 6
+  },
+  "runtime_candidate": null,
+  "runtime_changes": 0,
+  "ready_human_tests": [],
+  "actual_fixture_plan": {
+    "status": "DEFERRED",
+    "missing": [
+      "same_instance",
+      "retired_original_owner",
+      "support_verified",
+      "approach_pending",
+      "other_startup_state_verified",
+      "car_effect_stage",
+      "courier_wait_stage"
+    ],
+    "cursors": []
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "quest_id": "sts_ep1_13",
+  "title": "Talent Academy",
+  "source_epoch": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\source_epoch_05.json",
+  "source_epoch_sha256": "EFFD80F3A4413A0AAF0127DCC215ED4E3850262FA1388358996A15994C1CCE0D",
+  "fully_static_verified": false,
+  "effective_resource": "towercontinued\\native_gigs_u9\\sts_ep1_13_entry.questphase",
+  "effective_resource_sha256": "8FE24FC20FBBB33178F34FB08628026B7ADA794F3EC8590B9FE62959C39A1B21",
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Current root/50 inline10 preserves three native independent pauses: sts_ep1_tier_2>0 OR debug_sts_start>0 OR q303_hands_scene_done>0 leading to original output. Main6.In1, cleanup64000.Out1 and parallel bugfix64001 are exact native bindings.",
+        "Genuine Tower/native-history/private Request/Permit/ParentEntered0 guards and original entry/credit payloads, edge multisets and nested graphs are pinned. No native tier, branch or participant is fabricated."
+      ],
+      "approved_differences": [
+        "Approved U9 post-Tower owner rehost with stable saved resource/node/private receipt identities; exact original entry/body/cleanup/bugfix and native credit behavior are preserved."
+      ],
+      "remaining": [
+        "Engine registration/callback timing and original q303 prerequisite history remain bounded."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\admission.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\bindings.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\caller_protocols.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\typed_phone_actions.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\explicit_omissions.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\bugfix_scopes.json"
+      ]
+    },
+    "eligibility": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Current18journal paths/67facts preserve unused native job histories; three omitted own journal references are map pins. Actual EntrySafe requires all selected journal entries present/Inactive and listed facts0 before fresh admission.",
+        "Unlisted sts_ep1_13_done,cleanup_done and hands_knows_about_kids are exact native cleanup/debrief writers. They are retained as explicit uncovered history fields, not labelled fully covered because ordinary native start/journal guards exist."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Arbitrary saved/partial cleanup/debrief combinations, external writers and native owner state need further evidence; no speculative admission relaxation or reset."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\admission.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\bindings.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\caller_protocols.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\typed_phone_actions.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\explicit_omissions.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\bugfix_scopes.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\explicit_omissions.json"
+      ]
+    },
+    "communications": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Prebrief/debrief use actual generic Hands request/listener/real ACK and native wait/clear/rejection/RET/INT paths. No positive new_sts/new_q110 alternate call family was found in this scoped positive-write/typed-action census.",
+        "Auction end requests788/795 and speedup810 are local scene mechanisms with exact native readers1321/1323/1781/2163/2174 and1260/1670/1688/2133/2141/2189. They are not misclassified as generic phone calls or omitted by a holo-prefix filter."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Asynchronous call/auction/input/phone restriction/token/scene scheduling and reload remain live-only."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\admission.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\bindings.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\caller_protocols.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\typed_phone_actions.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\explicit_omissions.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\bugfix_scopes.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\phone_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\typed_phone_actions.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Full original main and cleanup root PIPs retain#sts_ep1_13_streetstory; native combat, scenes, children/auction/Fiona scopes and original failure cleanup are provider-pinned unchanged resources.",
+        "Original parallel bugfix resource contains its historical travelling_merchant debug wait; no new global monitor/default prefab owner or native reset is introduced. Current source uses the exact original parent and finished-driven credit."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Saved scene/combat/actor/community leases and world placement cannot be certified from graph presence or empty child arrays."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\admission.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\bindings.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\caller_protocols.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\typed_phone_actions.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\explicit_omissions.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\bugfix_scopes.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Native informer/dealâ†’auction/facilityâ†’child/Fiona terminal/data paths remain distinct. Scene1315 writes genuine FionaDealDone,994 writes DealRefuse; native openworld root3/20 dataIsStolen is reached through original218/278 alternatives, not simulated from actor presence.",
+        "Native Fiona dead-end/refusal/reinforcement and separate data branch conditions remain. Cleanup29 failed==0 gates reward5; failedFalse skips reward and still follows original finished30/done51 cleanup. No outcome collapse is made to increase PASS counts."
+      ],
+      "approved_differences": [],
+      "remaining": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\admission.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\bindings.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\caller_protocols.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\typed_phone_actions.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\explicit_omissions.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\bugfix_scopes.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Native facility/combat, children/Fiona/auction actors, personal-link/laptop/player/kid workspots and camera/prop/resource bindings are pinned with parent/main/cleanup prefab scopes.",
+        "Children, Fiona and auction scenes declare Character.Silverhand; current JV1 record-specific visual mask retains voice/timing under the approved presentation compromise."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "World/community/prefab/child/workspot/camera acquisition, actual rendering and independent Johnny props remain opaque/live-only."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\admission.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\bindings.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\caller_protocols.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\typed_phone_actions.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\explicit_omissions.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\bugfix_scopes.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\presentation_applicability_02.json"
+      ]
+    },
+    "journal": {
+      "status": "PASS",
+      "proven": [
+        "All original objective/phase/root journal writes and native Fiona/data/optional outcome sockets remain exact in unchanged bodies/scenes. The three omitted map references do not become missing objective writer claims.",
+        "Actual cleanup writes native finished30/done51, native achievement72 increments dogtown_gigs_achievement and73 DirtyWork uses original maximum8. Private credit13 waits native finished before14 increments ep1_sts_counter once; no counter reset."
+      ],
+      "approved_differences": [],
+      "remaining": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\admission.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\bindings.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\caller_protocols.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\typed_phone_actions.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\explicit_omissions.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\bugfix_scopes.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Original cleanup29 failed0.Trueâ†’reward5 QuestRewards.sts_ep1_13_rewardâ†’finished30;Falseâ†’30 bypasses reward. Original Fiona-deal/refusal debrief/SMS alternatives, cleanup51 and achievement72/73 remain exact.",
+        "Captured direct reward stock target exists; all native data/cash/item callbacks and reward owner remain native. No synthetic data extraction, reward, child outcome or shared counter repair is added."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Uncaptured economic children/runtime modifiers and actual saved reward/scene/default cleanup state remain conditional; three omitted terminal/debrief admission fields stay visible."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\admission.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\bindings.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\caller_protocols.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\typed_phone_actions.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\explicit_omissions.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\bugfix_scopes.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\stock_applicability.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Stable native/body/scene/private receipt identifiers and all existing choices are retained. Original active/start/finish/deal/data/failure facts are never reset; finished and credit are separate once receipts.",
+        "The group changes no source resources or registrations and preserves current packaged Spy/other approved repairs. Unsupported saved in-progress/default histories defer through current entry policy rather than being replayed."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Saved auction/Fiona/combat callbacks, future migration and arbitrary external mod changes are not proven by static identity equality."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\admission.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\bindings.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\caller_protocols.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\typed_phone_actions.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\explicit_omissions.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\bugfix_scopes.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Actual Hands controller/cleanup/studios, native streetstory/cleanup/combat/bugfix and local auction request consumers are explicit. User-specific Mark/Ana fixes are preserved in the shared system and not generalized to unrelated alternate EP1 controllers.",
+        "Native child/actor/data/achievement dependencies and unlisted debrief/history fields remain in exact evidence inventories. No original source path or opaque world target is silently treated as a verified runtime owner."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "World/scene/shared leases, engine input ordering, child consequences and saved progression require additional bounded/live evidence; this is not a blanket restoration PASS."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\admission.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\bindings.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\caller_protocols.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\typed_phone_actions.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\explicit_omissions.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\bugfix_scopes.json"
+      ]
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "status": "READY_READ_ONLY_JF01_OBSERVATION_AWAITING_HUMAN",
+  "utc": "2026-11-04T15:17:33.320486+00:00",
+  "card": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\runtime_probe_01\\TEST_CARD.md",
+    "sha256": "AB58F11BC411AC4086725B87A2E137D6DC9B212748F6F89FEB429F2FA35D6136"
+  },
+  "commands": {
+    "facts": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\runtime_probe_01\\facts.command.txt",
+      "sha256": "D202CA602149848BBFD914027342464FAA5D8A75E6908D0D45589EED172681DF",
+      "characters": 619
+    },
+    "world": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\runtime_probe_01\\world.command.txt",
+      "sha256": "CA54DF703129E97D7A4A0A27CECC451CB1FAC648881C293AAA88EE7EA03F35C0",
+      "characters": 1257
+    }
+  },
+  "offline_controls": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\runtime_probe_01\\validation_01.json",
+    "sha256": "30E5DD99191F282C3282588A04E116A5189F3A0EFE900966DD28E0D378A835E5",
+    "source_and_behavior_controls": 23,
+    "installed_hashes": 77
+  },
+  "independent_review": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\runtime_probe_01\\review_01\\run_01\\review.json",
+    "sha256": "0920000EAB8D7E72D3913EA6152806E38A9D501F1C4BDED38A43B4B3940C5E1F",
+    "checks": 16,
+    "status": "APPROVED_BOUNDED_READ_ONLY_DIAGNOSTIC_WITH_EXPLICIT_LIMITS"
+  },
+  "capture": {
+    "schema": "GG1_CONTROL_V1",
+    "run_id": "GG1_20261104T151626Z_f471d15d",
+    "output": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\general_gig_probe_gg1\\captures\\GG1_20261104T151626Z_f471d15d",
+    "state": "RECORDING",
+    "exec_session_id": 97879,
+    "verified_heartbeat": {
+      "schema": "GG1_CONTROL_V1",
+      "run_id": "GG1_20261104T151626Z_f471d15d",
+      "output": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\general_gig_probe_gg1\\captures\\GG1_20261104T151626Z_f471d15d",
+      "state": "RECORDING",
+      "utc": "2026-11-04T15:17:30.699782+00:00",
+      "elapsed_s": 63.8,
+      "bytes": 0,
+      "source_states": {
+        "game": "READABLE",
+        "script": "READABLE",
+        "cet": "READABLE",
+        "redscript": "READABLE"
+      },
+      "gaps": 0
+    }
+  },
+  "real_Game_calls_by_assistant": 0,
+  "installation_changes": 0,
+  "save_fact_writes": 0,
+  "repair_implemented": false,
+  "meaning": "One-shot missing shared-fact and current native world-wrapper observations; neither tests completed quests nor establishes executing owner/lease proof. Do not infer a safe repair from inactive/zero/unresolved output."
+}

@@ -1,0 +1,18 @@
+{
+  "agent": "agent_c",
+  "quests": [
+    "mq037_brendan",
+    "mq037_brendan_hooligan001"
+  ],
+  "contracts": 20,
+  "source_confirmed_defects": 1,
+  "defect_ids": [
+    "QR3-MQ037-EXCLUDED-PREREQUISITE"
+  ],
+  "runtime_changes": false,
+  "tests": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\tests.json",
+  "test_checks": 288,
+  "mutation_controls": 4,
+  "fully_static_verified": 0,
+  "root_action": "Independently review/serialize conservative preclaim quarantine; later earned-history adapter remains an exact blocker, not permission to fabricate history."
+}

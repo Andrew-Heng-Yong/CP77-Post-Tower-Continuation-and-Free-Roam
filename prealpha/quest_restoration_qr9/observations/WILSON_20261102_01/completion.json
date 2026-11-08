@@ -1,0 +1,113 @@
+{
+  "status": "WILSON_COMPLETION_PASS_VENDOR_RETURN_INCONCLUSIVE_PENDING_HUMAN_RECOVERY_REPORT",
+  "recorded_utc": "2026-11-02T20:43:44.094681+00:00",
+  "quest_id": "mq011_wilson",
+  "winning_completion": "PASS_BOUNDED_USER_LOG_METADATA",
+  "shop_ui": "INCONCLUSIVE",
+  "user_symptom": "Unable to shop immediately",
+  "shop_enable_flag_recovered": true,
+  "shop_recovered_visibly": "UNKNOWN",
+  "source_scene_player_distance_fallback": 100,
+  "native_cleanup_distance_wait": 99,
+  "runtime_changes": 0,
+  "save_or_fact_writes": 0,
+  "game_launches_by_Codex": 0,
+  "next_test": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\NEXT_WILSON_SHOP.md",
+  "artifacts": [
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\WILSON_20261102_01\\logs\\ArchiveXL_0_ArchiveXL-2026-11-02-15-36-46.log",
+      "sha256": "AC2618579608D4B06A88D2EE37CB4EC8DCBC97D12CFB0B98A70BFD1B87672437",
+      "bytes": 13125
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\WILSON_20261102_01\\logs\\ArchiveXL_1_ArchiveXL-2026-11-02-15-13-01.log",
+      "sha256": "5EB799877F7142B902D67723DC71CB0E8A06790C648DD5452BF29B85694F6C85",
+      "bytes": 320653
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\WILSON_20261102_01\\logs\\CET_0_cyber_engine_tweaks.log",
+      "sha256": "7D9B4DB34BA258F83C5745D5618A6838B961991224AA9D6E61B9011140BC3DB1",
+      "bytes": 365170
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\WILSON_20261102_01\\logs\\CET_scripting_0_scripting.log",
+      "sha256": "49FC523D381309D6674B8D1EA1762AF4407283056C54DDAD4BAC67BD5BAC2DF2",
+      "bytes": 930933
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\WILSON_20261102_01\\logs\\RED4ext_0_red4ext-2026-11-02-15-36-45.log",
+      "sha256": "A634C958BAD967B887B5A21A5C07AF251E8ECCF58B608F3E834BA5ECA95A633B",
+      "bytes": 3341
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\WILSON_20261102_01\\logs\\RED4ext_1_red4ext-2026-11-02-15-13-00.log",
+      "sha256": "1C300BD4374201EAC294C286C9328D0EE5B11E53E644B9CF4ECF339A96E34183",
+      "bytes": 4014
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\WILSON_20261102_01\\logs\\REDscript_0_redscript_rCURRENT.log",
+      "sha256": "7B677F7F54AF277B905D6E0B37187B65E2915457C92044A58D8505AE58B77D45",
+      "bytes": 9142
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\WILSON_20261102_01\\logs\\REDscript_1_redscript_r2026-11-02_15-36-52.log",
+      "sha256": "165B10058A5A7450BBDD05F8082764157231A82145DA41D1AD487257B56A4F1A",
+      "bytes": 9142
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\WILSON_20261102_01\\native_trace.json",
+      "sha256": "CBC056819A012589705D0EC410A1D4F965C3D9B4FE52A750DAFE30EE568D34E2",
+      "bytes": 29579
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\WILSON_20261102_01\\REPORT.md",
+      "sha256": "40552A8B41AC67C686437597B64DEE126A1C6C14380F9C4E90EFF6F0690A627D",
+      "bytes": 5474
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\WILSON_20261102_01\\results.json",
+      "sha256": "8630D9D4F6640188B1C83B869289245C5A1B3F81E5CD647AFA06099C427FED82",
+      "bytes": 19506
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\WILSON_20261102_01\\save_metadata_evidence.json",
+      "sha256": "1A50A860FA2723BA1D0A97B73DEB365DAC85CA84263BDA13FB8FCA7922CBAE01",
+      "bytes": 2713
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\WILSON_20261102_01\\scene_handoff_ancestors.json",
+      "sha256": "31F6AC6E421A710AF3100F6C9494F537AE2DC6156B46554E8D4D9417D0068D44",
+      "bytes": 3978
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\WILSON_20261102_01\\support_log_candidates.json",
+      "sha256": "2910A04D665E67EE72F70013B56B8FEC45B93D9BF72536B62E905ADB104DE500",
+      "bytes": 5332
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\WILSON_20261102_01\\timeline.json",
+      "sha256": "A572632ACB37E3E5175B1F86BA3111354D78B5B5AD707F12C0734D683A6A8356",
+      "bytes": 3627
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\WILSON_20261102_01\\trace_native.py",
+      "sha256": "F7D076AC464248A91DFC95E4FFF146D6C1087EBF12A19325CCCC174E880E64A7",
+      "bytes": 3585
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\WILSON_20261102_01\\user_report.json",
+      "sha256": "439D2B87D0E7EED7AF95A6CA874DDD12F1E791A9194EC667A3717FB7AB414231",
+      "bytes": 349
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_a\\observations\\WILSON_20261102_01\\core_verify.json",
+      "sha256": "A2CBA6CB6BDB5D74ED2E1CAFF98537DE16D2C13BBBC2925A511E86BBBF1A0B23",
+      "bytes": 233
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_a\\observations\\WILSON_20261102_01\\diagnostics_verify.json",
+      "sha256": "F6554BAB0D19898B497F59760AD930D408688D9870A458C677AC803464F53CF8",
+      "bytes": 240
+    }
+  ]
+}

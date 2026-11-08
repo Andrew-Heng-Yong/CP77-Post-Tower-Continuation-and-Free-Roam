@@ -1,0 +1,71 @@
+{
+  "files": [
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\johnny_dialogue_coverage_20261107_01\\prepare.py",
+      "sha256": "6CEB605CA60E3533B5B8F87637D6398F640945B1A4E176CAD38A70D9D7BECAF6"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\johnny_dialogue_coverage_20261107_01\\verify.py",
+      "sha256": "9C8937E684B27C10C2FF1A09A9EDF0CA52B369C485B43A31BC66AE2999D792B1"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\johnny_dialogue_index_20261107_01\\search.py",
+      "sha256": "FE8ED3207E47BF6D23C91D57BD982B158251DF8E471878DBE7CD52119B203C91"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\johnny_dialogue_index_20261107_02\\build.py",
+      "sha256": "FDFEC2D47CA8FCB144A8E06C58486B833832E02FEB5222460F256CB46C20F738"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\johnny_dialogue_index_20261107_02\\check_cli.py",
+      "sha256": "ADF1BEEDCB3A9927EF9064B612CADF72528F320E29081FCC46DBE22BC368BE1D"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\johnny_dialogue_index_20261107_02\\common.py",
+      "sha256": "3DD735932B27A6AF6E1DC177357F789E7839F00BCA9904C97F458BD7A0E520DD"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\johnny_dialogue_index_20261107_02\\finalize.py",
+      "sha256": "848D9849143A0B29F3DAC7EA54FF586987E9379B10ACFE212BE59CE8E7A1317A"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\johnny_dialogue_index_20261107_02\\graphs.py",
+      "sha256": "501642BF53FBB1F2DEE3356570B4C00F15AB56819AB1AFD20F35E09D78FD01DD"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\johnny_dialogue_index_20261107_02\\prepare.py",
+      "sha256": "BCABB0419EB96B957F60EAAEA8791B8A8D205E6333C7BD2C9E2015DFC48A1D8D"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\johnny_dialogue_index_20261107_02\\probe_decoder.ps1",
+      "sha256": "08BA54872453304DACFCBA05C88927FB95BEE07289618F84CE21730AE4FD6263"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\johnny_dialogue_index_20261107_02\\search.py",
+      "sha256": "34A9D816B204825A7D58D830DC90DF68A08BA0D7C35E5C48F089138C496E15AC"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\johnny_dialogue_index_20261107_02\\verify.py",
+      "sha256": "DFC1CCA2ACE1BE236A60997C2A2814019BD8DB2BDCB0035F7017DCD02EF867B1"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\tools\\build_phase2a.ps1",
+      "sha256": "171B5D08760BEE0D573FCEDCEF4257994B6C4666A303B06B1DD319FE1B744E01"
+    }
+  ],
+  "prepared_inputs_sha256": "6900C136ED17DC9BF43E528A18719B1AEBA12055A189EA46BCCDF7F504DB38A0",
+  "source_verification_sha256": "5C422DBA4B468F1713A46C6558F6B7C5EC92AA27E262FF32205BAAF5F6B8E4D3",
+  "cli_verification_sha256": "BB4A036F68A86AEA235A81533055D421AC546487B9C84AB633EB512EFEFA3E74",
+  "parent_preserved": true,
+  "failed_candidates": [
+    "index_03",
+    "index_04"
+  ],
+  "failure_evidence": [
+    "evidence_03",
+    "evidence_04",
+    "evidence_05"
+  ],
+  "game_writes": 0,
+  "save_writes": 0
+}

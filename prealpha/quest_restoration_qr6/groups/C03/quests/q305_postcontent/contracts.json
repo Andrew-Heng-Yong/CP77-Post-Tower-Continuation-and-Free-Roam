@@ -1,0 +1,179 @@
+{
+  "quest_id": "q305_postcontent",
+  "title": "This Corrosion",
+  "source_epoch": "QR5:08 = QR6:00 frozen bytes",
+  "status": "DEEP_SOURCE_INVESTIGATED_WITH_SPECIFIC_LIMITS",
+  "fully_static_verified": false,
+  "effective_resource": "towercontinued\\sidejobs_s29\\entries\\q305_postcontent.questphase",
+  "effective_resource_sha256": "4C1182F5E70B5825C7AE7FE0ACCF4DE86507307CC4AE9294495AB5569032BDF8",
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Original persistent_content root/30:13 owns q305_12_haunted_weapon. Current private rehost selects only root4/5/6/9 and new input65000→5: q305_haunted_breadcrumb_start>0, OR(either earned weapon/deck recipe)>0 at9, then native6 selects normal In1 versus existing test input. It excludes equipment-whisper subtree root2, without changing any retained root/4 graph node or edge."
+      ],
+      "remaining": [
+        "Actual native predicates and current source rehost are proved; registration and trigger timing require engine execution."
+      ],
+      "approved_differences": [
+        "Existing genuine-Tower private S29 fresh rehost/once guards; This Corrosion deliberately selects breadcrumb subtree and excludes equipment-whisper owner. No new QR6 gameplay change."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\quests\\q305_postcontent\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\crossowner_paths.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\crossowners_01\\census_pins.json"
+      ]
+    },
+    "eligibility": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Actual entry has 66 Inactive quest/objective/codex/message states, Q305_haunted_component_talk_ready0 and private genuine-Tower/once/support/permit guards, repeated synchronously before Issued. Native breadcrumb_start is earned from q305_11_after_quest root23; recipe receipts are never fabricated. Current S29 history requires SnapshotStateHS1.FreshS29(q305_postcontent) and two stable samples; saved partial progress defers."
+      ],
+      "remaining": [
+        "Fresh guards protect the enumerated states; earned activation/recipe receipts and unobserved saved-owner histories are not created by this adapter and require actual save context."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\quests\\q305_postcontent\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\crossowner_paths.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\crossowners_01\\census_pins.json"
+      ]
+    },
+    "communications": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "This selected branch uses native unknown-contact SMS, rather than a holo request/listener. Native root/4 messages5/6 wait actual message-read15/16→17 talk_ready1; response choices50..53 and delay responses70/71 remain real journal predicates. Original15-minute game-time post-craft message75→74 and Cut77 cancellation of pending delay/response handlers are retained."
+      ],
+      "remaining": [
+        "Source-specific native messages, choices and real callback writers are proved; journal UI notifications, timers, interruption/reload scheduling and actual vendor delivery remain live-dependent."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\quests\\q305_postcontent\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\crossowner_paths.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\crossowners_01\\census_pins.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Exact original persistent-content envelope/root13 has empty root/PIP arrays, while actual world/vendor acquisition is separately provided by current Yoko service. Current Yoko outer2 requires genuine Tower/default_on/Enabled and QuestOwns0; nested owner retains approach/departure and native despawn_block conditions, and actual200/201 scene requests use original start socket. OwnerActive is not treated as proof of a loaded lease."
+      ],
+      "remaining": [
+        "Original root/PIP and parent scopes are checked; opaque streamed markers and arbitrary saved controllers/old timers cannot be certified from static receipts."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\quests\\q305_postcontent\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\crossowner_paths.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\crossowners_01\\census_pins.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Entire selected root/4 equals native, including receipt/quest transitions and craft alternatives. Yoko native/current scene620 writes real q305_haunted_component_ready1, consumed by body8; body17 sets talk_ready, native/current vendor797 clears it. Current scene779 preserves S29-owned guarded quest choices and native decrypt/pickup callbacks, without synthetic acknowledgements."
+      ],
+      "remaining": [],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\quests\\q305_postcontent\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\crossowner_paths.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\crossowners_01\\census_pins.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Yoko service and exact current vendor scene actor/community/workspot/world-marker metadata are pinned; root/native owner envelopes and acquisition paths are enumerated. The independent equipment whisper scene is intentionally not rehosted. No claim is made that scene metadata or empty initializer PIPs proves live vendor placement."
+      ],
+      "remaining": [
+        "DynamicBaseClass/worldNode placement, scene/actor/loot acquisition, prefab streaming, workspots/cameras and effective presentation execution remain opaque or live-dependent."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\quests\\q305_postcontent\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\crossowner_paths.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\crossowners_01\\census_pins.json"
+      ]
+    },
+    "journal": {
+      "status": "PASS",
+      "proven": [
+        "All 66 initial state guards and full native root/4 objective/message transitions are retained; real craft item condition19 precedes quest38.Succeeded and post-craft SMS75. Weapon/deck recipe selection at9/93 and native optional crafting objective branches95/96 remain exact; no journal success is manufactured."
+      ],
+      "remaining": [],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\quests\\q305_postcontent\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\crossowner_paths.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\crossowners_01\\census_pins.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "No selected branch reward-manager grant was invented: native item/craft conditions drive38.Succeeded,75→74 then original84..87 commentary/whisper flag cleanup0. These clears are exact vanilla selected-branch behavior. Private wrapper Finished65007 has no native root Out1 producer in this selected subset and is not used as proof of quest success or cleanup; durable Issued remains the duplicate-prevention receipt."
+      ],
+      "remaining": [
+        "Native completion/cleanup authoring is proved. Effective item/reward/economic record definitions, real collection, engine once semantics, old timers and saved owner retirement remain conditional."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\quests\\q305_postcontent\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\crossowner_paths.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\crossowners_01\\census_pins.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native selected nodes4/5/6/9 and all root/4 IDs, callback names and stable private paths/fields match QR5:08. Native authored commentary cleanup is retained; no new reset is added for admission. Current S29 Restored does not restart already-issued owners, while arbitrary preexisting saved Yoko/decrypt timers remain untested."
+      ],
+      "remaining": [
+        "Exact saved names and no-restart source are checked; no save-transition fixture was run and future-version/arbitrary saved-owner compatibility is not certified."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\quests\\q305_postcontent\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\crossowner_paths.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\crossowners_01\\census_pins.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Cross-owner census identifies original q305 after-quest23 breadcrumb producer, persistent-content13 owner and native/current Yoko620/797 real callback writers. Current B0StoryEight default-on service is conditional; no generic listener is required for SMS-only branch and no unfiltered persistent-content or vendor controller is cloned."
+      ],
+      "remaining": [
+        "Targeted5136 captured-model census proves the named producer relationships only after exact source hash matching. Whole world placement and engine acquired leases, current record overrides and live shared-controller arbitration remain open."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\quests\\q305_postcontent\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\verification_01\\crossowner_paths.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\crossowners_01\\census_pins.json"
+      ]
+    }
+  }
+}

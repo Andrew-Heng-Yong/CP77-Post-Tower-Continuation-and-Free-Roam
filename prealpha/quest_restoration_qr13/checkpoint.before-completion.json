@@ -1,0 +1,21 @@
+{
+  "state": "QR13_RONALD_SOURCE_STAGED_BRENDAN_IMPLEMENTATION_PENDING",
+  "baseline": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr13\\baseline.json",
+  "baseline_sha256": "4C699D0890D3F90BA366BD8AFD06B46986064B80C78E4EE222436A4F7D968718",
+  "installed": "QR8:02 + validated QR10D01/D00E unchanged",
+  "workers": [
+    "qr13_ronald",
+    "qr13_brendan",
+    "qr13_review"
+  ],
+  "runtime_changes": 2,
+  "staged_successor": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr13\\candidate_01",
+  "no_repeat": [
+    "Jinguji/Bullets/Zane",
+    "Wilson",
+    "Cynthia",
+    "D00E"
+  ],
+  "next": "Finish conservative earned-Brendan implementation/review, then compile if REDS change and rebuild/read back entire consolidated archive; no installation.",
+  "canonical_source_epoch": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr13\\source_epoch_00.json"
+}

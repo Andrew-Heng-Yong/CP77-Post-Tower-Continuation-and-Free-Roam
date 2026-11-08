@@ -1,0 +1,11 @@
+# QR5 G09 — final three Kabuki gigs
+
+Shark in the Water, Hippocratic Oath and Woman of La Mancha:30 source-specific ten-contract findings against frozen QR5epoch00.432 group checks,12 mutations,12 connected primary call paths,8 fresh CR2W decodes pass;56 shared Regina controls reused by exact hash. No source-confirmed restoration defect, runtime repair or blanket static PASS.
+
+Shark native whole prefab spelling steetstory and full Kana/default medstore/security/laptop/door prestate retained; saved shared service leases and old garage/prestate receipts remain explicit. Hippocratic exact scan/blood/patient-death/reward-failure/achievement-receipt paths retained. Its actual Maelstrom selector requires content unblocked,wat_kab_02_done,Watson trigger and gang_chase, plus existing privateStarted guard; generic retaliation alone is insufficient. Woman retains failed reward exclusion, real failed/dead/spared and nomad/vengeance branches, original sq027 camp history, Dave aliases and motel prestate lifecycle. No synthetic doors, outcome resets or camp/relationship facts.
+
+Unlisted references are precise cleanup-only objectives, map pins or briefing targets; original source classes and sockets remain visible. Missing saved owners, actor/workspot/camera/sector targets, stock reward descendants/runtime modifiers, downstream earned MA06/camp context, phone scheduling and reload remain bounded limits. All current inspected source/script/model/stock-target inputs are preserved.
+
+Independent G01 peer review is frozen under reviews/G01.json (318checks,3mutations,10raw). Independent final QR5 package review is frozen under reviews/QR5_package/verification_01/REPORT.json (261checks,actual1574packedpayloads,exactsingleARR12diff,50otherfiles/4priorrepairs preserved,ZIPand131/134/46compile reuse); those are separate evidence. No runtime/package/build/game/install/save/fact/release writes by this worker.
+
+Run verify.py and deep_checks.py with fresh --output. The first deep run assumed the generic gang_retaliation fact at the shared selector; actual native source showed gang_chase+done/content/district conditions. The corrected check compares the entire original selector, not a guessed alias; failed output retained.

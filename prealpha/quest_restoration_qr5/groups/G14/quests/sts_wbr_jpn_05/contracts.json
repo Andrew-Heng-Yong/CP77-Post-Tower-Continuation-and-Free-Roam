@@ -1,0 +1,420 @@
+{
+  "quest_id": "sts_wbr_jpn_05",
+  "title": "Wakako's Favorite",
+  "source_epoch": "source_epoch_00",
+  "status": "DEEP_CONTRACTS_INVESTIGATED_WITH_EXPLICIT_LIMITS",
+  "fully_static_verified": false,
+  "defects": [],
+  "repairs": [],
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Original Japantown inline3/root3/3 waits sts_wbr_jpn_tier_2>0, then outside trigger48 or existing POI58 joins59→51.Active→65004→main9.In1; older alternate41→28 remains exactly authored.",
+        "Exact native recipe/inline nodes/sockets/edges and current body pins are recorded; original embedded body comparisons=3. Effective catalogue index41, Region=wbr, Counter=wbr_sts_counter; all scalar missing0/journal missing-1 fixture bounds are explicit."
+      ],
+      "approved_differences": [
+        "Existing additive genuine Tower/U9 admission/readiness/one-time observer receipts and exact native handle externalization; original paths/node IDs and body behavior preserved. No new runtime change."
+      ],
+      "remaining": [
+        "LIVE_ONLY: Test actual dark route/mail/shard socket, Ren/music ending, supporting Johnny visibility, award and native three game-hour finish delay, plus reload before/after each credit trigger."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\graph_evidence.json",
+          "sha256": "640331339925D9602E8DFB2FF89FCF3C1C4BBAAE145077CCD8CAA97BBB474D04",
+          "json_pointer": "/quests/sts_wbr_jpn_05"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\source_pins.json",
+          "sha256": "8B5F6DA91EE492DF92B87D9EB4E5B8B92EA9D0A76A06B939DF417682646EDD21"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\shared_core.json",
+          "sha256": "A7B283A909C8BE28E02D4C0D82AB5501F2AA23ECC0FF44270C86B403BBB5712F"
+        }
+      ]
+    },
+    "eligibility": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Actual native tier2, mail/shard/socket/Ren progression and fresh genuine Tower/history guards remain. Two omitted own references are investigate/basement and investigate/ren map pins, not omitted objective writers. Original achievement-finished receipt is included in current progress guard evidence; no false replay entitlement.",
+        "Exact native recipe/inline nodes/sockets/edges and current body pins are recorded; original embedded body comparisons=3. Effective catalogue index41, Region=wbr, Counter=wbr_sts_counter; all scalar missing0/journal missing-1 fixture bounds are explicit."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        {
+          "status": "CONDITIONAL_REFERENCE_COVERAGE",
+          "details": {
+            "native_journal_refs_not_catalogued": [
+              "quests/street_stories/wesbrook/japan_town/sts_wbr_jpn_05/sts_wbr_jpn_05/investigate/basement",
+              "quests/street_stories/wesbrook/japan_town/sts_wbr_jpn_05/sts_wbr_jpn_05/investigate/ren"
+            ],
+            "native_fact_refs_not_catalogued": [],
+            "note": "Uncatalogued reference does not establish valid started history; exact journal definitions and saved-owner witness still required."
+          },
+          "source_classification": [
+            {
+              "path": "quests/street_stories/wesbrook/japan_town/sts_wbr_jpn_05/sts_wbr_jpn_05/investigate/basement",
+              "uses": [
+                {
+                  "resource": "base\\open_world\\street_stories\\westbrook\\japantown\\sts_wbr_jpn_05\\phases\\sts_wbr_jpn_05_openworld.questphase",
+                  "graph": "root/5",
+                  "node": "228",
+                  "classes": [
+                    "gameJournalQuestMapPin"
+                  ],
+                  "incoming": [
+                    [
+                      "142",
+                      "Out",
+                      "228",
+                      "Inactive"
+                    ]
+                  ]
+                },
+                {
+                  "resource": "base\\open_world\\street_stories\\westbrook\\japantown\\sts_wbr_jpn_05\\phases\\sts_wbr_jpn_05_openworld.questphase",
+                  "graph": "root/5",
+                  "node": "229",
+                  "classes": [
+                    "gameJournalQuestMapPin"
+                  ],
+                  "incoming": [
+                    [
+                      "227",
+                      "Out",
+                      "229",
+                      "Active"
+                    ]
+                  ]
+                }
+              ],
+              "classification": "Native map pin target; not omitted objective"
+            },
+            {
+              "path": "quests/street_stories/wesbrook/japan_town/sts_wbr_jpn_05/sts_wbr_jpn_05/investigate/ren",
+              "uses": [
+                {
+                  "resource": "base\\open_world\\street_stories\\westbrook\\japantown\\sts_wbr_jpn_05\\phases\\sts_wbr_jpn_05_openworld.questphase",
+                  "graph": "root/5",
+                  "node": "230",
+                  "classes": [
+                    "gameJournalQuestMapPin"
+                  ],
+                  "incoming": [
+                    [
+                      "229",
+                      "Out",
+                      "230",
+                      "Inactive"
+                    ]
+                  ]
+                }
+              ],
+              "classification": "Native map pin target; not omitted objective"
+            }
+          ]
+        },
+        "CONDITIONAL: saved shared ownership, engine schedule/interrupt/reload and target/definition history remain explicit. Test actual dark route/mail/shard socket, Ren/music ending, supporting Johnny visibility, award and native three game-hour finish delay, plus reload before/after each credit trigger."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\graph_evidence.json",
+          "sha256": "640331339925D9602E8DFB2FF89FCF3C1C4BBAAE145077CCD8CAA97BBB474D04",
+          "json_pointer": "/quests/sts_wbr_jpn_05"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\source_pins.json",
+          "sha256": "8B5F6DA91EE492DF92B87D9EB4E5B8B92EA9D0A76A06B939DF417682646EDD21"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\shared_core.json",
+          "sha256": "A7B283A909C8BE28E02D4C0D82AB5501F2AA23ECC0FF44270C86B403BBB5712F"
+        }
+      ]
+    },
+    "communications": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native incoming Wakako holo producers are traced to actual controller readers and real scene ACKs41/42 with waits/clears and original retry waiting context. Ren Cheng dialogue/music/cooldown and supporting Johnny voice scene are preserved; neither a native scene name nor data presence substitutes for executing owner proof.",
+        "Exact native recipe/inline nodes/sockets/edges and current body pins are recorded; original embedded body comparisons=3. Effective catalogue index41, Region=wbr, Counter=wbr_sts_counter; all scalar missing0/journal missing-1 fixture bounds are explicit."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: saved shared ownership, engine schedule/interrupt/reload and target/definition history remain explicit. Test actual dark route/mail/shard socket, Ren/music ending, supporting Johnny visibility, award and native three game-hour finish delay, plus reload before/after each credit trigger."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\graph_evidence.json",
+          "sha256": "640331339925D9602E8DFB2FF89FCF3C1C4BBAAE145077CCD8CAA97BBB474D04",
+          "json_pointer": "/quests/sts_wbr_jpn_05"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\source_pins.json",
+          "sha256": "8B5F6DA91EE492DF92B87D9EB4E5B8B92EA9D0A76A06B939DF417682646EDD21"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\shared_core.json",
+          "sha256": "A7B283A909C8BE28E02D4C0D82AB5501F2AA23ECC0FF44270C86B403BBB5712F"
+        }
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Original main phase and combat/openworld hierarchy and all saved node/resource identities remain; native Ren/community/device support belongs to the original root prefab. No new Ren controller, arbitrary AI wake-up, scene skip or Johnny projection owner was added.",
+        "Exact native recipe/inline nodes/sockets/edges and current body pins are recorded; original embedded body comparisons=3. Effective catalogue index41, Region=wbr, Counter=wbr_sts_counter; all scalar missing0/journal missing-1 fixture bounds are explicit."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: saved shared ownership, engine schedule/interrupt/reload and target/definition history remain explicit. Test actual dark route/mail/shard socket, Ren/music ending, supporting Johnny visibility, award and native three game-hour finish delay, plus reload before/after each credit trigger."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\graph_evidence.json",
+          "sha256": "640331339925D9602E8DFB2FF89FCF3C1C4BBAAE145077CCD8CAA97BBB474D04",
+          "json_pointer": "/quests/sts_wbr_jpn_05"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\source_pins.json",
+          "sha256": "8B5F6DA91EE492DF92B87D9EB4E5B8B92EA9D0A76A06B939DF417682646EDD21"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\shared_core.json",
+          "sha256": "A7B283A909C8BE28E02D4C0D82AB5501F2AA23ECC0FF44270C86B403BBB5712F"
+        }
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Actual OW root5 wait141 mail>0 follows native mailbox path;145 put_in>0 completes interaction and arms music195. Original51 nam_endings>0 drives task progress. Root4 receipt63 achievement_finished+1 precedes actual three game-hour wait64→36 finished+1. Native credit joins receipt18 OR finished20 through XOR19, deliberately not AND.",
+        "Exact native recipe/inline nodes/sockets/edges and current body pins are recorded; original embedded body comparisons=3. Effective catalogue index41, Region=wbr, Counter=wbr_sts_counter; all scalar missing0/journal missing-1 fixture bounds are explicit."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Test actual dark route/mail/shard socket, Ren/music ending, supporting Johnny visibility, award and native three game-hour finish delay, plus reload before/after each credit trigger."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\graph_evidence.json",
+          "sha256": "640331339925D9602E8DFB2FF89FCF3C1C4BBAAE145077CCD8CAA97BBB474D04",
+          "json_pointer": "/quests/sts_wbr_jpn_05"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\source_pins.json",
+          "sha256": "8B5F6DA91EE492DF92B87D9EB4E5B8B92EA9D0A76A06B939DF417682646EDD21"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\shared_core.json",
+          "sha256": "A7B283A909C8BE28E02D4C0D82AB5501F2AA23ECC0FF44270C86B403BBB5712F"
+        }
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Original Ren Cheng/civilian actors, shard/mailbox/socket/dark route/music workspots/cameras/devices and native supporting Johnny actor remain. Current JV1 hides attached Silverhand visual components under genuine Tower while retaining actor/audio/timing; independent props and live registration timing remain unproved.",
+        "Exact native recipe/inline nodes/sockets/edges and current body pins are recorded; original embedded body comparisons=3. Effective catalogue index41, Region=wbr, Counter=wbr_sts_counter; all scalar missing0/journal missing-1 fixture bounds are explicit."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "OPAQUE: actual streamed world/actor/workspot/camera contents and placement are not decoded. Test actual dark route/mail/shard socket, Ren/music ending, supporting Johnny visibility, award and native three game-hour finish delay, plus reload before/after each credit trigger."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\graph_evidence.json",
+          "sha256": "640331339925D9602E8DFB2FF89FCF3C1C4BBAAE145077CCD8CAA97BBB474D04",
+          "json_pointer": "/quests/sts_wbr_jpn_05"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\source_pins.json",
+          "sha256": "8B5F6DA91EE492DF92B87D9EB4E5B8B92EA9D0A76A06B939DF417682646EDD21"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\shared_core.json",
+          "sha256": "A7B283A909C8BE28E02D4C0D82AB5501F2AA23ECC0FF44270C86B403BBB5712F"
+        }
+      ]
+    },
+    "journal": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Original investigation/recipient/shard insertion and leave/root completion states remain, with basement/ren child MapPin actions228/229/230 explicitly classified. Native wesbrook/japan_town path spelling and original objective state timing remain; no wholesale journal rewrite.",
+        "Exact native recipe/inline nodes/sockets/edges and current body pins are recorded; original embedded body comparisons=3. Effective catalogue index41, Region=wbr, Counter=wbr_sts_counter; all scalar missing0/journal missing-1 fixture bounds are explicit."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        {
+          "status": "CONDITIONAL_REFERENCE_COVERAGE",
+          "details": {
+            "native_journal_refs_not_catalogued": [
+              "quests/street_stories/wesbrook/japan_town/sts_wbr_jpn_05/sts_wbr_jpn_05/investigate/basement",
+              "quests/street_stories/wesbrook/japan_town/sts_wbr_jpn_05/sts_wbr_jpn_05/investigate/ren"
+            ],
+            "native_fact_refs_not_catalogued": [],
+            "note": "Uncatalogued reference does not establish valid started history; exact journal definitions and saved-owner witness still required."
+          },
+          "source_classification": [
+            {
+              "path": "quests/street_stories/wesbrook/japan_town/sts_wbr_jpn_05/sts_wbr_jpn_05/investigate/basement",
+              "uses": [
+                {
+                  "resource": "base\\open_world\\street_stories\\westbrook\\japantown\\sts_wbr_jpn_05\\phases\\sts_wbr_jpn_05_openworld.questphase",
+                  "graph": "root/5",
+                  "node": "228",
+                  "classes": [
+                    "gameJournalQuestMapPin"
+                  ],
+                  "incoming": [
+                    [
+                      "142",
+                      "Out",
+                      "228",
+                      "Inactive"
+                    ]
+                  ]
+                },
+                {
+                  "resource": "base\\open_world\\street_stories\\westbrook\\japantown\\sts_wbr_jpn_05\\phases\\sts_wbr_jpn_05_openworld.questphase",
+                  "graph": "root/5",
+                  "node": "229",
+                  "classes": [
+                    "gameJournalQuestMapPin"
+                  ],
+                  "incoming": [
+                    [
+                      "227",
+                      "Out",
+                      "229",
+                      "Active"
+                    ]
+                  ]
+                }
+              ],
+              "classification": "Native map pin target; not omitted objective"
+            },
+            {
+              "path": "quests/street_stories/wesbrook/japan_town/sts_wbr_jpn_05/sts_wbr_jpn_05/investigate/ren",
+              "uses": [
+                {
+                  "resource": "base\\open_world\\street_stories\\westbrook\\japantown\\sts_wbr_jpn_05\\phases\\sts_wbr_jpn_05_openworld.questphase",
+                  "graph": "root/5",
+                  "node": "230",
+                  "classes": [
+                    "gameJournalQuestMapPin"
+                  ],
+                  "incoming": [
+                    [
+                      "229",
+                      "Out",
+                      "230",
+                      "Inactive"
+                    ]
+                  ]
+                }
+              ],
+              "classification": "Native map pin target; not omitted objective"
+            }
+          ]
+        },
+        "CONDITIONAL: saved shared ownership, engine schedule/interrupt/reload and target/definition history remain explicit. Test actual dark route/mail/shard socket, Ren/music ending, supporting Johnny visibility, award and native three game-hour finish delay, plus reload before/after each credit trigger."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\graph_evidence.json",
+          "sha256": "640331339925D9602E8DFB2FF89FCF3C1C4BBAAE145077CCD8CAA97BBB474D04",
+          "json_pointer": "/quests/sts_wbr_jpn_05"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\source_pins.json",
+          "sha256": "8B5F6DA91EE492DF92B87D9EB4E5B8B92EA9D0A76A06B939DF417682646EDD21"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\shared_core.json",
+          "sha256": "A7B283A909C8BE28E02D4C0D82AB5501F2AA23ECC0FF44270C86B403BBB5712F"
+        }
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "OW root4 original route50 or61→39 exact completion reward→34→48 LittleTokyo max30→35.47→65 deletion→63 achievement_finished+1→64 three game hours→36 finished+1. Private credit21 forks18(receipt>0)/20(finished>0)→XOR19→3 wbr_sts_counter+1 once; changing OR to AND is an actual raw mutation control.",
+        "Exact native recipe/inline nodes/sockets/edges and current body pins are recorded; original embedded body comparisons=3. Effective catalogue index41, Region=wbr, Counter=wbr_sts_counter; all scalar missing0/journal missing-1 fixture bounds are explicit."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Direct native completion/variant/achievement record captures narrow stock target uncertainty; economic/reference child closure and live TweakXL values/award transition remain unresolved.",
+        "CONDITIONAL: saved shared ownership, engine schedule/interrupt/reload and target/definition history remain explicit. Test actual dark route/mail/shard socket, Ren/music ending, supporting Johnny visibility, award and native three game-hour finish delay, plus reload before/after each credit trigger."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\graph_evidence.json",
+          "sha256": "640331339925D9602E8DFB2FF89FCF3C1C4BBAAE145077CCD8CAA97BBB474D04",
+          "json_pointer": "/quests/sts_wbr_jpn_05"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\source_pins.json",
+          "sha256": "8B5F6DA91EE492DF92B87D9EB4E5B8B92EA9D0A76A06B939DF417682646EDD21"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\shared_core.json",
+          "sha256": "A7B283A909C8BE28E02D4C0D82AB5501F2AA23ECC0FF44270C86B403BBB5712F"
+        }
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native mail/put_in/music/endings and achievement/finish identities and time semantics remain. Credit receipt prevents a second increment when later finished fact arrives; no counter reset, timer shortening, old achievement replay or synthetic completed flag was introduced.",
+        "Exact native recipe/inline nodes/sockets/edges and current body pins are recorded; original embedded body comparisons=3. Effective catalogue index41, Region=wbr, Counter=wbr_sts_counter; all scalar missing0/journal missing-1 fixture bounds are explicit."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: saved shared ownership, engine schedule/interrupt/reload and target/definition history remain explicit. Test actual dark route/mail/shard socket, Ren/music ending, supporting Johnny visibility, award and native three game-hour finish delay, plus reload before/after each credit trigger."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\graph_evidence.json",
+          "sha256": "640331339925D9602E8DFB2FF89FCF3C1C4BBAAE145077CCD8CAA97BBB474D04",
+          "json_pointer": "/quests/sts_wbr_jpn_05"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\source_pins.json",
+          "sha256": "8B5F6DA91EE492DF92B87D9EB4E5B8B92EA9D0A76A06B939DF417682646EDD21"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\shared_core.json",
+          "sha256": "A7B283A909C8BE28E02D4C0D82AB5501F2AA23ECC0FF44270C86B403BBB5712F"
+        }
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Exact current Wakako support and original main Ren/dialogue/device actions are retained. Old bugfix root21 achievement receipt and other put_in/start/history conditions are not automatically replayed after Tower; current body already owns its named achievement/time sequence.",
+        "Exact native recipe/inline nodes/sockets/edges and current body pins are recorded; original embedded body comparisons=3. Effective catalogue index41, Region=wbr, Counter=wbr_sts_counter; all scalar missing0/journal missing-1 fixture bounds are explicit."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: saved shared ownership, engine schedule/interrupt/reload and target/definition history remain explicit. Test actual dark route/mail/shard socket, Ren/music ending, supporting Johnny visibility, award and native three game-hour finish delay, plus reload before/after each credit trigger."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\graph_evidence.json",
+          "sha256": "640331339925D9602E8DFB2FF89FCF3C1C4BBAAE145077CCD8CAA97BBB474D04",
+          "json_pointer": "/quests/sts_wbr_jpn_05"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\source_pins.json",
+          "sha256": "8B5F6DA91EE492DF92B87D9EB4E5B8B92EA9D0A76A06B939DF417682646EDD21"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\shared_core.json",
+          "sha256": "A7B283A909C8BE28E02D4C0D82AB5501F2AA23ECC0FF44270C86B403BBB5712F"
+        }
+      ]
+    }
+  }
+}

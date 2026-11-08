@@ -1,0 +1,130 @@
+{
+  "schema": 1,
+  "quest_id": "mq045_victor_debt",
+  "title": "Paid in Full",
+  "overall_status": "CONDITIONAL_ECONOMIC_RECORD_AND_OPAQUE_PRESENTATION_DEPENDENCIES",
+  "static_verified": false,
+  "defects": [],
+  "repairs": [],
+  "tested_baseline": "PH3; paid_fresh 9934E010EEFCB68B7152A6C834E78DBA286998807C8F566A47574CDB050B1F19; Viktor scene 3E21F17C9124DEB39165ACAE54AF4AA3557ED26C0E929DBC84C1DB2B5933BDED",
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Current paid_fresh root1000(In1)->1001(Ready1)->1002(pause)->1003(recheck); false returns1002, true1004(Issued1)->1005(Entered1)->native13. ArchiveXL registers this exact resource under ep1.quest node1.Out.",
+        "Native debt ownership slice is mq033_quest_bugfixes root/21, not a standalone mq045 phase: exact nodes13,8,9,12,10,11 and all five internal edges survive. Their predicates, journal paths, sockets and payloads compare equal to native."
+      ],
+      "approved_differences": [
+        "S25 adds post-Tower/PA2/U9/owned Permit+receipt gates and admits only all-four-Inactive debt journal entries. The obsolete native CYB-571237 bugfix-marker increment and terminating output are excluded; actual quest payloads are retained."
+      ],
+      "remaining": ["LIVE_ONLY: ArchiveXL scheduling of the existing registration is not executed by this static check."],
+      "evidence": ["verification_02/evidence.json#native_slice", "verification_02/evidence.json#entry", "verification_02/tests.json", "../../../sidejobs_s25/services/contract02.json", "../../../phone_studios_ph3/candidate_01/package/archive/pc/mod/zzzz_PTFR_Combined.archive.xl:183"]
+    },
+    "eligibility": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Native13 requires earned q001_just_after_rd_scene>0. Wrapper1002/1003 preserves this as1..2147483647 and requires victor_vector_default_on>0, unpaid0, no payment talk, B0 Viktor Ready+Enabled1, no QuestOwns/Excluded/Suspended, genuine Tower completion and all-four-Inactive root/phase/objective/description.",
+        "Current S25 REDscript Paths0/StatesA0/StatesB0/FactNames0/FactMin0/FactMax0 agree with actual serialized guard. S25 checks valid settled journals, consecutive matching ticks, snapshot admission, profile and safe player state; unknown journals defer.",
+        "Positive earned-unstarted seam accepted;45 one-at-a-time fact/journal boundary controls rejected, including Active/Succeeded/Failed/missing for each journal entry."
+      ],
+      "approved_differences": ["Fresh-only admission intentionally refuses active, completed, failed or contradictory historical states. No native debt, q001 or journal fact is reset to fabricate availability."],
+      "remaining": ["LIVE_ONLY: No current save is inspected and no eligible debt fixture is asserted. The graph cannot promise that this particular player has an unpaid/unstarted seam."],
+      "evidence": ["verification_02/evidence.json#entry", "verification_02/tests.json", "../../../phone_studios_ph3/candidate_01/package/r6/scripts/PTFR_Consolidated/PTFR_SideJobsS25.reds"]
+    },
+    "communications": {
+      "status": "PASS",
+      "proven": [
+        "Native six-node debt slice and private paid_fresh contain no phone requests, SMS, contact operations or acknowledgement waits. Debt completion does not require a new call controller.",
+        "The optional shared Viktor default service retains native phone handoff writes26 holo_v_calls_victor_start_activate and27 end_activate. PH1 Viktor wrapper references the native controller; native4/5 read these requests,12/13 consume them and call exact holo_v_calls_victor_start/end scene inputs. Native scene43/44 produce corresponding start_done/end_done acknowledgements.",
+        "Native cleanup5 compares outgoing start_count>end_count, true->7 reset_counter+1->scene2 holo_v_calls_victor_end. Current U9 fixer_cleanup references victor_cleanup; no manufactured ack or reset was added."
+      ],
+      "approved_differences": [],
+      "remaining": ["LIVE_ONLY: Optional phone UI, service/call arbitration and interruption scheduling are engine behavior; debt-specific static absence does not certify every unrelated Viktor call route."],
+      "evidence": ["verification_02/evidence.json#native_cleanup", "verification_02/tests.json", "resources.json", "../../../phone_support_ph1/semantic_01.py"]
+    },
+    "ownership": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Paid wrapper creates no actors or second Viktor controller. Existing B0 Viktor owner remains authoritative. Private root5 holds exactly native default_dialogs root/7/33 node3 PhaseInstancePrefab #victor_vector_default_prefab; its full root/5 graph is native-equal to default_dialogs root/7/33/3.",
+        "Native saved-owner ancestry is explicitly traced rather than inferred solely from killed facts: cyberpunk2077 root/82 node4 owns bugfixing.questphase; its root9 owns quest_bugfixing; quest_bugfixing root/3 node51 owns mq033; mq033 root21 owns the debt slice. Root106 waits genuine q307_before_tomorrow Succeeded then109 main_game_killed1->107 Terminating encloses root82 and that original bugfixing tree. Root fresh provider/hash capture verifies intermediate owner resource.",
+        "S25 Issued and B0 QuestOwns guards prevent a fresh grant while these owned states contradict the seam. Native payment dialogue facts retain the existing service departure wait36(True)->38(talk_active==0)->32."
+      ],
+      "approved_differences": ["Post-Tower private debt journal owner is added only after genuine parent-tree retirement gates. It reuses the existing restored B0 service, instead of spawning another Viktor."],
+      "remaining": ["LIVE_ONLY: Actual saved quest-runtime retirement, descendant resumption and third-party ownership arbitration require runtime evidence; this report proves source ancestry and guards, not executing-owner telemetry."],
+      "evidence": ["verification_02/tests.json", "resources.json", "../../ancestor_review.json", "../../provider_readback_01/capture.json", "../../../phone_studios_ph3/candidate_01/package/r6/scripts/PTFR_Consolidated/PTFR_SideJobsS25.reds"]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Exact native debt chain:13(q001 prerequisite)->8(objective Active)->9(description Active)->12(paid>0)->10(objective Succeeded)->11(root Succeeded). Wrapper routes11.Out only to owned Finished1.",
+        "Current reachable scene entry1->834->830->840 presents option1. Its native in-person branch is840[0:1]->324[False]->1141(talk_active1)->1136(ForceClose clinic gate)->1129(ForceLock)->50(dialogue/animation)->1132(ForceUnlock)->454(paid+1)->1144(talk_active0)->93. All ten reviewed branch node payloads and outgoing edges match native.",
+        "Both native call/non-call324 branches, the payment UI156, paid receipt454 and final talk cleanup1144 are preserved. Node351's historical debt hub remains unreachable from the Tower service entry, but the840 face-to-face route is present; it is not a missing payment path."
+      ],
+      "approved_differences": [],
+      "remaining": ["LIVE_ONLY: Dialogue/animation completion and device command execution are not simulated."],
+      "evidence": ["verification_02/evidence.json#payment", "verification_02/tests.json"]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "All25 scene header categories, including actors, props, workspots, workspotInstances, screenplayStore, locStore, VO, resource tables, local markers and interruption scenarios, equal native. No actor/prefab is introduced by paid_fresh.",
+        "Existing scene actor0 Victor_Vector acquires native spawnSet #victor_vector entryripperdoc. Existing body3 calls private scene at #victor_sm_vector_default. Root5 retains exact native #victor_vector_default_prefab. Payment device actions retain #q001_ripperdoc_gate, animations and performer IDs unchanged.",
+        "Fresh parent provider census confirms no differing expected graph provider; native declarations of Viktor English lipsync references are unchanged, so absent literal lookups are not proof of a PTFR defect."
+      ],
+      "approved_differences": ["B0 routes1/411 suppress incompatible pre-Tower staging while preserving the default service and840 payment hub. Nodes198/718/721 relocate self-scene references. The two paid options retain native payment data with CR1-reviewed receipt+Active-root guards."],
+      "remaining": [
+        "OPAQUE: Actual world placement/binding of #victor_vector_default_prefab, #victor_vector, #victor_sm_vector_default and #q001_ripperdoc_gate has not been decoded and correlated to every current sector placement by this quest investigation.",
+        "UNKNOWN: Literal provider lookups for native English Viktor default/call lipsync declared assets are absent in134 queried archives. Localization/fallback resolution and actual spoken/lipsync playback remain unproved. No replacement asset is invented.",
+        "LIVE_ONLY: Rendered actor, lip animation, camera/workspot transitions and streaming."
+      ],
+      "evidence": ["verification_02/evidence.json#scene_metadata_exact_to_native", "verification_02/evidence.json#scene_changed_nodes", "verification_02/tests.json", "../../provider_readback_01/capture.json", "../../../consolidation_repair_cr1/donor_review/selection_01.json"]
+    },
+    "journal": {
+      "status": "PASS",
+      "proven": [
+        "Native8 and9 retain exact mq045 objective/description paths and notification settings. Native10 receives Succeeded for the same objective;11 receives Succeeded for quests/minor_quest/mq045_victor_debt. There is no journal reset or Failed/Succeeded-to-Active rewrite.",
+        "Wrapper has no quest-specific mappin rewrite. The existing native service mappin points_of_interest/service_points/wat_lch_ripperdoc_01 is activated/deactivated through the unchanged service graph."
+      ],
+      "approved_differences": [],
+      "remaining": ["LIVE_ONLY: Parent journal auto-propagation and displayed tracking/notifications use the engine. The wrapper copies native objective activation rather than fabricating root/phase transitions."],
+      "evidence": ["verification_02/evidence.json#native_slice", "verification_02/tests.json"]
+    },
+    "completion": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native balanced payment data remains exact for both351/840 option1: questPaymentBalanced_ConditionType, EconomicAssignment.q001_victor_debt, difficultyNONE, inverted0, payWhenSucceded1. No synthetic money subtraction, reward, inventory item, XP or completion fact is added by wrapper.",
+        "Scene454 increments victor_debt_paid_full by1 only on retained native payment continuation; native12 waits paid>0 before objective/root Succeeded.1144 clears victor_debt_talk_active. Native gate unlock1132 occurs before receipt454, and owned Finished1007 is written only after native root completion11."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "UNKNOWN_STATIC_INPUT: The definition and effective provider/overrides of EconomicAssignment.q001_victor_debt have not been resolved from current TweakDB inputs. The preserved exact native pointer and payWhenSucceded=1 prove route/debit-policy parity but do not certify that record's current contents or existence.",
+        "LIVE_ONLY: Given resolved economic inputs, the engine-balanced amount and actual debit execution need runtime evidence. This report does not claim a newly measured eurodollar amount."
+      ],
+      "evidence": ["verification_02/evidence.json#payment", "verification_02/tests.json"]
+    },
+    "persistence": {
+      "status": "PASS",
+      "proven": [
+        "No PH3 resource, node, socket, persisted script field, receipt or installed name changes. Current raw private pins match QR1/PH3. Issued1004 precedes entry1005/native13; Finished1007 follows native11. Both admission predicates require Issued0/Finished0/Fault0 and all-four-Inactive journals.",
+        "Current S25 Permit method returns immediately for any nonzero Issued, and Poll/Restored never grants or restarts issued owners. Separate matching samples guard fresh grants; unsupported active states are deliberately not resumed.",
+        "Payment840 option1 requires Issued1/Finished0/Fault0 and Active root plus native unpaid/not-call condition. A completed debt therefore cannot be charged again through this private option. Eight mutation controls include altered native debit/paid writer or dropped root/cleanup guard; no runtime payload was mutated."
+      ],
+      "approved_differences": [],
+      "remaining": ["LIVE_ONLY: Mid-dialogue save/load, crash between native economic debit and receipt, and engine persistent graph restoration need explicit runtime transition evidence. Source identity preservation is not a tested save upgrade."],
+      "evidence": ["verification_02/tests.json", "resources.json", "../../../phone_studios_ph3/candidate_01/package/r6/scripts/PTFR_Consolidated/PTFR_SideJobsS25.reds"]
+    },
+    "shared_dependencies": {
+      "status": "OPAQUE",
+      "proven": [
+        "Full native service outer body is unchanged; complete inner service body changes only private sceneFile relocation and four existing owned diagnostic increments200-203 inserted in exact existing routes. Native actor Activate/Deactivate, phone states, departure/arbitration conditions and debt-talk wait remain equal.",
+        "Paid adapter owns neither actors nor prefab placement. It requires B0 service readiness/enablement/no quest lease, U9 readiness and settled native state. Native Viktor phone cleanup/request interfaces have matching readers and acknowledgements; no Sandra/Delamain counter changes or duplicate service are introduced."
+      ],
+      "approved_differences": ["Existing PH1 native service listener and PH3 shared studio ownership are preserved; QR2 adds no phone owner."],
+      "remaining": ["OPAQUE: Shared world prefab/NodeRef placement and localization resolution are the precise remaining static blockers listed under presentation.", "LIVE_ONLY: Concurrent service/call/quest lease timing, engine interruption and unload/reload arbitration are not gameplay-verified."],
+      "evidence": ["verification_02/tests.json", "resources.json", "../../provider_readback_01/capture.json"]
+    }
+  },
+  "reproduction": "C:/Users/Ayong/.local/bin/python3.14.exe -B prealpha/quest_restoration_qr2/quests/mq045_victor_debt/verify.py <fresh-output-directory>",
+  "validation": {"positive_static_checks": 7, "eligibility_negative_cases": 45, "detected_mutations": 8},
+  "no_repair_conclusion": "The native debt lifecycle, actual reachable payment path, economic condition, receipt and cleanup are preserved. The remaining placement/localization limits do not establish a source defect. Rewriting these working routes would be speculative."
+}

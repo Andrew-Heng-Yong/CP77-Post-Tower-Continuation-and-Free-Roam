@@ -1,0 +1,257 @@
+{
+  "quest_id": "sts_hey_spr_01",
+  "title": "On a Tight Leash",
+  "source_epoch": "source_epoch_00",
+  "status": "DEEP_CONTRACTS_INVESTIGATED_WITH_EXPLICIT_LIMITS",
+  "fully_static_verified": false,
+  "defects": [],
+  "repairs": [],
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Wellsprings inline2 is native deletion preamble;2.Out1→45 arms43 tier_1_1>0 or44(tier_1_1==0 AND tier_1>0), XOR42→46.POI Active→65004Started→main6.In1.",
+        "Exact recipe root node/sockets/edge multiplicities and complete copied inline graphs match pinned vanilla. 3 native embedded body comparisons prove main/OW/gameplay/combat externalized payloads after only approved envelope differences."
+      ],
+      "approved_differences": [
+        "Existing additive Tower/U9 readiness/guard/ParentEntered/Started/completion receipts; native Embedded→Soft external handle and PLATFORM_None→PC cooking envelope preserve all original IDs/graphs/targets. No new runtime change."
+      ],
+      "remaining": [
+        "LIVE_ONLY: native approach, registry dispatch and world trigger execution not observed."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\verification_04\\graph_evidence.json",
+          "sha256": "FFE9AC1B8783142052592F32BA0B4B02FBD4A3E6C4FC2136FBC7A27D8E091A35",
+          "json_pointer": "/quests/sts_hey_spr_01"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\verification_04\\source_pins.json",
+          "sha256": "8DF9E9EE2F876096238C5965D407583274731E40DB4D00BC76289FF126C91971"
+        }
+      ]
+    },
+    "eligibility": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Wellsprings inline2 is native deletion preamble;2.Out1→45 arms43 tier_1_1>0 or44(tier_1_1==0 AND tier_1>0), XOR42→46.POI Active→65004Started→main6.In1.",
+        "Current effective packaged NativeGigDataU9 index6, Region=hey, Counter=hey_sts_counter. EntrySafe/Request/Poll enforce listed root/phase/objective/brief enum1, native facts0, actual certified/accepted history, old-owner unused and one-time receipts. Scalar absent0 and journal absent-1 are explicitly modeled; no provenance inferred from missing zeros."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        {
+          "status": "CONDITIONAL_REFERENCE_COVERAGE",
+          "details": {
+            "native_journal_refs_not_catalogued": [
+              "quests/street_stories/heywood/wellsprings/sts_hey_spr_01/sts_hey_spr_01/phone/contact",
+              "quests/street_stories/heywood/wellsprings/sts_hey_spr_01/sts_hey_spr_01/take_down/target"
+            ],
+            "native_fact_refs_not_catalogued": [],
+            "note": "Uncatalogued reference does not establish valid started history; exact journal definitions and saved-owner witness still required."
+          }
+        },
+        "Exact journal child-target histories, live proximity/content-lock/actor conditions and accepted save entitlement remain conditional."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\verification_04\\graph_evidence.json",
+          "sha256": "FFE9AC1B8783142052592F32BA0B4B02FBD4A3E6C4FC2136FBC7A27D8E091A35",
+          "json_pointer": "/quests/sts_hey_spr_01"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\verification_04\\source_pins.json",
+          "sha256": "8DF9E9EE2F876096238C5965D407583274731E40DB4D00BC76289FF126C91971"
+        }
+      ]
+    },
+    "communications": {
+      "status": "PASS",
+      "proven": [
+        "Only the actual prebrief uses generic holocall protocol: OW root/2 node159 Start0, End0/rejected_out→139 brief SMS, Holocall RET/INT→169/170 requests. Outcome scene is padre_fixer_conversation, with actual spr_01_padre_start inputs and End1/End2 outputs; no nonexistent debrief holocall was required. Its original Padre actor/context is preserved. Prebrief producers63/64 wait267/59 then clear58/60.",
+        "Pinned actual caller sites=3; unique request producer protocols=2; SMS/phone journal reference sites=5. Every producer is tied to actual controller readers and real scene ACK writers, local waits/clears or explicit native retry waiting context."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Static protocol parity does not measure runtime phone ownership/interrupt delivery. Kill/spare/transport Jose, contact Padre physically, choose pacifist/normal reward, inspect JV1 visibility and reload before/after transport reward."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\verification_04\\graph_evidence.json",
+          "sha256": "FFE9AC1B8783142052592F32BA0B4B02FBD4A3E6C4FC2136FBC7A27D8E091A35",
+          "json_pointer": "/quests/sts_hey_spr_01"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\verification_04\\source_pins.json",
+          "sha256": "8DF9E9EE2F876096238C5965D407583274731E40DB4D00BC76289FF126C91971"
+        }
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native main root prefab #sts_hey_spr_01_streetstory holds original combat and OW; native bugfix phases5/11/14 separately reference same prefab and are inventoried without blind rehost. Johnny clues scene/actor/audio remain native; pinned JV1 visual-component hide policy supplies approved Tower presentation only.",
+        "Original body resource path/local IDs/one-time receipt names and root/nested PhasePrefab obligations are preserved. Native main output is observed by existing65005/65006, with no reset/restart/new saved controller."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Arbitrary old native/bugfix/private saved descendants and lease retirement are not proven by source presence or zero progress; no resume adapter is claimed. Kill/spare/transport Jose, contact Padre physically, choose pacifist/normal reward, inspect JV1 visibility and reload before/after transport reward."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\verification_04\\graph_evidence.json",
+          "sha256": "FFE9AC1B8783142052592F32BA0B4B02FBD4A3E6C4FC2136FBC7A27D8E091A35",
+          "json_pointer": "/quests/sts_hey_spr_01"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\verification_04\\source_pins.json",
+          "sha256": "8DF9E9EE2F876096238C5965D407583274731E40DB4D00BC76289FF126C91971"
+        }
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Actual Jose Luise kill and nonlethal transport routes remain separate in OW root/2/156 and/157. Kill path2→5 writes jose_luise_killed1; nonlethal77→80 records non_lethal_path. Each has its original Padre fixer conversation input spr_01_padre_start (nodes28/40), reward message42/34 and native finish writers40/32. Main reward root/10 condition4 chooses non_lethal>0→reward2 completion_pacifist or False→reward5 ordinary completion; both→27.",
+        "Complete original embedded body graph/node/socket/edge comparisons plus explicit case branch predicates/outgoing sockets prove structural parity across the native alternatives."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "PASS concerns source progression structure; actor/scene/object spawn and timed engine callback success require live testing."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\verification_04\\graph_evidence.json",
+          "sha256": "FFE9AC1B8783142052592F32BA0B4B02FBD4A3E6C4FC2136FBC7A27D8E091A35",
+          "json_pointer": "/quests/sts_hey_spr_01"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\verification_04\\source_pins.json",
+          "sha256": "8DF9E9EE2F876096238C5965D407583274731E40DB4D00BC76289FF126C91971"
+        }
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Main prefab #sts_hey_spr_01_streetstory, community/transport car, Jose actor binding, Padre in-person conversation, Johnny clue actor and original workspot/camera metadata are pinned; no spawn/despawn or arbitrary device/AI replacement.",
+        "Evidence inventories 281 actual graph asset-binding sites, root metadata and native scene actor/workspot/camera/reference fields; body ownership was not inferred empty from private wrapper."
+      ],
+      "approved_differences": [
+        "Existing approved R4 supporting Johnny voice policy uses pinned JV1 TemporaryHide on Silverhand visual components, with native scene actor/timing retained. Independent props/live timing not proved."
+      ],
+      "remaining": [
+        "OPAQUE: streamed worldNode/DynamicBaseClass contents/instance placement and actual workspot/actor/camera acquisition are not decoded here. Kill/spare/transport Jose, contact Padre physically, choose pacifist/normal reward, inspect JV1 visibility and reload before/after transport reward."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\verification_04\\graph_evidence.json",
+          "sha256": "FFE9AC1B8783142052592F32BA0B4B02FBD4A3E6C4FC2136FBC7A27D8E091A35",
+          "json_pointer": "/quests/sts_hey_spr_01"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\verification_04\\source_pins.json",
+          "sha256": "8DF9E9EE2F876096238C5965D407583274731E40DB4D00BC76289FF126C91971"
+        }
+      ]
+    },
+    "journal": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Original objectives get_inside/take_down/find_jose_luise/find_out, phone, take_to_fixer/get_out/take_body/get_reward/talk_padre are retained with actual incoming state sockets. Native phone/contact and take_down/target mappin refs are not in EntrySafe Paths; root/phase/objective paths are guarded, but target definitions/history implication remain conditional.",
+        "All 60 journal action/read sites retain exact native paths/incoming state sockets. Per-job map route retains native Padre_visited gate, POI and once-only MapPermit receipt; actual phone contact may differ."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        {
+          "status": "CONDITIONAL_REFERENCE_COVERAGE",
+          "details": {
+            "native_journal_refs_not_catalogued": [
+              "quests/street_stories/heywood/wellsprings/sts_hey_spr_01/sts_hey_spr_01/phone/contact",
+              "quests/street_stories/heywood/wellsprings/sts_hey_spr_01/sts_hey_spr_01/take_down/target"
+            ],
+            "native_fact_refs_not_catalogued": [],
+            "note": "Uncatalogued reference does not establish valid started history; exact journal definitions and saved-owner witness still required."
+          }
+        },
+        "Definition/None/marker history resolution and engine journal lookup remain explicit, despite original reference syntax preservation."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\verification_04\\graph_evidence.json",
+          "sha256": "FFE9AC1B8783142052592F32BA0B4B02FBD4A3E6C4FC2136FBC7A27D8E091A35",
+          "json_pointer": "/quests/sts_hey_spr_01"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\verification_04\\source_pins.json",
+          "sha256": "8DF9E9EE2F876096238C5965D407583274731E40DB4D00BC76289FF126C91971"
+        }
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "OW root/10 4 selects native pacifist/ordinary reward, then27;36→37 adds spr_01_finished1→35. Achievement28→51 LikeFatherLIkeSon (hey_achievement max31) remains. Original private credit12 waits spr_01_finished>0→3 adds hey_sts_counter1 once under CreditEntered/CreditDone. Native killed/nonlethal paths can also write finished before later final cleanup, preserving original timing.",
+        "Root's hash-pinned stock base+EP1 probe finds actual completion record ID164125395307 types['gamedataRewardBase_Record']; source target/quantity/method remains original, and actual reward mutations are detected."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Reward closure has 3 uncaptured immediate refs. Runtime TweakXL/economic scaling and one-time award/cleanup delivery across save/reload are not certified. Kill/spare/transport Jose, contact Padre physically, choose pacifist/normal reward, inspect JV1 visibility and reload before/after transport reward."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\verification_04\\graph_evidence.json",
+          "sha256": "FFE9AC1B8783142052592F32BA0B4B02FBD4A3E6C4FC2136FBC7A27D8E091A35",
+          "json_pointer": "/quests/sts_hey_spr_01"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\verification_04\\source_pins.json",
+          "sha256": "8DF9E9EE2F876096238C5965D407583274731E40DB4D00BC76289FF126C91971"
+        }
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Current entry65002 requires native start/finished0, own ParentEntered/Fault0 plus positive Tower/support/Request/Permit. Effective Request additionally refuses Started/OwnerFinished/CreditDone or nonzero listed native/legacy histories. All original body/field/path/local-node identities retained.",
+        "OW root/10 4 selects native pacifist/ordinary reward, then27;36→37 adds spr_01_finished1→35. Achievement28→51 LikeFatherLIkeSon (hey_achievement max31) remains. Original private credit12 waits spr_01_finished>0→3 adds hey_sts_counter1 once under CreditEntered/CreditDone. Native killed/nonlethal paths can also write finished before later final cleanup, preserving original timing."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Live transition fixtures with old native/private owners and one-time rewards were not supplied; no restart/adoption was introduced. Kill/spare/transport Jose, contact Padre physically, choose pacifist/normal reward, inspect JV1 visibility and reload before/after transport reward."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\verification_04\\graph_evidence.json",
+          "sha256": "FFE9AC1B8783142052592F32BA0B4B02FBD4A3E6C4FC2136FBC7A27D8E091A35",
+          "json_pointer": "/quests/sts_hey_spr_01"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\verification_04\\source_pins.json",
+          "sha256": "8DF9E9EE2F876096238C5965D407583274731E40DB4D00BC76289FF126C91971"
+        }
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Padre initializer79 and exact shared cleanup468→336.In42/Out42→474 are current-hash applicable. Actual generic call scene acknowledgement writers41/42, request queue32/33/34/36/28/10, cleanup reset/end branch and PH3 support scope remain. Physical Padre conversation is a distinct context, not assumed covered by phone studio alone.",
+        "Shared core15 actual sources match frozen QR5epoch00; actual native caller/ACK/cleanup chain is verified per contact. Indexed graph dependency references, root and nested prefab scopes and actual source hashes are recorded."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "SupportIssued is a receipt before native startup, not synchronous listener-running proof. Dynamic content/spawn/token/interrupt ordering, external providers and saved-helper leases retain live/opaque bounds."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\verification_04\\graph_evidence.json",
+          "sha256": "FFE9AC1B8783142052592F32BA0B4B02FBD4A3E6C4FC2136FBC7A27D8E091A35",
+          "json_pointer": "/quests/sts_hey_spr_01"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\verification_04\\source_pins.json",
+          "sha256": "8DF9E9EE2F876096238C5965D407583274731E40DB4D00BC76289FF126C91971"
+        }
+      ]
+    }
+  }
+}

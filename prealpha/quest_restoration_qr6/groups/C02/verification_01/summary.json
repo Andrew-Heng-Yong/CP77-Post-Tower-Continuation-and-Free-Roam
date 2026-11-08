@@ -1,0 +1,16 @@
+{
+  "group": "C02",
+  "status": "PASS_BOUNDED_SOURCE_COMPARISONS_WITH_EXPLICIT_LIMITS",
+  "checks": 428,
+  "resources": 91,
+  "mutations": 3,
+  "quest_ids": [
+    "sts_std_arr_03",
+    "sts_wat_nid_07",
+    "sts_wbr_hil_06",
+    "sts_wbr_jpn_12"
+  ],
+  "issues": [],
+  "epoch": "QR5:08",
+  "gameplay_tested": false
+}

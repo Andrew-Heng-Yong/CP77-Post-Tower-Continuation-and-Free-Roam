@@ -1,0 +1,110 @@
+{
+  "state": "Q02_Q03_Q04_ALL_DEEP_REVIEWED_WITH_STATIC_LIMITS",
+  "selected_quests": 161,
+  "newly_deep_reviewed": 48,
+  "total_deep_reviewed": 64,
+  "remaining_not_deep_reviewed": 97,
+  "fully_static_verified": 0,
+  "new_contract_status_counts": {
+    "APPROVED_DEVIATION": 55,
+    "CONDITIONAL": 248,
+    "PASS": 129,
+    "OPAQUE": 48
+  },
+  "deep_contract_status_counts": {
+    "APPROVED_DEVIATION": 79,
+    "PASS": 174,
+    "CONDITIONAL": 323,
+    "OPAQUE": 64
+  },
+  "batch_counts": {
+    "Q01": 16,
+    "Q02": 16,
+    "Q03": 16,
+    "Q04": 16,
+    "Q05": 0,
+    "Q06": 0,
+    "Q07": 0,
+    "Q08": 0,
+    "Q09": 0,
+    "Q10": 0,
+    "Q11": 0
+  },
+  "new_unique_defects": 1,
+  "new_affected_quest_count": 1,
+  "new_changed_resources": 2,
+  "cumulative_unique_defects": 3,
+  "working_candidate": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\candidate_01",
+  "installed": "PH3 unchanged",
+  "source_epoch": 3,
+  "queue_sha256": "1F46F69433C3F982038E3A03DDE2159D754AD42ABFEF13098295DD5E76DB80AA",
+  "next_batch": "Q05",
+  "next_batch_quests": [
+    {
+      "id": "sts_hey_gle_04",
+      "title": "Fifth Column"
+    },
+    {
+      "id": "sts_hey_rey_09",
+      "title": "Getting Warmer..."
+    },
+    {
+      "id": "sts_hey_rey_06",
+      "title": "Jeopardy"
+    },
+    {
+      "id": "sts_hey_rey_08",
+      "title": "Old Friends"
+    },
+    {
+      "id": "sts_hey_spr_01",
+      "title": "On a Tight Leash"
+    },
+    {
+      "id": "sts_hey_spr_06",
+      "title": "Hot Merchandise"
+    },
+    {
+      "id": "sts_hey_spr_03",
+      "title": "The Lord Giveth and Taketh Away"
+    },
+    {
+      "id": "sts_pac_cvi_02",
+      "title": "Two Wrongs Makes Us Right"
+    },
+    {
+      "id": "sts_pac_wwd_05",
+      "title": "For My Son"
+    },
+    {
+      "id": "sts_std_arr_10",
+      "title": "Severance Package"
+    },
+    {
+      "id": "sts_std_arr_12",
+      "title": "Desperate Measures"
+    },
+    {
+      "id": "sts_std_arr_11",
+      "title": "Hacking the Hacker"
+    },
+    {
+      "id": "sts_std_arr_05",
+      "title": "Breaking News"
+    },
+    {
+      "id": "sts_std_arr_06",
+      "title": "Nasty Hangover"
+    },
+    {
+      "id": "sts_std_arr_01",
+      "title": "Serious Side Effects"
+    },
+    {
+      "id": "sts_std_rcr_02",
+      "title": "Cuckoo's Nest"
+    }
+  ],
+  "restrictions": "No game/deployment/save/fact/release/Git publication writes",
+  "source_epoch_manifest": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\source_epoch_03.json"
+}

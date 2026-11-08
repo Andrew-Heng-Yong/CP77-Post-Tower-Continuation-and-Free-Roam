@@ -1,0 +1,26 @@
+{
+  "status": "PASS_QR18_REVIEWED_TRANSACTION_DELTA",
+  "predecessor_installer_sha256": "8DE067549901CD3AD6E41AE88F35DBAE4967DC6DEDAADADFF79CF6BB8E2A9A08",
+  "installer_sha256": "D93DC0001B2B5CC1751BE4CB9DE3DF4A3E92EF93F252CFB407411161238AA17B",
+  "manifest_sha256": "E38145F3C7D3A2CCDE265017972FFEF4BCF5B7677B1BF6A7CAFC661BCCE952DD",
+  "allowed_replacements": [
+    "archive/pc/mod/zzzz_PTFR_Combined.archive",
+    "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS23.reds"
+  ],
+  "exact_verified_zip": "8E18F13ECBADF92BEE45C34874B5FA6AE215FFB6F92DD5D6B04124923709C10E",
+  "engine_delta": [
+    "# QR18 deployment. Real mutations require authorization. Fixtures stay under this task.",
+    "# Derived from the QR14 transaction. Only two existing Core files may change.",
+    "# The two-file replacement is journaled, with per-file atomic replacement; Windows",
+    "$PinnedCoreManifestSHA='E38145F3C7D3A2CCDE265017972FFEF4BCF5B7677B1BF6A7CAFC661BCCE952DD'",
+    "PTFR_QR18_JOURNAL_V1",
+    "'core_manifest_01.json'",
+    "'PTFR_QR18_CORE_V1'",
+    "$manifest.source_epoch -cne 'QR18' -or $manifest.predecessor_epoch -cne 'QR13:02'",
+    "('recovery/core_qr18_01')",
+    "",
+    "$changes.Count -ne 2",
+    "Core51/two-existing-file scope drift"
+  ],
+  "review_scope": "Identity, two-file allowlist and recovery namespace only. Locks, containment, journal, write path, process guard and recovery are inherited."
+}

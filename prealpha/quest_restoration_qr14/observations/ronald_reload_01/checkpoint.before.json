@@ -1,0 +1,25 @@
+{
+  "state": "QR13_02_INSTALLED_VERIFIED_ROLLBACK_READY",
+  "completion": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\deployment_01\\completion.json",
+  "completion_sha256": "DAFCC2C6A84F7013F6477832A80C3DB913A4A63F643A172820A6CC24140E09CE",
+  "installed": "QR13:02 Core + unchanged QR10D01/D00E",
+  "handoff": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\deployment_01\\HANDOFF.md",
+  "next": "One normal new-manual-slot save/reload check for these enrollment receipts/contact only. Keep originalManualSave23/24 untouched, reload the new working slot and read the same getters. No conversation replay or logger rerun required for this simple persistence snapshot. Future news only during genuinely eligible future play.",
+  "latest_ronald_eligibility": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_eligibility_01\\result.json",
+    "sha256": "B3F0E80F0D957891047D1F65C43615D1488CC262EF3D90A6EFCAB64DAACF8BF4",
+    "card": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_eligibility_01\\TEST_CARD.md"
+  },
+  "latest_ronald_attempt": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_attempt_01\\result.json",
+    "sha256": "B524D610B9C36CEB586BEC4B24D047D18DEE8302DBA73A45A3D0FC1BDC61152F",
+    "report": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_attempt_01\\REPORT.md",
+    "continuation": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_attempt_01\\CONTINUE.md"
+  },
+  "latest_ronald_enrollment": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_enrollment_01\\result.json",
+    "sha256": "877DEDFB0130FEE945A44123B588B9B89BDDDFDECCBA257A63A5299791B8316B",
+    "report": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_enrollment_01\\REPORT.md",
+    "next_steps": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_enrollment_01\\NEXT_STEPS.md"
+  }
+}

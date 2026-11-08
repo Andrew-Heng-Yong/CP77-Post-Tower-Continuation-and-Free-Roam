@@ -1,0 +1,75 @@
+{
+  "status": "OFFLINE_BINDING_COMPLETE_JF02_AWAITING_HUMAN_REPAIR_UNIMPLEMENTED",
+  "utc": "2026-11-04T17:11:14.779057+00:00",
+  "evidence": [
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\next_step_01\\REPORT.md",
+      "sha256": "92E9A31BDF95B4649F719B3DEE9B37326AB9E111AE74009B9F6AD6B0C1146BA6"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\next_step_01\\HANDOFF.md",
+      "sha256": "82FD6CFB322B70FA5D07D81E42E4DE4D45A625AA6F297F6418A8FF1D8028A3EB"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\next_step_01\\preservation_assessment.json",
+      "sha256": "82C3AE7A9585FEF0A58EF395D5D43449B6BB09F6CD30A77AD01C0D735FB6E513"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\next_step_01\\readiness.json",
+      "sha256": "C867CD45D54568A20F6706BCE30B1061A2F8F4FA2B79BB4C812F4104B33A1E3B"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\root_saved_resource_array_01\\extraction.json",
+      "sha256": "7819CE94BC8AA2DA934AD4FAFC603DD797E44A3A21D4C2828CC32D0C3FEEC1D8"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\root_saved_resource_array_01\\header.json",
+      "sha256": "D02B80002BA876EBCE952D7430E444E92A613897A0ED88C6D8F47EA2996614FA"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\root_binding_providers_01\\manifest.json",
+      "sha256": "C64CF50D6E316D364444769DFD5910C22C8F7A521B6E1E7891F92EB9BA3EED6D"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\quest_compression_il_01.json",
+      "sha256": "C0EECFEC9EA4BB08BFD36694308E16645327913EB2F960A6CE606D968DC84339"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\saved_graph_state_01\\inspector_review_01\\manifest_01.json",
+      "sha256": "DE2F5F635BE83B9FF28CB71156CF41AE512A8817DD2882097671E7C3FC998C09"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\saved_graph_state_01\\inspector_review_01\\verification_01.json",
+      "sha256": "6FB6CBDAB57B171BD839C618B9B7862DC7F8A6F165B0F0A431E5BBBC2C51226E"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\runtime_probe_01\\car_binding_review_01\\binding_evidence.json",
+      "sha256": "131D8706669FD480702420D54824BA590EBDE546B13623D565C42946933A652F"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\runtime_probe_01\\car_binding_review_01\\verification_01.json",
+      "sha256": "66E1DDD9E894EB3B74D9C6C4A3FDF1A42DBFCA9A076B2BC861A4C531992EFCB8"
+    }
+  ],
+  "offline_feasibility_complete": true,
+  "restoration_complete": false,
+  "runtime_candidate": null,
+  "native_plugin_selected": false,
+  "runtime_changes": 0,
+  "game_calls": 0,
+  "save_or_fact_writes": 0,
+  "checks_separate_not_additive": {
+    "native_static": 18,
+    "strict_array_decoder": 16,
+    "car_binding": 34,
+    "primary_lua_source": 21,
+    "independent_command_review": 23
+  },
+  "remaining": [
+    "External world lease release completion",
+    "Complete16branch non-replaying startup disposition",
+    "Car visual/door/pending transition",
+    "Actual currently executing owner/stage beyond static cleanup and historical root binding"
+  ],
+  "next": "One source-bound absolute-car lookup from readiness.json; do not repeat JF01 or completed quests."
+}

@@ -1,0 +1,32 @@
+"""Independent source-authority review of MQ060; no worker checker imports."""
+import sys,json,copy,itertools,re
+from pathlib import Path
+W=Path(__file__).resolve().parents[4];sys.path.insert(0,str(W/'tools/parity_audit'))
+from common import read,write,sha,walk
+from model import Resource
+def run(O):
+ assert not O.exists();B=W/'prealpha/quest_restoration_qr6/groups/B01';manifest=read(B/'raw_exports_01/manifest.json')+read(B/'standalone_exports_01/manifest.json')+read(B/'additional_exports_01/manifest.json');pick=['base\\quest\\minor_quests\\mq060\\mq060.quest','base\\quest\\bugfixing\\quest_bugfixing.questphase','towercontinued\\sidejobs_s29\\entries\\mq060_nitro.questphase','base\\quest\\cyberpunk2077.questphase','base\\quest\\bugfixing.questphase'];M={};pins=[];tests=[]
+ def ck(n,b,e=None):tests.append({'name':n,'pass':bool(b),'evidence':e});assert b,n
+ for d in pick:
+  p=next(x for x in manifest if x['depot']==d);ck('exact source '+d,sha(p['raw'])==p['raw_sha256'] and sha(p['json'])==p['json_sha256'],p);M[d]=Resource(read(p['json'])).normalize();ck('source graph integrity '+d,not M[d]['errors'],M[d]['errors']);pins.append(p)
+ G=M[pick[1]]['graphs']['root/3'];S=M[pick[0]]['graphs']['root'];C=M[pick[2]]['graphs']['root'];select=G['nodes']['93']['payload']['condition'];purchase=G['nodes']['104']['payload']['condition'];alt=[S['nodes'][str(i)]['payload']['condition']['type']['vehicleName'] for i in [8,9,10,11]];nv=[x['type']['vehicleName'] for x in select['conditions']]
+ ck('actual selected global AND and two arms',G['nodes']['106']['type']=='questLogicalAndNodeDefinition' and all(e in G['edges'] for e in [['88','Out','93','In'],['88','Out','104','In'],['93','Out','106','In1'],['104','Out','106','In2'],['106','Out1','89','Start']]),G['nodes']['106'])
+ ck('native threshold exactly3',purchase['type']['factName']=='carbought_counter' and purchase['type']['value']==3 and purchase['type']['comparisonType']=='GreaterOrEqual',purchase)
+ ck('native global three-bike OR',select['operation']=='OR' and len(nv)==3 and all(x in alt for x in nv),select)
+ ck('standalone four-bike XOR',S['nodes']['12']['type']=='questLogicalXorNodeDefinition' and len(alt)==4 and set(alt)-set(nv)=={'Vehicle.v_sportbike1_yaiba_kusanagi_tyger_player'},alt)
+ ck('adapter vehicle arm matches alternate authored route',all(C['nodes'][str(i)]['payload']==S['nodes'][str(i)]['payload'] for i in [8,9,10,11,12]),[8,9,10,11,12])
+ ck('no native purchase atom in private entry',not any(x.get('factName')=='carbought_counter' for x in walk(read(next(x['json'] for x in manifest if x['depot']==pick[2])))),pick[2])
+ script=W/'prealpha/quest_restoration_qr5/candidate_03/package/r6/scripts/PTFR_Consolidated/PTFR_SideJobsS29.reds';code=script.read_text(encoding='utf8');ck('no hidden runtime carbought gate', 'carbought_counter' not in code,str(script))
+ ck('same native gameplay resource reference',G['nodes']['89']['refs']==S['nodes']['4']['refs'],{'global':G['nodes']['89'],'standalone':S['nodes']['4']})
+ fixtures=[]
+ for bits in itertools.product([0,1],repeat=4):
+  held={v for v,b in zip(alt,bits) if b}
+  for count in range(5):fixtures.append({'held':sorted(held),'count':count,'global':bool(held&set(nv)) and count>=3,'standalone':bool(held)})
+ differences=[x for x in fixtures if x['global']!=x['standalone']];ck('independent difference recomputation',len(fixtures)==80 and len(differences)==47,{'fixtures':80,'differences':len(differences)})
+ ck('positive early-admission witness',any(x['count']==0 and x['held']==[alt[0]] and not x['global'] and x['standalone'] for x in fixtures),next(x for x in differences if x['count']==0))
+ ck('positive Tyger-only authority conflict witness',any(x['count']==3 and x['held']==['Vehicle.v_sportbike1_yaiba_kusanagi_tyger_player'] and not x['global'] and x['standalone'] for x in fixtures),'Even sufficient purchases cannot resolve which native authored gate is authoritative for Tyger-only history.')
+ original=G['nodes']['104']['payload']['condition'];mut=copy.deepcopy(original);mut['type']['value']=0;ck('actual source threshold mutation changes expected parity',any((bool(set(x['held'])&set(nv)) and x['count']>=mut['type']['value'])!=x['global'] for x in fixtures),mut);write(O/'threshold_mutant.json',mut)
+ rg=M[pick[3]]['graphs']['root'];ck('native Tower terminating ancestry',all(e in rg['edges'] for e in [['106','Out','109','In'],['109','Out','107','In']]) and rg['nodes']['107']['payload']['type']=='Terminating',rg['nodes']['107']);ck('actual native bugfix owner ancestry',pick[4] in M[pick[3]]['graphs']['root/82']['nodes']['4']['refs'] and pick[1] in M[pick[4]]['graphs']['root']['nodes']['9']['refs'],[pick[3]+'root/82:4',pick[4]+':9'])
+ issues=[{'severity':'SOURCE_AUTHORITY_CONFLICT','finding':'Executing global route requires OR3 AND purchases>=3; selected standalone authored route allows fourth Tyger variant and no purchase count. Divergence is proved. A captured absence of reverse references does not establish whether a native .quest registry independently launches the standalone.','effect':'Future guard intersection is source-compatible with the executing-global route but would narrow the standalone authored route; strict parity authority remains unresolved.','needed':'Native quest startup/registry evidence or explicit dated approval identifying authoritative route and intended treatment of Tyger-only ownership.','repair_review':'DO_NOT_APPROVE_GAMEPLAY_PATCH_FROM_THIS_EVIDENCE_ALONE','saved_scope':'Even an accepted future65003/65004 patch would not tighten already issued/pending downstream XOR without separately reviewed transition.'}]
+ write(O/'source_pins.json',pins+[{'path':str(script),'sha256':sha(script)}]);write(O/'tests.json',tests);write(O/'fixtures.json',fixtures);write(O/'review.json',{'status':'DIVERGENCE_CONFIRMED_REPAIR_BLOCKED_SOURCE_AUTHORITY','checks':len(tests),'failures':0,'fixtures':80,'discrepancies':47,'mutations':1,'issues':issues,'source_authority':'Global is proven connected native ancestry; standalone is native authored provider evidence with engine-startup authority not established. Neither silently supersedes the other.','worker_evidence':str(B/'nitro_admission_01/evidence.json'),'worker_evidence_sha256':sha(B/'nitro_admission_01/evidence.json'),'runtime_changes':[]});print({'checks':len(tests),'issues':1,'review':str(O/'review.json'),'sha256':sha(O/'review.json')})
+if __name__=='__main__':run(Path(sys.argv[1]))

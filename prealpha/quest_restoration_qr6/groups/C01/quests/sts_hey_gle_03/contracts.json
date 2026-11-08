@@ -1,0 +1,192 @@
+{
+  "quest_id": "sts_hey_gle_03",
+  "title": "Psychofan",
+  "source_epoch": "QR5:08 = QR6:00 frozen source bytes",
+  "status": "DEEP_SOURCE_INVESTIGATED_WITH_SPECIFIC_LIMITS",
+  "fully_static_verified": false,
+  "effective_resource": "towercontinued\\gigs_u10\\native\\sts_hey_gle_03_entry.questphase",
+  "effective_resource_sha256": "A0526297696C57CB992A5CD7CC7DE797ABA67EE0E545CC680BF5EE16BC134A39",
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Native Glenn root6 and tier64(sts_hey_gle_tier_1_2>0) OR65(AND tier_1_1=0,tier_1>0) through XOR63 precede outside/POI alternatives44/51→XOR52→46.Active→Started65004→body7.In1. Exact retained parent nodes, nested graphs and sockets match the pinned donor."
+      ],
+      "remaining": [
+        "Native entry predicates and exact wrapper are statically proved; runtime registration/streaming timing is not gameplay proof."
+      ],
+      "approved_differences": [
+        "Existing approved genuine-Tower private U10 fresh rehost, explicit once receipts and conservative eligibility. Psychofan only additionally uses the reviewed R4 adapter; no new QR6 behavior change."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_03\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_03\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\quests\\sts_hey_gle_03\\mechanisms.json"
+      ]
+    },
+    "eligibility": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Actual guard requires 11 Inactive journal paths, zero local progress, zero held Items.sts_hey_gle_03_guitar and debug_sts_start0; synchronous recheck65008 repeats the pause65002 condition before Issued65003. Native minigame/alarm/photo/guitar/Johnny hint receipts are retained, without history resets."
+      ],
+      "remaining": [
+        "Current finite guards preserve the named native beginnings; unobserved external/saved-owner state and live admission timing remain conditional. Exact omitted native fact/journal census is retained in evidence.json."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_03\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_03\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\quests\\sts_hey_gle_03\\mechanisms.json"
+      ]
+    },
+    "communications": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native OW root/3 prebrief149.End0/rejected and muted branch feed actual brief148; debrief150.End0 or rejected→SMS203 retain original exits. Exact active Start0 callers use Padre readers32/3 and real scene ACK41/42; all waits and clears are traced including retry producers. Shared current initializer79 and cleanup336/468 apply by exact QR5 hashes."
+      ],
+      "remaining": [
+        "Real request/listener/ACK/wait/clear authoring is proved; actual scheduling, actor acquisition, interruption and reload delivery remain live-dependent."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_03\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_03\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\quests\\sts_hey_gle_03\\mechanisms.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Private entry64000 preserves original LOOP root/3:13 parallel prestate;64001 preserves Glenn71 cleanup after body7.Out1, including nested edges and its original prefab/NodeRef scopes. OwnerFinished follows the cleanup output, rather than treating the body output alone as cleanup proof. Native prestate Reactivate is retained as native authoring, not a newly invented respawn command."
+      ],
+      "remaining": [
+        "Exact selected original parent/companion scopes are traced; arbitrary old executing saved owners and native global bugfix controller states are not certified by zero scalar facts or presence."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_03\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_03\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\quests\\sts_hey_gle_03\\mechanisms.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "OW root/3:27 waits real guitar inventory>=1→83 hides world guitar→45 pick_up.Succeeded;158 waits native sts_hey_gle_03_guitar receipt>0→40 drop.Succeeded→41 quest.Succeeded. Photo/password/hint and door-open alternative cuts145/147 remain source-identical. Three private gameplay/OW/main adapters preserve all graph topology and identities after exact reference substitution."
+      ],
+      "remaining": [],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_03\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_03\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\quests\\sts_hey_gle_03\\mechanisms.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\psychofan_presentation.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Independent reconstruction from exact native JSON reproduced all four private scene/phase resources and eight private workspots. It removes only Johnny props5/6, performer769 equip/unequip/VFX events, mutes his animation events, maps the original references and keeps actor3 Silverhand, dialogue, scene nodes, camera and NPC bindings. Runtime JV1 hiding remains a separate engine check."
+      ],
+      "remaining": [
+        "DynamicBaseClass/worldNode streaming placement, effective spawned actor acquisition, animation/workspot/camera execution and JV1 timing are not certified by preserved binding literals."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_03\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_03\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\quests\\sts_hey_gle_03\\mechanisms.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\psychofan_presentation.json"
+      ]
+    },
+    "journal": {
+      "status": "PASS",
+      "proven": [
+        "All native objective/mappin transitions, including find_way→puzzle→room_get_in→pick_up→safe→drop, match exact original graph payloads/edges. Optional check_code activation depends on real password1 and door IsOpen. No journal success or item receipt is fabricated."
+      ],
+      "remaining": [],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_03\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_03\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\quests\\sts_hey_gle_03\\mechanisms.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "OW root/5:2 retains QuestRewards.sts_hey_gle_03_completion→3 gle_03_finished1 and achievement50; body output starts the original district cleanup64001. Credit waits real completion behind private CreditEntered0/CreditDone0 and increments the native hey_sts_counter once. The drop receipt remains the native event result, not an inferred held-item count."
+      ],
+      "remaining": [
+        "Native reward/cleanup authoring and once gates are proved; effective merged TDB definitions, atomic engine rewards, pending old owners and cleanup/reload behavior need separate evidence."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_03\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_03\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\quests\\sts_hey_gle_03\\mechanisms.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "PTFRU10 stable Ready/Revision/Issued/Started/MainFinished/OwnerFinished and credit/map IDs remain exact QR5 bytes; new work has not changed them. GigsU10.Restored only clears volatile samples and fresh permits; issued owners are never restarted. CYB and CP77 fix flags and prestate_activated are explicitly inventoried separately from fresh-quest progress."
+      ],
+      "remaining": [
+        "No save-transition fixtures were executed; source identity preservation does not prove arbitrary future-version saved-owner compatibility."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_03\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_03\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\quests\\sts_hey_gle_03\\mechanisms.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Padre queue/interrupt/cleanup and PH3 two-studio support are pinned current bytes. Original LOOP prestate, Glenn post-output crime-scene owner, native drop-point device event and approved R4 private workspots are separate obligations and individually retained. Full world marker resolution is not claimed."
+      ],
+      "remaining": [
+        "Original exact bindings and shared byte applicability are proved; external world marker acquisition, all effective record override winners and live shared-owner leases remain conditional."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_03\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\verification_01\\quests\\sts_hey_gle_03\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\quests\\sts_hey_gle_03\\mechanisms.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\supplement_02\\psychofan_presentation.json"
+      ]
+    }
+  }
+}

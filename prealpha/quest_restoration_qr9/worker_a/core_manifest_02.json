@@ -1,0 +1,465 @@
+{
+  "schema": "PTFR_QR9_COMPONENT_V1",
+  "component": "Core",
+  "status": "PREPARED_NOT_INSTALLED",
+  "source_epoch": "QR8:02",
+  "game_root": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077",
+  "save_root": "C:\\Users\\Ayong\\Saved Games\\CD Projekt Red\\Cyberpunk 2077",
+  "package_root": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\candidate_01\\package",
+  "zip": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\candidate_01\\PTFR_QR8_Staged_NotInstalled.zip",
+  "zip_sha256": "A8EDD59A9D69EFB34D6B98CD558B7EECC58C7F5AA9CEDE00302B5F9ACCE978DA",
+  "files": [
+    {
+      "path": "archive/pc/mod/zzzz_PTFR_Combined.archive",
+      "before": "18B855B55A62771F146B9BA518F8DB782832606AA7666755303EEBA91D9F66C7",
+      "before_bytes": 10084352,
+      "after": "2AB35CC95931CD3C7BB2FB3A4C8B52746DE7847D42AE1DD3503A90A965FD2039",
+      "after_bytes": 10125312
+    },
+    {
+      "path": "archive/pc/mod/zzzz_PTFR_Combined.archive.xl",
+      "before": "C55FB23E72710FD0FC8D348C62E2118C2E3FAD04DE3FCE2E6B459E6AB2A1F720",
+      "before_bytes": 134688,
+      "after": "F22693981B0A10DB21B47AFAD7FC8BCAEF1F021D9EA99548BA4FF80F56D18245",
+      "after_bytes": 134936
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_HistorySnapshotHS1/init.lua",
+      "before": "CA110EC574E6B67327B77A90A2600B7444FD98CE616D96C9C74D4C64163A3DF2",
+      "before_bytes": 4547,
+      "after": "CA110EC574E6B67327B77A90A2600B7444FD98CE616D96C9C74D4C64163A3DF2",
+      "after_bytes": 4547
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_PreAlpha/init.lua",
+      "before": "641726D256E98472EF8BB3962F238A1165C4843C1F63636104B14E74AF723907",
+      "before_bytes": 5362,
+      "after": "641726D256E98472EF8BB3962F238A1165C4843C1F63636104B14E74AF723907",
+      "after_bytes": 5362
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_ActivityStateR3.reds",
+      "before": "06806391C2D9B3E66517C7D9EF8D69A87B2BF0DF52B23343E4793317E4F07615",
+      "before_bytes": 254901,
+      "after": "06806391C2D9B3E66517C7D9EF8D69A87B2BF0DF52B23343E4793317E4F07615",
+      "after_bytes": 254901
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_AfterlifeFacesR5.reds",
+      "before": "D536145CB5F45D30E85669B343184753C1DD8E3A492ADACF4543F9E69F323074",
+      "before_bytes": 22648,
+      "after": "D536145CB5F45D30E85669B343184753C1DD8E3A492ADACF4543F9E69F323074",
+      "after_bytes": 22648
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_AfterlifeIdlesR3.reds",
+      "before": "5899B6DC726B6D5EE74DC5DA21A9D39DDCE30028DABF161E0EF6D91ECD13128A",
+      "before_bytes": 9293,
+      "after": "5899B6DC726B6D5EE74DC5DA21A9D39DDCE30028DABF161E0EF6D91ECD13128A",
+      "after_bytes": 9293
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_AfterlifeInteractionsR8.reds",
+      "before": "8E1F054C3AD9B1D5ACEDEA47EA90171D01474627B7EA74163E265B4BAC290CE7",
+      "before_bytes": 13232,
+      "after": "8E1F054C3AD9B1D5ACEDEA47EA90171D01474627B7EA74163E265B4BAC290CE7",
+      "after_bytes": 13232
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_AfterlifeNativeBootstrapA4.reds",
+      "before": "E908FD9894D3583C180BE8C8FE462EEE8904262B76B81984F037E36F6A6D431C",
+      "before_bytes": 4849,
+      "after": "E908FD9894D3583C180BE8C8FE462EEE8904262B76B81984F037E36F6A6D431C",
+      "after_bytes": 4849
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_AfterlifeR1.reds",
+      "before": "65B8AE0074132281181263AD636A4590A7513B65A048164B0E2CE5F380B4CF70",
+      "before_bytes": 3465,
+      "after": "65B8AE0074132281181263AD636A4590A7513B65A048164B0E2CE5F380B4CF70",
+      "after_bytes": 3465
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0AfterlifeMirror.reds",
+      "before": "51B4E455EA80BC958504F4B6EA9C8DF45DE99E8AD88961C5A37705900F169CF6",
+      "before_bytes": 3154,
+      "after": "51B4E455EA80BC958504F4B6EA9C8DF45DE99E8AD88961C5A37705900F169CF6",
+      "after_bytes": 3154
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0CPZFood02.reds",
+      "before": "9F1238DC73AA7B7BBFBA0F4BFFE43FD1F595F7486137E2ADA2DD5667194F319B",
+      "before_bytes": 8092,
+      "after": "9F1238DC73AA7B7BBFBA0F4BFFE43FD1F595F7486137E2ADA2DD5667194F319B",
+      "after_bytes": 8092
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0Claire.reds",
+      "before": "760790330C6783F103E9B8F94980297D9747E027830158CF6D5114C63F3E336B",
+      "before_bytes": 3671,
+      "after": "760790330C6783F103E9B8F94980297D9747E027830158CF6D5114C63F3E336B",
+      "after_bytes": 3671
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0DeferredVendors.reds",
+      "before": "510AF5E9FAE980213658263CF83F65034B74231BE8A6EFB3BCC57EA2B1EA2A77",
+      "before_bytes": 4864,
+      "after": "510AF5E9FAE980213658263CF83F65034B74231BE8A6EFB3BCC57EA2B1EA2A77",
+      "after_bytes": 4864
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0OrdinaryBars.reds",
+      "before": "FEF1F5F1779FCA14D32BE892E30E2CA48C082E4CBB7C50199385BCE5EF829CE6",
+      "before_bytes": 9619,
+      "after": "FEF1F5F1779FCA14D32BE892E30E2CA48C082E4CBB7C50199385BCE5EF829CE6",
+      "after_bytes": 9619
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0OrdinaryVendors.reds",
+      "before": "473E42266A54B49235B6A133617835B4A36A5D055FEAB60E2A787575DC565ABB",
+      "before_bytes": 20426,
+      "after": "473E42266A54B49235B6A133617835B4A36A5D055FEAB60E2A787575DC565ABB",
+      "after_bytes": 20426
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0SpecialServices.reds",
+      "before": "7D4C86C748E6DD3856FB69B3E6286D7DA4BD9155F7CFE6BE192ECA2C5B942FF2",
+      "before_bytes": 8216,
+      "after": "7D4C86C748E6DD3856FB69B3E6286D7DA4BD9155F7CFE6BE192ECA2C5B942FF2",
+      "after_bytes": 8216
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0StoryEight.reds",
+      "before": "AF316AFC167E4B142E0DC8E58604126A25605CEE09A1B2D064E2A06EBA8C6273",
+      "before_bytes": 6086,
+      "after": "AF316AFC167E4B142E0DC8E58604126A25605CEE09A1B2D064E2A06EBA8C6273",
+      "after_bytes": 6086
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0StoryServices.reds",
+      "before": "CDAC6032029A087235E604E563B94698EC083FF80BEADF31B055100D324E0103",
+      "before_bytes": 4691,
+      "after": "CDAC6032029A087235E604E563B94698EC083FF80BEADF31B055100D324E0103",
+      "after_bytes": 4691
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0StoryZane.reds",
+      "before": "5F11C301EA96F1E794D9F9A9F29B53C55A324C865A6CFCD93E57B132D70DCC56",
+      "before_bytes": 3712,
+      "after": "5F11C301EA96F1E794D9F9A9F29B53C55A324C865A6CFCD93E57B132D70DCC56",
+      "after_bytes": 3712
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0VendorShared.reds",
+      "before": "F9B5F3F8D08E050A4FABBC9AA4F13C8698FB25CEAE29163B1B2EB5B640C132FB",
+      "before_bytes": 5194,
+      "after": "F9B5F3F8D08E050A4FABBC9AA4F13C8698FB25CEAE29163B1B2EB5B640C132FB",
+      "after_bytes": 5194
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0VendorVariants.reds",
+      "before": "B8513C33D4288894D078BFD63A43E242F6F1862EEB07F0F20D41C5F7C2AFC7CD",
+      "before_bytes": 10177,
+      "after": "B8513C33D4288894D078BFD63A43E242F6F1862EEB07F0F20D41C5F7C2AFC7CD",
+      "after_bytes": 10177
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_GigsU10.reds",
+      "before": "BA8DE611800530A9D6675FF47D1A208F607E2C8F8AA469BE6B6E49BA7E1EF8A3",
+      "before_bytes": 44360,
+      "after": "BA8DE611800530A9D6675FF47D1A208F607E2C8F8AA469BE6B6E49BA7E1EF8A3",
+      "after_bytes": 44360
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_Global.reds",
+      "before": "F6BC1F69F80F9D2F2AA495B026137EFC76F2D5B29C88B12F2C8D04A0954F9FDE",
+      "before_bytes": 34305,
+      "after": "F6BC1F69F80F9D2F2AA495B026137EFC76F2D5B29C88B12F2C8D04A0954F9FDE",
+      "after_bytes": 34305
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_HistorySnapshotHS1.reds",
+      "before": "24D25D8EBF369935A0D0388C3A32378615550D0FD1C9B89E11EC91F78293765E",
+      "before_bytes": 1131282,
+      "after": "24D25D8EBF369935A0D0388C3A32378615550D0FD1C9B89E11EC91F78293765E",
+      "after_bytes": 1131282
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_Housing.reds",
+      "before": "54AFAD6B60BE7CF060AB12FD35A671556C84510FD1C329B9FFED40A4CB7355B0",
+      "before_bytes": 79880,
+      "after": "54AFAD6B60BE7CF060AB12FD35A671556C84510FD1C329B9FFED40A4CB7355B0",
+      "after_bytes": 79880
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_JohnnyVoiceJV1.reds",
+      "before": "1338B05F41A88D222BEABCFF4F9D23D3B87B42B1A67E7019678DDA60F7917FE5",
+      "before_bytes": 4490,
+      "after": "1338B05F41A88D222BEABCFF4F9D23D3B87B42B1A67E7019678DDA60F7917FE5",
+      "after_bytes": 4490
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_JournalLabelJ1.reds",
+      "before": "EC73A2B370169E5890D8F8194E264F2E7D31F9A73FC6C899144CFB51DEEF1DA0",
+      "before_bytes": 1431,
+      "after": "EC73A2B370169E5890D8F8194E264F2E7D31F9A73FC6C899144CFB51DEEF1DA0",
+      "after_bytes": 1431
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_LoadingCoverLC1.reds",
+      "before": "AEABE27EEB93714CE7F2106AA0FFD42F7D5D354484663C357DCF2AE54C809B94",
+      "before_bytes": 22636,
+      "after": "AEABE27EEB93714CE7F2106AA0FFD42F7D5D354484663C357DCF2AE54C809B94",
+      "after_bytes": 22636
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_MistyViktorAuto.reds",
+      "before": "70590A4F2BCF3122D2DE866C1E3886F6ACFB282B8BA8869B10ADD0621B175D73",
+      "before_bytes": 3466,
+      "after": "70590A4F2BCF3122D2DE866C1E3886F6ACFB282B8BA8869B10ADD0621B175D73",
+      "after_bytes": 3466
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_MistyViktorTerryR11.reds",
+      "before": "B19F81B817237208BD9F18FEB6AA64BADC81E43BCF86B69B3D529453789439B7",
+      "before_bytes": 8772,
+      "after": "B19F81B817237208BD9F18FEB6AA64BADC81E43BCF86B69B3D529453789439B7",
+      "after_bytes": 8772
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_NCPDRepairN21.reds",
+      "before": "8F4DDBF69C7BA62984B6236EEF9461EF16AC4D639D1FB50CDFE0C3FCB121BEB3",
+      "before_bytes": 23384,
+      "after": "8F4DDBF69C7BA62984B6236EEF9461EF16AC4D639D1FB50CDFE0C3FCB121BEB3",
+      "after_bytes": 23384
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_NCPDScannersN2.reds",
+      "before": "A6D7810B6A7657D3CD68013337DF83E63EE64EAB1425EC380A1D8603472CE7CD",
+      "before_bytes": 4455,
+      "after": "A6D7810B6A7657D3CD68013337DF83E63EE64EAB1425EC380A1D8603472CE7CD",
+      "after_bytes": 4455
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_RestorationBaseline.reds",
+      "before": "50EEBE4A0D41EF6648A1E685A3A823C1F8E637BF5F5BD0AA7A50DD669829E5C8",
+      "before_bytes": 264912,
+      "after": "50EEBE4A0D41EF6648A1E685A3A823C1F8E637BF5F5BD0AA7A50DD669829E5C8",
+      "after_bytes": 264912
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR1.reds",
+      "before": "6663F0D4EB2A6DA449C9965CB05C98287E62828FF422141AA7745E88DCEB234C",
+      "before_bytes": 33291,
+      "after": "6663F0D4EB2A6DA449C9965CB05C98287E62828FF422141AA7745E88DCEB234C",
+      "after_bytes": 33291
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR2.reds",
+      "before": "49A38CC6636F1D6D5AEAE21130FCBB1CB8B57C85942CFECBE7549FCB5832FE26",
+      "before_bytes": 72219,
+      "after": "49A38CC6636F1D6D5AEAE21130FCBB1CB8B57C85942CFECBE7549FCB5832FE26",
+      "after_bytes": 72219
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR3.reds",
+      "before": "1E47D68F827496FAFED5E82D755DF0AFF6111E602F852323E4E843DB792C8DA1",
+      "before_bytes": 284480,
+      "after": "1E47D68F827496FAFED5E82D755DF0AFF6111E602F852323E4E843DB792C8DA1",
+      "after_bytes": 284480
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobPilotS1.reds",
+      "before": "E7725897767793879BA4D5C6FC390996B7DDFA565A51BBD7BF7538EBF4CB8889",
+      "before_bytes": 12569,
+      "after": "E7725897767793879BA4D5C6FC390996B7DDFA565A51BBD7BF7538EBF4CB8889",
+      "after_bytes": 12569
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS2.reds",
+      "before": "839675C7BFAC6F7055A2DC18C9D2D410FD257814A6E4A95716D98EDCA8468E39",
+      "before_bytes": 211606,
+      "after": "839675C7BFAC6F7055A2DC18C9D2D410FD257814A6E4A95716D98EDCA8468E39",
+      "after_bytes": 211606
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS22.reds",
+      "before": "93DB76BD6719FCA2E60EBFE771AF8F612F9AB986B90D1604EB9EE316310A48D8",
+      "before_bytes": 23270,
+      "after": "93DB76BD6719FCA2E60EBFE771AF8F612F9AB986B90D1604EB9EE316310A48D8",
+      "after_bytes": 23270
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS23.reds",
+      "before": "6CE6D1BEF1AE2F2AF42CD44CCAE61D5EC4767DA466C9F40D263E1A85B323C606",
+      "before_bytes": 74756,
+      "after": "6CE6D1BEF1AE2F2AF42CD44CCAE61D5EC4767DA466C9F40D263E1A85B323C606",
+      "after_bytes": 74756
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS24.reds",
+      "before": "010332E333074AC20278B0B7F24A05744C55048F92F4480715BDC30E77F153E6",
+      "before_bytes": 65976,
+      "after": "010332E333074AC20278B0B7F24A05744C55048F92F4480715BDC30E77F153E6",
+      "after_bytes": 65976
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS25.reds",
+      "before": "3B9BF09D6F0A93B69984B582C57989529B9EFBE2AB0689A8A5E32C3409F23466",
+      "before_bytes": 110757,
+      "after": "3B9BF09D6F0A93B69984B582C57989529B9EFBE2AB0689A8A5E32C3409F23466",
+      "after_bytes": 110757
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS27.reds",
+      "before": "FB822EB9A6C2871D44129BE94DB0DE47BBAEC17B980986760BABA34211F551FF",
+      "before_bytes": 90996,
+      "after": "FB822EB9A6C2871D44129BE94DB0DE47BBAEC17B980986760BABA34211F551FF",
+      "after_bytes": 90996
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS28.reds",
+      "before": "762FCF420FE412A4CCF6590F528A78B5570FEEF83281D4CAE0079FE2DE08CD2B",
+      "before_bytes": 29454,
+      "after": "762FCF420FE412A4CCF6590F528A78B5570FEEF83281D4CAE0079FE2DE08CD2B",
+      "after_bytes": 29454
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS29.reds",
+      "before": "ECA10FA8E04D88F31B7DED67967B646A1E329C7F819C81BBCC5196A45B5CEE0D",
+      "before_bytes": 217644,
+      "after": "ECA10FA8E04D88F31B7DED67967B646A1E329C7F819C81BBCC5196A45B5CEE0D",
+      "after_bytes": 217644
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_StreetkidAuto.reds",
+      "before": "30C9141D1093B20F354C0E77ADC0CB036BE8AC35BC907DA1084BDCCB764F6DC0",
+      "before_bytes": 3859,
+      "after": "30C9141D1093B20F354C0E77ADC0CB036BE8AC35BC907DA1084BDCCB764F6DC0",
+      "after_bytes": 3859
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_TimeAuto.reds",
+      "before": "9A531BAD92D5D79B4ECF3A9C02D55B3037E4D7A43F3409D3621F201C424E9EAA",
+      "before_bytes": 3836,
+      "after": "9A531BAD92D5D79B4ECF3A9C02D55B3037E4D7A43F3409D3621F201C424E9EAA",
+      "after_bytes": 3836
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_TowerJournalAuto.reds",
+      "before": "F7AE504E79CC2B3983C9D7267B70F65AED25D7E9B95B9C70451C0CE10FA208A0",
+      "before_bytes": 3561,
+      "after": "F7AE504E79CC2B3983C9D7267B70F65AED25D7E9B95B9C70451C0CE10FA208A0",
+      "after_bytes": 3561
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_ZetatechIdlesR12.reds",
+      "before": "D4C2B4438E2803ED4C81B9AB12DCB503213FEBF8130C8E1A8D9A53FFA7CD4848",
+      "before_bytes": 5208,
+      "after": "D4C2B4438E2803ED4C81B9AB12DCB503213FEBF8130C8E1A8D9A53FFA7CD4848",
+      "after_bytes": 5208
+    },
+    {
+      "path": "r6/tweaks/TowerContinued_PreAlpha.yaml",
+      "before": "4DBE8CD5C3BC6254900B6951919B346F6DCEB7BD9CE9C94FA4B4A27CB7704E05",
+      "before_bytes": 200,
+      "after": "4DBE8CD5C3BC6254900B6951919B346F6DCEB7BD9CE9C94FA4B4A27CB7704E05",
+      "after_bytes": 200
+    }
+  ],
+  "changing_paths": [
+    "archive/pc/mod/zzzz_PTFR_Combined.archive",
+    "archive/pc/mod/zzzz_PTFR_Combined.archive.xl"
+  ],
+  "required_files": [
+    {
+      "path": "archive/pc/mod/LizziesBDs.archive",
+      "sha256": "1005B254F808199ECEA8DCBF5B8F7A8EB298034F3D765569012D96AC185EB991",
+      "bytes": 193622016,
+      "active_only": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/ArchiveXL.dll",
+      "sha256": "C07DA66DF4E4D57401FA3DF0F6288F3B780F01102A98807B6ADAABAEF45F69BF",
+      "bytes": 1958912,
+      "active_only": false
+    },
+    {
+      "path": "red4ext/plugins/Codeware/Codeware.dll",
+      "sha256": "808D8BCE11641073091DDA33830D06AB98BD9AC710A9A47ECD7EC56E6193440C",
+      "bytes": 1944064,
+      "active_only": false
+    },
+    {
+      "path": "red4ext/plugins/TweakXL/TweakXL.dll",
+      "sha256": "2765CC55833945422B333FD2DB1EE67078B70558EDEF0F9BD453E00D55614951",
+      "bytes": 1466368,
+      "active_only": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks.asi",
+      "sha256": "ACB12B25CFCF77C3F5A84DF7CD4F4AE5074B8269E7C7389F349E12B237F88D6E",
+      "bytes": 7665152,
+      "active_only": false
+    },
+    {
+      "path": "r6/scripts/virtual-atelier-full/SetupNewTab.reds",
+      "sha256": "5743CDCD6F8CD46A58F9642002F75EBCA25D84BE340856C2E6D85B15DAD973F8",
+      "bytes": 4804,
+      "active_only": false
+    }
+  ],
+  "proofs": [
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\baseline.json",
+      "sha256": "A630CEBF7E286E880112CB898E12C1541F071E0A9D1C284DC1AE3303908A0060"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\source_epoch_02.json",
+      "sha256": "F42680E09E2B61BC926798DD5FA5B4E728CB20057382591D5BD5353B197FC38F",
+      "key": "QR8:02"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\completion.json",
+      "sha256": "16DEB2A65C02FB3A10FF5AB659764B69C0F7DCC3BFFD9EF276BA02273DCCDFD1"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\candidate_01\\package_manifest.json",
+      "sha256": "A6667FBF05C88F0056D0626112353C2E91651A956CD9275FBF0D7DD19BFA9EC0"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\phone_studios_ph3\\candidate_01\\install_manifest_01.json",
+      "sha256": "BDF7C3FF354D158541F1D2BE4429E0C25970F7DA5753EB295363075C9E47942B"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\selected_master.json",
+      "sha256": "9B63B9F913F446EBF6C3CB151798E0D38F1A508F33503E03EA6444544144FC55"
+    }
+  ],
+  "process_names": [
+    "Cyberpunk2077",
+    "REDprelauncher",
+    "REDlauncher"
+  ],
+  "save_policy": "Fresh per-transaction read-only tree snapshot; never copy, restore, reset or require preparation-date save progress.",
+  "rollback_policy": "Restore only two exact managed predecessor files. File rollback is not save rollback.",
+  "fixture_override": "Only an explicit fixture root below this worker fixtures directory may use a different manifest/game/save/recovery root.",
+  "master_backup": {
+    "slot": "ManualSave-23",
+    "files": {
+      "metadata.9.json": {
+        "sha256": "326024CE193D37ECAE37834D91CEAA9E88DC9BC61F5242B27C950281DA7D497E",
+        "bytes": 6010
+      },
+      "sav.dat": {
+        "sha256": "AE6D63E8E84A174F5E77194CC0C66A6DA66F3F060CE2DF08D5C955C116F47C15",
+        "bytes": 5051600
+      },
+      "screenshot.png": {
+        "sha256": "F46A8E7A27F82340EBC6A078963C68CA5B7B7800A9B883A7C130EFB77C86E394",
+        "bytes": 32344
+      }
+    },
+    "policy": "Only on explicit user Install -BackupMaster; verified copy to recovery/master_before/ManualSave-23. No Saved Games writes; never automatically restored."
+  }
+}

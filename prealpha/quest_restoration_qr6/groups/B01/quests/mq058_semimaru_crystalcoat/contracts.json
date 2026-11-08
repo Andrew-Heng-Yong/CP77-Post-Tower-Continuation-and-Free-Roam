@@ -1,0 +1,223 @@
+{
+  "quest_id": "mq058_semimaru_crystalcoat",
+  "title": "Where Eagles Dare",
+  "source_epoch": "QR6:00 = QR5:08 unchanged effective bytes",
+  "fully_static_verified": false,
+  "effective_resources": [
+    {
+      "depot": "towercontinued\\sidejobs_s29\\entries\\mq058_semimaru_crystalcoat.questphase",
+      "sha256": "01DCC1A2957CAF0C165E6C931F17D87588062BDF7D42BD531A4B2D1AB7FF0AA3"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq058\\mq058.questphase",
+      "sha256": "4A947A686F0C9986B57A588D5EEC4622076CA30FB1BCCD70A31FDF6E87975190"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq058\\phases\\mq058_computer_hack.questphase",
+      "sha256": "C0185940BE488F4A0081D0E4726743E9CC33545D12F412AD31A8A67DEA808603"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq058\\phases\\mq058_mint_hideout.questphase",
+      "sha256": "EE102C0681C98AB98D08E467CC9E2A239E47AC994C69DC914C052E078E33C0A8"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq058\\phases\\mq058_quest_cleanup.questphase",
+      "sha256": "B42173A166FAB47D9C88959A4B5178604BA08A47EC8703DFEF52366500B5DF02"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq058\\phases\\mq058_quest_hook.questphase",
+      "sha256": "CCE18A519CC5D6A0B1546340469CC3D2B2881340D56D985DA3B11D97C6E64CB1"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq058\\phases\\mq058_quest_resolution.questphase",
+      "sha256": "AC7834AEE036F3F69A917C945FC7A3E9EBF8CFC160FC03B3A1222D75E04E3D2D"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq058\\phases\\mq058_quest_setup.questphase",
+      "sha256": "FE1869A7E34824AF66BEF6831FA8ECE31B800645E556346E41E373B6FA4B4545"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq058\\scenes\\mq058_scene_test.scene",
+      "sha256": "7DC2D47A2A25E76F88B758918043AFF3B3CEE405F2E443E960FFC7B80AF4E24F"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq058\\scenes\\mq058_voicelines.scene",
+      "sha256": "1BDB8C7CDB14431D092C39F47216435B8CC12054C21E3ED01875C15471A08818"
+    }
+  ],
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "S29 fresh65005→native64001 exact copied global quest_bugfixing root/3 node100 condition→65006→64000.StartQuest. The complete original body and all nested phases are copied with exact private resource relocation; EndQuest returns65007."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Actual original predecessor history remains required; no excluded Motorbreath or Claire story is started."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json"
+      ]
+    },
+    "eligibility": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Exact immediate native AND requires sq024_done1, mq057_done1, mounted Vehicle.v_sport1_yaiba_semimaru_player (enterAnimationFinished1), and mq058_failed_to_open_vvc1. Current guard also requires118Inactive histories and tenfresh MQ058progress0 facts. Native Claire attitude initialization reads real sq024_claire_pissed and yaiba_semimaru_available rather than fabricating either."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Motorbreath is excluded restoration content; its genuine earned completion may still satisfy this prerequisite. Missing/contradictory history defers; engine vehicle/VVC state remains live."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json"
+      ]
+    },
+    "communications": {
+      "status": "PASS",
+      "proven": [
+        "Original Marianne/Claire direct SMS conversations, real JournalPhoneChoiceEntry Succeeded waits and separate attitude0/1 choice routes are preserved throughout hook/resolution. Exact forced phone restriction source mq058_PhoneRestriction_TransferSemimaruData is applied/released by native nodes128/129. No holo caller/ACK is invented."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "UI response/read events, restriction delivery and interrupted transfer/reload require gameplay evidence."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Original global caller100→98 is under genuinely retired main bugfix ancestry. Private whole body retains#mq058_quest, with exact native content-token setup/main enable/disable control and cleanup phase; no whole global bugfix parent or extra default/Claire owner is imported."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Saved native owner and existing personal vehicle/website/controller leases remain fixture-dependent."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "All native Eagles questphase nodes, nested graphs, condition trees and edges compare exactly after private references. Original ClaireAttitude switches, mint hideout/computer hack, optional branches, transfer scene End, VVC opened wait124 and cleanup remain exact."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Authored transfer branch parity does not guarantee engine vehicle feature support, UI callbacks or actual unlock rendering."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Exact dedicated root prefab, Semimaru vehicle, Mint actors/devices, cameras/workspots/scene markers and scene callback bindings are retained; copied scene graph and dialogue/side effects compare native."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "World sector placement, VVC feature/vehicle registration and streamed actor/workspot behavior remain opaque/live."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json"
+      ]
+    },
+    "journal": {
+      "status": "PASS",
+      "proven": [
+        "All118selected quest/phase/objective/pin/description/contact histories are exact guard paths/classes withInactive requirements. Resolution56/66 and rooted native end/failed paths retain original state sockets; no fake unlock/completion journal state is written."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Effective JournalManager resolution and actual vehicle UI notifications need engine observation."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native update_applied123/151, opened_vvc wait124, mq058_done64, active0 terminal211 and Quest_Status101 remain exact. Native phone/content-token cleanup and Semimaru enable/disable alternatives remain unmodified; no duplicated economic reward is added."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Actual CrystalCoat entitlement, runtime TDB vehicle definitions/effective winners, cleanup and reload remain untested."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Original quest resource/node/field IDs and S29private receipts are unchanged. Fresh guards refuse selected MQ058history/progress; native predecessor completions and existing player vehicle are read, never reset or re-awarded."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Unsupported unfinished/saved transfer owners and future-version save transitions remain deferred to precise fixtures."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native dependencies include earned sq024/mq057 outcomes, exact Semimaru mounting/VVC state, Claire attitude, Marianne SMS choices, dedicated prefab and content-token arbitration. Selected restoration does not broaden whitelist or synthesize excluded prerequisite completion."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "World/vehicle/shared-phone token execution and external TDB modifications remain separate from proven source predicates."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json"
+      ]
+    }
+  },
+  "confirmed_defects": [],
+  "source_authority_conflicts": [],
+  "runtime_changes": []
+}

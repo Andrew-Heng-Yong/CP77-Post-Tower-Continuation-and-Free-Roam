@@ -1,0 +1,42 @@
+{
+  "status": "READY_RECORDING_AWAITING_HUMAN_GIG",
+  "utc": "2026-11-04T05:02:54.046467+00:00",
+  "fixtures": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\general_gig_probe_gg1\\run_02_results.json",
+    "sha256": "9974F68FFAC4AB6EE92D767F246BF909A8BF67A3A300C8B7E0A76886307BE5BE",
+    "checks": 25
+  },
+  "real_control": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\general_gig_probe_gg1\\real_control_01.json",
+    "sha256": "EDBF9278103A1B2B18617BF6B69648E0F7D286C214559582E3C3CADE2BB0A742"
+  },
+  "probe_sha256": "95E2EF759B913A86FEB30CEDD55CA5973B6620D11579B5974D0E12C012184E6F",
+  "active_capture": {
+    "schema": "GG1_CONTROL_V1",
+    "run_id": "GG1_20261104T050208Z_7a4ab752",
+    "output": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\general_gig_probe_gg1\\captures\\GG1_20261104T050208Z_7a4ab752",
+    "state": "RECORDING"
+  },
+  "verified_heartbeat": {
+    "schema": "GG1_CONTROL_V1",
+    "run_id": "GG1_20261104T050208Z_7a4ab752",
+    "output": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\general_gig_probe_gg1\\captures\\GG1_20261104T050208Z_7a4ab752",
+    "state": "RECORDING",
+    "utc": "2026-11-04T05:02:51.139681+00:00",
+    "elapsed_s": 42.5,
+    "bytes": 0,
+    "source_states": {
+      "game": "READABLE",
+      "script": "READABLE",
+      "cet": "READABLE",
+      "redscript": "READABLE"
+    },
+    "gaps": 0
+  },
+  "exec_session_id": 18567,
+  "runtime_changes": 0,
+  "save_changes_by_tool": 0,
+  "automatic_gameplay": false,
+  "native_event_capture": false,
+  "next": "Human plays one naturally available uncompleted gig, exits normally, reports done + gig name + issues. Assistant stops recorder and correlates raw evidence without assuming completion."
+}

@@ -1,0 +1,60 @@
+{
+  "status": "TARGETED_INTEGRATION_AND_REVIEW_SOURCE_COVERAGE_WITH_EXPLICIT_LIMITS",
+  "selected": 161,
+  "retained_deep_investigations": 161,
+  "new_census_or_broad_deep_audits": 0,
+  "contracts": 1610,
+  "targeted_contract_updates": 18,
+  "original_status_counts": {
+    "APPROVED_DEVIATION": 177,
+    "PASS": 349,
+    "CONDITIONAL": 917,
+    "OPAQUE": 162,
+    "UNKNOWN": 5
+  },
+  "final_status_counts": {
+    "APPROVED_DEVIATION": 177,
+    "PASS": 349,
+    "CONDITIONAL": 917,
+    "OPAQUE": 162,
+    "UNKNOWN": 5
+  },
+  "status_changes": 0,
+  "fully_static_verified_quests": 0,
+  "remaining_original_target_UNKNOWN": [
+    {
+      "quest_id": "sts_std_rcr_02",
+      "stage": "shared_dependencies"
+    },
+    {
+      "quest_id": "q304_splinter_stash",
+      "stage": "eligibility"
+    },
+    {
+      "quest_id": "q304_splinter_stash",
+      "stage": "completion_rewards_cleanup"
+    },
+    {
+      "quest_id": "q304_splinter_stash",
+      "stage": "persistence"
+    },
+    {
+      "quest_id": "mws_wat_08_trauma_drama",
+      "stage": "persistence"
+    }
+  ],
+  "failed_first_enrollment_subroutes": 8,
+  "failed_first_enrollment_unique_scope_families": 1,
+  "scope_rule": "The eight parent records are CONDITIONAL strictly for genuine existing-contact prospective news. First-enrollment/menu/physical-owner subroutes are explicitly FAIL/held; zero parent FAIL is not zero known scope gaps.",
+  "engine_binary_correspondence": "SOURCE_CONFIRMED_INSPECTED_METHODS_IN_INSTALLED_DLL_INDEPENDENTLY_REVIEWED",
+  "engine_binary_review": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_b\\reviews\\A_integration\\verification_01\\review.json",
+    "sha256": "4FE1D260D51DE983F0FA795681BC444AE4C256DAB7A22C76B8FBA776F9EE59E5"
+  },
+  "remaining_engine_boundaries": "Actual address resolution/hook installation, native dispatch success, receipt/save serialization, PIP leases and saved condition refresh remain LIVE_ONLY; receipt is attempt bookkeeping, not ACK.",
+  "epoch": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\source_epoch_02.json",
+    "sha256": "F42680E09E2B61BC926798DD5FA5B4E728CB20057382591D5BD5353B197FC38F"
+  },
+  "queue_sha256": "6C53DB3F6442F56A667FFD1D0C39A5C9F0A9C72E8EF794CF872AE8FB6079E039"
+}

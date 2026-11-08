@@ -1,0 +1,25 @@
+{
+  "status": "PASS_READY_JF01_READ_ONLY_COMMANDS_RECORDING",
+  "readiness_sha256": "674036556FBFA3843D2E0C0C39040393A2AB00A06FDCEF1A0B35CE1C89719E81",
+  "external_capture_state": {
+    "schema": "GG1_CONTROL_V1",
+    "run_id": "GG1_20261104T151626Z_f471d15d",
+    "output": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\general_gig_probe_gg1\\captures\\GG1_20261104T151626Z_f471d15d",
+    "state": "RECORDING",
+    "utc": "2026-11-04T15:18:13.246671+00:00",
+    "elapsed_s": 106.4,
+    "bytes": 0,
+    "source_states": {
+      "game": "READABLE",
+      "script": "READABLE",
+      "cet": "READABLE",
+      "redscript": "READABLE"
+    },
+    "gaps": 0
+  },
+  "old_original_save_files_matched": 6,
+  "runtime_changes": 0,
+  "automated_gameplay": false,
+  "real_game_calls_in_preparation": 0,
+  "next": "Human runs both full one-line commands once on current working save, exits normally and reports JF01 done. Stop exact capture and assess observed fields/unknowns."
+}

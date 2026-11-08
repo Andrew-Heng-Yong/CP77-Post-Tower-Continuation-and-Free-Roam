@@ -1,0 +1,207 @@
+{
+  "quest_id": "mq042_nomad",
+  "title": "These Boots Are Made for Walkin'",
+  "source_epoch": "QR6:00 = QR5:08 unchanged effective bytes",
+  "fully_static_verified": false,
+  "effective_resources": [
+    {
+      "depot": "towercontinued\\sidejobs_s29\\entries\\mq042_nomad.questphase",
+      "sha256": "2FAC5F9C43FD276DF292F7E165A535451BCCDA30CE457D85307190DF46D2F51E"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq042\\mq042_nomad.questphase",
+      "sha256": "28A74F6DB16FEA7E411F88E5F224502AA7C7F0209A2787D0EDCD81E72CE167C3"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq042\\phases\\mq042_nomad_01_hook.questphase",
+      "sha256": "C877E2F7809DDAA65DDD9D140D422EF7F7417BAC08B66E68A4D30C5E3AC16B6D"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq042\\phases\\mq042_nomad_02_car.questphase",
+      "sha256": "B578C86FD4DD93E2F05F4D0A5713C559DD6E6CF8195B792D3F08C33B98537999"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq042\\scenes\\mq042_nomad_01_gps_signal.scene",
+      "sha256": "23141D6BC6198D02881798B19117008480A5481BCF69B131A052A521D1BECFCE"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq042\\scenes\\mq042_nomad_02_car_found.scene",
+      "sha256": "00AFE6FA6AA1A9CC3F53935BE712FF7DA368C648112C466254AB0934BD716356"
+    }
+  ],
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "S29 wrapper retains18 exact original minorquests root parent nodes and their edges. Original chain includes54 q001_done>0,80 q005_done>0,55 q101_enable_side_content>0,78 q103_rogue_done>0 then original24.In1; private65006 only precedes24 and24.Out1→65007."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Actual original lifecycle retirement and native content scheduling are separately reviewed, not inferred from permit."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json"
+      ]
+    },
+    "eligibility": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Actual native body6 requires LifePath Nomad record67091901544 with inverted0;21 ep1_standalone<1 chooses17 versus20. Both real distance>50 from#mq042_distance_check and MinorQuestAndSts token remain AND, with20 additionally outside#pacifica_content_tr. Current guard65003/4 has38Inactive histories and five exact native progress0 facts."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Missing journal evidence refuses; Nomad identity, content-token/event state and exact saved prior scene progress remain fixture-dependent."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json"
+      ]
+    },
+    "communications": {
+      "status": "PASS",
+      "proven": [
+        "Exact hook sceneGPS5 End0→native13 mq042_started1 and car-scene8 End0/journal_update/interrupt route remain unchanged. Native body closure has no independent holo/audio request protocol; GPS/vehicle voice is local scene behavior."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Local scene/phone UI presentation still needs live observation; no generic listener/ACK fix is supported."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Exact native minorquests caller24 ancestry is rehosted narrowly; whole body retains#mq042_pr_nomad_distance_check and hook/car phases each retain#mq042_pr_nomad. No whole minorquests owner is started. Tower genuine main termination structurally retires the original enclosing main tree."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Native/saved ongoing Nomad owner retirement and world vehicle persistence require exact save-transition fixtures."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "All native main/hook/car phase nodes, socket edges, nested root/22 interrupt loop and every condition/write match after private depot relocation. Original debug branch10, lifepathFalse nonNomad path, standalone branch21, sceneEnd8→cut25 and car-completion11 remain original."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Static graph parity preserves authored branches without proving actual event scheduling or loaded actor availability."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Original distance/vehicle prefabs and all scene actor/marker/workspot/camera payloads are retained. Nomad car scene only resolves numeric AttachmentSlots ID118070326407 to exact string AttachmentSlots.WeaponRight, whose CRC/length TDB identity is equal; callbacks/dialogue and side effects compare exactly."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "WorldNode placement and runtime TDB/attachment resolution remain opaque; visible/voice scene behavior needs live validation."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json"
+      ]
+    },
+    "journal": {
+      "status": "PASS",
+      "proven": [
+        "Exact38 fresh paths/classes include original GPS, find-car, talk/vehicle/description/pins; hook24/32/22/23 and car3/24/27 retain their native states/socket sequencing. Native car journal_update34→35→inactive/active objective updates remain unchanged."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "JournalManager propagation, engine scene output timing and earlier untracked vehicle history remain outside static proof."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native scene outcomes and car ownership writes remain untouched; car8.End0→cut25→24objectiveSucceeded→27rootSucceeded→28→11mq042_done1→26→10→Terminating1. The exact original scene outcome branches decide entitlement/payment; no new purchase/refund/reward is synthesized."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Actual scene choices, payment and item/vehicle transactions/effective TDB descendants require engine/save fixtures."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Original saved body/nested graph IDs and all private S29 receipts are unchanged. Existing started/done/car_taken/talk_started/interrupt facts0 plus38Inactive histories guard fresh admission; unsupported partial owners defer rather than restart."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "No arbitrary live owner adoption, completed history reset or future-version save compatibility is certified."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Earned q001/q005/side-content/q103 prerequisites, Nomad identity, MinorQuestAndSts token, Pacifica trigger and shared native distance/car scene prefabs remain exact source dependencies. No predecessor story progression is fabricated."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Token leases, persistent vehicle ownership, external overrides and reload ordering remain unmeasured."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json"
+      ]
+    }
+  },
+  "confirmed_defects": [],
+  "source_authority_conflicts": [],
+  "runtime_changes": []
+}

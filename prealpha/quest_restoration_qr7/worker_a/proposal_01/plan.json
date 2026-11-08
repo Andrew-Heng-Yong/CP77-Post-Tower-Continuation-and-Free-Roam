@@ -1,0 +1,115 @@
+{
+  "status": "NONPRODUCTION_STRUCTURAL_PROPOSAL_REQUIRES_PEER_AND_SCENE_STARTUP_EVIDENCE",
+  "target": "towercontinued\\native_gigs_u9\\sts_pac_cvi_02_entry.questphase",
+  "baseline_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\candidate_03\\archive_source\\towercontinued\\native_gigs_u9\\sts_pac_cvi_02_entry.questphase",
+  "baseline_raw_sha256": "0F140CFEA81647B193A30C3F858F9C5D2E49489CB851E0338DD8B8114FE44057",
+  "source_pins": [
+    {
+      "raw_sha256": "49A60AFEA7A06E866C6C5F418EBDBB9D297BEF2C4AA2167EFD442A69B4A1BE06",
+      "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\diagnostics\\restored_audit_20261025_01\\native_01\\16641538802602829014.questphase",
+      "json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\reviews\\CVI02_EP1\\raw_exports_01\\district_0.json",
+      "json_sha256": "69C744900F418F807189637EE2BE58EBDF584E2B202C0D7BE795AF7230A5E5B8",
+      "depot": "base\\open_world\\street_stories\\pacifica\\coastview\\sts_pac_cvi_02\\phases\\sts_pac_cvi_02.questphase",
+      "scope": "Read existing raw, export fresh JSON only; no game, resource, build, or serialization writes"
+    },
+    {
+      "raw_sha256": "4D642B8D900560FB216F105AAC458D9ED6AD2594924A59838D9C5950A7DEE088",
+      "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\diagnostics\\vanilla_parity_20261029_01\\pass_02\\raw\\basegame_4_gamedata\\base\\open_world\\fixers\\mr_hands\\scenes\\mr_hands_new_scenes_activators.questphase",
+      "json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\reviews\\CVI02_EP1\\raw_exports_01\\district_1.json",
+      "json_sha256": "0FAD0E663A9A74B2160EA6C370FBE44D286EE10AF990323B10E10A6D2C8FC8D5",
+      "depot": "base\\open_world\\fixers\\mr_hands\\scenes\\mr_hands_new_scenes_activators.questphase",
+      "scope": "Read existing raw, export fresh JSON only; no game, resource, build, or serialization writes"
+    },
+    {
+      "raw_sha256": "CF97E1281513AA01F72F43BD28B92E4FB0249EE68DF52C8257846CB24D78A193",
+      "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\diagnostics\\vanilla_parity_20261029_01\\pass_02\\raw\\ep1_2_gamedata\\ep1\\openworld\\ep1_open_world.questphase",
+      "json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\reviews\\CVI02_EP1\\raw_exports_01\\district_2.json",
+      "json_sha256": "9F0A92B582DE637A03D708AC750B096CFBDC00859795411673A0F19B31130ACD",
+      "depot": "ep1\\openworld\\ep1_open_world.questphase",
+      "scope": "Read existing raw, export fresh JSON only; no game, resource, build, or serialization writes"
+    },
+    {
+      "raw_sha256": "F8049A61235F36685B50D60DA0E78B3DE7640BC6F324E14B77D7601FDF0E9C57",
+      "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\research\\sidejobs_s29\\native_01\\ep1_2_gamedata\\raw\\ep1\\quest\\ep1.questphase",
+      "json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\reviews\\CVI02_EP1\\raw_exports_01\\district_3.json",
+      "json_sha256": "BB6CC9FD4CBCE6D27498DD66CFD59807C09388A60970A9B7DA5846B231C995E0",
+      "depot": "ep1\\quest\\ep1.questphase",
+      "scope": "Read existing raw, export fresh JSON only; no game, resource, build, or serialization writes"
+    },
+    {
+      "raw_sha256": "95D3A30BC2BF9C1DDB213048BACACD883D9B7731FE0B9C6D9BE39A783BB030B1",
+      "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\diagnostics\\vanilla_parity_20261029_01\\pass_02\\raw\\ep1_2_gamedata\\ep1\\openworld\\vendors\\vehicle_metaquest\\phases\\vehicle_metaquest_ep1_bugfixing.questphase",
+      "json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\reviews\\CVI02_EP1\\raw_exports_01\\district_4.json",
+      "json_sha256": "33A1CFDD59938AAD56AEB2584C8B1295F633DF8663952895F4217A49D8C953F0",
+      "depot": "ep1\\openworld\\vendors\\vehicle_metaquest\\phases\\vehicle_metaquest_ep1_bugfixing.questphase",
+      "scope": "Read existing raw, export fresh JSON only; no game, resource, build, or serialization writes"
+    },
+    {
+      "raw_sha256": "F3C2A479878811257C036B04C8AA8D6E39D69151C424744DC0AC7603208881A2",
+      "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\diagnostics\\restored_audit_20261025_01\\native_02\\1862239725570338099.scene",
+      "json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\reviews\\CVI02_EP1\\raw_exports_01\\district_5.json",
+      "json_sha256": "7C70B55A0BCEA3881E4981BA9C6AD21CEE4641F8F764BF12797CFBC7BD432C22",
+      "depot": "ep1\\openworld\\fixers\\mr_hands\\scenes\\mr_hands_combat_zone_default.scene",
+      "scope": "Read existing raw, export fresh JSON only; no game, resource, build, or serialization writes"
+    },
+    {
+      "raw_sha256": "0F140CFEA81647B193A30C3F858F9C5D2E49489CB851E0338DD8B8114FE44057",
+      "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\candidate_01\\archive_source\\towercontinued\\native_gigs_u9\\sts_pac_cvi_02_entry.questphase",
+      "json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\reviews\\CVI02_EP1\\raw_exports_01\\district_6.json",
+      "json_sha256": "388CFFC4A4AB37904F091AA0D13D0FEA4798F278ADAD1F0BB26B67FE61E60162",
+      "depot": "towercontinued\\native_gigs_u9\\sts_pac_cvi_02_entry.questphase",
+      "scope": "Read existing raw, export fresh JSON only; no game, resource, build, or serialization writes"
+    },
+    {
+      "raw_sha256": "FBB42F4F06C515E9A3F7E8E433C49695CA0A73DC52FDC24A43F073836D60DD70",
+      "json_sha256": "D3EAF10EF5FCD55EFB20480DF0F16C2F9BFBA23D471E1F86C7F5B1A7703042B1",
+      "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\diagnostics\\restored_audit_20261025_01\\native_01\\17815349143136313753.questphase",
+      "depot": "ep1\\openworld\\fixers\\mr_hands\\phases\\mr_hands_combat_zone_default.questphase",
+      "json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\reviews\\CVI02_EP1\\raw_exports_02\\district_0.json",
+      "scope": "Read existing raw, export fresh JSON only; no game, resource, build, or serialization writes"
+    },
+    {
+      "raw_sha256": "A74E4A970A2E6B0A994AFC143E19C6116A77E423E6C02B8ED8CA6BC666F50469",
+      "json_sha256": "FCE7DB3657FC00DD0791B2CA11C8C1339C768B18DF3E8E754DCE83D7645214C7",
+      "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\candidate_01\\archive_source\\towercontinued\\fixer_offices_fo1\\mr_hands.questphase",
+      "depot": "towercontinued\\fixer_offices_fo1\\mr_hands.questphase",
+      "json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\reviews\\CVI02_EP1\\raw_exports_02\\district_1.json",
+      "scope": "Read existing raw, export fresh JSON only; no game, resource, build, or serialization writes"
+    }
+  ],
+  "added_local_ids": [
+    65007,
+    65008,
+    65009,
+    65010,
+    65011,
+    65012,
+    65013
+  ],
+  "guarded_native_history": [
+    "new_sts_pac_cvi_02_holocall_prebrief",
+    "new_sts_pac_cvi_02_holocall_debrief_failed",
+    "new_sts_pac_cvi_02_holocall_debrief_perfect",
+    "new_q110_prebrief_rejected_or_end",
+    "new_q110_debrief_failed_end",
+    "new_q110_debrief_perfect_end",
+    "new_q110_rejected_failed_out",
+    "new_q110_rejected_perfect_out"
+  ],
+  "private_receipts": [
+    "PTFRQR7_CVI02_CustomControllerIssued",
+    "PTFRQR7_CVI02_CustomControllerRetired"
+  ],
+  "marker": "$/03_night_city/c_pacifica/combat_zone_prefabUEX7DCY/monument_av_prefabCJD7Q4Q/loc_sts_ep1_06_prefab7J2LN5A/loc_sts_ep1_06_openworld_prefabV7KAIGA/mr_hands_combat_zone_default_prefabPY55PSI/#mr_sm_hands_combat_zone_default",
+  "scope": "Only fresh ep1-installed initial entry before original65003 is consumed. No retro-adoption of ParentEntered1, changed journals, resets, fake ACKs, world changes, FO1 changes, generic controller changes or native caller body changes.",
+  "retirement": "Native ep1 root/10 journal q307 Succeeded OR PONR>=1 →8.Out→9 cut→openworld5; only9.Out→10 writes q307_ep1_killed. Existing original entry retained-session guard is unchanged as an AND term.",
+  "cleanup": "After existing OwnerFinished65006 event, wait real Phone EndCall, then cut only new65010 descendant; retain one-time Issued and Retired receipts. No native fact cleanup is synthesized.",
+  "missing_gate": "Global scene actor acquisition when physical default0 is unavailable is not proved by selected-input holo-only closure or AlwaysLoaded marker. Do not integrate as a proven full repair until adjudicated.",
+  "new_json_sha256": "A7E29FC778A0293AEB0163481E9CF38450867189CB9B4DD2FC62F41432A188CC",
+  "requires": [
+    "Independent actual-resource review",
+    "WK serialization/readback validation of typed proposal",
+    "Owner lifecycle/scene startup decision",
+    "Affected final package validation by coordinator if approved"
+  ]
+}

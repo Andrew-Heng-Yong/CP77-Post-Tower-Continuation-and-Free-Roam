@@ -1,0 +1,404 @@
+{
+  "quest_id": "mq305_combat_zone_report",
+  "title": "Shot by Both Sides",
+  "source_epoch": "QR5epoch00",
+  "fully_static_verified": false,
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "S24 current boot root0→Ready1→Permit/guard2/3→Issued4→delay89→recheck90→Entered92→native parent slice100. Copied native8/12/14/27/6 payloads and edges match exactly; slice enters genuine mq305.questphase.In1.",
+        "Native parent8 requires sts_ep1_tier_1>=1;12 q301_failed>=1 True→14.In1, False→27 native OR(q303_hands_scene_done>=1,q302_failed>0,ep1_fail>0)→14.In2. No main-story outcome is fabricated."
+      ],
+      "approved_differences": [
+        "Existing private genuine Tower/HS1/U9/fresh-journal admission and saved receipts wrap the exact native parent entry. No new source change."
+      ],
+      "remaining": [
+        "LIVE_ONLY: actual fresh or precisely supported progressed enrollment; existing unsupported histories defer."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\verification_01\\tests.json",
+          "sha256": "0179DA559CB94815CD0E2D91AFFE41447A927A2444A2901EDDAD3FB963D3D417"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\verification_01\\source_pins.json",
+          "sha256": "661E47BAE6C48E48302039F2517A2766BE0E4671CE9F0AE6419F28A2BDEF13C5"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\deep_01\\tests.json",
+          "sha256": "508CCD9597A2603EE8A189EA009EBD3A671E919333ACE9CF4E1DFF5D83208898"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\seams_01\\evidence.json",
+          "sha256": "B0CA935CEBCBB94577C67C41544CB022D5CB4A88E174744004899DF0B9E6819B"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\verification_01\\handlers.json",
+          "sha256": "D2F735CBA22280449CFFDFB9712FE18008403BFDAB15053E027C3CA0306957C8",
+          "json_pointer": "/mq305_combat_zone_report"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\deep_01\\journal.json",
+          "sha256": "DFCC156C7018F08EE6295C60FFA881E2F23B5958842E5E3FD9B1FACDBDC4E48C",
+          "json_pointer": "/mq305_combat_zone_report"
+        }
+      ]
+    },
+    "eligibility": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Actual current guards2/3/90 match explicit positive fixtures and reject missing Tower/U9 readiness, existing Issued, or native started1. All discovered local native mq305 progress writers are covered by S24 FactNames/guards.",
+        "Original q303/q301/q302/ep1 branch selection is preserved. Omitted native journal references are identified by exact path/class/writer: codex links/map pins plus __confront_bree at phase55 and kill_bree_or_dante at scene1318; both objectives have only Succeeded incoming writes in captured own graphs."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Exact excluded-ancestor pre-Tower outcome provenance, omitted linked journal state/definition semantics and arbitrary external saved writes are not fully established. Native predicates and source-local writer coverage do not replace historical evidence."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\verification_01\\tests.json",
+          "sha256": "0179DA559CB94815CD0E2D91AFFE41447A927A2444A2901EDDAD3FB963D3D417"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\verification_01\\source_pins.json",
+          "sha256": "661E47BAE6C48E48302039F2517A2766BE0E4671CE9F0AE6419F28A2BDEF13C5"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\deep_01\\tests.json",
+          "sha256": "508CCD9597A2603EE8A189EA009EBD3A671E919333ACE9CF4E1DFF5D83208898"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\seams_01\\evidence.json",
+          "sha256": "B0CA935CEBCBB94577C67C41544CB022D5CB4A88E174744004899DF0B9E6819B"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\verification_01\\handlers.json",
+          "sha256": "D2F735CBA22280449CFFDFB9712FE18008403BFDAB15053E027C3CA0306957C8",
+          "json_pointer": "/mq305_combat_zone_report"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\deep_01\\journal.json",
+          "sha256": "DFCC156C7018F08EE6295C60FFA881E2F23B5958842E5E3FD9B1FACDBDC4E48C",
+          "json_pointer": "/mq305_combat_zone_report"
+        }
+      ]
+    },
+    "communications": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Twelve actual generic request producers across MQ305 hook/netwatch/outcome phases and two call scenes are enumerated in both directions. Hook phase2 retains RET12/INT13; outcome42 retains outgoing RET176/INT177; netwatch3 retains incoming RET4/INT5.",
+        "Current Hands owner73 and cleanup329 apply; real native incoming/outgoing ACK writers and actual scene wait/clear paths, including prearmed forks, are checked. Hook/outcome SMS/contact/journal choices and direct scene inputs are separately inventoried. No specialized new_* request family is present in this source closure."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: real native phone/SMS delivery, queue/rejection/interrupt/reload and chosen reply behavior; no gameplay result is claimed."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\verification_01\\tests.json",
+          "sha256": "0179DA559CB94815CD0E2D91AFFE41447A927A2444A2901EDDAD3FB963D3D417"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\verification_01\\source_pins.json",
+          "sha256": "661E47BAE6C48E48302039F2517A2766BE0E4671CE9F0AE6419F28A2BDEF13C5"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\deep_01\\tests.json",
+          "sha256": "508CCD9597A2603EE8A189EA009EBD3A671E919333ACE9CF4E1DFF5D83208898"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\seams_01\\evidence.json",
+          "sha256": "B0CA935CEBCBB94577C67C41544CB022D5CB4A88E174744004899DF0B9E6819B"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\verification_01\\handlers.json",
+          "sha256": "D2F735CBA22280449CFFDFB9712FE18008403BFDAB15053E027C3CA0306957C8",
+          "json_pointer": "/mq305_combat_zone_report"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\deep_01\\journal.json",
+          "sha256": "DFCC156C7018F08EE6295C60FFA881E2F23B5958842E5E3FD9B1FACDBDC4E48C",
+          "json_pointer": "/mq305_combat_zone_report"
+        }
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Original minor-parent owner is EP1 root/10 node3, explicitly cut by9 before q307_ep1_killed10. Current fresh enrollment keeps native per-phase root leases and all original body identities; no original bugfix owner is replayed.",
+        "Forty-two preserved original S24 raw bodies across these two jobs match effective hashes and full graphs; MQ305 native phases remain official unchanged inputs. One-time current boot Issued/Entered guards preserve existing owners."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Engine saved-owner retirement/lease behavior and a matching supported save fixture remain required; source presence/receipts alone are insufficient."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\verification_01\\tests.json",
+          "sha256": "0179DA559CB94815CD0E2D91AFFE41447A927A2444A2901EDDAD3FB963D3D417"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\verification_01\\source_pins.json",
+          "sha256": "661E47BAE6C48E48302039F2517A2766BE0E4671CE9F0AE6419F28A2BDEF13C5"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\deep_01\\tests.json",
+          "sha256": "508CCD9597A2603EE8A189EA009EBD3A671E919333ACE9CF4E1DFF5D83208898"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\seams_01\\evidence.json",
+          "sha256": "B0CA935CEBCBB94577C67C41544CB022D5CB4A88E174744004899DF0B9E6819B"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\verification_01\\handlers.json",
+          "sha256": "D2F735CBA22280449CFFDFB9712FE18008403BFDAB15053E027C3CA0306957C8",
+          "json_pointer": "/mq305_combat_zone_report"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\deep_01\\journal.json",
+          "sha256": "DFCC156C7018F08EE6295C60FFA881E2F23B5958842E5E3FD9B1FACDBDC4E48C",
+          "json_pointer": "/mq305_combat_zone_report"
+        }
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Exact native main0→hook3→apartment4→lab exploration5→confrontation6→outcome7 survives. Exploration out_failed18 and confrontation out_failed→7.In_failed remain distinct; Bree-sold-data output routes to original Netwatch19 before common hub20/Terminating1.",
+        "Native confrontation phase root/64 Dante-killed67/both-killed69, scene Bree-dead602/3701 and V-killed-Bree3641, and outcome branches/rewards are preserved by full native graph/raw equality. Optional q305/Songbird/haunted-weapon dialogue predicates remain native snapshot choices, without restoring excluded central quests."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: execute all chosen native outcomes, scene transitions and interruptions; exact static parity is not gameplay success."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\verification_01\\tests.json",
+          "sha256": "0179DA559CB94815CD0E2D91AFFE41447A927A2444A2901EDDAD3FB963D3D417"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\verification_01\\source_pins.json",
+          "sha256": "661E47BAE6C48E48302039F2517A2766BE0E4671CE9F0AE6419F28A2BDEF13C5"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\deep_01\\tests.json",
+          "sha256": "508CCD9597A2603EE8A189EA009EBD3A671E919333ACE9CF4E1DFF5D83208898"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\seams_01\\evidence.json",
+          "sha256": "B0CA935CEBCBB94577C67C41544CB022D5CB4A88E174744004899DF0B9E6819B"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\verification_01\\handlers.json",
+          "sha256": "D2F735CBA22280449CFFDFB9712FE18008403BFDAB15053E027C3CA0306957C8",
+          "json_pointer": "/mq305_combat_zone_report"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\deep_01\\journal.json",
+          "sha256": "DFCC156C7018F08EE6295C60FFA881E2F23B5958842E5E3FD9B1FACDBDC4E48C",
+          "json_pointer": "/mq305_combat_zone_report"
+        }
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Hook owns #mq305_pr_apartment/#mq305_pr_hook; apartment keeps apartment root; lab exploration/confrontation/outcome keep #mq305_pr_lab; Netwatch keeps four original district post-combat leases. Complete scene actors, NodeRefs, cameras/workspots/variants and referenced assets are inventoried.",
+        "Approved R4 supporting Johnny is implemented by exact current JV1: retain actor/voice/timing and temporarily hide visual components only for Character.Silverhand after genuine Tower. No engram/Relic/takeover fact is written by this policy."
+      ],
+      "approved_differences": [
+        "Existing R4 voice-only presentation policy; native scene timing and outcomes preserved."
+      ],
+      "remaining": [
+        "OPAQUE: full native sector placement, streamed actor acquisition, camera/workspot execution, Johnny render timing and independent props are unverified."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\verification_01\\tests.json",
+          "sha256": "0179DA559CB94815CD0E2D91AFFE41447A927A2444A2901EDDAD3FB963D3D417"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\verification_01\\source_pins.json",
+          "sha256": "661E47BAE6C48E48302039F2517A2766BE0E4671CE9F0AE6419F28A2BDEF13C5"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\deep_01\\tests.json",
+          "sha256": "508CCD9597A2603EE8A189EA009EBD3A671E919333ACE9CF4E1DFF5D83208898"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\seams_01\\evidence.json",
+          "sha256": "B0CA935CEBCBB94577C67C41544CB022D5CB4A88E174744004899DF0B9E6819B"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\verification_01\\handlers.json",
+          "sha256": "D2F735CBA22280449CFFDFB9712FE18008403BFDAB15053E027C3CA0306957C8",
+          "json_pointer": "/mq305_combat_zone_report"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\deep_01\\journal.json",
+          "sha256": "DFCC156C7018F08EE6295C60FFA881E2F23B5958842E5E3FD9B1FACDBDC4E48C",
+          "json_pointer": "/mq305_combat_zone_report"
+        }
+      ]
+    },
+    "journal": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "All 50 actual scene node input uses across both jobs resolve declared entries or six explicit native Prefetch Input controls; controls are recorded separately from scene entries. Original MQ305 journal/objective, message/choice, codex and map-pin writers remain unchanged.",
+        "Native omitted __confront_bree55 has only167/203→Succeeded; scene1318 maps incoming0:3 to Succeeded. Unlisted links/pins and exact journal definitions/saved history remain explicit limitations rather than invented inactive prerequisites."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: exact runtime journal definitions, target optionality and saved/foreign-writer histories. Native codex/map pin or Succeeded-only omissions are described specifically, not blanket-approved as arbitrary history."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\verification_01\\tests.json",
+          "sha256": "0179DA559CB94815CD0E2D91AFFE41447A927A2444A2901EDDAD3FB963D3D417"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\verification_01\\source_pins.json",
+          "sha256": "661E47BAE6C48E48302039F2517A2766BE0E4671CE9F0AE6419F28A2BDEF13C5"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\deep_01\\tests.json",
+          "sha256": "508CCD9597A2603EE8A189EA009EBD3A671E919333ACE9CF4E1DFF5D83208898"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\seams_01\\evidence.json",
+          "sha256": "B0CA935CEBCBB94577C67C41544CB022D5CB4A88E174744004899DF0B9E6819B"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\verification_01\\handlers.json",
+          "sha256": "D2F735CBA22280449CFFDFB9712FE18008403BFDAB15053E027C3CA0306957C8",
+          "json_pointer": "/mq305_combat_zone_report"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\deep_01\\journal.json",
+          "sha256": "DFCC156C7018F08EE6295C60FFA881E2F23B5958842E5E3FD9B1FACDBDC4E48C",
+          "json_pointer": "/mq305_combat_zone_report"
+        }
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Outcome128 and188 are distinct native reward nodes; failed134 is preserved. Native140 mq305_done1→141 mq305_finished1→142 mq305_active0 and all outcome journal/contact/item/variant cleanup survive unchanged.",
+        "Bree death/free/data-sale/failure and subsequent Netwatch call/encounter preserve original branches and delays; direct stock target definitions are linked by root bounded TDB index with uncaptured child/runtime-overlay limits. No replay, duplicate reward claim, manual completion or synthetic ACK added."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: economic child definitions/runtime overrides, inventory entitlement and engine once-only reward/cleanup behavior in a supported save."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\verification_01\\tests.json",
+          "sha256": "0179DA559CB94815CD0E2D91AFFE41447A927A2444A2901EDDAD3FB963D3D417"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\verification_01\\source_pins.json",
+          "sha256": "661E47BAE6C48E48302039F2517A2766BE0E4671CE9F0AE6419F28A2BDEF13C5"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\deep_01\\tests.json",
+          "sha256": "508CCD9597A2603EE8A189EA009EBD3A671E919333ACE9CF4E1DFF5D83208898"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\seams_01\\evidence.json",
+          "sha256": "B0CA935CEBCBB94577C67C41544CB022D5CB4A88E174744004899DF0B9E6819B"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\verification_01\\handlers.json",
+          "sha256": "D2F735CBA22280449CFFDFB9712FE18008403BFDAB15053E027C3CA0306957C8",
+          "json_pointer": "/mq305_combat_zone_report"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\deep_01\\journal.json",
+          "sha256": "DFCC156C7018F08EE6295C60FFA881E2F23B5958842E5E3FD9B1FACDBDC4E48C",
+          "json_pointer": "/mq305_combat_zone_report"
+        }
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Saved native paths/node/field identities and current PTFRS24_MQ305_FRESH_* receipts are unchanged. Actual guards block issued/started/terminal state, and current S24 polling does not change durable Issued owners.",
+        "All new investigation outputs are isolated; original candidate resource and package hashes remain inputs, with no migration or save edits. Existing private success watcher observes native Succeeded separately and does not terminate the native body early."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: save/reload and original-owner transition fixtures; no future-version migration guarantee."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\verification_01\\tests.json",
+          "sha256": "0179DA559CB94815CD0E2D91AFFE41447A927A2444A2901EDDAD3FB963D3D417"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\verification_01\\source_pins.json",
+          "sha256": "661E47BAE6C48E48302039F2517A2766BE0E4671CE9F0AE6419F28A2BDEF13C5"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\deep_01\\tests.json",
+          "sha256": "508CCD9597A2603EE8A189EA009EBD3A671E919333ACE9CF4E1DFF5D83208898"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\seams_01\\evidence.json",
+          "sha256": "B0CA935CEBCBB94577C67C41544CB022D5CB4A88E174744004899DF0B9E6819B"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\verification_01\\handlers.json",
+          "sha256": "D2F735CBA22280449CFFDFB9712FE18008403BFDAB15053E027C3CA0306957C8",
+          "json_pointer": "/mq305_combat_zone_report"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\deep_01\\journal.json",
+          "sha256": "DFCC156C7018F08EE6295C60FFA881E2F23B5958842E5E3FD9B1FACDBDC4E48C",
+          "json_pointer": "/mq305_combat_zone_report"
+        }
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Exact current generic Hands/U9 controller and PH3 studio source pins are included; source-preserved actor/scene/phone end acknowledgement and cleanup are distinct obligations. Current native body has no CVI02-style specialized new_sts producer.",
+        "External engine/device facts mq305_bunker_video_watched and mq305_lab_cores_scanned have no local quest-graph writer in this bounded inventory; exact nodes remain visible. Debug-only mq305_debug_run/chickentest are inventoried as debug/test resources, not executing gameplay proof."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL/OPAQUE: world/ambient/studio executing leases and external engine/device fact writers remain bounded."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\verification_01\\tests.json",
+          "sha256": "0179DA559CB94815CD0E2D91AFFE41447A927A2444A2901EDDAD3FB963D3D417"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\verification_01\\source_pins.json",
+          "sha256": "661E47BAE6C48E48302039F2517A2766BE0E4671CE9F0AE6419F28A2BDEF13C5"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\deep_01\\tests.json",
+          "sha256": "508CCD9597A2603EE8A189EA009EBD3A671E919333ACE9CF4E1DFF5D83208898"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\seams_01\\evidence.json",
+          "sha256": "B0CA935CEBCBB94577C67C41544CB022D5CB4A88E174744004899DF0B9E6819B"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\verification_01\\handlers.json",
+          "sha256": "D2F735CBA22280449CFFDFB9712FE18008403BFDAB15053E027C3CA0306957C8",
+          "json_pointer": "/mq305_combat_zone_report"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\deep_01\\journal.json",
+          "sha256": "DFCC156C7018F08EE6295C60FFA881E2F23B5958842E5E3FD9B1FACDBDC4E48C",
+          "json_pointer": "/mq305_combat_zone_report"
+        }
+      ]
+    }
+  },
+  "confirmed_defects": [],
+  "runtime_changes": []
+}

@@ -1,0 +1,92 @@
+{
+  "status": "RECONCILED_SOURCE_AND_REVIEW_COVERAGE_WITH_EXPLICIT_LIMITS",
+  "selected": 161,
+  "prior_deep": 64,
+  "new_deep": 64,
+  "deep_total": 128,
+  "remaining": 33,
+  "primary": {
+    "required": 48,
+    "reviewed": 48
+  },
+  "stretch": {
+    "required": 16,
+    "reviewed": 16
+  },
+  "new_contract_status_counts": {
+    "APPROVED_DEVIATION": 64,
+    "CONDITIONAL": 393,
+    "PASS": 101,
+    "OPAQUE": 65,
+    "FAIL": 13,
+    "UNKNOWN": 4
+  },
+  "deep_contract_status_counts": {
+    "APPROVED_DEVIATION": 143,
+    "PASS": 275,
+    "CONDITIONAL": 716,
+    "OPAQUE": 129,
+    "FAIL": 13,
+    "UNKNOWN": 4
+  },
+  "fully_static_verified": 0,
+  "contracts": 1610,
+  "new_confirmed_defects": 7,
+  "new_repaired_defects": 5,
+  "new_blocked_defects": 2,
+  "new_affected_quests": 10,
+  "cumulative_staged_repairs": 8,
+  "batch_counts": {
+    "Q01": {
+      "total": 16,
+      "deep": 16
+    },
+    "Q02": {
+      "total": 16,
+      "deep": 16
+    },
+    "Q03": {
+      "total": 16,
+      "deep": 16
+    },
+    "Q04": {
+      "total": 16,
+      "deep": 16
+    },
+    "Q05": {
+      "total": 16,
+      "deep": 16
+    },
+    "Q06": {
+      "total": 16,
+      "deep": 16
+    },
+    "Q07": {
+      "total": 16,
+      "deep": 16
+    },
+    "Q08": {
+      "total": 16,
+      "deep": 16
+    },
+    "Q09": {
+      "total": 16,
+      "deep": 0
+    },
+    "Q10": {
+      "total": 16,
+      "deep": 0
+    },
+    "Q11": {
+      "total": 1,
+      "deep": 0
+    }
+  },
+  "limits": [
+    "Deep reviewed means ten source-specific dispositions plus independent actual-resource review, not ten PASSes.",
+    "No gameplay, save-transition, opaque placement, runtime merged TDB or call/reward/reload success certification.",
+    "Pending/unknown/opaque and confirmed blocked CVI02 branch remain visible."
+  ],
+  "source_epoch": 8,
+  "queue_sha256": "264EA25C5D809672F1F48741FFA982D7978B63741EA7EB1836D145DC2D0DFE80"
+}

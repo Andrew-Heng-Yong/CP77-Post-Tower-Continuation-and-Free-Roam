@@ -1,0 +1,32 @@
+{
+  "status": "BULLETS_COMPLETION_PASS_VENDOR_RETIREMENT_AND_RELOAD_PENDING",
+  "analyzed_utc": "2026-11-02T21:39:03.072391+00:00",
+  "final_probe_window": "2026-11-02 16:28:55–16:36:51 EST",
+  "probe_stop": "USER_STOP",
+  "journal_transitions": [
+    {
+      "seq": 4,
+      "utc": "2026-11-02T21:28:56Z",
+      "state": "gameJournalEntryState : Inactive (1)"
+    },
+    {
+      "seq": 5,
+      "utc": "2026-11-02T21:30:45Z",
+      "state": "gameJournalEntryState : Active (2)"
+    },
+    {
+      "seq": 6,
+      "utc": "2026-11-02T21:33:48Z",
+      "state": "gameJournalEntryState : Succeeded (3)"
+    }
+  ],
+  "done_callback_Toronto": "16:33:46 EST",
+  "active_zero_callback_Toronto": "16:33:47 EST",
+  "native_quest_completed": true,
+  "vendor_return": "NOT_OBSERVED",
+  "vendor_reload": "NOT_TESTED",
+  "diagnostic_fact_callbacks": "LIVE_COVERAGE_GAP_PRESERVED; getter/journal and broader logs are separate evidence",
+  "runtime_changes": 0,
+  "gameplay_repair_justified": false,
+  "next": "User leaves/returns to Jinguji after completed quest, checks normal Zane trade and completed-working-save reload; no quest replay or extra probe command."
+}

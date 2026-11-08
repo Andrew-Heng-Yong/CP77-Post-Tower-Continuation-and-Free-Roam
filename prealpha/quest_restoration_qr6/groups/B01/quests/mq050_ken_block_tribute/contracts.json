@@ -1,0 +1,205 @@
+{
+  "quest_id": "mq050_ken_block_tribute",
+  "title": "I'm in Love with My Car",
+  "source_epoch": "QR6:00 = QR5:08 unchanged effective bytes",
+  "fully_static_verified": false,
+  "effective_resources": [
+    {
+      "depot": "towercontinued\\sidejobs_s28\\vehicles\\mq050.questphase",
+      "sha256": "30544F158C53B5063AC7667D07B9C4127E4FFC8AC5848734C281B03385C4DD0D"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s28\\vehicles\\mq050_johnny_start.scene",
+      "sha256": "E42C903953A278CCE9A767D9B8FD6F57E46D8D0D4CFC78D81410DFCFE6C5BE41"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s28\\vehicles\\mq050_johnny_start_muted.workspot",
+      "sha256": "FF58B50B85E8933BC980FD5958479F879787B879BBA62CBF391BBB1749DB6C94"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s28\\vehicles\\mq050_ken_block_tribute_entry.questphase",
+      "sha256": "ACB7349CAEDF1A3108CAA57C3629B54EEDC8DB6777E9C9319E87004A72C26350"
+    }
+  ],
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "S28 entry0→Ready1→Revision2→1real-second3→AND4→Issued5→native q101_done>0 wait90→Entered6→body100.In1; body100.Out1→privateFinished101. Original global quest_bugfixing root/3 node71(q101_done>0)→67.In1 calls the same original body. Private call relocates only the phase/Johnny-scene binding."
+      ],
+      "approved_differences": [
+        "Existing fresh-only Tower wrapper is authorized; original body and root prefab are exact."
+      ],
+      "remaining": [
+        "Actual native vehicle/global-node streaming and callback delivery remain engine-dependent."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json"
+      ]
+    },
+    "eligibility": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Guard4 retains earned q101_done>=1 and exact sevenInactive quest/phase/objective/pin/description histories; Hoon vehicle entitlementNOR, spawned-vehicleNOR, player key99716362400 quantity0, HoonVehicleUnownedPrereq and HoonWorldKeyAbsentPrereq all remain conjunctive. Native body3 requires outside#mq050_tr_spawn;8/42 use real spawned vehicle."
+      ],
+      "approved_differences": [
+        "No quest/item/vehicle history reset or native fact writer added."
+      ],
+      "remaining": [
+        "TDB aliases, unloaded-world key discovery, entitlement APIs and historical container state require actual fixture evidence; source guards do not reconstruct unknown loot history."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json"
+      ]
+    },
+    "communications": {
+      "status": "PASS",
+      "proven": [
+        "Original and restored Hoon body use the same local Johnny scene55 Start0/ContinueQuest; exhaustive inspected body/scene side-effect comparison finds no phone/SMS request/ACK owner obligation. Original quest remains a physical vehicle/key interaction; no generic phone reset is justified."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Static absence within exact Hoon body and its selected local scene is established; unrelated global communications are outside this statement."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Original bugfix caller67 is enclosed by quest_bugfixing root3, itself bugfixing9 inside main root82/4; genuine Tower106→109→Terminating107 retires that native main ancestry. Restored body retains exact original full Hoon location prefab and nodeIDs; privateIssued/Entered prevent repeated fresh launches."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Native authored termination is source evidence, not an observed saved-owner/reference-count transition. Independent engine-startup roots and external mods need fixtures."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Every52 native Hoon body node, sockets,50edges and all predicates/payloads compare exactly after the explicit private scene reference relocation. Native key-or-mount gate80/87→XOR84→investigateSucceeded26→get-insideActive27 remains XOR, not AND. Native mounted40 fans original enable/reward/journal/vehicle cleanup paths."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Graph and payload parity does not simulate streamed object events or guarantee successful driving."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Exact dedicated original location prefab is retained. Hoon scene4 replaces external#mq050_ws_johnny with owned scene workspot65000 and a muted-workspot binding; scene entries/edges/dialogue/native side effects remain exact. Current JV1 matches Character.Silverhand and hides the visual actor while keeping voice."
+      ],
+      "approved_differences": [
+        "Existing voice-only Johnny workspot adaptation; no restored engram gameplay."
+      ],
+      "remaining": [
+        "Native prefab sector placement, workspot playback, visual suppression and independent props remain undecoded/live."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json"
+      ]
+    },
+    "journal": {
+      "status": "PASS",
+      "proven": [
+        "Native investigate23/26, description24, get-inside27/29 and rootSucceeded30 preserve exact Journal classes/paths and Active/Succeeded sockets. All seven selected history paths remain separate; no objective or root is set for admission."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Effective JournalManager hash resolution/notifications and preexisting object history require engine validation."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native camera-focus67→Inject51 gives exactly one key99716362400 in#mq050_main_loot. Native28 enables Vehicle.v_sport2_quadra_type66_nomad_tribute,40→29Succeeded→30rootSucceeded→43checkpoint→1NonTerminating. Original invulnerability, immovability and door transitions are preserved; no extra grant introduced."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Actual Inject idempotence for old persistent containers, vehicle entitlement transaction and effective TDB records require fixtures; no duplicate grant is asserted."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "All body resource/node IDs and saved private Ready/Revision/Permit/Issued/Entered/Finished receipts remain unchanged at QR5:08. Fresh denial considers actual key, vehicle entitlement/spawn and all listed journal history; already issued owners are not reset."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Future-version owner serialization, unloaded container history and file rollback versus save rollback remain untested."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "This body depends on q101 completion, the dedicated location prefab, exact vehicle/key records, the owned Johnny workspot and JV1 source boundary. Native whole body support is preserved independently of the synthetic fresh entry; no unfiltered bugfix root is rehosted."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "World streaming/record override winners and old saved/native owner arbitration are separate from exact staged source parity."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B01\\verification_01\\script_pins.json"
+      ]
+    }
+  },
+  "confirmed_defects": [],
+  "source_authority_conflicts": [],
+  "runtime_changes": []
+}

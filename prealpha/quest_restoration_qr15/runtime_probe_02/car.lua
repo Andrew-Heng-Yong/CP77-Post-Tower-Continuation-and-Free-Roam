@@ -1,0 +1,13 @@
+do
+  local ok, err = pcall(function()
+    local p = Game.GetPlayer()
+    if not p or not p:IsAttached() then print("[JF02] LOAD_SAVE_FIRST") return end
+    local w = Game.GetWorldStateSystem()
+    if not w or not w:IsReady() then print("[JF02] WORLD_NOT_READY") return end
+    local ref = "$/03_night_city/c_pacifica/combat_zone_prefabUEX7DCY/container_zone_prefab4PZIADQ/loc_sts_ep1_03_gunfight_prefabDSNH7OA/loc_sts_ep1_03_gunfight_openworld_prefab3P2OSDA/#sts_ep1_03_gunfight_streetstory/#sts_ep1_03_gunfight_broken_car"
+    local s = w:GetPopulationSpawner(Game.CreateNodeRef(ref))
+    if not s then print("[JF02] ABSOLUTE_CAR_UNRESOLVED") return end
+    print("[JF02] car initialized=" .. tostring(s:IsInitialized()) .. " active=" .. tostring(s:IsActive()) .. " spawned=" .. #s:GetSpawnedEntityIDs() .. " restored=" .. #s:GetRestoredEntityIDs() .. " reserved=" .. #s:GetReservedEntityIDs())
+  end)
+  if not ok then print("[JF02] ERROR:" .. tostring(err)) end
+end

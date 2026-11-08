@@ -1,0 +1,96 @@
+{
+  "state": "Q01_ALL16_DEEP_REVIEWED_STATIC_LIMITS_REMAIN",
+  "selected_quests": 161,
+  "newly_deep_reviewed": 13,
+  "total_deep_reviewed": 16,
+  "Q01_deep_reviewed": 16,
+  "Q01_total": 16,
+  "new_contract_status_counts": {
+    "APPROVED_DEVIATION": 19,
+    "PASS": 33,
+    "CONDITIONAL": 65,
+    "OPAQUE": 13
+  },
+  "Q01_contract_status_counts": {
+    "APPROVED_DEVIATION": 24,
+    "PASS": 45,
+    "CONDITIONAL": 75,
+    "OPAQUE": 16
+  },
+  "fully_static_verified": 0,
+  "confirmed_unique_defects": 2,
+  "implemented_repairs_or_containment": 2,
+  "working_candidate": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\candidate_01",
+  "installed": "PH3 unchanged",
+  "queue": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\queue.json",
+  "queue_sha256": "51ED00FEDAAEDEA979DF8C446CC02DC8A217DE90D60D03DBD5516FE8398D0B60",
+  "remaining_not_deep_reviewed": 145,
+  "next_batch": "Q02",
+  "next_batch_quests": [
+    {
+      "id": "mq025_02_kabuki",
+      "title": "Beat on the Brat: Kabuki"
+    },
+    {
+      "id": "mq024_sandra",
+      "title": "Full Disclosure"
+    },
+    {
+      "id": "mq025_03_arroyo",
+      "title": "Beat on the Brat: Arroyo"
+    },
+    {
+      "id": "mq010_barry",
+      "title": "Happy Together"
+    },
+    {
+      "id": "mq025_05_glen",
+      "title": "Beat on the Brat: The Glen"
+    },
+    {
+      "id": "mq025_07_fight_club",
+      "title": "Beat on the Brat: Rancho Coronado"
+    },
+    {
+      "id": "mq015_wizardbook",
+      "title": "Spellbound"
+    },
+    {
+      "id": "mq011_wilson",
+      "title": "Shoot to Thrill"
+    },
+    {
+      "id": "mq012_stud",
+      "title": "Burning Desire/Night Moves"
+    },
+    {
+      "id": "mq019_paparazzi",
+      "title": "Violence"
+    },
+    {
+      "id": "mq008_party",
+      "title": "Stadium Love"
+    },
+    {
+      "id": "mq021_guide",
+      "title": "Fortunate Son"
+    },
+    {
+      "id": "mq005_alley",
+      "title": "Only Pain"
+    },
+    {
+      "id": "mq007_smartgun",
+      "title": "Machine Gun"
+    },
+    {
+      "id": "mq013_punks",
+      "title": "A Day in the Life"
+    },
+    {
+      "id": "mq002_veterans",
+      "title": "Gun Music"
+    }
+  ],
+  "restrictions": "No game/deployment/save/fact/release/Git publication writes"
+}

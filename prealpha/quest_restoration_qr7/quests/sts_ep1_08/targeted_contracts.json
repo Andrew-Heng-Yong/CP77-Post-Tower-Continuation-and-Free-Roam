@@ -1,0 +1,1430 @@
+[
+  {
+    "quest_id": "sts_ep1_08",
+    "title": "Spy in the Jungle",
+    "stage": "communications",
+    "status": "CONDITIONAL",
+    "disposition": "IMPLEMENTED_FUTURE_ARMED_EXISTING_SUBSCRIBER_ONLY_STATIC_REPAIR_WITH_EXPLICIT_BLOCKED_HISTORIES",
+    "proven": [
+      "Current native producer ep1\\openworld\\street_stories\\sts_ep1_08\\phases\\sts_ep1_08_phase.questphase root:314 writes sts_ep1_08_done=1; freshly extracted stock raw equals pinned vanilla 53A5DDCC3B7BA81C2315229C9E59F496F43DB66F7227E18A48AB7E0B70D3CF6F.",
+      "Native news root/11 listener37→preclaim112→sent45→pause38→game-delay115 preserves two game days; selector126 chooses normal125/alternate127, each token AND outside, then child39.",
+      "True child39.Out1→release107 native pause0→hub69 is retained. Native reply/timeout/outcome graph remains exact stock ep1\\quest\\main_quests\\q302\\phases\\q302_msg_ronald_sts_ep1_08.questphase; notification flags below are not normalized across cases.",
+      "Current B0 root/5 has no native news11/12; its saved scene enrollment1755 remains unreachable. This confirms the old missing-dependency finding; it does not contradict this gig's main Hands/Mark/Ana calls or earlier PH fixes.",
+      "Current QR7:04 contains the independently approved serialized04 future-event writer at existing towercontinued\\native_gigs_u9\\sts_ep1_08_entry.questphase root/50:65002.Out→new65007(positive QR7 Armed)→65003 ParentEntered. Entire old fresh-admission predicate and every old node/payload/socket/other graph remain unchanged.",
+      "Private branch gate checks native done0/sent0 and either ParentEntered0 or QR7 Armed1, then waits the actual Armed1 producer before the native done listener. Old ParentEntered1/Armed0 skips without native writes. Native sent1 and old elapsed clocks are never reset or adopted.",
+      "Native Spy Ronald greeting20 has sendNotification0, unlike the other selected greetings; the integrated successor preserves it. Mark/Ana/Organitopia PH1/PH2/PH3 protocols and Spy outer64999 remain unchanged.",
+      "Coordinator promoted the exact seven peer-reviewed serialized payloads, freshly read back their complete models/packed bytes, appended one phase registration19913 and one two-trigger block, and rebuilt/read back every final archive member. Original Ronald/B0 scene and main gig bodies remain unchanged."
+    ],
+    "approved_differences": [
+      "Private prospective owner replaces the retired news11/12 for four selected jobs only; original fluff branches are excluded and its terminal AND has four inputs. Real new Armed signals gate fresh events. Exact native selected payloads, timers, outcomes, SMS journal identities and notification flags remain.",
+      "Only two original native triggers/shapes/transforms are rehomed under one private descriptor/global hierarchy. No whole-bar owner or contact/enrollment bootstrap is cloned."
+    ],
+    "remaining": [
+      "STATIC_BLOCKED_HISTORY: already-entered jobs without QR7 Armed, native done1/sent1 or ambiguous pending clocks are deliberately skipped; no native counter, sent flag or elapsed timer is reset. Old native saved-owner retirement beyond observable gates is not proved.",
+      "STATIC_BLOCKED_ENROLLMENT: a genuine preexisting q302_ronald_messages_enabled and active native Ronald contact are required. B0 enrollment1755 remains unreachable; first contact/new subscription is not repaired. Exact complete dialogue/contact/owner lifecycle evidence and safe saved-state transition are required before extending scope.",
+      "LIVE_ONLY: private two-trigger streaming/lease acquisition/release, occupancy, concurrent scheduling, two-game-day persistence, actual SMS rendering/delivery, interruption and cold reload remain untested.",
+      "BOUNDED_NAMESPACE: all current archive depot keys and all installed target-root XL IDs were checked. A whole native/external world-global collision census was not performed. Preserved sourcePrefabHash metadata is not itself proof of runtime lease behavior."
+    ],
+    "evidence": [
+      {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\future_check_02\\evidence.json",
+        "sha256": "9A895A41C8820FE80E933D84C2AD61641C6B95D7D2CA3DF755CF305D5AD7927F"
+      },
+      {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\bar_check_02\\evidence.json",
+        "sha256": "CC5455F55DE2FBF3B8419428E2E01D19CDF92302055A9757FFC1ADFC60EF9EB6"
+      },
+      {
+        "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\ep1\\ep1_2_gamedata.archive",
+        "quest_id": "sts_ep1_08",
+        "graph": "root",
+        "pinned_old_raw_sha256": "53A5DDCC3B7BA81C2315229C9E59F496F43DB66F7227E18A48AB7E0B70D3CF6F",
+        "node": "314",
+        "json_sha256": "A9C9D3831BA5842FC6CDCAAA83CC3773EFD2FEF6EBD1ED0DA380B83F9F48773A",
+        "archive_sha256": "A4230703FEC1AD4BAFCE639F79178ACDFE6D107BC062A005B2C182291F2DE4B8",
+        "depot": "ep1\\openworld\\street_stories\\sts_ep1_08\\phases\\sts_ep1_08_phase.questphase",
+        "pinned_old_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\diagnostics\\restored_audit_20261025_01\\native_01\\914412233063348923.questphase",
+        "current_matches_pinned": true,
+        "json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\producer_readback_01\\producer_2.questphase.json",
+        "raw_sha256": "53A5DDCC3B7BA81C2315229C9E59F496F43DB66F7227E18A48AB7E0B70D3CF6F",
+        "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\producer_readback_01\\producer_2.questphase",
+        "incoming": [
+          [
+            "312",
+            "Out",
+            "314",
+            "In"
+          ]
+        ],
+        "outgoing": [
+          [
+            "314",
+            "Out",
+            "326",
+            "In"
+          ]
+        ]
+      },
+      {
+        "source": {
+          "depot": "towercontinued\\native_gigs_u9\\sts_ep1_08_entry.questphase",
+          "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\candidate_03\\archive_source\\towercontinued\\native_gigs_u9\\sts_ep1_08_entry.questphase",
+          "raw_sha256": "5D1FE58F41739C231B5006FF134EB78207FC879B9AB8652FADE69899242C2F62",
+          "json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\diagnostics\\vanilla_parity_20261029_01\\raw\\zzzz_PTFR_Combined\\towercontinued\\native_gigs_u9\\sts_ep1_08_entry.questphase.json",
+          "json_sha256": "268B590234B012A1BDF04067CA903436FB4C530D210CB0FBFEB3DBB998BD2268"
+        },
+        "added_id": 65007,
+        "raw_sha256": "950D966F17B23C39A09B785FC2FD3F4C70226FBAEA819181B009D75F05974BA2",
+        "graph": "root/50",
+        "json_sha256": "B3F0202B98900AC08E54CF382596F45A4250F8D1EA57B2843E804E5FC5070DDF",
+        "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\experiments\\future_owner_04\\sts_ep1_08_entry.NONPRODUCTION.questphase",
+        "quest_id": "sts_ep1_08",
+        "intended_depot": "towercontinued\\native_gigs_u9\\sts_ep1_08_entry.questphase",
+        "private_fact": "PTFRQR7_RonaldNews_Armed_sts_ep1_08",
+        "json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\experiments\\future_owner_04\\sts_ep1_08_entry.NONPRODUCTION.questphase.json"
+      },
+      {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\candidate_01\\package_manifest.json",
+        "sha256": "98F4D1C1E109846E4D85CF0657A5B835D4542890BE3DE183494A670FD10A2279"
+      },
+      {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\candidate_01\\rebuild_01.json",
+        "sha256": "D2C17AD7A9BCCF8A0DFB4291E208742928104BD42A470DE8380B0223D65481C1"
+      },
+      {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\compile_reuse_01.json",
+        "sha256": "2E67E541D0EF98FE03F40BEF77EF0BAC95AB1F5340DED60FF873A1D3D34D9227"
+      },
+      {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\source_epoch_04.json",
+        "sha256": "8B0D8249908A9D96CF5564C9581ED466C061350B96A4BEE767D744B01DE28A1F"
+      },
+      {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\reviews\\ronald_01\\verification_02\\review.json",
+        "sha256": "96925D42960F5855CDC71A3E0CA24DA7E72310402D176A82C4DAC48094CA1AF4"
+      },
+      {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_a\\reviews\\ronald_namespace_03\\evidence.json",
+        "sha256": "89E8ECC5F258D26ED1FC65F3508452DF898D0C093FA20A5ABBC376A4C373123A"
+      },
+      {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\findings_addendum_01\\addendum.json",
+        "sha256": "D6F243B08D3060832CEB6D97274CD51C2051509D3DC6B6A597F80B43FD74B283"
+      },
+      {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\future_check_04\\evidence.json",
+        "sha256": "ABDAF47FFB72DA3C74152B969B15F466C6F8DD3DC9829F73B874A8817806730C"
+      },
+      {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\candidate_01\\repair_ronald_01\\verification.json",
+        "sha256": "C4E861F5D82B918FDC51EC36984CAEFFBC3A6594091234F53257F2C6D3C2227A"
+      }
+    ],
+    "specific_native_contract": {
+      "quest_id": "sts_ep1_08",
+      "done": 37,
+      "preclaim": 112,
+      "sent": 45,
+      "pause": 38,
+      "clock": 115,
+      "standalone": 126,
+      "normal_gate": 125,
+      "alternate_gate": 127,
+      "child": 39,
+      "release": 107,
+      "terminal_hub": 69
+    },
+    "stock_SMS": {
+      "depot": "ep1\\quest\\main_quests\\q302\\phases\\q302_msg_ronald_sts_ep1_08.questphase",
+      "predicates": [
+        {
+          "node": "22",
+          "reads": [
+            {
+              "$type": "questJournalEntryState_ConditionType",
+              "inverted": 0,
+              "path": {
+                "$type": "gameJournalPath",
+                "className": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "gameJournalPhoneChoiceEntry"
+                },
+                "editorPath": "",
+                "fileEntryIndex": 1,
+                "realPath": "ep1/contacts/ronald/sts_ep1_08/03_ch_sts_ep1_08_reaction/03a_ch_sts_ep1_08_reaction"
+              },
+              "state": "Succeeded"
+            }
+          ]
+        },
+        {
+          "node": "23",
+          "reads": [
+            {
+              "$type": "questJournalEntryState_ConditionType",
+              "inverted": 0,
+              "path": {
+                "$type": "gameJournalPath",
+                "className": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "gameJournalPhoneChoiceEntry"
+                },
+                "editorPath": "",
+                "fileEntryIndex": 1,
+                "realPath": "ep1/contacts/ronald/sts_ep1_08/03_ch_sts_ep1_08_reaction/03b_ch_sts_ep1_08_reaction"
+              },
+              "state": "Succeeded"
+            }
+          ]
+        }
+      ],
+      "notification_writers": [
+        {
+          "node": "20",
+          "journal_paths": [
+            "ep1/contacts/ronald/sts_ep1_08/01_msg_sts_ep1_08_ronald_greet"
+          ],
+          "notifications": [
+            0
+          ]
+        },
+        {
+          "node": "21",
+          "journal_paths": [
+            "ep1/contacts/ronald/sts_ep1_08/02_msg_sts_ep1_08_ronald_rumor"
+          ],
+          "notifications": [
+            0
+          ]
+        },
+        {
+          "node": "24",
+          "journal_paths": [
+            "ep1/contacts/ronald/sts_ep1_08/04a_msg_sts_ep1_08_ronald_reaction"
+          ],
+          "notifications": [
+            0
+          ]
+        },
+        {
+          "node": "25",
+          "journal_paths": [
+            "ep1/contacts/ronald/sts_ep1_08/04b_msg_sts_ep1_08_ronald_reaction"
+          ],
+          "notifications": [
+            0
+          ]
+        },
+        {
+          "node": "27",
+          "journal_paths": [
+            "ep1/contacts/ronald/sts_ep1_08/05_msg_sts_ep1_08_ronald_reaction"
+          ],
+          "notifications": [
+            0
+          ]
+        }
+      ],
+      "edges": [
+        [
+          "18",
+          "Out",
+          "20",
+          "Active"
+        ],
+        [
+          "20",
+          "Out",
+          "21",
+          "Active"
+        ],
+        [
+          "21",
+          "Out",
+          "30",
+          "Active"
+        ],
+        [
+          "22",
+          "Out",
+          "24",
+          "Active"
+        ],
+        [
+          "23",
+          "Out",
+          "25",
+          "Active"
+        ],
+        [
+          "24",
+          "Out",
+          "26",
+          "In1"
+        ],
+        [
+          "25",
+          "Out",
+          "26",
+          "In2"
+        ],
+        [
+          "26",
+          "Out1",
+          "27",
+          "Active"
+        ],
+        [
+          "27",
+          "Out",
+          "31",
+          "In1"
+        ],
+        [
+          "28",
+          "Out",
+          "29",
+          "In"
+        ],
+        [
+          "29",
+          "Out",
+          "31",
+          "In2"
+        ],
+        [
+          "30",
+          "Out",
+          "22",
+          "In"
+        ],
+        [
+          "30",
+          "Out",
+          "23",
+          "In"
+        ],
+        [
+          "30",
+          "Out",
+          "28",
+          "In"
+        ],
+        [
+          "31",
+          "Out1",
+          "32",
+          "In"
+        ],
+        [
+          "32",
+          "Out",
+          "19",
+          "In"
+        ]
+      ]
+    },
+    "original_QR6_status": "FAIL",
+    "superseded_QR6_finding": {
+      "status": "FAIL",
+      "proven": [
+        "Exact target-meeting scene emits four Mark audio starts1554/1788/2394/2428 and native end requests. Mark real holo-named ACK36/38 feeds caller waits including1560/1768; native caller clears are preserved. Ana is internal Janet: start1594 waits1598 and end waits1600, using real scene ACK299/301.",
+        "Janet start intentionally has no local caller clear in this original scene; native controller clear383 owns that reset. This is recorded as a different original protocol, not patched from a generic template. Current Hands initializer73 and cleanup329 are connected. Mark PH2 and Janet PH1 are exactly-once XL EP1root1 registrations; obsolete PH1Mark file is unregistered. Actual cleanup copies come from native EP1 master root81/root79, not the different standalone contact resources. PH3 phase3 retains both native studios.",
+        "Main native gig body, ordinary calls, actual real ACKs, cleanup and prior source-specific checks remain valid. This failure concerns the separate optional Ronald post-gig news dependency. In particular, Spy Mark/Ana phone and door source proofs are not contradicted.",
+        "Native q302_ronald_tree root/11 done-wait37 reaches sent-writer45 (q302_msg_ronald_sts_ep1_08), native two-game-day delivery node115 and original news child39. Exact preclaim real-time pauses, standalone/token/area gates, real reply/outcome/timeout and pause-release edges are pinned in the family map; no compact route omits their distinct units.",
+        "Genuine pre-Tower q302_done/tree/messages_enabled positive enrollment, native sent0 and a new preserved gig done1 event give an explicit source counterexample. Original ending cut retires additional/persistent native Ronald owner; current B0 omits11/12, its old enrollment writer is unreachable, and indexed private owners/package scripts provide no replacement. Old service-only B0 scope is not an approved exception to selected-gig news parity."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Phone UI/queue/timing/retry/scene streaming/reload still require live evidence; structural ownership is not gameplay success.",
+        "CONFIRMED_BLOCKED_REPAIR: Native root owns #q302_pr_bar; controller11 and SMS children have no physical scene/PIP, but entry area_02_closer and delivery area_02 predicates need an exact host-marker lease. Current B0 outer/nested root has no such lease and pre-dispatch OwnerActive is not acquisition proof. No claim is made that placed markers are absent.",
+        "SAVED_TIMER_SCOPE: Sent1 precedes the two-game-day delay and may mean pending or delivered. A fresh-event/sent0/enrolled1 adapter might avoid old timers but still needs source-approved shared pause cancellation/rearm, five-way terminal AND and real response cleanup isolation. No reset, fake sent/enrollment, whole11/fluff replay or unfiltered bar/root import approved."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\admission.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\bindings.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\caller_protocols.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\typed_phone_actions.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\explicit_omissions.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\bugfix_scopes.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\phone_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\caller_protocols.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\ronald_verification_02\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\reviews\\RONALD\\verification_05\\review.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\reviews\\RONALD\\verification_05\\family_map.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\shared\\ronald_family_inventory_01.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_b\\G21.json"
+      ],
+      "pre_ronald_status": "CONDITIONAL",
+      "pre_ronald_proven": [
+        "Exact target-meeting scene emits four Mark audio starts1554/1788/2394/2428 and native end requests. Mark real holo-named ACK36/38 feeds caller waits including1560/1768; native caller clears are preserved. Ana is internal Janet: start1594 waits1598 and end waits1600, using real scene ACK299/301.",
+        "Janet start intentionally has no local caller clear in this original scene; native controller clear383 owns that reset. This is recorded as a different original protocol, not patched from a generic template. Current Hands initializer73 and cleanup329 are connected. Mark PH2 and Janet PH1 are exactly-once XL EP1root1 registrations; obsolete PH1Mark file is unregistered. Actual cleanup copies come from native EP1 master root81/root79, not the different standalone contact resources. PH3 phase3 retains both native studios."
+      ],
+      "defect": "QR5-RONALD-POST-GIG-NEWS-OWNER",
+      "repair_status": "BLOCKED_EXACT_BAR_MARKER_LEASE_SHARED_PAUSE_AND_SAVED_TIMER_SCOPE",
+      "native_external_branch": {
+        "controller": "ep1\\quest\\main_quests\\q302\\phases\\q302_ronald_tree.questphase",
+        "graph": "root/11",
+        "phase_node": "39",
+        "phase_resource": "ep1\\quest\\main_quests\\q302\\phases\\q302_msg_ronald_sts_ep1_08.questphase",
+        "selected_quest_id": "sts_ep1_08",
+        "in_selected_catalogue": true,
+        "existing_group": "G19",
+        "already_deep_at_capture": true,
+        "scope": "SELECTED_POST_GIG_DEPENDENCY",
+        "done_wait": 37,
+        "preclaim_realtime_delay": 112,
+        "native_sent_writer": 45,
+        "native_sent_fact": "q302_msg_ronald_sts_ep1_08",
+        "native_pause_claim": 38,
+        "delivery_game_delay": 115,
+        "standalone_predicate": 126,
+        "normal_token_area_wait": 125,
+        "standalone_area_wait": 127,
+        "pause_release": 107,
+        "SMS_reply_nodes": [
+          "22",
+          "23"
+        ],
+        "SMS_outcome_predicates": [],
+        "affected_contracts": [
+          "communications",
+          "shared_dependencies"
+        ],
+        "status": "FAIL_CONFIRMED_MISSING_POST_GIG_DEPENDENCY",
+        "repair_status": "BLOCKED_EXACT_HOST_MARKER_LEASE_AND_SAFE_DISPATCH_SCOPE_NOT_PROVEN"
+      },
+      "effective_source_epoch": "QR5:08",
+      "central_adjudication": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\adjudications\\ronald_01.json",
+      "original_findings_source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\quests\\sts_ep1_08\\contracts.json",
+      "original_findings_source_sha256": "58E8CE771260D0C6A03F6DFBFA09C26C1C9154C0C523A361DA2520B218F8A102",
+      "findings_source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\quests\\sts_ep1_08\\contracts.json",
+      "findings_source_sha256": "58E8CE771260D0C6A03F6DFBFA09C26C1C9154C0C523A361DA2520B218F8A102",
+      "source_epoch_investigated": "QR5:05",
+      "independent_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\reviews\\G19\\verification_04\\review.json",
+      "independent_review_sha256": "B030261D1CD42F99543F526F558FB9A56592DC24B5734F103201CAF757D6A168"
+    },
+    "worker_finding": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\findings_01\\contract_dispositions.json",
+      "sha256": "48ABAF3C417C01AFEF9171A37879BBBEB2DB0F11E32F896E65CEF6EF79967ABE",
+      "original_record": {
+        "quest_id": "sts_ep1_08",
+        "title": "Spy in the Jungle",
+        "stage": "communications",
+        "status": "FAIL",
+        "disposition": "CONFIRMED_BASELINE_GAP_WITH_SERIALIZED_FUTURE_REPAIR_PROPOSED_PENDING_INDEPENDENT_AND_COORDINATOR_GATES",
+        "proposed_disposition_if_accepted": "CONDITIONAL_FUTURE_EVENT_SCOPE_ONLY",
+        "proven": [
+          "Current native producer ep1\\openworld\\street_stories\\sts_ep1_08\\phases\\sts_ep1_08_phase.questphase root:314 writes sts_ep1_08_done=1; freshly extracted stock raw equals pinned vanilla 53A5DDCC3B7BA81C2315229C9E59F496F43DB66F7227E18A48AB7E0B70D3CF6F.",
+          "Native news root/11 listener37→preclaim112→sent45→pause38→game-delay115 preserves two game days; selector126 chooses normal125/alternate127, each token AND outside, then child39.",
+          "True child39.Out1→release107 native pause0→hub69 is retained. Native reply/timeout/outcome graph remains exact stock ep1\\quest\\main_quests\\q302\\phases\\q302_msg_ronald_sts_ep1_08.questphase; notification flags below are not normalized across cases.",
+          "Current B0 root/5 has no native news11/12; its saved scene enrollment1755 remains unreachable. This confirms the old missing-dependency finding; it does not contradict this gig's main Hands/Mark/Ana calls or earlier PH fixes.",
+          "Private serialized04 proposes an actual new future-event writer at existing towercontinued\\native_gigs_u9\\sts_ep1_08_entry.questphase root/50:65002.Out→new65007(positive QR7 Armed)→65003 ParentEntered. Entire old fresh-admission predicate and every old node/payload/socket/other graph remain unchanged.",
+          "Private branch gate checks native done0/sent0 and either ParentEntered0 or QR7 Armed1, then waits the actual Armed1 producer before the native done listener. Old ParentEntered1/Armed0 skips without native writes. Native sent1 and old elapsed clocks are never reset or adopted.",
+          "Native Spy Ronald greeting20 has sendNotification0, unlike the other selected greetings; the proposal deliberately preserves it. Mark/Ana/Organitopia PH1/PH2/PH3 protocols and Spy outer64999 remain unchanged."
+        ],
+        "approved_differences": [],
+        "remaining": [
+          "The canonical candidate has not yet integrated this private proposal; current8 FAILs are not cleared by a nonproduction readback.",
+          "Earlier done1/sent1/native-clock states and entered jobs without QR7 Armed history remain deferred. Missing enrollment/contact evidence is not manufactured; current hidden enrollment dialogue is unchanged.",
+          "Independent source review, effective provider/namespace/registration checks and coordinator final package preservation remain required.",
+          "Actual queue ordering, streaming, notification display, interrupts and cold reload remain LIVE_ONLY."
+        ],
+        "evidence": [
+          {
+            "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\future_check_02\\evidence.json",
+            "sha256": "9A895A41C8820FE80E933D84C2AD61641C6B95D7D2CA3DF755CF305D5AD7927F"
+          },
+          {
+            "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\bar_check_02\\evidence.json",
+            "sha256": "CC5455F55DE2FBF3B8419428E2E01D19CDF92302055A9757FFC1ADFC60EF9EB6"
+          },
+          {
+            "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\ep1\\ep1_2_gamedata.archive",
+            "quest_id": "sts_ep1_08",
+            "graph": "root",
+            "pinned_old_raw_sha256": "53A5DDCC3B7BA81C2315229C9E59F496F43DB66F7227E18A48AB7E0B70D3CF6F",
+            "node": "314",
+            "json_sha256": "A9C9D3831BA5842FC6CDCAAA83CC3773EFD2FEF6EBD1ED0DA380B83F9F48773A",
+            "archive_sha256": "A4230703FEC1AD4BAFCE639F79178ACDFE6D107BC062A005B2C182291F2DE4B8",
+            "depot": "ep1\\openworld\\street_stories\\sts_ep1_08\\phases\\sts_ep1_08_phase.questphase",
+            "pinned_old_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\diagnostics\\restored_audit_20261025_01\\native_01\\914412233063348923.questphase",
+            "current_matches_pinned": true,
+            "json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\producer_readback_01\\producer_2.questphase.json",
+            "raw_sha256": "53A5DDCC3B7BA81C2315229C9E59F496F43DB66F7227E18A48AB7E0B70D3CF6F",
+            "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\producer_readback_01\\producer_2.questphase",
+            "incoming": [
+              [
+                "312",
+                "Out",
+                "314",
+                "In"
+              ]
+            ],
+            "outgoing": [
+              [
+                "314",
+                "Out",
+                "326",
+                "In"
+              ]
+            ]
+          },
+          {
+            "source": {
+              "depot": "towercontinued\\native_gigs_u9\\sts_ep1_08_entry.questphase",
+              "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\candidate_03\\archive_source\\towercontinued\\native_gigs_u9\\sts_ep1_08_entry.questphase",
+              "raw_sha256": "5D1FE58F41739C231B5006FF134EB78207FC879B9AB8652FADE69899242C2F62",
+              "json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\diagnostics\\vanilla_parity_20261029_01\\raw\\zzzz_PTFR_Combined\\towercontinued\\native_gigs_u9\\sts_ep1_08_entry.questphase.json",
+              "json_sha256": "268B590234B012A1BDF04067CA903436FB4C530D210CB0FBFEB3DBB998BD2268"
+            },
+            "added_id": 65007,
+            "raw_sha256": "950D966F17B23C39A09B785FC2FD3F4C70226FBAEA819181B009D75F05974BA2",
+            "graph": "root/50",
+            "json_sha256": "B3F0202B98900AC08E54CF382596F45A4250F8D1EA57B2843E804E5FC5070DDF",
+            "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\experiments\\future_owner_04\\sts_ep1_08_entry.NONPRODUCTION.questphase",
+            "quest_id": "sts_ep1_08",
+            "intended_depot": "towercontinued\\native_gigs_u9\\sts_ep1_08_entry.questphase",
+            "private_fact": "PTFRQR7_RonaldNews_Armed_sts_ep1_08",
+            "json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\experiments\\future_owner_04\\sts_ep1_08_entry.NONPRODUCTION.questphase.json"
+          }
+        ],
+        "specific_native_contract": {
+          "quest_id": "sts_ep1_08",
+          "done": 37,
+          "preclaim": 112,
+          "sent": 45,
+          "pause": 38,
+          "clock": 115,
+          "standalone": 126,
+          "normal_gate": 125,
+          "alternate_gate": 127,
+          "child": 39,
+          "release": 107,
+          "terminal_hub": 69
+        },
+        "stock_SMS": {
+          "depot": "ep1\\quest\\main_quests\\q302\\phases\\q302_msg_ronald_sts_ep1_08.questphase",
+          "predicates": [
+            {
+              "node": "22",
+              "reads": [
+                {
+                  "$type": "questJournalEntryState_ConditionType",
+                  "inverted": 0,
+                  "path": {
+                    "$type": "gameJournalPath",
+                    "className": {
+                      "$type": "CName",
+                      "$storage": "string",
+                      "$value": "gameJournalPhoneChoiceEntry"
+                    },
+                    "editorPath": "",
+                    "fileEntryIndex": 1,
+                    "realPath": "ep1/contacts/ronald/sts_ep1_08/03_ch_sts_ep1_08_reaction/03a_ch_sts_ep1_08_reaction"
+                  },
+                  "state": "Succeeded"
+                }
+              ]
+            },
+            {
+              "node": "23",
+              "reads": [
+                {
+                  "$type": "questJournalEntryState_ConditionType",
+                  "inverted": 0,
+                  "path": {
+                    "$type": "gameJournalPath",
+                    "className": {
+                      "$type": "CName",
+                      "$storage": "string",
+                      "$value": "gameJournalPhoneChoiceEntry"
+                    },
+                    "editorPath": "",
+                    "fileEntryIndex": 1,
+                    "realPath": "ep1/contacts/ronald/sts_ep1_08/03_ch_sts_ep1_08_reaction/03b_ch_sts_ep1_08_reaction"
+                  },
+                  "state": "Succeeded"
+                }
+              ]
+            }
+          ],
+          "notification_writers": [
+            {
+              "node": "20",
+              "journal_paths": [
+                "ep1/contacts/ronald/sts_ep1_08/01_msg_sts_ep1_08_ronald_greet"
+              ],
+              "notifications": [
+                0
+              ]
+            },
+            {
+              "node": "21",
+              "journal_paths": [
+                "ep1/contacts/ronald/sts_ep1_08/02_msg_sts_ep1_08_ronald_rumor"
+              ],
+              "notifications": [
+                0
+              ]
+            },
+            {
+              "node": "24",
+              "journal_paths": [
+                "ep1/contacts/ronald/sts_ep1_08/04a_msg_sts_ep1_08_ronald_reaction"
+              ],
+              "notifications": [
+                0
+              ]
+            },
+            {
+              "node": "25",
+              "journal_paths": [
+                "ep1/contacts/ronald/sts_ep1_08/04b_msg_sts_ep1_08_ronald_reaction"
+              ],
+              "notifications": [
+                0
+              ]
+            },
+            {
+              "node": "27",
+              "journal_paths": [
+                "ep1/contacts/ronald/sts_ep1_08/05_msg_sts_ep1_08_ronald_reaction"
+              ],
+              "notifications": [
+                0
+              ]
+            }
+          ],
+          "edges": [
+            [
+              "18",
+              "Out",
+              "20",
+              "Active"
+            ],
+            [
+              "20",
+              "Out",
+              "21",
+              "Active"
+            ],
+            [
+              "21",
+              "Out",
+              "30",
+              "Active"
+            ],
+            [
+              "22",
+              "Out",
+              "24",
+              "Active"
+            ],
+            [
+              "23",
+              "Out",
+              "25",
+              "Active"
+            ],
+            [
+              "24",
+              "Out",
+              "26",
+              "In1"
+            ],
+            [
+              "25",
+              "Out",
+              "26",
+              "In2"
+            ],
+            [
+              "26",
+              "Out1",
+              "27",
+              "Active"
+            ],
+            [
+              "27",
+              "Out",
+              "31",
+              "In1"
+            ],
+            [
+              "28",
+              "Out",
+              "29",
+              "In"
+            ],
+            [
+              "29",
+              "Out",
+              "31",
+              "In2"
+            ],
+            [
+              "30",
+              "Out",
+              "22",
+              "In"
+            ],
+            [
+              "30",
+              "Out",
+              "23",
+              "In"
+            ],
+            [
+              "30",
+              "Out",
+              "28",
+              "In"
+            ],
+            [
+              "31",
+              "Out1",
+              "32",
+              "In"
+            ],
+            [
+              "32",
+              "Out",
+              "19",
+              "In"
+            ]
+          ]
+        }
+      }
+    },
+    "effective_source_epoch": "QR7:04",
+    "source_epoch_manifest": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\source_epoch_04.json",
+    "source_epoch_sha256": "8B0D8249908A9D96CF5564C9581ED466C061350B96A4BEE767D744B01DE28A1F",
+    "coordinator_disposition_scope": "Current staged successor only. No deployment or gameplay success; prior source finding is preserved separately.",
+    "independent_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\reviews\\ronald_01\\verification_02\\review.json",
+    "independent_review_sha256": "96925D42960F5855CDC71A3E0CA24DA7E72310402D176A82C4DAC48094CA1AF4",
+    "final_gate_boundary": "Independent final package and completeness reviews are separate evidence pinned by completion.json; this matrix does not infer their outcome."
+  },
+  {
+    "quest_id": "sts_ep1_08",
+    "title": "Spy in the Jungle",
+    "stage": "shared_dependencies",
+    "status": "CONDITIONAL",
+    "disposition": "IMPLEMENTED_FUTURE_ARMED_EXISTING_SUBSCRIBER_ONLY_STATIC_REPAIR_WITH_EXPLICIT_BLOCKED_HISTORIES",
+    "proven": [
+      "Current native producer ep1\\openworld\\street_stories\\sts_ep1_08\\phases\\sts_ep1_08_phase.questphase root:314 writes sts_ep1_08_done=1; freshly extracted stock raw equals pinned vanilla 53A5DDCC3B7BA81C2315229C9E59F496F43DB66F7227E18A48AB7E0B70D3CF6F.",
+      "Native news root/11 listener37→preclaim112→sent45→pause38→game-delay115 preserves two game days; selector126 chooses normal125/alternate127, each token AND outside, then child39.",
+      "True child39.Out1→release107 native pause0→hub69 is retained. Native reply/timeout/outcome graph remains exact stock ep1\\quest\\main_quests\\q302\\phases\\q302_msg_ronald_sts_ep1_08.questphase; notification flags below are not normalized across cases.",
+      "Current B0 root/5 has no native news11/12; its saved scene enrollment1755 remains unreachable. This confirms the old missing-dependency finding; it does not contradict this gig's main Hands/Mark/Ana calls or earlier PH fixes.",
+      "Current QR7:04 contains the independently approved serialized04 future-event writer at existing towercontinued\\native_gigs_u9\\sts_ep1_08_entry.questphase root/50:65002.Out→new65007(positive QR7 Armed)→65003 ParentEntered. Entire old fresh-admission predicate and every old node/payload/socket/other graph remain unchanged.",
+      "Private branch gate checks native done0/sent0 and either ParentEntered0 or QR7 Armed1, then waits the actual Armed1 producer before the native done listener. Old ParentEntered1/Armed0 skips without native writes. Native sent1 and old elapsed clocks are never reset or adopted.",
+      "Current native quest-sector descriptor1995 leases #q302_pr_bar; exact area_02/closer are native nodes1/3, not an AlwaysLoaded marker. Private serialized marker04 filters75→2 actual trigger definitions, preserves complete outlines/notifiers and every144-byte placement except newglobalID and packed index. New child202 owns only this private prefab; loaded checks220 dominate every listener.",
+      "Native additional/persistent Ronald26 owner is beneath EP1 root/10 cut9→additional4; killed10 writes q307_ep1_killed only after the cut. New admission also retains completed Tower/session receipts; no original native owner is restarted.",
+      "Native Spy Ronald greeting20 has sendNotification0, unlike the other selected greetings; the integrated successor preserves it. Mark/Ana/Organitopia PH1/PH2/PH3 protocols and Spy outer64999 remain unchanged.",
+      "Coordinator promoted the exact seven peer-reviewed serialized payloads, freshly read back their complete models/packed bytes, appended one phase registration19913 and one two-trigger block, and rebuilt/read back every final archive member. Original Ronald/B0 scene and main gig bodies remain unchanged."
+    ],
+    "approved_differences": [
+      "Private prospective owner replaces the retired news11/12 for four selected jobs only; original fluff branches are excluded and its terminal AND has four inputs. Real new Armed signals gate fresh events. Exact native selected payloads, timers, outcomes, SMS journal identities and notification flags remain.",
+      "Only two original native triggers/shapes/transforms are rehomed under one private descriptor/global hierarchy. No whole-bar owner or contact/enrollment bootstrap is cloned."
+    ],
+    "remaining": [
+      "STATIC_BLOCKED_HISTORY: already-entered jobs without QR7 Armed, native done1/sent1 or ambiguous pending clocks are deliberately skipped; no native counter, sent flag or elapsed timer is reset. Old native saved-owner retirement beyond observable gates is not proved.",
+      "STATIC_BLOCKED_ENROLLMENT: a genuine preexisting q302_ronald_messages_enabled and active native Ronald contact are required. B0 enrollment1755 remains unreachable; first contact/new subscription is not repaired. Exact complete dialogue/contact/owner lifecycle evidence and safe saved-state transition are required before extending scope.",
+      "LIVE_ONLY: private two-trigger streaming/lease acquisition/release, occupancy, concurrent scheduling, two-game-day persistence, actual SMS rendering/delivery, interruption and cold reload remain untested.",
+      "BOUNDED_NAMESPACE: all current archive depot keys and all installed target-root XL IDs were checked. A whole native/external world-global collision census was not performed. Preserved sourcePrefabHash metadata is not itself proof of runtime lease behavior."
+    ],
+    "evidence": [
+      {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\future_check_02\\evidence.json",
+        "sha256": "9A895A41C8820FE80E933D84C2AD61641C6B95D7D2CA3DF755CF305D5AD7927F"
+      },
+      {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\bar_check_02\\evidence.json",
+        "sha256": "CC5455F55DE2FBF3B8419428E2E01D19CDF92302055A9757FFC1ADFC60EF9EB6"
+      },
+      {
+        "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\ep1\\ep1_2_gamedata.archive",
+        "quest_id": "sts_ep1_08",
+        "graph": "root",
+        "pinned_old_raw_sha256": "53A5DDCC3B7BA81C2315229C9E59F496F43DB66F7227E18A48AB7E0B70D3CF6F",
+        "node": "314",
+        "json_sha256": "A9C9D3831BA5842FC6CDCAAA83CC3773EFD2FEF6EBD1ED0DA380B83F9F48773A",
+        "archive_sha256": "A4230703FEC1AD4BAFCE639F79178ACDFE6D107BC062A005B2C182291F2DE4B8",
+        "depot": "ep1\\openworld\\street_stories\\sts_ep1_08\\phases\\sts_ep1_08_phase.questphase",
+        "pinned_old_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\diagnostics\\restored_audit_20261025_01\\native_01\\914412233063348923.questphase",
+        "current_matches_pinned": true,
+        "json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\producer_readback_01\\producer_2.questphase.json",
+        "raw_sha256": "53A5DDCC3B7BA81C2315229C9E59F496F43DB66F7227E18A48AB7E0B70D3CF6F",
+        "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\producer_readback_01\\producer_2.questphase",
+        "incoming": [
+          [
+            "312",
+            "Out",
+            "314",
+            "In"
+          ]
+        ],
+        "outgoing": [
+          [
+            "314",
+            "Out",
+            "326",
+            "In"
+          ]
+        ]
+      },
+      {
+        "source": {
+          "depot": "towercontinued\\native_gigs_u9\\sts_ep1_08_entry.questphase",
+          "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\candidate_03\\archive_source\\towercontinued\\native_gigs_u9\\sts_ep1_08_entry.questphase",
+          "raw_sha256": "5D1FE58F41739C231B5006FF134EB78207FC879B9AB8652FADE69899242C2F62",
+          "json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\diagnostics\\vanilla_parity_20261029_01\\raw\\zzzz_PTFR_Combined\\towercontinued\\native_gigs_u9\\sts_ep1_08_entry.questphase.json",
+          "json_sha256": "268B590234B012A1BDF04067CA903436FB4C530D210CB0FBFEB3DBB998BD2268"
+        },
+        "added_id": 65007,
+        "raw_sha256": "950D966F17B23C39A09B785FC2FD3F4C70226FBAEA819181B009D75F05974BA2",
+        "graph": "root/50",
+        "json_sha256": "B3F0202B98900AC08E54CF382596F45A4250F8D1EA57B2843E804E5FC5070DDF",
+        "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\experiments\\future_owner_04\\sts_ep1_08_entry.NONPRODUCTION.questphase",
+        "quest_id": "sts_ep1_08",
+        "intended_depot": "towercontinued\\native_gigs_u9\\sts_ep1_08_entry.questphase",
+        "private_fact": "PTFRQR7_RonaldNews_Armed_sts_ep1_08",
+        "json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\experiments\\future_owner_04\\sts_ep1_08_entry.NONPRODUCTION.questphase.json"
+      },
+      {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\candidate_01\\package_manifest.json",
+        "sha256": "98F4D1C1E109846E4D85CF0657A5B835D4542890BE3DE183494A670FD10A2279"
+      },
+      {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\candidate_01\\rebuild_01.json",
+        "sha256": "D2C17AD7A9BCCF8A0DFB4291E208742928104BD42A470DE8380B0223D65481C1"
+      },
+      {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\compile_reuse_01.json",
+        "sha256": "2E67E541D0EF98FE03F40BEF77EF0BAC95AB1F5340DED60FF873A1D3D34D9227"
+      },
+      {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\source_epoch_04.json",
+        "sha256": "8B0D8249908A9D96CF5564C9581ED466C061350B96A4BEE767D744B01DE28A1F"
+      },
+      {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\reviews\\ronald_01\\verification_02\\review.json",
+        "sha256": "96925D42960F5855CDC71A3E0CA24DA7E72310402D176A82C4DAC48094CA1AF4"
+      },
+      {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_a\\reviews\\ronald_namespace_03\\evidence.json",
+        "sha256": "89E8ECC5F258D26ED1FC65F3508452DF898D0C093FA20A5ABBC376A4C373123A"
+      },
+      {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\findings_addendum_01\\addendum.json",
+        "sha256": "D6F243B08D3060832CEB6D97274CD51C2051509D3DC6B6A597F80B43FD74B283"
+      },
+      {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\future_check_04\\evidence.json",
+        "sha256": "ABDAF47FFB72DA3C74152B969B15F466C6F8DD3DC9829F73B874A8817806730C"
+      },
+      {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\candidate_01\\repair_ronald_01\\verification.json",
+        "sha256": "C4E861F5D82B918FDC51EC36984CAEFFBC3A6594091234F53257F2C6D3C2227A"
+      }
+    ],
+    "specific_native_contract": {
+      "quest_id": "sts_ep1_08",
+      "done": 37,
+      "preclaim": 112,
+      "sent": 45,
+      "pause": 38,
+      "clock": 115,
+      "standalone": 126,
+      "normal_gate": 125,
+      "alternate_gate": 127,
+      "child": 39,
+      "release": 107,
+      "terminal_hub": 69
+    },
+    "stock_SMS": {
+      "depot": "ep1\\quest\\main_quests\\q302\\phases\\q302_msg_ronald_sts_ep1_08.questphase",
+      "predicates": [
+        {
+          "node": "22",
+          "reads": [
+            {
+              "$type": "questJournalEntryState_ConditionType",
+              "inverted": 0,
+              "path": {
+                "$type": "gameJournalPath",
+                "className": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "gameJournalPhoneChoiceEntry"
+                },
+                "editorPath": "",
+                "fileEntryIndex": 1,
+                "realPath": "ep1/contacts/ronald/sts_ep1_08/03_ch_sts_ep1_08_reaction/03a_ch_sts_ep1_08_reaction"
+              },
+              "state": "Succeeded"
+            }
+          ]
+        },
+        {
+          "node": "23",
+          "reads": [
+            {
+              "$type": "questJournalEntryState_ConditionType",
+              "inverted": 0,
+              "path": {
+                "$type": "gameJournalPath",
+                "className": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "gameJournalPhoneChoiceEntry"
+                },
+                "editorPath": "",
+                "fileEntryIndex": 1,
+                "realPath": "ep1/contacts/ronald/sts_ep1_08/03_ch_sts_ep1_08_reaction/03b_ch_sts_ep1_08_reaction"
+              },
+              "state": "Succeeded"
+            }
+          ]
+        }
+      ],
+      "notification_writers": [
+        {
+          "node": "20",
+          "journal_paths": [
+            "ep1/contacts/ronald/sts_ep1_08/01_msg_sts_ep1_08_ronald_greet"
+          ],
+          "notifications": [
+            0
+          ]
+        },
+        {
+          "node": "21",
+          "journal_paths": [
+            "ep1/contacts/ronald/sts_ep1_08/02_msg_sts_ep1_08_ronald_rumor"
+          ],
+          "notifications": [
+            0
+          ]
+        },
+        {
+          "node": "24",
+          "journal_paths": [
+            "ep1/contacts/ronald/sts_ep1_08/04a_msg_sts_ep1_08_ronald_reaction"
+          ],
+          "notifications": [
+            0
+          ]
+        },
+        {
+          "node": "25",
+          "journal_paths": [
+            "ep1/contacts/ronald/sts_ep1_08/04b_msg_sts_ep1_08_ronald_reaction"
+          ],
+          "notifications": [
+            0
+          ]
+        },
+        {
+          "node": "27",
+          "journal_paths": [
+            "ep1/contacts/ronald/sts_ep1_08/05_msg_sts_ep1_08_ronald_reaction"
+          ],
+          "notifications": [
+            0
+          ]
+        }
+      ],
+      "edges": [
+        [
+          "18",
+          "Out",
+          "20",
+          "Active"
+        ],
+        [
+          "20",
+          "Out",
+          "21",
+          "Active"
+        ],
+        [
+          "21",
+          "Out",
+          "30",
+          "Active"
+        ],
+        [
+          "22",
+          "Out",
+          "24",
+          "Active"
+        ],
+        [
+          "23",
+          "Out",
+          "25",
+          "Active"
+        ],
+        [
+          "24",
+          "Out",
+          "26",
+          "In1"
+        ],
+        [
+          "25",
+          "Out",
+          "26",
+          "In2"
+        ],
+        [
+          "26",
+          "Out1",
+          "27",
+          "Active"
+        ],
+        [
+          "27",
+          "Out",
+          "31",
+          "In1"
+        ],
+        [
+          "28",
+          "Out",
+          "29",
+          "In"
+        ],
+        [
+          "29",
+          "Out",
+          "31",
+          "In2"
+        ],
+        [
+          "30",
+          "Out",
+          "22",
+          "In"
+        ],
+        [
+          "30",
+          "Out",
+          "23",
+          "In"
+        ],
+        [
+          "30",
+          "Out",
+          "28",
+          "In"
+        ],
+        [
+          "31",
+          "Out1",
+          "32",
+          "In"
+        ],
+        [
+          "32",
+          "Out",
+          "19",
+          "In"
+        ]
+      ]
+    },
+    "original_QR6_status": "FAIL",
+    "superseded_QR6_finding": {
+      "status": "FAIL",
+      "proven": [
+        "Native phone listeners, real ACKs, effective master cleanup, PH3 studios, original native bugfixes/cleanup and current Steven addition are separately owned/source-pinned. Standalone contact cleanup resources differ from the actual original global cleanup donor and are not silently substituted.",
+        "Eight group-wide unlisted terminal/debrief facts and exact per-quest omitted journal references remain visible. Katya stash history and future Steven/Bill-style consequences are not certified from a generic full-job label.",
+        "Main native gig body, ordinary calls, actual real ACKs, cleanup and prior source-specific checks remain valid. This failure concerns the separate optional Ronald post-gig news dependency. In particular, Spy Mark/Ana phone and door source proofs are not contradicted.",
+        "Native q302_ronald_tree root/11 done-wait37 reaches sent-writer45 (q302_msg_ronald_sts_ep1_08), native two-game-day delivery node115 and original news child39. Exact preclaim real-time pauses, standalone/token/area gates, real reply/outcome/timeout and pause-release edges are pinned in the family map; no compact route omits their distinct units.",
+        "Genuine pre-Tower q302_done/tree/messages_enabled positive enrollment, native sent0 and a new preserved gig done1 event give an explicit source counterexample. Original ending cut retires additional/persistent native Ronald owner; current B0 omits11/12, its old enrollment writer is unreachable, and indexed private owners/package scripts provide no replacement. Old service-only B0 scope is not an approved exception to selected-gig news parity."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Original gameplay dangling handles, saved subquest/cleanup owners, physical world targets and live callback order remain unresolved; no blanket static/gameplay certification.",
+        "CONFIRMED_BLOCKED_REPAIR: Native root owns #q302_pr_bar; controller11 and SMS children have no physical scene/PIP, but entry area_02_closer and delivery area_02 predicates need an exact host-marker lease. Current B0 outer/nested root has no such lease and pre-dispatch OwnerActive is not acquisition proof. No claim is made that placed markers are absent.",
+        "SAVED_TIMER_SCOPE: Sent1 precedes the two-game-day delay and may mean pending or delivered. A fresh-event/sent0/enrolled1 adapter might avoid old timers but still needs source-approved shared pause cancellation/rearm, five-way terminal AND and real response cleanup isolation. No reset, fake sent/enrollment, whole11/fluff replay or unfiltered bar/root import approved."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\admission.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\verification_03\\bindings.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\caller_protocols.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\typed_phone_actions.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\explicit_omissions.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\protocols_01\\bugfix_scopes.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\ronald_verification_02\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\reviews\\RONALD\\verification_05\\review.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\reviews\\RONALD\\verification_05\\family_map.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\shared\\ronald_family_inventory_01.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_b\\G21.json"
+      ],
+      "pre_ronald_status": "CONDITIONAL",
+      "pre_ronald_proven": [
+        "Native phone listeners, real ACKs, effective master cleanup, PH3 studios, original native bugfixes/cleanup and current Steven addition are separately owned/source-pinned. Standalone contact cleanup resources differ from the actual original global cleanup donor and are not silently substituted.",
+        "Eight group-wide unlisted terminal/debrief facts and exact per-quest omitted journal references remain visible. Katya stash history and future Steven/Bill-style consequences are not certified from a generic full-job label."
+      ],
+      "defect": "QR5-RONALD-POST-GIG-NEWS-OWNER",
+      "repair_status": "BLOCKED_EXACT_BAR_MARKER_LEASE_SHARED_PAUSE_AND_SAVED_TIMER_SCOPE",
+      "native_external_branch": {
+        "controller": "ep1\\quest\\main_quests\\q302\\phases\\q302_ronald_tree.questphase",
+        "graph": "root/11",
+        "phase_node": "39",
+        "phase_resource": "ep1\\quest\\main_quests\\q302\\phases\\q302_msg_ronald_sts_ep1_08.questphase",
+        "selected_quest_id": "sts_ep1_08",
+        "in_selected_catalogue": true,
+        "existing_group": "G19",
+        "already_deep_at_capture": true,
+        "scope": "SELECTED_POST_GIG_DEPENDENCY",
+        "done_wait": 37,
+        "preclaim_realtime_delay": 112,
+        "native_sent_writer": 45,
+        "native_sent_fact": "q302_msg_ronald_sts_ep1_08",
+        "native_pause_claim": 38,
+        "delivery_game_delay": 115,
+        "standalone_predicate": 126,
+        "normal_token_area_wait": 125,
+        "standalone_area_wait": 127,
+        "pause_release": 107,
+        "SMS_reply_nodes": [
+          "22",
+          "23"
+        ],
+        "SMS_outcome_predicates": [],
+        "affected_contracts": [
+          "communications",
+          "shared_dependencies"
+        ],
+        "status": "FAIL_CONFIRMED_MISSING_POST_GIG_DEPENDENCY",
+        "repair_status": "BLOCKED_EXACT_HOST_MARKER_LEASE_AND_SAFE_DISPATCH_SCOPE_NOT_PROVEN"
+      },
+      "effective_source_epoch": "QR5:08",
+      "central_adjudication": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\adjudications\\ronald_01.json",
+      "original_findings_source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\quests\\sts_ep1_08\\contracts.json",
+      "original_findings_source_sha256": "58E8CE771260D0C6A03F6DFBFA09C26C1C9154C0C523A361DA2520B218F8A102",
+      "findings_source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\quests\\sts_ep1_08\\contracts.json",
+      "findings_source_sha256": "58E8CE771260D0C6A03F6DFBFA09C26C1C9154C0C523A361DA2520B218F8A102",
+      "source_epoch_investigated": "QR5:05",
+      "independent_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\reviews\\G19\\verification_04\\review.json",
+      "independent_review_sha256": "B030261D1CD42F99543F526F558FB9A56592DC24B5734F103201CAF757D6A168"
+    },
+    "worker_finding": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\findings_01\\contract_dispositions.json",
+      "sha256": "48ABAF3C417C01AFEF9171A37879BBBEB2DB0F11E32F896E65CEF6EF79967ABE",
+      "original_record": {
+        "quest_id": "sts_ep1_08",
+        "title": "Spy in the Jungle",
+        "stage": "shared_dependencies",
+        "status": "FAIL",
+        "disposition": "CONFIRMED_BASELINE_GAP_WITH_SERIALIZED_FUTURE_REPAIR_PROPOSED_PENDING_INDEPENDENT_AND_COORDINATOR_GATES",
+        "proposed_disposition_if_accepted": "CONDITIONAL_FUTURE_EVENT_SCOPE_ONLY",
+        "proven": [
+          "Current native producer ep1\\openworld\\street_stories\\sts_ep1_08\\phases\\sts_ep1_08_phase.questphase root:314 writes sts_ep1_08_done=1; freshly extracted stock raw equals pinned vanilla 53A5DDCC3B7BA81C2315229C9E59F496F43DB66F7227E18A48AB7E0B70D3CF6F.",
+          "Native news root/11 listener37→preclaim112→sent45→pause38→game-delay115 preserves two game days; selector126 chooses normal125/alternate127, each token AND outside, then child39.",
+          "True child39.Out1→release107 native pause0→hub69 is retained. Native reply/timeout/outcome graph remains exact stock ep1\\quest\\main_quests\\q302\\phases\\q302_msg_ronald_sts_ep1_08.questphase; notification flags below are not normalized across cases.",
+          "Current B0 root/5 has no native news11/12; its saved scene enrollment1755 remains unreachable. This confirms the old missing-dependency finding; it does not contradict this gig's main Hands/Mark/Ana calls or earlier PH fixes.",
+          "Private serialized04 proposes an actual new future-event writer at existing towercontinued\\native_gigs_u9\\sts_ep1_08_entry.questphase root/50:65002.Out→new65007(positive QR7 Armed)→65003 ParentEntered. Entire old fresh-admission predicate and every old node/payload/socket/other graph remain unchanged.",
+          "Private branch gate checks native done0/sent0 and either ParentEntered0 or QR7 Armed1, then waits the actual Armed1 producer before the native done listener. Old ParentEntered1/Armed0 skips without native writes. Native sent1 and old elapsed clocks are never reset or adopted.",
+          "Current native quest-sector descriptor1995 leases #q302_pr_bar; exact area_02/closer are native nodes1/3, not an AlwaysLoaded marker. Private serialized marker04 filters75→2 actual trigger definitions, preserves complete outlines/notifiers and every144-byte placement except newglobalID and packed index. New child202 owns only this private prefab; loaded checks220 dominate every listener.",
+          "Native additional/persistent Ronald26 owner is beneath EP1 root/10 cut9→additional4; killed10 writes q307_ep1_killed only after the cut. New admission also retains completed Tower/session receipts; no original native owner is restarted.",
+          "Native Spy Ronald greeting20 has sendNotification0, unlike the other selected greetings; the proposal deliberately preserves it. Mark/Ana/Organitopia PH1/PH2/PH3 protocols and Spy outer64999 remain unchanged."
+        ],
+        "approved_differences": [],
+        "remaining": [
+          "The canonical candidate has not yet integrated this private proposal; current8 FAILs are not cleared by a nonproduction readback.",
+          "Earlier done1/sent1/native-clock states and entered jobs without QR7 Armed history remain deferred. Missing enrollment/contact evidence is not manufactured; current hidden enrollment dialogue is unchanged.",
+          "Independent source review, effective provider/namespace/registration checks and coordinator final package preservation remain required.",
+          "Actual queue ordering, streaming, notification display, interrupts and cold reload remain LIVE_ONLY."
+        ],
+        "evidence": [
+          {
+            "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\future_check_02\\evidence.json",
+            "sha256": "9A895A41C8820FE80E933D84C2AD61641C6B95D7D2CA3DF755CF305D5AD7927F"
+          },
+          {
+            "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\bar_check_02\\evidence.json",
+            "sha256": "CC5455F55DE2FBF3B8419428E2E01D19CDF92302055A9757FFC1ADFC60EF9EB6"
+          },
+          {
+            "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\ep1\\ep1_2_gamedata.archive",
+            "quest_id": "sts_ep1_08",
+            "graph": "root",
+            "pinned_old_raw_sha256": "53A5DDCC3B7BA81C2315229C9E59F496F43DB66F7227E18A48AB7E0B70D3CF6F",
+            "node": "314",
+            "json_sha256": "A9C9D3831BA5842FC6CDCAAA83CC3773EFD2FEF6EBD1ED0DA380B83F9F48773A",
+            "archive_sha256": "A4230703FEC1AD4BAFCE639F79178ACDFE6D107BC062A005B2C182291F2DE4B8",
+            "depot": "ep1\\openworld\\street_stories\\sts_ep1_08\\phases\\sts_ep1_08_phase.questphase",
+            "pinned_old_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\diagnostics\\restored_audit_20261025_01\\native_01\\914412233063348923.questphase",
+            "current_matches_pinned": true,
+            "json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\producer_readback_01\\producer_2.questphase.json",
+            "raw_sha256": "53A5DDCC3B7BA81C2315229C9E59F496F43DB66F7227E18A48AB7E0B70D3CF6F",
+            "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\producer_readback_01\\producer_2.questphase",
+            "incoming": [
+              [
+                "312",
+                "Out",
+                "314",
+                "In"
+              ]
+            ],
+            "outgoing": [
+              [
+                "314",
+                "Out",
+                "326",
+                "In"
+              ]
+            ]
+          },
+          {
+            "source": {
+              "depot": "towercontinued\\native_gigs_u9\\sts_ep1_08_entry.questphase",
+              "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\candidate_03\\archive_source\\towercontinued\\native_gigs_u9\\sts_ep1_08_entry.questphase",
+              "raw_sha256": "5D1FE58F41739C231B5006FF134EB78207FC879B9AB8652FADE69899242C2F62",
+              "json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\diagnostics\\vanilla_parity_20261029_01\\raw\\zzzz_PTFR_Combined\\towercontinued\\native_gigs_u9\\sts_ep1_08_entry.questphase.json",
+              "json_sha256": "268B590234B012A1BDF04067CA903436FB4C530D210CB0FBFEB3DBB998BD2268"
+            },
+            "added_id": 65007,
+            "raw_sha256": "950D966F17B23C39A09B785FC2FD3F4C70226FBAEA819181B009D75F05974BA2",
+            "graph": "root/50",
+            "json_sha256": "B3F0202B98900AC08E54CF382596F45A4250F8D1EA57B2843E804E5FC5070DDF",
+            "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\experiments\\future_owner_04\\sts_ep1_08_entry.NONPRODUCTION.questphase",
+            "quest_id": "sts_ep1_08",
+            "intended_depot": "towercontinued\\native_gigs_u9\\sts_ep1_08_entry.questphase",
+            "private_fact": "PTFRQR7_RonaldNews_Armed_sts_ep1_08",
+            "json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\experiments\\future_owner_04\\sts_ep1_08_entry.NONPRODUCTION.questphase.json"
+          }
+        ],
+        "specific_native_contract": {
+          "quest_id": "sts_ep1_08",
+          "done": 37,
+          "preclaim": 112,
+          "sent": 45,
+          "pause": 38,
+          "clock": 115,
+          "standalone": 126,
+          "normal_gate": 125,
+          "alternate_gate": 127,
+          "child": 39,
+          "release": 107,
+          "terminal_hub": 69
+        },
+        "stock_SMS": {
+          "depot": "ep1\\quest\\main_quests\\q302\\phases\\q302_msg_ronald_sts_ep1_08.questphase",
+          "predicates": [
+            {
+              "node": "22",
+              "reads": [
+                {
+                  "$type": "questJournalEntryState_ConditionType",
+                  "inverted": 0,
+                  "path": {
+                    "$type": "gameJournalPath",
+                    "className": {
+                      "$type": "CName",
+                      "$storage": "string",
+                      "$value": "gameJournalPhoneChoiceEntry"
+                    },
+                    "editorPath": "",
+                    "fileEntryIndex": 1,
+                    "realPath": "ep1/contacts/ronald/sts_ep1_08/03_ch_sts_ep1_08_reaction/03a_ch_sts_ep1_08_reaction"
+                  },
+                  "state": "Succeeded"
+                }
+              ]
+            },
+            {
+              "node": "23",
+              "reads": [
+                {
+                  "$type": "questJournalEntryState_ConditionType",
+                  "inverted": 0,
+                  "path": {
+                    "$type": "gameJournalPath",
+                    "className": {
+                      "$type": "CName",
+                      "$storage": "string",
+                      "$value": "gameJournalPhoneChoiceEntry"
+                    },
+                    "editorPath": "",
+                    "fileEntryIndex": 1,
+                    "realPath": "ep1/contacts/ronald/sts_ep1_08/03_ch_sts_ep1_08_reaction/03b_ch_sts_ep1_08_reaction"
+                  },
+                  "state": "Succeeded"
+                }
+              ]
+            }
+          ],
+          "notification_writers": [
+            {
+              "node": "20",
+              "journal_paths": [
+                "ep1/contacts/ronald/sts_ep1_08/01_msg_sts_ep1_08_ronald_greet"
+              ],
+              "notifications": [
+                0
+              ]
+            },
+            {
+              "node": "21",
+              "journal_paths": [
+                "ep1/contacts/ronald/sts_ep1_08/02_msg_sts_ep1_08_ronald_rumor"
+              ],
+              "notifications": [
+                0
+              ]
+            },
+            {
+              "node": "24",
+              "journal_paths": [
+                "ep1/contacts/ronald/sts_ep1_08/04a_msg_sts_ep1_08_ronald_reaction"
+              ],
+              "notifications": [
+                0
+              ]
+            },
+            {
+              "node": "25",
+              "journal_paths": [
+                "ep1/contacts/ronald/sts_ep1_08/04b_msg_sts_ep1_08_ronald_reaction"
+              ],
+              "notifications": [
+                0
+              ]
+            },
+            {
+              "node": "27",
+              "journal_paths": [
+                "ep1/contacts/ronald/sts_ep1_08/05_msg_sts_ep1_08_ronald_reaction"
+              ],
+              "notifications": [
+                0
+              ]
+            }
+          ],
+          "edges": [
+            [
+              "18",
+              "Out",
+              "20",
+              "Active"
+            ],
+            [
+              "20",
+              "Out",
+              "21",
+              "Active"
+            ],
+            [
+              "21",
+              "Out",
+              "30",
+              "Active"
+            ],
+            [
+              "22",
+              "Out",
+              "24",
+              "Active"
+            ],
+            [
+              "23",
+              "Out",
+              "25",
+              "Active"
+            ],
+            [
+              "24",
+              "Out",
+              "26",
+              "In1"
+            ],
+            [
+              "25",
+              "Out",
+              "26",
+              "In2"
+            ],
+            [
+              "26",
+              "Out1",
+              "27",
+              "Active"
+            ],
+            [
+              "27",
+              "Out",
+              "31",
+              "In1"
+            ],
+            [
+              "28",
+              "Out",
+              "29",
+              "In"
+            ],
+            [
+              "29",
+              "Out",
+              "31",
+              "In2"
+            ],
+            [
+              "30",
+              "Out",
+              "22",
+              "In"
+            ],
+            [
+              "30",
+              "Out",
+              "23",
+              "In"
+            ],
+            [
+              "30",
+              "Out",
+              "28",
+              "In"
+            ],
+            [
+              "31",
+              "Out1",
+              "32",
+              "In"
+            ],
+            [
+              "32",
+              "Out",
+              "19",
+              "In"
+            ]
+          ]
+        }
+      }
+    },
+    "effective_source_epoch": "QR7:04",
+    "source_epoch_manifest": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\source_epoch_04.json",
+    "source_epoch_sha256": "8B0D8249908A9D96CF5564C9581ED466C061350B96A4BEE767D744B01DE28A1F",
+    "coordinator_disposition_scope": "Current staged successor only. No deployment or gameplay success; prior source finding is preserved separately.",
+    "independent_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\reviews\\ronald_01\\verification_02\\review.json",
+    "independent_review_sha256": "96925D42960F5855CDC71A3E0CA24DA7E72310402D176A82C4DAC48094CA1AF4",
+    "final_gate_boundary": "Independent final package and completeness reviews are separate evidence pinned by completion.json; this matrix does not infer their outcome."
+  }
+]

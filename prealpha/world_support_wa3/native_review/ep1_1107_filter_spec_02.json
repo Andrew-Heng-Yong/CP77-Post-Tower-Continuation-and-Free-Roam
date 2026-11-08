@@ -1,0 +1,139 @@
+{
+  "id": 1107,
+  "native_prefab": "$/03_night_city/c_pacifica/combat_zone_prefabUEX7DCY/container_zone_prefab4PZIADQ/sts_ep1_04_prefabOELKBMI/sts_ep1_04_openworld_prefabKAXRGCI/#sts_ep1_04_combat",
+  "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\ep1\\quest_0fcc0d951120e13b.streamingsector",
+  "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\ep1_prefab_native_03\\ep1_1_nightcity.archive\\base\\worlds\\03_night_city\\_compiled\\default\\ep1\\quest_0fcc0d951120e13b.streamingsector",
+  "sector_sha256": "6DA4AD344B99C639323C39F449136D19BE26CE2C0328C9F5E3B3057003E7EEC5",
+  "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\ep1_prefab_decoded_01\\base\\worlds\\03_night_city\\_compiled\\default\\ep1\\quest_0fcc0d951120e13b.streamingsector.json",
+  "native_block_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\ep1_block_native_01\\ep1_1_nightcity.archive\\base\\worlds\\03_night_city\\_compiled\\default\\ep1\\blocks\\all.streamingblock",
+  "native_block_sha256": "4F17762B48D9F5019228B1BF930558A9CC1E7C365E7002725D670A23585215B9",
+  "native_descriptor_index": 1834,
+  "native_descriptor": {
+    "$type": "worldStreamingSectorDescriptor",
+    "blockIndex": {
+      "$type": "worldStreamingBlockIndex",
+      "oup": "EP1",
+      "rldGridCell": 0
+    },
+    "category": "Quest",
+    "data": {
+      "DepotPath": {
+        "$type": "ResourcePath",
+        "$storage": "string",
+        "$value": "base\\worlds\\03_night_city\\_compiled\\default\\ep1\\quest_0fcc0d951120e13b.streamingsector"
+      },
+      "Flags": "Soft"
+    },
+    "level": 0,
+    "numNodeRanges": 1,
+    "questPrefabNodeRef": {
+      "$type": "NodeRef",
+      "$storage": "string",
+      "$value": "$/03_night_city/c_pacifica/combat_zone_prefabUEX7DCY/container_zone_prefab4PZIADQ/sts_ep1_04_prefabOELKBMI/sts_ep1_04_openworld_prefabKAXRGCI/#sts_ep1_04_combat"
+    },
+    "streamingBox": {
+      "$type": "Box",
+      "Max": {
+        "$type": "Vector4",
+        "W": 3.40282347e+38,
+        "X": 3.40282347e+38,
+        "Y": 3.40282347e+38,
+        "Z": 3.40282347e+38
+      },
+      "Min": {
+        "$type": "Vector4",
+        "W": -3.40282347e+38,
+        "X": -3.40282347e+38,
+        "Y": -3.40282347e+38,
+        "Z": -3.40282347e+38
+      }
+    },
+    "variants": []
+  },
+  "drop_nodes": [
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113
+  ],
+  "drop_types": [
+    "worldTriggerAreaNode",
+    "worldTriggerAreaNode",
+    "worldTriggerAreaNode",
+    "worldTriggerAreaNode",
+    "worldTriggerAreaNode",
+    "worldTriggerAreaNode",
+    "worldTriggerAreaNode",
+    "worldTriggerAreaNode",
+    "worldTriggerAreaNode",
+    "worldTriggerAreaNode",
+    "worldTriggerAreaNode"
+  ],
+  "drop_placements": [
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113
+  ],
+  "retained_nodes": 113,
+  "preserve_ai_spots": 93,
+  "preserve_disabled_preview_spawners": 0,
+  "remaining_references_to_removed": [],
+  "removed_quest_trigger_refs": [
+    "$/03_night_city/c_pacifica/combat_zone_prefabUEX7DCY/container_zone_prefab4PZIADQ/sts_ep1_04_prefabOELKBMI/sts_ep1_04_openworld_prefabKAXRGCI/#sts_ep1_04_combat/#sts_ep1_04_tr_entrance_trigger_001",
+    "$/03_night_city/c_pacifica/combat_zone_prefabUEX7DCY/container_zone_prefab4PZIADQ/sts_ep1_04_prefabOELKBMI/sts_ep1_04_openworld_prefabKAXRGCI/#sts_ep1_04_combat/#sts_ep1_04_tr_upper_02",
+    "$/03_night_city/c_pacifica/combat_zone_prefabUEX7DCY/container_zone_prefab4PZIADQ/sts_ep1_04_prefabOELKBMI/sts_ep1_04_openworld_prefabKAXRGCI/#sts_ep1_04_combat/#sts_ep1_04_tr_lower_goon_006",
+    "$/03_night_city/c_pacifica/combat_zone_prefabUEX7DCY/container_zone_prefab4PZIADQ/sts_ep1_04_prefabOELKBMI/sts_ep1_04_openworld_prefabKAXRGCI/#sts_ep1_04_combat/#sts_ep1_04_tr_guard_009",
+    "$/03_night_city/c_pacifica/combat_zone_prefabUEX7DCY/container_zone_prefab4PZIADQ/sts_ep1_04_prefabOELKBMI/sts_ep1_04_openworld_prefabKAXRGCI/#sts_ep1_04_combat/#sts_ep1_04_tr_upper_2nd_room",
+    "$/03_night_city/c_pacifica/combat_zone_prefabUEX7DCY/container_zone_prefab4PZIADQ/sts_ep1_04_prefabOELKBMI/sts_ep1_04_openworld_prefabKAXRGCI/#sts_ep1_04_combat/#sts_ep1_04_tr_balcony_sniper",
+    "$/03_night_city/c_pacifica/combat_zone_prefabUEX7DCY/container_zone_prefab4PZIADQ/sts_ep1_04_prefabOELKBMI/sts_ep1_04_openworld_prefabKAXRGCI/#sts_ep1_04_combat/#sts_ep1_04_tr_sidepath",
+    "$/03_night_city/c_pacifica/combat_zone_prefabUEX7DCY/container_zone_prefab4PZIADQ/sts_ep1_04_prefabOELKBMI/sts_ep1_04_openworld_prefabKAXRGCI/#sts_ep1_04_combat/#sts_ep1_04_tr_loot_room",
+    "$/03_night_city/c_pacifica/combat_zone_prefabUEX7DCY/container_zone_prefab4PZIADQ/sts_ep1_04_prefabOELKBMI/sts_ep1_04_openworld_prefabKAXRGCI/#sts_ep1_04_combat/#sts_ep1_04_tr_secret_loot_room",
+    "$/03_night_city/c_pacifica/combat_zone_prefabUEX7DCY/container_zone_prefab4PZIADQ/sts_ep1_04_prefabOELKBMI/sts_ep1_04_openworld_prefabKAXRGCI/#sts_ep1_04_combat/#sts_ep1_04_tr_elevator_upper",
+    "$/03_night_city/c_pacifica/combat_zone_prefabUEX7DCY/container_zone_prefab4PZIADQ/sts_ep1_04_prefabOELKBMI/sts_ep1_04_openworld_prefabKAXRGCI/#sts_ep1_04_combat/#sts_ep1_04_tr_middle_catwalk"
+  ],
+  "retained_types": {
+    "worldAISpotNode": 93,
+    "worldPatrolSplineNode": 10,
+    "worldGuardAreaNode": 10
+  },
+  "reason": "Retain exact passive NPCworkspots/guard/patrol support; omit native quest encounter/stage/respawn triggernotifiers, so rehost cannotnotify survivingquestowners. No retainedpayload depends on removedtargets. HighPeak additionallyomits12lore/thanksconversations+2attractors.",
+  "checks": [
+    {
+      "name": "retained native workspots",
+      "pass": true
+    },
+    {
+      "name": "no retained ref to removed node",
+      "pass": true
+    },
+    {
+      "name": "no population/device entity nodes in retained",
+      "pass": true
+    },
+    {
+      "name": "all removed trigger nodes carry Quest notifier",
+      "pass": true
+    },
+    {
+      "name": "no retained raw questtrigger nodes",
+      "pass": true
+    }
+  ],
+  "game_writes": 0,
+  "save_writes": 0
+}

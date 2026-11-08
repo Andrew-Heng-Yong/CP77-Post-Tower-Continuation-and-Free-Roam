@@ -1,0 +1,629 @@
+{
+  "status": "CAPTURE_COMPLETE_AWAITING_HUMAN_GIG_CORRELATION",
+  "bytes": 46541,
+  "streams": {
+    "game": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\general_gig_probe_gg1\\captures\\GG1_20261104T050208Z_7a4ab752\\stream\\game.log",
+      "bytes": 26403,
+      "sha256": "12C2F3F58FFAABF2AE0D57426F222E9207D8A068F62C293285D4065AFFD055F6"
+    },
+    "script": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\general_gig_probe_gg1\\captures\\GG1_20261104T050208Z_7a4ab752\\stream\\script.log",
+      "bytes": 6390,
+      "sha256": "127B2C0A1702F27D1E9A4DC1D2E3D3B0CA708CEFD5C6F1C8E701F192A6402618"
+    },
+    "cet": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\general_gig_probe_gg1\\captures\\GG1_20261104T050208Z_7a4ab752\\stream\\cet.log",
+      "bytes": 4606,
+      "sha256": "5F81FF0F3F6ED22282D14F8A808AF35DCE28C2CD863BF3013855680D84BC4B4E"
+    },
+    "redscript": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\general_gig_probe_gg1\\captures\\GG1_20261104T050208Z_7a4ab752\\stream\\redscript.log",
+      "bytes": 9142,
+      "sha256": "76ED5F7F2C4DA4004F1B9B94C6F90B3D657205DCDCD784705C57513A8C15D376"
+    }
+  },
+  "source_states": {
+    "game": "READABLE",
+    "script": "READABLE",
+    "cet": "READABLE",
+    "redscript": "READABLE"
+  },
+  "source_epoch_gaps": [
+    {
+      "source": "redscript",
+      "reason": "SOURCE_REPLACED",
+      "old_offset": 9142,
+      "old_renamed_suffix_recovered": true,
+      "possible_unread_gap": false
+    }
+  ],
+  "limit_hit": false,
+  "gig_fact_candidates": [
+    {
+      "id": "sts_hey_rey_06",
+      "title": "Jeopardy",
+      "matching_log_notices": 6
+    }
+  ],
+  "logged_fact_notices": [
+    {
+      "source": "game",
+      "line": 28,
+      "fact": "ch04_wns_show_ad",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    },
+    {
+      "source": "game",
+      "line": 35,
+      "fact": "sa_ep1_courier_alternate_readiness",
+      "previous_logged_value": 2,
+      "current_logged_value": 0
+    },
+    {
+      "source": "game",
+      "line": 40,
+      "fact": "ch04_wns_show_ad",
+      "previous_logged_value": 1,
+      "current_logged_value": 2
+    },
+    {
+      "source": "game",
+      "line": 45,
+      "fact": "holo_setup_active",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    },
+    {
+      "source": "game",
+      "line": 46,
+      "fact": "holo_setup_ended",
+      "previous_logged_value": 1,
+      "current_logged_value": 0
+    },
+    {
+      "source": "game",
+      "line": 47,
+      "fact": "glossary_valentinos",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    },
+    {
+      "source": "game",
+      "line": 48,
+      "fact": "rey_06_start",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    },
+    {
+      "source": "game",
+      "line": 49,
+      "fact": "holo_padre_calls_v_start_count",
+      "previous_logged_value": 1,
+      "current_logged_value": 2
+    },
+    {
+      "source": "game",
+      "line": 50,
+      "fact": "holo_padre_calls_v_start",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    },
+    {
+      "source": "game",
+      "line": 51,
+      "fact": "holo_setup_active",
+      "previous_logged_value": 1,
+      "current_logged_value": 0
+    },
+    {
+      "source": "game",
+      "line": 52,
+      "fact": "holo_setup_started",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    },
+    {
+      "source": "game",
+      "line": 53,
+      "fact": "holo_padre_calls_v_start",
+      "previous_logged_value": 1,
+      "current_logged_value": 0
+    },
+    {
+      "source": "game",
+      "line": 54,
+      "fact": "ch04_wns_show_ad",
+      "previous_logged_value": 2,
+      "current_logged_value": 3
+    },
+    {
+      "source": "game",
+      "line": 55,
+      "fact": "holo_padre_calls_v_end_count",
+      "previous_logged_value": 1,
+      "current_logged_value": 2
+    },
+    {
+      "source": "game",
+      "line": 56,
+      "fact": "holo_setup_ended",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    },
+    {
+      "source": "game",
+      "line": 57,
+      "fact": "holo_setup_started",
+      "previous_logged_value": 1,
+      "current_logged_value": 0
+    },
+    {
+      "source": "game",
+      "line": 58,
+      "fact": "ch05_just_ads_ad",
+      "previous_logged_value": 2,
+      "current_logged_value": 3
+    },
+    {
+      "source": "game",
+      "line": 60,
+      "fact": "holo_interrupt_call",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    },
+    {
+      "source": "game",
+      "line": 61,
+      "fact": "gmpl_npc_downed_by_player",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    },
+    {
+      "source": "game",
+      "line": 62,
+      "fact": "gmpl_npc_killed_by_player",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    },
+    {
+      "source": "game",
+      "line": 63,
+      "fact": "ch05_just_ads_ad",
+      "previous_logged_value": 3,
+      "current_logged_value": 5
+    },
+    {
+      "source": "game",
+      "line": 64,
+      "fact": "gmpl_npc_downed_by_player",
+      "previous_logged_value": 1,
+      "current_logged_value": 0
+    },
+    {
+      "source": "game",
+      "line": 65,
+      "fact": "gmpl_npc_killed_by_player",
+      "previous_logged_value": 1,
+      "current_logged_value": 0
+    },
+    {
+      "source": "game",
+      "line": 66,
+      "fact": "ch05_just_ads_ad",
+      "previous_logged_value": 5,
+      "current_logged_value": 0
+    },
+    {
+      "source": "game",
+      "line": 67,
+      "fact": "gmpl_npc_downed_by_player",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    },
+    {
+      "source": "game",
+      "line": 68,
+      "fact": "gmpl_npc_killed_by_player",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    },
+    {
+      "source": "game",
+      "line": 72,
+      "fact": "holo_interrupt_call",
+      "previous_logged_value": 1,
+      "current_logged_value": 0
+    },
+    {
+      "source": "game",
+      "line": 79,
+      "fact": "sts_hey_rey_06_shard",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    },
+    {
+      "source": "game",
+      "line": 81,
+      "fact": "holo_setup_active",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    },
+    {
+      "source": "game",
+      "line": 82,
+      "fact": "holo_setup_ended",
+      "previous_logged_value": 1,
+      "current_logged_value": 0
+    },
+    {
+      "source": "game",
+      "line": 83,
+      "fact": "holo_padre_calls_v_start_count",
+      "previous_logged_value": 2,
+      "current_logged_value": 3
+    },
+    {
+      "source": "game",
+      "line": 84,
+      "fact": "holo_padre_calls_v_start",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    },
+    {
+      "source": "game",
+      "line": 86,
+      "fact": "holo_padre_calls_v_rejected_count",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    },
+    {
+      "source": "game",
+      "line": 87,
+      "fact": "ch02_n54_ent_ad",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    },
+    {
+      "source": "game",
+      "line": 88,
+      "fact": "hey_achievement",
+      "previous_logged_value": 1,
+      "current_logged_value": 2
+    },
+    {
+      "source": "game",
+      "line": 89,
+      "fact": "hey_sts_counter",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    },
+    {
+      "source": "game",
+      "line": 90,
+      "fact": "rey_06_finished",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    },
+    {
+      "source": "script",
+      "line": 21,
+      "fact": "ch04_wns_show_ad",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    },
+    {
+      "source": "script",
+      "line": 22,
+      "fact": "sa_ep1_courier_alternate_readiness",
+      "previous_logged_value": 2,
+      "current_logged_value": 0
+    },
+    {
+      "source": "script",
+      "line": 23,
+      "fact": "ch04_wns_show_ad",
+      "previous_logged_value": 1,
+      "current_logged_value": 2
+    },
+    {
+      "source": "script",
+      "line": 24,
+      "fact": "holo_setup_active",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    },
+    {
+      "source": "script",
+      "line": 25,
+      "fact": "holo_setup_ended",
+      "previous_logged_value": 1,
+      "current_logged_value": 0
+    },
+    {
+      "source": "script",
+      "line": 26,
+      "fact": "glossary_valentinos",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    },
+    {
+      "source": "script",
+      "line": 27,
+      "fact": "rey_06_start",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    },
+    {
+      "source": "script",
+      "line": 28,
+      "fact": "holo_padre_calls_v_start_count",
+      "previous_logged_value": 1,
+      "current_logged_value": 2
+    },
+    {
+      "source": "script",
+      "line": 29,
+      "fact": "holo_padre_calls_v_start",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    },
+    {
+      "source": "script",
+      "line": 30,
+      "fact": "holo_setup_active",
+      "previous_logged_value": 1,
+      "current_logged_value": 0
+    },
+    {
+      "source": "script",
+      "line": 31,
+      "fact": "holo_setup_started",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    },
+    {
+      "source": "script",
+      "line": 32,
+      "fact": "holo_padre_calls_v_start",
+      "previous_logged_value": 1,
+      "current_logged_value": 0
+    },
+    {
+      "source": "script",
+      "line": 33,
+      "fact": "ch04_wns_show_ad",
+      "previous_logged_value": 2,
+      "current_logged_value": 3
+    },
+    {
+      "source": "script",
+      "line": 34,
+      "fact": "holo_padre_calls_v_end_count",
+      "previous_logged_value": 1,
+      "current_logged_value": 2
+    },
+    {
+      "source": "script",
+      "line": 35,
+      "fact": "holo_setup_ended",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    },
+    {
+      "source": "script",
+      "line": 36,
+      "fact": "holo_setup_started",
+      "previous_logged_value": 1,
+      "current_logged_value": 0
+    },
+    {
+      "source": "script",
+      "line": 37,
+      "fact": "ch05_just_ads_ad",
+      "previous_logged_value": 2,
+      "current_logged_value": 3
+    },
+    {
+      "source": "script",
+      "line": 38,
+      "fact": "holo_interrupt_call",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    },
+    {
+      "source": "script",
+      "line": 39,
+      "fact": "gmpl_npc_downed_by_player",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    },
+    {
+      "source": "script",
+      "line": 40,
+      "fact": "gmpl_npc_killed_by_player",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    },
+    {
+      "source": "script",
+      "line": 41,
+      "fact": "ch05_just_ads_ad",
+      "previous_logged_value": 3,
+      "current_logged_value": 5
+    },
+    {
+      "source": "script",
+      "line": 42,
+      "fact": "gmpl_npc_downed_by_player",
+      "previous_logged_value": 1,
+      "current_logged_value": 0
+    },
+    {
+      "source": "script",
+      "line": 43,
+      "fact": "gmpl_npc_killed_by_player",
+      "previous_logged_value": 1,
+      "current_logged_value": 0
+    },
+    {
+      "source": "script",
+      "line": 44,
+      "fact": "ch05_just_ads_ad",
+      "previous_logged_value": 5,
+      "current_logged_value": 0
+    },
+    {
+      "source": "script",
+      "line": 45,
+      "fact": "gmpl_npc_downed_by_player",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    },
+    {
+      "source": "script",
+      "line": 46,
+      "fact": "gmpl_npc_killed_by_player",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    },
+    {
+      "source": "script",
+      "line": 47,
+      "fact": "holo_interrupt_call",
+      "previous_logged_value": 1,
+      "current_logged_value": 0
+    },
+    {
+      "source": "script",
+      "line": 48,
+      "fact": "sts_hey_rey_06_shard",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    },
+    {
+      "source": "script",
+      "line": 49,
+      "fact": "holo_setup_active",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    },
+    {
+      "source": "script",
+      "line": 50,
+      "fact": "holo_setup_ended",
+      "previous_logged_value": 1,
+      "current_logged_value": 0
+    },
+    {
+      "source": "script",
+      "line": 51,
+      "fact": "holo_padre_calls_v_start_count",
+      "previous_logged_value": 2,
+      "current_logged_value": 3
+    },
+    {
+      "source": "script",
+      "line": 52,
+      "fact": "holo_padre_calls_v_start",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    },
+    {
+      "source": "script",
+      "line": 53,
+      "fact": "holo_padre_calls_v_rejected_count",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    },
+    {
+      "source": "script",
+      "line": 54,
+      "fact": "ch02_n54_ent_ad",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    },
+    {
+      "source": "script",
+      "line": 55,
+      "fact": "hey_achievement",
+      "previous_logged_value": 1,
+      "current_logged_value": 2
+    },
+    {
+      "source": "script",
+      "line": 56,
+      "fact": "hey_sts_counter",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    },
+    {
+      "source": "script",
+      "line": 57,
+      "fact": "rey_06_finished",
+      "previous_logged_value": 0,
+      "current_logged_value": 1
+    }
+  ],
+  "error_like_lines_not_automatic_failures": [],
+  "possible_session_boundaries": [
+    {
+      "source": "game",
+      "line": 1,
+      "text": "[2026-11-04 00:22:19 UTC-05:00] [13968] [PTFR_W2] attached groups=534",
+      "interpretation": "possible loading/attachment boundary, not exact saved-owner identity"
+    },
+    {
+      "source": "game",
+      "line": 3,
+      "text": "[2026-11-04 00:25:56 UTC-05:00] [34548] [PTFR_W2] attached groups=534",
+      "interpretation": "possible loading/attachment boundary, not exact saved-owner identity"
+    },
+    {
+      "source": "game",
+      "line": 6,
+      "text": "[2026-11-04 00:26:45 UTC-05:00] [39168] [PTFR_LoadingLC3] elapsedSim=0.015625 stage=Preparing Tower continuation | Checking your save and the arrival state.",
+      "interpretation": "possible loading/attachment boundary, not exact saved-owner identity"
+    }
+  ],
+  "coverage": "Appended existing logs across the bounded interval; pre-existing context is separate. No independent journal, phone, inventory or engine-owner API sampling.",
+  "limits": [
+    "FactFinder supplies batched getter-difference notices, not native callbacks or exact write time/order.",
+    "Installed FactFinder defaults to at most3 reports per fact per game session; current settings may differ and were not changed.",
+    "Missing/unlisted/suppressed/transient notices remain unknown; absence is not gameplay failure.",
+    "Candidate gig mentions are not proof of quest entry, completion, reward idempotence or controller cleanup.",
+    "Possible source gaps/loading boundaries are explicit. Human gig name/outcome are required."
+  ],
+  "game_API_calls": 0,
+  "game_or_save_writes": 0,
+  "run_id": "GG1_20261104T050208Z_7a4ab752",
+  "stop_reason": "USER_STOP",
+  "recorder_error": null,
+  "protected_inputs": {
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\mod\\zzzz_PTFR_Combined.archive": {
+      "unchanged": true,
+      "sha256": "97D3C65BB72F4BA4F3BCB6AECDE9ABA105315D0340918F42590363F9F90A32BF"
+    },
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_HistorySnapshotHS1.reds": {
+      "unchanged": true,
+      "sha256": "ED9B0EFD0A2914E66CB5FDFA23F7A6E28179872504C6D4E2AA4F5E0C184DB445"
+    },
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_SideJobsS23.reds": {
+      "unchanged": true,
+      "sha256": "F29ECBA24DA9507ADD0365BA95A205406C4A4412CDDD164C12FBB7326C64BE97"
+    },
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\plugins\\cyber_engine_tweaks\\mods\\PTFR_QR9_Diagnostics\\watch.json": {
+      "unchanged": true,
+      "sha256": "BBEFAEC2F1975EE0590BEC6D447293AF932DFBCCF2C228393133604F6D252DEA"
+    },
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\plugins\\cyber_engine_tweaks\\mods\\PTFR_QR9_Diagnostics\\init.lua": {
+      "unchanged": true,
+      "sha256": "1A366E1075A9EBCA46686EF76AB724B7F5C3EE51445E13A3BC02B97194D21F90"
+    },
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\FactFinder\\FactFinder.reds": {
+      "unchanged": true,
+      "sha256": "E5A7A545EC097A38B04F09A9F6F67B78C8070C800E95B8C0D5B6D2AD04E366AD"
+    }
+  }
+}

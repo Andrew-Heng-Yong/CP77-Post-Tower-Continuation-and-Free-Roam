@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "status": "FROZEN_COLLECTOR_INPUTS_NOT_RUNTIME_TESTED",
+  "pins": [
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\baseline.json",
+      "sha256": "A630CEBF7E286E880112CB898E12C1541F071E0A9D1C284DC1AE3303908A0060"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\selected_master.json",
+      "sha256": "9B63B9F913F446EBF6C3CB151798E0D38F1A508F33503E03EA6444544144FC55"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_b\\addon_manifest_04.json",
+      "sha256": "59B3CE96220B807D87AF67B66A47ED02549D66B59A5BEA8F620C2910D55C0580"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\collect_observation.py",
+      "sha256": "97DA66067CDB3D967111B1094936AA4E826C4C714B94C42D53C7A1DE4B4EFF20"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_b\\addon\\bin\\x64\\plugins\\cyber_engine_tweaks\\mods\\PTFR_QR9_Diagnostics\\init.lua",
+      "sha256": "ACCE8B7E4E1E355BBC6D6F4752FDBCC7BB3034F594B13AB055EC35742D333718"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_b\\addon\\bin\\x64\\plugins\\cyber_engine_tweaks\\mods\\PTFR_QR9_Diagnostics\\watch.json",
+      "sha256": "AEC4D4921AC64B0C37006E7839DD3F9466457B44A735DFFD4637C4261D5EAED2"
+    }
+  ],
+  "diagnostic_files": [
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_QR9_Diagnostics/init.lua",
+      "after": "ACCE8B7E4E1E355BBC6D6F4752FDBCC7BB3034F594B13AB055EC35742D333718"
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_QR9_Diagnostics/watch.json",
+      "after": "AEC4D4921AC64B0C37006E7839DD3F9466457B44A735DFFD4637C4261D5EAED2"
+    }
+  ],
+  "expected_capture_metadata": {
+    "version": "QR9B04",
+    "source_lua_sha256": "ACCE8B7E4E1E355BBC6D6F4752FDBCC7BB3034F594B13AB055EC35742D333718"
+  },
+  "source_baseline": "QR8:02",
+  "game_calls": 0
+}

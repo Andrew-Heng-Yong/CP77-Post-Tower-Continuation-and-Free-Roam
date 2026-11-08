@@ -1,0 +1,16 @@
+{
+  "state": "QR13_COMPLETE_STAGED_NOT_INSTALLED",
+  "completion": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr13\\completion.json",
+  "completion_sha256": "F4799076732D677AC9D611C1815C4BAF62864A9AA8504A2D0FD1D2F737AA9464",
+  "canonical_epoch": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr13\\source_epoch_02.json",
+  "candidate": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr13\\candidate_01",
+  "installed": "QR8:02 + unchanged QR10D01/D00E",
+  "new_staged_resources": 3,
+  "changed_managed_sources": 2,
+  "game_launches": 0,
+  "installations": 0,
+  "save_or_live_fact_writes": 0,
+  "next": "No more closed-route tests. Review exact staged successor/remaining queue; any later deployment requires separate explicit authorization and guarded current-input installation/rollback. Do not rerun one-shot builders or manufacture fixtures.",
+  "report": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr13\\REPORT.md",
+  "handoff": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr13\\HANDOFF.md"
+}

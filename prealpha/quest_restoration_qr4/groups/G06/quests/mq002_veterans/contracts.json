@@ -1,0 +1,186 @@
+{
+  "quest_id": "mq002_veterans",
+  "title": "Gun Music",
+  "source_epoch": "QR3 candidate_01 epoch00; relevant payloads unchanged",
+  "status": "DEEP_REVIEWED_CONDITIONAL",
+  "fully_static_verified": false,
+  "defects": [],
+  "repairs": [],
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Private S23 base_a claims1003Issued only after1001wait/1002check;1007wait/1008check then traverse the exact original parent chain81→83→84→54→86→80→55→70→73→62→59→47→76→82→78→89→90→52→53→173.173.False→1100final recheck.True→1101Entered→12.In1 native MQ002.",
+        "Private target12 payload exactly matches native minorquests12. A parallel Succeeded observer1010→1011Finished records native outcome; it does not generate completion."
+      ],
+      "approved_differences": [
+        "Existing bounded S23 fresh rehosting after Tower cleanup; original parent ancestor predicates and native MQ002 resource remain."
+      ],
+      "remaining": [
+        "LIVE_ONLY: Scheduler, native12 execution and observer callbacks are unobserved."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/scene_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "eligibility": {
+      "status": "PASS",
+      "proven": [
+        "Original parent requires q001_done>0, q005_done>0, q101_enable_side_content>0, q103_rogue_done>0, q104_done>0, sq004_done>0 and173 mq002_done>=1 False; every retained ancestor payload and edge is compared. Native MQ002 again waits sq004_done and preserves sq027 suspension/arbitration.",
+        "Actual1001/1002 require root and six children Inactive, own Permit1/Issued0/Finished0/Fault0, mq002_active in0..1 and deal/broken-combat/done/escaped/escaped-combat/sniper-noticed0. Postclaim1007/1008/1100 require Issued1 and preserve children; root is OR(RootReactivated0+Inactive, RootReactivated1+Active). Stable Failed cannot pass initial guards, so existing1004 Failed-reactivation branch is not a generic failed-history reset."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Exact saved HS1 admission and actual native prerequisite values remain unknown; positive and negative fixtures are static bounded evaluations, not scheduling proof."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/scene_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "communications": {
+      "status": "PASS",
+      "proven": [
+        "No holo_/audio_ producer/listener/ack facts exist in the local MQ002 native+scene closure. Combat native4.Out→20 questSendMessage contacts/carol/mq002_escaped→19 is connected and pinned; missing producer connection mutation is detected.",
+        "After completion/cleanup native147 tests journal Succeeded. True→146 camp/fluff; False→152 whose0→2.Active post_veterans/mq002_escaped message→3.Active 02_ch_response choice→output. Original failure/escaped SMS behavior remains; this is direct native messaging, not a holocall awaiting a manufactured acknowledgement."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Message UI dispatch, notification delivery and post-failure choice consumption require engine observation."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/scene_evidence.json",
+        "../../verification_02/tests.json",
+        "../../verification_02/communications.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native MQ002 resource owns #mq002_pr_factory and nested146 owns #mq002_pr_camp/#mq002_pr_new_camp. Native128 borrows Carol/Teddy/Cassidy and turns their default_on flags0; native102 cleanup restores all three1 after spawning/crowd/world transitions. Their support is retained, not replaced by a root-factory-only assumption.",
+        "Native sq027_suspension outputs from121/128→153 wait(camp_abandoned0 AND sq027_active0)→128 reentry are preserved. Private target resource retains native saved paths and all root/nested identities."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: Original saved nomad, Panam-camp and generic actor default-owner leases are not decoded. q307 killed flags and active0..1 are not proof these old descendants retired. Native CYB-599403/CYB-599080/CYB-567649 fix-owner adoption also remains unproved."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/scene_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Native root129→128 startup→121 beginning preserves deal to_outcome→123, to_combat→122→123 and separate quest_fails138→139→140→137.Failed. Native ending123.Out1→124.Succeeded→125active0→126done1→143checkpoint→148→102cleanup survives.",
+        "Native camp-abandon/PONR path133→151POI.Inactive→134→135Failed/142 cleanup and sq027 suspended retry153 are unchanged. Native scenes deal107 writes mq002_deal_proceeded1,315 increments mq002_deal_broken_combat; combat/ending resources remain exact original references."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Panam-camp timing, deal/combat choices, failure routes and encounter AI need gameplay."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/scene_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Native deal scene declares Carol/Teddy/Cassidy spawnSet #carol/#teddy/#cassidy; scavenger community #mq002_com_scavengers, nomads #mq002_com_nomads and van #mq002_com_deal_vehicles.17 workspots/35 instances. Summary uses six native actors and6/17 workspots/instances; combat/fluff retain their exact original cast.",
+        "Root factory and both nested camp prefabs are recorded. Scene entry/exit, interruption scenarios, camera/reference-point and resource metadata are pinned; no idle replacement actors were added."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "OPAQUE: Target community/spawn/camp placements, character definitions, camera/workspot/animation definitions and actual current actor leases remain unresolved."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/scene_evidence.json",
+        "../../verification_02/tests.json",
+        "../../verification_02/dependencies.json"
+      ]
+    },
+    "journal": {
+      "status": "PASS",
+      "proven": [
+        "Native123.Out1→124.Succeeded and failure140→137.Failed remain distinct. Native root152 activates Carol post-failure message/choice only on147.False. Native128 sets POI active;128/38 suspension deactivates POI and active0 without inventing completion.",
+        "Wrapper admission protects all seven original root/phase/objective/description entries; no private generic journal reset exists on the eligible stable-Inactive route. Existing1005 Active branch is gated behind1004 Failed after initial Inactive guards and is not used as evidence of permission to reopen failed jobs."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Root change between guard ticks and failed branch engine scheduling cannot be excluded by fixtures; no demonstrated faulty stable-state route justifies a speculative patch. Journal definition/rendering remains separate."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/scene_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Pinned native ending11 End0→26 QuestRewards.mq002_done→10.Succeeded is connected. Root124→125 active0→126 done1→checkpoint→native102 cleanup; native failure137 also clears active/done through the original chain. No private reward grant/replay is added.",
+        "Native102 removes encounter actors/vehicles, waits for relevant world states, selects camp via sq027_camp_moved and restores carol/teddy/cassidy_default_on1 through AND44. Native147 then branches successful camp fluff146 or failed post-message152. Wrong reward pointer mutation and missing escape-message mutation both fail the intended checks."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: QuestRewards.mq002_done target definition/cash/XP and engine exactly-once delivery are not proven. Cleanup actor deactivation, camp/default-owner restoration and reward/save boundaries need fixtures."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/scene_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Current PTFRS23_MQ002 saved fact/resource/node names and native owner boundaries are unchanged. Issued1 before native entry, final1100 recheck, bounded RootReactivated pairing and Succeeded observer avoid an unconditional replay path; native progress/completion/failure facts remain authored.",
+        "Initial Inactive admission and all terminal-state negative fixtures are preserved. No live history, fact, journal or external mod data was changed by this investigation."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: Stage/owner/reward transition fixtures are absent for old camp owners, interrupt suspension and save/reload around claiming, outcome, cleanup and Carol messages."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/scene_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Full local native MQ002 beginning/combat/ending/four-scene closure and original bugfix resources are pinned. Parent prerequisites, root factory, nested camp prefabs and borrowed nomad/default actor dependencies are explicitly inventoried; local graph decoding reports no structural errors.",
+        "Native U9-independent direct SMS is retained while global S23 U9/PA2/HS1 requirements remain exact. No missing local holocall or new shared studio was inferred from a string search."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: Camp ownership/leases and external native corrective-owner execution require saved/world evidence. Asset literals and catalog presence are not resolution of exact definitions or gameplay."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/scene_evidence.json",
+        "../../verification_02/tests.json",
+        "../../verification_02/dependencies.json"
+      ]
+    }
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "quest_id": "sts_hey_gle_06",
+  "title": "Life's Work",
+  "source_epoch": "QR3 candidate_01 epoch00",
+  "status": "DEEP_REVIEWED_CONDITIONAL",
+  "fully_static_verified": false,
+  "defects": [],
+  "repairs": [],
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Private entry0→65000Ready→65001Revision→65002guard→65003ParentEntered→native6.In1.6.Out1→62 fans to59 tier_1_1>0 and61 tier_1_1==0 AND tier_1>0; native XOR58→68 POI.Active→65004Started→8 native main. Native output8→65005MainFinished→65006OwnerFinished.",
+        "Original district selected payloads and all copied nested graphs are exact after explicit Embedded→Soft body relocation; no new generic gig or forced entry replaces native parent6."
+      ],
+      "approved_differences": [
+        "Existing U9 bounded post-Tower parent/map/credit rehosting and exact native standalone-body externalization."
+      ],
+      "remaining": [
+        "LIVE_ONLY: ArchiveXL activation and actual parent/tier/trigger execution are not observed."
+      ],
+      "evidence": [
+        "../../verification_01/source_pins.json",
+        "../../verification_01/graph_evidence.json",
+        "../../verification_01/tests.json",
+        "../../verification_01/embedded_parity.json"
+      ]
+    },
+    "eligibility": {
+      "status": "PASS",
+      "proven": [
+        "Current NativeGigDataU9 identity is discovered from the actual IDs array (index5), not historical quest counts. EntrySafe requires13 listed root/phase/objective/description states Inactive and11 native gig facts0, including alarm/car-segment/complete/end/finished/kill-all/scenes-end/soft/start/succeed/test. Every local native gle_06_ writer is covered by that fact set.",
+        "Actual parent tier conditions remain XOR alternatives, not AND: tier_1_1>0 versus tier_1_1==0 AND tier_1>0. Native body12 checks finished before entering gameplay/openworld. POI Inactive OR Active is legitimate; native delivery-car mappin child is not misclassified as an unused-quest prerequisite."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Prior entitlement/certificate, actual actor/vehicle state and current tier values are unobserved. PASS is bounded source predicate coverage, not save eligibility."
+      ],
+      "evidence": [
+        "../../verification_01/source_pins.json",
+        "../../verification_01/graph_evidence.json",
+        "../../verification_01/tests.json",
+        "../../verification_01/admissions.json",
+        "../../verification_01/journal_omissions.json"
+      ]
+    },
+    "communications": {
+      "status": "PASS",
+      "proven": [
+        "Current U9 initializer25.Out1→79.In1 owns exact native Padre holocall; shared cleanup468.True→336.In42 invokes exact native padre_cleanup and336.Out42→474. Common U9 support/studio proof is reused by frozen G09 core/source hashes; Padre protocol is independently checked.",
+        "Native controller32 consumes start_activate>0→33 increments pending count→34 clears request→35;36 arbitrates idle holo setup→28→10 decrements count→scene0.start. End3→11 clears end request→scene0.end. Real scene acknowledgements are41 start_done1 and42 end_done1; original rejected/interrupted/reset_counter mechanisms remain, with no synthetic acknowledgements or counter reset.",
+        "Brief/debrief caller scenes retain native positive start/end producers and done wait/clear. Debrief retry producers are in loops whose acknowledgement listener was already armed by a parallel fork; retry producer need not have a direct path to that wait. Native cut-control cancels retry on real acknowledgement. All10 scene request producers across these two gigs are traced with actual source identifiers.",
+        "Native openworld root/0 scene175 Start0 has HolocallRET→177 start request, INT→178 end request; End0/rejected_out proceeds174.Active. root/2 debrief21 similarly RET→23 and INT→22, with rejected branch57 and original scene-outside43 retained.",
+        "Brief scene66/67 and debrief94/95/268 are actual positive request writers. Retry268 loops through native3.2-second/idle/content-lock conditions, while parallel282 already waits real start_done;282→270 cut→89 clear. No missing-listener race is inferred from the retry branch alone."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Actual phone playback, callback ordering, rejection/interrupt queues and studio rendering remain engine behavior."
+      ],
+      "evidence": [
+        "../../verification_01/source_pins.json",
+        "../../verification_01/graph_evidence.json",
+        "../../verification_01/tests.json",
+        "../../verification_01/protocols.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Private entry retains original selected district node IDs, sockets and copied nested graph; main points to native body. Native district had Embedded resource handles while adapter uses standalone Soft counterparts. All six embedded native bodies compare equal after only explicit handle-flag/platform envelope relocation; native root prefabs, every gameplay node and edge are retained.",
+        "Actual entry65002 requires genuine completed Tower, native unused start/terminal facts, U9 support, Request1/Permit1/ParentEntered0/Fault0 and inactive legacy B7/U6/U7 owner receipts. ParentEntered65003 precedes native parent gating; Started65004 precedes main; MainFinished/OwnerFinished follow its output. Credit and map slices claim their own one-time Entered facts.",
+        "Native main owns #sts_hey_gle_06_streetstory and delegates gameplay2/openworld3; no instance-prefab obligation was stripped by the externalization. Native own driver, vehicle, scenes, despawn/departure and cleanup paths remain under this original lifetime.",
+        "Padre map0/map1 preserve padre_visited and finished checks, while map1 also preserves its native POI activation. They only run after Started1/MapPermit1 and each own MapNEntered0 latch; existing native mappin state is not reset to admit the job.",
+        "Independent native/current refinement: MQ044_main5 requires NOT Active AND NOT Succeeded; startup root/2/55 immediately writes mq044_started1, and S23 final1100 requires mq044_started0 plus mq_044_started_in_main0. Alternate timing routes do not alone prove duplicated actually running story bodies; these existing fences must survive any design."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: Original saved native/private descendants, phase-prefab leases and cross-version receipt adoption are not decoded from a save. Structural original ancestry and unused receipts are stronger than killed flags alone but do not observe live retirement."
+      ],
+      "evidence": [
+        "../../verification_01/source_pins.json",
+        "../../verification_01/graph_evidence.json",
+        "../../verification_01/tests.json",
+        "../../timing_review_01/stable_fences.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Native gameplay setup→simultaneous encounter/combat→native scene path and vehicle delivery remain unchanged. Openworld root/0 writes original start98, car-segment127, scene-end/finished117/137, and handles prebrief/rejected/interrupted branches; root/1 scene callbacks still write scenes_end/end.",
+        "Native root/2 waits actual journal outcome after debrief/rejection.24 tests root Succeeded: True grants5 completion reward→37 gle_06_succeed1 and also2 gle_06_complete1→6 finished1; False takes complete/finished path without success reward/fact. Finished is not incorrectly equated to successful delivery."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Native vehicle damage, upload, garage/driver movement, combat and scene choice timing are not simulated."
+      ],
+      "evidence": [
+        "../../verification_01/source_pins.json",
+        "../../verification_01/graph_evidence.json",
+        "../../verification_01/tests.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Main native #sts_hey_gle_06_streetstory root is retained in embedded and standalone counterparts. Native scene cast remains 6thStreet, Repair, Forklift, 6thStreetGanger, Estevez and Jake_Car; first five use findInWorld and Jake_Car spawner. Two native workspots/two instances remain.",
+        "Vehicle target, garage, prebrief/debrief world markers, animations, cameras and scene literals are inventoried. No replacement idle actors, generic car or custom reward vehicle were introduced."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "OPAQUE: Exact prefab/sector placement, findInWorld/spawner bindings, camera/workspot/vehicle definitions and current streamed entities remain unresolved."
+      ],
+      "evidence": [
+        "../../verification_01/source_pins.json",
+        "../../verification_01/graph_evidence.json",
+        "../../verification_01/tests.json",
+        "../../verification_01/dependencies.json"
+      ]
+    },
+    "journal": {
+      "status": "PASS",
+      "proven": [
+        "Original reach_car, delicer_car, entergarage, uploaddata, leave/retrieve/talk/collect_reward/do_not_damage/exit_garage and brief paths remain. EntrySafe protects those13 source states. Native root outcome24 reads Succeeded before reward/succeed; failure is not rewritten as completion success.",
+        "Omitted delicer_car/car targets are gameJournalQuestMapPin nodes203/204/210 and original bugfix mappin nodes, not omitted quest objectives. Their native activation/cleanup is preserved; active native map pins are not evidence of a replay defect."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Target journal/localization definitions, rendered markers and player objective state remain distinct from preserved path/socket parity."
+      ],
+      "evidence": [
+        "../../verification_01/source_pins.json",
+        "../../verification_01/graph_evidence.json",
+        "../../verification_01/tests.json",
+        "../../verification_01/journal_omissions.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native root/2 reward5 QuestRewards.sts_hey_gle_06_completion is gated by actual root Succeeded; success37 is downstream. Both terminal outcomes retain complete2/finished6 and original debrief, achievement, community/vehicle/scene-outside cleanup. No private second payout is added.",
+        "Private credit claims CreditEntered1 before waiting original gle_06_finished>0, then original hey_sts_counter+1 with setExactValue0, then CreditDone1. It is not a counter reset or replay. Main and map/credit ownership receipts remain separate.",
+        "Cross-quest timing is explicit: current S23 MQ044 preserves native minorquests148→150 three-game-day route. Original connected LifeWork bugfix9 instead tests mq_044_started_in_main only initially, then waits finished>=1 +one game day and invokes MQ044_main directly. Old OW three-day launch136 was deleted by230; it must not be revived.",
+        "Independent native/current refinement: MQ044_main5 requires NOT Active AND NOT Succeeded; startup root/2/55 immediately writes mq044_started1, and S23 final1100 requires mq044_started0 plus mq_044_started_in_main0. Alternate timing routes do not alone prove duplicated actually running story bodies; these existing fences must survive any design."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: Reward/TweakDB amounts and exactly-once engine delivery remain unproven.",
+        "EXACT_TIMING_OWNER_GAP: One-day corrective and three-day normal continuation are not proven equivalent after Tower. The corrective path has no late ownership recheck; blindly rehosting it would add competing owner/timer candidates despite existing stable-state story fences; exact saved adoption is not proved. WorkerC independently confirmed this distinction; no timing change or whole-bugfix replay is justified without scoped owner/timer evidence."
+      ],
+      "evidence": [
+        "../../verification_01/source_pins.json",
+        "../../verification_01/graph_evidence.json",
+        "../../verification_01/tests.json",
+        "../../timing_review_01/evidence.json",
+        "../../timing_review_01/stable_fences.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Existing private/node/resource/fact IDs and all native body identities are unchanged. ParentEntered/Started/OwnerFinished, CreditEntered/Done and MapNEntered are preserved one-time receipts; completed/failed native histories and every listed used fact are not cleared.",
+        "Native original partial-state bugfixes were inventoried with precise wait/condition routes. They are not all copied into a new owner. MQ044 main/reward/vehicle proof is reused from exact QR3 inputs; new elapsed-time history is not fabricated.",
+        "Independent native/current refinement: MQ044_main5 requires NOT Active AND NOT Succeeded; startup root/2/55 immediately writes mq044_started1, and S23 final1100 requires mq044_started0 plus mq_044_started_in_main0. Alternate timing routes do not alone prove duplicated actually running story bodies; these existing fences must survive any design."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: Exact saved active car/garage/scene owners, older receipt adoption, pending credit and timer transitions require fixtures. Already running MQ044/corrective waits cannot be restarted or shortened as a file-only repair."
+      ],
+      "evidence": [
+        "../../verification_01/source_pins.json",
+        "../../verification_01/graph_evidence.json",
+        "../../verification_01/tests.json",
+        "../../timing_review_01/stable_fences.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "G09 shared U9 support proof is reused after exact current common binary hashes match. Padre original initializer/controller/cleanup and real acknowledgements are checked separately. Original district, Padre map and global counter donors are pinned through U9/B7 source manifests.",
+        "LifeWork finished versus succeed feeds the actual Jake/Reyes branch in native MQ044. Exact QR3 proof retains earned finished prerequisite, native outcome-based SMS and original reward/vehicle; no fake success is created to select Jake.",
+        "The separate one-day corrective bootstrap and deleted OW136 are explicitly investigated in timing_review_01. Native helper presence is not treated as restored execution or timing proof.",
+        "Independent native/current refinement: MQ044_main5 requires NOT Active AND NOT Succeeded; startup root/2/55 immediately writes mq044_started1, and S23 final1100 requires mq044_started0 plus mq_044_started_in_main0. Alternate timing routes do not alone prove duplicated actually running story bodies; these existing fences must survive any design."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: Corrective/normal timer arbitration and saved owner provenance remain unresolved. Native donor provider precedence and all world/TDB target definitions are not newly recertified by historical source presence."
+      ],
+      "evidence": [
+        "../../verification_01/source_pins.json",
+        "../../verification_01/graph_evidence.json",
+        "../../verification_01/tests.json",
+        "../../timing_review_01/evidence.json",
+        "../../verification_01/dependencies.json",
+        "../../timing_review_01/stable_fences.json"
+      ]
+    }
+  }
+}

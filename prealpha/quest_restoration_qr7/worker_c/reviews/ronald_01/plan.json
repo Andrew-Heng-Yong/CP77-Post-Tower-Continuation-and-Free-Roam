@@ -1,0 +1,96 @@
+{
+  "future_manifest": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\experiments\\future_owner_04\\NOT_FOR_INTEGRATION.json",
+  "future_manifest_sha256": "32885537BD5EEA8ABEFF6B73A37AB1074109F4C73CF26AD6892F8AABB8A6A946",
+  "markers_manifest": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\experiments\\markers_04\\NOT_FOR_INTEGRATION.json",
+  "markers_manifest_sha256": "4F651CFC28117773873DE21D4BF04C88F578601AF020709B98C8306C9337EF85",
+  "spec": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\future_protocol_spec_01.json",
+  "spec_sha256": "B6F39E4DC668746BCED9E8D1DEAE7FECAFDA935D59BEF18FF1A80989902B7306",
+  "worker_tests": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\future_check_02\\evidence.json",
+  "worker_tests_sha256": "9A895A41C8820FE80E933D84C2AD61641C6B95D7D2CA3DF755CF305D5AD7927F",
+  "targets": [
+    {
+      "label": "future04",
+      "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\experiments\\future_owner_04\\future_owner.NONPRODUCTION.questphase",
+      "raw_sha256": "86C436F556A5BDBAB8851ED3EC6688BBA6728C7001A17A4F6E24F192CF82E26E",
+      "kind": "quest"
+    },
+    {
+      "label": "b0_current",
+      "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\candidate_03\\archive_source\\towercontinued\\b0_story_eight\\ronald.questphase",
+      "raw_sha256": "8E86980088841FCC0EB8FE60BB23158B8399A52DA50D3B357FF8A80A5808B580",
+      "kind": "quest"
+    },
+    {
+      "label": "arm_sts_ep1_12",
+      "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\experiments\\future_owner_04\\sts_ep1_12_entry.NONPRODUCTION.questphase",
+      "raw_sha256": "3694E881D2A6015312F9A8FFE36E738BC6BB53D35878BA0DDC15B3110BD13DC5",
+      "kind": "quest"
+    },
+    {
+      "label": "before_sts_ep1_12",
+      "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\candidate_03\\archive_source\\towercontinued\\native_gigs_u9\\sts_ep1_12_entry.questphase",
+      "raw_sha256": "966FD9DC6AAFDEF7A41F544E06E065C15B5CBE4E12259BC2E12680C757C2D004",
+      "kind": "quest"
+    },
+    {
+      "label": "arm_sts_ep1_08",
+      "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\experiments\\future_owner_04\\sts_ep1_08_entry.NONPRODUCTION.questphase",
+      "raw_sha256": "950D966F17B23C39A09B785FC2FD3F4C70226FBAEA819181B009D75F05974BA2",
+      "kind": "quest"
+    },
+    {
+      "label": "before_sts_ep1_08",
+      "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\candidate_03\\archive_source\\towercontinued\\native_gigs_u9\\sts_ep1_08_entry.questphase",
+      "raw_sha256": "5D1FE58F41739C231B5006FF134EB78207FC879B9AB8652FADE69899242C2F62",
+      "kind": "quest"
+    },
+    {
+      "label": "arm_sts_ep1_03",
+      "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\experiments\\future_owner_04\\sts_ep1_03_entry.NONPRODUCTION.questphase",
+      "raw_sha256": "1996931503C2FA686798B653D141EC6DA04CF946594C1F3D5A9E298182BAB1C0",
+      "kind": "quest"
+    },
+    {
+      "label": "before_sts_ep1_03",
+      "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\candidate_03\\archive_source\\towercontinued\\native_gigs_u9\\sts_ep1_03_entry.questphase",
+      "raw_sha256": "42E4E5B4E9AC2953A976F60B864026BD2B4E1453C18766347CBA2C6E647D6CF7",
+      "kind": "quest"
+    },
+    {
+      "label": "arm_sts_ep1_01",
+      "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\experiments\\future_owner_04\\sts_ep1_01_entry.NONPRODUCTION.questphase",
+      "raw_sha256": "563FE349279CA39DD7549BE507432382B98E44C18CBDB853057CC768BF3E6C42",
+      "kind": "quest"
+    },
+    {
+      "label": "before_sts_ep1_01",
+      "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\candidate_03\\archive_source\\towercontinued\\native_gigs_u9\\sts_ep1_01_entry.questphase",
+      "raw_sha256": "62C689FE3EA2268C46CE90ADEA7E3B01626610590F811222D36A0D34F5B4F2A4",
+      "kind": "quest"
+    },
+    {
+      "label": "private_sector",
+      "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\experiments\\markers_04\\markers.NONPRODUCTION.streamingsector",
+      "raw_sha256": "E108497953E2444767DE3664944469B2679020E840BEB2D4A345FBD08807F7D9",
+      "kind": "sector"
+    },
+    {
+      "label": "private_block",
+      "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\experiments\\markers_04\\markers.NONPRODUCTION.streamingblock",
+      "raw_sha256": "5C6D82492BAEB83CCD27ED4D1C4573770C8AC38B621941CB56CCF82594DDFAC4",
+      "kind": "block"
+    },
+    {
+      "label": "native_sector",
+      "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\bar_provider_02\\provider_0.streamingsector",
+      "raw_sha256": "18FA2E1BB568CECB0DFE1F206233F1C226546B6DE0750751D2EA58EF421B3277",
+      "kind": "sector"
+    },
+    {
+      "label": "native_block",
+      "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\shared\\marker_providers_01\\provider_1.streamingblock",
+      "raw_sha256": "4F17762B48D9F5019228B1BF930558A9CC1E7C365E7002725D670A23585215B9",
+      "kind": "block"
+    }
+  ]
+}

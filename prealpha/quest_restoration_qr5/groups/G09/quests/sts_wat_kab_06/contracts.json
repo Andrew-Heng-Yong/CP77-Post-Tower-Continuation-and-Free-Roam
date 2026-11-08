@@ -1,0 +1,2646 @@
+{
+  "quest_id": "sts_wat_kab_06",
+  "title": "Shark in the Water",
+  "source_epoch": "QR5 source_epoch_00: frozen actual QR4 candidate03; installed PH3 separate",
+  "status": "DEEP_REVIEWED_WITH_SOURCE_SPECIFIC_LIMITS",
+  "fully_static_verified": false,
+  "effective_resource": "towercontinued\\native_gigs_u9\\sts_wat_kab_06_entry.questphase",
+  "effective_resource_sha256": "5F27FF8D0AC151761E81E05E0E2F54C90AF94286705D1B4452EB6CC87C899D14",
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Native inline2.Out1\u2192deletion163 arms161(tier1_4>0) or162(tier1>0 AND tier1_1==0)\u2192XOR160\u2192115 outside trigger OR135 POI Active\u2192136\u2192121.Active\u2192Started\u219211.In1. ParentEntered65003 also starts64000 original lifecycle root/3 node3 prestate controller. No native tier or target history is cleared.",
+        "Private root input0\u00e2\u2020\u201965000 Ready\u00e2\u2020\u201965001 Revision\u00e2\u2020\u201965002 genuine Tower/request/permit pause\u00e2\u2020\u201965003 ParentEntered preserves original native inputs, nested graph socket IDs and branch edges. Native main node11.Out1\u00e2\u2020\u201965005 MainFinished\u00e2\u2020\u201965006 OwnerFinished is retained."
+      ],
+      "approved_differences": [
+        "Existing U9 additive private entry and one-time receipt wrapper; exact Embedded\u00e2\u2020\u2019Soft externalization of original native bodies."
+      ],
+      "remaining": [
+        "Native trigger/POI event timing and registration activation require engine execution; no ending facts manufactured."
+      ],
+      "evidence": [
+        "../../verification_01/tests.json",
+        "../../verification_01/source_pins.json",
+        "../../verification_01/script_pins.json",
+        "../../verification_01/quest_evidence.json",
+        "../../verification_01/protocols.json",
+        "../../verification_01/embedded_external.json",
+        "../../verification_01/graph_evidence.json",
+        "../../deep_verification_02/checks.json",
+        "../../deep_verification_02/source_pins.json",
+        "../../deep_verification_02/extra_pins.json",
+        "../../deep_verification_02/quest_details.json",
+        "../../raw_exports_01/manifest.json",
+        "../../../G07/shared_core.json"
+      ]
+    },
+    "eligibility": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Effective consolidated NativeGigDataU9 index12 binds exact questID, 9 journal paths/classes and 8 native progress/outcome facts. EntrySafe demands listed paths Inactive (lookup failure -1 refuses), native facts0 and allowed POI state. Poll revalidates OldUnused AND EntrySafe before setting Permit.",
+        "Native exact parent predicates are traced in entry evidence; current65002 enforces PostTower genuine terminal facts, Request1/Permit1/ParentEntered0/Fault0, shared phone support and competing U6/U7/legacy receipt0. No fake native prerequisite or synthetic counter reset."
+      ],
+      "approved_differences": [
+        "Current HS1/history-certified fresh U9 admission retained from accepted consolidated baseline."
+      ],
+      "remaining": [
+        "All8 native local progress/outcome writers are fenced. Additional prestate_triggered and old bugfix garage_door_retro25/5 are unlisted; they may describe old device/community stages, not automatic proof of a fresh playable state. Original saved prestate/Kana/default medstore leases and actual gate retirement remain conditional; neither flag is reset.",
+        "Exact saved owner/journal target resolution and existing cross-mod runtime state are not inferred from a successful static predicate fixture."
+      ],
+      "evidence": [
+        "../../verification_01/tests.json",
+        "../../verification_01/source_pins.json",
+        "../../verification_01/script_pins.json",
+        "../../verification_01/quest_evidence.json",
+        "../../verification_01/protocols.json",
+        "../../verification_01/embedded_external.json",
+        "../../verification_01/graph_evidence.json",
+        "../../deep_verification_02/checks.json",
+        "../../deep_verification_02/source_pins.json",
+        "../../deep_verification_02/extra_pins.json",
+        "../../deep_verification_02/quest_details.json",
+        "../../raw_exports_01/manifest.json",
+        "../../../G07/shared_core.json"
+      ]
+    },
+    "communications": {
+      "status": "PASS",
+      "proven": [
+        "Four native primary producer\u00e2\u2020\u2019connected real acknowledgement waits proven per quest (two prebrief/debrief scenes, start+end). Exact producer/wait/node/socket paths: [{\"quest_id\": \"sts_wat_kab_06\", \"caller\": \"base\\\\open_world\\\\street_stories\\\\watson\\\\kabuki\\\\sts_wat_kab_06\\\\scenes\\\\sts_wat_kab_06_halocall_debrief.scene\", \"part\": \"start\", \"producer\": \"74\", \"wait\": \"249\", \"path\": [[\"74\", \"0:0\", \"68\", \"666:1\"], [\"68\", \"666:0\", \"249\", \"0:1\"]], \"request\": \"holo_reggie_calls_v_start_activate\", \"ack\": \"holo_reggie_calls_v_start_done\", \"master_ack_node\": 396, \"caller_wait_kind\": \"NATIVE_ACK_WAIT\"}, {\"quest_id\": \"sts_wat_kab_06\", \"caller\": \"base\\\\open_world\\\\street_stories\\\\watson\\\\kabuki\\\\sts_wat_kab_06\\\\scenes\\\\sts_wat_kab_06_halocall_debrief.scene\", \"part\": \"end\", \"producer\": \"75\", \"wait\": \"70\", \"path\": [[\"75\", \"0:0\", \"70\", \"0:1\"]], \"request\": \"holo_reggie_calls_v_end_activate\", \"ack\": \"holo_reggie_calls_v_end_done\", \"master_ack_node\": 398, \"caller_wait_kind\": \"NATIVE_ACK_WAIT\"}, {\"quest_id\": \"sts_wat_kab_06\", \"caller\": \"base\\\\open_world\\\\street_stories\\\\watson\\\\kabuki\\\\sts_wat_kab_06\\\\scenes\\\\sts_wat_kab_06_holocall_prebrief.scene\", \"part\": \"start\", \"producer\": \"64\", \"wait\": \"267\", \"path\": [[\"64\", \"0:0\", \"58\", \"666:1\"], [\"58\", \"666:0\", \"267\", \"0:1\"]], \"request\": \"holo_reggie_calls_v_start_activate\", \"ack\": \"holo_reggie_calls_v_start_done\", \"master_ack_node\": 396, \"caller_wait_kind\": \"NATIVE_ACK_WAIT\"}, {\"quest_id\": \"sts_wat_kab_06\", \"caller\": \"base\\\\open_world\\\\street_stories\\\\watson\\\\kabuki\\\\sts_wat_kab_06\\\\scenes\\\\sts_wat_kab_06_holocall_prebrief.scene\", \"part\": \"end\", \"producer\": \"65\", \"wait\": \"60\", \"path\": [[\"65\", \"0:0\", \"60\", \"0:1\"]], \"request\": \"holo_reggie_calls_v_end_activate\", \"ack\": \"holo_reggie_calls_v_end_done\", \"master_ack_node\": 398, \"caller_wait_kind\": \"NATIVE_ACK_WAIT\"}]",
+        "Native reggie initializer84 is connected from U9 hub25.Out1; actual master scene396 writes holo_reggie_calls_v_start_done1 and398 end_done1. Start queue36\u00e2\u2020\u201937count+1\u00e2\u2020\u201938request0\u00e2\u2020\u201939 loop; queue40\u00e2\u2020\u201932.False\u00e2\u2020\u20199count-1\u00e2\u2020\u201921 native scene start. Native end2\u00e2\u2020\u201910request0\u00e2\u2020\u201921end and End 0/rejection return paths retained. Native cut15 interrupts40 and29 waits return; native scene566\u00e2\u2020\u2019568 interruption path preserved.",
+        "Native cleanup474.True\u00e2\u2020\u2019342.In48\u00e2\u2020\u2019476 calls reggie_cleanup: comparisons4/5 inspect real start_count>end_count, native6/7 increment reset counters and play actual end scenes. SMS paths and outcome predicates are enumerated with native nodes; no manufactured ACK."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "PASS is connected static protocol parity only. Actual call/UI delivery, concurrent scheduling, rejection/interrupt cleanup across reload and contacts/messages read state require gameplay fixtures."
+      ],
+      "evidence": [
+        "../../verification_01/tests.json",
+        "../../verification_01/source_pins.json",
+        "../../verification_01/script_pins.json",
+        "../../verification_01/quest_evidence.json",
+        "../../verification_01/protocols.json",
+        "../../verification_01/embedded_external.json",
+        "../../verification_01/graph_evidence.json",
+        "../../deep_verification_02/checks.json",
+        "../../deep_verification_02/source_pins.json",
+        "../../deep_verification_02/extra_pins.json",
+        "../../deep_verification_02/quest_details.json",
+        "../../raw_exports_01/manifest.json",
+        "../../../G07/shared_core.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native whole root prefab is exactly #sts_wat_kab_06_steetstory, including the source spelling. Native prestate has no root PIPs but its full actions matter:0\u219230/4 native tier tests\u21925 prestate_triggered1\u21922 kana_yakin_default_on1, security SAFE, laptop document changes and cleaning/medstore community transitions;3 waits tier1_4,7 outside safe-spawn, then restores original security/docs/gates and6 kana_yakin_default_on0 with AND23 cleanup. All original relative/absolute NodeRefs and native main support retained; no broad new vendor/default owner added.",
+        "Every native child depot selected from the exact source inventory is absent from QR5 epoch00 packaged override keyset; current private entry hash 5F27FF8D0AC151761E81E05E0E2F54C90AF94286705D1B4452EB6CC87C899D14 equals frozen effective payload. Actual fresh raw decode agrees with source model after exact TweakDBID numeric identity canonicalization only."
+      ],
+      "approved_differences": [
+        "Exact original native phase/field/resource/node identities retained under private U9 owners; original prestate companions preserved where present."
+      ],
+      "remaining": [
+        "PostTower native/saved streetstory ownership and shared phone lease retirement are not proven by killed facts, actor presence or Issued receipts. Root PhasePrefabs and nested PhaseInstancePrefabs are obligations, not decoded world-placement proof."
+      ],
+      "evidence": [
+        "../../verification_01/tests.json",
+        "../../verification_01/source_pins.json",
+        "../../verification_01/script_pins.json",
+        "../../verification_01/quest_evidence.json",
+        "../../verification_01/protocols.json",
+        "../../verification_01/embedded_external.json",
+        "../../verification_01/graph_evidence.json",
+        "../../deep_verification_02/checks.json",
+        "../../deep_verification_02/source_pins.json",
+        "../../deep_verification_02/extra_pins.json",
+        "../../deep_verification_02/quest_details.json",
+        "../../raw_exports_01/manifest.json",
+        "../../../G07/shared_core.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Native Blake Croyle kill versus unconscious/subdue delivery and backup-arrived177 branches remain exact, with independent target_killed/unconscious, blake_croyle_dead and backup_arrived fields. Native root6 Kill input0\u2192reward64 completion, nonlethal62\u2192reward63 pacifist, both through81. All subsequent debrief, target transport, community/device and multi-input cleanup branches retain original nodes and sockets.",
+        "Every selected native parent node payload, copied inline graph, socket/edge, native body reference, nested phase and available original embedded/external body graph compares exactly (only explicit storage Flags/TweakDBID encoding changes). Actual body graphs and fact/journal/reward/actor handler inventories include node IDs and incoming/outgoing sockets."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Static authored route equality does not establish spawn/event execution or gameplay completion on an arbitrary save. Blake lethal/subdue/delivery, Kana/vendor/prestate community handoff, backup and original gate/security timing, rewards and reload."
+      ],
+      "evidence": [
+        "../../verification_01/tests.json",
+        "../../verification_01/source_pins.json",
+        "../../verification_01/script_pins.json",
+        "../../verification_01/quest_evidence.json",
+        "../../verification_01/protocols.json",
+        "../../verification_01/embedded_external.json",
+        "../../verification_01/graph_evidence.json",
+        "../../deep_verification_02/checks.json",
+        "../../deep_verification_02/source_pins.json",
+        "../../deep_verification_02/extra_pins.json",
+        "../../deep_verification_02/quest_details.json",
+        "../../raw_exports_01/manifest.json",
+        "../../../G07/shared_core.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Native whole root prefab #sts_wat_kab_06_steetstory is preserved; graph_evidence.json and quest_details.json retain all authored NodeRefs, scene refs, root/nested phase prefab bindings, workspot/actor/camera payloads. Per-quest native body resources remain original-provider bytes.",
+        "Actual reward uses were matched to stock TweakDB record definitions (3 direct uses); raw numeric IDs equal original string IDs under exact CRC32/length identity."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "WolvenKit9.1 worldNode/sector placement decoding limitation remains; actual actor/scene camera/workspot/prefab content ownership and runtime streaming are not fully resolved. Direct stock record existence is not effective TweakXL/CET override proof; the depth-1 capture leaves child references explicitly listed."
+      ],
+      "evidence": [
+        "../../verification_01/tests.json",
+        "../../verification_01/source_pins.json",
+        "../../verification_01/script_pins.json",
+        "../../verification_01/quest_evidence.json",
+        "../../verification_01/protocols.json",
+        "../../verification_01/embedded_external.json",
+        "../../verification_01/graph_evidence.json",
+        "../../deep_verification_02/checks.json",
+        "../../deep_verification_02/source_pins.json",
+        "../../deep_verification_02/extra_pins.json",
+        "../../deep_verification_02/quest_details.json",
+        "../../raw_exports_01/manifest.json",
+        "../../../G07/shared_core.json"
+      ]
+    },
+    "journal": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Unlisted call_fixer_for_car root3/229 is native Inactive-only cleanup from228; kill_or_subdue/kill_or_subdue root3/93 is an actual MapPin activated by172. Its parent objective is in the9 enumerated EntrySafe paths. No newly added objective guard or synthetic transport call was required. Effective mappin identities and attachment are unproven.",
+        "Both private map variants preserve every retained native reggie map node payload, original reggie_visited>0 and journal predicates; owned MapPermit/Started receipts prevent indiscriminate map setup. Explicit contraction of foreign sibling POI branches is recorded in original U9 recipes."
+      ],
+      "approved_differences": [
+        "Existing focused map adapters retain only this admitted gig, preserving native map payloads."
+      ],
+      "remaining": [
+        "Journal class/path bindings are authored parity evidence, not complete effective JournalManager hash/identity and notification proof. Exact unlisted paths/writer sockets are in deep quest_details; no blind objective guard was added."
+      ],
+      "evidence": [
+        "../../verification_01/tests.json",
+        "../../verification_01/source_pins.json",
+        "../../verification_01/script_pins.json",
+        "../../verification_01/quest_evidence.json",
+        "../../verification_01/protocols.json",
+        "../../verification_01/embedded_external.json",
+        "../../verification_01/graph_evidence.json",
+        "../../deep_verification_02/checks.json",
+        "../../deep_verification_02/source_pins.json",
+        "../../deep_verification_02/extra_pins.json",
+        "../../deep_verification_02/quest_details.json",
+        "../../raw_exports_01/manifest.json",
+        "../../../G07/shared_core.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Original completion/pacifist reward64/63\u219281 native continuation. Root6 58\u219259 writes kab_06_finished1\u219260; authored achievement and debrief/actor cleanup remain intact. Separate credit3 waits finished>0\u219225 adds wat_sts_counter1 once\u2192CreditDone. No extra quest reward in credit/map/prestate wrappers.",
+        "All direct native reward/achievement uses resolve to captured stock base+EP1 definitions with record types and exact use paths. 7 unique immediate reward/achievement child IDs remain uncaptured; values are recorded per target, not silently treated complete.",
+        "Native private credit guards require Started1/CreditEntered0/CreditDone0 before claim; terminal predicate and exact original district counter+1 payload retained. Native reward nodes are not copied into credit/map setup."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Effective reward descendants/runtime modifiers, one-time inventory and achievement transactions and clean actor/device retirement need live/save fixtures. No fresh compile/package was needed because runtime sources are unchanged."
+      ],
+      "evidence": [
+        "../../verification_01/tests.json",
+        "../../verification_01/source_pins.json",
+        "../../verification_01/script_pins.json",
+        "../../verification_01/quest_evidence.json",
+        "../../verification_01/protocols.json",
+        "../../verification_01/embedded_external.json",
+        "../../verification_01/graph_evidence.json",
+        "../../deep_verification_02/checks.json",
+        "../../deep_verification_02/source_pins.json",
+        "../../deep_verification_02/extra_pins.json",
+        "../../deep_verification_02/quest_details.json",
+        "../../raw_exports_01/manifest.json",
+        "../../../G07/shared_core.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "All8 native local progress/outcome writers are fenced. Additional prestate_triggered and old bugfix garage_door_retro25/5 are unlisted; they may describe old device/community stages, not automatic proof of a fresh playable state. Original saved prestate/Kana/default medstore leases and actual gate retirement remain conditional; neither flag is reset.",
+        "Current main node11, input In1, native saved body depots/node IDs and original cleanup/socket identities remain stable. Private ParentEntered, MainFinished, OwnerFinished, CreditEntered/Done and map receipts are additive; tests mutate terminal handoff/counter and correctly reject divergence."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "No save serialization, reload or future-version transition fixture executed. Saved unsupported unfinished controller states defer; file/source equality does not certify duplicate-owner retirement or future save compatibility."
+      ],
+      "evidence": [
+        "../../verification_01/tests.json",
+        "../../verification_01/source_pins.json",
+        "../../verification_01/script_pins.json",
+        "../../verification_01/quest_evidence.json",
+        "../../verification_01/protocols.json",
+        "../../verification_01/embedded_external.json",
+        "../../verification_01/graph_evidence.json",
+        "../../deep_verification_02/checks.json",
+        "../../deep_verification_02/source_pins.json",
+        "../../deep_verification_02/extra_pins.json",
+        "../../deep_verification_02/quest_details.json",
+        "../../raw_exports_01/manifest.json",
+        "../../../G07/shared_core.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Regina shared core pinned 9F659DCAE5B009EB46952236A067981FD56D8271B906D7F536F67A04E72D6BE2 applies because this quest actually writes holo_reggie_calls_v_start/end_activate and waits real *_done; all four primary protocols independently traced. Exact U9 support/parent/initializer/cleanup and PH3 studio evidence inherited only by matching hashes.",
+        "Native reggie alias is intentional and source-consistent. PH3 studio retains both base and EP1 holocall studio root refs; SupportIssued is written before initializer startup, so it is not a proof every listener is already running.",
+        "Native whole root prefab is exactly #sts_wat_kab_06_steetstory, including the source spelling. Native prestate has no root PIPs but its full actions matter:0\u219230/4 native tier tests\u21925 prestate_triggered1\u21922 kana_yakin_default_on1, security SAFE, laptop document changes and cleaning/medstore community transitions;3 waits tier1_4,7 outside safe-spawn, then restores original security/docs/gates and6 kana_yakin_default_on0 with AND23 cleanup. All original relative/absolute NodeRefs and native main support retained; no broad new vendor/default owner added.",
+        "All8 native local progress/outcome writers are fenced. Additional prestate_triggered and old bugfix garage_door_retro25/5 are unlisted; they may describe old device/community stages, not automatic proof of a fresh playable state. Original saved prestate/Kana/default medstore leases and actual gate retirement remain conditional; neither flag is reset."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Global native/shared saved owners, phone scheduler interleavings, actual studio streaming and cross-mod provider overrides require engine observation. Blake lethal/subdue/delivery, Kana/vendor/prestate community handoff, backup and original gate/security timing, rewards and reload."
+      ],
+      "evidence": [
+        "../../verification_01/tests.json",
+        "../../verification_01/source_pins.json",
+        "../../verification_01/script_pins.json",
+        "../../verification_01/quest_evidence.json",
+        "../../verification_01/protocols.json",
+        "../../verification_01/embedded_external.json",
+        "../../verification_01/graph_evidence.json",
+        "../../deep_verification_02/checks.json",
+        "../../deep_verification_02/source_pins.json",
+        "../../deep_verification_02/extra_pins.json",
+        "../../deep_verification_02/quest_details.json",
+        "../../raw_exports_01/manifest.json",
+        "../../../G07/shared_core.json"
+      ]
+    }
+  },
+  "native_rewards": [
+    {
+      "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+      "graph": "root/6",
+      "node": "63",
+      "records": [
+        "QuestRewards.sts_wat_kab_06_completion_pacifist"
+      ]
+    },
+    {
+      "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+      "graph": "root/6",
+      "node": "64",
+      "records": [
+        "QuestRewards.sts_wat_kab_06_completion"
+      ]
+    },
+    {
+      "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+      "graph": "root/6",
+      "node": "90",
+      "records": [
+        "Achievements.YipMan"
+      ]
+    }
+  ],
+  "source_details": {
+    "entry": "towercontinued\\native_gigs_u9\\sts_wat_kab_06_entry.questphase",
+    "entry_main_node": 11,
+    "inline_node": 2,
+    "poi_node": 121,
+    "body": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_phase.questphase",
+    "native_prefab": "#sts_wat_kab_06_steetstory",
+    "index": 12,
+    "admission_paths": [
+      "quests/street_stories/watson/kabuki/sts_wat_kab_06",
+      "quests/street_stories/watson/kabuki/sts_wat_kab_06/sts_wat_kab_06",
+      "quests/street_stories/watson/kabuki/sts_wat_kab_06/sts_wat_kab_06/go_to_shop",
+      "quests/street_stories/watson/kabuki/sts_wat_kab_06/sts_wat_kab_06/kill_or_subdue",
+      "quests/street_stories/watson/kabuki/sts_wat_kab_06/sts_wat_kab_06/drop_trenton_body",
+      "quests/street_stories/watson/kabuki/sts_wat_kab_06/sts_wat_kab_06/leave_area_with_body",
+      "quests/street_stories/watson/kabuki/sts_wat_kab_06/sts_wat_kab_06/leave_area",
+      "quests/street_stories/watson/kabuki/sts_wat_kab_06/sts_wat_kab_06/find_target",
+      "quests/street_stories/watson/kabuki/sts_wat_kab_06/kab_06_breif"
+    ],
+    "admission_classes": [
+      "gameJournalQuest",
+      "gameJournalQuestPhase",
+      "gameJournalQuestObjective",
+      "gameJournalQuestObjective",
+      "gameJournalQuestObjective",
+      "gameJournalQuestObjective",
+      "gameJournalQuestObjective",
+      "gameJournalQuestObjective",
+      "gameJournalQuestDescription"
+    ],
+    "native_fact_guards": [
+      "kab_06_backup_arrived",
+      "kab_06_blake_croyle_dead",
+      "kab_06_finished",
+      "kab_06_start",
+      "kab_06_testdef",
+      "sts_wat_kab_06_failed",
+      "sts_wat_kab_06_target_killed",
+      "sts_wat_kab_06_target_unconscious"
+    ],
+    "legacy_tags": [
+      "PTFRB7_wat_kab_06"
+    ],
+    "terminal_facts": [
+      "kab_06_finished",
+      "sts_wat_kab_06_failed"
+    ],
+    "native_journal_paths": [
+      "quests/street_stories/watson/kabuki/sts_wat_kab_06",
+      "quests/street_stories/watson/kabuki/sts_wat_kab_06/kab_06_breif",
+      "quests/street_stories/watson/kabuki/sts_wat_kab_06/sts_wat_kab_06/call_fixer_for_car",
+      "quests/street_stories/watson/kabuki/sts_wat_kab_06/sts_wat_kab_06/drop_trenton_body",
+      "quests/street_stories/watson/kabuki/sts_wat_kab_06/sts_wat_kab_06/find_target",
+      "quests/street_stories/watson/kabuki/sts_wat_kab_06/sts_wat_kab_06/go_to_shop",
+      "quests/street_stories/watson/kabuki/sts_wat_kab_06/sts_wat_kab_06/kill_or_subdue",
+      "quests/street_stories/watson/kabuki/sts_wat_kab_06/sts_wat_kab_06/kill_or_subdue/kill_or_subdue",
+      "quests/street_stories/watson/kabuki/sts_wat_kab_06/sts_wat_kab_06/leave_area",
+      "quests/street_stories/watson/kabuki/sts_wat_kab_06/sts_wat_kab_06/leave_area_with_body"
+    ],
+    "journal_paths_not_in_EntrySafe": [
+      "quests/street_stories/watson/kabuki/sts_wat_kab_06/sts_wat_kab_06/call_fixer_for_car",
+      "quests/street_stories/watson/kabuki/sts_wat_kab_06/sts_wat_kab_06/kill_or_subdue/kill_or_subdue"
+    ],
+    "maps": [
+      {
+        "depot": "towercontinued\\native_gigs_u9\\sts_wat_kab_06_map0.questphase",
+        "native_graph": "root/67",
+        "foreign_poi_contraction": [
+          10,
+          16,
+          19,
+          20,
+          21,
+          22,
+          23,
+          25,
+          26,
+          28,
+          29,
+          30,
+          31
+        ]
+      },
+      {
+        "depot": "towercontinued\\native_gigs_u9\\sts_wat_kab_06_map1.questphase",
+        "native_graph": "root/167",
+        "foreign_poi_contraction": [
+          29,
+          39
+        ]
+      }
+    ],
+    "credit": "towercontinued\\native_gigs_u9\\sts_wat_kab_06_credit.questphase",
+    "credit_finished_node": 3,
+    "native_terminal_routes": [
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/6",
+        "node": "59",
+        "writes": [
+          {
+            "$type": "questSetVar_NodeType",
+            "factName": "kab_06_finished",
+            "setExactValue": 1,
+            "value": 1
+          }
+        ],
+        "incoming": [
+          [
+            "58",
+            "Out",
+            "59",
+            "In"
+          ]
+        ],
+        "outgoing": [
+          [
+            "59",
+            "Out",
+            "60",
+            "In"
+          ]
+        ]
+      }
+    ],
+    "rewards": [
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/6",
+        "node": "63",
+        "records": [
+          "QuestRewards.sts_wat_kab_06_completion_pacifist"
+        ]
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/6",
+        "node": "64",
+        "records": [
+          "QuestRewards.sts_wat_kab_06_completion"
+        ]
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/6",
+        "node": "90",
+        "records": [
+          "Achievements.YipMan"
+        ]
+      }
+    ],
+    "scene_phase_bindings": [
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/3",
+        "node": "33",
+        "refs": [
+          "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\scenes\\sts_wat_kab_06_scene.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "243",
+        "refs": [
+          "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\scenes\\sts_wat_kab_06_halocall_debrief.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "244",
+        "refs": [
+          "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\scenes\\sts_wat_kab_06_halocall_debrief.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "247",
+        "refs": [
+          "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\scenes\\sts_wat_kab_06_holocall_prebrief.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "298",
+        "refs": [
+          "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\scenes\\sts_wat_kab_06_halocall_debrief.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "300",
+        "refs": [
+          "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\scenes\\sts_wat_kab_06_halocall_debrief.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_phase.questphase",
+        "graph": "root",
+        "node": "14",
+        "refs": [
+          "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_phase.questphase",
+        "graph": "root",
+        "node": "15",
+        "refs": [
+          "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase"
+        ],
+        "prefabs": []
+      }
+    ]
+  },
+  "specific_details": {
+    "local_native_fact_writers": [
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_bugfixing.questphase",
+        "graph": "root/25",
+        "node": "5",
+        "fact": "sts_wat_kab_06_garage_door_retro",
+        "covered_by_EntrySafe": false,
+        "writes": {
+          "$type": "questSetVar_NodeType",
+          "factName": "sts_wat_kab_06_garage_door_retro",
+          "setExactValue": 0,
+          "value": 1
+        }
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/5",
+        "node": "112",
+        "fact": "kab_06_backup_arrived",
+        "covered_by_EntrySafe": true,
+        "writes": {
+          "$type": "questSetVar_NodeType",
+          "factName": "kab_06_backup_arrived",
+          "setExactValue": 1,
+          "value": 1
+        }
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "162",
+        "fact": "kab_06_start",
+        "covered_by_EntrySafe": true,
+        "writes": {
+          "$type": "questSetVar_NodeType",
+          "factName": "kab_06_start",
+          "setExactValue": 1,
+          "value": 1
+        }
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "187",
+        "fact": "sts_wat_kab_06_target_unconscious",
+        "covered_by_EntrySafe": true,
+        "writes": {
+          "$type": "questSetVar_NodeType",
+          "factName": "sts_wat_kab_06_target_unconscious",
+          "setExactValue": 0,
+          "value": 1
+        }
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "230",
+        "fact": "kab_06_blake_croyle_dead",
+        "covered_by_EntrySafe": true,
+        "writes": {
+          "$type": "questSetVar_NodeType",
+          "factName": "kab_06_blake_croyle_dead",
+          "setExactValue": 1,
+          "value": 1
+        }
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "279",
+        "fact": "sts_wat_kab_06_target_killed",
+        "covered_by_EntrySafe": true,
+        "writes": {
+          "$type": "questSetVar_NodeType",
+          "factName": "sts_wat_kab_06_target_killed",
+          "setExactValue": 0,
+          "value": 1
+        }
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/6",
+        "node": "59",
+        "fact": "kab_06_finished",
+        "covered_by_EntrySafe": true,
+        "writes": {
+          "$type": "questSetVar_NodeType",
+          "factName": "kab_06_finished",
+          "setExactValue": 1,
+          "value": 1
+        }
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/6",
+        "node": "85",
+        "fact": "sts_wat_kab_06_failed",
+        "covered_by_EntrySafe": true,
+        "writes": {
+          "$type": "questSetVar_NodeType",
+          "factName": "sts_wat_kab_06_failed",
+          "setExactValue": 1,
+          "value": 1
+        }
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_prestate_control.questphase",
+        "graph": "root",
+        "node": "5",
+        "fact": "kab_06_prestate_triggered",
+        "covered_by_EntrySafe": false,
+        "writes": {
+          "$type": "questSetVar_NodeType",
+          "factName": "kab_06_prestate_triggered",
+          "setExactValue": 1,
+          "value": 1
+        }
+      }
+    ],
+    "unlisted_journal_paths_actual_writers": [
+      {
+        "path": "quests/street_stories/watson/kabuki/sts_wat_kab_06/sts_wat_kab_06/call_fixer_for_car",
+        "writers": [
+          {
+            "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+            "graph": "root/3",
+            "node": "229",
+            "type": "questJournalNodeDefinition",
+            "incoming": [
+              [
+                "228",
+                "Out",
+                "229",
+                "Inactive"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "path": "quests/street_stories/watson/kabuki/sts_wat_kab_06/sts_wat_kab_06/kill_or_subdue/kill_or_subdue",
+        "writers": [
+          {
+            "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+            "graph": "root/3",
+            "node": "93",
+            "type": "questJournalNodeDefinition",
+            "incoming": [
+              [
+                "172",
+                "Out",
+                "93",
+                "Active"
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "native_asset_bindings": [
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_bugfixing.questphase",
+        "graph": "root/6",
+        "node": "4",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_dvc_main_gate"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_bugfixing.questphase",
+        "graph": "root/16",
+        "node": "5",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_dvc_main_gate"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_bugfixing.questphase",
+        "graph": "root/16",
+        "node": "6",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_dvc_main_gate"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_bugfixing.questphase",
+        "graph": "root/20",
+        "node": "4",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_dvc_roof_hatch"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_bugfixing.questphase",
+        "graph": "root/20",
+        "node": "5",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_dvc_roof_hatch"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_bugfixing.questphase",
+        "graph": "root/20",
+        "node": "8",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_tr_go_inside_location_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_bugfixing.questphase",
+        "graph": "root/20",
+        "node": "14",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_spwn_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_bugfixing.questphase",
+        "graph": "root/30",
+        "node": "4",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_dvc_main_gate"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/2",
+        "node": "2",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/2",
+        "node": "19",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/2",
+        "node": "3",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/2",
+        "node": "20",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/2",
+        "node": "21",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/2",
+        "node": "22",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/2",
+        "node": "23",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/2",
+        "node": "24",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_animals_van"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/2",
+        "node": "25",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_animals_van"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/2",
+        "node": "26",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_animals_van"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/2",
+        "node": "27",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_animals_van"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/2",
+        "node": "28",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_animals_van"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/2",
+        "node": "29",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_animals_van"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/2",
+        "node": "41",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/3",
+        "node": "14",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_dvc_security_system_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/3",
+        "node": "17",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/3",
+        "node": "24",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_tr_VO_truck_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/3",
+        "node": "26",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/3",
+        "node": "27",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com",
+          "#kab_06_patrol_truck_001",
+          "#kab_06_ws_alerted_workspots_001",
+          "#kab_06_ws_alerted_workspots_003",
+          "#kab_06_ws_alerted_workspots_004",
+          "#kab_06_ws_alerted_workspots_005",
+          "#kab_06_ws_alerted_workspots_007",
+          "#kab_06_ws_alerted_workspots_008",
+          "#kab_06_ws_alerted_workspots_009",
+          "#kab_06_ws_alerted_workspots_010",
+          "#kab_06_ws_alerted_workspots_013",
+          "#kab_06_ws_alerted_workspots_015"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/3",
+        "node": "28",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com",
+          "#kab_06_patrol_scavenge_001",
+          "#kab_06_ws_alerted_workspots_006",
+          "#kab_06_ws_alerted_workspots_011",
+          "#kab_06_ws_alerted_workspots_012",
+          "#kab_06_ws_alerted_workspots_014"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/3",
+        "node": "29",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com",
+          "#kab_06_patrol_inside_001",
+          "#kab_06_ws_alerted_workspots_001",
+          "#kab_06_ws_alerted_workspots_003",
+          "#kab_06_ws_alerted_workspots_004",
+          "#kab_06_ws_alerted_workspots_005",
+          "#kab_06_ws_alerted_workspots_007",
+          "#kab_06_ws_alerted_workspots_008",
+          "#kab_06_ws_alerted_workspots_009",
+          "#kab_06_ws_alerted_workspots_010",
+          "#kab_06_ws_alerted_workspots_013",
+          "#kab_06_ws_alerted_workspots_015"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/3",
+        "node": "30",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_tr_VO_building_003"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/3",
+        "node": "31",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_tr_VO_building_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/3",
+        "node": "33",
+        "refs": [
+          "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\scenes\\sts_wat_kab_06_scene.scene"
+        ],
+        "node_refs": [
+          "#sts_sm_wat_kab_06_scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/3",
+        "node": "39",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com",
+          "#kab_06_ws_patrol_outside_002"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/3",
+        "node": "40",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com",
+          "#kab_06_enemy4_go_back"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/5",
+        "node": "5",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_spw_backup_car_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/5",
+        "node": "6",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_spw_backup_car_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/5",
+        "node": "7",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com_reinforcemetns_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/5",
+        "node": "8",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com_reinforcemetns_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/5",
+        "node": "13",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com_reinforcemetns_001",
+          "#kab_06_spw_backup_car_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/5",
+        "node": "15",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com_reinforcemetns_001",
+          "#kab_06_spw_backup_car_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/5",
+        "node": "16",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com_reinforcemetns_001",
+          "#kab_06_spw_backup_car_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/5",
+        "node": "88",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com_reinforcemetns_001",
+          "#kab_06_spw_backup_car_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/5",
+        "node": "89",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_spw_reinforcement_car"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/5",
+        "node": "94",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com_reinforcemetns_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/5",
+        "node": "95",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com_reinforcemetns_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/5",
+        "node": "97",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_mp_reinforcements_001",
+          "#kab_06_spl_backup_arrive_001",
+          "#kab_06_spw_backup_car_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/5",
+        "node": "110",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_null_area_big_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/5",
+        "node": "111",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_null_area_big_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/5",
+        "node": "113",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com_reinforcemetns_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/5",
+        "node": "131",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com_reinforcemetns_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/5",
+        "node": "132",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com_reinforcemetns_001",
+          "#kab_06_restricted_movemetn_003"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/5",
+        "node": "133",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com_reinforcemetns_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/5",
+        "node": "135",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com_reinforcemetns_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/5",
+        "node": "136",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com_reinforcemetns_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/5",
+        "node": "138",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com",
+          "#kab_06_dvc_security_system_001",
+          "#kab_06_tr_backup_safety_check"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/5",
+        "node": "151",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com",
+          "#kab_06_com_reinforcemetns_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/5",
+        "node": "153",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com_reinforcemetns_001",
+          "#player"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/5",
+        "node": "154",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com_reinforcemetns_001",
+          "#player"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/5",
+        "node": "155",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com_reinforcemetns_001",
+          "#player"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/5/152",
+        "node": "2",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/5/152",
+        "node": "3",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/5/152",
+        "node": "4",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/5/152",
+        "node": "5",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/5/152",
+        "node": "6",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase",
+        "graph": "root/5/152",
+        "node": "7",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root",
+        "node": "2",
+        "refs": [],
+        "node_refs": [
+          "#sts_wat_kab_06_steetstory"
+        ],
+        "prefabs": [
+          "#sts_wat_kab_06_steetstory"
+        ]
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/2",
+        "node": "15",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_tr_null_area"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/2",
+        "node": "39",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_tr_start_sts_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/2",
+        "node": "41",
+        "refs": [],
+        "node_refs": [
+          "#wat_kab_chat_001_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "102",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_tr_go_inside_location_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "167",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "168",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "169",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "170",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com",
+          "#kab_06_tr_see_blake"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "175",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_tr_leave_area_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "176",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_tr_leave_area_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "178",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "180",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_dvc_security_area_dengerous"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "181",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_dvc_security_area_restricted_inside"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "183",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com_reinforcemetns_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "191",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_fixer_car_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "192",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_fixer_car_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "193",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "194",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com",
+          "#kab_06_fixer_car_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "195",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_fixer_car_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "196",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_fixer_car_driver"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "198",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_fixer_car_driver"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "199",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_fixer_car_001",
+          "#kab_06_fixer_car_driver"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "202",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_fixer_car_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "203",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_fixer_car_driver"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "204",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "206",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_fixer_car_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "207",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_fixer_car_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "208",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_fixer_car_driver"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "209",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com",
+          "#kab_06_tr_go_inside_location_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "216",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_fixer_car_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "217",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_fixer_car_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "218",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_fixer_car_driver"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "219",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_fixer_car_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "220",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "221",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "222",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "227",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_tr_leave_area_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "234",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_fixer_car_001",
+          "#kab_06_fixer_car_spl_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "235",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_fixer_car_001",
+          "#kab_06_fixer_car_spl_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "236",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_fixer_car_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "237",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_fixer_car_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "238",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_fixer_car_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "239",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_fixer_car_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "240",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_fixer_car_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "243",
+        "refs": [
+          "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\scenes\\sts_wat_kab_06_halocall_debrief.scene"
+        ],
+        "node_refs": [
+          "#sts_sm_wat_kab_06_halocall_debrief"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "244",
+        "refs": [
+          "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\scenes\\sts_wat_kab_06_halocall_debrief.scene"
+        ],
+        "node_refs": [
+          "#sts_sm_wat_kab_06_halocall_debrief"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "247",
+        "refs": [
+          "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\scenes\\sts_wat_kab_06_holocall_prebrief.scene"
+        ],
+        "node_refs": [
+          "#sts_sm_wat_kab_06_holocall_prebrief"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "261",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "262",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "267",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_fixer_car_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "268",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_fixer_car_driver"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "269",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_fixer_car_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "270",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_fixer_car_001",
+          "#kab_06_fixer_car_spl_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "284",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_fixer_car_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "295",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_fixer_car_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "296",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_fixer_car_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "298",
+        "refs": [
+          "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\scenes\\sts_wat_kab_06_halocall_debrief.scene"
+        ],
+        "node_refs": [],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "300",
+        "refs": [
+          "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\scenes\\sts_wat_kab_06_halocall_debrief.scene"
+        ],
+        "node_refs": [],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/3",
+        "node": "303",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_fixer_car_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/6",
+        "node": "25",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_fixer_car_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/6",
+        "node": "29",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/6",
+        "node": "30",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_animals_van"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/6",
+        "node": "34",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_big_door_001",
+          "#kab_06_dvc_backdoor_001",
+          "#kab_06_dvc_roof_hatch",
+          "#kab_06_ground_floor_doors_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/6",
+        "node": "46",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_dvc_security_area_dengerous"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/6",
+        "node": "47",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_dvc_security_area_restricted_inside"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/6",
+        "node": "48",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_spw_backup_car_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/6",
+        "node": "49",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_com_reinforcemetns_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/6",
+        "node": "61",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_tr_null_area"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/6",
+        "node": "67",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_null_area_big_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/6",
+        "node": "74",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_dvc_security_system_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/6",
+        "node": "75",
+        "refs": [],
+        "node_refs": [
+          "$/03_night_city/c_watson/kabuki/kabuki_service_points_prefabPSXPL6Q/wat_kab_medic_01_prefabSSMAJNA/wat_kab_medic_01_gameplay_prefabOK4WNII"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/6",
+        "node": "76",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_ground_floor_doors_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/6",
+        "node": "77",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_big_door_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/6",
+        "node": "78",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_dvc_roof_hatch"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/6",
+        "node": "79",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_dvc_backdoor_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/6",
+        "node": "83",
+        "refs": [],
+        "node_refs": [
+          "$/03_night_city/c_watson/kabuki/loc_sts_wat_kab_06_medical_store_prefabXG6YBRQ/loc_sts_wat_kab_06_medical_store_gameplay_prefabHQ2LSBQ/loc_sts_wat_kab_06_medical_store_devices_prefabDDJNL4A/single_sliding_door_1_002_prefabU62YZZQ/single_sliding_door_1_prefabWRZFFRA"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/6",
+        "node": "84",
+        "refs": [],
+        "node_refs": [
+          "$/03_night_city/c_watson/kabuki/loc_sts_wat_kab_06_medical_store_prefabXG6YBRQ/loc_sts_wat_kab_06_medical_store_gameplay_prefabHQ2LSBQ/loc_sts_wat_kab_06_medical_store_devices_prefabDDJNL4A/single_sliding_door_1_002_prefabU62YZZQ/single_sliding_door_1_prefabWRZFFRA"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/6",
+        "node": "86",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_tr_start_sts_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/6",
+        "node": "91",
+        "refs": [],
+        "node_refs": [
+          "#wat_kab_chat_001_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/6",
+        "node": "65",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_dvc_main_gate"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+        "graph": "root/6",
+        "node": "98",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_dvc_main_gate"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_phase.questphase",
+        "graph": "root",
+        "node": "14",
+        "refs": [
+          "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_gameplay.questphase"
+        ],
+        "node_refs": [],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_phase.questphase",
+        "graph": "root",
+        "node": "15",
+        "refs": [
+          "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase"
+        ],
+        "node_refs": [],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_prestate_control.questphase",
+        "graph": "root",
+        "node": "8",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_dvc_security_area_dengerous"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_prestate_control.questphase",
+        "graph": "root",
+        "node": "9",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_dvc_security_area_restricted_inside"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_prestate_control.questphase",
+        "graph": "root",
+        "node": "10",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_dvc_security_area_dengerous"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_prestate_control.questphase",
+        "graph": "root",
+        "node": "11",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_dvc_security_area_restricted_inside"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_prestate_control.questphase",
+        "graph": "root",
+        "node": "12",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_dvc_blake_laptop"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_prestate_control.questphase",
+        "graph": "root",
+        "node": "13",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_dvc_blake_laptop"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_prestate_control.questphase",
+        "graph": "root",
+        "node": "14",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_dvc_blake_laptop"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_prestate_control.questphase",
+        "graph": "root",
+        "node": "15",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_dvc_blake_laptop"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_prestate_control.questphase",
+        "graph": "root",
+        "node": "16",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_dvc_blake_laptop"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_prestate_control.questphase",
+        "graph": "root",
+        "node": "17",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_dvc_blake_laptop"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_prestate_control.questphase",
+        "graph": "root",
+        "node": "21",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_dvc_blake_laptop"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_prestate_control.questphase",
+        "graph": "root",
+        "node": "22",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_dvc_blake_laptop"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_prestate_control.questphase",
+        "graph": "root",
+        "node": "25",
+        "refs": [],
+        "node_refs": [
+          "$/03_night_city/c_watson/kabuki/kabuki_openworld_prefab74SGL5A/kabuki_openworld_community_prefabRI3IHXI/kabuki_openworld_living_city_prefab5HBMGIY/workers_template_cleaning_service_night_012_prefabX3NGOCQ/workers_template_cleaning_service_night_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_prestate_control.questphase",
+        "graph": "root",
+        "node": "26",
+        "refs": [],
+        "node_refs": [
+          "$/03_night_city/c_watson/kabuki/kabuki_openworld_prefab74SGL5A/kabuki_openworld_community_prefabRI3IHXI/kabuki_openworld_living_city_prefab5HBMGIY/wat_kab_medstore_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_prestate_control.questphase",
+        "graph": "root",
+        "node": "27",
+        "refs": [],
+        "node_refs": [
+          "$/03_night_city/c_watson/kabuki/kabuki_openworld_prefab74SGL5A/kabuki_openworld_community_prefabRI3IHXI/kabuki_openworld_living_city_prefab5HBMGIY/workers_template_cleaning_service_night_012_prefabX3NGOCQ/workers_template_cleaning_service_night_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_prestate_control.questphase",
+        "graph": "root",
+        "node": "28",
+        "refs": [],
+        "node_refs": [
+          "$/03_night_city/c_watson/kabuki/kabuki_openworld_prefab74SGL5A/kabuki_openworld_community_prefabRI3IHXI/kabuki_openworld_living_city_prefab5HBMGIY/wat_kab_medstore_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_prestate_control.questphase",
+        "graph": "root",
+        "node": "7",
+        "refs": [],
+        "node_refs": [
+          "#sts_wat_kab_06_tr_safe_content_spawn"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_prestate_control.questphase",
+        "graph": "root",
+        "node": "31",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_dvc_main_gate"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_prestate_control.questphase",
+        "graph": "root",
+        "node": "32",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_big_door_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_prestate_control.questphase",
+        "graph": "root",
+        "node": "33",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_ground_floor_doors_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_prestate_control.questphase",
+        "graph": "root",
+        "node": "34",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_dvc_main_gate"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_prestate_control.questphase",
+        "graph": "root",
+        "node": "35",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_big_door_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_prestate_control.questphase",
+        "graph": "root",
+        "node": "36",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_ground_floor_doors_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_prestate_control.questphase",
+        "graph": "root",
+        "node": "37",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_dvc_main_gate"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_prestate_control.questphase",
+        "graph": "root",
+        "node": "38",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_big_door_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_prestate_control.questphase",
+        "graph": "root",
+        "node": "39",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_ground_floor_doors_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_prestate_control.questphase",
+        "graph": "root",
+        "node": "43",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_dvc_roof_hatch"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_prestate_control.questphase",
+        "graph": "root",
+        "node": "44",
+        "refs": [],
+        "node_refs": [
+          "#kab_06_dvc_roof_hatch"
+        ],
+        "prefabs": []
+      }
+    ],
+    "applicable_stock_reward_targets": [
+      {
+        "use": {
+          "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+          "graph": "root/6",
+          "node": "63",
+          "records": [
+            "QuestRewards.sts_wat_kab_06_completion_pacifist"
+          ]
+        },
+        "target": {
+          "id": "205482669656",
+          "requested_aliases": [
+            "QuestRewards.sts_wat_kab_06_completion_pacifist"
+          ],
+          "exists_in_stock": true,
+          "record_types": [
+            "gamedataRewardBase_Record"
+          ],
+          "databases": [
+            "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\cache\\tweakdb.bin",
+            "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\cache\\tweakdb_ep1.bin"
+          ],
+          "base_ep1_definitions_identical": true,
+          "record_json_path": "records/414",
+          "immediate_references": [
+            "163894255344",
+            "239113426463",
+            "239094764038",
+            "237383381802",
+            "101020464139"
+          ],
+          "uncaptured_immediate_references": [
+            "163894255344",
+            "239113426463",
+            "239094764038",
+            "237383381802"
+          ]
+        }
+      },
+      {
+        "use": {
+          "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+          "graph": "root/6",
+          "node": "64",
+          "records": [
+            "QuestRewards.sts_wat_kab_06_completion"
+          ]
+        },
+        "target": {
+          "id": "166453125347",
+          "requested_aliases": [
+            "QuestRewards.sts_wat_kab_06_completion"
+          ],
+          "exists_in_stock": true,
+          "record_types": [
+            "gamedataRewardBase_Record"
+          ],
+          "databases": [
+            "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\cache\\tweakdb.bin",
+            "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\cache\\tweakdb_ep1.bin"
+          ],
+          "base_ep1_definitions_identical": true,
+          "record_json_path": "records/413",
+          "immediate_references": [
+            "163894255344",
+            "199469625389",
+            "199552218164",
+            "200121996568",
+            "101020464139"
+          ],
+          "uncaptured_immediate_references": [
+            "163894255344",
+            "199469625389",
+            "199552218164",
+            "200121996568"
+          ]
+        }
+      },
+      {
+        "use": {
+          "depot": "base\\open_world\\street_stories\\watson\\kabuki\\sts_wat_kab_06\\phase\\sts_wat_kab_06_openworld.questphase",
+          "graph": "root/6",
+          "node": "90",
+          "records": [
+            "Achievements.YipMan"
+          ]
+        },
+        "target": {
+          "id": "83732496563",
+          "requested_aliases": [
+            "Achievements.YipMan"
+          ],
+          "exists_in_stock": true,
+          "record_types": [
+            "gamedataAchievement_Record"
+          ],
+          "databases": [
+            "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\cache\\tweakdb.bin",
+            "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\cache\\tweakdb_ep1.bin"
+          ],
+          "base_ep1_definitions_identical": true,
+          "record_json_path": "records/10",
+          "immediate_references": [],
+          "uncaptured_immediate_references": []
+        }
+      }
+    ],
+    "limits": [
+      "Exact authored actor/workspot/camera/NodeRef bindings preserved; worldNode content placement not decoded",
+      "Stock immediate references reported in targets; uncaptured descendants and effective runtime TweakXL/CET values not certified",
+      "Old native saved owners cannot be proven retired by killed facts or private receipts alone"
+    ]
+  },
+  "confirmed_defects": [],
+  "runtime_changes": []
+}

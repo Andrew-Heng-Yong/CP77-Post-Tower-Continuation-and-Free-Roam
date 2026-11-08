@@ -1,0 +1,524 @@
+{
+  "quest_id": "sts_wbr_jpn_01",
+  "title": "Olive Branch",
+  "source_epoch": "source_epoch_00",
+  "status": "DEEP_CONTRACTS_INVESTIGATED_WITH_EXPLICIT_LIMITS",
+  "fully_static_verified": false,
+  "defects": [],
+  "repairs": [],
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Native Japantown deletion-only inline2→71 arms69 tier_1_2>0 or70(tier_1_1==0 AND tier_1>0), XOR68→56.POI Active→65004→main16.In1;65003 also starts original native companion64000.In1.",
+        "Exact native recipe/inline nodes/sockets/edges and current body pins are recorded; original embedded body comparisons=6. Effective catalogue index52, Region=wbr, Counter=wbr_sts_counter; all scalar missing0/journal missing-1 fixture bounds are explicit."
+      ],
+      "approved_differences": [
+        "Existing additive genuine Tower/U9 admission/readiness/one-time observer receipts and exact native handle externalization; original paths/node IDs and body behavior preserved. No new runtime change."
+      ],
+      "remaining": [
+        "LIVE_ONLY: Test keep/free Alex, trunk/delivery/Tyger choices, destroy/abandonment failure, rejected Wakako calls and reload across both reward variants and whole-story prefab cleanup."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\graph_evidence.json",
+          "sha256": "640331339925D9602E8DFB2FF89FCF3C1C4BBAAE145077CCD8CAA97BBB474D04",
+          "json_pointer": "/quests/sts_wbr_jpn_01"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\source_pins.json",
+          "sha256": "8B5F6DA91EE492DF92B87D9EB4E5B8B92EA9D0A76A06B939DF417682646EDD21"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\shared_core.json",
+          "sha256": "A7B283A909C8BE28E02D4C0D82AB5501F2AA23ECC0FF44270C86B403BBB5712F"
+        }
+      ]
+    },
+    "eligibility": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Actual original tier disjunction and native start/finished/failed/Alex/choice progress prerequisites remain. Four own reference gaps are three map pins and obsolete deliver objective; deliver is only read or Failed-cleaned locally (node129/194), with no current own Active writer. No fabricated old history or objective reset.",
+        "Exact native recipe/inline nodes/sockets/edges and current body pins are recorded; original embedded body comparisons=6. Effective catalogue index52, Region=wbr, Counter=wbr_sts_counter; all scalar missing0/journal missing-1 fixture bounds are explicit."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        {
+          "status": "CONDITIONAL_REFERENCE_COVERAGE",
+          "details": {
+            "native_journal_refs_not_catalogued": [
+              "quests/street_stories/wesbrook/japan_town/sts_wbr_jpn_01/sts_wbr_jpn_01/deliver",
+              "quests/street_stories/wesbrook/japan_town/sts_wbr_jpn_01/sts_wbr_jpn_01/drive/car",
+              "quests/street_stories/wesbrook/japan_town/sts_wbr_jpn_01/sts_wbr_jpn_01/drive/diner_parking",
+              "quests/street_stories/wesbrook/japan_town/sts_wbr_jpn_01/sts_wbr_jpn_01/talk_sergei/sergei"
+            ],
+            "native_fact_refs_not_catalogued": [],
+            "note": "Uncatalogued reference does not establish valid started history; exact journal definitions and saved-owner witness still required."
+          },
+          "source_classification": [
+            {
+              "path": "quests/street_stories/wesbrook/japan_town/sts_wbr_jpn_01/sts_wbr_jpn_01/deliver",
+              "uses": [
+                {
+                  "resource": "base\\open_world\\street_stories\\westbrook\\japantown\\sts_wbr_jpn_01\\phases\\sts_wbr_jpn_01b_openworld.questphase",
+                  "graph": "root/5",
+                  "node": "129",
+                  "classes": [
+                    "gameJournalQuestObjective"
+                  ],
+                  "incoming": [
+                    [
+                      "194",
+                      "True",
+                      "129",
+                      "Failed"
+                    ]
+                  ]
+                },
+                {
+                  "resource": "base\\open_world\\street_stories\\westbrook\\japantown\\sts_wbr_jpn_01\\phases\\sts_wbr_jpn_01b_openworld.questphase",
+                  "graph": "root/5",
+                  "node": "194",
+                  "classes": [
+                    "gameJournalQuestObjective"
+                  ],
+                  "incoming": [
+                    [
+                      "128",
+                      "Out",
+                      "194",
+                      "In"
+                    ],
+                    [
+                      "193",
+                      "False",
+                      "194",
+                      "In"
+                    ]
+                  ]
+                }
+              ],
+              "classification": "Actual native objective has only condition/Failed cleanup usage in bounded own closure"
+            },
+            {
+              "path": "quests/street_stories/wesbrook/japan_town/sts_wbr_jpn_01/sts_wbr_jpn_01/drive/car",
+              "uses": [
+                {
+                  "resource": "base\\open_world\\street_stories\\westbrook\\japantown\\sts_wbr_jpn_01\\phases\\sts_wbr_jpn_01_openworld.questphase",
+                  "graph": "root/3",
+                  "node": "106",
+                  "classes": [
+                    "gameJournalQuestMapPin"
+                  ],
+                  "incoming": [
+                    [
+                      "107",
+                      "Out",
+                      "106",
+                      "Active"
+                    ]
+                  ]
+                }
+              ],
+              "classification": "Native map pin target; not omitted objective"
+            },
+            {
+              "path": "quests/street_stories/wesbrook/japan_town/sts_wbr_jpn_01/sts_wbr_jpn_01/drive/diner_parking",
+              "uses": [
+                {
+                  "resource": "base\\open_world\\street_stories\\westbrook\\japantown\\sts_wbr_jpn_01\\phases\\sts_wbr_jpn_01_openworld.questphase",
+                  "graph": "root/3",
+                  "node": "108",
+                  "classes": [
+                    "gameJournalQuestMapPin"
+                  ],
+                  "incoming": [
+                    [
+                      "109",
+                      "Out",
+                      "108",
+                      "Active"
+                    ]
+                  ]
+                }
+              ],
+              "classification": "Native map pin target; not omitted objective"
+            },
+            {
+              "path": "quests/street_stories/wesbrook/japan_town/sts_wbr_jpn_01/sts_wbr_jpn_01/talk_sergei/sergei",
+              "uses": [
+                {
+                  "resource": "base\\open_world\\street_stories\\westbrook\\japantown\\sts_wbr_jpn_01\\phases\\sts_wbr_jpn_01_openworld.questphase",
+                  "graph": "root/3",
+                  "node": "21",
+                  "classes": [
+                    "gameJournalQuestMapPin"
+                  ],
+                  "incoming": [
+                    [
+                      "90",
+                      "Out",
+                      "21",
+                      "Inactive"
+                    ]
+                  ]
+                }
+              ],
+              "classification": "Native map pin target; not omitted objective"
+            }
+          ]
+        },
+        "CONDITIONAL: saved shared ownership, engine schedule/interrupt/reload and target/definition history remain explicit. Test keep/free Alex, trunk/delivery/Tyger choices, destroy/abandonment failure, rejected Wakako calls and reload across both reward variants and whole-story prefab cleanup."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\graph_evidence.json",
+          "sha256": "640331339925D9602E8DFB2FF89FCF3C1C4BBAAE145077CCD8CAA97BBB474D04",
+          "json_pointer": "/quests/sts_wbr_jpn_01"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\source_pins.json",
+          "sha256": "8B5F6DA91EE492DF92B87D9EB4E5B8B92EA9D0A76A06B939DF417682646EDD21"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\shared_core.json",
+          "sha256": "A7B283A909C8BE28E02D4C0D82AB5501F2AA23ECC0FF44270C86B403BBB5712F"
+        }
+      ]
+    },
+    "communications": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "All actual own scene caller entries and both incoming/outgoing holo/audio producer prefixes were inspected; this job emits incoming Wakako holo requests only. Prebrief/debrief real start/end ACK paths and shared prearmed retry context are retained, with actual rejected/SMS outcome alternatives; no physical call-context conclusion is inferred from filenames.",
+        "Exact native recipe/inline nodes/sockets/edges and current body pins are recorded; original embedded body comparisons=6. Effective catalogue index52, Region=wbr, Counter=wbr_sts_counter; all scalar missing0/journal missing-1 fixture bounds are explicit."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: saved shared ownership, engine schedule/interrupt/reload and target/definition history remain explicit. Test keep/free Alex, trunk/delivery/Tyger choices, destroy/abandonment failure, rejected Wakako calls and reload across both reward variants and whole-story prefab cleanup."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\graph_evidence.json",
+          "sha256": "640331339925D9602E8DFB2FF89FCF3C1C4BBAAE145077CCD8CAA97BBB474D04",
+          "json_pointer": "/quests/sts_wbr_jpn_01"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\source_pins.json",
+          "sha256": "8B5F6DA91EE492DF92B87D9EB4E5B8B92EA9D0A76A06B939DF417682646EDD21"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\shared_core.json",
+          "sha256": "A7B283A909C8BE28E02D4C0D82AB5501F2AA23ECC0FF44270C86B403BBB5712F"
+        }
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native main root and nested32, old OW2/4 and b_openworld3/7 retain whole #sts_wbr_jpn_01_streetstory phase-instance leases. The native parallel prestate companion is genuinely inert input0/unreachable output1 with no edges/actions/prefabs; its identity is retained without inventing setup work or deleting a persisted resource.",
+        "Exact native recipe/inline nodes/sockets/edges and current body pins are recorded; original embedded body comparisons=6. Effective catalogue index52, Region=wbr, Counter=wbr_sts_counter; all scalar missing0/journal missing-1 fixture bounds are explicit."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: saved shared ownership, engine schedule/interrupt/reload and target/definition history remain explicit. Test keep/free Alex, trunk/delivery/Tyger choices, destroy/abandonment failure, rejected Wakako calls and reload across both reward variants and whole-story prefab cleanup."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\graph_evidence.json",
+          "sha256": "640331339925D9602E8DFB2FF89FCF3C1C4BBAAE145077CCD8CAA97BBB474D04",
+          "json_pointer": "/quests/sts_wbr_jpn_01"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\source_pins.json",
+          "sha256": "8B5F6DA91EE492DF92B87D9EB4E5B8B92EA9D0A76A06B939DF417682646EDD21"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\shared_core.json",
+          "sha256": "A7B283A909C8BE28E02D4C0D82AB5501F2AA23ECC0FF44270C86B403BBB5712F"
+        }
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Native Sergei meeting, Tyger encounter/vehicle, Alex trunk/open/free/deliver choices and future failed producers remain. Main root17 condition19 failed>0 True→90 failure route, False→5/97; condition76 debrief_sts_suceeded_not_perfect>0 True→77 special alex_free reward, False→17 ordinary reward; both→14. Native misspelled suceeded is preserved.",
+        "Exact native recipe/inline nodes/sockets/edges and current body pins are recorded; original embedded body comparisons=6. Effective catalogue index52, Region=wbr, Counter=wbr_sts_counter; all scalar missing0/journal missing-1 fixture bounds are explicit."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Test keep/free Alex, trunk/delivery/Tyger choices, destroy/abandonment failure, rejected Wakako calls and reload across both reward variants and whole-story prefab cleanup."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\graph_evidence.json",
+          "sha256": "640331339925D9602E8DFB2FF89FCF3C1C4BBAAE145077CCD8CAA97BBB474D04",
+          "json_pointer": "/quests/sts_wbr_jpn_01"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\source_pins.json",
+          "sha256": "8B5F6DA91EE492DF92B87D9EB4E5B8B92EA9D0A76A06B939DF417682646EDD21"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\shared_core.json",
+          "sha256": "A7B283A909C8BE28E02D4C0D82AB5501F2AA23ECC0FF44270C86B403BBB5712F"
+        }
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Original Sergei/Alex/Tyger actors, exact trunk/vehicle/delivery workspots/cameras, relative world NodeRefs and nested whole-story prefab leases are retained. Actual root/ancestor ownership was checked separately from empty private/prestate roots; no replacement spawn, AI or vehicle-door workaround.",
+        "Exact native recipe/inline nodes/sockets/edges and current body pins are recorded; original embedded body comparisons=6. Effective catalogue index52, Region=wbr, Counter=wbr_sts_counter; all scalar missing0/journal missing-1 fixture bounds are explicit."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "OPAQUE: actual streamed world/actor/workspot/camera contents and placement are not decoded. Test keep/free Alex, trunk/delivery/Tyger choices, destroy/abandonment failure, rejected Wakako calls and reload across both reward variants and whole-story prefab cleanup."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\graph_evidence.json",
+          "sha256": "640331339925D9602E8DFB2FF89FCF3C1C4BBAAE145077CCD8CAA97BBB474D04",
+          "json_pointer": "/quests/sts_wbr_jpn_01"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\source_pins.json",
+          "sha256": "8B5F6DA91EE492DF92B87D9EB4E5B8B92EA9D0A76A06B939DF417682646EDD21"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\shared_core.json",
+          "sha256": "A7B283A909C8BE28E02D4C0D82AB5501F2AA23ECC0FF44270C86B403BBB5712F"
+        }
+      ]
+    },
+    "journal": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Original talk_sergei/drive/deliver/open-trunk/Alex outcomes preserve native state sockets and wesbrook/japan_town paths. Three unlisted map pins and deliver condition/Failed cleanup are classified from actual source classes/sockets, not treated as proof of an allowed historical save. Target definitions and old/external writers remain conditional.",
+        "Exact native recipe/inline nodes/sockets/edges and current body pins are recorded; original embedded body comparisons=6. Effective catalogue index52, Region=wbr, Counter=wbr_sts_counter; all scalar missing0/journal missing-1 fixture bounds are explicit."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        {
+          "status": "CONDITIONAL_REFERENCE_COVERAGE",
+          "details": {
+            "native_journal_refs_not_catalogued": [
+              "quests/street_stories/wesbrook/japan_town/sts_wbr_jpn_01/sts_wbr_jpn_01/deliver",
+              "quests/street_stories/wesbrook/japan_town/sts_wbr_jpn_01/sts_wbr_jpn_01/drive/car",
+              "quests/street_stories/wesbrook/japan_town/sts_wbr_jpn_01/sts_wbr_jpn_01/drive/diner_parking",
+              "quests/street_stories/wesbrook/japan_town/sts_wbr_jpn_01/sts_wbr_jpn_01/talk_sergei/sergei"
+            ],
+            "native_fact_refs_not_catalogued": [],
+            "note": "Uncatalogued reference does not establish valid started history; exact journal definitions and saved-owner witness still required."
+          },
+          "source_classification": [
+            {
+              "path": "quests/street_stories/wesbrook/japan_town/sts_wbr_jpn_01/sts_wbr_jpn_01/deliver",
+              "uses": [
+                {
+                  "resource": "base\\open_world\\street_stories\\westbrook\\japantown\\sts_wbr_jpn_01\\phases\\sts_wbr_jpn_01b_openworld.questphase",
+                  "graph": "root/5",
+                  "node": "129",
+                  "classes": [
+                    "gameJournalQuestObjective"
+                  ],
+                  "incoming": [
+                    [
+                      "194",
+                      "True",
+                      "129",
+                      "Failed"
+                    ]
+                  ]
+                },
+                {
+                  "resource": "base\\open_world\\street_stories\\westbrook\\japantown\\sts_wbr_jpn_01\\phases\\sts_wbr_jpn_01b_openworld.questphase",
+                  "graph": "root/5",
+                  "node": "194",
+                  "classes": [
+                    "gameJournalQuestObjective"
+                  ],
+                  "incoming": [
+                    [
+                      "128",
+                      "Out",
+                      "194",
+                      "In"
+                    ],
+                    [
+                      "193",
+                      "False",
+                      "194",
+                      "In"
+                    ]
+                  ]
+                }
+              ],
+              "classification": "Actual native objective has only condition/Failed cleanup usage in bounded own closure"
+            },
+            {
+              "path": "quests/street_stories/wesbrook/japan_town/sts_wbr_jpn_01/sts_wbr_jpn_01/drive/car",
+              "uses": [
+                {
+                  "resource": "base\\open_world\\street_stories\\westbrook\\japantown\\sts_wbr_jpn_01\\phases\\sts_wbr_jpn_01_openworld.questphase",
+                  "graph": "root/3",
+                  "node": "106",
+                  "classes": [
+                    "gameJournalQuestMapPin"
+                  ],
+                  "incoming": [
+                    [
+                      "107",
+                      "Out",
+                      "106",
+                      "Active"
+                    ]
+                  ]
+                }
+              ],
+              "classification": "Native map pin target; not omitted objective"
+            },
+            {
+              "path": "quests/street_stories/wesbrook/japan_town/sts_wbr_jpn_01/sts_wbr_jpn_01/drive/diner_parking",
+              "uses": [
+                {
+                  "resource": "base\\open_world\\street_stories\\westbrook\\japantown\\sts_wbr_jpn_01\\phases\\sts_wbr_jpn_01_openworld.questphase",
+                  "graph": "root/3",
+                  "node": "108",
+                  "classes": [
+                    "gameJournalQuestMapPin"
+                  ],
+                  "incoming": [
+                    [
+                      "109",
+                      "Out",
+                      "108",
+                      "Active"
+                    ]
+                  ]
+                }
+              ],
+              "classification": "Native map pin target; not omitted objective"
+            },
+            {
+              "path": "quests/street_stories/wesbrook/japan_town/sts_wbr_jpn_01/sts_wbr_jpn_01/talk_sergei/sergei",
+              "uses": [
+                {
+                  "resource": "base\\open_world\\street_stories\\westbrook\\japantown\\sts_wbr_jpn_01\\phases\\sts_wbr_jpn_01_openworld.questphase",
+                  "graph": "root/3",
+                  "node": "21",
+                  "classes": [
+                    "gameJournalQuestMapPin"
+                  ],
+                  "incoming": [
+                    [
+                      "90",
+                      "Out",
+                      "21",
+                      "Inactive"
+                    ]
+                  ]
+                }
+              ],
+              "classification": "Native map pin target; not omitted objective"
+            }
+          ]
+        },
+        "CONDITIONAL: saved shared ownership, engine schedule/interrupt/reload and target/definition history remain explicit. Test keep/free Alex, trunk/delivery/Tyger choices, destroy/abandonment failure, rejected Wakako calls and reload across both reward variants and whole-story prefab cleanup."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\graph_evidence.json",
+          "sha256": "640331339925D9602E8DFB2FF89FCF3C1C4BBAAE145077CCD8CAA97BBB474D04",
+          "json_pointer": "/quests/sts_wbr_jpn_01"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\source_pins.json",
+          "sha256": "8B5F6DA91EE492DF92B87D9EB4E5B8B92EA9D0A76A06B939DF417682646EDD21"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\shared_core.json",
+          "sha256": "A7B283A909C8BE28E02D4C0D82AB5501F2AA23ECC0FF44270C86B403BBB5712F"
+        }
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native main root17 grants reward17 completion or77 completion_alex_free on original condition76; the reward lives in main, while actual jpn_01_finished1 is b_openworld root5 node157 after native success/choice paths. Root17 achievement62 LittleTokyo/wbr_achievement max30 remains. Private credit7 waits finished>0→3 adds wbr_sts_counter1 once.",
+        "Exact native recipe/inline nodes/sockets/edges and current body pins are recorded; original embedded body comparisons=6. Effective catalogue index52, Region=wbr, Counter=wbr_sts_counter; all scalar missing0/journal missing-1 fixture bounds are explicit."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Direct native completion/variant/achievement record captures narrow stock target uncertainty; economic/reference child closure and live TweakXL values/award transition remain unresolved.",
+        "CONDITIONAL: saved shared ownership, engine schedule/interrupt/reload and target/definition history remain explicit. Test keep/free Alex, trunk/delivery/Tyger choices, destroy/abandonment failure, rejected Wakako calls and reload across both reward variants and whole-story prefab cleanup."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\graph_evidence.json",
+          "sha256": "640331339925D9602E8DFB2FF89FCF3C1C4BBAAE145077CCD8CAA97BBB474D04",
+          "json_pointer": "/quests/sts_wbr_jpn_01"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\source_pins.json",
+          "sha256": "8B5F6DA91EE492DF92B87D9EB4E5B8B92EA9D0A76A06B939DF417682646EDD21"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\shared_core.json",
+          "sha256": "A7B283A909C8BE28E02D4C0D82AB5501F2AA23ECC0FF44270C86B403BBB5712F"
+        }
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Stable main/child/prestate paths/local IDs and Alex/failure/choice receipts are preserved. EntrySafe native progress facts and owned ParentEntered/Started/completion/credit guards reject replay of supported used/terminal histories. No synthetic Alex freedom, failed reset or retroactive owner adoption.",
+        "Exact native recipe/inline nodes/sockets/edges and current body pins are recorded; original embedded body comparisons=6. Effective catalogue index52, Region=wbr, Counter=wbr_sts_counter; all scalar missing0/journal missing-1 fixture bounds are explicit."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: saved shared ownership, engine schedule/interrupt/reload and target/definition history remain explicit. Test keep/free Alex, trunk/delivery/Tyger choices, destroy/abandonment failure, rejected Wakako calls and reload across both reward variants and whole-story prefab cleanup."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\graph_evidence.json",
+          "sha256": "640331339925D9602E8DFB2FF89FCF3C1C4BBAAE145077CCD8CAA97BBB474D04",
+          "json_pointer": "/quests/sts_wbr_jpn_01"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\source_pins.json",
+          "sha256": "8B5F6DA91EE492DF92B87D9EB4E5B8B92EA9D0A76A06B939DF417682646EDD21"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\shared_core.json",
+          "sha256": "A7B283A909C8BE28E02D4C0D82AB5501F2AA23ECC0FF44270C86B403BBB5712F"
+        }
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Exact Wakako native caller/controller/real ACKs41/42/cleanup488→355.In61/Out61→424.In1 and PH3 studios are hash-applicable. Native old CYB/vehicle/trunk/history fixes remain distinct from current owned failure logic; no unfiltered global bugfix phase is attached.",
+        "Exact native recipe/inline nodes/sockets/edges and current body pins are recorded; original embedded body comparisons=6. Effective catalogue index52, Region=wbr, Counter=wbr_sts_counter; all scalar missing0/journal missing-1 fixture bounds are explicit."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: saved shared ownership, engine schedule/interrupt/reload and target/definition history remain explicit. Test keep/free Alex, trunk/delivery/Tyger choices, destroy/abandonment failure, rejected Wakako calls and reload across both reward variants and whole-story prefab cleanup."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\graph_evidence.json",
+          "sha256": "640331339925D9602E8DFB2FF89FCF3C1C4BBAAE145077CCD8CAA97BBB474D04",
+          "json_pointer": "/quests/sts_wbr_jpn_01"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\verification_03\\source_pins.json",
+          "sha256": "8B5F6DA91EE492DF92B87D9EB4E5B8B92EA9D0A76A06B939DF417682646EDD21"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\shared_core.json",
+          "sha256": "A7B283A909C8BE28E02D4C0D82AB5501F2AA23ECC0FF44270C86B403BBB5712F"
+        }
+      ]
+    }
+  }
+}

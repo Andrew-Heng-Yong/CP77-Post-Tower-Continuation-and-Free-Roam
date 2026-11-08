@@ -1,0 +1,50 @@
+{
+  "status": "STARTUP_EFFECT_CONTRACT_NARROWED_NO_SAFE_PREPARED_ADAPTER",
+  "utc": "2026-11-05T16:58:40.924778+00:00",
+  "report": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\effect_contract_01\\REPORT.md",
+    "sha256": "D4A0BE5BF996F796CDC4A2622E038A36E69335E8D0431F3883F626A2DDEFE9E3"
+  },
+  "handoff": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\effect_contract_01\\HANDOFF.md",
+    "sha256": "1E7451D3EDFA57D56FDAF6336F5255AC97AEDD5FB0E4923EA6DD0F77E0F24C40"
+  },
+  "result": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\effect_contract_01\\run_01\\result.json",
+    "sha256": "400DDF08D6043847F6A9726790D9FC6CA072F6F1777E3991A04D9D4CA66BB639"
+  },
+  "evidence": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\effect_contract_01\\evidence_manifest.json",
+    "sha256": "9F65D1105FC3635F31BBA71567B9A5565D7ADBC6F0C44AB5EE2A725DF9A4CB09"
+  },
+  "preservation": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\effect_contract_01\\preservation.json",
+    "sha256": "26097DCFEBA0D21842A1F2E78B8B41B7B4768576001A233ABFC6441082570711"
+  },
+  "previous_step": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\event_stage_01\\completion.json",
+    "sha256": "EF6DBFBE92916576F55E05ED44F5C6A6297D4D04CAFA64B03F6342B5AAEACB3D"
+  },
+  "checks": 69,
+  "checks_scope": "Static source, graph and byte controls; no gameplay or repair pass",
+  "actual_startup_branches": 16,
+  "restoration_complete": false,
+  "confirmed_runtime_defect": false,
+  "runtime_candidate": null,
+  "runtime_changes": 0,
+  "save_or_fact_writes": 0,
+  "ready_human_tests": [],
+  "source_closed": [
+    "Actual native false-accumulate grid writes",
+    "Unconditional grid event submission attempt and typed consumer/persistent-state copy path",
+    "All16startup branch dispositions and exact reachability",
+    "Resolved prevention enable Boolean assignment and unresolved-target boundary"
+  ],
+  "remaining": [
+    "Bind actual prepared instance and its support/device/variant/actor state, not rejected scalar/path proxies",
+    "Preserve pending vs consumed startup waits and authored timers",
+    "Close courier writer/history and branch/geometry contract without increment replay",
+    "Engine-level dispatch/effect equivalence, saved persistence and prior setup application remain unproved"
+  ],
+  "next": "Use the full branch matrix to establish a state-preserving support/approach continuation. Actual setup application, consumed waits and shared courier history remain unproved. Do not repeat rejected scalar/key/path probes or restart native setup."
+}

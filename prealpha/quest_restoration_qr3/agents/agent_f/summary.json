@@ -1,0 +1,21 @@
+{
+  "agent": "agent_f",
+  "quests": [
+    "mq025_06_pacifica",
+    "mq025_psycho_brawl"
+  ],
+  "contracts": 20,
+  "source_confirmed_defects": 0,
+  "runtime_changes": false,
+  "tests": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\tests.json",
+  "test_checks": 250,
+  "mutation_controls": 5,
+  "binary_sources": 20,
+  "fully_static_verified": 0,
+  "precise_limits": [
+    "S22 child-failure provenance and saved owner transition",
+    "Exact streamed actor/prefab/variant/workspot bindings",
+    "Reward/wager TweakDB target definitions",
+    "Live nonlethal combat/arbitration/reload behavior"
+  ]
+}

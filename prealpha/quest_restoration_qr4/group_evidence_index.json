@@ -1,0 +1,211 @@
+{
+  "scope": "Final48deepinvestigations; counts are assertion events, not independent gameplay coverage",
+  "groups": [
+    {
+      "group": "G01",
+      "quest_ids": [
+        "mq025_02_kabuki",
+        "mq025_03_arroyo",
+        "mq025_05_glen",
+        "mq025_07_fight_club"
+      ],
+      "investigation": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\results.json",
+      "investigation_sha256": "488CDD3DF0B8229A83EA6C6CA1949FE9881421DC6FA3F24E5FBC9FB4E343CF10",
+      "tests": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\tests.json",
+      "tests_sha256": "91AE8F0765C149F9129D5805927A55EFACC0C21EBD506328176632E2084F3E17",
+      "checks": 124,
+      "mutations": 5,
+      "review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G06\\reviews\\G01.json",
+      "review_sha256": "EF4E5286D5B9888209A91BF7D0D37059F3B99F37BFD0A9B00FD3EFB32D665EDC"
+    },
+    {
+      "group": "G02",
+      "quest_ids": [
+        "sq025_delamain",
+        "sq025_compensation",
+        "sq025_0_pickup",
+        "sq025c05_scared",
+        "sq025c07_suicidal"
+      ],
+      "investigation": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G02\\results.json",
+      "investigation_sha256": "CD6FBB3AFFF1A259412320BD625A1155B975C6442F05DDA37A75548666ABED9A",
+      "tests": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G02\\verification_02\\tests.json",
+      "tests_sha256": "237C739B99FE89DA750D8EB4044DBDB131761CFABC6821BF3C462289246222C9",
+      "checks": 241,
+      "mutations": 5,
+      "review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G05\\reviews\\G02.json",
+      "review_sha256": "6F28032683B7947C67D76E1BD4252E9D6858EB115987FB8B97DD695BE8062C0F"
+    },
+    {
+      "group": "G03",
+      "quest_ids": [
+        "mq024_sandra",
+        "mq010_barry",
+        "mq015_wizardbook",
+        "mq019_paparazzi"
+      ],
+      "investigation": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G03\\results.json",
+      "investigation_sha256": "17283954CC9BB782EC7AD09184A8A50AE24312E2AAC046A145BCA7912559BBEE",
+      "tests": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G03\\verification_01\\tests.json",
+      "tests_sha256": "34A94AE16C7DC0EF124ECD7FC807E8A1EC6C5C23B1DE7046F694163C182D4F82",
+      "checks": 948,
+      "mutations": 5,
+      "review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G07\\reviews\\G03.json",
+      "review_sha256": "4F58F3224BBC492D14C767407B0041C693B345CD81107323AF125CF867891ACB"
+    },
+    {
+      "group": "G04",
+      "quest_ids": [
+        "sq024_santo_domingo_race",
+        "sq024_city_race",
+        "sq024_the_big_race",
+        "sq024_badlands_race"
+      ],
+      "investigation": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\results.json",
+      "investigation_sha256": "1AFCC3AAA4586DABC2C0A518760E00CE8F01A26E613319D4C05CA8D930AD7343",
+      "tests": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G04\\verification_02\\tests.json",
+      "tests_sha256": "C34779071322C01ED48F62E91A69D79038577ECC29FF73F6891ED118146E164E",
+      "checks": 168,
+      "mutations": 4,
+      "review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G08\\reviews\\G04.json",
+      "review_sha256": "9D78E50C789936C59D69F7E4797A1A316A1F7A25A431318DC32D386212EB94C7"
+    },
+    {
+      "group": "G05",
+      "quest_ids": [
+        "sq_q001_wakako",
+        "sq_q001_wilson",
+        "mq011_wilson",
+        "mq012_stud"
+      ],
+      "investigation": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G05\\results.json",
+      "investigation_sha256": "C15F6133C69CE5A504C23CB5048E44346FC0F09F91B9E4B68F30CCF97772ED0F",
+      "tests": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G05\\verification_02\\tests.json",
+      "tests_sha256": "E96F61936EAE5F157BD8839B955A181108A52E370693E92A20F9163D90B27678",
+      "checks": 603,
+      "mutations": 6,
+      "review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G10\\reviews\\G05.json",
+      "review_sha256": "BE8EBA5753609BA8F1B2B67E95BA55624EDE3AA72EAA7065B8DD61E846AB2619"
+    },
+    {
+      "group": "G06",
+      "quest_ids": [
+        "mq005_alley",
+        "mq013_punks",
+        "mq002_veterans"
+      ],
+      "investigation": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G06\\results.json",
+      "investigation_sha256": "F4572E4EFBB86CC8AE5AA4DDEC801FA47BE209A14EC4FE4BD4E232E499BA6671",
+      "tests": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G06\\verification_02\\tests.json",
+      "tests_sha256": "5B8ADF392BE3E0ED9BC8280DD3AF532C367E4DADD7DE86C3AEF00ACC48224E50",
+      "checks": 382,
+      "mutations": 7,
+      "review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G09\\reviews\\G06.json",
+      "review_sha256": "783C8BC8F030A6CA5B935167D7A0C5E13A6E6293DC5E29A9AE835D36073FB630"
+    },
+    {
+      "group": "G07",
+      "quest_ids": [
+        "sq025c04_manic",
+        "sq025c01_angry",
+        "sq025c02_sad",
+        "sq025c03_mean",
+        "sq025c06_mean"
+      ],
+      "investigation": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G07\\results.json",
+      "investigation_sha256": "A853014593A4F2177D9DFBBBA6DE7E7A30729868EC26DA8B6BEA2072209D2E9A",
+      "tests": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G07\\verification_02\\tests.json",
+      "tests_sha256": "966137D6B70724CE01BF856B8D3BA023EF8FF2E47DF10D0F5E79E436E11D7385",
+      "checks": 261,
+      "mutations": 7,
+      "review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G08\\reviews\\G07.json",
+      "review_sha256": "2640054C7FBC5C73BEB5756BC8429ABBCE66C5432A2BB6F51CD429EAFB281E7F"
+    },
+    {
+      "group": "G08",
+      "quest_ids": [
+        "mq007_smartgun",
+        "mq008_party",
+        "mq021_guide"
+      ],
+      "investigation": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G08\\results.json",
+      "investigation_sha256": "CA9391A30F493B8F8F543F2A81FD7F523FDA91C757BD2A2A580353426371BFA2",
+      "tests": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G08\\verification_02\\tests.json",
+      "tests_sha256": "5EDA4D0CDDF7D97EDA3CC33546077E4F9101F0B0F69D46EC2FB83B3F49D04E9C",
+      "checks": 677,
+      "mutations": 7,
+      "review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G11\\reviews\\G08.json",
+      "review_sha256": "715A3BA260C1F2BEFB6B2B8C741B1D8F3846B1040C072FAE567F2CD3D62EB3E5"
+    },
+    {
+      "group": "G09",
+      "quest_ids": [
+        "sts_bls_ina_11",
+        "sts_bls_ina_09",
+        "sts_bls_ina_08",
+        "sts_bls_ina_07",
+        "sts_bls_ina_06"
+      ],
+      "investigation": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G09\\results.json",
+      "investigation_sha256": "C01753C7165560C1FA784182315B8E72807AF9CC1763E77E92FA0821FF31C988",
+      "tests": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G09\\verification_02\\tests.json",
+      "tests_sha256": "C5427F3602FD424A9432CDE81708A6CF449D9FDD901CCDC5F68ACF7938073C5A",
+      "checks": 319,
+      "mutations": 12,
+      "review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G12\\reviews\\G09.json",
+      "review_sha256": "180431D6E3CC7A3E2E563950511D1D5338BC389CD9C5993DF9DDC42B1276554B"
+    },
+    {
+      "group": "G10",
+      "quest_ids": [
+        "sts_bls_ina_05",
+        "sts_bls_ina_04",
+        "sts_bls_ina_03",
+        "sts_bls_ina_02"
+      ],
+      "investigation": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G10\\results.json",
+      "investigation_sha256": "B8D1315E24B8023C24B477068D868270D27F48D00ECA0AC7173298CD6A7AD33A",
+      "tests": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G10\\verification_08\\tests.json",
+      "tests_sha256": "33E8F71F654948CAD773A706A4FBE251CF24DE18478FB1B4F6E8B94143652B58",
+      "checks": 272,
+      "mutations": 5,
+      "review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G12\\reviews\\G10.json",
+      "review_sha256": "5C6E9B41C533D6C7C6FC11799F302A8302E2E556117F27160273227F0E2AF325"
+    },
+    {
+      "group": "G11",
+      "quest_ids": [
+        "sts_cct_cpz_01",
+        "sts_cct_dtn_05",
+        "sts_cct_dtn_03",
+        "sts_cct_dtn_04",
+        "sts_cct_dtn_02"
+      ],
+      "investigation": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G11\\results.json",
+      "investigation_sha256": "633976DE352D16BB1DBACE3652EA073704756A5BDA786510D68DB817292CA246",
+      "tests": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G11\\verification_05\\tests.json",
+      "tests_sha256": "E7A631AB6822D9B2216C1759FADF9AA83C85647E96A5B33EAACC617EC0ABDDB3",
+      "checks": 336,
+      "mutations": 11,
+      "review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G10\\reviews\\G11.json",
+      "review_sha256": "B580CC38ACCD8E66535115E32F7826A447487B01F09F8D3C699820C0F1857856"
+    },
+    {
+      "group": "G12",
+      "quest_ids": [
+        "sts_hey_gle_06",
+        "sts_hey_gle_01"
+      ],
+      "investigation": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G12\\results.json",
+      "investigation_sha256": "A2CFE06E7E03E3EAE149324BBF2E7CB384560536763D29AF5298433714B31E87",
+      "tests": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G12\\verification_01\\tests.json",
+      "tests_sha256": "52C634A322A4AEE1F347D170FA643DD629A5FC0DDDCDC6115BFD0C1F04232EDA",
+      "checks": 194,
+      "mutations": 6,
+      "review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G11\\reviews\\G12.json",
+      "review_sha256": "5130055A7A9C2CC080590AD581E31A94F1ADBEDB95ECD2A93BDDE3928281E2F6"
+    }
+  ],
+  "investigation_checks": 4525,
+  "investigation_mutations": 80
+}

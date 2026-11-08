@@ -1,0 +1,23 @@
+{
+  "status": "READY_NOT_INSTALLED",
+  "purpose": "Exact QR13:02 Core deployment requires separate explicit user authorization.",
+  "installer_sha256": "8DE067549901CD3AD6E41AE88F35DBAE4967DC6DEDAADADFF79CF6BB8E2A9A08",
+  "manifest_sha256": "6963CB2679BF3D0ABD9F34A662C437A185D0FBA10873913B6AEC7EC4F76299C0",
+  "fixture_result": "fixture_summary.json",
+  "fixture_result_sha256": "1A23A266395BA617E742DFCBFB54A08A5D2E4B4E2346BEE5629927142A8F8CCB",
+  "independent_review": "review_01/review.json",
+  "independent_review_sha256": "4DD500C1DD5F183672414893EB27F2B9003968C571E9323D37B644E26D21770D",
+  "compile_result": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\verification\\compile_01\\result.json",
+  "compile_result_sha256": "2F8E659E25DD9DC6C62A4DCC14F21B96524F9D3230FA321FBE1FE4F010C83C8C",
+  "source_count": 148,
+  "compile_input_pins": 151,
+  "candidate_epoch": "QR13:02",
+  "installed_core": "QR8:02",
+  "managed_paths": 51,
+  "changing_paths": 3,
+  "diagnostics": "QR10D01/D00E unchanged",
+  "real_installations": 0,
+  "real_replacement_permissions_exercised": false,
+  "fixture_qualification": "No new behavior READY; see fixture_assessment.json",
+  "runtime_certification": false
+}

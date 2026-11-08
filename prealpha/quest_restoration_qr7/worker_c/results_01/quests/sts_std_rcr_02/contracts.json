@@ -1,0 +1,52 @@
+{
+  "quest_id": "sts_std_rcr_02",
+  "title": "Cuckoo's Nest",
+  "scope": "Only named QR6 UNKNOWN contract updates; other contracts retain QR6 findings and are not re-audited here.",
+  "effective_source_epoch": "QR7:01",
+  "fully_static_verified": false,
+  "contracts": {
+    "shared_dependencies": {
+      "previous_status": "UNKNOWN",
+      "status": "UNKNOWN",
+      "source_epoch_investigated": "QR6:00 exact baseline with targeted QR7:01 repair applicability",
+      "effective_source_epoch": "QR7:01",
+      "proven": [
+        "All four current targeted native providers are unique across134 archive indexes. Dixon exact numeric inventory record remains absent from both direct stock databases; this is a condition, not a reward operation.",
+        "The four graph diagnostics are actual serialized source:null entries, with exact destination handles/nodes recorded. Their recipients11/13/15/2 are unreachable from the native root input. This resolves decoder-vs-native ambiguity but supplies no missing original source.",
+        "Both inventory branches still have the exact native route to choice6."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Record114327022403 has no identified current stock definition or verified native invalid-record inventory semantics. Runtime/computed providers are not ruled out.",
+        "No native source exists for four null connection endpoints; they are retained original data. Their intended historical behavior and any engine-origin implicit activation require exact native provenance/engine evidence."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\remaining_01\\result.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\remaining_controls_01\\result.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\quest_providers_01\\manifest.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\stock_01\\records.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G06\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G06\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G06\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G06\\verification_02\\admission.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G06\\deep_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G04\\shared_core.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G06\\verification_02\\protocols.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G06\\deep_01\\asset_bindings.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G06\\deep_01\\native_bugfix_scope.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G06\\dixon_01\\evidence.json"
+      ],
+      "resolved_unknowns": [
+        "Decoder-versus-native ambiguity is resolved: actual serialized source:null connections, not missing normalized names, cause the four inherited diagnostics. Direct provider/stock lookup now pins their current applicability."
+      ],
+      "remaining_unknowns": [
+        "Record114327022403 has no identified current stock definition or verified native invalid-record inventory semantics. Runtime/computed providers are not ruled out.",
+        "No native source exists for four null connection endpoints; they are retained original data. Their intended historical behavior and any engine-origin implicit activation require exact native provenance/engine evidence."
+      ],
+      "runtime_changes": [],
+      "original_findings_source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G06\\quests\\sts_std_rcr_02\\contracts.json",
+      "original_findings_source_sha256": "A01492BE7926231DC46AE0A99A034E0EFBC2613590A3D74EDCC73DA62575E7BF",
+      "independent_review": "Pending worker review for new Career/Cuckoo/Voodoo properties; Nitro accepted source and serialized review separately pinned."
+    }
+  }
+}

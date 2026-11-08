@@ -1,0 +1,105 @@
+{
+  "schema": 1,
+  "recorded_date": "2026-11-07",
+  "role": "CURRENT_PROJECT_WORK_STATUS",
+  "supersedes_as_active_queue": "prealpha/johnny_dialogue_coverage_20261107_01/evidence_09/boundary_ledger.json",
+  "preserved_index_boundary_rows_role": "HISTORICAL_FULL_CORPUS_SOURCE_DIAGNOSTICS",
+  "scope_policy": "scope_policy.json",
+  "items": [
+    {
+      "id": "BOUNDARY-ENGLISH",
+      "status": "COMPLETED_STEP2_INDEX_EXTENSION",
+      "evidence": "../johnny_dialogue_index_20261107_02/index_05/verification.json",
+      "action": "No repeat import. Twenty-nine new providers were added and 12 existing providers reused. Remaining text gaps need source/caller relevance before becoming required work."
+    },
+    {
+      "id": "STEP2-DISPATCH-INDEX",
+      "status": "COMPLETED_STEP2_SOURCE_INDEXING",
+      "source_parameter_count": 3433,
+      "evidence": "../johnny_dialogue_index_20261107_02/index_05/verification.json",
+      "action": "No repeat index build. Review bindings only for eligible post-Tower occurrences for each Step 3 batch. Six native q115 Johnny dispatch contexts are excluded; the other 14 Johnny-reference leads are not automatically eligible."
+    },
+    {
+      "id": "BOUNDARY-DISPATCH-GRAPHS",
+      "status": "COMPLETED_SOURCE_INTERFACE_DIAGNOSIS",
+      "evidence": "evidence_01/case_evidence.json",
+      "source_null_connection_count": 6,
+      "action": "The index retains six literal null endpoints in two source contexts. No game-graph repair is requested. Inspect their effect only if an eligible proposed edit depends on these routes."
+    },
+    {
+      "id": "DECODE-Q303-CONCERT",
+      "status": "EXCLUDED_POST_TOWER",
+      "required_work": false,
+      "action": "Do not investigate the q303 decoder failure for this removal project. Preserve its historical source evidence."
+    },
+    {
+      "id": "BOUNDARY-OPAQUE",
+      "status": "SUPPORT_DIAGNOSTIC_CONDITIONAL_ON_ELIGIBLE_EDIT",
+      "source_sector_payloads": 54,
+      "action": "Do not require all opaque world support to be decoded. Establish the actor/caller/placement dependency of an eligible edit before expanding a sector investigation. Preserve placement limits; do not claim those sectors irrelevant or fully decoded."
+    },
+    {
+      "id": "BOUNDARY-PROVIDERS",
+      "status": "PROVIDER_DIAGNOSTIC_CONDITIONAL_ON_ELIGIBLE_EDIT",
+      "source_differing_provider_groups": 25,
+      "action": "Resolve actual provider selection when an affected post-Tower edit depends on it. The 25 groups include world, appearance, effect and quest-phase inputs; they are not 25 confirmed dialogue blockers. Preserve native and installed support."
+    },
+    {
+      "id": "BOUNDARY-MISSING-ORIGINAL",
+      "status": "SOURCE_CANDIDATES_RELEVANCE_NOT_ESTABLISHED",
+      "source_unprovided_candidates": 65,
+      "action": "No blanket repair queue. Use each actual caller, embedded ownership and post-Tower relevance. Ten candidates are external-mod source literals; unknown availability is not a confirmed game defect. The other 26 original raw misses were already resolved as case aliases."
+    },
+    {
+      "id": "BOUNDARY-MISSING-CONVERSATIONS",
+      "status": "SOURCE_CANDIDATES_RELEVANCE_NOT_ESTABLISHED",
+      "source_unprovided_targets": 25,
+      "action": "Preserve potential native ambient coverage. Investigate the relevant group/conditions and caller before treating an absent standalone scene as required restoration work."
+    },
+    {
+      "id": "BOUNDARY-MISSING-SUPPORT",
+      "status": "SOURCE_CANDIDATES_RELEVANCE_NOT_ESTABLISHED",
+      "source_unprovided_support_paths": 58,
+      "action": "Trace only support implicated by an eligible actor/caller or contemplated edit. These missing workspot paths are not automatic Johnny-removal blockers."
+    },
+    {
+      "id": "BOUNDARY-MISSING-GLOBAL-GRAPHS",
+      "status": "SOURCE_CANDIDATES_RELEVANCE_NOT_ESTABLISHED",
+      "source_unprovided_standalone_targets": 93,
+      "action": "Counts overlap other lists and include stored and embedded references. Apply scope and caller/owner checks before promoting a target to required work."
+    },
+    {
+      "id": "BOUNDARY-GLOBAL-ROUTES",
+      "status": "SOURCE_DISCOVERY_INVENTORY_NOT_A_REQUIRED_WORK_DENOMINATOR",
+      "source_scene_count": 4513,
+      "source_scenes_with_johnny_bound_events": 70,
+      "action": "Prioritize eligible callers and actor/binding evidence. Do not require exhaustive repair of every scene in this corpus. Do not discard the other scenes solely for lacking a Johnny-bound line, because shared calls and indirect reactions remain possible."
+    },
+    {
+      "id": "BOUNDARY-DYNAMIC",
+      "status": "KNOWN_SOURCE_LIMIT_CONDITIONAL_ON_ELIGIBLE_CALLER",
+      "action": "Retain compiled/TweakDB/plugin-generated selection limits. Resolve relevant binding and dispatch when an eligible occurrence requires it. Do not turn arbitrary possible future plugin behavior into unbounded required work."
+    },
+    {
+      "id": "BOUNDARY-EXTERNAL-MAPS",
+      "status": "EXTERNAL_COMPATIBILITY_BOUNDARY",
+      "source_registration_lines": 3,
+      "action": "Check relevant PTFR/native integration and actual external callers. Standalone external-mod repairs are not automatically authorized by this project's dialogue inventory. Preserve legitimate shared dependencies."
+    },
+    {
+      "id": "STEP3-PILOT-REVIEW",
+      "status": "AWAITING_USER_VIDEO_REMOVAL_NOTES",
+      "quests": 2,
+      "review_method": "YOUTUBE_QUOTES_AND_OPTION_LABELS",
+      "evidence": "../johnny_video_review_20261107_01/checkpoint.json",
+      "action": "Await five-word-or-longer dialogue quotes or full short option labels for the two-quest YouTube pilot: KOLD MIRAGE and Sweet Dreams. Resolve spoken-event and choice identities separately; timestamps are optional unless matching is ambiguous."
+    }
+  ],
+  "historical_boundary_categories_accounted_for": 11,
+  "required_removal_list_created": false,
+  "reviewed_or_approved_removal_events": 0,
+  "step3_started": true,
+  "next_action": "Await five-word-or-longer dialogue quotes or full short option labels for the two-quest YouTube pilot: KOLD MIRAGE and Sweet Dreams. Resolve spoken-event and choice identities separately; timestamps are optional unless matching is ambiguous.",
+  "step3_checkpoint": "prealpha/johnny_video_review_20261107_01/checkpoint.json",
+  "step3_review_protocol": "prealpha/johnny_video_review_20261107_01/review_protocol.json"
+}

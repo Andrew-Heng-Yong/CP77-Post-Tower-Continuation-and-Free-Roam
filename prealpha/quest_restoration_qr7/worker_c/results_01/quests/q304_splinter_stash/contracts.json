@@ -1,0 +1,147 @@
+{
+  "quest_id": "q304_splinter_stash",
+  "title": "Voodoo Treasure",
+  "scope": "Only named QR6 UNKNOWN contract updates; other contracts retain QR6 findings and are not re-audited here.",
+  "effective_source_epoch": "QR7:01",
+  "fully_static_verified": false,
+  "contracts": {
+    "eligibility": {
+      "previous_status": "UNKNOWN",
+      "status": "UNKNOWN",
+      "source_epoch_investigated": "QR6:00 exact baseline with targeted QR7:01 repair applicability",
+      "effective_source_epoch": "QR7:01",
+      "proven": [
+        "Current late90 guard checks exact original door IsOpen through DoorControllerPS and requires NOR(IsOpen). Four inactive journals alone are not its whole admission guard.",
+        "m_isOpened and inherited m_deviceState are genuinely persistent fields in the exact current script cache. Generic disabled-door handlers preserve open state and block ordinary close, but this does not establish applicability to native cleanup21.",
+        "Native3 uses DoorControllerPS; native21 sends ForceDisabled to the same door NodeRef using TerminalControllerPS. The native binding mismatch is exact evidence, not an inferred fix.",
+        "Private root100/4 refers to original native stash phase; it does not clone/replace its Inject. Original22 operations, generichub12 and container-empty6 termination are pinned.",
+        "Native InjectLoot vtable108 processing152726C and actual TransactionSystem258/250 implementations are captured. No per-quest saved receipt is exposed by that top-level call; downstream inventory behavior remains unproven."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Exact door entity/controller binding for native21, including whether TerminalControllerPS resolves on that NodeRef, and resulting persisted close/disabled behavior.",
+        "Native generic-hub12 dispatch, downstream currency/container injection idempotence/merge behavior, and whether a source-realizable manually claimed history can later satisfy late90 after Tower.",
+        "Saved container and door identity/serialization across original owner retirement and restored private owner; source fields alone are not an old-save transition fixture."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\remaining_01\\result.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\remaining_controls_01\\result.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\inject_node_02\\manifest.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\transaction_01\\manifest.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\inject_followup_01\\manifest.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\verification_04\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\verification_04\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\verification_04\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\verification_04\\script_and_stock_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\verification_04\\presentation_bindings.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\ownership_census_01\\census.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\moving_heat_prefab_03\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\verification_04\\voodoo_history_risk.json"
+      ],
+      "resolved_unknowns": [
+        "Current late door predicate, original body binding, actual persistent PS field flags and generic door handler behavior are now source-proven. None proves a historical container was unclaimed."
+      ],
+      "remaining_unknowns": [
+        "Exact door entity/controller binding for native21, including whether TerminalControllerPS resolves on that NodeRef, and resulting persisted close/disabled behavior.",
+        "Native generic-hub12 dispatch, downstream currency/container injection idempotence/merge behavior, and whether a source-realizable manually claimed history can later satisfy late90 after Tower.",
+        "Saved container and door identity/serialization across original owner retirement and restored private owner; source fields alone are not an old-save transition fixture."
+      ],
+      "runtime_changes": [],
+      "original_findings_source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\quests\\q304_splinter_stash\\contracts.json",
+      "original_findings_source_sha256": "7B493F2F3787BAB9F7AC29A145E4869C136F3137B718C6EF4A990B4E9BDB762E",
+      "independent_review": "Pending worker review for new Career/Cuckoo/Voodoo properties; Nitro accepted source and serialized review separately pinned."
+    },
+    "completion_rewards_cleanup": {
+      "previous_status": "UNKNOWN",
+      "status": "UNKNOWN",
+      "source_epoch_investigated": "QR6:00 exact baseline with targeted QR7:01 repair applicability",
+      "effective_source_epoch": "QR7:01",
+      "proven": [
+        "Current late90 guard checks exact original door IsOpen through DoorControllerPS and requires NOR(IsOpen). Four inactive journals alone are not its whole admission guard.",
+        "m_isOpened and inherited m_deviceState are genuinely persistent fields in the exact current script cache. Generic disabled-door handlers preserve open state and block ordinary close, but this does not establish applicability to native cleanup21.",
+        "Native3 uses DoorControllerPS; native21 sends ForceDisabled to the same door NodeRef using TerminalControllerPS. The native binding mismatch is exact evidence, not an inferred fix.",
+        "Private root100/4 refers to original native stash phase; it does not clone/replace its Inject. Original22 operations, generichub12 and container-empty6 termination are pinned.",
+        "Native InjectLoot vtable108 processing152726C and actual TransactionSystem258/250 implementations are captured. No per-quest saved receipt is exposed by that top-level call; downstream inventory behavior remains unproven."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Exact door entity/controller binding for native21, including whether TerminalControllerPS resolves on that NodeRef, and resulting persisted close/disabled behavior.",
+        "Native generic-hub12 dispatch, downstream currency/container injection idempotence/merge behavior, and whether a source-realizable manually claimed history can later satisfy late90 after Tower.",
+        "Saved container and door identity/serialization across original owner retirement and restored private owner; source fields alone are not an old-save transition fixture."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\remaining_01\\result.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\remaining_controls_01\\result.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\inject_node_02\\manifest.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\transaction_01\\manifest.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\inject_followup_01\\manifest.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\verification_04\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\verification_04\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\verification_04\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\verification_04\\script_and_stock_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\verification_04\\presentation_bindings.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\ownership_census_01\\census.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\moving_heat_prefab_03\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\verification_04\\voodoo_history_risk.json"
+      ],
+      "resolved_unknowns": [
+        "Current late door predicate, original body binding, actual persistent PS field flags and generic door handler behavior are now source-proven. None proves a historical container was unclaimed."
+      ],
+      "remaining_unknowns": [
+        "Exact door entity/controller binding for native21, including whether TerminalControllerPS resolves on that NodeRef, and resulting persisted close/disabled behavior.",
+        "Native generic-hub12 dispatch, downstream currency/container injection idempotence/merge behavior, and whether a source-realizable manually claimed history can later satisfy late90 after Tower.",
+        "Saved container and door identity/serialization across original owner retirement and restored private owner; source fields alone are not an old-save transition fixture."
+      ],
+      "runtime_changes": [],
+      "original_findings_source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\quests\\q304_splinter_stash\\contracts.json",
+      "original_findings_source_sha256": "7B493F2F3787BAB9F7AC29A145E4869C136F3137B718C6EF4A990B4E9BDB762E",
+      "independent_review": "Pending worker review for new Career/Cuckoo/Voodoo properties; Nitro accepted source and serialized review separately pinned."
+    },
+    "persistence": {
+      "previous_status": "UNKNOWN",
+      "status": "UNKNOWN",
+      "source_epoch_investigated": "QR6:00 exact baseline with targeted QR7:01 repair applicability",
+      "effective_source_epoch": "QR7:01",
+      "proven": [
+        "Current late90 guard checks exact original door IsOpen through DoorControllerPS and requires NOR(IsOpen). Four inactive journals alone are not its whole admission guard.",
+        "m_isOpened and inherited m_deviceState are genuinely persistent fields in the exact current script cache. Generic disabled-door handlers preserve open state and block ordinary close, but this does not establish applicability to native cleanup21.",
+        "Native3 uses DoorControllerPS; native21 sends ForceDisabled to the same door NodeRef using TerminalControllerPS. The native binding mismatch is exact evidence, not an inferred fix.",
+        "Private root100/4 refers to original native stash phase; it does not clone/replace its Inject. Original22 operations, generichub12 and container-empty6 termination are pinned.",
+        "Native InjectLoot vtable108 processing152726C and actual TransactionSystem258/250 implementations are captured. No per-quest saved receipt is exposed by that top-level call; downstream inventory behavior remains unproven."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Exact door entity/controller binding for native21, including whether TerminalControllerPS resolves on that NodeRef, and resulting persisted close/disabled behavior.",
+        "Native generic-hub12 dispatch, downstream currency/container injection idempotence/merge behavior, and whether a source-realizable manually claimed history can later satisfy late90 after Tower.",
+        "Saved container and door identity/serialization across original owner retirement and restored private owner; source fields alone are not an old-save transition fixture."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\remaining_01\\result.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\remaining_controls_01\\result.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\inject_node_02\\manifest.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\transaction_01\\manifest.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\inject_followup_01\\manifest.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\verification_04\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\verification_04\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\verification_04\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\verification_04\\script_and_stock_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\verification_04\\presentation_bindings.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\ownership_census_01\\census.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\moving_heat_prefab_03\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\verification_04\\voodoo_history_risk.json"
+      ],
+      "resolved_unknowns": [
+        "Current late door predicate, original body binding, actual persistent PS field flags and generic door handler behavior are now source-proven. None proves a historical container was unclaimed."
+      ],
+      "remaining_unknowns": [
+        "Exact door entity/controller binding for native21, including whether TerminalControllerPS resolves on that NodeRef, and resulting persisted close/disabled behavior.",
+        "Native generic-hub12 dispatch, downstream currency/container injection idempotence/merge behavior, and whether a source-realizable manually claimed history can later satisfy late90 after Tower.",
+        "Saved container and door identity/serialization across original owner retirement and restored private owner; source fields alone are not an old-save transition fixture."
+      ],
+      "runtime_changes": [],
+      "original_findings_source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\quests\\q304_splinter_stash\\contracts.json",
+      "original_findings_source_sha256": "7B493F2F3787BAB9F7AC29A145E4869C136F3137B718C6EF4A990B4E9BDB762E",
+      "independent_review": "Pending worker review for new Career/Cuckoo/Voodoo properties; Nitro accepted source and serialized review separately pinned."
+    }
+  }
+}

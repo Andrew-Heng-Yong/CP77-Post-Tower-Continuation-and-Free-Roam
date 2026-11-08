@@ -1,0 +1,40 @@
+{
+  "existing_adaptations": [
+    {
+      "quest_id": "sts_wat_kab_06",
+      "adaptations": [
+        "U9 additive permission/receipt entry, private credit once guard, focused map controllers",
+        "Original embedded native body externalized with Flags Soft; every other payload field preserved",
+        "Original lifecycle parallel prestate controller launched at64000, source identities unchanged"
+      ],
+      "evidence": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G09\\verification_01\\intentional_differences.json",
+      "new_change": false
+    },
+    {
+      "quest_id": "sts_wat_kab_02",
+      "adaptations": [
+        "U9 additive permission/receipt entry, private credit once guard, focused map controllers",
+        "Original embedded native body externalized with Flags Soft; every other payload field preserved"
+      ],
+      "evidence": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G09\\verification_01\\intentional_differences.json",
+      "new_change": false
+    },
+    {
+      "quest_id": "sts_wat_kab_08",
+      "adaptations": [
+        "U9 additive permission/receipt entry, private credit once guard, focused map controllers",
+        "Original embedded native body externalized with Flags Soft; every other payload field preserved",
+        "Original lifecycle parallel prestate controller launched at64000, source identities unchanged"
+      ],
+      "evidence": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G09\\verification_01\\intentional_differences.json",
+      "new_change": false
+    }
+  ],
+  "shared_retaliation": {
+    "quest_id": "sts_wat_kab_02",
+    "current_owned_selector": "root/22/35/239:41",
+    "preserved_native": "contentunblocked AND wat_kab_02_done>0 AND insideWatsontrigger AND kab_02_gang_chase>=1",
+    "private_difference": "Existing U9Started1 AND wrapper for41 and45 only; pending0 per-gang admission"
+  },
+  "new_runtime_changes": []
+}

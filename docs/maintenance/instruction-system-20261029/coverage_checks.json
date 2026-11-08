@@ -1,0 +1,85 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "invariant_group": "vanilla ending and retained session",
+      "location": "AGENTS.md",
+      "passed": true,
+      "missing": []
+    },
+    {
+      "invariant_group": "save/progress/rewards",
+      "location": "AGENTS.md",
+      "passed": true,
+      "missing": []
+    },
+    {
+      "invariant_group": "original owner and lifecycle",
+      "location": "docs/knowledge/quest-investigation.md",
+      "passed": true,
+      "missing": []
+    },
+    {
+      "invariant_group": "saved identities and migration",
+      "location": "docs/knowledge/invariants.md",
+      "passed": true,
+      "missing": []
+    },
+    {
+      "invariant_group": "voice/cast restrictions",
+      "location": "docs/knowledge/invariants.md",
+      "passed": true,
+      "missing": []
+    },
+    {
+      "invariant_group": "profiles and housing",
+      "location": "docs/knowledge/invariants.md",
+      "passed": true,
+      "missing": []
+    },
+    {
+      "invariant_group": "native dependencies and opaque data",
+      "location": "docs/knowledge/vanilla-resources.md",
+      "passed": true,
+      "missing": []
+    },
+    {
+      "invariant_group": "separate depot/registration collision gates",
+      "location": "docs/knowledge/consolidated-build.md",
+      "passed": true,
+      "missing": []
+    },
+    {
+      "invariant_group": "complete compilation and dependency provenance",
+      "location": "docs/knowledge/redscript-toolchain.md",
+      "passed": true,
+      "missing": []
+    },
+    {
+      "invariant_group": "scoped transactional deployment/rollback",
+      "location": "docs/knowledge/packaging-deployment.md",
+      "passed": true,
+      "missing": []
+    },
+    {
+      "invariant_group": "consumer/development backup distinction",
+      "location": "docs/knowledge/packaging-deployment.md",
+      "passed": true,
+      "missing": []
+    },
+    {
+      "invariant_group": "explicit unknown/live boundaries",
+      "location": "docs/knowledge/static-parity-audits.md",
+      "passed": true,
+      "missing": []
+    },
+    {
+      "invariant_group": "fresh-session stop boundary",
+      "location": "docs/maintenance/instruction-system-20261029/HANDOFF.md",
+      "passed": true,
+      "missing": []
+    }
+  ],
+  "manual_matrix": "TRACEABILITY.md I01-I32",
+  "limit": "Textual navigation/coverage checks supplement manual review; not semantic proof or runtime tests."
+}

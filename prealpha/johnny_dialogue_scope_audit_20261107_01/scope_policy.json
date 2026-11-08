@@ -1,0 +1,53 @@
+{
+  "schema": 2,
+  "recorded_date": "2026-11-07",
+  "scope": "Johnny dialogue and V reactions in content available during PTFR post-Tower continuation.",
+  "supersedes": "prealpha/johnny_dialogue_index_20261107_02/scope_20261107_01.json",
+  "source_snapshot_sha256": "A60FEA94BDD5C7777484710E57753F558C80CFD36E553BE03DF02CB8EF459D2E",
+  "rules": [
+    {
+      "rule_id": "EXCLUDE_Q303_POST_TOWER",
+      "quest_id": "q303",
+      "quest_owned_depot_prefix": "ep1\\quest\\main_quests\\q303\\",
+      "classification": "EXCLUDED_POST_TOWER",
+      "authority": "User correction: q303 cannot run post-Tower.",
+      "include_in_required_removal_work": false,
+      "decoder_repair_required": false,
+      "scope": "q303 quest-owned occurrences, including q303_10_concert_braindance.scene. Preserve raw census and decoder history."
+    },
+    {
+      "rule_id": "EXCLUDE_NATIVE_Q115_ENDING_EXECUTION",
+      "quest_id": "q115",
+      "native_depot_prefix": "base\\quest\\main_quests\\part1\\q115\\",
+      "classification": "EXCLUDED_NATIVE_ENDING_CONTEXT",
+      "authority": "Root AGENTS.md and PROJECT.md exclude Nocturne restart and incompatible main-story/endings from this continuation.",
+      "include_in_required_removal_work": false,
+      "application": "Exclude the native q115 ending-owned dispatch occurrences. Six of the 20 Johnny-reference dispatch leads belong to this context. Do not globally exclude generic voiceset lines or shared assets independently invoked by eligible post-Tower callers."
+    },
+    {
+      "rule_id": "PROTECT_ORIGINAL_TOWER_EXECUTION",
+      "quest_id": "q307",
+      "classification": "PROTECTED_ENDING_EXECUTION",
+      "authority": "Root AGENTS.md requires the genuine Tower ending, final scenes, credits and cleanup to remain intact.",
+      "include_in_required_removal_work": false,
+      "application": "Do not remove dialogue or reactions from the original Tower ending sequence. Scope the retained-session continuation separately; existing continuation hooks and shared support are not blanket-excluded by their filenames."
+    }
+  ],
+  "required_work_gate": [
+    "Identify an eligible post-Tower caller or independent post-Tower activity/interaction and the relevant event or dependency.",
+    "Apply explicit quest-context exclusions and preserve original Tower execution.",
+    "Establish why the finding affects Johnny dialogue, V reactions or the safety of a contemplated edit.",
+    "Only then promote a diagnostic to required investigation or repair. Unknown relevance remains a source candidate, not an automatic project blocker."
+  ],
+  "counting_rules": [
+    "Separate raw source inventory, private-source candidates, eligible post-Tower occurrences, reviewed selections and applied edits.",
+    "The 375 unresolved dialogue records and 8828 unresolved choices are global corpus counts, not measured post-Tower gaps.",
+    "The private subset has five unresolved dialogue events and 92 choices. Those remain source candidates, and the private subset is not the entire scope.",
+    "Native and shared callers remain covered; do not narrow the project to the private payload.",
+    "Do not exclude resources solely because a path contains main_quests, versions, gold, old, debug or test. Use caller/owner context and policy.",
+    "Do not infer that a missing standalone provider is a broken job without checking embedded ownership and the actual caller."
+  ],
+  "active_work_ledger": "active_work_ledger.json",
+  "actual_post_tower_coverage_denominator": "NOT_YET_MEASURED",
+  "step3_started": false
+}

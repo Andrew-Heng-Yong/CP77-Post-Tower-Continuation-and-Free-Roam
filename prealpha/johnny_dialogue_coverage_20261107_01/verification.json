@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "status": "PASS",
+  "verified_utc": "2026-11-07T21:41:26.311579+00:00",
+  "exact_file_hash_checks": 2839,
+  "hash_discrepancies": [],
+  "original_baseline_checks_reverified": 1711,
+  "archive_metadata_checks": 134,
+  "archive_metadata_changes": [],
+  "archive_path_set_unchanged": true,
+  "graph_provider_entries": 15581,
+  "unnamed_entries": 9729,
+  "missing_candidates": 91,
+  "case_aliases_confirmed": 26,
+  "private_phase_aliases_confirmed": 25,
+  "external_entity_aliases_confirmed": 1,
+  "multiple_provider_depots": 41,
+  "opaque_import_tables": 55,
+  "outside_scene_keys": 4513,
+  "script_candidates": 113,
+  "independent_serialized_voiceset_param_count": 3433,
+  "independent_subtitle_entry_count": 1617,
+  "nonempty_subtitle_ids": 1560,
+  "independent_support_sound_event_count": 382,
+  "explicit_boundary_categories": 11,
+  "authored_files_syntax_links_whitespace_checked": 18,
+  "bulk_evidence_git_ignored": true,
+  "tool_pins": [
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\johnny_dialogue_coverage_20261107_01\\assess.py",
+      "sha256": "0894879F6C7EFC5149D0F9A61286E36BA910DAA2B9A5C23C96F078CCD44034B1"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\johnny_dialogue_coverage_20261107_01\\close_boundaries.py",
+      "sha256": "2B04CFC72B35E78F16D8DE52BDB4DDBA7FD6FED92DAF78D50CFBA2F798C0C66B"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\johnny_dialogue_coverage_20261107_01\\prepare.py",
+      "sha256": "6CEB605CA60E3533B5B8F87637D6398F640945B1A4E176CAD38A70D9D7BECAF6"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\johnny_dialogue_coverage_20261107_01\\prepare_followups.py",
+      "sha256": "2520D65E77CD4237D6170A3FDBE425C183ADE535FDB025CFDC6421ED89BE2DF2"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\johnny_dialogue_coverage_20261107_01\\verify.py",
+      "sha256": "9C8937E684B27C10C2FF1A09A9EDF0CA52B369C485B43A31BC66AE2999D792B1"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\johnny_dialogue_coverage_20261107_01\\capture_remaining.ps1",
+      "sha256": "923A70698115585392F0DA33BDA2856C10582E7DBE214C68758CF5EBFC1AF240"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\johnny_dialogue_coverage_20261107_01\\capture_tables.ps1",
+      "sha256": "E6C448710C742897B2841F4A936FE6550D230C5C9C7D605FFE06514836B71A79"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\johnny_dialogue_coverage_20261107_01\\export_followups.ps1",
+      "sha256": "6188CF7EF4D0CAAB5BD6715017046AD0CE1AD1C780BA8177BDA83E9A4C5AEC54"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\johnny_dialogue_coverage_20261107_01\\verify_path_aliases.ps1",
+      "sha256": "36C7480CA59CF7858B9821D422F931222B493F53BABAD150B7318FEA7D2800C9"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\tools\\build_phase2a.ps1",
+      "sha256": "171B5D08760BEE0D573FCEDCEF4257994B6C4666A303B06B1DD319FE1B744E01"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\tools\\parity_audit\\model.py",
+      "sha256": "B36BC14E93E0207FB5FC16032C576316C6A455CC36E01C8A3ED149FF009F3922"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\tools\\parity_audit\\common.py",
+      "sha256": "1A2A70024B0F37070A6C895F19708B16D0919C50C3EC4F82FC66F1FE499ACF09"
+    }
+  ],
+  "game_writes": 0,
+  "save_writes": 0,
+  "existing_index_writes": 0,
+  "step3_started": false
+}

@@ -1,0 +1,382 @@
+{
+  "status": "PASS_BOUNDED_QR2_DELIVERY",
+  "overall_161_quest_task": "INCOMPLETE",
+  "investigated_quests": 3,
+  "new_contract_findings": 30,
+  "contract_status_counts": {
+    "APPROVED_DEVIATION": 5,
+    "PASS": 12,
+    "OPAQUE": 3,
+    "CONDITIONAL": 10
+  },
+  "static_verified": 0,
+  "gameplay_repairs": 0,
+  "package_created": false,
+  "protected_hashes": 2595,
+  "tested_artifacts": {
+    "paid": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\quests\\mq045_victor_debt\\verification_02\\tests.json",
+      "sha256": "6C91FBC6A77B61CDEACE70B7E1E5C53D74112ADCB90E360E268ADF1C333A2230"
+    },
+    "big_in_japan": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\quests\\mq038_neweridentity\\tests_04.json",
+      "sha256": "7E442E281FBDBC8D3F75D8E78972D7CDED3153E9FFF98BD41238C80815E8269F"
+    },
+    "ozob": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\quests\\mq035_ozob\\verification_02\\tests.json",
+      "sha256": "EFA0FE71234AF77A2D4881F42D0FA351464E4FF5C209A204D8A5A1C16689984A"
+    },
+    "ancestor": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\ancestor_review.json",
+      "sha256": "C5B943CE147AD37C9426C8E24203345D4D2C155FCB8935855D3E009451DCF7D5"
+    },
+    "paid_review": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\reviews\\paid_in_full.json",
+      "sha256": "F60E0F224E90ECE3D680BB6C3B6D9E75953C117891733D09ED3ACE5FF8284711"
+    },
+    "big_review": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\reviews\\big_in_japan.json",
+      "sha256": "B1462021BC927F93A386D7A2C08AE202BA6A8855E8F5FB4A8991C4A54A451C5F"
+    },
+    "ozob_review": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\reviews\\send_in_clowns.json",
+      "sha256": "52E493EFB3828C43008D0BCE155F61A87AE142CB8B1E27964EBDD2DDB07F4536"
+    }
+  },
+  "python_syntax_checked": [
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\ancestor_review.py",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\finish.py",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\integrate.py",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\make_provider_queries.py",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\reuse_validation.py",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\start.py",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\quests\\mq035_ozob\\investigate.py",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\quests\\mq038_neweridentity\\investigate.py",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\quests\\mq038_neweridentity\\verify.py",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\quests\\mq038_neweridentity\\write_findings.py",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\quests\\mq045_victor_debt\\verify.py"
+  ],
+  "artifacts": {
+    "ancestor_review.json": {
+      "bytes": 7848,
+      "sha256": "C5B943CE147AD37C9426C8E24203345D4D2C155FCB8935855D3E009451DCF7D5"
+    },
+    "ancestor_review.py": {
+      "bytes": 4771,
+      "sha256": "1ADD45A784A465A7BAA73595CAB51C6E2F6A6213D3B9CB585D774668DCF92D3D"
+    },
+    "capture_inputs.ps1": {
+      "bytes": 2917,
+      "sha256": "ED2EDD664A69940930CAA8A8A0795CDB002E62A830C1FBE17036DE38167C7059"
+    },
+    "checkpoint.json": {
+      "bytes": 2319,
+      "sha256": "526DE92EDDB900E604D617F8E4F7B4839BBF02B0693993D132EBE22D3C02D159"
+    },
+    "contract_status_matrix.csv": {
+      "bytes": 5165287,
+      "sha256": "FEB092A3DF7166601AB08D06B537C64320EA826906A540088D79AF97B9286DE8"
+    },
+    "contract_status_matrix.json": {
+      "bytes": 5891586,
+      "sha256": "72A6B761367081AB46600A2D2699DAF1A9B5A73A9C5B5A508C506735ECF08571"
+    },
+    "finish.py": {
+      "bytes": 11101,
+      "sha256": "67DE73B9CD924A1DC4D1D635F1B7B9586CD89E5C60EC2DA47EDE80E129349909"
+    },
+    "HANDOFF.md": {
+      "bytes": 7260,
+      "sha256": "7977F5AE3027B4A41856DB97E0475F5D797139213F11CE9F1E20B870AB06DE3E"
+    },
+    "handoff_backup_path.json": {
+      "bytes": 237,
+      "sha256": "F66A35DBCC3D036AA81BFFD7E60EFB1F96D7A7DB886378DEE7D819A2E7191B73"
+    },
+    "inputs.json": {
+      "bytes": 1187,
+      "sha256": "F51BE1416567E9F771F54E10DEE1250159BA13CB7963CF0D01E5AAF8E0B6D725"
+    },
+    "integrate.py": {
+      "bytes": 5504,
+      "sha256": "33FD98E8A5BE5D837B82661A9E2BF6067AC939C685E008D627326B05521A5F85"
+    },
+    "intentional_differences.json": {
+      "bytes": 15168,
+      "sha256": "02702CC7BC0088B12CBB40E08A6331E647103B55CC5D6CC0221D7CD464A3FB07"
+    },
+    "make_provider_queries.py": {
+      "bytes": 1569,
+      "sha256": "037E215EB64299944001BF4425795A46D7E7E748577FF3704F4160FE49783E5E"
+    },
+    "prepared.json": {
+      "bytes": 288,
+      "sha256": "F59B3341A46CC9BE4BE31DF5701BDFB4C33B35F214382118ADAF3237580A8ED9"
+    },
+    "protection_after.json": {
+      "bytes": 385,
+      "sha256": "C0FE2B2ABC049929025CD517179ADEC16575B867FFB3ED133F14FC3AA94EE6D6"
+    },
+    "protection_before.json": {
+      "bytes": 992254,
+      "sha256": "0491681063881D8F1D3FB45DD7089682BEBAA4CC6BC278D0E78192DB52AAF506"
+    },
+    "provider_queries.json": {
+      "bytes": 77828,
+      "sha256": "F5727B1AF333C9B1FC39192594B91B8C3ACC902C468135723D16F7AB8235262C"
+    },
+    "quest_status_matrix.csv": {
+      "bytes": 4686891,
+      "sha256": "597FCE9EE9C99FBCDE235367EC083FDD7C162D992207959A30F56CCB98187D2C"
+    },
+    "quest_status_matrix.json": {
+      "bytes": 5283661,
+      "sha256": "DCD06C81299A5BCBBA6C9203CD8816F63DB6CE6E211B5D516900627E09BC9C16"
+    },
+    "queue.json": {
+      "bytes": 5438806,
+      "sha256": "DD06BF40C79E80CAFE80256D88E68EA91495D5FCED5A421263FF3E3058F6DE3E"
+    },
+    "REPORT.md": {
+      "bytes": 5780,
+      "sha256": "4E9E1D1DB501A1A949EBC98F8DBC2DBD249F4580B0EA69E3B59022829BCEA278"
+    },
+    "reuse_validation.json": {
+      "bytes": 470,
+      "sha256": "9E2EF81932444EDE75C828F0DE6789A01464C937FC1E717ECE1AAFC5648D8551"
+    },
+    "reuse_validation.py": {
+      "bytes": 2045,
+      "sha256": "10151A588FC2E39B6C104A7E5449596F495657CBB2DF14B1CFEC8ECCFBB1223F"
+    },
+    "review_resolutions.json": {
+      "bytes": 1617,
+      "sha256": "A4F3C17F6E673DD299651770040D5643FF82E480217BB133B481B828F7D2EC40"
+    },
+    "start.py": {
+      "bytes": 2027,
+      "sha256": "EEA1E1DFC2099F9BF40DDC7AB76CA4600DA77443B6EAAE6911B88CFBC237A471"
+    },
+    "provider_readback_01\\capture.json": {
+      "bytes": 298100,
+      "sha256": "3EEA5CC7A94C8474CE1BFB918652E8A31CEB712FF26E92D15A0FCD3DC09C7D32"
+    },
+    "reviews\\big_in_japan.json": {
+      "bytes": 18154,
+      "sha256": "B1462021BC927F93A386D7A2C08AE202BA6A8855E8F5FB4A8991C4A54A451C5F"
+    },
+    "reviews\\paid_in_full.json": {
+      "bytes": 13892,
+      "sha256": "F60E0F224E90ECE3D680BB6C3B6D9E75953C117891733D09ED3ACE5FF8284711"
+    },
+    "reviews\\send_in_clowns.json": {
+      "bytes": 39790,
+      "sha256": "52E493EFB3828C43008D0BCE155F61A87AE142CB8B1E27964EBDD2DDB07F4536"
+    },
+    "quests\\mq035_ozob\\contracts.json": {
+      "bytes": 17071,
+      "sha256": "5739C38835A312A339806A79139A952E2C1BCA63266140BE3B099E07E954345B"
+    },
+    "quests\\mq035_ozob\\graph_evidence.json": {
+      "bytes": 620840,
+      "sha256": "57FCC91DCBDD656DE400FEA35CCD17BF5260A048E3D49AEEAEF327C884ACD319"
+    },
+    "quests\\mq035_ozob\\investigate.py": {
+      "bytes": 13930,
+      "sha256": "1B67435D7955860973AA9299DBB2918D8AB5A4F0327CF5D07AAA055C188E4732"
+    },
+    "quests\\mq035_ozob\\minorquests_questphase.json": {
+      "bytes": 416182,
+      "sha256": "CA410703BADF742ED6B0BD71866EA0870ACFE9F3F8EEE8AA2288215B576AD951"
+    },
+    "quests\\mq035_ozob\\mq035_01_car_theft_questphase.json": {
+      "bytes": 46450,
+      "sha256": "E754BF55761C949821F526FA1695B7A5AA0A4287400061516F2CD1AB439B8DE6"
+    },
+    "quests\\mq035_ozob\\mq035_02_car_ride_questphase.json": {
+      "bytes": 755094,
+      "sha256": "FC3757762C441A4EC70A34487564AF5C749F4791EDEF32EF6BADD957476363AC"
+    },
+    "quests\\mq035_ozob\\mq035_03_robbery_questphase.json": {
+      "bytes": 892619,
+      "sha256": "BCEA138A4943C6FC3655B2AB8A5EF66E757F70A100D71E0026AB7A54E838D842"
+    },
+    "quests\\mq035_ozob\\mq035_04b_ambush_combat_questphase.json": {
+      "bytes": 11246,
+      "sha256": "ACC0D2263E7B6EA507129805226CCB65D0524B350BF3560318C159CBD49A80A8"
+    },
+    "quests\\mq035_ozob\\mq035_04_ambush_questphase.json": {
+      "bytes": 1235453,
+      "sha256": "572A5406798544B42A89D604C1ABD67FB3580774078A37837A3E567830BBF607"
+    },
+    "quests\\mq035_ozob\\mq035_hook_call_scene.json": {
+      "bytes": 204734,
+      "sha256": "BBCF88A31910482CBB4FC94976141FC2B1050EBCDDD3E0C5A40FB630930680C9"
+    },
+    "quests\\mq035_ozob\\mq035_ozob_dialogues_scene.json": {
+      "bytes": 997233,
+      "sha256": "BF4F10547E96A2AE73C6D7F6F2B9F67261AF37A1A1D9A4E644B6513EE0E2970E"
+    },
+    "quests\\mq035_ozob\\mq035_ozob_questphase.json": {
+      "bytes": 560223,
+      "sha256": "E17F781BA37D9A58047D1CDF742A710FE3C13183B906D7E84A856C52BDF62965"
+    },
+    "quests\\mq035_ozob\\mq035_quest_bugfixes_questphase.json": {
+      "bytes": 412132,
+      "sha256": "64A5992272CEEAD3F86429AC27CA71A689F2E6D140BA9BBD51A811DF7606FBE8"
+    },
+    "quests\\mq035_ozob\\ozob_cleanup_questphase.json": {
+      "bytes": 18658,
+      "sha256": "E6BECD03557F7297540A5A4C2DB6E2243F960F3893E1ED73AD6B3ACED4B1622D"
+    },
+    "quests\\mq035_ozob\\ozob_holocall_questphase.json": {
+      "bytes": 93261,
+      "sha256": "B390B828C9F2E2DBF9B67F40BEAA5B124DC035E7BEC4ECB6772D3F1A23D88D70"
+    },
+    "quests\\mq035_ozob\\ozob_holocall_scene.json": {
+      "bytes": 232801,
+      "sha256": "896F53D2D36BD6801B54A4B7252DB283DE13DAAB2405C13B56C1CBF3BF3F8694"
+    },
+    "quests\\mq035_ozob\\private_mq035_ozob_questphase.json": {
+      "bytes": 799340,
+      "sha256": "7E67F30AEFB90F16C26C1AFF69153228E9EE50979BD13BF6C975779404BD479D"
+    },
+    "quests\\mq035_ozob\\private_ozob_questphase.json": {
+      "bytes": 132426,
+      "sha256": "74A982BB1E3EA9C9AFEA4A96C6F1B03038B8E772113F4D80EA7F882868F92030"
+    },
+    "quests\\mq035_ozob\\provider_requests.json": {
+      "bytes": 5538,
+      "sha256": "CBF575A2EB699F826DF55F9C93037DCD32A2401CEC5FF269990391D0F3A5F22B"
+    },
+    "quests\\mq035_ozob\\REPORT.md": {
+      "bytes": 5160,
+      "sha256": "A3D056350FDCAF9EE48D4BF933850FE227C357E4872A6A5F5559B4126CA4B69B"
+    },
+    "quests\\mq035_ozob\\source_pins.json": {
+      "bytes": 18078,
+      "sha256": "3CB786DF604D8E708AE46BB8F5FE2D12918BBD8FB00503275EABE7C2B44131BE"
+    },
+    "quests\\mq035_ozob\\tests.json": {
+      "bytes": 11114,
+      "sha256": "EFA0FE71234AF77A2D4881F42D0FA351464E4FF5C209A204D8A5A1C16689984A"
+    },
+    "quests\\mq038_neweridentity\\actor_bindings.json": {
+      "bytes": 52242,
+      "sha256": "19658BE5A032156D9AFE6AB569B4096B708E8C9AAEB162462B611B7C82FAD3BA"
+    },
+    "quests\\mq038_neweridentity\\contracts.json": {
+      "bytes": 32534,
+      "sha256": "EC62CF3FA9DECAA38852E0D097A45C3A9BFB5B27806B96653FF80F5472F6B6FA"
+    },
+    "quests\\mq038_neweridentity\\dependency_depots.json": {
+      "bytes": 4645,
+      "sha256": "1C6E2802CA0F4C72BF45A1364C525B030DBB838456BCA5F2CB7165EDEB63B29B"
+    },
+    "quests\\mq038_neweridentity\\investigate.py": {
+      "bytes": 3077,
+      "sha256": "A4A53FF027C25768DBBC1414D76242663E5607B8661E01244B375198BC33DA7E"
+    },
+    "quests\\mq038_neweridentity\\parents.json": {
+      "bytes": 5409,
+      "sha256": "1756E01A7690DFF6B7879234C8E4ACD3C7D1790A38BE1E5BCDC0BCF31A8574C9"
+    },
+    "quests\\mq038_neweridentity\\REPORT.md": {
+      "bytes": 7490,
+      "sha256": "E2C632252F9A23C15C354A72C27E25221C33A50C3FDC808F00A85E0B6DE044F8"
+    },
+    "quests\\mq038_neweridentity\\tests.json": {
+      "bytes": 39447,
+      "sha256": "C027A7E018CA8FE6A077DE590AB8637AE75E77A024DD18984FDF5A74DE667EE3"
+    },
+    "quests\\mq038_neweridentity\\tests_02.json": {
+      "bytes": 40305,
+      "sha256": "1C31D5352DF172483AD1C932C0DCE10705D2C1B41A582DDED3C3F2BB328A7CC9"
+    },
+    "quests\\mq038_neweridentity\\tests_03.json": {
+      "bytes": 51644,
+      "sha256": "841AD08667B9D4B9775F81D93D24D344974021FE1E91C8AE440322E863F3BD58"
+    },
+    "quests\\mq038_neweridentity\\tests_04.json": {
+      "bytes": 51976,
+      "sha256": "7E442E281FBDBC8D3F75D8E78972D7CDED3153E9FFF98BD41238C80815E8269F"
+    },
+    "quests\\mq038_neweridentity\\trace.json": {
+      "bytes": 455663,
+      "sha256": "61E3179B475B54F51192DCE6B3E9DABC999A81E9246AC642A20918FB93E45BFB"
+    },
+    "quests\\mq038_neweridentity\\verify.py": {
+      "bytes": 16126,
+      "sha256": "56DF86690D515FDEAB973614B1E326E2E2E4D03FFFC0616CB2FB04230F8212AE"
+    },
+    "quests\\mq038_neweridentity\\write_findings.py": {
+      "bytes": 16558,
+      "sha256": "36B2BF6E6D4C327CA7BB454EE6FE0D6D02CDBFE7FAEF1ABC1FF312EE3812869E"
+    },
+    "quests\\mq045_victor_debt\\contracts.json": {
+      "bytes": 14917,
+      "sha256": "0F21F49B99D2F45C6EB0D40AEDCA94D2C847AC23930CB2A7B275F9E4CBC12272"
+    },
+    "quests\\mq045_victor_debt\\REPORT.md": {
+      "bytes": 4468,
+      "sha256": "384C0BD27A0E10F786887F898BD0FD1F0C0F7F787F72307BE6845FA75FC86195"
+    },
+    "quests\\mq045_victor_debt\\resources.json": {
+      "bytes": 39871,
+      "sha256": "0096D5FADD9EB3D10C7A70E5F95D0C1FE0F9DAF6C5519C47C2C507A7C541E80D"
+    },
+    "quests\\mq045_victor_debt\\verify.py": {
+      "bytes": 16852,
+      "sha256": "71687AF44AB261FC44E1A4218E7C5B514E235A0F8F21794EF7F97358C230CE56"
+    },
+    "quests\\mq045_victor_debt\\verification_01\\evidence.json": {
+      "bytes": 68582,
+      "sha256": "3F0C4FA5F77E91E68D5FC8E7E92137F1DCBF053BF5E33F25F8FC4A4538538179"
+    },
+    "quests\\mq045_victor_debt\\verification_01\\tests.json": {
+      "bytes": 1939,
+      "sha256": "A54F4ECC920E0854CA162A825642D136803BA17E1A11622B5DA1A5633885B829"
+    },
+    "quests\\mq045_victor_debt\\verification_02\\evidence.json": {
+      "bytes": 68582,
+      "sha256": "3F0C4FA5F77E91E68D5FC8E7E92137F1DCBF053BF5E33F25F8FC4A4538538179"
+    },
+    "quests\\mq045_victor_debt\\verification_02\\tests.json": {
+      "bytes": 1939,
+      "sha256": "6C91FBC6A77B61CDEACE70B7E1E5C53D74112ADCB90E360E268ADF1C333A2230"
+    },
+    "quests\\mq035_ozob\\verification_02\\graph_evidence.json": {
+      "bytes": 620840,
+      "sha256": "57FCC91DCBDD656DE400FEA35CCD17BF5260A048E3D49AEEAEF327C884ACD319"
+    },
+    "quests\\mq035_ozob\\verification_02\\reproducibility.json": {
+      "bytes": 1054,
+      "sha256": "3D5CF21A00D880A4E56BFF5861DBDF0D8B36AD9B02671803CD88F0D3244A125A"
+    },
+    "quests\\mq035_ozob\\verification_02\\source_pins.json": {
+      "bytes": 18078,
+      "sha256": "3CB786DF604D8E708AE46BB8F5FE2D12918BBD8FB00503275EABE7C2B44131BE"
+    },
+    "quests\\mq035_ozob\\verification_02\\tests.json": {
+      "bytes": 11114,
+      "sha256": "EFA0FE71234AF77A2D4881F42D0FA351464E4FF5C209A204D8A5A1C16689984A"
+    },
+    "provider_readback_01\\basegame_4_gamedata\\base\\quest\\bugfixing.questphase": {
+      "bytes": 64903,
+      "sha256": "0C8B09F5C1A4553AC15DD4BD40B12EFE20F899817F708ECDC438B28646AC27BA"
+    },
+    "provider_readback_01\\basegame_4_gamedata\\base\\quest\\bugfixing.questphase.json": {
+      "bytes": 616126,
+      "sha256": "7EFD7CED7DEBAC337907D63F6494AD1276DBA87404FC80F06D483A0BBA0FFBB7"
+    },
+    "provider_readback_01\\basegame_4_gamedata\\base\\quest\\cyberpunk2077.questphase": {
+      "bytes": 49033,
+      "sha256": "78D8AFD0784575216B090F003610CA973BE9D1781BAB948C9E4DC12006D750B2"
+    },
+    "provider_readback_01\\basegame_4_gamedata\\base\\quest\\cyberpunk2077.questphase.json": {
+      "bytes": 446272,
+      "sha256": "B3703A63166653CC78901EFE8A847D5E615C2E1CB6581CAA4CC796F825D82817"
+    }
+  },
+  "scope": "Verified static per-quest findings with explicit unresolved/live boundaries; no universal gameplay or save-transition success claim"
+}

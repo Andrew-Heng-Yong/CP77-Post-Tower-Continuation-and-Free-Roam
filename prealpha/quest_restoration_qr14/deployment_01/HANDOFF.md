@@ -1,0 +1,11 @@
+# QR14 deployment continuation
+
+QR13:02 Core is installed with explicit subsequent user approval. QR10D01/D00E diagnostics are unchanged. Read installed_manifest_01.json, verification.json and REPORT.md here; these supersede the preparation-only state in the parent immutable REPORT/HANDOFF/readiness/completion. Parent readiness remains READY_NOT_INSTALLED as a historical preparation proof required by the pinned installer; do not edit it to update installed status.
+
+Fresh Preflight, Install, Verify and ValidateRollback passed. Exactly archive +HistorySnapshotHS1 +SideJobsS23 changed; all51 installed Core hashes,26 dependencies,310 save files and six old/new backup payloads verified. Full game metadata has only those three changes; no cache/build/game launch/save/fact or diagnostic changes occurred. Canonical current installed composite is installed_manifest_01.json, replacing old D00E whole-install hash assumptions (its QR8 pins are historical).
+
+Rollback is prepared, not executed. Use the reviewed parent deploy_core.ps1 with its exact manifest02/receipt and game closed after separate rollback authority. Do not run older Core installers or diagnostic rollback manifests blindly; old diagnostics manifests pin QR8 and need a current compatible plan. File rollback cannot undo QR13 private saved state/rewards; no downgrade-save guarantee.
+
+No new gameplay fixture READY. Preserve the user's prior successful tests and completed Skippy; no repeats. Known Brendan M23/M24 fallback/private-issued histories remain ineligible; Ronald disabled subscription alone does not prove unoffered/contact/owner state. Ordinary human gameplay may reveal genuine eligibility; qualify then issue a short manual S02/S06 card using unchanged validated sampler. Do not reset history/facts, replay an ending or invent owner introspection.
+
+The148-source integration proof in parent verification/compile_01 corrected17 omitted runtime-registered LBD inputs; no rebuild/recompile is needed for unchanged bytes. QR13 resource reviews, opaque placement/saved-child refresh limits and remaining clock/combat/old-issued development blockers still apply. Next action is ordinary user-controlled play, not another audit or mandatory test.

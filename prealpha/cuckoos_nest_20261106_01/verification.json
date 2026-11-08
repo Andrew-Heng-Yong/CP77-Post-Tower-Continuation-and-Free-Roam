@@ -1,0 +1,339 @@
+{
+  "assessment": "INHERITED_ORPHANS_AND_UNRESOLVED_STOCK_ID",
+  "runtime_changes": [],
+  "checks": [
+    {
+      "check": "extracted byte and export hashes",
+      "evidence": "base\\open_world\\street_stories\\santo_domingo\\rancho_corronado\\sts_std_rcr_02\\communities\\sts_std_rcr_02_enemies.community"
+    },
+    {
+      "check": "extracted byte and export hashes",
+      "evidence": "base\\open_world\\street_stories\\santo_domingo\\rancho_corronado\\sts_std_rcr_02\\scenes\\sts_std_rcr_02_johnny.scene"
+    },
+    {
+      "check": "extracted byte and export hashes",
+      "evidence": "base\\open_world\\street_stories\\santo_domingo\\rancho_corronado\\sts_std_rcr_02\\scenes\\sts_std_rcr_02_holocall_debriefs.scene"
+    },
+    {
+      "check": "extracted byte and export hashes",
+      "evidence": "base\\open_world\\street_stories\\santo_domingo\\rancho_corronado\\sts_std_rcr_02\\scenes\\sts_std_rcr_02_reception.scene"
+    },
+    {
+      "check": "extracted byte and export hashes",
+      "evidence": "base\\open_world\\street_stories\\santo_domingo\\rancho_corronado\\sts_std_rcr_02\\scenes\\sts_std_rcr_02_chats.scene"
+    },
+    {
+      "check": "extracted byte and export hashes",
+      "evidence": "base\\open_world\\street_stories\\santo_domingo\\rancho_corronado\\sts_std_rcr_02\\scenes\\sts_std_rcr_02_dixon.scene"
+    },
+    {
+      "check": "extracted byte and export hashes",
+      "evidence": "base\\open_world\\street_stories\\santo_domingo\\rancho_corronado\\sts_std_rcr_02\\scenes\\sts_std_rcr_02_holocall_prebrief.scene"
+    },
+    {
+      "check": "extracted byte and export hashes",
+      "evidence": "base\\open_world\\street_stories\\santo_domingo\\rancho_corronado\\sts_std_rancho_corronado.questphase"
+    },
+    {
+      "check": "extracted byte and export hashes",
+      "evidence": "base\\open_world\\street_stories\\santo_domingo\\rancho_corronado\\sts_std_rcr_02\\scenes\\sts_std_rcr_02_wheelchair.scene"
+    },
+    {
+      "check": "extracted byte and export hashes",
+      "evidence": "base\\open_world\\street_stories\\santo_domingo\\rancho_corronado\\sts_std_rcr_02\\phases\\sts_std_rcr_02_phase.questphase"
+    },
+    {
+      "check": "extracted byte and export hashes",
+      "evidence": "towercontinued\\native_gigs_u9\\sts_std_rcr_02_entry.questphase"
+    },
+    {
+      "check": "extracted byte and export hashes",
+      "evidence": "towercontinued\\native_gigs_u9\\sts_std_rcr_02_credit.questphase"
+    },
+    {
+      "check": "extracted byte and export hashes",
+      "evidence": "towercontinued\\native_gigs_u9\\sts_std_rcr_02_map0.questphase"
+    },
+    {
+      "check": "extracted byte and export hashes",
+      "evidence": "towercontinued\\native_gigs_u9\\sts_std_rcr_02_map1.questphase"
+    },
+    {
+      "check": "unique providers for each live target; none for the orphan scene",
+      "evidence": {
+        "archives": 134,
+        "missing_depot": "base\\open_world\\street_stories\\santo_domingo\\rancho_corronado\\sts_std_rcr_02\\scenes\\sts_std_rcr_02_scene.scene"
+      }
+    },
+    {
+      "check": "QR19 manifest and archive hashes",
+      "evidence": [
+        {
+          "sha256": "2988A138B7AA529714BA1762A338C89D624C3C11D1C8F7449C6BF9571F216A2B",
+          "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\mod\\zzzz_PTFR_Combined.archive"
+        },
+        {
+          "sha256": "F22693981B0A10DB21B47AFAD7FC8BCAEF1F021D9EA99548BA4FF80F56D18245",
+          "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\mod\\zzzz_PTFR_Combined.archive.xl"
+        }
+      ]
+    },
+    {
+      "check": "historical byte and export hashes",
+      "evidence": "base\\open_world\\street_stories\\santo_domingo\\rancho_corronado\\sts_std_rcr_02\\phases\\sts_std_rcr_02_phase.questphase"
+    },
+    {
+      "check": "historical byte and export hashes",
+      "evidence": "base\\open_world\\street_stories\\santo_domingo\\rancho_corronado\\sts_std_rcr_02\\scenes\\sts_std_rcr_02_dixon.scene"
+    },
+    {
+      "check": "Dixon scene is byte-identical to historical vanilla",
+      "evidence": "3C325491DDB2700BC9C6A61348482EDDECD108B9E86DF1A29783C6D6D831D13B"
+    },
+    {
+      "check": "all native story graphs agree across three captures",
+      "evidence": {
+        "graphs": 20
+      }
+    },
+    {
+      "check": "literal null sources in older vanilla",
+      "evidence": [
+        {
+          "node": "2",
+          "input": "In",
+          "connection": "2464",
+          "destination": "2463"
+        },
+        {
+          "node": "11",
+          "input": "In",
+          "connection": "2405",
+          "destination": "2404"
+        },
+        {
+          "node": "13",
+          "input": "In",
+          "connection": "2425",
+          "destination": "2424"
+        },
+        {
+          "node": "15",
+          "input": "In",
+          "connection": "2444",
+          "destination": "2443"
+        }
+      ]
+    },
+    {
+      "check": "literal null sources in installed standalone vanilla",
+      "evidence": [
+        {
+          "node": "2",
+          "input": "In",
+          "connection": "2464",
+          "destination": "2463"
+        },
+        {
+          "node": "11",
+          "input": "In",
+          "connection": "2405",
+          "destination": "2404"
+        },
+        {
+          "node": "13",
+          "input": "In",
+          "connection": "2425",
+          "destination": "2424"
+        },
+        {
+          "node": "15",
+          "input": "In",
+          "connection": "2444",
+          "destination": "2443"
+        }
+      ]
+    },
+    {
+      "check": "literal null sources in installed district embedded vanilla",
+      "evidence": [
+        {
+          "node": "2",
+          "input": "In",
+          "connection": "7189",
+          "destination": "7188"
+        },
+        {
+          "node": "11",
+          "input": "In",
+          "connection": "7130",
+          "destination": "7129"
+        },
+        {
+          "node": "13",
+          "input": "In",
+          "connection": "7150",
+          "destination": "7149"
+        },
+        {
+          "node": "15",
+          "input": "In",
+          "connection": "7169",
+          "destination": "7168"
+        }
+      ]
+    },
+    {
+      "check": "none of the orphan paths are reachable from the native input",
+      "evidence": [
+        [
+          "0",
+          "Out",
+          "17",
+          "In"
+        ],
+        [
+          "11",
+          "Out",
+          "12",
+          "upper"
+        ],
+        [
+          "15",
+          "Out",
+          "16",
+          "window"
+        ],
+        [
+          "17",
+          "False",
+          "8",
+          "In1"
+        ],
+        [
+          "17",
+          "False",
+          "9",
+          "In1"
+        ],
+        [
+          "19",
+          "False",
+          "3",
+          "reception"
+        ],
+        [
+          "2",
+          "Out",
+          "19",
+          "In"
+        ],
+        [
+          "9",
+          "Out1",
+          "1",
+          "In"
+        ]
+      ]
+    },
+    {
+      "check": "private payload matches U9 pin",
+      "evidence": "towercontinued\\native_gigs_u9\\sts_std_rcr_02_entry.questphase"
+    },
+    {
+      "check": "private payload matches U9 pin",
+      "evidence": "towercontinued\\native_gigs_u9\\sts_std_rcr_02_credit.questphase"
+    },
+    {
+      "check": "private payload matches U9 pin",
+      "evidence": "towercontinued\\native_gigs_u9\\sts_std_rcr_02_map0.questphase"
+    },
+    {
+      "check": "private payload matches U9 pin",
+      "evidence": "towercontinued\\native_gigs_u9\\sts_std_rcr_02_map1.questphase"
+    },
+    {
+      "check": "installed wrapper calls the exact native In1",
+      "evidence": "base\\open_world\\street_stories\\santo_domingo\\rancho_corronado\\sts_std_rcr_02\\phases\\sts_std_rcr_02_phase.questphase"
+    },
+    {
+      "check": "active nested phase calls the native Dixon entry",
+      "evidence": "root/9/5/22:52.dixon"
+    },
+    {
+      "check": "original community binds the exact guard record",
+      "evidence": "Character.rcr_02_enemy_security_keycard"
+    },
+    {
+      "check": "both current and historical base and expansion databases were read",
+      "evidence": null
+    },
+    {
+      "check": "guard loot yields the named key; the scene's raw ID has no definition",
+      "evidence": {
+        "database": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\cache\\tweakdb.bin",
+        "sha256": "0D48B6ACC1A40430AFBFF77EF41B00B7F06759C297425A6E6767F56446C6075D",
+        "loot_table": "LootTables.rcr_02_keycard_loot_table",
+        "loot_item": "LootTables.rcr_02_keycard_doc"
+      }
+    },
+    {
+      "check": "guard loot yields the named key; the scene's raw ID has no definition",
+      "evidence": {
+        "database": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\cache\\tweakdb_ep1.bin",
+        "sha256": "5BA1B2B79486F91A8BC5E789D641A08963FC5024E54C562759376176E9FE7FD1",
+        "loot_table": "LootTables.rcr_02_keycard_loot_table",
+        "loot_item": "LootTables.rcr_02_keycard_doc"
+      }
+    },
+    {
+      "check": "guard loot yields the named key; the scene's raw ID has no definition",
+      "evidence": {
+        "database": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\research\\restriction_profiles\\profile_r3\\fixture_20261007T220546277Z_413087c6\\game\\r6\\cache\\tweakdb.bin",
+        "sha256": "918F0ACFC3F3174B29B5C10B463DFB106B603118C85D24456204A1E2A2AC13F9",
+        "loot_table": "LootTables.rcr_02_keycard_loot_table",
+        "loot_item": "LootTables.rcr_02_keycard_doc"
+      }
+    },
+    {
+      "check": "guard loot yields the named key; the scene's raw ID has no definition",
+      "evidence": {
+        "database": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\research\\restriction_profiles\\profile_r3\\fixture_20261007T220546277Z_413087c6\\game\\r6\\cache\\tweakdb_ep1.bin",
+        "sha256": "89C7EE678C1366D4C289EDC78BEAA60CE3D64BF44B300FC3902ADC94F6AC14C5",
+        "loot_table": "LootTables.rcr_02_keycard_loot_table",
+        "loot_item": "LootTables.rcr_02_keycard_doc"
+      }
+    },
+    {
+      "check": "authored key objective consumes the guard's keycard identity",
+      "evidence": "root/9/3:49.Out to 13.Succeeded"
+    },
+    {
+      "check": "Dixon's inventory condition remains a different exact ID",
+      "evidence": "scene:86"
+    },
+    {
+      "check": "both scene branches converge with the native guard, distance and dialogue preserved",
+      "evidence": {
+        "choice": "6",
+        "guard": "152",
+        "distance": "244",
+        "dialogue": "192",
+        "ready_writer": "82"
+      }
+    },
+    {
+      "check": "control detects speculative rewiring of an orphan to a live socket",
+      "evidence": "17.False to 11.In would activate a scene with no provider"
+    },
+    {
+      "check": "control detects silently substituting the guard's key for the unknown ID",
+      "evidence": "would take 86.True and skip the existing guard and dialogue path"
+    }
+  ],
+  "limits": [
+    "Historical author intent and the raw item's original name or producer are unresolved.",
+    "The known loot route targets the same guard as the native fallback and supplies a distinct ID.",
+    "Graph reachability and stock record lookup do not establish live guard or scene behavior."
+  ]
+}

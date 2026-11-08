@@ -1,0 +1,21 @@
+# Don't Lose Your Mind
+
+entry: APPROVED_DEVIATION. Current S29wrapper64000 invokes a narrowed original SQ025body at newinput65000→native134messages.In1, then original134.continue→80resurgence→81backoffice→82workshop→83core. Eighteen retained native root nodes and ten retained nestedgraphs are exact; scan79 and return/reward124 are excluded. Epistrophy setup/reward is not replayed.
+
+eligibility: CONDITIONAL. Guard65003/4 requires exact218history predicates, original Epistrophy rootSucceeded, five relevant native resurgence/deep/fate progressfacts0 and real PTFRS22_SQ025_SupportIssued1. Native message choices/timers, actual garage/backoffice/core and outcome prerequisites remain unchanged. Existing contacted/message/partial states defer; rejected broad Delamain admission and counter reset are not retried.
+
+communications: CONDITIONAL. Native messages0→41debugFalse→55→53fourgamehours→54contentunblocked→67, then real selected SMS choices14/15/9 and24–27 Succeeded callbacks are preserved. Native resurgence63/65 onegameday waits and actual incoming/outgoing Delamain scene protocols remain original. Current specialized initializer51 equals native; real ACK scene41/42/43/44 and U9cleanup700True→701In12→800 are verified. Existing S25 persistent phone can be adopted only through current private receipt path, without replay/reset.
+
+ownership: CONDITIONAL. The narrowed body preserves original resource/node identities and all retained nested110/26 cleanup plus161state owner. Native whole root has no root prefab; resurgence/backoffice/workshop/core retain their exact original scoped prefab obligations. S29phone and S22support both share the sameSupportIssued latch/fresh fences; saved S25owner recognition is distinct from starting another listener. Actual old-owner liveness still needs fixtures.
+
+progression: PASS. All18retained original root payloads and ten nested graphs are exact, with only input65000.Out→134.In1 added and other originalroot sections excluded. Full native descendants preserve traffic/race/River-suspend AND/OR conditions, real call waits, maze/core outcomes and actual reset/merge/destroy choice branches. No synthetic facts, forced doors or fakeACK added.
+
+presentation: OPAQUE. Exact original garage/workshop/core/resurgence actors, prefabs, terminals, scene markers/cameras/workspots and dedicated car references remain. Johnny-only scene/workspot presentation adaptations retain callback graphs/dialogue/gameplay effects; the Delamain holocall uses PH3shared studios. Streamed placement, independent props, car delivery and actual scene acquisition remain live/opaque.
+
+journal: PASS. Exact original insurgency root/objectives/pins, SMS choices and terminal journal writers remain source-authored. Epistrophy root is requiredSucceeded and retained, never reset; prior scan reward/journal path is outside copied root. Real selected phone choices and native stage outputs alone advance insurgency objectives.
+
+completion_rewards_cleanup: CONDITIONAL. Native terminal83→126active0→127done1→150airtraffic0→139/128/137restrictions→129checkpoint→110cleanup→130clean1→131checkpoint→86 remains exact. Core native merge/reset/destroy and resulting car/reward outcomes remain distinct; excluded earlier scan reward124 is absent. Actual reward/car/record transactions and cleanup/reload remain untested.
+
+persistence: CONDITIONAL. All retained body/nested resource/node/field IDs and private S29/S22receipt identities remain exact; current218history/positiveEpistrophy guard refuses unsupported pending message/partial-owner states. Current AdoptS25DelamainPhone requires S25Issued1/Finished1/Fault0 and only sets missing privateSupportIssued once. No native counter/ACK/history reset, old owner restart or previously rejected admission widening is implemented.
+
+shared_dependencies: CONDITIONAL. Exact shared dependencies include earned Epistrophy completion, original scan-result messages, S22/S25 persistent Delamain phone ownership arbitration, real request/ACK/cleanup protocol, PH3studios, race/River interruption predicates and all native maze/car/reward cleanup. Prior saved-owner/phone counter ambiguity remains unresolved rather than erased; no synthetic reset or blanket static success claim.

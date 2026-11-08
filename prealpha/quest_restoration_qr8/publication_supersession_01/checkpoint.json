@@ -1,0 +1,31 @@
+{
+  "state": "QR8_ALL_REQUIRED_STATIC_GATES_COMPLETE_FINAL_PUBLICATION_REVIEW_PENDING",
+  "canonical_epoch": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\source_epoch_02.json",
+  "candidate": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\candidate_01",
+  "new_runtime_changes": 1,
+  "new_ZIPs": 1,
+  "next_action": "Run separate final publication review; resolve actual discrepancies, then seal. No further repair, deploy, launch or broad audit.",
+  "installed": "PH3 unchanged",
+  "baseline": {
+    "sentinel": "prealpha\\quest_restoration_qr8\\sentinel.json",
+    "sha256": "FC04B7D09BE95B0AD0DE4A79F1FF90D251078295CAFCC1947AC7D4F29D3B675E",
+    "whole_archive": "prealpha\\quest_restoration_qr8\\verification\\archive_baseline_01\\result.json",
+    "compile_reuse": "prealpha\\quest_restoration_qr8\\verification\\compile_baseline_01\\result.json"
+  },
+  "worker_findings": {
+    "A": "Native plugin binary91assertions/6bytecontrols and expanded185archive/76XL namespace920assertions/2controls peer-ready; no old-source=binary assumption.",
+    "B": "Genuine firstenrollment menu+realYes event/contact bootstrap shape under investigation; no approved runtimeproposal/integration yet.",
+    "C": "Exact Voodoo Quest descriptor1809 and stashsector identified; entity/persistence binding capture underway."
+  },
+  "acceptance_draft": "prealpha\\quest_restoration_qr8\\acceptance_draft_02.json",
+  "acceptance_status": "Nine prepared/unrun tests; exact internalphaseID/receipt requires boundedfutureobserver or NOT_OBSERVED, not parentpatchlog inference.",
+  "technical_readiness": "CONDITIONALLY_READY_FOR_DISPOSABLE_CONTROLLED_TESTS",
+  "remaining_quest_UNKNOWN": 5,
+  "held_extensions": [
+    "Ronald first-enrollment/physical owner/contact"
+  ],
+  "remaining_final_gates": [
+    "Independent current final publication/completeness/readiness review",
+    "Immutable completion seal"
+  ]
+}

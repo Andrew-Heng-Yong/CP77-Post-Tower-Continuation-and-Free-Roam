@@ -1,0 +1,78 @@
+# Sex on Wheels — QR3 deep verification
+
+No source-confirmed runtime defect was found. This is not full static certification or gameplay verification.
+
+## entry — APPROVED_DEVIATION
+
+- Private0->Ready1000->pause1001->recheck1002->Issued1003->fresh root branch1004.False->postclaim1007/1008->native hubs81/83/84->54->86->80->55->70->73->62->59->47->148->150->1100.True->Entered1101->149.In1.149 exactly matches native minorquests binding to mq044.questphase.
+- Native quest root0->4 waits MinorQuestAndSts content token, then concurrently activates mq_044_started_in_main3 and native main2.In1. Both wrapper roots and native main body are intact.
+
+Remaining: LIVE_ONLY: Static graph/source parity does not establish executing-owner scheduling, actual phone/SMS delivery, scene playback or save/reload success.
+
+## eligibility — APPROVED_DEVIATION
+
+- Retains q001_done>0,q005_done>0,q101_enable_side_content>0 plus exact earned gle_06_finished>=1 node148 and native three-game-day delay150 before final recheck1100. Fresh wrapper does not invent Jake survival/success: native outcome branch uses actual gle_06_succeed>=1.
+- Preclaim root and all bounded objectives must be Inactive; mq044_done, mq044_started and mq_044_started_in_main remain0. Active/Succeeded/Failed/unknown journals, oldIssued, pre-Tower and absentPermit are rejected by actual serialized AND/OR trees.
+- Native main root5 is NOT Active AND NOT Succeeded (both inverted1), so the valid Inactive seam enters2; it was not misread as requiring already-started state. Native Failed admission capability is not exposed by private fresh guards.
+
+Remaining: LIVE_ONLY: Earned gig/outcome history, elapsed game time and current player eligibility remain save-specific inputs.
+
+## communications — PASS
+
+- No native MQ044 body or wrapper writes call start/end requests or waits for holo acknowledgements. It is an authored SMS reward activity, not a missing call-listener case.
+- Native main root/2 node28 reads gle_06_succeed>=1: True activates Jake contacts/jake_estevez/mq044/vehicle at57, False activates Reyes contacts/muamar_el_capitan_reyes/mq044/vehicle_info at58. Both routes reach native spawn/setup and objective activation.
+- Completion root/3 node28 repeats the actual outcome check: True->26 Jake debrief,False->27 Reyes debrief; both then21 rootSucceeded. Native journal phone state/notification fields and connected paths are unchanged.
+
+Remaining: LIVE_ONLY: Static graph/source parity does not establish executing-owner scheduling, actual phone/SMS delivery, scene playback or save/reload success.
+
+## ownership — CONDITIONAL
+
+- Private149 remains the single fresh native MQ044 body reference; all native ancestor nodes/payloads compare to minorquests. Native mq044 and main resources retain exact #mq044_jakes_vehicle root prefab obligations.
+- Private rootInactive/all-childInactive neutral facts, durable Issued receipt, final recheck and native no-Active/no-Succeeded guard prevent deliberately entering an active native job through this fresh route. QR2 native parent termination ancestry is reused without equating killed fact to a measured saved owner.
+
+Remaining: CONDITIONAL: Native main-tree containment/Terminating ancestry is reused from QR2 ancestor_review.json. Actual saved native/private descendants and upgrade/adoption state are not decoded; killed flags alone are not treated as executing-owner proof. CONDITIONAL: Saved current/older MQ044 world and bugfix companion descendants, already-owned vehicle state and cross-mod spawned copies are not inspected.
+
+## progression — PASS
+
+- Native main5.True->2 setup->3 pickup/drive->4 cleanup->1Terminating unchanged. Setup root/2 starts mq044_started55, preserves outcome-dependent spawn/hide/delete-marker branches, activates reachgarage56 and description59, then original location wait52/vehicle60/character63 path.
+- Native root/3 reach wait12->17 garageSucceeded->14 getInActive->16 vehicle-enter wait->36 unimmovable->37 character operation->18 getInSucceeded->15 leaveAreaActive->19 leavewait->20 Succeeded->outcomeSMS28->26|27->21rootSucceeded->39->22done->33 vehicle-enable->24checkpoint->1.
+- Native root/4 entire cleanup is retained, including distance/trigger waits, event, world variant, interactive object, crowd and community deactivation operations.
+
+Remaining: LIVE_ONLY: Static graph/source parity does not establish executing-owner scheduling, actual phone/SMS delivery, scene playback or save/reload success.
+
+## presentation — OPAQUE
+
+- Exact original #mq044_jakes_vehicle prefab remains on native root and main. Native #mq044_com_veh reference, vehicle spawn branches, garage markers, triggers and interactive-object data remain unmodified through delegated native phases.
+- No private actors or alternate custom vehicle are introduced. Native Jake-versus-Reyes outcome-specific actor/VO branches remain selected by the actual native success fact.
+
+Remaining: OPAQUE: Exact prefab sector placement, #mq044_com_veh car/garage bindings, spawn entries, workspots/camera/trigger definitions and VO resource resolution are not fully decoded here. LIVE_ONLY: Actual garage/car streaming, movement/enter/leave and entity cleanup remain untested.
+
+## journal — PASS
+
+- Original reachgarage objective56/description59, garageSucceeded17, getInActive14/Succeeded18, leaveAreaActive15/Succeeded20, outcome debrief26|27 and questSucceeded21 are connected in native order. No objective or native mappin replacement occurs.
+- Private1010 observes native rootSucceeded->1011Finished. The inherited failed-reactivation branch cannot admit Failed under the stable fresh preclaim rootInactive guards.
+
+Remaining: LIVE_ONLY: Journal propagation and an external concurrent root change between guard and dormant branch need runtime evidence; no save/journal was changed.
+
+## completion_rewards_cleanup — CONDITIONAL
+
+- Both outcome debriefs lead21 questSucceeded->39 character operation->22 mq044_done1->33 native EnablePlayerVehicle. Exact record Vehicle.v_sport1_quadra_turbo_r_player, enable1/despawn1/makePlayerActiveVehicle1 is retained.
+- Native complete root/4 cleanup follows progression; current wrapper adds only private Finished observation and preserves all original branch/cleanup commands. There is no synthetic grant, refund or reset.
+
+Remaining: CONDITIONAL: Vehicle.v_sport1_quadra_turbo_r_player target record/current overrides, entitlement idempotence and resulting world/vehicle inventory state are not established by a pointer. Exactly-once saved reward execution remains live-only.
+
+## persistence — CONDITIONAL
+
+- Raw PH3 wrapper/descendants, node IDs and private Ready/Issued/Entered_149/Finished receipts remain byte-equivalent; no migration occurs. Neutral native started/done facts and Inactive journal guards protect already-started/completed histories.
+- Issued nonzero is never cleared by current S23 Permit/Restored. Saved unsupported progress is not restarted. Native cleanup waits are retained rather than forced.
+
+Remaining: CONDITIONAL: Matching serialized identities and fresh guards are proven; save/reload, cross-version descendant adoption and exactly-once engine transactions need matching transition fixtures.
+
+## shared_dependencies — CONDITIONAL
+
+- Shares genuine LifeWork gig completion/outcome facts and Reyes/Jake journal contacts, not a private synthetic phone controller. Native three-day delay and content-token admission are preserved.
+- Native MQ044 bugfix companion is inventoried and not replayed. U9/Tower/history support precedes private admission while delegated root owns prefab and cleanup.
+
+Remaining: CONDITIONAL: Exact native/shared resource bindings are preserved; full streamed placement, engine interrupt arbitration and all saved shared-owner lease states remain unmeasured. CONDITIONAL: Cross-quest gig entitlement/vehicle ownership and saved bugfix-owner continuation require matching state evidence.
+
+Reproduction: run agent_d/verify.py with --output pointing to a new directory. Final verification_03 has322 passing checks,8actual-resource mutations,26rawbinary pins. See contracts.json and ../../verification_03/{tests,source_pins,graph_evidence}.json.

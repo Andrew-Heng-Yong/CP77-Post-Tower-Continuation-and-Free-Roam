@@ -1,0 +1,25 @@
+{
+  "existing_private_adaptations": [
+    {
+      "quest_id": "sts_wat_kab_101",
+      "kind": "Embedded_to_Soft_native_reference",
+      "evidence": "Exact native payloads, edges and nested graph equality, plus original prestate references where required"
+    },
+    {
+      "quest_id": "sts_wat_kab_107",
+      "kind": "Embedded_to_Soft_native_reference",
+      "evidence": "Exact native payloads, edges and nested graph equality, plus original prestate references where required"
+    },
+    {
+      "quest_id": "sts_wat_kab_102",
+      "kind": "Embedded_to_Soft_native_reference",
+      "evidence": "Exact native payloads, edges and nested graph equality, plus original prestate references where required"
+    },
+    {
+      "quest_id": "sts_wat_kab_07",
+      "kind": "Embedded_to_Soft_native_reference",
+      "evidence": "Exact native payloads, edges and nested graph equality, plus original prestate references where required"
+    }
+  ],
+  "native_protocol_anomalies": []
+}

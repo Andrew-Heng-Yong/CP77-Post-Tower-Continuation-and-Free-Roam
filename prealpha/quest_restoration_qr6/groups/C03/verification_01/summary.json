@@ -1,0 +1,14 @@
+{
+  "group": "C03",
+  "checks": 251,
+  "resources": 21,
+  "mutations": 3,
+  "quest_ids": [
+    "q305_postcontent",
+    "wst_ep1_09",
+    "sts_ep1_12_pickup"
+  ],
+  "issues": [],
+  "status": "PASS_BOUNDED_STATIC_COMPARISONS_WITH_EXPLICIT_LIVE_OPAQUE_LIMITS",
+  "epoch": "QR5:08"
+}

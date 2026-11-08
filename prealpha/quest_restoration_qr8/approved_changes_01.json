@@ -1,0 +1,30 @@
+{
+  "status": "ONE_APPROVED_SERIALIZED_RUNTIME_REPAIR_ARCHIVE_REBUILD_PENDING",
+  "relative_to": "QR7:04",
+  "resources": [
+    {
+      "id": "QR8-RONALD-LATE-FUTURE-FIRST-EVALUATION",
+      "depot": "towercontinued\\quest_restoration_qr7\\ronald_news_future.questphase",
+      "before": "86C436F556A5BDBAB8851ED3EC6688BBA6728C7001A17A4F6E24F192CF82E26E",
+      "after": "6CEB6AC9FA2909771AEEF09D33A36241E1396D26A072725317374837AB79B0EC",
+      "intent": "Permit a genuine QR7 future-entry receipt with done1/sent0 at first case evaluation after an authored helper hold; preserve all old historical guards, timers, nodes and registration identities.",
+      "source_plan": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_b\\late_future_plan_01.json",
+      "source_plan_sha256": "044C3AA43946A2EA417199C1CFCFDA4A1DD03DF79919CCE507D8EC5D4B45D8DA",
+      "independent_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_c\\reviews\\late_future_02\\review.json",
+      "independent_review_sha256": "C7C25EF298C2850AAC7BDF47EAF8FAF85508315F398DF4AA25196154F86C2B6C",
+      "actual_readback": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\candidate_01\\repair_late_future_01\\readback_01\\manifest.json",
+      "actual_readback_sha256": "65257720B73B0D418292ADF44D7CAC6526389D0B8B73C1D7FE330918ED89A471",
+      "actual_verification": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\candidate_01\\repair_late_future_01\\verification.json",
+      "actual_verification_sha256": "680E41572C687E49757759819453DFF9E560063AC410D9ABC9712E4B64DFB100",
+      "scope": "Only the original first evaluation of each unchanged admission-node identity, seeing a genuine QR7 future-entry receipt plus native sent0. Root issuance/admission/edges unchanged; no restarted helper or reopened skipped branch. A saved owner still waiting before gate evaluation can use this path; an already-processed branch is not revisited. No enrollment/contact repair, timer adoption, reset or synthetic ACK.",
+      "limits": [
+        "Source partial order establishes an authored independent completion/loading boundary; actual latency and save scheduler behavior are LIVE_ONLY. No measured duplicate/missed-message occurrence is claimed.",
+        "An existing saved owner before first case evaluation is not force-reentered; applicability of changed resource predicates on specific saved handlers still needs an authorized transition fixture.",
+        "No old timer adoption/reset, synthetic ACK, native enrollment rewrite, actor/trigger availability claim or all-history support.",
+        "Coordinator must integrate alone into a fresh successor, serialize/read back final affected package and run preservation/package/compile gates."
+      ]
+    }
+  ],
+  "new_namespaces": 0,
+  "registration_changed": false
+}

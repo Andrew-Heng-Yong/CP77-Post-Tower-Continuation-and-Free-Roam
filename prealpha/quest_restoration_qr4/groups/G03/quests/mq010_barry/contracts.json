@@ -1,0 +1,176 @@
+{
+  "quest_id": "mq010_barry",
+  "title": "Happy Together",
+  "status": "DEEP_REVIEWED_WITH_STATIC_LIMITS",
+  "fully_static_verified": false,
+  "source_epoch": "QR3 successor v1; effective resources unchanged from PH3 for G03",
+  "effective_resource": "towercontinued\\sidejobs_s24\\base\\mq010.questphase",
+  "effective_resource_sha256": "F680E7DD07A0F319CC4FE30614559B63BC38188722BD02239BBDA30BF11151CF",
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Root1000->Ready1001->pause1002->native q00154/q00580/q10155->recheck1004->Issued1005->Entered1006->native body1.In1. Native body input and payload equal original minorquests node1."
+      ],
+      "approved_differences": [
+        "Existing S24 unstarted private wrapper/receipts are approved post-Tower admission."
+      ],
+      "remaining": [
+        "LIVE_ONLY: Phase injection is source-verified, not observed gameplay entry."
+      ],
+      "evidence": [
+        "../../verification_01/tests.json",
+        "../../verification_01/source_pins.json",
+        "../../verification_01/graph_evidence.json"
+      ]
+    },
+    "eligibility": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Both1002/1004 require all11 journal paths Inactive, native MQ010 progress/dialogue/death/Andrew/Johnny state facts0, Permit1 and Issued/Finished/Fault0; all Active/Failed/Succeeded/missing cases are rejected by actual predicates.",
+        "Native q001_done/q005_done/q101_enable_side_content>0 remain unchanged; no resurrection of Barry or retry of an already-failed quest is admitted."
+      ],
+      "approved_differences": [
+        "Fresh-only scope refuses unsupported unfinished/dead/failed states."
+      ],
+      "remaining": [
+        "LIVE_ONLY: Actual elapsed timers, current player location and earned history are save inputs."
+      ],
+      "evidence": [
+        "../../verification_01/tests.json",
+        "../../verification_01/source_pins.json",
+        "../../verification_01/graph_evidence.json"
+      ]
+    },
+    "communications": {
+      "status": "PASS",
+      "proven": [
+        "Inspected native MQ010 phases/scenes contain no positive holo/audio activation request and no new phone-controller dependency. Barry/police conversations are native scene paths, not missing calls."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: In-person scene playback is not tested."
+      ],
+      "evidence": [
+        "../../verification_01/tests.json",
+        "../../verification_01/source_pins.json",
+        "../../verification_01/graph_evidence.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Original MQ010 root owns #mq010_pr_01_barry_flat and external start/talk/columbarium/finale phases; wrapper1 retains that exact owner. No new permanent Barry community is created.",
+        "Native main-tree/minorquests termination ancestry is reused; fresh guards preserve previous owners/history by refusing known progress."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Actual saved executing-tree retirement and restored scene ownership require matched save/runtime fixtures."
+      ],
+      "evidence": [
+        "../../verification_01/tests.json",
+        "../../verification_01/source_pins.json",
+        "../../verification_01/graph_evidence.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Native root0->2start->3talk then parallel4columbarium/5finale remains. Success5.Out1->10cleanup->1; failures2.failed->19->20->11 and3.failed->20->11,5.failed->11 remain authored.",
+        "Andrew discovery and police-report choices remain native; failure/Barry-shot scenes and alternate authored cleanup are retained, not converted to success."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Timed knock/revisit windows, optional columbarium and final dialogue ordering require gameplay."
+      ],
+      "evidence": [
+        "../../verification_01/tests.json",
+        "../../verification_01/source_pins.json",
+        "../../verification_01/graph_evidence.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Native Barry-flat root prefab and versioned patch1_2 scene references remain exact; police, Barry, columbarium and Johnny-support references are preserved."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "OPAQUE: World placements/actors/door/camera/workspot bindings and effective JV1 visual-only behavior are not fully decoded/observed.",
+        "LIVE_ONLY: Approved supporting Johnny voice does not certify hidden projection rendering or every native camera route."
+      ],
+      "evidence": [
+        "../../verification_01/tests.json",
+        "../../verification_01/source_pins.json",
+        "../../verification_01/graph_evidence.json"
+      ]
+    },
+    "journal": {
+      "status": "PASS",
+      "proven": [
+        "Talk phase keeps wait/try_talking/talk descriptions and native Failed paths50->54 and144->145. Columbarium plaque writes know_about_andrew1 only on authored discovery.",
+        "Finale489.Out->488.Succeeded retains root success; alternate497->498.Failed and police-report/see-what-happened objective states remain unchanged."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Engine journal delayed-state propagation and displayed mappins are untested."
+      ],
+      "evidence": [
+        "../../verification_01/tests.json",
+        "../../verification_01/source_pins.json",
+        "../../verification_01/graph_evidence.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native Andrew discovery reward14/25 and normal/good police-scene rewards24/25 remain in their original conditional branches.",
+        "Normal cleanup8done1->7active0 and original actor/environment cleanup remain; private wrapper only records Finished after native1.Out1."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "STATIC_UNRESOLVED: QuestRewards.mq010_andrew_discovery/mq010_finished_normal/mq010_finished_good definitions and numeric outcomes/providers not resolved.",
+        "LIVE_ONLY: Exactly-once reward and timed failure/reload transitions remain untested."
+      ],
+      "evidence": [
+        "../../verification_01/tests.json",
+        "../../verification_01/source_pins.json",
+        "../../verification_01/graph_evidence.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Working QR3 source/IDs unchanged; no saved field/node/resource rename. Original nested scene/phase ownership remains. Both actual guards refuse all tested active/failed/completed histories and durable Issued."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Saved timer/scene restoration and transitions from older private owners require fixtures."
+      ],
+      "evidence": [
+        "../../verification_01/tests.json",
+        "../../verification_01/source_pins.json",
+        "../../verification_01/graph_evidence.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Original police/Barry/columbarium scene and prefab dependencies are inventoried; no unnecessary phone listener is invented. Existing U9 world readiness and HS1 safe history gates precede admission."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "OPAQUE: Complete shared world binding and native bugfix companion lifetimes are not executing-owner telemetry.",
+        "LIVE_ONLY: Native actor/Johnny voice arbitration and unload/reload behavior need observation."
+      ],
+      "evidence": [
+        "../../verification_01/tests.json",
+        "../../verification_01/source_pins.json",
+        "../../verification_01/graph_evidence.json"
+      ]
+    }
+  },
+  "defects": [],
+  "repairs": [],
+  "corrections": "../../verification_01/hypothesis_correction.json"
+}

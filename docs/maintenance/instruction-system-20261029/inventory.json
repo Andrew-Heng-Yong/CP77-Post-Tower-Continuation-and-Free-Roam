@@ -1,0 +1,4069 @@
+{
+  "scope": "all files including ignored/local trees from baseline, no .git or reparse traversal",
+  "original_instruction_files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 544256,
+      "sha256": "6B96B6F68ED5CA2C4D076B5D0BE3433129040E6C1B52A7F9BC469921A828FC6E",
+      "classification": "original project-wide Codex instruction",
+      "original_snapshot": "docs\\history\\instructions\\2026-10-29\\AGENTS.original.md"
+    },
+    {
+      "path": "diagnostics/mod_updates_20261023_01/mod_settings_src/CLAUDE.md",
+      "bytes": 3372,
+      "sha256": "F095FF1C0ACCAEE7690EAEC687B1B5D0DA0C25AC67321F64C1144A3230228891",
+      "classification": "third-party source instruction, not project-wide authority",
+      "original_snapshot": null
+    }
+  ],
+  "repo_agent_configuration": [
+    {
+      "path": "research/redscript_2_5/binary_reader_01/redscript-1.0.0-preview.22/.cargo/config.toml",
+      "classification": "vendored Cargo compiler configuration"
+    }
+  ],
+  "ancestor_instruction_files": [],
+  "global_codex_files": [
+    {
+      "path": "C:\\Users\\Ayong\\.codex\\AGENTS.md",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "edited": false
+    },
+    {
+      "path": "C:\\Users\\Ayong\\.codex\\config.toml",
+      "bytes": 4514,
+      "sha256": "69CA823E7B97492B1C244483108268ADED27A994556419A51979B1EE17E95F8F",
+      "edited": false,
+      "top_level_keys_only": [
+        "model",
+        "model_reasoning_effort",
+        "service_tier",
+        "notify",
+        "windows",
+        "projects",
+        "desktop",
+        "marketplaces",
+        "plugins",
+        "mcp_servers",
+        "hooks"
+      ]
+    }
+  ],
+  "new_active_AGENTS_files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 8183,
+      "sha256": "61A605D0D50145DE8FC4237CDF004F8F55E1973C3B06F3DC1856688BE214FC6D"
+    },
+    {
+      "path": "docs/AGENTS.md",
+      "bytes": 1244,
+      "sha256": "FD15336A0E3EDCF968DDBEC2D1C0ABF2C10E48EF718647DBDDA6FDDDCE2845EB"
+    },
+    {
+      "path": "prealpha/AGENTS.md",
+      "bytes": 1194,
+      "sha256": "9C9708EE6FAF7741C51CA534E030416692DB3B4218BB569ACCBC4AFC9FF8939E"
+    },
+    {
+      "path": "profiles/AGENTS.md",
+      "bytes": 818,
+      "sha256": "519495BE882AF05747988ACC1B75B1B198474324F0ADD9E8071FD603F9A4E0EC"
+    },
+    {
+      "path": "redscript/AGENTS.md",
+      "bytes": 880,
+      "sha256": "6BF2011CDDD773FFAB1820F032F396E361F9AD52E043BA38D111C6B2CB3297DD"
+    },
+    {
+      "path": "release/AGENTS.md",
+      "bytes": 1091,
+      "sha256": "5250B16EDA5F06E064881FDFDAB5EAD63E577820CCD06E3FF0EF7653E14F0B64"
+    },
+    {
+      "path": "tools/AGENTS.md",
+      "bytes": 1072,
+      "sha256": "90C6B09C4AAFF8DBB21AFD40A4986E548AC7F17603F7030AAF16D475E111455B"
+    }
+  ],
+  "historical_docs": [
+    {
+      "path": "docs/afterlife_booth_r6_check.md",
+      "bytes": 2660,
+      "sha256": "05AF8C3D47A2560F8DC732DCFD19A8D556ACB731EC14AA395BBB382EF19195E9",
+      "title": "# Booth R6 \u2014 installation and focused animation check",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/afterlife_emmerick_r7_check.md",
+      "bytes": 1865,
+      "sha256": "F57155D870BF696ECE460D6542F2CD98EB6D56B5F0EE6722DC2C7FC5BCAE7133",
+      "title": "# Emmerick R7 focused check",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/afterlife_faces_r5_check.md",
+      "bytes": 2764,
+      "sha256": "B99EB6EFC0035568ADC00A500C3F88FDE360DCC607B91A9F6E2F4E8D15BF50CB",
+      "title": "# Afterlife Faces R5 \u2014 focused playtest",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/afterlife_idles_r3_check.md",
+      "bytes": 2156,
+      "sha256": "D451F80FAB584B294CD7C1B5C89AA5B8F951C2447F6400C251FC332A100759A1",
+      "title": "# Afterlife idle routines R3 \u2014 focused live check",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/afterlife_interactions_r10_check.md",
+      "bytes": 2269,
+      "sha256": "6D111920B2F071CA3F573AE126293E47D38F0210C921C737CC19181521EE1CEF",
+      "title": "# R10 \u2014 stability and Emmerick check",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/afterlife_interactions_r11_check.md",
+      "bytes": 2912,
+      "sha256": "ED1126E3764F573AFD722380B25EA9C4FD20738C8DD642EEF096FA3EB28B3B0C",
+      "title": "# R11 \u2014 Emmerick, Rogue and removal check",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/afterlife_interactions_r8_check.md",
+      "bytes": 2477,
+      "sha256": "0FBA5BDBD18882DEF374C552AC7D9C6DD10F77301851E9EB2CE22D593F62A28B",
+      "title": "# Afterlife R8 \u2014 focused interaction check",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/afterlife_interactions_r9_check.md",
+      "bytes": 3281,
+      "sha256": "EF7C3D88DA285B0E4B7872FD04D368D5198007E36EFA3973CCA59E858422293A",
+      "title": "# Afterlife R9 \u2014 focused interaction check",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/afterlife_native_auto_a3_test.md",
+      "bytes": 4482,
+      "sha256": "FB23CB1EE55B6E7566C9DAEBCE2C5991B19747ED58F91A2D3717692ACB6C3F91",
+      "title": "# Afterlife A3 automatic cold-load bootstrap test",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/afterlife_native_bootstrap_a4_test.md",
+      "bytes": 4172,
+      "sha256": "F87F112F976B48E73B13AF32EE7C51415AA3E9205D7C47D0B3FBDDA9EF749E50",
+      "title": "# Afterlife A4 redscript startup regression",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/afterlife_native_saved_reload_test.md",
+      "bytes": 5231,
+      "sha256": "79BF141B01CC719AA85D502C8E4CEC2DAA734099969F15AF98345ADFA609FE4F",
+      "title": "# Afterlife A2 saved-active-session reload test",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/afterlife_native_scene_a2_test.md",
+      "bytes": 7976,
+      "sha256": "A5E19AB7A2978C7CFDDAB87292EB7D92EDA281420B8D5273D3D5C00B6B54F7FD",
+      "title": "# Afterlife A2: native scene lifecycle test",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/afterlife_native_trigger_audit.md",
+      "bytes": 15185,
+      "sha256": "F451EDC584BBE4EA0C6D3F9F9B8F59479444AE5E582480C465BF8937D1BC8667",
+      "title": "# Afterlife trigger audit \u2014 narrow owner repair, not mirror rollout",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/afterlife_population_r2_check.md",
+      "bytes": 4570,
+      "sha256": "285F777DF70C52F415DE114E91507B410CF0B1D618BB459195B46FE449003126",
+      "title": "# Afterlife population R2 \u2014 density passed, remaining validation",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/afterlife_r1_check.md",
+      "bytes": 3194,
+      "sha256": "4E9EB4AB38F9F0E387B539F418DA0AA5EDAE842E4087D38F376006AEDFA80421",
+      "title": "# Afterlife R1 \u2014 one focused visit",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/airdrop_d1_playtest.md",
+      "bytes": 3709,
+      "sha256": "C97A95A468EDAC97524550536487C9E7E9E4BB9C218E888E5C1D8C8672AAED5A",
+      "title": "# Dogtown airdrops \u2014 D1 playtest",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/alpha_playtest_tasks.md",
+      "bytes": 37642,
+      "sha256": "C9B12702670B18AC67839AEA0D15800785AFF35BF2F85B77C8FC57F76858BAEB",
+      "title": "# Integrated alpha playtest tasks",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_afterlife_mirror_installation.md",
+      "bytes": 9229,
+      "sha256": "EE6D6BB10797F58236F2456A7A7A10B3CE84E77E6762CC8EDC9C0FFC5C74974E",
+      "title": "# Afterlife representative mirror installation",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_afterlife_native_trigger_v7.md",
+      "bytes": 5005,
+      "sha256": "BDA9F9B90FBDAD7393A7B1CCFCE95BEBCE04473F8AC7817ADE3F057489852D5D",
+      "title": "# Afterlife v7: full native area-trigger trial",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_afterlife_redscript_migration.md",
+      "bytes": 3572,
+      "sha256": "500C05E5B9CFC722AECEC8F00A54ABAD3B218A6D42AE0444D54753890EE4AA14",
+      "title": "# Afterlife mirror: redscript proximity-driver candidate",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_claire_check.md",
+      "bytes": 1930,
+      "sha256": "C9AC9883ACFBB489DBBACF0728C63CBE572F71C30A2842619272C32EB77BF5F4",
+      "title": "# Claire \u2014 one combined check",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_cpz_food02_check.md",
+      "bytes": 2292,
+      "sha256": "A5D98EDCA32F1E29266BFF2BBB34E7D53F5B600431F30AE7DAC437256B700274",
+      "title": "# Yagami Market / Corpo Plaza food vendor 02",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_deferred_ordinary_check.md",
+      "bytes": 2216,
+      "sha256": "04A5BFBBEEC8ABF35E3C3194916C16CF348A805ED8E65ADDFAD4746A245062E3",
+      "title": "# Christine + deferred Japantown netrunner",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_h10_all_interactions_installation.md",
+      "bytes": 2268,
+      "sha256": "B933F20177E926CF55F5CC2F350CFD43CEE13A72C6F5089234862AF6117557C2",
+      "title": "# B0 H10 all-interactions experimental installation",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_h10_all_interactions_probe.md",
+      "bytes": 8889,
+      "sha256": "97A68834C1C6F7DF3383A11D3C429B91BB8A0023CF1118276FCB66649EAC7827",
+      "title": "# B0 H10 all-interactions disposable test bundle",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_h10_architecture_installation.md",
+      "bytes": 1209,
+      "sha256": "EF8CD3D2187AB93C1C1C489968DBE4BBFED431B6113429903B6AA6A5D5483359",
+      "title": "# Staged H10 architecture probe installation",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_h10_architecture_probe.md",
+      "bytes": 6010,
+      "sha256": "9B4703EC5A2E1CF3A399D78F0070C275D9A1D6822044A9CC6567143F6998782A",
+      "title": "# Plan B0 \u2014 staged H10 architecture probe",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_h10_floor_installation.md",
+      "bytes": 2736,
+      "sha256": "54B60EF783904D1A741FDDE5430E36F2B4C79E6CC071523C4BB24A886B9A4EF3",
+      "title": "# Plan B0 H10 floor probe \u2014 installation record",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_h10_floor_probe.md",
+      "bytes": 14442,
+      "sha256": "277685DA995B5D0263CF361DB61044F094317F9EF90C457E0E64CAC79989EAF5",
+      "title": "# Plan B0 \u2014 H10 floor-only restoration probe",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_h10_living_installation.md",
+      "bytes": 1223,
+      "sha256": "7AC93A42E88A03A6FEB514D9FE988CD103451522A7F08A648DA74D81A5B27B1D",
+      "title": "# H10 living-only probe installation",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_h10_living_probe.md",
+      "bytes": 6971,
+      "sha256": "AA6CF69934285237F3AA87B5A81E49429304BF7A1F7A844951883138507DAA37",
+      "title": "# Plan B0 \u2014 H10 living architecture-only probe",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_h10_mirror_prompt_probe.md",
+      "bytes": 7494,
+      "sha256": "11280174B42A8D9A88603455C02D33CAB6F45A648902BF3E47FE59693B51405B",
+      "title": "# B0 H10 mirror world-prompt candidate \u2014 workspace-only",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_h10_persistent_installation.md",
+      "bytes": 3143,
+      "sha256": "605C4BC6F3C04E6DADA5DC8BFFC2482DD798D3C178D4FB34E7372CB0FD04FC98",
+      "title": "# H10 persistent owner installation",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_h10_persistent_probe.md",
+      "bytes": 5311,
+      "sha256": "88E72740285EC9C6DE2EBCD78DE39C333C8820A714E8D8720FA52D57F641AB6F",
+      "title": "# H10 persistent interaction owner: disposable opt-in test",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_h10_v_only_mirror_installation.md",
+      "bytes": 1530,
+      "sha256": "9F26E74A4A37052DA5336675E68E00976E5E867DA8344F60EE04696676D8F09E",
+      "title": "# B0 H10 V-only mirror experimental installation",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_h10_v_only_mirror_probe.md",
+      "bytes": 11717,
+      "sha256": "AC4E989514C21D63413E1161AD324C5ABDCA311D3C2140EE5B146B907EEBBC52",
+      "title": "# B0 H10 V-only mirror probe \u2014 workspace review, NO-GO",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_h10_v_only_mirror_run1.md",
+      "bytes": 3152,
+      "sha256": "6B869F3D884BA17E112EC739C3ADCA39EA509E1779593F74E5E1BA710DE6259F",
+      "title": "# B0 H10 V-only mirror \u2014 runtime test 1",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_jpn_netrunner01_test.md",
+      "bytes": 2217,
+      "sha256": "FEFC7C21F2E28FF479E1EA11DD3A2D83F4709090E6B68F80A1621C3E46274C9E",
+      "title": "# Japantown netrunner 01 \u2014 one disposable two-visit check",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_junk_melee_pair_test.md",
+      "bytes": 2503,
+      "sha256": "417E8494B2AC79D195AC9BF758409B4881D3D2A2F9A0FE63D9C412FD9E38A2DD",
+      "title": "# Badlands junk + melee paired disposable test",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_lch_clothing_vendor_test.md",
+      "bytes": 3437,
+      "sha256": "AD2DA794A46451736E56C1F1C96DA9869243A76B601E1D20A87570BA67155FFF",
+      "title": "# Little China clothing-vendor opt-in test",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_northside_foodshop_test.md",
+      "bytes": 2384,
+      "sha256": "3C45B8BC6EEA0C5EF1AC913B5451F8AF15705762088EF25E8FA63B40D7734108",
+      "title": "# Northside foodshop 01 opt-in test",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_northside_gunsmith_test.md",
+      "bytes": 3012,
+      "sha256": "79E937624DC88B3A448B2E9449C5DE5ED47973BC2BCB260462BF684782DE98A8",
+      "title": "# Northside gunsmith opt-in test",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_northside_medicstore_test.md",
+      "bytes": 3535,
+      "sha256": "0AF3BDED46EA15A814B1D9B215F96C5FB327A16F36E48243C5731E57B796DD32",
+      "title": "# Northside medicstore 02: combined enable and respawn test",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_ordinary_bars_check.md",
+      "bytes": 3894,
+      "sha256": "047833B6F5A07AA8B804C204B945EBC21B5ED1EEC9CDA54074697BCD075E0231",
+      "title": "# Ordinary bars \u2014 one combined check",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_ordinary_vendor_auto.md",
+      "bytes": 2837,
+      "sha256": "2A0FFE11E6F4A4D79BA3EB9086AFA7040764B68310AFDAE4AA055B1CFC9E2080",
+      "title": "# Automatic ordinary vendors \u2014 current instructions",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_ordinary_vendor_batch_test.md",
+      "bytes": 5697,
+      "sha256": "709DC4138B84317EB42573013856C8E95908C05C9BF9CDEBCB42C42884BFA132",
+      "title": "# Ordinary vendor batch: one combined test",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_ripnet_eight_test.md",
+      "bytes": 2228,
+      "sha256": "A46940B2D0910B7200CDDD4335049B734768B099A897C691ED5EE8A50FF2D137",
+      "title": "# First ripperdoc + netrunner representative test",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_ripnet_five_ripperdocs_test.md",
+      "bytes": 3794,
+      "sha256": "17EA2722A9EDCB927A7CF75CB4E684AE2A16AF57E51BF3227D8484481556B428",
+      "title": "# Five remaining simple regional ripperdocs \u2014 combined disposable run",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_special_services_check.md",
+      "bytes": 1933,
+      "sha256": "DB75D76CE860AD7B73000887C0C8938BFA84145981EF530FEB1DC2048CCA7F3C",
+      "title": "# Special services S1 \u2014 one combined check",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_story_eight_check.md",
+      "bytes": 2333,
+      "sha256": "A2D1AAD8C8D05D497C5A93FDBA121F433137C1273804732DF55B850BBDAD9A6E",
+      "title": "# S4 combined check \u2014 Nix, Yoko, Mateo, Fingers, Viktor, Karim, Ronald, Bill",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_story_services_check.md",
+      "bytes": 3019,
+      "sha256": "BEF2D651989171EC06AE94C847DD36B450B2C2560FD59EE07C6957FF2740C5D7",
+      "title": "# S3 combined story-service check",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_story_zane_check.md",
+      "bytes": 2288,
+      "sha256": "3DDBABEBC5B9B54A68CB7332099713DA86F5B1AF6DD80E5BB5FB715291F0CBC5",
+      "title": "# Zane \u2014 combined service and future-quest handover check",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_streetkid_scene_load_s3_test.md",
+      "bytes": 2030,
+      "sha256": "E4BF409BF2B8D7AE195AC7F3CC943488E21761A381C4B7589DB2FDE2E45F293E",
+      "title": "# S3 revision 2 \u2014 actor-index crash repair installed",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_streetkid_seat_mirror_s2_test.md",
+      "bytes": 3123,
+      "sha256": "CF472BF216F9B050B61A1819696B2EE66ED997250F93435D2E96845BA4BE5BB3",
+      "title": "# Streetkid stool: S2 revision 4 opt-in",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_streetkid_seat_s1_test.md",
+      "bytes": 2330,
+      "sha256": "0BBBB44C7DBDCD0D30E5CD040A60EC9259220A89403A8F2E5A482314FF4ABA13",
+      "title": "# Streetkid barstool S1: one-use opt-in test",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_time_unpause_none_installation.md",
+      "bytes": 998,
+      "sha256": "1B94FED14FAF68F6D3B0B5B13D382FCA34FED49CCC27F2145C2A85494A6FA233",
+      "title": "# B0 time-unpause source-None experimental installation",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_time_unpause_none_probe.md",
+      "bytes": 3870,
+      "sha256": "9D4D344374ACDBE7BF5F49AD24EB84E0B568F06C4465A5DFB1B52754690A632E",
+      "title": "# B0 post-Tower time unpause: source-None disposable probe",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_vendor_shared_test.md",
+      "bytes": 3715,
+      "sha256": "1977C9580EAD085CBA2CB1DB51222300190F75CDA4349DBFC9FD153A85603709",
+      "title": "# One combined four-vendor and cold-reload test",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_vendor_variants_check.md",
+      "bytes": 2833,
+      "sha256": "984582DAB2EFB25A7AD541A891FCAB2885FE20BFB070866365DBA3DDD213160A",
+      "title": "# Six deferred ordinary vendors \u2014 one combined check",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/b0_wilson_vendor_test.md",
+      "bytes": 3573,
+      "sha256": "6B000F297C2E680A121F26DC6A9B421D4E71DF1085AE8AC259CBBE31FB6AE870",
+      "title": "# Wilson's 2nd Amendment opt-in test",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/beta_release_contract.md",
+      "bytes": 4254,
+      "sha256": "9519FDB632CCFB62FB3C06EC6A70B57DD83AAE584D9288BD04F5BC2B8440F97C",
+      "title": "# Beta release and save continuity",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/body_restrictions_r2_check.md",
+      "bytes": 6231,
+      "sha256": "284AE8A8D35D09A55C76D4416DF28E4ED47A070D6D634E07FDC621C6313DE284",
+      "title": "# Body and perk nerf test",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/bottle_actions_ba1_20261028.md",
+      "bytes": 4347,
+      "sha256": "9AFC7AA5BB16EA1499B71FB88746FE4708F2DEBCE9FC5AF81CBC6A55F26E703D",
+      "title": "# BA1 bottle-shooting action controller",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/bottle_shooting_20261027.md",
+      "bytes": 5891,
+      "sha256": "9363649419D3A7FBDC4008FED7E7D8FA5E40DF163D78052D21CA2D33D2366B83",
+      "title": "# Coastview bottle-shooting comparison \u2014 27 October 2026",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/club_dancing_check.md",
+      "bytes": 2865,
+      "sha256": "058EAA8FA2D3A91E590F88B51BA8732AD604497EB494B0F04EDB8A32D04D8D08",
+      "title": "# One combined public dance-floor check",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/coaster_animation_trace.md",
+      "bytes": 1440,
+      "sha256": "BDF1CCABFB09C89C598309B96AF6B1858FC7961A60BF36030F1615AA7F76395D",
+      "title": "# Coaster animation trace",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/coaster_direct_entry_check.md",
+      "bytes": 2117,
+      "sha256": "3458582F819D0B0522BB8E97BC13114743265162D83FA0ABFEA62F0FABA8013A",
+      "title": "# Coaster revision6: direct cheer entry",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/coaster_jean_jc1.md",
+      "bytes": 4652,
+      "sha256": "6E9FA383683E0A9A3125546920672CCF5BEF8260D9E9BB9393A55B3330014937",
+      "title": "# Jean's Love Rollercoaster entry: JC1",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/coaster_post_doublelife_20261027.md",
+      "bytes": 4674,
+      "sha256": "AF64347971D2BE8DF3C5394F1DE1DEDECB0DCC52FA8ED35DA5AFD1A69D6BC9EE",
+      "title": "# Love Rollercoaster after Double Life \u2014 source review, 27 October 2026",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/consolidation_repair_cr1.md",
+      "bytes": 6062,
+      "sha256": "51C53C266F97B0D20F55F8F57667A580523480613C7299B20522256F17E07E94",
+      "title": "# CR1 consolidated resource repair",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/core_updates_20261025.md",
+      "bytes": 6808,
+      "sha256": "DD9635B360AD98D436F6DE569801CD932C5F174AD49627A34F0749F5172690B7",
+      "title": "# Essential mod updates \u2014 25 October 2026",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/courier_c1_playtest.md",
+      "bytes": 6973,
+      "sha256": "57E263BBFA85AC24677CC8DA5BBE20D12616A58CB8C55EBBA3DEEF5F126CAB01",
+      "title": "# El Capit\u00e1n vehicle contract restoration playtest",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/coyote_two_mirror_test.md",
+      "bytes": 2417,
+      "sha256": "91003CEBC4D607F43CD307920671245594F2CD21E118C91DE611DC317C98D76A",
+      "title": "# El Coyote Cojo two-surface test (C2 candidate)",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/credits_cover_lc4_20261028.md",
+      "bytes": 3842,
+      "sha256": "35A83B40FED3743F179CF1F648FFE6A6758F4FA7912750C1AC012DCADB69755E",
+      "title": "# Credits cover LC4 installed, 28 October 2026",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/credits_transition_cover_20261028.md",
+      "bytes": 7339,
+      "sha256": "8CA4A611282C0619D0494C4761460525AED1F6BD12E7AADD089DD805B9E24378",
+      "title": "# Hiding the credits-to-setup camera flash",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/cyberpsycho_p1_playtest.md",
+      "bytes": 6397,
+      "sha256": "D975D937B140CE2AE9342A05614E6E81F696D91C63D9B147FA527510C7D5FD1F",
+      "title": "# Cyberpsycho P1 \u2014 installed; live test pending",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/cyberware_cd1.md",
+      "bytes": 7473,
+      "sha256": "7E68038A7E5F46B0E34D28BA5CBD84374893C93A89C930B1DDA55B3AA9AEEF26",
+      "title": "# Alpha cyberware setup stop and CD1 diagnostics",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/cyberware_cf1.md",
+      "bytes": 5092,
+      "sha256": "E6202D2B06119CB28E0C037CA236A29FE64C950010E18C27788085923C48890F",
+      "title": "# CF1: preserve enhanced Skeleton implants during PTFR removal",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/cyberware_restrictions_r1_check.md",
+      "bytes": 4376,
+      "sha256": "3872CB4386671E6ABE2E7E02579A1DBAF0CB80FFB22326580036569D3E5649DD",
+      "title": "# Cyberware restrictions test and rollback",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/fast_travel_blackout_20261026.md",
+      "bytes": 2539,
+      "sha256": "2DA9B4755B436A44A0ED933B1141BE59FFAC9467FD2AFAD813FE36B7CA9C37A4",
+      "title": "# Fast-travel blackout: Buran St to El Coyote",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/fred_scene_fs1.md",
+      "bytes": 4470,
+      "sha256": "41A32745F03CC1C80D0ABFD603A2F60502ABE90EFA3952EF8C362425F625C621",
+      "title": "# Post Tower Continuation and Free Roam \u2014 Fred scene range repair (FS1)",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/full_consolidation_v1.md",
+      "bytes": 7090,
+      "sha256": "72A6476ACC9D0B3C184184E0F1158CD2F91C96C756E1B91D7292688BFAC1FD63",
+      "title": "# Post Tower Continuation and Free Roam \u2014 full consolidation v1",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/gigs_u10_playtest.md",
+      "bytes": 5628,
+      "sha256": "20A42FE18DB93CD5A4D435159B7E6A3162D8C93E083C1597D535E00F473745FD",
+      "title": "# Eight added gigs \u2014 U10",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/gig_batch_u9_playtest_tasks.md",
+      "bytes": 20932,
+      "sha256": "1357AF7A4C29C64CA7D534B7901F94B55D8574EF98C6330B95F21567FBD66E91",
+      "title": "# U9 whitelisted-gig batch \u2014 playtest tasks",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/gig_pilot_r1_check.md",
+      "bytes": 17588,
+      "sha256": "DE1D7B1CD3F4EA5D9C91E9AAB3F4F48883842DF56011199257FB64C7917A3F17",
+      "title": "# Many Ways to Skin a Cat \u2014 first gig pilot",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/h10_h2.md",
+      "bytes": 5025,
+      "sha256": "E91FF1E260FBC413C88BA6736629D023570083CBAFD16CED1B90946869B3F077",
+      "title": "# H10 entrance purchase and Wilson handoff \u2014 H2",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/h10_h3.md",
+      "bytes": 3547,
+      "sha256": "CF38417B2E8EB068AAC510FCDC28D3DF38CE06D3B1DA7C8A3AE81EB6DBB1AB8E",
+      "title": "# H10 purchase prompt and map icon \u2014 H3",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/h10_h4.md",
+      "bytes": 2479,
+      "sha256": "A7B8BE2DFD999449F2C97ADC03F69A14F693138A8C0B2B22348DC2260A6B5312",
+      "title": "# H10 purchase eligibility repair \u2014 H4",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/h10_h5.md",
+      "bytes": 5225,
+      "sha256": "F61338B1FDE901973D8C9089BAD793EA2BB51AD368F17966AE960AF814903552",
+      "title": "# Post Tower Continuation and Free Roam \u2014 H10 dialogue purchase (H5)",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/h10_h6_snapshot_reload_hs2.md",
+      "bytes": 5656,
+      "sha256": "0C77E1C403D382F70ECAFBA1224C2E4A50220EA18166E1F847F64F3B967B5F8A",
+      "title": "# H10 services and snapshot reload repairs \u2014 25 October 2026",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/happier_tower_judy_compatibility_20261029.md",
+      "bytes": 4722,
+      "sha256": "8DC2DB2EFC1238F688F7598A888A104429B63E29042168A9EA2D861ADF51C1EF",
+      "title": "# Happier Tower Ending (Judy) compatibility review \u2014 29 October 2026",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/history_snapshot_hs1.md",
+      "bytes": 7444,
+      "sha256": "C9B776441B1084A93630CC95DEAE80C96168A70356E84FDEDE04254BCCF1CB09",
+      "title": "# Quest history snapshot HS1",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/housing_h1_playtest.md",
+      "bytes": 4617,
+      "sha256": "6C42C06D48EBC543051491F621161F36C905E5CF7FDD06973F438F3C72F5EE9E",
+      "title": "# Housing H1",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/judy_dennis_jd1.md",
+      "bytes": 3886,
+      "sha256": "50F328964F7262795C5B20D298A49F81FFEF2878CC58032ACDB54887CAC514A9",
+      "title": "# Judy private door and Dennis holocalls \u2014 JD1",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/lipsync_audit_20261025.md",
+      "bytes": 4973,
+      "sha256": "F93A1F3661E46012DEC061E1634E2DB41DE825E03F71528308CE58D6B99165FA",
+      "title": "# PTFR English lip-sync audit \u2014 25 October 2026",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/lizzies_lr1_20261029.md",
+      "bytes": 4031,
+      "sha256": "CAB7925277E27465F1EFDA861D679FA6C60DE035B73D57B2FC8077A14CF947DA",
+      "title": "# Lizzie's bar LR1 \u2014 installed 2026-10-29",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/lizzies_lr2_20261029.md",
+      "bytes": 5741,
+      "sha256": "198F28AD2A4DE04D162B8BE076117858FF3A6FD47B1CCB10B9A043B7B2216880",
+      "title": "# Lizzie's bar LR2 \u2014 missing vanilla world support",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/lizzies_restoration_gap_20261029.md",
+      "bytes": 7163,
+      "sha256": "4788EF2513BF3D4237982C15E969356B764EE85DA080CB6A5FCA373E62515D22",
+      "title": "# Lizzie's bar restoration audit \u2014 2026-10-29",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/loading_cover_lc1.md",
+      "bytes": 7505,
+      "sha256": "B558B9E19445A9BFBD2E417CD6270089853AB098D33ED0C7986FDFD977149F10",
+      "title": "# Loading cover and setup scheduling \u2014 LC1",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/loading_cover_lc2.md",
+      "bytes": 4193,
+      "sha256": "A5FC6AFF8BF31720824CAB9BD9227DD813652F3EBD8D28B3CE3B1F599EC974C7",
+      "title": "# LC2: loading stall repair and setup progress",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/loading_cover_lc3.md",
+      "bytes": 4554,
+      "sha256": "90326955D63056D8357876FBA0CE35FC0F97780C72C255C1B0942CE707AF0BEF",
+      "title": "# LC3: remove the exit action and stop purchase prompts competing with startup",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/misty_viktor_access_r10_check.md",
+      "bytes": 1577,
+      "sha256": "C33BCFB89CF05F713BF4FE86075E4544FC5EFB4ED87EE6FC26F29093C8E2478F",
+      "title": "# R10 Zetatech doors and storefront NPC \u2014 disposable check",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/misty_viktor_access_r11_check.md",
+      "bytes": 2080,
+      "sha256": "5CB1370454B773947E13506AEC1F8CED914116CB63E47F0F7FD39ACCA9175B7E",
+      "title": "# R11 Zetatech correction \u2014 one disposable visit",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/misty_viktor_access_r9_check.md",
+      "bytes": 1485,
+      "sha256": "E11380D97C0572A746F1019FBCDDC3DA74194A12B667E138B1B8DEB60986ED63",
+      "title": "# R9 Zetatech doors and receptionist \u2014 disposable check",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/misty_viktor_cleanup_r4_check.md",
+      "bytes": 2596,
+      "sha256": "A24C559E93A817BC99842C6B4FBF8DF9C3BC76A8B4FE7B3BB787120CAF94DE22",
+      "title": "# R4 clinic street/interior overlap \u2014 disposable opt-in check",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/misty_viktor_details_r7_check.md",
+      "bytes": 3038,
+      "sha256": "773B4B28910875F8E592049598227C1566DD4114D6DA0B83FA9CA4B1EFCA6C62",
+      "title": "# R7 \u2014 construction props and parked trucks",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/misty_viktor_lighting_r8_auto_check.md",
+      "bytes": 4146,
+      "sha256": "84CD3700E1CFE6361DF4819C30A43172E03A3E497132227BE0F7D3F0A8B2EAAE",
+      "title": "# R8 automatic post-Tower startup \u2014 disposable smoke test",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/misty_viktor_light_poc_check.md",
+      "bytes": 4420,
+      "sha256": "E617E3DE9BA3E3D4EA04C1E8B86485F048CC8CFFD49600F43200258EE055DE29",
+      "title": "# One private lamp \u2014 disposable visibility test",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/misty_viktor_original_lamp_s1_check.md",
+      "bytes": 3975,
+      "sha256": "067555BF8C4B8A893CE3180A6EDC1A530B888E7B9DFEE865E92961B3C986773E",
+      "title": "# Original police-light alias S1 \u2014 one-site opt-in check",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/misty_viktor_repair_r6_check.md",
+      "bytes": 2870,
+      "sha256": "870B4589877AD5F702F3C904DFD0DBF78E018F8F33E467F2AE2F7F0DB7EFA142",
+      "title": "# R6 \u2014 one combined disposable check",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/misty_viktor_street_r3_check.md",
+      "bytes": 2442,
+      "sha256": "565F978D5EC8C799CA538C4A9EBD3CB1385388FBE53A35DC731078CD434AF028",
+      "title": "# R3 Tower street dressing \u2014 one disposable opt-in check",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/misty_viktor_variants_r5_check.md",
+      "bytes": 3201,
+      "sha256": "B253C20ACE79EC363688BCECF3E5A7084BD80A5341716F31E3CE5BB7623FAB0E",
+      "title": "# R5 one-run private-variant and original-owner diagnosis",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/misty_viktor_world_check.md",
+      "bytes": 3158,
+      "sha256": "928C0DF2B6DDA2CF3589173602D44AA5F537D42C25CDDF03F761B431F0A2C116",
+      "title": "# One-site Zetatech revision2 rear-door/storefront check",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/native_padre_u6_check.md",
+      "bytes": 3152,
+      "sha256": "37C949806F03A5C7D495D430A0036770DAACE65229120DEAB072A8A8E68563FD",
+      "title": "# Original Padre handler \u2014 U6 call test",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/native_support_u7_check.md",
+      "bytes": 12202,
+      "sha256": "ABCAFE79D4DADB20A2AF2B69570A7929E2734B69F98CCE69782AF4B55A767CE8",
+      "title": "# U7 \u2014 Jeopardy native support and completion test",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/ncpd_n1_playtest.md",
+      "bytes": 6424,
+      "sha256": "B1BD1B19F2514925032F4D8C274F2F56FB773940582EEE35243E2BD20E6BCCCD",
+      "title": "# N1 \u2014 NCPD scanner pilot playtest",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/ncpd_n2_playtest.md",
+      "bytes": 14068,
+      "sha256": "4D2E5264E982C4B402C75786C156CF34F1ADBA09D8A92AB3DA28FFA468D9BFC7",
+      "title": "# N2 \u2014 Citywide NCPD scanner restoration",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/ordinary_mirrors_c3_test.md",
+      "bytes": 6633,
+      "sha256": "14D44A6B38491D2E02C342DF1ADB4EB42BE7FBE3C21815B43A03597B3B50081D",
+      "title": "# Ordinary mirrors C3: opt-in live test",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/padre_phone_u5_check.md",
+      "bytes": 2534,
+      "sha256": "77760DFBD892EFAB5A411788A602E7E653E7FE3E4AA1070ED6FAB70D971ACFC2",
+      "title": "# Padre call trace \u2014 U5",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/phase2a_diag.md",
+      "bytes": 9992,
+      "sha256": "7F38272449A5B174ED7FB2FBFA3DF9B59CD0482D708B19063FF18161BFFB275C",
+      "title": "# Phase 2A-DIAG \u2014 watched-credit hook instrumentation",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/phase2a_hook_poc.md",
+      "bytes": 10681,
+      "sha256": "271FB6C0D88C71DA771AE012B641B17B13ED6B38DE9DF184AA25A26C766F02E0",
+      "title": "# Phase 2A \u2014 Minimal post-Tower hook proof of concept",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/phase2b_p0.md",
+      "bytes": 18591,
+      "sha256": "6BBE8EC8567DF512A357D9F29A3F0CB540576D1DF4E880402855565039CD4645",
+      "title": "# Phase 2B-P0 \u2014 Direct-return retained-session probe",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/phase2b_p0_run1.md",
+      "bytes": 12364,
+      "sha256": "46E08EB888B28A3E34A3698B34C26191FFE011EB4390E0BAA77ECC09CA499916",
+      "title": "# Phase 2B-P0 \u2014 first watched-credit result",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/phase2b_p1_run1.md",
+      "bytes": 7591,
+      "sha256": "5A90B66290B57BEF80E017B315D79AACE3C9516A56883FC45DE87E14736C919A",
+      "title": "# Phase 2B-P1 \u2014 ManualSave-11 reload result",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/phase2b_p2_repair_probe.md",
+      "bytes": 15196,
+      "sha256": "355908E7DBFAFC402A15098C5E6787600BBB3BEECA4272C4080A230E151EA5A2",
+      "title": "# Phase 2B-P2 \u2014 Targeted Journal and Clinic Exit Repair Probe",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/phase2b_p2_run1.md",
+      "bytes": 2878,
+      "sha256": "B84397C2ACA209DFFEEBE8D44D853C501B4467F3E70BF04C8E9AA38E98C5B25E",
+      "title": "# Phase 2B-P2 live run 1 \u2014 provisional result",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/phase2b_p3_shop_exit_probe.md",
+      "bytes": 7169,
+      "sha256": "62866F680105FB044CA29FF4F53C5BE35FA5A954D979B1327D989152817CA651",
+      "title": "# Phase 2B-P3 \u2014 Shop-to-street door probe",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/phase2b_p4_explore.md",
+      "bytes": 13222,
+      "sha256": "2DFB28B46F3A964612FBE91BD9F151951523FE2833C592635C3AF1A7E25B4FA9",
+      "title": "# Phase 2B-P4 \u2014 B0 persistent-world exploration probe",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/phone_merge_ph2_20261029.md",
+      "bytes": 3043,
+      "sha256": "3274DEB6323A5548E64C4836D917B09A2500A6911E04883E4E4F98E3E191D6D7",
+      "title": "# Mark Bana listener registration correction",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/phone_restoration_preparation_20261029.md",
+      "bytes": 8662,
+      "sha256": "879B9F303A752F39BDB71E51C262C7ECE9D1121BDCFF6E871B05ADF8535D0749",
+      "title": "# Phone-dependent progression: audit and later restoration plan",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/phone_studios_ph3_20261029.md",
+      "bytes": 5386,
+      "sha256": "ACB25584834337D9FD9D28164D09E6051D1DBF37C9E65A2F0E1FEF88FD734494",
+      "title": "# Shared native holocall studio restoration",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/phone_support_ph1_20261029.md",
+      "bytes": 4261,
+      "sha256": "ED11F9C9526BC69CC23EDF8F6FF7C2955C219806FFDD090A2BE32B62B6B046F9",
+      "title": "# PH1 \u2014 missing phone support restored",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/pre_alpha_clean_run.md",
+      "bytes": 45504,
+      "sha256": "791BED5593E2927D4198F0867BD0554EC51B62C8DD274DD0481DAD38F9A5C471",
+      "title": "# Pre-alpha handoff and graphics checks",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/profile_hp_reload_r3_3_check.md",
+      "bytes": 4157,
+      "sha256": "3FC718CE6D24FFDFF719BE747954C7AE4281003B0122D42B0CCF17FCD76ECCAC",
+      "title": "# HP 150 after death/checkpoint reload \u2014 R3.3",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/races_r1_playtest.md",
+      "bytes": 3380,
+      "sha256": "CE3EFB4C6DCF6A802564168CFE4344F8F43D43B2926A449352DE57F5FBA65AB5",
+      "title": "# R1 \u2014 stock repeatable-race interaction playtest",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/radio_memorial_check.md",
+      "bytes": 1863,
+      "sha256": "BADBC9419E9B0C6B00974A903AC2908803CFB9F89AFD3376C6692DD5FD8D9561",
+      "title": "# One combined radio / columbarium check",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/raymond_pattern_audit_20261026.md",
+      "bytes": 5012,
+      "sha256": "BE272AF297605A0D1C483E40F3B570B360B01FEC75F9DA1607A873C6E49A5E08",
+      "title": "# Raymond-style entry audit of restored quests",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/raymond_rc2.md",
+      "bytes": 4945,
+      "sha256": "B5A91266EC27F11ECD2EBD007E099C28A1ECFE4777EE833BD8DC7F92B2F636AB",
+      "title": "# Raymond Chandler Evening: RC2 local test repair",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/red_dirt_auto_check.md",
+      "bytes": 930,
+      "sha256": "9138F31325BC951DF76B8E797371E86B524A1C6050C6C884FB801A618CAAE272",
+      "title": "# Automatic Red Dirt mirror",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/red_dirt_baseline.md",
+      "bytes": 1786,
+      "sha256": "18B9C29DB42D372D8DDF8D4BA9C49B5AA66B39377D2847B652B0B1F7D198C581",
+      "title": "# Red Dirt baseline before C5 installation",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/red_dirt_c5_test.md",
+      "bytes": 3140,
+      "sha256": "85A073BEA53888E154A7527D4377053A7375033C3EF188580392FDA753C9CB7E",
+      "title": "# Red Dirt C5: one disposable two-visit check",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/relic_restrictions_r2_2_check.md",
+      "bytes": 2897,
+      "sha256": "1187CE4F2FD4DD55C70915AF729745ADD9AB9EFD94760AA9F9DD4587F32D293D",
+      "title": "# Relic restriction test",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/restoration_baseline_r1.md",
+      "bytes": 6400,
+      "sha256": "8F67ED6C5E6C0B85F6BBA6C9B7A2CD69BE842480901FE3A47248FDEC08EBBFDD",
+      "title": "# Post Tower Continuation and Free Roam \u2014 integrated restoration baseline R1",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/restored_audit_20261025.md",
+      "bytes": 9259,
+      "sha256": "27B0A90B4F8E979897E5AACE90BBCE259929F895BE600D3B36CA1FFEE64DCEB0",
+      "title": "# Restored quest audit \u2014 25 October 2026",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/restored_audit_20261025_parallel.md",
+      "bytes": 9345,
+      "sha256": "7699F0C44DFBCA45F0E15D282A5A943BDF47428BA75C4070D551C5CD92EA70ED",
+      "title": "# Parallel audit of restored side jobs and gigs",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/restriction_profile_r3_check.md",
+      "bytes": 5309,
+      "sha256": "43274019DA8957DE086AC2AF5911F62E53EF934CE99A7438760281C34CEEE1E1",
+      "title": "# Restriction profile R3 activation and checks",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/scene_membership_20261025.md",
+      "bytes": 6343,
+      "sha256": "91A27157C765545A45DF23867E43A8150C59262FA40DC0DEC3DCDD3058C04A2A",
+      "title": "# H10 scene-membership investigation \u2014 25 October 2026",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/sidejobs_s22_playtest.md",
+      "bytes": 7479,
+      "sha256": "9521FC4CF945D517D104CA245EA01DDB056A9CE7DF6641862624AD5F84D67DF0",
+      "title": "# S22 \u2014 progress-preserving side-job restoration",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/sidejobs_s23_playtest.md",
+      "bytes": 18570,
+      "sha256": "7400D7136CD196E396E22A489DDF842B95D195A923494111683291ABFB8CA1DD",
+      "title": "# S23 side-job playtest",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/sidejobs_s23_rollout.md",
+      "bytes": 17479,
+      "sha256": "18B9C6A0AF4ECE53065B42D7701307FF9133514DDF0FFF843F0B78D44A18B68B",
+      "title": "# S23 \u2014 full-whitelist side-job rollout",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/sidejobs_s28_playtest.md",
+      "bytes": 3239,
+      "sha256": "20E843668E3FBE21F78C142C84B4640A3F5CF247624DF4016A8D6F77936D79A9",
+      "title": "# S28 side-job restoration",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/sidejobs_s29_playtest.md",
+      "bytes": 5213,
+      "sha256": "764CFA7559647BAC19CE04E239CCA9225EA16608D59CD18912E6401A85367B0F",
+      "title": "# S29: remaining 18 side-job entry points",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/sidejobs_s2_playtest.md",
+      "bytes": 7939,
+      "sha256": "7E62AF8D5FFD070D358E2A657813CCC33FD6DF39FE3B9329E6182908FF31C419",
+      "title": "# S2 \u2014 first native side-job batch",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/sidejobs_s30_20261026.md",
+      "bytes": 5502,
+      "sha256": "D5350BEE789BE798D1C257118A2BEF7863E20650F9FF31335E1F3F78D69A1EF2",
+      "title": "# S30 side job successor: coaster, Pony, Career",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/sidejob_entry_phone_audit_20261026.md",
+      "bytes": 13038,
+      "sha256": "8F4B897792EEE8A5710FD3D412AD8C72A2F6AB2C3CE10BE4C10DF4ED49D7517F",
+      "title": "# All restored sidejobs: entry, phone and message audit",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/sidejob_entry_review_20261026.md",
+      "bytes": 10753,
+      "sha256": "0314589DEF6ECC7137122C2CECDD051A6DA32992715477FD6A8DE6FC48F8C1FD",
+      "title": "# Side-job entry and phone/message audit \u2014 preparation",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/sidejob_repair_sr1.md",
+      "bytes": 7937,
+      "sha256": "741F0448FF2B39DE5D79F8897520AB2A13CAE12C8ACDB4FE45E72D25FAF0742E",
+      "title": "# PTFR side-job repair SR1 \u2014 development evidence",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/sidejob_repair_sr1_production.md",
+      "bytes": 4078,
+      "sha256": "E6095771B1051FB51DEEFA1AC54F9BD0A88383F4CBCEA9E041005BEFEFE376EA",
+      "title": "# PTFR SR1 consolidated local install",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/sidejob_vanilla_audit_20261025.md",
+      "bytes": 9605,
+      "sha256": "8D391B71C6A80072B7981D3BDB09E5AF2D0BFED6A4F2E7790951D3A006FE84BA",
+      "title": "# Side-job comparison with vanilla: Sweet Dreams and follow-up audit",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/sidejob_vanilla_audit_20261025_r2.md",
+      "bytes": 8501,
+      "sha256": "6B704E950C5A1E9EBDC4782FD91EFBBC38D3E113113E8C2AB2E5D4A7011AF89D",
+      "title": "# Restored side jobs: second vanilla-detail audit",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/skippy_ambient_sc3_20261026.md",
+      "bytes": 5845,
+      "sha256": "0E5A29D0670AB4B3C8E602AC4EDBA36CBD92021F51C7B2084F0F2F21841E2B12",
+      "title": "# Skippy equip/unequip lifecycle repair SC3",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/skippy_coaster_sc1_20261026.md",
+      "bytes": 3320,
+      "sha256": "E1A5F6B3C41D8AD89E5E764AA3BABDE1B611F01CAECDC9D8C3AA764A702AB7AC",
+      "title": "# Skippy ambient controller and Love Rollercoaster dialogue \u2014 SC1",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/skippy_coaster_sc2_20261026.md",
+      "bytes": 4087,
+      "sha256": "6B57BCBB8D25844C84CD559F7018BC8818C5A3AF31ECE074C04125807A56E87F",
+      "title": "# Skippy ambient admission SC2",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/skippy_preending_reference_20261027.md",
+      "bytes": 2100,
+      "sha256": "218DDDC0C54DC12F8AECDDF23A5E1E5058BA04E867D34135F7817F4D84AE2FAF",
+      "title": "# Skippy pre-ending behavior reference \u2014 27 October 2026",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/skippy_restoration_log_review_20261028.md",
+      "bytes": 6977,
+      "sha256": "4237A67E1694FDB6E5EE338458FF32BF029102140629ED9C1626E0CAC4787C3A",
+      "title": "# Skippy restoration: recorded-log investigation, 28 October 2026",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/skippy_triggers_20261027.md",
+      "bytes": 5425,
+      "sha256": "BFC03FA4BD2B66D9A3AEF199AC877B6F1E6FD5BF0BF52FFDA5E5C9D582935DF0",
+      "title": "# Skippy trigger follow-up after SC3",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/skippy_vanilla_wiki_review_20261028.md",
+      "bytes": 7113,
+      "sha256": "FD9AA522FA6788ADFE29D684B4F7682D6FEF2F65342B262DEA2A46FC703144F2",
+      "title": "# Skippy restoration audit against the installed vanilla game and Cyberpunk Wiki",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/startup_crash_sc1.md",
+      "bytes": 4856,
+      "sha256": "0EFC05510909FA75B80034FD2E58B51A6393DB6A12C80BEADB0A7B62AC0C7571",
+      "title": "# SC1: crash during covered startup",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/startup_logic_20261024.md",
+      "bytes": 11957,
+      "sha256": "253C352A06178FA9570924FA63FCE27FC1DFB50B3ADC120C3875F96211DBDE0D",
+      "title": "# Startup failure and loading presentation investigation",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/streetkid_auto_check.md",
+      "bytes": 1073,
+      "sha256": "1EC8C84A90BF66DCCC2DA27AFE4BD8DFC80563DEFFDF0F1BC616E287AA005969",
+      "title": "# Automatic Streetkid check",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/tower_journal_cleanup_check.md",
+      "bytes": 2498,
+      "sha256": "4264BCE3D38F0F85AE8EA90CB0BE65D734E3EBC6DEB1F40862D57E5790E17638",
+      "title": "# One short Tower journal cleanup and reload check",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/uv_vtk_restore_20261025.md",
+      "bytes": 1951,
+      "sha256": "1C50A9EA450B2993BA2963654033B2E2B58FDEA5BB6FB727C4044441BD50D8B4",
+      "title": "# UV and VTK restoration \u2014 25 October 2026",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/viktor_door_vd1_20261029.md",
+      "bytes": 4518,
+      "sha256": "52C683D1D91708AF2FBC82AEA3D35317061453F211CE45AF89970B201B1620A5",
+      "title": "# Viktor clinic access \u2014 VD1",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/whitelist_final_r6.md",
+      "bytes": 11697,
+      "sha256": "8F6F8858204A5B07CC1239ECDBF8750F1C2CC0A8DADCF94A087A72EA1D3DDAD8",
+      "title": "# Final post Tower gig and side job whitelist",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/whitelist_final_r6_catalogue.md",
+      "bytes": 21841,
+      "sha256": "06EE3A98A7B9213A16BF07E74FD2D808C3973E1762FDC986D07A56995C4C5000",
+      "title": "# Final gig and side job selection catalogue",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/whitelist_omissions_audit_20261021.md",
+      "bytes": 50574,
+      "sha256": "9B1BD371F11CE29C38539136A40F42C7522177C08B77D07093632136D3C9CBAD",
+      "title": "# Omitted-activity whitelist screening \u2014 21 October 2026",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/whitelist_outside_review_20261026.md",
+      "bytes": 10734,
+      "sha256": "7D21AFEE26AA901F3F9C8726CF64FFFF6C5A14C9B8CC32952743665254309294",
+      "title": "# Outside-whitelist side-job review",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/whitelist_recheck_20261021.md",
+      "bytes": 8528,
+      "sha256": "88738B899BACF9CE340D8865C69818DF6AC9BBA3A8C08ECCE5394E35D3116244",
+      "title": "# Current whitelist recheck",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/whitelist_review_followup_20261021.md",
+      "bytes": 8758,
+      "sha256": "EDFAEBDD4DA63F3F7866413305793E859E40C57450FB6D6751BF74AD583C71DE",
+      "title": "# Post Tower whitelist review followup",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/world_actions_wa2_20261028.md",
+      "bytes": 5673,
+      "sha256": "4ED3D06C9D8E2DB6EC2E8122800B0E5712489CBC2316F1CDD1A348ABBAB7832A",
+      "title": "# Native ambient action restoration \u2014 WA2",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/world_combat_wa1.md",
+      "bytes": 4486,
+      "sha256": "3FD64D0DD7B48A1D32F6A24578BFEFCAFCE745BDF36C2148BFA95A7000210A9B",
+      "title": "# WA1: Gated Pacifica combat-event controller test \u2014 26 October 2026",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/world_hostile_idle_report_20261026.md",
+      "bytes": 19252,
+      "sha256": "C4FB4DE5866EE73B7EFC81F773BD14868FF06A3F09FEB068DC0C7B2A7FD018B4",
+      "title": "# Post-Tower hostile NPC ambient behavior \u2014 26 October 2026",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/world_interactions_check.md",
+      "bytes": 5760,
+      "sha256": "D3892C5DD7C8D030826FFC0C4537286C9EB847085619E19FFA0A738184C605A7",
+      "title": "# One combined world-interaction check",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/world_support_wa3_20261028.md",
+      "bytes": 9984,
+      "sha256": "A379308CF2BD30B91F80574994C4420878010A2B0C00B2E9E4C6AA0153AC747C",
+      "title": "# Native NPC support successor WA3",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/world_workspots_w2_20261026.md",
+      "bytes": 4927,
+      "sha256": "778C5BDC73CBC038A0A3206B712791DF8819A5A8453C9A8D51EF5FD81716039B",
+      "title": "# Ambient workspot W2 \u2014 local production-layout installation",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/world_workspots_w3_20261026.md",
+      "bytes": 3057,
+      "sha256": "D1C45393FDDA46C9B9A818E526195A180BA49FE4D79017244E66BBA05FDF056B",
+      "title": "# Ambient workspot W3 \u2014 installed local successor",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    },
+    {
+      "path": "docs/zetatech_population_r12_check.md",
+      "bytes": 1954,
+      "sha256": "9E15BBEEEE587C0A02F39BE769548573111E900423AA4C676282BAC6297C31AA",
+      "title": "# R12 \u2014 idle animations and expanded local population",
+      "role": "historical/specialized evidence; promoted authority is explicitly linked by knowledge pages"
+    }
+  ],
+  "referenced_paths": [
+    {
+      "path": "diagnostics/alpha_cyberware_20261025_01/equip_area_03.json",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/alpha_cyberware_20261025_01/local_pass_01/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/alpha_cyberware_20261025_01/local_repro_01/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/bottle_shooting_20261027_01/matched_post_observation_01.json",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/bottle_shooting_20261027_01/native_review",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/bottle_skippy_preending_20261027_01",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/clothing_freeze_20261024_01/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/core_updates_20261024_01/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/core_updates_20261025_01/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/core_updates_20261025_01/downloads/Codeware-1.21.1.zip",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/core_updates_20261025_01/install_01.ps1",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/core_updates_20261025_01/upstream_check_01.json",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/credits_transition_cover_20261028_01",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/deployment_test_20261024_01/assessment.json",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/equipmentex_20261025_01/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/equipmentex_20261025_01/install_01.ps1",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/fast_travel_blackout_20261026_01",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/h10_services_20261025_01/assessment_02.json",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/h10_services_20261025_01/inputs_02",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/lighting_rebase_25_20261023_01",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/lizzies_restoration_audit_20261029_01/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/missing_head_20261024_01/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/missing_head_20261024_01/assessment_02.json",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/missing_head_20261024_01/assessment_03.json",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/organitopia_entrance_20261029_01/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/organitopia_ph1_failure_20261029_01",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/party_idle_20261028_01/native_review/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/phone_expansion_ph3_20261029_01",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/phone_restoration_preparation_20261029_01",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/pre_ending_autosaves_20261024_01/receipt.json",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/public_codeware_install_20261025_01",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/raymond_pattern_audit_20261026_01/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/restored_audit_20261025_01/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/restored_audit_20261025_02/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/restored_audit_20261025_03",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/restored_audit_20261025_04/",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/restored_audit_20261025_04/combined_78_01",
+      "exists": false
+    },
+    {
+      "path": "diagnostics/save_load_other_mods_restore_20261023_01",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/scene_membership_20261025_01/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/sidejob_entry_phone_audit_",
+      "exists": false
+    },
+    {
+      "path": "diagnostics/skippy_post_compare_20261027_01/comparison_01.md",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/skippy_restoration_review_20261028_01/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/skippy_triggers_20261027_01",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/skippy_vanilla_wiki_audit_20261028_01/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/startup_logic_20261024_01/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/stefan_lipsync_20261025_01/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/uv_vtk_restore_20261025_01/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/wilson_q304_20261027_01/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/world_actions_wa2_live_20261028_01",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/world_npc_idle_20261026_02",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/world_npc_idle_20261026_03/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "diagnostics/world_npc_idle_20261026_04/gamelog_probe05_live_success.log",
+      "exists": true
+    },
+    {
+      "path": "docs/afterlife_booth_r6_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/afterlife_emmerick_r7_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/afterlife_faces_r5_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/afterlife_idles_r3_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/afterlife_interactions_r10_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/afterlife_interactions_r11_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/afterlife_interactions_r8_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/afterlife_interactions_r9_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/afterlife_native_auto_a3_test.md",
+      "exists": true
+    },
+    {
+      "path": "docs/afterlife_native_bootstrap_a4_test.md",
+      "exists": true
+    },
+    {
+      "path": "docs/afterlife_native_saved_reload_test.md",
+      "exists": true
+    },
+    {
+      "path": "docs/afterlife_native_scene_a2_test.md",
+      "exists": true
+    },
+    {
+      "path": "docs/afterlife_population_r2_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/afterlife_r1_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/airdrop_d1_playtest.md",
+      "exists": true
+    },
+    {
+      "path": "docs/alpha_playtest_tasks.md",
+      "exists": true
+    },
+    {
+      "path": "docs/artifacts",
+      "exists": false
+    },
+    {
+      "path": "docs/b0_claire_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/b0_cpz_food02_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/b0_deferred_ordinary_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/b0_h10_all_interactions_probe.md",
+      "exists": true
+    },
+    {
+      "path": "docs/b0_h10_architecture_probe.md",
+      "exists": true
+    },
+    {
+      "path": "docs/b0_h10_floor_installation.md",
+      "exists": true
+    },
+    {
+      "path": "docs/b0_h10_floor_probe.md",
+      "exists": true
+    },
+    {
+      "path": "docs/b0_h10_mirror_prompt_probe.md",
+      "exists": true
+    },
+    {
+      "path": "docs/b0_h10_persistent_installation.md",
+      "exists": true
+    },
+    {
+      "path": "docs/b0_h10_persistent_probe.md",
+      "exists": true
+    },
+    {
+      "path": "docs/b0_h10_v_only_mirror_run1.md",
+      "exists": true
+    },
+    {
+      "path": "docs/b0_junk_melee_pair_test.md",
+      "exists": true
+    },
+    {
+      "path": "docs/b0_northside_foodshop_test.md",
+      "exists": true
+    },
+    {
+      "path": "docs/b0_northside_gunsmith_test.md",
+      "exists": true
+    },
+    {
+      "path": "docs/b0_northside_medicstore_test.md",
+      "exists": true
+    },
+    {
+      "path": "docs/b0_ordinary_bars_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/b0_ordinary_vendor_auto.md",
+      "exists": true
+    },
+    {
+      "path": "docs/b0_ordinary_vendor_batch_test.md",
+      "exists": true
+    },
+    {
+      "path": "docs/b0_ripnet_eight_test.md",
+      "exists": true
+    },
+    {
+      "path": "docs/b0_ripnet_five_ripperdocs_test.md",
+      "exists": true
+    },
+    {
+      "path": "docs/b0_special_services_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/b0_story_eight_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/b0_story_services_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/b0_story_zane_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/b0_streetkid_seat_mirror_s2_test.md",
+      "exists": true
+    },
+    {
+      "path": "docs/b0_time_unpause_none_probe.md",
+      "exists": true
+    },
+    {
+      "path": "docs/b0_vendor_shared_test.md",
+      "exists": true
+    },
+    {
+      "path": "docs/b0_vendor_variants_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/b0_wilson_vendor_test.md",
+      "exists": true
+    },
+    {
+      "path": "docs/bars",
+      "exists": false
+    },
+    {
+      "path": "docs/beta_release_contract.md",
+      "exists": true
+    },
+    {
+      "path": "docs/body_restrictions_r2_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/bottle_actions_ba1_20261028.md",
+      "exists": true
+    },
+    {
+      "path": "docs/bottle_shooting_20261027.md",
+      "exists": true
+    },
+    {
+      "path": "docs/club_dancing_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/coaster_animation_trace.md",
+      "exists": true
+    },
+    {
+      "path": "docs/coaster_direct_entry_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/coaster_jean_jc1.md",
+      "exists": true
+    },
+    {
+      "path": "docs/coaster_post_doublelife_20261027.md",
+      "exists": true
+    },
+    {
+      "path": "docs/consolidation_repair_cr1.md",
+      "exists": true
+    },
+    {
+      "path": "docs/core_updates_20261025.md",
+      "exists": true
+    },
+    {
+      "path": "docs/courier_c1_playtest.md",
+      "exists": true
+    },
+    {
+      "path": "docs/credits_cover_lc4_20261028.md",
+      "exists": true
+    },
+    {
+      "path": "docs/credits_transition_cover_20261028.md",
+      "exists": true
+    },
+    {
+      "path": "docs/cyberware_cd1.md",
+      "exists": true
+    },
+    {
+      "path": "docs/cyberware_cf1.md",
+      "exists": true
+    },
+    {
+      "path": "docs/cyberware_restrictions_r1_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/fast_travel_blackout_20261026.md",
+      "exists": true
+    },
+    {
+      "path": "docs/fred_scene_fs1.md",
+      "exists": true
+    },
+    {
+      "path": "docs/full_consolidation_v1.md",
+      "exists": true
+    },
+    {
+      "path": "docs/gig_batch_u9_playtest_tasks.md",
+      "exists": true
+    },
+    {
+      "path": "docs/gig_pilot_r1_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/gigs_u10_playtest.md",
+      "exists": true
+    },
+    {
+      "path": "docs/h10_h2.md",
+      "exists": true
+    },
+    {
+      "path": "docs/h10_h3.md",
+      "exists": true
+    },
+    {
+      "path": "docs/h10_h4.md",
+      "exists": true
+    },
+    {
+      "path": "docs/h10_h5.md",
+      "exists": true
+    },
+    {
+      "path": "docs/h10_h6_snapshot_reload_hs2.md",
+      "exists": true
+    },
+    {
+      "path": "docs/history_snapshot_hs1.md",
+      "exists": true
+    },
+    {
+      "path": "docs/housing_h1_playtest.md",
+      "exists": true
+    },
+    {
+      "path": "docs/judy_dennis_jd1.md",
+      "exists": true
+    },
+    {
+      "path": "docs/lipsync_audit_20261025.md",
+      "exists": true
+    },
+    {
+      "path": "docs/lizzies_lr1_20261029.md",
+      "exists": true
+    },
+    {
+      "path": "docs/lizzies_lr2_20261029.md",
+      "exists": true
+    },
+    {
+      "path": "docs/lizzies_restoration_gap_20261029.md",
+      "exists": true
+    },
+    {
+      "path": "docs/loading_cover_lc1.md",
+      "exists": true
+    },
+    {
+      "path": "docs/loading_cover_lc2.md",
+      "exists": true
+    },
+    {
+      "path": "docs/loading_cover_lc3.md",
+      "exists": true
+    },
+    {
+      "path": "docs/misty_viktor_access_r10_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/misty_viktor_access_r11_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/misty_viktor_access_r9_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/misty_viktor_cleanup_r4_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/misty_viktor_details_r7_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/misty_viktor_light_poc_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/misty_viktor_lighting_r8_auto_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/misty_viktor_original_lamp_s1_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/misty_viktor_repair_r6_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/misty_viktor_street_r3_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/misty_viktor_variants_r5_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/misty_viktor_world_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/native_padre_u6_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/native_support_u7_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/ncpd_n1_playtest.md",
+      "exists": true
+    },
+    {
+      "path": "docs/ncpd_n2_playtest.md",
+      "exists": true
+    },
+    {
+      "path": "docs/netrunners",
+      "exists": false
+    },
+    {
+      "path": "docs/ordinary_mirrors_c3_test.md",
+      "exists": true
+    },
+    {
+      "path": "docs/padre_phone_u5_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/phase2b_p0.md",
+      "exists": true
+    },
+    {
+      "path": "docs/phase2b_p0_run1.md",
+      "exists": true
+    },
+    {
+      "path": "docs/phase2b_p1_run1.md",
+      "exists": true
+    },
+    {
+      "path": "docs/phase2b_p2_run1.md",
+      "exists": true
+    },
+    {
+      "path": "docs/phase2b_p4_explore.md",
+      "exists": true
+    },
+    {
+      "path": "docs/phone_merge_ph2_20261029.md",
+      "exists": true
+    },
+    {
+      "path": "docs/phone_restoration_preparation_20261029.md",
+      "exists": true
+    },
+    {
+      "path": "docs/phone_studios_ph3_20261029.md",
+      "exists": true
+    },
+    {
+      "path": "docs/phone_support_ph1_20261029.md",
+      "exists": true
+    },
+    {
+      "path": "docs/pre_alpha_clean_run.md",
+      "exists": true
+    },
+    {
+      "path": "docs/profile_hp_reload_r3_3_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/races_r1_playtest.md",
+      "exists": true
+    },
+    {
+      "path": "docs/radio_memorial_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/raymond_pattern_audit_20261026.md",
+      "exists": true
+    },
+    {
+      "path": "docs/raymond_rc2.md",
+      "exists": true
+    },
+    {
+      "path": "docs/red_dirt_auto_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/red_dirt_c5_test.md",
+      "exists": true
+    },
+    {
+      "path": "docs/relic_restrictions_r2_2_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/restoration_baseline_r1.md",
+      "exists": true
+    },
+    {
+      "path": "docs/restored_audit_20261025.md",
+      "exists": true
+    },
+    {
+      "path": "docs/restored_audit_20261025_parallel.md",
+      "exists": true
+    },
+    {
+      "path": "docs/restriction_profile_r3_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/results",
+      "exists": false
+    },
+    {
+      "path": "docs/scene_membership_20261025.md",
+      "exists": true
+    },
+    {
+      "path": "docs/sidejob_entry_phone_audit_20261026.md",
+      "exists": true
+    },
+    {
+      "path": "docs/sidejob_repair_sr1.md",
+      "exists": true
+    },
+    {
+      "path": "docs/sidejob_repair_sr1_production.md",
+      "exists": true
+    },
+    {
+      "path": "docs/sidejob_vanilla_audit_20261025.md",
+      "exists": true
+    },
+    {
+      "path": "docs/sidejob_vanilla_audit_20261025_r2.md",
+      "exists": true
+    },
+    {
+      "path": "docs/sidejobs_s23_playtest.md",
+      "exists": true
+    },
+    {
+      "path": "docs/sidejobs_s23_rollout.md",
+      "exists": true
+    },
+    {
+      "path": "docs/sidejobs_s28_playtest.md",
+      "exists": true
+    },
+    {
+      "path": "docs/sidejobs_s29_playtest.md",
+      "exists": true
+    },
+    {
+      "path": "docs/sidejobs_s2_playtest.md",
+      "exists": true
+    },
+    {
+      "path": "docs/sidejobs_s30_20261026.md",
+      "exists": true
+    },
+    {
+      "path": "docs/skippy_ambient_sc3_20261026.md",
+      "exists": true
+    },
+    {
+      "path": "docs/skippy_coaster_sc1_20261026.md",
+      "exists": true
+    },
+    {
+      "path": "docs/skippy_coaster_sc2_20261026.md",
+      "exists": true
+    },
+    {
+      "path": "docs/skippy_preending_reference_20261027.md",
+      "exists": true
+    },
+    {
+      "path": "docs/skippy_restoration_log_review_20261028.md",
+      "exists": true
+    },
+    {
+      "path": "docs/skippy_triggers_20261027.md",
+      "exists": true
+    },
+    {
+      "path": "docs/skippy_vanilla_wiki_review_20261028.md",
+      "exists": true
+    },
+    {
+      "path": "docs/startup_crash_sc1.md",
+      "exists": true
+    },
+    {
+      "path": "docs/startup_logic_20261024.md",
+      "exists": true
+    },
+    {
+      "path": "docs/streetkid_auto_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/tower_journal_cleanup_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/uv_vtk_restore_20261025.md",
+      "exists": true
+    },
+    {
+      "path": "docs/viktor_door_vd1_20261029.md",
+      "exists": true
+    },
+    {
+      "path": "docs/whitelist_final_r6.md",
+      "exists": true
+    },
+    {
+      "path": "docs/whitelist_final_r6_catalogue.md",
+      "exists": true
+    },
+    {
+      "path": "docs/whitelist_omissions_audit_20261021.md",
+      "exists": true
+    },
+    {
+      "path": "docs/whitelist_recheck_20261021.md",
+      "exists": true
+    },
+    {
+      "path": "docs/whitelist_review_followup_",
+      "exists": false
+    },
+    {
+      "path": "docs/world_actions_wa2_20261028.md",
+      "exists": true
+    },
+    {
+      "path": "docs/world_combat_wa1.md",
+      "exists": true
+    },
+    {
+      "path": "docs/world_hostile_idle_report_20261026.md",
+      "exists": true
+    },
+    {
+      "path": "docs/world_interactions_check.md",
+      "exists": true
+    },
+    {
+      "path": "docs/world_support_wa3_20261028.md",
+      "exists": true
+    },
+    {
+      "path": "docs/world_workspots_w2_20261026.md",
+      "exists": true
+    },
+    {
+      "path": "docs/world_workspots_w3_20261026.md",
+      "exists": true
+    },
+    {
+      "path": "docs/zetatech_population_r12_check.md",
+      "exists": true
+    },
+    {
+      "path": "prealpha/airdrop_d1/build/d1_02",
+      "exists": true
+    },
+    {
+      "path": "prealpha/airdrop_d1/deploy.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/bottle_actions_ba1/candidate_01/installed_assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "prealpha/bottle_actions_ba1/deploy_01.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/build/20261013T021845834Z",
+      "exists": true
+    },
+    {
+      "path": "prealpha/camera_pa4/build/pa4_02",
+      "exists": true
+    },
+    {
+      "path": "prealpha/camera_pa4/tools/deploy.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/coaster_cutoff_cc1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/coaster_cutoff_cc1/candidate_01/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "prealpha/coaster_cutoff_cc1/deploy_01.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/coaster_jean_jc1/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "prealpha/coaster_jean_jc1/deploy_01.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/consolidation_repair_cr1/candidate_01/dist/",
+      "exists": true
+    },
+    {
+      "path": "prealpha/consolidation_repair_cr1/deploy_02.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/courier_c1/build/c1_02",
+      "exists": true
+    },
+    {
+      "path": "prealpha/courier_c1/deploy.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/credits_cover_lc4",
+      "exists": true
+    },
+    {
+      "path": "prealpha/credits_cover_lc4/deploy_01.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/cyberpsycho_p1/build/p1_07",
+      "exists": true
+    },
+    {
+      "path": "prealpha/cyberpsycho_p1/deploy.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/cyberware_cd1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/cyberware_cd1/deploy_local_01.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/cyberware_cf1/candidate_01/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "prealpha/cyberware_cf1/deploy_01.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/dogtown_dt1/build/dt1_03/build.json",
+      "exists": true
+    },
+    {
+      "path": "prealpha/dogtown_dt1/deploy.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/fixer_offices_fo1/build/fo1_01",
+      "exists": true
+    },
+    {
+      "path": "prealpha/fixer_offices_fo1/deploy.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/fred_scene_fs1/candidate_02/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "prealpha/fred_scene_fs1/deploy_01.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/full_consolidation_v1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/full_consolidation_v1/",
+      "exists": true
+    },
+    {
+      "path": "prealpha/full_consolidation_v1/candidate_01/dist/",
+      "exists": true
+    },
+    {
+      "path": "prealpha/full_consolidation_v1/deploy_02.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/full_consolidation_v1/deploy_public_codeware_01.py",
+      "exists": true
+    },
+    {
+      "path": "prealpha/gigs_u10/build/u10_02/build.json",
+      "exists": true
+    },
+    {
+      "path": "prealpha/gigs_u10/deploy.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/graphics_gd1/build/gd1_01",
+      "exists": true
+    },
+    {
+      "path": "prealpha/graphics_gd1/tools/deploy.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/graphics_gd2/build/gd2_01",
+      "exists": true
+    },
+    {
+      "path": "prealpha/graphics_gd2/tools/deploy.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/h10_h2/candidate_01/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "prealpha/h10_h2/deploy_01.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/h10_h3/candidate_01/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "prealpha/h10_h3/deploy_01.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/h10_h4/candidate_01/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "prealpha/h10_h4/deploy_01.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/h10_h5/candidate_01/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "prealpha/h10_h5/deploy_01.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/h10_h6/deploy_01.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/handoff_pa3/build/pa3_01",
+      "exists": true
+    },
+    {
+      "path": "prealpha/handoff_pa3/tools/deploy.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/history_snapshot_hs1/candidate_01/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "prealpha/history_snapshot_hs1/deploy_01.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/housing_h1/build/h1_02",
+      "exists": true
+    },
+    {
+      "path": "prealpha/housing_h1/build/h1_02/build.json",
+      "exists": true
+    },
+    {
+      "path": "prealpha/housing_h1/deploy_01.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/judy_dennis_jd1/candidate_01/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "prealpha/judy_dennis_jd1/deploy_01.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/lizzies_lr1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/lizzies_lr1/deploy_01.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/lizzies_lr2",
+      "exists": true
+    },
+    {
+      "path": "prealpha/lizzies_lr2/deploy_01.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/loading_cover_lc1/candidate_04/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "prealpha/loading_cover_lc1/deploy_01.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/loading_cover_lc2/candidate_01",
+      "exists": true
+    },
+    {
+      "path": "prealpha/loading_cover_lc2/deploy_01.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/loading_cover_lc3/candidate_01/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "prealpha/loading_cover_lc3/deploy_01.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/ncpd_marker_n22/build/n22_02",
+      "exists": true
+    },
+    {
+      "path": "prealpha/ncpd_marker_n22/deploy.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/ncpd_repair_n21/build/n21_01",
+      "exists": true
+    },
+    {
+      "path": "prealpha/ncpd_repair_n21/deploy.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/ncpd_scanner_n1/build/n1_01",
+      "exists": true
+    },
+    {
+      "path": "prealpha/ncpd_scanner_n1/deploy.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/ncpd_scanners_n2/build/n2_05",
+      "exists": true
+    },
+    {
+      "path": "prealpha/ncpd_scanners_n2/deploy.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/phone_merge_ph2/deploy_01.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/phone_studios_ph3/deploy_01.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/phone_support_ph1/candidate_03",
+      "exists": true
+    },
+    {
+      "path": "prealpha/phone_support_ph1/deploy_01.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/postending_pa5/build/pa5_03",
+      "exists": true
+    },
+    {
+      "path": "prealpha/postending_pa5/tools/deploy.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/postending_pa6/build/pa6_02",
+      "exists": true
+    },
+    {
+      "path": "prealpha/postending_pa6/tools/deploy.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/races_r1/build/r1_01",
+      "exists": true
+    },
+    {
+      "path": "prealpha/races_r1/deploy.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/raymond_rc1/candidate_03",
+      "exists": true
+    },
+    {
+      "path": "prealpha/raymond_rc1/deploy_03.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/sidejob_repair_sr1/candidate_02/package",
+      "exists": true
+    },
+    {
+      "path": "prealpha/sidejob_repair_sr1/deploy_01.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/sidejob_repair_sr1/deploy_production_01.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/sidejob_repair_sr1/production_01",
+      "exists": true
+    },
+    {
+      "path": "prealpha/sidejobs_s2/build/s2_02",
+      "exists": true
+    },
+    {
+      "path": "prealpha/sidejobs_s2/deploy.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/sidejobs_s21",
+      "exists": true
+    },
+    {
+      "path": "prealpha/sidejobs_s21/build/s21_03",
+      "exists": true
+    },
+    {
+      "path": "prealpha/sidejobs_s21/deploy.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/sidejobs_s22",
+      "exists": true
+    },
+    {
+      "path": "prealpha/sidejobs_s221/build/s221_01",
+      "exists": true
+    },
+    {
+      "path": "prealpha/sidejobs_s221/deploy.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/sidejobs_s22b",
+      "exists": true
+    },
+    {
+      "path": "prealpha/sidejobs_s22b/build/s22_03",
+      "exists": true
+    },
+    {
+      "path": "prealpha/sidejobs_s22b/deploy.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/sidejobs_s23/build/s23_02",
+      "exists": true
+    },
+    {
+      "path": "prealpha/sidejobs_s23/capture/build/capture_02",
+      "exists": true
+    },
+    {
+      "path": "prealpha/sidejobs_s23/capture/deploy.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/sidejobs_s23/deploy.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/sidejobs_s24/build/s24_02",
+      "exists": true
+    },
+    {
+      "path": "prealpha/sidejobs_s24/deploy.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/sidejobs_s25/build/s25_04",
+      "exists": true
+    },
+    {
+      "path": "prealpha/sidejobs_s25/deploy.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/sidejobs_s26/restart/build/capture_04/build.json",
+      "exists": true
+    },
+    {
+      "path": "prealpha/sidejobs_s26/restart/deploy.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/sidejobs_s27/build/s27_03/build.json",
+      "exists": true
+    },
+    {
+      "path": "prealpha/sidejobs_s27/deploy.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/sidejobs_s28/build/s28_01/build.json",
+      "exists": true
+    },
+    {
+      "path": "prealpha/sidejobs_s28/deploy_02.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/sidejobs_s29/candidate_01/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "prealpha/sidejobs_s29/deploy_01.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/sidejobs_s30/candidate_02/dist/Post-Tower-Continuation-and-Free-Roam-S30-unreleased.zip",
+      "exists": true
+    },
+    {
+      "path": "prealpha/sidejobs_s30/deploy_02.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/skippy_ambient_sc3/candidate_02",
+      "exists": true
+    },
+    {
+      "path": "prealpha/skippy_ambient_sc3/deploy_02.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/skippy_coaster_sc1/candidate_07",
+      "exists": true
+    },
+    {
+      "path": "prealpha/skippy_coaster_sc1/deploy_01.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/skippy_coaster_sc2/candidate_01/save_comparison_02.json",
+      "exists": true
+    },
+    {
+      "path": "prealpha/skippy_coaster_sc2/deploy_01.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/snapshot_reload_hs2/deploy_01.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/startup_crash_sc1/candidate_01/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "prealpha/startup_crash_sc1/deploy_01.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/stefan_lipsync_sl1/candidate_01",
+      "exists": true
+    },
+    {
+      "path": "prealpha/tools/deploy.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/transition/build/pa2_candidate_03",
+      "exists": true
+    },
+    {
+      "path": "prealpha/transition/tools/deploy.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/viktor_door_vd1/candidate_02",
+      "exists": true
+    },
+    {
+      "path": "prealpha/viktor_door_vd1/deploy_01.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/world_actions_wa2",
+      "exists": true
+    },
+    {
+      "path": "prealpha/world_actions_wa2/deploy_01.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/world_combat_wa1/candidate_04",
+      "exists": true
+    },
+    {
+      "path": "prealpha/world_support_wa3",
+      "exists": true
+    },
+    {
+      "path": "prealpha/world_support_wa3/candidate_02/installed_assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "prealpha/world_support_wa3/candidate_02/user_live_observation_01.json",
+      "exists": true
+    },
+    {
+      "path": "prealpha/world_support_wa3/deploy_02.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/world_workspots_w2",
+      "exists": true
+    },
+    {
+      "path": "prealpha/world_workspots_w2/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "prealpha/world_workspots_w2/candidate_04",
+      "exists": true
+    },
+    {
+      "path": "prealpha/world_workspots_w2/deploy_01.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/world_workspots_w2/deploy_w3_01.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/world_workspots_ww1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/world_workspots_ww1/deploy_probe_04.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/world_workspots_ww1/deploy_probe_05.ps1",
+      "exists": true
+    },
+    {
+      "path": "prealpha/world_workspots_ww1/probe_04",
+      "exists": true
+    },
+    {
+      "path": "prealpha/world_workspots_ww1/probe_04/installed_assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "profiles/README.md",
+      "exists": true
+    },
+    {
+      "path": "profiles/active.json",
+      "exists": true
+    },
+    {
+      "path": "profiles/activities",
+      "exists": false
+    },
+    {
+      "path": "profiles/adapters",
+      "exists": false
+    },
+    {
+      "path": "profiles/native",
+      "exists": false
+    },
+    {
+      "path": "profiles/tower_strict/profile.json",
+      "exists": true
+    },
+    {
+      "path": "release/",
+      "exists": true
+    },
+    {
+      "path": "release/Gitpush",
+      "exists": false
+    },
+    {
+      "path": "release/INSTALL-v0.1.1-alpha.20261024.md",
+      "exists": true
+    },
+    {
+      "path": "release/INSTALL-v0.2.0-beta.md",
+      "exists": true
+    },
+    {
+      "path": "release/NOTES-v0.2.0-beta.md",
+      "exists": true
+    },
+    {
+      "path": "release/baseline/re-entry/reload",
+      "exists": false
+    },
+    {
+      "path": "release/cold-load",
+      "exists": false
+    },
+    {
+      "path": "release/commit",
+      "exists": false
+    },
+    {
+      "path": "release/control/noEscaction",
+      "exists": false
+    },
+    {
+      "path": "release/fullPR32compatibility",
+      "exists": false
+    },
+    {
+      "path": "release/installchanges",
+      "exists": false
+    },
+    {
+      "path": "release/package-v0.2.0-beta.json",
+      "exists": true
+    },
+    {
+      "path": "release/reacquire",
+      "exists": false
+    },
+    {
+      "path": "release/rearm/cold-load",
+      "exists": false
+    },
+    {
+      "path": "release/rearm/coldload",
+      "exists": false
+    },
+    {
+      "path": "release/reload",
+      "exists": false
+    },
+    {
+      "path": "release/secondowner/customCodeware",
+      "exists": false
+    },
+    {
+      "path": "release/stage4",
+      "exists": false
+    },
+    {
+      "path": "release/streaming/cold-load",
+      "exists": false
+    },
+    {
+      "path": "release/validation-v0.2.0-beta.json",
+      "exists": true
+    },
+    {
+      "path": "research/2079_content_census.md",
+      "exists": true
+    },
+    {
+      "path": "research/activity_batches_b1/assessment.json",
+      "exists": true
+    },
+    {
+      "path": "research/activity_cast_policy_r4/assessment.json",
+      "exists": true
+    },
+    {
+      "path": "research/activity_cast_policy_r5/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "research/activity_gigs_candidates/candidate_evidence.json",
+      "exists": true
+    },
+    {
+      "path": "research/activity_state_r3/install_receipt.json",
+      "exists": true
+    },
+    {
+      "path": "research/afterlife_world",
+      "exists": true
+    },
+    {
+      "path": "research/afterlife_world/appearance_r4/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/afterlife_world/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/afterlife_world/booth_r6/install_receipt.json",
+      "exists": true
+    },
+    {
+      "path": "research/afterlife_world/faces_r5/install_receipt.json",
+      "exists": true
+    },
+    {
+      "path": "research/afterlife_world/idles_r3/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/afterlife_world/idles_r3/install_receipt.json",
+      "exists": true
+    },
+    {
+      "path": "research/afterlife_world/interactions_r11",
+      "exists": true
+    },
+    {
+      "path": "research/afterlife_world/interactions_r8",
+      "exists": true
+    },
+    {
+      "path": "research/afterlife_world/interactions_r8/install_receipt.json",
+      "exists": true
+    },
+    {
+      "path": "research/afterlife_world/live_r1_result.md",
+      "exists": true
+    },
+    {
+      "path": "research/afterlife_world/population_r2/",
+      "exists": true
+    },
+    {
+      "path": "research/afterlife_world/population_r2/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/afterlife_world/population_r2/install_receipt.json",
+      "exists": true
+    },
+    {
+      "path": "research/airdrop_d1",
+      "exists": true
+    },
+    {
+      "path": "research/airdrop_d1/live_result_20261014.json",
+      "exists": true
+    },
+    {
+      "path": "research/b0_claire/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_claire/quest_compatibility.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_club_dancing/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_corpo_apartment/run1.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_cpz_food02/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_deferred_ordinary/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_general_mirrors_devices/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_h10_all_interactions/run1.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_h10_all_interactions/run2.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_h10_all_interactions/run3.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_h10_all_interactions/run4.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_h10_architecture/run1.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_h10_floor/run1.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_h10_generalization/interaction_branch_map.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_h10_persistent/run1.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_interaction_crash_20260922.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_interaction_owners.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_jpn_netrunner01/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_junk_melee_pair/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_lch_clothing_vendor/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_lizzies_mirror/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_manual_exploration_observations.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_mirror_rollout/inventory.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_mirror_rollout/validation_c5_red_dirt/install_receipt.json",
+      "exists": true
+    },
+    {
+      "path": "research/b0_missing_content_owners.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_northside_foodshop/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_northside_gunsmith/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_northside_medicstore/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_ordinary_bars/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_ordinary_vendor_batch/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_ordinary_vendor_batch/automatic_live_result.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_red_dirt_auto/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_relationship_mirrors/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_remaining_mirrors/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_ripnet_eight/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_second_mirror/coyote_candidate.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_special_services/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_story_eight/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_story_eight/validation/install_receipt.json",
+      "exists": true
+    },
+    {
+      "path": "research/b0_story_services/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_story_zane/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_streetkid_auto/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_streetkid_seat_mirror_s2/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_time_pause/run1.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_time_pause/run2.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_time_pause/run3.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_tv_media/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_tv_restore/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_vendor_rollout/inventory.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_vendor_rollout/service_resource_index.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_vendor_rollout/vendor_restoration_plan.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_vendor_shared/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_vendor_variants/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_wilson_vendor/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_world_interactions/",
+      "exists": true
+    },
+    {
+      "path": "research/b0_world_interactions/batch/",
+      "exists": true
+    },
+    {
+      "path": "research/b0_world_interactions/batch/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_world_interactions/coaster_animation_audit/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_world_interactions/coaster_animation_audit/offline_followup.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_world_interactions/coaster_crash/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_world_interactions/coaster_fix/",
+      "exists": true
+    },
+    {
+      "path": "research/b0_world_interactions/coaster_fix/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/b0_world_interactions/coaster_repeat_gesture",
+      "exists": true
+    },
+    {
+      "path": "research/b0_world_interactions/coaster_repeat_gesture/install_receipt.json",
+      "exists": true
+    },
+    {
+      "path": "research/b0_world_interactions/restoration_plan.md",
+      "exists": true
+    },
+    {
+      "path": "research/courier_c1/assessment.json",
+      "exists": true
+    },
+    {
+      "path": "research/coyote_sidejobs_audit/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "research/cyberpsycho_p1/assessment.json",
+      "exists": true
+    },
+    {
+      "path": "research/cyberpsycho_p1/checkpoint_before_install",
+      "exists": true
+    },
+    {
+      "path": "research/cyberpsycho_p1/live_result_20261014.json",
+      "exists": true
+    },
+    {
+      "path": "research/direct_return_architecture.md",
+      "exists": true
+    },
+    {
+      "path": "research/dogtown_dt1/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "research/dogtown_dt1/live_result_20261021.json",
+      "exists": true
+    },
+    {
+      "path": "research/fixer_offices_fo1/assessment.json",
+      "exists": true
+    },
+    {
+      "path": "research/fixer_offices_fo1/live_result_20261014.json",
+      "exists": true
+    },
+    {
+      "path": "research/framework_pr63_01",
+      "exists": true
+    },
+    {
+      "path": "research/framework_pr63_01/deploy.ps1",
+      "exists": true
+    },
+    {
+      "path": "research/gig_map_references/pre_ending_20261014",
+      "exists": true
+    },
+    {
+      "path": "research/gig_restoration/",
+      "exists": true
+    },
+    {
+      "path": "research/gig_restoration/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/gig_restoration/family_b7",
+      "exists": true
+    },
+    {
+      "path": "research/gig_restoration/family_b7_1",
+      "exists": true
+    },
+    {
+      "path": "research/gig_restoration/family_b7_1/",
+      "exists": true
+    },
+    {
+      "path": "research/gig_restoration/fresh_candidates/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/gig_restoration/gig_batch_u9",
+      "exists": true
+    },
+    {
+      "path": "research/gig_restoration/gig_batch_u9/",
+      "exists": true
+    },
+    {
+      "path": "research/gig_restoration/live_probe.lua",
+      "exists": true
+    },
+    {
+      "path": "research/gig_restoration/lore_whitelist_current.json",
+      "exists": true
+    },
+    {
+      "path": "research/gig_restoration/lore_whitelists_v4_cast.json",
+      "exists": true
+    },
+    {
+      "path": "research/gig_restoration/lore_whitelists_v4_cast.json.14policy/source",
+      "exists": false
+    },
+    {
+      "path": "research/gig_restoration/lore_whitelists_v5_misty.json",
+      "exists": true
+    },
+    {
+      "path": "research/gig_restoration/lore_whitelists_v6_1_dependencies.json",
+      "exists": true
+    },
+    {
+      "path": "research/gig_restoration/markers_m6_1",
+      "exists": true
+    },
+    {
+      "path": "research/gig_restoration/minefield_g3",
+      "exists": true
+    },
+    {
+      "path": "research/gig_restoration/native_heywood_u8/",
+      "exists": true
+    },
+    {
+      "path": "research/gig_restoration/native_heywood_u8_crash/assessment.json",
+      "exists": true
+    },
+    {
+      "path": "research/gig_restoration/native_jeopardy_u4/",
+      "exists": true
+    },
+    {
+      "path": "research/gig_restoration/native_padre_u6/",
+      "exists": true
+    },
+    {
+      "path": "research/gig_restoration/native_queue_u3",
+      "exists": true
+    },
+    {
+      "path": "research/gig_restoration/native_reuse_u1",
+      "exists": true
+    },
+    {
+      "path": "research/gig_restoration/native_reuse_u1/",
+      "exists": true
+    },
+    {
+      "path": "research/gig_restoration/native_support_u7/",
+      "exists": true
+    },
+    {
+      "path": "research/gig_restoration/padre_phone_u5",
+      "exists": true
+    },
+    {
+      "path": "research/gig_restoration/padre_phone_u5/",
+      "exists": true
+    },
+    {
+      "path": "research/gig_restoration/pilot_r1/",
+      "exists": true
+    },
+    {
+      "path": "research/gig_restoration/pilot_r1/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/gig_restoration/race_to_top_assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/gig_restoration/rite_g2/assessment.json",
+      "exists": true
+    },
+    {
+      "path": "research/gig_restoration/rite_g2_1/live_result_20261010.json",
+      "exists": true
+    },
+    {
+      "path": "research/gig_restoration/rollout_r2/audit_install_receipt.json",
+      "exists": true
+    },
+    {
+      "path": "research/gig_restoration/save_audit.md",
+      "exists": true
+    },
+    {
+      "path": "research/gig_restoration/shark_b7_2/",
+      "exists": true
+    },
+    {
+      "path": "research/gig_restoration/stock_shark_u2",
+      "exists": true
+    },
+    {
+      "path": "research/gig_restoration/stock_shark_u2/",
+      "exists": true
+    },
+    {
+      "path": "research/gig_restoration/u9_baseline_save_search_20261012.json",
+      "exists": true
+    },
+    {
+      "path": "research/gigs_u10/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "research/graphics_investigation_20261013/assessment.json",
+      "exists": true
+    },
+    {
+      "path": "research/graphics_investigation_20261013/gd1_install_assessment.json",
+      "exists": true
+    },
+    {
+      "path": "research/graphics_investigation_20261013/gd2_install_assessment.json",
+      "exists": true
+    },
+    {
+      "path": "research/graphics_investigation_20261013/gd2_live_result.json",
+      "exists": true
+    },
+    {
+      "path": "research/graphics_investigation_20261013/next_diagnostic.json",
+      "exists": true
+    },
+    {
+      "path": "research/housing_h1/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "research/johnny_voice_jv1",
+      "exists": true
+    },
+    {
+      "path": "research/journal_label_j1",
+      "exists": true
+    },
+    {
+      "path": "research/misty_viktor_world",
+      "exists": true
+    },
+    {
+      "path": "research/misty_viktor_world/access_r11_assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/misty_viktor_world/access_r11_install_receipt.json",
+      "exists": true
+    },
+    {
+      "path": "research/misty_viktor_world/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/misty_viktor_world/cleanup_r4_assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/misty_viktor_world/details_r7_assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/misty_viktor_world/light_poc_install_authorization.md",
+      "exists": true
+    },
+    {
+      "path": "research/misty_viktor_world/light_poc_install_receipt.json",
+      "exists": true
+    },
+    {
+      "path": "research/misty_viktor_world/light_poc_live_result.md",
+      "exists": true
+    },
+    {
+      "path": "research/misty_viktor_world/lighting_r8_assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/misty_viktor_world/live_r6_result.md",
+      "exists": true
+    },
+    {
+      "path": "research/misty_viktor_world/live_r7_result.md",
+      "exists": true
+    },
+    {
+      "path": "research/misty_viktor_world/original_lamp_s1_assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/misty_viktor_world/overlap_audit.md",
+      "exists": true
+    },
+    {
+      "path": "research/misty_viktor_world/r8_lighting_targeted_control.md",
+      "exists": true
+    },
+    {
+      "path": "research/misty_viktor_world/repair_r6_assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/misty_viktor_world/street_restoration_plan.md",
+      "exists": true
+    },
+    {
+      "path": "research/ncpd_marker_n22/assessment.json",
+      "exists": true
+    },
+    {
+      "path": "research/ncpd_n21_live_20261014",
+      "exists": true
+    },
+    {
+      "path": "research/ncpd_n21_live_20261014/snapshot_03/AutoSave-9",
+      "exists": true
+    },
+    {
+      "path": "research/ncpd_n2_missing_20261014/live_01",
+      "exists": true
+    },
+    {
+      "path": "research/ncpd_n2_missing_20261014/repair_install.json",
+      "exists": true
+    },
+    {
+      "path": "research/ncpd_scanner_n1",
+      "exists": true
+    },
+    {
+      "path": "research/ncpd_scanner_n1/assessment.json",
+      "exists": true
+    },
+    {
+      "path": "research/ncpd_scanners_n2/assessment.json",
+      "exists": true
+    },
+    {
+      "path": "research/omitted_jobs_audit/",
+      "exists": true
+    },
+    {
+      "path": "research/omitted_jobs_audit/review_02",
+      "exists": true
+    },
+    {
+      "path": "research/post_ending_regression_20261013",
+      "exists": true
+    },
+    {
+      "path": "research/post_tower_residual_cleanup.md",
+      "exists": true
+    },
+    {
+      "path": "research/post_tower_world_handoff.md",
+      "exists": true
+    },
+    {
+      "path": "research/postending_pa5/assessment.json",
+      "exists": true
+    },
+    {
+      "path": "research/postending_pa6/assessment.json",
+      "exists": true
+    },
+    {
+      "path": "research/postending_pa6/live_20261014T011540242Z",
+      "exists": true
+    },
+    {
+      "path": "research/pre_alpha_camera_pa4",
+      "exists": true
+    },
+    {
+      "path": "research/pre_alpha_camera_pa4/live_pa3_and_checkpoint",
+      "exists": true
+    },
+    {
+      "path": "research/pre_alpha_camera_pa4/live_result_20261013.json",
+      "exists": true
+    },
+    {
+      "path": "research/pre_alpha_clean/install_audit.json",
+      "exists": true
+    },
+    {
+      "path": "research/pre_alpha_handoff_pa3/assessment.json",
+      "exists": true
+    },
+    {
+      "path": "research/pre_alpha_transition",
+      "exists": true
+    },
+    {
+      "path": "research/pre_alpha_transition/live_failure_20261013",
+      "exists": true
+    },
+    {
+      "path": "research/races_r1/assessment.json",
+      "exists": true
+    },
+    {
+      "path": "research/races_r1/live_result_20261015.json",
+      "exists": true
+    },
+    {
+      "path": "research/radio_memorial_validation/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/redscript_2_5/binary_reader_01/",
+      "exists": true
+    },
+    {
+      "path": "research/restoration_baseline/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/restoration_checklist.md",
+      "exists": true
+    },
+    {
+      "path": "research/restriction_profiles/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/restriction_profiles/ban_design/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/restriction_profiles/body_stats_design/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/restriction_profiles/implementation_r1",
+      "exists": true
+    },
+    {
+      "path": "research/restriction_profiles/modular_profile_v1/validation.json",
+      "exists": true
+    },
+    {
+      "path": "research/restriction_profiles/profile_hp_r3_1",
+      "exists": true
+    },
+    {
+      "path": "research/restriction_profiles/profile_hp_reload_r3_3",
+      "exists": true
+    },
+    {
+      "path": "research/restriction_profiles/profile_r3",
+      "exists": true
+    },
+    {
+      "path": "research/restriction_profiles/profile_r3/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/restriction_profiles/whitelist.md/json",
+      "exists": false
+    },
+    {
+      "path": "research/santiago_molina/",
+      "exists": true
+    },
+    {
+      "path": "research/side_job_cleanup_s1_1/live_result_20261010.json",
+      "exists": true
+    },
+    {
+      "path": "research/side_job_pilot_s1/assessment.json",
+      "exists": true
+    },
+    {
+      "path": "research/sidejobs_s2",
+      "exists": true
+    },
+    {
+      "path": "research/sidejobs_s2/fixture_auto10_20261015",
+      "exists": true
+    },
+    {
+      "path": "research/sidejobs_s2/install_result_20261015.json",
+      "exists": true
+    },
+    {
+      "path": "research/sidejobs_s21_failed/install_result_20261015.json",
+      "exists": true
+    },
+    {
+      "path": "research/sidejobs_s22/",
+      "exists": true
+    },
+    {
+      "path": "research/sidejobs_s22/live_20261015_01",
+      "exists": true
+    },
+    {
+      "path": "research/sidejobs_s22/policy_01.json",
+      "exists": true
+    },
+    {
+      "path": "research/sidejobs_s221/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "research/sidejobs_s221/live_result_20261015.json",
+      "exists": true
+    },
+    {
+      "path": "research/sidejobs_s23/",
+      "exists": true
+    },
+    {
+      "path": "research/sidejobs_s23/coverage_01.json",
+      "exists": true
+    },
+    {
+      "path": "research/sidejobs_s23/live_20261016_01/capture.json",
+      "exists": true
+    },
+    {
+      "path": "research/sidejobs_s24/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "research/sidejobs_s25/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "research/sidejobs_s26/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "research/sidejobs_s26/live_20261017_01",
+      "exists": true
+    },
+    {
+      "path": "research/sidejobs_s27/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "research/sidejobs_s28/assessment_01.json",
+      "exists": true
+    },
+    {
+      "path": "research/sidejobs_s28/review/environment_change_01.json",
+      "exists": true
+    },
+    {
+      "path": "research/tests",
+      "exists": false
+    },
+    {
+      "path": "research/tower_journal_cleanup/assessment.md",
+      "exists": true
+    },
+    {
+      "path": "research/tower_journal_cleanup/live_result.md",
+      "exists": true
+    },
+    {
+      "path": "research/whitelist_final_r6",
+      "exists": true
+    },
+    {
+      "path": "research/whitelist_recheck_20261021",
+      "exists": true
+    },
+    {
+      "path": "tools/analyze_gig_rollout_r2.py",
+      "exists": true
+    },
+    {
+      "path": "tools/analyze_phase2b_p0.py",
+      "exists": true
+    },
+    {
+      "path": "tools/analyze_phase2b_p1.py",
+      "exists": true
+    },
+    {
+      "path": "tools/deploy_fresh_gigs_b5.ps1",
+      "exists": true
+    },
+    {
+      "path": "tools/deploy_fresh_gigs_b6.ps1",
+      "exists": true
+    },
+    {
+      "path": "tools/deploy_gig_batch_b4.ps1",
+      "exists": true
+    },
+    {
+      "path": "tools/deploy_gig_batch_u9.ps1",
+      "exists": true
+    },
+    {
+      "path": "tools/deploy_gig_family_b7.ps1",
+      "exists": true
+    },
+    {
+      "path": "tools/deploy_gig_family_b7_1.ps1",
+      "exists": true
+    },
+    {
+      "path": "tools/deploy_gig_pilot_r1.ps1",
+      "exists": true
+    },
+    {
+      "path": "tools/deploy_johnny_voice_jv1.ps1",
+      "exists": true
+    },
+    {
+      "path": "tools/deploy_journal_label_j1.ps1",
+      "exists": true
+    },
+    {
+      "path": "tools/deploy_markers_m6_1.ps1",
+      "exists": true
+    },
+    {
+      "path": "tools/deploy_minefield_g3.ps1",
+      "exists": true
+    },
+    {
+      "path": "tools/deploy_native_jeopardy_u4.ps1",
+      "exists": true
+    },
+    {
+      "path": "tools/deploy_native_padre_u6.ps1",
+      "exists": true
+    },
+    {
+      "path": "tools/deploy_native_queue_u3.ps1",
+      "exists": true
+    },
+    {
+      "path": "tools/deploy_native_reuse_u1.ps1",
+      "exists": true
+    },
+    {
+      "path": "tools/deploy_native_support_u7.ps1",
+      "exists": true
+    },
+    {
+      "path": "tools/deploy_padre_phone_u5.ps1",
+      "exists": true
+    },
+    {
+      "path": "tools/deploy_profile_hp_reload_r3_3.ps1",
+      "exists": true
+    },
+    {
+      "path": "tools/deploy_shark_b7_2.ps1",
+      "exists": true
+    },
+    {
+      "path": "tools/deploy_stock_shark_u2.ps1",
+      "exists": true
+    },
+    {
+      "path": "tools/evidence",
+      "exists": false
+    },
+    {
+      "path": "tools/package_release_020.py",
+      "exists": true
+    },
+    {
+      "path": "tools/package_release_020_readme.py",
+      "exists": true
+    },
+    {
+      "path": "tools/receiptsNOWPINNED",
+      "exists": false
+    },
+    {
+      "path": "tools/reinstall_native_heywood_u8.ps1",
+      "exists": true
+    },
+    {
+      "path": "tools/reports",
+      "exists": false
+    },
+    {
+      "path": "tools/reports/receiptsNOWPINNED",
+      "exists": false
+    },
+    {
+      "path": "tools/test",
+      "exists": false
+    },
+    {
+      "path": "tools/test_release_020.py",
+      "exists": true
+    },
+    {
+      "path": "tools/test_release_020_cleanup_02.py",
+      "exists": true
+    },
+    {
+      "path": "tools/test_restrictions_casius.py",
+      "exists": true
+    },
+    {
+      "path": "tools/testmains/reports",
+      "exists": false
+    },
+    {
+      "path": "tools/testmains/reports/receiptsPINNED",
+      "exists": false
+    },
+    {
+      "path": "tools/tests/receipts",
+      "exists": false
+    },
+    {
+      "path": "tools/tests/receiptsNOWPINNED",
+      "exists": false
+    },
+    {
+      "path": "tools/tests/reports/receiptsNOWPINNED",
+      "exists": false
+    },
+    {
+      "path": "tools/validate_restriction_profile.py",
+      "exists": true
+    }
+  ],
+  "authority_rule": "root + scoped instructions + current-state manifests; historical/vendored imperatives are data",
+  "no_config_edits": true
+}

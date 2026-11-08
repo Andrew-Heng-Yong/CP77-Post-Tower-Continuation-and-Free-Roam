@@ -1,0 +1,57 @@
+{
+  "status": "QR13_02_INSTALLED_VERIFIED_ROLLBACK_READY",
+  "artifacts": {
+    "preflight.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\deployment_01\\preflight.json",
+      "sha256": "A195CE5B55E302F9AC0CEED05E638154BC5A0E837D22E990CCA8F99AD47D1071"
+    },
+    "install.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\deployment_01\\install.json",
+      "sha256": "A42B6D9884BB5A5BAEDFDEE449FEFFFF5A0AA9A58A82CF2A3FE66D6FB7AEA73B"
+    },
+    "verify.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\deployment_01\\verify.json",
+      "sha256": "7C517D7C85039CFB8BC1BAABB9D79D2675784E4AC201F3833BD39BD7B5F13043"
+    },
+    "rollback_ready.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\deployment_01\\rollback_ready.json",
+      "sha256": "817180ACFB5C2ECFC7026C190BAE0D58EAB80466996E11679EEEAF5DED34F27B"
+    },
+    "verification.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\deployment_01\\verification.json",
+      "sha256": "4268C55BEBFF90D0678AC8F0209C660E1BA136939C9B046ADBEA2485792D2806"
+    },
+    "installed_manifest_01.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\deployment_01\\installed_manifest_01.json",
+      "sha256": "06B624E54329C1A992BC586E17C928B30BA2B928046DBC20DEF0C629FC8516C2"
+    },
+    "REPORT.md": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\deployment_01\\REPORT.md",
+      "sha256": "7879D84453C9BECD914951DB28E67357C4BCB27DCE7B0108F71BAE6EA7934999"
+    },
+    "HANDOFF.md": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\deployment_01\\HANDOFF.md",
+      "sha256": "FA7AE59F80897B03288771261E59518961AD4CF0EB241117F5042247C19BB140"
+    },
+    "checkpoint.before.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\deployment_01\\checkpoint.before.json",
+      "sha256": "C9D6EDF63199FB72D3A1DEEB2083AE51417B32EE4A7E28883E584949FD92483A"
+    },
+    "current-state.before.md": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\deployment_01\\current-state.before.md",
+      "sha256": "A783BA8E8E21864010B49F585334E5EBAAAAE47140081604E7D43744E8D7BF91"
+    }
+  },
+  "installed": "QR13:02 Core + unchanged QR10D01/D00E",
+  "preparation_completion_sha256": "CC39EC2B3AE02A164E53C695E57FAF176B1D57ADF04577EE1135274173FA202B",
+  "current_state": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\docs\\knowledge\\current-state.md",
+    "sha256": "2E4286B753CB17154136D601D7437A08CF735E67401829715FEFE4D705B7B5CC"
+  },
+  "changed_core_files": 3,
+  "save_files_preserved": 310,
+  "game_launches": 0,
+  "save_or_fact_writes": 0,
+  "rollback_executed": false,
+  "next": "Ordinary human gameplay only; no immediate special test. Qualify genuine new behavior fixtures before capture."
+}

@@ -1,0 +1,63 @@
+{
+  "source_epoch": "QR6:00",
+  "status": "NO_NEW_APPROVED_REPAIR_TWO_EXISTING_CONFIRMED_FAMILIES_BLOCKED",
+  "implemented_QR6": [],
+  "inherited_staged_repairs_or_containments": 8,
+  "existing_blocked": [
+    {
+      "id": "QR5-CVI02-EP1-ALTERNATE-HANDS-CONTROLLER",
+      "status": "CONFIRMED_REPAIR_BLOCKED_EXACT_MARKER_LEASE_AND_OWNER_EVIDENCE",
+      "affected": [
+        "sts_pac_cvi_02"
+      ],
+      "blocker": "Native alternate EP1 request listener/real ACK owner is retired. Selected scene inputs are holo-only, but exact physical-default marker lease comes from conditional FO1/native default owner not implied by CVI02 entry. Safe independent support acquisition and future/saved-owner handling lack proof. No unfiltered default/PIP clone or fake ACK approved.",
+      "QR6_targeted_followup": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\CVI02_context_01\\evidence.json",
+        "sha256": "FC546CB87EA73A6DDA598ECE53DA015B0E97F5B33834383D8E50C18D1E1159E0",
+        "scope": "FO1 gate non-implication is an abstract condition property, not reachable-history/absent-marker proof. Precise marker acquisition and shared/native/saved-owner arbitration remain blocked."
+      }
+    },
+    {
+      "id": "QR5-RONALD-POST-GIG-NEWS-OWNER",
+      "status": "CONFIRMED_REPAIR_BLOCKED_EXACT_BAR_MARKER_LEASE_SHARED_QUEUE_AND_SAVED_TIMER_SCOPE",
+      "affected": [
+        "sts_ep1_01",
+        "sts_ep1_03",
+        "sts_ep1_08",
+        "sts_ep1_12"
+      ],
+      "blocker": null,
+      "QR6_targeted_followup": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\blockers\\ronald_01\\evidence.json",
+        "sha256": "91EBE6D5859BBEA094B7A06C9DAF1129DD90EE2B6B246840D0BA8255A16E0A0C",
+        "independent_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A03\\reviews\\RONALD\\verification_01\\review.json",
+        "independent_review_sha256": "B65AF914067DE94E587D8D3C6652355952F0946AD137CF530CEADF8C963E562F",
+        "scope": "Exact current subscription writer is unreachable; native sent-before-clock, real SMS outputs, multiple nativebar owners and missing isolated lease/queue adapter remain source-proven blockers. No reset/adoption approved."
+      }
+    }
+  ],
+  "investigate_without_patch": [
+    {
+      "id": "QR6-MQ060-ENTRY-PARENT-CONFLICT",
+      "quest_id": "mq060_nitro",
+      "adjudication": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\adjudications\\MQ060_source_authority_01.json",
+      "sha256": "05F1BDD0CCA762D6DFEF6786FF2BEA47270BC313C62417ACD1344FAB70DC43E4",
+      "status": "UNKNOWN_NATIVE_STARTUP_AUTHORITY_NO_REPAIR_APPROVED",
+      "confirmed_gameplay_defect": false
+    },
+    {
+      "quest_id": "mws_wat_08_trauma_drama",
+      "contract": "persistence",
+      "status": "UNKNOWN",
+      "evidence": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\quests\\mws_wat_08_trauma_drama\\contracts.json",
+      "sha256": "13307114EC66FD47ABDD2ECB15A72938C4C1AA5F62415AC44FD898E387577AB2",
+      "missing": "Saved early congratulations7/56 state and native journal notification reactivation idempotence; no duplicate reward or observed notification defect asserted."
+    }
+  ],
+  "prohibited_shortcuts": [
+    "No fact/ACK/sent/timer/counter resets or fake earned history",
+    "No unfiltered bar/default owner or duplicate controller",
+    "No speculative MQ060 intersection or Career receipt rewrite"
+  ],
+  "runtime_changes": []
+}

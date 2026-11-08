@@ -1,0 +1,262 @@
+{
+  "schema": 1,
+  "status": "NO_QUALIFIED_NEW_QUEST_CARD",
+  "source_epoch": "QR8:02",
+  "diagnostic_successor": "QR10D01 candidate_02 NOT_INSTALLED",
+  "fixture_evidence": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr10\\fixture_evidence.json",
+  "prioritized": [
+    {
+      "id": "S01",
+      "priority": 1,
+      "status": "NOT_TESTABLE_SELECTED_HISTORY",
+      "basis": "CVI02 cvi_02_finished1 and native completion in genuine selected lineage; recent snapshot agrees.",
+      "missing_prerequisites": [
+        "Another genuine fresh, not-admitted CVI02 fixture with earned prerequisites and no old owner/request. Current saves do not supply one."
+      ],
+      "manual_card_issued": false,
+      "QR9_card_reused": {
+        "id": "S01",
+        "title": "Alternate Hands calls: Two Wrongs Makes Us Right",
+        "priority": 1,
+        "profile": "S01",
+        "availability": "NOT_TESTABLE as a fresh-entry test on ManualSave-23/AutoSave-19: the gig is already completed. Skip unless another genuine supported post-Tower fixture exists; never replay it by reset.",
+        "requires": [
+          "Another genuine fresh, not-yet-admitted CVI02 history with no old custom call/request or conflicting owner; read-only precheck must support it.",
+          "S00 has passed within its limited smoke scope."
+        ],
+        "actions": [
+          "On that independent working fixture, start capture before approaching/accepting the gig normally; answer the actual Hands prebrief.",
+          "Follow the normal van route and listen to the resulting debrief. Stop after the call/cleanup settles; mark a missing or stalled call rather than forcing the door/objective.",
+          "Native failure or muted/no-scene alternatives use separate untouched fixtures only if naturally available."
+        ],
+        "visible": [
+          "Expected Hands prebrief/debrief occur on the appropriate native route; the normal objective advances and the van outcome/reward is preserved.",
+          "No repeated call, stuck phone mode or forced door/objective is needed."
+        ],
+        "diagnostic": [
+          "Selected real request/ACK/clear and private-flight transitions, with profile availability/errors recorded.",
+          "Visible/audio call plus progress evidence is separate from exact unobserved engine-node ownership. A missing toast alone is not a defect."
+        ],
+        "stop": "Stop after debrief/cleanup or on a stalled request. Do not clear a request, reset completion or start another conflicting call.",
+        "return": "Bundle plus whether prebrief, native objective and debrief occurred, and the chosen native outcome.",
+        "branch_rule": "Success/failure/muted alternatives are separate branches. The current master is not a fresh fixture for this card."
+      },
+      "rule": "No setters, resets, old-clock adoption, fabricated history, automatic gameplay or repeated successful fixtures."
+    },
+    {
+      "id": "S02",
+      "priority": 2,
+      "status": "BLOCKED_SUBSCRIPTION_AND_STAGE_EVIDENCE",
+      "basis": "S00 Ronald contact Inactive; messages_enabled0; Issued0. Later evidence does not prove earned active subscription. Saints/Spy are completed.",
+      "missing_prerequisites": [
+        "Genuine existing subscription + Active Ronald contact, no first-enrollment fabrication.",
+        "Verify actual fresh status/owner/prerequisites for sts_ep1_03 or sts_ep1_12; absence from finished metadata is insufficient.",
+        "For late future: actual supported first200\u2013203/pre220 stage and genuine Armed; no old sent1 timer adoption."
+      ],
+      "manual_card_issued": false,
+      "QR9_card_reused": {
+        "id": "S02",
+        "title": "Ronald: one genuine future gig and its native news",
+        "priority": 2,
+        "profile": "S02",
+        "availability": "First candidates on the confirmed master are The Man Who Killed Jason Foreman or Treating Symptoms, only if read-only precheck and genuine history support admission. Saints/Spy are already completed and must not be replayed.",
+        "requires": [
+          "Existing genuine Ronald subscription and Active contact; this card does not create a first subscription.",
+          "Ordinary variant: one selected gig genuinely not yet entered, no old message/timer, and an idle supported queue. Lack of finished metadata is insufficient.",
+          "Late-future variant: genuine positive QR7 Armed, native done1/sent0 and a real helper still before its first200\u2013203 gate (possibly awaiting220). Issued1 is allowed without root reentry. If that stage cannot be observed, the variant is NOT_TESTABLE/INCONCLUSIVE, not manufactured."
+        ],
+        "actions": [
+          "Ordinary: start capture, enter one eligible selected gig normally, and complete its native outcome. Stop after the initial claim/queue transition.",
+          "Let the native two-game-day timer pass through normal play. Start another bounded capture near the expected message/callback; inspect Ronald's conversation even if there is no toast.",
+          "Late-future: do not re-enter/reaccept/rearm anything. Only observe the existing genuine owner proceed from its first gate through the unchanged native timer.",
+          "Timer/reload variant: use a separate working branch after this same new supported timer has started; save/load only through normal permitted menus, then resume normal play."
+        ],
+        "visible": [
+          "The appropriate native Ronald message eventually appears; outcome and reward remain original, without repeated news or stuck phone/queue.",
+          "Spy's greeting has native notification0; no toast alone is not failure. Ordinary delivery does not count as testing the late-future repair."
+        ],
+        "diagnostic": [
+          "Real positive Armed then ParentEntered/native completion and native sent-before-delay, followed by available message/queue observations.",
+          "Record exact variant and capture segments. Sent1 is not delivery. Pre-gate220, actual phase execution and saved predicate refresh remain unobserved unless a separately approved observer can establish them."
+        ],
+        "stop": "Stop each bounded capture after its event window. Stop advancing on duplicated news, old-clock adoption or stuck cleanup; never reset sent/done/pause or change the clock with commands.",
+        "return": "Bundles for entry/claim and callback/reload, gig title, outcome, variant and approximate in-game elapsed time. No manual fact list is required.",
+        "branch_rule": "Ordinary, late-future and reload are alternatives/stages with different prerequisites. First enrollment, old sent1 clocks and already-processed branches remain held."
+      },
+      "rule": "No setters, resets, old-clock adoption, fabricated history, automatic gameplay or repeated successful fixtures."
+    },
+    {
+      "id": "S04",
+      "priority": 3,
+      "status": "UNKNOWN_UNSUPPORTED_OR_UNPROVEN_STAGE",
+      "basis": "Latest MQ007 shows total97/nonlethal51, defeated50=1, owner_known0, done0, reacquiring0, Issued0, ModeTalkConfirmed0; journals Inactive. Kill totals do not identify future1101.",
+      "missing_prerequisites": [
+        "Genuine exact supported pre1101 return/handoff stage and earned Regina history; exclude old11/51/95/opaque-loot seams.",
+        "No changes to kills, mode, item ownership or quest facts to create the fixture."
+      ],
+      "manual_card_issued": false,
+      "QR9_card_reused": {
+        "id": "S04",
+        "title": "Machine Gun: supported future return and Regina follow-up",
+        "priority": 4,
+        "profile": "S04",
+        "availability": "Conditional on a genuine monitored stage before future1101. An already-returned old owner or an unknown11/51/95 admission seam is not a supported fixture.",
+        "requires": [
+          "Exact genuine supported pre1101 stage, earned Regina/quest history and no old done/reacquired state; precheck/observation must establish the stage without setters.",
+          "No general fresh full-chain admission or opaque loot placement certification is implied."
+        ],
+        "actions": [
+          "Start capture before the normal supported return/handoff; follow the native choices and stop after the new continuation enrolls.",
+          "Let the original five-game-day/context/variant conditions run through normal play; capture the actual Regina follow-up and one-time reacquisition window.",
+          "For persistence, use a separate branch during that same new pending delay; save/load only when native menus permit it."
+        ],
+        "visible": [
+          "The appropriate native delayed follow-up and one-time reacquisition occur, without an invented world container or duplicate item/reward.",
+          "Normal earned outcomes remain. Unsupported fresh admission is not forced."
+        ],
+        "diagnostic": [
+          "Supported future enrollment, done/reacquired and selected message transitions; before/after item/reward observations where available.",
+          "Exact original helper lease/opaque placement may remain unobserved; a completion journal alone does not prove them."
+        ],
+        "stop": "Stop on repeated rewards, missing cleanup or a wrong-stage fixture. Do not reset done/reacquired or grant/restore Skippy to create eligibility.",
+        "return": "Segmented bundles, original stage/choice, whether Regina follow-up occurred, and item/reward change. No multi-day continuous capture.",
+        "branch_rule": "Keep this long pending timer separate from other queue tests. If no genuine supported future1101 history exists, mark NOT_TESTABLE."
+      },
+      "rule": "No setters, resets, old-clock adoption, fabricated history, automatic gameplay or repeated successful fixtures."
+    },
+    {
+      "id": "S06",
+      "priority": 4,
+      "status": "BLOCKED_HISTORY_EVIDENCE",
+      "basis": "Latest Brendan/Spray Paint journals all Inactive and watched facts0. Post-ending fallback cannot prove unearned fresh history or an earned progressed descendant.",
+      "missing_prerequisites": [
+        "Genuine known unearned pre-Tower history for negative containment OR separately proven earned/progressed descendant.",
+        "No general fresh/sequel adapter is approved. Do not treat inactive post-Tower history as the certificate."
+      ],
+      "manual_card_issued": false,
+      "QR9_card_reused": {
+        "id": "S06",
+        "title": "Brendan: containment and existing descendant preservation",
+        "priority": 6,
+        "profile": "S06",
+        "availability": "Unearned all-Inactive Dumpster history and genuinely progressed descendant are different fixtures. No general sequel adapter is approved.",
+        "requires": [
+          "One known unearned history for containment, or a separate genuine earned/progressed Spray Paint/Coin Operated Boy descendant.",
+          "Never fabricate earned Dumpster history, push the excluded fresh chain through a check, or reset existing progression."
+        ],
+        "actions": [
+          "Containment: start capture and visit/observe the ordinary location briefly without forcing a quest interaction.",
+          "Progressed alternative: use its separate working branch; observe the existing native objective/progress and normal save/reload only where permitted.",
+          "Stop after observation; do not request a fresh full-chain activation."
+        ],
+        "visible": [
+          "Excluded unearned fresh Dumpster activation stays contained.",
+          "Existing earned descendant/progress and rewards remain intact. Nonactivation of an unsupported sequel is not a restoration failure."
+        ],
+        "diagnostic": [
+          "Selected journal/receipt/progress observations identify which fixture was actually tested; unknown owner history remains explicit."
+        ],
+        "stop": "Stop on unexpected fresh setup, reset progress or duplicate reward. Do not repair the negative fixture with facts.",
+        "return": "Bundle plus unearned-containment or progressed-preservation variant and the visible journal/objective state.",
+        "branch_rule": "This is safety containment/preservation, never evidence that the full MQ037 continuation was restored."
+      },
+      "rule": "No setters, resets, old-clock adoption, fabricated history, automatic gameplay or repeated successful fixtures."
+    },
+    {
+      "id": "S08",
+      "priority": 5,
+      "status": "BLOCKED_GENUINE_PENDING_OWNER",
+      "basis": "Successful Wilson/Bullets completion and reload behavior remain accepted. No currently demonstrated separate eligible pending request/timer/cleanup fixture.",
+      "missing_prerequisites": [
+        "A genuinely supported pending stage from a qualified S01/S02/S04 route; native save option at that stage.",
+        "Separate real branch for interruption/reload; explicit before/after item/currency/reward evidence for idempotence.",
+        "Do not repeat completed Wilson/Bullets/Zane/reload tests."
+      ],
+      "manual_card_issued": false,
+      "QR9_card_reused": {
+        "id": "S08",
+        "title": "Separate branches: interrupt, reload and exactly-once completion",
+        "priority": 8,
+        "profile": "S08",
+        "availability": "Only after a clean supported route from S01/S02/S04/S05 has been observed; choose one naturally reachable interruption/save stage.",
+        "requires": [
+          "A separate working branch for each native interruption, reload or completion-revisit alternative.",
+          "The game permits normal saving at the chosen stage; if it does not, skip that subcase rather than force a save."
+        ],
+        "actions": [
+          "Start capture before a genuine native reject/interrupt choice and use that choice normally. Observe the original return/cancel/cleanup behavior.",
+          "On another branch, save/load normally at an available request, callback or cleanup stage, then resume through ordinary actions.",
+          "On a completion branch, record one reward, reload its completed state and revisit normally; never restart the completed job."
+        ],
+        "visible": [
+          "Native interruption/return behavior works without a stuck phone, missing required actor or overlapping controller.",
+          "Completion, objectives and rewards persist once; inventory/currency changes are observed rather than assumed from a graph latch."
+        ],
+        "diagnostic": [
+          "Capture segments around actual interruption/load/completion, selected request/receipt changes and native errors.",
+          "Exact phase/lease ownership remains INCONCLUSIVE unless the available diagnostic actually exposes it."
+        ],
+        "stop": "Stop on a replay, duplicate reward/listener/actor or stalled cleanup. Keep the failing branch and its logs.",
+        "return": "Bundles, source clean-route card, chosen interruption/reload stage and observed reward change; screenshot only a visual actor/door issue.",
+        "branch_rule": "Never combine mutually exclusive outcomes or reuse a progressed branch as its own fresh baseline. File rollback cannot undo persisted owners/rewards."
+      },
+      "rule": "No setters, resets, old-clock adoption, fabricated history, automatic gameplay or repeated successful fixtures."
+    },
+    {
+      "id": "S03",
+      "priority": 6,
+      "status": "NOT_TESTABLE_FRESH_NITRO",
+      "basis": "QR9S03 Issued1/Entered0, purchase counter1, all4 native unlock gettersfalse. Already-issued preservation is distinct from fresh eligibility.",
+      "missing_prerequisites": [
+        "Genuine independent not-Issued fixture with earned allowed Kusanagi and >=3 native purchases (not available).",
+        "Actual existing-owner selector/liveness evidence before asking for an already-issued continuation test."
+      ],
+      "manual_card_issued": false,
+      "QR9_card_reused": {
+        "id": "S03",
+        "title": "Nitro: existing vehicle eligibility or already-issued preservation",
+        "priority": 3,
+        "profile": "S03",
+        "availability": "Nitro is absent from the known finished list; this does not prove its eligibility or original-owner state.",
+        "requires": [
+          "Prospective: genuine not-yet-Issued history with an already-earned native allowed Kusanagi variant and at least three native vehicle purchases. Use bounded observations where the actual API supports them; otherwise eligibility stays unconfirmed.",
+          "Alternative: a genuine existing already-Issued predecessor owner at the original selector. Do not impose fresh prerequisites on this branch.",
+          "Do not buy/spawn vehicles or change purchase/quest counters to manufacture a test."
+        ],
+        "actions": [
+          "Prospective: start capture, approach/wait for normal Nitro activation, then observe the normal next objective. A genuinely available ineligible fixture is an independent negative branch.",
+          "Already-issued: start capture before normal load/progression on that separate branch; observe the retained selector, without restarting admission.",
+          "Stop after the admission/deferral or retained-progress result is clear."
+        ],
+        "visible": [
+          "An eligible future owner starts normally; a genuinely ineligible owner remains unavailable.",
+          "An existing issued owner keeps its progress without new setup/rewards or forced migration."
+        ],
+        "diagnostic": [
+          "Bounded native vehicle/purchase and Issued/progress observations; missing API or uncertain historical eligibility remains explicit.",
+          "A car visible in the garage alone does not prove the native earned acquisition/purchase contract."
+        ],
+        "stop": "Stop after the short eligibility/progress window. Do not change eligibility or retry by resetting the owner.",
+        "return": "Bundle plus prospective/negative/already-issued variant and the visible activation or preserved objective.",
+        "branch_rule": "Positive, negative and already-issued histories use independent genuine branches. Do not call normal deferral a defect before precheck."
+      },
+      "rule": "No setters, resets, old-clock adoption, fabricated history, automatic gameplay or repeated successful fixtures."
+    }
+  ],
+  "diagnostic_validation": {
+    "id": "D00",
+    "status": "CONDITIONAL_AFTER_AUTHORIZED_INSTALL_AND_EXISTING_CALL_OPTION",
+    "card": "TEST_CARDS.md",
+    "native_fact": "phonecall_player_with_regina_jones",
+    "boundary": "Regina availability is not observed offline; see existing Call option first. No Call -> skip, no substitute eligibility or repeat completed quests."
+  },
+  "accepted_do_not_repeat": [
+    "Until Death Do Us Part observed completion",
+    "Cynthia/Wilson delivered calls",
+    "Shoot to Thrill win/reward receipt",
+    "Wilson eventual shop and completed-state reload",
+    "Bullets completion",
+    "Zane shop return, completed-state reload and post-Bullets line"
+  ],
+  "coverage": "No new gameplay executed. QR9 original26-subcase/functional9-row results preserved; no inflated percentage or161-quest runtime PASS."
+}

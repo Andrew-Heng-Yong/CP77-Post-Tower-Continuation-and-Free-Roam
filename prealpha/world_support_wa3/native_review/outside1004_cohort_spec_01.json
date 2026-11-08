@@ -1,0 +1,179 @@
+{
+  "id": 1004,
+  "prefab": "$/03_night_city/#c_heywood/glen/gle_ma_prefab6YIXIPY/ma_hey_gle_05_prefabMWDGIAA/ma_hey_gle_05_openworld_prefab4ABZFDY",
+  "community_refs": [
+    "$/03_night_city/#c_heywood/glen/gle_ma_prefab6YIXIPY/ma_hey_gle_05_prefabMWDGIAA/ma_hey_gle_05_openworld_prefab4ABZFDY/#ma_hey_gle_05_civilians_com",
+    "$/03_night_city/#c_heywood/glen/gle_ma_prefab6YIXIPY/ma_hey_gle_05_prefabMWDGIAA/ma_hey_gle_05_openworld_prefab4ABZFDY/#ma_hey_gle_05_com"
+  ],
+  "spawner_hashes": [
+    "18208921045818680071",
+    "10991328406026625522"
+  ],
+  "native_binary": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\outside_phases_native_01\\basegame_4_gamedata.archive\\hey_gle_phase.questphase",
+  "native_binary_sha256": "9FA21FDEB0FC5DAE25A2378DB5B931A91DDE98D720EDE40BE28998686613F7F8",
+  "node_path": "root/46",
+  "resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_fa6df5356603d67f.streamingsector",
+  "support_sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\quest_fa6df5356603d67f.streamingsector",
+  "support_sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\outside_prefab_native_02\\basegame_3_nightcity.archive\\quest_fa6df5356603d67f.streamingsector",
+  "support_sector_sha256": "88B014D1BCB52C7099061D492D396EC727C04A51EC11131D0C7CB0A2D399C259",
+  "support_sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\outside_prefab_decoded_01\\quest_fa6df5356603d67f.json",
+  "proof": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\outside1004_assessment_01.json",
+  "prefix": "PTFRWA3_1004_",
+  "native_admission_facts": [],
+  "communities": [
+    {
+      "ref": "$/03_night_city/#c_heywood/glen/gle_ma_prefab6YIXIPY/ma_hey_gle_05_prefabMWDGIAA/ma_hey_gle_05_openworld_prefab4ABZFDY/#ma_hey_gle_05_civilians_com",
+      "hash": "18208921045818680071",
+      "registry": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\outside_registry_01\\ep1_1_nightcity.archive_18208921045818680071.json",
+      "registry_sha256": "7E7B1F6953EBBAC50B224260D2E240A92A4462DF49D012B042FE7F173C63AFEF",
+      "entries": [
+        {
+          "entry": "civilian_001",
+          "spot_bindings": [
+            {
+              "native_ref": "#ma_hey_gle_05_ws_civilian_006",
+              "matches": [
+                "$/03_night_city/#c_heywood/glen/gle_ma_prefab6YIXIPY/ma_hey_gle_05_prefabMWDGIAA/ma_hey_gle_05_openworld_prefab4ABZFDY/#ma_hey_gle_05_ws_civilian_006"
+              ]
+            }
+          ],
+          "markings": [
+            "la_street_violence_02_civilian"
+          ],
+          "unmapped_markings": []
+        },
+        {
+          "entry": "civilian_002",
+          "spot_bindings": [
+            {
+              "native_ref": "#ma_hey_gle_05_ws_civilian_002",
+              "matches": [
+                "$/03_night_city/#c_heywood/glen/gle_ma_prefab6YIXIPY/ma_hey_gle_05_prefabMWDGIAA/ma_hey_gle_05_openworld_prefab4ABZFDY/#ma_hey_gle_05_ws_civilian_002"
+              ]
+            },
+            {
+              "native_ref": "#ma_hey_gle_05_ws_civilian_004",
+              "matches": [
+                "$/03_night_city/#c_heywood/glen/gle_ma_prefab6YIXIPY/ma_hey_gle_05_prefabMWDGIAA/ma_hey_gle_05_openworld_prefab4ABZFDY/#ma_hey_gle_05_ws_civilian_004"
+              ]
+            }
+          ],
+          "markings": [],
+          "unmapped_markings": []
+        },
+        {
+          "entry": "civilian_003",
+          "spot_bindings": [
+            {
+              "native_ref": "#ma_hey_gle_05_ws_civilian_003",
+              "matches": [
+                "$/03_night_city/#c_heywood/glen/gle_ma_prefab6YIXIPY/ma_hey_gle_05_prefabMWDGIAA/ma_hey_gle_05_openworld_prefab4ABZFDY/#ma_hey_gle_05_ws_civilian_003"
+              ]
+            },
+            {
+              "native_ref": "#ma_hey_gle_05_ws_civilian_005",
+              "matches": [
+                "$/03_night_city/#c_heywood/glen/gle_ma_prefab6YIXIPY/ma_hey_gle_05_prefabMWDGIAA/ma_hey_gle_05_openworld_prefab4ABZFDY/#ma_hey_gle_05_ws_civilian_005"
+              ]
+            }
+          ],
+          "markings": [],
+          "unmapped_markings": []
+        }
+      ]
+    },
+    {
+      "ref": "$/03_night_city/#c_heywood/glen/gle_ma_prefab6YIXIPY/ma_hey_gle_05_prefabMWDGIAA/ma_hey_gle_05_openworld_prefab4ABZFDY/#ma_hey_gle_05_com",
+      "hash": "10991328406026625522",
+      "registry": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\outside_registry_01\\ep1_1_nightcity.archive_10991328406026625522.json",
+      "registry_sha256": "E6EAD5CA60D0A172709ECFAE0B33E39569A71F12CAA37A4240AFE776344688B5",
+      "entries": [
+        {
+          "entry": "ganger_001",
+          "spot_bindings": [],
+          "markings": [
+            "la_street_violence_02_gang"
+          ],
+          "unmapped_markings": []
+        },
+        {
+          "entry": "ganger_002",
+          "spot_bindings": [
+            {
+              "native_ref": "#ma_hey_gle_05_ws_ganger_002_A",
+              "matches": [
+                "$/03_night_city/#c_heywood/glen/gle_ma_prefab6YIXIPY/ma_hey_gle_05_prefabMWDGIAA/ma_hey_gle_05_openworld_prefab4ABZFDY/#ma_hey_gle_05_ws_ganger_002_A"
+              ]
+            }
+          ],
+          "markings": [],
+          "unmapped_markings": []
+        },
+        {
+          "entry": "ganger_003",
+          "spot_bindings": [
+            {
+              "native_ref": "#ma_hey_gle_05_ws_ganger_003_A",
+              "matches": [
+                "$/03_night_city/#c_heywood/glen/gle_ma_prefab6YIXIPY/ma_hey_gle_05_prefabMWDGIAA/ma_hey_gle_05_openworld_prefab4ABZFDY/#ma_hey_gle_05_ws_ganger_003_A"
+              ]
+            }
+          ],
+          "markings": [],
+          "unmapped_markings": []
+        },
+        {
+          "entry": "ganger_004",
+          "spot_bindings": [
+            {
+              "native_ref": "#ma_hey_gle_05_ws_ganger_004_b",
+              "matches": [
+                "$/03_night_city/#c_heywood/glen/gle_ma_prefab6YIXIPY/ma_hey_gle_05_prefabMWDGIAA/ma_hey_gle_05_openworld_prefab4ABZFDY/#ma_hey_gle_05_ws_ganger_004_b"
+              ]
+            }
+          ],
+          "markings": [],
+          "unmapped_markings": []
+        },
+        {
+          "entry": "ganger_005",
+          "spot_bindings": [
+            {
+              "native_ref": "#ma_hey_gle_05_ws_ganger_005",
+              "matches": [
+                "$/03_night_city/#c_heywood/glen/gle_ma_prefab6YIXIPY/ma_hey_gle_05_prefabMWDGIAA/ma_hey_gle_05_openworld_prefab4ABZFDY/#ma_hey_gle_05_ws_ganger_005"
+              ]
+            }
+          ],
+          "markings": [],
+          "unmapped_markings": []
+        },
+        {
+          "entry": "ganger_006",
+          "spot_bindings": [
+            {
+              "native_ref": "#ma_hey_gle_05_ws_ganger_006_a",
+              "matches": [
+                "$/03_night_city/#c_heywood/glen/gle_ma_prefab6YIXIPY/ma_hey_gle_05_prefabMWDGIAA/ma_hey_gle_05_openworld_prefab4ABZFDY/#ma_hey_gle_05_ws_ganger_006_a"
+              ]
+            },
+            {
+              "native_ref": "#ma_hey_gle_05_ws_ganger_006_b",
+              "matches": [
+                "$/03_night_city/#c_heywood/glen/gle_ma_prefab6YIXIPY/ma_hey_gle_05_prefabMWDGIAA/ma_hey_gle_05_openworld_prefab4ABZFDY/#ma_hey_gle_05_ws_ganger_006_b"
+              ]
+            }
+          ],
+          "markings": [],
+          "unmapped_markings": []
+        }
+      ]
+    }
+  ],
+  "requires_private_filtered_sector": true,
+  "filter_spec": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\outside1004_filter_spec_03.json",
+  "excluded_admission_community": {
+    "hash": "16527535425507785892",
+    "reason": "Vendor marking outside61localspots unproven; localcrowdspots remainavailable afterotherexactcommunityadmission."
+  }
+}

@@ -1,0 +1,87 @@
+--- suite02_unlocked
++++ final_guarded_CE020
+@@ -9,7 +9,7 @@
+  [string]$FixtureManifest='',
+  [string]$FixtureManifestSHA='',
+  [string[]]$FixtureProcesses=@(),
+- [ValidateSet('','AfterBackup','AfterFirstReplace','BeforeReceipt','AfterStage','AfterFirstRollback','CrashAfterBackup','CrashAfterFirstReplace','CrashBeforeReceipt','CrashAfterFirstRollback','GameStartsAfterFirstReplace','TargetDriftAfterFirstReplace','SaveChangesAfterFirstReplace','ExternalChangesAfterFirstReplace')][string]$FailurePoint=''
++ [ValidateSet('','AfterBackup','AfterFirstReplace','BeforeReceipt','AfterStage','AfterFirstRollback','CrashAfterBackup','CrashAfterFirstReplace','CrashBeforeReceipt','CrashAfterFirstRollback','GameStartsAfterFirstReplace','TargetDriftAfterFirstReplace','SaveChangesAfterFirstReplace','ExternalChangesAfterFirstReplace','HoldAfterLock')][string]$FailurePoint=''
+ )
+ # Prepared tools only. Codex must never invoke real Install/Rollback/Recover in QR9.
+ # Writes are exactly the manifest component changes plus its private recovery/report.
+@@ -18,7 +18,7 @@
+ Set-StrictMode -Version Latest
+ $ErrorActionPreference='Stop'
+ $PinnedCoreManifestSHA='06CD479C47E32403371E360092648431EAE1BC93DEE3E61BD6822560133CBCF1'
+-$PinnedDiagnosticsManifestSHA=''
++$PinnedDiagnosticsManifestSHA='C41A1547DB7B33F0F97B68ADC7509E937A6487B85D95E34F7AAFBF83991C38E1'
+ $worker=[IO.Path]::GetFullPath($PSScriptRoot)
+ $fixture= -not [string]::IsNullOrWhiteSpace($FixtureRoot)
+ $script:fakeGameStarted=$false
+@@ -26,6 +26,27 @@
+ $script:journal=$null
+ $script:journalPath=$null
+ $script:transactionStarted=$false
++$script:transactionLock=$null
++
++function LockMutations {
++ # One stable lock for both components, independent of RecoveryRoot. FileShare
++ # None is held for this standalone PowerShell process and released by Windows
++ # even after a hard interruption. The empty lock file is deliberately retained.
++ if($Action -notin @('Install','Rollback','Recover')){return}
++ $lockRoot=if($fixture){$FixtureRoot}else{$worker}
++ $lockPath=Safe $lockRoot 'installer.lock'
++ if(Test-Path -LiteralPath $lockPath){if(-not(Test-Path -LiteralPath $lockPath -PathType Leaf) -or (Get-Item -LiteralPath $lockPath).Length -ne 0){throw 'Unexpected installer lock contents; preserve the unknown path'}}
++ try{$script:transactionLock=[IO.FileStream]::new($lockPath,[IO.FileMode]::OpenOrCreate,[IO.FileAccess]::ReadWrite,[IO.FileShare]::None)}
++ catch{throw ('Another QR9 deployment action holds the stable installer lock, or the lock cannot be opened: '+$_.Exception.Message)}
++ if($script:transactionLock.Length -ne 0){throw 'Unexpected installer lock contents; preserve the unknown file'}
++ NoLinks $lockPath
++ if($fixture -and $FailurePoint -eq 'HoldAfterLock'){
++  $ready=Safe $FixtureRoot 'lock_ready.json'
++  [IO.File]::WriteAllText($ready,(@{scope='FIXTURE_ROOT_SHARED_BETWEEN_RECOVERY_PATHS';recovery_root=$recovery}|ConvertTo-Json -Compress))
++  $release=Safe $FixtureRoot 'release_lock';$limit=[DateTime]::UtcNow.AddSeconds(60)
++  while(-not(Test-Path -LiteralPath $release)){if([DateTime]::UtcNow -gt $limit){throw 'Fixture held-lock timeout'};Start-Sleep -Milliseconds 100}
++ }
++}
+ 
+ function Full([string]$p){[IO.Path]::GetFullPath($p).TrimEnd([IO.Path]::DirectorySeparatorChar)}
+ function NoLinks([string]$p){
+@@ -116,6 +137,7 @@
+  if($envelope.schema -cne 'PTFR_QR9_JOURNAL_V1' -or (Digest $envelope.payload_json) -cne $envelope.payload_sha256){throw 'Corrupt or partial transaction journal'}
+  $j=$envelope.payload_json|ConvertFrom-Json -AsHashtable -Depth 70
+  if($j.manifest_sha256 -cne $manifestSHA -or $j.component -cne $Component -or $j.game_root -cne $game -or $j.save_root -cne $save){throw 'Journal belongs to another manifest/component/root'}
++ if($j.operation -notin @('Install','Rollback') -or $j.state -notin @('PREPARING','PREPARED','APPLYING','INSTALLED_VERIFIED','ROLLING_BACK','ROLLED_BACK_VERIFIED','RESTORED_BEFORE_VERIFIED','RECOVERY_REQUIRED')){throw 'Unsupported transaction operation/state; preserve the journal for review'}
+  return $j
+ }
+ function Payload([string]$side,$row){Safe $recovery ($side+'/'+$row.path)}
+@@ -192,6 +214,7 @@
+  $brief=[ordered]@{status=$data.status;component=$Component;action=$Action;managed_paths=$manifest.files.Count;changing_paths=$changes.Count;recovery_root=$recovery;manifest_sha256=$manifestSHA;save_writes=0;game_launches=0;report=$ReportFile};$brief|ConvertTo-Json -Compress
+ }
+ 
++try {
+ # Resolve real paths only from the pinned manifest. Fixture overrides can never
+ # point outside this worker's explicit fixtures subtree and never follow links.
+ if($fixture){
+@@ -226,6 +249,7 @@
+ $script:journalPath=Safe $recovery 'journal.json'
+ if($ReportFile){$rp=Beneath $worker $ReportFile;if(Test-Path -LiteralPath $rp){throw 'Never overwrite a report'}}
+ if($BackupMaster -and ($Component -ne 'Core' -or $Action -notin @('Preflight','Install'))){throw 'BackupMaster is only a reviewed Core Preflight/Install option'}
++LockMutations
+ Closed
+ if($Action -in @('Preflight','Install')){
+  CheckPackage;CheckDependencies 'After';CheckManaged 'Before'
+@@ -256,6 +280,7 @@
+ $script:journal=ReadJournal
+ CheckMasterBackup
+ if($Action -eq 'Recover'){
++ if($script:journal.state -notin @('PREPARING','PREPARED','APPLYING','ROLLING_BACK','RECOVERY_REQUIRED')){throw 'Recover requires an interrupted transaction; use Verify or ValidateRollback for a committed receipt'}
+  CheckDependencies $(if($script:journal.operation -eq 'Rollback'){'After'}else{'Before'})
+  $fresh=ProtectionSnapshot
+  try{$state=RestoreActionStart;$after=ProtectionSnapshot;CompareProtection $fresh $after;$script:journal.protection_before=$fresh;$script:journal.protection_after=$after;WriteJournal;Report @{status=('RECOVERED_'+$state.ToUpperInvariant());journal=$script:journal;file_rollback_is_not_save_rollback=$true};exit}
+@@ -284,3 +309,6 @@
+  }
+ }
+ throw 'Unreachable action'
++} finally {
++ if($null -ne $script:transactionLock){$script:transactionLock.Dispose();$script:transactionLock=$null}
++}

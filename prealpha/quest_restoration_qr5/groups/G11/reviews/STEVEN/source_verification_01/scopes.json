@@ -1,0 +1,382 @@
+[
+  {
+    "depot": "ep1\\quest\\ep1.questphase",
+    "root_prefabs": []
+  },
+  {
+    "depot": "ep1\\quest\\ep1_additional_game_elements.questphase",
+    "root_prefabs": []
+  },
+  {
+    "depot": "ep1\\quest\\ep1_default_dialogs.questphase",
+    "root_prefabs": []
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "root_prefabs": []
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root",
+    "node": "0",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": []
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root",
+    "node": "1",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": []
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root",
+    "node": "3",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": [
+      "#steven_default_stadium_com"
+    ]
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root",
+    "node": "5",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": [
+      "#steven_default_night_city_com"
+    ]
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root",
+    "node": "24",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": [
+      "#steven_default_stadium_com"
+    ]
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root",
+    "node": "26",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": [
+      "#steven_default_night_city_com"
+    ]
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root",
+    "node": "2",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": []
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root",
+    "node": "27",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": []
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root",
+    "node": "28",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": []
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root",
+    "node": "30",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": []
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root",
+    "node": "31",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": [
+      "#steven_default_night_city_com"
+    ]
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root",
+    "node": "32",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": []
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root",
+    "node": "33",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": [
+      "#steven_default_stadium_com"
+    ]
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root/27",
+    "node": "0",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": []
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root/27",
+    "node": "1",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": []
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root/27",
+    "node": "2",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": [
+      "#steven_default_stadium_com"
+    ]
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root/27",
+    "node": "3",
+    "prefabs": [],
+    "refs": [
+      "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\sts_08_steven_default_stadium.scene"
+    ],
+    "node_refs": [
+      "#sts_08_sm_steven_default_stadium"
+    ]
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root/28",
+    "node": "0",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": []
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root/28",
+    "node": "1",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": []
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root/28",
+    "node": "3",
+    "prefabs": [],
+    "refs": [
+      "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\sts_08_steven_default_new_biomonitor_not_destroyed.scene"
+    ],
+    "node_refs": [
+      "#sts_08_sm_steven_default_new_biomonitor_not_destroyed"
+    ]
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root/28",
+    "node": "7",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": [
+      "#steven_default_night_city_com"
+    ]
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root/28",
+    "node": "11",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": [
+      "#steven_default_night_city_com"
+    ]
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root/28",
+    "node": "12",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": [
+      "#steven_default_night_city_com"
+    ]
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root/28",
+    "node": "13",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": []
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root/28",
+    "node": "14",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": []
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root/28",
+    "node": "15",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": []
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root/28",
+    "node": "16",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": []
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root/28",
+    "node": "17",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": [
+      "#steven_default_night_city_com"
+    ]
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root/28",
+    "node": "19",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": []
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root/28",
+    "node": "20",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": []
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root/28",
+    "node": "21",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": []
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root/28",
+    "node": "22",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": []
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root/28",
+    "node": "23",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": []
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root/28",
+    "node": "25",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": [
+      "#steve_default_night_city_vehicle_forbidden_area"
+    ]
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root/28",
+    "node": "27",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": [
+      "#steven_default_night_city_quest_prevention_notifier"
+    ]
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root/28",
+    "node": "30",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": [
+      "#steve_default_night_city_vehicle_forbidden_area"
+    ]
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root/28",
+    "node": "31",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": [
+      "#steve_default_night_city_vehicle_forbidden_area"
+    ]
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root/28",
+    "node": "32",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": [
+      "#steven_default_night_city_quest_prevention_notifier"
+    ]
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root/28",
+    "node": "33",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": [
+      "#steven_default_night_city_com"
+    ]
+  },
+  {
+    "depot": "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase",
+    "graph": "root/28",
+    "node": "34",
+    "prefabs": [],
+    "refs": [],
+    "node_refs": [
+      "#steven_default_night_city_com"
+    ]
+  }
+]

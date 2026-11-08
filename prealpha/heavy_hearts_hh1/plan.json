@@ -1,0 +1,1236 @@
+{
+  "block": "towercontinued\\heavy_hearts_hh1\\workspots.streamingblock",
+  "capture_sha256": "14371205838B51868B1EEE78DD4EF32A77D15757B2089B887939A8E43F20C7AB",
+  "guard": {
+    "PTFRBASE_Suspended": 0,
+    "PTFRP0_DR13": 1,
+    "PTFRPA2_Finished": 1,
+    "PTFRPA3_CoverReleased": 1,
+    "PostTowerFreeRoamActive": 1,
+    "ep1_side_content": 1,
+    "q115_point_of_no_return": 0,
+    "q305_johnny_scene_active": 0,
+    "q307_2079": 1,
+    "q307_active": 0,
+    "q307_done": 1,
+    "q307_ep1_killed": 1,
+    "q307_finished": 1,
+    "q307_main_game_killed": 1,
+    "sts_ep1_06_close_club": 0,
+    "sts_ep1_06_despawn_npcs_on_combat": 0,
+    "sts_ep1_06_ground_floor_combat": 0,
+    "sts_ep1_06_upper_floor_combat": 0
+  },
+  "owner": "towercontinued\\heavy_hearts_hh1\\support.questphase",
+  "sectors": [
+    {
+      "bindings": [
+        {
+          "community": "6618713760615573885",
+          "entry": "chat_kurtz_001a",
+          "node": 30,
+          "record": "Character.sts_ep1_06_nightlife_ma_savable",
+          "ref": "#sts_ep1_06_ws_chat_kurtz_001a"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "chat_kurtz_001b",
+          "node": 29,
+          "record": "Character.sts_ep1_06_nightlife_ma_savable",
+          "ref": "#sts_ep1_06_ws_chat_kurtz_001b"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "chat_kurtz_002a",
+          "node": 32,
+          "record": "Character.sts_ep1_06_nightlife_wa_savable",
+          "ref": "#sts_ep1_06_ws_chat_kurtz_002a"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "chat_kurtz_002b",
+          "node": 31,
+          "record": "Character.sts_ep1_06_obese_mf_savable",
+          "ref": "#sts_ep1_06_ws_chat_kurtz_002b"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "chat_regular_002a",
+          "node": 88,
+          "record": "Character.sts_ep1_06_businessman_wa",
+          "ref": "#sts_ep1_06_ws_chat_reg_002a"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "chat_regular_002b",
+          "node": 89,
+          "record": "Character.sts_ep1_06_businessman_wa",
+          "ref": "#sts_ep1_06_ws_chat_reg_002b"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "chat_regular_003a",
+          "node": 91,
+          "record": "Character.sts_ep1_06_nightlife_ma_savable",
+          "ref": "#sts_ep1_06_ws_chat_reg_003a"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "chat_regular_003b",
+          "node": 90,
+          "record": "Character.sts_ep1_06_nightlife_wa_savable",
+          "ref": "#sts_ep1_06_ws_chat_reg_003b"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "doll_booth_04_01",
+          "node": 81,
+          "record": "Character.sts_ep1_06_sexworker_wa_savable",
+          "ref": "#sts_ep1_06_vip_booth_04_001"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "doll_booth_04_02",
+          "node": 80,
+          "record": "Character.sts_ep1_06_sexworker_ma_savable",
+          "ref": "#sts_ep1_06_vip_booth_04_002"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "drug_dealer",
+          "node": 83,
+          "record": "Character.sts_ep1_06_drug_dealer",
+          "ref": "#sts_ep1_06_drug_dealer"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "drug_dealer_friend",
+          "node": 28,
+          "record": "Character.sts_ep1_06_drug_dealer_friend",
+          "ref": "#sts_ep1_06_drug_dealer_friend"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "drug_dealer_friend",
+          "node": 22,
+          "record": "Character.sts_ep1_06_drug_dealer_friend",
+          "ref": "#sts_ep1_06_drug_dealer_friend_scene_ended"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "drunk_vip",
+          "node": 57,
+          "record": "Character.sts_ep1_06_businessman_ma",
+          "ref": "#sts_ep1_06_doll"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "guy_booth_03_001",
+          "node": 42,
+          "record": "Character.sts_ep1_06_corpo_braindance_ma",
+          "ref": "#sts_ep1_06_vip_booth_03_guy_001"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "guy_booth_03_002",
+          "node": 43,
+          "record": "Character.sts_ep1_06_corpo_braindance_ma",
+          "ref": "#sts_ep1_06_vip_booth_03_guy_002"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "guy_booth_03_003",
+          "node": 44,
+          "record": "Character.sts_ep1_06_corpo_braindance_ma",
+          "ref": "#sts_ep1_06_vip_booth_03_guy_003"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "guy_booth_04_01",
+          "node": 82,
+          "record": "Character.sts_ep1_06_militech_business_ma",
+          "ref": "#sts_ep1_06_vip_booth_04_004"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "guy_booth_04_02",
+          "node": 79,
+          "record": "Character.sts_ep1_06_arasaka_business_ma",
+          "ref": "#sts_ep1_06_vip_booth_04_003"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "techinician",
+          "node": 27,
+          "record": "Character.sts_ep1_06_technician_ma",
+          "ref": "#sts_ep1_06_technician"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "violent_guy",
+          "node": 64,
+          "record": "Character.sts_ep1_06_violent_guy",
+          "ref": "#sts_ep1_06_violent_guy"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "violent_guy",
+          "node": 21,
+          "record": "Character.sts_ep1_06_violent_guy",
+          "ref": "#sts_ep1_06_violent_guy_after"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "waiterss_custom_client",
+          "node": 84,
+          "record": "Character.sts_ep1_06_businessman_crowd_ma",
+          "ref": "#sts_ep1_06_waitress_fluff_custom"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "waiterss_custom_flirt",
+          "node": 52,
+          "record": "Character.sts_ep1_06_waitress_fluff",
+          "ref": "#sts_ep1_06_waitress_fluff_flirt"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "waitress",
+          "node": 23,
+          "record": "Character.sts_ep1_06_waitress",
+          "ref": "#sts_ep1_06_waitress_001"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "waitress",
+          "node": 6,
+          "record": "Character.sts_ep1_06_waitress",
+          "ref": "#sts_ep1_06_waitress_bar"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "waitress_fluff",
+          "node": 86,
+          "record": "Character.sts_ep1_06_waitress_fluff",
+          "ref": "#sts_ep1_06_waitres_finish_combat_001"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "waitress_fluff",
+          "node": 87,
+          "record": "Character.sts_ep1_06_waitress_fluff",
+          "ref": "#sts_ep1_06_waitres_finish_combat_002"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "waitress_fluff",
+          "node": 40,
+          "record": "Character.sts_ep1_06_waitress_fluff",
+          "ref": "#sts_ep1_06_waitress_fluff_day_002"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "waitress_fluff",
+          "node": 39,
+          "record": "Character.sts_ep1_06_waitress_fluff",
+          "ref": "#sts_ep1_06_waitress_fluff_day_003"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "waitress_fluff",
+          "node": 38,
+          "record": "Character.sts_ep1_06_waitress_fluff",
+          "ref": "#sts_ep1_06_waitress_fluff_day_004"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "waitress_fluff",
+          "node": 37,
+          "record": "Character.sts_ep1_06_waitress_fluff",
+          "ref": "#sts_ep1_06_waitress_fluff_day_005"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "waitress_fluff",
+          "node": 36,
+          "record": "Character.sts_ep1_06_waitress_fluff",
+          "ref": "#sts_ep1_06_waitress_fluff_day_006"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "waitress_fluff",
+          "node": 69,
+          "record": "Character.sts_ep1_06_waitress_fluff",
+          "ref": "#sts_ep1_06_waitress_fluff_night_001"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "waitress_fluff",
+          "node": 68,
+          "record": "Character.sts_ep1_06_waitress_fluff",
+          "ref": "#sts_ep1_06_waitress_fluff_night_002"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "waitress_fluff",
+          "node": 67,
+          "record": "Character.sts_ep1_06_waitress_fluff",
+          "ref": "#sts_ep1_06_waitress_fluff_night_003"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "waitress_fluff",
+          "node": 73,
+          "record": "Character.sts_ep1_06_waitress_fluff",
+          "ref": "#sts_ep1_06_waitress_fluff_night_004"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "waitress_fluff",
+          "node": 72,
+          "record": "Character.sts_ep1_06_waitress_fluff",
+          "ref": "#sts_ep1_06_waitress_fluff_night_005"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "waitress_fluff",
+          "node": 71,
+          "record": "Character.sts_ep1_06_waitress_fluff",
+          "ref": "#sts_ep1_06_waitress_fluff_night_006"
+        },
+        {
+          "community": "6618713760615573885",
+          "entry": "waitress_fluff",
+          "node": 70,
+          "record": "Character.sts_ep1_06_waitress_fluff",
+          "ref": "#sts_ep1_06_waitress_fluff_night_007"
+        },
+        {
+          "community": "15570256530843676615",
+          "entry": "g_14_waitress",
+          "node": 24,
+          "record": "Character.sts_ep1_06_waitress_fluff",
+          "ref": "#sts_ep1_06_waitress_fluff_night_bar_001"
+        },
+        {
+          "community": "15570256530843676615",
+          "entry": "g_14_waitress",
+          "node": 26,
+          "record": "Character.sts_ep1_06_waitress_fluff",
+          "ref": "#sts_ep1_06_waitress_fluff_night_bar_002"
+        },
+        {
+          "community": "15570256530843676615",
+          "entry": "g_14_waitress",
+          "node": 25,
+          "record": "Character.sts_ep1_06_waitress_fluff",
+          "ref": "#sts_ep1_06_waitress_fluff_night_bar_003"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "barghest_female",
+          "node": 96,
+          "record": "Character.sts_ep1_06_barghest_no_reaction_handgun_wa",
+          "ref": "#sts_ep1_06_ws_barghest_officers_001"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "barghest_female",
+          "node": 95,
+          "record": "Character.sts_ep1_06_barghest_no_reaction_handgun_wa",
+          "ref": "#sts_ep1_06_ws_barghest_officers_002"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "barghest_female",
+          "node": 94,
+          "record": "Character.sts_ep1_06_barghest_no_reaction_handgun_wa",
+          "ref": "#sts_ep1_06_ws_barghest_officers_003"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "barghest_female",
+          "node": 93,
+          "record": "Character.sts_ep1_06_barghest_no_reaction_handgun_wa",
+          "ref": "#sts_ep1_06_ws_barghest_officers_004"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "barghest_female",
+          "node": 92,
+          "record": "Character.sts_ep1_06_barghest_no_reaction_handgun_wa",
+          "ref": "#sts_ep1_06_ws_barghest_officers_007"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "barghest_male",
+          "node": 96,
+          "record": "Character.sts_ep1_06_barghest_no_reaction_handgun_ma",
+          "ref": "#sts_ep1_06_ws_barghest_officers_001"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "barghest_male",
+          "node": 95,
+          "record": "Character.sts_ep1_06_barghest_no_reaction_handgun_ma",
+          "ref": "#sts_ep1_06_ws_barghest_officers_002"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "barghest_male",
+          "node": 94,
+          "record": "Character.sts_ep1_06_barghest_no_reaction_handgun_ma",
+          "ref": "#sts_ep1_06_ws_barghest_officers_003"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "barghest_male",
+          "node": 93,
+          "record": "Character.sts_ep1_06_barghest_no_reaction_handgun_ma",
+          "ref": "#sts_ep1_06_ws_barghest_officers_004"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "barghest_male",
+          "node": 92,
+          "record": "Character.sts_ep1_06_barghest_no_reaction_handgun_ma",
+          "ref": "#sts_ep1_06_ws_barghest_officers_007"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "cops_female_001",
+          "node": 8,
+          "record": "Character.sts_ep1_06_cops_wa",
+          "ref": "#sts_ep1_06_ws_cop_001"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "cops_female_002",
+          "node": 10,
+          "record": "Character.sts_ep1_06_cops_wa",
+          "ref": "#sts_ep1_06_ws_cop_002"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "cops_male_001",
+          "node": 9,
+          "record": "Character.sts_ep1_06_cops_ma",
+          "ref": "#sts_ep1_06_ws_cop_003"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "cops_male_002",
+          "node": 11,
+          "record": "Character.sts_ep1_06_cops_ma",
+          "ref": "#sts_ep1_06_ws_cop_004"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "cops_male_002",
+          "node": 12,
+          "record": "Character.sts_ep1_06_cops_ma",
+          "ref": "#sts_ep1_06_ws_cop_006"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "merc_big",
+          "node": 97,
+          "record": "Character.sts_ep1_06_mercs_mb",
+          "ref": "#sts_ep1_06_ws_merc_ask_002"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "merc_female",
+          "node": 99,
+          "record": "Character.sts_ep1_06_mercs_wa",
+          "ref": "#sts_ep1_06_ws_merc_ask_001"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "merc_female",
+          "node": 98,
+          "record": "Character.sts_ep1_06_mercs_wa",
+          "ref": "#sts_ep1_06_ws_merc_ask_003"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "merc_male",
+          "node": 99,
+          "record": "Character.sts_ep1_06_mercs_ma",
+          "ref": "#sts_ep1_06_ws_merc_ask_001"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "merc_male",
+          "node": 98,
+          "record": "Character.sts_ep1_06_mercs_ma",
+          "ref": "#sts_ep1_06_ws_merc_ask_003"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "scav_female_001",
+          "node": 5,
+          "record": "Character.sts_ep1_06_tyger_claws_wa",
+          "ref": "#sts_ep1_06_scav_deal_001"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "scav_female_002",
+          "node": 54,
+          "record": "Character.sts_ep1_06_tyger_claws_wa",
+          "ref": "#sts_ep1_06_scav_002"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "scav_female_002",
+          "node": 53,
+          "record": "Character.sts_ep1_06_tyger_claws_wa",
+          "ref": "#sts_ep1_06_scav_003"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "scav_female_002",
+          "node": 3,
+          "record": "Character.sts_ep1_06_tyger_claws_wa",
+          "ref": "#sts_ep1_06_scav_deal_002"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "scav_female_003",
+          "node": 55,
+          "record": "Character.sts_ep1_06_tyger_claws_wa",
+          "ref": "#sts_ep1_06_scav_005"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "scav_female_003",
+          "node": 4,
+          "record": "Character.sts_ep1_06_tyger_claws_wa",
+          "ref": "#sts_ep1_06_scav_deal_003"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "scav_female_004",
+          "node": 56,
+          "record": "Character.sts_ep1_06_tyger_claws_wa",
+          "ref": "#sts_ep1_06_scav_004"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "scav_female_004",
+          "node": 2,
+          "record": "Character.sts_ep1_06_tyger_claws_wa",
+          "ref": "#sts_ep1_06_scav_deal_004"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "tc_female_001",
+          "node": 76,
+          "record": "Character.sts_ep1_06_tyger_claws_wa",
+          "ref": "#sts_ep1_06_tyger_claw_001"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "tc_female_002",
+          "node": 78,
+          "record": "Character.sts_ep1_06_tyger_claws_wa",
+          "ref": "#sts_ep1_06_tyger_claw_002"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "tc_male_001",
+          "node": 77,
+          "record": "Character.sts_ep1_06_tyger_claws_ma",
+          "ref": "#sts_ep1_06_tyger_claw_003"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "tc_male_002",
+          "node": 74,
+          "record": "Character.sts_ep1_06_tyger_claws_ma",
+          "ref": "#sts_ep1_06_tyger_claw_004"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "tc_male_003",
+          "node": 62,
+          "record": "Character.sts_ep1_06_tyger_claws_ma",
+          "ref": "#sts_ep1_06_tyger_claw_005_deal"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "tc_male_003",
+          "node": 75,
+          "record": "Character.sts_ep1_06_tyger_claws_ma",
+          "ref": "#sts_ep1_06_tyger_claw_006"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "vb_female_001",
+          "node": 13,
+          "record": "Character.sts_ep1_06_vb_wa",
+          "ref": "#sts_ep1_06_ws_vb_005"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "vb_female_002",
+          "node": 61,
+          "record": "Character.sts_ep1_06_vb_wa",
+          "ref": "#sts_ep1_06_ws_vb_001"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "vb_male_001",
+          "node": 59,
+          "record": "Character.sts_ep1_06_vb_ma",
+          "ref": "#sts_ep1_06_ws_vb_003"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "vb_male_002",
+          "node": 60,
+          "record": "Character.sts_ep1_06_vb_ma",
+          "ref": "#sts_ep1_06_ws_vb_002"
+        },
+        {
+          "community": "11225996957150521658",
+          "entry": "vb_male_003",
+          "node": 14,
+          "record": "Character.sts_ep1_06_vb_ma",
+          "ref": "#sts_ep1_06_ws_vb_004"
+        }
+      ],
+      "communities": [
+        "$/03_night_city/c_pacifica/combat_zone_prefabUEX7DCY/monument_av_prefabCJD7Q4Q/loc_sts_ep1_06_prefab7J2LN5A/loc_sts_ep1_06_openworld_prefabV7KAIGA/#loc_sts_ep1_06_streetstory/#sts_ep1_06_com_civilians",
+        "$/03_night_city/c_pacifica/combat_zone_prefabUEX7DCY/monument_av_prefabCJD7Q4Q/loc_sts_ep1_06_prefab7J2LN5A/loc_sts_ep1_06_openworld_prefabV7KAIGA/#sts_ep1_06_com_crowd",
+        "$/03_night_city/c_pacifica/combat_zone_prefabUEX7DCY/monument_av_prefabCJD7Q4Q/loc_sts_ep1_06_prefab7J2LN5A/loc_sts_ep1_06_openworld_prefabV7KAIGA/#loc_sts_ep1_06_streetstory/#sts_ep1_06_com_fake_combat_npcs"
+      ],
+      "donor": "base\\worlds\\03_night_city\\_compiled\\default\\ep1\\quest_e1a2ca39daf3e5ef.streamingsector",
+      "held": {},
+      "keep": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        36,
+        37,
+        38,
+        39,
+        40,
+        42,
+        43,
+        44,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        59,
+        60,
+        61,
+        62,
+        64,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99
+      ],
+      "masters": {
+        "14": 13,
+        "52": 84
+      },
+      "name": "street",
+      "observed": [
+        {
+          "distance_m": 6.235267132027903e-06,
+          "entry": "waitress_fluff",
+          "node": 71,
+          "record": "Character.sts_ep1_06_waitress_fluff"
+        },
+        {
+          "distance_m": 5.4855061424657655e-06,
+          "entry": "chat_kurtz_001a",
+          "node": 30,
+          "record": "Character.sts_ep1_06_nightlife_ma_savable"
+        }
+      ],
+      "private_ref": "$/03_night_city/towercontinued/heavy_hearts_hh1/street",
+      "sha256": "0981213211DE646607CB1F774A4506219E7AC5B53887BE785E3F7E883F6D83D5",
+      "source_nodes": 184,
+      "unmapped_refs": [
+        "#sts_ep1_06_g_13_001",
+        "#sts_ep1_06_g_13_002",
+        "#sts_ep1_06_g_13_003",
+        "#sts_ep1_06_g_13_004",
+        "#sts_ep1_06_g_13_005",
+        "#sts_ep1_06_g_13_006",
+        "#sts_ep1_06_g_13_007",
+        "#sts_ep1_06_g_13_008",
+        "#sts_ep1_06_g_13_009",
+        "#sts_ep1_06_g_13_010",
+        "#sts_ep1_06_g_13_011",
+        "#sts_ep1_06_g_13_012",
+        "#sts_ep1_06_g_13_013",
+        "#sts_ep1_06_g_13_014",
+        "#sts_ep1_06_g_13_015",
+        "#sts_ep1_06_g_13_016",
+        "#sts_ep1_06_g_13_017",
+        "#sts_ep1_06_g_13_018",
+        "#sts_ep1_06_g_13_019",
+        "#sts_ep1_06_g_13_020",
+        "#sts_ep1_06_g_13_021",
+        "#sts_ep1_06_g_13_022",
+        "#sts_ep1_06_g_13_023",
+        "#sts_ep1_06_g_13_024",
+        "#sts_ep1_06_g_13_025",
+        "#sts_ep1_06_g_14_001",
+        "#sts_ep1_06_g_14_002",
+        "#sts_ep1_06_g_14_003",
+        "#sts_ep1_06_g_14_004",
+        "#sts_ep1_06_g_14_005",
+        "#sts_ep1_06_g_14_006",
+        "#sts_ep1_06_g_14_007",
+        "#sts_ep1_06_g_14_008",
+        "#sts_ep1_06_g_14_009",
+        "#sts_ep1_06_g_14_sexworker_001",
+        "#sts_ep1_06_g_14_sexworker_002",
+        "#sts_ep1_06_g_15_001",
+        "#sts_ep1_06_g_15_002",
+        "#sts_ep1_06_g_15_003",
+        "#sts_ep1_06_g_15_004",
+        "#sts_ep1_06_g_15_005",
+        "#sts_ep1_06_g_15_006",
+        "#sts_ep1_06_g_16_001",
+        "#sts_ep1_06_g_16_002",
+        "#sts_ep1_06_g_16_003",
+        "#sts_ep1_06_g_16_arasaka_001",
+        "#sts_ep1_06_g_16_arasaka_002",
+        "#sts_ep1_06_g_16_arasaka_003",
+        "#sts_ep1_06_g_16_arasaka_004",
+        "#sts_ep1_06_g_17_001",
+        "#sts_ep1_06_g_17_001_sexworker_001",
+        "#sts_ep1_06_g_17_001_sexworker_002",
+        "#sts_ep1_06_g_17_002",
+        "#sts_ep1_06_g_17_003",
+        "#sts_ep1_06_g_18_001",
+        "#sts_ep1_06_g_18_002",
+        "#sts_ep1_06_g_18_003",
+        "#sts_ep1_06_g_18_sexworker_001",
+        "#sts_ep1_06_g_18_sexworker_002",
+        "#sts_ep1_06_g_19_001",
+        "#sts_ep1_06_g_19_002",
+        "#sts_ep1_06_g_19_003",
+        "#sts_ep1_06_g_19_004",
+        "#sts_ep1_06_g_19_sexworker_001",
+        "#sts_ep1_06_g_19_sexworker_002",
+        "#sts_ep1_06_g_20_001",
+        "#sts_ep1_06_g_20_002",
+        "#sts_ep1_06_g_20_003",
+        "#sts_ep1_06_g_20_004",
+        "#sts_ep1_06_g_20_005",
+        "#sts_ep1_06_g_20_006",
+        "#sts_ep1_06_g_20_007",
+        "#sts_ep1_06_g_20_008",
+        "#sts_ep1_06_g_20_009",
+        "#sts_ep1_06_g_20_010",
+        "#sts_ep1_06_g_20_011",
+        "#sts_ep1_06_g_20_012",
+        "#sts_ep1_06_g_20_technician_001",
+        "#sts_ep1_06_g_20_wheelchair_001",
+        "#sts_ep1_06_g_20_wheelchair_002",
+        "#sts_ep1_06_g_21_001",
+        "#sts_ep1_06_g_21_002",
+        "#sts_ep1_06_g_21_003",
+        "#sts_ep1_06_g_21_004",
+        "#sts_ep1_06_g_21_005",
+        "#sts_ep1_06_g_21_006",
+        "#sts_ep1_06_g_21_007",
+        "#sts_ep1_06_g_21_008",
+        "#sts_ep1_06_g_21_009",
+        "#sts_ep1_06_g_21_010",
+        "#sts_ep1_06_g_21_011",
+        "#sts_ep1_06_g_21_013",
+        "#sts_ep1_06_g_21_014",
+        "#sts_ep1_06_g_25_001",
+        "#sts_ep1_06_g_25_002",
+        "#sts_ep1_06_g_25_003",
+        "#sts_ep1_06_g_25_004",
+        "#sts_ep1_06_g_corpos_17_001",
+        "#sts_ep1_06_g_corpos_17_002",
+        "#sts_ep1_06_g_corpos_17_003",
+        "#sts_ep1_06_g_corpos_17_004",
+        "#sts_ep1_06_ws_drunk_and_soldier_scene",
+        "#sts_ep1_06_ws_g_01_001",
+        "#sts_ep1_06_ws_g_01_002",
+        "#sts_ep1_06_ws_g_01_003",
+        "#sts_ep1_06_ws_g_01_004",
+        "#sts_ep1_06_ws_g_02_001",
+        "#sts_ep1_06_ws_g_02_002",
+        "#sts_ep1_06_ws_g_02_003_sexworker",
+        "#sts_ep1_06_ws_g_03_001",
+        "#sts_ep1_06_ws_g_03_002",
+        "#sts_ep1_06_ws_g_03_003",
+        "#sts_ep1_06_ws_g_03_004",
+        "#sts_ep1_06_ws_g_03_005",
+        "#sts_ep1_06_ws_g_03_006",
+        "#sts_ep1_06_ws_g_03_007",
+        "#sts_ep1_06_ws_g_03_008",
+        "#sts_ep1_06_ws_g_03_009",
+        "#sts_ep1_06_ws_g_05_01",
+        "#sts_ep1_06_ws_g_05_wheels",
+        "#sts_ep1_06_ws_g_06_002",
+        "#sts_ep1_06_ws_g_06_003",
+        "#sts_ep1_06_ws_g_06_004",
+        "#sts_ep1_06_ws_g_06_006",
+        "#sts_ep1_06_ws_g_06_008",
+        "#sts_ep1_06_ws_g_06_009",
+        "#sts_ep1_06_ws_g_06_010",
+        "#sts_ep1_06_ws_g_06_011",
+        "#sts_ep1_06_ws_g_06_militia",
+        "#sts_ep1_06_ws_g_06_sexworker_001",
+        "#sts_ep1_06_ws_g_06_sexworker_002",
+        "#sts_ep1_06_ws_g_07_001",
+        "#sts_ep1_06_ws_g_07_002",
+        "#sts_ep1_06_ws_g_07_003",
+        "#sts_ep1_06_ws_g_07_004",
+        "#sts_ep1_06_ws_g_07_005",
+        "#sts_ep1_06_ws_g_07_006",
+        "#sts_ep1_06_ws_g_07_007",
+        "#sts_ep1_06_ws_g_07_008",
+        "#sts_ep1_06_ws_g_07_009",
+        "#sts_ep1_06_ws_g_07_010",
+        "#sts_ep1_06_ws_g_07_011",
+        "#sts_ep1_06_ws_g_07_012",
+        "#sts_ep1_06_ws_g_07_big_012",
+        "#sts_ep1_06_ws_g_07_big_014",
+        "#sts_ep1_06_ws_g_07_big_015",
+        "#sts_ep1_06_ws_g_07_corpowoman",
+        "#sts_ep1_06_ws_g_07_vendor_016",
+        "#sts_ep1_06_ws_g_08_001",
+        "#sts_ep1_06_ws_g_08_002",
+        "#sts_ep1_06_ws_g_08_003",
+        "#sts_ep1_06_ws_g_08_004",
+        "#sts_ep1_06_ws_g_08_005",
+        "#sts_ep1_06_ws_g_08_006",
+        "#sts_ep1_06_ws_g_08_007",
+        "#sts_ep1_06_ws_g_08_kid_001",
+        "#sts_ep1_06_ws_g_08_kid_002",
+        "#sts_ep1_06_ws_g_08_sexworker_001",
+        "#sts_ep1_06_ws_g_08_sexworker_002",
+        "#sts_ep1_06_ws_g_08_sexworker_003",
+        "#sts_ep1_06_ws_g_09_001",
+        "#sts_ep1_06_ws_g_09_002",
+        "#sts_ep1_06_ws_g_09_003",
+        "#sts_ep1_06_ws_g_09_citizen_ask_001",
+        "#sts_ep1_06_ws_g_09_citizen_ask_002",
+        "#sts_ep1_06_ws_g_09_citizen_ask_003",
+        "#sts_ep1_06_ws_g_10_001",
+        "#sts_ep1_06_ws_g_10_002",
+        "#sts_ep1_06_ws_g_10_003",
+        "#sts_ep1_06_ws_g_10_004",
+        "#sts_ep1_06_ws_g_10_005",
+        "#sts_ep1_06_ws_g_10_006",
+        "#sts_ep1_06_ws_g_10_007",
+        "#sts_ep1_06_ws_g_10_008",
+        "#sts_ep1_06_ws_g_10_009",
+        "#sts_ep1_06_ws_g_10_010",
+        "#sts_ep1_06_ws_g_10_011",
+        "#sts_ep1_06_ws_g_10_012",
+        "#sts_ep1_06_ws_g_22_001",
+        "#sts_ep1_06_ws_g_22_002",
+        "#sts_ep1_06_ws_g_22_003",
+        "#sts_ep1_06_ws_g_22_004",
+        "#sts_ep1_06_ws_g_22_005",
+        "#sts_ep1_06_ws_g_22_006",
+        "#sts_ep1_06_ws_g_22_007",
+        "#sts_ep1_06_ws_g_22_008",
+        "#sts_ep1_06_ws_g_22_009",
+        "#sts_ep1_06_ws_g_22_010",
+        "#sts_ep1_06_ws_g_22_011",
+        "#sts_ep1_06_ws_g_22_012",
+        "#sts_ep1_06_ws_g_22_014",
+        "#sts_ep1_06_ws_g_22_015",
+        "#sts_ep1_06_ws_g_22_017",
+        "#sts_ep1_06_ws_g_22_018",
+        "#sts_ep1_06_ws_g_22_019",
+        "#sts_ep1_06_ws_g_22_020",
+        "#sts_ep1_06_ws_g_22_021"
+      ],
+      "workspots": [
+        "base\\workspots\\archetype\\dirtgirl\\dirtgirl__stand__stand_around__01.workspot",
+        "base\\workspots\\bar\\bar\\generic__stand_bar_lean_front_rag__clean__01.workspot",
+        "base\\workspots\\bar\\bar\\generic__stand_bar_whisky__drink__01.workspot",
+        "base\\workspots\\bar\\bar_and_barstool\\generic__sit_barstool_bar_lean_front_can__drink__01.workspot",
+        "base\\workspots\\bar\\chair\\generic__sit_chair__drunk__01.workspot",
+        "base\\workspots\\common\\bar\\generic__sit_bar_lean_front__legs_crossed__01.workspot",
+        "base\\workspots\\common\\bar\\generic__stand_bar_lean_front__stand_around__04.workspot",
+        "base\\workspots\\common\\bar\\generic__stand_bar_lean_right__stand_around__01.workspot",
+        "base\\workspots\\common\\bar_and_barstool\\generic__sit_barstool_bar_lean_front_vodka__drink__01.workspot",
+        "base\\workspots\\common\\bench\\generic__sit_bench_lean_back__braindance__02.workspot",
+        "base\\workspots\\common\\chair\\generic__sit_chair__cheer__01.workspot",
+        "base\\workspots\\common\\chair\\generic__sit_chair_bottle_small__drink__01.workspot",
+        "base\\workspots\\common\\chair\\generic__sit_chair_lean_back__sit_around__03.workspot",
+        "base\\workspots\\common\\chair\\generic__sit_chair_lean_front__nervous__01.workspot",
+        "base\\workspots\\common\\chair\\generic__sit_chair_lean_front__sit_around__02.workspot",
+        "base\\workspots\\common\\chair\\generic__sit_chair_lean_front_cigarette__smoke__01.workspot",
+        "base\\workspots\\common\\chair\\generic__sit_chair_lean_front_glass__drink__01.workspot",
+        "base\\workspots\\common\\chair\\generic__sit_chair_lean_front_glass__drink__02.workspot",
+        "base\\workspots\\common\\chair\\generic__sit_chair_lean_front_gun__clean__01.workspot",
+        "base\\workspots\\common\\chair\\generic__sit_chair_tablet__read__01.workspot",
+        "base\\workspots\\common\\couch\\big__sit_couch_lean_back_gun__relax__01.workspot",
+        "base\\workspots\\common\\couch\\generic__sit_couch__sit_around__02.workspot",
+        "base\\workspots\\common\\couch\\generic__sit_couch_lean_back__braindance_sexual__01.workspot",
+        "base\\workspots\\common\\couch\\generic__sit_couch_lean_back_bottle__drink__01.workspot",
+        "base\\workspots\\common\\couch\\generic__sit_couch_lean_back_champagne__drink__01.workspot",
+        "base\\workspots\\common\\ground\\corpo__stand_tablet__work__01.workspot",
+        "base\\workspots\\common\\ground\\fat__stand_ground_cigarette__stand_around__01.workspot",
+        "base\\workspots\\common\\ground\\generic__kneel_ground__inspect__01.workspot",
+        "base\\workspots\\common\\ground\\generic__kneel_ground__kneel_around__01.workspot",
+        "base\\workspots\\common\\ground\\generic__kneel_ground_tablet__use__01.workspot",
+        "base\\workspots\\common\\ground\\generic__stand__stand_around__11.workspot",
+        "base\\workspots\\common\\ground\\generic__stand_bottle__drink__01.workspot",
+        "base\\workspots\\common\\ground\\generic__stand_ground__cry__01.workspot",
+        "base\\workspots\\common\\ground\\generic__stand_ground__dance__01.workspot",
+        "base\\workspots\\common\\ground\\generic__stand_ground__nervous__02.workspot",
+        "base\\workspots\\common\\ground\\generic__stand_ground__stand_around__01.workspot",
+        "base\\workspots\\common\\ground\\generic__stand_ground_arms_crossed__stand_around__02.workspot",
+        "base\\workspots\\common\\ground\\generic__stand_ground_arms_crossed__stand_around__03.workspot",
+        "base\\workspots\\common\\ground\\generic__stand_ground_cigarette__smoke__01.workspot",
+        "base\\workspots\\common\\ground\\generic__stand_ground_drug__inhale__01.workspot",
+        "base\\workspots\\common\\ground\\generic__stand_ground_headphones__dance__01.workspot",
+        "base\\workspots\\common\\ground\\generic__stand_ground_mirror_reflection__check__01.workspot",
+        "base\\workspots\\common\\ground\\generic__stand_mop__cleaning_floor__01.workspot",
+        "base\\workspots\\common\\rail\\generic__stand_rail_lean_back_cigarette__smoke__01.workspot",
+        "base\\workspots\\common\\rail\\generic__stand_rail_lean_front_cigarette__smoke__01.workspot",
+        "base\\workspots\\common\\wall\\dirt__stand_wall_lean_back_cigarette__smoke__01.workspot",
+        "base\\workspots\\common\\wall\\generic__stand_wall_lean_back__stand_around__01.workspot",
+        "base\\workspots\\common\\wall\\generic__stand_wall_lean_back_cigarette__smoke__01.workspot",
+        "base\\workspots\\common\\wall\\generic__stand_wall_lean_right__stand_around__01.workspot",
+        "base\\workspots\\diner\\ground\\generic__stand_tablet__take_order__01.workspot",
+        "base\\workspots\\nightclub\\chair\\generic__sit_chair_lean_back__watch_poledancing__01.workspot",
+        "base\\workspots\\patrolling\\cyberpsycho\\stand_ground_cyberpsycho_paranoid.workspot",
+        "base\\workspots\\quest\\main_quests\\part1\\q103\\q103_03_rogue\\generic__sit_couch__lean_back__phone__01.workspot",
+        "base\\workspots\\street\\bench\\synced__female__sit_bench__flirting__01.workspot",
+        "base\\workspots\\street\\bench\\synced__male__sit_bench__flirting__01.workspot",
+        "ep1\\workspots\\synced\\ep1__synced__generic__sit_ground_tablet__chilling__01__npc1.workspot",
+        "ep1\\workspots\\synced\\ep1__synced__generic__sit_ground_tablet__chilling__01__npc2.workspot"
+      ]
+    },
+    {
+      "bindings": [
+        {
+          "community": "4800043633707195335",
+          "entry": "bouncer",
+          "node": 16,
+          "record": "Character.sts_ep1_06_enemy_bouncer_outside_sts",
+          "ref": "#sts_ep1_06_enemy_001"
+        },
+        {
+          "community": "4800043633707195335",
+          "entry": "changing_room",
+          "node": 47,
+          "record": "Character.sts_ep1_06_enemy_rifle_suit_wa_outside_sts",
+          "ref": "#sts_ep1_06_changing_room_guard_a"
+        },
+        {
+          "community": "4800043633707195335",
+          "entry": "changing_room",
+          "node": 46,
+          "record": "Character.sts_ep1_06_enemy_rifle_suit_wa_outside_sts",
+          "ref": "#sts_ep1_06_changing_room_guard_b"
+        },
+        {
+          "community": "4800043633707195335",
+          "entry": "changing_room",
+          "node": 45,
+          "record": "Character.sts_ep1_06_enemy_rifle_suit_wa_outside_sts",
+          "ref": "#sts_ep1_06_changing_room_guard_c"
+        },
+        {
+          "community": "4800043633707195335",
+          "entry": "enemy_001_additional",
+          "node": 6,
+          "record": "Character.sts_ep1_06_enemy_melee_mb_elite_outside_sts",
+          "ref": "#sts_ep1_06_enemy_after_combat_001"
+        },
+        {
+          "community": "4800043633707195335",
+          "entry": "enemy_002",
+          "node": 17,
+          "record": "Character.sts_ep1_06_enemy_melee_mb_suit_elite_outside_sts",
+          "ref": "#sts_ep1_06_enemy_002"
+        },
+        {
+          "community": "4800043633707195335",
+          "entry": "enemy_002",
+          "node": 27,
+          "record": "Character.sts_ep1_06_enemy_melee_mb_suit_elite_outside_sts",
+          "ref": "#sts_ep1_06_enemy_002_after_sts"
+        },
+        {
+          "community": "4800043633707195335",
+          "entry": "enemy_002",
+          "node": 44,
+          "record": "Character.sts_ep1_06_enemy_melee_mb_suit_elite_outside_sts",
+          "ref": "#sts_ep1_06_enemy_002_before_sts"
+        },
+        {
+          "community": "4800043633707195335",
+          "entry": "enemy_002",
+          "node": 23,
+          "record": "Character.sts_ep1_06_enemy_melee_mb_suit_elite_outside_sts",
+          "ref": "#sts_ep1_06_enemy_002_before_sts_night"
+        },
+        {
+          "community": "4800043633707195335",
+          "entry": "enemy_002_additional",
+          "node": 7,
+          "record": "Character.sts_ep1_06_enemy_handgun_rare_suit_wa_outside_sts",
+          "ref": "#sts_ep1_06_enemy_after_combat_002"
+        },
+        {
+          "community": "4800043633707195335",
+          "entry": "enemy_003",
+          "node": 30,
+          "record": "Character.sts_ep1_06_enemy_rifle_suit_wa_outside_sts",
+          "ref": "#sts_ep1_06_enemy_003a"
+        },
+        {
+          "community": "4800043633707195335",
+          "entry": "enemy_003_additional",
+          "node": 8,
+          "record": "Character.sts_ep1_06_enemy_melee_ma_outisde_sts",
+          "ref": "#sts_ep1_06_enemy_after_combat_003"
+        },
+        {
+          "community": "4800043633707195335",
+          "entry": "enemy_004",
+          "node": 31,
+          "record": "Character.sts_ep1_06_enemy_shotgun_rare_suit_ma_outside_sts",
+          "ref": "#sts_ep1_06_enemy_004a"
+        },
+        {
+          "community": "4800043633707195335",
+          "entry": "enemy_004",
+          "node": 32,
+          "record": "Character.sts_ep1_06_enemy_shotgun_rare_suit_ma_outside_sts",
+          "ref": "#sts_ep1_06_enemy_004b"
+        },
+        {
+          "community": "4800043633707195335",
+          "entry": "enemy_004_additional",
+          "node": 9,
+          "record": "Character.sts_ep1_06_enemy_melee_mb_suit_elite_outside_sts",
+          "ref": "#sts_ep1_06_enemy_after_combat_004"
+        },
+        {
+          "community": "4800043633707195335",
+          "entry": "enemy_004_additional",
+          "node": 10,
+          "record": "Character.sts_ep1_06_enemy_melee_mb_suit_elite_outside_sts",
+          "ref": "#sts_ep1_06_enemy_after_combat_005"
+        },
+        {
+          "community": "4800043633707195335",
+          "entry": "enemy_005_additional",
+          "node": 11,
+          "record": "Character.sts_ep1_06_enemy_melee_ma_outisde_sts",
+          "ref": "#sts_ep1_06_enemy_after_combat_006"
+        },
+        {
+          "community": "4800043633707195335",
+          "entry": "enemy_006",
+          "node": 33,
+          "record": "Character.sts_ep1_06_enemy_melee_mb_suit_elite_outside_sts",
+          "ref": "#sts_ep1_06_enemy_006a"
+        },
+        {
+          "community": "4800043633707195335",
+          "entry": "enemy_006",
+          "node": 15,
+          "record": "Character.sts_ep1_06_enemy_melee_mb_suit_elite_outside_sts",
+          "ref": "#sts_ep1_06_enemy_before_sts"
+        },
+        {
+          "community": "4800043633707195335",
+          "entry": "enemy_006_additional",
+          "node": 12,
+          "record": "Character.sts_ep1_06_enemy_shotgun_rare_ma_outisde_sts",
+          "ref": "#sts_ep1_06_enemy_after_combat_007"
+        },
+        {
+          "community": "4800043633707195335",
+          "entry": "enemy_007",
+          "node": 34,
+          "record": "Character.sts_ep1_06_enemy_rifle_suit_ma_outside_sts",
+          "ref": "#sts_ep1_06_enemy_007a"
+        },
+        {
+          "community": "4800043633707195335",
+          "entry": "enemy_007_additional",
+          "node": 5,
+          "record": "Character.sts_ep1_06_enemy_handgun_rare_wa_outisde_sts",
+          "ref": "#sts_ep1_06_enemy_after_combat_008"
+        },
+        {
+          "community": "4800043633707195335",
+          "entry": "enemy_008",
+          "node": 35,
+          "record": "Character.sts_ep1_06_enemy_netrunner_rare_suit_ma_outside_sts",
+          "ref": "#sts_ep1_06_enemy_008a"
+        },
+        {
+          "community": "4800043633707195335",
+          "entry": "enemy_009",
+          "node": 22,
+          "record": "Character.sts_ep1_06_enemy_rifle_suit_ma_outside_sts",
+          "ref": "#sts_ep1_06_enemy__009a"
+        },
+        {
+          "community": "4800043633707195335",
+          "entry": "enemy_010",
+          "node": 18,
+          "record": "Character.sts_ep1_06_enemy_melee_suit_ma_outside_sts",
+          "ref": "#sts_ep1_06_enemy_010"
+        },
+        {
+          "community": "4800043633707195335",
+          "entry": "enemy_010",
+          "node": 28,
+          "record": "Character.sts_ep1_06_enemy_melee_suit_ma_outside_sts",
+          "ref": "#sts_ep1_06_enemy_010_vip_area"
+        },
+        {
+          "community": "4800043633707195335",
+          "entry": "enemy_019",
+          "node": 21,
+          "record": "Character.sts_ep1_06_enemy_rifle_suit_ma_outside_sts",
+          "ref": "#sts_ep1_06_enemy_019"
+        },
+        {
+          "community": "4800043633707195335",
+          "entry": "enemy_019",
+          "node": 42,
+          "record": "Character.sts_ep1_06_enemy_rifle_suit_ma_outside_sts",
+          "ref": "#sts_ep1_06_enemy_019_night"
+        }
+      ],
+      "communities": [
+        "$/03_night_city/c_pacifica/combat_zone_prefabUEX7DCY/monument_av_prefabCJD7Q4Q/loc_sts_ep1_06_prefab7J2LN5A/loc_sts_ep1_06_openworld_prefabV7KAIGA/#loc_sts_ep1_06_combat/#sts_ep1_06_com_fake_barghest_guard"
+      ],
+      "donor": "base\\worlds\\03_night_city\\_compiled\\default\\ep1\\quest_7a9b44ec65844635.streamingsector",
+      "held": {
+        "23": "Missing standalone action spot or external look-at dependency",
+        "27": "Missing standalone action spot or external look-at dependency"
+      },
+      "keep": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        15,
+        16,
+        17,
+        18,
+        21,
+        22,
+        28,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        42,
+        44,
+        45,
+        46,
+        47
+      ],
+      "masters": {},
+      "name": "guard",
+      "observed": [
+        {
+          "distance_m": 3.5556282049801286e-06,
+          "entry": "enemy_019",
+          "node": 42,
+          "record": "Character.sts_ep1_06_enemy_rifle_suit_ma_outside_sts"
+        }
+      ],
+      "private_ref": "$/03_night_city/towercontinued/heavy_hearts_hh1/guard",
+      "sha256": "D4F16B96E02B0083C5C408C8A74FEE9976D31712524A465769853051E3C7D0DC",
+      "source_nodes": 139,
+      "unmapped_refs": [],
+      "workspots": [
+        "base\\workspots\\bar\\bar\\generic__stand_bar_lean_right__stand_around__01.workspot",
+        "base\\workspots\\common\\bar\\generic__stand_bar_lean_front__stand_around__07.workspot",
+        "base\\workspots\\common\\chair\\generic__sit_chair_lean_front__think__02.workspot",
+        "base\\workspots\\common\\ground\\bodyguard__stand_ground__2h_back__01.workspot",
+        "base\\workspots\\common\\ground\\generic__kneel_ground_tablet__use__01.workspot",
+        "base\\workspots\\common\\ground\\generic__stand_ground__guard__01.workspot",
+        "base\\workspots\\common\\ground\\generic__stand_ground__guard__02.workspot",
+        "base\\workspots\\common\\ground\\generic__stand_ground_arms_crossed__stand_around__03.workspot",
+        "base\\workspots\\patrolling\\guard_stand.workspot",
+        "base\\workspots\\patrolling\\patrolling_stand.workspot",
+        "base\\workspots\\routine\\routine__dirt__stand_ground.workspot",
+        "base\\workspots\\routine\\routine__stand_ground.workspot",
+        "base\\workspots\\routine\\routine__stand_ground_pills__take.workspot",
+        "base\\workspots\\routine\\routine__stand_rail_lean_front_cellphone__talk.workspot",
+        "base\\workspots\\routine\\routine__stand_wall_lean_back.workspot"
+      ]
+    }
+  ]
+}

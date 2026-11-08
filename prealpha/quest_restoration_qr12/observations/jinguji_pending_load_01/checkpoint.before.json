@@ -1,0 +1,43 @@
+{
+  "state": "QR12_COMPLETE_NO_READY_TEST",
+  "completion": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr12\\completion.json",
+  "completion_sha256": "C7124994E13BDC91DE04C23255302D299181A0DAC4EA0F9898C164A88662649C",
+  "analysis": "analysis_final_02",
+  "manual_plan": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr12\\MANUAL_TEST_PLAN.md",
+  "handoff": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr12\\HANDOFF.md",
+  "next": "User may perform one short pending-checkpoint load/resume from current pinned AutoSave-3,2Nov16:33:46, using main-menu-armed S05. Follow jinguji_pending_load_01/NEXT_STEPS.md; no fight replay.",
+  "runtime_installed_changes": 0,
+  "game_launches": 0,
+  "save_or_fact_writes": 0,
+  "CUA_calls": 0,
+  "latest_human_eligibility": {
+    "result": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr12\\observations\\runtime_eligibility_02\\result.json",
+    "sha256": "1389130A45BAD0F1BD01B97B92F5F7F9B6B5A4A09B71A20C5D83C67FD61E0786",
+    "handoff": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr12\\observations\\runtime_eligibility_02\\HANDOFF.md",
+    "save_identity": "UNCONFIRMED_LOADED_SLOT",
+    "next": "No immediate special test or further fact checks. Skip user-reported completed Skippy and unsubscribed Ronald."
+  },
+  "latest_user_requested_replay": {
+    "manifest": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr12\\jinguji_replay_01\\fixture_manifest.json",
+    "manifest_sha256": "6969C31387C4650CA6351EE4F49B17868FB28834D73445596414B6EA41C06AFC",
+    "steps": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr12\\jinguji_replay_01\\NEXT_STEPS.md",
+    "handoff": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr12\\jinguji_replay_01\\HANDOFF.md",
+    "status": "EARLIER_SAVE_CANDIDATES_PREPARED_AWAITING_USER_MANUAL_LOAD_AND_REPLAY",
+    "scope": "Explicit user-requested Jinguji replay; no runtime changes or assistant game control."
+  },
+  "latest_replay_assessment": {
+    "result": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr12\\observations\\jinguji_replay_01\\result.json",
+    "result_sha256": "2FBE8A4E50F9F0B456C1F040B3F89B39B5D2ED5DA14901F2C1637332550FD8BC",
+    "report": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr12\\observations\\jinguji_replay_01\\REPORT.md",
+    "handoff": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr12\\observations\\jinguji_replay_01\\HANDOFF.md",
+    "status": "SAMPLER_ACTIVATION_VERIFIED_COMPLETION_OUTSIDE_CAPTURE",
+    "death_reload_user_confirmed": true
+  },
+  "latest_pending_load_plan": {
+    "preflight": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr12\\jinguji_pending_load_01\\preflight.json",
+    "preflight_sha256": "D7FE81C3AB9D243F982DF5511FAB6873DA4B43F0C66D3D1489E8A1816F797F1F",
+    "steps": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr12\\jinguji_pending_load_01\\NEXT_STEPS.md",
+    "handoff": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr12\\jinguji_pending_load_01\\HANDOFF.md",
+    "status": "READY_FOR_NARROW_ACTIVE_CHECKPOINT_RESUME_OBSERVATION"
+  }
+}

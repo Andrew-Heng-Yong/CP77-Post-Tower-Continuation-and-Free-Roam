@@ -1,0 +1,70 @@
+// UNEXECUTED text fragment. Coordinator inserts before SnapshotStateHS1 in
+// PTFR_HistorySnapshotHS1.reds, within its existing module/import context.
+// No persistent field, schema, catalogue or fingerprint change.
+public abstract class BrendanFinalDataQR13 {
+  public static func State(paths:array<String>,states:array<Int32>,path:String) -> Int32 {
+    if ArraySize(paths)!=ArraySize(states) { return -1; }
+    let count=0;let answer=-1;let k=0;
+    while k<ArraySize(paths) {
+      if Equals(paths[k],path) { count+=1;answer=states[k]; }k+=1;
+    }
+    return count==1 ? answer : -1;
+  }
+  public static func Fact(names:array<String>,facts:array<Int32>,name:String) -> Int32 {
+    if ArraySize(names)!=ArraySize(facts) { return -2147483647; }
+    let count=0;let answer=-2147483647;let k=0;
+    while k<ArraySize(names) {
+      if Equals(names[k],name) { count+=1;answer=facts[k]; }k+=1;
+    }
+    return count==1 ? answer : -2147483647;
+  }
+  public static func Names() -> array<String> {
+    return ["hey_rey_techstore_01_default_on","mq037_01_05Sure","mq037_brendan_introduced","mq037_clerk_aggroed","mq037_clerk_convinced","mq037_done","mq037_final_scene_active","mq037_kill_token_block_loop","mq037_post_girl_scene_on","mq037_vandal_painted_brendan"];
+  }
+  public static func Match(paths:array<String>,states:array<Int32>,names:array<String>,facts:array<Int32>) -> Bool {
+    let i=SnapshotDataHS1.Index("mq037_brendan");
+    if i<0 || ArraySize(paths)!=18 || ArraySize(states)!=18 || ArraySize(names)!=ArraySize(facts) || (ArraySize(names)!=10 && ArraySize(names)!=11) { return false; }
+    let expected=SnapshotDataHS1.Paths(i);if ArraySize(expected)!=18 { return false; }
+    let k=0;let value:Int32;
+    while k<ArraySize(expected) {
+      value=BrendanFinalDataQR13.State(paths,states,expected[k]);
+      if value<1 || value>4 { return false; }k+=1;
+    }
+    let nativeNames=BrendanFinalDataQR13.Names();k=0;
+    while k<ArraySize(nativeNames) {
+      value=BrendanFinalDataQR13.Fact(names,facts,nativeNames[k]);
+      if value<0 || value>1 { return false; }k+=1;
+    }
+    // HS1 includes the separate native bugfix catalogue fact; S23 does not.
+    // Reject any unexpected/duplicate name, without constraining that unrelated
+    // merchant value or writing it. Required ten names were checked uniquely.
+    if ArraySize(names)==11 && BrendanFinalDataQR13.Fact(names,facts,"travelling_merchant_lives")==-2147483647 { return false; }
+    k=0;let j=0;let known=false;
+    while k<ArraySize(names) {
+      known=Equals(names[k],"travelling_merchant_lives");j=0;
+      while j<ArraySize(nativeNames) { if Equals(names[k],nativeNames[j]) { known=true; }j+=1; }
+      if !known { return false; }k+=1;
+    }
+    return BrendanFinalDataQR13.State(paths,states,"quests/minor_quest/mq037_brendan")==2 &&
+      BrendanFinalDataQR13.State(paths,states,"quests/minor_quest/mq037_brendan/mq037_brendan/01_go_to_service")==3 &&
+      BrendanFinalDataQR13.State(paths,states,"quests/minor_quest/mq037_brendan/mq037_brendan/02_find_brendan")==3 &&
+      BrendanFinalDataQR13.State(paths,states,"quests/minor_quest/mq037_brendan/mq037_brendan/02b_ask_clerk")==3 &&
+      BrendanFinalDataQR13.State(paths,states,"quests/minor_quest/mq037_brendan/mq037_brendan/02c_destroy_turret")==1 &&
+      BrendanFinalDataQR13.State(paths,states,"quests/minor_quest/mq037_brendan/mq037_brendan/03_talk_brendan")==3 &&
+      BrendanFinalDataQR13.State(paths,states,"quests/minor_quest/mq037_brendan/mq037_brendan/04_talk_theo")==2 &&
+      BrendanFinalDataQR13.State(paths,states,"quests/minor_quest/mq037_brendan_dumpster")==3 &&
+      BrendanFinalDataQR13.State(paths,states,"quests/minor_quest/mq037_brendan_dumpster/mq037_brendan_dumpster/00_push_dumpster")==3 &&
+      BrendanFinalDataQR13.State(paths,states,"quests/minor_quest/mq037_brendan_dumpster/mq037_brendan_dumpster/01_talk_brendan")==3 &&
+      BrendanFinalDataQR13.State(paths,states,"quests/minor_quest/mq037_brendan_hooligan001")==3 &&
+      BrendanFinalDataQR13.State(paths,states,"quests/minor_quest/mq037_brendan_hooligan001/mq037_brendan_hooligan/00_deal_with_the_hooligan")==3 &&
+      BrendanFinalDataQR13.State(paths,states,"quests/minor_quest/mq037_brendan_hooligan001/mq037_brendan_hooligan/01_talk_with_brendan")==3 &&
+      BrendanFinalDataQR13.Fact(names,facts,"hey_rey_techstore_01_default_on")==0 &&
+      BrendanFinalDataQR13.Fact(names,facts,"mq037_brendan_introduced")==1 &&
+      BrendanFinalDataQR13.Fact(names,facts,"mq037_clerk_convinced")==1 &&
+      BrendanFinalDataQR13.Fact(names,facts,"mq037_clerk_aggroed")==0 &&
+      BrendanFinalDataQR13.Fact(names,facts,"mq037_kill_token_block_loop")==1 &&
+      BrendanFinalDataQR13.Fact(names,facts,"mq037_done")==0 &&
+      BrendanFinalDataQR13.Fact(names,facts,"mq037_final_scene_active")==0 &&
+      BrendanFinalDataQR13.Fact(names,facts,"mq037_vandal_painted_brendan")==0;
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "status": "SUPERSEDED_AS_CURRENT_WORKFLOW",
+  "recorded_date": "2026-11-07",
+  "review_revision": "J5-03",
+  "authority": "User: ill type (remove) right after [J5-hex nmbr] to indicate line need to be removed",
+  "selection_marker": "(remove)",
+  "marker_position": "Immediately after the closing bracket of the event ID; optional spaces or tabs are allowed.",
+  "example": "[J5-49EBE25F05](remove) Johnny: ...",
+  "document_can_remain_intact": true,
+  "selection_rule": "Only an exact, known event ID explicitly followed by (remove) requests removal.",
+  "unmarked_or_deleted_entries": "NO_REMOVAL_SELECTED",
+  "repeated_ids": "One marked copy selects the exact event once; unmarked repetitions do not cancel the marker.",
+  "variant_scope": "The existing ID still represents its full event and supplied wording variants; variant-specific requests need review.",
+  "ambiguous_or_edited_text": "HOLD_FOR_REVIEW",
+  "supersedes": "Delete-to-select instructions in the issued J5-03 document and earlier review guidance.",
+  "preserved_original": "evidence_05/original_review_five_quests_03.txt",
+  "source_mapping": "evidence_05/review_manifest.json",
+  "approved_removal_events": 0,
+  "implementation_authorized_by_format_change": false,
+  "superseded_by": "prealpha/johnny_video_review_20261107_01/review_protocol.json"
+}

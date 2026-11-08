@@ -1,0 +1,158 @@
+{
+  "slots": 102,
+  "offline_backups": 102,
+  "unique_bodies": 171,
+  "parse_failures": 0,
+  "excluded_fixture_or_crash_paths": 3278,
+  "fact_names": 265,
+  "journal_paths": 43,
+  "game_slot_classifications": {
+    "BLOCKED_BY_HISTORY": 143,
+    "UNKNOWN": 627,
+    "NOT_TESTABLE": 75,
+    "REQUIRES_MANUAL_PREREQUISITE": 73
+  },
+  "ready_scenarios": [],
+  "game_scenario_counts": {
+    "BRENDAN_earned_descendant_preservation": {
+      "UNKNOWN": 93,
+      "NOT_TESTABLE": 9
+    },
+    "BRENDAN_unearned_fresh_containment": {
+      "BLOCKED_BY_HISTORY": 22,
+      "NOT_TESTABLE": 9,
+      "UNKNOWN": 71
+    },
+    "CVI02_fresh_specialized_calls": {
+      "BLOCKED_BY_HISTORY": 99,
+      "NOT_TESTABLE": 3
+    },
+    "NITRO_existing_issued_preservation": {
+      "UNKNOWN": 93,
+      "NOT_TESTABLE": 9
+    },
+    "NITRO_fresh_admission": {
+      "BLOCKED_BY_HISTORY": 22,
+      "NOT_TESTABLE": 9,
+      "REQUIRES_MANUAL_PREREQUISITE": 71
+    },
+    "OTHER_shared_owner_lifecycles": {
+      "UNKNOWN": 93,
+      "NOT_TESTABLE": 9
+    },
+    "PENDING_owner_interrupt_reload_rewards": {
+      "UNKNOWN": 93,
+      "NOT_TESTABLE": 9
+    },
+    "RONALD_prospective_news": {
+      "UNKNOWN": 91,
+      "NOT_TESTABLE": 9,
+      "REQUIRES_MANUAL_PREREQUISITE": 2
+    },
+    "SKIPPY_supported_return_1101": {
+      "UNKNOWN": 93,
+      "NOT_TESTABLE": 9
+    }
+  },
+  "saved_positive_counts": {
+    "cvi_02_finished": {
+      "distinct_bodies": 168,
+      "game_slots": 99
+    },
+    "q302_ronald_messages_enabled": {
+      "distinct_bodies": 0,
+      "game_slots": 0
+    },
+    "mq007_skippy_owner_known": {
+      "distinct_bodies": 0,
+      "game_slots": 0
+    },
+    "mq007_done": {
+      "distinct_bodies": 0,
+      "game_slots": 0
+    },
+    "mq037_brendan_introduced": {
+      "distinct_bodies": 0,
+      "game_slots": 0
+    },
+    "mq037_done": {
+      "distinct_bodies": 0,
+      "game_slots": 0
+    }
+  },
+  "CVI_game_nonterminal": [
+    "EndGameSave-0",
+    "EndGameSave-1",
+    "EndGameSave-2"
+  ],
+  "purchases_observed_values": [
+    1
+  ],
+  "evidence_limits": "All matching fact tables retained. No missing=zero rule. Journal state/owner liveness not decoded. Offline backups not automatically loadable/genuine. Same metadata IDs not ancestry.",
+  "parser_inputs": [
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr12\\probe_01.json",
+      "sha256": "C234C7D3B7284FDDE92CD8DCB475C89276CE518E5DCA1E25678D3A1CE7AED8D8"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr12\\batch_001.json",
+      "sha256": "B1795DA0098DF5C7F028497A0E04609BF596F496D0CAC3AEB13A95712F64D134"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr12\\batch_013.json",
+      "sha256": "6A5FED99FD0971CC079C722369F0075463DD87ED72BEAF080C2243390149172A"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr12\\batch_025.json",
+      "sha256": "7422FC4BF6D80A13A4799BC869F8CF3B49AA5C906CE51B13677883056779BD49"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr12\\batch_037.json",
+      "sha256": "587446988CB8942D17769EBA20B6270ACA3F56C74F76064268FD553CF317A5FB"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr12\\batch_049.json",
+      "sha256": "C931932D132F0F87349205360DFA14A6D645919ED5BBA95584CB1F759A8EB93B"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr12\\batch_061.json",
+      "sha256": "73406F71F18098A06265442577A98034AF0C08AF3CDD9D41EC4A21A6E94D9BC8"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr12\\batch_073.json",
+      "sha256": "D5EB43FF5CAC4B12FF6CA3D2289DEA44C440A998CFED3C4634D0F1E60090838D"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr12\\batch_085.json",
+      "sha256": "A80F5F026BB6F4FDE468A1B97AE60AF50388F002E8E535FDF6A9DC4A18259769"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr12\\batch_097.json",
+      "sha256": "EF3702390F7F74C5B407B1FE3FDAFC2E803A4F0EBE69A473418BDFD5CBA280EF"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr12\\batch_109.json",
+      "sha256": "CDC9BFC2A80DFE6F3BE0F4BC3F138A2D3AB12AD136F054190DD04217738D106E"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr12\\batch_121.json",
+      "sha256": "DC291FB783E43A9D0AF13375870DF600D8DBCDC73AB6377955640C828ECAE280"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr12\\batch_133.json",
+      "sha256": "B8A9D93AEB5D498C3052D385BFB61861BEB7E8CC91C80C5410F5313101DA6DBD"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr12\\batch_145.json",
+      "sha256": "8FA61B87448302E5CF2971C29782BFF1C504DF294EE92016ABADEF264FEAFB80"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr12\\batch_157.json",
+      "sha256": "6A8AAB1EC7DC4E38968FF61A35AB812C09266D91DD60A328E0332971133FA653"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr12\\batch_169.json",
+      "sha256": "125E525B22F0F46E3809E0AA126BFCBFBB74C963AE4BC5725FCFE89DC9CF3A56"
+    }
+  ]
+}

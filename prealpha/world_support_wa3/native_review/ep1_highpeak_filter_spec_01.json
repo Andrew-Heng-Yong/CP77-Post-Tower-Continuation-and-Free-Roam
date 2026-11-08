@@ -1,0 +1,115 @@
+{
+  "id": 1111,
+  "native_prefab": "$/03_night_city/c_pacifica/combat_zone_prefabUEX7DCY/high_peak_prefabAMBSEZY/#high_peak_openworld/#high_peak_combat",
+  "sector_resource": "base\\worlds\\03_night_city\\_compiled\\default\\ep1\\quest_746e38ed6d41094a.streamingsector",
+  "sector_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\ep1_prefab_native_03\\ep1_1_nightcity.archive\\base\\worlds\\03_night_city\\_compiled\\default\\ep1\\quest_746e38ed6d41094a.streamingsector",
+  "sector_sha256": "31925367DFB728ACC00D391B0D8442945DEB64B59A7BE60C67E110262F61C06F",
+  "sector_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\ep1_prefab_decoded_01\\base\\worlds\\03_night_city\\_compiled\\default\\ep1\\quest_746e38ed6d41094a.streamingsector.json",
+  "native_block_raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\world_support_wa3\\native_review\\ep1_block_native_01\\ep1_1_nightcity.archive\\base\\worlds\\03_night_city\\_compiled\\default\\ep1\\blocks\\all.streamingblock",
+  "native_block_sha256": "4F17762B48D9F5019228B1BF930558A9CC1E7C365E7002725D670A23585215B9",
+  "native_descriptor_index": 1977,
+  "native_descriptor": {
+    "$type": "worldStreamingSectorDescriptor",
+    "blockIndex": {
+      "$type": "worldStreamingBlockIndex",
+      "oup": "EP1",
+      "rldGridCell": 0
+    },
+    "category": "Quest",
+    "data": {
+      "DepotPath": {
+        "$type": "ResourcePath",
+        "$storage": "string",
+        "$value": "base\\worlds\\03_night_city\\_compiled\\default\\ep1\\quest_746e38ed6d41094a.streamingsector"
+      },
+      "Flags": "Soft"
+    },
+    "level": 0,
+    "numNodeRanges": 1,
+    "questPrefabNodeRef": {
+      "$type": "NodeRef",
+      "$storage": "string",
+      "$value": "$/03_night_city/c_pacifica/combat_zone_prefabUEX7DCY/high_peak_prefabAMBSEZY/#high_peak_openworld/#high_peak_combat"
+    },
+    "streamingBox": {
+      "$type": "Box",
+      "Max": {
+        "$type": "Vector4",
+        "W": 3.40282347e+38,
+        "X": 3.40282347e+38,
+        "Y": 3.40282347e+38,
+        "Z": 3.40282347e+38
+      },
+      "Min": {
+        "$type": "Vector4",
+        "W": -3.40282347e+38,
+        "X": -3.40282347e+38,
+        "Y": -3.40282347e+38,
+        "Z": -3.40282347e+38
+      }
+    },
+    "variants": []
+  },
+  "drop_nodes": [
+    79,
+    80,
+    81,
+    82,
+    91,
+    164,
+    165,
+    206,
+    207,
+    273,
+    274,
+    275,
+    276,
+    277
+  ],
+  "drop_types": [
+    "worldInterestingConversationsAreaNode",
+    "worldInterestingConversationsAreaNode",
+    "worldInterestingConversationsAreaNode",
+    "worldInterestingConversationsAreaNode",
+    "worldAudioAttractAreaNode",
+    "worldInterestingConversationsAreaNode",
+    "worldInterestingConversationsAreaNode",
+    "worldInterestingConversationsAreaNode",
+    "worldInterestingConversationsAreaNode",
+    "worldInterestingConversationsAreaNode",
+    "worldInterestingConversationsAreaNode",
+    "worldInterestingConversationsAreaNode",
+    "worldInterestingConversationsAreaNode",
+    "worldAudioAttractAreaNode"
+  ],
+  "drop_placements": [
+    79,
+    80,
+    81,
+    82,
+    91,
+    164,
+    165,
+    206,
+    207,
+    273,
+    274,
+    275,
+    276,
+    277
+  ],
+  "retained_nodes": 333,
+  "preserve_ai_spots": 232,
+  "preserve_disabled_preview_spawners": 0,
+  "remaining_references_to_removed": [],
+  "dependency_resources": [
+    "base\\open_world\\scenes\\conversations\\conversation_groups\\thanks.conversations",
+    "base\\open_world\\scenes\\lore_animations\\la_execution_03.scene",
+    "base\\open_world\\scenes\\lore_animations\\la_robbery_01.scene",
+    "base\\open_world\\scenes\\lore_animations\\la_robbery_02.scene",
+    "base\\open_world\\scenes\\lore_animations\\la_street_violence_02.scene"
+  ],
+  "reason": "Restore passiveAISpots/SmartObjects/guardareas/triggers only; omit exact12lore+thanksconversation controllers and2dependentattractors to prevent replaying execution/robbery/streetviolence orconsumingma_scene_thanks. All232NPCworkspots retained.",
+  "game_writes": 0,
+  "save_writes": 0
+}

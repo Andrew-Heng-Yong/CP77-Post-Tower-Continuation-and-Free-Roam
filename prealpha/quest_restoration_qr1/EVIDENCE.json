@@ -1,0 +1,250 @@
+{
+  "status": "PASS_PARTIAL_CHECKPOINT_INTEGRITY",
+  "files": {
+    "prealpha\\quest_restoration_qr1\\admission_guard_checks_01.json": {
+      "bytes": 584831,
+      "mtime_ns": 1793328674736047600,
+      "sha256": "35B1D0B8F46958B8AE7AA0DA8271A0FAE67D9BE61887282AD39A1EB34F37C3AB"
+    },
+    "prealpha\\quest_restoration_qr1\\adversarial_01.ps1": {
+      "bytes": 2387,
+      "mtime_ns": 1793330280080534800,
+      "sha256": "9A00AF0E601B3FE3C3BE7FDE5BEE7D026486E9166C6CDF1DAC7D088D42D0D26D"
+    },
+    "prealpha\\quest_restoration_qr1\\approved_changes_01.json": {
+      "bytes": 314,
+      "mtime_ns": 1793326937358264200,
+      "sha256": "A085A1001F1A466AA392F97908FD7A0EC4F0BB72C62F1C4FF41A1ECB262CA653"
+    },
+    "prealpha\\quest_restoration_qr1\\baseline.json": {
+      "bytes": 252688,
+      "mtime_ns": 1793325476393433600,
+      "sha256": "BBD3D37F3F90EAD22461ECB8B68FB892D0B6B6E5645C86803963486DFF414440"
+    },
+    "prealpha\\quest_restoration_qr1\\batch_results_01.json": {
+      "bytes": 1934,
+      "mtime_ns": 1793329976626317100,
+      "sha256": "D97EC5EFC12020E98E733938AB2BF84FA0EC789C4468FE6D2BBE89EC4E7AC744"
+    },
+    "prealpha\\quest_restoration_qr1\\candidate_01\\adversarial_01.json": {
+      "bytes": 379077,
+      "mtime_ns": 1793330287850629700,
+      "sha256": "C0B4AD89E5E532FF13C096962263CA8A97A641E81500940F1FF1506B60E11DDF"
+    },
+    "prealpha\\quest_restoration_qr1\\candidate_01\\compile_01\\result.json": {
+      "bytes": 76876,
+      "mtime_ns": 1793326096103217900,
+      "sha256": "DE64980A5D5956274DF3E5F8F77119BB4FE4612159D9FA5A7E2C7F387E4997DF"
+    },
+    "prealpha\\quest_restoration_qr1\\candidate_01\\package_manifest_01.json": {
+      "bytes": 15125,
+      "mtime_ns": 1793329976414563800,
+      "sha256": "124A95362DAF285FBE8B17CC49A5F7505603CD9F6D4AA9913F9E620915D071CB"
+    },
+    "prealpha\\quest_restoration_qr1\\candidate_01\\providers_01.json": {
+      "bytes": 643274,
+      "mtime_ns": 1793328992641157200,
+      "sha256": "7C89362519CCBB791D11F0E63552B0BB1FB9F9BD2050DB7FE800E758C0B6C00A"
+    },
+    "prealpha\\quest_restoration_qr1\\candidate_01\\rebuild_01.json": {
+      "bytes": 399305,
+      "mtime_ns": 1793326962398999800,
+      "sha256": "5D4DDEB25143C5200EA0D0C67F5B71BAD8C4C04CA825CAF67F3D5417F2BD8675"
+    },
+    "prealpha\\quest_restoration_qr1\\candidate_01\\regressions_02\\mutation_suite.json": {
+      "bytes": 286,
+      "mtime_ns": 1793329974356668800,
+      "sha256": "C929D58A7649D4D626815C1D6E6472E66162300377DFA1ABFBF288D9A10F14E9"
+    },
+    "prealpha\\quest_restoration_qr1\\candidate_01\\tests_01.json": {
+      "bytes": 172,
+      "mtime_ns": 1793329493412624100,
+      "sha256": "0AD70564F6B5204D18B008B4631F28CC39665A63AAB5507302A26B99A097E029"
+    },
+    "prealpha\\quest_restoration_qr1\\checkpoint.json": {
+      "bytes": 1410,
+      "mtime_ns": 1793329976626317100,
+      "sha256": "63320A604F7ECBB59E3C07053A61597FC6C7CD34F745C30220A674A252271718"
+    },
+    "prealpha\\quest_restoration_qr1\\compile_01.py": {
+      "bytes": 2493,
+      "mtime_ns": 1793326085721664100,
+      "sha256": "8CF6C6777CA0D51EA6E9F20D2BF6E7F42CDCF06A106DBFBBC986A002AB4B2ACD"
+    },
+    "prealpha\\quest_restoration_qr1\\contract_status_matrix.csv": {
+      "bytes": 5095725,
+      "mtime_ns": 1793329976584593200,
+      "sha256": "A3D98EB8A5D983E681C4D793872798683785F8CA2288DAC47C677A1A8C3326A8"
+    },
+    "prealpha\\quest_restoration_qr1\\contract_status_matrix.json": {
+      "bytes": 5823310,
+      "mtime_ns": 1793329976624316700,
+      "sha256": "62D52C89EA9D0079D33CBB058EB442A03816B4B5D289AE34D2876526BC91D3D6"
+    },
+    "prealpha\\quest_restoration_qr1\\delamain_admission_trace_01.json": {
+      "bytes": 24944,
+      "mtime_ns": 1793325948032801000,
+      "sha256": "2EFE1F9AEDC196D99FD212F606BE228C1B16DAA835D40C4A26CC20D594B7AF4F"
+    },
+    "prealpha\\quest_restoration_qr1\\finalize_01.py": {
+      "bytes": 7954,
+      "mtime_ns": 1793329972118221100,
+      "sha256": "AE64E03B678DAA5A58E0BB14B7573B6DD2D273CB808DFEA3FB946B13A1C638A1"
+    },
+    "prealpha\\quest_restoration_qr1\\guard_checks.py": {
+      "bytes": 4189,
+      "mtime_ns": 1793328670124172100,
+      "sha256": "023D72180EA834C7B482DA2EE04B9F331DD1C7EC76CB58613E81A5867039EE23"
+    },
+    "prealpha\\quest_restoration_qr1\\HANDOFF.md": {
+      "bytes": 11112,
+      "mtime_ns": 1793331083055739300,
+      "sha256": "A757B898972D0B8A1B15FBE71BFEEF5F3F4618612E45435E884414F06C98AA93"
+    },
+    "prealpha\\quest_restoration_qr1\\handoff_backup_path.json": {
+      "bytes": 283,
+      "mtime_ns": 1793330952662615900,
+      "sha256": "7E76DC7C40464605BEE50436D8EB8C935470DB48A50D2EAC0BC5144485B7C129"
+    },
+    "prealpha\\quest_restoration_qr1\\identity_layers_02.py": {
+      "bytes": 6275,
+      "mtime_ns": 1793328780496177700,
+      "sha256": "1C31CC170F13044C47DC5710C36A2C8AA2E759E95F7231906DBD76903538BB89"
+    },
+    "prealpha\\quest_restoration_qr1\\identity_resolution_01.json": {
+      "bytes": 232295,
+      "mtime_ns": 1793328498221757200,
+      "sha256": "BB597EC4884709744DD51A5874840975C2C7B789E42E76650ACE82DE05E1C728"
+    },
+    "prealpha\\quest_restoration_qr1\\identity_resolution_02.json": {
+      "bytes": 552274,
+      "mtime_ns": 1793328782010916500,
+      "sha256": "73C2EF2CF0A511CB4389AF013A8709CF53A71635418A606FEE179D61FCBB1D4A"
+    },
+    "prealpha\\quest_restoration_qr1\\LIVE_ACCEPTANCE.md": {
+      "bytes": 1350,
+      "mtime_ns": 1793330280623602600,
+      "sha256": "CB448EB1FE667925E0D6D3A3AC847D2600C89A9CD8FC7936AE7E4A75D70DDBA6"
+    },
+    "prealpha\\quest_restoration_qr1\\native_counter_protocol_01.json": {
+      "bytes": 21204,
+      "mtime_ns": 1793325811532630900,
+      "sha256": "E399BB22C217616E8B36C58D8032BF290B790798DABE588E23B1E82F398B8F99"
+    },
+    "prealpha\\quest_restoration_qr1\\phone_admission_trace_01.json": {
+      "bytes": 57530,
+      "mtime_ns": 1793325508885638300,
+      "sha256": "5763C80187CEC2A1E86F409794CBFE7FF76237E57EFDE70491A63FB64B687D2E"
+    },
+    "prealpha\\quest_restoration_qr1\\prepared.json": {
+      "bytes": 85,
+      "mtime_ns": 1793330451821529000,
+      "sha256": "43D922B5E24673C82B2D3058E5DC22848994B5BAFD7FAB63984B12834A77A181"
+    },
+    "prealpha\\quest_restoration_qr1\\protection_after.json": {
+      "bytes": 385,
+      "mtime_ns": 1793330476828104100,
+      "sha256": "7960677C9B277995C0415A7AFF0673614F5C1FF3BF1010258E342A8F1FB9DAA6"
+    },
+    "prealpha\\quest_restoration_qr1\\protection_before.json": {
+      "bytes": 989466,
+      "mtime_ns": 1793325473208227900,
+      "sha256": "858D5C624A2236E7DDE7E616C49951FFA02D84D011BDFF8F4DA1182036F374FB"
+    },
+    "prealpha\\quest_restoration_qr1\\providers_01.ps1": {
+      "bytes": 3181,
+      "mtime_ns": 1793328975522844700,
+      "sha256": "0060C0EADEB0E133D20AD8B47C3A09B22049E967E3009E4C488FE07C076936EC"
+    },
+    "prealpha\\quest_restoration_qr1\\quest_status_matrix.csv": {
+      "bytes": 25272,
+      "mtime_ns": 1793329976474188300,
+      "sha256": "E7B4DFD9809450EF510F394048137C69FF4CE1D0CA63EF6F644E58D767753F69"
+    },
+    "prealpha\\quest_restoration_qr1\\quest_status_matrix.json": {
+      "bytes": 5201588,
+      "mtime_ns": 1793329976512901900,
+      "sha256": "C60770A465D89ADF993B1D15781E27E4FCD182469CD0D6B9651B023ACD53970B"
+    },
+    "prealpha\\quest_restoration_qr1\\queue.json": {
+      "bytes": 5354185,
+      "mtime_ns": 1793329976471188400,
+      "sha256": "E517ABFD5C9F0A02651F04F79969229EEBA6D5D49A3D437F304E77A10CA152AD"
+    },
+    "prealpha\\quest_restoration_qr1\\README.md": {
+      "bytes": 4912,
+      "mtime_ns": 1793330280356635200,
+      "sha256": "B011C473B6F6A9448AA74757B56874E10514ADDC0115783707FEB85B41BF3E55"
+    },
+    "prealpha\\quest_restoration_qr1\\rebuild_01.ps1": {
+      "bytes": 3624,
+      "mtime_ns": 1793326937157779700,
+      "sha256": "FE98101C28EB89F60B2A65CAB5CBED6AF6C52B1486CEB011B0096101A9259040"
+    },
+    "prealpha\\quest_restoration_qr1\\rejected_delamain_patch_01.ps1": {
+      "bytes": 2985,
+      "mtime_ns": 1793326085500274500,
+      "sha256": "D0D795BCE853D30CE7C321A4DDBFD8F3442CB7462413CD1400D20CEF4FCF5DD6"
+    },
+    "prealpha\\quest_restoration_qr1\\REPORT.md": {
+      "bytes": 6624,
+      "mtime_ns": 1793331083700776900,
+      "sha256": "03AA3E42C98D021EAC21DAF507485C13333D9CE87C9395F5608C74269CE9612D"
+    },
+    "prealpha\\quest_restoration_qr1\\REQUEST.md": {
+      "bytes": 9170,
+      "mtime_ns": 1793330288992597100,
+      "sha256": "83B0D690F8BDBEAA702B9E9AFF8B4A5AE0EA5B9427745D737E4F44EE8EA0BA8D"
+    },
+    "prealpha\\quest_restoration_qr1\\resolve_identities.py": {
+      "bytes": 3234,
+      "mtime_ns": 1793328493233823300,
+      "sha256": "62D60CEDA2F2CAEF9D19064ED82A9652BC9AE38520526487DF0FBDB8638D0C5B"
+    },
+    "prealpha\\quest_restoration_qr1\\shared_phone_trace_01.json": {
+      "bytes": 13091,
+      "mtime_ns": 1793325460122372400,
+      "sha256": "A41BC74E9D9DCB57EEAD6F96875A181CCC0304578B023F60728C2F15C6E7756A"
+    },
+    "prealpha\\quest_restoration_qr1\\start.py": {
+      "bytes": 3939,
+      "mtime_ns": 1793325449211730100,
+      "sha256": "666EEC5BE71159E0F3AA90BE02329953EA2D7EB6C2B7784876F561870C22BB85"
+    },
+    "prealpha\\quest_restoration_qr1\\structural_delta_candidates_01.json": {
+      "bytes": 12643,
+      "mtime_ns": 1793325862972498100,
+      "sha256": "2EB0D98542A15391B503AAC166D69C8F976AC044054625379DA06E99576FD32F"
+    },
+    "prealpha\\quest_restoration_qr1\\tests_01.py": {
+      "bytes": 4965,
+      "mtime_ns": 1793329492663997700,
+      "sha256": "454CBE5EDBEAC774C5141F8CB6F6239EE1AA7932C3BFCE7A19BF5F98F5AA09DC"
+    },
+    "tools\\parity_audit\\checks.py": {
+      "bytes": 1633,
+      "mtime_ns": 1793329492253379900,
+      "sha256": "F7C58029D0F9B41B956C5634F79841AB69610944F625CDF4A11A87097837CB9C"
+    },
+    "tools\\parity_audit\\engine.py": {
+      "bytes": 26160,
+      "mtime_ns": 1793329492456701800,
+      "sha256": "80D58A159BD16817C60F15E6F531D4542A1F4A90061EBECEE01A902070114EE2"
+    },
+    "tools\\parity_audit\\identity_registry.py": {
+      "bytes": 578,
+      "mtime_ns": 1793329491823298700,
+      "sha256": "B5AA4E733CC3AE3043B139EB9DDA2D88E1DEC7390E553D023AB700C2522DD559"
+    },
+    "tools\\parity_audit\\reconcile.py": {
+      "bytes": 4674,
+      "mtime_ns": 1793329492037961400,
+      "sha256": "B4F75C587A4555CC559B563F88BDC1E2B1F9E4DBC34A3DEF70827DCB1ADEA776"
+    }
+  },
+  "selected_quests": 161,
+  "contract_rows": 1610,
+  "gameplay_repairs": 0,
+  "static_verified": 0,
+  "overall_task": "INCOMPLETE"
+}

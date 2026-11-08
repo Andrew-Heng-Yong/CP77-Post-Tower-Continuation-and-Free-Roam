@@ -1,0 +1,356 @@
+{
+  "status": "CURRENT_SOURCE_PINNED_SHARED_PROOFS_WITH_EXPLICIT_SCOPE_AND_SUPERSESSIONS",
+  "predecessor": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\shared_evidence_registry.json",
+  "predecessor_sha256": "97C7F8A17C9A590A8EDA82917669F1BD3189BF29DB10E027F9CA03D5E500F163",
+  "items": [
+    {
+      "id": "QR4-U9-DAKOTA",
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G09\\shared_core.json",
+      "sha256": "BDD1BB748A68160491FE98715951DAD7C79D8CB8233333255C250D2FF060A857",
+      "applies_to": "U9 common mechanics only; each fixer/quest must prove exact applicability"
+    },
+    {
+      "id": "QR4-PADRE",
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G12\\results.json",
+      "sha256": "A2CFE06E7E03E3EAE149324BBF2E7CB384560536763D29AF5298433714B31E87",
+      "applies_to": "Padre exact controller/entry/credit shared evidence; gig-specific paths not inherited"
+    },
+    {
+      "id": "QR5-REGINA-U9",
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G07\\shared_core.json",
+      "sha256": "9F659DCAE5B009EB46952236A067981FD56D8271B906D7F536F67A04E72D6BE2",
+      "applies_to": "Regina initializer84, actual ACK396/398, cleanup474True to342In48 and native reset counters; each gig caller/admission/body applicability must be proven.",
+      "review": "Original source checks only; independent group applicability/peer review required"
+    },
+    {
+      "id": "QR5-MUAMAR-U9",
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G04\\shared_core.json",
+      "sha256": "E18670F1292E0AB60C325EFCA7151F46107E79B58769E9C6B4DAE7BA985142AC",
+      "applies_to": "Native Muamar request queue,8 real ACKscene routes, original reset-counters and cleanup464True to332In38; exact per-gig applicability still required.",
+      "review": "Original source checks only; independent group applicability/peer review required"
+    },
+    {
+      "id": "QR5-PADRE-WAKAKO-U9",
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\shared_core.json",
+      "sha256": "A7B283A909C8BE28E02D4C0D82AB5501F2AA23ECC0FF44270C86B403BBB5712F",
+      "applies_to": "Distinct Padre/Wakako real listener/ACK/cleanup evidence. GettingWarmer requires Wakako applicability despite its Heywood identity.",
+      "review": "Original source checks only; independent group applicability/peer review required"
+    },
+    {
+      "id": "QR5-STOCK-TDB-BOUNDED",
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\shared\\tdb_applicability_02\\index.json",
+      "sha256": "E164A13A5FF4BB59ABEE938E9B1C2316715E303BE8F11AE123C033C20681A889",
+      "applies_to": "Pinned stock base andEP1record definitions for exact graph-occurrence targets. Separate database definitions; no executing-route or runtime mergedoverride proof. Read all explicit capture/depth limits.",
+      "review": "Original source checks only; independent group applicability/peer review required"
+    },
+    {
+      "id": "QR5-PADRE-ROGUE-U9",
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\shared_core.json",
+      "sha256": "5C10E6057663CF9C2F82A798C21E40F658A9ED9EC333F5437235B8FB8710808F",
+      "applies_to": "Legacy generic Padre/Rogue real request/ACK/cleanup contracts; outgoing correction G02_SPR01 must be applied; each actual scene/direction remains quest-specific.",
+      "review": "Exact per-quest applicability required; see linked independent reviews."
+    },
+    {
+      "id": "QR5-HANDS-MUAMAR-U9-LEGACY",
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G03\\shared_core.json",
+      "sha256": "89BC7C750DE2F832512EA6EED2DB97DD411691708BD9298BAB9DAC2F633DCD40",
+      "applies_to": "Generic legacy Hands/Muamar controller only; explicitly insufficient for CVI02 ep1_installed1 alternate new_sts/new_q110 request family.",
+      "review": "Exact per-quest applicability required; see linked independent reviews."
+    },
+    {
+      "id": "QR5-CVI02-EP1-CONTEXT",
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\reviews\\CVI02_EP1\\verification_03\\review.json",
+      "sha256": "C9C274B7B511E406481ADC00B6651F5BDB798C6C2FC5286BD5C4990E0D47ECAC",
+      "applies_to": "Confirmed specialized owner gap, exact three holo-only scene inputs, conditional existing FO1 marker lease. BLOCKED repair, no default/PIP clone approved.",
+      "review": "Exact per-quest applicability required; see linked independent reviews."
+    },
+    {
+      "id": "QR5-G16-STOCK-LINKS",
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\shared\\G16_target_links_01.json",
+      "sha256": "5BC4B653315773C36131F0CB825BF5A9BA23CEC78D32F8A95117C41E8F85DCF1",
+      "applies_to": "Stock Items.money and authored Bill Micheal reward target definitions from existing capture; per-quest native route applicability and runtime override limits retained.",
+      "review": "Exact per-quest applicability required; see linked independent reviews."
+    },
+    {
+      "id": "QR5-MOVINGHEAT-STRING-VEHICLE-TARGET",
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\shared\\tdb_vehicle_record_02\\records.json",
+      "sha256": "0739F515F92D653FA2D24014B39664BE36484D7040334A793762C775C57B750E",
+      "applies_to": "Nativeq304carretrieval node291 exactVehicle.v_sport1_quadra_sport_r7_netrunner string target ID182117316177; one stockrecord supplement, publicfields depth0. All child references and runtime mergedwinner remainopen.",
+      "review": "G18native applicability and independentpeer reviewrequired."
+    },
+    {
+      "id": "QR5-EP1-BIDIRECTIONAL-HANDS-MQ305",
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\verification_01\\protocols.json",
+      "sha256": "3F27EA7DCCC052FEF9CDE6EB88C2DF3483F9483C2FDE907C3679F090C1583E08",
+      "applies_to": "Exact MQ305 generic Hands producer/listener/realACK/cleanup both-directions, applicability only after matching eachquestscene/input. DoesnotcoverCVI02specialnew_sts requests.",
+      "review": "Frozen source evidence; independent perquestapplicability required."
+    },
+    {
+      "id": "QR5-EP1-TIER3-OR",
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\shared_core.json",
+      "sha256": "97F7F30E81EA363C193138A1DE9ACE405DE6739F3FA349380417C62C0C0ABF82",
+      "applies_to": "Full native sharedSMSowner/outermetadata, ORofperjobANDpairs, native deliveredmessage adoption; perjobgate producerapplicationneeded.",
+      "review": "Frozen source evidence; independent perquestapplicability required."
+    },
+    {
+      "id": "QR5-EP1-MARK-JANET-STUDIOS",
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\shared_core.json",
+      "sha256": "E2049D11823622A207B43732C94B3960ABBFCB5C1FE9FE6DA0C8B4A5B48C65F9",
+      "applies_to": "Exact onePH2Mark andonePH1Janet registration, realACKs/currentcleanup/PH3twoStudioPIPs, Spycurrent05==08carrier exceptreviewedSteven helperdelta.",
+      "review": "Frozen source evidence; independent perquestapplicability required."
+    },
+    {
+      "id": "QR5-RONALD-NEWS-BLOCKED-FAMILY",
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\reviews\\RONALD\\verification_05\\review.json",
+      "sha256": "0A619E0191E6E5EF0D76CC95C1DB3A14E2F371048E4DBBF57E210F302054F449",
+      "applies_to": "One retiredoptionalnews familyforselected01/03/08/12; exactnativebar-area lease/sharedpause/timer arbitrationblock. SMSchildrenno physicalscene/PIP. No unfilteredRonald/barrestoreapproved.",
+      "review": "Frozen source evidence; independent perquestapplicability required."
+    },
+    {
+      "id": "QR5-RONALD-NATIVE-SELECTION-CLOSURE",
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\shared\\ronald_family_inventory_01.json",
+      "sha256": "0466BB9FFD8CE3ACC23F9488977C7F6FAEB98F87533B49C57468968BDCC8193B",
+      "applies_to": "Independently enumerated8native newschildren,4selected+4fluff;zero unresolvednumericrefs in11/12. Notengine/runtimeproviderclosure.",
+      "review": "Frozen source evidence; independent perquestapplicability required."
+    },
+    {
+      "id": "QR6-INSTALLED-PH3-STAGED-QR5-BOUNDARY",
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\verification\\baseline_01\\result.json",
+      "sha256": "DE6778C0649C6CE0CE2B49040567C43E1375800460F2B40D61C16952EEEB59EC",
+      "applies_to": "Installed51 PH3paths + external Atelier exact hashes, unchanged259archive/XL metadata and separately pinned stagedQR5. Not fresh stock-archive bulk SHA or runtime merge proof.",
+      "review": "Independent review pending unless referenced final review explicitly covers it."
+    },
+    {
+      "id": "QR6-CURRENT-COMPILE",
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\verification\\compile_01\\result.json",
+      "sha256": "64BE19205A0F4A2CEEED55614F1B046E54CD470853F918FDE68F76BFF9BE24CD",
+      "applies_to": "Fresh offline SCC current134pins/131unchanged sources/46managed equality after preexisting timestamp drift. No changed persisted scripts/fields; not save-owner transition proof.",
+      "review": "Independent review pending unless referenced final review explicitly covers it."
+    },
+    {
+      "id": "QR6-RONALD-EARNED-ENROLLMENT-BOUNDARY",
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\blockers\\ronald_01\\evidence.json",
+      "sha256": "91EBE6D5859BBEA094B7A06C9DAF1129DD90EE2B6B246840D0BA8255A16E0A0C",
+      "applies_to": "Exact same fourselected Ronaldnews consumers. Current1755 unreachable from every scene input; native sent-before-clock and scopedbar/sharedqueue blocker. Independentreviewpending; no approvedrepair.",
+      "review": "Independent81check/15fresh-resource/3raw-mutant review confirms exact scope; existing family remains repair-blocked, no extra quest/deep/defect count.",
+      "independent_review": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\A03\\reviews\\RONALD\\verification_01\\review.json",
+        "sha256": "B65AF914067DE94E587D8D3C6652355952F0946AD137CF530CEADF8C963E562F"
+      }
+    },
+    {
+      "id": "QR6-B02-FOUR-NATIVE-REWARD-TARGETS",
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\shared\\reward_records_01\\index.json",
+      "sha256": "5BEB34B56A05EC9861E8DEFFCA6717E95A57A3DC8C2BAFFA1A6E498A6869D104",
+      "applies_to": "B02 CareerOpportunities root64,ShapePony108,SpaceOddityhomeless130/orbital66 exact source IDs.19stockdefinitions depth2; nextdepth gaps explicit, no live merged winner/amount/receipt proof.",
+      "review": "Independent20check native-node/stock-definition applicability addendum; frozen CONDITIONAL dispositions unchanged. No runtime winner/amount/receipt claim.",
+      "independent_applicability": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\reward_applicability_01\\addendum.json",
+        "sha256": "7ED5538F2ADFD151D55E1ED943AEA0E881C40FBADC9A319109A278B4C9E5C382"
+      }
+    },
+    {
+      "id": "QR6-CVI02-EXACT-FO1-LEASE-NONIMPLICATION",
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C03\\CVI02_context_01\\evidence.json",
+      "sha256": "FC546CB87EA73A6DDA598ECE53DA015B0E97F5B33834383D8E50C18D1E1159E0",
+      "applies_to": "CVI02 existing alternate Hands failure family only.18checks/5sourcepairs/1raw-conditionmutant narrow exactFO1lease/saved-owner blocker. Abstract countermodels are not genuine-save histories, absent-marker evidence or a repair approval.",
+      "review": "Coordinator accepted bounded no-repair scope; original QR5 independently reviewed defect remains unchanged."
+    },
+    {
+      "id": "QR7-MODERN-PACKED-NODESETUP",
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\bar_check_02\\evidence.json",
+      "sha256": "CC5455F55DE2FBF3B8419428E2E01D19CDF92302055A9757FFC1ADFC60EF9EB6",
+      "applies_to": "Current2.5 exact pinned raw layout only: stride144, global@0x58, low19 nodeindex@0x70, distances@0x78/0x7C. Typed WolvenKit fields may be wrong even after successful export.",
+      "source_epoch": "QR7:04",
+      "reusable_script": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\check_bar.py",
+        "sha256": "0841A0EE493F2A3E8039B1765E0B27D4AB449FA8E590EF661B1E6882DA182AE8"
+      }
+    },
+    {
+      "id": "QR7-HANDS-ALWAYSLOADED-STATIC-MARKER",
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_a\\actor_context_01\\evidence.json",
+      "sha256": "573DDCDD77024F1537192C92ECCF3BE1931EA1C902C5F7A9EE4D1E8EA175205C",
+      "applies_to": "CVI selected default holo scene exact marker plus registry/community physical+holo references. Exact provider/descriptor/native ancestry only; no physical FO1 lease inference.",
+      "source_epoch": "QR7:04",
+      "reusable_script": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_a\\verify_actor_context.py",
+        "sha256": "7E1C63DD607F913676E98622CCB4A0BC401BEBF4A4A09123240F82BDA9F1F284"
+      }
+    },
+    {
+      "id": "QR7-DEFAULT-MEMBER-PREFIX-PROBE",
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_a\\default_members_01\\evidence.json",
+      "sha256": "E20F43F55013FDB5302F1C53B0A982825E4CE60A228C28B3FFBA687365671CE8",
+      "applies_to": "Only observed InvalidDefaultValueEventArgs for exact current actors sector. First-N acceptance/refusal proves member names; empty event reflection is not evidence.",
+      "source_epoch": "QR7:04",
+      "reusable_script": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_a\\probe_default_members.ps1",
+        "sha256": "66559FFAEA39096308F60D4C464248363B48E80A661AB8C1CB87547D2A96E1B6"
+      }
+    },
+    {
+      "id": "QR7-CURRENT-CVI-NATIVE-DONORS",
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_a\\current_native_donors_gate_01\\evidence.json",
+      "sha256": "78076064A851AA02673438BCCDCEFD1A30AB60FAC7034B255B1A4B271FC1C4B5",
+      "applies_to": "Six current unique original native donors equal approved bytes; no inferred actor execution.",
+      "source_epoch": "QR7:04",
+      "reusable_script": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_a\\capture_cvi_native_providers.ps1",
+        "sha256": "5737881ECAB50ACA19D1AE2EC279EDBF61E89CA91C2B5BF4CEB4462B9C7EA269"
+      }
+    },
+    {
+      "id": "QR7-RONALD-SELECTED-PROTOCOL",
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\future_check_04\\evidence.json",
+      "sha256": "ABDAF47FFB72DA3C74152B969B15F466C6F8DD3DC9829F73B874A8817806730C",
+      "applies_to": "Only four selected done producers/news branches and exact stock SMS descendants; no enrollment, fluff or whole bar.",
+      "source_epoch": "QR7:04",
+      "reusable_script": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\check_future.py",
+        "sha256": "6FF55217AA2ED8CA070023763BC28EC075E49E84DBB65BD8D6D2575C1443EDFB"
+      }
+    },
+    {
+      "id": "QR7-JOURNAL-EQUALSTATE-NATIVE",
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\journal_proof_02\\result.json",
+      "sha256": "2DF3C146BC05A351FCB357C5FD6CFAD2FE5F08A65D501251B88A91C1EA981E0B",
+      "applies_to": "Pinned current executable and Career exact Active/trackQuest0 path; same-state state/notification rejection. Does not prove other postprocessing or saved-owner liveness.",
+      "source_epoch": "QR7:04",
+      "reusable_script": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\verify_native_journal.py",
+        "sha256": "01CB5C5EAB5874AE9BFBA0A987A059937F3A3E8B3032442EC5B0E9873DB98F03"
+      }
+    },
+    {
+      "id": "QR7-CUCKOO-VOODOO-PERSISTENT-TARGETS",
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\remaining_01\\result.json",
+      "sha256": "B54EACDB2817EFA185C2CE390A2DF21B8329450DCD52F6E89667E37FE51743AF",
+      "applies_to": "Exact selected fields/providers/stock definitions, not global economic-target closure. Record114327022403 remains unresolved, no inferred grant.",
+      "source_epoch": "QR7:04",
+      "reusable_script": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\verify_remaining.py",
+        "sha256": "78EBB515AF399BCDE6CF4B34FDE26012EE088A9DF352018346B8FC244E299912"
+      }
+    },
+    {
+      "id": "QR7-GENERATED-ID-PROVIDER-NAMESPACE",
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_a\\reviews\\ronald_namespace_03\\evidence.json",
+      "sha256": "89E8ECC5F258D26ED1FC65F3508452DF898D0C093FA20A5ABBC376A4C373123A",
+      "applies_to": "Exact parent/input and frozen new depots; all current parsed XL shapes and scopes; no fullworldglobal census.",
+      "source_epoch": "QR7:04",
+      "reusable_script": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_a\\verify_ronald_namespace.py",
+        "sha256": "EE8988B3E20D42B2941B20AE47FC32CB186D4C7460F27CDDB6ECCEFB2364957C"
+      }
+    },
+    {
+      "id": "QR7-FINAL-C-SOURCE-APPLICABILITY",
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\final_scope_03\\applicability.json",
+      "sha256": "66D843889D7CAC1845902A0A3549BFE0A66AB7A6D4A75F765D5FDF6488D89B07",
+      "applies_to": "Only25 targeted resources and three supporting scripts. No broad promotion of other quests.",
+      "source_epoch": "QR7:04",
+      "reusable_script": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\capture_scope.py",
+        "sha256": "2CF0F822280D7A3823D69A8F40B17531634DA29114243DB0776D8DD1696396AB"
+      }
+    },
+    {
+      "id": "QR8-ACTUAL-DLL-CORRESPONDENCE",
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_b\\reviews\\A_integration\\verification_01\\review.json",
+      "sha256": "4FE1D260D51DE983F0FA795681BC444AE4C256DAB7A22C76B8FBA776F9EE59E5",
+      "applies_to": "Closes QR7 installed-plugin/source inference for inspected methods. Dynamic address resolution/native effects/receipt persistence remain LIVE_ONLY.",
+      "epoch": "QR8:02"
+    },
+    {
+      "id": "QR8-BUNDLE-AND-PLUGIN-NAMESPACE",
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\namespace_verification_01\\result.json",
+      "sha256": "BB4CE2E19B6FC044FBBB9FA1A64C02D1571008BCD0ACE65BF8E723C0DEAEBD2A",
+      "applies_to": "Expands historical134/55 inventory to185/76. Same selected registrations/depot names remain; no arbitrary full world-global/different-parent named-fact census.",
+      "epoch": "QR8:02"
+    },
+    {
+      "id": "QR8-FUTURE-NEWS-FIRST-EVALUATION",
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_c\\reviews\\late_future_02\\review.json",
+      "sha256": "C7C25EF298C2850AAC7BDF47EAF8FAF85508315F398DF4AA25196154F86C2B6C",
+      "applies_to": "Only four selected native producers and pre-first-gate genuineArmed1/sent0, including pre-gateIssued1 helper. No old timer/enrollment or explicit replay extension.",
+      "epoch": "QR8:02"
+    },
+    {
+      "id": "QR8-NATIVE-CONTEXT-AND-INVENTORY",
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_c\\findings_03\\evidence.json",
+      "sha256": "41D197CF91C66E7936CC2D2EDA063B3DFAFD4A0CADD94DC8F7EA6C5936AD5DF6",
+      "applies_to": "Actual C0 TransactionSystem/170 ContainerManager/58 PersistencySystem bindings and numeric ItemID/raw quantity branch; applies only exact traced predicates/Inject path.",
+      "epoch": "QR8:02"
+    },
+    {
+      "id": "QR8-INDEPENDENT-NATIVE-FIVE",
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\reviews\\C_five_01\\review.json",
+      "sha256": "A5285890D61E8580936D052CCE6203296353AE33F55CDAC6F75E9A0866379206",
+      "applies_to": "Confirms bounded new native proofs and retains five UNKNOWNs. Three nearest opaque exterior candidates are heuristic, not exact door ownership.",
+      "epoch": "QR8:02"
+    },
+    {
+      "id": "QR8-INHERITED-REGRESSION-CORRECT-DONORS",
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\inherited_controls_02\\result.json",
+      "sha256": "96E0C94E717425AA44093FFCE06900926DD85ECA5A2079F2BC5C0BCAB39925FD",
+      "applies_to": "Exact CR1 donor/supersession, PH aliases/studios and MQ007/030/037 controls apply by current resource identity.",
+      "epoch": "QR8:02"
+    },
+    {
+      "id": "QR8-ENROLLMENT-SCOPE-HOLD",
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_c\\reviews\\enrollment_02\\review.json",
+      "sha256": "ADE941DDE40FCB2363F792034208243F4CA2D6487B51DAAFA189373F323167E0",
+      "applies_to": "Genuine initial subscription extension held; intentionalS4 menu exclusion and explicit native bar-lease omission do not prove no actor/area in an arbitrary save.",
+      "epoch": "QR8:02"
+    }
+  ],
+  "unresolved_shared_domains": [
+    "Stock TDB uncaptured descendants and runtime merged overrides",
+    "DynamicBaseClass/worldNode decoded placement and exact marker leases",
+    "saved-owner and engine scheduling",
+    "localization and presentation execution",
+    "CVI02 alternate Hands listener and safe independent marker acquisition",
+    "String-encoded recordtargets beyond actualenumeratedG18vehicle alias, and all depth0supplementdescendants",
+    "No global effective TweakDB/provider economic/vehicle closure was newly established. Current exact stock numeric record/target gaps remain in five UNKNOWN rows.",
+    "No full native/external world-global-ID collision census or runtime private streaming proof.",
+    "No all-save original-owner retirement, race-free concurrent-controller or engine persistence certification."
+  ],
+  "shared_registration_engine_boundary": {
+    "classification": "SOURCE_CONFIRMED_INSPECTED_DLL_METHOD_CORRESPONDENCE",
+    "evidence": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_b\\reviews\\A_integration\\verification_01\\review.json",
+      "sha256": "4FE1D260D51DE983F0FA795681BC444AE4C256DAB7A22C76B8FBA776F9EE59E5"
+    },
+    "live_only": "Actual dynamic dispatch/owner ACK, receipt/save persistence and world/descriptor lease timing unexecuted."
+  },
+  "supersessions": [
+    {
+      "prior": "QR7 additional shared UNKNOWN_EXACT_BINARY_DISPATCH",
+      "current": "SOURCE_CONFIRMED_INSPECTED_PLUGIN_METHODS",
+      "evidence": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_b\\reviews\\A_integration\\verification_01\\review.json",
+        "sha256": "4FE1D260D51DE983F0FA795681BC444AE4C256DAB7A22C76B8FBA776F9EE59E5"
+      },
+      "remaining": "Actual hook install/native dispatch success/receipt serialization/PIP leases are LIVE_ONLY; postdispatch receipt is not an ACK."
+    },
+    {
+      "prior": "QR7 Voodoo candidate TransactionSystem258 downstream chain",
+      "current": "SUPERSEDED_AS_EXECUTING_INJECT_EVIDENCE",
+      "evidence": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_c\\findings_03\\evidence.json",
+        "sha256": "41D197CF91C66E7936CC2D2EDA063B3DFAFD4A0CADD94DC8F7EA6C5936AD5DF6"
+      },
+      "reason": "Actual context170 binds ContainerManager; TransactionSystem is atC0. Historical functions remain evidence of the earlier incomplete branch, not actual stash Inject dispatch."
+    },
+    {
+      "prior": "Stock record absence could imply false Cuckoo inventory route",
+      "current": "NOT_ESTABLISHED_BY_STOCK_ABSENCE",
+      "evidence": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\worker_a\\reviews\\C_five_01\\review.json",
+        "sha256": "A5285890D61E8580936D052CCE6203296353AE33F55CDAC6F75E9A0866379206"
+      },
+      "reason": "Actual raw-ID quantity branch at the captured boundary has no current record-definition lookup. Item provenance/current inventory and native NULL endpoints remain UNKNOWN."
+    }
+  ]
+}

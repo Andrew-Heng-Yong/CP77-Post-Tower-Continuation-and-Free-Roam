@@ -1,0 +1,31 @@
+{
+  "issues": [
+    {
+      "id": "QR5-G02-SPR01-OUTGOING-CALL",
+      "status": "CLOSED_EXPLICIT_SUPERSESSION_NO_RUNTIME_CHANGE",
+      "quest_id": "sts_hey_spr_01",
+      "stage": "communications",
+      "source": "Independent reviewer B actual raw Padre scene",
+      "wrong_original": "Physical Padre conversation / only incoming generic prebrief call",
+      "actual": "Padre actor uses padre_holo/#padre_holo; outgoing holo_v_calls_padre producer/wait/clear routes and controller real ACK43/44 exist. Previous incoming-only filter omitted this direction.",
+      "review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G10\\reviews\\G02.json",
+      "review_sha256": "A304485CF401B3BD122F3249629038D3839DCEEEF8FB0F8035619F97D2B6265B",
+      "required_action": "Preserve frozen G02 originals; apply source-specific outgoing addendum and supersede the prior PASS/physical-conversation wording centrally. No runtime fix inferred.",
+      "correction": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G13\\corrections\\G02_SPR01\\verification_02\\correction.json",
+        "sha256": "8675A60ADF0B033EEB59DD60C76E7BB01B668DBEADE75C1B7ABF66CEA98E9F55",
+        "independent_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G10\\reviews\\G02_correction_01.json",
+        "independent_review_sha256": "85F27FD1088CFE37261BA797961FB94606B465D66754267BC8DB6AE89536FEB1"
+      },
+      "current_communications_status": "CONDITIONAL"
+    },
+    {
+      "id": "QR5-G16-HASAN-TIMER-ARITHMETIC",
+      "status": "CLOSED_EXPLICIT_SOURCE_ARITHMETIC_SUPERSESSION",
+      "source": "Exact3days16hours payload already asserted and perquestcontracts correct; frozen groupREPORT/check-label said84hours.",
+      "resolution": "Use88hours; no resource/status/check-count changes. Originalfrozenbytes retained.",
+      "evidence": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\timer_arithmetic_correction_01.json",
+      "sha256": "C96C1589C8156E83A2037C30CD6796EAA6BC4CD62EB68C833E2A950DE72D7AFE"
+    }
+  ]
+}

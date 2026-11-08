@@ -1,0 +1,49 @@
+{
+  "state": "QR9_STAGE_REPORT_WRITTEN_PARTIAL_RUNTIME_ACCEPTANCE",
+  "deployment_authorized": true,
+  "authorization_message": "approved for deployment",
+  "completion": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\deployment_01\\completion.json",
+  "completion_sha256": "725CF3E0F3AE54833A967BF9944968B21145D70A157BA013D21AE9754A959812",
+  "installed_core": "QR8:02",
+  "installed_diagnostics": "QR9B04",
+  "source_candidate": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr8\\candidate_01",
+  "selected_master": "ManualSave-23 and three-file recovery backup unchanged after humanrun; VERIFIED_AFTER",
+  "native_working_save_created": "ManualSave-24 observed in metadata; user-loaded slot pending confirmation",
+  "next_action": "Investigate real probe callback binding/delivery; validate source-confirmed correction before relying on absent events or selecting further evidence-driven tests. Preserve passed fixtures and never manufacture histories.",
+  "next_test": null,
+  "game_launches": 0,
+  "save_or_fact_writes": 0,
+  "CUA_calls": 0,
+  "goal_status": "none",
+  "latest_observation": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\stage_report_01\\completion.json",
+  "latest_observation_sha256": "5907E72B91190E7168B8988A3B40490E15678C13F1208D71EEC7B1735C952E38",
+  "latest_assessment": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\report.md",
+  "matrix_statuses": {
+    "PASS": 2,
+    "INCONCLUSIVE": 3,
+    "NOT_TESTABLE": 5,
+    "NOT_TESTED": 16
+  },
+  "game_launches_by_Codex": 0,
+  "save_or_fact_writes_by_Codex": 0,
+  "confirmed_gig": {
+    "id": "sts_wbr_hil_01",
+    "title": "Until Death Do Us Part",
+    "status": "PASS_BOUNDED_CONTINUED_ROUTE"
+  },
+  "loaded_save_slot": "UNKNOWN_USER_DID_NOT_SPECIFY",
+  "nitro_state": "S03alreadyIssued1;counter1/unlocks0; do notreset; notafreshadmissionfixture",
+  "additional_call_passes": [
+    "Cynthia delivered/startend",
+    "Wilson delivered/startend/mq011_active1"
+  ],
+  "wilson_progression": "Winning completion/reward receipt, eventual shop recovery, and user-confirmed completed journal/shop after reload PASS on observed route. Exact reward idempotence/all variants unproven.",
+  "runtime_validation_complete": false,
+  "initial_smoke_and_observed_routes": "Bounded successes; comprehensive runtime acceptance incomplete.",
+  "diagnostic_fact_delivery": "UNRELIABLE; finalS05hasbroadlogwatchedtransitionswith0callbackrows; journalgetterswork; causepending",
+  "bullets_progression": "Reached-routecompletion, Zane return, completed-save journal/shop and post-Bullets lines PASS on user/log evidence. Exact helper/lease/idempotence/all branches unproven. No repeat needed.",
+  "stage_report": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\report.md",
+  "stage_report_sha256": "A2BBDE0F6590BA56392B40A5CB2FCA4CDD6CD69C422391FF5747472C82AD63C9",
+  "report_written": true,
+  "next_human_test": null
+}

@@ -1,0 +1,18 @@
+{
+  "status": "PASS_DIAGNOSTICS_DEPLOYMENT_PRESERVATION",
+  "game_paths_changed": [
+    "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_QR9_Diagnostics/init.lua",
+    "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_QR9_Diagnostics/watch.json"
+  ],
+  "saves_byte_equal": 310,
+  "protected_files_verified": 84,
+  "Core": "QR8:02 unchanged",
+  "diagnostics": "QR10D01 installed",
+  "QR9_QR10_evidence": "metadata unchanged; pinned critical hashes verified",
+  "native_callbacks": "UNSUPPORTED_NOT_VERIFIED",
+  "live_sampling": "NOT_TESTED",
+  "game_launches": 0,
+  "save_or_fact_writes": 0,
+  "CUA_calls": 0,
+  "limits": "Full save/protected hashes and complete game/evidence metadata compared; unpinned bulk files not all byte-hashed."
+}

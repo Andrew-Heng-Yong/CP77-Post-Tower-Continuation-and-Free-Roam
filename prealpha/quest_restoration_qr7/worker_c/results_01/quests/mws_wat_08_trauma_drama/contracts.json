@@ -1,0 +1,46 @@
+{
+  "quest_id": "mws_wat_08_trauma_drama",
+  "title": "Career Opportunities",
+  "scope": "Only named QR6 UNKNOWN contract updates; other contracts retain QR6 findings and are not re-audited here.",
+  "effective_source_epoch": "QR7:01",
+  "fully_static_verified": false,
+  "contracts": {
+    "persistence": {
+      "previous_status": "UNKNOWN",
+      "status": "UNKNOWN",
+      "source_epoch_investigated": "QR6:00 exact baseline with targeted QR7:01 repair applicability",
+      "effective_source_epoch": "QR7:01",
+      "proven": [
+        "Native/current SMS7 and56 are identical journal identities and sendNotification1/trackQuest0 writes. Native6→68→7→57(two seconds)→56→8 occurs before first-place8→9→started66, so early completed message histories are source-realizable.",
+        "Current RTTI/constructor/vtable evidence ties JournalQuestEntry_NodeType vfunc108 to processing56455C, which calls JournalManager290→565DFC→268→6C1A48→Active6543EC→common654C0C→guard6545D0.",
+        "The actual machine-code guard compares old/new states and immediately returns false when equal, before state writes/listener notifications. Five native-state equality fixtures and a flipped actual JNE negative control verify this property; the current input executable remains unchanged.",
+        "No duplicate notification or reward was asserted. No SMS receipt, native counter or synthetic acknowledgement was added."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Saved early native-owner retirement and concurrent/queued owner state for the exact pre-first-place history remain unproved; the new proof does not create an old-owner transition fixture.",
+        "LIVE_ONLY: separate tracking callbacks, other journal ancestor states, game notifications and future-version save transitions remain outside this bounded equality proof."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\journal_proof_02\\result.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\journal_node_03\\manifest.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_c\\quest_providers_01\\manifest.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\script_pins.json"
+      ],
+      "resolved_unknowns": [
+        "Native JournalManager same-state rejection and actual graph-operation applicability are proven on the exact current executable, rather than inferred from an API declaration."
+      ],
+      "remaining_unknowns": [
+        "Saved early native-owner retirement and concurrent/queued owner state for the exact pre-first-place history remain unproved; the new proof does not create an old-owner transition fixture."
+      ],
+      "runtime_changes": [],
+      "original_findings_source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\quests\\mws_wat_08_trauma_drama\\contracts.json",
+      "original_findings_source_sha256": "13307114EC66FD47ABDD2ECB15A72938C4C1AA5F62415AC44FD898E387577AB2",
+      "independent_review": "Pending worker review for new Career/Cuckoo/Voodoo properties; Nitro accepted source and serialized review separately pinned."
+    }
+  }
+}

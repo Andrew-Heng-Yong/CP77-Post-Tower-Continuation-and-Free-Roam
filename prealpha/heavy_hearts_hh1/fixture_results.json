@@ -1,0 +1,218 @@
+{
+  "actions": [
+    {
+      "action": "Preflight",
+      "error": "",
+      "exit": 0,
+      "fixture": "actual_Core51",
+      "options": [],
+      "output": "{\"status\":\"PREFLIGHT_READY\",\"component\":\"Core\",\"action\":\"Preflight\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\heavy_hearts_hh1\\\\fixtures\\\\deployment_01\\\\actual_Core51\\\\recovery\\\\core\",\"manifest_sha256\":\"3BAEC69CB5997AF9776AA4D85460E444C671F350A801F24F536A7E2C3B6C8AAD\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}"
+    },
+    {
+      "action": "Install",
+      "error": "",
+      "exit": 0,
+      "fixture": "actual_Core51",
+      "options": [],
+      "output": "{\"status\":\"INSTALLED_VERIFIED\",\"component\":\"Core\",\"action\":\"Install\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\heavy_hearts_hh1\\\\fixtures\\\\deployment_01\\\\actual_Core51\\\\recovery\\\\core\",\"manifest_sha256\":\"3BAEC69CB5997AF9776AA4D85460E444C671F350A801F24F536A7E2C3B6C8AAD\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}"
+    },
+    {
+      "action": "Verify",
+      "error": "",
+      "exit": 0,
+      "fixture": "actual_Core51",
+      "options": [],
+      "output": "{\"status\":\"VERIFIED_AFTER\",\"component\":\"Core\",\"action\":\"Verify\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\heavy_hearts_hh1\\\\fixtures\\\\deployment_01\\\\actual_Core51\\\\recovery\\\\core\",\"manifest_sha256\":\"3BAEC69CB5997AF9776AA4D85460E444C671F350A801F24F536A7E2C3B6C8AAD\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}"
+    },
+    {
+      "action": "ValidateRollback",
+      "error": "",
+      "exit": 0,
+      "fixture": "actual_Core51",
+      "options": [],
+      "output": "{\"status\":\"ROLLBACK_READY\",\"component\":\"Core\",\"action\":\"ValidateRollback\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\heavy_hearts_hh1\\\\fixtures\\\\deployment_01\\\\actual_Core51\\\\recovery\\\\core\",\"manifest_sha256\":\"3BAEC69CB5997AF9776AA4D85460E444C671F350A801F24F536A7E2C3B6C8AAD\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}"
+    },
+    {
+      "action": "Rollback",
+      "error": "",
+      "exit": 0,
+      "fixture": "actual_Core51",
+      "options": [],
+      "output": "{\"status\":\"ROLLED_BACK_VERIFIED\",\"component\":\"Core\",\"action\":\"Rollback\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\heavy_hearts_hh1\\\\fixtures\\\\deployment_01\\\\actual_Core51\\\\recovery\\\\core\",\"manifest_sha256\":\"3BAEC69CB5997AF9776AA4D85460E444C671F350A801F24F536A7E2C3B6C8AAD\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}"
+    },
+    {
+      "action": "Verify",
+      "error": "",
+      "exit": 0,
+      "fixture": "actual_Core51",
+      "options": [
+        "-ExpectedState",
+        "Before"
+      ],
+      "output": "{\"status\":\"VERIFIED_BEFORE\",\"component\":\"Core\",\"action\":\"Verify\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\heavy_hearts_hh1\\\\fixtures\\\\deployment_01\\\\actual_Core51\\\\recovery\\\\core\",\"manifest_sha256\":\"3BAEC69CB5997AF9776AA4D85460E444C671F350A801F24F536A7E2C3B6C8AAD\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}"
+    },
+    {
+      "action": "Install",
+      "error": "Exception: C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\heavy_hearts_hh1\\deploy_core.ps1:290\nLine |\n 290 |    throw ('Install stopped; '+$script:journal.state+': '+$script:journ .\n     |    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n     | Install stopped; RESTORED_BEFORE_VERIFIED: Fixture interruption: AfterFirstReplace",
+      "exit": 1,
+      "fixture": "AfterFirstReplace",
+      "options": [
+        "-FailurePoint",
+        "AfterFirstReplace"
+      ],
+      "output": ""
+    },
+    {
+      "action": "Verify",
+      "error": "",
+      "exit": 0,
+      "fixture": "AfterFirstReplace",
+      "options": [
+        "-ExpectedState",
+        "Before"
+      ],
+      "output": "{\"status\":\"VERIFIED_BEFORE\",\"component\":\"Core\",\"action\":\"Verify\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\heavy_hearts_hh1\\\\fixtures\\\\deployment_01\\\\AfterFirstReplace\\\\recovery\\\\core\",\"manifest_sha256\":\"18CDD435D8B0EE8741B0BA3BBC246A79F1B165DC9D6A0B991B494359821869D3\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}"
+    },
+    {
+      "action": "Install",
+      "error": "Exception: C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\heavy_hearts_hh1\\deploy_core.ps1:290\nLine |\n 290 |    throw ('Install stopped; '+$script:journal.state+': '+$script:journ .\n     |    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n     | Install stopped; RESTORED_BEFORE_VERIFIED: Fixture interruption: AfterSecondReplace",
+      "exit": 1,
+      "fixture": "AfterSecondReplace",
+      "options": [
+        "-FailurePoint",
+        "AfterSecondReplace"
+      ],
+      "output": ""
+    },
+    {
+      "action": "Verify",
+      "error": "",
+      "exit": 0,
+      "fixture": "AfterSecondReplace",
+      "options": [
+        "-ExpectedState",
+        "Before"
+      ],
+      "output": "{\"status\":\"VERIFIED_BEFORE\",\"component\":\"Core\",\"action\":\"Verify\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\heavy_hearts_hh1\\\\fixtures\\\\deployment_01\\\\AfterSecondReplace\\\\recovery\\\\core\",\"manifest_sha256\":\"074C15F030BACFF261BB0169C4C46FF0209DF46D0CC004E0866E625DD005065F\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}"
+    },
+    {
+      "action": "Install",
+      "error": "",
+      "exit": 72,
+      "fixture": "CrashAfterFirstReplace",
+      "options": [
+        "-FailurePoint",
+        "CrashAfterFirstReplace"
+      ],
+      "output": ""
+    },
+    {
+      "action": "Recover",
+      "error": "",
+      "exit": 0,
+      "fixture": "CrashAfterFirstReplace",
+      "options": [],
+      "output": "{\"status\":\"RECOVERED_BEFORE\",\"component\":\"Core\",\"action\":\"Recover\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\heavy_hearts_hh1\\\\fixtures\\\\deployment_01\\\\CrashAfterFirstReplace\\\\recovery\\\\core\",\"manifest_sha256\":\"254F47E85704671C7F4726D08AAEFD286C6684D9F3243BBDABDA9887D0BB7FFE\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}"
+    },
+    {
+      "action": "Verify",
+      "error": "",
+      "exit": 0,
+      "fixture": "CrashAfterFirstReplace",
+      "options": [
+        "-ExpectedState",
+        "Before"
+      ],
+      "output": "{\"status\":\"VERIFIED_BEFORE\",\"component\":\"Core\",\"action\":\"Verify\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\heavy_hearts_hh1\\\\fixtures\\\\deployment_01\\\\CrashAfterFirstReplace\\\\recovery\\\\core\",\"manifest_sha256\":\"254F47E85704671C7F4726D08AAEFD286C6684D9F3243BBDABDA9887D0BB7FFE\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}"
+    },
+    {
+      "action": "Install",
+      "error": "",
+      "exit": 72,
+      "fixture": "CrashAfterSecondReplace",
+      "options": [
+        "-FailurePoint",
+        "CrashAfterSecondReplace"
+      ],
+      "output": ""
+    },
+    {
+      "action": "Recover",
+      "error": "",
+      "exit": 0,
+      "fixture": "CrashAfterSecondReplace",
+      "options": [],
+      "output": "{\"status\":\"RECOVERED_BEFORE\",\"component\":\"Core\",\"action\":\"Recover\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\heavy_hearts_hh1\\\\fixtures\\\\deployment_01\\\\CrashAfterSecondReplace\\\\recovery\\\\core\",\"manifest_sha256\":\"15094C779CAAA28616784CB7B947A1D7B38DECDB4E20AF2A53D56880FF48A476\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}"
+    },
+    {
+      "action": "Verify",
+      "error": "",
+      "exit": 0,
+      "fixture": "CrashAfterSecondReplace",
+      "options": [
+        "-ExpectedState",
+        "Before"
+      ],
+      "output": "{\"status\":\"VERIFIED_BEFORE\",\"component\":\"Core\",\"action\":\"Verify\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\heavy_hearts_hh1\\\\fixtures\\\\deployment_01\\\\CrashAfterSecondReplace\\\\recovery\\\\core\",\"manifest_sha256\":\"15094C779CAAA28616784CB7B947A1D7B38DECDB4E20AF2A53D56880FF48A476\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}"
+    },
+    {
+      "action": "Install",
+      "error": "",
+      "exit": 0,
+      "fixture": "interrupted_rollback",
+      "options": [],
+      "output": "{\"status\":\"INSTALLED_VERIFIED\",\"component\":\"Core\",\"action\":\"Install\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\heavy_hearts_hh1\\\\fixtures\\\\deployment_01\\\\interrupted_rollback\\\\recovery\\\\core\",\"manifest_sha256\":\"A867B328CA107A90CDF3D5DF90C0E05E7F9E473A9939CD8D5DAE4DDA64A4C543\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}"
+    },
+    {
+      "action": "Rollback",
+      "error": "",
+      "exit": 72,
+      "fixture": "interrupted_rollback",
+      "options": [
+        "-FailurePoint",
+        "CrashAfterFirstRollback"
+      ],
+      "output": ""
+    },
+    {
+      "action": "Recover",
+      "error": "",
+      "exit": 0,
+      "fixture": "interrupted_rollback",
+      "options": [],
+      "output": "{\"status\":\"RECOVERED_AFTER\",\"component\":\"Core\",\"action\":\"Recover\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\heavy_hearts_hh1\\\\fixtures\\\\deployment_01\\\\interrupted_rollback\\\\recovery\\\\core\",\"manifest_sha256\":\"A867B328CA107A90CDF3D5DF90C0E05E7F9E473A9939CD8D5DAE4DDA64A4C543\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}"
+    },
+    {
+      "action": "Verify",
+      "error": "",
+      "exit": 0,
+      "fixture": "interrupted_rollback",
+      "options": [],
+      "output": "{\"status\":\"VERIFIED_AFTER\",\"component\":\"Core\",\"action\":\"Verify\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\heavy_hearts_hh1\\\\fixtures\\\\deployment_01\\\\interrupted_rollback\\\\recovery\\\\core\",\"manifest_sha256\":\"A867B328CA107A90CDF3D5DF90C0E05E7F9E473A9939CD8D5DAE4DDA64A4C543\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}"
+    },
+    {
+      "action": "Install",
+      "error": "Exception: C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\heavy_hearts_hh1\\deploy_core.ps1:85\nLine |\n  85 |  . ning.Count){throw ('Game or REDlauncher must be closed naturally: '+( .\n     |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n     | Game or REDlauncher must be closed naturally: Cyberpunk2077",
+      "exit": 1,
+      "fixture": "game_running",
+      "options": [
+        "-FixtureProcesses",
+        "Cyberpunk2077"
+      ],
+      "output": ""
+    },
+    {
+      "action": "Install",
+      "error": "Exception: C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\heavy_hearts_hh1\\deploy_core.ps1:90\nLine |\n  90 |  . sh $path -Fresh:$Fresh) -cne $expected){throw ('Hash drift: '+$path)}\n     |                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n     | Hash drift: C:\\Users\\Ayong\\Documents\\cp77 modding\\tower\n     | ws\\prealpha\\heavy_hearts_hh1\\fixtures\\deployment_01\\wrong_file\\game\\archive\\pc\\mod\\zzzz_PTFR_Combined.archive.xl",
+      "exit": 1,
+      "fixture": "wrong_file",
+      "options": [],
+      "output": ""
+    }
+  ],
+  "installer_sha256": "368EEC162431322C3C82A0DA9932D375ED030955BFB7B6FBB70D037F7D58C4A9",
+  "manifest_sha256": "067481C8B6D41FF456DBBD62406F8F2F9665766A88AD29F6575309737DADB2FC",
+  "notes": "Exact full Core51 normal install and rollback. Other cases use synthetic fixture files.",
+  "scope": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\heavy_hearts_hh1\\fixtures\\deployment_01",
+  "status": "PASS_HH1_TWO_FILE_DEPLOYMENT_FIXTURES"
+}

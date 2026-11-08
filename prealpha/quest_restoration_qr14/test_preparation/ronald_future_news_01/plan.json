@@ -1,0 +1,37 @@
+{
+  "status": "READ_ONLY_QUALIFICATION_PENDING_NO_GAMEPLAY_CARD_ISSUED",
+  "candidate": {
+    "quest_id": "sts_ep1_03",
+    "title": "The Man Who Killed Jason Foreman",
+    "requested_working_save": "ManualSave-25,3Nov23:08:08"
+  },
+  "prior_evidence": "Latest S02 had03Inactive/done0/ParentEntered0/Started0; does not alone establish native fresh-entry safety or ownership. Ronald enrollment and reload checks are closed.",
+  "source_pins": {
+    "installed_canonical_epoch": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr13\\source_epoch_02.json",
+      "sha256": "A2EABC90B9A30E831703B1121BCD350D1AEA6C07C3453C696BBB5A0D56AED5F6"
+    },
+    "approved_entry_matches_current": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr7\\worker_b\\experiments\\future_owner_04\\sts_ep1_03_entry.NONPRODUCTION.questphase",
+      "sha256": "1996931503C2FA686798B653D141EC6DA04CF946594C1F3D5A9E298182BAB1C0",
+      "depot": "towercontinued\\native_gigs_u9\\sts_ep1_03_entry.questphase"
+    },
+    "current_compiled_source": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr13\\candidate_01\\package\\r6\\scripts\\PTFR_Consolidated\\PTFR_ActivityStateR3.reds",
+      "sha256": "06806391C2D9B3E66517C7D9EF8D69A87B2BF0DF52B23343E4793317E4F07615"
+    }
+  },
+  "read_only_method": "Existing public NativeGigsU9.Inspect(id), source confirmed. Reports own receipts, root/terminal, all native entry-state/fact/POI checks, oldUnused, support/legacyIdle, counter/history label. No Start/Request/Set call. GetScriptableSystemsContainer:Get syntax is preserved in docs/gig_batch_u9_playtest_tasks.md read-only examples.",
+  "command": "do\n  local s = Game.GetScriptableSystemsContainer():Get(\"PTFR.ActivityStateR3.NativeGigsU9\")\n  if s and IsDefined(s) then\n    print(s:Inspect(\"sts_ep1_03\"))\n  else\n    print(\"U9 diagnostic system unavailable\")\n  end\n  local q = Game.GetQuestsSystem()\n  print(\"Ronald armed = \" .. tostring(q:GetFactStr(\"PTFRQR7_RonaldNews_Armed_sts_ep1_03\")))\n  print(\"Ronald sent = \" .. tostring(q:GetFactStr(\"q302_msg_ronald_sts_ep1_03\")))\nend",
+  "limits": [
+    "Inspect is facts/catalogue/current history status, not exact saved executing-owner/lease enumeration.",
+    "Inactive root alone is insufficient. No immediate gameplay test until current eligibility and future Armed route are evaluated.",
+    "No source/resource/build/install/diagnostic/save modifications."
+  ],
+  "other_branches": {
+    "sts_ep1_01": "Succeeded; preserve",
+    "sts_ep1_08": "Succeeded; preserve",
+    "sts_ep1_12": "Failed; preserve"
+  },
+  "next": "User runs read-only qualification once and returns output; then select a natural supported route or explicitly mark unavailable. Never Start/force/request/reset through CET to manufacture a fixture."
+}

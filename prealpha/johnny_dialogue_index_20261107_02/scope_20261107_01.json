@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "recorded_date": "2026-11-07",
+  "authority": "CURRENT_USER_SCOPE_CORRECTION",
+  "user_statement": "it cant run post tower!",
+  "project_scope": "Content available during PTFR post-Tower continuation.",
+  "baseline": "HH1 on QR19",
+  "source_snapshot_sha256": "A60FEA94BDD5C7777484710E57753F558C80CFD36E553BE03DF02CB8EF459D2E",
+  "rules": [
+    {
+      "rule_id": "EXCLUDE_Q303_POST_TOWER",
+      "quest_id": "q303",
+      "quest_title": "You Know My Name",
+      "quest_owned_depot_prefix": "ep1\\quest\\main_quests\\q303\\",
+      "flagged_scene": "ep1\\quest\\main_quests\\q303\\scenes\\q303_10_concert_braindance.scene",
+      "flagged_scene_raw_sha256": "3A7366BBB4D4CD6B2408D3FF4B22564A9FBA5B01E7B57D80D5911DFD4199B527",
+      "classification": "EXCLUDED_POST_TOWER",
+      "basis": "User confirms q303 cannot run post-Tower.",
+      "include_in_removal_review": false,
+      "include_in_required_work_counts": false,
+      "decoder_repair_required_for_this_project": false,
+      "retain_raw_census_and_decoder_history": true,
+      "application": "Exclude q303 quest-owned occurrences from the post-Tower removal worklist and review document. Keep the full-source index and its historical decoding failure unchanged.",
+      "matching_limit": "Match the main-quest identity or exact depot prefix. Do not apply substring matching to mq303 or exclude shared resources invoked independently by in-scope content."
+    }
+  ],
+  "global_index_counts_are_post_tower_work_counts": false,
+  "step3_started": false,
+  "game_writes": 0,
+  "save_writes": 0,
+  "database_writes": 0
+}

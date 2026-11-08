@@ -1,0 +1,597 @@
+{
+  "schema": 1,
+  "status": "QR9_DEPLOYED_VERIFIED_WAITING_FOR_HUMAN_S00",
+  "completed_utc": "2026-10-31T22:56:56.820932+00:00",
+  "authorization": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\deployment_01\\authorization.json",
+    "sha256": "221F04D7CA86A9163FFA628E928D6221276AF1268965C2D56FB4A85EED4F2BB1",
+    "bytes": 670
+  },
+  "preparation_readiness": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\readiness.json",
+    "sha256": "7CE055438AE2ED27F99D468CBA32CECA03FB6EDF3216F596970DE2E0DAC1E4CD",
+    "bytes": 14952
+  },
+  "core_source_epoch": "QR8:02",
+  "diagnostics_version": "QR9B04",
+  "core_managed_paths": 51,
+  "diagnostic_paths": 2,
+  "installed_files": [
+    {
+      "component": "Core",
+      "path": "archive/pc/mod/zzzz_PTFR_Combined.archive",
+      "sha256": "2AB35CC95931CD3C7BB2FB3A4C8B52746DE7847D42AE1DD3503A90A965FD2039",
+      "bytes": 10125312,
+      "before": "18B855B55A62771F146B9BA518F8DB782832606AA7666755303EEBA91D9F66C7",
+      "changed": true
+    },
+    {
+      "component": "Core",
+      "path": "archive/pc/mod/zzzz_PTFR_Combined.archive.xl",
+      "sha256": "F22693981B0A10DB21B47AFAD7FC8BCAEF1F021D9EA99548BA4FF80F56D18245",
+      "bytes": 134936,
+      "before": "C55FB23E72710FD0FC8D348C62E2118C2E3FAD04DE3FCE2E6B459E6AB2A1F720",
+      "changed": true
+    },
+    {
+      "component": "Core",
+      "path": "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_HistorySnapshotHS1/init.lua",
+      "sha256": "CA110EC574E6B67327B77A90A2600B7444FD98CE616D96C9C74D4C64163A3DF2",
+      "bytes": 4547,
+      "before": "CA110EC574E6B67327B77A90A2600B7444FD98CE616D96C9C74D4C64163A3DF2",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_PreAlpha/init.lua",
+      "sha256": "641726D256E98472EF8BB3962F238A1165C4843C1F63636104B14E74AF723907",
+      "bytes": 5362,
+      "before": "641726D256E98472EF8BB3962F238A1165C4843C1F63636104B14E74AF723907",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_ActivityStateR3.reds",
+      "sha256": "06806391C2D9B3E66517C7D9EF8D69A87B2BF0DF52B23343E4793317E4F07615",
+      "bytes": 254901,
+      "before": "06806391C2D9B3E66517C7D9EF8D69A87B2BF0DF52B23343E4793317E4F07615",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_AfterlifeFacesR5.reds",
+      "sha256": "D536145CB5F45D30E85669B343184753C1DD8E3A492ADACF4543F9E69F323074",
+      "bytes": 22648,
+      "before": "D536145CB5F45D30E85669B343184753C1DD8E3A492ADACF4543F9E69F323074",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_AfterlifeIdlesR3.reds",
+      "sha256": "5899B6DC726B6D5EE74DC5DA21A9D39DDCE30028DABF161E0EF6D91ECD13128A",
+      "bytes": 9293,
+      "before": "5899B6DC726B6D5EE74DC5DA21A9D39DDCE30028DABF161E0EF6D91ECD13128A",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_AfterlifeInteractionsR8.reds",
+      "sha256": "8E1F054C3AD9B1D5ACEDEA47EA90171D01474627B7EA74163E265B4BAC290CE7",
+      "bytes": 13232,
+      "before": "8E1F054C3AD9B1D5ACEDEA47EA90171D01474627B7EA74163E265B4BAC290CE7",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_AfterlifeNativeBootstrapA4.reds",
+      "sha256": "E908FD9894D3583C180BE8C8FE462EEE8904262B76B81984F037E36F6A6D431C",
+      "bytes": 4849,
+      "before": "E908FD9894D3583C180BE8C8FE462EEE8904262B76B81984F037E36F6A6D431C",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_AfterlifeR1.reds",
+      "sha256": "65B8AE0074132281181263AD636A4590A7513B65A048164B0E2CE5F380B4CF70",
+      "bytes": 3465,
+      "before": "65B8AE0074132281181263AD636A4590A7513B65A048164B0E2CE5F380B4CF70",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0AfterlifeMirror.reds",
+      "sha256": "51B4E455EA80BC958504F4B6EA9C8DF45DE99E8AD88961C5A37705900F169CF6",
+      "bytes": 3154,
+      "before": "51B4E455EA80BC958504F4B6EA9C8DF45DE99E8AD88961C5A37705900F169CF6",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0CPZFood02.reds",
+      "sha256": "9F1238DC73AA7B7BBFBA0F4BFFE43FD1F595F7486137E2ADA2DD5667194F319B",
+      "bytes": 8092,
+      "before": "9F1238DC73AA7B7BBFBA0F4BFFE43FD1F595F7486137E2ADA2DD5667194F319B",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0Claire.reds",
+      "sha256": "760790330C6783F103E9B8F94980297D9747E027830158CF6D5114C63F3E336B",
+      "bytes": 3671,
+      "before": "760790330C6783F103E9B8F94980297D9747E027830158CF6D5114C63F3E336B",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0DeferredVendors.reds",
+      "sha256": "510AF5E9FAE980213658263CF83F65034B74231BE8A6EFB3BCC57EA2B1EA2A77",
+      "bytes": 4864,
+      "before": "510AF5E9FAE980213658263CF83F65034B74231BE8A6EFB3BCC57EA2B1EA2A77",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0OrdinaryBars.reds",
+      "sha256": "FEF1F5F1779FCA14D32BE892E30E2CA48C082E4CBB7C50199385BCE5EF829CE6",
+      "bytes": 9619,
+      "before": "FEF1F5F1779FCA14D32BE892E30E2CA48C082E4CBB7C50199385BCE5EF829CE6",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0OrdinaryVendors.reds",
+      "sha256": "473E42266A54B49235B6A133617835B4A36A5D055FEAB60E2A787575DC565ABB",
+      "bytes": 20426,
+      "before": "473E42266A54B49235B6A133617835B4A36A5D055FEAB60E2A787575DC565ABB",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0SpecialServices.reds",
+      "sha256": "7D4C86C748E6DD3856FB69B3E6286D7DA4BD9155F7CFE6BE192ECA2C5B942FF2",
+      "bytes": 8216,
+      "before": "7D4C86C748E6DD3856FB69B3E6286D7DA4BD9155F7CFE6BE192ECA2C5B942FF2",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0StoryEight.reds",
+      "sha256": "AF316AFC167E4B142E0DC8E58604126A25605CEE09A1B2D064E2A06EBA8C6273",
+      "bytes": 6086,
+      "before": "AF316AFC167E4B142E0DC8E58604126A25605CEE09A1B2D064E2A06EBA8C6273",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0StoryServices.reds",
+      "sha256": "CDAC6032029A087235E604E563B94698EC083FF80BEADF31B055100D324E0103",
+      "bytes": 4691,
+      "before": "CDAC6032029A087235E604E563B94698EC083FF80BEADF31B055100D324E0103",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0StoryZane.reds",
+      "sha256": "5F11C301EA96F1E794D9F9A9F29B53C55A324C865A6CFCD93E57B132D70DCC56",
+      "bytes": 3712,
+      "before": "5F11C301EA96F1E794D9F9A9F29B53C55A324C865A6CFCD93E57B132D70DCC56",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0VendorShared.reds",
+      "sha256": "F9B5F3F8D08E050A4FABBC9AA4F13C8698FB25CEAE29163B1B2EB5B640C132FB",
+      "bytes": 5194,
+      "before": "F9B5F3F8D08E050A4FABBC9AA4F13C8698FB25CEAE29163B1B2EB5B640C132FB",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0VendorVariants.reds",
+      "sha256": "B8513C33D4288894D078BFD63A43E242F6F1862EEB07F0F20D41C5F7C2AFC7CD",
+      "bytes": 10177,
+      "before": "B8513C33D4288894D078BFD63A43E242F6F1862EEB07F0F20D41C5F7C2AFC7CD",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_GigsU10.reds",
+      "sha256": "BA8DE611800530A9D6675FF47D1A208F607E2C8F8AA469BE6B6E49BA7E1EF8A3",
+      "bytes": 44360,
+      "before": "BA8DE611800530A9D6675FF47D1A208F607E2C8F8AA469BE6B6E49BA7E1EF8A3",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_Global.reds",
+      "sha256": "F6BC1F69F80F9D2F2AA495B026137EFC76F2D5B29C88B12F2C8D04A0954F9FDE",
+      "bytes": 34305,
+      "before": "F6BC1F69F80F9D2F2AA495B026137EFC76F2D5B29C88B12F2C8D04A0954F9FDE",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_HistorySnapshotHS1.reds",
+      "sha256": "24D25D8EBF369935A0D0388C3A32378615550D0FD1C9B89E11EC91F78293765E",
+      "bytes": 1131282,
+      "before": "24D25D8EBF369935A0D0388C3A32378615550D0FD1C9B89E11EC91F78293765E",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_Housing.reds",
+      "sha256": "54AFAD6B60BE7CF060AB12FD35A671556C84510FD1C329B9FFED40A4CB7355B0",
+      "bytes": 79880,
+      "before": "54AFAD6B60BE7CF060AB12FD35A671556C84510FD1C329B9FFED40A4CB7355B0",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_JohnnyVoiceJV1.reds",
+      "sha256": "1338B05F41A88D222BEABCFF4F9D23D3B87B42B1A67E7019678DDA60F7917FE5",
+      "bytes": 4490,
+      "before": "1338B05F41A88D222BEABCFF4F9D23D3B87B42B1A67E7019678DDA60F7917FE5",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_JournalLabelJ1.reds",
+      "sha256": "EC73A2B370169E5890D8F8194E264F2E7D31F9A73FC6C899144CFB51DEEF1DA0",
+      "bytes": 1431,
+      "before": "EC73A2B370169E5890D8F8194E264F2E7D31F9A73FC6C899144CFB51DEEF1DA0",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_LoadingCoverLC1.reds",
+      "sha256": "AEABE27EEB93714CE7F2106AA0FFD42F7D5D354484663C357DCF2AE54C809B94",
+      "bytes": 22636,
+      "before": "AEABE27EEB93714CE7F2106AA0FFD42F7D5D354484663C357DCF2AE54C809B94",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_MistyViktorAuto.reds",
+      "sha256": "70590A4F2BCF3122D2DE866C1E3886F6ACFB282B8BA8869B10ADD0621B175D73",
+      "bytes": 3466,
+      "before": "70590A4F2BCF3122D2DE866C1E3886F6ACFB282B8BA8869B10ADD0621B175D73",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_MistyViktorTerryR11.reds",
+      "sha256": "B19F81B817237208BD9F18FEB6AA64BADC81E43BCF86B69B3D529453789439B7",
+      "bytes": 8772,
+      "before": "B19F81B817237208BD9F18FEB6AA64BADC81E43BCF86B69B3D529453789439B7",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_NCPDRepairN21.reds",
+      "sha256": "8F4DDBF69C7BA62984B6236EEF9461EF16AC4D639D1FB50CDFE0C3FCB121BEB3",
+      "bytes": 23384,
+      "before": "8F4DDBF69C7BA62984B6236EEF9461EF16AC4D639D1FB50CDFE0C3FCB121BEB3",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_NCPDScannersN2.reds",
+      "sha256": "A6D7810B6A7657D3CD68013337DF83E63EE64EAB1425EC380A1D8603472CE7CD",
+      "bytes": 4455,
+      "before": "A6D7810B6A7657D3CD68013337DF83E63EE64EAB1425EC380A1D8603472CE7CD",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_RestorationBaseline.reds",
+      "sha256": "50EEBE4A0D41EF6648A1E685A3A823C1F8E637BF5F5BD0AA7A50DD669829E5C8",
+      "bytes": 264912,
+      "before": "50EEBE4A0D41EF6648A1E685A3A823C1F8E637BF5F5BD0AA7A50DD669829E5C8",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR1.reds",
+      "sha256": "6663F0D4EB2A6DA449C9965CB05C98287E62828FF422141AA7745E88DCEB234C",
+      "bytes": 33291,
+      "before": "6663F0D4EB2A6DA449C9965CB05C98287E62828FF422141AA7745E88DCEB234C",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR2.reds",
+      "sha256": "49A38CC6636F1D6D5AEAE21130FCBB1CB8B57C85942CFECBE7549FCB5832FE26",
+      "bytes": 72219,
+      "before": "49A38CC6636F1D6D5AEAE21130FCBB1CB8B57C85942CFECBE7549FCB5832FE26",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR3.reds",
+      "sha256": "1E47D68F827496FAFED5E82D755DF0AFF6111E602F852323E4E843DB792C8DA1",
+      "bytes": 284480,
+      "before": "1E47D68F827496FAFED5E82D755DF0AFF6111E602F852323E4E843DB792C8DA1",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobPilotS1.reds",
+      "sha256": "E7725897767793879BA4D5C6FC390996B7DDFA565A51BBD7BF7538EBF4CB8889",
+      "bytes": 12569,
+      "before": "E7725897767793879BA4D5C6FC390996B7DDFA565A51BBD7BF7538EBF4CB8889",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS2.reds",
+      "sha256": "839675C7BFAC6F7055A2DC18C9D2D410FD257814A6E4A95716D98EDCA8468E39",
+      "bytes": 211606,
+      "before": "839675C7BFAC6F7055A2DC18C9D2D410FD257814A6E4A95716D98EDCA8468E39",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS22.reds",
+      "sha256": "93DB76BD6719FCA2E60EBFE771AF8F612F9AB986B90D1604EB9EE316310A48D8",
+      "bytes": 23270,
+      "before": "93DB76BD6719FCA2E60EBFE771AF8F612F9AB986B90D1604EB9EE316310A48D8",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS23.reds",
+      "sha256": "6CE6D1BEF1AE2F2AF42CD44CCAE61D5EC4767DA466C9F40D263E1A85B323C606",
+      "bytes": 74756,
+      "before": "6CE6D1BEF1AE2F2AF42CD44CCAE61D5EC4767DA466C9F40D263E1A85B323C606",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS24.reds",
+      "sha256": "010332E333074AC20278B0B7F24A05744C55048F92F4480715BDC30E77F153E6",
+      "bytes": 65976,
+      "before": "010332E333074AC20278B0B7F24A05744C55048F92F4480715BDC30E77F153E6",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS25.reds",
+      "sha256": "3B9BF09D6F0A93B69984B582C57989529B9EFBE2AB0689A8A5E32C3409F23466",
+      "bytes": 110757,
+      "before": "3B9BF09D6F0A93B69984B582C57989529B9EFBE2AB0689A8A5E32C3409F23466",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS27.reds",
+      "sha256": "FB822EB9A6C2871D44129BE94DB0DE47BBAEC17B980986760BABA34211F551FF",
+      "bytes": 90996,
+      "before": "FB822EB9A6C2871D44129BE94DB0DE47BBAEC17B980986760BABA34211F551FF",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS28.reds",
+      "sha256": "762FCF420FE412A4CCF6590F528A78B5570FEEF83281D4CAE0079FE2DE08CD2B",
+      "bytes": 29454,
+      "before": "762FCF420FE412A4CCF6590F528A78B5570FEEF83281D4CAE0079FE2DE08CD2B",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS29.reds",
+      "sha256": "ECA10FA8E04D88F31B7DED67967B646A1E329C7F819C81BBCC5196A45B5CEE0D",
+      "bytes": 217644,
+      "before": "ECA10FA8E04D88F31B7DED67967B646A1E329C7F819C81BBCC5196A45B5CEE0D",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_StreetkidAuto.reds",
+      "sha256": "30C9141D1093B20F354C0E77ADC0CB036BE8AC35BC907DA1084BDCCB764F6DC0",
+      "bytes": 3859,
+      "before": "30C9141D1093B20F354C0E77ADC0CB036BE8AC35BC907DA1084BDCCB764F6DC0",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_TimeAuto.reds",
+      "sha256": "9A531BAD92D5D79B4ECF3A9C02D55B3037E4D7A43F3409D3621F201C424E9EAA",
+      "bytes": 3836,
+      "before": "9A531BAD92D5D79B4ECF3A9C02D55B3037E4D7A43F3409D3621F201C424E9EAA",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_TowerJournalAuto.reds",
+      "sha256": "F7AE504E79CC2B3983C9D7267B70F65AED25D7E9B95B9C70451C0CE10FA208A0",
+      "bytes": 3561,
+      "before": "F7AE504E79CC2B3983C9D7267B70F65AED25D7E9B95B9C70451C0CE10FA208A0",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_ZetatechIdlesR12.reds",
+      "sha256": "D4C2B4438E2803ED4C81B9AB12DCB503213FEBF8130C8E1A8D9A53FFA7CD4848",
+      "bytes": 5208,
+      "before": "D4C2B4438E2803ED4C81B9AB12DCB503213FEBF8130C8E1A8D9A53FFA7CD4848",
+      "changed": false
+    },
+    {
+      "component": "Core",
+      "path": "r6/tweaks/TowerContinued_PreAlpha.yaml",
+      "sha256": "4DBE8CD5C3BC6254900B6951919B346F6DCEB7BD9CE9C94FA4B4A27CB7704E05",
+      "bytes": 200,
+      "before": "4DBE8CD5C3BC6254900B6951919B346F6DCEB7BD9CE9C94FA4B4A27CB7704E05",
+      "changed": false
+    },
+    {
+      "component": "Diagnostics",
+      "path": "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_QR9_Diagnostics/init.lua",
+      "sha256": "ACCE8B7E4E1E355BBC6D6F4752FDBCC7BB3034F594B13AB055EC35742D333718",
+      "bytes": 12561,
+      "before": null,
+      "changed": true
+    },
+    {
+      "component": "Diagnostics",
+      "path": "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_QR9_Diagnostics/watch.json",
+      "sha256": "AEC4D4921AC64B0C37006E7839DD3F9466457B44A735DFFD4637C4261D5EAED2",
+      "bytes": 19787,
+      "before": null,
+      "changed": true
+    }
+  ],
+  "approved_game_changes": [
+    "archive/pc/mod/zzzz_PTFR_Combined.archive",
+    "archive/pc/mod/zzzz_PTFR_Combined.archive.xl",
+    "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_QR9_Diagnostics/init.lua",
+    "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_QR9_Diagnostics/watch.json"
+  ],
+  "gameplay_result": "NOT_TESTED",
+  "saves_unchanged_sha_files": 307,
+  "master_backup": [
+    {
+      "name": "metadata.9.json",
+      "source": "C:\\Users\\Ayong\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-23\\metadata.9.json",
+      "backup": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_a\\recovery\\core_qr8_02_01\\master_before\\ManualSave-23\\metadata.9.json",
+      "sha256": "326024CE193D37ECAE37834D91CEAA9E88DC9BC61F5242B27C950281DA7D497E"
+    },
+    {
+      "name": "sav.dat",
+      "source": "C:\\Users\\Ayong\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-23\\sav.dat",
+      "backup": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_a\\recovery\\core_qr8_02_01\\master_before\\ManualSave-23\\sav.dat",
+      "sha256": "AE6D63E8E84A174F5E77194CC0C66A6DA66F3F060CE2DF08D5C955C116F47C15"
+    },
+    {
+      "name": "screenshot.png",
+      "source": "C:\\Users\\Ayong\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-23\\screenshot.png",
+      "backup": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_a\\recovery\\core_qr8_02_01\\master_before\\ManualSave-23\\screenshot.png",
+      "sha256": "F46A8E7A27F82340EBC6A078963C68CA5B7B7800A9B883A7C130EFB77C86E394"
+    }
+  ],
+  "native_working_save_created": false,
+  "preflights": "PASS_BOTH",
+  "installed_verification": "PASS_BOTH",
+  "rollback_readiness": "PASS_BOTH_NO_ROLLBACK_EXECUTED",
+  "core_recovery": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_a\\recovery\\core_qr8_02_01",
+  "diagnostics_recovery": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_a\\recovery\\diagnostics_qr8_02_01",
+  "game_launches": 0,
+  "CUA_calls": 0,
+  "save_or_fact_writes": 0,
+  "core_rebuilds": 0,
+  "release_operations": 0,
+  "documentation_updates": [
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\PROJECT.md",
+      "sha256": "8CFA29990F89721E74886C9AAF238B67DB93988F0F461819DB4E606C057E6859",
+      "before_backup": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\deployment_01\\docs_before\\PROJECT.md",
+      "before_sha256": "D11ADB1C6215EBDF46F27098CED860A15C1D8E5FA36D9583F28E5FF8F89B9A35"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\ROADMAP.md",
+      "sha256": "36BB7FD9EF06C9770DD2314D7D7FB3FE7175C1DA16CBDE4E08AEB2B154B272D7",
+      "before_backup": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\deployment_01\\docs_before\\ROADMAP.md",
+      "before_sha256": "76006FA24D5256D41FE4F779A213E1366F3DE3CF282B68F49C54115ED20AB018"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\docs\\knowledge\\current-state.md",
+      "sha256": "8A325AB4E121A9A8CE67E5CCCC8EE28AC0970DCFAC3CA12160132763523AD39A",
+      "before_backup": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\deployment_01\\docs_before\\docs\\knowledge\\current-state.md",
+      "before_sha256": "60FF85B67175BB0FD93E19C04F31083883CCB52CD60CF9FC2D302BD40DD6615B"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\deployment_01\\authorization.json",
+      "sha256": "221F04D7CA86A9163FFA628E928D6221276AF1268965C2D56FB4A85EED4F2BB1",
+      "bytes": 670
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\deployment_01\\verification.json",
+      "sha256": "42A76BC327000DC1534BB3C0D52AF5F2A5EBE83B232680FE8120A0AE2243DC1C",
+      "bytes": 20383
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\deployment_01\\verify_installed.py",
+      "sha256": "88664C8930F931827BF332F3F6A5F111FF86BACEA7509B089A1D2E4878619155",
+      "bytes": 5511
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\deployment_01\\REPORT.md",
+      "sha256": "663ACB2F546A82DFBBF28E7E7B49626F2CBC665F65575CA8034AD16E8A07970E",
+      "bytes": 4357
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\deployment_01\\NEXT_TEST.md",
+      "sha256": "2CB431EFBAADB754FAD6B22AF4F7FD6B55F442C079839E5827765E95105C26D5",
+      "bytes": 2466
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\deployment_01\\HANDOFF.md",
+      "sha256": "613DB9FDCF1D38EA80A59B1A2653608288411D1BB166752FA8D874C3A35BF306",
+      "bytes": 3346
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\deployment_01\\docs_before.json",
+      "sha256": "0BD149B281DA2FD11BBA9310B10F8F6023C30C6351B3FD9DF078C671245CD23F",
+      "bytes": 838
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\deployment_01\\docs_before\\docs\\knowledge\\current-state.md",
+      "sha256": "60FF85B67175BB0FD93E19C04F31083883CCB52CD60CF9FC2D302BD40DD6615B",
+      "bytes": 5664
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\deployment_01\\docs_before\\PROJECT.md",
+      "sha256": "D11ADB1C6215EBDF46F27098CED860A15C1D8E5FA36D9583F28E5FF8F89B9A35",
+      "bytes": 5011
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\deployment_01\\docs_before\\ROADMAP.md",
+      "sha256": "76006FA24D5256D41FE4F779A213E1366F3DE3CF282B68F49C54115ED20AB018",
+      "bytes": 3876
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_a\\deployment_01\\core_install.json",
+      "sha256": "0B17A161FFCB04E070A0DE5B65FE619F89DFA85E654852D9866F16001C6255F3",
+      "bytes": 866417
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_a\\deployment_01\\core_preflight.json",
+      "sha256": "62454FFDBFE65AFD35C74FD4CE0684810C978E12A863E6DAE1374547DAB7BE84",
+      "bytes": 289849
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_a\\deployment_01\\core_rollback_ready.json",
+      "sha256": "227AD9E3A388AFFEAFDB3C7B2F2E3832673541ECE38191C59458327344AC3C09",
+      "bytes": 356
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_a\\deployment_01\\core_verify.json",
+      "sha256": "B9B0B63CBA56E9B154AB6F2E350DDCB71C9835AC59FE854561CFFEF6B32E75A6",
+      "bytes": 233
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_a\\deployment_01\\diagnostics_install.json",
+      "sha256": "B3096AA58603AF6AD17B48E0D006928887A94B2D72D3C2F98F0B1FE559C48877",
+      "bytes": 897511
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_a\\deployment_01\\diagnostics_preflight.json",
+      "sha256": "869F6AA4B40B6F58E3ED895D23B15B4F929A0598744F21523C6DA791132D1BCE",
+      "bytes": 283463
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_a\\deployment_01\\diagnostics_rollback_ready.json",
+      "sha256": "A6E29DBAE4E00B5C685EDA1456215FA15FFC82508222CA87458D0FA8C895851C",
+      "bytes": 363
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_a\\deployment_01\\diagnostics_verify.json",
+      "sha256": "D7A64686CEAEE534E0E69203B0586578C4022614479C8CB2701122A9E4F6E673",
+      "bytes": 240
+    }
+  ],
+  "next_action": "User follows NEXT_TEST.md: native Load23/New Save bootstrap, then short S00 working-save smoke. Wait for report and logs. No automated gameplay."
+}

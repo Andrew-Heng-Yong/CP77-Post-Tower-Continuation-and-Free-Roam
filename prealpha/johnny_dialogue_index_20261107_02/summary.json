@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "recorded_utc": "2026-11-07T22:36:51.238940+00:00",
+  "status": "STEP2_SUCCESSOR_VERIFIED_WITH_EXPLICIT_SOURCE_LIMITS",
+  "selected_index": "index_05",
+  "database": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\johnny_dialogue_index_20261107_02\\index_05\\dialogue.sqlite3",
+    "sha256": "A60FEA94BDD5C7777484710E57753F558C80CFD36E553BE03DF02CB8EF459D2E",
+    "bytes": 5189410816
+  },
+  "counts": {
+    "metadata": 14,
+    "resources": 13180,
+    "roots": 9303,
+    "actors": 29770,
+    "lines": 270103,
+    "nodes": 905049,
+    "edges": 1050563,
+    "entries": 81430,
+    "events": 868723,
+    "choices": 44663,
+    "localization": 1071738,
+    "aux_links": 685,
+    "script_calls": 113,
+    "source_references": 393119,
+    "issues": 475,
+    "search_items": 975419,
+    "supplemental_sources": 476,
+    "phase_graphs": 7043,
+    "graph_connections": 167771,
+    "dispatches": 3433,
+    "voice_tags": 1259,
+    "dispatch_targets": 468,
+    "dispatch_dialogue_candidates": 572,
+    "sound_events": 382,
+    "voice_metadata": 4995,
+    "coverage_boundaries": 18
+  },
+  "resource_kinds": {
+    "CONVERSATIONS": 32,
+    "ENGLISH_SUBTITLES": 3844,
+    "QUEST_SOURCE": 386,
+    "SCENE": 8895,
+    "SOUND_SUPPORT_SOURCE": 17,
+    "VOICE_IDENTITY_SOURCE": 6
+  },
+  "additional_subtitle_providers": 29,
+  "reused_subtitle_providers": 12,
+  "subtitle_providers_examined": 41,
+  "additional_subtitle_entries": 1202,
+  "additional_localization_variants": 2404,
+  "text_items_requalified": 1347,
+  "new_english_dialogue_events": 308,
+  "new_english_stored_lines": 10,
+  "new_english_johnny_source_events": 3,
+  "unresolved_english_items": {
+    "CHOICE": 8828,
+    "DIALOGUE_EVENT": 375
+  },
+  "voiceset_source_payloads": 412,
+  "voiceset_dispatch_params": 3433,
+  "role_leads": {
+    "CALLER_BINDING_REQUIRED": 3335,
+    "JOHNNY_REFERENCE_LEAD": 20,
+    "PLAYER_CONTEXT_REQUIRED": 78
+  },
+  "dispatch_target_statuses": {
+    "EXACT_NAMED_ENTRY_CANDIDATE": 379,
+    "NO_EXACT_ENTRY_OR_SCENE_PROVIDER": 89
+  },
+  "candidate_event_links": 572,
+  "literal_null_socket_boundaries": 6,
+  "opaque_scene_hold": "q303_10_concert_braindance.scene",
+  "source_verification": "index_05/verification.json",
+  "cli_verification": "index_05/cli_verification.json",
+  "normal_interface_and_guard_checks": 16,
+  "scope_limit": "Indexed source evidence includes pre-Tower, inactive, historical and external-mod branches. Binding, actual post-Tower routes, provider winners and saved owners require later review.",
+  "game_writes": 0,
+  "save_writes": 0,
+  "parent_index_writes": 0,
+  "step3_started": false
+}

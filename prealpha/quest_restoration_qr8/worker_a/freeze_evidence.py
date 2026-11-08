@@ -1,0 +1,12 @@
+from inspect_archivexl import ROOT,HERE
+import json,hashlib,datetime
+def pin(p):return {'path':str(p),'sha256':hashlib.sha256(p.read_bytes()).hexdigest().upper(),'size':p.stat().st_size}
+def main():
+ out=HERE/'engine_observability_review_01';out.mkdir(exist_ok=False)
+ plan=ROOT/'prealpha/quest_restoration_qr8/acceptance_draft_01.json';collector=plan.parent/'collect_acceptance_logs.ps1';d=json.loads(plan.read_text());s=next(t for t in d['tests'] if t['id']=='S00')
+ result={'status':'APPROVE_BOUNDED_S00_PLAN_WITH_NAMED_OBSERVABILITY_CORRECTION','inputs':[pin(plan),pin(collector)],'proven':['Collector reads/copies existing logs and DLL identity; it contains no game launch, fact write or deployment call. Fresh-output containment and linked-output ancestors are checked.','S00 separates shared startup observation from historical user-successful Tower completion and preserves genuine history/master-copy controls.'],'required_correction':['ArchiveXL successful quest patching log identifies the parent resource, not the new child path/generated ID. Exact private phase19913 insertion/startup/receipt cannot be inferred from that line; mark NOT_OBSERVED unless a qualified bounded observer supplies actual identity/state.'],'source_specific_addendum':str(HERE/'DIAGNOSTIC.md'),'limits':['Collector was reviewed read-only and not executed by Worker A. Its syntax/runtime verification remains coordinator-owned.','Prepared debugger observation fields are checked against actual DLL instructions; no debugger invocation procedure or instrumentation binary is certified or activated.'],'runtime_writes':0}
+ (out/'result.json').write_text(json.dumps(result,indent=2),encoding='utf8')
+ files=[p for p in HERE.rglob('*') if p.is_file() and p.name!='evidence_index.json']
+ index={'status':'WORKER_A_STATIC_EVIDENCE_FROZEN_PENDING_INDEPENDENT_PEER','created_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'primary_results':[pin(HERE/n) for n in ['binary_verification_01/evidence.json','namespace_verification_01/result.json','identifier_algebra_01/result.json','replay_01/result.json','engine_observability_review_01/result.json','ASSESSMENT.md','DIAGNOSTIC.md']],'all_worker_files':[pin(p) for p in sorted(files)],'prior_evidence_modified':False,'candidate_runtime_game_save_writes':0,'source_epoch':'QR8:00=QR7:04'}
+ (HERE/'evidence_index.json').write_text(json.dumps(index,indent=2),encoding='utf8');print({'indexed_files':len(files),'pending':'independent byte/source peer review'})
+if __name__=='__main__':main()

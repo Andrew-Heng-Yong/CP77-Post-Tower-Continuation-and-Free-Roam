@@ -1,0 +1,105 @@
+{
+  "status": "SELECTED_SAVE_NATIVE_THAW_REBIND_UNAVAILABLE",
+  "next": "Use the exact user-selected AutoSave-8 and AutoSave-16 approach fixture to qualify a supported wait rebind. Preserve the matching saved car record and courier counter, and resolve final setup application and native support before a runtime change.",
+  "runtime_changes": 0,
+  "selected_candidate": null,
+  "completion": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\completion.json",
+  "completion_sha256": "CE9D50E3DD2A02BCABB6EB445F34758BE599A8C42ED246317C512E2E8E3C131B",
+  "pending_readonly_observation": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\runtime_probe_01\\readiness.json",
+    "sha256": "674036556FBFA3843D2E0C0C39040393A2AB00A06FDCEF1A0B35CE1C89719E81",
+    "card": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\runtime_probe_01\\TEST_CARD.md",
+    "capture_run_id": "GG1_20261104T151626Z_f471d15d",
+    "state": "OBSERVED_AND_CAPTURE_STOPPED"
+  },
+  "latest_JF01_observation": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\observations\\jf01_01\\result.json",
+    "sha256": "2816A405F94A5EEA0CCA2DB62FBC6A8B25F75CEE1C2542AA3ABD75083487BB50",
+    "report": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\observations\\jf01_01\\REPORT.md",
+    "engineering_disposition": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\observations\\jf01_01\\engineering_disposition.json",
+    "crowd_entries": 50,
+    "crowd_active": 50,
+    "completion": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\observations\\jf01_01\\completion.json",
+      "sha256": "A43DA4F66901F52B0019D23606BC5C0AE73852EB454C43E7C6156B1DADB88886"
+    }
+  },
+  "latest_next_step": {
+    "completion": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\next_step_01\\completion.json",
+      "sha256": "6D9C6A7BEEBC80B3E659A7AE6859C1E3ABDF86F11D26F16E8B94F486E268404E"
+    },
+    "readiness": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\next_step_01\\readiness.json",
+      "sha256": "C867CD45D54568A20F6706BCE30B1061A2F8F4FA2B79BB4C812F4104B33A1E3B"
+    },
+    "handoff": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\next_step_01\\HANDOFF.md"
+  },
+  "latest_JF02_observation": {
+    "result": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\observations\\jf02_01\\result.json",
+      "sha256": "B0B885EE13D273A5283B4D884B3EB265D90DE4ACB12B4EEE26A3F2B3FCAB42CC"
+    },
+    "completion": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\observations\\jf02_01\\completion.json",
+      "sha256": "3A53AD818B6C1EBF291313821F0E04C94E5ADB567009AA64CEB9C09BE9702A2A"
+    },
+    "handoff": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\observations\\jf02_01\\HANDOFF.md"
+  },
+  "latest_lifecycle_step": {
+    "completion": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\lifecycle_01\\completion.json",
+      "sha256": "5C7D4BFD364C25013D8881D7CCC18AA916FAE53DFD999D617671F1EC5BC461F3"
+    },
+    "handoff": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\lifecycle_01\\HANDOFF.md"
+  },
+  "latest_identity_step": {
+    "completion": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\identity_01\\completion.json",
+      "sha256": "243D3CF547D79245D2DACBF6E3DDFD34CF8DC22E517F3F05E51088CDA4AA8634"
+    },
+    "handoff": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\identity_01\\HANDOFF.md"
+  },
+  "latest_event_stage": {
+    "completion": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\event_stage_01\\completion.json",
+      "sha256": "EF6DBFBE92916576F55E05ED44F5C6A6297D4D04CAFA64B03F6342B5AAEACB3D"
+    },
+    "handoff": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\event_stage_01\\HANDOFF.md"
+  },
+  "latest_effect_contract": {
+    "completion": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\effect_contract_01\\completion.json",
+      "sha256": "DAD0AAD80795BD868C68D025242365D5FF409B07999C49C49FCE31D193CE7D96"
+    },
+    "handoff": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\effect_contract_01\\HANDOFF.md"
+  },
+  "latest_resume_prototype": {
+    "completion": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\resume_prototype_01\\completion.json",
+      "sha256": "9AD7DFC39A048F82013DC98A9CF1EEECBD98B2160E2DA57B5EA1E119E0F32652"
+    },
+    "report": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\resume_prototype_01\\REPORT.md"
+  },
+  "latest_earlier_save_evidence": {
+    "completion": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\earlier_saves_01\\completion.json",
+      "sha256": "0971E227611111B13F71BE84758A635A48B26B868A45A2DB737B7A5E8A89C0AB"
+    },
+    "report": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\earlier_saves_01\\REPORT.md"
+  },
+  "latest_user_selected_save_comparison": {
+    "completion": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\latest_save_01\\completion.json",
+      "sha256": "98032A885A2AA553B6B57D1511BFB82C946C81A3CD88A963C01F0D5B7EAFB45F"
+    },
+    "report": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\latest_save_01\\REPORT.md"
+  },
+  "latest_saved_freeze_rebind": {
+    "completion": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\rebind_01\\completion.json",
+      "sha256": "94157EE8E7F8C58474241680CA365F6E8CD77588A6179D75ED2FF2AFDFB03C8F"
+    },
+    "report": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\rebind_01\\REPORT.md"
+  }
+}

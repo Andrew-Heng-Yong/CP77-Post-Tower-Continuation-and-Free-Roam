@@ -1,0 +1,114 @@
+{
+  "status": "PASS_SERIALIZED_HANDOFF_CONTRACT",
+  "resource_sha256": "E9CB251B6750ED971646F66C094A1CBCE83E48F48AFCDF36921CDA4DCD02A519",
+  "resource_manifest_sha256": "36CD66DD15214471C9E276A346BC98CD3D6331BEA8C9879B767D6FEFCB58CB48",
+  "prior_eligible": false,
+  "successor_eligible": true,
+  "rejected_witnesses": [
+    [
+      "quests/minor_quest/mq037_brendan_dumpster",
+      "Inactive"
+    ],
+    [
+      "quests/minor_quest/mq037_brendan_hooligan001",
+      "Failed"
+    ],
+    [
+      "quests/minor_quest/mq037_brendan",
+      "Active"
+    ],
+    [
+      "quests/minor_quest/mq037_brendan",
+      "Succeeded"
+    ],
+    [
+      "quests/minor_quest/mq037_brendan/mq037_brendan/02_find_brendan",
+      "Active"
+    ],
+    [
+      "quests/minor_quest/mq037_brendan_hooligan001",
+      null
+    ],
+    [
+      "PTFRS23_MQ037_Issued",
+      1
+    ],
+    [
+      "PTFRS23_MQ037_Entered",
+      1
+    ],
+    [
+      "PTFRQR17_MQ037_HandoffPending",
+      1
+    ],
+    [
+      "PTFRQR13_MQ037_FinalSupportHeld",
+      1
+    ],
+    [
+      "q307_main_game_killed",
+      0
+    ],
+    [
+      "q115_point_of_no_return",
+      1
+    ],
+    [
+      "mq037_done",
+      1
+    ],
+    [
+      "mq037_final_scene_active",
+      1
+    ],
+    [
+      "mq037_clerk_aggroed",
+      1
+    ]
+  ],
+  "readback_equal": true,
+  "native_nodes": [
+    38,
+    39,
+    40,
+    36
+  ],
+  "new_nodes": [
+    "1120",
+    "1121",
+    "1122",
+    "1123",
+    "1124",
+    "1125",
+    "1126",
+    "1127",
+    "1128",
+    "1129",
+    "1130",
+    "1131"
+  ],
+  "old_nested_graphs_preserved": true,
+  "private_mutations": {
+    "1128": [
+      "PTFRS23_MQ037_Issued",
+      1
+    ],
+    "1130": [
+      "PTFRQR17_MQ037_HandoffPending",
+      0
+    ],
+    "1121": [
+      "PTFRQR17_MQ037_HandoffPending",
+      1
+    ],
+    "1129": [
+      "PTFRS23_MQ037_Entered",
+      1
+    ],
+    "1131": [
+      "PTFRQR17_MQ037_HandoffPending",
+      0
+    ]
+  },
+  "runtime_owner_and_clock_reload": "UNTESTED"
+}

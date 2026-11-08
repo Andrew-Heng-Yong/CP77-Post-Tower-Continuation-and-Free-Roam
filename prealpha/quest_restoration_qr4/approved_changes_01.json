@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "relative_to": "QR3 staged candidate_01",
+  "status": "APPROVED_SERIALIZED_FUTURE_EVENT_ONLY",
+  "resources": [
+    {
+      "before": "EDFFB1ECAC9C0BBCDC6DE4990DB249320104F687D16414427B5667BE34649D60",
+      "after": "0362F5C3016643007F3B36B0E9E9CC1DAE668B142D7C66BB79BF09B4650D1F89",
+      "world_container_owner_added": false,
+      "preserved_native_helper": "#mq007_pr_gun_re_acquiring",
+      "scope": "Future1101event before done/reacquiring only. No retroactive adoption, reset, prefab invention, sector or item change.",
+      "depot": "towercontinued\\sidejobs_s23\\base_a\\mq007_smartgun.questphase",
+      "prefix": "fresh",
+      "intent": "Future supported MQ007 entry enrolls exact native bugfix14 continuation with recursive helper lease, original done wait/five days/context/variant/Regina messages/receipt. No retroactive adoption or altered admission.",
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\candidate_01\\repair_mq007\\patch.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G08\\regina_followup_01\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G08\\regina_world_01\\ownership.json"
+      ],
+      "tests": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\candidate_01\\repair_mq007\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G10\\reviews\\MQ007_serialized\\verification_01\\review.json"
+      ],
+      "independent_review_sha256": "3E81913CA8DEBDA0EBA8ED2D2AA6DA674B940356FB95AB2C690F9B0EC47915BF"
+    },
+    {
+      "before": "A90EDBDB4E09A257B8B78150E7008A4B59CC7D10E83FAEF9F99F292B613ED5EE",
+      "after": "2A98C7B674C1BDC249CDACFEE44B53316E173E24E7F637DFC94698D16BA428AE",
+      "world_container_owner_added": false,
+      "preserved_native_helper": "#mq007_pr_gun_re_acquiring",
+      "scope": "Future1101event before done/reacquiring only. No retroactive adoption, reset, prefab invention, sector or item change.",
+      "depot": "towercontinued\\sidejobs_s23\\base_a_v2\\mq007_resume_boot.questphase",
+      "prefix": "resume",
+      "intent": "Future supported MQ007 entry enrolls exact native bugfix14 continuation with recursive helper lease, original done wait/five days/context/variant/Regina messages/receipt. No retroactive adoption or altered admission.",
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\candidate_01\\repair_mq007\\patch.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G08\\regina_followup_01\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G08\\regina_world_01\\ownership.json"
+      ],
+      "tests": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\candidate_01\\repair_mq007\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G10\\reviews\\MQ007_serialized\\verification_01\\review.json"
+      ],
+      "independent_review_sha256": "3E81913CA8DEBDA0EBA8ED2D2AA6DA674B940356FB95AB2C690F9B0EC47915BF"
+    }
+  ],
+  "new_unique_defects": 1,
+  "new_affected_quests": [
+    "mq007_smartgun"
+  ],
+  "new_depots": 0,
+  "new_ArchiveXL_IDs": 0,
+  "limits": [
+    "Absent expected0 predicates are satisfied in the scalar fixture; receipt/provenance comes from required positive guards, not universal missing-fact rejection. Engine execution is not simulated.",
+    "Only future1101 signals before native done/reacquired enroll. Old already-entered/returned owners are deferred, not retroactively adopted.",
+    "Native11/51/95 admission seam and opaque sector loot remain unresolved. Actual scheduler, timers, reload and pickup require gameplay verification."
+  ]
+}

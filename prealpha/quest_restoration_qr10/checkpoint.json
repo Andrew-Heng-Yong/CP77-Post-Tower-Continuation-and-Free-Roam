@@ -1,0 +1,22 @@
+{
+  "state": "OFFLINE_ENGINEERING_COMPLETE_NOT_INSTALLED_NOT_LIVE_VALIDATED",
+  "completion": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr10\\completion.json",
+  "completion_sha256": "D6E5CD8CBE1D6DE77A91116BAEF6B4E99457EF4133ECAEFB47427C523F2ED0C3",
+  "primary_handoff": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr10\\HANDOFF.md",
+  "selected_manifest": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr10\\manifest_02.json",
+  "installed": "QR8:02 + QR9B04 unchanged",
+  "prepared": "QR10D01 candidate_02; sampling only",
+  "native_callbacks": "UNSUPPORTED_NOT_VERIFIED",
+  "live_sampling": "NOT_TESTED",
+  "runtime_actions": {
+    "install": 0,
+    "rollback": 0,
+    "game_launch": 0,
+    "game_API_execution": 0,
+    "CUA": 0,
+    "save_or_fact_write": 0,
+    "Core_rebuild": 0
+  },
+  "next": "Await separate installation authorization; satisfy fresh transaction/recovery gates, then human D00 only if existing Regina Call option. No repeat successful quests.",
+  "context": "One QR10 context compaction observed; earlier whole-project count unknown. Continuation state preserved; no thread/goal creation."
+}

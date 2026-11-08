@@ -1,0 +1,315 @@
+{
+  "new_confirmed_unique_defects": 6,
+  "new_repaired_unique_defects": 5,
+  "new_blocked_unique_defects": 1,
+  "new_affected_quest_count": 6,
+  "new_changed_resources": 5,
+  "cumulative_confirmed_unique_defects": 9,
+  "cumulative_staged_repairs": 8,
+  "cumulative_changed_resources_vs_PH3": 9,
+  "defects": [
+    {
+      "id": "QR3-MQ037-EXCLUDED-FRESH",
+      "resource": "towercontinued\\sidejobs_s23\\base_b\\mq037.questphase",
+      "affected": [
+        "mq037_brendan",
+        "mq037_brendan_hooligan001"
+      ],
+      "status": "CONTAINED_WITH_CONTINUATION_BLOCKER",
+      "repair": {
+        "depot": "towercontinued\\sidejobs_s23\\base_b\\mq037.questphase",
+        "before": "E42A7DE2591C367ACD1FCFAFD0D9BA728204034D57CEA0577848445C7C8DD94E",
+        "after": "59A9A88DB5AB6AC3566B58005BDD178524C165905BEBD59DB742C3105ED18AB4",
+        "evidence": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_c\\verification_02\\defects.json",
+        "tests": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\candidate_01\\repair\\verification_01\\tests.json",
+        "independent_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_b\\reviews\\brendan_quarantine.json",
+        "intent": "Contain invalid fresh excluded activation; preserve saved descendants, not a claim of restored sequels"
+      },
+      "blocker": "Selected later jobs still require a safe exact earned-Dumpster stage/owner adapter; current all-Inactive full-chain seam cannot provide it. No fabricated history or restart is permitted."
+    },
+    {
+      "id": "QR3-MQ030-VENDOR-LEASE",
+      "resource": "towercontinued\\sidejobs_s23\\base_b\\mq030.questphase",
+      "affected": [
+        "mq030_melisa"
+      ],
+      "status": "REPAIRED_STATIC_RUNTIME_TRANSITIONS_PENDING",
+      "repair": {
+        "depot": "towercontinued\\sidejobs_s23\\base_b\\mq030.questphase",
+        "before": "888B87EDCDCF8B8BCFE162261904B4F325C37D525D26DA3C87E75762BEA83D5E",
+        "after": "F0844A6ABC1DD10D4816A0F1ACEB0DD8F241031570221BDA2C13D002D810E268",
+        "evidence": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_e\\verification_02\\defect_mq030.json",
+        "tests": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\candidate_01\\repair_mq030\\verification_01\\tests.json",
+        "independent_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_d\\reviews\\mq030_duplicate_owner.json",
+        "intent": "Native helper retirement acknowledged before releasing shared vendor lease; pending wait and saved identifiers preserved"
+      },
+      "blocker": "Saved preexisting overlaps, scene interruption and actual prefab teardown/reload require runtime fixtures; authored retirement ordering is verified."
+    },
+    {
+      "id": "QR4-MQ007-POSTRETURN",
+      "affected": [
+        "mq007_smartgun"
+      ],
+      "status": "REPAIRED_FOR_FUTURE_SUPPORTED_ENTRY_STATIC_VALIDATED_LIVE_PENDING",
+      "resources": [
+        {
+          "before": "EDFFB1ECAC9C0BBCDC6DE4990DB249320104F687D16414427B5667BE34649D60",
+          "after": "0362F5C3016643007F3B36B0E9E9CC1DAE668B142D7C66BB79BF09B4650D1F89",
+          "world_container_owner_added": false,
+          "preserved_native_helper": "#mq007_pr_gun_re_acquiring",
+          "scope": "Future1101event before done/reacquiring only. No retroactive adoption, reset, prefab invention, sector or item change.",
+          "depot": "towercontinued\\sidejobs_s23\\base_a\\mq007_smartgun.questphase",
+          "prefix": "fresh",
+          "intent": "Future supported MQ007 entry enrolls exact native bugfix14 continuation with recursive helper lease, original done wait/five days/context/variant/Regina messages/receipt. No retroactive adoption or altered admission.",
+          "evidence": [
+            "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\candidate_01\\repair_mq007\\patch.json",
+            "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G08\\regina_followup_01\\evidence.json",
+            "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G08\\regina_world_01\\ownership.json"
+          ],
+          "tests": [
+            "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\candidate_01\\repair_mq007\\verification_01\\tests.json",
+            "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G10\\reviews\\MQ007_serialized\\verification_01\\review.json"
+          ],
+          "independent_review_sha256": "3E81913CA8DEBDA0EBA8ED2D2AA6DA674B940356FB95AB2C690F9B0EC47915BF"
+        },
+        {
+          "before": "A90EDBDB4E09A257B8B78150E7008A4B59CC7D10E83FAEF9F99F292B613ED5EE",
+          "after": "2A98C7B674C1BDC249CDACFEE44B53316E173E24E7F637DFC94698D16BA428AE",
+          "world_container_owner_added": false,
+          "preserved_native_helper": "#mq007_pr_gun_re_acquiring",
+          "scope": "Future1101event before done/reacquiring only. No retroactive adoption, reset, prefab invention, sector or item change.",
+          "depot": "towercontinued\\sidejobs_s23\\base_a_v2\\mq007_resume_boot.questphase",
+          "prefix": "resume",
+          "intent": "Future supported MQ007 entry enrolls exact native bugfix14 continuation with recursive helper lease, original done wait/five days/context/variant/Regina messages/receipt. No retroactive adoption or altered admission.",
+          "evidence": [
+            "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\candidate_01\\repair_mq007\\patch.json",
+            "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G08\\regina_followup_01\\evidence.json",
+            "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G08\\regina_world_01\\ownership.json"
+          ],
+          "tests": [
+            "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\candidate_01\\repair_mq007\\verification_01\\tests.json",
+            "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G10\\reviews\\MQ007_serialized\\verification_01\\review.json"
+          ],
+          "independent_review_sha256": "3E81913CA8DEBDA0EBA8ED2D2AA6DA674B940356FB95AB2C690F9B0EC47915BF"
+        }
+      ],
+      "source_fault": "Native return emitsmq007_done1 but sole nativebugfix14consumer is enclosed by genuineTower retirement. No private rehost existed.",
+      "before_after": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\candidate_01\\repair_mq007\\verification_01\\tests.json",
+      "independent_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G10\\reviews\\MQ007_serialized\\verification_01\\review.json",
+      "limitations": [
+        "Absent expected0 predicates are satisfied in the scalar fixture; receipt/provenance comes from required positive guards, not universal missing-fact rejection. Engine execution is not simulated.",
+        "Only future1101 signals before native done/reacquired enroll. Old already-entered/returned owners are deferred, not retroactively adopted.",
+        "Native11/51/95 admission seam and opaque sector loot remain unresolved. Actual scheduler, timers, reload and pickup require gameplay verification."
+      ]
+    },
+    {
+      "id": "QR5-G04-ARR12-MISSING-FUTURE-FAILURE-MONITOR",
+      "affected": [
+        "sts_std_arr_12"
+      ],
+      "status": "REPAIRED_FUTURE_ONLY_SERIALIZED_AND_PACKAGE_STATIC_VERIFIED_LIVE_PENDING",
+      "resources": [
+        {
+          "depot": "towercontinued\\native_gigs_u9\\sts_std_arr_12_entry.questphase",
+          "before": "184C754141A52D6E7B10EACD3F6EB59AC47351DED87A92D3B306FEC53777EDD6",
+          "after": "C724360402300A455949A6C42878FA6AB1C6CB2B6858F5718BDE80C43F79D0FF",
+          "intent": "Fresh65003 entry enrolls exact native ARR12 failure/abandonment monitor, guarded by private receipt and unchanged native failure states; bypass retired global arming prefix without resetting it. Full native failure/reward exclusion preserved.",
+          "evidence": [
+            "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G04\\arr12_failure_01\\evidence.json",
+            "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G07\\reviews\\ARR12\\verification_03\\review.json"
+          ],
+          "tests": [
+            "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\candidate_01\\repair_arr12\\verification_02\\tests.json",
+            "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\reviews\\ARR12_serialized\\verification_02\\review.json"
+          ],
+          "independent_source_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G07\\reviews\\ARR12\\verification_03\\review.json",
+          "independent_source_review_sha256": "E0667EE385618DEDDAAFDAE7B4C04D125A143FEE5CB8BEFCFA23756DF4C2AC97",
+          "independent_serialized_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\reviews\\ARR12_serialized\\verification_02\\review.json",
+          "independent_serialized_review_sha256": "3575A51433D9CDB6D2916680E72CBCEB0B7B56721D2687C7C859CD6E8762DE60"
+        }
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G04\\arr12_failure_01\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G07\\reviews\\ARR12\\verification_03\\review.json"
+      ],
+      "tests": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\candidate_01\\repair_arr12\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\reviews\\ARR12_serialized\\verification_02\\review.json"
+      ],
+      "independent_package_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\reviews\\QR5candidate02\\verification_01\\REPORT.json",
+      "limitation": "No retroactive saved-owner enrollment, reset, fake callback or live success claim."
+    },
+    {
+      "id": "QR5-CHEETAH-FUTURE-FALLBACK-MONITOR",
+      "affected": [
+        "sts_wat_nid_03"
+      ],
+      "status": "REPAIRED_FUTURE_ONLY_SERIALIZED_AND_PACKAGE_STATIC_VERIFIED_LIVE_PENDING",
+      "resources": [
+        {
+          "depot": "towercontinued\\native_gigs_u9\\sts_wat_nid_03_entry.questphase",
+          "before": "28E5ED99BD0BEE6FD5F89399FAC4861609E63EDF99A49F88F1E139B04F5B9DC6",
+          "after": "787F10377AD24030FA9B14F944F31076047925233842D2A1158E9F012D3A662A",
+          "intent": "Future Cheetah fallback monitor, preserving native XOR/AND and exact shared prefab lease; bypass original arm prefix without resetting it.",
+          "evidence": [
+            "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G12\\cheetah_proposal_02\\proposal.json",
+            "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_a\\CHEETAH\\verification_03\\review.json"
+          ],
+          "tests": [
+            "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\candidate_02\\monitor_verification_01\\tests.json",
+            "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_a\\CHEETAH_serialized\\verification_01\\review.json"
+          ],
+          "independent_source_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_a\\CHEETAH\\verification_03\\review.json",
+          "independent_source_review_sha256": "EE79127D3C79EE3F54AC45F0DA126805E890DC3DC5175DC46E71D0603659376E",
+          "independent_serialized_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_a\\CHEETAH_serialized\\verification_01\\review.json",
+          "independent_serialized_review_sha256": "D4FFC16D96173EC4E6CB47817EAFC2279D7800C857076E6F7D81B8059EC0F23A"
+        }
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G12\\cheetah_proposal_02\\proposal.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_a\\CHEETAH\\verification_03\\review.json"
+      ],
+      "tests": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\candidate_02\\monitor_verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_a\\CHEETAH_serialized\\verification_01\\review.json"
+      ],
+      "independent_package_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\reviews\\QR5candidate02\\verification_01\\REPORT.json",
+      "limitation": "No retroactive saved-owner enrollment, reset, fake callback or live success claim."
+    },
+    {
+      "id": "QR5-NID02-FUTURE-VAN-FAILURE-MONITOR",
+      "affected": [
+        "sts_wat_nid_02"
+      ],
+      "status": "REPAIRED_FUTURE_ONLY_SERIALIZED_AND_PACKAGE_STATIC_VERIFIED_LIVE_PENDING",
+      "resources": [
+        {
+          "depot": "towercontinued\\native_gigs_u9\\sts_wat_nid_02_entry.questphase",
+          "before": "8FD5E94E8F0BBC5A815B24377101B7EEE176462E0E126D5179FAE79A23F1C636",
+          "after": "AFB055A4E79D14472F29EC1883B9607FE1F18347F853EE4A482CAF483C7B4F87",
+          "intent": "Future Many Ways van-failure monitor, preserving native health/water/listener/cleanup/journals; bypass original arm prefix without resetting it.",
+          "evidence": [
+            "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\nid02_failure\\proposal_01\\proposal.json",
+            "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_b\\NID02\\review.json"
+          ],
+          "tests": [
+            "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\candidate_02\\monitor_verification_01\\tests.json",
+            "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_b\\NID02_serialized\\verification_01\\review.json"
+          ],
+          "independent_source_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_b\\NID02\\review.json",
+          "independent_source_review_sha256": "3EFA4494D82579013EDAD4CE734C2847772490075D9B0C3E38665ADD15C578E5",
+          "independent_serialized_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_b\\NID02_serialized\\verification_01\\review.json",
+          "independent_serialized_review_sha256": "70B10EFD7F5F0B98607ACB846E90845A588D957CBF77789089BCF2AF817CFC15"
+        }
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\nid02_failure\\proposal_01\\proposal.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_b\\NID02\\review.json"
+      ],
+      "tests": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\candidate_02\\monitor_verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_b\\NID02_serialized\\verification_01\\review.json"
+      ],
+      "independent_package_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\reviews\\QR5candidate02\\verification_01\\REPORT.json",
+      "limitation": "No retroactive saved-owner enrollment, reset, fake callback or live success claim."
+    },
+    {
+      "id": "QR5-STEVEN-U9-FUTURE-DEFAULT-OWNER",
+      "affected": [
+        "sts_ep1_08_steven_meeting_night_city"
+      ],
+      "carrier_preservation_quest": "sts_ep1_08",
+      "status": "REPAIRED_FUTURE_ONLY_SERIALIZED_AND_PACKAGE_STATIC_VERIFIED_LIVE_PENDING",
+      "resources": [
+        {
+          "depot": "towercontinued\\native_gigs_u9\\sts_ep1_08_entry.questphase",
+          "before": "783C9C6355E93C3C61350C22AE54542B6AC3D0593D50C068795DDB14779D77F6",
+          "after": "5D1FE58F41739C231B5006FF134EB78207FC879B9AB8652FADE69899242C2F62",
+          "intent": "Future U9 Steven actor-only helper with ordered enrollment and late Ana choice/history fences; preserve native invitation timer/SMS and old S23 owner.",
+          "evidence": [
+            "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G15\\actor_proposal_02\\proposal.json",
+            "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\reviews\\STEVEN\\proposal02_verification_01\\review.json"
+          ],
+          "tests": [
+            "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\candidate_02\\repair_steven\\verification_02\\tests.json",
+            "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_a\\STEVEN_serialized\\verification_02\\review.json"
+          ],
+          "independent_source_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\reviews\\STEVEN\\proposal02_verification_01\\review.json",
+          "independent_source_review_sha256": "23CE232D1D3DE41174249A2AE1522A407369957BE5DB32793BC6370B190A6F48",
+          "independent_serialized_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_a\\STEVEN_serialized\\verification_02\\review.json",
+          "independent_serialized_review_sha256": "6F0442571AC1F922DBCAC22457BAD4226B8EC43AB29D281B403AC56CDE73BF15"
+        }
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G15\\actor_proposal_02\\proposal.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\reviews\\STEVEN\\proposal02_verification_01\\review.json"
+      ],
+      "tests": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\candidate_02\\repair_steven\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_a\\STEVEN_serialized\\verification_02\\review.json"
+      ],
+      "independent_package_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\reviews\\QR5candidate02\\verification_01\\REPORT.json",
+      "limitation": "Only ordered future U9 enrollment; no second native SMS/timer/reward or old saved-owner adoption. Late Ana choice fence excludes stadium route."
+    },
+    {
+      "id": "QR5-CVI02-EP1-ALTERNATE-HANDS-CONTROLLER",
+      "affected": [
+        "sts_pac_cvi_02"
+      ],
+      "status": "CONFIRMED_REPAIR_BLOCKED_EXACT_MARKER_LEASE_AND_OWNER_EVIDENCE",
+      "resources": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_b\\G03_EP1\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\reviews\\CVI02_EP1\\verification_03\\review.json"
+      ],
+      "adjudication": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\adjudications\\G03_01.json",
+      "blocker": "Native alternate EP1 request listener/real ACK owner is retired. Selected scene inputs are holo-only, but exact physical-default marker lease comes from conditional FO1/native default owner not implied by CVI02 entry. Safe independent support acquisition and future/saved-owner handling lack proof. No unfiltered default/PIP clone or fake ACK approved."
+    },
+    {
+      "id": "QR5-G18-Q304-S22-MISSING-CAR-PREFAB",
+      "affected": [
+        "q304_car_retrieval"
+      ],
+      "status": "REPAIRED_FUTURE_9_EDGE_BODY_LEASE_SERIALIZED_AND_PACKAGE_STATIC_VERIFIED_LIVE_PENDING",
+      "resources": [
+        {
+          "depot": "towercontinued\\sidejobs_s22\\moving_heat_boot.questphase",
+          "before": "DF949CACE3DE7C450F014F0D7727F7C4FEFB1328218863C4A8F4E5C3B1AD4D8F",
+          "after": "37E4B4076D7506A9D1A62BAFDCD8FD66576E3C8A27A07736FCD738F4E94AA5D1",
+          "intent": "Restore exact native dedicated MovingHeat prefab lease around future accepted-stage resume child, with existing native guards plus S24FreshIssued0. Preserve already executing root10 descendants and completion edge. Claimed/pending before future9.True may enter new wrapper if rechecks pass; no retrospective lease assignment or new owner polling. Outside-trigger availability before lease remains unproved.",
+          "evidence": [
+            "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\moving_heat_prefab_03\\proposal.json",
+            "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_b\\MOVING_HEAT_source\\review.json",
+            "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\moving_heat_prefab_03\\evidence.json",
+            "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\moving_heat_prefab_03\\proposal_scope_addendum_01.json"
+          ],
+          "tests": [
+            "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\candidate_03\\repair_moving_heat\\verification_03\\tests.json",
+            "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_a\\MOVING_HEAT_serialized\\verification_01\\review.json"
+          ],
+          "independent_source_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_b\\MOVING_HEAT_source\\review.json",
+          "independent_source_review_sha256": "0F3E6F9C52BF95CFD023679C4C58DCDB028F69B14CB2134E338CD23AE139B480",
+          "independent_serialized_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_a\\MOVING_HEAT_serialized\\verification_01\\review.json",
+          "independent_serialized_review_sha256": "0F2BF560F1CFF7D4E4F3A69B788A3F2F8177558A39CECC701608B69C5A6CD90E"
+        }
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\moving_heat_prefab_03\\proposal.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_b\\MOVING_HEAT_source\\review.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\moving_heat_prefab_03\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\moving_heat_prefab_03\\proposal_scope_addendum_01.json"
+      ],
+      "tests": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\candidate_03\\repair_moving_heat\\verification_03\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_a\\MOVING_HEAT_serialized\\verification_01\\review.json"
+      ],
+      "independent_package_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\reviews\\QR5candidate03\\verification_01\\REPORT.json",
+      "saved_scope": "Restore exact native dedicated MovingHeat prefab lease around future accepted-stage resume child, with existing native guards plus S24FreshIssued0. Preserve already executing root10 descendants and completion edge. Claimed/pending before future9.True may enter new wrapper if rechecks pass; no retrospective lease assignment or new owner polling. Outside-trigger availability before lease remains unproved.",
+      "limits": [
+        "Original already-executing root10 descendants unchanged; claimed/pending before9 may take wrapper.",
+        "Pre-lease outside-trigger availability and opaque placement/engine semantics are not repaired or certified."
+      ]
+    }
+  ],
+  "scope": "Independent static source/serialized/package proof; no installed or live certification."
+}

@@ -1,0 +1,35 @@
+{
+  "status": "EARLIER_NATIVE_APPROACH_FIXTURE_FOUND_CURRENT_SAVE_UNBOUND",
+  "result": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\earlier_saves_01\\analysis_02\\result.json",
+    "sha256": "9DDC636D0BE0FAB024B4E5538800591983676F7FB41676A5985CE3AADBA823FD"
+  },
+  "report": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\earlier_saves_01\\REPORT.md",
+    "sha256": "87B2C469076921C9C0A909761AEA4BFD454054B298A0CA910EDAFE0CB706810D"
+  },
+  "scripts": [
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\earlier_saves_01\\capture.ps1",
+      "sha256": "A39E9E254298DB8490F3E1A6A737D4A11DC31947A98579BCE6FAF9982DD97D03"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\earlier_saves_01\\analyze.py",
+      "sha256": "4EE63D8F563C8666E3BF6B27BAC30E903F0B016D07723EBA3D7C78C044424B65"
+    }
+  ],
+  "verified_earlier_save_pairs": 7,
+  "positive_fixture": {
+    "name": "wa1backup16",
+    "slot": "AutoSave-16",
+    "timestamp": "16:05:11, 26.10.2026",
+    "source_sha256": "E5E0C78C0604BFC5840ECBFDEF95A78554207705C190FAD5FEE1713E8E5D8F5E"
+  },
+  "preservation_pins_verified": {
+    "installed": 77,
+    "original_saves": 6
+  },
+  "runtime_candidate": null,
+  "runtime_changes": 0,
+  "ready_human_tests": []
+}

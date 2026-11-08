@@ -1,0 +1,146 @@
+{
+  "status": "ANALYZED_BOUNDED_SUCCESS_NO_REPAIR_JUSTIFIED",
+  "sealed_utc": "2026-11-02T16:59:20.986216+00:00",
+  "selected_matrix_statuses": {
+    "PASS": 2,
+    "INCONCLUSIVE": 1,
+    "NOT_TESTABLE": 3,
+    "NOT_TESTED": 20
+  },
+  "additional_gig": "Until Death Do Us Part log/metadata-correlated completion PASS; awaiting user identity confirmation",
+  "probe_duration_seconds": 300,
+  "probe_ended_before_gig_completion": true,
+  "loaded_slot": "UNKNOWN_PENDING_USER_CONFIRMATION",
+  "master_and_backup": "EXACT_VERIFIED_AFTER",
+  "core_and_diagnostics": "VERIFIED_AFTER",
+  "game_or_save_edits_by_Codex": 0,
+  "runtime_repairs": 0,
+  "gameplay_by_Codex": 0,
+  "artifacts": [
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S00_20261102_01\\analysis_01\\evidence.json",
+      "sha256": "90EC1D8E29D2277A09D7DF1FD740810DA3E5ADC6BC574DB71A532C5EA46692A9",
+      "bytes": 7285
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S00_20261102_01\\analysis_01\\results.csv",
+      "sha256": "058B07CFD5554EB0C0F59FE436757C6431AF1FB109F636F5ADAB6DB58DD4207A",
+      "bytes": 4522
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S00_20261102_01\\analysis_01\\results.json",
+      "sha256": "286E33D8FD902B3B06BE45F6C4D161251E70170A4A7EB9BEF52DE627249BDF02",
+      "bytes": 15518
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S00_20261102_01\\analysis_01\\summary.json",
+      "sha256": "7DB5309258E58DDBC5F3485F2F465D746C0DF7EA3D7ADCFDC4E222E17B1A664A",
+      "bytes": 2173
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S00_20261102_01\\analyze_run.py",
+      "sha256": "B03DDC9CC871D36F7C63CD291D744600679763E2464D2654F14F74175B5C4483",
+      "bytes": 8942
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S00_20261102_01\\capture_analysis.json",
+      "sha256": "E7CA5827E7CCEFC5D52F5AC37731A9A2C61E00A0626A5749D1E21F75787E9CB1",
+      "bytes": 932
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S00_20261102_01\\collection.json",
+      "sha256": "D47981D85EF82D9D99B2210C6341ACE2D8F5ED01FDFB917C87383E6F57440E32",
+      "bytes": 1068
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S00_20261102_01\\human_result.json",
+      "sha256": "10579A9CCCCFA1CEB5FC9C531669C29FF17E8DF98039F236DCA78262A4D899E7",
+      "bytes": 382
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S00_20261102_01\\logs\\ArchiveXL_0_ArchiveXL-2026-11-02-11-39-56.log",
+      "sha256": "4A8A2A99F0746472FAB693D618079DCFEAFBFBA605F808BE1E51D41F6F059E2D",
+      "bytes": 478980
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S00_20261102_01\\logs\\ArchiveXL_1_ArchiveXL-2026-11-01-00-11-43.log",
+      "sha256": "7AFC8B803D39C776A87FA0E214BE17BFAAE4806D18BBFA4EEBFC3CA679DC95F2",
+      "bytes": 466007
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S00_20261102_01\\logs\\CET_0_cyber_engine_tweaks.log",
+      "sha256": "ABCD11CD49B1397947C5D6BD3E7D9DF5897D43975DBBC2D0CC8DC9A8F26CAF63",
+      "bytes": 351862
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S00_20261102_01\\logs\\CET_scripting_0_scripting.log",
+      "sha256": "D8D534F402D429E58964136A3AB0AD263ADB70C1D701060B9E3A8CDD51768E1A",
+      "bytes": 870335
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S00_20261102_01\\logs\\QR9_capture_20261102T164434Z_0001.jsonl",
+      "sha256": "E0530712E3EE6D0B0CA9C1E368E401718542D5AF415BD3CFF8B356E4262A568C",
+      "bytes": 5117
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S00_20261102_01\\logs\\RED4ext_0_red4ext-2026-11-02-11-39-55.log",
+      "sha256": "58E2A21E18BA8A8874B531C20DFD575DF85B0D9A058DD9DBA5B7A2C5035E6BD1",
+      "bytes": 4014
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S00_20261102_01\\logs\\RED4ext_1_red4ext-2026-11-01-00-11-41.log",
+      "sha256": "C40988130978B0F55DF0F0E4CF63D3DDC0CF5EE6646825771F34817AAC8B600D",
+      "bytes": 4014
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S00_20261102_01\\logs\\REDscript_0_redscript_rCURRENT.log",
+      "sha256": "14B6D16226CFFB162E05F9E28D1F4AB7E89A77B53017CA11720F35788E16609E",
+      "bytes": 9142
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S00_20261102_01\\logs\\REDscript_1_redscript_r2026-11-02_11-40-05.log",
+      "sha256": "BD9C883EAB9F9DD4A56098382F8DB6900B6E42520ED55F65EE1E66ABA4FA5697",
+      "bytes": 9142
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S00_20261102_01\\REPORT.md",
+      "sha256": "DC8517A0B4E0C1C1C4D434067C817C6D8398C207088496B4B3113656B243104C",
+      "bytes": 5194
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S00_20261102_01\\resource_observations.json",
+      "sha256": "752CBE9A3F4D134B4AF745DF35617A510E7A2A4F6CC49CE6EB4C70C4C6B552C7",
+      "bytes": 30877
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S00_20261102_01\\save_metadata_evidence.json",
+      "sha256": "55BD2209585B9B265B604DEB8765B4F930C0045A684E8ADFCE52601861BD9064",
+      "bytes": 3352
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S00_20261102_01\\support_line_candidates.json",
+      "sha256": "F0C042A3B12EF6D4FB4717FFC97DCED2C36DB37824A03E578C2B1EA79E4456BE",
+      "bytes": 80773
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S00_20261102_01\\support_log_candidates.json",
+      "sha256": "56EA368EEEA3B132316B10767A6A10E68F8A87A724943BEEB0069CD3F60E1520",
+      "bytes": 6229
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S00_20261102_01\\user_report.json",
+      "sha256": "303358708243837796085D59D87A632E03C6C0F5B562F4684A511E0C2B085CF1",
+      "bytes": 433
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_a\\observations\\S00_20261102_01\\core_verify.json",
+      "sha256": "38AF3BAB36902A6464608240F9477FD9964CC7DA14D90E7FE418C0DF0BBDC13C",
+      "bytes": 233
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_a\\observations\\S00_20261102_01\\diagnostics_verify.json",
+      "sha256": "3D772584D0CF0222B18874C38F162872E8AC2F85852C61618487B11F96A92261",
+      "bytes": 240
+    }
+  ]
+}

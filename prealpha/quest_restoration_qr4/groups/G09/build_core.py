@@ -1,0 +1,24 @@
+"""Pin Dakota/U9 shared protocol and original slice donors. No runtime imports."""
+from lib import *
+import argparse,copy
+ap=argparse.ArgumentParser();ap.add_argument('--output',required=True);a=ap.parse_args();O=Path(a.output).resolve();assert not O.exists();O.mkdir(parents=True)
+S=Store();M=read(W/'research/gig_restoration/native_gigs_u9/manifest.json');tests=[]
+def ck(n,b,e):tests.append({'name':n,'status':'PASS'if b else'FAIL','evidence':e});assert b,n
+raws=sorted({r['raw']for r in M['recipes']if r['id'].startswith('sts_bls_ina_')and r['kind']in['entry','credit','map']});donors=[S.extra(r,M)for r in raws]
+CD=r'base\quest\holocalls\dakota\dakota_holocall.questphase';SC=CD.replace('.questphase','.scene');CL=CD.replace('_holocall.questphase','_cleanup.questphase');SW=r'towercontinued\gig_phone_u9\support_wrapper.questphase';FP=r'towercontinued\gig_phone_u9\fixer_parent.questphase';FI=r'towercontinued\gig_phone_u9\fixer_initializer.questphase';FC=r'towercontinued\gig_phone_u9\fixer_cleanup.questphase';ST=r'towercontinued\phone_studios_ph3\studio_support.questphase';IN=r'base\quest\holocalls\holocall_initializers.questphase'
+for d in [CD,SC,CL,SW,FP,FI,FC,ST,IN,r'base\quest\holocalls\holocall_interrupts.questphase']:ck('decode '+d,not S.load(d)['errors'],d)
+def es(d,edges):
+ for e in edges:ck('connected '+d+' '+str(e),S.edge(d,*e),e)
+es(SW,[(3,'Out',4,'In'),(4,'True',5,'In'),(5,'Out',6,'Input')]);es(FP,[(0,'Out',34,'In1')]);es(FI,[(25,'Out1',50,'In1')]);ck('native_Dakota_initializer_template',S.n(FI,50)['payload']==S.n(IN,50)['payload'],'Exact phaseResource, saved native-compatible initializer fields')
+es(CD,[(28,'Out',42,'In'),(42,'Out',38,'In'),(38,'Out',39,'In'),(39,'Out',40,'In'),(40,'Out',43,'In1'),(43,'Out1',38,'In'),(42,'Out',41,'In'),(41,'Out',34,'In'),(34,'False',44,'In'),(44,'Out',21,'holo_dakota_calls_v_start'),(2,'Out',10,'In'),(10,'Out',21,'holo_dakota_calls_v_end')])
+for i,f,v in [(39,'holo_dakota_calls_v_start_activate_count',1),(40,'holo_dakota_calls_v_start_activate',0),(44,'holo_dakota_calls_v_start_activate_count',-1)]:ck('native_queue_writer '+str(i),any(x['factName']==f and x['value']==v for x in S.n(CD,i)['writes']),{'node':i,'fact':f,'value':v})
+for i,f in [(41,'holo_dakota_calls_v_start_done'),(42,'holo_dakota_calls_v_end_done')]:ck('real_ack '+str(i),any(x['factName']==f and x['value']==1 for x in S.n(SC,i,'scene')['writes']),{'scene':SC,'node':i,'fact':f})
+es(FC,[(437,'True',301,'In11'),(301,'Out11',441,'In')]);ck('native_cleanup_reference',S.n(FC,301)['refs']==[CL],'Native cleanup retained')
+ck('studio_scope_preserved',set(S.n(ST,3)['prefabs'])=={'$/03_night_city/c_pacifica/#holocalls_studio_ep1','$/03_night_city/ne2/#holocalls_studio'},'PH3 root instance scope for both global studios; contents/placement remains opaque')
+bad=copy.deepcopy(S.g(FI));bad['edges'].remove(['25','Out1','50','In1']);ck('mutation_missing_Dakota_listener',['25','Out1','50','In1']not in bad['edges'],'Actual edge removed, not metadata only')
+save(O/'tests.json',{'checks':tests,'count':len(tests)});save(O/'source_pins.json',S.pins)
+data={'status':'VERIFIED_SHARED_SOURCE_PROTOCOL_WITH_EXPLICIT_LIMITS','source_epoch':'QR3 candidate_01; no QR4 runtime edits','tests':str(O/'tests.json'),'source_pins':str(O/'source_pins.json'),'tests_sha256':sha(O/'tests.json'),'source_pins_sha256':sha(O/'source_pins.json'),'checks':len(tests),'donor_keys':donors,'sources':S.pins,'U9_manifest':str(W/'research/gig_restoration/native_gigs_u9/manifest.json'),'U9_manifest_sha256':sha(W/'research/gig_restoration/native_gigs_u9/manifest.json'),'protocol':{'controller':CD,'scene':SC,'native_initializer':50,'private_initializer':50,'outgoing_request_queue':'38→39count+1→40request0→43loop;41count>0 with setup gates→34False→44count-1→21.start','actual_ack_nodes':[41,42],'cleanup':'private437.True→301.In11→Out11→441; exact native Dakota cleanup','studio_owner':ST,'studios':S.n(ST,3)['prefabs']},'limits':['SupportIssued is written before parent initializer is entered, not a scheduler proof each listener already running','Exact native saved owner retirement, call arbitration and interrupts remain LIVE_ONLY','Studio world placement, TDB reward definitions and full target closure remain OPAQUE/UNKNOWN','Credit increments bls_sts_counter on original outcome predicates, including original failure predicates where present; it is not an extra reward grant','Three original slice donors absent from old model inventory are reopened with U9 manifest exact JSON hashes and available raw pins; no new extraction or original-file changes'],'runtime_changes':[]}
+save(O/'shared_core.json',data)
+frozen=Path(__file__).parent/'shared_core.json'
+if not frozen.exists():save(frozen,data)
+print(json.dumps({'checks':len(tests),'sources':len(S.pins),'fresh_shared_core':str(O/'shared_core.json'),'frozen_core_preserved':frozen.exists()}))

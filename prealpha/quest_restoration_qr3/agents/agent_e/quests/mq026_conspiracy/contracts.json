@@ -1,0 +1,182 @@
+{
+  "quest_id": "mq026_conspiracy",
+  "title": "The Prophet's Song",
+  "status": "DEEP_REVIEWED_WITH_STATIC_LIMITS",
+  "static_verified": false,
+  "defects": [],
+  "repairs": [],
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Both S23 historical seam and S25 fresh wrapper use1000->1001Ready->1002pause->1003PA2->1004recheck.True->1005Issued->1006Entered->39.In1 exact native MQ026 body;native39.Out1->1007Finished. Both39 payloads equal native minorquests39. Debug combat/death/conspiracy inputs are not substituted.",
+        "Native In1 retains0->3 mq026_started1->103 mq027_50_prophet0->4 mq026_active1, then original debug/trigger/donation/prophecy/cargo/death loop. S25 never fabricates native gates itself."
+      ],
+      "approved_differences": [
+        "Established S25 fresh and S23 exact captured-seam entries retain original quest behavior with separate owned receipts."
+      ],
+      "remaining": [
+        "LIVE_ONLY: Actual eligible seam/activation is not observed."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "eligibility": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Serialized S23 demands active1,started1,first_conspiracy_done1,lilith_done1,lookat_loop1,stop_preach1 and17 Inactive journal entries. S25 fresh instead requires those completed/loop flags0 while active/started are bounded0..1. All remaining progress/choice/outcome facts remain neutral.",
+        "Tests prove both seam dictionaries exclude the other adapter; S23 checks S25FreshIssued0 and S25 checks S23Issued0. Actual reciprocal receipt guards and disjoint native progress predicates prevent the assumed same-seam race; this is not inferred from fact names.",
+        "Missing/progressed root, prior owner and non-Tower cases are explicitly rejected. Current S23/S25 producers use defined settled history and repeated samples; no reset/admit of unsupported partial history is introduced."
+      ],
+      "approved_differences": [
+        "Only the exact approved early seam may resume; unverified other unfinished states defer."
+      ],
+      "remaining": [
+        "LIVE_ONLY: Current donations/prophecies/history state is not read from a save."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "communications": {
+      "status": "PASS",
+      "proven": [
+        "Complete inspected MQ026 native phase/scene closure has no positive audio/holo phone request producer and no external graph phase/scene reference outside MQ026. Prophet dialogue, donations, nomad confrontation and smuggler/death conversations are native local scenes.",
+        "The separately inventoried conspiracy holocall resource is not treated as proof of an active MQ026 call; no missing-listener repair is invented. Original choices and journal/message activation remain native."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Speech, choice delivery and any engine/UI communication behavior remain unexecuted."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native root retains #mq026_pr_prophet_trigger and inline prophet prefab45. Wrapper39 matches native parent and preserves original body/owners. Fresh and historical wrappers are mutually exclusive in tested predicates and check reciprocal Issued receipts.",
+        "Original genuine Tower main-tree termination ancestry is reused; no standalone old bugfix owner or encounter is restarted merely because its resource remains on disk."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: Saved actor/old native descendants and owner retirement/adoption at the captured seam are not decoded.",
+        "LIVE_ONLY: Actual saved owner retirement, interrupted scenes and restore/reload scheduling require matching runtime fixtures; no save was decoded or modified."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Native root initializes started/active then routes through prophet_spawn trigger41, beaten95, disturbed53, local prophecy phase33, cargo36 and death37. combat_out and killed_out branches and native CutControl69 are preserved.",
+        "Native done6 follows active5=0 and continues original failed/journal cleanup. Donations, prophecy counters, handover/chip and nomad/smuggler outcomes remain authored; S25 adds no quest progress writer."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Actual donations, dialogue sequences, cargo ambush/stealth/combat and actor deaths require runtime execution."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Native root#mq026_pr_prophet_trigger plus inline prophet45 and cargo/death prefab/scene/camera/workspot/NodeRefs are retained. Full source pins and graph bindings are recorded, including the shared Kabuki NCPD resource.",
+        "Existing JV1 voice-only compromise applies where native supporting Johnny actor resources are referenced; no visual engram/takeover restoration is added."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "OPAQUE/CONDITIONAL: World-sector/variant/actor and language-specific presentation resolution are not independently fully decoded. Graph presence/hash equivalence is not placement proof.",
+        "LIVE_ONLY: Johnny visual suppression, independent props and scene rendering remain unobserved."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "journal": {
+      "status": "PASS",
+      "proven": [
+        "All17 bound root/stash/objective/description entries are retained in both admission guards. Original branch state writers and their incoming Failed/Active/Succeeded sockets remain in native corpus, with no private journal reset.",
+        "Native failure cases for beaten prophet and cargo/nomad/death choices remain; wrappers record only owned body-return receipts."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Journal display/propagation and exact player choices are not inspected."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native death scene227->230 grants exact QuestRewards.mq026_done; original reward continuation to250/563 remains. Native cleanup5 active0->6done1, CutControl69 and original scene/actor/community cleanup remain.",
+        "Private adapters add no rewards, fake acknowledgement or outcome reset. Early native startup idempotent writes are delegated through original In1 only for the specific verified seamed state."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: QuestRewards.mq026_done and chip/loot entitlement definitions/current providers are not independently resolved.",
+        "LIVE_ONLY: Exactly-once inventory/reward delivery and interrupt/cleanup behavior remain untested."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "All original private/native identities and receipts are unchanged. Actual reciprocal Issued checks block a second fresh owner, and the tested historical/fresh native progress states are disjoint.",
+        "S23/S25 preserve existing Issued owners during Restore/Poll and do not clear native progress. Other partially progressed states are not promoted into fresh eligibility."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: Saved executing-owner capture for the historical seam and old-version upgrade fixtures remain unavailable.",
+        "LIVE_ONLY: Actual saved owner retirement, interrupted scenes and restore/reload scheduling require matching runtime fixtures; no save was decoded or modified."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Shared Kabuki ma_wat_kab_06 native and N2 private controller are inventoried; N2 admission requires unstarted/uncompleted scanner and its own support/receipt, preserving native payload/fact references. No Prophet patch modifies the scanner.",
+        "The exact interaction/ownership between shared world encounter, Prophet phase and NCPD stream is kept visible instead of assuming resource overlap proves a defect. Current MQ030 Zane defect is unrelated and is not generalized."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: Full saved and world-placement lease semantics for ma_wat_kab_06 and Prophet actors/loot must be correlated before complete shared-owner certification.",
+        "LIVE_ONLY: Concurrent encounter/scanner progression and cleanup arbitration remain unobserved."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    }
+  },
+  "tests": "../../verification_02/tests.json",
+  "scope": "Current PH3 baseline. Root may add a separate repaired-successor adjudication; baseline findings remain immutable."
+}

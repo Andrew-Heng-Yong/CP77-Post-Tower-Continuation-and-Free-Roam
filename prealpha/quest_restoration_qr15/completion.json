@@ -1,0 +1,32 @@
+{
+  "status": "INVESTIGATION_COMPLETE_REPAIR_DEFERRED",
+  "utc": "2026-11-04T14:57:37.868350+00:00",
+  "primary_result": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\analysis_01\\result.json",
+    "sha256": "1E8198DD4FBACFABA66F0806219275841EA0987425F331F41A06C8E82A50A7AA",
+    "checks": 53
+  },
+  "reviews": [
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\review_01\\run_01\\review.json",
+      "sha256": "2354CA39B1FDD034B0FFF51E6B97913010801445B940DD606440FFC3E72FA6FB",
+      "checks": 18
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\review_01\\courier_addendum_01.json",
+      "sha256": "740A9784933612BB450B2C91FB9474E3ED9BB913995F6C3AE38E056693D503EA",
+      "checks": 8
+    }
+  ],
+  "preservation": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\preservation.json",
+    "sha256": "EA8B1F98889BBAB635269C3B8FDC7A0F90A6BD88488B3803077A7A78D8A8DBF1"
+  },
+  "report": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\REPORT.md",
+  "handoff": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\HANDOFF.md",
+  "queue": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr15\\development_queue.json",
+  "new_candidate": null,
+  "runtime_changes": 0,
+  "game_or_save_writes": 0,
+  "ready_human_tests": []
+}

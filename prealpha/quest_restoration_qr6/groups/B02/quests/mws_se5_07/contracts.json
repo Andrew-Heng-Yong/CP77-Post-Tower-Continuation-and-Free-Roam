@@ -1,0 +1,192 @@
+{
+  "quest_id": "mws_se5_07",
+  "title": "Shape of a Pony",
+  "source_epoch": "QR6:00 = QR5:08 exact effective bytes",
+  "fully_static_verified": false,
+  "effective_resources": [
+    {
+      "depot": "towercontinued\\sidejobs_s30\\entries\\mws_se5_07.questphase",
+      "sha256": "61886938D64B1DF84AAA4CCDAC7622746DACE288ACE11E18137EF2E0779C096C"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s30\\native\\base\\open_world\\mini_world_stories\\badlands\\se5\\mws_se5_07\\mws_se5_07.questphase",
+      "sha256": "568690200CB5D3FE3F1331E8CBEA820625A388B2F0BDDFA90666473A1335BAF9"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s30\\native\\base\\open_world\\mini_world_stories\\badlands\\se5\\mws_se5_07\\scenes\\mws_se5_07.scene",
+      "sha256": "968801B74E134A52ECFE5576F649DA3B2A6A2336085ED8B7FA18C7299775A1B8"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s30\\native\\base\\open_world\\mini_world_stories\\badlands\\se5\\mws_se5_07\\scenes\\mws_se5_07_camp.scene",
+      "sha256": "8EE1693D2421FCB582E71FE437EAD306D08147F71CAACEF214E9A9F09C8B365B"
+    }
+  ],
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "S30 fresh wrapper65005→65006→64000.In1 invokes the whole exact Shape of a Pony body, returns only native Out2→private65007. Original root0 fans into native authored token/loading/vehicle gate sequence; no direct completion/reward shortcut or new vehicle grant is added."
+      ],
+      "approved_differences": [
+        "Existing post-Tower fresh wrapper/private resource relocation and scoped voice-only Johnny adaptations; exact donor comparisons retained."
+      ],
+      "remaining": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\script_pins.json"
+      ]
+    },
+    "eligibility": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Current guard requires rootInactive, started/done/objective_cut1/porsche_911_930_turbo_cabriolet_owned all0, plus genuine Tower/support/Permit. This admits the authored pre-purchase waiting body; native3 separately waits porsche ownership>=1. Real purchase is still required before native quest journal7,started154 and later earned recovery."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "No gameplay/old-owner/save-transition, effective override winner or undecoded world placement certification."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\script_pins.json"
+      ]
+    },
+    "communications": {
+      "status": "PASS",
+      "proven": [
+        "Native Porsche Muamar JournalPhoneMessage8 and real Succeeded response71 are preserved;24 fans actual response/watch branches48/71, then26/27/29. No independent holo call family is used by the exact body. Existing direct SMS and scene callbacks remain native, without fake acknowledgement."
+      ],
+      "approved_differences": [],
+      "remaining": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\script_pins.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Whole body retains#mws_se5_07_shape_of_a_pony and its five vehicle/community spawn slots. Native scene14/camp16 depend on that scoped ancestor, not empty child PIP lists. Broader Badlands owner is not rehosted; current body node identities and root lease are preserved."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "No gameplay/old-owner/save-transition, effective override winner or undecoded world placement certification."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\script_pins.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "All native body nodes, sockets, branch edges and exact conditions compare unchanged after scene relocation. Native car-alive/destroyed paths, combat/wraith response, personal-link/recovery outcomes, objective-cut148 fanout and terminal five-inputAND190 retain their authored structure."
+      ],
+      "approved_differences": [],
+      "remaining": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\script_pins.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Source retains exact Porsche/wraith actors, community, reflector/device variants, camp scene/cameras/workspots and vehicle markers. Only Johnny-owned animation events in two scenes are muted; scene callback topology, screenplay and fact/journal effects remain exact. Streamed placement, visual suppression and actual spawned physics require live evidence."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "No gameplay/old-owner/save-transition, effective override winner or undecoded world placement certification."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\script_pins.json"
+      ]
+    },
+    "journal": {
+      "status": "PASS",
+      "proven": [
+        "Exact native quest root/objectives/descriptions/phone path handlers and Active/Succeeded/Inactive sockets remain untouched. Quest root is activated7 only on original authored path; native70Succeeded follows exact reward108. No inactive history is reset to manufacture entitlement."
+      ],
+      "approved_differences": [],
+      "remaining": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\script_pins.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native108 reward146854820111→70rootSucceeded→155done1 retains vehicle/actor cleanup and five-wayAND190→131Terminating. Native loot77 uses original two item targets and vehicle mortality/door unlock transitions; purchase and recovery paths remain separate. Transaction delivery, TDB descendants/overrides and cleanup on reload remain live."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "No gameplay/old-owner/save-transition, effective override winner or undecoded world placement certification."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\script_pins.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native body/root IDs and current S30 receipt fields remain exact. The single quest-root history plus four progress/ownership0 facts defer listed completed/progressed states; positive owned preexisting state is not reset or charged again. Saved pre-purchase controller and persistent world variants require fixtures; file rollback is not save undo."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "No gameplay/old-owner/save-transition, effective override winner or undecoded world placement certification."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\script_pins.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Actual prerequisites include an earned AutoFixer Porsche purchase, the dedicated world prefab, Muamar direct messages, native scene/Porsche workspots and native content-token/cleanup join. Source guard does not grant a car or synthesize a purchase. Effective vehicle registration/world actor leases remain unverified."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "No gameplay/old-owner/save-transition, effective override winner or undecoded world placement certification."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\handler_inventory.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\comparisons.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\B02\\verification_02\\script_pins.json"
+      ]
+    }
+  },
+  "confirmed_defects": [],
+  "runtime_changes": []
+}

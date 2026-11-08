@@ -1,0 +1,196 @@
+{
+  "schema": 1,
+  "quest_id": "mq025_06_pacifica",
+  "title": "Beat on the Brat: Pacifica",
+  "status": "DEEP_REVIEWED_CONDITIONAL",
+  "fully_static_verified": false,
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Two bounded existing adapters share the native boxing dispatcher. S25 fresh root0->1 Ready->2 pause->3.True->4 Issued->89 two ticks->90.True->92 Entered->93 Fred contact->100.In1. Observer102 native rootSucceeded->101 Finished is parallel to the body. False90 writes owned Fault91.",
+        "Fresh nested root/100 preserves every retained native mq025_psycho_brawl node payload and all native edges; only five unused alternate entry nodes17/46/68/69/70 are removed. It retains original q001 tutorial30->tease2->55 native hub, not a skipped combat-start shortcut.",
+        "S22 progress root0->1000 Ready->1001 pause->1002.True->1003 Issued->1006 rootActive->1007 find_fightsActive->1008 postclaim pause->1009.True->55.In1. Native tutorial/tease already-completed setup is omitted. Native phase payloads and nested graphs are preserved. Native25.Out1->1004 Finished->1 final exit."
+      ],
+      "approved_differences": [
+        "Existing approved exact quiet pre-bout continuation and fresh-only family entry preserve durable receipts; this is not arbitrary mid-fight resumption."
+      ],
+      "remaining": [
+        "LIVE_ONLY: Actual ArchiveXL scheduling and continuation of a saved descendant require engine evidence."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\tests.json"
+      ]
+    },
+    "eligibility": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Fresh guards2/3 require all bounded family journals/messages Inactive and native progression/outcomes0, including tutorial/trainer/fights/wager/choice/death/finale markers. q001_left_v_apartment>=1 and B0 Fred Ready+Enabled1/Excluded0 plus genuine Tower/PA2/U9/profile guards remain. Current root Failed/Succeeded and past win/start/cash/ozob-explosion states are rejected in actual serialized-predicate tests.",
+        "Progress preclaim1001/1002 require primary root Inactive; quest_started/trainer_skipped and Kabuki/Arroyo/Glen/FightClub active flags1, all fight outcomes/choices/wagers/deaths/finale0. Only find_fights phase and four search objectives allow Failed-or-Inactive; primary root and all district job roots are strictly Inactive. Historical boxing contract rootFailed text is superseded by current serialized/runtime data.",
+        "Pacifica preserves native24 mq035_done>0, native33 test-flag branch,31 delay1day3hours,32 SideQuest_Standalone token ->8.In1. No Send in the Clowns completion, timer or token is fabricated. The normal branch retains q101_enable_side_content and ep1_standalone context."
+      ],
+      "approved_differences": [
+        "Genuine failed or completed primary roots remain refused. A known old source report is not authority to widen current predicates."
+      ],
+      "remaining": [
+        "Static/ownership limit: frozen HS1 admission proves primary row stable Inactive/Active, but does not by itself distinguish a genuinely failed earlier find_fights child from a Tower-aborted child. Exact original stage/failure provenance and prior owner retirement need saved-state/transition evidence before certifying that resume seam universally.",
+        "LIVE_ONLY: Actual player prerequisites, native token scheduling and safe-state/profile availability are not measured."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\sidejobs_s22\\boxing\\contract.json"
+      ]
+    },
+    "communications": {
+      "status": "PASS",
+      "proven": [
+        "Full20-resource family trace contains no audio_/holo_/phonecall_ request producers. Shared holo flags in fresh guards are idle-admission checks, not a missing call or acknowledgement protocol. Existing fresh node93 adds exact contacts/trainer_fred without an acknowledgement bypass.",
+        "Native Pacifica46 branches on finale state to55 normal announcement or56 after-finale announcement, both Active SMS journal writes. After outcome43 branches on ozob_exploded to57 explosion or58 alive SMS, and both connect to8 clearing pacifica_active before exit. Native tease and finale Fred message variants are retained.",
+        "Native finale123 chooses124 thanks or125 angry SMS before1 output. Contact/message paths and existing native in-person scenes are unchanged; no synthetic acknowledgement or new phone listener is introduced."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Message notification delivery/read-state and in-person dialogue playback/interrupt timing are engine behavior."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\tests.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Pacifica is native dispatcher phase8, not a second restored quest owner. Fresh and progressed adapters are mutually exclusive by native quest_started0 versus1 and cross-receipts: fresh requires S22Issued0, progress requires S25freshIssued0. Postclaim guards require their own Issued1. Full saved resource/node/receipt identities are unchanged.",
+        "Original family has four prerequisite-fight outputs3/5/7/9 into native AND10->finale11. Final join25 waits finale11.Out1 AND Pacifica8.Cleanup. Both private adapters retain this exact ownership structure and every retained nested graph.",
+        "Genuine native main-parent termination ancestry is supplied by QR2 ancestor_review. Native MQ025 bugfix companion is pinned separately, not started as a fresh arbitrary correction owner. Existing B0 Fred readiness is an explicit fresh prerequisite."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Static/engine boundary: exact saved native/private descendant adoption and lifetime after parent termination are unobserved. Native bugfix companion and Fred service/call lease timing are not certified solely by flag/resource presence."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr2\\ancestor_review.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Pacifica dispatcher activation retains original mq035/time/token prerequisites. Its native root9 activates pacifica_active; body20 handles the fight. Ozob health<=10% at20/7 feeds XOR36->10 playerwins increment->18 objectiveSucceeded. Player health<=15% at20/8 feeds27 loss effect->19 objectiveFailed. Both outcomes join original cut9 and cleanup,43 clears fight_active.",
+        "Original native combat/mortality operations are unmodified: Pacifica20/4 temporarily sets player Immortal for authored nonlethal boxing;20/12 resets mortality to default. This is original boxing behavior, not a new mod god-mode/stat exemption. Counter thresholds, native AI commands, outcome cuts and cleanup are not replaced.",
+        "Native higher-wager,Ozob weakspot explosion,normal win/loss,finale corruption/refusal and loser outputs retain original scene/phase branches. Original phase/scenes are raw-binary pinned and independently normalized, not flattened into a private approximation."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Combat AI, damage thresholds on actual150HP/Body3 profile, weakspot explosion and scene scheduler execution require gameplay evidence."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\tests.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Root family intentionally has no prefab array; its external tutorial/tease and individual Kabuki/Arroyo/Glen/Pacifica/club/finale resources own their exact native prefabs. Tutorial retains #q001_pr_megabuilding and #mq025_pr_01_tease; Pacifica retains #mq025_pr_06_pacifica and finale #mq025_pr_08_finale. Node-level empty inline placeholder graphs do not erase these external resource obligations.",
+        "Native scene actors,markers,variants,workspot/camera/resource references remain unchanged. Pacifica uses #ozob and native ring/crowd communities. Existing JV1 source keeps Character.Silverhand alive for voice/timing while TemporaryHide(true) applies to visual components only after completed Tower."
+      ],
+      "approved_differences": [
+        "Existing R4 supporting-voice Johnny policy/JV1 presentation is retained; no Relic/engram/takeover or new projection feature is added."
+      ],
+      "remaining": [
+        "Static blocker: exact streamed sectors/prefab descriptors and all actor/marker/workspot/variant/TweakDB bindings have not been fully decoded and correlated. Native localized lipsync declarations require actual provider/resolution evidence.",
+        "LIVE_ONLY: Supporting voice-only Johnny rendering and independent props,ring crowd,Ozob/announcer/Fred actors,scene cameras,streaming and lipsync are not certified by resource equality."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\tests.json"
+      ]
+    },
+    "journal": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "All native district/parent objectives,markers and SMS paths remain exact. Pacifica21 succeeds parent find_pacifica when applicable,22/23/24 move talk->fight,27/40 complete appropriate outcome talk before28 questSucceeded. Native85 can complete parent after optional fight when mq025_done already set.",
+        "Finale152 branches on pending Pacifica search:True->151 activates Pacifica objective and148 parentSucceeded;False->149 parentSucceeded. This preserves optional late Pacifica availability. Private S25 observer102 marks only its owned Finished; it does not terminate native optional descendants.",
+        "S22 intentionally writes current root1006 Active and find_fights1007 Active before native55. Root must be Inactive; selected find_fights/search children may be Failed or Inactive. No completed/failed primary root or won district job is admitted."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Static/history blocker: the exact cause and original saved provenance of allowed Failed search-phase/objective states is not proved merely by current values and HS1 primary-root admission. This is a bounded supported-adapter assumption, not permission to reset arbitrary failed history.",
+        "LIVE_ONLY: Actual delayed journal propagation,notifications and saved objective transitions are engine dependent."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\tests.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native Pacifica scene323/344 use QuestRewards.mq025_pacifica and340/346 use QuestRewards.mq025_pacifica_higher. Raised-bet flag writers332/335 and original branches remain. No private unconditional item/currency grant is introduced.",
+        "Finale scene1000 retains QuestRewards.mq025_psycho_brawl_corrupt and1004 normal QuestRewards.mq025_psycho_brawl. Native finale cleanup52 restores wat_lch_melee_01_default_on,53->81 increments mq025_done,93->126 clears finale_started. SMS thanks/angry choices and native mortality/crowd cleanup remain.",
+        "S22 Finished is after native join25;S25 Finished observes native main-rootSucceeded. These are distinct diagnostics and neither is a replacement reward. Existing primary completion and all wager/outcome counters are protected by admission."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Static blocker: reward-record definitions/current overrides,balanced wager/currency data and exact asset-based prize bindings are unresolved; preserving pointers does not resolve target values.",
+        "LIVE_ONLY: Exact debit/payout and exactly-once reward delivery under interruptions/save transitions remain untested."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\tests.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "No runtime/source/installed/save/fact changes made. Current fresh/progress resource hashes and all native bytes are pinned; original native node IDs,receipt names and paths are stable. Outcome/wager/death markers prevent generic new-owner replay.",
+        "Actual preclaim and postclaim predicates are separately checked. Cross-owner receipt constraints and mutually exclusive native quest_started values prevent stable fresh/progress dual admission. New identity generation or reset of Issued is not introduced."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Static/saved-state blocker: an older queued/native/private owner and frozen child-failure provenance need matching save/transition fixtures,not generic flags.",
+        "LIVE_ONLY: Mid-fight save/load,death/reload,crash between native money/reward operations and journal completion are not simulated."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\tests.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "This review covers the two requested IDs only, although shared native Kabuki/Arroyo/Glen/club sources were inspected to trace the common dispatcher. Those other catalogue IDs are not counted as newly deep-reviewed by this assignment.",
+        "Send in the Clowns prerequisite mq035_done is retained; selected quest completion may supply it normally. No Ozob resurrect/reset command is added. Existing U9/profile/Fred service readiness and idle phone constraints remain; no separate Pacifica listener or duplicate fight controller is invented.",
+        "S22 quiet-seam and S25 fresh dispatcher preserve exact native child references; default Fred service/call ownership and supporting-Johnny presentation remain shared obligations rather than presumed empty because family root has no prefab."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Static/engine boundary: Fred service/quest arbitration,saved original bugfix lifetime,world bindings and child-failure causality remain unresolved as listed above. These are not source-confirmed missing controllers."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\tests.json"
+      ]
+    }
+  },
+  "defects": [],
+  "repairs": [],
+  "tests": [
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\tests.json"
+  ],
+  "scope": "Pinned currentPH3 boxing-family investigation; no gameplay changes."
+}

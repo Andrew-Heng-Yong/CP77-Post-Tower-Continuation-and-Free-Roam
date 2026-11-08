@@ -1,0 +1,20 @@
+{
+  "state": "QR12_COMPLETE_NO_READY_TEST",
+  "completion": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr12\\completion.json",
+  "completion_sha256": "C7124994E13BDC91DE04C23255302D299181A0DAC4EA0F9898C164A88662649C",
+  "analysis": "analysis_final_02",
+  "manual_plan": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr12\\MANUAL_TEST_PLAN.md",
+  "handoff": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr12\\HANDOFF.md",
+  "next": "No immediate special test/capture. Qualify genuinely existing supported history/stage from ordinary gameplay or new read-only evidence before issuing a READY card.",
+  "runtime_installed_changes": 0,
+  "game_launches": 0,
+  "save_or_fact_writes": 0,
+  "CUA_calls": 0,
+  "latest_human_eligibility": {
+    "result": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr12\\observations\\runtime_eligibility_02\\result.json",
+    "sha256": "1389130A45BAD0F1BD01B97B92F5F7F9B6B5A4A09B71A20C5D83C67FD61E0786",
+    "handoff": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr12\\observations\\runtime_eligibility_02\\HANDOFF.md",
+    "save_identity": "UNCONFIRMED_LOADED_SLOT",
+    "next": "No immediate special test or further fact checks. Skip user-reported completed Skippy and unsubscribed Ronald."
+  }
+}

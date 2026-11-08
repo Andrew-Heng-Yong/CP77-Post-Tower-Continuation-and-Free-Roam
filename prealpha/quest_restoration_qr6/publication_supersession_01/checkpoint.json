@@ -1,0 +1,111 @@
+{
+  "status": "COMPLETE_DEEP_SOURCE_AND_REVIEW_COVERAGE_WITH_EXPLICIT_STATIC_LIMITS",
+  "selected": 161,
+  "prior_deep": 128,
+  "new_deep": 33,
+  "deep_total": 161,
+  "remaining": 0,
+  "contracts": 1610,
+  "new_contract_status_counts": {
+    "APPROVED_DEVIATION": 32,
+    "CONDITIONAL": 187,
+    "PASS": 74,
+    "OPAQUE": 33,
+    "UNKNOWN": 4
+  },
+  "all_contract_status_counts": {
+    "APPROVED_DEVIATION": 175,
+    "PASS": 349,
+    "CONDITIONAL": 903,
+    "OPAQUE": 162,
+    "FAIL": 13,
+    "UNKNOWN": 8
+  },
+  "fully_static_verified": 0,
+  "fully_resolved_static_contracts": 524,
+  "new_confirmed_defects": 0,
+  "new_repaired_defects": 0,
+  "new_blocked_defects": 0,
+  "existing_blocked_defects": 2,
+  "cumulative_confirmed_defects": 10,
+  "cumulative_staged_repairs": 8,
+  "source_authority_conflict_count": 1,
+  "new_runtime_resource_changes": 0,
+  "groups_independently_reviewed": 9,
+  "batch_counts": {
+    "Q01": {
+      "total": 16,
+      "deep": 16
+    },
+    "Q02": {
+      "total": 16,
+      "deep": 16
+    },
+    "Q03": {
+      "total": 16,
+      "deep": 16
+    },
+    "Q04": {
+      "total": 16,
+      "deep": 16
+    },
+    "Q05": {
+      "total": 16,
+      "deep": 16
+    },
+    "Q06": {
+      "total": 16,
+      "deep": 16
+    },
+    "Q07": {
+      "total": 16,
+      "deep": 16
+    },
+    "Q08": {
+      "total": 16,
+      "deep": 16
+    },
+    "Q09": {
+      "total": 16,
+      "deep": 16
+    },
+    "Q10": {
+      "total": 16,
+      "deep": 16
+    },
+    "Q11": {
+      "total": 1,
+      "deep": 1
+    }
+  },
+  "source_epoch": "QR6:00",
+  "source_epoch_manifest": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\source_epoch_00.json",
+  "source_epoch_sha256": "A532E6F1CD46B898259F78FD4D303E31C7BDC14EC1774FA2EA3875CFF1B23BC2",
+  "candidate": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\candidate_03",
+  "archive_sha256": "39A12BC8BFCBE8D82AA40F5D39AAF61CECC652BA179014575863A31222D1F402",
+  "queue_sha256": "5C18A1B7E811A8914D188CA731B7869C04EC8BCEA5C0BAAB9E1D108FF4538574",
+  "limits": [
+    "Deep coverage means ten source-specific dispositions plus independent resource review, not tenPASSes or gameplay success.",
+    "Inherited source-specific failures, unknowns, conditional and opaque cases remain explicit.",
+    "No game/save/deploy/release writes; current installation isPH3."
+  ],
+  "state": "QR6_ALL161_SOURCE_PEER_PACKAGE_PRESERVATION_FROZEN_FINAL_COMPLETENESS_GATE_EXTERNAL",
+  "installed": "PH3 unchanged",
+  "next_all_unreviewed": [],
+  "remaining_final_gates": [
+    "Independent final161/1610completeness review",
+    "Post-review completion.json seal"
+  ],
+  "independent_package_review": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C01\\reviews\\QR6_final_package\\verification_02\\review.json",
+    "sha256": "16DE4464CDB969628BF677D8D8EA2C9E212CFF3E9B63B226BDE33DAA7EC93EE2"
+  },
+  "preservation": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\verification\\preservation_01\\result.json",
+    "sha256": "9667C9861B87B026F1093F4405BABDEEED869FE4B3138F65B7331E72EEB91009"
+  },
+  "report": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\REPORT.md",
+  "report_sha256": "C1A36FEFC5B6E2E935F5CFDDC8860A6C07979017F5723AB3CD1A85465EDE03BB",
+  "handoff": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\HANDOFF.md",
+  "handoff_sha256": "4B1FB2150344749D5D4D54E8257C1E4BF95CF9E2B0D93203BADAEEAFA1A5AC50"
+}

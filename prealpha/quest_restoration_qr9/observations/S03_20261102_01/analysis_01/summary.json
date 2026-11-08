@@ -1,0 +1,44 @@
+{
+  "status": "S03_PRECHECK_COMPLETE_ALREADY_ISSUED_FIXTURE_CALL_DELIVERY_PASS",
+  "analyzed_utc": "2026-11-02T20:10:55.052598+00:00",
+  "probe_start_Toronto": "2026-11-02 14:59:51 EST",
+  "probe_stop_Toronto": "2026-11-02 15:04:51 EST",
+  "probe_stop_reason": "DURATION_LIMIT",
+  "manual_stop_Toronto": "2026-11-02 15:06:06 EST",
+  "Cynthia_call_Toronto": {
+    "start": "15:02:34 EST",
+    "end": "15:02:50 EST",
+    "fully_inside_probe_window": true
+  },
+  "Wilson_call_Toronto": {
+    "start": "15:04:35 EST",
+    "end": "15:05:08 EST",
+    "end_after_probe_stop": true
+  },
+  "nitro_purchase_counter": 1,
+  "watched_unlocked_variants": 0,
+  "saved_Issued": 1,
+  "native_or_private_executing_owner": "NOT_OBSERVED",
+  "nitro_admission": "No clean fresh fixture. Current counter1 is below native fresh threshold3; typed vehicle getter false is supportive but not complete native predicate proof. Existing Issued state must be preserved.",
+  "calls": [
+    {
+      "test_id": "ADHOC_CALL",
+      "caller": "Cynthia",
+      "quest_id": "mq040_biosculpt",
+      "status": "PASS",
+      "scope": "User-observed call delivery; CET reports start0→1 and end0→1. All choices/outcomes/cleanup/reload and exact owner not proven."
+    },
+    {
+      "test_id": "ADHOC_CALL",
+      "caller": "Wilson",
+      "quest_id": "mq011_wilson",
+      "status": "PASS",
+      "scope": "User-observed Shoot to Thrill call; CET start/end counts and mq011_active0→1. Contest/progression/rewards remain NOT_TESTED."
+    }
+  ],
+  "current_scripting_error_candidates": 0,
+  "core_and_diagnostics": "VERIFIED_AFTER",
+  "master_and_backup": "EXACT_VERIFIED",
+  "repair_justified": false,
+  "next_action": "Follow naturally activated Shoot to Thrill on the working branch; report contest start/end/outcome. Preserve native outcome, original master and current progress. No extra S03 repeat or eligibility manipulation."
+}

@@ -1,0 +1,12 @@
+{
+  "status": "PASS_BOUNDED_SOURCE_CHECKS_WITH_EXPLICIT_LIMITS",
+  "checks": 263,
+  "resources": 52,
+  "mutations": 3,
+  "quests": [
+    "sts_std_arr_10",
+    "sts_std_arr_12",
+    "sts_std_arr_11"
+  ],
+  "shared_core_sha256": "E18670F1292E0AB60C325EFCA7151F46107E79B58769E9C6B4DAE7BA985142AC"
+}

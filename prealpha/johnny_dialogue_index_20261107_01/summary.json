@@ -1,0 +1,157 @@
+{
+  "status": "VERIFIED_SEARCHABLE_DIALOGUE_INDEX",
+  "selected_index": "index_02",
+  "database": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\johnny_dialogue_index_20261107_01\\index_02\\dialogue.sqlite3",
+    "sha256": "14E64C62FA9577F7E26E220F2A0A9064625175F4187054302457D76C7DB442BC",
+    "bytes": 4536123392
+  },
+  "scene_provider_inputs": 8895,
+  "decoded_scene_providers": 8894,
+  "opaque_scene_providers": 1,
+  "conversation_resources": 32,
+  "english_subtitle_resources": 3815,
+  "counts": {
+    "resources": 12742,
+    "roots": 8894,
+    "actors": 29770,
+    "lines": 270103,
+    "nodes": 755408,
+    "edges": 882798,
+    "events": 868723,
+    "choices": 44663,
+    "localization": 1069334,
+    "search_items": 965350,
+    "aux_links": 685,
+    "script_calls": 113,
+    "source_references": 17752,
+    "issues": 475
+  },
+  "dialogue_events": 218370,
+  "current_private_scene_resources": 139,
+  "current_private_johnny_dialogue_events": 251,
+  "current_private_v_addressee_johnny_events": 164,
+  "english_text_domain_items_verified": 314769,
+  "dialogue_events_without_retained_english": 683,
+  "choice_items_without_retained_english": 8828,
+  "current_private_unresolved_english": {
+    "CHOICE": 92,
+    "DIALOGUE_EVENT": 5
+  },
+  "source_issue_counts": {
+    "CHOICE_NO_CONNECTED_DESTINATION": 472,
+    "CHOICE_OPTION_REFERENCE": 2,
+    "DECODE_OPAQUE": 1
+  },
+  "conversation_scene_targets_missing_from_index": [
+    [
+      "18a6138f71180cfff5058409",
+      "ep1\\openworld\\scene\\conversations\\civilians\\ep1_combat_zone_conversation_004.scene"
+    ],
+    [
+      "18a6138f71180cfff5058409",
+      "ep1\\openworld\\scene\\conversations\\civilians\\ep1_combat_zone_conversation_006.scene"
+    ],
+    [
+      "18a6138f71180cfff5058409",
+      "ep1\\openworld\\scene\\conversations\\civilians\\ep1_combat_zone_conversation_007.scene"
+    ],
+    [
+      "18a6138f71180cfff5058409",
+      "ep1\\openworld\\scene\\conversations\\civilians\\ep1_combat_zone_conversation_008.scene"
+    ],
+    [
+      "18a6138f71180cfff5058409",
+      "ep1\\openworld\\scene\\conversations\\civilians\\ep1_combat_zone_conversation_014.scene"
+    ],
+    [
+      "18a6138f71180cfff5058409",
+      "ep1\\openworld\\scene\\conversations\\civilians\\ep1_combat_zone_conversation_016.scene"
+    ],
+    [
+      "18a6138f71180cfff5058409",
+      "ep1\\openworld\\scene\\conversations\\civilians\\ep1_combat_zone_conversation_020.scene"
+    ],
+    [
+      "18a6138f71180cfff5058409",
+      "ep1\\openworld\\scene\\conversations\\civilians\\ep1_combat_zone_conversation_025.scene"
+    ],
+    [
+      "18a6138f71180cfff5058409",
+      "ep1\\openworld\\scene\\conversations\\civilians\\ep1_combat_zone_conversation_031.scene"
+    ],
+    [
+      "18a6138f71180cfff5058409",
+      "ep1\\openworld\\scene\\conversations\\civilians\\ep1_combat_zone_conversation_038.scene"
+    ],
+    [
+      "18a6138f71180cfff5058409",
+      "ep1\\openworld\\scene\\conversations\\civilians\\ep1_combat_zone_conversation_048.scene"
+    ],
+    [
+      "18a6138f71180cfff5058409",
+      "ep1\\openworld\\scene\\conversations\\civilians\\ep1_combat_zone_conversation_061.scene"
+    ],
+    [
+      "18a6138f71180cfff5058409",
+      "ep1\\openworld\\scene\\conversations\\civilians\\ep1_combat_zone_conversation_071.scene"
+    ],
+    [
+      "18a6138f71180cfff5058409",
+      "ep1\\openworld\\scene\\conversations\\civilians\\ep1_combat_zone_conversation_072.scene"
+    ],
+    [
+      "18a6138f71180cfff5058409",
+      "ep1\\openworld\\scene\\conversations\\civilians\\ep1_combat_zone_conversation_076.scene"
+    ],
+    [
+      "18a6138f71180cfff5058409",
+      "ep1\\openworld\\scene\\conversations\\civilians\\ep1_combat_zone_conversation_079.scene"
+    ],
+    [
+      "18a6138f71180cfff5058409",
+      "ep1\\openworld\\scene\\conversations\\civilians\\ep1_combat_zone_conversation_080.scene"
+    ],
+    [
+      "18a6138f71180cfff5058409",
+      "ep1\\openworld\\scene\\conversations\\civilians\\ep1_combat_zone_conversation_081.scene"
+    ],
+    [
+      "18a6138f71180cfff5058409",
+      "ep1\\openworld\\scene\\conversations\\civilians\\ep1_combat_zone_conversation_083.scene"
+    ],
+    [
+      "18a6138f71180cfff5058409",
+      "ep1\\openworld\\scene\\conversations\\civilians\\ep1_combat_zone_conversation_086.scene"
+    ],
+    [
+      "18a6138f71180cfff5058409",
+      "ep1\\openworld\\scene\\conversations\\civilians\\ep1_combat_zone_conversation_088.scene"
+    ],
+    [
+      "18a6138f71180cfff5058409",
+      "ep1\\openworld\\scene\\conversations\\civilians\\ep1_combat_zone_conversation_105.scene"
+    ],
+    [
+      "18a6138f71180cfff5058409",
+      "ep1\\openworld\\scene\\conversations\\civilians\\ep1_combat_zone_conversation_106.scene"
+    ],
+    [
+      "18a6138f71180cfff5058409",
+      "ep1\\openworld\\scene\\conversations\\civilians\\ep1_combat_zone_conversation_114.scene"
+    ],
+    [
+      "18a6138f71180cfff5058409",
+      "ep1\\openworld\\scene\\conversations\\civilians\\ep1_combat_zone_conversation_118.scene"
+    ]
+  ],
+  "source_and_export_files_hashed": 25446,
+  "protected_input_checks": 309,
+  "normal_entry_point_checks": 8,
+  "text_qualification": 23191,
+  "search_tool_sha256": "FE8ED3207E47BF6D23C91D57BD982B158251DF8E471878DBE7CD52119B203C91",
+  "scope_limit": "All identified scene providers are indexed for review. Post-Tower execution and indirect V reactions require step 3 route and semantic review.",
+  "text_locale": "English. Other embedded locales and db_db drafts are retained separately in localization records.",
+  "game_writes": 0,
+  "save_writes": 0
+}

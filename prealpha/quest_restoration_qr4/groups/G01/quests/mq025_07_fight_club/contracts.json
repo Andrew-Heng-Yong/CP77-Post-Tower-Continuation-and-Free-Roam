@@ -1,0 +1,208 @@
+{
+  "schema": 1,
+  "quest_id": "mq025_07_fight_club",
+  "title": "Beat on the Brat: Rancho Coronado",
+  "status": "DEEP_REVIEWED_WITH_STATIC_LIMITS",
+  "fully_static_verified": false,
+  "source_epoch": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\source_epoch_00.json",
+    "sha256": "CBF774F8BFC0A50F5AB2C8E01C4DF0A5E84506E2EC92EE8AC214C58A79677CC6"
+  },
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Native family phase9 retains exact base\\quest\\minor_quests\\mq025\\phases\\mq025_07_fight_club.questphase In1 binding in both S25 fresh root/100 and S22 progressed root. Its Out1 feeds the corresponding input of native four-fight AND10, then finale11; no regional shortcut replaces the body.",
+        "Fresh retains tutorial/tease/Fred-contact path; S22 enters the existing post-introduction quiet pre-bout dispatcher. Shared QR3 proof is reused only after exact private-resource/source/test-artifact hashes match QR3."
+      ],
+      "approved_differences": [
+        "Existing supported fresh/quiet-prebout Tower adapters are retained, not widened into arbitrary mid-fight resumption."
+      ],
+      "remaining": [
+        "LIVE_ONLY: Actual ArchiveXL activation and engine scheduling of existing saved descendants are not observed."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\graph_evidence.json"
+      ]
+    },
+    "eligibility": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Current family preclaims enforce bounded Inactive regional roots and neutral outcome/wager/death facts. S25 requires native quest_started0; S22 requires quest_started1/trainer_skipped and four active district flags1, plus cross-owner Issued0. Native local choice/journal/time/trigger/status prerequisites are preserved by the unchanged body.",
+        "Normal bout is root/30/9: node7 OR(DefeatedWithRecover,Defeated) on #mq025_com_rhino ->10 wins+1 ->18.Succeeded; player8<=15% ->33->19.Failed. Both outcomes reach9 CutSource cleanup, with12 resetting player mortality before authored return. Do not replace Rhino victory with a guessed health threshold."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "STATIC/SAVED-STATE: Exact cause/provenance of allowed Failed find_fights search children in the S22 seam is not established solely by frozen primary HS1 history. This does not authorize resetting genuinely failed jobs.",
+        "LIVE_ONLY: Actual player stage, safe state/profile, native actor/area and input predicates are not evaluated against a save."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\graph_evidence.json"
+      ]
+    },
+    "communications": {
+      "status": "PASS",
+      "proven": [
+        "Normal root/30:17.Succeeded ->45.Active Fred animals-message, which reaches41 and scene42.mq025_07_outro_in. Alternate root/34:9->16.Active animals_fight-message->1 native return. No regional positive phone request writer exists.",
+        "Positive audio_/holo_/phonecall_ request writers are absent from the inspected regional phase/scene closure. Fred contact/shared family SMS routes use the original dispatcher. Native SMS choice/delay and delivery connections are retained; no synthetic acknowledgement or duplicate listener was added."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Message delivery, notification order and phone/UI arbitration are engine behavior. Native SMS topology is verified; actual receipt is not claimed."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\graph_evidence.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "The selected job is native child phase9 of the single boxing dispatcher, not an independently created opponent/fight owner. Its root prefab is #mq025_pr_07_fight_club. Both private family variants retain that native body.",
+        "Fresh/progressed stable admissions are mutually exclusive by quest_started and reciprocal Issued receipts. Saved private/native identities and original root/ancestor ownership are retained; no Reactivate/ResetKillCount or arbitrary AI command is added."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "STATIC/ENGINE: Actual saved native/private descendant adoption, opponent ownership, bugfix companion lifetime and old-version transitions require matching saved-owner evidence; killed fact alone is insufficient."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\graph_evidence.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Normal bout is root/30/9: node7 OR(DefeatedWithRecover,Defeated) on #mq025_com_rhino ->10 wins+1 ->18.Succeeded; player8<=15% ->33->19.Failed. Both outcomes reach9 CutSource cleanup, with12 resetting player mortality before authored return. Do not replace Rhino victory with a guessed health threshold.",
+        "Normal phase root/30 node46 keeps QuestRewards.mq025_fight_club. The authored earlier-gig/security-combat path is different: root38 waits wwd_05_done or33 security combat reaches XOR40->35 permanent CutSource30, then34.In1 death/alternate path. This preserves original Rhino-death outcomes rather than restarting the fight or forcing a win.",
+        "All inspected regional native graphs, scenes and payloads are original-byte pinned and raw JSON renormalized against the audited native models. Both restored dispatchers still reference those exact phases; original optional/hostile/death/retry branches remain."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Actual combat, animation/status-effect application, scene choices, streaming and distance/interrupt behavior are not simulated."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\graph_evidence.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "#mq025_pr_07_fight_club and #mq025_com_rhino are retained. Shared wwd_05_done/security-system alternate path cancels normal30 before34; native mortality and spawn/AI bindings are preserved but actual sector/security/status-effect semantics remain opaque.",
+        "Native root-prefab, scene actor/NodeRef, workspot, camera, animation and variant references are enumerated per node in graph_evidence. They are retained through native delegation. Supporting Johnny/JV1 inherited family presentation remains unchanged; visual suppression does not prove every independent prop/camera/voice route."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "OPAQUE: Exact streamed prefab/sector placements, actor/workspot/camera binding resolution, animation/lipsync localization and status/vehicle target definitions are not all decoded and correlated. Native path presence is not complete semantic parity.",
+        "LIVE_ONLY: Rendered actors/props, visual suppression, speech and camera transitions require in-game observations."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\graph_evidence.json"
+      ]
+    },
+    "journal": {
+      "status": "PASS",
+      "proven": [
+        "Normal root/30 node16 after-talk ->43.Increment(win_fights) ->17.Succeeded. Alternate root/34 node29 succeeds find_club, then15.Increment->22.Succeeded; objective Inactive cleanup there is original native alternate-outcome behavior, not a new restoration reset.",
+        "Exact Active/Failed/Succeeded/Increment socket destinations and journal/mappin paths are retained and recorded with incident edges. No private regional journal reset or unconditional win is added. Existing native retry/alternate-outcome mutations remain authored behavior."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Engine journal propagation, presentation/notifications and concurrent state changes are not measured. Shared resume-history provenance is separately conditional under eligibility/persistence."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\graph_evidence.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Normal phase root/30 node46 keeps QuestRewards.mq025_fight_club. The authored earlier-gig/security-combat path is different: root38 waits wwd_05_done or33 security combat reaches XOR40->35 permanent CutSource30, then34.In1 death/alternate path. This preserves original Rhino-death outcomes rather than restarting the fight or forcing a win.",
+        "Normal root/30 node16 after-talk ->43.Increment(win_fights) ->17.Succeeded. Alternate root/34 node29 succeeds find_club, then15.Increment->22.Succeeded; objective Inactive cleanup there is original native alternate-outcome behavior, not a new restoration reset.",
+        "The native win/loss cut connections, mortal reset, scene outro/cleanup and family completion AND outputs remain. Source equality and exact reward/debit/vehicle references are proven; no private replay grant or fabricated native completion is introduced."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "STATIC: Exact current TweakDB reward/economic/status/vehicle record definitions, providers and numerical outcomes have not been independently resolved; pointer equality is not proof of target semantics.",
+        "LIVE_ONLY: Exactly-once money/items/vehicle delivery, mortality restoration and crash/reload between native reward and journal operations require transition fixtures."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\graph_evidence.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "No source/runtime/game/save change is made by G01. QR3 staged source hashes and both prior QR3 repairs remain intact. Existing native nodes, fields, region paths, family receipts, and phase socket names are retained.",
+        "Native region outcomes/wager/death facts and cross-adapter receipts prevent stable generic fresh reissuance under the verified bounded seam; this is not proof that every old saved descendant is retired."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "STATIC/SAVED-STATE: Older queued owners, exact pre-Tower child-failure provenance and version-transition identity adoption need specific fixture evidence.",
+        "LIVE_ONLY: Mid-bout/reward/death/scene save-load and actual cancellation/rearm are not tested."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\graph_evidence.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Regional phase9 completion feeds native AND10 along with the other three mandatory fights; finale11 and separate Pacifica8.Cleanup join25 are preserved. No new per-region controller is introduced.",
+        "#mq025_pr_07_fight_club and #mq025_com_rhino are retained. Shared wwd_05_done/security-system alternate path cancels normal30 before34; native mortality and spawn/AI bindings are preserved but actual sector/security/status-effect semantics remain opaque.",
+        "Normal root/30:17.Succeeded ->45.Active Fred animals-message, which reaches41 and scene42.mq025_07_outro_in. Alternate root/34:9->16.Active animals_fight-message->1 native return. No regional positive phone request writer exists."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "STATIC: Shared actor/prefab/status-effect, service/vehicle and target-data semantics remain conditional/opaque as identified above.",
+        "LIVE_ONLY: Native interruption arbitration, service leases, actor cancellation and reload require actual runtime fixtures."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\graph_evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr4\\groups\\G01\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr3\\agents\\agent_f\\verification_02\\graph_evidence.json"
+      ]
+    }
+  },
+  "defects": [],
+  "repairs": [],
+  "native_phase": "base\\quest\\minor_quests\\mq025\\phases\\mq025_07_fight_club.questphase",
+  "native_scene": "base\\quest\\minor_quests\\mq025\\scenes\\mq025_07_fight_club.scene",
+  "source_version": "QR3 staged candidate01; all inspected private sources unchanged from PH3 and pinned explicitly"
+}

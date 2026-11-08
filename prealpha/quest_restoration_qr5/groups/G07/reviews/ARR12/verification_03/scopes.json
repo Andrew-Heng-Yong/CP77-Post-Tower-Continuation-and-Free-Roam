@@ -1,0 +1,556 @@
+[
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "0",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "1",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "4",
+    "prefabs": [],
+    "node_refs": [
+      "#arr_12_com"
+    ],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "5",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "6",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "7",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "8",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "9",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": [
+      "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\scenes\\sts_std_arr_12_holocall_prebrief.scene"
+    ]
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "10",
+    "prefabs": [],
+    "node_refs": [
+      "#arr_12_com"
+    ],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "11",
+    "prefabs": [],
+    "node_refs": [
+      "#sts_sm_std_arr_12_car"
+    ],
+    "refs": [
+      "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\scenes\\sts_std_arr_12_car.scene"
+    ]
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "12",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "13",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "14",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "15",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "16",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "17",
+    "prefabs": [],
+    "node_refs": [
+      "#sts_sm_std_arr_12_holocall_debriefs"
+    ],
+    "refs": [
+      "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\scenes\\sts_std_arr_12_holocall_debriefs.scene"
+    ]
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "18",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "19",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "20",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "21",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "22",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "23",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "24",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "25",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "26",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "27",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "28",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "31",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "32",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "34",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "36",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "37",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "38",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "39",
+    "prefabs": [],
+    "node_refs": [
+      "#arr_12_com"
+    ],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "40",
+    "prefabs": [],
+    "node_refs": [
+      "#arr_12_com"
+    ],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "47",
+    "prefabs": [],
+    "node_refs": [
+      "#arr_12_com"
+    ],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "49",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "50",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "52",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "53",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "54",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3",
+    "node": "55",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3/32",
+    "node": "0",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3/32",
+    "node": "1",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3/32",
+    "node": "2",
+    "prefabs": [],
+    "node_refs": [
+      "#arr_12_tr_warning"
+    ],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3/32",
+    "node": "3",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3/32",
+    "node": "4",
+    "prefabs": [],
+    "node_refs": [
+      "#arr_12_tr_fail"
+    ],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3/32",
+    "node": "6",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3/32",
+    "node": "8",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3/32",
+    "node": "9",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3/32",
+    "node": "14",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3/36",
+    "node": "0",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3/36",
+    "node": "1",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3/36",
+    "node": "2",
+    "prefabs": [],
+    "node_refs": [
+      "#arr_12_com"
+    ],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3/36",
+    "node": "3",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3/36",
+    "node": "4",
+    "prefabs": [],
+    "node_refs": [
+      "#arr_12_com"
+    ],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3/36",
+    "node": "6",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3/36",
+    "node": "8",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3/36",
+    "node": "9",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3/36",
+    "node": "12",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3/36",
+    "node": "13",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase",
+    "graph": "root/3/36",
+    "node": "14",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": []
+  },
+  {
+    "depot": "base\\open_world\\bugfixing\\sts\\sts_arroyo_bugfixing.questphase",
+    "graph": "root",
+    "node": "15",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": [
+      "base\\open_world\\street_stories\\santo_domingo\\arroyo\\sts_std_arr_12\\phases\\sts_std_arr_12_bugfixing.questphase"
+    ]
+  },
+  {
+    "depot": "base\\quest\\bugfixing.questphase",
+    "graph": "root",
+    "node": "11",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": [
+      "base\\quest\\bugfixing\\open_world_bugfixing.questphase"
+    ]
+  },
+  {
+    "depot": "base\\quest\\bugfixing\\open_world_bugfixing.questphase",
+    "graph": "root/1",
+    "node": "43",
+    "prefabs": [],
+    "node_refs": [],
+    "refs": [
+      "base\\open_world\\bugfixing\\sts\\sts_arroyo_bugfixing.questphase"
+    ]
+  }
+]

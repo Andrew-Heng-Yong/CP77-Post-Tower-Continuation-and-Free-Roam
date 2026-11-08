@@ -1,0 +1,32 @@
+"""Independent allowlist, local-ID, unchanged XL and exact compile-reuse checks."""
+from lib import *
+import argparse
+ap=argparse.ArgumentParser();ap.add_argument('--output',required=True);a=ap.parse_args();O=Path(a.output).resolve();assert not O.exists();O.mkdir(parents=True)
+Q=W/'prealpha/quest_restoration_qr4';C=Q/'candidate_01';B=W/'prealpha/quest_restoration_qr3/candidate_01';A=read(Q/'approved_changes_01.json');RR=W/'prealpha/quest_restoration_qr4/groups/G10/reviews/MQ007_serialized/verification_01/review.json';review=read(RR);checks=[]
+def ck(name,b,e):checks.append({'name':name,'status':'PASS'if b else'FAIL','evidence':e});assert b,name
+package_review=read(Path(__file__).parent/'reviews/QR4_package/REPORT.json');delta={r['depot']:r for r in package_review['changed_resources']};ck('approved_allowlist_exact_same_two_deltas',len(A['resources'])==2 and all(delta[r['depot']]['before']==r['before']and delta[r['depot']]['after']==r['after']for r in A['resources']),A['resources'])
+ck('independent_serialized_approval_pinned',review['status']=='APPROVED_SERIALIZED_TWO_RESOURCE_MQ007_SUCCESSOR_FOR_PACKAGE_VALIDATION'and all(r['independent_review_sha256']==sha(RR)for r in A['resources']),{'path':str(RR),'sha256':sha(RR),'checks':review['checks']})
+RB=RR.parent.parent/'readback_01';local=[]
+for row in A['resources']:
+ tag=row['prefix'];before=Resource(read(RB/(tag+'_before.json'))).normalize();after=Resource(read(RB/(tag+'_after.json'))).normalize();ck('actual_serialized_raw_approved_hash '+tag,sha(C/'archive_source'/Path(row['depot'].replace('\\','/')))==row['after'],row['after']);ck('readback_graph_errors '+tag,not after['errors'],after['errors'])
+ old=before['graphs']['root'];new=after['graphs']['root'];added=set(new['nodes'])-set(old['nodes']);ck('exact_new_root_IDs_'+tag,added=={'1200','1201','1202','1203'},sorted(added));ck('old_root_IDs_payloads_preserved '+tag,all(new['nodes'][i]['payload']==v['payload']for i,v in old['nodes'].items()),'No existing saved node or field changed')
+ ck('old_edges_preserved '+tag,set(map(tuple,old['edges']))<=set(map(tuple,new['edges'])),'Existing story/observer paths retained')
+ expected={('1101','Out','1200','In'),('1200','True','1201','In'),('1201','Out','1202','In1'),('1202','Out1','1203','In')};ck('only_future_event_enrollment_edges '+tag,set(map(tuple,new['edges']))-set(map(tuple,old['edges']))==expected,'No root input/default0 retroactive enrollment')
+ ck('native_nested_trigger_prefab_preserved '+tag,after['graphs']['root/1202']['nodes']['3']['prefabs']==['#mq007_pr_gun_re_acquiring'],'Distinct from persistent gun_return container; nested native lease retained')
+ for gp,gr in before['graphs'].items():
+  if gp!='root':ck('old_nested_graph_unchanged '+tag+gp,after['graphs'][gp]==gr,gp)
+ local.append({'resource':row['depot'],'new_root_ids':sorted(added),'new_ArchiveXL_IDs':0,'preserved_nested_trigger_prefab':'#mq007_pr_gun_re_acquiring'})
+xl='archive/pc/mod/zzzz_PTFR_Combined.archive.xl';ck('XL_exact_bytes_preserve_generated_ID_registry',(C/'package'/xl).read_bytes()==(B/'package'/xl).read_bytes(),{'sha256':sha(C/'package'/xl),'meaning':'No new registrations, merge-order or generated phase-node IDs; unchanged QR3 collision proof reused'})
+reuse=read(Q/'compile_reuse.json');prior=Path(reuse['prior_result']);ck('prior_compile_result_exact_pin',sha(prior)==reuse['prior_result_sha256'],str(prior));oldcompile=read(prior);ck('successful_exact_prior_compile',oldcompile['status']=='PASS'and oldcompile['exit_code']==0 and oldcompile['source_count']==131,'Historical success reused only after current-input equality')
+for path,h in oldcompile['input_pins'].items():ck('current_compiler_source_cache_input '+path,sha(path)==h,h)
+stagedroot=prior.parent/'scripts/game';staged={str(Path(k).resolve()):v for k,v in oldcompile['staged_sources'].items()};current=list((C/'package/r6/scripts').rglob('*.reds'));ck('exact46_staged_managed_scripts',len(current)==46,'No SCC invocation')
+for p in current:
+ oldpath=(stagedroot/p.relative_to(C/'package/r6/scripts')).resolve();ck('managed_compile_input_equal '+p.name,str(oldpath)in staged and sha(p)==staged[str(oldpath)]['sha256'],{'current':str(p),'prior':str(oldpath)})
+ck('compile_reuse_record_exact_counts',reuse['sources']==131 and reuse['staged_managed_sources']==46 and reuse['input_pins_verified']==len(oldcompile['input_pins'])and reuse['fresh_SCC_invocation']is False,'Exact134source/compiler/cache pins; no unchanged recompilation')
+# Independent timing-fence refinement for G12, separate from the changed package resources.
+S=Store();main=r'base\quest\minor_quests\mq044\phases\mq044_main.questphase';helper=r'towercontinued\sidejobs_s23\base_a\mq044_jakes_vehicle.questphase';gate=S.n(main,5)['payload']['condition'];path='quests/minor_quest/mq044_jakes_vehicle'
+ck('MQ044_main_active_success_fences',evaluate(gate,{}, {path:'Active'})is False and evaluate(gate,{}, {path:'Succeeded'})is False and evaluate(gate,{}, {path:'Inactive'})is True,'Native root5 guards precede startup; competing references do not prove duplicate stories')
+ck('MQ044_startup_writer',any(w['factName']=='mq044_started'and w['value']==1 for w in S.n(main,55,'root/2')['writes']),'Existing original startup acknowledgment')
+ck('MQ044_S23_late_recheck',all(any(x.get('factName')==f and x.get('comparisonType')=='Equal'and x.get('value')==0 for x in S.n(helper,1100)['reads'])for f in ['mq044_started','mq_044_started_in_main']),'Existing S23 final1100 checks after three-day native wait')
+out={'status':'PASS_APPROVED_BYTES_LOCAL_IDS_XL_AND_EXACT_COMPILE_REUSE','checks':len(checks),'tests':checks,'local_ids':local,'compile_inputs_verified':len(oldcompile['input_pins']),'managed_sources':46,'source_count':131,'fresh_compile':False,'G12_refinement':'Existing MQ044main NOTActive/NOTSucceeded guard, startup55started1 and S23 late1100 zero-start guards are retained. One-day corrective versus three-day normal timing/saved-owner provenance remains conditional; no proven duplicate runtime owner or guessed timing repair.','limits':package_review['limits']+['Future-event-only MQ007 repair does not adopt old-entered/returned saves or support unsupported11/51/95 histories','Container sector loot, native context-token availability and actual helper/timer/reload scheduling remain opaque/live-only'],'runtime_changes':[]}
+save(O/'REPORT.json',out);print(json.dumps({'checks':len(checks),'compile_inputs_verified':len(oldcompile['input_pins']),'managed_sources':46,'status':out['status']}))

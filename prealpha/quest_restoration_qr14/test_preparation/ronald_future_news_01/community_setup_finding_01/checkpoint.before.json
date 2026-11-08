@@ -1,0 +1,44 @@
+{
+  "state": "QR13_02_INSTALLED_VERIFIED_ROLLBACK_READY",
+  "completion": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\deployment_01\\completion.json",
+  "completion_sha256": "DAFCC2C6A84F7013F6477832A80C3DB913A4A63F643A172820A6CC24140E09CE",
+  "installed": "QR13:02 Core + unchanged QR10D01/D00E",
+  "handoff": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\deployment_01\\HANDOFF.md",
+  "next": "User clears CET input and runs syntax-verified one-line PA5 read-only inspector, returning POI and entryDifferences. Do not start the gig.",
+  "latest_ronald_eligibility": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_eligibility_01\\result.json",
+    "sha256": "B3F0E80F0D957891047D1F65C43615D1488CC262EF3D90A6EFCAB64DAACF8BF4",
+    "card": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_eligibility_01\\TEST_CARD.md"
+  },
+  "latest_ronald_attempt": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_attempt_01\\result.json",
+    "sha256": "B524D610B9C36CEB586BEC4B24D047D18DEE8302DBA73A45A3D0FC1BDC61152F",
+    "report": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_attempt_01\\REPORT.md",
+    "continuation": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_attempt_01\\CONTINUE.md"
+  },
+  "latest_ronald_enrollment": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_enrollment_01\\result.json",
+    "sha256": "877DEDFB0130FEE945A44123B588B9B89BDDDFDECCBA257A63A5299791B8316B",
+    "report": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_enrollment_01\\REPORT.md",
+    "next_steps": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_enrollment_01\\NEXT_STEPS.md"
+  },
+  "latest_ronald_reload": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_reload_01\\result.json",
+    "sha256": "586C00A2541853991A763DF4670EA92591381C720FD9B19FAFFFDA4CDFF0A682",
+    "report": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_reload_01\\REPORT.md"
+  },
+  "pending_ronald_news_qualification": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\test_preparation\\ronald_future_news_01\\plan.json",
+    "sha256": "39957791FDFEEC7886CA8AC0AE5FACB7F27689EE1A15BCBF7E3AE023286D7C3F",
+    "card": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\test_preparation\\ronald_future_news_01\\CHECK.md"
+  },
+  "latest_ronald_news_qualification": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\test_preparation\\ronald_future_news_01\\qualification_02\\result.json",
+    "sha256": "E05859F77D612CA0A41AAA126EE6E8257FD5E74448EF230BF37249E92C909160",
+    "detail_card": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\test_preparation\\ronald_future_news_01\\qualification_02\\DETAIL_CHECK.md"
+  },
+  "latest_command_syntax_check": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\test_preparation\\ronald_future_news_01\\qualification_02\\syntax_recovery_01.json",
+    "sha256": "FA9CEDAD6000D5A3B60EDEA2AD65A8F5DC490CC8FB52D74B353DECD127E34609"
+  }
+}

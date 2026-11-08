@@ -1,0 +1,189 @@
+{
+  "quest_id": "sts_wbr_hil_06",
+  "title": "Family Heirloom",
+  "source_epoch": "QR5:08 = QR6:00 frozen source bytes",
+  "status": "DEEP_SOURCE_INVESTIGATED_WITH_SPECIFIC_LIMITS",
+  "fully_static_verified": false,
+  "effective_resource": "towercontinued\\gigs_u10\\native\\sts_wbr_hil_06_entry.questphase",
+  "effective_resource_sha256": "C31620664FA96C6423DEAE9600D24B236AEDB8352E727F17D1553319460EAE66",
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Native Charter Hill nested5 arms q103_rogue_done>0 at25 OR debug>0 at26 through XOR28, then outside29 OR POI35 via XOR36→21.Active→Started65004→main10.In1. Private guards require debug0, so only the earned native path remains available; parent/body and original input sockets match exact donor."
+      ],
+      "remaining": [
+        "Native entry predicates and exact wrapper are statically proved; runtime registration/streaming timing is not gameplay proof."
+      ],
+      "approved_differences": [
+        "Existing approved genuine-Tower private U10 fresh rehost, explicit once receipts and conservative eligibility. Psychofan only additionally uses the reviewed R4 adapter; no new QR6 behavior change."
+      ],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_hil_06\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_hil_06\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\quests\\sts_wbr_hil_06\\mechanisms.json"
+      ]
+    },
+    "eligibility": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Fourteen journal states and 31 fact conjuncts preserve q103 Warhead Succeeded plus native q103_done/q103_rogue_done, zero fresh gig progress and zero held bootleg/keys items. GigsU10 additionally requires pre-Tower familyHistorySchema1/familyPreTowerCompleted or SnapshotStateHS1.FamilyAccepted, without backfilling after Tower."
+      ],
+      "remaining": [
+        "Current finite guards preserve the named native beginnings; unobserved external/saved-owner state and live admission timing remain conditional. Exact omitted native fact/journal census is retained in evidence.json."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_hil_06\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_hil_06\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\quests\\sts_wbr_hil_06\\mechanisms.json"
+      ]
+    },
+    "communications": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Five actual Rogue prebrief/debrief Start0 request producers retain real listener/ACK/wait/clear routes, including retry and native SMS/rejection fallback. Dan is the original local hil_06_client_com actor; no parallel generic service owner was introduced. Current Rogue initializer86 and cleanup344 match exact shared-source evidence."
+      ],
+      "remaining": [
+        "Real request/listener/ACK/wait/clear authoring is proved; actual scheduling, actor acquisition, interruption and reload delivery remain live-dependent."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_hil_06\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_hil_06\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\quests\\sts_wbr_hil_06\\mechanisms.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Original main10.Out1 starts private64000, the complete original embedded after-phase copied from Charter Hill root30. All nested graphs and resource metadata/prefabs compare exactly. OwnerFinished follows its actual output; this companion is not globally booted. Main and Dan actor lifecycle remain native."
+      ],
+      "remaining": [
+        "Exact selected original parent/companion scopes are traced; arbitrary old executing saved owners and native global bugfix controller states are not certified by zero scalar facts or presence."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_hil_06\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_hil_06\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\quests\\sts_wbr_hil_06\\mechanisms.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Native OW root/2 retains finished195 and196 on authored alternate delivery outcomes; root/6 keeps pacifist19 and ordinary23 reward branches through their native convergence28. Retrieval, car keys/vehicle delivery, Dan actor interaction and scene/callback paths remain original; the complete after-phase is independently compared."
+      ],
+      "remaining": [],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_hil_06\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_hil_06\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\quests\\sts_wbr_hil_06\\mechanisms.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Original hil_06_client_com Dan, vehicle/community, bootleg/keys, garage/workspot and Rogue scene bindings remain source-pinned. The after-phase exact-native lease is preserved with its actual metadata, rather than inferred from a phase initializer with empty PIPs. Opaque world definitions remain separate."
+      ],
+      "remaining": [
+        "DynamicBaseClass/worldNode streaming placement, effective spawned actor acquisition, animation/workspot/camera execution and JV1 timing are not certified by preserved binding literals."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_hil_06\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_hil_06\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\quests\\sts_wbr_hil_06\\mechanisms.json"
+      ]
+    },
+    "journal": {
+      "status": "PASS",
+      "proven": [
+        "Fourteen initial states include the real q103 prerequisite plus native bootleg/keys/vehicle/client/delivery objectives; all actual quest/POI/mappin transition payloads and sockets remain exact. Unsupported historical partial progress defers instead of restarting acquisition or replaying Dan delivery."
+      ],
+      "remaining": [],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_hil_06\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_hil_06\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\quests\\sts_wbr_hil_06\\mechanisms.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native root/6 reward19 is completion_pacifist;23 is ordinary completion, with original debrief/SMS branch convergence and achievement69. Native after-phase and Dan cleanup are preserved. This Rogue gig has no invented private LOOP credit recipe; missing credit is not treated as an error by analogy to Padre gigs."
+      ],
+      "remaining": [
+        "Native reward/cleanup authoring and once gates are proved; effective merged TDB definitions, atomic engine rewards, pending old owners and cleanup/reload behavior need separate evidence."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_hil_06\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_hil_06\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\quests\\sts_wbr_hil_06\\mechanisms.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Stable familyHistorySchema/familyPreTowerCompleted fields and all private/native node/fact/resource identities are unchanged. Already issued owners and completed/failed states are protected; no q103 evidence is fabricated and no held bootleg/keys are removed for admission. Native historical bugfix reward97 remains inventoried, not replayed."
+      ],
+      "remaining": [
+        "No save-transition fixtures were executed; source identity preservation does not prove arbitrary future-version saved-owner compatibility."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_hil_06\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_hil_06\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\quests\\sts_wbr_hil_06\\mechanisms.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Earned q103/Rogue history, native local Dan owner, complete embedded after-phase, Rogue phone queue/cleanup and PH3 studios are separate pinned obligations. Current shared wrapper bytes apply, while arbitrary saved actor/owner and live vehicle service state remain conditional."
+      ],
+      "remaining": [
+        "Original exact bindings and shared byte applicability are proved; external world marker acquisition, all effective record override winners and live shared-owner leases remain conditional."
+      ],
+      "approved_differences": [],
+      "evidence": [
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\source_pins.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_hil_06\\evidence.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\verification_01\\quests\\sts_wbr_hil_06\\handlers.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\tests.json",
+        "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr6\\groups\\C02\\supplement_01\\quests\\sts_wbr_hil_06\\mechanisms.json"
+      ]
+    }
+  }
+}

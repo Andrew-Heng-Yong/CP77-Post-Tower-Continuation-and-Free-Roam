@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "recorded_date": "2026-11-07",
+  "status": "CURRENT_USER_SELECTED_REVIEW_WORKFLOW",
+  "authority": "User replaced the transcript-marker workflow with YouTube playthrough review and a free-form removal list, including conversation options; latest pilot scope is two quests.",
+  "pilot_quests": [
+    {
+      "id": "mq016_bartmoss",
+      "title": "KOLD MIRAGE",
+      "video": "https://www.youtube.com/watch?v=7yMYH3fOfmA"
+    },
+    {
+      "id": "mq036_overload",
+      "title": "Sweet Dreams",
+      "video": "https://www.youtube.com/watch?v=UHfdmud_NwE"
+    }
+  ],
+  "review_method": "USER_WATCHES_PLAYTHROUGHS_AND_WRITES_REMOVAL_NOTES",
+  "accepted_item_types": [
+    "spoken dialogue",
+    "conversation option",
+    "option and its spoken reply",
+    "whole exchange",
+    "explicit all-Johnny-dialogue request for a named quest"
+  ],
+  "suggested_note_fields": [
+    "quest",
+    "dialogue/option/both",
+    "speaker or displayed option label",
+    "words or description",
+    "video URL and timestamp if available"
+  ],
+  "game_ids_required_from_user": false,
+  "fixed_context_window_required_from_user": false,
+  "quote_matching": {
+    "user_quote": "At least five consecutive words copied from a spoken line's transcript.",
+    "short_options": "If a conversation option has fewer than five words, copy its complete displayed label.",
+    "identification": "Include the quest name and speaker, or identify the entry as OPTION. A timestamp is optional unless needed to resolve multiple matches.",
+    "scope": "A quote identifies the full spoken event or option requested for removal; a partial-wording cut must be specified separately.",
+    "ambiguity": "Do not assume five words uniquely identify an occurrence. Resolve duplicates against scene/branch context before selecting an exact edit.",
+    "short_spoken_lines": "If a spoken line has fewer than five words, copy the complete line."
+  },
+  "selection_rule": "Explicit user removal requests in the returned notes select candidate cuts. Blank fields, unchecked suggestions and template examples select nothing.",
+  "option_and_spoken_reply": "Map the menu choice and any spoken event separately. Selecting one does not silently select the other or its entire downstream branch; an explicit both/whole-exchange request expands the proposal for review.",
+  "matching": "Resolve notes to exact spoken-event or choice IDs, source providers/hashes, branches and both V wording variants using the selected Step 2 index and source evidence.",
+  "uncertainty": "Hold ambiguous matches, unseen branches, mixed-purpose lines and unclear cut boundaries for review; video absence is not proof that an option or line does not exist.",
+  "implementation_constraint": "Review progression, outcomes, acknowledgements, rewards, timing and exits before any option or dialogue change. A blocked path requires a specific reviewed adaptation.",
+  "source_qualification_reference": "prealpha/johnny_dialogue_review_20261107_02/evidence_05/review_manifest.json",
+  "supersedes": "The five-quest J5-03 document and its (remove)-after-ID workflow as the current pilot assignment. Prior documents and decisions remain preserved.",
+  "approved_removal_events": 0,
+  "implementation_or_deployment_authorized": false,
+  "preferred_note_format": "Quest title as a heading, followed by speaker-prefixed quotes: Johnny: ..., V: ..., OPTION: ...",
+  "format_example": {
+    "text": "Johnny: I'd recognize that mug anywhere",
+    "role": "FORMAT_EXAMPLE_ONLY_NOT_A_REMOVAL_SELECTION"
+  }
+}

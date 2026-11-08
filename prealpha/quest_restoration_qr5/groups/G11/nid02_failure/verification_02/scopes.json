@@ -1,0 +1,365 @@
+{
+  "native_bugfix_root_prefabs": [],
+  "original_monitor23": {
+    "$type": "questPhaseNodeDefinition",
+    "id": 23,
+    "phaseInstancePrefabs": [],
+    "phaseResource": {
+      "DepotPath": {
+        "$type": "ResourcePath",
+        "$storage": "uint64",
+        "$value": "0"
+      },
+      "Flags": "Soft"
+    },
+    "saveLock": 0,
+    "unfreezingTriggerNodeRef": {
+      "$type": "NodeRef",
+      "$storage": "uint64",
+      "$value": "0"
+    }
+  },
+  "monitor_nodes": [
+    {
+      "graph": "root/23",
+      "node": "0",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": []
+    },
+    {
+      "graph": "root/23",
+      "node": "1",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": []
+    },
+    {
+      "graph": "root/23",
+      "node": "2",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": [
+        "#nid_02_com"
+      ]
+    },
+    {
+      "graph": "root/23",
+      "node": "3",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": []
+    },
+    {
+      "graph": "root/23",
+      "node": "4",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": []
+    },
+    {
+      "graph": "root/23",
+      "node": "5",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": [
+        "#nid_02_com"
+      ]
+    },
+    {
+      "graph": "root/23",
+      "node": "6",
+      "prefabs": [],
+      "refs": [
+        "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_02\\scenes\\sts_wat_nid_02_holocall_prebrief.scene"
+      ],
+      "node_refs": []
+    },
+    {
+      "graph": "root/23",
+      "node": "7",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": [
+        "#nid_02_dvc_computer_003"
+      ]
+    },
+    {
+      "graph": "root/23",
+      "node": "8",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": [
+        "#nid_02_dvc_computer_003"
+      ]
+    },
+    {
+      "graph": "root/23",
+      "node": "9",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": []
+    },
+    {
+      "graph": "root/23",
+      "node": "10",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": [
+        "#nid_02_dvc_computer_003"
+      ]
+    },
+    {
+      "graph": "root/23",
+      "node": "11",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": [
+        "#nid_02_dvc_computer_003"
+      ]
+    },
+    {
+      "graph": "root/23",
+      "node": "12",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": []
+    },
+    {
+      "graph": "root/23",
+      "node": "13",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": []
+    },
+    {
+      "graph": "root/23",
+      "node": "16",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": []
+    },
+    {
+      "graph": "root/23",
+      "node": "18",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": []
+    },
+    {
+      "graph": "root/23",
+      "node": "19",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": []
+    },
+    {
+      "graph": "root/23",
+      "node": "20",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": []
+    },
+    {
+      "graph": "root/23",
+      "node": "21",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": []
+    },
+    {
+      "graph": "root/23",
+      "node": "22",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": [
+        "#nid_02_dvc_computer_003"
+      ]
+    },
+    {
+      "graph": "root/23",
+      "node": "23",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": [
+        "#nid_02_dvc_computer_003"
+      ]
+    },
+    {
+      "graph": "root/23",
+      "node": "24",
+      "prefabs": [],
+      "refs": [
+        "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_02\\scenes\\sts_wat_nid_02_holocall_debriefs.scene"
+      ],
+      "node_refs": [
+        "#sts_sm_wat_nid_02_holocall_debriefs"
+      ]
+    },
+    {
+      "graph": "root/23",
+      "node": "25",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": []
+    },
+    {
+      "graph": "root/23",
+      "node": "26",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": []
+    },
+    {
+      "graph": "root/23",
+      "node": "27",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": []
+    },
+    {
+      "graph": "root/23",
+      "node": "28",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": []
+    },
+    {
+      "graph": "root/23",
+      "node": "29",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": []
+    },
+    {
+      "graph": "root/23",
+      "node": "30",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": []
+    },
+    {
+      "graph": "root/23",
+      "node": "31",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": [
+        "#nid_02_dvc_computer_003"
+      ]
+    },
+    {
+      "graph": "root/23",
+      "node": "32",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": [
+        "#nid_02_dvc_computer_003"
+      ]
+    },
+    {
+      "graph": "root/23",
+      "node": "33",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": []
+    },
+    {
+      "graph": "root/23",
+      "node": "34",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": []
+    },
+    {
+      "graph": "root/23",
+      "node": "35",
+      "prefabs": [],
+      "refs": [
+        "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_02\\scenes\\sts_wat_nid_02_holocall_debriefs.scene"
+      ],
+      "node_refs": []
+    },
+    {
+      "graph": "root/23",
+      "node": "36",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": []
+    },
+    {
+      "graph": "root/23",
+      "node": "37",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": []
+    },
+    {
+      "graph": "root/23",
+      "node": "41",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": []
+    },
+    {
+      "graph": "root/23",
+      "node": "43",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": []
+    },
+    {
+      "graph": "root/23",
+      "node": "44",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": []
+    },
+    {
+      "graph": "root/23",
+      "node": "45",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": []
+    },
+    {
+      "graph": "root/23",
+      "node": "46",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": []
+    },
+    {
+      "graph": "root/23",
+      "node": "47",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": []
+    },
+    {
+      "graph": "root/23",
+      "node": "48",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": []
+    },
+    {
+      "graph": "root/23",
+      "node": "49",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": [
+        "#nid_02_com"
+      ]
+    },
+    {
+      "graph": "root/23",
+      "node": "50",
+      "prefabs": [],
+      "refs": [],
+      "node_refs": []
+    }
+  ],
+  "main_root_prefabs": [
+    "#loc_sts_wat_nid_02_streetstory"
+  ]
+}

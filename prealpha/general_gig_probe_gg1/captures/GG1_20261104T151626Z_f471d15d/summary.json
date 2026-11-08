@@ -1,0 +1,110 @@
+{
+  "status": "CAPTURE_COMPLETE_AWAITING_HUMAN_GIG_CORRELATION",
+  "bytes": 21430,
+  "streams": {
+    "game": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\general_gig_probe_gg1\\captures\\GG1_20261104T151626Z_f471d15d\\stream\\game.log",
+      "bytes": 4096,
+      "sha256": "102A8D0E6E0C8E6362AD030EACCD2A18B382577082B95B9C3855A73868C1EB79"
+    },
+    "script": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\general_gig_probe_gg1\\captures\\GG1_20261104T151626Z_f471d15d\\stream\\script.log",
+      "bytes": 4096,
+      "sha256": "70CEDE8965408E23CB46BCA59EB3FD161689F4CCA10BF2545DEC24EA0409BC1A"
+    },
+    "cet": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\general_gig_probe_gg1\\captures\\GG1_20261104T151626Z_f471d15d\\stream\\cet.log",
+      "bytes": 4096,
+      "sha256": "D928018CA3ABE842EC013CD8A61074E9643E0C571F344375D93E57FAC1961739"
+    },
+    "redscript": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\general_gig_probe_gg1\\captures\\GG1_20261104T151626Z_f471d15d\\stream\\redscript.log",
+      "bytes": 9142,
+      "sha256": "5C1E9950B384666C3B398758B6AE2FB3E6192CAEFEFD6F2542C51BD745D6A277"
+    }
+  },
+  "source_states": {
+    "game": "READABLE",
+    "script": "READABLE",
+    "cet": "READABLE",
+    "redscript": "READABLE"
+  },
+  "source_epoch_gaps": [
+    {
+      "source": "redscript",
+      "reason": "SOURCE_REPLACED",
+      "old_offset": 9142,
+      "old_renamed_suffix_recovered": true,
+      "possible_unread_gap": false
+    }
+  ],
+  "limit_hit": false,
+  "gig_fact_candidates": [],
+  "logged_fact_notices": [],
+  "error_like_lines_not_automatic_failures": [
+    {
+      "source": "script",
+      "line": 21,
+      "text": "[2026-11-04 10:21:32 UTC-05:00] [28556] > do local p = Game.GetPlayer() if not p or not p:IsAttached() then print(\"[JF01-F] LOAD_SAVE_FIRST\") return end print(\"[JF01-F] BEGIN\") local q = Game.GetQuestsSystem() for _, n in ipairs({\"sts_ep1_03_start_community\", \"sa_ep1_114_toggledoff_force\", \"sa_ep1_114_toggledoff\", \"sa_ep1_courier_allow_unrestricted_cleanup\", \"sa_ep1_courier_spot_force_toggled_off\", \"PTFRU9_sts_ep1_03_ParentEntered\", \"PTFRU9_sts_ep1_03_Started\", \"q307_ep1_killed\"}) do local ok, v = pcall(function() return q:GetFactStr(n) end) print(\"[JF01-F] \" .. n .. \"=\" .. (ok and tostring(v) or (\"ERROR:\" .. tostring(v)))) end print(\"[JF01-F] END\") end"
+    }
+  ],
+  "possible_session_boundaries": [
+    {
+      "source": "game",
+      "line": 1,
+      "text": "[2026-11-04 10:19:30 UTC-05:00] [36168] [PTFR_W2] attached groups=534",
+      "interpretation": "possible loading/attachment boundary, not exact saved-owner identity"
+    },
+    {
+      "source": "game",
+      "line": 3,
+      "text": "[2026-11-04 10:20:25 UTC-05:00] [24276] [PTFR_W2] attached groups=534",
+      "interpretation": "possible loading/attachment boundary, not exact saved-owner identity"
+    },
+    {
+      "source": "game",
+      "line": 6,
+      "text": "[2026-11-04 10:21:09 UTC-05:00] [22280] [PTFR_LoadingLC3] elapsedSim=0.000000 stage=Preparing Tower continuation | Checking your save and the arrival state.",
+      "interpretation": "possible loading/attachment boundary, not exact saved-owner identity"
+    }
+  ],
+  "coverage": "Appended existing logs across the bounded interval; pre-existing context is separate. No independent journal, phone, inventory or engine-owner API sampling.",
+  "limits": [
+    "FactFinder supplies batched getter-difference notices, not native callbacks or exact write time/order.",
+    "Installed FactFinder defaults to at most3 reports per fact per game session; current settings may differ and were not changed.",
+    "Missing/unlisted/suppressed/transient notices remain unknown; absence is not gameplay failure.",
+    "Candidate gig mentions are not proof of quest entry, completion, reward idempotence or controller cleanup.",
+    "Possible source gaps/loading boundaries are explicit. Human gig name/outcome are required."
+  ],
+  "game_API_calls": 0,
+  "game_or_save_writes": 0,
+  "run_id": "GG1_20261104T151626Z_f471d15d",
+  "stop_reason": "USER_STOP",
+  "recorder_error": null,
+  "protected_inputs": {
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\mod\\zzzz_PTFR_Combined.archive": {
+      "unchanged": true,
+      "sha256": "97D3C65BB72F4BA4F3BCB6AECDE9ABA105315D0340918F42590363F9F90A32BF"
+    },
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_HistorySnapshotHS1.reds": {
+      "unchanged": true,
+      "sha256": "ED9B0EFD0A2914E66CB5FDFA23F7A6E28179872504C6D4E2AA4F5E0C184DB445"
+    },
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_SideJobsS23.reds": {
+      "unchanged": true,
+      "sha256": "F29ECBA24DA9507ADD0365BA95A205406C4A4412CDDD164C12FBB7326C64BE97"
+    },
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\plugins\\cyber_engine_tweaks\\mods\\PTFR_QR9_Diagnostics\\watch.json": {
+      "unchanged": true,
+      "sha256": "BBEFAEC2F1975EE0590BEC6D447293AF932DFBCCF2C228393133604F6D252DEA"
+    },
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\plugins\\cyber_engine_tweaks\\mods\\PTFR_QR9_Diagnostics\\init.lua": {
+      "unchanged": true,
+      "sha256": "1A366E1075A9EBCA46686EF76AB724B7F5C3EE51445E13A3BC02B97194D21F90"
+    },
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\FactFinder\\FactFinder.reds": {
+      "unchanged": true,
+      "sha256": "E5A7A545EC097A38B04F09A9F6F67B78C8070C800E95B8C0D5B6D2AD04E366AD"
+    }
+  }
+}

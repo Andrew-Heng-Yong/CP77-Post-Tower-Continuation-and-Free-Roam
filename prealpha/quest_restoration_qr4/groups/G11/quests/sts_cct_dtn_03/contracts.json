@@ -1,0 +1,567 @@
+{
+  "quest_id": "sts_cct_dtn_03",
+  "title": "A Lack of Empathy",
+  "source_epoch": "QR3 candidate_01; installed PH3 separate",
+  "status": "DEEP_REVIEWED_WITH_SPECIFIC_STATIC_LIMITS",
+  "fully_static_verified": false,
+  "effective_resource": "towercontinued\\native_gigs_u9\\sts_cct_dtn_03_entry.questphase",
+  "effective_resource_sha256": "D4E16BE746885C798D30CC51908B27AE0964A67C9A19564381D1C8545336F8A1",
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Native inline2 waits sts_cct_dtn_tier_1>0 OR debug_sts_start>0\u219251POIActive\u2192Started\u21927.In1. No invented outside-trigger branch: copied original parent has the simpler tier/POI route.",
+        "Current root0\u219265000Ready\u219265001Revision\u219265002permission pause\u219265003ParentEntered\u2192native inline then originalPOI\u219265004Started\u2192native main. Main.Out1\u219265005MainFinished\u219265006OwnerFinished. Retained payloads/edges are individually compared; exact existing Embedded\u2192Soft and Cole sibling-owner isolation differences are explicitly recorded."
+      ],
+      "approved_differences": [
+        "Existing U9 additive private entry/receipt adapters; exact original native body and saved node/input identities retained."
+      ],
+      "remaining": [
+        "CONDITIONAL: Registration activation, native trigger/POI event timing and saved original owner retirement are engine inputs."
+      ],
+      "evidence": [
+        "../../verification_05/tests.json",
+        "../../verification_05/source_pins.json",
+        "../../verification_05/script_pins.json",
+        "../../verification_05/quest_evidence.json",
+        "../../verification_05/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json",
+        "../../verification_05/intentional_differences.json"
+      ]
+    },
+    "eligibility": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Effective consolidated NativeGigsU9.Request/EntrySafe/Poll uses certified or acceptedHS1 history, completedTower/LC1/startup/support/legacy/consequence guards. EntrySafe requires each of 12 enumerated journal paths Inactive and 8 native facts0; missing journal lookup returns-1, notInactive.",
+        "CR2W65002 itself has fact predicates only; current scripted Permit carries the journal/legacy protection. Both layers are pinned, and old source RestoreCertified stub is not mistaken for production. Five server-room MapPin references server_room throughserver_room4 lie outside admission Paths. Exact writer/class/socket rows remain; they are mappins under the protected server-room objective, not automatic new objective guards or a source-confirmed defect."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: Exact journal-target coverage/provenance gaps listed in journal_target_gaps.json remain visible. Inactive roots/facts do not prove native saved owner retirement.",
+        "LIVE_ONLY: Current save history and scheduling between Permit poll and graph admission are not observed."
+      ],
+      "evidence": [
+        "../../verification_05/tests.json",
+        "../../verification_05/source_pins.json",
+        "../../verification_05/script_pins.json",
+        "../../verification_05/quest_evidence.json",
+        "../../verification_05/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json",
+        "../../verification_05/intentional_differences.json"
+      ]
+    },
+    "communications": {
+      "status": "PASS",
+      "proven": [
+        "Actual source caller\u2192native wait routes: sts_cct_dtn_03_holocall_debriefs.scene:start 70\u2192256; sts_cct_dtn_03_holocall_debriefs.scene:end 80\u219277; sts_cct_dtn_03_holocall_prebrief.scene:start 66\u2192271; sts_cct_dtn_03_holocall_prebrief.scene:end 59\u219256. Start requests pass through native scnDeletionMarker before the real wait267/268/270/250; removed old wait IDs are not treated as active listeners.",
+        "Shared native Dino32\u219233count+1\u219235request0\u219236loop;37count/setup wait\u219228False\u219234count-1\u21920start, end3\u219211\u21920end. Native scene41/42 write done1; U9initializer25\u219253 andcleanup441True\u2192307In15\u2192Out15\u2192462 are connected. PH3 studio scopes inherit exact pinned G09 core. SerialSuicide prebrief endwait is explicitly NATIVE_NON_ACK_REQUEST_WAIT_CONDITIONAL."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Call arbitration, 30-second timeout/reject/retry, additional native INT/RET fire-and-forget request branches, UI/counter cleanup and saved pending requests are not engine-simulated.",
+        "CONDITIONAL: SupportIssued receipt precedes parent startup; it does not prove each listener is already running at that instant."
+      ],
+      "evidence": [
+        "../../verification_05/tests.json",
+        "../../verification_05/source_pins.json",
+        "../../verification_05/script_pins.json",
+        "../../verification_05/quest_evidence.json",
+        "../../verification_05/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json",
+        "../../verification_05/intentional_differences.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native mainnode7 invokes base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\phases\\sts_cct_dtn_03_main_phase.questphase In1 with rootprefab #sts_cct_dtn_03_streetstory. Whole body resources remain official/unoverridden. Embedded donor graphs equal external body graphs after only Embedded\u2192Soft reference storage adaptation.",
+        "Legacy tags ['PTFRB7_cct_dtn_03'] and per-owner receipts block known old/private reuse; current scripted OldUnused checks all legacy keys and LegacyOwnerFacts. Native current fact guards include dtn_03_weapons_deposit/perfect/in_combat/gang_chase/gang_retaliation0. Actual existing gang retaliation path and original club/bouncer/default-state communities are retained, with no replacement inventory, weapon-return or consequence controller."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: A retired original saved owner cannot be inferred from killed Tower state, missing actors or unused private receipts alone. Exact executing-owner/transition proof remains open."
+      ],
+      "evidence": [
+        "../../verification_05/tests.json",
+        "../../verification_05/source_pins.json",
+        "../../verification_05/script_pins.json",
+        "../../verification_05/quest_evidence.json",
+        "../../verification_05/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json",
+        "../../verification_05/intentional_differences.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "A Lack of Empathy retains club entry, avoid_combat, leave_weapons/get_weapons_back, security/server infiltration, infect_main_server, leave_club and drop-point stages. Native OWroot/5/156 node5 androot/5/158 node7 incrementdtn_03_finished on original outcome routes.",
+        "Exact original default main input socket, body phase/scene references, graph edges and branch predicates are retained. Native stage/outcome writes and per-route incoming/outgoing sockets are materialized in quest_evidence.json, not inferred from the restoration label."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Native scene outcomes, AI/combat/vehicle/body transport events, triggers and interrupt timing remain unobserved; static parity is not gameplay success."
+      ],
+      "evidence": [
+        "../../verification_05/tests.json",
+        "../../verification_05/source_pins.json",
+        "../../verification_05/script_pins.json",
+        "../../verification_05/quest_evidence.json",
+        "../../verification_05/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json",
+        "../../verification_05/intentional_differences.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Whole official body owns #sts_cct_dtn_03_streetstory and exact nested PhaseInstancePrefabs/scene/camera/workspot/actor/NodeRef data. No private bare initializer is used as a replacement for native physical support.",
+        "Map owners: sts_cct_dtn_03_map0.questphase fromnativeDyno root/37. Native dyno_visited2 predicate remains; map branches require ownStarted1/MapPermit1 and per-mapEntered0."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "OPAQUE: Full world sector/prefab content, inherited embedded/native-provider lifetimes, actor/camera/workspot/vehicle placements and journal mappin targets are not completely decoded.",
+        "LIVE_ONLY: Render/VO/global JV1 policy and streaming effects are not verified by preserved resource pointers."
+      ],
+      "evidence": [
+        "../../verification_05/tests.json",
+        "../../verification_05/source_pins.json",
+        "../../verification_05/script_pins.json",
+        "../../verification_05/quest_evidence.json",
+        "../../verification_05/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json",
+        "../../verification_05/intentional_differences.json"
+      ]
+    },
+    "journal": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "All native root/phase/objective/mappin references are retained. Private selected map payloads compare to exact native Dyno map graphs; documented map contractions and Cole sibling isolation are separately recorded in intentional_differences.json. Five server-room MapPin references server_room throughserver_room4 lie outside admission Paths. Exact writer/class/socket rows remain; they are mappins under the protected server-room objective, not automatic new objective guards or a source-confirmed defect.",
+        "Current per-quest admissions and native referenced targets are independently cross-listed; source paths/classes/IDs for discrepancies are in journal_target_gaps.json."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "UNKNOWN: Exact journal target definitions and obsolete/dynamic class interpretation are not fully resolved. A pointer alone is not target verification or permission to synthesize history."
+      ],
+      "evidence": [
+        "../../verification_05/tests.json",
+        "../../verification_05/source_pins.json",
+        "../../verification_05/script_pins.json",
+        "../../verification_05/quest_evidence.json",
+        "../../verification_05/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json",
+        "../../verification_05/intentional_differences.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "OWroot/13 reward2 QuestRewards.sts_cct_dtn_03_completion follows47retaliationFalse or48retaliation path;34 retainsBladerunner. Credit3finished\u219210cct_sts_counter+=1, independent of weapon deposit return.",
+        "Credit guard65000 requires Started1/CreditEntered0/CreditDone0 plus U9support, then65001 claims once before original finish/fail predicate and native10 increment. 10.Out\u219265002CreditDone is connected. Native rewards are solely body-owned; no custom payout or completion substitute is added."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "UNKNOWN: Reward/TDB record definitions, item/accounting entitlement, actual original saved credit owner and once-only execution across save/reload remain unproved.",
+        "LIVE_ONLY: Native failure cleanup, garage release, district-tier progression and achievement dispatch need fixtures."
+      ],
+      "evidence": [
+        "../../verification_05/tests.json",
+        "../../verification_05/source_pins.json",
+        "../../verification_05/script_pins.json",
+        "../../verification_05/quest_evidence.json",
+        "../../verification_05/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json",
+        "../../verification_05/intentional_differences.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Existing resource/node/field/receipt names are untouched; ParentEntered/Started/OwnerFinished/CreditEntered/CreditDone prevent known new-input reclaims. Current Request rejects terminal facts and prior requests, while Poll revalidates EntrySafe/OldUnused before Permit.",
+        "No facts, journals, counters, items, rewards, actors or saves were reset; old resources and exact native failure examples remain unchanged."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Durable executing node state, original district credit/map loops, already-running legacy controllers and future-version transitions need save-compatible fixtures. Receipt fencing is not a proof of all saved owner retirement."
+      ],
+      "evidence": [
+        "../../verification_05/tests.json",
+        "../../verification_05/source_pins.json",
+        "../../verification_05/script_pins.json",
+        "../../verification_05/quest_evidence.json",
+        "../../verification_05/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json",
+        "../../verification_05/intentional_differences.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native current fact guards include dtn_03_weapons_deposit/perfect/in_combat/gang_chase/gang_retaliation0. Actual existing gang retaliation path and original club/bouncer/default-state communities are retained, with no replacement inventory, weapon-return or consequence controller.",
+        "Pinned original district, native fixer-loop credit and Dyno map donors plus exact controller/cleanup/PH3studio core are reused. Dino core has39 focused controls plus inherited pinned U9/studio evidence; these five quests add336 focused checks and11 mutations."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: Original club/hotel/consequence owner context and exact journal/reward targets remain unresolved.",
+        "LIVE_ONLY: Startup event ordering, Studio ownership stream-in and native phone/actor interrupts remain engine behavior."
+      ],
+      "evidence": [
+        "../../verification_05/tests.json",
+        "../../verification_05/source_pins.json",
+        "../../verification_05/script_pins.json",
+        "../../verification_05/quest_evidence.json",
+        "../../verification_05/protocols.json",
+        "../../journal_target_gaps.json",
+        "../../shared_core.json",
+        "../../verification_05/intentional_differences.json"
+      ]
+    }
+  },
+  "native_rewards": [
+    {
+      "depot": "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\phases\\sts_cct_dtn_03_openworld.questphase",
+      "graph": "root/13",
+      "node": "2",
+      "records": [
+        "QuestRewards.sts_cct_dtn_03_completion"
+      ]
+    },
+    {
+      "depot": "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\phases\\sts_cct_dtn_03_openworld.questphase",
+      "graph": "root/13",
+      "node": "34",
+      "records": [
+        "Achievements.Bladerunner"
+      ]
+    }
+  ],
+  "source_details": {
+    "entry": "towercontinued\\native_gigs_u9\\sts_cct_dtn_03_entry.questphase",
+    "entry_main_node": 7,
+    "inline_node": 2,
+    "poi_node": 51,
+    "body": "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\phases\\sts_cct_dtn_03_main_phase.questphase",
+    "native_prefab": "#sts_cct_dtn_03_streetstory",
+    "index": 0,
+    "admission_paths": [
+      "quests/street_stories/city_center/downtown/sts_cct_dtn_03",
+      "quests/street_stories/city_center/downtown/sts_cct_dtn_03/sts_cct_dtn_03",
+      "quests/street_stories/city_center/downtown/sts_cct_dtn_03/sts_cct_dtn_03/sabotage_empathy_club",
+      "quests/street_stories/city_center/downtown/sts_cct_dtn_03/sts_cct_dtn_03/get_inside_server_room",
+      "quests/street_stories/city_center/downtown/sts_cct_dtn_03/sts_cct_dtn_03/infect_main_server",
+      "quests/street_stories/city_center/downtown/sts_cct_dtn_03/sts_cct_dtn_03/leave_club",
+      "quests/street_stories/city_center/downtown/sts_cct_dtn_03/sts_cct_dtn_03/get_in_the_club",
+      "quests/street_stories/city_center/downtown/sts_cct_dtn_03/sts_cct_dtn_03/leave_weapons",
+      "quests/street_stories/city_center/downtown/sts_cct_dtn_03/sts_cct_dtn_03/get_to_drop_point",
+      "quests/street_stories/city_center/downtown/sts_cct_dtn_03/sts_cct_dtn_03/get_your_weapons_back",
+      "quests/street_stories/city_center/downtown/sts_cct_dtn_03/sts_cct_dtn_03/avoid_combat",
+      "quests/street_stories/city_center/downtown/sts_cct_dtn_03/brief"
+    ],
+    "admission_classes": [
+      "gameJournalQuest",
+      "gameJournalQuestPhase",
+      "gameJournalQuestObjective",
+      "gameJournalQuestObjective",
+      "gameJournalQuestObjective",
+      "gameJournalQuestObjective",
+      "gameJournalQuestObjective",
+      "gameJournalQuestObjective",
+      "gameJournalQuestObjective",
+      "gameJournalQuestObjective",
+      "gameJournalQuestObjective",
+      "gameJournalQuestDescription"
+    ],
+    "native_fact_guards": [
+      "dtn_03_finished",
+      "dtn_03_gang_chase",
+      "dtn_03_gang_retaliation",
+      "dtn_03_in_combat",
+      "dtn_03_perfect",
+      "dtn_03_start",
+      "dtn_03_test_definition",
+      "dtn_03_weapons_deposit"
+    ],
+    "legacy_tags": [
+      "PTFRB7_cct_dtn_03"
+    ],
+    "terminal_facts": [
+      "dtn_03_finished"
+    ],
+    "native_journal_paths": [
+      "quests/street_stories/city_center/downtown/sts_cct_dtn_03",
+      "quests/street_stories/city_center/downtown/sts_cct_dtn_03/brief",
+      "quests/street_stories/city_center/downtown/sts_cct_dtn_03/sts_cct_dtn_03/avoid_combat",
+      "quests/street_stories/city_center/downtown/sts_cct_dtn_03/sts_cct_dtn_03/get_in_the_club",
+      "quests/street_stories/city_center/downtown/sts_cct_dtn_03/sts_cct_dtn_03/get_inside_server_room",
+      "quests/street_stories/city_center/downtown/sts_cct_dtn_03/sts_cct_dtn_03/get_inside_server_room/server_room",
+      "quests/street_stories/city_center/downtown/sts_cct_dtn_03/sts_cct_dtn_03/get_inside_server_room/server_room1",
+      "quests/street_stories/city_center/downtown/sts_cct_dtn_03/sts_cct_dtn_03/get_inside_server_room/server_room2",
+      "quests/street_stories/city_center/downtown/sts_cct_dtn_03/sts_cct_dtn_03/get_inside_server_room/server_room3",
+      "quests/street_stories/city_center/downtown/sts_cct_dtn_03/sts_cct_dtn_03/get_inside_server_room/server_room4",
+      "quests/street_stories/city_center/downtown/sts_cct_dtn_03/sts_cct_dtn_03/get_to_drop_point",
+      "quests/street_stories/city_center/downtown/sts_cct_dtn_03/sts_cct_dtn_03/get_your_weapons_back",
+      "quests/street_stories/city_center/downtown/sts_cct_dtn_03/sts_cct_dtn_03/infect_main_server",
+      "quests/street_stories/city_center/downtown/sts_cct_dtn_03/sts_cct_dtn_03/leave_club",
+      "quests/street_stories/city_center/downtown/sts_cct_dtn_03/sts_cct_dtn_03/leave_weapons"
+    ],
+    "journal_paths_not_in_EntrySafe": [
+      "quests/street_stories/city_center/downtown/sts_cct_dtn_03/sts_cct_dtn_03/get_inside_server_room/server_room",
+      "quests/street_stories/city_center/downtown/sts_cct_dtn_03/sts_cct_dtn_03/get_inside_server_room/server_room1",
+      "quests/street_stories/city_center/downtown/sts_cct_dtn_03/sts_cct_dtn_03/get_inside_server_room/server_room2",
+      "quests/street_stories/city_center/downtown/sts_cct_dtn_03/sts_cct_dtn_03/get_inside_server_room/server_room3",
+      "quests/street_stories/city_center/downtown/sts_cct_dtn_03/sts_cct_dtn_03/get_inside_server_room/server_room4"
+    ],
+    "maps": [
+      {
+        "depot": "towercontinued\\native_gigs_u9\\sts_cct_dtn_03_map0.questphase",
+        "native_graph": "root/37",
+        "foreign_poi_contraction": []
+      }
+    ],
+    "credit": "towercontinued\\native_gigs_u9\\sts_cct_dtn_03_credit.questphase",
+    "credit_finished_node": 3,
+    "native_terminal_routes": [
+      {
+        "depot": "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\phases\\sts_cct_dtn_03_openworld.questphase",
+        "graph": "root/5/156",
+        "node": "5",
+        "writes": [
+          {
+            "$type": "questSetVar_NodeType",
+            "factName": "dtn_03_finished",
+            "setExactValue": 0,
+            "value": 1
+          }
+        ],
+        "incoming": [
+          [
+            "3",
+            "Out",
+            "5",
+            "In"
+          ]
+        ],
+        "outgoing": [
+          [
+            "5",
+            "Out",
+            "17",
+            "In"
+          ]
+        ]
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\phases\\sts_cct_dtn_03_openworld.questphase",
+        "graph": "root/5/158",
+        "node": "7",
+        "writes": [
+          {
+            "$type": "questSetVar_NodeType",
+            "factName": "dtn_03_finished",
+            "setExactValue": 0,
+            "value": 1
+          }
+        ],
+        "incoming": [
+          [
+            "5",
+            "Out",
+            "7",
+            "In"
+          ]
+        ],
+        "outgoing": [
+          [
+            "7",
+            "Out",
+            "6",
+            "In"
+          ]
+        ]
+      }
+    ],
+    "rewards": [
+      {
+        "depot": "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\phases\\sts_cct_dtn_03_openworld.questphase",
+        "graph": "root/13",
+        "node": "2",
+        "records": [
+          "QuestRewards.sts_cct_dtn_03_completion"
+        ]
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\phases\\sts_cct_dtn_03_openworld.questphase",
+        "graph": "root/13",
+        "node": "34",
+        "records": [
+          "Achievements.Bladerunner"
+        ]
+      }
+    ],
+    "scene_phase_bindings": [
+      {
+        "depot": "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\phases\\sts_cct_dtn_03_combat.questphase",
+        "graph": "root/3/9",
+        "node": "78",
+        "refs": [
+          "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\scenes\\sts_cct_dtn_03_guard_scene_before_security_room.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\phases\\sts_cct_dtn_03_combat.questphase",
+        "graph": "root/3/9",
+        "node": "85",
+        "refs": [
+          "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\scenes\\sts_cct_dtn_03_guard_scene_before_security_room.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\phases\\sts_cct_dtn_03_combat.questphase",
+        "graph": "root/3/10",
+        "node": "4",
+        "refs": [
+          "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\scenes\\sts_cct_dtn_03_main_scene.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\phases\\sts_cct_dtn_03_main_phase.questphase",
+        "graph": "root",
+        "node": "20",
+        "refs": [
+          "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\phases\\sts_cct_dtn_03_openworld.questphase"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\phases\\sts_cct_dtn_03_main_phase.questphase",
+        "graph": "root",
+        "node": "21",
+        "refs": [
+          "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\phases\\sts_cct_dtn_03_combat.questphase"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\phases\\sts_cct_dtn_03_openworld.questphase",
+        "graph": "root/5",
+        "node": "174",
+        "refs": [
+          "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\scenes\\sts_cct_dtn_03_holocall_prebrief.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\phases\\sts_cct_dtn_03_openworld.questphase",
+        "graph": "root/5",
+        "node": "197",
+        "refs": [
+          "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\scenes\\sts_cct_dtn_03_holocall_prebrief.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\phases\\sts_cct_dtn_03_openworld.questphase",
+        "graph": "root/5",
+        "node": "202",
+        "refs": [
+          "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\scenes\\sts_cct_dtn_03_holocall_prebrief.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\phases\\sts_cct_dtn_03_openworld.questphase",
+        "graph": "root/5",
+        "node": "203",
+        "refs": [
+          "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\scenes\\sts_cct_dtn_03_holocall_debriefs.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\phases\\sts_cct_dtn_03_openworld.questphase",
+        "graph": "root/5",
+        "node": "204",
+        "refs": [
+          "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\scenes\\sts_cct_dtn_03_holocall_debriefs.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\phases\\sts_cct_dtn_03_openworld.questphase",
+        "graph": "root/5/156",
+        "node": "16",
+        "refs": [
+          "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\scenes\\sts_cct_dtn_03_holocall_debriefs.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\phases\\sts_cct_dtn_03_openworld.questphase",
+        "graph": "root/5/158",
+        "node": "17",
+        "refs": [
+          "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\scenes\\sts_cct_dtn_03_holocall_debriefs.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\phases\\sts_cct_dtn_03_openworld.questphase",
+        "graph": "root/12/2",
+        "node": "3",
+        "refs": [
+          "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\scenes\\sts_cct_dtn_03_main_scene.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\phases\\sts_cct_dtn_03_openworld.questphase",
+        "graph": "root/12/2",
+        "node": "10",
+        "refs": [
+          "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\scenes\\sts_cct_dtn_03_main_scene.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\phases\\sts_cct_dtn_03_openworld.questphase",
+        "graph": "root/12/3",
+        "node": "4",
+        "refs": [
+          "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\scenes\\sts_cct_dtn_03_main_scene.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\phases\\sts_cct_dtn_03_openworld.questphase",
+        "graph": "root/12/5",
+        "node": "3",
+        "refs": [
+          "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\scenes\\sts_cct_dtn_03_main_scene.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\phases\\sts_cct_dtn_03_openworld.questphase",
+        "graph": "root/12/6",
+        "node": "3",
+        "refs": [
+          "base\\open_world\\street_stories\\city_center\\downtown\\sts_cct_dtn_03\\scenes\\sts_cct_dtn_03_main_scene.scene"
+        ],
+        "prefabs": []
+      }
+    ]
+  },
+  "confirmed_defects": [],
+  "runtime_changes": []
+}

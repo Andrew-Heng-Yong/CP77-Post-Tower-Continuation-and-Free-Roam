@@ -1,0 +1,48 @@
+{
+  "status": "PASS_OBSERVED_RONALD_FIRST_ENROLLMENT",
+  "artifacts": {
+    "checkpoint.before.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_enrollment_01\\checkpoint.before.json",
+      "sha256": "6CD283E4838E6B3532FC4DB7ECD529963BC14628BB4376A4C0E96F9ABF88B0B5"
+    },
+    "current-state.before.md": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_enrollment_01\\current-state.before.md",
+      "sha256": "2E4286B753CB17154136D601D7437A08CF735E67401829715FEFE4D705B7B5CC"
+    },
+    "gamelog.log.ronald_excerpt.txt": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_enrollment_01\\gamelog.log.ronald_excerpt.txt",
+      "sha256": "0B83A0F8773F17639FBC9DDCA5B395661C505F9CAA890A543CB5CE7BFC1BB394"
+    },
+    "getter_after.png": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_enrollment_01\\getter_after.png",
+      "sha256": "549AE3E3AD2B67B6F9D624D37E43B8335275299D9519C9307E20E87FF2FA7749"
+    },
+    "NEXT_STEPS.md": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_enrollment_01\\NEXT_STEPS.md",
+      "sha256": "5DC738D667DFB7C9ECB4CAD3C4B95E226F87CA4E1B4A18927E470E9B0CA13DC8"
+    },
+    "post_observation_pins.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_enrollment_01\\post_observation_pins.json",
+      "sha256": "1151BE4DF1A4FF69A9893400B4D0DD726FAAB2A82B702C3F7F28C26FD35E6CAC"
+    },
+    "QR10_capture_20261104T035851Z_0001.jsonl": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_enrollment_01\\QR10_capture_20261104T035851Z_0001.jsonl",
+      "sha256": "98E71490BDD300EDF79A0AC3FCFEB95297F8A81E128F8EF1EEEE3B7EB4DE8388"
+    },
+    "REPORT.md": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_enrollment_01\\REPORT.md",
+      "sha256": "57E9D4316B087D3D139E2C18607F3804C08C7C1E6B0456324C16D8A228DA611C"
+    },
+    "result.json": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_enrollment_01\\result.json",
+      "sha256": "877DEDFB0130FEE945A44123B588B9B89BDDDFDECCBA257A63A5299791B8316B"
+    },
+    "scripting.log.ronald_excerpt.txt": {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr14\\observations\\ronald_enrollment_01\\scripting.log.ronald_excerpt.txt",
+      "sha256": "714CC2814FBDA0AA921570A8262464E134ABCA4DE30D2B7AD585C2EDDB160ACF"
+    }
+  },
+  "checkpoint_sha256": "4F99CB273301F0527BFEBFDFFD1A2E4E921D68069A79F82637594C148BAC2A5B",
+  "current_state_sha256": "467B7FF8C05EF72DBEA7236334A4F4CCA0AA2F04698AACC23B9D6BD611E94ED1",
+  "next": "One normal new-manual-slot save/reload check for these enrollment receipts/contact only. Keep originalManualSave23/24 untouched, reload the new working slot and read the same getters. No conversation replay or logger rerun required for this simple persistence snapshot. Future news only during genuinely eligible future play."
+}

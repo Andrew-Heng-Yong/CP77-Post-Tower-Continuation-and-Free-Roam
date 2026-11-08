@@ -1,0 +1,25 @@
+# MQ035  -  Send in the Clowns
+
+QR2 performed the ten-contract investigation against current PH3 and original native resources. **No source-confirmed repair was justified.** Five contracts have proven static route/reference parity; completion record resolution, original ownership, persistence and shared lifetimes remain conditional, and complete placement semantics remain opaque. This quest is **not fully STATIC_VERIFIED**.
+
+The private adapter does not replace the quest body. It retains native `minorquests` node32 and invokes the original MQ035 `In1`. The 15 retained ancestor node payloads and all applicable ancestor edges match native. The entire nested eligibility graph `root/130` matches all 12 nodes and 17 edges: `q110_done>0` precedes the original seven StreetCred predicates and XOR. `q001_done`, `q005_done` and `q101_enable_side_content` stay in order. No route through native `ride_in`, `robbery_in` or `start_in` is used to bypass prerequisites.
+
+The current CR1-corrected guards1001/1002 require the root and bounded children Inactive, unused native MQ035 facts, private unissued state, history Permit and phone listener Issued. Tests evaluate their actual serialized logical trees and reject Active, Failed, Succeeded, pre-Tower, already-issued and used-car-ride fixtures. Dormant Failed-reactivation nodes1004-1006 remain in the resource but cannot be reached from an admitted **stable** Failed snapshot. A concurrent journal mutation between checks is an exact unresolved scheduling risk, not evidence to justify rewriting that path.
+
+Communications have a complete structural protocol: SMS21 -> incoming-call11 and message-visited20; hook rejection12 -> 18 -> 17 -> `call_again_in`; caller request118 -> wait111 -> clear112 and end119 -> wait113 -> clear114; native listener readers17/18 and resetters19/20; native scene acknowledgement writers22/23. The `audio_...activate` request / `holo_...done` acknowledgement naming difference is authored vanilla. Shared cleanup actually connects804.True -> 805.In41 -> 806, invoking native Ozob cleanup, whose outgoing-count condition5 -> reset-counter7 -> end-scene2 -> terminating3 is preserved. No synthetic ack/reset was added.
+
+Native progression retains theft -> ride -> robbery -> ambush, all failed outputs, `patch0`, nested combat phases and native cleanup192/199. Journal evidence records every exact Active/Succeeded/Failed destination socket. Alternative completion routes retain recipe quantity one at robbery280 or ambush330, `mq035_done`, and scene278's `QuestRewards.mq035_done` record. Wrapper1010 only observes native Succeeded and records private Finished.
+
+Prefab obligations are retained: the MQ035 root owns car-theft support; ride owns pickup/robbery; robbery owns robbery; ambush owns ambush/robbery; inline native191 has a robbery instance prefab. Exact scenes, NodeRefs, workspots, animation/lipsync and PH3 studio bindings are retained. Root's fresh lookup found all 86 queried Ozob depots present, with no changed graph provider hashes. This does not decode all streamed placement/actor semantics.
+
+Root independently verified the original termination ancestry: native `cyberpunk2077.questphase` SHA256 `78D8AFD0784575216B090F003610CA973BE9D1781BAB948C9E4DC12006D750B2`, root106 genuine Tower journal Succeeded -> 109 killed receipt -> 107 Terminating encloses `root/82` node6's native minorquests owner. That improves structural owner evidence beyond a killed flag alone. Actual saved owner adoption/retirement and reload transitions remain engine/save-specific. The native MQ035 bugfix companion's one-time CYB/CP77 corrective graphs were inventoried; their surviving saved lifetime is not established, so they were not restarted.
+
+Run the focused checks from the repository root:
+
+```powershell
+& 'C:\Users\Ayong\.local\bin\python3.14.exe' -B 'prealpha\quest_restoration_qr2\quests\mq035_ozob\investigate.py' --output 'prealpha\quest_restoration_qr2\quests\mq035_ozob\verification_next'
+```
+
+Result: **50 PASS checks, including four mutation controls; 18 binary sources hash-pinned**, with raw JSON renormalized and compared to existing models. The old cache's absent empty `embedded_files` key is an explicit representation-only migration. Mutations remove a native StreetCred branch, change root ownership admission, delete phone cleanup, and substitute a wrong body donor. They operate only in memory; no runtime resource is serialized. The output directory must not exist. The revised command was validated in fresh `verification_02/`; [reproducibility.json](verification_02/reproducibility.json) also proves that existing outputs and missing output arguments are refused and original evidence hashes are preserved.
+
+Evidence: [contracts.json](contracts.json), [source pins](source_pins.json), [node/socket/predicate/journal/asset evidence](graph_evidence.json), [tests](tests.json), and root `ancestor_review.json` / `provider_readback_01/capture.json`. No gameplay, save, installed-file, release or deployment action occurred. Compilation/readback of an unchanged successor and a baseline-only ZIP were deliberately not repeated.

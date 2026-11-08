@@ -1,0 +1,290 @@
+{
+  "quest_id": "sts_wbr_jpn_03",
+  "title": "A Shrine Defiled",
+  "source_epoch": "source_epoch_00",
+  "status": "DEEP_CONTRACTS_INVESTIGATED_WITH_EXPLICIT_LIMITS",
+  "fully_static_verified": false,
+  "defects": [],
+  "repairs": [],
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Original Japantown inline4/root4/3 waits sts_wbr_jpn_tier_3>0; outside trigger50 or POI Active62 joins63→55.Active→65004→main8.IN. Original alternate42→29.POI route remains. Native IN/OUT capitalization is preserved.",
+        "Original selected recipe payloads/sockets/edges and copied inline graphs match pinned native evidence; available embedded body graph/prefab comparisons=3. Effective catalogue index14, Region=wbr, Counter=wbr_sts_counter."
+      ],
+      "approved_differences": [
+        "Existing additive genuine Tower/U9 rehost readiness/admission/one-time observer receipts and exact Embedded→Soft handles, with unchanged native body paths/IDs. No new runtime change."
+      ],
+      "remaining": [
+        "LIVE_ONLY: Test shrine bug planting/quiet versus detected outcome, monk/shop/smoke reactions, both reward branches, rejected SMS and reload across cleanup/credit."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G13\\verification_03\\graph_evidence.json",
+          "sha256": "44170F5891045C5280BCE9A1DC56E6585D728A011C374B2CC257339F43AB1665",
+          "json_pointer": "/quests/sts_wbr_jpn_03"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G13\\verification_03\\source_pins.json",
+          "sha256": "B84D97618CFDD3B4D72BA4C48DD60A22E720C7AF47E0AF0A13A714D7C54066F2"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\shared_core.json",
+          "sha256": "A7B283A909C8BE28E02D4C0D82AB5501F2AA23ECC0FF44270C86B403BBB5712F"
+        }
+      ]
+    },
+    "eligibility": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native tier3, shrine/actor/approach conditions and current genuine Tower/native-history gates remain exact. Scanned own journal/fact reference inventory has no omitted own local reference; external old save history and world predicates are still not inferred from zero fields.",
+        "Original selected recipe payloads/sockets/edges and copied inline graphs match pinned native evidence; available embedded body graph/prefab comparisons=3. Effective catalogue index14, Region=wbr, Counter=wbr_sts_counter."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        {
+          "status": "CONDITIONAL_REFERENCE_COVERAGE",
+          "details": {
+            "native_journal_refs_not_catalogued": [],
+            "native_fact_refs_not_catalogued": [],
+            "note": "Uncatalogued reference does not establish valid started history; exact journal definitions and saved-owner witness still required."
+          }
+        },
+        "CONDITIONAL: native/saved shared ownership, runtime schedule/interrupt/reload and target-definition history remain bounded. Test shrine bug planting/quiet versus detected outcome, monk/shop/smoke reactions, both reward branches, rejected SMS and reload across cleanup/credit."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G13\\verification_03\\graph_evidence.json",
+          "sha256": "44170F5891045C5280BCE9A1DC56E6585D728A011C374B2CC257339F43AB1665",
+          "json_pointer": "/quests/sts_wbr_jpn_03"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G13\\verification_03\\source_pins.json",
+          "sha256": "B84D97618CFDD3B4D72BA4C48DD60A22E720C7AF47E0AF0A13A714D7C54066F2"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\shared_core.json",
+          "sha256": "A7B283A909C8BE28E02D4C0D82AB5501F2AA23ECC0FF44270C86B403BBB5712F"
+        }
+      ]
+    },
+    "communications": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native Wakako prebrief62/71 and debrief75/76 preserve real start/end request/wait/clear paths, shared ACK41/42 and retry260 prearmed wait context. Original rejected/SMS alternatives99/101 feed native corresponding reward branches rather than a fake call-complete flag.",
+        "Original selected recipe payloads/sockets/edges and copied inline graphs match pinned native evidence; available embedded body graph/prefab comparisons=3. Effective catalogue index14, Region=wbr, Counter=wbr_sts_counter."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: native/saved shared ownership, runtime schedule/interrupt/reload and target-definition history remain bounded. Test shrine bug planting/quiet versus detected outcome, monk/shop/smoke reactions, both reward branches, rejected SMS and reload across cleanup/credit."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G13\\verification_03\\graph_evidence.json",
+          "sha256": "44170F5891045C5280BCE9A1DC56E6585D728A011C374B2CC257339F43AB1665",
+          "json_pointer": "/quests/sts_wbr_jpn_03"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G13\\verification_03\\source_pins.json",
+          "sha256": "B84D97618CFDD3B4D72BA4C48DD60A22E720C7AF47E0AF0A13A714D7C54066F2"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\shared_core.json",
+          "sha256": "A7B283A909C8BE28E02D4C0D82AB5501F2AA23ECC0FF44270C86B403BBB5712F"
+        }
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native phase root prefab and original combat/streetstory phase owners and main input/output IDs remain. No new monk/security actor controller, helper replay or prefab lease is added. Source-confirmed root/phase/presentation bindings stay unchanged.",
+        "Original selected recipe payloads/sockets/edges and copied inline graphs match pinned native evidence; available embedded body graph/prefab comparisons=3. Effective catalogue index14, Region=wbr, Counter=wbr_sts_counter."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: native/saved shared ownership, runtime schedule/interrupt/reload and target-definition history remain bounded. Test shrine bug planting/quiet versus detected outcome, monk/shop/smoke reactions, both reward branches, rejected SMS and reload across cleanup/credit."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G13\\verification_03\\graph_evidence.json",
+          "sha256": "44170F5891045C5280BCE9A1DC56E6585D728A011C374B2CC257339F43AB1665",
+          "json_pointer": "/quests/sts_wbr_jpn_03"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G13\\verification_03\\source_pins.json",
+          "sha256": "B84D97618CFDD3B4D72BA4C48DD60A22E720C7AF47E0AF0A13A714D7C54066F2"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\shared_core.json",
+          "sha256": "A7B283A909C8BE28E02D4C0D82AB5501F2AA23ECC0FF44270C86B403BBB5712F"
+        }
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Actual streetstory root3 wait20 jpn_03_stealth_fail1→21.Failed optional objective; condition29 False→27.Succeeded or True→72. Native debrief66.End0/99→reward67 pacifist versus65.End0/101→68 normal; shrine bug-plant/main objective, monk/shop/smoking dialogue remain original.",
+        "Original selected recipe payloads/sockets/edges and copied inline graphs match pinned native evidence; available embedded body graph/prefab comparisons=3. Effective catalogue index14, Region=wbr, Counter=wbr_sts_counter."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Test shrine bug planting/quiet versus detected outcome, monk/shop/smoke reactions, both reward branches, rejected SMS and reload across cleanup/credit."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G13\\verification_03\\graph_evidence.json",
+          "sha256": "44170F5891045C5280BCE9A1DC56E6585D728A011C374B2CC257339F43AB1665",
+          "json_pointer": "/quests/sts_wbr_jpn_03"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G13\\verification_03\\source_pins.json",
+          "sha256": "B84D97618CFDD3B4D72BA4C48DD60A22E720C7AF47E0AF0A13A714D7C54066F2"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\shared_core.json",
+          "sha256": "A7B283A909C8BE28E02D4C0D82AB5501F2AA23ECC0FF44270C86B403BBB5712F"
+        }
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Native shrine/device/bug planting point, security community, monk/shop/civilian reactions, smoke scene and Wakako holocall actor/camera/workspot references remain. Root/ancestor prefab scope is explicit; NodeRef text does not prove streamed placements.",
+        "Original selected recipe payloads/sockets/edges and copied inline graphs match pinned native evidence; available embedded body graph/prefab comparisons=3. Effective catalogue index14, Region=wbr, Counter=wbr_sts_counter."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "OPAQUE: worldNode target contents and actual actor/workspot/camera placement are not decoded. Test shrine bug planting/quiet versus detected outcome, monk/shop/smoke reactions, both reward branches, rejected SMS and reload across cleanup/credit."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G13\\verification_03\\graph_evidence.json",
+          "sha256": "44170F5891045C5280BCE9A1DC56E6585D728A011C374B2CC257339F43AB1665",
+          "json_pointer": "/quests/sts_wbr_jpn_03"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G13\\verification_03\\source_pins.json",
+          "sha256": "B84D97618CFDD3B4D72BA4C48DD60A22E720C7AF47E0AF0A13A714D7C54066F2"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\shared_core.json",
+          "sha256": "A7B283A909C8BE28E02D4C0D82AB5501F2AA23ECC0FF44270C86B403BBB5712F"
+        }
+      ]
+    },
+    "journal": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native enter-shrine/plant-bug/undetected/leave/root journal paths preserve original state sockets. Native stealth-fail modifies optional objective separately from root completion; no journal reset or automatic reward selection is introduced.",
+        "Original selected recipe payloads/sockets/edges and copied inline graphs match pinned native evidence; available embedded body graph/prefab comparisons=3. Effective catalogue index14, Region=wbr, Counter=wbr_sts_counter."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        {
+          "status": "CONDITIONAL_REFERENCE_COVERAGE",
+          "details": {
+            "native_journal_refs_not_catalogued": [],
+            "native_fact_refs_not_catalogued": [],
+            "note": "Uncatalogued reference does not establish valid started history; exact journal definitions and saved-owner witness still required."
+          }
+        },
+        "CONDITIONAL: native/saved shared ownership, runtime schedule/interrupt/reload and target-definition history remain bounded. Test shrine bug planting/quiet versus detected outcome, monk/shop/smoke reactions, both reward branches, rejected SMS and reload across cleanup/credit."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G13\\verification_03\\graph_evidence.json",
+          "sha256": "44170F5891045C5280BCE9A1DC56E6585D728A011C374B2CC257339F43AB1665",
+          "json_pointer": "/quests/sts_wbr_jpn_03"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G13\\verification_03\\source_pins.json",
+          "sha256": "B84D97618CFDD3B4D72BA4C48DD60A22E720C7AF47E0AF0A13A714D7C54066F2"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\shared_core.json",
+          "sha256": "A7B283A909C8BE28E02D4C0D82AB5501F2AA23ECC0FF44270C86B403BBB5712F"
+        }
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Streetstory root3 reward67 completion_pacifist or68 completion remains on exact native scene/SMS outcomes. Root11 cleanup12→29 LittleTokyo/wbr_achievement max30→16→14 sets jpn_03_finished1→15. Credit11 waits finished>0→3 adds wbr_sts_counter1 once.",
+        "Original selected recipe payloads/sockets/edges and copied inline graphs match pinned native evidence; available embedded body graph/prefab comparisons=3. Effective catalogue index14, Region=wbr, Counter=wbr_sts_counter."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Direct completion/achievement records exist in pinned stock base+EP1 capture; full economic/reference closure and live TweakXL values/award transition are not certified.",
+        "CONDITIONAL: native/saved shared ownership, runtime schedule/interrupt/reload and target-definition history remain bounded. Test shrine bug planting/quiet versus detected outcome, monk/shop/smoke reactions, both reward branches, rejected SMS and reload across cleanup/credit."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G13\\verification_03\\graph_evidence.json",
+          "sha256": "44170F5891045C5280BCE9A1DC56E6585D728A011C374B2CC257339F43AB1665",
+          "json_pointer": "/quests/sts_wbr_jpn_03"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G13\\verification_03\\source_pins.json",
+          "sha256": "B84D97618CFDD3B4D72BA4C48DD60A22E720C7AF47E0AF0A13A714D7C54066F2"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\shared_core.json",
+          "sha256": "A7B283A909C8BE28E02D4C0D82AB5501F2AA23ECC0FF44270C86B403BBB5712F"
+        }
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native uppercase IN/OUT, resource/graph/local IDs and progress/stealth/reward/once receipts remain compatible at source level. Current script/fresh guard rejects used native facts or own receipts; no old progressed migration or reset is claimed.",
+        "Original selected recipe payloads/sockets/edges and copied inline graphs match pinned native evidence; available embedded body graph/prefab comparisons=3. Effective catalogue index14, Region=wbr, Counter=wbr_sts_counter."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: native/saved shared ownership, runtime schedule/interrupt/reload and target-definition history remain bounded. Test shrine bug planting/quiet versus detected outcome, monk/shop/smoke reactions, both reward branches, rejected SMS and reload across cleanup/credit."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G13\\verification_03\\graph_evidence.json",
+          "sha256": "44170F5891045C5280BCE9A1DC56E6585D728A011C374B2CC257339F43AB1665",
+          "json_pointer": "/quests/sts_wbr_jpn_03"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G13\\verification_03\\source_pins.json",
+          "sha256": "B84D97618CFDD3B4D72BA4C48DD60A22E720C7AF47E0AF0A13A714D7C54066F2"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\shared_core.json",
+          "sha256": "A7B283A909C8BE28E02D4C0D82AB5501F2AA23ECC0FF44270C86B403BBB5712F"
+        }
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Exact Wakako caller/listener/real ACK/cleanup/studio inputs are pinned. Native bugfix root5/8/15/18 are old immediate start/history corrections, not authorization to attach an unfiltered helper after Tower. Engine scope/content/interrupts and old saved support leases remain conditional.",
+        "Original selected recipe payloads/sockets/edges and copied inline graphs match pinned native evidence; available embedded body graph/prefab comparisons=3. Effective catalogue index14, Region=wbr, Counter=wbr_sts_counter."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: native/saved shared ownership, runtime schedule/interrupt/reload and target-definition history remain bounded. Test shrine bug planting/quiet versus detected outcome, monk/shop/smoke reactions, both reward branches, rejected SMS and reload across cleanup/credit."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G13\\verification_03\\graph_evidence.json",
+          "sha256": "44170F5891045C5280BCE9A1DC56E6585D728A011C374B2CC257339F43AB1665",
+          "json_pointer": "/quests/sts_wbr_jpn_03"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G13\\verification_03\\source_pins.json",
+          "sha256": "B84D97618CFDD3B4D72BA4C48DD60A22E720C7AF47E0AF0A13A714D7C54066F2"
+        },
+        {
+          "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\shared_core.json",
+          "sha256": "A7B283A909C8BE28E02D4C0D82AB5501F2AA23ECC0FF44270C86B403BBB5712F"
+        }
+      ]
+    }
+  }
+}

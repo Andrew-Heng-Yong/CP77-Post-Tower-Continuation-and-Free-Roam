@@ -1,0 +1,930 @@
+{
+  "scope": "Source-specific investigations plus independent actual-resource reviews; assertion counts are not gameplay coverage.",
+  "groups": [
+    {
+      "group": "G01",
+      "quest_ids": [
+        "sts_hey_gle_04",
+        "sts_hey_rey_09",
+        "sts_hey_rey_06",
+        "sts_hey_rey_08"
+      ],
+      "findings": [
+        {
+          "id": "sts_hey_gle_04",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\quests\\sts_hey_gle_04\\contracts.json",
+          "sha256": "F05FE2BD0B2D37CF212F16E5B272134C0680D5A42229B7F4F22480D5E881EA82"
+        },
+        {
+          "id": "sts_hey_rey_09",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\quests\\sts_hey_rey_09\\contracts.json",
+          "sha256": "E24F9390B413C7E018DB52242E372D86387E3E1D764F1BFF3610D7BE5B50AC56"
+        },
+        {
+          "id": "sts_hey_rey_06",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\quests\\sts_hey_rey_06\\contracts.json",
+          "sha256": "7D4CEE3D3A87B90EFF63CDA83CD160BD9D48D55EF39A9F673AF91A7D702F4D08"
+        },
+        {
+          "id": "sts_hey_rey_08",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\quests\\sts_hey_rey_08\\contracts.json",
+          "sha256": "E8B970939916716F1B6F8203C035481A5FEEC4058D47D40AFC829F886261F443"
+        }
+      ],
+      "results": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\results.json",
+      "results_sha256": "025F2F1AD1DEB22C26E73207BBEDAB292868B4B29597979456CA894708A32BF5",
+      "review": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G09\\reviews\\G01.json",
+        "sha256": "A77A9F55F4D744F745DF626D0D95AF0EEE6EA6A1AB5800F54E9FDB214D327323"
+      },
+      "review_addendum": null,
+      "reported_check_events": 445,
+      "reported_mutation_events": 22,
+      "limits": "Counts may reuse shared controls; not unique semantic or gameplay coverage."
+    },
+    {
+      "group": "G02",
+      "quest_ids": [
+        "sts_hey_spr_01",
+        "sts_hey_spr_06",
+        "sts_hey_spr_03"
+      ],
+      "findings": [
+        {
+          "id": "sts_hey_spr_01",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\quests\\sts_hey_spr_01\\contracts.json",
+          "sha256": "3869E797151160F89995CFDF60DDA179EE2B48C9DC9068E824FAB5C891E37A71"
+        },
+        {
+          "id": "sts_hey_spr_06",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\quests\\sts_hey_spr_06\\contracts.json",
+          "sha256": "E15ED6E4BF33A2B3ACD491D91AC087EC580D98315253A71C662C1D3E98A352BA"
+        },
+        {
+          "id": "sts_hey_spr_03",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\quests\\sts_hey_spr_03\\contracts.json",
+          "sha256": "AA211CB19A01121E22C09755E6BE621D4EDA3381E8BB3BDAC5E61B2DD54445EC"
+        }
+      ],
+      "results": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\results.json",
+      "results_sha256": "C45685E875C358703AB532A30E2BF9FF93A7B9AC82B3F84923C9DC03825EF1CE",
+      "review": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G10\\reviews\\G02.json",
+        "sha256": "A304485CF401B3BD122F3249629038D3839DCEEEF8FB0F8035619F97D2B6265B"
+      },
+      "review_addendum": null,
+      "reported_check_events": 342,
+      "reported_mutation_events": 14,
+      "limits": "Counts may reuse shared controls; not unique semantic or gameplay coverage."
+    },
+    {
+      "group": "G03",
+      "quest_ids": [
+        "sts_pac_cvi_02",
+        "sts_pac_wwd_05"
+      ],
+      "findings": [
+        {
+          "id": "sts_pac_cvi_02",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G03\\quests\\sts_pac_cvi_02\\contracts.json",
+          "sha256": "528718014C6218A3D944FEA99841F313FECB8DB4DD1C4380F3C8B79B6C58CC9D"
+        },
+        {
+          "id": "sts_pac_wwd_05",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G03\\quests\\sts_pac_wwd_05\\contracts.json",
+          "sha256": "1D6545EC14CA9315A7A19C55AB5FC3431953E4EEE7AF13C44CC011EF1250E92B"
+        }
+      ],
+      "results": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G03\\results.json",
+      "results_sha256": "E7DD9032CC939B516FF100D34F0B95521BE75737281238AEC02E0E2ACA148BC8",
+      "review": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_b\\G03.json",
+        "sha256": "1D59205450A0E4C5131A54A11B235618822A1571DEE5C2DB2D098AC08C3C36B7"
+      },
+      "review_addendum": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\adjudications\\G03_01.json",
+        "sha256": "0F7C42551FE6DBE0C9B14BDC0DC20EC8DE462DA0B2E20B5BED3C9DED159581F6",
+        "independent_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\reviews\\CVI02_EP1\\verification_03\\review.json",
+        "independent_review_sha256": "C9C274B7B511E406481ADC00B6651F5BDB798C6C2FC5286BD5C4990E0D47ECAC"
+      },
+      "reported_check_events": 196,
+      "reported_mutation_events": 10,
+      "limits": "Counts may reuse shared controls; not unique semantic or gameplay coverage."
+    },
+    {
+      "group": "G04",
+      "quest_ids": [
+        "sts_std_arr_10",
+        "sts_std_arr_12",
+        "sts_std_arr_11"
+      ],
+      "findings": [
+        {
+          "id": "sts_std_arr_10",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G04\\quests\\sts_std_arr_10\\contracts.json",
+          "sha256": "C90EC73D1F0B14BE1E2228662DF0E56CB29DE3E74E0B726EC9F29815093D330D"
+        },
+        {
+          "id": "sts_std_arr_12",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G04\\quests\\sts_std_arr_12\\contracts.json",
+          "sha256": "5F24F24E40537C98C2A4FEC2519AC5D582BABB46276C30B2CD95E3768236261C"
+        },
+        {
+          "id": "sts_std_arr_11",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G04\\quests\\sts_std_arr_11\\contracts.json",
+          "sha256": "870C45052BB5E771EEF2AB9826FAEDD0E389F9650E5B7B2578029189BD6129FD"
+        }
+      ],
+      "results": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G04\\results.json",
+      "results_sha256": "3C39D00C18C84A47BF5EE01F372A7283237CCF78A4D88AF408A2BF69C2443843",
+      "review": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\reviews\\G04.json",
+        "sha256": "13D4E8495208ACC8CF78654A6CBE52CEC82E2B2F91503BC22ECD9988BEB690C1"
+      },
+      "review_addendum": null,
+      "reported_check_events": 352,
+      "reported_mutation_events": 4,
+      "limits": "Counts may reuse shared controls; not unique semantic or gameplay coverage."
+    },
+    {
+      "group": "G05",
+      "quest_ids": [
+        "sts_std_arr_05",
+        "sts_std_arr_06",
+        "sts_std_arr_01"
+      ],
+      "findings": [
+        {
+          "id": "sts_std_arr_05",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G05\\quests\\sts_std_arr_05\\contracts.json",
+          "sha256": "3072566C12A110770E00CD94E5F4B9F75055E060704B22F7A762D2A218AD6418"
+        },
+        {
+          "id": "sts_std_arr_06",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G05\\quests\\sts_std_arr_06\\contracts.json",
+          "sha256": "07E943EFFFB41FF1D0AE960F2FF56E7451553CE2848FA0E0F77D50BA4BF13EE3"
+        },
+        {
+          "id": "sts_std_arr_01",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G05\\quests\\sts_std_arr_01\\contracts.json",
+          "sha256": "417176B9C84F7D27FB9CBB50B3B4E21622B129BBBF3ADE51B897EB15BC1F0C01"
+        }
+      ],
+      "results": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G05\\results.json",
+      "results_sha256": "AE0C267EC41242D6792CF78F5AFF734484B98B8D8AC4E700BDC3F44A07CC3097",
+      "review": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G03\\reviews\\G05.json",
+        "sha256": "139FA7648EDC8283F084ECC566FC92E1888CAC71996E7E5B5FA808FC9FA5A939"
+      },
+      "review_addendum": null,
+      "reported_check_events": 283,
+      "reported_mutation_events": 3,
+      "limits": "Counts may reuse shared controls; not unique semantic or gameplay coverage."
+    },
+    {
+      "group": "G06",
+      "quest_ids": [
+        "sts_std_rcr_02",
+        "sts_std_rcr_05",
+        "sts_std_rcr_01",
+        "sts_std_rcr_03"
+      ],
+      "findings": [
+        {
+          "id": "sts_std_rcr_02",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G06\\quests\\sts_std_rcr_02\\contracts.json",
+          "sha256": "A01492BE7926231DC46AE0A99A034E0EFBC2613590A3D74EDCC73DA62575E7BF"
+        },
+        {
+          "id": "sts_std_rcr_05",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G06\\quests\\sts_std_rcr_05\\contracts.json",
+          "sha256": "C0F70B4B73F6D1C5DC168C9AE6B00C99CD06BA5A362B0D96CEBD6D5FB0B10FD7"
+        },
+        {
+          "id": "sts_std_rcr_01",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G06\\quests\\sts_std_rcr_01\\contracts.json",
+          "sha256": "BB63B9C8C38FE5F42A0A5A6EDCC432A5380EEC84AA134E41DEB6D7A8ECB98B12"
+        },
+        {
+          "id": "sts_std_rcr_03",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G06\\quests\\sts_std_rcr_03\\contracts.json",
+          "sha256": "48B2B2F24155868C1FE16B542ACCE320F2885DF4DB3AFCE3DC10890E150F9414"
+        }
+      ],
+      "results": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G06\\results.json",
+      "results_sha256": "75D18019C1CB016FCD9F83A7C33E234F6CDDD3342CB35B2D77E5841745BECF87",
+      "review": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G13\\reviews\\G06.json",
+        "sha256": "6FA4BF94A24E7E7ADB4785602568383889AACA57C790BA16952FF8BBE4DBF23B"
+      },
+      "review_addendum": null,
+      "reported_check_events": 359,
+      "reported_mutation_events": 4,
+      "limits": "Counts may reuse shared controls; not unique semantic or gameplay coverage."
+    },
+    {
+      "group": "G07",
+      "quest_ids": [
+        "sts_wat_kab_101",
+        "sts_wat_kab_107",
+        "sts_wat_kab_102",
+        "sts_wat_kab_07"
+      ],
+      "findings": [
+        {
+          "id": "sts_wat_kab_101",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G07\\quests\\sts_wat_kab_101\\contracts.json",
+          "sha256": "9A91BEB34C0025664BD5AC34519413DD587BF3491EFEEC89CFC61576A0B8696B"
+        },
+        {
+          "id": "sts_wat_kab_107",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G07\\quests\\sts_wat_kab_107\\contracts.json",
+          "sha256": "573B3E72EE22E4FFDCE92BB47DA48D687DBED152AB114591E267162DCA3F3629"
+        },
+        {
+          "id": "sts_wat_kab_102",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G07\\quests\\sts_wat_kab_102\\contracts.json",
+          "sha256": "8088EE9DB7ABF5E617228D14126D938C3234AEA0FE456AEC8D2A8430B59050FE"
+        },
+        {
+          "id": "sts_wat_kab_07",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G07\\quests\\sts_wat_kab_07\\contracts.json",
+          "sha256": "88095DCFACC5D1D9638A673B91C3E019165ABB4E1DFCF97C2F8FA29DD8290149"
+        }
+      ],
+      "results": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G07\\results.json",
+      "results_sha256": "B9558836BAFD01A3245AB8CBD02AD041B51BDAB457606056A165EA78B291DD6D",
+      "review": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G05\\reviews\\G07.json",
+        "sha256": "800E8D217E2517F4ADC3C5C56142DD4EA89DAE358B582EAFA96D060EB58B2AA1"
+      },
+      "review_addendum": null,
+      "reported_check_events": 588,
+      "reported_mutation_events": 15,
+      "limits": "Counts may reuse shared controls; not unique semantic or gameplay coverage."
+    },
+    {
+      "group": "G08",
+      "quest_ids": [
+        "sts_wat_kab_04",
+        "sts_wat_kab_05",
+        "sts_wat_kab_01",
+        "sts_wat_kab_03"
+      ],
+      "findings": [
+        {
+          "id": "sts_wat_kab_04",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G08\\quests\\sts_wat_kab_04\\contracts.json",
+          "sha256": "93BFDAE9CF4ABDCB56A3930B4F34DA81E7CF1BB16E2E68B87C8CF55423804A16"
+        },
+        {
+          "id": "sts_wat_kab_05",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G08\\quests\\sts_wat_kab_05\\contracts.json",
+          "sha256": "144A6E6AFF0F64AF593170AF1EB7E3526ECD0012DD08CF26EB89573BAD7E0F7F"
+        },
+        {
+          "id": "sts_wat_kab_01",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G08\\quests\\sts_wat_kab_01\\contracts.json",
+          "sha256": "4C0E8B7DBA997997E059379238358643BAED35A46F2C3986DEE0AF132A8F089B"
+        },
+        {
+          "id": "sts_wat_kab_03",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G08\\quests\\sts_wat_kab_03\\contracts.json",
+          "sha256": "E0A19453D18015E6900151637EF2266198D6F4AE5FA7537EA97CF14CD567F0A8"
+        }
+      ],
+      "results": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G08\\results.json",
+      "results_sha256": "291993DA6696A25388604080BEED7B7DD828DA55A27ED220097B07D7A45EE15E",
+      "review": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G10\\reviews\\G08.json",
+        "sha256": "93F991399AC7F47EC2B257110396ABD787865DF503CA532E22797AE89B80614F"
+      },
+      "review_addendum": null,
+      "reported_check_events": 540,
+      "reported_mutation_events": 11,
+      "limits": "Counts may reuse shared controls; not unique semantic or gameplay coverage."
+    },
+    {
+      "group": "G09",
+      "quest_ids": [
+        "sts_wat_kab_06",
+        "sts_wat_kab_02",
+        "sts_wat_kab_08"
+      ],
+      "findings": [
+        {
+          "id": "sts_wat_kab_06",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G09\\quests\\sts_wat_kab_06\\contracts.json",
+          "sha256": "1F870DFD26B59CA04C2976C9E477E6DEC0A62BC856F692A47E05963AB212A77E"
+        },
+        {
+          "id": "sts_wat_kab_02",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G09\\quests\\sts_wat_kab_02\\contracts.json",
+          "sha256": "3E4B7EC37C5E3FB1D0E0B90A82E7899FA260653AA1556B26C8619AC1920E85D8"
+        },
+        {
+          "id": "sts_wat_kab_08",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G09\\quests\\sts_wat_kab_08\\contracts.json",
+          "sha256": "756FA915BC6F05E0C1850AA2428E845476648B722E826110A6C049B2C4D988F5"
+        }
+      ],
+      "results": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G09\\results.json",
+      "results_sha256": "EB16B6B4A6785EBFDE7F0601B0B84F6ABFF5A09C0D29643F994966409715388A",
+      "review": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\reviews\\G09.json",
+        "sha256": "83CDE49443C81374679D36778D88322DE922D679727E0524EEB6086AFEC70AC3"
+      },
+      "review_addendum": null,
+      "reported_check_events": 432,
+      "reported_mutation_events": 12,
+      "limits": "Counts may reuse shared controls; not unique semantic or gameplay coverage."
+    },
+    {
+      "group": "G10",
+      "quest_ids": [
+        "sts_wat_lch_06",
+        "sts_wat_lch_05",
+        "sts_wat_lch_01",
+        "sts_wat_lch_03"
+      ],
+      "findings": [
+        {
+          "id": "sts_wat_lch_06",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G10\\quests\\sts_wat_lch_06\\contracts.json",
+          "sha256": "206D365BC98174A0F33C56EEBD56B9F88BA52015C96E312D80FF49170C1BD55F"
+        },
+        {
+          "id": "sts_wat_lch_05",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G10\\quests\\sts_wat_lch_05\\contracts.json",
+          "sha256": "1FBA87FEF1161EBD10D52FF5C388048DBE2544C06832D1DF4560E00991724998"
+        },
+        {
+          "id": "sts_wat_lch_01",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G10\\quests\\sts_wat_lch_01\\contracts.json",
+          "sha256": "A16545B50F449E03158F6F53DDF2D0B7BBFCA733CA02F03EAE5EB5BC84482844"
+        },
+        {
+          "id": "sts_wat_lch_03",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G10\\quests\\sts_wat_lch_03\\contracts.json",
+          "sha256": "C57665192EE3F9E778CDE0AA036685C1C4BE51C36637BFF88AFFFB3EAC3054DE"
+        }
+      ],
+      "results": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G10\\results.json",
+      "results_sha256": "B2189C4C7F9DF30D4F2CAEFE71616CD9CCB37B192D617B7B04704EEEA8482460",
+      "review": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_a\\G10\\verification_01\\review.json",
+        "sha256": "079443AB70B0A95ECC86501EF5E7A9E2C84341488844EB66D6ECFFF6F56CA1DB"
+      },
+      "review_addendum": null,
+      "reported_check_events": 390,
+      "reported_mutation_events": 3,
+      "limits": "Counts may reuse shared controls; not unique semantic or gameplay coverage."
+    },
+    {
+      "group": "G11",
+      "quest_ids": [
+        "sts_wat_nid_12",
+        "sts_wat_nid_05",
+        "sts_wat_nid_02",
+        "sts_wat_nid_01"
+      ],
+      "findings": [
+        {
+          "id": "sts_wat_nid_12",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\quests\\sts_wat_nid_12\\contracts.json",
+          "sha256": "911A82356704591291230DF266E464F92EC2B4CC318D93C96D576B33EF207158"
+        },
+        {
+          "id": "sts_wat_nid_05",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\quests\\sts_wat_nid_05\\contracts.json",
+          "sha256": "17873D0FBB15C58C2006D2B575CAA41C2BFACC88EBD6DD13C20D6362205CD4D7"
+        },
+        {
+          "id": "sts_wat_nid_02",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\quests\\sts_wat_nid_02\\contracts.json",
+          "sha256": "C80A87DA38886C961E074A9AD2562A22F9A4258615EAD58A5343578A23B167D2"
+        },
+        {
+          "id": "sts_wat_nid_01",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\quests\\sts_wat_nid_01\\contracts.json",
+          "sha256": "ED1DB3BB42D9F541399502FC917ADB5640C87CFA875B7A67FC4139830C0B9C70"
+        }
+      ],
+      "results": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\results.json",
+      "results_sha256": "58CB2435AECF4AA0F2C2840EB7561AD796E502431DA18A42B33E534D27ABD16F",
+      "review": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_b\\G11.json",
+        "sha256": "2655C741DE2ED1F6CB58524EBD99E96AF3384BFD945929EFE767AB04FA28D389"
+      },
+      "review_addendum": null,
+      "reported_check_events": 588,
+      "reported_mutation_events": 15,
+      "limits": "Counts may reuse shared controls; not unique semantic or gameplay coverage."
+    },
+    {
+      "group": "G12",
+      "quest_ids": [
+        "sts_wat_nid_06",
+        "sts_wat_nid_04",
+        "sts_wat_nid_03"
+      ],
+      "findings": [
+        {
+          "id": "sts_wat_nid_06",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G12\\quests\\sts_wat_nid_06\\contracts.json",
+          "sha256": "6C1621A3E8CB6808FE2160B368359FE98F51684617E57BEC4FFB1056B05DBE68"
+        },
+        {
+          "id": "sts_wat_nid_04",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G12\\quests\\sts_wat_nid_04\\contracts.json",
+          "sha256": "A3381B1F892CBD5C09AB133B32FAC8DD3211A41DC5C9BDB01D831E2322C33CD3"
+        },
+        {
+          "id": "sts_wat_nid_03",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G12\\quests\\sts_wat_nid_03\\contracts.json",
+          "sha256": "5FDCDBB96838B16C5A31C0FA041B3B6C140100C1081EA5DFEACC045E744FA474"
+        }
+      ],
+      "results": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G12\\results.json",
+      "results_sha256": "D0A095B0FE76B3524A72CF6BCD6EFE4A54503C5345DD0A64B1D35987C70206B4",
+      "review": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_a\\G12\\verification_01\\review.json",
+        "sha256": "78F0FBFA709DB158F31F0004BB032982D50E41B5D22626D0EC2897B0F5C96EF6"
+      },
+      "review_addendum": null,
+      "reported_check_events": 352,
+      "reported_mutation_events": 3,
+      "limits": "Counts may reuse shared controls; not unique semantic or gameplay coverage."
+    },
+    {
+      "group": "G13",
+      "quest_ids": [
+        "sts_wbr_hil_07",
+        "sts_wbr_hil_01",
+        "sts_wbr_jpn_03"
+      ],
+      "findings": [
+        {
+          "id": "sts_wbr_hil_07",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G13\\quests\\sts_wbr_hil_07\\contracts.json",
+          "sha256": "244B8777BD29DFDB5A0DBD98F94C3C971D060CA57489C16F3BAE40EE2C7CF8F4"
+        },
+        {
+          "id": "sts_wbr_hil_01",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G13\\quests\\sts_wbr_hil_01\\contracts.json",
+          "sha256": "927AF58A1AEAB5A2CE6447399E7BB19A7A655F4D6EB6120E8308E3016380E6CD"
+        },
+        {
+          "id": "sts_wbr_jpn_03",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G13\\quests\\sts_wbr_jpn_03\\contracts.json",
+          "sha256": "EEC429C63A90DCD6201CDFF7534DFB9625CE7DDFF263823FCBBEC70DAFD15413"
+        }
+      ],
+      "results": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G13\\results.json",
+      "results_sha256": "DAD2100C3361470C50D523D8D5804BA9FC2096AF1EBC13B3A0964A8E78308C33",
+      "review": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G12\\reviews\\G13.json",
+        "sha256": "DEA91031E74C81308AED9A913BAB45F0B060F0C732F8FE149BF5F1C9D91839CA"
+      },
+      "review_addendum": null,
+      "reported_check_events": 295,
+      "reported_mutation_events": 15,
+      "limits": "Counts may reuse shared controls; not unique semantic or gameplay coverage."
+    },
+    {
+      "group": "G14",
+      "quest_ids": [
+        "sts_wbr_jpn_01",
+        "sts_wbr_jpn_02",
+        "sts_wbr_jpn_05"
+      ],
+      "findings": [
+        {
+          "id": "sts_wbr_jpn_01",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\quests\\sts_wbr_jpn_01\\contracts.json",
+          "sha256": "26A1CF46EA522F2986B5157E73921D8B94E7E73CD53AF2FE8BF64195DC38BD27"
+        },
+        {
+          "id": "sts_wbr_jpn_02",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\quests\\sts_wbr_jpn_02\\contracts.json",
+          "sha256": "0E5BA28E4B832206A1621E52F9C78D132516097DE79BCD3F651FFFB2D14F6129"
+        },
+        {
+          "id": "sts_wbr_jpn_05",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\quests\\sts_wbr_jpn_05\\contracts.json",
+          "sha256": "283EB78369A61338094AD330995A9FF92FE0DF8A9A606090F463A9D776AE0D71"
+        }
+      ],
+      "results": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\results.json",
+      "results_sha256": "7F99FE9B1155E0ABECE76ACBE5E13D3DC95111AB24D3C04FAD8EB2C3844BDD32",
+      "review": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_b\\G14.json",
+        "sha256": "DE10AA6FC081BBD0F2A5F13068CD270CEE507C410C397B2D5B8AB737BED62548"
+      },
+      "review_addendum": null,
+      "reported_check_events": 343,
+      "reported_mutation_events": 16,
+      "limits": "Counts may reuse shared controls; not unique semantic or gameplay coverage."
+    },
+    {
+      "group": "G15",
+      "quest_ids": [
+        "sts_ep1_08_steven_meeting_night_city"
+      ],
+      "findings": [
+        {
+          "id": "sts_ep1_08_steven_meeting_night_city",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G15\\quests\\sts_ep1_08_steven_meeting_night_city\\contracts.json",
+          "sha256": "8297A10B6341BF99E01154CAF6760999301D31C566C1ED67C34244700632AA1F"
+        }
+      ],
+      "results": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G15\\results.json",
+      "results_sha256": "CCA93EEE4F647D4070337652A8CEDF281F790D9C7416AA05E26A0DA2501A4DA5",
+      "review": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\reviews\\G15_peer\\verification_02\\review.json",
+        "sha256": "34B498DEF4A8F717BBEBE230A372A1F4DD34AD6B22E1DBCACEA4E0CE44D03040"
+      },
+      "review_addendum": null,
+      "reported_check_events": 126,
+      "reported_mutation_events": 3,
+      "limits": "Counts may reuse shared controls; not unique semantic or gameplay coverage."
+    },
+    {
+      "group": "G16",
+      "quest_ids": [
+        "wst_ep1_05",
+        "wst_ep1_11_bill_meeting",
+        "wst_ep1_04"
+      ],
+      "findings": [
+        {
+          "id": "wst_ep1_05",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\quests\\wst_ep1_05\\contracts.json",
+          "sha256": "A49202E8BD506593081C75B5D6DE7CC975B7C9D1E22CB560479FA8A74581AA47"
+        },
+        {
+          "id": "wst_ep1_11_bill_meeting",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\quests\\wst_ep1_11_bill_meeting\\contracts.json",
+          "sha256": "1D93104BBBE4245EED76B40A02315BEE9EF589B28C93949CAAEF3764019B011D"
+        },
+        {
+          "id": "wst_ep1_04",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\quests\\wst_ep1_04\\contracts.json",
+          "sha256": "128F4745465B80AF2948892DBAC093AAFA019B82C296911CAF8CE7F5650F8FB9"
+        }
+      ],
+      "results": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\results.json",
+      "results_sha256": "9016043760B6D69822EBE2BB033BCC1F1656078A0C40AEE19C3EDAA004AA66E9",
+      "review": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_b\\G16.json",
+        "sha256": "63AD963693E0C8BA2935C1B06239438F2015E7F7339B696881C4F735CE0AEF1C"
+      },
+      "review_addendum": null,
+      "reported_check_events": 311,
+      "reported_mutation_events": 7,
+      "limits": "Counts may reuse shared controls; not unique semantic or gameplay coverage."
+    },
+    {
+      "group": "G17",
+      "quest_ids": [
+        "mq305_combat_zone_report",
+        "mq306_dumpster"
+      ],
+      "findings": [
+        {
+          "id": "mq305_combat_zone_report",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\quests\\mq305_combat_zone_report\\contracts.json",
+          "sha256": "1D87DB7D3CBC50E31A6FBF9ADCA8CD4DCFEF01EC1E93A1D8EB4AB0CC451575FF"
+        },
+        {
+          "id": "mq306_dumpster",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\quests\\mq306_dumpster\\contracts.json",
+          "sha256": "439F438E8F3A8881F12543CB14232F6B4F931ED9BE5E5E6917E6548CF0778887"
+        }
+      ],
+      "results": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\results.json",
+      "results_sha256": "8010C8736221D6F7A0F4A6AA72206614EA278C3E88651600AA1FB2AB401FA207",
+      "review": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_a\\G17\\verification_01\\review.json",
+        "sha256": "3C26973E18CB4EEAFECAFAA7CA48BC511662B2786ED847803435726079C7F2AD"
+      },
+      "review_addendum": null,
+      "reported_check_events": 315,
+      "reported_mutation_events": 4,
+      "limits": "Counts may reuse shared controls; not unique semantic or gameplay coverage."
+    },
+    {
+      "group": "G18",
+      "quest_ids": [
+        "q304_splinter_stash",
+        "q304_car_retrieval"
+      ],
+      "findings": [
+        {
+          "id": "q304_splinter_stash",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\quests\\q304_splinter_stash\\contracts.json",
+          "sha256": "7B493F2F3787BAB9F7AC29A145E4869C136F3137B718C6EF4A990B4E9BDB762E"
+        },
+        {
+          "id": "q304_car_retrieval",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\quests\\q304_car_retrieval\\contracts.json",
+          "sha256": "30050EB4343CF90ACECD60C591159AB8EC10F2D19B032001B933E20FEC6B1FFE"
+        }
+      ],
+      "results": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\results.json",
+      "results_sha256": "D4B6D1D637DF7DCE16BF60E0AED2FE2EB111E4BE60554A8E12DA21AA80703620",
+      "review": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_a\\G18\\verification_01\\review.json",
+        "sha256": "892792B4319C767005803B3607F60A8482BF38F1B99CB2C0948B87A2E8B992CC"
+      },
+      "review_addendum": null,
+      "reported_check_events": 240,
+      "reported_mutation_events": 4,
+      "limits": "Counts may reuse shared controls; not unique semantic or gameplay coverage."
+    },
+    {
+      "group": "G19",
+      "quest_ids": [
+        "sts_ep1_10",
+        "sts_ep1_08",
+        "sts_ep1_13"
+      ],
+      "findings": [
+        {
+          "id": "sts_ep1_10",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\quests\\sts_ep1_10\\contracts.json",
+          "sha256": "DFA5E544E1E8FF5E6389ABA35607462E0783258EC03674D7C77BF20833DA95B8"
+        },
+        {
+          "id": "sts_ep1_08",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\quests\\sts_ep1_08\\contracts.json",
+          "sha256": "58E8CE771260D0C6A03F6DFBFA09C26C1C9154C0C523A361DA2520B218F8A102"
+        },
+        {
+          "id": "sts_ep1_13",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\quests\\sts_ep1_13\\contracts.json",
+          "sha256": "AFB885268C86F4795AA09CF17E7AF1137EF739A0C8DB9F1F35ECDC2786882AA6"
+        }
+      ],
+      "results": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\results.json",
+      "results_sha256": "64BBA7DD04401FF565C75155FAD7E13A812894E18A6F95FE0840DBE2357BF96D",
+      "review": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\reviews\\G19\\verification_04\\review.json",
+        "sha256": "B030261D1CD42F99543F526F558FB9A56592DC24B5734F103201CAF757D6A168"
+      },
+      "review_addendum": null,
+      "reported_check_events": 284,
+      "reported_mutation_events": 8,
+      "limits": "Counts may reuse shared controls; not unique semantic or gameplay coverage."
+    },
+    {
+      "group": "G20",
+      "quest_ids": [
+        "sts_ep1_06",
+        "sts_ep1_03",
+        "sts_ep1_12"
+      ],
+      "findings": [
+        {
+          "id": "sts_ep1_06",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\quests\\sts_ep1_06\\contracts.json",
+          "sha256": "994E111D44A1292BDA93B0F3E72128D8D997C7F1B87B638D363D24F42ED06141"
+        },
+        {
+          "id": "sts_ep1_03",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\quests\\sts_ep1_03\\contracts.json",
+          "sha256": "FEC7D6F04000166AAC7F85EF2AFF8D358102EF268660F93801E67D9787D2FF97"
+        },
+        {
+          "id": "sts_ep1_12",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\quests\\sts_ep1_12\\contracts.json",
+          "sha256": "628EA5AB481B3A118F2BB46887C38F4899954432BFC1A1461D4009DD614B30FD"
+        }
+      ],
+      "results": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\results.json",
+      "results_sha256": "E90250BC7D1CA0582FE43CA296C7C542081AE7302F9D08E288F8E20B9FAE1F2A",
+      "review": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_a\\G20\\verification_02\\review.json",
+        "sha256": "2C3F1A3FCD7C93ED6EE03D772368DFB378CE6122B73E908FB4EC15CEB079DAA1"
+      },
+      "review_addendum": null,
+      "reported_check_events": 405,
+      "reported_mutation_events": 5,
+      "limits": "Counts may reuse shared controls; not unique semantic or gameplay coverage."
+    },
+    {
+      "group": "G21",
+      "quest_ids": [
+        "sts_ep1_07",
+        "sts_ep1_04",
+        "sts_ep1_01"
+      ],
+      "findings": [
+        {
+          "id": "sts_ep1_07",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\quests\\sts_ep1_07\\contracts.json",
+          "sha256": "EAC9FA67EB57CA25A18949F8293E096B1AA767F9BB0FCFFA2BF4913F3D94C7C6"
+        },
+        {
+          "id": "sts_ep1_04",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\quests\\sts_ep1_04\\contracts.json",
+          "sha256": "D6CB3806721FA1CEDC64EF9C35F7C470E7AD25A52E0D2392400B71840496C730"
+        },
+        {
+          "id": "sts_ep1_01",
+          "contracts": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\quests\\sts_ep1_01\\contracts.json",
+          "sha256": "B770003939D4B45F636CBB2C7664DF42F72323539350FDC40BDF11175A754094"
+        }
+      ],
+      "results": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\results.json",
+      "results_sha256": "63E41A21896C72EB554D50680FDE085BFD7A5B79893859AD323E94410D9CBC15",
+      "review": {
+        "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_b\\G21.json",
+        "sha256": "42FAB6CF7FD00DB36E98834CFEC1977CD38D8E9FF93462CA3D6667A19875F393"
+      },
+      "review_addendum": null,
+      "reported_check_events": 568,
+      "reported_mutation_events": 8,
+      "limits": "Counts may reuse shared controls; not unique semantic or gameplay coverage."
+    }
+  ],
+  "supersessions": [
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\adjudications\\G03_01.json",
+      "sha256": "0F7C42551FE6DBE0C9B14BDC0DC20EC8DE462DA0B2E20B5BED3C9DED159581F6"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\adjudications\\G03_02_crosswriter.json",
+      "sha256": "F2454FB19901F08BD5FB27FFACEE6584F7E04C5EDB433B6688147A02F5A1E54F"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\adjudications\\repairs_01.json",
+      "sha256": "898828F01781608BC6406654788B6E6B7FAAC59CB57629506BAED70151E894EC"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G13\\corrections\\G02_SPR01\\verification_02\\correction.json",
+      "sha256": "8675A60ADF0B033EEB59DD60C76E7BB01B668DBEADE75C1B7ABF66CEA98E9F55"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_b\\G03.json",
+      "sha256": "1D59205450A0E4C5131A54A11B235618822A1571DEE5C2DB2D098AC08C3C36B7"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\metadata_corrections.json",
+      "sha256": "2261C632ED64699919A449E29326C69D4D873E8ED3D1B110B208FD4EC81F3FC2"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\timer_arithmetic_correction_01.json",
+      "sha256": "C96C1589C8156E83A2037C30CD6796EAA6BC4CD62EB68C833E2A950DE72D7AFE"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\adjudications\\moving_heat_01.json",
+      "sha256": "76378B1AB5373F3EAE29060FB7B77D1C8D31B19E9F12F95335B02FCD2D40C82F"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\metadata_corrections_02.json",
+      "sha256": "27631EC2B614A7BECF5B749594328D95047E297B2A5FA982F20B813FDDC3C45E"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\moving_heat_prefab_03\\proposal_scope_addendum_01.json",
+      "sha256": "E5D71F5F2A95C455085B0120C64150B0AF27CDA1BA2AB5E14FE9D820189D88D5"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\shared\\tier3_condition_readback_01\\disjunction_tests.json",
+      "sha256": "E1437A5338148CB6CD3BB925EE2A94CF9349266E6E522C326F7E3BD715E07759"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\adjudications\\ronald_01.json",
+      "sha256": "CED1CDDA3CE4706AD749C9E7FB7B63824682897C761E8921B180CB8868F2E983"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\shared\\ronald_family_inventory_01.json",
+      "sha256": "0466BB9FFD8CE3ACC23F9488977C7F6FAEB98F87533B49C57468968BDCC8193B"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\reviews\\RONALD\\verification_05\\review.json",
+      "sha256": "0A619E0191E6E5EF0D76CC95C1DB3A14E2F371048E4DBBF57E210F302054F449"
+    }
+  ],
+  "input_pins": {
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\results.json": "025F2F1AD1DEB22C26E73207BBEDAB292868B4B29597979456CA894708A32BF5",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G09\\reviews\\G01.json": "A77A9F55F4D744F745DF626D0D95AF0EEE6EA6A1AB5800F54E9FDB214D327323",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\quests\\sts_hey_gle_04\\contracts.json": "F05FE2BD0B2D37CF212F16E5B272134C0680D5A42229B7F4F22480D5E881EA82",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\quests\\sts_hey_rey_09\\contracts.json": "E24F9390B413C7E018DB52242E372D86387E3E1D764F1BFF3610D7BE5B50AC56",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\quests\\sts_hey_rey_06\\contracts.json": "7D4CEE3D3A87B90EFF63CDA83CD160BD9D48D55EF39A9F673AF91A7D702F4D08",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G01\\quests\\sts_hey_rey_08\\contracts.json": "E8B970939916716F1B6F8203C035481A5FEEC4058D47D40AFC829F886261F443",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\results.json": "C45685E875C358703AB532A30E2BF9FF93A7B9AC82B3F84923C9DC03825EF1CE",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G10\\reviews\\G02.json": "A304485CF401B3BD122F3249629038D3839DCEEEF8FB0F8035619F97D2B6265B",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\quests\\sts_hey_spr_01\\contracts.json": "3869E797151160F89995CFDF60DDA179EE2B48C9DC9068E824FAB5C891E37A71",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\quests\\sts_hey_spr_06\\contracts.json": "E15ED6E4BF33A2B3ACD491D91AC087EC580D98315253A71C662C1D3E98A352BA",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\quests\\sts_hey_spr_03\\contracts.json": "AA211CB19A01121E22C09755E6BE621D4EDA3381E8BB3BDAC5E61B2DD54445EC",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G03\\results.json": "E7DD9032CC939B516FF100D34F0B95521BE75737281238AEC02E0E2ACA148BC8",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_b\\G03.json": "1D59205450A0E4C5131A54A11B235618822A1571DEE5C2DB2D098AC08C3C36B7",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G03\\quests\\sts_pac_cvi_02\\contracts.json": "528718014C6218A3D944FEA99841F313FECB8DB4DD1C4380F3C8B79B6C58CC9D",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G03\\quests\\sts_pac_wwd_05\\contracts.json": "1D6545EC14CA9315A7A19C55AB5FC3431953E4EEE7AF13C44CC011EF1250E92B",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G04\\results.json": "3C39D00C18C84A47BF5EE01F372A7283237CCF78A4D88AF408A2BF69C2443843",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G02\\reviews\\G04.json": "13D4E8495208ACC8CF78654A6CBE52CEC82E2B2F91503BC22ECD9988BEB690C1",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G04\\quests\\sts_std_arr_10\\contracts.json": "C90EC73D1F0B14BE1E2228662DF0E56CB29DE3E74E0B726EC9F29815093D330D",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G04\\quests\\sts_std_arr_12\\contracts.json": "5F24F24E40537C98C2A4FEC2519AC5D582BABB46276C30B2CD95E3768236261C",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G04\\quests\\sts_std_arr_11\\contracts.json": "870C45052BB5E771EEF2AB9826FAEDD0E389F9650E5B7B2578029189BD6129FD",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G05\\results.json": "AE0C267EC41242D6792CF78F5AFF734484B98B8D8AC4E700BDC3F44A07CC3097",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G03\\reviews\\G05.json": "139FA7648EDC8283F084ECC566FC92E1888CAC71996E7E5B5FA808FC9FA5A939",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G05\\quests\\sts_std_arr_05\\contracts.json": "3072566C12A110770E00CD94E5F4B9F75055E060704B22F7A762D2A218AD6418",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G05\\quests\\sts_std_arr_06\\contracts.json": "07E943EFFFB41FF1D0AE960F2FF56E7451553CE2848FA0E0F77D50BA4BF13EE3",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G05\\quests\\sts_std_arr_01\\contracts.json": "417176B9C84F7D27FB9CBB50B3B4E21622B129BBBF3ADE51B897EB15BC1F0C01",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G06\\results.json": "75D18019C1CB016FCD9F83A7C33E234F6CDDD3342CB35B2D77E5841745BECF87",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G13\\reviews\\G06.json": "6FA4BF94A24E7E7ADB4785602568383889AACA57C790BA16952FF8BBE4DBF23B",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G06\\quests\\sts_std_rcr_02\\contracts.json": "A01492BE7926231DC46AE0A99A034E0EFBC2613590A3D74EDCC73DA62575E7BF",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G06\\quests\\sts_std_rcr_05\\contracts.json": "C0F70B4B73F6D1C5DC168C9AE6B00C99CD06BA5A362B0D96CEBD6D5FB0B10FD7",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G06\\quests\\sts_std_rcr_01\\contracts.json": "BB63B9C8C38FE5F42A0A5A6EDCC432A5380EEC84AA134E41DEB6D7A8ECB98B12",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G06\\quests\\sts_std_rcr_03\\contracts.json": "48B2B2F24155868C1FE16B542ACCE320F2885DF4DB3AFCE3DC10890E150F9414",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G07\\results.json": "B9558836BAFD01A3245AB8CBD02AD041B51BDAB457606056A165EA78B291DD6D",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G05\\reviews\\G07.json": "800E8D217E2517F4ADC3C5C56142DD4EA89DAE358B582EAFA96D060EB58B2AA1",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G07\\quests\\sts_wat_kab_101\\contracts.json": "9A91BEB34C0025664BD5AC34519413DD587BF3491EFEEC89CFC61576A0B8696B",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G07\\quests\\sts_wat_kab_107\\contracts.json": "573B3E72EE22E4FFDCE92BB47DA48D687DBED152AB114591E267162DCA3F3629",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G07\\quests\\sts_wat_kab_102\\contracts.json": "8088EE9DB7ABF5E617228D14126D938C3234AEA0FE456AEC8D2A8430B59050FE",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G07\\quests\\sts_wat_kab_07\\contracts.json": "88095DCFACC5D1D9638A673B91C3E019165ABB4E1DFCF97C2F8FA29DD8290149",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G08\\results.json": "291993DA6696A25388604080BEED7B7DD828DA55A27ED220097B07D7A45EE15E",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G10\\reviews\\G08.json": "93F991399AC7F47EC2B257110396ABD787865DF503CA532E22797AE89B80614F",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G08\\quests\\sts_wat_kab_04\\contracts.json": "93BFDAE9CF4ABDCB56A3930B4F34DA81E7CF1BB16E2E68B87C8CF55423804A16",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G08\\quests\\sts_wat_kab_05\\contracts.json": "144A6E6AFF0F64AF593170AF1EB7E3526ECD0012DD08CF26EB89573BAD7E0F7F",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G08\\quests\\sts_wat_kab_01\\contracts.json": "4C0E8B7DBA997997E059379238358643BAED35A46F2C3986DEE0AF132A8F089B",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G08\\quests\\sts_wat_kab_03\\contracts.json": "E0A19453D18015E6900151637EF2266198D6F4AE5FA7537EA97CF14CD567F0A8",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G09\\results.json": "EB16B6B4A6785EBFDE7F0601B0B84F6ABFF5A09C0D29643F994966409715388A",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\reviews\\G09.json": "83CDE49443C81374679D36778D88322DE922D679727E0524EEB6086AFEC70AC3",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G09\\quests\\sts_wat_kab_06\\contracts.json": "1F870DFD26B59CA04C2976C9E477E6DEC0A62BC856F692A47E05963AB212A77E",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G09\\quests\\sts_wat_kab_02\\contracts.json": "3E4B7EC37C5E3FB1D0E0B90A82E7899FA260653AA1556B26C8619AC1920E85D8",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G09\\quests\\sts_wat_kab_08\\contracts.json": "756FA915BC6F05E0C1850AA2428E845476648B722E826110A6C049B2C4D988F5",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G10\\results.json": "B2189C4C7F9DF30D4F2CAEFE71616CD9CCB37B192D617B7B04704EEEA8482460",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_a\\G10\\verification_01\\review.json": "079443AB70B0A95ECC86501EF5E7A9E2C84341488844EB66D6ECFFF6F56CA1DB",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G10\\quests\\sts_wat_lch_06\\contracts.json": "206D365BC98174A0F33C56EEBD56B9F88BA52015C96E312D80FF49170C1BD55F",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G10\\quests\\sts_wat_lch_05\\contracts.json": "1FBA87FEF1161EBD10D52FF5C388048DBE2544C06832D1DF4560E00991724998",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G10\\quests\\sts_wat_lch_01\\contracts.json": "A16545B50F449E03158F6F53DDF2D0B7BBFCA733CA02F03EAE5EB5BC84482844",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G10\\quests\\sts_wat_lch_03\\contracts.json": "C57665192EE3F9E778CDE0AA036685C1C4BE51C36637BFF88AFFFB3EAC3054DE",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\results.json": "58CB2435AECF4AA0F2C2840EB7561AD796E502431DA18A42B33E534D27ABD16F",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_b\\G11.json": "2655C741DE2ED1F6CB58524EBD99E96AF3384BFD945929EFE767AB04FA28D389",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\quests\\sts_wat_nid_12\\contracts.json": "911A82356704591291230DF266E464F92EC2B4CC318D93C96D576B33EF207158",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\quests\\sts_wat_nid_05\\contracts.json": "17873D0FBB15C58C2006D2B575CAA41C2BFACC88EBD6DD13C20D6362205CD4D7",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\quests\\sts_wat_nid_02\\contracts.json": "C80A87DA38886C961E074A9AD2562A22F9A4258615EAD58A5343578A23B167D2",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\quests\\sts_wat_nid_01\\contracts.json": "ED1DB3BB42D9F541399502FC917ADB5640C87CFA875B7A67FC4139830C0B9C70",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G12\\results.json": "D0A095B0FE76B3524A72CF6BCD6EFE4A54503C5345DD0A64B1D35987C70206B4",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_a\\G12\\verification_01\\review.json": "78F0FBFA709DB158F31F0004BB032982D50E41B5D22626D0EC2897B0F5C96EF6",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G12\\quests\\sts_wat_nid_06\\contracts.json": "6C1621A3E8CB6808FE2160B368359FE98F51684617E57BEC4FFB1056B05DBE68",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G12\\quests\\sts_wat_nid_04\\contracts.json": "A3381B1F892CBD5C09AB133B32FAC8DD3211A41DC5C9BDB01D831E2322C33CD3",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G12\\quests\\sts_wat_nid_03\\contracts.json": "5FDCDBB96838B16C5A31C0FA041B3B6C140100C1081EA5DFEACC045E744FA474",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G13\\results.json": "DAD2100C3361470C50D523D8D5804BA9FC2096AF1EBC13B3A0964A8E78308C33",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G12\\reviews\\G13.json": "DEA91031E74C81308AED9A913BAB45F0B060F0C732F8FE149BF5F1C9D91839CA",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G13\\quests\\sts_wbr_hil_07\\contracts.json": "244B8777BD29DFDB5A0DBD98F94C3C971D060CA57489C16F3BAE40EE2C7CF8F4",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G13\\quests\\sts_wbr_hil_01\\contracts.json": "927AF58A1AEAB5A2CE6447399E7BB19A7A655F4D6EB6120E8308E3016380E6CD",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G13\\quests\\sts_wbr_jpn_03\\contracts.json": "EEC429C63A90DCD6201CDFF7534DFB9625CE7DDFF263823FCBBEC70DAFD15413",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\results.json": "7F99FE9B1155E0ABECE76ACBE5E13D3DC95111AB24D3C04FAD8EB2C3844BDD32",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_b\\G14.json": "DE10AA6FC081BBD0F2A5F13068CD270CEE507C410C397B2D5B8AB737BED62548",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\quests\\sts_wbr_jpn_01\\contracts.json": "26A1CF46EA522F2986B5157E73921D8B94E7E73CD53AF2FE8BF64195DC38BD27",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\quests\\sts_wbr_jpn_02\\contracts.json": "0E5BA28E4B832206A1621E52F9C78D132516097DE79BCD3F651FFFB2D14F6129",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G14\\quests\\sts_wbr_jpn_05\\contracts.json": "283EB78369A61338094AD330995A9FF92FE0DF8A9A606090F463A9D776AE0D71",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G15\\results.json": "CCA93EEE4F647D4070337652A8CEDF281F790D9C7416AA05E26A0DA2501A4DA5",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G11\\reviews\\G15_peer\\verification_02\\review.json": "34B498DEF4A8F717BBEBE230A372A1F4DD34AD6B22E1DBCACEA4E0CE44D03040",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G15\\quests\\sts_ep1_08_steven_meeting_night_city\\contracts.json": "8297A10B6341BF99E01154CAF6760999301D31C566C1ED67C34244700632AA1F",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\results.json": "9016043760B6D69822EBE2BB033BCC1F1656078A0C40AEE19C3EDAA004AA66E9",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_b\\G16.json": "63AD963693E0C8BA2935C1B06239438F2015E7F7339B696881C4F735CE0AEF1C",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\quests\\wst_ep1_05\\contracts.json": "A49202E8BD506593081C75B5D6DE7CC975B7C9D1E22CB560479FA8A74581AA47",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\quests\\wst_ep1_11_bill_meeting\\contracts.json": "1D93104BBBE4245EED76B40A02315BEE9EF589B28C93949CAAEF3764019B011D",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\quests\\wst_ep1_04\\contracts.json": "128F4745465B80AF2948892DBAC093AAFA019B82C296911CAF8CE7F5650F8FB9",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\results.json": "8010C8736221D6F7A0F4A6AA72206614EA278C3E88651600AA1FB2AB401FA207",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_a\\G17\\verification_01\\review.json": "3C26973E18CB4EEAFECAFAA7CA48BC511662B2786ED847803435726079C7F2AD",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\quests\\mq305_combat_zone_report\\contracts.json": "1D87DB7D3CBC50E31A6FBF9ADCA8CD4DCFEF01EC1E93A1D8EB4AB0CC451575FF",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G17\\quests\\mq306_dumpster\\contracts.json": "439F438E8F3A8881F12543CB14232F6B4F931ED9BE5E5E6917E6548CF0778887",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\results.json": "D4B6D1D637DF7DCE16BF60E0AED2FE2EB111E4BE60554A8E12DA21AA80703620",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_a\\G18\\verification_01\\review.json": "892792B4319C767005803B3607F60A8482BF38F1B99CB2C0948B87A2E8B992CC",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\quests\\q304_splinter_stash\\contracts.json": "7B493F2F3787BAB9F7AC29A145E4869C136F3137B718C6EF4A990B4E9BDB762E",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\quests\\q304_car_retrieval\\contracts.json": "30050EB4343CF90ACECD60C591159AB8EC10F2D19B032001B933E20FEC6B1FFE",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\results.json": "64BBA7DD04401FF565C75155FAD7E13A812894E18A6F95FE0840DBE2357BF96D",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\reviews\\G19\\verification_04\\review.json": "B030261D1CD42F99543F526F558FB9A56592DC24B5734F103201CAF757D6A168",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\quests\\sts_ep1_10\\contracts.json": "DFA5E544E1E8FF5E6389ABA35607462E0783258EC03674D7C77BF20833DA95B8",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\quests\\sts_ep1_08\\contracts.json": "58E8CE771260D0C6A03F6DFBFA09C26C1C9154C0C523A361DA2520B218F8A102",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G19\\quests\\sts_ep1_13\\contracts.json": "AFB885268C86F4795AA09CF17E7AF1137EF739A0C8DB9F1F35ECDC2786882AA6",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\results.json": "E90250BC7D1CA0582FE43CA296C7C542081AE7302F9D08E288F8E20B9FAE1F2A",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_a\\G20\\verification_02\\review.json": "2C3F1A3FCD7C93ED6EE03D772368DFB378CE6122B73E908FB4EC15CEB079DAA1",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\quests\\sts_ep1_06\\contracts.json": "994E111D44A1292BDA93B0F3E72128D8D997C7F1B87B638D363D24F42ED06141",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\quests\\sts_ep1_03\\contracts.json": "FEC7D6F04000166AAC7F85EF2AFF8D358102EF268660F93801E67D9787D2FF97",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G20\\quests\\sts_ep1_12\\contracts.json": "628EA5AB481B3A118F2BB46887C38F4899954432BFC1A1461D4009DD614B30FD",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\results.json": "63E41A21896C72EB554D50680FDE085BFD7A5B79893859AD323E94410D9CBC15",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\reviews\\worker_b\\G21.json": "42FAB6CF7FD00DB36E98834CFEC1977CD38D8E9FF93462CA3D6667A19875F393",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\quests\\sts_ep1_07\\contracts.json": "EAC9FA67EB57CA25A18949F8293E096B1AA767F9BB0FCFFA2BF4913F3D94C7C6",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\quests\\sts_ep1_04\\contracts.json": "D6CB3806721FA1CEDC64EF9C35F7C470E7AD25A52E0D2392400B71840496C730",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\quests\\sts_ep1_01\\contracts.json": "B770003939D4B45F636CBB2C7664DF42F72323539350FDC40BDF11175A754094",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\adjudications\\G03_01.json": "0F7C42551FE6DBE0C9B14BDC0DC20EC8DE462DA0B2E20B5BED3C9DED159581F6",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\adjudications\\G03_02_crosswriter.json": "F2454FB19901F08BD5FB27FFACEE6584F7E04C5EDB433B6688147A02F5A1E54F",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\adjudications\\repairs_01.json": "898828F01781608BC6406654788B6E6B7FAAC59CB57629506BAED70151E894EC",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G13\\corrections\\G02_SPR01\\verification_02\\correction.json": "8675A60ADF0B033EEB59DD60C76E7BB01B668DBEADE75C1B7ABF66CEA98E9F55",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\metadata_corrections.json": "2261C632ED64699919A449E29326C69D4D873E8ED3D1B110B208FD4EC81F3FC2",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G16\\timer_arithmetic_correction_01.json": "C96C1589C8156E83A2037C30CD6796EAA6BC4CD62EB68C833E2A950DE72D7AFE",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\adjudications\\moving_heat_01.json": "76378B1AB5373F3EAE29060FB7B77D1C8D31B19E9F12F95335B02FCD2D40C82F",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\metadata_corrections_02.json": "27631EC2B614A7BECF5B749594328D95047E297B2A5FA982F20B813FDDC3C45E",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G18\\moving_heat_prefab_03\\proposal_scope_addendum_01.json": "E5D71F5F2A95C455085B0120C64150B0AF27CDA1BA2AB5E14FE9D820189D88D5",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\shared\\tier3_condition_readback_01\\disjunction_tests.json": "E1437A5338148CB6CD3BB925EE2A94CF9349266E6E522C326F7E3BD715E07759",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\adjudications\\ronald_01.json": "CED1CDDA3CE4706AD749C9E7FB7B63824682897C761E8921B180CB8868F2E983",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\shared\\ronald_family_inventory_01.json": "0466BB9FFD8CE3ACC23F9488977C7F6FAEB98F87533B49C57468968BDCC8193B",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\reviews\\RONALD\\verification_05\\review.json": "0A619E0191E6E5EF0D76CC95C1DB3A14E2F371048E4DBBF57E210F302054F449"
+  }
+}

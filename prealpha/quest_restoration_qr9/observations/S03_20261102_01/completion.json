@@ -1,0 +1,156 @@
+{
+  "status": "S03_PRECHECK_ANALYZED_TWO_CALL_DELIVERY_PASSES_NO_REPAIR",
+  "sealed_utc": "2026-11-02T20:12:23.269287+00:00",
+  "nitro": "AlreadyIssued1;freshcriteria unmet; nofreshfixture; actualsavedownerprogress INCONCLUSIVE",
+  "call_deliveries": [
+    {
+      "caller": "Cynthia",
+      "status": "PASS_USER_REPORTED_LOG_CORROBORATED"
+    },
+    {
+      "caller": "Wilson",
+      "quest": "Shoot to Thrill",
+      "status": "PASS_DELIVERY_ACTIVATION_CONTEST_NOT_TESTED"
+    }
+  ],
+  "original_matrix": {
+    "PASS": 2,
+    "INCONCLUSIVE": 2,
+    "NOT_TESTABLE": 5,
+    "NOT_TESTED": 17
+  },
+  "master_backup_and_install": "VERIFIED_AFTER",
+  "runtime_changes": 0,
+  "save_or_fact_writes": 0,
+  "game_launches_by_Codex": 0,
+  "probe_seconds": 300,
+  "next_test": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\NEXT_WILSON.md",
+  "next_test_sha256": "8E6C0840C3FC2EC002059F2D2B07693DA0C1D40695D1C8F1732EE64472141D5D",
+  "artifacts": [
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S03_20261102_01\\analysis_01\\evidence.json",
+      "sha256": "3BDB5333AD280DA5606EFEA64EFC2D63974E554E91C538ED4A87A50CF254FA61",
+      "bytes": 9886
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S03_20261102_01\\analysis_01\\results.csv",
+      "sha256": "92B85583935E16D00EAD1D574420A00D341FE649E8009C85827B547343689D2F",
+      "bytes": 6958
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S03_20261102_01\\analysis_01\\results.json",
+      "sha256": "F37216D971954C262A54E493AA1AAD0A8BB68D603D598D73862DC115C462D247",
+      "bytes": 18727
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S03_20261102_01\\analysis_01\\summary.json",
+      "sha256": "187CC62A9E4DF379F370A2362A24160697C62A8DDE2EBDC929F0EF4192113F48",
+      "bytes": 1944
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S03_20261102_01\\analyze_run.py",
+      "sha256": "09C5C33BEC7F5D5AE5CA1424EE132667238BCFCE5AD7B0F8555268FA010307A8",
+      "bytes": 7406
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S03_20261102_01\\capture_analysis.json",
+      "sha256": "4E95DFB6EDB429FF060CEECC5E5CFB7A36A890E32B1A78F72E1B8632F209AAD3",
+      "bytes": 965
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S03_20261102_01\\collection.json",
+      "sha256": "083BFB04BDB37E2B963DC965E7B4A205FEBB54E1DAE9930F0F12A4DE7331815F",
+      "bytes": 1068
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S03_20261102_01\\human_result.json",
+      "sha256": "9F1128EB9A14876EB2756A3C1A1404BF3BCA6CF560E10D364320DF39B83DFD2A",
+      "bytes": 382
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S03_20261102_01\\logs\\ArchiveXL_0_ArchiveXL-2026-11-02-14-56-44.log",
+      "sha256": "84AA991FD421307D42ABFC7163EC3611F79444C5A6356FB77D755F5F436962EF",
+      "bytes": 170027
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S03_20261102_01\\logs\\ArchiveXL_1_ArchiveXL-2026-11-02-11-39-56.log",
+      "sha256": "4A8A2A99F0746472FAB693D618079DCFEAFBFBA605F808BE1E51D41F6F059E2D",
+      "bytes": 478980
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S03_20261102_01\\logs\\CET_0_cyber_engine_tweaks.log",
+      "sha256": "877281D337BAC3936B323D7B189596FA3AD0AE6B66FF75550F2F06838BB05932",
+      "bytes": 356468
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S03_20261102_01\\logs\\CET_scripting_0_scripting.log",
+      "sha256": "6398633F9EA465DE9996E4436DE2BFCFBAAD57DBBF7B9CC6BFFDEE17DCF6D855",
+      "bytes": 888187
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S03_20261102_01\\logs\\QR9_capture_20261102T195951Z_0001.jsonl",
+      "sha256": "ECF5EC1A0B51F2C988815B54A2BE9A80121CEB5227C25A7E59F89BCB59C3EC16",
+      "bytes": 8738
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S03_20261102_01\\logs\\RED4ext_0_red4ext-2026-11-02-14-56-43.log",
+      "sha256": "5D40FAEE057D095B22551FD8299E010441161E08BD6F6363CB900C2A16669836",
+      "bytes": 4014
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S03_20261102_01\\logs\\RED4ext_1_red4ext-2026-11-02-11-39-55.log",
+      "sha256": "58E2A21E18BA8A8874B531C20DFD575DF85B0D9A058DD9DBA5B7A2C5035E6BD1",
+      "bytes": 4014
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S03_20261102_01\\logs\\REDscript_0_redscript_rCURRENT.log",
+      "sha256": "79B0238D097244400EA8CC070897462EC12A40DF408BCCF00787447DFF6DF6AC",
+      "bytes": 9142
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S03_20261102_01\\logs\\REDscript_1_redscript_r2026-11-02_14-56-49.log",
+      "sha256": "14B6D16226CFFB162E05F9E28D1F4AB7E89A77B53017CA11720F35788E16609E",
+      "bytes": 9142
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S03_20261102_01\\nitro_source_scope.json",
+      "sha256": "8B42FFBCC91B54688E72C31B2E3E9A071736F2996C28F215C74EA970C05D8D40",
+      "bytes": 734
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S03_20261102_01\\REPORT.md",
+      "sha256": "4D3E66CE2A039A4DDA66F18428FF0790857BFB87C587D8686203A4DAB4B346CD",
+      "bytes": 4983
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S03_20261102_01\\resource_observations.json",
+      "sha256": "752CBE9A3F4D134B4AF745DF35617A510E7A2A4F6CC49CE6EB4C70C4C6B552C7",
+      "bytes": 30877
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S03_20261102_01\\support_line_candidates.json",
+      "sha256": "B7A492B93463AC1B1837CDCE0F49FFEBEE96CF4B1AF86E98E16506C34F261F3D",
+      "bytes": 80584
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S03_20261102_01\\support_log_candidates.json",
+      "sha256": "BEC7339C8C4746054C1FA71DA44D3CF256B1610C33121C106155DC2134B6082D",
+      "bytes": 6229
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\observations\\S03_20261102_01\\user_report.json",
+      "sha256": "69EF72BB4F99BAB0D207C5CA3B108E61A468FDED77968B4DDDB86A5D88C91CD1",
+      "bytes": 318
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_a\\observations\\S03_20261102_01\\core_verify.json",
+      "sha256": "45B1844201BDA960E5372B724068E34F4CF9FAAE9BE54BAC82E0F722AE0A6B1F",
+      "bytes": 233
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr9\\worker_a\\observations\\S03_20261102_01\\diagnostics_verify.json",
+      "sha256": "58C68CFE646B039B5FDCF494EB7B421545145B35E4C00317B0F66A98B161CEF1",
+      "bytes": 240
+    }
+  ]
+}

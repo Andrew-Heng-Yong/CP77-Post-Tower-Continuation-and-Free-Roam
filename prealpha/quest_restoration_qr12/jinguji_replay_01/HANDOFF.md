@@ -1,0 +1,9 @@
+# Jinguji replay preparation
+
+Latest user steering explicitly requests finding an earlier save and replaying Jinguji. Earlier “no repeat” recommendations remain historical; this is a user-requested replay with current getter diagnostics, not a restoration reset or new all-quest audit.
+
+See NEXT_STEPS.md and fixture_manifest.json. Existing AutoSave-18 (2Nov16:20:12) is the pre-activation candidate; AutoSave-3 (2Nov16:33:46) is a reserved late pending-completion candidate. Both bodies/metadata match earlier pinned parsed inputs; six files copied unchanged to workspace-only saved_inputs for preservation, no restore/install/save edit. Exact saved native owners remain opaque; lineage is corroborated by positive native Tower/2079/continuation facts and recorded human-run timeline, not independently certified from shared IDs. Require expected genuine unfinished Jinguji state on manual load; otherwise stop.
+
+All60 current installed manifest hashes match. S05 profile32facts is already installed. Start GetMod("PTFR_QR9_Diagnostics").start("S05", "QR12-Jinguji-Replay", 900), stop GetMod("PTFR_QR9_Diagnostics").stop("QR12_JINGUJI_DONE"). No diagnostic change, compile, installation or assistant gameplay/CUA. Do not auto-launch/load the game.
+
+After user says done, identify this exact labelled S05 segment and copy/hash local logs to a fresh observation directory. Do not run the D00E-specific collector against S05. Separate normal gameplay completion, sampler evidence, opaque ownership and missing transitions. Native callbacks remain unsupported, samples are two-second getter differences without exact write ordering. No repeat shop/completed-state reload is requested. Existing QR9 passes remain accepted; original inventory/completion/preservation and later Brendan/Skippy/Ronald observations remain immutable.

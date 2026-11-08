@@ -1,0 +1,344 @@
+{
+  "status": "RECONCILED_SOURCE_AND_REVIEW_COVERAGE_WITH_EXPLICIT_LIMITS",
+  "selected": 161,
+  "prior_deep": 64,
+  "new_deep": 64,
+  "deep_total": 128,
+  "remaining": 33,
+  "primary": {
+    "required": 48,
+    "reviewed": 48
+  },
+  "stretch": {
+    "required": 16,
+    "reviewed": 16
+  },
+  "new_contract_status_counts": {
+    "APPROVED_DEVIATION": 64,
+    "CONDITIONAL": 393,
+    "PASS": 101,
+    "OPAQUE": 65,
+    "FAIL": 13,
+    "UNKNOWN": 4
+  },
+  "deep_contract_status_counts": {
+    "APPROVED_DEVIATION": 143,
+    "PASS": 275,
+    "CONDITIONAL": 716,
+    "OPAQUE": 129,
+    "FAIL": 13,
+    "UNKNOWN": 4
+  },
+  "fully_static_verified": 0,
+  "contracts": 1610,
+  "new_confirmed_defects": 7,
+  "new_repaired_defects": 5,
+  "new_blocked_defects": 2,
+  "new_affected_quests": 10,
+  "cumulative_staged_repairs": 8,
+  "batch_counts": {
+    "Q01": {
+      "total": 16,
+      "deep": 16
+    },
+    "Q02": {
+      "total": 16,
+      "deep": 16
+    },
+    "Q03": {
+      "total": 16,
+      "deep": 16
+    },
+    "Q04": {
+      "total": 16,
+      "deep": 16
+    },
+    "Q05": {
+      "total": 16,
+      "deep": 16
+    },
+    "Q06": {
+      "total": 16,
+      "deep": 16
+    },
+    "Q07": {
+      "total": 16,
+      "deep": 16
+    },
+    "Q08": {
+      "total": 16,
+      "deep": 16
+    },
+    "Q09": {
+      "total": 16,
+      "deep": 0
+    },
+    "Q10": {
+      "total": 16,
+      "deep": 0
+    },
+    "Q11": {
+      "total": 1,
+      "deep": 0
+    }
+  },
+  "limits": [
+    "Deep reviewed means ten source-specific dispositions plus independent actual-resource review, not ten PASSes.",
+    "No gameplay, save-transition, opaque placement, runtime merged TDB or call/reward/reload success certification.",
+    "Pending/unknown/opaque and confirmed blocked CVI02 branch remain visible."
+  ],
+  "source_epoch": 8,
+  "queue_sha256": "264EA25C5D809672F1F48741FFA982D7978B63741EA7EB1836D145DC2D0DFE80",
+  "state": "QR5_DEEP_INVESTIGATIONS_REVIEWED_REPAIRS_PACKAGED_BLOCKERS_EXPLICIT",
+  "working_candidate": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\candidate_03",
+  "source_epoch_manifest": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\source_epoch_08.json",
+  "source_epoch_sha256": "B8BC8D6630F51E07125789FAB5A54D188EB45CE7044F35E2E6F09DE460B91D83",
+  "installed": "PH3 unchanged",
+  "next_batch": "Q09",
+  "next_batch_quests": [
+    {
+      "id": "q003_stout",
+      "title": "Venus in Furs"
+    },
+    {
+      "id": "mq050_ken_block_tribute",
+      "title": "I'm in Love with My Car"
+    },
+    {
+      "id": "mq042_nomad",
+      "title": "These Boots Are Made for Walkin'"
+    },
+    {
+      "id": "mq059_freedom",
+      "title": "Freedom"
+    },
+    {
+      "id": "mq036_overload",
+      "title": "Sweet Dreams"
+    },
+    {
+      "id": "mq060_nitro",
+      "title": "Nitro (Youth Energy)"
+    },
+    {
+      "id": "mq058_semimaru_crystalcoat",
+      "title": "Where Eagles Dare"
+    },
+    {
+      "id": "mws_wat_08_trauma_drama",
+      "title": "Career Opportunities"
+    },
+    {
+      "id": "mws_se5_07",
+      "title": "Shape of a Pony"
+    },
+    {
+      "id": "mq040_biosculpt",
+      "title": "Raymond Chandler Evening"
+    },
+    {
+      "id": "mq028_stalker",
+      "title": "Every Breath You Take"
+    },
+    {
+      "id": "mq029_tourist",
+      "title": "The Highwayman"
+    },
+    {
+      "id": "mq017_streetkid",
+      "title": "Small Man, Big Mouth"
+    },
+    {
+      "id": "mq006_rollercoaster",
+      "title": "Love Rollercoaster"
+    },
+    {
+      "id": "mq016_bartmoss",
+      "title": "KOLD MIRAGE"
+    },
+    {
+      "id": "mq018_writer",
+      "title": "Killing In The Name"
+    }
+  ],
+  "next_all_unreviewed": [
+    {
+      "id": "q003_stout",
+      "title": "Venus in Furs",
+      "batch": "Q09"
+    },
+    {
+      "id": "mq050_ken_block_tribute",
+      "title": "I'm in Love with My Car",
+      "batch": "Q09"
+    },
+    {
+      "id": "mq042_nomad",
+      "title": "These Boots Are Made for Walkin'",
+      "batch": "Q09"
+    },
+    {
+      "id": "mq059_freedom",
+      "title": "Freedom",
+      "batch": "Q09"
+    },
+    {
+      "id": "mq036_overload",
+      "title": "Sweet Dreams",
+      "batch": "Q09"
+    },
+    {
+      "id": "mq060_nitro",
+      "title": "Nitro (Youth Energy)",
+      "batch": "Q09"
+    },
+    {
+      "id": "mq058_semimaru_crystalcoat",
+      "title": "Where Eagles Dare",
+      "batch": "Q09"
+    },
+    {
+      "id": "mws_wat_08_trauma_drama",
+      "title": "Career Opportunities",
+      "batch": "Q09"
+    },
+    {
+      "id": "mws_se5_07",
+      "title": "Shape of a Pony",
+      "batch": "Q09"
+    },
+    {
+      "id": "mq040_biosculpt",
+      "title": "Raymond Chandler Evening",
+      "batch": "Q09"
+    },
+    {
+      "id": "mq028_stalker",
+      "title": "Every Breath You Take",
+      "batch": "Q09"
+    },
+    {
+      "id": "mq029_tourist",
+      "title": "The Highwayman",
+      "batch": "Q09"
+    },
+    {
+      "id": "mq017_streetkid",
+      "title": "Small Man, Big Mouth",
+      "batch": "Q09"
+    },
+    {
+      "id": "mq006_rollercoaster",
+      "title": "Love Rollercoaster",
+      "batch": "Q09"
+    },
+    {
+      "id": "mq016_bartmoss",
+      "title": "KOLD MIRAGE",
+      "batch": "Q09"
+    },
+    {
+      "id": "mq018_writer",
+      "title": "Killing In The Name",
+      "batch": "Q09"
+    },
+    {
+      "id": "mq022_ezekiel",
+      "title": "Ezekiel Saw the Wheel",
+      "batch": "Q10"
+    },
+    {
+      "id": "mq003_orbitals",
+      "title": "Space Oddity",
+      "batch": "Q10"
+    },
+    {
+      "id": "sq023_real_passion",
+      "title": "They Won't Go When I Go",
+      "batch": "Q10"
+    },
+    {
+      "id": "sq023_hit_order",
+      "title": "Sinnerman",
+      "batch": "Q10"
+    },
+    {
+      "id": "sq023_bd_passion",
+      "title": "There Is A Light That Never Goes Out",
+      "batch": "Q10"
+    },
+    {
+      "id": "sq025b_delamain_insurgence",
+      "title": "Don't Lose Your Mind",
+      "batch": "Q10"
+    },
+    {
+      "id": "sts_hey_gle_03",
+      "title": "Psychofan",
+      "batch": "Q10"
+    },
+    {
+      "id": "sts_hey_gle_05",
+      "title": "Going Up or Down?",
+      "batch": "Q10"
+    },
+    {
+      "id": "sts_hey_rey_01",
+      "title": "Bring Me the Head of Gustavo Orta",
+      "batch": "Q10"
+    },
+    {
+      "id": "sts_hey_rey_02",
+      "title": "Sr. Ladrillo's Private Collection",
+      "batch": "Q10"
+    },
+    {
+      "id": "sts_std_arr_03",
+      "title": "Race to the Top",
+      "batch": "Q10"
+    },
+    {
+      "id": "sts_wat_nid_07",
+      "title": "Scrolls before Swine",
+      "batch": "Q10"
+    },
+    {
+      "id": "sts_wbr_hil_06",
+      "title": "Family Heirloom",
+      "batch": "Q10"
+    },
+    {
+      "id": "sts_wbr_jpn_12",
+      "title": "Greed Never Pays",
+      "batch": "Q10"
+    },
+    {
+      "id": "q305_postcontent",
+      "title": "This Corrosion",
+      "batch": "Q10"
+    },
+    {
+      "id": "wst_ep1_09",
+      "title": "One Way or Another",
+      "batch": "Q10"
+    },
+    {
+      "id": "sts_ep1_12_pickup",
+      "title": "Corpo of the Month",
+      "batch": "Q11"
+    }
+  ],
+  "remaining_final_gates": "NONE_WITHIN_QR5_STATIC_SCOPE",
+  "preservation_result_sha256": "E70B192CCBB211FE5244184A128096A7F71CE9B258DE210B75E3F94F3E29B762",
+  "report_sha256": "4A9D6752381FE998DA639FCD102D033B389E06A8E31EC5F11B42C7C1D0D1FCA8",
+  "handoff_sha256": "48DC3568AA756B2C60218258537535D220F97F710548283685DF6E22D16BA115",
+  "independent_final_coverage_review": {
+    "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\groups\\G21\\reviews\\final_coverage\\verification_01\\review.json",
+    "sha256": "D4E3603B6288F28D860D726C9408B0E07682B21BB9D85E16B293509052209B73",
+    "checks": 2887,
+    "failures": 0,
+    "issues": 0,
+    "scope": "Independent completeness/accounting/provenance, not gameplay certification"
+  },
+  "completion_linkage": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr5\\completion_linkage_01\\addendum.json"
+}

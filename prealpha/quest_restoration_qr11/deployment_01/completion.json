@@ -1,0 +1,56 @@
+{
+  "status": "INSTALLED_VERIFIED_ROLLBACK_READY_AWAITING_HUMAN_D00",
+  "utc": "2026-11-03T15:50:56.596489+00:00",
+  "authorization": "User: approved for deployment. you do the deployment for me",
+  "installed": "QR8:02 +QR10D01 candidate02",
+  "changed_game_paths": [
+    "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_QR9_Diagnostics/init.lua",
+    "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_QR9_Diagnostics/watch.json"
+  ],
+  "artifacts": [
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\deployment_01\\preflight.json",
+      "sha256": "11A6FF2AE66176343D87730694BAB48AC1618DDA555A106FB65258972FC7E663"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\deployment_01\\install.json",
+      "sha256": "97F8618AE77162C7A962103E26E00F10852380DF96D41946C64838B04D482066"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\deployment_01\\verify.json",
+      "sha256": "21C7BA073892A3C9AF7A415E8DB9AC1B11C543A14C7040F502D7B4CEFFE710C1"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\deployment_01\\rollback_readiness.json",
+      "sha256": "2CDCD7E68ED61C37096BADBC73800A2F514B0C2D899DEEFDCFBB637A53093B82"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\deployment_01\\verification.json",
+      "sha256": "81D988A9A0667B90CD997CE3AA9B897FD6A44AE6B870DF2B588FAA2A58DE3AF1"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\deployment_01\\before.json",
+      "sha256": "8EEF93D7690D54982565930FFB4CA9D2B827BE22F1CD73ED6D001E0524DF002F"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\deployment_01\\after.json",
+      "sha256": "0F3FCF85B960EB85444FE9281CFF4EDAA39FF20993041F55889A2441A44B826D"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\deployment_01\\REPORT.md",
+      "sha256": "EDA60BD7AE999654640CA9B92BE883F4FE83832F3947ACEEB0A27CD514A776C8"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\deployment_01\\NEXT_STEPS.md",
+      "sha256": "3CEFE64F94C62A32D1131D9934E72DB635C32612AC12A547AC1F27D33F905E80"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr11\\deployment_01\\HANDOFF.md",
+      "sha256": "3CA0BB8B9A659C4B9925E6C3FF805C2D9766B88596767AB295A66BE9FF2DC910"
+    }
+  ],
+  "receipt_sha256": "CB2D7D8B2B9445BAF0DBABC13A7D66DA4BEA5F2C757B841D9FB7A67E5ECA700D",
+  "native_callbacks": "UNSUPPORTED_NOT_VERIFIED",
+  "live_sampling": "NOT_TESTED",
+  "next": "Human D00 on ManualSave24 only if Regina Call already offered. No game control by Codex."
+}

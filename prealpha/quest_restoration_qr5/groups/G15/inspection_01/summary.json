@@ -1,0 +1,8479 @@
+{
+  "ep1\\openworld\\street_stories\\ep1_street_stories.questphase": {
+    "root_prefabs": [],
+    "hits": []
+  },
+  "ep1\\openworld\\street_stories\\sts_ep1_08\\phases\\sts_ep1_08_cleanup.questphase": {
+    "root_prefabs": [],
+    "hits": [
+      {
+        "graph": "root",
+        "node": "0",
+        "type": "questInputNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [],
+        "out": [
+          [
+            "0",
+            "Out",
+            "27",
+            "In"
+          ],
+          [
+            "0",
+            "Out",
+            "31",
+            "In"
+          ],
+          [
+            "0",
+            "Out",
+            "7",
+            "In"
+          ],
+          [
+            "0",
+            "Out",
+            "88",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "3",
+        "type": "questPhaseNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "88",
+            "Out",
+            "3",
+            "In1"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "root",
+        "node": "9",
+        "type": "questJournalNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "contacts/mr_hands/sts_ep1_08/v_answer_biomonitor_not_destroyed"
+        ],
+        "in": [
+          [
+            "8",
+            "True",
+            "9",
+            "Active"
+          ]
+        ],
+        "out": [
+          [
+            "9",
+            "Out",
+            "11",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "14",
+        "type": "questJournalNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "contacts/mr_hands/sts_ep1_08/v_answer_biomonitor_destroyed"
+        ],
+        "in": [
+          [
+            "7",
+            "True",
+            "14",
+            "Active"
+          ]
+        ],
+        "out": [
+          [
+            "14",
+            "Out",
+            "16",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "7",
+        "type": "questConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalPhoneMessage"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 1,
+              "realPath": "contacts/mr_hands/sts_ep1_08/sts_ep1_08_holocall_dead"
+            },
+            "state": "Active"
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "contacts/mr_hands/sts_ep1_08/sts_ep1_08_holocall_dead"
+        ],
+        "in": [
+          [
+            "0",
+            "Out",
+            "7",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "7",
+            "False",
+            "8",
+            "In"
+          ],
+          [
+            "7",
+            "True",
+            "14",
+            "Active"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "8",
+        "type": "questConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalPhoneMessage"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 1,
+              "realPath": "contacts/mr_hands/sts_ep1_08/sts_ep1_08_holocall_peaceful"
+            },
+            "state": "Active"
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "contacts/mr_hands/sts_ep1_08/sts_ep1_08_holocall_peaceful"
+        ],
+        "in": [
+          [
+            "7",
+            "False",
+            "8",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "8",
+            "True",
+            "9",
+            "Active"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "16",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalPhoneChoiceEntry"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 1,
+              "realPath": "contacts/mr_hands/sts_ep1_08/v_answer_biomonitor_destroyed/v_answer_biomonitor_destroyed_var_1"
+            },
+            "state": "Succeeded"
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "contacts/mr_hands/sts_ep1_08/v_answer_biomonitor_destroyed/v_answer_biomonitor_destroyed_var_1"
+        ],
+        "in": [
+          [
+            "14",
+            "Out",
+            "16",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "16",
+            "Out",
+            "17",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "11",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalPhoneChoiceEntry"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 1,
+              "realPath": "contacts/mr_hands/sts_ep1_08/v_answer_biomonitor_not_destroyed/v_answer_biomonitor_not_destroyed_var_1"
+            },
+            "state": "Succeeded"
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "contacts/mr_hands/sts_ep1_08/v_answer_biomonitor_not_destroyed/v_answer_biomonitor_not_destroyed_var_1"
+        ],
+        "in": [
+          [
+            "9",
+            "Out",
+            "11",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "11",
+            "Out",
+            "12",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "12",
+        "type": "questPhoneManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "contacts/mr_hands/sts_ep1_08/hands_answer_biomonitor_not_destroyed_var_1"
+        ],
+        "in": [
+          [
+            "11",
+            "Out",
+            "12",
+            "In"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "root",
+        "node": "17",
+        "type": "questPhoneManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "contacts/mr_hands/sts_ep1_08/hands_answer_biomonitor_destroyed_var_1"
+        ],
+        "in": [
+          [
+            "16",
+            "Out",
+            "17",
+            "In"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "root",
+        "node": "21",
+        "type": "questConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalPhoneChoiceEntry"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 1,
+              "realPath": "contacts/mr_hands/sts_ep1_08/v_answer_biomonitor_not_destroyed/v_answer_biomonitor_not_destroyed_var_1"
+            },
+            "state": "Succeeded"
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "contacts/mr_hands/sts_ep1_08/v_answer_biomonitor_not_destroyed/v_answer_biomonitor_not_destroyed_var_1"
+        ],
+        "in": [
+          [
+            "27",
+            "Out",
+            "21",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "21",
+            "False",
+            "25",
+            "In1"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "22",
+        "type": "questConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalPhoneChoiceEntry"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 1,
+              "realPath": "contacts/mr_hands/sts_ep1_08/v_answer_biomonitor_not_destroyed/v_answer_biomonitor_not_destroyed_var_2"
+            },
+            "state": "Succeeded"
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "contacts/mr_hands/sts_ep1_08/v_answer_biomonitor_not_destroyed/v_answer_biomonitor_not_destroyed_var_2"
+        ],
+        "in": [
+          [
+            "27",
+            "Out",
+            "22",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "22",
+            "False",
+            "25",
+            "In2"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "23",
+        "type": "questConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalPhoneChoiceEntry"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 1,
+              "realPath": "contacts/mr_hands/sts_ep1_08/v_answer_biomonitor_destroyed/v_answer_biomonitor_destroyed_var_1"
+            },
+            "state": "Succeeded"
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "contacts/mr_hands/sts_ep1_08/v_answer_biomonitor_destroyed/v_answer_biomonitor_destroyed_var_1"
+        ],
+        "in": [
+          [
+            "27",
+            "Out",
+            "23",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "23",
+            "False",
+            "26",
+            "In1"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "24",
+        "type": "questConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalPhoneChoiceEntry"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 1,
+              "realPath": "contacts/mr_hands/sts_ep1_08/v_answer_biomonitor_destroyed/v_answer_biomonitor_destroyed_var_2"
+            },
+            "state": "Succeeded"
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "contacts/mr_hands/sts_ep1_08/v_answer_biomonitor_destroyed/v_answer_biomonitor_destroyed_var_2"
+        ],
+        "in": [
+          [
+            "27",
+            "Out",
+            "24",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "24",
+            "False",
+            "26",
+            "In2"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "25",
+        "type": "questLogicalAndNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "21",
+            "False",
+            "25",
+            "In1"
+          ],
+          [
+            "22",
+            "False",
+            "25",
+            "In2"
+          ]
+        ],
+        "out": [
+          [
+            "25",
+            "Out1",
+            "28",
+            "Inactive"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "26",
+        "type": "questLogicalAndNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "23",
+            "False",
+            "26",
+            "In1"
+          ],
+          [
+            "24",
+            "False",
+            "26",
+            "In2"
+          ]
+        ],
+        "out": [
+          [
+            "26",
+            "Out1",
+            "29",
+            "Inactive"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "27",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "0",
+            "Out",
+            "27",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "27",
+            "Out",
+            "21",
+            "In"
+          ],
+          [
+            "27",
+            "Out",
+            "22",
+            "In"
+          ],
+          [
+            "27",
+            "Out",
+            "23",
+            "In"
+          ],
+          [
+            "27",
+            "Out",
+            "24",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "28",
+        "type": "questJournalNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "contacts/mr_hands/sts_ep1_08/v_answer_biomonitor_not_destroyed"
+        ],
+        "in": [
+          [
+            "25",
+            "Out1",
+            "28",
+            "Inactive"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "root",
+        "node": "29",
+        "type": "questJournalNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "contacts/mr_hands/sts_ep1_08/v_answer_biomonitor_destroyed"
+        ],
+        "in": [
+          [
+            "26",
+            "Out1",
+            "29",
+            "Inactive"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "root",
+        "node": "30",
+        "type": "questInputNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [],
+        "out": [
+          [
+            "30",
+            "Out",
+            "61",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "31",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "0",
+            "Out",
+            "31",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "31",
+            "Out",
+            "85",
+            "In1"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "49",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "61",
+            "Out",
+            "49",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "49",
+            "Out",
+            "84",
+            "In1"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "61",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "30",
+            "Out",
+            "61",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "61",
+            "Out",
+            "49",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "84",
+        "type": "questPhaseNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [
+          "#loc_sts_ep1_botanic_gardens_combat",
+          "#sts_ep1_08_streetstory"
+        ],
+        "journal": [],
+        "in": [
+          [
+            "49",
+            "Out",
+            "84",
+            "In1"
+          ]
+        ],
+        "out": [
+          [
+            "84",
+            "Out1",
+            "86",
+            "In2"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "85",
+        "type": "questPhaseNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [
+          "#sts_ep1_08_streetstory"
+        ],
+        "journal": [],
+        "in": [
+          [
+            "31",
+            "Out",
+            "85",
+            "In1"
+          ]
+        ],
+        "out": [
+          [
+            "85",
+            "Out1",
+            "86",
+            "In1"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "86",
+        "type": "questLogicalAndNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "84",
+            "Out1",
+            "86",
+            "In2"
+          ],
+          [
+            "85",
+            "Out1",
+            "86",
+            "In1"
+          ]
+        ],
+        "out": [
+          [
+            "86",
+            "Out1",
+            "87",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "87",
+        "type": "questFactsDBManagerNodeDefinition",
+        "reads": [],
+        "writes": [
+          {
+            "$type": "questSetVar_NodeType",
+            "factName": "sts_ep1_08_cleanup_done",
+            "setExactValue": 1,
+            "value": 1
+          }
+        ],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "86",
+            "Out1",
+            "87",
+            "In"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "root",
+        "node": "88",
+        "type": "questGameManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "0",
+            "Out",
+            "88",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "88",
+            "Out",
+            "3",
+            "In1"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "0",
+        "type": "questInputNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [],
+        "out": [
+          [
+            "0",
+            "Out",
+            "3",
+            "In"
+          ],
+          [
+            "0",
+            "Out",
+            "74",
+            "In1"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "2",
+        "type": "questFactsDBManagerNodeDefinition",
+        "reads": [],
+        "writes": [
+          {
+            "$type": "questSetVar_NodeType",
+            "factName": "steven_santos_default_on",
+            "setExactValue": 1,
+            "value": 1
+          }
+        ],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "6",
+            "Out",
+            "2",
+            "In"
+          ],
+          [
+            "9",
+            "Out",
+            "2",
+            "In"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "root/3",
+        "node": "3",
+        "type": "questConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Greater",
+            "factName": "sts_ep1_08_biomonitor_ana",
+            "value": 0
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "0",
+            "Out",
+            "3",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "3",
+            "False",
+            "5",
+            "In"
+          ],
+          [
+            "3",
+            "True",
+            "4",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "4",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "3",
+            "True",
+            "4",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "4",
+            "Out",
+            "6",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "5",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "3",
+            "False",
+            "5",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "5",
+            "Out",
+            "91",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "6",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "4",
+            "Out",
+            "6",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "6",
+            "Out",
+            "2",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "8",
+        "type": "questPhoneManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/steven_santos/sts_ep1_08/biomonitor_destroyed_meeting_invitation"
+        ],
+        "in": [
+          [
+            "56",
+            "Out",
+            "8",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "8",
+            "Out",
+            "39",
+            "Active"
+          ],
+          [
+            "8",
+            "Out",
+            "58",
+            "Active"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "9",
+        "type": "questJournalNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city/steven_meeting"
+        ],
+        "in": [
+          [
+            "59",
+            "Out",
+            "9",
+            "Active"
+          ]
+        ],
+        "out": [
+          [
+            "9",
+            "Out",
+            "2",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "10",
+        "type": "questConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Greater",
+            "factName": "sts_ep1_08_save_katya_corpo_blueline",
+            "value": 0
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "12",
+            "True",
+            "10",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "10",
+            "True",
+            "60",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "11",
+        "type": "questConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Greater",
+            "factName": "sts_ep1_08_save_katya_nomad_blueline",
+            "value": 0
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "12",
+            "True",
+            "11",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "11",
+            "True",
+            "61",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "12",
+        "type": "questConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "LessOrEqual",
+            "factName": "sts_ep1_08_katya_killed",
+            "value": 0
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "15",
+            "Out",
+            "12",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "12",
+            "True",
+            "10",
+            "In"
+          ],
+          [
+            "12",
+            "True",
+            "11",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "13",
+        "type": "questPhoneManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/katya_karielin/sts_ep1_08/corpo_blueline_consequence"
+        ],
+        "in": [
+          [
+            "54",
+            "Out",
+            "13",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "13",
+            "Out",
+            "18",
+            "Active"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "14",
+        "type": "questPhoneManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/katya_karielin/sts_ep1_08/nomad_blueline_consequence"
+        ],
+        "in": [
+          [
+            "55",
+            "Out",
+            "14",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "14",
+            "Out",
+            "23",
+            "Active"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "15",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [],
+        "out": [
+          [
+            "15",
+            "Out",
+            "12",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "17",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/steven_santos/sts_ep1_08/biomonitor_destroyed_meeting_invitation"
+        ],
+        "in": [
+          [
+            "96",
+            "Out",
+            "17",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "17",
+            "Out",
+            "59",
+            "Succeeded"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "18",
+        "type": "questJournalNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/katya_karielin/sts_ep1_08/v_answer_corpo_blueline"
+        ],
+        "in": [
+          [
+            "13",
+            "Out",
+            "18",
+            "Active"
+          ]
+        ],
+        "out": [
+          [
+            "18",
+            "Out",
+            "33",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "23",
+        "type": "questJournalNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/katya_karielin/sts_ep1_08/v_answer_nomad_blueline"
+        ],
+        "in": [
+          [
+            "14",
+            "Out",
+            "23",
+            "Active"
+          ]
+        ],
+        "out": [
+          [
+            "23",
+            "Out",
+            "34",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "37",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalPhoneChoiceEntry"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 1,
+              "realPath": "ep1/contacts/steven_santos/sts_ep1_08/v_answer_meeting_invitation/v_answer_meeting_invitation_var_1"
+            },
+            "state": "Succeeded"
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/steven_santos/sts_ep1_08/v_answer_meeting_invitation/v_answer_meeting_invitation_var_1"
+        ],
+        "in": [
+          [
+            "39",
+            "Out",
+            "37",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "37",
+            "Out",
+            "38",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "38",
+        "type": "questPhoneManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/steven_santos/sts_ep1_08/steven_answer_meeting_invitation_var_1"
+        ],
+        "in": [
+          [
+            "37",
+            "Out",
+            "38",
+            "In"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "root/3",
+        "node": "39",
+        "type": "questJournalNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/steven_santos/sts_ep1_08/v_answer_meeting_invitation"
+        ],
+        "in": [
+          [
+            "8",
+            "Out",
+            "39",
+            "Active"
+          ]
+        ],
+        "out": [
+          [
+            "39",
+            "Out",
+            "37",
+            "In"
+          ],
+          [
+            "39",
+            "Out",
+            "64",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "33",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "18",
+            "Out",
+            "33",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "33",
+            "Out",
+            "42",
+            "In"
+          ],
+          [
+            "33",
+            "Out",
+            "43",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "35",
+        "type": "questJournalNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/katya_karielin/sts_ep1_08/v_answer_corpo_blueline"
+        ],
+        "in": [
+          [
+            "44",
+            "Out1",
+            "35",
+            "Inactive"
+          ]
+        ],
+        "out": [
+          [
+            "35",
+            "Out",
+            "52",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "34",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "23",
+            "Out",
+            "34",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "34",
+            "Out",
+            "46",
+            "In"
+          ],
+          [
+            "34",
+            "Out",
+            "47",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "36",
+        "type": "questJournalNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/katya_karielin/sts_ep1_08/v_answer_nomad_blueline"
+        ],
+        "in": [
+          [
+            "48",
+            "Out1",
+            "36",
+            "Inactive"
+          ]
+        ],
+        "out": [
+          [
+            "36",
+            "Out",
+            "53",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "42",
+        "type": "questConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalPhoneChoiceEntry"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 1,
+              "realPath": "ep1/contacts/katya_karielin/sts_ep1_08/v_answer_corpo_blueline/v_answer_corpo_blueline_var_1"
+            },
+            "state": "Succeeded"
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/katya_karielin/sts_ep1_08/v_answer_corpo_blueline/v_answer_corpo_blueline_var_1"
+        ],
+        "in": [
+          [
+            "33",
+            "Out",
+            "42",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "42",
+            "False",
+            "44",
+            "In1"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "43",
+        "type": "questConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalPhoneChoiceEntry"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 1,
+              "realPath": "ep1/contacts/katya_karielin/sts_ep1_08/v_answer_corpo_blueline/v_answer_corpo_blueline_var_2"
+            },
+            "state": "Succeeded"
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/katya_karielin/sts_ep1_08/v_answer_corpo_blueline/v_answer_corpo_blueline_var_2"
+        ],
+        "in": [
+          [
+            "33",
+            "Out",
+            "43",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "43",
+            "False",
+            "44",
+            "In2"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "44",
+        "type": "questLogicalAndNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "42",
+            "False",
+            "44",
+            "In1"
+          ],
+          [
+            "43",
+            "False",
+            "44",
+            "In2"
+          ]
+        ],
+        "out": [
+          [
+            "44",
+            "Out1",
+            "35",
+            "Inactive"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "46",
+        "type": "questConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalPhoneChoiceEntry"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 1,
+              "realPath": "ep1/contacts/katya_karielin/sts_ep1_08/v_answer_nomad_blueline/v_answer_nomad_blueline_var_1"
+            },
+            "state": "Succeeded"
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/katya_karielin/sts_ep1_08/v_answer_nomad_blueline/v_answer_nomad_blueline_var_1"
+        ],
+        "in": [
+          [
+            "34",
+            "Out",
+            "46",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "46",
+            "False",
+            "48",
+            "In1"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "47",
+        "type": "questConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalPhoneChoiceEntry"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 1,
+              "realPath": "ep1/contacts/katya_karielin/sts_ep1_08/v_answer_nomad_blueline/v_answer_nomad_blueline_var_2"
+            },
+            "state": "Succeeded"
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/katya_karielin/sts_ep1_08/v_answer_nomad_blueline/v_answer_nomad_blueline_var_2"
+        ],
+        "in": [
+          [
+            "34",
+            "Out",
+            "47",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "47",
+            "False",
+            "48",
+            "In2"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "48",
+        "type": "questLogicalAndNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "46",
+            "False",
+            "48",
+            "In1"
+          ],
+          [
+            "47",
+            "False",
+            "48",
+            "In2"
+          ]
+        ],
+        "out": [
+          [
+            "48",
+            "Out1",
+            "36",
+            "Inactive"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "52",
+        "type": "questPhoneManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/katya_karielin"
+        ],
+        "in": [
+          [
+            "35",
+            "Out",
+            "52",
+            "In"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "root/3",
+        "node": "53",
+        "type": "questPhoneManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/katya_karielin"
+        ],
+        "in": [
+          [
+            "36",
+            "Out",
+            "53",
+            "In"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "root/3",
+        "node": "54",
+        "type": "questPhoneManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/katya_karielin"
+        ],
+        "in": [
+          [
+            "60",
+            "Out",
+            "54",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "54",
+            "Out",
+            "13",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "55",
+        "type": "questPhoneManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/katya_karielin"
+        ],
+        "in": [
+          [
+            "61",
+            "Out",
+            "55",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "55",
+            "Out",
+            "14",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "56",
+        "type": "questPhoneManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/steven_santos"
+        ],
+        "in": [
+          [
+            "95",
+            "Out",
+            "56",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "56",
+            "Out",
+            "8",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "58",
+        "type": "questJournalNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city/read_message_from_steven"
+        ],
+        "in": [
+          [
+            "8",
+            "Out",
+            "58",
+            "Active"
+          ]
+        ],
+        "out": [
+          [
+            "58",
+            "Out",
+            "96",
+            "Active"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "59",
+        "type": "questJournalNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city/read_message_from_steven"
+        ],
+        "in": [
+          [
+            "17",
+            "Out",
+            "59",
+            "Succeeded"
+          ]
+        ],
+        "out": [
+          [
+            "59",
+            "Out",
+            "9",
+            "Active"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "60",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "10",
+            "True",
+            "60",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "60",
+            "Out",
+            "54",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "61",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "11",
+            "True",
+            "61",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "61",
+            "Out",
+            "55",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "64",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalPhoneChoiceEntry"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 1,
+              "realPath": "ep1/contacts/steven_santos/sts_ep1_08/v_answer_meeting_invitation/v_answer_meeting_invitation_var_2"
+            },
+            "state": "Succeeded"
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/steven_santos/sts_ep1_08/v_answer_meeting_invitation/v_answer_meeting_invitation_var_2"
+        ],
+        "in": [
+          [
+            "39",
+            "Out",
+            "64",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "64",
+            "Out",
+            "65",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "65",
+        "type": "questPhoneManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/steven_santos/sts_ep1_08/steven_answer_meeting_invitation_var_2"
+        ],
+        "in": [
+          [
+            "64",
+            "Out",
+            "65",
+            "In"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "root/3",
+        "node": "66",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalPhoneMessage"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 1,
+              "realPath": "ep1/contacts/janet/sts_ep1_08/katya_dead"
+            },
+            "state": "Active"
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/janet/sts_ep1_08/katya_dead"
+        ],
+        "in": [
+          [
+            "68",
+            "Out",
+            "66",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "66",
+            "Out",
+            "67",
+            "Active"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "67",
+        "type": "questJournalNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/janet/sts_ep1_08/v_answer_to_janet_biomonitor_info"
+        ],
+        "in": [
+          [
+            "66",
+            "Out",
+            "67",
+            "Active"
+          ]
+        ],
+        "out": [
+          [
+            "67",
+            "Out",
+            "75",
+            "In"
+          ],
+          [
+            "67",
+            "Out",
+            "76",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "68",
+        "type": "questPhoneManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/janet/sts_ep1_08/katya_dead"
+        ],
+        "in": [
+          [
+            "90",
+            "Out1",
+            "68",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "68",
+            "Out",
+            "66",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "74",
+        "type": "questLogicalHubNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "0",
+            "Out",
+            "74",
+            "In1"
+          ]
+        ],
+        "out": [
+          [
+            "74",
+            "Out1",
+            "98",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "75",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalPhoneChoiceEntry"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 1,
+              "realPath": "ep1/contacts/janet/sts_ep1_08/v_answer_to_janet_biomonitor_info/v_answer_to_janet_biomonitor_info_var_1"
+            },
+            "state": "Succeeded"
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/janet/sts_ep1_08/v_answer_to_janet_biomonitor_info/v_answer_to_janet_biomonitor_info_var_1"
+        ],
+        "in": [
+          [
+            "67",
+            "Out",
+            "75",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "75",
+            "Out",
+            "77",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "76",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalPhoneChoiceEntry"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 1,
+              "realPath": "ep1/contacts/janet/sts_ep1_08/v_answer_to_janet_biomonitor_info/v_answer_to_janet_biomonitor_info_var_2"
+            },
+            "state": "Succeeded"
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/janet/sts_ep1_08/v_answer_to_janet_biomonitor_info/v_answer_to_janet_biomonitor_info_var_2"
+        ],
+        "in": [
+          [
+            "67",
+            "Out",
+            "76",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "76",
+            "Out",
+            "78",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "77",
+        "type": "questPhoneManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/janet/sts_ep1_08/janet_answer_to_katya_dead_var_1"
+        ],
+        "in": [
+          [
+            "75",
+            "Out",
+            "77",
+            "In"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "root/3",
+        "node": "78",
+        "type": "questPhoneManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/janet/sts_ep1_08/janet_answer_to_katya_dead_var_2"
+        ],
+        "in": [
+          [
+            "76",
+            "Out",
+            "78",
+            "In"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "root/3",
+        "node": "87",
+        "type": "questConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Greater",
+            "factName": "ep1_standalone",
+            "value": 0
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "97",
+            "Out",
+            "87",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "87",
+            "False",
+            "89",
+            "In"
+          ],
+          [
+            "87",
+            "True",
+            "88",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "88",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "87",
+            "True",
+            "88",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "88",
+            "Out",
+            "90",
+            "In1"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "89",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "87",
+            "False",
+            "89",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "89",
+            "Out",
+            "90",
+            "In2"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "90",
+        "type": "questLogicalHubNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "88",
+            "Out",
+            "90",
+            "In1"
+          ],
+          [
+            "89",
+            "Out",
+            "90",
+            "In2"
+          ]
+        ],
+        "out": [
+          [
+            "90",
+            "Out1",
+            "68",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "91",
+        "type": "questConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Greater",
+            "factName": "ep1_standalone",
+            "value": 0
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "5",
+            "Out",
+            "91",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "91",
+            "False",
+            "93",
+            "In"
+          ],
+          [
+            "91",
+            "True",
+            "92",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "92",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "91",
+            "True",
+            "92",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "92",
+            "Out",
+            "94",
+            "In1"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "93",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "91",
+            "False",
+            "93",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "93",
+            "Out",
+            "94",
+            "In2"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "94",
+        "type": "questLogicalHubNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "92",
+            "Out",
+            "94",
+            "In1"
+          ],
+          [
+            "93",
+            "Out",
+            "94",
+            "In2"
+          ]
+        ],
+        "out": [
+          [
+            "94",
+            "Out1",
+            "95",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "95",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "94",
+            "Out1",
+            "95",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "95",
+            "Out",
+            "56",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "96",
+        "type": "questJournalNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city_description"
+        ],
+        "in": [
+          [
+            "58",
+            "Out",
+            "96",
+            "Active"
+          ]
+        ],
+        "out": [
+          [
+            "96",
+            "Out",
+            "17",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "97",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "98",
+            "Out",
+            "97",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "97",
+            "Out",
+            "87",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/3",
+        "node": "98",
+        "type": "questDeletionMarkerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "74",
+            "Out1",
+            "98",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "98",
+            "Out",
+            "97",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84",
+        "node": "0",
+        "type": "questInputNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [],
+        "out": [
+          [
+            "0",
+            "Out",
+            "10",
+            "In"
+          ],
+          [
+            "0",
+            "Out",
+            "3",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84",
+        "node": "1",
+        "type": "questOutputNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "26",
+            "Out",
+            "1",
+            "In"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "root/84",
+        "node": "2",
+        "type": "questCrowdManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "9",
+            "Out",
+            "2",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "2",
+            "Out",
+            "12",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84",
+        "node": "3",
+        "type": "questEventManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "0",
+            "Out",
+            "3",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "3",
+            "Out",
+            "4",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84",
+        "node": "4",
+        "type": "questEventManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "3",
+            "Out",
+            "4",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "4",
+            "Out",
+            "5",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84",
+        "node": "5",
+        "type": "questEventManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "4",
+            "Out",
+            "5",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "5",
+            "Out",
+            "8",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84",
+        "node": "6",
+        "type": "questEventManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "7",
+            "Out",
+            "6",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "6",
+            "Out",
+            "19",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84",
+        "node": "7",
+        "type": "questEventManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "8",
+            "Out",
+            "7",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "7",
+            "Out",
+            "6",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84",
+        "node": "8",
+        "type": "questEventManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "5",
+            "Out",
+            "8",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "8",
+            "Out",
+            "7",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84",
+        "node": "9",
+        "type": "questSpawnManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "10",
+            "Out",
+            "9",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "9",
+            "Out",
+            "2",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84",
+        "node": "10",
+        "type": "questSpawnManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "0",
+            "Out",
+            "10",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "10",
+            "Out",
+            "9",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84",
+        "node": "11",
+        "type": "questSpawnManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "13",
+            "Out",
+            "11",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "11",
+            "Out",
+            "14",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84",
+        "node": "12",
+        "type": "questSpawnManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "2",
+            "Out",
+            "12",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "12",
+            "Out",
+            "13",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84",
+        "node": "13",
+        "type": "questSpawnManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "12",
+            "Out",
+            "13",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "13",
+            "Out",
+            "11",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84",
+        "node": "14",
+        "type": "questWorldDataManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "11",
+            "Out",
+            "14",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "14",
+            "Out",
+            "15",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84",
+        "node": "15",
+        "type": "questWorldDataManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "14",
+            "Out",
+            "15",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "15",
+            "Out",
+            "21",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84",
+        "node": "16",
+        "type": "questLogicalAndNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "18",
+            "Out1",
+            "16",
+            "In2"
+          ],
+          [
+            "27",
+            "Out",
+            "16",
+            "In1"
+          ]
+        ],
+        "out": [
+          [
+            "16",
+            "Out1",
+            "25",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84",
+        "node": "18",
+        "type": "questPhaseNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "24",
+            "Out",
+            "18",
+            "In1"
+          ]
+        ],
+        "out": [
+          [
+            "18",
+            "Out1",
+            "16",
+            "In2"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84",
+        "node": "19",
+        "type": "questEventManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "6",
+            "Out",
+            "19",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "19",
+            "Out",
+            "20",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84",
+        "node": "20",
+        "type": "questEventManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "19",
+            "Out",
+            "20",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "20",
+            "Out",
+            "28",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84",
+        "node": "21",
+        "type": "questWorldDataManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "15",
+            "Out",
+            "21",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "21",
+            "Out",
+            "22",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84",
+        "node": "22",
+        "type": "questWorldDataManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "21",
+            "Out",
+            "22",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "22",
+            "Out",
+            "24",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84",
+        "node": "24",
+        "type": "questVehicleNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "22",
+            "Out",
+            "24",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "24",
+            "Out",
+            "18",
+            "In1"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84",
+        "node": "25",
+        "type": "questFactsDBManagerNodeDefinition",
+        "reads": [],
+        "writes": [
+          {
+            "$type": "questSetVar_NodeType",
+            "factName": "sts_ep1_08_cleanup_executed",
+            "setExactValue": 1,
+            "value": 1
+          }
+        ],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "16",
+            "Out1",
+            "25",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "25",
+            "Out",
+            "26",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84",
+        "node": "26",
+        "type": "questFactsDBManagerNodeDefinition",
+        "reads": [],
+        "writes": [
+          {
+            "$type": "questSetVar_NodeType",
+            "factName": "sts_ep1_08_cleanup_organitopia_done",
+            "setExactValue": 1,
+            "value": 1
+          }
+        ],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "25",
+            "Out",
+            "26",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "26",
+            "Out",
+            "1",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84",
+        "node": "27",
+        "type": "questEventManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "28",
+            "Out",
+            "27",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "27",
+            "Out",
+            "16",
+            "In1"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84",
+        "node": "28",
+        "type": "questEventManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "20",
+            "Out",
+            "28",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "28",
+            "Out",
+            "27",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84/18",
+        "node": "0",
+        "type": "questInputNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [],
+        "out": [
+          [
+            "0",
+            "Out",
+            "5",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84/18",
+        "node": "1",
+        "type": "questOutputNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "38",
+            "Out",
+            "1",
+            "In"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "root/84/18",
+        "node": "5",
+        "type": "questInteractiveObjectManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "0",
+            "Out",
+            "5",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "5",
+            "Out",
+            "7",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84/18",
+        "node": "7",
+        "type": "questInteractiveObjectManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "5",
+            "Out",
+            "7",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "7",
+            "Out",
+            "9",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84/18",
+        "node": "9",
+        "type": "questInteractiveObjectManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "7",
+            "Out",
+            "9",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "9",
+            "Out",
+            "15",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84/18",
+        "node": "10",
+        "type": "questInteractiveObjectManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "15",
+            "Out",
+            "10",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "10",
+            "Out",
+            "11",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84/18",
+        "node": "11",
+        "type": "questInteractiveObjectManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "10",
+            "Out",
+            "11",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "11",
+            "Out",
+            "12",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84/18",
+        "node": "12",
+        "type": "questInteractiveObjectManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "11",
+            "Out",
+            "12",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "12",
+            "Out",
+            "14",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84/18",
+        "node": "13",
+        "type": "questInteractiveObjectManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "14",
+            "Out",
+            "13",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "13",
+            "Out",
+            "18",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84/18",
+        "node": "14",
+        "type": "questInteractiveObjectManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "12",
+            "Out",
+            "14",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "14",
+            "Out",
+            "13",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84/18",
+        "node": "15",
+        "type": "questInteractiveObjectManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "9",
+            "Out",
+            "15",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "15",
+            "Out",
+            "10",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84/18",
+        "node": "18",
+        "type": "questInteractiveObjectManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "13",
+            "Out",
+            "18",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "18",
+            "Out",
+            "20",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84/18",
+        "node": "20",
+        "type": "questInteractiveObjectManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "18",
+            "Out",
+            "20",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "20",
+            "Out",
+            "22",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84/18",
+        "node": "22",
+        "type": "questInteractiveObjectManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "20",
+            "Out",
+            "22",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "22",
+            "Out",
+            "33",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84/18",
+        "node": "31",
+        "type": "questEventManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "40",
+            "Out",
+            "31",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "31",
+            "Out",
+            "36",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84/18",
+        "node": "33",
+        "type": "questInteractiveObjectManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "22",
+            "Out",
+            "33",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "33",
+            "Out",
+            "34",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84/18",
+        "node": "34",
+        "type": "questInteractiveObjectManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "33",
+            "Out",
+            "34",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "34",
+            "Out",
+            "40",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84/18",
+        "node": "35",
+        "type": "questEventManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "36",
+            "Out",
+            "35",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "35",
+            "Out",
+            "37",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84/18",
+        "node": "36",
+        "type": "questEventManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "31",
+            "Out",
+            "36",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "36",
+            "Out",
+            "35",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84/18",
+        "node": "37",
+        "type": "questEventManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "35",
+            "Out",
+            "37",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "37",
+            "Out",
+            "38",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84/18",
+        "node": "38",
+        "type": "questInteractiveObjectManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "37",
+            "Out",
+            "38",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "38",
+            "Out",
+            "1",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/84/18",
+        "node": "40",
+        "type": "questInteractiveObjectManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "34",
+            "Out",
+            "40",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "40",
+            "Out",
+            "31",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/85",
+        "node": "0",
+        "type": "questInputNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [],
+        "out": [
+          [
+            "0",
+            "Out",
+            "2",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/85",
+        "node": "1",
+        "type": "questOutputNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "3",
+            "Out",
+            "1",
+            "In"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "root/85",
+        "node": "2",
+        "type": "questSpawnManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "0",
+            "Out",
+            "2",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "2",
+            "Out",
+            "5",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/85",
+        "node": "3",
+        "type": "questFactsDBManagerNodeDefinition",
+        "reads": [],
+        "writes": [
+          {
+            "$type": "questSetVar_NodeType",
+            "factName": "sts_ep1_08_agents_room_cleanup_done",
+            "setExactValue": 1,
+            "value": 1
+          }
+        ],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "4",
+            "Out",
+            "3",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "3",
+            "Out",
+            "1",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/85",
+        "node": "4",
+        "type": "questEventManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "5",
+            "Out",
+            "4",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "4",
+            "Out",
+            "3",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/85",
+        "node": "5",
+        "type": "questEventManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "2",
+            "Out",
+            "5",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "5",
+            "Out",
+            "4",
+            "In"
+          ]
+        ]
+      }
+    ]
+  },
+  "ep1\\quest\\ep1_default_dialogs.questphase": {
+    "root_prefabs": [],
+    "hits": [
+      {
+        "graph": "root",
+        "node": "17",
+        "type": "questPhaseNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [
+          "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase"
+        ],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "19",
+            "Out",
+            "17",
+            "In1"
+          ]
+        ],
+        "out": [
+          [
+            "17",
+            "Out1",
+            "19",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "19",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Greater",
+            "factName": "steven_santos_default_on",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "q304_stadium_escape_active",
+            "value": 0
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "17",
+            "Out1",
+            "19",
+            "In"
+          ],
+          [
+            "3",
+            "Out1",
+            "19",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "19",
+            "Out",
+            "17",
+            "In1"
+          ]
+        ]
+      }
+    ]
+  },
+  "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase": {
+    "root_prefabs": [],
+    "hits": [
+      {
+        "graph": "root",
+        "node": "0",
+        "type": "questInputNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [],
+        "out": [
+          [
+            "0",
+            "Out",
+            "2",
+            "In"
+          ],
+          [
+            "0",
+            "Out",
+            "30",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "1",
+        "type": "questOutputNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "31",
+            "Out",
+            "1",
+            "In"
+          ],
+          [
+            "33",
+            "Out",
+            "1",
+            "In"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "root",
+        "node": "3",
+        "type": "questSpawnManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "2",
+            "True",
+            "3",
+            "In"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "root",
+        "node": "5",
+        "type": "questSpawnManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "2",
+            "False",
+            "5",
+            "In"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "root",
+        "node": "24",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "2",
+            "True",
+            "24",
+            "In"
+          ],
+          [
+            "27",
+            "Out1",
+            "24",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "24",
+            "Out",
+            "27",
+            "In1"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "26",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "2",
+            "False",
+            "26",
+            "In"
+          ],
+          [
+            "28",
+            "Out1",
+            "26",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "26",
+            "Out",
+            "28",
+            "In1"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "2",
+        "type": "questConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Greater",
+            "factName": "sts_ep1_08_biomonitor_ana",
+            "value": 0
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "0",
+            "Out",
+            "2",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "2",
+            "False",
+            "26",
+            "In"
+          ],
+          [
+            "2",
+            "False",
+            "5",
+            "In"
+          ],
+          [
+            "2",
+            "True",
+            "24",
+            "In"
+          ],
+          [
+            "2",
+            "True",
+            "3",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "27",
+        "type": "questPhaseNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "24",
+            "Out",
+            "27",
+            "In1"
+          ]
+        ],
+        "out": [
+          [
+            "27",
+            "Out1",
+            "24",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "28",
+        "type": "questPhaseNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "26",
+            "Out",
+            "28",
+            "In1"
+          ]
+        ],
+        "out": [
+          [
+            "28",
+            "Out1",
+            "26",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "30",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "steven_santos_default_on",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Greater",
+            "factName": "q304_stadium_escape_active",
+            "value": 0
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "0",
+            "Out",
+            "30",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "30",
+            "Out",
+            "32",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "31",
+        "type": "questSpawnManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "32",
+            "False",
+            "31",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "31",
+            "Out",
+            "1",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "32",
+        "type": "questConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Greater",
+            "factName": "sts_ep1_08_biomonitor_ana",
+            "value": 0
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "30",
+            "Out",
+            "32",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "32",
+            "False",
+            "31",
+            "In"
+          ],
+          [
+            "32",
+            "True",
+            "33",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "33",
+        "type": "questSpawnManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "32",
+            "True",
+            "33",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "33",
+            "Out",
+            "1",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/27",
+        "node": "0",
+        "type": "questInputNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [],
+        "out": [
+          [
+            "0",
+            "Out",
+            "2",
+            "In"
+          ],
+          [
+            "0",
+            "Out",
+            "3",
+            "Start1"
+          ]
+        ]
+      },
+      {
+        "graph": "root/27",
+        "node": "1",
+        "type": "questOutputNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "2",
+            "Out",
+            "1",
+            "In"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "root/27",
+        "node": "2",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "0",
+            "Out",
+            "2",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "2",
+            "Out",
+            "1",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/27",
+        "node": "3",
+        "type": "questSceneNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [
+          "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\sts_08_steven_default_stadium.scene"
+        ],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "0",
+            "Out",
+            "3",
+            "Start1"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "root/28",
+        "node": "0",
+        "type": "questInputNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [],
+        "out": [
+          [
+            "0",
+            "Out",
+            "11",
+            "In"
+          ],
+          [
+            "0",
+            "Out",
+            "17",
+            "In"
+          ],
+          [
+            "0",
+            "Out",
+            "34",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/28",
+        "node": "1",
+        "type": "questOutputNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "25",
+            "Out",
+            "1",
+            "In"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "root/28",
+        "node": "3",
+        "type": "questSceneNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [
+          "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\sts_08_steven_default_new_biomonitor_not_destroyed.scene"
+        ],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "31",
+            "Out",
+            "3",
+            "Start 1"
+          ]
+        ],
+        "out": [
+          [
+            "3",
+            "End 2",
+            "13",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/28",
+        "node": "7",
+        "type": "questSpawnManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "12",
+            "Out",
+            "7",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "7",
+            "Out",
+            "14",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/28",
+        "node": "11",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "0",
+            "Out",
+            "11",
+            "In"
+          ],
+          [
+            "13",
+            "CutSource",
+            "11",
+            "CutDestination"
+          ]
+        ],
+        "out": [
+          [
+            "11",
+            "Out",
+            "25",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/28",
+        "node": "12",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "30",
+            "Out",
+            "12",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "12",
+            "Out",
+            "7",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/28",
+        "node": "13",
+        "type": "questCutControlNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "3",
+            "End 2",
+            "13",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "13",
+            "CutSource",
+            "11",
+            "CutDestination"
+          ],
+          [
+            "13",
+            "Out",
+            "15",
+            "Succeeded"
+          ]
+        ]
+      },
+      {
+        "graph": "root/28",
+        "node": "14",
+        "type": "questFactsDBManagerNodeDefinition",
+        "reads": [],
+        "writes": [
+          {
+            "$type": "questSetVar_NodeType",
+            "factName": "steven_santos_default_on",
+            "setExactValue": 1,
+            "value": 0
+          }
+        ],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "7",
+            "Out",
+            "14",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "14",
+            "Out",
+            "23",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/28",
+        "node": "15",
+        "type": "questJournalNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city/talk_with_steven"
+        ],
+        "in": [
+          [
+            "13",
+            "Out",
+            "15",
+            "Succeeded"
+          ]
+        ],
+        "out": [
+          [
+            "15",
+            "Out",
+            "16",
+            "Succeeded"
+          ]
+        ]
+      },
+      {
+        "graph": "root/28",
+        "node": "16",
+        "type": "questJournalNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city"
+        ],
+        "in": [
+          [
+            "15",
+            "Out",
+            "16",
+            "Succeeded"
+          ]
+        ],
+        "out": [
+          [
+            "16",
+            "Out",
+            "33",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/28",
+        "node": "17",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "0",
+            "Out",
+            "17",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "17",
+            "Out",
+            "20",
+            "In"
+          ],
+          [
+            "17",
+            "Out",
+            "21",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/28",
+        "node": "19",
+        "type": "questJournalNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/steven_santos/sts_ep1_08/v_answer_meeting_invitation"
+        ],
+        "in": [
+          [
+            "22",
+            "Out1",
+            "19",
+            "Inactive"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "root/28",
+        "node": "20",
+        "type": "questConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalPhoneChoiceEntry"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 1,
+              "realPath": "ep1/contacts/steven_santos/sts_ep1_08/v_answer_meeting_invitation/v_answer_meeting_invitation_var_1"
+            },
+            "state": "Succeeded"
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/steven_santos/sts_ep1_08/v_answer_meeting_invitation/v_answer_meeting_invitation_var_1"
+        ],
+        "in": [
+          [
+            "17",
+            "Out",
+            "20",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "20",
+            "False",
+            "22",
+            "In1"
+          ]
+        ]
+      },
+      {
+        "graph": "root/28",
+        "node": "21",
+        "type": "questConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalPhoneChoiceEntry"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 1,
+              "realPath": "ep1/contacts/steven_santos/sts_ep1_08/v_answer_meeting_invitation/v_answer_meeting_invitation_var_2"
+            },
+            "state": "Succeeded"
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/steven_santos/sts_ep1_08/v_answer_meeting_invitation/v_answer_meeting_invitation_var_2"
+        ],
+        "in": [
+          [
+            "17",
+            "Out",
+            "21",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "21",
+            "False",
+            "22",
+            "In2"
+          ]
+        ]
+      },
+      {
+        "graph": "root/28",
+        "node": "22",
+        "type": "questLogicalAndNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "20",
+            "False",
+            "22",
+            "In1"
+          ],
+          [
+            "21",
+            "False",
+            "22",
+            "In2"
+          ]
+        ],
+        "out": [
+          [
+            "22",
+            "Out1",
+            "19",
+            "Inactive"
+          ]
+        ]
+      },
+      {
+        "graph": "root/28",
+        "node": "23",
+        "type": "questPhoneManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/steven_santos"
+        ],
+        "in": [
+          [
+            "14",
+            "Out",
+            "23",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "23",
+            "Out",
+            "27",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/28",
+        "node": "25",
+        "type": "questVehicleNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "11",
+            "Out",
+            "25",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "25",
+            "Out",
+            "1",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/28",
+        "node": "27",
+        "type": "questEventManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "23",
+            "Out",
+            "27",
+            "In"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "root/28",
+        "node": "30",
+        "type": "questVehicleNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "33",
+            "Out",
+            "30",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "30",
+            "Out",
+            "12",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/28",
+        "node": "31",
+        "type": "questVehicleNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "32",
+            "Out",
+            "31",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "31",
+            "Out",
+            "3",
+            "Start 1"
+          ]
+        ]
+      },
+      {
+        "graph": "root/28",
+        "node": "32",
+        "type": "questEventManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "34",
+            "Out",
+            "32",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "32",
+            "Out",
+            "31",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/28",
+        "node": "33",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "16",
+            "Out",
+            "33",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "33",
+            "Out",
+            "30",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/28",
+        "node": "34",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "0",
+            "Out",
+            "34",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "34",
+            "Out",
+            "32",
+            "In"
+          ]
+        ]
+      }
+    ]
+  },
+  "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\sts_08_steven_default_new_biomonitor_not_destroyed.scene": {
+    "root_prefabs": [],
+    "hits": [
+      {
+        "graph": "scene",
+        "node": "114",
+        "type": "scnQuestNode",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "120",
+            "0:0",
+            "114",
+            "0:1"
+          ]
+        ],
+        "out": [
+          [
+            "114",
+            "0:0",
+            "187",
+            "0:1"
+          ]
+        ]
+      },
+      {
+        "graph": "scene",
+        "node": "118",
+        "type": "scnSectionNode",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "187",
+            "0:0",
+            "118",
+            "0:0"
+          ]
+        ],
+        "out": [
+          [
+            "118",
+            "0:0",
+            "209",
+            "0:3"
+          ]
+        ]
+      },
+      {
+        "graph": "scene",
+        "node": "120",
+        "type": "scnStartNode",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [],
+        "out": [
+          [
+            "120",
+            "0:0",
+            "114",
+            "0:1"
+          ],
+          [
+            "120",
+            "0:0",
+            "216",
+            "0:0"
+          ]
+        ]
+      },
+      {
+        "graph": "scene",
+        "node": "122",
+        "type": "scnChoiceNode",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "206",
+            "0:0",
+            "122",
+            "0:0"
+          ]
+        ],
+        "out": [
+          [
+            "122",
+            "0:0",
+            "124",
+            "0:0"
+          ]
+        ]
+      },
+      {
+        "graph": "scene",
+        "node": "124",
+        "type": "scnSectionNode",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "122",
+            "0:0",
+            "124",
+            "0:0"
+          ]
+        ],
+        "out": [
+          [
+            "124",
+            "0:0",
+            "126",
+            "0:0"
+          ],
+          [
+            "124",
+            "2:0",
+            "238",
+            "0:0"
+          ],
+          [
+            "124",
+            "3:0",
+            "159",
+            "0:1"
+          ],
+          [
+            "124",
+            "4:0",
+            "165",
+            "0:1"
+          ],
+          [
+            "124",
+            "5:0",
+            "167",
+            "0:1"
+          ],
+          [
+            "124",
+            "6:0",
+            "171",
+            "0:1"
+          ]
+        ]
+      },
+      {
+        "graph": "scene",
+        "node": "126",
+        "type": "scnChoiceNode",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "124",
+            "0:0",
+            "126",
+            "0:0"
+          ],
+          [
+            "130",
+            "2:0",
+            "126",
+            "0:0"
+          ],
+          [
+            "132",
+            "2:0",
+            "126",
+            "0:0"
+          ]
+        ],
+        "out": [
+          [
+            "126",
+            "0:0",
+            "128",
+            "0:0"
+          ],
+          [
+            "126",
+            "0:1",
+            "131",
+            "0:1"
+          ],
+          [
+            "126",
+            "0:2",
+            "133",
+            "0:1"
+          ]
+        ]
+      },
+      {
+        "graph": "scene",
+        "node": "128",
+        "type": "scnSectionNode",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "126",
+            "0:0",
+            "128",
+            "0:0"
+          ]
+        ],
+        "out": [
+          [
+            "128",
+            "0:0",
+            "145",
+            "0:0"
+          ],
+          [
+            "128",
+            "0:0",
+            "198",
+            "0:1"
+          ],
+          [
+            "128",
+            "2:0",
+            "179",
+            "0:1"
+          ],
+          [
+            "128",
+            "3:0",
+            "180",
+            "0:1"
+          ]
+        ]
+      },
+      {
+        "graph": "scene",
+        "node": "130",
+        "type": "scnSectionNode",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "131",
+            "0:0",
+            "130",
+            "0:0"
+          ]
+        ],
+        "out": [
+          [
+            "130",
+            "2:0",
+            "126",
+            "0:0"
+          ],
+          [
+            "130",
+            "3:0",
+            "175",
+            "0:1"
+          ],
+          [
+            "130",
+            "4:0",
+            "176",
+            "0:1"
+          ],
+          [
+            "130",
+            "5:0",
+            "181",
+            "0:1"
+          ]
+        ]
+      },
+      {
+        "graph": "scene",
+        "node": "131",
+        "type": "scnQuestNode",
+        "reads": [],
+        "writes": [],
+        "refs": [
+          "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\sts_08_steven_default_new_biomonitor_not_destroyed.scene"
+        ],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "126",
+            "0:1",
+            "131",
+            "0:1"
+          ]
+        ],
+        "out": [
+          [
+            "131",
+            "0:0",
+            "130",
+            "0:0"
+          ]
+        ]
+      },
+      {
+        "graph": "scene",
+        "node": "132",
+        "type": "scnSectionNode",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "133",
+            "0:0",
+            "132",
+            "0:0"
+          ]
+        ],
+        "out": [
+          [
+            "132",
+            "2:0",
+            "126",
+            "0:0"
+          ],
+          [
+            "132",
+            "3:0",
+            "169",
+            "0:1"
+          ],
+          [
+            "132",
+            "4:0",
+            "170",
+            "0:1"
+          ],
+          [
+            "132",
+            "5:0",
+            "173",
+            "0:1"
+          ]
+        ]
+      },
+      {
+        "graph": "scene",
+        "node": "133",
+        "type": "scnQuestNode",
+        "reads": [],
+        "writes": [],
+        "refs": [
+          "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\sts_08_steven_default_new_biomonitor_not_destroyed.scene"
+        ],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "126",
+            "0:2",
+            "133",
+            "0:1"
+          ]
+        ],
+        "out": [
+          [
+            "133",
+            "0:0",
+            "132",
+            "0:0"
+          ]
+        ]
+      },
+      {
+        "graph": "scene",
+        "node": "145",
+        "type": "scnEndNode",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "128",
+            "0:0",
+            "145",
+            "0:0"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "scene",
+        "node": "154",
+        "type": "scnStartNode",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [],
+        "out": [
+          [
+            "154",
+            "0:0",
+            "155",
+            "0:0"
+          ]
+        ]
+      },
+      {
+        "graph": "scene",
+        "node": "155",
+        "type": "scnEndNode",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "154",
+            "0:0",
+            "155",
+            "0:0"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "scene",
+        "node": "159",
+        "type": "scnQuestNode",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "124",
+            "3:0",
+            "159",
+            "0:1"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "scene",
+        "node": "165",
+        "type": "scnQuestNode",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "124",
+            "4:0",
+            "165",
+            "0:1"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "scene",
+        "node": "167",
+        "type": "scnQuestNode",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "124",
+            "5:0",
+            "167",
+            "0:1"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "scene",
+        "node": "169",
+        "type": "scnQuestNode",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "132",
+            "3:0",
+            "169",
+            "0:1"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "scene",
+        "node": "170",
+        "type": "scnQuestNode",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "132",
+            "4:0",
+            "170",
+            "0:1"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "scene",
+        "node": "171",
+        "type": "scnQuestNode",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "124",
+            "6:0",
+            "171",
+            "0:1"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "scene",
+        "node": "173",
+        "type": "scnQuestNode",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "132",
+            "5:0",
+            "173",
+            "0:1"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "scene",
+        "node": "175",
+        "type": "scnQuestNode",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "130",
+            "3:0",
+            "175",
+            "0:1"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "scene",
+        "node": "176",
+        "type": "scnQuestNode",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "130",
+            "4:0",
+            "176",
+            "0:1"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "scene",
+        "node": "179",
+        "type": "scnQuestNode",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "128",
+            "2:0",
+            "179",
+            "0:1"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "scene",
+        "node": "180",
+        "type": "scnQuestNode",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "128",
+            "3:0",
+            "180",
+            "0:1"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "scene",
+        "node": "181",
+        "type": "scnQuestNode",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "130",
+            "5:0",
+            "181",
+            "0:1"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "scene",
+        "node": "187",
+        "type": "scnQuestNode",
+        "reads": [],
+        "writes": [
+          {
+            "$type": "questSetVar_NodeType",
+            "factName": "steven_night_city_default_dialogue_start",
+            "setExactValue": 0,
+            "value": 1
+          }
+        ],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "114",
+            "0:0",
+            "187",
+            "0:1"
+          ]
+        ],
+        "out": [
+          [
+            "187",
+            "0:0",
+            "118",
+            "0:0"
+          ]
+        ]
+      },
+      {
+        "graph": "scene",
+        "node": "191",
+        "type": "scnQuestNode",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "238",
+            "0:0",
+            "191",
+            "0:1"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "scene",
+        "node": "195",
+        "type": "scnChoiceNode",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "198",
+            "0:0",
+            "195",
+            "0:0"
+          ]
+        ],
+        "out": [
+          [
+            "195",
+            "0:0",
+            "197",
+            "0:1"
+          ]
+        ]
+      },
+      {
+        "graph": "scene",
+        "node": "197",
+        "type": "scnQuestNode",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "195",
+            "0:0",
+            "197",
+            "0:1"
+          ]
+        ],
+        "out": [
+          [
+            "197",
+            "0:0",
+            "198",
+            "0:1"
+          ]
+        ]
+      },
+      {
+        "graph": "scene",
+        "node": "198",
+        "type": "scnQuestNode",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "128",
+            "0:0",
+            "198",
+            "0:1"
+          ],
+          [
+            "197",
+            "0:0",
+            "198",
+            "0:1"
+          ],
+          [
+            "227",
+            "0:0",
+            "198",
+            "0:1"
+          ]
+        ],
+        "out": [
+          [
+            "198",
+            "0:0",
+            "195",
+            "0:0"
+          ]
+        ]
+      },
+      {
+        "graph": "scene",
+        "node": "206",
+        "type": "scnQuestNode",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city/talk_with_steven"
+        ],
+        "in": [
+          [
+            "209",
+            "0:0",
+            "206",
+            "0:1"
+          ]
+        ],
+        "out": [
+          [
+            "206",
+            "0:0",
+            "122",
+            "0:0"
+          ]
+        ]
+      },
+      {
+        "graph": "scene",
+        "node": "209",
+        "type": "scnQuestNode",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city/steven_meeting"
+        ],
+        "in": [
+          [
+            "118",
+            "0:0",
+            "209",
+            "0:3"
+          ]
+        ],
+        "out": [
+          [
+            "209",
+            "0:0",
+            "206",
+            "0:1"
+          ]
+        ]
+      },
+      {
+        "graph": "scene",
+        "node": "216",
+        "type": "scnSectionNode",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "120",
+            "0:0",
+            "216",
+            "0:0"
+          ]
+        ],
+        "out": [
+          [
+            "216",
+            "2:0",
+            "218",
+            "0:1"
+          ]
+        ]
+      },
+      {
+        "graph": "scene",
+        "node": "218",
+        "type": "scnQuestNode",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "216",
+            "2:0",
+            "218",
+            "0:1"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "scene",
+        "node": "227",
+        "type": "scnStartNode",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [],
+        "out": [
+          [
+            "227",
+            "0:0",
+            "198",
+            "0:1"
+          ]
+        ]
+      },
+      {
+        "graph": "scene",
+        "node": "233",
+        "type": "scnQuestNode",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "238",
+            "0:0",
+            "233",
+            "0:1"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "scene",
+        "node": "238",
+        "type": "scnHubNode",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "124",
+            "2:0",
+            "238",
+            "0:0"
+          ]
+        ],
+        "out": [
+          [
+            "238",
+            "0:0",
+            "191",
+            "0:1"
+          ],
+          [
+            "238",
+            "0:0",
+            "233",
+            "0:1"
+          ]
+        ]
+      }
+    ]
+  },
+  "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\sts_08_steven_default_stadium.scene": {
+    "root_prefabs": [],
+    "hits": [
+      {
+        "graph": "scene",
+        "node": "93",
+        "type": "scnQuestNode",
+        "reads": [],
+        "writes": [],
+        "refs": [
+          "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\sts_08_steven_default_stadium.scene"
+        ],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "80",
+            "0:2",
+            "93",
+            "0:1"
+          ]
+        ],
+        "out": [
+          [
+            "93",
+            "0:0",
+            "92",
+            "0:0"
+          ]
+        ]
+      },
+      {
+        "graph": "scene",
+        "node": "95",
+        "type": "scnQuestNode",
+        "reads": [],
+        "writes": [],
+        "refs": [
+          "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\sts_08_steven_default_stadium.scene"
+        ],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "90",
+            "0:1",
+            "95",
+            "0:1"
+          ]
+        ],
+        "out": [
+          [
+            "95",
+            "0:0",
+            "94",
+            "0:0"
+          ]
+        ]
+      },
+      {
+        "graph": "scene",
+        "node": "105",
+        "type": "scnQuestNode",
+        "reads": [],
+        "writes": [],
+        "refs": [
+          "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\sts_08_steven_default_stadium.scene"
+        ],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "90",
+            "0:2",
+            "105",
+            "0:1"
+          ]
+        ],
+        "out": [
+          [
+            "105",
+            "0:0",
+            "104",
+            "0:0"
+          ]
+        ]
+      },
+      {
+        "graph": "scene",
+        "node": "137",
+        "type": "scnQuestNode",
+        "reads": [],
+        "writes": [
+          {
+            "$type": "questSetVar_NodeType",
+            "factName": "steven_stadium_default_dialogue_start",
+            "setExactValue": 0,
+            "value": 1
+          }
+        ],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "170",
+            "0:0",
+            "137",
+            "0:1"
+          ]
+        ],
+        "out": [
+          [
+            "137",
+            "0:0",
+            "70",
+            "0:0"
+          ]
+        ]
+      }
+    ]
+  },
+  "towercontinued\\native_gigs_u9\\sts_ep1_08_entry.questphase": {
+    "root_prefabs": [],
+    "hits": []
+  },
+  "towercontinued\\sidejobs_s23\\ep1\\steven_boot.questphase": {
+    "root_prefabs": [],
+    "hits": [
+      {
+        "graph": "root",
+        "node": "0",
+        "type": "questInputNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [],
+        "out": [
+          [
+            "0",
+            "Out",
+            "1",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "1",
+        "type": "questFactsDBManagerNodeDefinition",
+        "reads": [],
+        "writes": [
+          {
+            "$type": "questSetVar_NodeType",
+            "factName": "PTFRS23_STEVEN_Ready",
+            "setExactValue": 1,
+            "value": 1
+          }
+        ],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "0",
+            "Out",
+            "1",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "1",
+            "Out",
+            "2",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "2",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "PostTowerFreeRoamActive",
+            "value": 1
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "PTFRP0_DR13",
+            "value": 1
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "PTFRPA2_Finished",
+            "value": 1
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "PTFRPA2_Fault",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "q307_done",
+            "value": 1
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "q307_finished",
+            "value": 1
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "q307_2079",
+            "value": 1
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "q307_active",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "q307_main_game_killed",
+            "value": 1
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "q307_ep1_killed",
+            "value": 1
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "PTFRU9_Support_Issued",
+            "value": 1
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "PTFRU9_Support_Fault",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "q307_debug_reset",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "q115_point_of_no_return",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "q305_johnny_scene_active",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "sts_ep1_08_biomonitor_ana",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "steven_santos_default_on",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "PTFRU9_sts_ep1_08_ParentEntered",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "PTFRU9_sts_ep1_08_Started",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "PTFRS23_STEVEN_Issued",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "PTFRS23_STEVEN_Fault",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "PTFRS23_STEVEN_Finished",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "PTFRS23_STEVEN_Permit",
+            "value": 1
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "GreaterOrEqual",
+            "factName": "sts_ep1_08_finished",
+            "value": 1
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "LessOrEqual",
+            "factName": "sts_ep1_08_finished",
+            "value": 2147483647
+          },
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalQuest"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 2,
+              "realPath": "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city"
+            },
+            "state": "Inactive"
+          },
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalQuestPhase"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 2,
+              "realPath": "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city"
+            },
+            "state": "Inactive"
+          },
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalQuestObjective"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 2,
+              "realPath": "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city/read_message_from_steven"
+            },
+            "state": "Inactive"
+          },
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalQuestObjective"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 2,
+              "realPath": "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city/steven_meeting"
+            },
+            "state": "Inactive"
+          },
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalQuestObjective"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 2,
+              "realPath": "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city/talk_with_steven"
+            },
+            "state": "Inactive"
+          },
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalQuestDescription"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 2,
+              "realPath": "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city_description"
+            },
+            "state": "Inactive"
+          },
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalPhoneMessage"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 1,
+              "realPath": "ep1/contacts/steven_santos/sts_ep1_08/biomonitor_destroyed_meeting_invitation"
+            },
+            "state": "Inactive"
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/steven_santos/sts_ep1_08/biomonitor_destroyed_meeting_invitation",
+          "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city",
+          "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city",
+          "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city/read_message_from_steven",
+          "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city/steven_meeting",
+          "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city/talk_with_steven",
+          "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city_description"
+        ],
+        "in": [
+          [
+            "1",
+            "Out",
+            "2",
+            "In"
+          ],
+          [
+            "3",
+            "False",
+            "2",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "2",
+            "Out",
+            "3",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "3",
+        "type": "questConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "PostTowerFreeRoamActive",
+            "value": 1
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "PTFRP0_DR13",
+            "value": 1
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "PTFRPA2_Finished",
+            "value": 1
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "PTFRPA2_Fault",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "q307_done",
+            "value": 1
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "q307_finished",
+            "value": 1
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "q307_2079",
+            "value": 1
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "q307_active",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "q307_main_game_killed",
+            "value": 1
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "q307_ep1_killed",
+            "value": 1
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "PTFRU9_Support_Issued",
+            "value": 1
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "PTFRU9_Support_Fault",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "q307_debug_reset",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "q115_point_of_no_return",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "q305_johnny_scene_active",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "sts_ep1_08_biomonitor_ana",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "steven_santos_default_on",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "PTFRU9_sts_ep1_08_ParentEntered",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "PTFRU9_sts_ep1_08_Started",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "PTFRS23_STEVEN_Issued",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "PTFRS23_STEVEN_Fault",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "PTFRS23_STEVEN_Finished",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "PTFRS23_STEVEN_Permit",
+            "value": 1
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "GreaterOrEqual",
+            "factName": "sts_ep1_08_finished",
+            "value": 1
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "LessOrEqual",
+            "factName": "sts_ep1_08_finished",
+            "value": 2147483647
+          },
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalQuest"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 2,
+              "realPath": "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city"
+            },
+            "state": "Inactive"
+          },
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalQuestPhase"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 2,
+              "realPath": "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city"
+            },
+            "state": "Inactive"
+          },
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalQuestObjective"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 2,
+              "realPath": "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city/read_message_from_steven"
+            },
+            "state": "Inactive"
+          },
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalQuestObjective"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 2,
+              "realPath": "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city/steven_meeting"
+            },
+            "state": "Inactive"
+          },
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalQuestObjective"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 2,
+              "realPath": "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city/talk_with_steven"
+            },
+            "state": "Inactive"
+          },
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalQuestDescription"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 2,
+              "realPath": "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city_description"
+            },
+            "state": "Inactive"
+          },
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalPhoneMessage"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 1,
+              "realPath": "ep1/contacts/steven_santos/sts_ep1_08/biomonitor_destroyed_meeting_invitation"
+            },
+            "state": "Inactive"
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/steven_santos/sts_ep1_08/biomonitor_destroyed_meeting_invitation",
+          "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city",
+          "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city",
+          "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city/read_message_from_steven",
+          "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city/steven_meeting",
+          "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city/talk_with_steven",
+          "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city_description"
+        ],
+        "in": [
+          [
+            "2",
+            "Out",
+            "3",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "3",
+            "False",
+            "2",
+            "In"
+          ],
+          [
+            "3",
+            "True",
+            "4",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "4",
+        "type": "questFactsDBManagerNodeDefinition",
+        "reads": [],
+        "writes": [
+          {
+            "$type": "questSetVar_NodeType",
+            "factName": "PTFRS23_STEVEN_Issued",
+            "setExactValue": 1,
+            "value": 1
+          }
+        ],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "3",
+            "True",
+            "4",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "4",
+            "Out",
+            "89",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "90",
+        "type": "questConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "PostTowerFreeRoamActive",
+            "value": 1
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "PTFRP0_DR13",
+            "value": 1
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "PTFRPA2_Finished",
+            "value": 1
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "PTFRPA2_Fault",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "q307_done",
+            "value": 1
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "q307_finished",
+            "value": 1
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "q307_2079",
+            "value": 1
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "q307_active",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "q307_main_game_killed",
+            "value": 1
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "q307_ep1_killed",
+            "value": 1
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "PTFRU9_Support_Issued",
+            "value": 1
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "PTFRU9_Support_Fault",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "q307_debug_reset",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "q115_point_of_no_return",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "q305_johnny_scene_active",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "sts_ep1_08_biomonitor_ana",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "steven_santos_default_on",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "PTFRU9_sts_ep1_08_ParentEntered",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "PTFRU9_sts_ep1_08_Started",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "PTFRS23_STEVEN_Issued",
+            "value": 1
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "PTFRS23_STEVEN_Fault",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "PTFRS23_STEVEN_Finished",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "GreaterOrEqual",
+            "factName": "sts_ep1_08_finished",
+            "value": 1
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "LessOrEqual",
+            "factName": "sts_ep1_08_finished",
+            "value": 2147483647
+          },
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalQuest"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 2,
+              "realPath": "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city"
+            },
+            "state": "Inactive"
+          },
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalQuestPhase"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 2,
+              "realPath": "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city"
+            },
+            "state": "Inactive"
+          },
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalQuestObjective"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 2,
+              "realPath": "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city/read_message_from_steven"
+            },
+            "state": "Inactive"
+          },
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalQuestObjective"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 2,
+              "realPath": "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city/steven_meeting"
+            },
+            "state": "Inactive"
+          },
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalQuestObjective"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 2,
+              "realPath": "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city/talk_with_steven"
+            },
+            "state": "Inactive"
+          },
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalQuestDescription"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 2,
+              "realPath": "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city_description"
+            },
+            "state": "Inactive"
+          },
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalPhoneMessage"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 1,
+              "realPath": "ep1/contacts/steven_santos/sts_ep1_08/biomonitor_destroyed_meeting_invitation"
+            },
+            "state": "Inactive"
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/steven_santos/sts_ep1_08/biomonitor_destroyed_meeting_invitation",
+          "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city",
+          "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city",
+          "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city/read_message_from_steven",
+          "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city/steven_meeting",
+          "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city/talk_with_steven",
+          "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city_description"
+        ],
+        "in": [
+          [
+            "89",
+            "Out",
+            "90",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "90",
+            "False",
+            "91",
+            "In"
+          ],
+          [
+            "90",
+            "True",
+            "92",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "91",
+        "type": "questFactsDBManagerNodeDefinition",
+        "reads": [],
+        "writes": [
+          {
+            "$type": "questSetVar_NodeType",
+            "factName": "PTFRS23_STEVEN_Fault",
+            "setExactValue": 1,
+            "value": 1
+          }
+        ],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "90",
+            "False",
+            "91",
+            "In"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "root",
+        "node": "92",
+        "type": "questFactsDBManagerNodeDefinition",
+        "reads": [],
+        "writes": [
+          {
+            "$type": "questSetVar_NodeType",
+            "factName": "PTFRS23_STEVEN_Entered",
+            "setExactValue": 1,
+            "value": 1
+          }
+        ],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "90",
+            "True",
+            "92",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "92",
+            "Out",
+            "100",
+            "In1"
+          ],
+          [
+            "92",
+            "Out",
+            "102",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "101",
+        "type": "questFactsDBManagerNodeDefinition",
+        "reads": [],
+        "writes": [
+          {
+            "$type": "questSetVar_NodeType",
+            "factName": "PTFRS23_STEVEN_Finished",
+            "setExactValue": 1,
+            "value": 1
+          }
+        ],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "102",
+            "Out",
+            "101",
+            "In"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "root",
+        "node": "102",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalQuest"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 2,
+              "realPath": "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city"
+            },
+            "state": "Succeeded"
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city"
+        ],
+        "in": [
+          [
+            "92",
+            "Out",
+            "102",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "102",
+            "Out",
+            "101",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "89",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "4",
+            "Out",
+            "89",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "89",
+            "Out",
+            "90",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root",
+        "node": "100",
+        "type": "questPhaseNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "92",
+            "Out",
+            "100",
+            "In1"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "root/100",
+        "node": "501",
+        "type": "questPhaseNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "0",
+            "Out",
+            "501",
+            "In1"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "root/100",
+        "node": "19",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Greater",
+            "factName": "steven_santos_default_on",
+            "value": 0
+          },
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Equal",
+            "factName": "q304_stadium_escape_active",
+            "value": 0
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "0",
+            "Out",
+            "19",
+            "In"
+          ],
+          [
+            "17",
+            "Out1",
+            "19",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "19",
+            "Out",
+            "17",
+            "In1"
+          ]
+        ]
+      },
+      {
+        "graph": "root/100",
+        "node": "17",
+        "type": "questPhaseNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [
+          "ep1\\quest\\tertiary_characters\\default_dialogs\\steven_santos_default\\steven_default.questphase"
+        ],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "19",
+            "Out",
+            "17",
+            "In1"
+          ]
+        ],
+        "out": [
+          [
+            "17",
+            "Out1",
+            "19",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/100",
+        "node": "0",
+        "type": "questInputNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [],
+        "out": [
+          [
+            "0",
+            "Out",
+            "19",
+            "In"
+          ],
+          [
+            "0",
+            "Out",
+            "501",
+            "In1"
+          ]
+        ]
+      },
+      {
+        "graph": "root/100/501",
+        "node": "0",
+        "type": "questInputNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [],
+        "out": [
+          [
+            "0",
+            "Out",
+            "3",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/100/501",
+        "node": "2",
+        "type": "questFactsDBManagerNodeDefinition",
+        "reads": [],
+        "writes": [
+          {
+            "$type": "questSetVar_NodeType",
+            "factName": "steven_santos_default_on",
+            "setExactValue": 1,
+            "value": 1
+          }
+        ],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "9",
+            "Out",
+            "2",
+            "In"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "root/100/501",
+        "node": "3",
+        "type": "questConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Greater",
+            "factName": "sts_ep1_08_biomonitor_ana",
+            "value": 0
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "0",
+            "Out",
+            "3",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "3",
+            "False",
+            "5",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/100/501",
+        "node": "5",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "3",
+            "False",
+            "5",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "5",
+            "Out",
+            "91",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/100/501",
+        "node": "8",
+        "type": "questPhoneManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/steven_santos/sts_ep1_08/biomonitor_destroyed_meeting_invitation"
+        ],
+        "in": [
+          [
+            "56",
+            "Out",
+            "8",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "8",
+            "Out",
+            "39",
+            "Active"
+          ],
+          [
+            "8",
+            "Out",
+            "58",
+            "Active"
+          ]
+        ]
+      },
+      {
+        "graph": "root/100/501",
+        "node": "9",
+        "type": "questJournalNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city/steven_meeting"
+        ],
+        "in": [
+          [
+            "59",
+            "Out",
+            "9",
+            "Active"
+          ]
+        ],
+        "out": [
+          [
+            "9",
+            "Out",
+            "2",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/100/501",
+        "node": "17",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/steven_santos/sts_ep1_08/biomonitor_destroyed_meeting_invitation"
+        ],
+        "in": [
+          [
+            "96",
+            "Out",
+            "17",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "17",
+            "Out",
+            "59",
+            "Succeeded"
+          ]
+        ]
+      },
+      {
+        "graph": "root/100/501",
+        "node": "37",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalPhoneChoiceEntry"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 1,
+              "realPath": "ep1/contacts/steven_santos/sts_ep1_08/v_answer_meeting_invitation/v_answer_meeting_invitation_var_1"
+            },
+            "state": "Succeeded"
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/steven_santos/sts_ep1_08/v_answer_meeting_invitation/v_answer_meeting_invitation_var_1"
+        ],
+        "in": [
+          [
+            "39",
+            "Out",
+            "37",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "37",
+            "Out",
+            "38",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/100/501",
+        "node": "38",
+        "type": "questPhoneManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/steven_santos/sts_ep1_08/steven_answer_meeting_invitation_var_1"
+        ],
+        "in": [
+          [
+            "37",
+            "Out",
+            "38",
+            "In"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "root/100/501",
+        "node": "39",
+        "type": "questJournalNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/steven_santos/sts_ep1_08/v_answer_meeting_invitation"
+        ],
+        "in": [
+          [
+            "8",
+            "Out",
+            "39",
+            "Active"
+          ]
+        ],
+        "out": [
+          [
+            "39",
+            "Out",
+            "37",
+            "In"
+          ],
+          [
+            "39",
+            "Out",
+            "64",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/100/501",
+        "node": "56",
+        "type": "questPhoneManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/steven_santos"
+        ],
+        "in": [
+          [
+            "95",
+            "Out",
+            "56",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "56",
+            "Out",
+            "8",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/100/501",
+        "node": "58",
+        "type": "questJournalNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city/read_message_from_steven"
+        ],
+        "in": [
+          [
+            "8",
+            "Out",
+            "58",
+            "Active"
+          ]
+        ],
+        "out": [
+          [
+            "58",
+            "Out",
+            "96",
+            "Active"
+          ]
+        ]
+      },
+      {
+        "graph": "root/100/501",
+        "node": "59",
+        "type": "questJournalNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city/read_message_from_steven"
+        ],
+        "in": [
+          [
+            "17",
+            "Out",
+            "59",
+            "Succeeded"
+          ]
+        ],
+        "out": [
+          [
+            "59",
+            "Out",
+            "9",
+            "Active"
+          ]
+        ]
+      },
+      {
+        "graph": "root/100/501",
+        "node": "64",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questJournalEntryState_ConditionType",
+            "inverted": 0,
+            "path": {
+              "$type": "gameJournalPath",
+              "className": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "gameJournalPhoneChoiceEntry"
+              },
+              "editorPath": "",
+              "fileEntryIndex": 1,
+              "realPath": "ep1/contacts/steven_santos/sts_ep1_08/v_answer_meeting_invitation/v_answer_meeting_invitation_var_2"
+            },
+            "state": "Succeeded"
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/steven_santos/sts_ep1_08/v_answer_meeting_invitation/v_answer_meeting_invitation_var_2"
+        ],
+        "in": [
+          [
+            "39",
+            "Out",
+            "64",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "64",
+            "Out",
+            "65",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/100/501",
+        "node": "65",
+        "type": "questPhoneManagerNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/contacts/steven_santos/sts_ep1_08/steven_answer_meeting_invitation_var_2"
+        ],
+        "in": [
+          [
+            "64",
+            "Out",
+            "65",
+            "In"
+          ]
+        ],
+        "out": []
+      },
+      {
+        "graph": "root/100/501",
+        "node": "91",
+        "type": "questConditionNodeDefinition",
+        "reads": [
+          {
+            "$type": "questVarComparison_ConditionType",
+            "comparisonType": "Greater",
+            "factName": "ep1_standalone",
+            "value": 0
+          }
+        ],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "5",
+            "Out",
+            "91",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "91",
+            "False",
+            "93",
+            "In"
+          ],
+          [
+            "91",
+            "True",
+            "92",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/100/501",
+        "node": "92",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "91",
+            "True",
+            "92",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "92",
+            "Out",
+            "94",
+            "In1"
+          ]
+        ]
+      },
+      {
+        "graph": "root/100/501",
+        "node": "93",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "91",
+            "False",
+            "93",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "93",
+            "Out",
+            "94",
+            "In2"
+          ]
+        ]
+      },
+      {
+        "graph": "root/100/501",
+        "node": "94",
+        "type": "questLogicalHubNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "92",
+            "Out",
+            "94",
+            "In1"
+          ],
+          [
+            "93",
+            "Out",
+            "94",
+            "In2"
+          ]
+        ],
+        "out": [
+          [
+            "94",
+            "Out1",
+            "95",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/100/501",
+        "node": "95",
+        "type": "questPauseConditionNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [],
+        "in": [
+          [
+            "94",
+            "Out1",
+            "95",
+            "In"
+          ]
+        ],
+        "out": [
+          [
+            "95",
+            "Out",
+            "56",
+            "In"
+          ]
+        ]
+      },
+      {
+        "graph": "root/100/501",
+        "node": "96",
+        "type": "questJournalNodeDefinition",
+        "reads": [],
+        "writes": [],
+        "refs": [],
+        "prefabs": [],
+        "journal": [
+          "ep1/quests/minor_quest/sts_ep1_08_steven_meeting_night_city/steven_default_night_city_description"
+        ],
+        "in": [
+          [
+            "58",
+            "Out",
+            "96",
+            "Active"
+          ]
+        ],
+        "out": [
+          [
+            "96",
+            "Out",
+            "17",
+            "In"
+          ]
+        ]
+      }
+    ]
+  }
+}

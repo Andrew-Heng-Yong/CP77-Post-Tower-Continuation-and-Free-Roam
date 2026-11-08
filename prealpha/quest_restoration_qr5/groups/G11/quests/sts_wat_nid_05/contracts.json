@@ -1,0 +1,1698 @@
+{
+  "quest_id": "sts_wat_nid_05",
+  "title": "Rite of Passage",
+  "source_epoch": "QR5 source_epoch_00: frozen actual QR4 candidate03; installed PH3 separate",
+  "status": "DEEP_REVIEWED_WITH_SOURCE_SPECIFIC_LIMITS",
+  "fully_static_verified": false,
+  "effective_resource": "towercontinued\\native_gigs_u9\\sts_wat_nid_05_entry.questphase",
+  "effective_resource_sha256": "750169485576D4ED9C4E635EEDBDA232F95AF56662A5D2ADD3268A201423C3B0",
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Native inline2.Out1\u2192deletion91 fans89(tier1_1>0) or90(tier1>0 AND tier1_1==0)\u2192XOR92\u2192102 POI.Active\u2192Started\u219210.IN. Main output is native OUT\u2192MainFinished/OwnerFinished; original upper-case IN/OUT socket identities and #sts_wat_nid_05_steetstory spelling are retained exactly.",
+        "Private root input0\u219265000 Ready\u219265001 Revision\u219265002 genuine Tower/request/permit pause\u219265003 ParentEntered preserves original native inputs, nested graph socket IDs and branch edges. Native main node10.OUT\u219265005 MainFinished\u219265006 OwnerFinished is retained."
+      ],
+      "approved_differences": [
+        "Existing U9 additive private entry and one-time receipt wrapper; exact Embedded\u2192Soft externalization of original native bodies."
+      ],
+      "remaining": [
+        "Native trigger/POI event timing and registration activation require engine execution; no ending facts manufactured."
+      ],
+      "evidence": [
+        "../../verification_01/tests.json",
+        "../../verification_01/source_pins.json",
+        "../../verification_01/script_pins.json",
+        "../../verification_01/quest_evidence.json",
+        "../../verification_01/protocols.json",
+        "../../verification_01/embedded_external.json",
+        "../../verification_01/graph_evidence.json",
+        "../../deep_verification_03/checks.json",
+        "../../deep_verification_03/source_pins.json",
+        "../../deep_verification_03/extra_pins.json",
+        "../../deep_verification_03/quest_details.json",
+        "../../raw_exports_01/manifest.json",
+        "../../../G07/shared_core.json"
+      ]
+    },
+    "eligibility": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Effective consolidated NativeGigDataU9 index59 binds exact questID, 7 journal paths/classes and 6 native progress/outcome facts. EntrySafe demands listed paths Inactive (lookup failure -1 refuses), native facts0 and allowed POI state. Poll revalidates OldUnused AND EntrySafe before setting Permit.",
+        "Native exact parent predicates are traced in entry evidence; current65002 enforces PostTower genuine terminal facts, Request1/Permit1/ParentEntered0/Fault0, shared phone support and competing U6/U7/legacy receipt0. No fake native prerequisite or synthetic counter reset."
+      ],
+      "approved_differences": [
+        "Current HS1/history-certified fresh U9 admission retained from accepted consolidated baseline."
+      ],
+      "remaining": [
+        "All6 local native progress/outcome writers are fenced and preserved. Upper-case IN/OUT and original scene/recording/fact/receipt IDs remain stable. Historical shared Maelstrom/native studio/saved actor ownership and actual recording entitlement/reload remain conditional.",
+        "Exact saved owner/journal target resolution and existing cross-mod runtime state are not inferred from a successful static predicate fixture."
+      ],
+      "evidence": [
+        "../../verification_01/tests.json",
+        "../../verification_01/source_pins.json",
+        "../../verification_01/script_pins.json",
+        "../../verification_01/quest_evidence.json",
+        "../../verification_01/protocols.json",
+        "../../verification_01/embedded_external.json",
+        "../../verification_01/graph_evidence.json",
+        "../../deep_verification_03/checks.json",
+        "../../deep_verification_03/source_pins.json",
+        "../../deep_verification_03/extra_pins.json",
+        "../../deep_verification_03/quest_details.json",
+        "../../raw_exports_01/manifest.json",
+        "../../../G07/shared_core.json"
+      ]
+    },
+    "communications": {
+      "status": "PASS",
+      "proven": [
+        "Four native primary producer\u2192connected real acknowledgement waits proven per quest (two prebrief/debrief scenes, start+end). Exact producer/wait/node/socket paths: [{\"quest_id\": \"sts_wat_nid_05\", \"caller\": \"base\\\\open_world\\\\street_stories\\\\watson\\\\northside_industrial_district\\\\sts_wat_nid_05\\\\scenes\\\\sts_wat_nid_05_holocall_debrief.scene\", \"part\": \"start\", \"producer\": \"65\", \"wait\": \"249\", \"path\": [[\"65\", \"0:0\", \"59\", \"666:1\"], [\"59\", \"666:0\", \"249\", \"0:1\"]], \"request\": \"holo_reggie_calls_v_start_activate\", \"ack\": \"holo_reggie_calls_v_start_done\", \"master_ack_node\": 396, \"caller_wait_kind\": \"NATIVE_ACK_WAIT\"}, {\"quest_id\": \"sts_wat_nid_05\", \"caller\": \"base\\\\open_world\\\\street_stories\\\\watson\\\\northside_industrial_district\\\\sts_wat_nid_05\\\\scenes\\\\sts_wat_nid_05_holocall_debrief.scene\", \"part\": \"end\", \"producer\": \"66\", \"wait\": \"61\", \"path\": [[\"66\", \"0:0\", \"61\", \"0:1\"]], \"request\": \"holo_reggie_calls_v_end_activate\", \"ack\": \"holo_reggie_calls_v_end_done\", \"master_ack_node\": 398, \"caller_wait_kind\": \"NATIVE_ACK_WAIT\"}, {\"quest_id\": \"sts_wat_nid_05\", \"caller\": \"base\\\\open_world\\\\street_stories\\\\watson\\\\northside_industrial_district\\\\sts_wat_nid_05\\\\scenes\\\\sts_wat_nid_05_holocall_prebrief.scene\", \"part\": \"start\", \"producer\": \"63\", \"wait\": \"267\", \"path\": [[\"63\", \"0:0\", \"57\", \"666:1\"], [\"57\", \"666:0\", \"267\", \"0:1\"]], \"request\": \"holo_reggie_calls_v_start_activate\", \"ack\": \"holo_reggie_calls_v_start_done\", \"master_ack_node\": 396, \"caller_wait_kind\": \"NATIVE_ACK_WAIT\"}, {\"quest_id\": \"sts_wat_nid_05\", \"caller\": \"base\\\\open_world\\\\street_stories\\\\watson\\\\northside_industrial_district\\\\sts_wat_nid_05\\\\scenes\\\\sts_wat_nid_05_holocall_prebrief.scene\", \"part\": \"end\", \"producer\": \"64\", \"wait\": \"59\", \"path\": [[\"64\", \"0:0\", \"59\", \"0:1\"]], \"request\": \"holo_reggie_calls_v_end_activate\", \"ack\": \"holo_reggie_calls_v_end_done\", \"master_ack_node\": 398, \"caller_wait_kind\": \"NATIVE_ACK_WAIT\"}]",
+        "Native reggie initializer84 is connected from U9 hub25.Out1; actual master scene396 writes holo_reggie_calls_v_start_done1 and398 end_done1. Start queue36\u219237count+1\u219238request0\u219239 loop; queue40\u219232.False\u21929count-1\u219221 native scene start. Native end2\u219210request0\u219221end and End 0/rejection return paths retained. Native cut15 interrupts40 and29 waits return; native scene566\u2192568 interruption path preserved.",
+        "Native cleanup474.True\u2192342.In48\u2192476 calls reggie_cleanup: comparisons4/5 inspect real start_count>end_count, native6/7 increment reset counters and play actual end scenes. SMS paths and outcome predicates are enumerated with native nodes; no manufactured ACK."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "PASS is connected static protocol parity only. Actual call/UI delivery, concurrent scheduling, rejection/interrupt cleanup across reload and contacts/messages read state require gameplay fixtures."
+      ],
+      "evidence": [
+        "../../verification_01/tests.json",
+        "../../verification_01/source_pins.json",
+        "../../verification_01/script_pins.json",
+        "../../verification_01/quest_evidence.json",
+        "../../verification_01/protocols.json",
+        "../../verification_01/embedded_external.json",
+        "../../verification_01/graph_evidence.json",
+        "../../deep_verification_03/checks.json",
+        "../../deep_verification_03/source_pins.json",
+        "../../deep_verification_03/extra_pins.json",
+        "../../deep_verification_03/quest_details.json",
+        "../../raw_exports_01/manifest.json",
+        "../../../G07/shared_core.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Original #sts_wat_nid_05_steetstory root, combat/streetstory and all nested support retained. Maelstrom common per-gang pending0 admission and native child/selector body proof from G09 reused by exact raw+JSON hashes; this quest actual consumer45, after-holocall and retaliation predicates independently checked. No old pending queue consumed or extra actor owner added.",
+        "Every native child depot selected from the exact source inventory is absent from QR5 epoch00 packaged override keyset; current private entry hash 750169485576D4ED9C4E635EEDBDA232F95AF56662A5D2ADD3268A201423C3B0 equals frozen effective payload. Actual fresh raw decode agrees with source model after exact TweakDBID numeric identity canonicalization only."
+      ],
+      "approved_differences": [
+        "Exact original native phase/field/resource/node identities retained under private U9 owners; original prestate companions preserved where present."
+      ],
+      "remaining": [
+        "PostTower native/saved streetstory ownership and shared phone lease retirement are not proven by killed facts, actor presence or Issued receipts. Root PhasePrefabs and nested PhaseInstancePrefabs are obligations, not decoded world-placement proof."
+      ],
+      "evidence": [
+        "../../verification_01/tests.json",
+        "../../verification_01/source_pins.json",
+        "../../verification_01/script_pins.json",
+        "../../verification_01/quest_evidence.json",
+        "../../verification_01/protocols.json",
+        "../../verification_01/embedded_external.json",
+        "../../verification_01/graph_evidence.json",
+        "../../deep_verification_03/checks.json",
+        "../../deep_verification_03/source_pins.json",
+        "../../deep_verification_03/extra_pins.json",
+        "../../deep_verification_03/quest_details.json",
+        "../../raw_exports_01/manifest.json",
+        "../../../G07/shared_core.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Native recording retrieval, Maelstrom actor/stealth/combat, objective/journal and after-holocall outcomes remain source-identical. Native combat48 consults steal_recording Succeeded rather than recreating loot/setup. OW streetstory root5 retains debrief45.End 0 or SMS61\u2192reward46\u219263 and gang-retaliation64.",
+        "Every selected native parent node payload, copied inline graph, socket/edge, native body reference, nested phase and available original embedded/external body graph compares exactly (only explicit storage Flags/TweakDBID encoding changes). Actual body graphs and fact/journal/reward/actor handler inventories include node IDs and incoming/outgoing sockets."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Static authored route equality does not establish spawn/event execution or gameplay completion on an arbitrary save. Recording loot/stealth/combat, actual debrief completion, earned Maelstrom consequence, actor cleanup and reload."
+      ],
+      "evidence": [
+        "../../verification_01/tests.json",
+        "../../verification_01/source_pins.json",
+        "../../verification_01/script_pins.json",
+        "../../verification_01/quest_evidence.json",
+        "../../verification_01/protocols.json",
+        "../../verification_01/embedded_external.json",
+        "../../verification_01/graph_evidence.json",
+        "../../deep_verification_03/checks.json",
+        "../../deep_verification_03/source_pins.json",
+        "../../deep_verification_03/extra_pins.json",
+        "../../deep_verification_03/quest_details.json",
+        "../../raw_exports_01/manifest.json",
+        "../../../G07/shared_core.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Native whole root prefab #sts_wat_nid_05_steetstory is preserved; graph_evidence.json and quest_details.json retain all authored NodeRefs, scene refs, root/nested phase prefab bindings, workspot/actor/camera payloads. Per-quest native body resources remain original-provider bytes.",
+        "Actual reward uses were matched to stock TweakDB record definitions (2 direct uses); raw numeric IDs equal original string IDs under exact CRC32/length identity."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "WolvenKit9.1 worldNode/sector placement decoding limitation remains; actual actor/scene camera/workspot/prefab content ownership and runtime streaming are not fully resolved. Direct stock record existence is not effective TweakXL/CET override proof; the depth-1 capture leaves child references explicitly listed."
+      ],
+      "evidence": [
+        "../../verification_01/tests.json",
+        "../../verification_01/source_pins.json",
+        "../../verification_01/script_pins.json",
+        "../../verification_01/quest_evidence.json",
+        "../../verification_01/protocols.json",
+        "../../verification_01/embedded_external.json",
+        "../../verification_01/graph_evidence.json",
+        "../../deep_verification_03/checks.json",
+        "../../deep_verification_03/source_pins.json",
+        "../../deep_verification_03/extra_pins.json",
+        "../../deep_verification_03/quest_details.json",
+        "../../raw_exports_01/manifest.json",
+        "../../../G07/shared_core.json"
+      ]
+    },
+    "journal": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Two unlisted refs are actual steal_recording MapPins find_recording_mp and steal_recording_mp. Their parent objective is among7 generated paths; whole source map/journal writers retain native classes and sockets. Effective marker target resolution remains conditional, not a reason to invent another recording objective.",
+        "Both private map variants preserve every retained native reggie map node payload, original reggie_visited>0 and journal predicates; owned MapPermit/Started receipts prevent indiscriminate map setup. Explicit contraction of foreign sibling POI branches is recorded in original U9 recipes."
+      ],
+      "approved_differences": [
+        "Existing focused map adapters retain only this admitted gig, preserving native map payloads."
+      ],
+      "remaining": [
+        "Journal class/path bindings are authored parity evidence, not complete effective JournalManager hash/identity and notification proof. Exact unlisted paths/writer sockets are in deep quest_details; no blind objective guard was added."
+      ],
+      "evidence": [
+        "../../verification_01/tests.json",
+        "../../verification_01/source_pins.json",
+        "../../verification_01/script_pins.json",
+        "../../verification_01/quest_evidence.json",
+        "../../verification_01/protocols.json",
+        "../../verification_01/embedded_external.json",
+        "../../verification_01/graph_evidence.json",
+        "../../deep_verification_03/checks.json",
+        "../../deep_verification_03/source_pins.json",
+        "../../deep_verification_03/extra_pins.json",
+        "../../deep_verification_03/quest_details.json",
+        "../../raw_exports_01/manifest.json",
+        "../../../G07/shared_core.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Original scene45.End 0 or SMS61\u219246 completion reward\u219263 then native finish/achievement/retaliation continuation. Credit20 waits nid_05_finished>0\u219225 exact wat_sts_counter+1 once. Maelstrom selected consumer45 requires actual nid_05_after_holocall>0 AND gang_retaliation>=1 under existing privateStarted1; no chase before real native debrief progress.",
+        "All direct native reward/achievement uses resolve to captured stock base+EP1 definitions with record types and exact use paths. 4 unique immediate reward/achievement child IDs remain uncaptured; values are recorded per target, not silently treated complete.",
+        "Native private credit guards require Started1/CreditEntered0/CreditDone0 before claim; terminal predicate and exact original district counter+1 payload retained. Native reward nodes are not copied into credit/map setup."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Effective reward descendants/runtime modifiers, one-time inventory and achievement transactions and clean actor/device retirement need live/save fixtures. No fresh compile/package was needed because runtime sources are unchanged."
+      ],
+      "evidence": [
+        "../../verification_01/tests.json",
+        "../../verification_01/source_pins.json",
+        "../../verification_01/script_pins.json",
+        "../../verification_01/quest_evidence.json",
+        "../../verification_01/protocols.json",
+        "../../verification_01/embedded_external.json",
+        "../../verification_01/graph_evidence.json",
+        "../../deep_verification_03/checks.json",
+        "../../deep_verification_03/source_pins.json",
+        "../../deep_verification_03/extra_pins.json",
+        "../../deep_verification_03/quest_details.json",
+        "../../raw_exports_01/manifest.json",
+        "../../../G07/shared_core.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "All6 local native progress/outcome writers are fenced and preserved. Upper-case IN/OUT and original scene/recording/fact/receipt IDs remain stable. Historical shared Maelstrom/native studio/saved actor ownership and actual recording entitlement/reload remain conditional.",
+        "Current main node10, input IN, native saved body depots/node IDs and original cleanup/socket identities remain stable. Private ParentEntered, MainFinished, OwnerFinished, CreditEntered/Done and map receipts are additive; tests mutate terminal handoff/counter and correctly reject divergence."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "No save serialization, reload or future-version transition fixture executed. Saved unsupported unfinished controller states defer; file/source equality does not certify duplicate-owner retirement or future save compatibility."
+      ],
+      "evidence": [
+        "../../verification_01/tests.json",
+        "../../verification_01/source_pins.json",
+        "../../verification_01/script_pins.json",
+        "../../verification_01/quest_evidence.json",
+        "../../verification_01/protocols.json",
+        "../../verification_01/embedded_external.json",
+        "../../verification_01/graph_evidence.json",
+        "../../deep_verification_03/checks.json",
+        "../../deep_verification_03/source_pins.json",
+        "../../deep_verification_03/extra_pins.json",
+        "../../deep_verification_03/quest_details.json",
+        "../../raw_exports_01/manifest.json",
+        "../../../G07/shared_core.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Regina shared core pinned 9F659DCAE5B009EB46952236A067981FD56D8271B906D7F536F67A04E72D6BE2 applies because this quest actually writes holo_reggie_calls_v_start/end_activate and waits real *_done; all four primary protocols independently traced. Exact U9 support/parent/initializer/cleanup and PH3 studio evidence inherited only by matching hashes.",
+        "Native reggie alias is intentional and source-consistent. PH3 studio retains both base and EP1 holocall studio root refs; SupportIssued is written before initializer startup, so it is not a proof every listener is already running.",
+        "Original #sts_wat_nid_05_steetstory root, combat/streetstory and all nested support retained. Maelstrom common per-gang pending0 admission and native child/selector body proof from G09 reused by exact raw+JSON hashes; this quest actual consumer45, after-holocall and retaliation predicates independently checked. No old pending queue consumed or extra actor owner added.",
+        "All6 local native progress/outcome writers are fenced and preserved. Upper-case IN/OUT and original scene/recording/fact/receipt IDs remain stable. Historical shared Maelstrom/native studio/saved actor ownership and actual recording entitlement/reload remain conditional."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "Global native/shared saved owners, phone scheduler interleavings, actual studio streaming and cross-mod provider overrides require engine observation. Recording loot/stealth/combat, actual debrief completion, earned Maelstrom consequence, actor cleanup and reload."
+      ],
+      "evidence": [
+        "../../verification_01/tests.json",
+        "../../verification_01/source_pins.json",
+        "../../verification_01/script_pins.json",
+        "../../verification_01/quest_evidence.json",
+        "../../verification_01/protocols.json",
+        "../../verification_01/embedded_external.json",
+        "../../verification_01/graph_evidence.json",
+        "../../deep_verification_03/checks.json",
+        "../../deep_verification_03/source_pins.json",
+        "../../deep_verification_03/extra_pins.json",
+        "../../deep_verification_03/quest_details.json",
+        "../../raw_exports_01/manifest.json",
+        "../../../G07/shared_core.json"
+      ]
+    }
+  },
+  "native_rewards": [
+    {
+      "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+      "graph": "root/5",
+      "node": "46",
+      "records": [
+        "QuestRewards.sts_wat_nid_05_completion"
+      ]
+    },
+    {
+      "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+      "graph": "root/5",
+      "node": "52",
+      "records": [
+        "Achievements.YipMan"
+      ]
+    }
+  ],
+  "source_details": {
+    "entry": "towercontinued\\native_gigs_u9\\sts_wat_nid_05_entry.questphase",
+    "entry_main_node": 10,
+    "inline_node": 2,
+    "poi_node": 102,
+    "body": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_phase.questphase",
+    "native_prefab": "#sts_wat_nid_05_steetstory",
+    "index": 59,
+    "admission_paths": [
+      "quests/street_stories/watson/northside_industrial_district/sts_wat_nid_05",
+      "quests/street_stories/watson/northside_industrial_district/sts_wat_nid_05/sts_wat_nid_05",
+      "quests/street_stories/watson/northside_industrial_district/sts_wat_nid_05/sts_wat_nid_05/steal_recording",
+      "quests/street_stories/watson/northside_industrial_district/sts_wat_nid_05/sts_wat_nid_05/escape_clinic",
+      "quests/street_stories/watson/northside_industrial_district/sts_wat_nid_05/sts_wat_nid_05/get_to_clinic",
+      "quests/street_stories/watson/northside_industrial_district/sts_wat_nid_05/sts_wat_nid_05/find_recording",
+      "quests/street_stories/watson/northside_industrial_district/sts_wat_nid_05/brief"
+    ],
+    "admission_classes": [
+      "gameJournalQuest",
+      "gameJournalQuestPhase",
+      "gameJournalQuestObjective",
+      "gameJournalQuestObjective",
+      "gameJournalQuestObjective",
+      "gameJournalQuestObjective",
+      "gameJournalQuestDescription"
+    ],
+    "native_fact_guards": [
+      "nid_05_after_holocall",
+      "nid_05_finished",
+      "nid_05_gang_retaliation",
+      "nid_05_start",
+      "nid_05_testdef",
+      "sts_wat_nid_05_ce_after_start"
+    ],
+    "legacy_tags": [
+      "PTFRG2"
+    ],
+    "terminal_facts": [
+      "nid_05_finished"
+    ],
+    "native_journal_paths": [
+      "quests/street_stories/watson/northside_industrial_district/sts_wat_nid_05",
+      "quests/street_stories/watson/northside_industrial_district/sts_wat_nid_05/brief",
+      "quests/street_stories/watson/northside_industrial_district/sts_wat_nid_05/sts_wat_nid_05",
+      "quests/street_stories/watson/northside_industrial_district/sts_wat_nid_05/sts_wat_nid_05/escape_clinic",
+      "quests/street_stories/watson/northside_industrial_district/sts_wat_nid_05/sts_wat_nid_05/find_recording",
+      "quests/street_stories/watson/northside_industrial_district/sts_wat_nid_05/sts_wat_nid_05/get_to_clinic",
+      "quests/street_stories/watson/northside_industrial_district/sts_wat_nid_05/sts_wat_nid_05/steal_recording",
+      "quests/street_stories/watson/northside_industrial_district/sts_wat_nid_05/sts_wat_nid_05/steal_recording/find_recording_mp",
+      "quests/street_stories/watson/northside_industrial_district/sts_wat_nid_05/sts_wat_nid_05/steal_recording/steal_recording_mp"
+    ],
+    "journal_paths_not_in_EntrySafe": [
+      "quests/street_stories/watson/northside_industrial_district/sts_wat_nid_05/sts_wat_nid_05/steal_recording/find_recording_mp",
+      "quests/street_stories/watson/northside_industrial_district/sts_wat_nid_05/sts_wat_nid_05/steal_recording/steal_recording_mp"
+    ],
+    "maps": [
+      {
+        "depot": "towercontinued\\native_gigs_u9\\sts_wat_nid_05_map0.questphase",
+        "native_graph": "root/67",
+        "foreign_poi_contraction": [
+          10,
+          16,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          25,
+          26,
+          28,
+          29,
+          30
+        ]
+      },
+      {
+        "depot": "towercontinued\\native_gigs_u9\\sts_wat_nid_05_map1.questphase",
+        "native_graph": "root/150",
+        "foreign_poi_contraction": [
+          10,
+          19,
+          26,
+          28,
+          38,
+          39,
+          40,
+          41
+        ]
+      }
+    ],
+    "credit": "towercontinued\\native_gigs_u9\\sts_wat_nid_05_credit.questphase",
+    "credit_finished_node": 20,
+    "native_terminal_routes": [
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/5",
+        "node": "14",
+        "writes": [
+          {
+            "$type": "questSetVar_NodeType",
+            "factName": "nid_05_finished",
+            "setExactValue": 1,
+            "value": 1
+          }
+        ],
+        "incoming": [
+          [
+            "12",
+            "Out",
+            "14",
+            "In"
+          ]
+        ],
+        "outgoing": [
+          [
+            "14",
+            "Out",
+            "51",
+            "In"
+          ]
+        ]
+      }
+    ],
+    "rewards": [
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/5",
+        "node": "46",
+        "records": [
+          "QuestRewards.sts_wat_nid_05_completion"
+        ]
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/5",
+        "node": "52",
+        "records": [
+          "Achievements.YipMan"
+        ]
+      }
+    ],
+    "scene_phase_bindings": [
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/3",
+        "node": "10",
+        "refs": [
+          "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\scenes\\sts_wat_nid_05_scene.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_phase.questphase",
+        "graph": "root",
+        "node": "9",
+        "refs": [
+          "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_phase.questphase",
+        "graph": "root",
+        "node": "10",
+        "refs": [
+          "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/3",
+        "node": "130",
+        "refs": [
+          "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\scenes\\sts_wat_nid_05_holocall_prebrief.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/3",
+        "node": "145",
+        "refs": [
+          "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\scenes\\sts_wat_nid_05_holocall_prebrief.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/5",
+        "node": "45",
+        "refs": [
+          "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\scenes\\sts_wat_nid_05_holocall_debrief.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/5",
+        "node": "59",
+        "refs": [
+          "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\scenes\\sts_wat_nid_05_holocall_debrief.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\scenes\\sts_wat_nid_05_scene.scene",
+        "graph": "scene",
+        "node": "309",
+        "refs": [
+          "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\scenes\\sts_wat_nid_05_scene.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\scenes\\sts_wat_nid_05_scene.scene",
+        "graph": "scene",
+        "node": "313",
+        "refs": [
+          "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\scenes\\sts_wat_nid_05_scene.scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\scenes\\sts_wat_nid_05_scene.scene",
+        "graph": "scene",
+        "node": "316",
+        "refs": [
+          "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\scenes\\sts_wat_nid_05_scene.scene"
+        ],
+        "prefabs": []
+      }
+    ]
+  },
+  "specific_details": {
+    "local_native_fact_writers": [
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/3",
+        "node": "26",
+        "fact": "nid_05_gang_retaliation",
+        "covered_by_EntrySafe": true,
+        "writes": {
+          "$type": "questSetVar_NodeType",
+          "factName": "nid_05_gang_retaliation",
+          "setExactValue": 1,
+          "value": 1
+        }
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/3",
+        "node": "105",
+        "fact": "nid_05_start",
+        "covered_by_EntrySafe": true,
+        "writes": {
+          "$type": "questSetVar_NodeType",
+          "factName": "nid_05_start",
+          "setExactValue": 1,
+          "value": 1
+        }
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/5",
+        "node": "14",
+        "fact": "nid_05_finished",
+        "covered_by_EntrySafe": true,
+        "writes": {
+          "$type": "questSetVar_NodeType",
+          "factName": "nid_05_finished",
+          "setExactValue": 1,
+          "value": 1
+        }
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/5",
+        "node": "24",
+        "fact": "sts_wat_nid_05_ce_after_start",
+        "covered_by_EntrySafe": true,
+        "writes": {
+          "$type": "questSetVar_NodeType",
+          "factName": "sts_wat_nid_05_ce_after_start",
+          "setExactValue": 0,
+          "value": 1
+        }
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/5",
+        "node": "63",
+        "fact": "nid_05_after_holocall",
+        "covered_by_EntrySafe": true,
+        "writes": {
+          "$type": "questSetVar_NodeType",
+          "factName": "nid_05_after_holocall",
+          "setExactValue": 1,
+          "value": 1
+        }
+      }
+    ],
+    "unlisted_journal_paths_actual_writers": [
+      {
+        "path": "quests/street_stories/watson/northside_industrial_district/sts_wat_nid_05/sts_wat_nid_05/steal_recording/find_recording_mp",
+        "writers": [
+          {
+            "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+            "graph": "root/3",
+            "node": "129",
+            "type": "questMappinManagerNodeDefinition",
+            "incoming": [
+              [
+                "128",
+                "Out",
+                "129",
+                "Inactive"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "path": "quests/street_stories/watson/northside_industrial_district/sts_wat_nid_05/sts_wat_nid_05/steal_recording/steal_recording_mp",
+        "writers": [
+          {
+            "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+            "graph": "root/3",
+            "node": "128",
+            "type": "questMappinManagerNodeDefinition",
+            "incoming": [
+              [
+                "107",
+                "Out1",
+                "128",
+                "Active"
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "native_asset_bindings": [
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_bugfixing.questphase",
+        "graph": "root/8",
+        "node": "2",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_computer_server_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_bugfixing.questphase",
+        "graph": "root/8",
+        "node": "3",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_computer_server_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_bugfixing.questphase",
+        "graph": "root/8",
+        "node": "4",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_computer_server_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/2",
+        "node": "3",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/2",
+        "node": "5",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/2",
+        "node": "6",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/2",
+        "node": "7",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/2",
+        "node": "11",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/3",
+        "node": "9",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_tr_first_floor_VO_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/3",
+        "node": "10",
+        "refs": [
+          "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\scenes\\sts_wat_nid_05_scene.scene"
+        ],
+        "node_refs": [
+          "#sts_sm_wat_nid_05_scene"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/3",
+        "node": "11",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/3",
+        "node": "12",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/3",
+        "node": "13",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/3",
+        "node": "14",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/3",
+        "node": "15",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_tr_operation_VO_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/3",
+        "node": "18",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com",
+          "#nid_05_spline_enemy_patrol"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/3",
+        "node": "19",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_tr_patrol_001_movement"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/3",
+        "node": "20",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com",
+          "#nid_05_ws_patrol_003"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/3",
+        "node": "22",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_security_system_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/3",
+        "node": "24",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com",
+          "#nid_05_ws_patrol_003"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/3",
+        "node": "25",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com",
+          "#nid_05_ws_reception_spline"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/4",
+        "node": "6",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_spw_reinforcement_car"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/4",
+        "node": "8",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com_reinforcement"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/4",
+        "node": "9",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com_reinforcement"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/4",
+        "node": "36",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com_reinforcement"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/4",
+        "node": "37",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com_reinforcement"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/4",
+        "node": "48",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com",
+          "#nid_05_security_system_001",
+          "#nid_05_tr_escape_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/4",
+        "node": "56",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com",
+          "#nid_05_com_reinforcement"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/4",
+        "node": "57",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com",
+          "#nid_05_com_reinforcement"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/4/60",
+        "node": "2",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/4/60",
+        "node": "21",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/4/60",
+        "node": "22",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/4/60",
+        "node": "23",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/4/60",
+        "node": "24",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/4/60",
+        "node": "25",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/4/60",
+        "node": "26",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/4/60",
+        "node": "27",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/4/60",
+        "node": "33",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase",
+        "graph": "root/4/60",
+        "node": "34",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_phase.questphase",
+        "graph": "root",
+        "node": "9",
+        "refs": [
+          "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_combat.questphase"
+        ],
+        "node_refs": [],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_phase.questphase",
+        "graph": "root",
+        "node": "10",
+        "refs": [
+          "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase"
+        ],
+        "node_refs": [],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/2",
+        "node": "4",
+        "refs": [],
+        "node_refs": [
+          "#sts_wat_nid_05_main_door"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/2",
+        "node": "5",
+        "refs": [],
+        "node_refs": [
+          "#sts_wat_nid_05_back_door"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/2",
+        "node": "6",
+        "refs": [],
+        "node_refs": [
+          "#sts_wat_nid_05_vendor_door"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/2",
+        "node": "13",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_tr_start_sts_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/3",
+        "node": "24",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_tr_escape_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/3",
+        "node": "36",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_tr_escape_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/3",
+        "node": "69",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/3",
+        "node": "70",
+        "refs": [],
+        "node_refs": [
+          "#wat_nid_medicstore_02"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/3",
+        "node": "71",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/3",
+        "node": "73",
+        "refs": [],
+        "node_refs": [
+          "#wat_nid_medicstore_02"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/3",
+        "node": "82",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_computer_server_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/3",
+        "node": "83",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_computer_server_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/3",
+        "node": "101",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_tr_escape_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/3",
+        "node": "102",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_tr_escape_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/3",
+        "node": "108",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_computer_server_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/3",
+        "node": "110",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_computer_server_001",
+          "#nid_05_tr_find_disc_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/3",
+        "node": "111",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_tr_find_disc_002"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/3",
+        "node": "122",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_computer_server_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/3",
+        "node": "130",
+        "refs": [
+          "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\scenes\\sts_wat_nid_05_holocall_prebrief.scene"
+        ],
+        "node_refs": [
+          "#sts_sm_wat_nid_05_holocall_prebrief"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/3",
+        "node": "143",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_computer_server_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/3",
+        "node": "144",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_computer_server_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/3",
+        "node": "145",
+        "refs": [
+          "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\scenes\\sts_wat_nid_05_holocall_prebrief.scene"
+        ],
+        "node_refs": [],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/5",
+        "node": "4",
+        "refs": [],
+        "node_refs": [
+          "#sts_wat_nid_05_vendor_door"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/5",
+        "node": "8",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/5",
+        "node": "10",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com_reinforcement"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/5",
+        "node": "17",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_security_area_dengerous_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/5",
+        "node": "18",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_security_area_dengerous_002"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/5",
+        "node": "19",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_security_area_restricted_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/5",
+        "node": "20",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_security_area_restricted_002"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/5",
+        "node": "21",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_security_area_restricted_003"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/5",
+        "node": "27",
+        "refs": [],
+        "node_refs": [
+          "#sts_wat_nid_05_vendor_door"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/5",
+        "node": "28",
+        "refs": [],
+        "node_refs": [
+          "#sts_wat_nid_05_main_door"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/5",
+        "node": "29",
+        "refs": [],
+        "node_refs": [
+          "#sts_wat_nid_05_main_door"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/5",
+        "node": "30",
+        "refs": [],
+        "node_refs": [
+          "#sts_wat_nid_05_back_door"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/5",
+        "node": "31",
+        "refs": [],
+        "node_refs": [
+          "#sts_wat_nid_05_back_door"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/5",
+        "node": "32",
+        "refs": [],
+        "node_refs": [
+          "$/03_night_city/c_watson/northside/loc_sts_wat_nid_05_prefabVVY32QI/loc_sts_wat_nid_05_gameplay_prefabJZEDJCA/loc_sts_wat_nid_05_devices_prefab6DJRJMI/shutter_window_w150_002_prefabRIUEHWA/{q114_11_dvc_shutter}_prefabQWUPRKQ"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/5",
+        "node": "33",
+        "refs": [],
+        "node_refs": [
+          "$/03_night_city/c_watson/northside/loc_sts_wat_nid_05_prefabVVY32QI/loc_sts_wat_nid_05_gameplay_prefabJZEDJCA/loc_sts_wat_nid_05_devices_prefab6DJRJMI/shutter_window_w150_002_prefabRIUEHWA/{q114_11_dvc_shutter}_prefabQWUPRKQ"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/5",
+        "node": "34",
+        "refs": [],
+        "node_refs": [
+          "$/03_night_city/c_watson/northside/loc_sts_wat_nid_05_prefabVVY32QI/loc_sts_wat_nid_05_gameplay_prefabJZEDJCA/loc_sts_wat_nid_05_devices_prefab6DJRJMI/shutter_window_w150_006_prefabRIUEHWA/{q114_11_dvc_shutter}_prefabQWUPRKQ"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/5",
+        "node": "35",
+        "refs": [],
+        "node_refs": [
+          "$/03_night_city/c_watson/northside/loc_sts_wat_nid_05_prefabVVY32QI/loc_sts_wat_nid_05_gameplay_prefabJZEDJCA/loc_sts_wat_nid_05_devices_prefab6DJRJMI/shutter_window_w150_006_prefabRIUEHWA/{q114_11_dvc_shutter}_prefabQWUPRKQ"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/5",
+        "node": "36",
+        "refs": [],
+        "node_refs": [
+          "$/03_night_city/c_watson/northside/loc_sts_wat_nid_05_prefabVVY32QI/loc_sts_wat_nid_05_gameplay_prefabJZEDJCA/loc_sts_wat_nid_05_devices_prefab6DJRJMI/shutter_window_w150_005_prefabRIUEHWA/{q114_11_dvc_shutter}_prefabQWUPRKQ"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/5",
+        "node": "37",
+        "refs": [],
+        "node_refs": [
+          "$/03_night_city/c_watson/northside/loc_sts_wat_nid_05_prefabVVY32QI/loc_sts_wat_nid_05_gameplay_prefabJZEDJCA/loc_sts_wat_nid_05_devices_prefab6DJRJMI/shutter_window_w150_005_prefabRIUEHWA/{q114_11_dvc_shutter}_prefabQWUPRKQ"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/5",
+        "node": "39",
+        "refs": [],
+        "node_refs": [
+          "$/03_night_city/c_watson/northside/loc_sts_wat_nid_05_prefabVVY32QI/loc_sts_wat_nid_05_gameplay_prefabJZEDJCA/loc_sts_wat_nid_05_devices_prefab6DJRJMI/d_sliding_1_t_1_prefabOG44ZYY/door1"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/5",
+        "node": "40",
+        "refs": [],
+        "node_refs": [
+          "$/03_night_city/c_watson/northside/loc_sts_wat_nid_05_prefabVVY32QI/loc_sts_wat_nid_05_gameplay_prefabJZEDJCA/loc_sts_wat_nid_05_devices_prefab6DJRJMI/d_sliding_1_t_1_prefabOG44ZYY/door1"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/5",
+        "node": "41",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_security_system_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/5",
+        "node": "42",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_tr_escape_002"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/5",
+        "node": "45",
+        "refs": [
+          "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\scenes\\sts_wat_nid_05_holocall_debrief.scene"
+        ],
+        "node_refs": [
+          "#sts_sm_wat_nid_05_holocall_debrief"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/5",
+        "node": "49",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_tr_start_sts_001"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+        "graph": "root/5",
+        "node": "59",
+        "refs": [
+          "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\scenes\\sts_wat_nid_05_holocall_debrief.scene"
+        ],
+        "node_refs": [],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\scenes\\sts_wat_nid_05_scene.scene",
+        "graph": "scene",
+        "node": "96",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\scenes\\sts_wat_nid_05_scene.scene",
+        "graph": "scene",
+        "node": "99",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\scenes\\sts_wat_nid_05_scene.scene",
+        "graph": "scene",
+        "node": "119",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\scenes\\sts_wat_nid_05_scene.scene",
+        "graph": "scene",
+        "node": "123",
+        "refs": [],
+        "node_refs": [
+          "#nid_05_com"
+        ],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\scenes\\sts_wat_nid_05_scene.scene",
+        "graph": "scene",
+        "node": "309",
+        "refs": [
+          "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\scenes\\sts_wat_nid_05_scene.scene"
+        ],
+        "node_refs": [],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\scenes\\sts_wat_nid_05_scene.scene",
+        "graph": "scene",
+        "node": "313",
+        "refs": [
+          "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\scenes\\sts_wat_nid_05_scene.scene"
+        ],
+        "node_refs": [],
+        "prefabs": []
+      },
+      {
+        "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\scenes\\sts_wat_nid_05_scene.scene",
+        "graph": "scene",
+        "node": "316",
+        "refs": [
+          "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\scenes\\sts_wat_nid_05_scene.scene"
+        ],
+        "node_refs": [],
+        "prefabs": []
+      }
+    ],
+    "applicable_stock_reward_targets": [
+      {
+        "use": {
+          "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+          "graph": "root/5",
+          "node": "46",
+          "records": [
+            "QuestRewards.sts_wat_nid_05_completion"
+          ]
+        },
+        "target": {
+          "id": "163539604770",
+          "requested_aliases": [
+            "QuestRewards.sts_wat_nid_05_completion"
+          ],
+          "exists_in_stock": true,
+          "record_types": [
+            "gamedataRewardBase_Record"
+          ],
+          "databases": [
+            "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\cache\\tweakdb.bin",
+            "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\cache\\tweakdb_ep1.bin"
+          ],
+          "base_ep1_definitions_identical": true,
+          "record_json_path": "records/432",
+          "immediate_references": [
+            "167302662884",
+            "200773478870",
+            "200662183375",
+            "199018384611",
+            "101020464139"
+          ],
+          "uncaptured_immediate_references": [
+            "167302662884",
+            "200773478870",
+            "200662183375",
+            "199018384611"
+          ]
+        }
+      },
+      {
+        "use": {
+          "depot": "base\\open_world\\street_stories\\watson\\northside_industrial_district\\sts_wat_nid_05\\phase\\sts_wat_nid_05_streetstory.questphase",
+          "graph": "root/5",
+          "node": "52",
+          "records": [
+            "Achievements.YipMan"
+          ]
+        },
+        "target": {
+          "id": "83732496563",
+          "requested_aliases": [
+            "Achievements.YipMan"
+          ],
+          "exists_in_stock": true,
+          "record_types": [
+            "gamedataAchievement_Record"
+          ],
+          "databases": [
+            "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\cache\\tweakdb.bin",
+            "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\cache\\tweakdb_ep1.bin"
+          ],
+          "base_ep1_definitions_identical": true,
+          "record_json_path": "records/10",
+          "immediate_references": [],
+          "uncaptured_immediate_references": []
+        }
+      }
+    ],
+    "limits": [
+      "Exact authored actor/workspot/camera/NodeRef bindings preserved; worldNode content placement not decoded",
+      "Stock immediate references reported in targets; uncaptured descendants and effective runtime TweakXL/CET values not certified",
+      "Old native saved owners cannot be proven retired by killed facts or private receipts alone"
+    ]
+  },
+  "confirmed_defects": [],
+  "runtime_changes": []
+}

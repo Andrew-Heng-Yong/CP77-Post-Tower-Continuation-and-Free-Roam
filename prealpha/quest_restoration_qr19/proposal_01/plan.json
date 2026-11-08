@@ -1,0 +1,24 @@
+{
+  "resources": [
+    {
+      "depot": "towercontinued\\sidejobs_s29\\entries\\mq018_writer.questphase",
+      "proposed_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr19\\proposal_01\\mq018_writer.questphase.json",
+      "proposed_json_sha256": "E5DA8773A130EAFCCD2863475E509C7465AAE15DB5C52C4044D2DC472757184C"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq018\\mq018.questphase",
+      "proposed_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr19\\proposal_01\\mq018.questphase.json",
+      "proposed_json_sha256": "A0945DBF182BD68F2B9BC3ADF8EBD9E4BDC4EAD4E3CD5D689E7401F19A2628F7"
+    },
+    {
+      "depot": "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq018\\phases\\mq018_01_msgs.questphase",
+      "proposed_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr19\\proposal_01\\mq018_01_msgs.questphase.json",
+      "proposed_json_sha256": "4617660CD249C3A45AB922F748B8060E92996E59A440E761C4315B704FA14D88"
+    }
+  ],
+  "script": {
+    "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS29.reds",
+    "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr19\\proposal_01\\PTFR_SideJobsS29.reds",
+    "sha256": "B64201D6F59327BD2BC2E7A71015DFB05245A66BCD7234F59DAD76D5588149D0"
+  }
+}

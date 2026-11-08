@@ -1,0 +1,19 @@
+{
+  "models": 5136,
+  "matches": 14,
+  "facts": [
+    "wst_ep1_09_active",
+    "wst_ep1_02_active",
+    "q305_haunted_breadcrumb_start",
+    "Q305_haunted_component_talk_ready",
+    "q305_haunted_component_ready",
+    "Q305_haunted_component_craft_ready"
+  ],
+  "targets": [
+    "ep1\\openworld\\world_stories\\ep1_world_stories.questphase",
+    "ep1\\quest\\main_quests\\q305\\phases\\q305_12_haunted_weapon.questphase",
+    "ep1\\openworld\\world_stories\\wst_ep1_09\\wst_ep1_09.questphase",
+    "ep1\\openworld\\world_stories\\wst_ep1_02\\wst_ep1_02.questphase"
+  ],
+  "limit": "Captured5136 model census is bounded evidence, not every engine registration path. Actual effective QR5 bytes must be pinned before applicability."
+}

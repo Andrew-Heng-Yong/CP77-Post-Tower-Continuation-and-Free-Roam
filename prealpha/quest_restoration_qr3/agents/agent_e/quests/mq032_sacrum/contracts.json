@@ -1,0 +1,180 @@
+{
+  "quest_id": "mq032_sacrum",
+  "title": "Sacrum Profanum / Losing My Religion",
+  "status": "DEEP_REVIEWED_WITH_STATIC_LIMITS",
+  "static_verified": false,
+  "defects": [],
+  "repairs": [],
+  "contracts": {
+    "entry": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Actual wrapper0->1000Ready->1001pause->native hubs81->83->84->1002 recheck.True->1003Issued->4.In1;4.Out1->1004Finished.4 payload exactly matches native minorquests4 and retains native mq032_sacrum resource. No nonlethal/lethal debug entry is used.",
+        "Native root31->40 concurrently starts hook32.In1 and Maelstrom33.In1;hook32.Out1->33.hook_done. All original body inputs/outputs remain unchanged."
+      ],
+      "approved_differences": [
+        "S2 supplies Tower/U9/history/once-only guards before unchanged native beginning."
+      ],
+      "remaining": [
+        "LIVE_ONLY: Actual activation remains unmeasured."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "eligibility": {
+      "status": "APPROVED_DEVIATION",
+      "proven": [
+        "Actual1001/1002 predicates require native mq032 complete/dead/help/monk1_met neutrality and five bound journal states, Permit1/Issued0/Finished0/Fault0. Tests reject progressed roots, missing input, used owner and non-Tower.",
+        "Current S2 policy retains certified/uncertified route distinction. Read resolves missing journal to-1 and SampleFresh rejects unavailable shapes/required states. Poll uses SnapshotStateHS1.Admits plus common/safety gates and grants only AuthorizedRoute1/2; it never pretends current Inactive observations prove pre-Tower history."
+      ],
+      "approved_differences": [
+        "Established conservative fresh-only S2 route retains original native availability and histories."
+      ],
+      "remaining": [
+        "LIVE_ONLY: Actual captured/certified/current-history route and player eligibility are save inputs."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "communications": {
+      "status": "PASS",
+      "proven": [
+        "Complete inspected native MQ032 phase/scene closure has no positive audio/holo start/end request producer and no external phase/scene outside this quest closure. Monk hook, rescue and epilogue are face-to-face native scenes, preserved as authored.",
+        "No missing phone listener, acknowledgement or cleanup is inferred from the quest title or unrelated controller inventory. No synthetic communication facts are written."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Dialogue choices, actor speech and UI remain unexecuted."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "ownership": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Wrapper binds original minorquests4 payload and full native root prefab #mq032_pr_sacrum. Source ancestry is the genuine Tower-terminated native main/minorquests tree already verified in QR2; current Issued guard prevents fresh duplication.",
+        "Native branch ownership is kept within the original root. No arbitrary Reactivate/ResetKillCount or outside fight controller is introduced."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: Matching saved original/private descendants and older executing-owner adoption are not inspected.",
+        "LIVE_ONLY: Actual saved owner retirement, interrupted scenes and restore/reload scheduling require matching runtime fixtures; no save was decoded or modified."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "progression": {
+      "status": "PASS",
+      "proven": [
+        "Actual native hook32.Out1->33.hook_done remains alongside initial33.In1.33.Success->34.Success and33.Fail->34.Fail retain nonlethal/lethal and failed rescue epilogue semantics.34.Out1 returns native1.",
+        "Native epilogue Success0 andFail2 branches, dead4 condition, scene13/15 outputs and final28.Out2->29(mq032_complete1) are preserved. No choice, mortality or combat branch is flattened."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Kill/nonlethal classification, rescue interaction and combat/scene completion require actual execution."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "presentation": {
+      "status": "OPAQUE",
+      "proven": [
+        "Root#mq032_pr_sacrum and full hook/Maelstrom/epilogue/combat scene/workspot/actor/NodeRef tables are pinned and retained. Private wrapper does not waive native root prefab ownership by having no own prefabs.",
+        "Native actor/presentation resources remain unmodified; approved voice-only Johnny presentation depends on the existing JV1 policy, not a new restoration of his engram."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "OPAQUE/CONDITIONAL: World-sector/prefab/variant placement, camera/workspot and localized asset resolution are not fully decoded here.",
+        "LIVE_ONLY: Rendered actors, voice and scene animation behavior remain separate."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "journal": {
+      "status": "PASS",
+      "proven": [
+        "Original monk quest/POI/objective state writers and Success/Fail input sockets are retained throughout hook, Maelstrom and epilogue. All exact journal paths and incoming edges are in graph_evidence; no wrapper journal writer exists.",
+        "The wrapper records Finished only after native body output. It does not mark quest Succeeded independently or clear a failed root."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "LIVE_ONLY: Journal propagation/notifications are engine dependent."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "completion_rewards_cleanup": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Native Maelstrom scene236->463 grants exact QuestRewards.mq032_done. Native epilogue routes return through original cleanup and mq032_complete receipt29; all reward/corpse/combat/actor cleanup paths remain native.",
+        "No new reward/item/counter/reset command is introduced by S2 wrapper. Kill-versus-nonlethal consequences remain authored."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: Exact QuestRewards.mq032_done data definition/current overrides and any loot entitlement data are not resolved by graph equality.",
+        "LIVE_ONLY: Exactly-once rewards, corpse/actor cleanup and reload transaction behavior remain untested."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "persistence": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "No saved field/resource/node/name change. Actual Issued1003 precedes native4; both guard nodes require Issued0 and noncompleted history. Original native children retain their saved identity paths.",
+        "S2 Restore resets preissue Permit/AuthorizedRoute only and never Issued; current source preserves persisted schema/catalogue/history distinction."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: No old-save transition/paused descendant fixture is decoded; current source identity preservation is not save-upgrade gameplay proof.",
+        "LIVE_ONLY: Actual saved owner retirement, interrupted scenes and restore/reload scheduling require matching runtime fixtures; no save was decoded or modified."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    },
+    "shared_dependencies": {
+      "status": "CONDITIONAL",
+      "proven": [
+        "Current source uses original minorquests hubs81/83/84 and full native body; no shared MaxTac/Zane owner or Prophet/NCPD owner is added for MQ032. U9/common/profile/history dependencies stay required.",
+        "Source-confirmed MQ030 lease defect is in a separate service wrapper and does not alter monk progression; no shared-system fix is generalized without evidence."
+      ],
+      "approved_differences": [],
+      "remaining": [
+        "CONDITIONAL: Shared world and saved-root lifecycle resolution remains bounded; actual engine scheduling is LIVE_ONLY."
+      ],
+      "evidence": [
+        "../../verification_02/source_pins.json",
+        "../../verification_02/graph_evidence.json",
+        "../../verification_02/tests.json"
+      ]
+    }
+  },
+  "tests": "../../verification_02/tests.json",
+  "scope": "Current PH3 baseline. Root may add a separate repaired-successor adjudication; baseline findings remain immutable."
+}

@@ -1,0 +1,92 @@
+{
+  "status": "D00_CONDITIONAL_OTHER_QUESTS_NOT_TESTABLE_CURRENT_EVIDENCE",
+  "source": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_restoration_qr10\\runtime_queue.json",
+  "source_sha256": "D52D5EBAFEB59E3BC3838AF080D39C78F415A8079451753CAEB0C49586BA48AE",
+  "selected_save": "ManualSave-24,2Nov2026 16:37:02 level51",
+  "D00": {
+    "status": "CONDITIONAL_EXISTING_REGINA_CALL_OPTION",
+    "duration_s": 120,
+    "profile": "D00",
+    "card": "MANUAL_TEST_PLAN.md",
+    "native_fact": "phonecall_player_with_regina_jones"
+  },
+  "additional_qualified_tests": [],
+  "prioritized": [
+    {
+      "id": "S01",
+      "priority": 1,
+      "status": "NOT_TESTABLE_CURRENT_EVIDENCE",
+      "previous_status": "NOT_TESTABLE_SELECTED_HISTORY",
+      "basis": "CVI02 cvi_02_finished1 and native completion in genuine selected lineage; recent snapshot agrees.",
+      "missing_prerequisites": [
+        "Another genuine fresh, not-admitted CVI02 fixture with earned prerequisites and no old owner/request. Current saves do not supply one."
+      ]
+    },
+    {
+      "id": "S02",
+      "priority": 2,
+      "status": "NOT_TESTABLE_CURRENT_EVIDENCE",
+      "previous_status": "BLOCKED_SUBSCRIPTION_AND_STAGE_EVIDENCE",
+      "basis": "S00 Ronald contact Inactive; messages_enabled0; Issued0. Later evidence does not prove earned active subscription. Saints/Spy are completed.",
+      "missing_prerequisites": [
+        "Genuine existing subscription + Active Ronald contact, no first-enrollment fabrication.",
+        "Verify actual fresh status/owner/prerequisites for sts_ep1_03 or sts_ep1_12; absence from finished metadata is insufficient.",
+        "For late future: actual supported first200\u2013203/pre220 stage and genuine Armed; no old sent1 timer adoption."
+      ]
+    },
+    {
+      "id": "S04",
+      "priority": 3,
+      "status": "NOT_TESTABLE_CURRENT_EVIDENCE",
+      "previous_status": "UNKNOWN_UNSUPPORTED_OR_UNPROVEN_STAGE",
+      "basis": "Latest MQ007 shows total97/nonlethal51, defeated50=1, owner_known0, done0, reacquiring0, Issued0, ModeTalkConfirmed0; journals Inactive. Kill totals do not identify future1101.",
+      "missing_prerequisites": [
+        "Genuine exact supported pre1101 return/handoff stage and earned Regina history; exclude old11/51/95/opaque-loot seams.",
+        "No changes to kills, mode, item ownership or quest facts to create the fixture."
+      ]
+    },
+    {
+      "id": "S06",
+      "priority": 4,
+      "status": "NOT_TESTABLE_CURRENT_EVIDENCE",
+      "previous_status": "BLOCKED_HISTORY_EVIDENCE",
+      "basis": "Latest Brendan/Spray Paint journals all Inactive and watched facts0. Post-ending fallback cannot prove unearned fresh history or an earned progressed descendant.",
+      "missing_prerequisites": [
+        "Genuine known unearned pre-Tower history for negative containment OR separately proven earned/progressed descendant.",
+        "No general fresh/sequel adapter is approved. Do not treat inactive post-Tower history as the certificate."
+      ]
+    },
+    {
+      "id": "S08",
+      "priority": 5,
+      "status": "NOT_TESTABLE_CURRENT_EVIDENCE",
+      "previous_status": "BLOCKED_GENUINE_PENDING_OWNER",
+      "basis": "Successful Wilson/Bullets completion and reload behavior remain accepted. No currently demonstrated separate eligible pending request/timer/cleanup fixture.",
+      "missing_prerequisites": [
+        "A genuinely supported pending stage from a qualified S01/S02/S04 route; native save option at that stage.",
+        "Separate real branch for interruption/reload; explicit before/after item/currency/reward evidence for idempotence.",
+        "Do not repeat completed Wilson/Bullets/Zane/reload tests."
+      ]
+    },
+    {
+      "id": "S03",
+      "priority": 6,
+      "status": "NOT_TESTABLE_CURRENT_EVIDENCE",
+      "previous_status": "NOT_TESTABLE_FRESH_NITRO",
+      "basis": "QR9S03 Issued1/Entered0, purchase counter1, all4 native unlock gettersfalse. Already-issued preservation is distinct from fresh eligibility.",
+      "missing_prerequisites": [
+        "Genuine independent not-Issued fixture with earned allowed Kusanagi and >=3 native purchases (not available).",
+        "Actual existing-owner selector/liveness evidence before asking for an already-issued continuation test."
+      ]
+    }
+  ],
+  "do_not_repeat": [
+    "Until Death Do Us Part observed completion",
+    "Cynthia/Wilson delivered calls",
+    "Shoot to Thrill win/reward receipt",
+    "Wilson eventual shop and completed-state reload",
+    "Bullets completion",
+    "Zane shop return, completed-state reload and post-Bullets line"
+  ],
+  "limits": "No new gameplay. No blanket claim that all uninspected historical save slots are impossible; no additional genuine fixture is currently qualified."
+}

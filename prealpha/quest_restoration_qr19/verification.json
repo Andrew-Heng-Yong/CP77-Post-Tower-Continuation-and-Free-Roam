@@ -1,0 +1,93 @@
+{
+  "status": "PASS_QR19_TYPED_SMS_HANDOFF",
+  "serialized_manifest_sha256": "3057A8C761F5124767CA01DE06F30193D6E6B06756398036BEA97246C62CA7BC",
+  "resource_hashes": {
+    "towercontinued\\sidejobs_s29\\entries\\mq018_writer.questphase": "48881AB9DF942890E582F0F1611C9B5CF4FDFDE65E16537980E36C8975481E73",
+    "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq018\\mq018.questphase": "56D0B09562255E416FFA73379B2EFB181D1C9C1884DCA25AA12CD2874442FC57",
+    "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq018\\phases\\mq018_01_msgs.questphase": "E104059AE00A61F3438F28FE9DED1239E57E4D3E02C290AAA7D2394252E978CB"
+  },
+  "predecessor_partial_eligible": false,
+  "successor_partial_eligible": true,
+  "predecessor_fresh_unchanged": true,
+  "negative_witnesses": [
+    [
+      "contacts/bartmoss/bartmoss_spam/msg01",
+      "Inactive"
+    ],
+    [
+      "contacts/bartmoss/bartmoss_spam/msg02",
+      "Inactive"
+    ],
+    [
+      "contacts/bartmoss/bartmoss_spam/msg05",
+      "Inactive"
+    ],
+    [
+      "contacts/bartmoss/bartmoss_spam/msg06",
+      "Inactive"
+    ],
+    [
+      "contacts/bartmoss/bartmoss_spam/msg07",
+      "Inactive"
+    ],
+    [
+      "quests/minor_quest/mq018_writer",
+      "Succeeded"
+    ],
+    [
+      "quests/minor_quest/mq018_writer",
+      "Failed"
+    ],
+    [
+      "quests/minor_quest/mq018_writer/mq018_writer/access_website",
+      "Active"
+    ],
+    [
+      "quests/minor_quest/mq018_writer/mq018_writer/02b_call_nancy",
+      "Active"
+    ],
+    [
+      "q307_main_game_killed",
+      0
+    ],
+    [
+      "PTFRS29_PHONE_nancy_Issued",
+      0
+    ],
+    [
+      "PTFRS29_mq018_writer_Issued",
+      1
+    ],
+    [
+      "PTFRS29_mq018_writer_Entered",
+      1
+    ],
+    [
+      "mq018_done",
+      1
+    ],
+    [
+      "mq018_visit_website",
+      1
+    ],
+    [
+      "mq018_web_bartmosscollective_visited",
+      1
+    ],
+    [
+      "mq018_active",
+      2
+    ],
+    [
+      "ep1_standalone",
+      1
+    ],
+    [
+      "q110_done",
+      0
+    ]
+  ],
+  "missing_listener_control_detected": true,
+  "replay_message_producers_reachable": false,
+  "gameplay_validation": "UNTESTED"
+}

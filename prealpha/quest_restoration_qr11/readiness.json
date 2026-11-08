@@ -1,0 +1,21 @@
+{
+  "status": "READY_NOT_INSTALLED",
+  "created_utc": "2026-11-03T15:40:15.285581+00:00",
+  "installer_sha256": "400438835F72415A78D6604EC9551034A2967BEB42206132FC94714E8496806E",
+  "manifest_sha256": "8B42EAC8C161256534DB26F859A62447E8A9921104929B10ADFF83020C1B2DD0",
+  "fixture_result": "run_02_results.json",
+  "fixture_result_sha256": "7E8720E3A1EE1C1145D74E766DD5B84AE3A2429A91CB6853A72C6352591DB320",
+  "primary_checks": 48,
+  "primary_PS_actions": 86,
+  "independent_review": {
+    "path": "review/result.json",
+    "sha256": "6F27596B527D667499EB5755829F6D03C71AB50E31269E2798C03AC473CFB40F"
+  },
+  "collector_controls": {
+    "path": "collector_controls_02.json",
+    "sha256": "CDC0AEB98BFCB586657AC389E96CDE4DA75A582F5249EF844AED5A69F426C53C"
+  },
+  "payload": "Exact QR10D01 candidate02; no diagnostic code changes in QR11.",
+  "authorization": "No real Install/Rollback/Recover authorized or executed by this task. Preflight is read-only; user decides deployment separately.",
+  "limits": "Fixtures cannot prove real Program Files write permissions or hardware power-loss atomicity. Each leaf uses File.Replace; the pair requires the journal/recovery protocol."
+}
