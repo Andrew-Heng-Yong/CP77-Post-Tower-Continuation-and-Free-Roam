@@ -93,7 +93,9 @@ jobs. That does not establish every quest stage, eligibility on every save, or
 complete gameplay verification. Completed content and earned progress must be
 preserved; unsupported unfinished quests defer instead of restarting. The latest
 three additions and the River hold are documented in the
-[S30 side-job record](docs/sidejobs_s30_20261026.md).
+[S30 side-job record](docs/sidejobs_s30_20261026.md). See the
+[mid-quest resume exceptions](docs/quest_resume_exceptions.md) for
+quest-specific limits on resuming pre-Tower progress.
 
 The beta release target requires save continuity into future stable versions.
 Actual transition and save-upgrade fixtures are still required. See the

@@ -1,0 +1,16 @@
+{
+  "status": "READY_NOT_INSTALLED_AWAITING_DEPLOYMENT_AUTHORIZATION",
+  "candidate": "candidate_02",
+  "candidate_manifest_sha256": "47B8C82C5B736A00D850267849FD25D56E98141BE2E88A421E63796D4BF93362",
+  "assessment": "assessment_02.json",
+  "assessment_sha256": "4301C758BFF407D3C2B97893CDA8DA64A57FAD3E9637540B3C731FFF2F625ECB",
+  "core_transaction": "core_manifest_01.json",
+  "core_transaction_sha256": "7F9A8A637CDC64E91BCE4E7EC794523CD1DF7CE4CD175324EC0437B56398998A",
+  "readiness_sha256": "7F6EBC09FEA82BC689439A36D08A41A54D209A4872CFEA9130A2586160384FC2",
+  "preflight": "deployment_01/preflight_01.json",
+  "observed_save_files": 361,
+  "game_writes": 0,
+  "save_writes": 0,
+  "gameplay": "Arms candidate unverified; blackout cause unresolved; Machine Gun reported working and mq007_done recorded.",
+  "next": "After explicit authorization, recheck current inputs/game closed and install only this two-script transaction, Verify, ValidateRollback, record actual authorization with installed manifest. User performs the focused test card."
+}

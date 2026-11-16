@@ -1,0 +1,5 @@
+# Dancing on a Minefield resume entrance correction
+
+The **Find the car** entrance now connects the native Minefield car mount check directly to its unmount listener. The previous offline body could mark **Get to the van** inactive in the unrelated Pacifica gig **Two Wrongs Makes Us Right**. The successor disconnects that write in `root/11/620` while preserving the mount condition, its false branch, and the rest of the chase logic. The original game resources and the previous offline body remain available. [Graph readback](graph_01/readback.json) · [Verification](verify_minefield.py)
+
+The full serialized graph comparison found only the intended edge changes. The original success reward and completion fact, failure route, and terminal cleanup remain connected. The successor uses the same staged private depot, which was absent from all 135 archives scanned. Only these successor bytes should occupy that depot in a future candidate. The current installation and saves were left untouched. Existing car, drone, and shared patrol ownership still need qualification for runtime admission. [Assessment](evidence_01/assessment.json)

@@ -1,6 +1,8 @@
 # Modular restriction profiles
 
-[Tower Implant Focused](tower_implant_focused/profile.json) is the installed selection in [active.json](active.json). It retains maximum HP 150, unchanged direct stamina, Body 3 with all Body perks blocked, closed Relic, cosmetic-only Casius tattoos and no smart targeting. In the other trees it removes the physical-balance bans and keeps the implant, quickhack, smart-targeting and dependency restrictions. The original [Strict Tower](tower_strict/profile.json) and all five of its source modules are preserved unchanged.
+The current consolidated installation uses the [Tower recovery successor](../prealpha/tower_recovery_20261111_01/REPORT.md). It applies four cyberware treatments and a save-local Health and Stamina recovery clock while retaining the existing profile identity and refund ledger. The legacy Health value remains part of the saved identity check. The recovery settings supply the runtime caps.
+
+[Tower Implant Focused](tower_implant_focused/profile.json) remains the selected definition in [active.json](active.json). The original module descriptions below record the predecessor's fixed 150 maximum HP, native stamina and Casius tattoo whitelist. Body stays at 3 with all Body perks blocked, Relic remains closed, and the other trees retain the same restricted perks. The original [Strict Tower](tower_strict/profile.json) and its five modules remain available as source history.
 
 R3 compiles the selected JSON modules into a versioned runtime definition. This is not a live settings menu: changing the selector or modules requires regeneration, testing and deployment, and a reviewed transition for already-active saves. See the [activation and test checklist](../docs/restriction_profile_r3_check.md).
 

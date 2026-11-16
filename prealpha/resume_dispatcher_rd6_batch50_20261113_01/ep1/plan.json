@@ -1,0 +1,29 @@
+{
+  "quest": "sts_ep1_13",
+  "title": "Talent Academy",
+  "socket": "ResumeMeetHandsContact",
+  "wrapper": 14610,
+  "main": 15637,
+  "body": 14623,
+  "support": [12477, 12920, 14038, 15184],
+  "private_depot": "towercontinued\\native_gigs_u9\\resume\\sts_ep1_13_body.questphase",
+  "graphs": {
+    "root": {
+      "input": 1000,
+      "phase_inputs": [3],
+      "edges": [[1000, "Out", 2, "In1"], [1000, "Out", 3, "ResumeMeetHandsContact"]]
+    },
+    "root/3": {
+      "input": 1000,
+      "edges": [[1000, "Out", 10, "In"], [1000, "Out", 257, "Active"]]
+    }
+  },
+  "stage_graph": "root/3",
+  "stage_seeds": [10, 257],
+  "consumed_nodes": [4, 7, 12, 198, 199, 262, 265, 313, 314],
+  "completion": {
+    "cleanup": 14038,
+    "reward": [5, "QuestRewards.sts_ep1_13_reward"],
+    "credit": 15184
+  }
+}

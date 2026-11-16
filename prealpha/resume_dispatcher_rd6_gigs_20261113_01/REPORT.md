@@ -1,0 +1,9 @@
+# Two-gig resume batch
+
+Generated private quest-phase entrances for **Many Ways to Skin a Cat** at **Get inside** and **Dancing on a Minefield** at **Find the car**. Both use the earned stages recorded in the existing history and save fixtures. The serialized graphs preserve the original inputs, reward nodes and completion paths. The new entrances bypass the briefing and first-start journal changes. The two gigs have separate owner receipts and update separate district counters. [Stage definitions](entrances.json) · [Serialized readback](graph_02/readback.json) · [Offline assessment](evidence_02/assessment.json)
+
+The private Many Ways copy preserves the chase continuation while bypassing its write to a separate Pacifica gig’s journal. The private Minefield copy bypasses the later cleanup of Radar Love’s garage vehicle. The original routes remain available through their existing resources. Eleven current providers were verified across 135 installed archives. The new private depots were absent from those archives.
+
+Many Ways still needs its existing van-failure monitor connected to the resumed owner exactly once. The combat setup also selects phase A on eleven community entries, so its handoff must preserve the encounter already in progress. Minefield still needs its car and drone handoff to preserve existing vehicle damage and handle the shared Militech patrol cleanup. These are the remaining integration checks for one combined build. [Current ownership checks](evidence_02/assessment.json) · [Earlier Many Ways playtest](../../research/gig_restoration/pilot_r1/live_result_20261009.json) · [Earlier Minefield playtest](../../research/gig_restoration/minefield_g3/live_result_20261011.json)
+
+Both entrances are staged as offline graph resources. They have no runtime admission yet. The installed build and saves were left untouched. Validation for this batch uses existing saves and automated checks. No additional manual run is assigned.

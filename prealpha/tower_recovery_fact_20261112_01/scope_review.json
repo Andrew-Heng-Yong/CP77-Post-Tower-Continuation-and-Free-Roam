@@ -1,0 +1,22 @@
+{
+  "changed_paths": [
+    "r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR3.reds"
+  ],
+  "core_paths": 51,
+  "source_checks": {
+    "tower_admission_and_bruise_dispatch": "MATCH",
+    "vitals_curve_and_pool_updates": "MATCH",
+    "persistent_schema": "TWO_ADDITIVE_CHECKPOINT_FIELDS; LEGACY_FIELDS_RETAINED",
+    "clock_transition_fixtures": {
+      "scope": "SOURCE_CHECKS_AND_CLOCK_MODEL",
+      "exact_checkpoint_and_midnight": "PASS",
+      "single_and_multiple_forward_skips": "PASS",
+      "rewind_and_reload_without_repeat_credit": "PASS",
+      "recoverable_fact_publication": "PASS",
+      "cap_and_external_override": "PASS",
+      "legacy_migration_and_next_checkpoint": "PASS"
+    },
+    "gameplay": "UNVERIFIED"
+  },
+  "manifest_sha256": "4B731A78AF0375C28D4E1DFB697D2AABD9858F2E13FE442E0E114AD0BE176A24"
+}

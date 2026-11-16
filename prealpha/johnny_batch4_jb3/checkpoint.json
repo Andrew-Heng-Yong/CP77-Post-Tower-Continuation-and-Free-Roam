@@ -1,0 +1,33 @@
+{
+  "status": "JB3_BATCH4_STAGED_OFFLINE",
+  "date": "2026-11-09",
+  "candidate": "candidate_01",
+  "package": "JB3_Core51_01.zip",
+  "package_sha256": "3C5A6C38AEC9927F35B9204FBEF99BDE66642AD7C10B4BEE49B7E2B0E47A4644",
+  "package_manifest": "candidate_01\\package_manifest.json",
+  "package_manifest_sha256": "2CCDB16A29B7EBE3AC43193D360839BF5543EC34677179D9B7921DD91C7CEBDF",
+  "archive_sha256": "7DD985EA55A7879C0DBA372891F2ABC6D6DB47C99BE46171C8EAE058FD2DAC46",
+  "archive_payloads": 1636,
+  "installed_epoch": "JB1",
+  "installed_manifest_sha256": "389051B89720C9B4AD76ECED741B2FD13BE1426FD3382BB411AB06D352B2B702",
+  "changes_relative_to_installed": [
+    "archive/pc/mod/zzzz_PTFR_Combined.archive",
+    "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS23.reds",
+    "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS25.reds"
+  ],
+  "core_paths": 51,
+  "required_dependencies_verified": 26,
+  "changed_resources": 12,
+  "new_depot_paths": 33,
+  "fixture_count": 41,
+  "new_xl_registrations": 0,
+  "proofs": {
+    "input_01\\plan.json": "0B3B2D3747138777EC2B03C09D45233E7E52915E7F994349F65FD0AEDA9022A4",
+    "readback_01\\manifest.json": "15BBB88FFBA7E5712E67C7E71F12E3931C289F23E473B67163ABE9DD57F5A49D",
+    "verification_01.json": "D2A351C1EAFFB55652FD98BEDDA5D5EE34D740CFD37004614FD74F574F9B9872",
+    "archive_readback_01.json": "D66D912EDA9B3FD31DDE86E13F5ED05110456A67B51B82D8B315196BBF5BB5CF"
+  },
+  "gameplay_status": "PENDING_GENUINE_PRE_SCENE_FIXTURES",
+  "game_writes": 0,
+  "save_writes": 0
+}

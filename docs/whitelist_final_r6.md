@@ -8,11 +8,11 @@ prerequisite coverage was not established by that pass. Implementation and
 playtesting remain separate; editing this list does not activate quests in the
 installed mod.
 
-The [complete named catalogue](whitelist_final_r6_catalogue.md) lists every
-decision; its membership is unchanged. The current [R6.1 JSON](../research/gig_restoration/lore_whitelists_v6_1_dependencies.json)
-also records native journal IDs, prerequisites, reasons and source identities.
-[The current-selection pointer](../research/gig_restoration/lore_whitelist_current.json)
-identifies R6.1 without rewriting R6 or older inputs used by installed packages.
+The [R6 named catalogue](whitelist_final_r6_catalogue.md) and [R6.1 registry](../research/gig_restoration/lore_whitelists_v6_1_dependencies.json)
+record the original decisions, native journal IDs and prerequisites. The
+[current-selection pointer](../research/gig_restoration/lore_whitelist_current.json)
+selects the latest revision. The [R6.3 decision](whitelist_prophets_song_20261109.md)
+excludes The Prophet’s Song from new post-Tower admission in JB2.
 
 ## Prerequisite completion rule
 

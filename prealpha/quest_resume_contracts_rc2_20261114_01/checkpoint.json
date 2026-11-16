@@ -1,0 +1,73 @@
+{
+  "step": 1,
+  "status": "SOURCE_CONTRACTS_MAPPED_WITH_RECORDED_BOUNDARIES",
+  "core_epoch": "RD10_MEET_KIRK_CONTENT_LOCK",
+  "report": "REPORT.md",
+  "contracts": "analysis_07/contracts.json",
+  "owner_map": "analysis_05/owner_map.json",
+  "saved_witness": "analysis_06/saved_witness.json",
+  "summary": {
+    "quests": 160,
+    "state_contracts": {
+      "NATIVE_EXECUTION_CHECKPOINT_REQUIRED": 1437,
+      "JOURNAL_CONTAINER": 186,
+      "JOURNAL_SITE_REQUIRES_ORIGINAL_OWNER_BINDING": 76,
+      "GRAPH_REFERENCE_WITHOUT_CURRENT_JOURNAL_DEFINITION": 38,
+      "JOURNAL_METADATA_WITHOUT_MAPPED_EXECUTION_SITE": 109,
+      "NO_REACHED_SITE_FROM_REVIEWED_ROOTS": 3
+    },
+    "source_obligation_scopes": 5236,
+    "relevant_trace_boundaries": {
+      "MISSING_INPUT": 29,
+      "UNDECODED_GRAPH": 12,
+      "UNVERIFIED_PROVIDER": 2
+    },
+    "whole_quest_exceptions": 4,
+    "scoped_exceptions": 5,
+    "runtime_exact_resume_admissions": 0
+  },
+  "verification": [
+    "unique_quest_and_stage_keys",
+    "all_quest_source_routes_present",
+    "owner_scope_refs_resolve",
+    "provider_inputs_and_review_chain",
+    "provider_variants_and_registration_scope",
+    "external_journals_disjoint",
+    "all_43_definition_only_rows_preserved",
+    "two_changed_container_rows_remain_journal_metadata",
+    "missing_definitions_do_not_infer_history",
+    "hs3_three_entries_missing_from_legacy_catalogue",
+    "same_save_parallel_objectives",
+    "epistrophy_signals_match_completed_quest_roots",
+    "all_native_saved_owner_controls_match",
+    "inactive_owner_control_keeps_all_listeners",
+    "branch_exceptions_keep_distinct_handlers",
+    "no_runtime_admission",
+    "rd10_core_and_dependencies_preserved",
+    "pinned_save_and_metadata_preserved",
+    "python_syntax",
+    "linked_evidence_exists"
+  ],
+  "remaining": [
+    "Targeted support and interface gaps in the packet",
+    "Verify actual original and surviving owners, scene cursors, support and one-time effects at Step 2 capture"
+  ],
+  "artifacts": {
+    "inputs.json": "80DB16E4A5309C7AB0244E02F7729A3CCB290841E13BDF88F06672C385F01C80",
+    "inputs_02.json": "6A6E997B1E63E8E2A4FC25C85F4E4CA0090CFAE83E67B04F65E0778D8FACA1A9",
+    "capture_01/providers.json": "B44DE669F762BB833AEF4A14714C184B7FCB29E8E4D2A7B498CBA4E9FF96E271",
+    "capture_02/providers.json": "28886286289AF4C667CD1B0D64D5DDA1B5973D83B17091AB40DDE76093E97177",
+    "analysis_01/source_review.json": "6E833D24B04D2255FFFB2185B07921E18D1AE68F1B893C2686377C5BED8BF9FA",
+    "analysis_02/source_review.json": "846702F9A59B136A92922CB06EC9F96A5376824C509C7A44FD1108C34076A744",
+    "analysis_03/owner_map.json": "97E2DBC5D578F08C7729E7F0B60FB7EDCD989F1B5C622BA654414473358627ED",
+    "analysis_04/source_review.json": "F0C34F9474857ADB98373DD997B7020F97779AE798A7B783A5A8C5AA21874190",
+    "analysis_05/owner_map.json": "B64B9010580CFFE9B5B642EAC8ACB17FFCF437DC16A6B84CCCBD8C7234F9907E",
+    "save_projection_01.json": "3305A7FF12ABE5CF3175826EF79F0AB7ED3CA015AD266D2751D5E8E81CC7DCFF",
+    "analysis_06/saved_witness.json": "0ABA31C20C4D9D65F7AEC6D2031AC3FA2B63C6FC53CB50A2D6F8EA02F4DA5F21",
+    "analysis_07/contracts.json": "02A19F25EC7478DEB667F308FF876428D78D8E91DC6ADB9732ED5B2E060FC31F",
+    "REPORT.md": "41B6467A85E687485EE8A5BF1A6FEC780E7DF4424FD1AFAE43D81336A98C183D"
+  },
+  "game_calls": 0,
+  "game_writes": 0,
+  "save_writes": 0
+}

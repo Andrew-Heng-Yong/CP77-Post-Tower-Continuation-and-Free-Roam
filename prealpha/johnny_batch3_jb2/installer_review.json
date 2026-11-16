@@ -1,0 +1,24 @@
+{
+  "status": "PASS_JB2_THREE_FILE_TRANSACTION_LITERAL_DELTA",
+  "predecessor_installer_sha256": "7B329FD8EB811CFFB9779BC3FBDC485C1D64B6BD15A2048D1362CC5447F7B405",
+  "installer_sha256": "BDE3D32F47AC7D98FBDCFDED0FC477335B33B2F7C0F2E83F2ABFBB2198A83767",
+  "manifest_sha256": "6F56198224824B69F5073CC95A7D7708A9F08262707C48C61CE6A61593F9F1F4",
+  "allowed_replacements": [
+    "archive/pc/mod/zzzz_PTFR_Combined.archive",
+    "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS23.reds",
+    "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS25.reds"
+  ],
+  "substitutions": {
+    "# JB1 deployment. User approved the five-quest Johnny removal and native skips.": "# JB2 deployment. User approved Batch 3 and the Prophet entry exclusion.",
+    "# Derived from the reviewed SD1 transaction. Only the consolidated archive may change.": "# Derived from JB1. The consolidated archive and the two listed scripts may change.",
+    "# The one-archive replacement is journaled, with per-file atomic replacement; Windows": "# The three-file replacement is journaled, with per-file atomic replacement; Windows",
+    "$PinnedCoreManifestSHA='A97193CD93CA7D0087D3F4B8EC973ADAF16F907AEA52AFAF12E921574E6BCD44'": "$PinnedCoreManifestSHA='6F56198224824B69F5073CC95A7D7708A9F08262707C48C61CE6A61593F9F1F4'",
+    "PTFR_JB1_JOURNAL_V1": "PTFR_JB2_JOURNAL_V1",
+    "'PTFR_JB1_CORE_V1'": "'PTFR_JB2_CORE_V1'",
+    "$manifest.source_epoch -cne 'JB1' -or $manifest.predecessor_epoch -cne 'SD1'": "$manifest.source_epoch -cne 'JB2' -or $manifest.predecessor_epoch -cne 'JB1'",
+    "('recovery/core_jb1_01')": "('recovery/core_jb2_01')",
+    "$wanted=@('archive/pc/mod/zzzz_PTFR_Combined.archive')": "$wanted=@('archive/pc/mod/zzzz_PTFR_Combined.archive','r6/scripts/PTFR_Consolidated/PTFR_SideJobsS23.reds','r6/scripts/PTFR_Consolidated/PTFR_SideJobsS25.reds')",
+    "$changes.Count -ne 1": "$changes.Count -ne 3",
+    "Core51/one-existing-archive scope drift": "Core51/three-existing-file scope drift"
+  }
+}

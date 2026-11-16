@@ -1,0 +1,9 @@
+{
+  "scope": "Install checkpoint v0.1.7 with the corrected save-session probe.",
+  "changed_paths": [
+    "red4ext/plugins/PTFR_ExecutionCheckpoint/PTFR_ExecutionCheckpoint.dll"
+  ],
+  "candidate_sha256": "70A820D791635CA2AA9455D31BFB95169EA4ECE1943B4C6E77F4E3936F505568",
+  "predecessor_installed_manifest_sha256": "7971F2E6AE7AF81E3B276FCBDDDD2DD0C25DB42069FAEE30000CE6DE92B16636",
+  "gameplay": "PENDING_MS30_SAVE_SESSION_SMOKE_TEST"
+}

@@ -1,0 +1,9 @@
+# Global latest loading passed — 12 November 2026
+
+The user completed the requested AutoSave-2 Viktor load. At **3:33:45 p.m. Toronto time**, CET named `snapshot_hs3_20261112T193931Z_1_3.json` and its compatible `snapshot_hs1_20261112T193921Z_151_2.json` companion. The native publication callback logged that historical observations were ready at the same second. This confirms global file selection, queued transfer and completed publication on this run.
+
+The selected files retain the exact hashes of the full-value offline fixture, and both installed snapshot scripts still match HS4 candidate 02. The current launch's REDscript log records successful compilation. The collected current-session logs contain no error-level, traceback, runtime-error or global-loader-wait lines. The same session subsequently logged continuation **Ready at 3:36:27 p.m.**, with all required setup checks passed.
+
+[Assessment and pinned log evidence](assessment.json) records source paths, captured-byte hashes, line numbers and observation limits. AutoSave-2 metadata is consistent with the Viktor fixture; exact loaded save-body identity is user-reported rather than independently established by these logs. Native publication follows complete row-count and lease checks, but this was not a direct live readback of every row, a save/reload serialization test or a resumed-quest-owner test. The prior schema-3 capture observation already established Active Deliver Skippy and counter 97 in this unchanged source file.
+
+This global-latest load check is complete for the reported fixture and does not need repetition. No additional ending replay or snapshot-creation test is requested. This assessment performed read-only game/save inspection and wrote only workspace evidence; no game launch, runtime command, mod edit or save edit occurred. Earlier installation and offline proof documents remain unchanged.

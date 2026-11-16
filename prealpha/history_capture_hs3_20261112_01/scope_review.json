@@ -1,0 +1,11 @@
+{
+  "scope": "User explicitly requested: install and I will test. Install candidate_04 for the Manual Save 26 prospective HS3 capture test.",
+  "changed_paths": [
+    "archive/pc/mod/zzzz_PTFR_Combined.archive",
+    "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_HistorySnapshotHS1/init.lua",
+    "r6/scripts/PTFR_Consolidated/PTFR_HistorySnapshotHS1.reds"
+  ],
+  "manifest_sha256": "E58C85A7E0F8D40409CAB720935F0DED9E60C45453787BE136F54FB8657AF001",
+  "template_sha256": "9444BC4C10B91AEBB819CF67785198FBA291F4B39B3FD1679607A2608395A630",
+  "gameplay": "User will test; no game launch"
+}

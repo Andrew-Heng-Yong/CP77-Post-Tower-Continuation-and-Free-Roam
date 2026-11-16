@@ -1,19 +1,23 @@
 {
   "schema": 1,
   "step": 3,
-  "status": "TWO_QUEST_VIDEO_REVIEW_AWAITING_USER_NOTES",
+  "status": "USER_NOTES_IMPORTED_EXPANDED_AND_IMPLEMENTED_JP1",
   "review_method": "USER_WATCHES_PLAYTHROUGHS_AND_WRITES_REMOVAL_NOTES",
   "pilot_quest_count": 2,
   "pilot_quests": [
     {
       "id": "mq016_bartmoss",
       "title": "KOLD MIRAGE",
-      "video": "https://www.youtube.com/watch?v=7yMYH3fOfmA"
+      "video": "https://www.youtube.com/watch?v=7yMYH3fOfmA",
+      "editing_status": "COMPLETE_USER_ACCEPTED_KM2",
+      "acceptance": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\kold_mirage_km2\\observations\\user_acceptance_20261108_01\\result.json"
     },
     {
       "id": "mq036_overload",
       "title": "Sweet Dreams",
-      "video": "https://www.youtube.com/watch?v=UHfdmud_NwE"
+      "video": "https://www.youtube.com/watch?v=UHfdmud_NwE",
+      "editing_status": "SD1_INSTALLED_LIVE_TEST_PENDING_SUPPORTED_FIXTURE",
+      "checkpoint": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\sweet_dreams_sd1\\checkpoint.json"
     }
   ],
   "report": "REPORT.md",
@@ -22,8 +26,18 @@
   "notes_template_sha256": "E244F692D58266B4DC54C49A82D78123BA3A0C2A75A6155C0342D1716A7EDB79",
   "preserved_original": "evidence_03/original_notes_template.txt",
   "prior_source_evidence": "prealpha/johnny_dialogue_review_20261107_02/evidence_05/review_manifest.json",
-  "approved_removal_events": 0,
+  "approved_removal_events": 37,
   "game_writes": 0,
   "save_writes": 0,
-  "next_action": "Await speaker-prefixed removal quotes for KOLD MIRAGE and Sweet Dreams. Use OPTION for choice labels. Five consecutive words suffice as a search key; shorter entries may be quoted in full. Resolve duplicate matches and connected quest effects before selecting an exact edit."
+  "next_action": "Returned five-quest notes are source-reviewed: 72 Johnny and 46 V event targets plus eight conversation options. User reviews 17 additional Johnny occurrences/14 associated V replies and the proposed leave-connected bot choice wording; no five-quest implementation/deployment has been requested. Preserve KOLD acceptance and SD1 current installation.",
+  "implementation_checkpoint": "prealpha/johnny_dialogue_pilot_jp1/checkpoint.json",
+  "selected_plan": "prealpha/johnny_dialogue_pilot_jp1/input_03/plan.json",
+  "approved_option_bypasses": 4,
+  "kold_mirage_status": "COMPLETE_USER_ACCEPTED_KM2",
+  "kold_mirage_acceptance": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\kold_mirage_km2\\observations\\user_acceptance_20261108_01\\result.json",
+  "sweet_dreams_status": "SD1_INSTALLED_LIVE_TEST_PENDING_SUPPORTED_FIXTURE",
+  "sweet_dreams_checkpoint": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\sweet_dreams_sd1\\checkpoint.json",
+  "next_review_checkpoint": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\johnny_video_review_20261108_01\\checkpoint.json",
+  "next_review_notes": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\johnny_video_review_20261108_01\\output_01\\Five_quest_removal_and_rewire_notes.txt",
+  "current_notes_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\johnny_video_review_20261108_01\\review_02\\REVIEW.md"
 }

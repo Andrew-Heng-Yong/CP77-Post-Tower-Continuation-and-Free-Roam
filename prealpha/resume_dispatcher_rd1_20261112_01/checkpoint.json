@@ -1,0 +1,37 @@
+{
+  "status": "INSTALLED_VERIFIED_AWAITING_USER_GAMEPLAY_TEST",
+  "baseline": "HS4_GLOBAL_LATEST_HISTORY",
+  "selected_inputs": "evidence_02",
+  "selected_base": "base_02/package",
+  "contracts": "analysis_03",
+  "script_candidate": "candidate_02",
+  "compile": "compile_02",
+  "native_archive": "archive_04",
+  "candidate": "candidate_04",
+  "manifest": "candidate_04/qualified_manifest.json",
+  "manifest_sha256": "226A0805F0167AA88A54A94A9DCB01438F56AB4E1D7D5961BFE5A1BB512E7F3B",
+  "assessment": "verification_03/assessment.json",
+  "assessment_sha256": "D0D6906B43E6BD3A5B16F60E3C4131D99818DE9634E370AE5C285EF61741D46C",
+  "checks": 354,
+  "installed": true,
+  "preservation": "Unavailable; retain genuine native retirement",
+  "scope": [
+    "Shared history/owner/entry decision foundation",
+    "Machine Gun Deliver Skippy earned-stage entry",
+    "Moving Heat first-door earned-stage admission",
+    "Inactive Highwayman unchanged regression"
+  ],
+  "next": "User loads AutoSave-2 at Viktor, completes genuine Tower in the same session, then tests Deliver Skippy and Moving Heat first door. No AutoSave-5 command test.",
+  "notes": [
+    "Global-latest snapshot selection unchanged.",
+    "Full stage decisions currently apply to two entries; not universal arbitrary-moment coverage.",
+    "Archive/candidate 03 rejected: intermediate wait retained old stage predicates.",
+    "Earlier preparation/build/evaluator failure outputs remain preserved.",
+    "Installed five verified Core files; 355 save files and external dependency bytes preserved; no game launch or save edits."
+  ],
+  "installed_epoch": "RD1_EARNED_STAGE_RESUME",
+  "installed_manifest": "deployment_01/installed_manifest_01.json",
+  "installed_manifest_sha256": "DCC4C8958756DDBA54C1F98404B96F2EBDF16E48F8CE3DEC6BB98A0DA6B30864",
+  "deployment_fixtures": "fixture_results.json",
+  "rollback_ready": true
+}

@@ -1,0 +1,96 @@
+{
+  "status": "PASS",
+  "installer_sha256": "491B078B11DF4EBAF06BFC30340FF45667D72AFF1A355A45D23CC37C7B48FF7D",
+  "actions": [
+    {
+      "fixture": "rollback",
+      "action": "Install",
+      "status": "INSTALLED_VERIFIED",
+      "returncode": 0
+    },
+    {
+      "fixture": "rollback",
+      "action": "Verify",
+      "status": "VERIFIED_AFTER",
+      "returncode": 0
+    },
+    {
+      "fixture": "rollback",
+      "action": "ValidateRollback",
+      "status": "ROLLBACK_READY",
+      "returncode": 0
+    },
+    {
+      "fixture": "rollback",
+      "action": "Rollback",
+      "status": "ROLLED_BACK_VERIFIED",
+      "returncode": 0
+    },
+    {
+      "fixture": "rollback",
+      "action": "Verify",
+      "status": "VERIFIED_BEFORE",
+      "returncode": 0
+    },
+    {
+      "fixture": "crash_first",
+      "action": "Install",
+      "status": null,
+      "returncode": 72
+    },
+    {
+      "fixture": "crash_first",
+      "action": "Recover",
+      "status": "RECOVERED_BEFORE",
+      "returncode": 0
+    },
+    {
+      "fixture": "crash_first",
+      "action": "Verify",
+      "status": "VERIFIED_BEFORE",
+      "returncode": 0
+    },
+    {
+      "fixture": "crash_stage",
+      "action": "Install",
+      "status": null,
+      "returncode": 72
+    },
+    {
+      "fixture": "crash_stage",
+      "action": "Recover",
+      "status": "RECOVERED_BEFORE",
+      "returncode": 0
+    },
+    {
+      "fixture": "crash_stage",
+      "action": "Verify",
+      "status": "VERIFIED_BEFORE",
+      "returncode": 0
+    },
+    {
+      "fixture": "crash_receipt",
+      "action": "Install",
+      "status": null,
+      "returncode": 72
+    },
+    {
+      "fixture": "crash_receipt",
+      "action": "Recover",
+      "status": "RECOVERED_BEFORE",
+      "returncode": 0
+    },
+    {
+      "fixture": "crash_receipt",
+      "action": "Verify",
+      "status": "VERIFIED_BEFORE",
+      "returncode": 0
+    },
+    {
+      "fixture": "game_running",
+      "action": "Install",
+      "status": null,
+      "returncode": 1
+    }
+  ]
+}

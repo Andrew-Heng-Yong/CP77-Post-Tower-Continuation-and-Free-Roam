@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "status": "INSTALLED_VERIFIED_AWAITING_USER_POST_TOWER_TEST",
+  "authorization": "User requested the missing KOLD MIRAGE marker/encounter repair and explicitly requested mq016_active=0 or 1.",
+  "candidate": "candidate_01",
+  "plan": "input_01/plan.json",
+  "source_review": "analysis_01.json",
+  "typed_verification": "verification.json",
+  "compile": "compile_01/result.json",
+  "archive_readback": "archive_readback.json",
+  "fixtures": "fixture_results.json",
+  "installed_manifest": "deployment_01/installed_manifest_01.json",
+  "preservation": "deployment_01/verification.json",
+  "test_card": "TEST_CARD.md",
+  "game_writes": 2,
+  "save_writes": 0,
+  "game_launches": 0,
+  "next_action": "User starts the game normally and checks the original post-Tower KOLD MIRAGE fixture, then naturally available unfinished entries. No completed route or pre-ending comparison needs repetition. No fact/save edits.",
+  "current_successor_checkpoint": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\prepared_encounters_pe1\\checkpoint.json"
+}

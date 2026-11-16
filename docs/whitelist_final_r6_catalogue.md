@@ -2,6 +2,8 @@
 
 21 October 2026. Selection only; not a list of currently installed or playtested restorations.
 
+This catalogue records R6. The current R6.3 selection excludes The Prophet’s Song under the [9 November decision](whitelist_prophets_song_20261109.md).
+
 The broader target contains 80 gigs and 78 side jobs. The conservative alternate contains 34 gigs and 29 side jobs. Original eligibility and the requirements in the JSON registry still apply.
 
 [Decision summary](whitelist_final_r6.md) | [Machine-readable list](../research/gig_restoration/lore_whitelists_v6_final.json)

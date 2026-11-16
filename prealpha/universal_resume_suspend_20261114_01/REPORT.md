@@ -1,0 +1,23 @@
+# Holding and returning one original quest timer
+
+14 November 2026. The timer prototype can remove one pending real-time wait, hold its exact remaining time and return the same native timer and callback to a still-valid owner. The fixture uses the original Kabuki wait's saved **8.9462251663208 seconds**. Its original scheduler ID comes from Manual Save 26. The worker, quest objects and surrounding timers are synthetic. The test executes selected instructions from the pinned Cyberpunk 2077 2.5 executable in a stand-alone process. [Saved timer binding](../universal_resume_20261114_01/evidence_04/timer_binding.json) · [Earlier cutoff observation](../universal_resume_boundary_20261114_01/REPORT.md)
+
+## Scheduler hold and return
+
+The implementation checks for a unique scheduler ID, the expected callback and timer class, and a deadline that will survive the current tick. It takes a strong reference to the native delay record and removes the scheduler entry through `0x1AA7D0`. Native unlink adjusts the following interval and releases the old slot. The held reference retains the timer object while the engine processes other waits. Remaining duration is kept as a separate float because the timer record's duration field is a relative list interval.
+
+Return checks the original owner generation, scheduler and callback identity. It refuses an occupied ID and retains the held reference if the scheduler is at capacity. It places the stored duration back into the record, calls the native insertion routine `0x1AA8B8` and verifies the actual record in the queue before releasing the held reference. A second return cannot reinsert it. The current caller must independently establish that the original quest owner is still valid. [Prototype implementation](DelayHold.hpp)
+
+The native removal, insertion, expiry, readiness and notification code ran end to end on the fixtures. Before return, advancing six seconds fired an unrelated earlier timer and moved the following timer from 20 to 14 seconds. The held wait's remaining time stayed fixed. After return, it stayed pending until its deadline, then the stock quest callback queued the synthetic composite handler parent's original physical slot once. A later tick queued no duplicate. A reused owner generation, reused scheduler ID, due timer, mismatched callback, cancelled timer and full queue were exercised. [Fixture results](evidence_09/fixture_checks.txt)
+
+## Quest notification boundary
+
+The exact-engine quest update calls the notification worker at `0x4AD66B → 0x3534DC`. That worker copies and deduplicates requests under the notification lock, clears the shared queue, then takes the graph lock. It checks deferred retirement and validates the physical registration before resolving the current graph address. A copied notification carries a slot index, so a replacement registration can change what it resolves to. The engine clears the retirement vector around this processing cycle.
+
+The retirement routine `0x2FCFD0` clears the physical registration and asks `0x2FD1BC` to remove the first matching shared notification. If the shared scan misses, that path adds a deferred retirement marker. The fixtures exercised a duplicate shared-queue entry, an unaffected copied list and a drain of duplicate retired slots. The live handoff must account for any already-copied notification before allowing that physical slot to be reused. [Checked drain sequence and exact slice hashes](evidence_09/assessment.json)
+
+## Qualification and next step
+
+MSVC x64 built the harness with warnings treated as errors. All **32 fixture checks passed** using **38 executable or data slices**. The harness supplies scratch-buffer allocation and cleanup and redirects the native memory move to the C runtime. It stops before quest graph execution. No game executable was loaded as a process, and there were no game or save writes, installation or live gameplay tests. The selected run is [build 08](build_08/build.json) with [assessment 09](evidence_09/assessment.json). Earlier fixture runs exposed missing dependencies in the stand-alone slice harness and remain archived locally.
+
+This qualifies hold and return for a still-valid owner. The live quest-side gate must first establish the owner generation and settle pending notifications, then commit the wait before Tower cleanup advances. If suspension aborts while the owner is intact, the tested return path provides rollback. If the owner retires, only value data belongs in the ending-session checkpoint. Continuation then requires a verified new registration of the original logical handler and callback. Save-local checkpoint persistence, reattachment through genuine Tower cleanup, the game-time clock and restored-quest gameplay remain open.

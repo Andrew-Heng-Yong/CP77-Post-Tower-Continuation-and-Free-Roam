@@ -1,0 +1,225 @@
+diff --git a/r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR3.reds b/r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR3.reds
+--- a/r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR3.reds
++++ b/r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR3.reds
+@@ -3497,39 +3497,67 @@
+ 
+ @addMethod(EquipmentSystemPlayerData)
+ public final func PTFRR3MoveTattooToFirst() -> Bool {
++  return this.PTFRR3ClearSecondHand(false);
++}
++
++@addMethod(EquipmentSystemPlayerData)
++public final func PTFRR3ClearSecondHand(allowInventory: Bool) -> Bool {
+   if !ProfilePolicy.OwnHand(this.m_owner) || !BodyPolicy.Safe(this.m_owner as PlayerPuppet) || this.IsEquipPending() { return false; }
+   let area = this.GetEquipAreaIndex(gamedataEquipmentArea.HandsCW);
+   if area < 0 || this.GetNumberOfSlots(gamedataEquipmentArea.HandsCW, true) != 2 { return false; }
+   let id = this.GetItemInEquipSlot(area, 1);
+-  if !ItemID.IsValid(id) || ItemID.IsValid(this.GetItemInEquipSlot(area, 0)) { return false; }
+-  let record = ItemID.GetTDBID(id);
+-  if record != t"Items.CasiusTattoo" && record != t"Items.AdvancedCasiusTattoo" { return false; }
+-  if !CyberwarePolicy.Approved(record) { return false; }
++  let first = this.GetItemInEquipSlot(area, 0);
++  let keepFirst = ItemID.IsValid(first);
++  if !ProfilePolicy.ApprovedHandTattoo(id) ||
++    (keepFirst && (!allowInventory || first == id || !ProfilePolicy.ApprovedHandTattoo(first))) { return false; }
+   let ts = GameInstance.GetTransactionSystem(this.m_owner.GetGame());
+   let item = ts.GetItemData(this.m_owner, id);
+-  if !IsDefined(item) || item.HasTag(n"UnequipBlocked") || !this.IsEquippable(item) { return false; }
++  if !IsDefined(item) || item.GetID() != id || item.HasTag(n"UnequipBlocked") ||
++    (!keepFirst && !this.IsEquippable(item)) { return false; }
+   let count = ts.GetItemQuantity(this.m_owner, id);
+-  let before: array<InnerItemData>; let after: array<InnerItemData>;
++  if count <= 0 { return false; }
++  let before: array<InnerItemData>;
+   item.GetItemParts(before);
++  let firstCount: Int32;
++  let firstParts: array<InnerItemData>;
++  if keepFirst {
++    let equipped = ts.GetItemData(this.m_owner, first);
++    firstCount = ts.GetItemQuantity(this.m_owner, first);
++    if !IsDefined(equipped) || equipped.GetID() != first || firstCount <= 0 { return false; }
++    equipped.GetItemParts(firstParts);
++  }
++  // Ambidextrous requires slot 1 empty. Keep the first tattoo equipped when present.
+   this.ptfrr1PreserveParts = id;
+   this.UnequipItem(area, 1, false);
+-  if !ItemID.IsValid(this.GetItemInEquipSlot(area, 1)) && !ItemID.IsValid(this.GetItemInEquipSlot(area, 0)) {
++  if !keepFirst && !ItemID.IsValid(this.GetItemInEquipSlot(area, 1)) && !ItemID.IsValid(this.GetItemInEquipSlot(area, 0)) {
+     this.EquipItem(id, 0, false, false);
+   }
+   this.ptfrr1PreserveParts = ItemID.None();
++  let expectedFirst = keepFirst ? first : id;
++  if this.GetItemInEquipSlot(area, 0) != expectedFirst || ItemID.IsValid(this.GetItemInEquipSlot(area, 1)) ||
++    !this.PTFRR3TattooRetained(id, count, before) { return false; }
++  return !keepFirst || this.PTFRR3TattooRetained(first, firstCount, firstParts);
++}
++
++@addMethod(EquipmentSystemPlayerData)
++private final func PTFRR3TattooRetained(id: ItemID, count: Int32, before: array<InnerItemData>) -> Bool {
++  let ts = GameInstance.GetTransactionSystem(this.m_owner.GetGame());
+   let readback = ts.GetItemData(this.m_owner, id);
+-  if !IsDefined(readback) || ts.GetItemQuantity(this.m_owner, id) != count ||
+-    this.GetItemInEquipSlot(area, 0) != id || ItemID.IsValid(this.GetItemInEquipSlot(area, 1)) { return false; }
++  if !IsDefined(readback) || readback.GetID() != id || ts.GetItemQuantity(this.m_owner, id) != count { return false; }
++  let after: array<InnerItemData>;
+   readback.GetItemParts(after);
+   if ArraySize(before) != ArraySize(after) { return false; }
+-  let i = 0; let j: Int32; let found: Bool;
++  let i = 0;
+   while i < ArraySize(before) {
+-    j = 0; found = false;
++    let j = 0;
+     while j < ArraySize(after) {
+-      if InnerItemData.GetItemID(before[i]) == InnerItemData.GetItemID(after[j]) && InnerItemData.GetSlotID(before[i]) == InnerItemData.GetSlotID(after[j]) { found = true; break; }
++      if InnerItemData.GetItemID(before[i]) == InnerItemData.GetItemID(after[j]) &&
++        InnerItemData.GetSlotID(before[i]) == InnerItemData.GetSlotID(after[j]) { break; }
+       j += 1;
+     }
+-    if !found { return false; } i += 1;
++    if j == ArraySize(after) { return false; }
++    ArrayErase(after, j);
++    i += 1;
+   }
+   return true;
+ }
+@@ -3748,6 +3776,8 @@
+   private let detail: String;
+   private let audit: String;
+   private let physical: ref<ProfilePhysical>;
++  private let initializationStatus: String;
++  private let initializationHeld: Bool;
+ 
+   public static func Get(game: GameInstance) -> ref<ProfilePolicy> {
+     return GameInstance.GetScriptableSystemsContainer(game).Get(n"PTFR.RestrictionsR3.ProfilePolicy") as ProfilePolicy;
+@@ -3771,6 +3801,11 @@
+     if !ProfilePolicy.Busy(owner) { return false; }
+     let policy = ProfilePolicy.Get(owner.GetGame());
+     return policy.stage == 2 && policy.inflight && policy.mutation && policy.actor == owner && Equals(policy.selected, perk);
++  }
++  public static func ApprovedHandTattoo(id: ItemID) -> Bool {
++    if !ItemID.IsValid(id) { return false; }
++    let record = ItemID.GetTDBID(id);
++    return (record == t"Items.CasiusTattoo" || record == t"Items.AdvancedCasiusTattoo") && CyberwarePolicy.Approved(record);
+   }
+   public static func OwnHand(owner: ref<GameObject>) -> Bool {
+     if !ProfilePolicy.Active(owner) { return false; }
+@@ -3791,6 +3826,7 @@
+     if IsDefined(this.physical) { this.physical.Release(); }
+     this.physical = new ProfilePhysical();
+     this.actor = null; this.warmup = 4; this.settled = 0;
++    this.initializationStatus = ""; this.initializationHeld = false;
+     this.UpgradeImplantProfile();
+     if this.enabled && !this.MatchesDefinition() { this.Fail("Profile revision/hash changed. Saved gates retained; no automatic migration."); }
+     if this.inflight { this.Fail("Interrupted R3 journal. No replay/compensation; use the pre-test save."); }
+@@ -3879,14 +3915,17 @@
+       let second = ItemID.None();
+       if equipment.GetNumberOfSlots(gamedataEquipmentArea.HandsCW, true) > 1 { second = equipment.GetItemInEquipSlot(gamedataEquipmentArea.HandsCW, 1); }
+       if ItemID.IsValid(second) {
+-        if ItemID.IsValid(equipment.GetItemInEquipSlot(gamedataEquipmentArea.HandsCW, 0)) {
+-          this.detail = "Empty Hands slot 1 or move the second tattoo to inventory at a ripperdoc, then close menus."; return;
++        if this.handAttempted { this.Fail("Second Hands slot remained occupied after one relocation attempt."); return; }
++        let keepFirst = ItemID.IsValid(equipment.GetItemInEquipSlot(gamedataEquipmentArea.HandsCW, 0));
++        this.handAttempted = true; this.inflight = true;
++        if !equipment.PTFRR3ClearSecondHand(true) {
++          this.Fail("Second Hands tattoo could not be safely moved and verified. Automatic retry and perk refund stopped.");
++          return;
+         }
+-        if this.handAttempted { this.Fail("Second Hands slot remained occupied after one relocation attempt."); return; }
+-        this.handAttempted = true; this.inflight = true;
+-        let moved = equipment.PTFRR3MoveTattooToFirst();
+-        if !moved { this.Fail("Tattoo relocation could not be acknowledged; no retry or perk refund."); return; }
+-        this.inflight = false; this.detail = "Tattoo moved with quantity/parts retained; waiting for equipment settling."; return;
++        this.inflight = false;
++        this.detail = (keepFirst ? "Second tattoo moved to inventory." : "Tattoo moved to the first Hands slot.") +
++          " Quantity and parts retained. Waiting for equipment to settle.";
++        return;
+       }
+       if this.Total(current) > 2147483647 - current.primaryUnspent { this.Fail("Perk refund would overflow."); return; }
+       this.expected = current; this.starting = this.Total(current); this.stage = 2;
+@@ -3946,22 +3985,34 @@
+   }
+   public func FullNerf() -> String { return this.Apply(true); }
+   public func FullNerfWithoutVitals() -> String { return this.Apply(false); }
++  public func BeginCoveredSetup() -> String {
++    if !this.initializationHeld { this.initializationStatus = this.FullNerf(); }
++    return this.initializationStatus;
++  }
++  private func HoldInitialization(reason: String) -> String {
++    this.initializationStatus = reason; this.initializationHeld = true;
++    return reason;
++  }
+   public func Apply(vitals: Bool) -> String {
++    this.initializationStatus = ""; this.initializationHeld = false;
+     let game = this.GetGameInstance(); let player = GameInstance.GetPlayerSystem(game).GetLocalPlayerMainGameObject() as PlayerPuppet;
+     if !CyberwarePolicy.Completed(game) || !BodyPolicy.Safe(player) { return "Refused: completed Tower and safe normal gameplay required."; }
+     if this.stage == 5 || this.inflight { return "Refused: fault/in-flight journal; no replay. " + this.GetStatus(); }
+     if this.enabled {
+-      if !this.MatchesDefinition() { return "Refused: saved profile differs; no automatic migration."; }
++      if !this.MatchesDefinition() { return this.HoldInitialization("Refused: saved profile differs; no automatic migration."); }
+       if vitals && !this.vitalsRequested && this.stage == 4 {
+         this.vitalsRequested = true; this.Note("HP module enabled on completed migration; no refunds replayed.");
+       } else { if vitals && !this.vitalsRequested { return "Wait until the no-vitals migration completes before enabling HP."; } }
+       return "Not replayed. " + this.GetStatus();
+     }
+-    if !ProfileCatalogue.Valid() { return "Refused: unsupported perk catalogue."; }
++    if !ProfileCatalogue.Valid() { return this.HoldInitialization("Refused: unsupported perk catalogue."); }
+     let data = PlayerDevelopmentSystem.GetData(player);
+     if !IsDefined(data) { return "Refused: progression data unavailable."; }
+     let snapshot = data.PTFRR2Snapshot();
+-    if !snapshot.valid || snapshot.perkRanks[EnumInt(gamedataNewPerkType.Cool_Right_Perk_3_3)] != 0 { return "Refused: invalid snapshot or obsolete perk ownership."; }
++    if !snapshot.valid { return "Refused: invalid progression snapshot."; }
++    if snapshot.perkRanks[EnumInt(gamedataNewPerkType.Cool_Right_Perk_3_3)] != 0 {
++      return this.HoldInitialization("Refused: obsolete perk ownership.");
++    }
+     let legacy = BodyPolicy.Get(game);
+     if !IsDefined(legacy) || legacy.PTFRR3Faulted() { return "Refused: existing Body/Relic journal faulted."; }
+     let status = legacy.PTFRR3StartBodyRelic();
+@@ -3971,7 +4022,14 @@
+     this.vitalsRequested = vitals; this.enabled = true; this.stage = 1; this.actor = player; this.warmup = 4;
+     this.Note("Profile queued; Body/Relic preserved. HP requested=" + ToString(vitals) + "; stamina untouched."); return this.GetStatus();
+   }
+-  // PA1 read-only entry getters. Original migration/HP/refund implementation unchanged.
++  // Read-only setup diagnostics. A health fault is separate from the saved refund journal.
++  public func LC1HealthFailure() -> String {
++    if this.enabled && this.vitalsRequested && this.stage >= 3 && this.stage <= 4 &&
++      IsDefined(this.physical) && this.physical.Faulted() { return this.physical.Status(); }
++    return "";
++  }
++  public func LC1InitializationStatus() -> String { return this.initializationStatus; }
++  public func LC1InitializationHeld() -> Bool { return this.initializationHeld; }
+   public func LC1LedgerValid(player:ref<PlayerPuppet>) -> Bool {
+     if !this.PTFRPAComplete() || !this.MatchesDefinition() || !IsDefined(player) { return false; }
+     let data=PlayerDevelopmentSystem.GetData(player);if !IsDefined(data) { return false; }
+diff --git a/r6/scripts/PTFR_Consolidated/PTFR_ActivityStateR3.reds b/r6/scripts/PTFR_Consolidated/PTFR_ActivityStateR3.reds
+--- a/r6/scripts/PTFR_Consolidated/PTFR_ActivityStateR3.reds
++++ b/r6/scripts/PTFR_Consolidated/PTFR_ActivityStateR3.reds
+@@ -467,8 +467,10 @@
+     let profile = ProfilePolicy.Get(game);
+     if !IsDefined(profile) { this.detail = "Profile module missing."; return; }
+     if profile.PTFRPAFaulted() { this.detail = "Profile transaction fault: " + profile.GetStatus(); return; }
++    let healthFailure = profile.LC1HealthFailure();
++    if NotEquals(healthFailure, "") && this.Fact(n"PTFRPA2_Prepared") != 1 { this.detail = healthFailure; return; }
+     if !profile.PTFRPAConfigured() {
+-      this.detail = profile.FullNerf();
++      this.detail = profile.BeginCoveredSetup();
+       // Refunds stay in the existing durable one-shot policy, including reload.
+       return;
+     }
+diff --git a/r6/scripts/PTFR_Consolidated/PTFR_LoadingCoverLC1.reds b/r6/scripts/PTFR_Consolidated/PTFR_LoadingCoverLC1.reds
+--- a/r6/scripts/PTFR_Consolidated/PTFR_LoadingCoverLC1.reds
++++ b/r6/scripts/PTFR_Consolidated/PTFR_LoadingCoverLC1.reds
+@@ -157,2 +157,4 @@
+     if !entry.SnapshotInitializationHealthy() { this.SetStage("Entry setup stopped","The entry module reports a fault; setup remains covered.");return false; }
++    let healthFailure=profile.LC1HealthFailure();
++    if NotEquals(healthFailure,"") { this.SetStage("Health setup stopped",healthFailure);return false; }
+     if (this.Fact(n"PTFRPA2_Fault")!=0 && this.Fact(n"PTFRPA2_Fault")!=2) || this.Fact(n"PTFRPA5O_Fault")!=0 ||
+@@ -163,3 +165,8 @@
+       }
+-      this.SetStage("Setup stopped",cd1Flags+"\n"+(!chrome.PTFRR2Healthy() ? "Cyberware item-preservation check failed." : "A setup safety check failed.")+"\nCD1 details are in CET gamelog.log. Keep the original test save.");return false;
++      let profileFault=profile.PTFRPAFaulted() ? profile.GetStatus()+"\n" : "";
++      this.SetStage("Setup stopped",profileFault+cd1Flags+"\n"+(!chrome.PTFRR2Healthy() ? "Cyberware item-preservation check failed." : "A setup safety check failed.")+"\nCD1 details are in CET gamelog.log. Keep the original test save.");return false;
++    }
++    let initialization=profile.LC1InitializationStatus();
++    if !profile.PTFRPAConfigured() && NotEquals(initialization,"") {
++      this.SetStage(profile.LC1InitializationHeld() ? "Profile initialization stopped" : "Waiting for profile initialization",initialization);return false;
+     }

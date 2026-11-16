@@ -1,0 +1,12 @@
+{
+  "scope": "Install execution checkpoint v0.1.2 for the user's Step 2 startup and Manual Save 26 test.",
+  "changed_paths": [
+    "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_HistorySnapshotHS1/init.lua",
+    "r6/scripts/PTFR_Consolidated/PTFR_HistorySnapshotHS1.reds",
+    "red4ext/plugins/PTFR_ExecutionCheckpoint/PTFR_ExecutionCheckpoint.dll"
+  ],
+  "candidate_sha256": "95EB12D92A7400D378855B3F749BD79505E76B1B3B622F0A292F6B7AC0042091",
+  "before_sha256": "AB279745469DEE08EC9A816EE9F04C9F9750456DE26A9C6CC8940E15FAFE56D8",
+  "installed_archive_sha256": "443339C64009C5DB99B1E0FD77B1EF526143C40DADDBEBB05EBEC6BB5D76BB45",
+  "gameplay": "PENDING_USER_PLAYTEST"
+}

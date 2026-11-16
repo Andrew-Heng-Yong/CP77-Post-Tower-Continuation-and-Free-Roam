@@ -1,0 +1,15 @@
+input_*/
+source_*/
+edit_*/
+readback_*/
+candidate_*/
+validation_*/
+fixtures/
+recovery/
+deployment_*/
+*.zip
+core_manifest_*.json
+fixture_results.json
+readiness.json
+installer_review.json
+__pycache__/

@@ -1,0 +1,14 @@
+{
+  "changed_paths": [
+    "r6/scripts/PTFR_Consolidated/PTFR_LoadingCoverLC1.reds"
+  ],
+  "core_paths": 51,
+  "source_checks": {
+    "completed_arrival": "BACKGROUND_CHECKS_WITH_NO_POPUP",
+    "first_arrival": "VISIBLE_FRAME_ACK_AND_ALL_SETUP_CHECKS",
+    "gameplay_release_and_activity_gates": "MATCH",
+    "saved_fields_and_popup_teardown": "MATCH",
+    "gameplay": "UNVERIFIED"
+  },
+  "manifest_sha256": "01B14DD1B372533202233D85D641B47609540B5AE5C587311B0CC3539DE570A8"
+}

@@ -1,0 +1,21 @@
+# Where Eagles Dare after completion
+
+14 November 2026. Manual Save 26 is a viable fixture for **Claire's pending reply after completion**. Its journal records Where Eagles Dare, its resolution phase, the Semimaru fix and the CrystalCoat test as Succeeded. The native facts record `mq058_done=1`, `mq058_active=0`, `mq058_update_applied=1` and `mq058_opened_vvc=1`. The unresolved phone choice group and its first option are Active. This corrects the earlier inference that the pending game-time handler represented an unfinished job. [Direct save projection](evidence_02/journal.json) · [Native timer record](../universal_resume_retirement_20261114_01/wait_fixture_01/assessment.json)
+
+The read-only fixture search covered Manual Saves 9 and 23–26 and both installed Point of No Return slots. They supply no earlier in-progress Where Eagles Dare body. Manual Save 9 has the prerequisite Claire race receipt and no recorded Motorbreath completion. Manual Save 26 has both prerequisite receipts and the completed job. An unfinished job test needs an actual save before the Semimaru upgrade completes.
+
+## Original reply ownership
+
+The native resolution runs under `[0,2,82,4,9,3,98,103]`. The pre-Tower fixture and pinned first hospital projection both retain five resolution registrations. These are the game-time wait at node 80, journal-choice listeners 88–90 and the Claire-attitude listener 209. They also retain the setup sibling at node 370 and its three listeners. After the base-game phase retires, the sampled later hospital and after-credits projections have no original quest registrations.
+
+Reply listeners route to Claire's message sequence and the native cut of node 80. Expiry passes through node 201 and the authored follow-up message at 84. Both routes can reach resolution output 1, which normally enters the parent cleanup phase. That cleanup owns vehicle, world and restriction operations. A live continuation must preserve the phone state and settle the relevant ownership before attaching one replacement. The completed journal and earned vehicle unlock must stay intact. The private S29 fresh entry still requires Inactive progress and the stock vehicle-based admission condition. [Native and S29 parity](../quest_restoration_qr6/groups/B01/quests/mq058_semimaru_crystalcoat/REPORT.md)
+
+## Game-time prototype
+
+Manual Save 26 holds **171,141 game seconds** of the authored 172,800 at the time of that save. The clock fixture reads the matching pending one-shot record and executes the stock removal and sorted reinsertion routines against synthetic native-layout objects. It verifies that a neighboring timer stays queued at its original deadline while the selected timer is held. An abort can return the original wait to the same registered owner once. A rebuilt owner receives a rebased absolute deadline computed from the remaining seconds and the post-Tower clock.
+
+The isolated reload passes that absolute deadline into a fresh timer object and uses the stock timer-ID lookup and callback assignment routines to attach its replacement handler. Native timer evaluation and quest readiness notify its new slot once. Earlier fixture runs exposed missing synthetic reference and vtable bindings, which the selected run corrects. The harness supplies the callback counter and receives notifications without dispatching a real quest graph. Absolute deadline serialization and the native caller of those assignment routines were traced separately. [Implementation](GameTimeWait.hpp) · [29 passed checks](evidence_17/fixture_checks.txt) · [Native signatures and build](evidence_17/clock_assessment.json)
+
+## Gameplay readiness
+
+Workspace only. The pending work is to bind the live game-clock and quest workers to the existing pre-cleanup gate, persist the checkpoint before acknowledgement, and prove that the phone listeners and their old notifications have retired before any replacement starts. The live restore also needs to demonstrate that a save made during the ending retains the checkpoint and a save made after it retains the remaining deadline. The present code exercises hold and rollback for a still-valid owner and deadline evaluation for a modeled replacement. The game and Manual Save 26 match their original hashes. [Test card for the first qualified build](TEST_CARD.md)

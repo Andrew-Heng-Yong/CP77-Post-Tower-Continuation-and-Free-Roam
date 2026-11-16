@@ -1,0 +1,116 @@
+{
+  "status": "VERIFIED_STATIC_CANDIDATE",
+  "baseline": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\history_snapshot_cutoff\\deployment_01\\installed_manifest_01.json",
+  "candidate": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\johnny_main_world_removal_20261111_01\\candidate_02",
+  "archive_sha256": "EB1793D88329DB23AC9B1B6B2422662E9E2911A5C63AB63279CDEFEFFDC0DE55",
+  "archive_members": 1737,
+  "changed_package_files": [
+    "archive/pc/mod/zzzz_PTFR_Combined.archive"
+  ],
+  "files": {
+    "r6/tweaks/TowerContinued_PreAlpha.yaml": "4DBE8CD5C3BC6254900B6951919B346F6DCEB7BD9CE9C94FA4B4A27CB7704E05",
+    "r6/scripts/PTFR_Consolidated/PTFR_ActivityStateR3.reds": "2DC4898EB37F6D665E242DF32A349A2B91FAFADD5503A697BC1423BCEB51B4EC",
+    "r6/scripts/PTFR_Consolidated/PTFR_AfterlifeFacesR5.reds": "D536145CB5F45D30E85669B343184753C1DD8E3A492ADACF4543F9E69F323074",
+    "r6/scripts/PTFR_Consolidated/PTFR_AfterlifeIdlesR3.reds": "5899B6DC726B6D5EE74DC5DA21A9D39DDCE30028DABF161E0EF6D91ECD13128A",
+    "r6/scripts/PTFR_Consolidated/PTFR_AfterlifeInteractionsR8.reds": "8E1F054C3AD9B1D5ACEDEA47EA90171D01474627B7EA74163E265B4BAC290CE7",
+    "r6/scripts/PTFR_Consolidated/PTFR_AfterlifeNativeBootstrapA4.reds": "E908FD9894D3583C180BE8C8FE462EEE8904262B76B81984F037E36F6A6D431C",
+    "r6/scripts/PTFR_Consolidated/PTFR_AfterlifeR1.reds": "65B8AE0074132281181263AD636A4590A7513B65A048164B0E2CE5F380B4CF70",
+    "r6/scripts/PTFR_Consolidated/PTFR_B0AfterlifeMirror.reds": "51B4E455EA80BC958504F4B6EA9C8DF45DE99E8AD88961C5A37705900F169CF6",
+    "r6/scripts/PTFR_Consolidated/PTFR_B0Claire.reds": "760790330C6783F103E9B8F94980297D9747E027830158CF6D5114C63F3E336B",
+    "r6/scripts/PTFR_Consolidated/PTFR_B0CPZFood02.reds": "9F1238DC73AA7B7BBFBA0F4BFFE43FD1F595F7486137E2ADA2DD5667194F319B",
+    "r6/scripts/PTFR_Consolidated/PTFR_B0DeferredVendors.reds": "510AF5E9FAE980213658263CF83F65034B74231BE8A6EFB3BCC57EA2B1EA2A77",
+    "r6/scripts/PTFR_Consolidated/PTFR_B0OrdinaryBars.reds": "FEF1F5F1779FCA14D32BE892E30E2CA48C082E4CBB7C50199385BCE5EF829CE6",
+    "r6/scripts/PTFR_Consolidated/PTFR_B0OrdinaryVendors.reds": "473E42266A54B49235B6A133617835B4A36A5D055FEAB60E2A787575DC565ABB",
+    "r6/scripts/PTFR_Consolidated/PTFR_B0SpecialServices.reds": "7D4C86C748E6DD3856FB69B3E6286D7DA4BD9155F7CFE6BE192ECA2C5B942FF2",
+    "r6/scripts/PTFR_Consolidated/PTFR_B0StoryEight.reds": "AF316AFC167E4B142E0DC8E58604126A25605CEE09A1B2D064E2A06EBA8C6273",
+    "r6/scripts/PTFR_Consolidated/PTFR_B0StoryServices.reds": "CDAC6032029A087235E604E563B94698EC083FF80BEADF31B055100D324E0103",
+    "r6/scripts/PTFR_Consolidated/PTFR_B0StoryZane.reds": "5F11C301EA96F1E794D9F9A9F29B53C55A324C865A6CFCD93E57B132D70DCC56",
+    "r6/scripts/PTFR_Consolidated/PTFR_B0VendorShared.reds": "F9B5F3F8D08E050A4FABBC9AA4F13C8698FB25CEAE29163B1B2EB5B640C132FB",
+    "r6/scripts/PTFR_Consolidated/PTFR_B0VendorVariants.reds": "B8513C33D4288894D078BFD63A43E242F6F1862EEB07F0F20D41C5F7C2AFC7CD",
+    "r6/scripts/PTFR_Consolidated/PTFR_GigsU10.reds": "BA8DE611800530A9D6675FF47D1A208F607E2C8F8AA469BE6B6E49BA7E1EF8A3",
+    "r6/scripts/PTFR_Consolidated/PTFR_Global.reds": "F6BC1F69F80F9D2F2AA495B026137EFC76F2D5B29C88B12F2C8D04A0954F9FDE",
+    "r6/scripts/PTFR_Consolidated/PTFR_HistorySnapshotHS1.reds": "3DFC328E20F427770AF8A097A947FCF8A12C2EBEE3335F939E1322BE754F020A",
+    "r6/scripts/PTFR_Consolidated/PTFR_Housing.reds": "CEA76580A7D7DB3B92963EE4F74F472ACE8C490FC9B8C9E79A3397B4253327FB",
+    "r6/scripts/PTFR_Consolidated/PTFR_JohnnyVoiceJV1.reds": "1338B05F41A88D222BEABCFF4F9D23D3B87B42B1A67E7019678DDA60F7917FE5",
+    "r6/scripts/PTFR_Consolidated/PTFR_JournalLabelJ1.reds": "EC73A2B370169E5890D8F8194E264F2E7D31F9A73FC6C899144CFB51DEEF1DA0",
+    "r6/scripts/PTFR_Consolidated/PTFR_LoadingCoverLC1.reds": "33FA4EE5F055BE446A069C38D4BF9BC3BEC3DE6E257A027E21F8C5BE8AE32D40",
+    "r6/scripts/PTFR_Consolidated/PTFR_MistyViktorAuto.reds": "70590A4F2BCF3122D2DE866C1E3886F6ACFB282B8BA8869B10ADD0621B175D73",
+    "r6/scripts/PTFR_Consolidated/PTFR_MistyViktorTerryR11.reds": "B19F81B817237208BD9F18FEB6AA64BADC81E43BCF86B69B3D529453789439B7",
+    "r6/scripts/PTFR_Consolidated/PTFR_NCPDRepairN21.reds": "8F4DDBF69C7BA62984B6236EEF9461EF16AC4D639D1FB50CDFE0C3FCB121BEB3",
+    "r6/scripts/PTFR_Consolidated/PTFR_NCPDScannersN2.reds": "A6D7810B6A7657D3CD68013337DF83E63EE64EAB1425EC380A1D8603472CE7CD",
+    "r6/scripts/PTFR_Consolidated/PTFR_RestorationBaseline.reds": "3C4279DBDE3AC7118904EFD009A54CB5D79BCF7AFEF1790EC3135BD2F0D1F3AB",
+    "r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR1.reds": "6BB09722BB8B2283C1AA36226761342D67B7B045C8A0CE1E8396B6135089052F",
+    "r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR2.reds": "49A38CC6636F1D6D5AEAE21130FCBB1CB8B57C85942CFECBE7549FCB5832FE26",
+    "r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR3.reds": "E052A4979CDE2D2944FDEF4B14AEF30CF88705083585721F1049438D06F3A09F",
+    "r6/scripts/PTFR_Consolidated/PTFR_SideJobPilotS1.reds": "E7725897767793879BA4D5C6FC390996B7DDFA565A51BBD7BF7538EBF4CB8889",
+    "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS2.reds": "839675C7BFAC6F7055A2DC18C9D2D410FD257814A6E4A95716D98EDCA8468E39",
+    "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS22.reds": "93DB76BD6719FCA2E60EBFE771AF8F612F9AB986B90D1604EB9EE316310A48D8",
+    "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS23.reds": "0BC261975578DB007DAC0C7488BC4E02D2A9FAB0D65E02DDBE65484C5B594224",
+    "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS24.reds": "C43F0E42825CE919371C3B9B2CD392F0BB72F07A401C17C87BAD3F2FC7BA214F",
+    "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS25.reds": "62ED30F06A09449663B3C835A4FBD012A955C289E8E6218172E94E970F932D12",
+    "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS27.reds": "FB822EB9A6C2871D44129BE94DB0DE47BBAEC17B980986760BABA34211F551FF",
+    "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS28.reds": "01BBE91143F0255813A3E1E460C1EA065EA5B449799976CF4BC564D11000D8C0",
+    "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS29.reds": "B5A6E4761DF244B72103E4E12BB5DF175D34F2B6BDA501FDB0A9B81964B5EC27",
+    "r6/scripts/PTFR_Consolidated/PTFR_StreetkidAuto.reds": "30C9141D1093B20F354C0E77ADC0CB036BE8AC35BC907DA1084BDCCB764F6DC0",
+    "r6/scripts/PTFR_Consolidated/PTFR_TimeAuto.reds": "9A531BAD92D5D79B4ECF3A9C02D55B3037E4D7A43F3409D3621F201C424E9EAA",
+    "r6/scripts/PTFR_Consolidated/PTFR_TowerJournalAuto.reds": "F7AE504E79CC2B3983C9D7267B70F65AED25D7E9B95B9C70451C0CE10FA208A0",
+    "r6/scripts/PTFR_Consolidated/PTFR_ZetatechIdlesR12.reds": "D4C2B4438E2803ED4C81B9AB12DCB503213FEBF8130C8E1A8D9A53FFA7CD4848",
+    "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_HistorySnapshotHS1/init.lua": "CA110EC574E6B67327B77A90A2600B7444FD98CE616D96C9C74D4C64163A3DF2",
+    "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_PreAlpha/init.lua": "641726D256E98472EF8BB3962F238A1165C4843C1F63636104B14E74AF723907",
+    "archive/pc/mod/zzzz_PTFR_Combined.archive": "EB1793D88329DB23AC9B1B6B2422662E9E2911A5C63AB63279CDEFEFFDC0DE55",
+    "archive/pc/mod/zzzz_PTFR_Combined.archive.xl": "C40807C52020363443CCD0245343BAEA3EA6702586FF813FC75AB5881AF5AE5B"
+  },
+  "resources": [
+    {
+      "depot": "base\\open_world\\minor_activities\\badlands\\inland_avenue_se1\\ma_bls_ina_se1_40\\ma_bls_ina_se1_40_phase.questphase",
+      "sha256": "51ECFB54860FB8B927CE30B042FF811675ED33330C85D9F1AC007121D2AAB17C",
+      "speech_events_removed": 0
+    },
+    {
+      "depot": "base\\open_world\\minor_activities\\badlands\\inland_avenue_se1\\ma_bls_ina_se1_44\\ma_bls_ina_se1_44_phase.questphase",
+      "sha256": "2E9E8C24C76A2F4C84D1336E0B379B185863A332A6FB14D1ADD1717A258F892F",
+      "speech_events_removed": 0
+    },
+    {
+      "depot": "base\\open_world\\minor_activities\\watson\\little_china\\ma_wat_lch_06\\phases\\ma_wat_lch_06_phase.questphase",
+      "sha256": "8E7E38AA44032D48044694B475F137A0F3FE031C5A78746EC4AAFF1B79D38ACA",
+      "speech_events_removed": 0
+    },
+    {
+      "depot": "base\\open_world\\minor_activities\\watson\\northside\\ma_wat_nid_03\\ma_wat_nid_03.questphase",
+      "sha256": "57490E5A36329CFF1FE49C81A639DEA31376AFE5EF92CD3CBB6AA4B0CED66F8B",
+      "speech_events_removed": 0
+    },
+    {
+      "depot": "base\\open_world\\minor_activities\\heywood\\wellsprings\\ma_hey_spr_04\\ma_hey_spr_04_phase.questphase",
+      "sha256": "63DE733703182752B459E1AFF8A9FB7080899F37452230D62170810BE5E83BA4",
+      "speech_events_removed": 0
+    },
+    {
+      "depot": "ep1\\openworld\\sandbox_activities\\courier_spot\\outro_quest\\outro_dock\\phases\\sa_ep1_courier_outro_intro_scene.questphase",
+      "sha256": "C298E6F65C36BBFC71DEFB6572B32B8C004F7F2DCD2F726F9C52B56A4AF221AA",
+      "speech_events_removed": 0
+    },
+    {
+      "depot": "towercontinued\\johnny_world\\wellsprings_exposition.scene",
+      "sha256": "65A80393D61B9D6354452D703BCCA45CB25E26A3BCCF66B037F71ACC2631D040",
+      "speech_events_removed": 0
+    },
+    {
+      "depot": "towercontinued\\johnny_world\\courier_dam.scene",
+      "sha256": "0569927360A2E41AE9E8E3BB311CF5FEF2ADA1D4C32D71733C32F5E326038612",
+      "speech_events_removed": 5
+    },
+    {
+      "depot": "towercontinued\\b0_story_eight\\yoko.scene",
+      "sha256": "75D91AF1210DCFA3A4784A716B0897F28D0F26B1E224F61102D4DDB2E98EC008",
+      "speech_events_removed": 3
+    }
+  ],
+  "provider_keys": 11,
+  "installed_archives_scanned": 134,
+  "archive_xl_configs_scanned": 54,
+  "gameplay": "UNVERIFIED",
+  "game_writes": 0,
+  "save_writes": 0
+}

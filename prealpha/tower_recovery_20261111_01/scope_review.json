@@ -1,0 +1,216 @@
+{
+  "status": "VERIFIED_OFFLINE",
+  "changed_paths": [
+    "archive/pc/mod/zzzz_PTFR_Combined.archive",
+    "archive/pc/mod/zzzz_PTFR_Combined.archive.xl",
+    "r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR1.reds",
+    "r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR3.reds"
+  ],
+  "core_paths": 51,
+  "bruise": {
+    "stage_before": "CCBN_FinalScene",
+    "stage_after": "CCBN_Disabled",
+    "edges": [
+      [
+        0,
+        "Out",
+        1,
+        "In"
+      ],
+      [
+        1,
+        "False",
+        2,
+        "In"
+      ],
+      [
+        1,
+        "True",
+        5,
+        "In"
+      ],
+      [
+        2,
+        "Out",
+        3,
+        "In"
+      ],
+      [
+        3,
+        "Out",
+        4,
+        "In"
+      ],
+      [
+        4,
+        "Out",
+        5,
+        "In"
+      ]
+    ],
+    "guard": {
+      "q307_done": 1,
+      "q307_finished": 1,
+      "q307_active": 0,
+      "q307_2079": 1,
+      "q307_main_game_killed": 1,
+      "q307_ep1_killed": 1,
+      "q305_johnny_scene_active": 0,
+      "PostTowerFreeRoamActive": 1,
+      "PTFRP0_DR13": 1,
+      "PTFRPA2_ControlReady": 1,
+      "PTFRPA2_Fault": 0,
+      "PTFRRecovery_BruiseReady": 1,
+      "PTFRRecovery_BruiseApplied": 0
+    },
+    "native_ack": "PTFRRecovery_BruiseApplied"
+  },
+  "archive_xl": {
+    "generated_node_id": 51547,
+    "xl_inputs": {
+      "archive/pc/mod/!!!_UV4.xl": "34C90A065970E9D23A58E1E6222E7C97D7E7ED47973735226A2FB6B12719FCBC",
+      "archive/pc/mod/Arkhe_Beautiful_Iris_a02_Natural_Eyes_CCXL.xl": "E8AE7ECF91FC38E48EFC18E304084725D2DA38AC5B5BCFA7E54991B598A8083C",
+      "archive/pc/mod/Arkhe_Beautiful_Makeup_02_Base_CCXL.xl": "C97512294AAE46DBA00B58E2D46810B5BC39FA32D6F42745C5AA16A32F98AFCD",
+      "archive/pc/mod/ccxl-hairs__bby_elsi_bob_01_bethenny.xl": "5DF72F7DA2C74C192E7EFD7AAFBBBB74F0C3F3362D49D459C6B172C599097569",
+      "archive/pc/mod/ccxl-hairs__bby_elsi_bob_02_luann.xl": "7611487C3A2765629952FAF651ACAE2B0FB44217DF43E3E0670EF700E36209E3",
+      "archive/pc/mod/ccxl-hairs__bby_elsi_bob_03_alex.xl": "9132BA3D24853060CF61CD6A5FB36B6EC54BA23248FBDB8BBBCFD9167EFDF0EF",
+      "archive/pc/mod/ccxl-hairs__bby_elsi_bob_04_ramona.xl": "268A327727D010EE314E0B48743236E4AFB1A3F27B5CE1E59F2676B8208BC18E",
+      "archive/pc/mod/ccxl-hairs__bby_elsi_bob_05_jill.xl": "EF76B36154039CE3A49A4FCB440FC4378549332F14968D1928B1FB85DBDE2CAB",
+      "archive/pc/mod/ccxl-hairs__bby_elsi_bob_06_kelly.xl": "0BA3DB94EEF80E77206ECFB149790DA0E23A8E4F52658F024E522AD924BE6631",
+      "archive/pc/mod/ccxl-hairs__bby_elsi_bob_07_sonja.xl": "01DDC14964B456ADD53BF552D51AE299B71A8055C93E9B7C6D532F30B2D55506",
+      "archive/pc/mod/ccxl-hairs__bby_elsi_bob_08_aviva.xl": "7BE3385BC0AE1E426D5D87C34D82BEE8E9DADC06BE3B5B4CF143F7029E820436",
+      "archive/pc/mod/ccxl-hairs__bby_elsi_bob_09_carole.xl": "3A4FC7406BCA973386549AAC0E77F1195FBD4ED5F53DF8B69889AB7A367D1F0D",
+      "archive/pc/mod/ccxl-hairs__bby_elsi_bob_10_heather.xl": "1C2409E9E5B05A16CB53E93715BECC5CD12194D4AD92F839F34E14927889F5AF",
+      "archive/pc/mod/ccxl-hairs__bby_elsi_bob_11_kristen.xl": "5B0BF2603A6362A21FF39F84F34B1F7C6F2CE3358FF6C3A443DBF5F6A7775841",
+      "archive/pc/mod/ccxl-hairs__bby_elsi_bob_12_tinsley.xl": "E1D2BA118A916D82C27C5290AC3677C6B8C6C3036D366756721CD7D3FB2F7940",
+      "archive/pc/mod/CCXL_icxrus_Heterochromia.xl": "0770E62D667F7B3971D3BC73CA4C3564FD9568F6111E749EC685678A3DF23D73",
+      "archive/pc/mod/colioli_edgerunner_items_archive.archive.xl": "1F917ECE65B58B60BAE55F7D7155C679A3F203F891EF163764CC5F236C1CDB57",
+      "archive/pc/mod/dp77_bagofdicks.xl": "6C1D4B823E368A5C70BCE95F4E5200F81C437AF9D0E8C2BC3E85AF079336EBE2",
+      "archive/pc/mod/EquipmentEx.archive.xl": "1C74BD3100080DD71441A719D2923EB6FF1861390F07DE1E2258B821744887DF",
+      "archive/pc/mod/LizziesBDs.archive.xl": "A0706E6600F4F0F420FC5815FEE915A5CC0A3218E06211529101DA9E46304E2F",
+      "archive/pc/mod/LizziesBDsLanguages.archive.xl": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "archive/pc/mod/mch_02_eagul_Bob_template.xl": "09A9282BEB87A3E9EB383B7D5B45EF700615A038B689A813C68881042CD47AE3",
+      "archive/pc/mod/mch_03_eagul_punk_pony.xl": "2A1B213C9E01C6858207E7ABCB882FC60C3A7DC632F5A334E724FCB80B4DB0BB",
+      "archive/pc/mod/mch_04_eagul_messy_pony.xl": "886DCADB779ADD910EEE7B1A35B9539EAC587157BFB022C9C26636E8092F1B9F",
+      "archive/pc/mod/mch_05_eagul_songbird_bob.xl": "1E826C9BF966D4DC8ACD404162340E99A96D1F3198D63DD843EE7960BFE7BE23",
+      "archive/pc/mod/mch_06_eagul_songbird_long.xl": "018141E6F06A2212433182AF3D7A6A47FDC542056D3921E1E6FA402F187B8CE1",
+      "archive/pc/mod/mch_07_eagul_rogue_old.xl": "29800EBD9311ECF5563B6CD912857F8374C3DC789C2974F7BAC7736D6882A42C",
+      "archive/pc/mod/mch_08_eagul_rogue_young.xl": "F624ED1344EA0064D043C1224C6C93D275AB890EA6ECA12758F6452DCB2EB9EE",
+      "archive/pc/mod/mch_09_eagul_songbird_messy_02.xl": "A7FCF29132CC26B62ED3C5C09F675F803D33E9E8F389B3A47329E5AA765C4E83",
+      "archive/pc/mod/mch_10_eagul_nomad_02.xl": "07D703F872DC716689C9885871DD5A7195E2451D0C9D9AACCC02537D203323B5",
+      "archive/pc/mod/mch_11_eagul_songbird_alternative.xl": "4538206EA023943EF5E89C77B0DAFCF9267EAD8AC3EC50BF683266353D51C839",
+      "archive/pc/mod/mch_12_eagul_songbird_alternative_mirrored.xl": "198C9157F41D80FEF05BFCAFB4806C832539EB96B4B4A9E88C6E29878263005F",
+      "archive/pc/mod/mch_13_eagul_songbird_free_side.xl": "DDF70F83B4532F138FFBA807047652854508CD5026FFE22F7FEA6CE1BAA5807C",
+      "archive/pc/mod/mch_14_eagul_sidecut_sideswept.xl": "1158D4F06FB7687B1AB17A37EF817F27DD7F40F7F87596D2037B3BF6E9DA29CD",
+      "archive/pc/mod/mch_15_eagul_sidecut_2.xl": "859BD9B31CD09456F326D9ACDDCC52C32730CC5ADB5C5CDE8489CEB2562D1C76",
+      "archive/pc/mod/mch_16_eagul_buns_02.xl": "0F45A1A8FD00AAE5A8C195C053E6B1C1CD20CEDA9CC0C9ED6D3EADBDA8FAD441",
+      "archive/pc/mod/mch_17_eagul_buns_01.xl": "F5C780E000C25BF7E527491B9F92FD8E360A8D334C5E53063E9A88A962016A7D",
+      "archive/pc/mod/mch_18_eagul_fantasy_braids.xl": "A08D4A761E1078A48133EFA1B2D427DF3B679544821789E5D7541D2D6D41ECAD",
+      "archive/pc/mod/mch_19_eagul_corpobun_punk_pony.xl": "7B8A23E144FAF55F54B331BA7761DC2A561C0142234669E38559E52E9F92A830",
+      "archive/pc/mod/mch_20_eagul_alt.xl": "8CE82688E5060C03360C4000746ABFD97384D5905B0CDD2831883D2A55CA7657",
+      "archive/pc/mod/mch_21_eagul_wizzy.xl": "7D4F55E500A380F47DE9056EEA85392980467E4DD9AD5612592D776A9F2D5996",
+      "archive/pc/mod/mch_22_eagul_braided_bob.xl": "D4D66375083EA653718AB4628A4DCC46851650D3BEF5AC15545FB3A1B752C96D",
+      "archive/pc/mod/mch_23_eagul_nina.xl": "C448D7EF94C0F45B707A5393D8635A41F7676A056F365E759E3A272492D38C10",
+      "archive/pc/mod/mch_24_eagul_afro_bun.xl": "8C3D83266D17D273880A05FE43169071BBB6D77ED388CD38A10D7B2C9FBB4F4D",
+      "archive/pc/mod/mch_25_eagul_top_bun.xl": "0610E774CCC383D132171DE6807D78237442B4A03B991B25DD9B7D8D121B7F2A",
+      "archive/pc/mod/mch_26_eagul_aurore.xl": "90A32F6F67832EFBA3ABBEFC4AABD0CE3D6E0BB943C67A6A6BDE782BB0E9F3A3",
+      "archive/pc/mod/mch_multicolored_hair_core.xl": "E2F40B39387E360E44A93603447D7280ACAE4FDDD193A35864C77C4F2AECA2AD",
+      "archive/pc/mod/mox_items_archive.archive.xl": "12508A6AEB4036115FACA2ADC9FD572CFDF156F1285783B105A00BE873A65066",
+      "archive/pc/mod/player_underwear_archive.archive.xl": "726F4379B89F75B5773A8EA471A4A7C24857864231398B4741ED394483928111",
+      "archive/pc/mod/Say_Something_Damn_It.xl": "0B703FF31A2B700612B96EADA4007B8181B665A4D38C9DDAC90A811BD2D62720",
+      "archive/pc/mod/VirtualAtelier.archive.xl": "5363E59B012A7CBDCD61F0C7F0F30B70363828F6316C06B4C96554F10DAF2803",
+      "archive/pc/mod/vtk_VanillaHD_Body_xBaebsae.xl": "8143AD1B7651727DA2F2A4EFCD779AEB6C3B4C9F6734C64319E8E35EDA0A0447",
+      "archive/pc/mod/zDeceptiousQuestCore.archive.xl": "FACA9743BC6A53F72E7B6533C07C1C6E161A0DF90BFA555088A29FBED69BB2FE",
+      "archive/pc/mod/zzzz_PTFR_Combined.archive.xl": "C40807C52020363443CCD0245343BAEA3EA6702586FF813FC75AB5881AF5AE5B",
+      "red4ext/plugins/ArchiveXL/Bundle/Migration.xl": "830883EA3D5E50746EA698429DC51F5971E079A588C48E8FE097E90C6C25CA68",
+      "red4ext/plugins/ArchiveXL/Bundle/PhotoModeScope.xl": "77C10D76A8AE8CA696B63E3930FD1D4B3B14FA410CE90E4F95AB665826A82264",
+      "red4ext/plugins/ArchiveXL/Bundle/PlayerBaseScope.xl": "FAC81F0618A074B06472B5574AEEFA4DDE16BC935ABE0416AC23121EC7A3EE2F",
+      "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationBeardFix.xl": "C3145023B30C0D0D2533AF4C9D48C306AA4D868016E3DE54ECE46509BA40FF39",
+      "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationBeardScope.xl": "E65CFCDC09CE84768FC59A0646B6F90DF5CB2B07637903BB57B834159494E94E",
+      "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationBrowsFix.xl": "458FC4337FF99EFE58D3BD69AB5FD0AED7A35006B8FF65BFF97C948CBA11C856",
+      "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationBrowsPatch.xl": "482A99C243BC49196E356615F3EB9BCC4F29458496940E600891E03F75337595",
+      "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationBrowsScope.xl": "AFD084003D5BFCF147026CFC6F115D41153BE7D982642372859CE19CD951D2C5",
+      "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationEyesFix.xl": "F2FC3657F8620F81FE58049BC2DBCA13534C8A8A6DA299BDA70914B070854C39",
+      "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationEyesPatch.xl": "2B1E3736764B4DE5AEA6D55120703FCF5BC0249441851FC8DBEE489DF013C527",
+      "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationEyesScope.xl": "58D06E94151CB49DE1004BEE265F3DBF7E189A3A15DE495A01129740BC06DBD6",
+      "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationHairFix.xl": "844060AF19F21E97A23320DF3E0B21C8299C66BC147DA397B357A97D1A0FF95C",
+      "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationHairPatch.xl": "FD7807F3F244BE977AAC3D4296108619743E04EF80652DA75702810E5A7377B9",
+      "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationHairScope.xl": "F31EEC0B6676DC64466034D11C5386EA4616E75B79DA92FF72C7330A4F50EA83",
+      "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationLashesFix.xl": "6D2B14F747E1F99544AE9DE68DCB16424AE046399A71FC810A2725891CAB7E70",
+      "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationLashesPatch.xl": "F762902023EEBBB44005525AE6D290D6A28AF92F784192C04DAD97C373BBB79B",
+      "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationLashesScope.xl": "C299CC8843FB8ADEFD471E202C53452C3F6E9087F521F27C7F9153C66928E990",
+      "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationScope.xl": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "red4ext/plugins/ArchiveXL/Bundle/QuestBaseScope.xl": "F56CEACAFDF303062913E5CFF589D27098A67CDF0C874D11269DA4887AE23789",
+      "red4ext/plugins/ArchiveXL/Bundle/VisualTags.xl": "8F1D9628212514A5080B3F42C068A1092942346BF20416D51472F068E5B75020",
+      "red4ext/plugins/mod_settings/ModSettings.archive.xl": "8742606FF6CDE630CA05D2BD03E763156A7814FBF5909A534F2D0F117E0B2B87"
+    },
+    "previous_phase_bindings": 828
+  },
+  "recovery": {
+    "timeline_cases": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1209599,
+        0,
+        13
+      ],
+      [
+        1209600,
+        0,
+        14
+      ],
+      [
+        1468800,
+        14,
+        17
+      ],
+      [
+        259200,
+        17,
+        17
+      ],
+      [
+        2678400,
+        17,
+        31
+      ]
+    ],
+    "milestones": {
+      "0": {
+        "health": 25.0,
+        "stamina": 25.0,
+        "bruise_eligible": false
+      },
+      "13": {
+        "health": 68.3333,
+        "stamina": 46.6667,
+        "bruise_eligible": false
+      },
+      "14": {
+        "health": 71.6667,
+        "stamina": 48.3333,
+        "bruise_eligible": true
+      },
+      "15": {
+        "health": 75.0,
+        "stamina": 50.0,
+        "bruise_eligible": true
+      },
+      "30": {
+        "health": 125.0,
+        "stamina": 75.0,
+        "bruise_eligible": true
+      },
+      "31": {
+        "health": 125.0,
+        "stamina": 75.0,
+        "bruise_eligible": true
+      }
+    },
+    "runtime": "UNVERIFIED"
+  }
+}

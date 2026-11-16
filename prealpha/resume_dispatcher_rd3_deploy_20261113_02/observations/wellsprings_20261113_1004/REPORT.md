@@ -1,0 +1,3 @@
+# Wellsprings advanced Epistrophy to 5/7
+
+On 13 November 2026, the user confirmed that the same RD3 run advanced from 4/7 to 5/7 after Wellsprings, then ended the test. At 10:04:14 Toronto time the native log records Wellsprings completion and one increment from four to five. The 10:04:42 AutoSave-3 records Wellsprings, Northside and the three earlier cabs as Succeeded. The shared S22 owner and listener receipts are still set and the parent remains Active. The test covers continuation to another cab after the restored Northside stage. Reload and the final family reward remain open. [Log excerpt](log_excerpt.json) · [Read-only save projection](completion_save.json) · [Northside result](../northside_20261113_0952/REPORT.md)

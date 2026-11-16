@@ -1,0 +1,19 @@
+{
+  "status": "PASS_ML1_JB4_ONE_ARCHIVE_LITERAL_DELTA",
+  "predecessor_installer_sha256": "8865BFF2E268DBD551D841E84F6A7D3EC195B84B1E9EE3C3762543B738D00A72",
+  "installer_sha256": "C392ADFE1A87EBF2F78EAEBA8AD9DF6C4CC0F86732430D1E10F0C4CAEC6B51AD",
+  "manifest_sha256": "0E46C0A62C294989A8CCD96A44DCED6E089E2F07E871657DB42BBA9489CB05DE",
+  "substitutions": {
+    "# JB4 deployment. User approved the combined dialogue and setup update.": "# ML1 deployment over JB4. The requested monk fix changes one lip map.",
+    "# The consolidated archive and the three reviewed setup scripts may change.": "# Only the combined archive is in the write set.",
+    "# The four-file replacement is journaled, with per-file atomic replacement. Windows\n# does not provide a globally atomic set here. An interrupted journal needs Recover.": "# The archive replacement is atomic and journaled. An interrupted journal needs Recover.",
+    "$PinnedCoreManifestSHA='79270674415BDC0B129E9F2681791ED066ED9A2F9BEC10A58CA6E4B9B312F23E'": "$PinnedCoreManifestSHA='0E46C0A62C294989A8CCD96A44DCED6E089E2F07E871657DB42BBA9489CB05DE'",
+    "PTFR_JB4_CORE_V1": "PTFR_ML1_JB4_CORE_V1",
+    "PTFR_JB4_JOURNAL_V1": "PTFR_ML1_JB4_JOURNAL_V1",
+    "$manifest.source_epoch -cne 'JB4' -or $manifest.predecessor_epoch -cne 'JB3'": "$manifest.source_epoch -cne 'ML1' -or $manifest.predecessor_epoch -cne 'JB4'",
+    "recovery/core_jb4_01": "recovery/core_ml1_jb4_01",
+    "$wanted=@('archive/pc/mod/zzzz_PTFR_Combined.archive','r6/scripts/PTFR_Consolidated/PTFR_ActivityStateR3.reds','r6/scripts/PTFR_Consolidated/PTFR_LoadingCoverLC1.reds','r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR3.reds')": "$wanted=@('archive/pc/mod/zzzz_PTFR_Combined.archive')",
+    "$changes.Count -ne 4": "$changes.Count -ne 1",
+    "Core51/four-existing-file scope drift": "Core51/one-archive scope drift"
+  }
+}

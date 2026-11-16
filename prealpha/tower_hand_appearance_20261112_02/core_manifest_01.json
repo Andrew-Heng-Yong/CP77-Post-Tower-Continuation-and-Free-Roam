@@ -1,0 +1,710 @@
+{
+  "schema": "PTFR_TOWER_HAND_APPEARANCE_CORE_V1",
+  "component": "Core",
+  "source_epoch": "QP2_TOWER_HAND_APPEARANCE",
+  "predecessor_epoch": "QP2_TOWER_RECOVERY_PROFILE_HOLD",
+  "scope": "Refresh the stock hands attachment after the first retained Tower handoff.",
+  "game_root": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077",
+  "save_root": "C:\\Users\\Ayong\\Saved Games\\CD Projekt Red\\Cyberpunk 2077",
+  "package_root": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\tower_hand_appearance_20261112_02\\candidate_01\\package",
+  "process_names": [
+    "Cyberpunk2077",
+    "REDlauncher",
+    "REDprelauncher"
+  ],
+  "files": [
+    {
+      "path": "archive/pc/mod/zzzz_PTFR_Combined.archive",
+      "before": "BB9570B9A9ED866303E658B16573D1D16D720EF2E5586C48E93779AFDEF6EA4E",
+      "before_bytes": 12902400,
+      "after": "BB9570B9A9ED866303E658B16573D1D16D720EF2E5586C48E93779AFDEF6EA4E",
+      "after_bytes": 12902400
+    },
+    {
+      "path": "archive/pc/mod/zzzz_PTFR_Combined.archive.xl",
+      "before": "B7B866F70F7C27A2942B6FF2636623BA6CEED32D15F3A4A707A9B54D7D8908D7",
+      "before_bytes": 135469,
+      "after": "B7B866F70F7C27A2942B6FF2636623BA6CEED32D15F3A4A707A9B54D7D8908D7",
+      "after_bytes": 135469
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_HistorySnapshotHS1/init.lua",
+      "before": "CA110EC574E6B67327B77A90A2600B7444FD98CE616D96C9C74D4C64163A3DF2",
+      "before_bytes": 4547,
+      "after": "CA110EC574E6B67327B77A90A2600B7444FD98CE616D96C9C74D4C64163A3DF2",
+      "after_bytes": 4547
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_PreAlpha/init.lua",
+      "before": "641726D256E98472EF8BB3962F238A1165C4843C1F63636104B14E74AF723907",
+      "before_bytes": 5362,
+      "after": "641726D256E98472EF8BB3962F238A1165C4843C1F63636104B14E74AF723907",
+      "after_bytes": 5362
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_ActivityStateR3.reds",
+      "before": "2DC4898EB37F6D665E242DF32A349A2B91FAFADD5503A697BC1423BCEB51B4EC",
+      "before_bytes": 255246,
+      "after": "2DC4898EB37F6D665E242DF32A349A2B91FAFADD5503A697BC1423BCEB51B4EC",
+      "after_bytes": 255246
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_AfterlifeFacesR5.reds",
+      "before": "D536145CB5F45D30E85669B343184753C1DD8E3A492ADACF4543F9E69F323074",
+      "before_bytes": 22648,
+      "after": "D536145CB5F45D30E85669B343184753C1DD8E3A492ADACF4543F9E69F323074",
+      "after_bytes": 22648
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_AfterlifeIdlesR3.reds",
+      "before": "5899B6DC726B6D5EE74DC5DA21A9D39DDCE30028DABF161E0EF6D91ECD13128A",
+      "before_bytes": 9293,
+      "after": "5899B6DC726B6D5EE74DC5DA21A9D39DDCE30028DABF161E0EF6D91ECD13128A",
+      "after_bytes": 9293
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_AfterlifeInteractionsR8.reds",
+      "before": "8E1F054C3AD9B1D5ACEDEA47EA90171D01474627B7EA74163E265B4BAC290CE7",
+      "before_bytes": 13232,
+      "after": "8E1F054C3AD9B1D5ACEDEA47EA90171D01474627B7EA74163E265B4BAC290CE7",
+      "after_bytes": 13232
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_AfterlifeNativeBootstrapA4.reds",
+      "before": "E908FD9894D3583C180BE8C8FE462EEE8904262B76B81984F037E36F6A6D431C",
+      "before_bytes": 4849,
+      "after": "E908FD9894D3583C180BE8C8FE462EEE8904262B76B81984F037E36F6A6D431C",
+      "after_bytes": 4849
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_AfterlifeR1.reds",
+      "before": "65B8AE0074132281181263AD636A4590A7513B65A048164B0E2CE5F380B4CF70",
+      "before_bytes": 3465,
+      "after": "65B8AE0074132281181263AD636A4590A7513B65A048164B0E2CE5F380B4CF70",
+      "after_bytes": 3465
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0AfterlifeMirror.reds",
+      "before": "51B4E455EA80BC958504F4B6EA9C8DF45DE99E8AD88961C5A37705900F169CF6",
+      "before_bytes": 3154,
+      "after": "51B4E455EA80BC958504F4B6EA9C8DF45DE99E8AD88961C5A37705900F169CF6",
+      "after_bytes": 3154
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0CPZFood02.reds",
+      "before": "9F1238DC73AA7B7BBFBA0F4BFFE43FD1F595F7486137E2ADA2DD5667194F319B",
+      "before_bytes": 8092,
+      "after": "9F1238DC73AA7B7BBFBA0F4BFFE43FD1F595F7486137E2ADA2DD5667194F319B",
+      "after_bytes": 8092
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0Claire.reds",
+      "before": "760790330C6783F103E9B8F94980297D9747E027830158CF6D5114C63F3E336B",
+      "before_bytes": 3671,
+      "after": "760790330C6783F103E9B8F94980297D9747E027830158CF6D5114C63F3E336B",
+      "after_bytes": 3671
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0DeferredVendors.reds",
+      "before": "510AF5E9FAE980213658263CF83F65034B74231BE8A6EFB3BCC57EA2B1EA2A77",
+      "before_bytes": 4864,
+      "after": "510AF5E9FAE980213658263CF83F65034B74231BE8A6EFB3BCC57EA2B1EA2A77",
+      "after_bytes": 4864
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0OrdinaryBars.reds",
+      "before": "FEF1F5F1779FCA14D32BE892E30E2CA48C082E4CBB7C50199385BCE5EF829CE6",
+      "before_bytes": 9619,
+      "after": "FEF1F5F1779FCA14D32BE892E30E2CA48C082E4CBB7C50199385BCE5EF829CE6",
+      "after_bytes": 9619
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0OrdinaryVendors.reds",
+      "before": "473E42266A54B49235B6A133617835B4A36A5D055FEAB60E2A787575DC565ABB",
+      "before_bytes": 20426,
+      "after": "473E42266A54B49235B6A133617835B4A36A5D055FEAB60E2A787575DC565ABB",
+      "after_bytes": 20426
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0SpecialServices.reds",
+      "before": "7D4C86C748E6DD3856FB69B3E6286D7DA4BD9155F7CFE6BE192ECA2C5B942FF2",
+      "before_bytes": 8216,
+      "after": "7D4C86C748E6DD3856FB69B3E6286D7DA4BD9155F7CFE6BE192ECA2C5B942FF2",
+      "after_bytes": 8216
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0StoryEight.reds",
+      "before": "AF316AFC167E4B142E0DC8E58604126A25605CEE09A1B2D064E2A06EBA8C6273",
+      "before_bytes": 6086,
+      "after": "AF316AFC167E4B142E0DC8E58604126A25605CEE09A1B2D064E2A06EBA8C6273",
+      "after_bytes": 6086
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0StoryServices.reds",
+      "before": "CDAC6032029A087235E604E563B94698EC083FF80BEADF31B055100D324E0103",
+      "before_bytes": 4691,
+      "after": "CDAC6032029A087235E604E563B94698EC083FF80BEADF31B055100D324E0103",
+      "after_bytes": 4691
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0StoryZane.reds",
+      "before": "5F11C301EA96F1E794D9F9A9F29B53C55A324C865A6CFCD93E57B132D70DCC56",
+      "before_bytes": 3712,
+      "after": "5F11C301EA96F1E794D9F9A9F29B53C55A324C865A6CFCD93E57B132D70DCC56",
+      "after_bytes": 3712
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0VendorShared.reds",
+      "before": "F9B5F3F8D08E050A4FABBC9AA4F13C8698FB25CEAE29163B1B2EB5B640C132FB",
+      "before_bytes": 5194,
+      "after": "F9B5F3F8D08E050A4FABBC9AA4F13C8698FB25CEAE29163B1B2EB5B640C132FB",
+      "after_bytes": 5194
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0VendorVariants.reds",
+      "before": "B8513C33D4288894D078BFD63A43E242F6F1862EEB07F0F20D41C5F7C2AFC7CD",
+      "before_bytes": 10177,
+      "after": "B8513C33D4288894D078BFD63A43E242F6F1862EEB07F0F20D41C5F7C2AFC7CD",
+      "after_bytes": 10177
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_GigsU10.reds",
+      "before": "BA8DE611800530A9D6675FF47D1A208F607E2C8F8AA469BE6B6E49BA7E1EF8A3",
+      "before_bytes": 44360,
+      "after": "BA8DE611800530A9D6675FF47D1A208F607E2C8F8AA469BE6B6E49BA7E1EF8A3",
+      "after_bytes": 44360
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_Global.reds",
+      "before": "F6BC1F69F80F9D2F2AA495B026137EFC76F2D5B29C88B12F2C8D04A0954F9FDE",
+      "before_bytes": 34305,
+      "after": "F6BC1F69F80F9D2F2AA495B026137EFC76F2D5B29C88B12F2C8D04A0954F9FDE",
+      "after_bytes": 34305
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_HistorySnapshotHS1.reds",
+      "before": "7DD5104975A6F11719339C92C8D8204F82D8E43ADCBEC25A7C2F3960B4220F2E",
+      "before_bytes": 1146785,
+      "after": "7DD5104975A6F11719339C92C8D8204F82D8E43ADCBEC25A7C2F3960B4220F2E",
+      "after_bytes": 1146785
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_Housing.reds",
+      "before": "CEA76580A7D7DB3B92963EE4F74F472ACE8C490FC9B8C9E79A3397B4253327FB",
+      "before_bytes": 80182,
+      "after": "CEA76580A7D7DB3B92963EE4F74F472ACE8C490FC9B8C9E79A3397B4253327FB",
+      "after_bytes": 80182
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_JohnnyVoiceJV1.reds",
+      "before": "B1EFB2935AEB6B6BFB34ABE72104E24722687C3E62E281C0B9161367B72B3837",
+      "before_bytes": 5666,
+      "after": "B1EFB2935AEB6B6BFB34ABE72104E24722687C3E62E281C0B9161367B72B3837",
+      "after_bytes": 5666
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_JournalLabelJ1.reds",
+      "before": "EC73A2B370169E5890D8F8194E264F2E7D31F9A73FC6C899144CFB51DEEF1DA0",
+      "before_bytes": 1431,
+      "after": "EC73A2B370169E5890D8F8194E264F2E7D31F9A73FC6C899144CFB51DEEF1DA0",
+      "after_bytes": 1431
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_LoadingCoverLC1.reds",
+      "before": "33FA4EE5F055BE446A069C38D4BF9BC3BEC3DE6E257A027E21F8C5BE8AE32D40",
+      "before_bytes": 25234,
+      "after": "33FA4EE5F055BE446A069C38D4BF9BC3BEC3DE6E257A027E21F8C5BE8AE32D40",
+      "after_bytes": 25234
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_MistyViktorAuto.reds",
+      "before": "70590A4F2BCF3122D2DE866C1E3886F6ACFB282B8BA8869B10ADD0621B175D73",
+      "before_bytes": 3466,
+      "after": "70590A4F2BCF3122D2DE866C1E3886F6ACFB282B8BA8869B10ADD0621B175D73",
+      "after_bytes": 3466
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_MistyViktorTerryR11.reds",
+      "before": "B19F81B817237208BD9F18FEB6AA64BADC81E43BCF86B69B3D529453789439B7",
+      "before_bytes": 8772,
+      "after": "B19F81B817237208BD9F18FEB6AA64BADC81E43BCF86B69B3D529453789439B7",
+      "after_bytes": 8772
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_NCPDRepairN21.reds",
+      "before": "8F4DDBF69C7BA62984B6236EEF9461EF16AC4D639D1FB50CDFE0C3FCB121BEB3",
+      "before_bytes": 23384,
+      "after": "8F4DDBF69C7BA62984B6236EEF9461EF16AC4D639D1FB50CDFE0C3FCB121BEB3",
+      "after_bytes": 23384
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_NCPDScannersN2.reds",
+      "before": "A6D7810B6A7657D3CD68013337DF83E63EE64EAB1425EC380A1D8603472CE7CD",
+      "before_bytes": 4455,
+      "after": "A6D7810B6A7657D3CD68013337DF83E63EE64EAB1425EC380A1D8603472CE7CD",
+      "after_bytes": 4455
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_RestorationBaseline.reds",
+      "before": "3C4279DBDE3AC7118904EFD009A54CB5D79BCF7AFEF1790EC3135BD2F0D1F3AB",
+      "before_bytes": 265472,
+      "after": "3C4279DBDE3AC7118904EFD009A54CB5D79BCF7AFEF1790EC3135BD2F0D1F3AB",
+      "after_bytes": 265472
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR1.reds",
+      "before": "77E6AE987D0EA9B734266825E50B13672F57C9A621F1A811FB6585CF509FCF3B",
+      "before_bytes": 65748,
+      "after": "F8C9355E1345A2728F7C40412DA1C6442E6B490E65FDFF945D26321041B115DE",
+      "after_bytes": 69709
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR2.reds",
+      "before": "49A38CC6636F1D6D5AEAE21130FCBB1CB8B57C85942CFECBE7549FCB5832FE26",
+      "before_bytes": 72219,
+      "after": "49A38CC6636F1D6D5AEAE21130FCBB1CB8B57C85942CFECBE7549FCB5832FE26",
+      "after_bytes": 72219
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR3.reds",
+      "before": "6487B6F5EAA3B9396DF8B5AD85548B8BEDA687D29F40FC2930048D21E8AF75A1",
+      "before_bytes": 292080,
+      "after": "6487B6F5EAA3B9396DF8B5AD85548B8BEDA687D29F40FC2930048D21E8AF75A1",
+      "after_bytes": 292080
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobPilotS1.reds",
+      "before": "E7725897767793879BA4D5C6FC390996B7DDFA565A51BBD7BF7538EBF4CB8889",
+      "before_bytes": 12569,
+      "after": "E7725897767793879BA4D5C6FC390996B7DDFA565A51BBD7BF7538EBF4CB8889",
+      "after_bytes": 12569
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS2.reds",
+      "before": "839675C7BFAC6F7055A2DC18C9D2D410FD257814A6E4A95716D98EDCA8468E39",
+      "before_bytes": 211606,
+      "after": "839675C7BFAC6F7055A2DC18C9D2D410FD257814A6E4A95716D98EDCA8468E39",
+      "after_bytes": 211606
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS22.reds",
+      "before": "93DB76BD6719FCA2E60EBFE771AF8F612F9AB986B90D1604EB9EE316310A48D8",
+      "before_bytes": 23270,
+      "after": "93DB76BD6719FCA2E60EBFE771AF8F612F9AB986B90D1604EB9EE316310A48D8",
+      "after_bytes": 23270
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS23.reds",
+      "before": "0BC261975578DB007DAC0C7488BC4E02D2A9FAB0D65E02DDBE65484C5B594224",
+      "before_bytes": 80400,
+      "after": "0BC261975578DB007DAC0C7488BC4E02D2A9FAB0D65E02DDBE65484C5B594224",
+      "after_bytes": 80400
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS24.reds",
+      "before": "C43F0E42825CE919371C3B9B2CD392F0BB72F07A401C17C87BAD3F2FC7BA214F",
+      "before_bytes": 66202,
+      "after": "C43F0E42825CE919371C3B9B2CD392F0BB72F07A401C17C87BAD3F2FC7BA214F",
+      "after_bytes": 66202
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS25.reds",
+      "before": "62ED30F06A09449663B3C835A4FBD012A955C289E8E6218172E94E970F932D12",
+      "before_bytes": 110832,
+      "after": "62ED30F06A09449663B3C835A4FBD012A955C289E8E6218172E94E970F932D12",
+      "after_bytes": 110832
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS27.reds",
+      "before": "FB822EB9A6C2871D44129BE94DB0DE47BBAEC17B980986760BABA34211F551FF",
+      "before_bytes": 90996,
+      "after": "FB822EB9A6C2871D44129BE94DB0DE47BBAEC17B980986760BABA34211F551FF",
+      "after_bytes": 90996
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS28.reds",
+      "before": "01BBE91143F0255813A3E1E460C1EA065EA5B449799976CF4BC564D11000D8C0",
+      "before_bytes": 29680,
+      "after": "01BBE91143F0255813A3E1E460C1EA065EA5B449799976CF4BC564D11000D8C0",
+      "after_bytes": 29680
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS29.reds",
+      "before": "B5A6E4761DF244B72103E4E12BB5DF175D34F2B6BDA501FDB0A9B81964B5EC27",
+      "before_bytes": 219614,
+      "after": "B5A6E4761DF244B72103E4E12BB5DF175D34F2B6BDA501FDB0A9B81964B5EC27",
+      "after_bytes": 219614
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_StreetkidAuto.reds",
+      "before": "30C9141D1093B20F354C0E77ADC0CB036BE8AC35BC907DA1084BDCCB764F6DC0",
+      "before_bytes": 3859,
+      "after": "30C9141D1093B20F354C0E77ADC0CB036BE8AC35BC907DA1084BDCCB764F6DC0",
+      "after_bytes": 3859
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_TimeAuto.reds",
+      "before": "9A531BAD92D5D79B4ECF3A9C02D55B3037E4D7A43F3409D3621F201C424E9EAA",
+      "before_bytes": 3836,
+      "after": "9A531BAD92D5D79B4ECF3A9C02D55B3037E4D7A43F3409D3621F201C424E9EAA",
+      "after_bytes": 3836
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_TowerJournalAuto.reds",
+      "before": "F7AE504E79CC2B3983C9D7267B70F65AED25D7E9B95B9C70451C0CE10FA208A0",
+      "before_bytes": 3561,
+      "after": "F7AE504E79CC2B3983C9D7267B70F65AED25D7E9B95B9C70451C0CE10FA208A0",
+      "after_bytes": 3561
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_ZetatechIdlesR12.reds",
+      "before": "D4C2B4438E2803ED4C81B9AB12DCB503213FEBF8130C8E1A8D9A53FFA7CD4848",
+      "before_bytes": 5208,
+      "after": "D4C2B4438E2803ED4C81B9AB12DCB503213FEBF8130C8E1A8D9A53FFA7CD4848",
+      "after_bytes": 5208
+    },
+    {
+      "path": "r6/tweaks/TowerContinued_PreAlpha.yaml",
+      "before": "4DBE8CD5C3BC6254900B6951919B346F6DCEB7BD9CE9C94FA4B4A27CB7704E05",
+      "before_bytes": 200,
+      "after": "4DBE8CD5C3BC6254900B6951919B346F6DCEB7BD9CE9C94FA4B4A27CB7704E05",
+      "after_bytes": 200
+    }
+  ],
+  "changing_paths": [
+    "r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR1.reds"
+  ],
+  "required_files": [
+    {
+      "active_only": false,
+      "bytes": 20700,
+      "path": "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_QR9_Diagnostics/watch.json",
+      "sha256": "BBEFAEC2F1975EE0590BEC6D447293AF932DFBCCF2C228393133604F6D252DEA"
+    },
+    {
+      "active_only": false,
+      "bytes": 193622016,
+      "path": "archive/pc/mod/LizziesBDs.archive",
+      "sha256": "1005B254F808199ECEA8DCBF5B8F7A8EB298034F3D765569012D96AC185EB991"
+    },
+    {
+      "active_only": false,
+      "bytes": 1958912,
+      "path": "red4ext/plugins/ArchiveXL/ArchiveXL.dll",
+      "sha256": "C07DA66DF4E4D57401FA3DF0F6288F3B780F01102A98807B6ADAABAEF45F69BF"
+    },
+    {
+      "active_only": false,
+      "bytes": 1944064,
+      "path": "red4ext/plugins/Codeware/Codeware.dll",
+      "sha256": "808D8BCE11641073091DDA33830D06AB98BD9AC710A9A47ECD7EC56E6193440C"
+    },
+    {
+      "active_only": false,
+      "bytes": 1466368,
+      "path": "red4ext/plugins/TweakXL/TweakXL.dll",
+      "sha256": "2765CC55833945422B333FD2DB1EE67078B70558EDEF0F9BD453E00D55614951"
+    },
+    {
+      "active_only": false,
+      "bytes": 7665152,
+      "path": "bin/x64/plugins/cyber_engine_tweaks.asi",
+      "sha256": "ACB12B25CFCF77C3F5A84DF7CD4F4AE5074B8269E7C7389F349E12B237F88D6E"
+    },
+    {
+      "active_only": false,
+      "bytes": 4804,
+      "path": "r6/scripts/virtual-atelier-full/SetupNewTab.reds",
+      "sha256": "5743CDCD6F8CD46A58F9642002F75EBCA25D84BE340856C2E6D85B15DAD973F8"
+    },
+    {
+      "active_only": false,
+      "bytes": 66704848,
+      "path": "bin/x64/Cyberpunk2077.exe",
+      "sha256": "D36E74C47592E9C656AE250078CB40B2BE63C782AF5BFBEFF2280D43E653FAB4"
+    },
+    {
+      "active_only": false,
+      "bytes": 13991,
+      "path": "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_QR9_Diagnostics/init.lua",
+      "sha256": "1A366E1075A9EBCA46686EF76AB724B7F5C3EE51445E13A3BC02B97194D21F90"
+    },
+    {
+      "active_only": false,
+      "bytes": 48381,
+      "path": "red4ext/plugins/LizziesBDs/Scripts/LizziesBDs.Audio.reds",
+      "sha256": "1392DFDDE26791274E959BAFBF54099477B4780A866D1B3276CD1D8C88CE5C9C"
+    },
+    {
+      "active_only": false,
+      "bytes": 1072,
+      "path": "red4ext/plugins/LizziesBDs/Scripts/LizziesBDs.ChoiceHubsActiveTweak.reds",
+      "sha256": "9E74CDDAE20078ED442F2675943BA4018A4F297A6195C9CCA943348CB0EFC0DE"
+    },
+    {
+      "active_only": false,
+      "bytes": 52063,
+      "path": "red4ext/plugins/LizziesBDs/Scripts/LizziesBDs.Classes.reds",
+      "sha256": "B8337376FE48D48F2A1F72A6D67D55454E27A46C07740CDFBB5046A88928CBAB"
+    },
+    {
+      "active_only": false,
+      "bytes": 9381,
+      "path": "red4ext/plugins/LizziesBDs/Scripts/LizziesBDs.Console.reds",
+      "sha256": "FD8380FB98DC9D873C1539BAF555C17BDCC518DDE3BF3544F5A36EBEACFB6080"
+    },
+    {
+      "active_only": false,
+      "bytes": 7447,
+      "path": "red4ext/plugins/LizziesBDs/Scripts/LizziesBDs.CreditsUIController.reds",
+      "sha256": "783E4514B221A18092416FD6C18EC4F2BF705DB2E9EDC2BCAEA2774329D724E6"
+    },
+    {
+      "active_only": false,
+      "bytes": 365976,
+      "path": "red4ext/plugins/LizziesBDs/Scripts/LizziesBDs.Data.reds",
+      "sha256": "F49EA07821B6EC0A393A8F1DE8FB4C88953ADC97016B7CFE508DA99C0CD2E381"
+    },
+    {
+      "active_only": false,
+      "bytes": 1746,
+      "path": "red4ext/plugins/LizziesBDs/Scripts/LizziesBDs.ERUIController.reds",
+      "sha256": "06BAF9C539980859A4B21FE1D2952B1B03BA62B345E9A2CA009335112D162B99"
+    },
+    {
+      "active_only": false,
+      "bytes": 12508,
+      "path": "red4ext/plugins/LizziesBDs/Scripts/LizziesBDs.LizziesBDsMain.reds",
+      "sha256": "A6AB06BF196625DB09C3E491C8C1BC0A91DF85603CEBB22D6EF7408D72B1DEDC"
+    },
+    {
+      "active_only": false,
+      "bytes": 3495,
+      "path": "red4ext/plugins/LizziesBDs/Scripts/LizziesBDs.Mappin.reds",
+      "sha256": "E798C13AB3A485695C5DED790A8A74DEFE6053A2AC74E49F40B77FEBBC4EFC93"
+    },
+    {
+      "active_only": false,
+      "bytes": 213733,
+      "path": "red4ext/plugins/LizziesBDs/Scripts/LizziesBDs.MenuUIController.reds",
+      "sha256": "C8E65677DCB3368295A78CA88B70703B8E7AED9ED1C31187EDCBD269C747BCFD"
+    },
+    {
+      "active_only": false,
+      "bytes": 28318,
+      "path": "red4ext/plugins/LizziesBDs/Scripts/LizziesBDs.NPCPuppet.reds",
+      "sha256": "3B6AAE04D77CC2BCD988D9CB15B2BDA28BE38E4EA99D1DE054071A109282AEFD"
+    },
+    {
+      "active_only": false,
+      "bytes": 2827,
+      "path": "red4ext/plugins/LizziesBDs/Scripts/LizziesBDs.OnlineFeatures.reds",
+      "sha256": "C8543A0B4EF6B1B92142F2E3E9545CF4D01F747EC603C60DB6B5AFC16CE8832B"
+    },
+    {
+      "active_only": false,
+      "bytes": 4710,
+      "path": "red4ext/plugins/LizziesBDs/Scripts/LizziesBDs.PlayerPuppet.reds",
+      "sha256": "97EB21DB98B77090FE73A4996668EA9AA06D62A22B735C9327ED6C7A19CBE678"
+    },
+    {
+      "active_only": false,
+      "bytes": 37631,
+      "path": "red4ext/plugins/LizziesBDs/Scripts/LizziesBDs.Resources.reds",
+      "sha256": "559BDEB8278580D016A0E52535B3E94C2109206067F0D8B8192F8A3D096393FB"
+    },
+    {
+      "active_only": false,
+      "bytes": 18098,
+      "path": "red4ext/plugins/LizziesBDs/Scripts/LizziesBDs.Storage.reds",
+      "sha256": "F9E436BEF1C452D06B8AB417F850EC1E4650CFF69F76C98087628F2E0633A2FE"
+    },
+    {
+      "active_only": false,
+      "bytes": 7839,
+      "path": "red4ext/plugins/LizziesBDs/Scripts/LizziesBDs.UI.reds",
+      "sha256": "80354F1560297F46462DB1E635614A98E7811B354D31B8B07E2072EBCC0F193F"
+    },
+    {
+      "active_only": false,
+      "bytes": 1764,
+      "path": "red4ext/plugins/LizziesBDs/Scripts/LizziesBDsLib.reds",
+      "sha256": "1F91639EF12F2F0DAF55C12A992C7ED11EDEAF0636901DEC9EACFC9BE13204DC"
+    }
+  ],
+  "protected_saves": [],
+  "working_save_files": [],
+  "proofs": [
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\tower_recovery_profile_hold_20261111_01\\deployment_01\\installed_manifest_01.json",
+      "sha256": "FE25F8986AE9B471E26ADC7C94183177FFE7672DFADBD42B83D13E51671EA499"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\tower_hand_appearance_20261112_02\\compile_01\\result.json",
+      "sha256": "EE2385DA151495D1E5884D3F3A8C54C6259F1D4D6BE7B55E29AD512619CE0E56"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\tower_hand_appearance_20261112_02\\candidate_01\\verification.json",
+      "sha256": "C2392910CB317ADF82CDF09CBCE31E6F562492FE645489EEE0201CB1001185CB"
+    },
+    {
+      "path": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\tower_hand_appearance_20261112_02\\candidate_01\\source.patch",
+      "sha256": "5F848F295B0623A3AACCE1D7549D469773D7DAC851B3D3674450F93E76D345FB"
+    }
+  ],
+  "compile_inputs": {
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\engine\\tools\\scc.exe": "F7BF0A5A0986AEC61D360AE79A3E957B8E21C0781309193A2A056C7BDE0E90BC",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\cache\\final.redscripts": "B78043064AE90FB80861B0D885D1C8DBCD22070F1DB71F20664D19F2D83C4AAC",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\cache\\final.redscripts.ts": "1C81382D81F63553D2C1E5EB1A98B34C54B53E87A4E2567B2B6FD279114AAE71",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\ccxl_multicoloredhair.reds": "2888B89A5FED32F4FE67E60FFAE95C26DDE0A7C6507F3C16B51DA41E13C32B71",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\colioli\\npc_items_for_v_atelier_store-atelier-store.reds": "7A18F2C27DD4E0A66F8558A36A03732C30846DC154B18201604F892C8E25D867",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\EquipmentEx\\EquipmentEx.Global.reds": "A597634A692368ED012D9C17C5028380098845442638B84AA334257018FC66B4",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\EquipmentEx\\EquipmentEx.reds": "71EC975363DEF6B9296FFDD65EC6E9D2C4F5BC5AB06A461A9CDE93F6F7F6A398",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\FactFinder\\FactFinder.reds": "E5A7A545EC097A38B04F09A9F6F67B78C8070C800E95B8C0D5B6D2AD04E366AD",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\ImmersiveFirstPerson\\LookAt.reds": "A0FB0BC3A742C5176BEC8BF962DFD33E3B920EFE1A99075BE4FA50DFA55F67CD",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\ImmersiveFirstPerson\\References.reds": "309DF68F7B0791BEF4590DB94A625A7FD3544819B2F92F0C71F97A43E05EF9CB",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\Audio.reds": "0DFECBCAD170C5801DDDDFC5655F08547FD9F124EFE5E71804FD5BE68333213D",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\ChoiceHubsActiveTweak.reds": "0DFECBCAD170C5801DDDDFC5655F08547FD9F124EFE5E71804FD5BE68333213D",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\Classes.reds": "0DFECBCAD170C5801DDDDFC5655F08547FD9F124EFE5E71804FD5BE68333213D",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\Compatibility\\DarkFuture.reds": "0DFECBCAD170C5801DDDDFC5655F08547FD9F124EFE5E71804FD5BE68333213D",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\Compatibility\\NativeInteractionsFramework.reds": "0DFECBCAD170C5801DDDDFC5655F08547FD9F124EFE5E71804FD5BE68333213D",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\Console.reds": "0DFECBCAD170C5801DDDDFC5655F08547FD9F124EFE5E71804FD5BE68333213D",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\CreditsUIController.reds": "0DFECBCAD170C5801DDDDFC5655F08547FD9F124EFE5E71804FD5BE68333213D",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\Data.reds": "0DFECBCAD170C5801DDDDFC5655F08547FD9F124EFE5E71804FD5BE68333213D",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\ERUIController.reds": "0DFECBCAD170C5801DDDDFC5655F08547FD9F124EFE5E71804FD5BE68333213D",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\LizziesBDsMain.reds": "0DFECBCAD170C5801DDDDFC5655F08547FD9F124EFE5E71804FD5BE68333213D",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\Mappin.reds": "0DFECBCAD170C5801DDDDFC5655F08547FD9F124EFE5E71804FD5BE68333213D",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\MenuUIController.reds": "0DFECBCAD170C5801DDDDFC5655F08547FD9F124EFE5E71804FD5BE68333213D",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\NPCPuppet.reds": "0DFECBCAD170C5801DDDDFC5655F08547FD9F124EFE5E71804FD5BE68333213D",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\OnlineFeatures.reds": "0DFECBCAD170C5801DDDDFC5655F08547FD9F124EFE5E71804FD5BE68333213D",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\OnlyStaff.reds": "0DFECBCAD170C5801DDDDFC5655F08547FD9F124EFE5E71804FD5BE68333213D",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\PlayerPuppet.reds": "0DFECBCAD170C5801DDDDFC5655F08547FD9F124EFE5E71804FD5BE68333213D",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\Resources.reds": "0DFECBCAD170C5801DDDDFC5655F08547FD9F124EFE5E71804FD5BE68333213D",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\Storage.reds": "0DFECBCAD170C5801DDDDFC5655F08547FD9F124EFE5E71804FD5BE68333213D",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\UI.reds": "0DFECBCAD170C5801DDDDFC5655F08547FD9F124EFE5E71804FD5BE68333213D",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_ActivityStateR3.reds": "2DC4898EB37F6D665E242DF32A349A2B91FAFADD5503A697BC1423BCEB51B4EC",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_AfterlifeFacesR5.reds": "D536145CB5F45D30E85669B343184753C1DD8E3A492ADACF4543F9E69F323074",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_AfterlifeIdlesR3.reds": "5899B6DC726B6D5EE74DC5DA21A9D39DDCE30028DABF161E0EF6D91ECD13128A",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_AfterlifeInteractionsR8.reds": "8E1F054C3AD9B1D5ACEDEA47EA90171D01474627B7EA74163E265B4BAC290CE7",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_AfterlifeNativeBootstrapA4.reds": "E908FD9894D3583C180BE8C8FE462EEE8904262B76B81984F037E36F6A6D431C",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_AfterlifeR1.reds": "65B8AE0074132281181263AD636A4590A7513B65A048164B0E2CE5F380B4CF70",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_B0AfterlifeMirror.reds": "51B4E455EA80BC958504F4B6EA9C8DF45DE99E8AD88961C5A37705900F169CF6",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_B0Claire.reds": "760790330C6783F103E9B8F94980297D9747E027830158CF6D5114C63F3E336B",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_B0CPZFood02.reds": "9F1238DC73AA7B7BBFBA0F4BFFE43FD1F595F7486137E2ADA2DD5667194F319B",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_B0DeferredVendors.reds": "510AF5E9FAE980213658263CF83F65034B74231BE8A6EFB3BCC57EA2B1EA2A77",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_B0OrdinaryBars.reds": "FEF1F5F1779FCA14D32BE892E30E2CA48C082E4CBB7C50199385BCE5EF829CE6",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_B0OrdinaryVendors.reds": "473E42266A54B49235B6A133617835B4A36A5D055FEAB60E2A787575DC565ABB",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_B0SpecialServices.reds": "7D4C86C748E6DD3856FB69B3E6286D7DA4BD9155F7CFE6BE192ECA2C5B942FF2",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_B0StoryEight.reds": "AF316AFC167E4B142E0DC8E58604126A25605CEE09A1B2D064E2A06EBA8C6273",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_B0StoryServices.reds": "CDAC6032029A087235E604E563B94698EC083FF80BEADF31B055100D324E0103",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_B0StoryZane.reds": "5F11C301EA96F1E794D9F9A9F29B53C55A324C865A6CFCD93E57B132D70DCC56",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_B0VendorShared.reds": "F9B5F3F8D08E050A4FABBC9AA4F13C8698FB25CEAE29163B1B2EB5B640C132FB",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_B0VendorVariants.reds": "B8513C33D4288894D078BFD63A43E242F6F1862EEB07F0F20D41C5F7C2AFC7CD",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_GigsU10.reds": "BA8DE611800530A9D6675FF47D1A208F607E2C8F8AA469BE6B6E49BA7E1EF8A3",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_Global.reds": "F6BC1F69F80F9D2F2AA495B026137EFC76F2D5B29C88B12F2C8D04A0954F9FDE",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_HistorySnapshotHS1.reds": "7DD5104975A6F11719339C92C8D8204F82D8E43ADCBEC25A7C2F3960B4220F2E",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_Housing.reds": "CEA76580A7D7DB3B92963EE4F74F472ACE8C490FC9B8C9E79A3397B4253327FB",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_JohnnyVoiceJV1.reds": "B1EFB2935AEB6B6BFB34ABE72104E24722687C3E62E281C0B9161367B72B3837",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_JournalLabelJ1.reds": "EC73A2B370169E5890D8F8194E264F2E7D31F9A73FC6C899144CFB51DEEF1DA0",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_LoadingCoverLC1.reds": "33FA4EE5F055BE446A069C38D4BF9BC3BEC3DE6E257A027E21F8C5BE8AE32D40",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_MistyViktorAuto.reds": "70590A4F2BCF3122D2DE866C1E3886F6ACFB282B8BA8869B10ADD0621B175D73",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_MistyViktorTerryR11.reds": "B19F81B817237208BD9F18FEB6AA64BADC81E43BCF86B69B3D529453789439B7",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_NCPDRepairN21.reds": "8F4DDBF69C7BA62984B6236EEF9461EF16AC4D639D1FB50CDFE0C3FCB121BEB3",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_NCPDScannersN2.reds": "A6D7810B6A7657D3CD68013337DF83E63EE64EAB1425EC380A1D8603472CE7CD",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_RestorationBaseline.reds": "3C4279DBDE3AC7118904EFD009A54CB5D79BCF7AFEF1790EC3135BD2F0D1F3AB",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_RestrictionsR1.reds": "77E6AE987D0EA9B734266825E50B13672F57C9A621F1A811FB6585CF509FCF3B",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_RestrictionsR2.reds": "49A38CC6636F1D6D5AEAE21130FCBB1CB8B57C85942CFECBE7549FCB5832FE26",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_RestrictionsR3.reds": "6487B6F5EAA3B9396DF8B5AD85548B8BEDA687D29F40FC2930048D21E8AF75A1",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_SideJobPilotS1.reds": "E7725897767793879BA4D5C6FC390996B7DDFA565A51BBD7BF7538EBF4CB8889",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_SideJobsS2.reds": "839675C7BFAC6F7055A2DC18C9D2D410FD257814A6E4A95716D98EDCA8468E39",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_SideJobsS22.reds": "93DB76BD6719FCA2E60EBFE771AF8F612F9AB986B90D1604EB9EE316310A48D8",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_SideJobsS23.reds": "0BC261975578DB007DAC0C7488BC4E02D2A9FAB0D65E02DDBE65484C5B594224",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_SideJobsS24.reds": "C43F0E42825CE919371C3B9B2CD392F0BB72F07A401C17C87BAD3F2FC7BA214F",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_SideJobsS25.reds": "62ED30F06A09449663B3C835A4FBD012A955C289E8E6218172E94E970F932D12",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_SideJobsS27.reds": "FB822EB9A6C2871D44129BE94DB0DE47BBAEC17B980986760BABA34211F551FF",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_SideJobsS28.reds": "01BBE91143F0255813A3E1E460C1EA065EA5B449799976CF4BC564D11000D8C0",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_SideJobsS29.reds": "B5A6E4761DF244B72103E4E12BB5DF175D34F2B6BDA501FDB0A9B81964B5EC27",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_StreetkidAuto.reds": "30C9141D1093B20F354C0E77ADC0CB036BE8AC35BC907DA1084BDCCB764F6DC0",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_TimeAuto.reds": "9A531BAD92D5D79B4ECF3A9C02D55B3037E4D7A43F3409D3621F201C424E9EAA",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_TowerJournalAuto.reds": "F7AE504E79CC2B3983C9D7267B70F65AED25D7E9B95B9C70451C0CE10FA208A0",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_ZetatechIdlesR12.reds": "D4C2B4438E2803ED4C81B9AB12DCB503213FEBF8130C8E1A8D9A53FFA7CD4848",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\Compat.reds": "C84F1FD747119A73F4E345810417C08AD5DA1E3B3E2C1ADB66E69F3F40A4EE8E",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\Config.reds": "BA683A5D53E4C73FAB275A60FAAC4C6CA0344F0FC81BC97E4EF21C55D99759AB",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\core\\AtelierActions.reds": "823AC6A346E548BCC2DB0223372040A070CB4DB34AF092AB991DCE126CF3FBE3",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\core\\AtelierTexts.reds": "A54CBBF3717D7C9B5BAC15FC01F8095532CFA3B52CD4EF9DAEDF25CA85E99301",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\core\\Classes.reds": "A4E32F0D43736ED6DDCF47CBA46413C028BDF416108B397DB968E6523DC92A3E",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\core\\Events.reds": "4610B78661A3E429CE410419A08E733FDC9888562DAE0DB9204195E9A944BE0B",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\core\\Fields.reds": "B1B843CBABA034079631E0BFC2AD738713732E6AE16ECE6DEBE2FF51594168C6",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\core\\systems\\VirtualAtelierCartManager.reds": "F3181D81374E8EF8BA8D5A00B79CE10761FF242910E447731D07C6BF6EE82E44",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\core\\systems\\VirtualAtelierPreviewManager.reds": "F8F807A0200DE538494FF41FACFF76BA9BB03B61B1187E0794A785C08F6D7519",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\core\\systems\\VirtualAtelierStoresSystem.reds": "0D7CB55953222DD906E8354B7F2B4CE7271C68FD60FEC66A210431ECE466F60C",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\core\\systems\\VirtualAtelierWeaponPreview.reds": "C05A41933880F7F261792FDC108D08B994A7EC686A6ED1B9D004B2996D63594F",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\core\\VirtualCart.reds": "EBB86CFCD75AB9B2BBEFCB6DBF47FC086C0A6446D44E908CBD1776CDC4DBEECB",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\helpers\\ButtonHintsHelper.reds": "0455BAF9E5F297A8976C8F93AE82E5A3E63C083133DA621910FA932E8005925C",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\helpers\\CurrentPlayerZoneHelper.reds": "136C0C97A601C10908B10BAEF8C010BE1E7BECD686DB7D748065CEF24AFA8807",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\helpers\\InputHelper.reds": "CD980301FD7C53A397119D1C4D74105121391BC0D00A232235C3C9CF3E39629B",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\helpers\\ItemsHelper.reds": "D3B27D640B094A23182674C3152CA484CDEF01F9B6A896569DECADCFC139DF93",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\helpers\\NotificationTokensHelper.reds": "5D7E5DF5F9DDAB21FA178F4A3F3BC751824209D0FB57DDD673E2F38CEBE30951",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\helpers\\WidgetsHelper.reds": "95A426246A3C68AA60048AAF397FD5052247BE6064BFEB922D2B5CBBA7036C92",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\Logs.reds": "26F7DEE24759FE487DD04C3C989DFF42AE760783E22F3A8DB7373A8D1895B95F",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\SetupNewSite.reds": "45AE115C1BE40A96F421FB958D6D6F872DBF78BF5688811FBCD543B0F744EC20",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\SetupNewTab.reds": "5743CDCD6F8CD46A58F9642002F75EBCA25D84BE340856C2E6D85B15DAD973F8",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\stores-list\\AtelierStoresCategoryTab.reds": "71EE0B36E5C36306A4AB7791B894A59AA9A32C57DB3A2EBB5B0FCDBC7358D21D",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\stores-list\\AtelierStoresDataView.reds": "ACC6014ADE4D65ED337C4AF244948D9AB74C428296B871F98F34C2B6A9DE4259",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\stores-list\\AtelierStoresListController.reds": "BE575B9B4A4755810C57806073059E0231C1D4DF02685CABB5D4C33126A661EC",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\stores-list\\AtelierStoresListItemController.reds": "CEEBFAA06498549D5B457F712C619E0307C95F0FEF90211E3C73C17762C81C96",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\stores-list\\ButtonHints.reds": "C1E6B3835F08DC60CD6787C138C87F874877252F5651423DB04ECC7150050951",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\stores-list\\PlaceholderComponent.reds": "5BA0CD150B4BD730DD6916B67FBF98725886C4130F426B7E69E5CB8666917536",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\stores-list\\SearchEngineComponent.reds": "AD225ABDF02309D751C82744D8AF6C841FFA77F325B97DDA961C42FF035F47F9",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\stores-list\\UnderConstructionComponent.reds": "B3E148B493263EED32F7CC7184A075301D965570B13BFE64ACAEFF49EEB79046",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\TweakTooltips.reds": "0F2136128958B8976C7ED8BFCD23AFF0A9272F3A191E65E2C85ADF6BB8A56E0D",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\vendor-preview\\EquipIndicators.reds": "8E2CD64FDBE07BDCF0B8953DED1B55A67B25DDF0E90AB439FC59FFCC4D6BA9C4",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\vendor-preview\\FullscreenVendor.reds": "EFCB16F5FF4654610533D3008901851818DF95DE65F002457F9235125D06DDEA",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\vendor-preview\\GarmentItemPreview.reds": "51CC858307182CBA8B9E4D29068BEDA401D8D5C7B507963A8C34B00B053A4E31",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\Version.reds": "0CCA133E507A78B3EF0A4488F70DFE27867400378A59DD4A35585A81FBC454A4",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\virtual-store\\DuplicatesChecker.reds": "84BA2B5B44295E732A4AA3255B8BBD0B5FDF382A97214F862B23DEB87B734068",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\virtual-store\\HijackVendorController.reds": "70F88C41E5CA5FC9565BD944ABCF1E24DB7F5DE353897B7B69A01C67CEAAAA6A",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\virtual-store\\QuantityPickerVirtualPrice.reds": "4AAE27215F29F2985FFDB9933D29ADA486EE043EC18BB99C087F962AC0F9C881",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\virtual-store\\StateIndicators.reds": "D82670B64D4638B1F9DEBEC28ED97300BBE09319C0E28295FE7BD8DD0BABCD6F",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\virtual-store\\VirtualStoreController.reds": "72FD8122D01C11211D3EC30A0246E76B946395870CD812E362F16BD399982F3D",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\virtual-store\\VirtualStoreDataView.reds": "DA757A31629DDBECD9A883DAE0465BE02D1FB3245183E5EE914776F451B76746",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\virtual-store\\VirtualStoreHeaderController.reds": "EB834AC7CFCBCC282D719164D31A467419D1CD45B0D3F93113F3A0D3A377BF66",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\virtual-store\\VirtualStoreItemController.reds": "EB52134E3C2E678E4E88D653DFAB781FCF149DEBF75F7BEB2732D1287C0D5F1E",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\virtual-store\\VirtualStoreTemplateClassifier.reds": "3DFCB6F10227150A7333211ACFDE276A7EBFDA0CE49D56AEEDB1B29B0D547156",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\virtual-store-cart\\Style.reds": "406B29CB0BA1D6F52468B67965D7EBBF898B7CDE4838E92344E595DDA9FEFC0A",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\virtual-store-cart\\VirtualAtelierControl.reds": "F48C0AB0DD2B5CFCC1FA43D3A7FEAB834C76DB6F8762902DFD2A4A28EB80F2FF",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\virtual-store-cart\\VirtualCartImageButton.reds": "62CB39DD1B00F7F4BE83486DBC28297E4F6E23F83C67547297931DD46E20D459",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\virtual-store-cart\\VirtualCartTextButton.reds": "6BE84B2C5D10DF77B3C7CB709F1CC771B07DE0BEB923F68F30BA9FA54BE6CABA",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\ArchiveXL\\Scripts\\ArchiveXL.DynamicAppearance.reds": "D7A30012909F42057550749C9E26ABA861BD7E054C10E7B0363DC1F1772D6B07",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\ArchiveXL\\Scripts\\ArchiveXL.Global.reds": "34EA530410AE53463137BE5E54819D04C2E6B5261225A3A24CE4D1E9FC67E35F",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\ArchiveXL\\Scripts\\ArchiveXL.reds": "4F807E5E87C9DC63AB94A611B403779F835AF810B400C880B018E3CF3E5F02BF",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\Codeware\\Scripts\\Codeware.Global.reds": "83CEBFDAF60443608ACD211B1AC6253AE6C67295BAB97275B4961506EB878A76",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\Codeware\\Scripts\\Codeware.Localization.reds": "85F417ED48DE0506D15B4BE7A6CE23F6CCC2C74BE65799857450BE3234C4900A",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\Codeware\\Scripts\\Codeware.reds": "A7DDD40741DAA4EAA949EA3CA72D3AEDBCAC59276C5FF15BD497BD09C82660FC",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\Codeware\\Scripts\\Codeware.UI.reds": "E8D1696B8D24A46E0DF31663F093CE835985B601165BF565B7B491A730E69676",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\Codeware\\Scripts\\Codeware.UI.TextInput.reds": "8ACA37695CAD23D7594796B47E8EA60B53EF3FCF0FF394B8F7A493C2E4359D40",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\LizziesBDs\\Scripts\\LizziesBDs.Audio.reds": "1392DFDDE26791274E959BAFBF54099477B4780A866D1B3276CD1D8C88CE5C9C",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\LizziesBDs\\Scripts\\LizziesBDs.ChoiceHubsActiveTweak.reds": "9E74CDDAE20078ED442F2675943BA4018A4F297A6195C9CCA943348CB0EFC0DE",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\LizziesBDs\\Scripts\\LizziesBDs.Classes.reds": "B8337376FE48D48F2A1F72A6D67D55454E27A46C07740CDFBB5046A88928CBAB",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\LizziesBDs\\Scripts\\LizziesBDs.Console.reds": "FD8380FB98DC9D873C1539BAF555C17BDCC518DDE3BF3544F5A36EBEACFB6080",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\LizziesBDs\\Scripts\\LizziesBDs.CreditsUIController.reds": "783E4514B221A18092416FD6C18EC4F2BF705DB2E9EDC2BCAEA2774329D724E6",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\LizziesBDs\\Scripts\\LizziesBDs.Data.reds": "F49EA07821B6EC0A393A8F1DE8FB4C88953ADC97016B7CFE508DA99C0CD2E381",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\LizziesBDs\\Scripts\\LizziesBDs.ERUIController.reds": "06BAF9C539980859A4B21FE1D2952B1B03BA62B345E9A2CA009335112D162B99",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\LizziesBDs\\Scripts\\LizziesBDs.LizziesBDsMain.reds": "A6AB06BF196625DB09C3E491C8C1BC0A91DF85603CEBB22D6EF7408D72B1DEDC",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\LizziesBDs\\Scripts\\LizziesBDs.Mappin.reds": "E798C13AB3A485695C5DED790A8A74DEFE6053A2AC74E49F40B77FEBBC4EFC93",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\LizziesBDs\\Scripts\\LizziesBDs.MenuUIController.reds": "C8E65677DCB3368295A78CA88B70703B8E7AED9ED1C31187EDCBD269C747BCFD",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\LizziesBDs\\Scripts\\LizziesBDs.NPCPuppet.reds": "3B6AAE04D77CC2BCD988D9CB15B2BDA28BE38E4EA99D1DE054071A109282AEFD",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\LizziesBDs\\Scripts\\LizziesBDs.OnlineFeatures.reds": "C8543A0B4EF6B1B92142F2E3E9545CF4D01F747EC603C60DB6B5AFC16CE8832B",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\LizziesBDs\\Scripts\\LizziesBDs.PlayerPuppet.reds": "97EB21DB98B77090FE73A4996668EA9AA06D62A22B735C9327ED6C7A19CBE678",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\LizziesBDs\\Scripts\\LizziesBDs.Resources.reds": "559BDEB8278580D016A0E52535B3E94C2109206067F0D8B8192F8A3D096393FB",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\LizziesBDs\\Scripts\\LizziesBDs.Storage.reds": "F9E436BEF1C452D06B8AB417F850EC1E4650CFF69F76C98087628F2E0633A2FE",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\LizziesBDs\\Scripts\\LizziesBDs.UI.reds": "80354F1560297F46462DB1E635614A98E7811B354D31B8B07E2072EBCC0F193F",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\LizziesBDs\\Scripts\\LizziesBDsLib.reds": "1F91639EF12F2F0DAF55C12A992C7ED11EDEAF0636901DEC9EACFC9BE13204DC",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\mod_settings\\module.reds": "E0D0B539B0177F8EA3DE11D65F851EBC5A4F61C99F6197934FA92C418442DA5E",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\mod_settings\\packed.reds": "5275A6C992AA7FEB381F9B71C1077AB0CFED2805086325BBB793B0F74F0BF207",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\TweakXL\\Scripts\\TweakXL.Global.reds": "0D91D4C690FD3D6F72863E0CAEA746964ED8023A8D62D10311DE3CF6E927FC47",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\TweakXL\\Scripts\\TweakXL.reds": "D3366F0BBE95373164EF1382E8567CA5BC108455440CC645C792BA3E6215B266"
+  },
+  "zip": "",
+  "zip_sha256": null
+}

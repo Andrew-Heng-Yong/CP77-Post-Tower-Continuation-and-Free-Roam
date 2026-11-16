@@ -1,0 +1,29 @@
+{
+  "status": "BATCH4_RETURNED_NOTES_SOURCE_AUDIT_COMPLETE_AWAITING_DECISIONS",
+  "batch": 4,
+  "recorded_date": "2026-11-09",
+  "installed_epoch": "JB1",
+  "notes": "output_01/Ten_quest_removal_and_rewire_notes.txt",
+  "manifest": "review_manifest.json",
+  "quest_ids": [
+    "mq025_psycho_brawl",
+    "mq041_corpo",
+    "mq059_freedom",
+    "mq305_combat_zone_report",
+    "mq306_dumpster",
+    "mws_se5_07",
+    "sts_bls_ina_03",
+    "sts_bls_ina_07",
+    "sts_bls_ina_08",
+    "sts_cct_dtn_02"
+  ],
+  "next_action": "Receive user decisions for the open B4 audit IDs and optional branch scope.",
+  "implementation_authorized": false,
+  "game_writes": 0,
+  "save_writes": 0,
+  "returned_notes": "review_01/received_notes.txt",
+  "notes_review": "review_01/REVIEW.md",
+  "findings": "review_01/findings.json",
+  "quoted_matches": 22,
+  "johnny_review_items": 24
+}

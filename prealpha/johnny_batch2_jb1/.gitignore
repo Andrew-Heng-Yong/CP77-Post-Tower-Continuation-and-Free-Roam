@@ -1,0 +1,10 @@
+# Preserve generated native assets/evidence locally, outside the source tree.
+/candidate_*/
+/input_*/
+/readback_*/
+/source_01/
+/fixtures/
+/analysis_02/actor_qnodes.json
+/analysis_02/*.scene.txt
+/verification*.json
+

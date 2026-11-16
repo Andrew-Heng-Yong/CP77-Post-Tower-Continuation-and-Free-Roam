@@ -1,0 +1,11 @@
+# PS1 profile setup fixes
+
+10 November 2026. Separate source component for the JB3 baseline. [REDscript patch](source.patch) · [Source hashes](provenance.json) · [Source checks](test_source.py)
+
+- **Hands slots.** With two distinct, approved Casius tattoos, keep the first equipped and unequip the second into inventory. When the first slot is empty, move the second tattoo into it as before. The existing one-attempt journal owns both operations. Verify the resulting slots and both items’ exact IDs, quantities and attached parts before advancing. An equipment lock, ambiguous item ID or failed readback stops the journal before the other-tree refund.
+- **Health failures.** The cover displays the exact HP failure reason and stays closed. Entry holds the pending preparation acknowledgement when it sees the fault. The HP algorithm and the saved refund journal keep their existing lifecycle. After the cover’s long-wait timeout, the stop reason remains in the message body.
+- **Profile refusals.** The cover displays the latest initialization response. An unsupported stock perk catalogue, an incompatible saved profile, or obsolete perk ownership holds automatic attempts for the session. A reload or explicit profile request reevaluates the input. Missing or unsettled progression data can still be checked again, with the reason visible while setup waits.
+
+The source checks passed against the three manifest-pinned JB3 scripts. They check the tattoo readback and journal ordering, the cover and entry diagnostics, the unchanged native perk-sale guard, persistent field declarations and fact write sites. Git applicability passed against JB3, and the cover hunks applied after TH1 in memory. The three installed scripts matched their JB3 hashes.
+
+For the later combined build, compile against the registered dependency inventory and qualify the empty, single and double-tattoo loadouts. On the double-tattoo fixture, compare exact ownership and parts before and after setup and after a reload. Include a locked or interrupted case and check that its journal stops without a second attempt. Exercise HP failure and temporary progression unavailability alongside an unsupported catalogue or ledger, checking the reason on the cover and the original readiness gates. Compilation and gameplay verification are pending.

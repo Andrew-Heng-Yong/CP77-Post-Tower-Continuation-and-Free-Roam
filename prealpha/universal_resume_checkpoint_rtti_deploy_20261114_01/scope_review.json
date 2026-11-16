@@ -1,0 +1,12 @@
+{
+  "scope": "Install the verified checkpoint registration repair so the user can run the Step 2 Tower test.",
+  "changed_paths": [
+    "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_HistorySnapshotHS1/init.lua",
+    "r6/scripts/PTFR_Consolidated/PTFR_HistorySnapshotHS1.reds",
+    "red4ext/plugins/PTFR_ExecutionCheckpoint/PTFR_ExecutionCheckpoint.dll"
+  ],
+  "candidate_sha256": "84EA250DAFDBBFF10AABC0C6947B0FFF7C943D97D71BF6593524CD80A7A0005D",
+  "before_sha256": "AB279745469DEE08EC9A816EE9F04C9F9750456DE26A9C6CC8940E15FAFE56D8",
+  "installed_archive_sha256": "443339C64009C5DB99B1E0FD77B1EF526143C40DADDBEBB05EBEC6BB5D76BB45",
+  "gameplay": "PENDING_USER_PLAYTEST"
+}

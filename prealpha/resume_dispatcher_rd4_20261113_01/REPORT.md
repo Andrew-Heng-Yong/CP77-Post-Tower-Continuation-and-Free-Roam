@@ -1,0 +1,13 @@
+# Beat on the Brat resume candidate
+
+RD4 candidate 01 resumes **Beat on the Brat** after the introduction, when the four district fight-search objectives were active before The Tower. The contract requires the four district quests and later objectives to remain untouched. It checks the captured and live wager, fight, outcome and progression facts before admitting the stage. [Stage contract](contract.json)
+
+Only nodes 1001 and 1002 in the existing S22 boxing controller gain an earned-stage admission branch. The original admission stays available through its existing condition. The controller uses its existing claim and parent journal acknowledgement, then enters the same native dispatcher at node 55. Each regional phase uses its original journal and marker writer. The native bouts, outcomes, wagers, optional Pacifica prerequisites, cleanup, and Johnny-edited finale remain in the existing progression. The new branch adds no reward or combat operation. [Graph and archive checks](assessment.json)
+
+The two pre-shutdown controls each show 21 saved handlers in the native boxing family and seven across its three companion phases. The checked post-shutdown saves, including the current fixture, retain cached paths and have zero corresponding handlers or freezer groups. The fixture also records Fred's shared service as active. Exact streamed placement, live fight progression, reward uniqueness and reload remain to be verified. [Saved-owner controls](assessment.json)
+
+All 148 registered scripts compiled, all 1,742 packed members passed readback, and the native admission rejected 328 mutated fixture inputs. The only changed packed resource is the existing boxing controller. The 51-path package changes the combined archive, history snapshot script and S22 script. [Compile](compile_01/result.json) · [Archive readback](archive_01/readback.json) · [Package manifest](candidate_01/manifest.json)
+
+**Test on AutoSave-3**, the 10:04 Toronto save after Wellsprings reached 5/7. It contains the interrupted boxing objectives and retains the completed Delamain branches. After installation, check the four fight markers, then try Kabuki. Completing that bout should count once and leave the other three available. [Wellsprings and save evidence](../resume_dispatcher_rd3_deploy_20261113_02/observations/wellsprings_20261113_1004/REPORT.md)
+
+The 51 package files passed ZIP readback. Eighteen deployment and recovery fixture actions and the closed-game RD3 preflight passed. The candidate is staged for installation approval. [Readiness](readiness.json) · [Preflight](deployment_01/preflight.json)

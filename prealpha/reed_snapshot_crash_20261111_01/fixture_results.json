@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "manifest_sha256": "DF182BE13EED65A1FA3C05A264D1C03D76D2C7057F1E172152CACCFAB02FB4DA",
+  "installer_sha256": "6864DE94B203ABD6FA0C7B9F8FF8BBCFF18C57EC0F16A130E120DC2C382154BF",
+  "actions": [
+    {
+      "fixture": "exact_Core51",
+      "action": "Preflight",
+      "returncode": 0,
+      "status": "PREFLIGHT_READY"
+    },
+    {
+      "fixture": "exact_Core51",
+      "action": "Install",
+      "returncode": 0,
+      "status": "INSTALLED_VERIFIED"
+    },
+    {
+      "fixture": "exact_Core51",
+      "action": "Verify",
+      "returncode": 0,
+      "status": "VERIFIED_AFTER"
+    },
+    {
+      "fixture": "exact_Core51",
+      "action": "ValidateRollback",
+      "returncode": 0,
+      "status": "ROLLBACK_READY"
+    },
+    {
+      "fixture": "exact_Core51",
+      "action": "Rollback",
+      "returncode": 0,
+      "status": "ROLLED_BACK_VERIFIED"
+    },
+    {
+      "fixture": "exact_Core51",
+      "action": "Verify",
+      "returncode": 0,
+      "status": "VERIFIED_BEFORE"
+    },
+    {
+      "fixture": "crash_between_replacements",
+      "action": "Install",
+      "returncode": 72,
+      "status": null
+    },
+    {
+      "fixture": "crash_between_replacements",
+      "action": "Recover",
+      "returncode": 0,
+      "status": "RECOVERED_BEFORE"
+    },
+    {
+      "fixture": "crash_between_replacements",
+      "action": "Verify",
+      "returncode": 0,
+      "status": "VERIFIED_BEFORE"
+    },
+    {
+      "fixture": "interruption_after_second_replacement",
+      "action": "Install",
+      "returncode": 1,
+      "status": null
+    },
+    {
+      "fixture": "interruption_after_second_replacement",
+      "action": "Verify",
+      "returncode": 0,
+      "status": "VERIFIED_BEFORE"
+    },
+    {
+      "fixture": "game_running",
+      "action": "Install",
+      "returncode": 1,
+      "status": null
+    }
+  ]
+}

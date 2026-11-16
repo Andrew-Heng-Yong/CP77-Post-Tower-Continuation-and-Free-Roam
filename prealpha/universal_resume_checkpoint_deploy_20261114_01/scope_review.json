@@ -1,0 +1,12 @@
+{
+  "scope": "Install execution checkpoint candidate 02 for a genuine Tower capture and save-reload test.",
+  "changed_paths": [
+    "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_HistorySnapshotHS1/init.lua",
+    "r6/scripts/PTFR_Consolidated/PTFR_HistorySnapshotHS1.reds",
+    "red4ext/plugins/PTFR_ExecutionCheckpoint/PTFR_ExecutionCheckpoint.dll"
+  ],
+  "candidate_sha256": "3D908EA14BB18926418F07BF64780C7533C0ED91080AD1AEE7411B8804BA0EE6",
+  "before_sha256": "AB279745469DEE08EC9A816EE9F04C9F9750456DE26A9C6CC8940E15FAFE56D8",
+  "installed_archive_sha256": "443339C64009C5DB99B1E0FD77B1EF526143C40DADDBEBB05EBEC6BB5D76BB45",
+  "gameplay": "PENDING_USER_PLAYTEST"
+}

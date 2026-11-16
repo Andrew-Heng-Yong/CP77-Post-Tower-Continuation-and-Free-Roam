@@ -1,0 +1,13 @@
+{
+  "changed_paths": [
+    "r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR1.reds"
+  ],
+  "core_paths": 51,
+  "source_checks": {
+    "tower_and_refund_admission": "MATCH",
+    "persistent_fields_and_item_conservation": "MATCH",
+    "attachment_scope": "FRESH_HANDOFF_AFTER_NATIVE_ARRIVAL; EXACT_STOCK_ATTACHMENT",
+    "render_visibility": "LIVE_ONLY"
+  },
+  "manifest_sha256": "5F5A0FAA4A8B154BC813823142EAF9C6C4E7E71F575F4A4774D397F288C0C992"
+}

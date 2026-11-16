@@ -1,0 +1,146 @@
+{
+  "status": "VERIFIED_ML1_JB4_SOURCE",
+  "voice_over": "en-us",
+  "installed_manifest": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\johnny_batch6_jb4\\deployment_01\\installed_manifest_01.json",
+  "installed_manifest_sha256": "305CFCF4F47A4F01AA080B51265C2E1A1830FFD334F68AC2C1134EA1CE5BBE49",
+  "base_package_manifest": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\johnny_batch6_jb4\\candidate_02\\package_manifest.json",
+  "base_package_manifest_sha256": "D323DEC5BB36CB2C2DD2812D9D393F27006B799068AA894F19F50AB97C0C5ACA",
+  "game_root": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077",
+  "archive_before": "ECA450712790A6560F50B0139B72DF27F31FF23141A56BB58701F63CA0590020",
+  "map": "towercontinued\\sidejob_repair_sr1\\en-us.lipmap",
+  "map_after": "8CF46F202E58185AE366175C22BC72EE79623439F7010DDFC034BAEB0D96BE43",
+  "providers": [
+    {
+      "depot": "towercontinued\\sidejob_repair_sr1\\en-us.lipmap",
+      "key": "12281676942416585719",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\mod\\zzzz_PTFR_Combined.archive",
+      "sha256": "45436C276B1A72D62F5ED2D79DB9A61416D38D39D5CD706D84DF0BD51AAD3E1D"
+    },
+    {
+      "depot": "towercontinued\\johnny_batch3\\mq032\\mq032_01_hook.scene",
+      "key": "16255777967962415059",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\mod\\zzzz_PTFR_Combined.archive",
+      "sha256": "4AD7017DDCAE7B72C1995555992003C326EF2D378355B2E9537DB0436C65548C"
+    },
+    {
+      "depot": "towercontinued\\johnny_batch3\\mq032\\mq032_03_epilogue.scene",
+      "key": "11118091249325218262",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\mod\\zzzz_PTFR_Combined.archive",
+      "sha256": "D0446694D6E23DCF7B0AEE42E1557FE5E3C722BF928FD2B01B2AF42B46122614"
+    },
+    {
+      "depot": "base\\localization\\en-us.lipmap",
+      "key": "7502921276676023990",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\lang_en_voice.archive",
+      "sha256": "40DAD677DB995CDD22416A3E718717FD916559165EBF0BBB6A281B93EE07C89D"
+    },
+    {
+      "depot": "base\\quest\\minor_quests\\mq032\\scenes\\mq032_01_hook.scene",
+      "key": "15525964710767733240",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_4_gamedata.archive",
+      "sha256": "BC080E620BC70FAB39AE306A3CC12B78367880044990EC6FE166929CAEAA6FF7"
+    },
+    {
+      "depot": "base\\quest\\minor_quests\\mq032\\scenes\\mq032_03_epilogue.scene",
+      "key": "4675773582296646409",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_4_gamedata.archive",
+      "sha256": "AA4873FE24498E72F87DC29E6735C1335546A57BDD87742E3A6838E1DB661BF5"
+    },
+    {
+      "depot": "base\\localization\\en-us\\lipsync\\base\\quest\\minor_quests\\mq032\\scenes\\mq032_03_epilogue\\johnny.anims",
+      "key": "4746720998780852579",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\lang_en_voice.archive",
+      "sha256": "9FA33655B79127D374676E8A968F29D3E33B236BB34660AD947D782D3C62A603"
+    },
+    {
+      "depot": "base\\localization\\en-us\\lipsync\\base\\quest\\minor_quests\\mq032\\scenes\\mq032_03_epilogue\\civ_high_m_22_jap_30.anims",
+      "key": "9529101529789179485",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\lang_en_voice.archive",
+      "sha256": "45601777D3C50ECDF99212774308F8CFB64725E9DC5172AE35B896D510F97522"
+    },
+    {
+      "depot": "base\\localization\\en-us\\lipsync\\base\\quest\\minor_quests\\mq032\\scenes\\mq032_01_hook\\johnny.anims",
+      "key": "14810718924846181116",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\lang_en_voice.archive",
+      "sha256": "62722D435411238AD3A6A739ACFF120E711C193AD560E17762FC4D2B594232BF"
+    },
+    {
+      "depot": "base\\localization\\en-us\\lipsync\\base\\quest\\minor_quests\\mq032\\scenes\\mq032_03_epilogue\\civ_high_m_19_jap_30.anims",
+      "key": "12043223629541964679",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\lang_en_voice.archive",
+      "sha256": "CFFAB7A89A0A4A4F547C90BD6EFE84B2CE3AF461E8D2EFDECA4D63F6A8562087"
+    },
+    {
+      "depot": "base\\localization\\en-us\\lipsync\\base\\quest\\minor_quests\\mq032\\scenes\\mq032_01_hook\\v.anims",
+      "key": "3159596635469041810",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\lang_en_voice.archive",
+      "sha256": "7977D943564F5922931EEAF69431458ED1A52F71A15D75FCF0BFEDCDB1322BB9"
+    },
+    {
+      "depot": "base\\localization\\en-us\\lipsync\\base\\quest\\minor_quests\\mq032\\scenes\\mq032_01_hook\\civ_high_m_22_jap_30.anims",
+      "key": "15600995691544288034",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\lang_en_voice.archive",
+      "sha256": "049313F0D26F496E3AD01034768D68983F879CE60599C1D4B96314536FA992C4"
+    },
+    {
+      "depot": "mod\\arman3_lizzies_bds\\localization\\en-us.lipmap",
+      "key": "4809363758677851020",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\mod\\LizziesBDs.archive",
+      "sha256": "C65586264529DA0C4DBA84778E46163C3B81F105CD0FF89A5CB09D9EB4A2519D"
+    },
+    {
+      "depot": "base\\characters\\head\\pma\\h0_001_ma_c__player\\h0_001_ma_c__player_skeleton.rig",
+      "key": "17876968586931773858",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_1_engine.archive",
+      "sha256": "91EFC5615819921504480DF3493C0BC9DF360A6AAB4C400D58E35A9ED2AFD7BC"
+    },
+    {
+      "depot": "base\\characters\\main_npc\\silverhand\\h0_001_ma_c__silverhand\\h0_001_ma_c__silverhand_skeleton.rig",
+      "key": "9609422237679997115",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_4_animation.archive",
+      "sha256": "792C434AE4E59CAACB8EF6AB5CBFAB3054C21200DDC735F52C8F015306A2BD67"
+    },
+    {
+      "depot": "base\\characters\\main_npc\\silverhand\\h0_001_ma_c__silverhand\\h0_001_ma_c__silverhand_skeleton.rig",
+      "key": "9609422237679997115",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_4_appearance.archive",
+      "sha256": "792C434AE4E59CAACB8EF6AB5CBFAB3054C21200DDC735F52C8F015306A2BD67"
+    },
+    {
+      "depot": "base\\characters\\head\\pma\\h0_001_ma_c__player\\h0_001_ma_c__player_skeleton.rig",
+      "key": "17876968586931773858",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_4_appearance.archive",
+      "sha256": "91EFC5615819921504480DF3493C0BC9DF360A6AAB4C400D58E35A9ED2AFD7BC"
+    },
+    {
+      "depot": "base\\characters\\head\\ma\\h0_016_ma_a__older\\h0_016_ma_a__older_skeleton.rig",
+      "key": "16805676678203574712",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_4_appearance.archive",
+      "sha256": "0FBA656DD3E23CDC910D405EC671CD63686D967C25465988EC3245FE011201AD"
+    },
+    {
+      "depot": "base\\characters\\head\\ma\\h0_012_ma_a__young\\h0_012_ma_a__young_skeleton.rig",
+      "key": "3460925769756439268",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_4_appearance.archive",
+      "sha256": "501E3DCB017DE97B6A5CAB3F78E4F92DA51B8FEC4B0455B7BE63CD2B29B0DE3D"
+    }
+  ],
+  "english_configs": [
+    {
+      "config": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\mod\\LizziesBDs.archive.xl",
+      "sha256": "A0706E6600F4F0F420FC5815FEE915A5CC0A3218E06211529101DA9E46304E2F",
+      "depot": "mod\\arman3_lizzies_bds\\localization\\en-us.lipmap"
+    },
+    {
+      "config": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\mod\\zzzz_PTFR_Combined.archive.xl",
+      "sha256": "510C49490C4B068F6CF0562AD8505D1276AE4B167F855B7730D583250ADA3056",
+      "depot": "towercontinued\\sidejob_repair_sr1\\en-us.lipmap"
+    }
+  ],
+  "original_plan_sha256": "9F539AA1DE543679EC2CC24620C584BF982DD848BBCF669F50CEEA295C51AA26",
+  "clip_count": 41,
+  "scene_keys": [
+    "16255777967962415059",
+    "11118091249325218262"
+  ]
+}

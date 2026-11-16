@@ -1,0 +1,114 @@
+{
+  "status": "PASS",
+  "installer_sha256": "746ABC358FCE1FFDBD3AE8082D8010C565847B0123F5D838CED460887CA1E8D0",
+  "actions": [
+    {
+      "fixture": "rollback",
+      "action": "Install",
+      "status": "INSTALLED_VERIFIED",
+      "returncode": 0
+    },
+    {
+      "fixture": "rollback",
+      "action": "Verify",
+      "status": "VERIFIED_AFTER",
+      "returncode": 0
+    },
+    {
+      "fixture": "rollback",
+      "action": "ValidateRollback",
+      "status": "ROLLBACK_READY",
+      "returncode": 0
+    },
+    {
+      "fixture": "rollback",
+      "action": "Rollback",
+      "status": "ROLLED_BACK_VERIFIED",
+      "returncode": 0
+    },
+    {
+      "fixture": "rollback",
+      "action": "Verify",
+      "status": "VERIFIED_BEFORE",
+      "returncode": 0
+    },
+    {
+      "fixture": "crash_first",
+      "action": "Install",
+      "status": null,
+      "returncode": 72
+    },
+    {
+      "fixture": "crash_first",
+      "action": "Recover",
+      "status": "RECOVERED_BEFORE",
+      "returncode": 0
+    },
+    {
+      "fixture": "crash_first",
+      "action": "Verify",
+      "status": "VERIFIED_BEFORE",
+      "returncode": 0
+    },
+    {
+      "fixture": "crash_second",
+      "action": "Install",
+      "status": null,
+      "returncode": 72
+    },
+    {
+      "fixture": "crash_second",
+      "action": "Recover",
+      "status": "RECOVERED_BEFORE",
+      "returncode": 0
+    },
+    {
+      "fixture": "crash_second",
+      "action": "Verify",
+      "status": "VERIFIED_BEFORE",
+      "returncode": 0
+    },
+    {
+      "fixture": "crash_stage",
+      "action": "Install",
+      "status": null,
+      "returncode": 72
+    },
+    {
+      "fixture": "crash_stage",
+      "action": "Recover",
+      "status": "RECOVERED_BEFORE",
+      "returncode": 0
+    },
+    {
+      "fixture": "crash_stage",
+      "action": "Verify",
+      "status": "VERIFIED_BEFORE",
+      "returncode": 0
+    },
+    {
+      "fixture": "crash_receipt",
+      "action": "Install",
+      "status": null,
+      "returncode": 72
+    },
+    {
+      "fixture": "crash_receipt",
+      "action": "Recover",
+      "status": "RECOVERED_BEFORE",
+      "returncode": 0
+    },
+    {
+      "fixture": "crash_receipt",
+      "action": "Verify",
+      "status": "VERIFIED_BEFORE",
+      "returncode": 0
+    },
+    {
+      "fixture": "game_running",
+      "action": "Install",
+      "status": null,
+      "returncode": 1
+    }
+  ]
+}

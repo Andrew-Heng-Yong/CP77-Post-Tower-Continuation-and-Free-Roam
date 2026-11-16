@@ -1,0 +1,22 @@
+{
+  "status": "PASS_SD1_ONE_ARCHIVE_TRANSACTION_LITERAL_DELTA",
+  "predecessor_installer_sha256": "4AE4EAFBBE8C0FB7A1386BA2D29D7DC50A18427A3FF7B2402853FE88116B180D",
+  "installer_sha256": "FA7D9F391374144B26701BCD30DC52F1A8A3C6BB4BC22B2FDFCDBCB202D32E23",
+  "manifest_sha256": "941EF88EA66E06B6AB1A075B09A39EA383E6162E6622BDB29D06020F87C364CC",
+  "allowed_replacements": [
+    "archive/pc/mod/zzzz_PTFR_Combined.archive"
+  ],
+  "reviewed_literal_changes": {
+    "# KM2 deployment. User requested the KOLD MIRAGE actor-free interaction sequence.": "# SD1 deployment. User requested Sweet Dreams Johnny presentation cleanup.",
+    "# Derived from the reviewed PE1 transaction. Only the consolidated archive may change.": "# Derived from the reviewed KM2 transaction. Only the consolidated archive may change.",
+    "$PinnedCoreManifestSHA='05A14C392E02FFA750124C1CE77C0D22FF285119803E472C0F446B496E0896A5'": "$PinnedCoreManifestSHA='941EF88EA66E06B6AB1A075B09A39EA383E6162E6622BDB29D06020F87C364CC'",
+    "PTFR_KM2_JOURNAL_V1": "PTFR_SD1_JOURNAL_V1",
+    "'PTFR_KM2_CORE_V1'": "'PTFR_SD1_CORE_V1'",
+    "$manifest.source_epoch -cne 'KM2' -or $manifest.predecessor_epoch -cne 'PE1'": "$manifest.source_epoch -cne 'SD1' -or $manifest.predecessor_epoch -cne 'KM2'",
+    "('recovery/core_km2_01')": "('recovery/core_sd1_01')"
+  },
+  "transaction_functions": "Inherited unchanged; only epoch, pin, recovery namespace and scope comments differ.",
+  "package_member_count": 51,
+  "archive_member_count": 1581,
+  "unchanged_payloads": 1579
+}

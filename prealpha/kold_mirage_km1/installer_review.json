@@ -1,0 +1,26 @@
+{
+  "status": "PASS_KM1_TWO_FILE_TRANSACTION_LITERAL_DELTA",
+  "predecessor_installer_sha256": "099A85C5281441E090F23DF9CEE9DFB63315EE899531CED80F7FEBA04E779664",
+  "installer_sha256": "CB0FE612419A5461135672B6741CE37C8BB66792478BD945F5E5D089B6AE7BF9",
+  "manifest_sha256": "C384304451BD4C48C65ED7538A6E8C9A01E21376B333987A564D42A21CBEBFE6",
+  "allowed_replacements": [
+    "archive/pc/mod/zzzz_PTFR_Combined.archive",
+    "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS29.reds"
+  ],
+  "reviewed_literal_changes": {
+    "# JP1 deployment. User requested implementation for their in-game pilot test. Fixtures stay under this task.": "# KM1 deployment. User requested the KOLD MIRAGE marker/encounter fix and active=0-or-1 admission.",
+    "# Derived from the reviewed HH1 transaction. Only the consolidated archive may change.": "# Derived from the reviewed JP1 transaction. Only the consolidated archive and S29 script may change.",
+    "$PinnedCoreManifestSHA='2720F215C12DD65B0ABE7FA872FDAC394D5D23C4E7A2EA78BBDF93D54451123A'": "$PinnedCoreManifestSHA='C384304451BD4C48C65ED7538A6E8C9A01E21376B333987A564D42A21CBEBFE6'",
+    "PTFR_JP1_JOURNAL_V1": "PTFR_KM1_JOURNAL_V1",
+    "'PTFR_JP1_CORE_V1'": "'PTFR_KM1_CORE_V1'",
+    "$manifest.source_epoch -cne 'JP1' -or $manifest.predecessor_epoch -cne 'HH1'": "$manifest.source_epoch -cne 'KM1' -or $manifest.predecessor_epoch -cne 'JP1'",
+    "('recovery/core_jp1_01')": "('recovery/core_km1_01')",
+    "$wanted=@('archive/pc/mod/zzzz_PTFR_Combined.archive')": "$wanted=@('archive/pc/mod/zzzz_PTFR_Combined.archive','r6/scripts/PTFR_Consolidated/PTFR_SideJobsS29.reds')",
+    "$changes.Count -ne 1": "$changes.Count -ne 2",
+    "'Core51/one-existing-archive scope drift'": "'Core51/two-existing-file scope drift'"
+  },
+  "transaction_functions": "Inherited unchanged apart from the exact two-file allowlist and epoch/pin/recovery namespace.",
+  "package_member_count": 51,
+  "archive_member_count": 1581,
+  "unchanged_payloads": 1580
+}

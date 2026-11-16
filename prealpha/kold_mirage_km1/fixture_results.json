@@ -1,0 +1,270 @@
+{
+  "status": "PASS_KM1_TWO_FILE_DEPLOYMENT_FIXTURES",
+  "installer_sha256": "CB0FE612419A5461135672B6741CE37C8BB66792478BD945F5E5D089B6AE7BF9",
+  "manifest_sha256": "C384304451BD4C48C65ED7538A6E8C9A01E21376B333987A564D42A21CBEBFE6",
+  "scope": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\kold_mirage_km1\\fixtures\\deployment_01",
+  "actions": [
+    {
+      "fixture": "actual_Core51",
+      "action": "Preflight",
+      "exit": 0,
+      "options": [],
+      "output": "{\"status\":\"PREFLIGHT_READY\",\"component\":\"Core\",\"action\":\"Preflight\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\kold_mirage_km1\\\\fixtures\\\\deployment_01\\\\actual_Core51\\\\recovery\\\\core\",\"manifest_sha256\":\"0DC33CD51C0016D745FACE14496978E3E1DEDB1321AD2578A7DBF705AD0B960D\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}",
+      "error": ""
+    },
+    {
+      "fixture": "actual_Core51",
+      "action": "Install",
+      "exit": 0,
+      "options": [],
+      "output": "{\"status\":\"INSTALLED_VERIFIED\",\"component\":\"Core\",\"action\":\"Install\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\kold_mirage_km1\\\\fixtures\\\\deployment_01\\\\actual_Core51\\\\recovery\\\\core\",\"manifest_sha256\":\"0DC33CD51C0016D745FACE14496978E3E1DEDB1321AD2578A7DBF705AD0B960D\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}",
+      "error": ""
+    },
+    {
+      "fixture": "actual_Core51",
+      "action": "Verify",
+      "exit": 0,
+      "options": [],
+      "output": "{\"status\":\"VERIFIED_AFTER\",\"component\":\"Core\",\"action\":\"Verify\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\kold_mirage_km1\\\\fixtures\\\\deployment_01\\\\actual_Core51\\\\recovery\\\\core\",\"manifest_sha256\":\"0DC33CD51C0016D745FACE14496978E3E1DEDB1321AD2578A7DBF705AD0B960D\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}",
+      "error": ""
+    },
+    {
+      "fixture": "actual_Core51",
+      "action": "ValidateRollback",
+      "exit": 0,
+      "options": [],
+      "output": "{\"status\":\"ROLLBACK_READY\",\"component\":\"Core\",\"action\":\"ValidateRollback\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\kold_mirage_km1\\\\fixtures\\\\deployment_01\\\\actual_Core51\\\\recovery\\\\core\",\"manifest_sha256\":\"0DC33CD51C0016D745FACE14496978E3E1DEDB1321AD2578A7DBF705AD0B960D\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}",
+      "error": ""
+    },
+    {
+      "fixture": "actual_Core51",
+      "action": "Rollback",
+      "exit": 0,
+      "options": [],
+      "output": "{\"status\":\"ROLLED_BACK_VERIFIED\",\"component\":\"Core\",\"action\":\"Rollback\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\kold_mirage_km1\\\\fixtures\\\\deployment_01\\\\actual_Core51\\\\recovery\\\\core\",\"manifest_sha256\":\"0DC33CD51C0016D745FACE14496978E3E1DEDB1321AD2578A7DBF705AD0B960D\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}",
+      "error": ""
+    },
+    {
+      "fixture": "actual_Core51",
+      "action": "Verify",
+      "exit": 0,
+      "options": [
+        "-ExpectedState",
+        "Before"
+      ],
+      "output": "{\"status\":\"VERIFIED_BEFORE\",\"component\":\"Core\",\"action\":\"Verify\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\kold_mirage_km1\\\\fixtures\\\\deployment_01\\\\actual_Core51\\\\recovery\\\\core\",\"manifest_sha256\":\"0DC33CD51C0016D745FACE14496978E3E1DEDB1321AD2578A7DBF705AD0B960D\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}",
+      "error": ""
+    },
+    {
+      "fixture": "AfterFirstReplace",
+      "action": "Install",
+      "exit": 1,
+      "options": [
+        "-FailurePoint",
+        "AfterFirstReplace"
+      ],
+      "output": "",
+      "error": "Exception: C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\kold_mirage_km1\\deploy_core.ps1:290\nLine |\n 290 |    throw ('Install stopped; '+$script:journal.state+': '+$script:journ .\n     |    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n     | Install stopped; RESTORED_BEFORE_VERIFIED: Fixture interruption: AfterFirstReplace"
+    },
+    {
+      "fixture": "AfterFirstReplace",
+      "action": "Verify",
+      "exit": 0,
+      "options": [
+        "-ExpectedState",
+        "Before"
+      ],
+      "output": "{\"status\":\"VERIFIED_BEFORE\",\"component\":\"Core\",\"action\":\"Verify\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\kold_mirage_km1\\\\fixtures\\\\deployment_01\\\\AfterFirstReplace\\\\recovery\\\\core\",\"manifest_sha256\":\"01D8959BF532D75549C949373E5B79D56C8705C99D0230E68E67A2D1A558D105\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}",
+      "error": ""
+    },
+    {
+      "fixture": "AfterSecondReplace",
+      "action": "Install",
+      "exit": 1,
+      "options": [
+        "-FailurePoint",
+        "AfterSecondReplace"
+      ],
+      "output": "",
+      "error": "Exception: C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\kold_mirage_km1\\deploy_core.ps1:290\nLine |\n 290 |    throw ('Install stopped; '+$script:journal.state+': '+$script:journ .\n     |    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n     | Install stopped; RESTORED_BEFORE_VERIFIED: Fixture interruption: AfterSecondReplace"
+    },
+    {
+      "fixture": "AfterSecondReplace",
+      "action": "Verify",
+      "exit": 0,
+      "options": [
+        "-ExpectedState",
+        "Before"
+      ],
+      "output": "{\"status\":\"VERIFIED_BEFORE\",\"component\":\"Core\",\"action\":\"Verify\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\kold_mirage_km1\\\\fixtures\\\\deployment_01\\\\AfterSecondReplace\\\\recovery\\\\core\",\"manifest_sha256\":\"6F2A0721A5CB72F4859D0D1D884C05B5525468F4FACFEF32E5825799ACEFF733\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}",
+      "error": ""
+    },
+    {
+      "fixture": "BeforeReceipt",
+      "action": "Install",
+      "exit": 1,
+      "options": [
+        "-FailurePoint",
+        "BeforeReceipt"
+      ],
+      "output": "",
+      "error": "Exception: C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\kold_mirage_km1\\deploy_core.ps1:290\nLine |\n 290 |    throw ('Install stopped; '+$script:journal.state+': '+$script:journ .\n     |    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n     | Install stopped; RESTORED_BEFORE_VERIFIED: Fixture interruption: BeforeReceipt"
+    },
+    {
+      "fixture": "BeforeReceipt",
+      "action": "Verify",
+      "exit": 0,
+      "options": [
+        "-ExpectedState",
+        "Before"
+      ],
+      "output": "{\"status\":\"VERIFIED_BEFORE\",\"component\":\"Core\",\"action\":\"Verify\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\kold_mirage_km1\\\\fixtures\\\\deployment_01\\\\BeforeReceipt\\\\recovery\\\\core\",\"manifest_sha256\":\"CDCCC89678541F06FDF889FB32D73D07DBA61E40E9733AFAE4C3F78D4B94284A\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}",
+      "error": ""
+    },
+    {
+      "fixture": "CrashAfterFirstReplace",
+      "action": "Install",
+      "exit": 72,
+      "options": [
+        "-FailurePoint",
+        "CrashAfterFirstReplace"
+      ],
+      "output": "",
+      "error": ""
+    },
+    {
+      "fixture": "CrashAfterFirstReplace",
+      "action": "Recover",
+      "exit": 0,
+      "options": [],
+      "output": "{\"status\":\"RECOVERED_BEFORE\",\"component\":\"Core\",\"action\":\"Recover\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\kold_mirage_km1\\\\fixtures\\\\deployment_01\\\\CrashAfterFirstReplace\\\\recovery\\\\core\",\"manifest_sha256\":\"17E9CBC193FFD269407AC691BB84B8D3858594D5980D0029CDB18BB25E4122B7\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}",
+      "error": ""
+    },
+    {
+      "fixture": "CrashAfterFirstReplace",
+      "action": "Verify",
+      "exit": 0,
+      "options": [
+        "-ExpectedState",
+        "Before"
+      ],
+      "output": "{\"status\":\"VERIFIED_BEFORE\",\"component\":\"Core\",\"action\":\"Verify\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\kold_mirage_km1\\\\fixtures\\\\deployment_01\\\\CrashAfterFirstReplace\\\\recovery\\\\core\",\"manifest_sha256\":\"17E9CBC193FFD269407AC691BB84B8D3858594D5980D0029CDB18BB25E4122B7\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}",
+      "error": ""
+    },
+    {
+      "fixture": "CrashAfterSecondReplace",
+      "action": "Install",
+      "exit": 72,
+      "options": [
+        "-FailurePoint",
+        "CrashAfterSecondReplace"
+      ],
+      "output": "",
+      "error": ""
+    },
+    {
+      "fixture": "CrashAfterSecondReplace",
+      "action": "Recover",
+      "exit": 0,
+      "options": [],
+      "output": "{\"status\":\"RECOVERED_BEFORE\",\"component\":\"Core\",\"action\":\"Recover\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\kold_mirage_km1\\\\fixtures\\\\deployment_01\\\\CrashAfterSecondReplace\\\\recovery\\\\core\",\"manifest_sha256\":\"590BD473142F8E55118F0DA2A0A26C2ACAA894B8F8FA98BCBAD0C65351BF2E57\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}",
+      "error": ""
+    },
+    {
+      "fixture": "CrashAfterSecondReplace",
+      "action": "Verify",
+      "exit": 0,
+      "options": [
+        "-ExpectedState",
+        "Before"
+      ],
+      "output": "{\"status\":\"VERIFIED_BEFORE\",\"component\":\"Core\",\"action\":\"Verify\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\kold_mirage_km1\\\\fixtures\\\\deployment_01\\\\CrashAfterSecondReplace\\\\recovery\\\\core\",\"manifest_sha256\":\"590BD473142F8E55118F0DA2A0A26C2ACAA894B8F8FA98BCBAD0C65351BF2E57\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}",
+      "error": ""
+    },
+    {
+      "fixture": "CrashBeforeReceipt",
+      "action": "Install",
+      "exit": 72,
+      "options": [
+        "-FailurePoint",
+        "CrashBeforeReceipt"
+      ],
+      "output": "",
+      "error": ""
+    },
+    {
+      "fixture": "CrashBeforeReceipt",
+      "action": "Recover",
+      "exit": 0,
+      "options": [],
+      "output": "{\"status\":\"RECOVERED_BEFORE\",\"component\":\"Core\",\"action\":\"Recover\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\kold_mirage_km1\\\\fixtures\\\\deployment_01\\\\CrashBeforeReceipt\\\\recovery\\\\core\",\"manifest_sha256\":\"E1867E56B013A1354E0B63A9C5DD0AC00993EC0E964E72DE06A2933CBE6C24EC\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}",
+      "error": ""
+    },
+    {
+      "fixture": "CrashBeforeReceipt",
+      "action": "Verify",
+      "exit": 0,
+      "options": [
+        "-ExpectedState",
+        "Before"
+      ],
+      "output": "{\"status\":\"VERIFIED_BEFORE\",\"component\":\"Core\",\"action\":\"Verify\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\kold_mirage_km1\\\\fixtures\\\\deployment_01\\\\CrashBeforeReceipt\\\\recovery\\\\core\",\"manifest_sha256\":\"E1867E56B013A1354E0B63A9C5DD0AC00993EC0E964E72DE06A2933CBE6C24EC\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}",
+      "error": ""
+    },
+    {
+      "fixture": "interrupted_rollback",
+      "action": "Install",
+      "exit": 0,
+      "options": [],
+      "output": "{\"status\":\"INSTALLED_VERIFIED\",\"component\":\"Core\",\"action\":\"Install\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\kold_mirage_km1\\\\fixtures\\\\deployment_01\\\\interrupted_rollback\\\\recovery\\\\core\",\"manifest_sha256\":\"347934A17A30094D16A29A15804ECD92DA2D08CF0B0D2064E73C86A7325E16C8\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}",
+      "error": ""
+    },
+    {
+      "fixture": "interrupted_rollback",
+      "action": "Rollback",
+      "exit": 72,
+      "options": [
+        "-FailurePoint",
+        "CrashAfterFirstRollback"
+      ],
+      "output": "",
+      "error": ""
+    },
+    {
+      "fixture": "interrupted_rollback",
+      "action": "Recover",
+      "exit": 0,
+      "options": [],
+      "output": "{\"status\":\"RECOVERED_AFTER\",\"component\":\"Core\",\"action\":\"Recover\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\kold_mirage_km1\\\\fixtures\\\\deployment_01\\\\interrupted_rollback\\\\recovery\\\\core\",\"manifest_sha256\":\"347934A17A30094D16A29A15804ECD92DA2D08CF0B0D2064E73C86A7325E16C8\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}",
+      "error": ""
+    },
+    {
+      "fixture": "interrupted_rollback",
+      "action": "Verify",
+      "exit": 0,
+      "options": [],
+      "output": "{\"status\":\"VERIFIED_AFTER\",\"component\":\"Core\",\"action\":\"Verify\",\"managed_paths\":51,\"changing_paths\":2,\"recovery_root\":\"C:\\\\Users\\\\Ayong\\\\Documents\\\\cp77 modding\\\\tower ws\\\\prealpha\\\\kold_mirage_km1\\\\fixtures\\\\deployment_01\\\\interrupted_rollback\\\\recovery\\\\core\",\"manifest_sha256\":\"347934A17A30094D16A29A15804ECD92DA2D08CF0B0D2064E73C86A7325E16C8\",\"save_writes\":0,\"game_launches\":0,\"report\":\"\"}",
+      "error": ""
+    },
+    {
+      "fixture": "game_running",
+      "action": "Install",
+      "exit": 1,
+      "options": [
+        "-FixtureProcesses",
+        "Cyberpunk2077"
+      ],
+      "output": "",
+      "error": "Exception: C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\kold_mirage_km1\\deploy_core.ps1:85\nLine |\n  85 |  . ning.Count){throw ('Game or REDlauncher must be closed naturally: '+( .\n     |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n     | Game or REDlauncher must be closed naturally: Cyberpunk2077"
+    },
+    {
+      "fixture": "wrong_file",
+      "action": "Install",
+      "exit": 1,
+      "options": [],
+      "output": "",
+      "error": "Exception: C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\kold_mirage_km1\\deploy_core.ps1:90\nLine |\n  90 |  . sh $path -Fresh:$Fresh) -cne $expected){throw ('Hash drift: '+$path)}\n     |                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n     | Hash drift: C:\\Users\\Ayong\\Documents\\cp77 modding\\tower\n     | ws\\prealpha\\kold_mirage_km1\\fixtures\\deployment_01\\wrong_file\\game\\archive\\pc\\mod\\zzzz_PTFR_Combined.archive"
+    }
+  ],
+  "notes": "Exact full Core51 normal install and rollback. Other cases use synthetic fixture files."
+}

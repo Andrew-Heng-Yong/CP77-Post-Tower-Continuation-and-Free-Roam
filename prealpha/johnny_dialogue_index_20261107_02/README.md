@@ -2,6 +2,8 @@
 
 The selected dialogue index is [index_05/dialogue.sqlite3](index_05/dialogue.sqlite3). Its [manifest](index_05/database_manifest.json), [source verification](index_05/verification.json) and [command checks](index_05/cli_verification.json) identify the exact result. The previous index and unsuccessful preparation candidates remain preserved.
 
+**Post-index installed delta:** JP1 now changes three private scenes in KOLD MIRAGE and Sweet Dreams. This database remains the verified pre-JP1 source snapshot. Use the [JP1 installed manifest](../johnny_dialogue_pilot_jp1/deployment_01/installed_manifest_01.json), [decision/readback report](../johnny_dialogue_pilot_jp1/REPORT.md) and candidate_03 sources for those scenes. `CURRENT_PTFR_PAYLOAD` remains capture provenance, not a statement that the indexed events still play in the installed pilot.
+
 Current scope and work status: use the [Steps 1/2 audit](../johnny_dialogue_scope_audit_20261107_01/REPORT.md), [scope policy](../johnny_dialogue_scope_audit_20261107_01/scope_policy.json) and [active work ledger](../johnny_dialogue_scope_audit_20261107_01/active_work_ledger.json). They exclude q303 quest-owned occurrences and native q115 ending execution, protect the genuine Tower ending and close completed Step 2 tasks. Raw index counts and boundary queries include out-of-scope sources and historical task statuses. The database boundary table is not the active work queue.
 
 Run these read-only commands from the repository root:

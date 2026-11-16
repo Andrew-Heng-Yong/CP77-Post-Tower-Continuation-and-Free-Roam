@@ -1,0 +1,11 @@
+# Meet Kirk distance check
+
+The RD8 playtest admitted the earned quest and completed Kirk's phone handoff. The saved quest handler was still waiting on the original combined bar distance and content condition, before the journal update. The native anchor was about 62.9 m from V in the playtest autosave. Its authored entity streaming distance is 10 m. The saved condition does not disclose the live result of each operand. [RD8 playtest evidence](../resume_dispatcher_rd8_observe_20261113_01/REPORT.md)
+
+RD9 compares V's position with the exact authored anchor and publishes the result to the two existing resume waits. Both retain the strict greater-than-50 m boundary and the native MinorQuestAndSts condition. The standalone branch also retains its Pacifica check. The old native owner and fresh start graph, phone sequence, journal path and reward route are outside the two-operand graph change. The new spatial fact is cleared when the script restores and sampled again while the claimed quest is pending. The saved wait retains its ID, socket and condition node class. Live migration of a save already waiting there remains unverified.
+
+All 148 REDscript sources compiled. The normalized graph comparison matched the exact two-operand allowlist, six spatial boundary cases passed, and readback verified all 1,748 archive members with one replacement. All 18 deployment and recovery fixture actions passed. [Graph assessment](evidence_01/assessment.json) · [Archive readback](archive_01/readback.json)
+
+RD9 candidate 01 was installed on 13 November 2026 at 20:45 Toronto time. The combined archive and S29 script were replaced. All 51 Core paths, 26 dependencies and 379 existing save files verified, and rollback to RD8 is ready. [Installed manifest](deployment_01/installed_manifest_01.json) · [Rollback readiness](deployment_01/rollback_readiness.json)
+
+For the controlled retest, load **Manual Save 27** and wait for the job check to finish. Check whether **Small Man, Big Mouth → Meet Kirk** now appears before traveling to El Coyote Cojo. If it appears, go to the bar and check that Kirk and Big Joe are available. The same save lets this run exercise the corrected entry from before RD8's claim. The native content gate and bar sequence remain pending in gameplay.

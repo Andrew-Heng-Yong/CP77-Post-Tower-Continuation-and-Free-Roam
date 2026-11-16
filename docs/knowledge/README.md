@@ -9,6 +9,7 @@ Maintained 29 October 2026. Start with [current state](current-state.md). This i
 | Compile REDscript, collect dependency inputs | [REDscript toolchain](redscript-toolchain.md) |
 | Extract/decode/edit/cook vanilla resources | [Vanilla resource workflow](vanilla-resources.md) |
 | Trace a quest, entry, phone or cleanup | [Quest and phone investigation](quest-investigation.md) |
+| Apply the reviewed marker/encounter setup rule | [Boolean setup admission policy](../prepared_encounter_policy_20261108.md) |
 | Inspect native saved graph stores and their limits | [Native saved graph state](native-saved-graph-state.md) |
 | Build/read back the combined archive, validate XL IDs | [Consolidated build](consolidated-build.md) |
 | Perform or design a static parity audit | [Static parity audits](static-parity-audits.md) |

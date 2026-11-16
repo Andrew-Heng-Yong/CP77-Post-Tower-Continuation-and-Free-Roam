@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "installer_sha256": "A8B567D738C76F6D5EA72DA5C62D4710F1E5DBFFC3F8E61C3DFCACD40602D23E",
+  "actions": [
+    {
+      "fixture": "rollback",
+      "action": "Install",
+      "status": "INSTALLED_VERIFIED",
+      "returncode": 0
+    },
+    {
+      "fixture": "rollback",
+      "action": "Verify",
+      "status": "VERIFIED_AFTER",
+      "returncode": 0
+    },
+    {
+      "fixture": "rollback",
+      "action": "ValidateRollback",
+      "status": "ROLLBACK_READY",
+      "returncode": 0
+    },
+    {
+      "fixture": "rollback",
+      "action": "Rollback",
+      "status": "ROLLED_BACK_VERIFIED",
+      "returncode": 0
+    },
+    {
+      "fixture": "rollback",
+      "action": "Verify",
+      "status": "VERIFIED_BEFORE",
+      "returncode": 0
+    },
+    {
+      "fixture": "interrupted",
+      "action": "Install",
+      "status": null,
+      "returncode": 72
+    },
+    {
+      "fixture": "interrupted",
+      "action": "Recover",
+      "status": "RECOVERED_BEFORE",
+      "returncode": 0
+    },
+    {
+      "fixture": "interrupted",
+      "action": "Verify",
+      "status": "VERIFIED_BEFORE",
+      "returncode": 0
+    },
+    {
+      "fixture": "game_running",
+      "action": "Install",
+      "status": null,
+      "returncode": 1
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "status": "INSTALLED_VERIFIED_LIVE_TEST_PENDING",
+  "candidate": "candidate_04",
+  "quests": [
+    "mq029_tourist",
+    "mq017_streetkid",
+    "mq042_nomad",
+    "mq040_biosculpt",
+    "mq018_writer"
+  ],
+  "speech_cuts": {
+    "JOHNNY": 89,
+    "V": 61
+  },
+  "presentation_events_removed": 206,
+  "changed_private_resources": 13,
+  "archive_payloads": 1581,
+  "unchanged_archive_payloads": 1568,
+  "changed_core_files": 1,
+  "unchanged_core_files": 50,
+  "checks": 4895,
+  "flow_and_source_fixtures": 36,
+  "installer_actions": 22,
+  "installer_fixture_cases": 8,
+  "archive_sha256": "11C2E0E4935C98FF1A39E6EF144E503E7CCA3B1D16840FB91000182B6A7DC200",
+  "zip_sha256": "1D2E2FFCA6B0639282A0A688CE6D8ACA37186424396538AF6F842EBC3D8A88C3",
+  "proofs": {
+    "input_04/plan.json": "6750D82C3D7AAF747142A1C3E7013F08CFD437261CF5603798678BCCC0D1FC97",
+    "source_01/manifest.json": "43C95C24D6AE17FF0EE3A536735318700F0C48916F8B7334B16419D0C9AD3EEC",
+    "readback_04/manifest.json": "571B206CA80BABC85070CAE70A82827A6739BC08859F5F8A63EFEA04ED3E0B13",
+    "verification_04.json": "50C2F3562B1A79B02CB108C1FFF31A82836FC38ADD212AB12E2A37C6222FB3DB",
+    "flow_fixtures_04.json": "358E12BD1E1451169B9B8D9828E2068D30A7ABA13486B53EB163CBCD9E93FA32",
+    "compile_inventory_04.json": "034BF7A33CC683C91A7CD9FA115E3DDEDF2495EC136873B7F1B6340FAAB1A715",
+    "archive_readback_04.json": "781B6F9702FDF75BB83E43CC7A9147A6974263F7BA64926945C9BD6B8BE38E0F",
+    "core_manifest_01.json": "A97193CD93CA7D0087D3F4B8EC973ADAF16F907AEA52AFAF12E921574E6BCD44",
+    "installer_review.json": "27BDF90455D99F26DE27D336F56B8F7994DA4455A01D66501F0913B343B1E2E8",
+    "fixture_results.json": "A2113E0B17028CAE3E00ADF38871866E8E601F6EDF09B98EB62F34CD7EA5FAC3",
+    "readiness.json": "91AEC0B0041C1C3B0EE364A7521BC56A17F374476F164E2B5B42B9C4BC23E6E3"
+  },
+  "installed": true,
+  "game_writes": 1,
+  "save_writes": 0,
+  "limits": "Native gameplay, render absence, interruptions/reloads and already-running saved-scene upgrades remain unqualified. No quest/admission reset.",
+  "preparation_status": "IMPLEMENTED_BUILT_VERIFIED_STAGED_NOT_INSTALLED",
+  "save_files_preserved": 313,
+  "dependency_files_verified": 26,
+  "installed_manifest": "deployment_01/installed_manifest_01.json",
+  "preservation": "deployment_01/verification.json",
+  "recovery_status": "ROLLBACK_READY"
+}

@@ -1,0 +1,584 @@
+{
+  "inputs": [
+    {
+      "Path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\cache\\tweakdb_ep1.bin",
+      "Sha256": "5BA1B2B79486F91A8BC5E789D641A08963FC5024E54C562759376176E9FE7FD1"
+    },
+    {
+      "Path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\cache\\tweakdb.bin",
+      "Sha256": "0D48B6ACC1A40430AFBFF77EF41B00B7F06759C297425A6E6767F56446C6075D"
+    }
+  ],
+  "models": {
+    "JohnnyTattoo": [
+      {
+        "id": "Items.CasiusTattoo",
+        "area": "EquipmentArea.HandsCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedCasiusTattoo",
+        "area": "EquipmentArea.HandsCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      }
+    ],
+    "TogetherForever": [
+      {
+        "id": "Items.SilverhandTattoo",
+        "area": "EquipmentArea.HandsCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedSilverhandTattoo",
+        "area": "EquipmentArea.HandsCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      }
+    ],
+    "TygerClaws": [
+      {
+        "id": "Items.YakuzaTattoo",
+        "area": "EquipmentArea.HandsCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedYakuzaTattoo",
+        "area": "EquipmentArea.HandsCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedYakuzaTattooUncommon",
+        "area": "EquipmentArea.HandsCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedYakuzaTattooUncommonPlus",
+        "area": "EquipmentArea.HandsCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedYakuzaTattooRare",
+        "area": "EquipmentArea.HandsCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedYakuzaTattooRarePlus",
+        "area": "EquipmentArea.HandsCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedYakuzaTattooEpic",
+        "area": "EquipmentArea.HandsCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedYakuzaTattooEpicPlus",
+        "area": "EquipmentArea.HandsCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedYakuzaTattooLegendary",
+        "area": "EquipmentArea.HandsCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedYakuzaTattooLegendaryPlus",
+        "area": "EquipmentArea.HandsCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedYakuzaTattooLegendaryPlusPlus",
+        "area": "EquipmentArea.HandsCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      }
+    ],
+    "TitaniumBones": [
+      {
+        "id": "Items.TitaniumInfusedBonesCommon",
+        "area": "EquipmentArea.MusculoskeletalSystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.TitaniumInfusedBonesUncommon",
+        "area": "EquipmentArea.MusculoskeletalSystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.TitaniumInfusedBonesRare",
+        "area": "EquipmentArea.MusculoskeletalSystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedTitaniumInfusedBonesCommon",
+        "area": "EquipmentArea.MusculoskeletalSystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 180261958180
+      },
+      {
+        "id": "Items.AdvancedTitaniumInfusedBonesCommonPlus",
+        "area": "EquipmentArea.MusculoskeletalSystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 195673396803
+      },
+      {
+        "id": "Items.AdvancedTitaniumInfusedBonesUncommon",
+        "area": "EquipmentArea.MusculoskeletalSystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 185922612573
+      },
+      {
+        "id": "Items.AdvancedTitaniumInfusedBonesUncommonPlus",
+        "area": "EquipmentArea.MusculoskeletalSystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 206014209057
+      },
+      {
+        "id": "Items.AdvancedTitaniumInfusedBonesRare",
+        "area": "EquipmentArea.MusculoskeletalSystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 169911475159
+      },
+      {
+        "id": "Items.AdvancedTitaniumInfusedBonesRarePlus",
+        "area": "EquipmentArea.MusculoskeletalSystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 186931960455
+      },
+      {
+        "id": "Items.AdvancedTitaniumInfusedBonesEpic",
+        "area": "EquipmentArea.MusculoskeletalSystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 171594206120
+      },
+      {
+        "id": "Items.AdvancedTitaniumInfusedBonesEpicPlus",
+        "area": "EquipmentArea.MusculoskeletalSystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 185978810275
+      },
+      {
+        "id": "Items.AdvancedTitaniumInfusedBonesLegendary",
+        "area": "EquipmentArea.MusculoskeletalSystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 189439444180
+      },
+      {
+        "id": "Items.AdvancedTitaniumInfusedBonesLegendaryPlus",
+        "area": "EquipmentArea.MusculoskeletalSystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 206465263695
+      },
+      {
+        "id": "Items.AdvancedTitaniumInfusedBonesLegendaryPlusPlus",
+        "area": "EquipmentArea.MusculoskeletalSystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 225590903736
+      }
+    ],
+    "Chitin": [
+      {
+        "id": "Items.IconicAdvancedChitonCommon",
+        "area": "EquipmentArea.IntegumentarySystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.IconicAdvancedChitonCommonPlus",
+        "area": "EquipmentArea.IntegumentarySystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.IconicAdvancedChitonUncommon",
+        "area": "EquipmentArea.IntegumentarySystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.IconicAdvancedChitonUncommonPlus",
+        "area": "EquipmentArea.IntegumentarySystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.IconicAdvancedChitonRare",
+        "area": "EquipmentArea.IntegumentarySystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.IconicAdvancedChitonRarePlus",
+        "area": "EquipmentArea.IntegumentarySystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.IconicAdvancedChitonEpic",
+        "area": "EquipmentArea.IntegumentarySystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.IconicAdvancedChitonEpicPlus",
+        "area": "EquipmentArea.IntegumentarySystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.IconicAdvancedChitonLegendary",
+        "area": "EquipmentArea.IntegumentarySystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.IconicAdvancedChitonLegendaryPlus",
+        "area": "EquipmentArea.IntegumentarySystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.IconicAdvancedChitonLegendaryPlusPlus",
+        "area": "EquipmentArea.IntegumentarySystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      }
+    ],
+    "SubdermalArmor": [
+      {
+        "id": "Items.AdvancedBoringPlatingCommon",
+        "area": "EquipmentArea.IntegumentarySystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedBoringPlatingCommonPlus",
+        "area": "EquipmentArea.IntegumentarySystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedBoringPlatingUncommon",
+        "area": "EquipmentArea.IntegumentarySystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedBoringPlatingUncommonPlus",
+        "area": "EquipmentArea.IntegumentarySystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedBoringPlatingRare",
+        "area": "EquipmentArea.IntegumentarySystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedBoringPlatingRarePlus",
+        "area": "EquipmentArea.IntegumentarySystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedBoringPlatingEpic",
+        "area": "EquipmentArea.IntegumentarySystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedBoringPlatingEpicPlus",
+        "area": "EquipmentArea.IntegumentarySystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedBoringPlatingLegendary",
+        "area": "EquipmentArea.IntegumentarySystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedBoringPlatingLegendaryPlus",
+        "area": "EquipmentArea.IntegumentarySystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedBoringPlatingLegendaryPlusPlus",
+        "area": "EquipmentArea.IntegumentarySystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      }
+    ],
+    "Carapace": [
+      {
+        "id": "Items.AdvancedWeirdTankyPlatingCommon",
+        "area": "EquipmentArea.IntegumentarySystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedWeirdTankyPlatingUncommon",
+        "area": "EquipmentArea.IntegumentarySystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedWeirdTankyPlatingUncommonPlus",
+        "area": "EquipmentArea.IntegumentarySystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedWeirdTankyPlatingRare",
+        "area": "EquipmentArea.IntegumentarySystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedWeirdTankyPlatingRarePlus",
+        "area": "EquipmentArea.IntegumentarySystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedWeirdTankyPlatingEpic",
+        "area": "EquipmentArea.IntegumentarySystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedWeirdTankyPlatingEpicPlus",
+        "area": "EquipmentArea.IntegumentarySystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedWeirdTankyPlatingLegendary",
+        "area": "EquipmentArea.IntegumentarySystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedWeirdTankyPlatingLegendaryPlus",
+        "area": "EquipmentArea.IntegumentarySystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedWeirdTankyPlatingLegendaryPlusPlus",
+        "area": "EquipmentArea.IntegumentarySystemCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      }
+    ],
+    "BasicKiroshi": [
+      {
+        "id": "Items.AdvancedKiroshiOpticsBareCommon",
+        "area": "EquipmentArea.EyesCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedKiroshiOpticsBareCommonPlus",
+        "area": "EquipmentArea.EyesCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedKiroshiOpticsBareUncommon",
+        "area": "EquipmentArea.EyesCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedKiroshiOpticsBareUncommonPlus",
+        "area": "EquipmentArea.EyesCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedKiroshiOpticsBareRare",
+        "area": "EquipmentArea.EyesCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedKiroshiOpticsBareRarePlus",
+        "area": "EquipmentArea.EyesCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedKiroshiOpticsBareEpic",
+        "area": "EquipmentArea.EyesCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedKiroshiOpticsBareEpicPlus",
+        "area": "EquipmentArea.EyesCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedKiroshiOpticsBareLegendary",
+        "area": "EquipmentArea.EyesCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedKiroshiOpticsBareLegendaryPlus",
+        "area": "EquipmentArea.EyesCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      },
+      {
+        "id": "Items.AdvancedKiroshiOpticsBareLegendaryPlusPlus",
+        "area": "EquipmentArea.EyesCW",
+        "source": "tweakdb_ep1.bin",
+        "sideUpgrade": 0
+      }
+    ]
+  },
+  "slots": {
+    "ArmsCW": [
+      {
+        "slot": 127509422717,
+        "onInsertion": []
+      }
+    ],
+    "ArmsCWStyle": [
+      {
+        "slot": 127509422717,
+        "onInsertion": []
+      }
+    ],
+    "HandsCW": [
+      {
+        "slot": 127509422717,
+        "onInsertion": []
+      },
+      {
+        "slot": 127600999319,
+        "onInsertion": []
+      }
+    ],
+    "EyesCW": [
+      {
+        "slot": 127509422717,
+        "onInsertion": []
+      },
+      {
+        "slot": 123490223430,
+        "onInsertion": []
+      }
+    ],
+    "MusculoskeletalSystemCW": [
+      {
+        "slot": 197133779525,
+        "onInsertion": []
+      },
+      {
+        "slot": 195406304255,
+        "onInsertion": []
+      },
+      {
+        "slot": 193532880752,
+        "onInsertion": []
+      }
+    ],
+    "IntegumentarySystemCW": [
+      {
+        "slot": 127509422717,
+        "onInsertion": []
+      },
+      {
+        "slot": 127509422717,
+        "onInsertion": []
+      },
+      {
+        "slot": 127509422717,
+        "onInsertion": []
+      }
+    ],
+    "FrontalCortexCW": [
+      {
+        "slot": 127509422717,
+        "onInsertion": []
+      },
+      {
+        "slot": 127509422717,
+        "onInsertion": []
+      },
+      {
+        "slot": 127509422717,
+        "onInsertion": []
+      }
+    ],
+    "SystemReplacementCW": [
+      {
+        "slot": 127509422717,
+        "onInsertion": []
+      }
+    ],
+    "NervousSystemCW": [
+      {
+        "slot": 127509422717,
+        "onInsertion": []
+      },
+      {
+        "slot": 127509422717,
+        "onInsertion": []
+      },
+      {
+        "slot": 127509422717,
+        "onInsertion": []
+      }
+    ],
+    "CardiovascularSystemCW": [
+      {
+        "slot": 127509422717,
+        "onInsertion": []
+      },
+      {
+        "slot": 127509422717,
+        "onInsertion": []
+      },
+      {
+        "slot": 127509422717,
+        "onInsertion": []
+      }
+    ],
+    "LegsCW": [
+      {
+        "slot": 127509422717,
+        "onInsertion": []
+      }
+    ],
+    "PersonalLink": [
+      {
+        "slot": 127509422717,
+        "onInsertion": []
+      }
+    ]
+  }
+}

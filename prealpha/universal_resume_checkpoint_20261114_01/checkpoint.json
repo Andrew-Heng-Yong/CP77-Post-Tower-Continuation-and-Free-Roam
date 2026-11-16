@@ -1,0 +1,23 @@
+{
+  "step": 2,
+  "status": "WORKSPACE_CHECKPOINT_VERIFIED_LIVE_AND_SUPPORT_READERS_PENDING",
+  "installed_core": "RD10_MEET_KIRK_CONTENT_LOCK",
+  "installed_manifest_sha256": "AB279745469DEE08EC9A816EE9F04C9F9750456DE26A9C6CC8940E15FAFE56D8",
+  "candidate": "candidate_02/receipt.json",
+  "candidate_sha256": "3D908EA14BB18926418F07BF64780C7533C0ED91080AD1AEE7411B8804BA0EE6",
+  "checks": "checks_02/results.json",
+  "checks_sha256": "F93003D52A684A0499B9FA84FE0507FB2F780965C65508AD62F7F8D0B248D6D9",
+  "compile": "compile_05/receipt.json",
+  "compile_sha256": "57ACB18D6DD788E9753CAA42C1440357F1C7FE41693D732B34EA549843A93A29",
+  "native_build": "build_04/build.json",
+  "native_build_sha256": "70796B77FF8927556A665B3D9404933B077252B7160A50102488A9A013E048BC",
+  "report": "REPORT.md",
+  "native_fixture_checks": 41,
+  "executable_checks": 46,
+  "lua_fixture_checks": 12,
+  "compiled_sources": 148,
+  "installed_files_verified": 77,
+  "live_verified": false,
+  "game_writes": 0,
+  "save_writes": 0
+}

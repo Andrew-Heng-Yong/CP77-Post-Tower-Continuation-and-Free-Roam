@@ -1,0 +1,19 @@
+{
+  "status": "INSTALLED_VERIFIED",
+  "candidate": "candidate_02",
+  "candidate_manifest_sha256": "47B8C82C5B736A00D850267849FD25D56E98141BE2E88A421E63796D4BF93362",
+  "assessment": "assessment_02.json",
+  "assessment_sha256": "4301C758BFF407D3C2B97893CDA8DA64A57FAD3E9637540B3C731FFF2F625ECB",
+  "core_transaction": "core_manifest_01.json",
+  "core_transaction_sha256": "7F9A8A637CDC64E91BCE4E7EC794523CD1DF7CE4CD175324EC0437B56398998A",
+  "readiness_sha256": "7F6EBC09FEA82BC689439A36D08A41A54D209A4872CFEA9130A2586160384FC2",
+  "preflight": "deployment_01/preflight_02.json",
+  "observed_save_files": 361,
+  "game_writes": 2,
+  "save_writes": 0,
+  "gameplay": "Arms candidate unverified; blackout cause unresolved; Machine Gun reported working and mq007_done recorded.",
+  "next": "User: focused TEST_CARD.md. Await visible arms and fast-travel observation; do not repeat Machine Gun. File rollback ready; no game launch.",
+  "installed_manifest": "deployment_01/installed_manifest_01.json",
+  "installed_manifest_sha256": "D1EFF6EA9B2A98FE1C92C90576D8DCA1BF9A6E371818C68E046966FC90F95A4E",
+  "save_files_preserved": 361
+}

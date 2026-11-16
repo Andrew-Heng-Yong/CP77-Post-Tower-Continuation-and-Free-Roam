@@ -1,0 +1,7 @@
+# Meet Kirk stalled before journal activation
+
+The user reported that the quest was missing from the active journal. The 20:16 and 20:20 Toronto logs record the global snapshot loading, followed by Kirk's native end-call counter moving from 1 to 2. ArchiveXL merged the existing Kirk entry and phone listener in both loads. The 20:18:29 AutoSave-8 records ResumeClaimed, ResumePhoneReleased and the phone listener's Issued receipt. Small Man, Big Mouth and Meet Kirk are still Failed, and the quest's Issued and Entered receipts are absent. [Saved facts and journal](saved_stage_and_handlers_02.json)
+
+The saved handler at phase path `1/40866/61002`, node 61013, identifies the exact wait after the phone handoff. That node requires more than 50 m from the authored bar marker and the native MinorQuestAndSts content token. The game saved V about 62.9 m from the marker. Its worldEntityNode placement has a 10 m streaming distance. The distance threshold was met in world coordinates, but the wait depended on resolving the streamed marker. The save projection does not expose the live result of either operand. [Native anchor, sector and block providers](bar_anchor.json)
+
+The proposed fix measures from the same authored position without requiring the marker entity and retains the content token, the Pacifica restriction on the standalone branch, and existing node identities. A new playtest is needed to verify the content gate and the bar-to-completion route. The two inspected save files were opened read-only.

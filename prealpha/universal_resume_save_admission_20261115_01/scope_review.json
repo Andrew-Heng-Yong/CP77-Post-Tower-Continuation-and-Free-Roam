@@ -1,0 +1,9 @@
+{
+  "scope": "Install checkpoint v0.1.6 native save admission.",
+  "changed_paths": [
+    "red4ext/plugins/PTFR_ExecutionCheckpoint/PTFR_ExecutionCheckpoint.dll"
+  ],
+  "candidate_sha256": "24A16F4AA09E00D763949DFC1DFFFC5EAE810917D2F9F79E768AD84FF957E0E1",
+  "predecessor_installed_manifest_sha256": "309183BBB02B5F6A954AB31D6F71B2C9461D29F795193A29F465C1A194F98B2D",
+  "gameplay": "PENDING_MS26_SAVE_ADMISSION_SMOKE_TEST"
+}

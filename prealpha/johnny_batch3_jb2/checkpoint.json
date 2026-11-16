@@ -1,0 +1,23 @@
+{
+  "status": "JB2_BATCH3_BUILT_PREFLIGHT_READY_AWAITING_INSTALL_AUTHORIZATION",
+  "date": "2026-11-09",
+  "candidate": "candidate_02",
+  "predecessor_installed": "JB1",
+  "selection": "../johnny_video_review_20261108_02/review_01/selection_02.json",
+  "scope_policy": "../../docs/whitelist_prophets_song_20261109.md",
+  "package": "JB2_Core51_02.zip",
+  "package_sha256": "9A0311965CB206673165E067A31D7BB28C59F90EE865A411E469685ECAAA4FDB",
+  "archive_sha256": "AAC96111EF0D6ED2DA80DB0A5FF87482131C59993CCA863F9C5F4FD9D77DC37B",
+  "transaction_sha256": "6F56198224824B69F5073CC95A7D7708A9F08262707C48C61CE6A61593F9F1F4",
+  "speech_removed": { "Johnny": 46, "V": 24 },
+  "direct_johnny_voiceset_dispatches_removed": 2,
+  "native_options_explicitly_removed": 2,
+  "archive_payloads": 1603,
+  "readback": "verification_02.json",
+  "readiness": "readiness.json",
+  "preflight": "preflight_02.json",
+  "test_card": "TEST_CARD.md",
+  "gameplay_status": "PENDING_GENUINE_PRE_SCENE_FIXTURES",
+  "game_writes": 0,
+  "save_writes": 0
+}

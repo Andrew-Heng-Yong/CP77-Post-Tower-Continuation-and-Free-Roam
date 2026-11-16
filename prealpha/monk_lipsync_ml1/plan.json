@@ -1,0 +1,510 @@
+{
+  "epoch": "ML1",
+  "baseline": "JB3",
+  "installed_manifest": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\johnny_batch4_jb3\\deployment_01\\installed_manifest_01.json",
+  "installed_manifest_sha256": "DB5E4119003F7E1BFDD6C1AB91AE9D186EB20380AFC69D61F1A889964EACC596",
+  "archive_sha256": "7DD985EA55A7879C0DBA372891F2ABC6D6DB47C99BE46171C8EAE058FD2DAC46",
+  "capture": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\monk_lipsync_ml1\\capture_01\\providers.json",
+  "capture_sha256": "1F6B19F56F1232154BB8F98A4FBE17B8E2854B85DAC0C08328225AF8A2C5FFE9",
+  "voice_over": "en-us",
+  "english_configs": [
+    {
+      "config": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\mod\\LizziesBDs.archive.xl",
+      "sha256": "A0706E6600F4F0F420FC5815FEE915A5CC0A3218E06211529101DA9E46304E2F",
+      "depot": "mod\\arman3_lizzies_bds\\localization\\en-us.lipmap"
+    },
+    {
+      "config": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\mod\\zzzz_PTFR_Combined.archive.xl",
+      "sha256": "510C49490C4B068F6CF0562AD8505D1276AE4B167F855B7730D583250ADA3056",
+      "depot": "towercontinued\\sidejob_repair_sr1\\en-us.lipmap"
+    }
+  ],
+  "existing_map": {
+    "depot": "towercontinued\\sidejob_repair_sr1\\en-us.lipmap",
+    "key": "12281676942416585719",
+    "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\mod\\zzzz_PTFR_Combined.archive",
+    "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\monk_lipsync_ml1\\capture_01\\raw\\134\\12281676942416585719.lipmap",
+    "sha256": "45436C276B1A72D62F5ED2D79DB9A61416D38D39D5CD706D84DF0BD51AAD3E1D",
+    "json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\monk_lipsync_ml1\\capture_01\\raw\\134\\12281676942416585719.lipmap.json",
+    "json_sha256": "EE3F5A19015C2EC91316C8C0F869D86184298412EDBD43C724E1ABAF36B825FD"
+  },
+  "native_map": {
+    "depot": "base\\localization\\en-us.lipmap",
+    "key": "7502921276676023990",
+    "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\lang_en_voice.archive",
+    "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\monk_lipsync_ml1\\capture_01\\raw\\16\\7502921276676023990.lipmap",
+    "sha256": "40DAD677DB995CDD22416A3E718717FD916559165EBF0BBB6A281B93EE07C89D",
+    "json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\monk_lipsync_ml1\\capture_01\\raw\\16\\7502921276676023990.lipmap.json",
+    "json_sha256": "CDAC0BAE231298AA323B0EBD8C3FAABAC793233C97C772778930E26518E1236F"
+  },
+  "additions": [
+    {
+      "native": {
+        "depot": "base\\quest\\minor_quests\\mq032\\scenes\\mq032_01_hook.scene",
+        "key": "15525964710767733240",
+        "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_4_gamedata.archive",
+        "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\monk_lipsync_ml1\\capture_01\\raw\\10\\15525964710767733240.scene",
+        "sha256": "BC080E620BC70FAB39AE306A3CC12B78367880044990EC6FE166929CAEAA6FF7",
+        "json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\monk_lipsync_ml1\\capture_01\\raw\\10\\15525964710767733240.scene.json",
+        "json_sha256": "8919B316083345A34B7BB0180682F97481CB64A9DC049CA3C3954BB0E1E83574"
+      },
+      "private": {
+        "depot": "towercontinued\\johnny_batch3\\mq032\\mq032_01_hook.scene",
+        "key": "16255777967962415059",
+        "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\mod\\zzzz_PTFR_Combined.archive",
+        "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\monk_lipsync_ml1\\capture_01\\raw\\134\\16255777967962415059.scene",
+        "sha256": "4AD7017DDCAE7B72C1995555992003C326EF2D378355B2E9537DB0436C65548C",
+        "json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\monk_lipsync_ml1\\capture_01\\raw\\134\\16255777967962415059.scene.json",
+        "json_sha256": "543516CC6F6E6CF868905D9108C6F757C0BBCC9DFF20CC8925F4D0BBC78AB771"
+      },
+      "native_map_index": 2984,
+      "donor": {
+        "$type": "animLipsyncMappingSceneEntry",
+        "actorVoiceTags": [
+          "1103967280742240864",
+          "1624173162010259604",
+          "1103967280742240508"
+        ],
+        "animSets": [
+          {
+            "DepotPath": {
+              "$type": "ResourcePath",
+              "$storage": "string",
+              "$value": "base\\localization\\en-us\\lipsync\\base\\quest\\minor_quests\\mq032\\scenes\\mq032_01_hook\\v.anims"
+            },
+            "Flags": "Soft"
+          },
+          {
+            "DepotPath": {
+              "$type": "ResourcePath",
+              "$storage": "string",
+              "$value": "base\\localization\\en-us\\lipsync\\base\\quest\\minor_quests\\mq032\\scenes\\mq032_01_hook\\civ_high_m_22_jap_30.anims"
+            },
+            "Flags": "Soft"
+          },
+          {
+            "DepotPath": {
+              "$type": "ResourcePath",
+              "$storage": "string",
+              "$value": "base\\localization\\en-us\\lipsync\\base\\quest\\minor_quests\\mq032\\scenes\\mq032_01_hook\\johnny.anims"
+            },
+            "Flags": "Soft"
+          }
+        ]
+      },
+      "monk_actor_name": "Cyberware_Monk",
+      "monk_voice_tag": "1624173162010259604",
+      "monk_anim_set": "base\\localization\\en-us\\lipsync\\base\\quest\\minor_quests\\mq032\\scenes\\mq032_01_hook\\civ_high_m_22_jap_30.anims",
+      "donor_asset_depots": [
+        "base\\localization\\en-us\\lipsync\\base\\quest\\minor_quests\\mq032\\scenes\\mq032_01_hook\\v.anims",
+        "base\\localization\\en-us\\lipsync\\base\\quest\\minor_quests\\mq032\\scenes\\mq032_01_hook\\civ_high_m_22_jap_30.anims",
+        "base\\localization\\en-us\\lipsync\\base\\quest\\minor_quests\\mq032\\scenes\\mq032_01_hook\\johnny.anims"
+      ],
+      "retained_monologue_lines": [
+        {
+          "line": 1,
+          "locstring": "1770666438831390720",
+          "male_clip": "m_1892ABBEA6404000",
+          "female_clip": "f_1892ABBEA6404000"
+        },
+        {
+          "line": 257,
+          "locstring": "1834265666479964160",
+          "male_clip": "m_19749EE7C23BC000",
+          "female_clip": "f_19749EE7C23BC000"
+        },
+        {
+          "line": 513,
+          "locstring": "1834265790379704320",
+          "male_clip": "m_19749F049B3BC000",
+          "female_clip": "f_19749F049B3BC000"
+        },
+        {
+          "line": 769,
+          "locstring": "1834265978401964032",
+          "male_clip": "m_19749F30623BC000",
+          "female_clip": "f_19749F30623BC000"
+        },
+        {
+          "line": 1025,
+          "locstring": "1770667555170566144",
+          "male_clip": "m_1892ACC291404000",
+          "female_clip": "f_1892ACC291404000"
+        },
+        {
+          "line": 1537,
+          "locstring": "1770671627369988096",
+          "male_clip": "m_1892B076B3404000",
+          "female_clip": "f_1892B076B3404000"
+        },
+        {
+          "line": 1793,
+          "locstring": "1770672013094961152",
+          "male_clip": "m_1892B0D082404000",
+          "female_clip": "f_1892B0D082404000"
+        },
+        {
+          "line": 2049,
+          "locstring": "1853384054875602944",
+          "male_clip": "m_19B88AFA6F3BC000",
+          "female_clip": "f_19B88AFA6F3BC000"
+        },
+        {
+          "line": 2561,
+          "locstring": "1825577848811536384",
+          "male_clip": "m_1955C161943BC000",
+          "female_clip": "f_1955C161943BC000"
+        },
+        {
+          "line": 2817,
+          "locstring": "1825583795730628608",
+          "male_clip": "m_1955C6CA343BC000",
+          "female_clip": "f_1955C6CA343BC000"
+        },
+        {
+          "line": 3073,
+          "locstring": "1825586100299350016",
+          "male_clip": "m_1955C8E2C73BC000",
+          "female_clip": "f_1955C8E2C73BC000"
+        },
+        {
+          "line": 3841,
+          "locstring": "1770675018582212608",
+          "male_clip": "m_1892B38C47404000",
+          "female_clip": "f_1892B38C47404000"
+        },
+        {
+          "line": 4097,
+          "locstring": "1825598467171139584",
+          "male_clip": "m_1955D4222A3BC000",
+          "female_clip": "f_1955D4222A3BC000"
+        },
+        {
+          "line": 4353,
+          "locstring": "1825598633181691904",
+          "male_clip": "m_1955D448D13BC000",
+          "female_clip": "f_1955D448D13BC000"
+        },
+        {
+          "line": 4865,
+          "locstring": "1770677021580476416",
+          "male_clip": "m_1892B55EA3404000",
+          "female_clip": "f_1892B55EA3404000"
+        },
+        {
+          "line": 5121,
+          "locstring": "1770677541992939520",
+          "male_clip": "m_1892B5D7CE404000",
+          "female_clip": "f_1892B5D7CE404000"
+        },
+        {
+          "line": 5633,
+          "locstring": "1770680238930411520",
+          "male_clip": "m_1892B84BBC404000",
+          "female_clip": "f_1892B84BBC404000"
+        },
+        {
+          "line": 5889,
+          "locstring": "1825702311242743808",
+          "male_clip": "m_195632943F3BC000",
+          "female_clip": "f_195632943F3BC000"
+        },
+        {
+          "line": 6145,
+          "locstring": "1834400540180332544",
+          "male_clip": "m_197519927D3BC000",
+          "female_clip": "f_197519927D3BC000"
+        },
+        {
+          "line": 6913,
+          "locstring": "1915385687633018880",
+          "male_clip": "m_1A94D1227F3BC000",
+          "female_clip": "f_1A94D1227F3BC000"
+        },
+        {
+          "line": 7425,
+          "locstring": "1770682883053207552",
+          "male_clip": "m_1892BAB35E404000",
+          "female_clip": "f_1892BAB35E404000"
+        },
+        {
+          "line": 7681,
+          "locstring": "1770683984225779712",
+          "male_clip": "m_1892BBB3C1404000",
+          "female_clip": "f_1892BBB3C1404000"
+        },
+        {
+          "line": 8449,
+          "locstring": "1834331203838918656",
+          "male_clip": "m_1974DA82DD3BC000",
+          "female_clip": "f_1974DA82DD3BC000"
+        },
+        {
+          "line": 8705,
+          "locstring": "1834332123364573184",
+          "male_clip": "m_1974DB58F53BC000",
+          "female_clip": "f_1974DB58F53BC000"
+        },
+        {
+          "line": 9217,
+          "locstring": "1834332358665027584",
+          "male_clip": "m_1974DB8FBE3BC000",
+          "female_clip": "f_1974DB8FBE3BC000"
+        },
+        {
+          "line": 9473,
+          "locstring": "1837457554338988032",
+          "male_clip": "m_197FF5E9103BC000",
+          "female_clip": "f_197FF5E9103BC000"
+        },
+        {
+          "line": 10241,
+          "locstring": "1915396797471899648",
+          "male_clip": "m_1A94DB3D353BC000",
+          "female_clip": "f_1A94DB3D353BC000"
+        }
+      ],
+      "caller_sites": [
+        {
+          "caller": "towercontinued\\johnny_batch3\\mq032\\mq032_01_hook.questphase",
+          "caller_sha256": "8D1A27008706359A7A8E61A312FA8F6144C0F6E4965CD5F79E580E47E5A05A61",
+          "caller_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\diagnostics\\quest_animation_parity_20261110_01\\pass_01\\raw\\134\\18051652174258829008.questphase.json",
+          "node": 3,
+          "scene": "towercontinued\\johnny_batch3\\mq032\\mq032_01_hook.scene",
+          "inputs": [
+            "mq032_01_hook_in"
+          ],
+          "outputs": [
+            "mq032_01_hook_out",
+            "Cleanup"
+          ]
+        }
+      ]
+    },
+    {
+      "native": {
+        "depot": "base\\quest\\minor_quests\\mq032\\scenes\\mq032_03_epilogue.scene",
+        "key": "4675773582296646409",
+        "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\content\\basegame_4_gamedata.archive",
+        "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\monk_lipsync_ml1\\capture_01\\raw\\10\\4675773582296646409.scene",
+        "sha256": "AA4873FE24498E72F87DC29E6735C1335546A57BDD87742E3A6838E1DB661BF5",
+        "json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\monk_lipsync_ml1\\capture_01\\raw\\10\\4675773582296646409.scene.json",
+        "json_sha256": "A8EA9FA0C9A79EEDC9B7CA9EC4BBB5C8F71F69B83BE2A3C154DF5323C7271C41"
+      },
+      "private": {
+        "depot": "towercontinued\\johnny_batch3\\mq032\\mq032_03_epilogue.scene",
+        "key": "11118091249325218262",
+        "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\archive\\pc\\mod\\zzzz_PTFR_Combined.archive",
+        "raw": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\monk_lipsync_ml1\\capture_01\\raw\\134\\11118091249325218262.scene",
+        "sha256": "D0446694D6E23DCF7B0AEE42E1557FE5E3C722BF928FD2B01B2AF42B46122614",
+        "json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\monk_lipsync_ml1\\capture_01\\raw\\134\\11118091249325218262.scene.json",
+        "json_sha256": "64531F503EBFFE857E951ACB82ABF8E882B070368226E25F83E4F46A5373DB6B"
+      },
+      "native_map_index": 903,
+      "donor": {
+        "$type": "animLipsyncMappingSceneEntry",
+        "actorVoiceTags": [
+          "1624173162010259604",
+          "1624173162010259592",
+          "1103967280742240508"
+        ],
+        "animSets": [
+          {
+            "DepotPath": {
+              "$type": "ResourcePath",
+              "$storage": "string",
+              "$value": "base\\localization\\en-us\\lipsync\\base\\quest\\minor_quests\\mq032\\scenes\\mq032_03_epilogue\\civ_high_m_22_jap_30.anims"
+            },
+            "Flags": "Soft"
+          },
+          {
+            "DepotPath": {
+              "$type": "ResourcePath",
+              "$storage": "string",
+              "$value": "base\\localization\\en-us\\lipsync\\base\\quest\\minor_quests\\mq032\\scenes\\mq032_03_epilogue\\civ_high_m_19_jap_30.anims"
+            },
+            "Flags": "Soft"
+          },
+          {
+            "DepotPath": {
+              "$type": "ResourcePath",
+              "$storage": "string",
+              "$value": "base\\localization\\en-us\\lipsync\\base\\quest\\minor_quests\\mq032\\scenes\\mq032_03_epilogue\\johnny.anims"
+            },
+            "Flags": "Soft"
+          }
+        ]
+      },
+      "monk_actor_name": "Monk_Cyberware",
+      "monk_voice_tag": "1624173162010259604",
+      "monk_anim_set": "base\\localization\\en-us\\lipsync\\base\\quest\\minor_quests\\mq032\\scenes\\mq032_03_epilogue\\civ_high_m_22_jap_30.anims",
+      "donor_asset_depots": [
+        "base\\localization\\en-us\\lipsync\\base\\quest\\minor_quests\\mq032\\scenes\\mq032_03_epilogue\\civ_high_m_22_jap_30.anims",
+        "base\\localization\\en-us\\lipsync\\base\\quest\\minor_quests\\mq032\\scenes\\mq032_03_epilogue\\civ_high_m_19_jap_30.anims",
+        "base\\localization\\en-us\\lipsync\\base\\quest\\minor_quests\\mq032\\scenes\\mq032_03_epilogue\\johnny.anims"
+      ],
+      "retained_monologue_lines": [
+        {
+          "line": 1,
+          "locstring": "1772050242984755200",
+          "male_clip": "m_1897964EA9404000",
+          "female_clip": "f_1897964EA9404000"
+        },
+        {
+          "line": 513,
+          "locstring": "1772054096392503296",
+          "male_clip": "m_189799CFDA404000",
+          "female_clip": "f_189799CFDA404000"
+        },
+        {
+          "line": 769,
+          "locstring": "1827056689081991168",
+          "male_clip": "m_195B0260E93BC000",
+          "female_clip": "f_195B0260E93BC000"
+        },
+        {
+          "line": 1281,
+          "locstring": "1772056140461391872",
+          "male_clip": "m_18979BABC6404000",
+          "female_clip": "f_18979BABC6404000"
+        },
+        {
+          "line": 1537,
+          "locstring": "1772144772144709632",
+          "male_clip": "m_1897EC47F2404000",
+          "female_clip": "f_1897EC47F2404000"
+        },
+        {
+          "line": 2049,
+          "locstring": "1834588812252790784",
+          "male_clip": "m_1975C4CDFF3BC000",
+          "female_clip": "f_1975C4CDFF3BC000"
+        },
+        {
+          "line": 2561,
+          "locstring": "1834588230267944960",
+          "male_clip": "m_1975C4467E3BC000",
+          "female_clip": "f_1975C4467E3BC000"
+        },
+        {
+          "line": 2817,
+          "locstring": "1772146884077436928",
+          "male_clip": "m_1897EE33AB404000",
+          "female_clip": "f_1897EE33AB404000"
+        },
+        {
+          "line": 3073,
+          "locstring": "1827148930920202240",
+          "male_clip": "m_195B5645A33BC000",
+          "female_clip": "f_195B5645A33BC000"
+        },
+        {
+          "line": 3329,
+          "locstring": "1772152944746053632",
+          "male_clip": "m_1897F3B6C7404000",
+          "female_clip": "f_1897F3B6C7404000"
+        },
+        {
+          "line": 3841,
+          "locstring": "1772153718762913792",
+          "male_clip": "m_1897F46AFE404000",
+          "female_clip": "f_1897F46AFE404000"
+        },
+        {
+          "line": 4097,
+          "locstring": "1827191262419861504",
+          "male_clip": "m_195B7CC5B53BC000",
+          "female_clip": "f_195B7CC5B53BC000"
+        },
+        {
+          "line": 4865,
+          "locstring": "1772155144037744640",
+          "male_clip": "m_1897F5B6D7404000",
+          "female_clip": "f_1897F5B6D7404000"
+        },
+        {
+          "line": 5121,
+          "locstring": "1772158451095453696",
+          "male_clip": "m_1897F8B8D3404000",
+          "female_clip": "f_1897F8B8D3404000"
+        }
+      ],
+      "caller_sites": [
+        {
+          "caller": "towercontinued\\johnny_batch3\\mq032\\mq032_02_maelstrom.questphase",
+          "caller_sha256": "BF27C91F0D58EF0DFA9C7CAAB2F89C014F6ABCCC04185A00D609AB5A7C9E1BE6",
+          "caller_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\diagnostics\\quest_animation_parity_20261110_01\\pass_01\\raw\\134\\16842555230668073868.questphase.json",
+          "node": 29,
+          "scene": "towercontinued\\johnny_batch3\\mq032\\mq032_03_epilogue.scene",
+          "inputs": [
+            "mq032_03_monk_cyberware_in"
+          ],
+          "outputs": []
+        },
+        {
+          "caller": "towercontinued\\johnny_batch3\\mq032\\mq032_02_maelstrom.questphase",
+          "caller_sha256": "BF27C91F0D58EF0DFA9C7CAAB2F89C014F6ABCCC04185A00D609AB5A7C9E1BE6",
+          "caller_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\diagnostics\\quest_animation_parity_20261110_01\\pass_01\\raw\\134\\16842555230668073868.questphase.json",
+          "node": 105,
+          "scene": "towercontinued\\johnny_batch3\\mq032\\mq032_03_epilogue.scene",
+          "inputs": [
+            "mq032_03_monk_cyberware_in"
+          ],
+          "outputs": []
+        },
+        {
+          "caller": "towercontinued\\johnny_batch3\\mq032\\mq032_03_epilogue.questphase",
+          "caller_sha256": "52DBA13D2462660F2A73ABEF1FF690D1F1AB145F5790BB2FBAABFF1780990552",
+          "caller_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\diagnostics\\quest_animation_parity_20261110_01\\pass_01\\raw\\134\\5508823520012649783.questphase.json",
+          "node": 9,
+          "scene": "towercontinued\\johnny_batch3\\mq032\\mq032_03_epilogue.scene",
+          "inputs": [
+            "mq032_03_dead_in"
+          ],
+          "outputs": [
+            "mq032_03_dead_out"
+          ]
+        },
+        {
+          "caller": "towercontinued\\johnny_batch3\\mq032\\mq032_03_epilogue.questphase",
+          "caller_sha256": "52DBA13D2462660F2A73ABEF1FF690D1F1AB145F5790BB2FBAABFF1780990552",
+          "caller_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\diagnostics\\quest_animation_parity_20261110_01\\pass_01\\raw\\134\\5508823520012649783.questphase.json",
+          "node": 13,
+          "scene": "towercontinued\\johnny_batch3\\mq032\\mq032_03_epilogue.scene",
+          "inputs": [
+            "mq032_03_fail_in"
+          ],
+          "outputs": [
+            "mq032_03_fail_out"
+          ]
+        },
+        {
+          "caller": "towercontinued\\johnny_batch3\\mq032\\mq032_03_epilogue.questphase",
+          "caller_sha256": "52DBA13D2462660F2A73ABEF1FF690D1F1AB145F5790BB2FBAABFF1780990552",
+          "caller_json": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\diagnostics\\quest_animation_parity_20261110_01\\pass_01\\raw\\134\\5508823520012649783.questphase.json",
+          "node": 15,
+          "scene": "towercontinued\\johnny_batch3\\mq032\\mq032_03_epilogue.scene",
+          "inputs": [
+            "mq032_03_success_in"
+          ],
+          "outputs": [
+            "mq032_03_success_out"
+          ]
+        }
+      ]
+    }
+  ],
+  "asset_depots": [
+    "base\\localization\\en-us\\lipsync\\base\\quest\\minor_quests\\mq032\\scenes\\mq032_01_hook\\civ_high_m_22_jap_30.anims",
+    "base\\localization\\en-us\\lipsync\\base\\quest\\minor_quests\\mq032\\scenes\\mq032_01_hook\\johnny.anims",
+    "base\\localization\\en-us\\lipsync\\base\\quest\\minor_quests\\mq032\\scenes\\mq032_01_hook\\v.anims",
+    "base\\localization\\en-us\\lipsync\\base\\quest\\minor_quests\\mq032\\scenes\\mq032_03_epilogue\\civ_high_m_19_jap_30.anims",
+    "base\\localization\\en-us\\lipsync\\base\\quest\\minor_quests\\mq032\\scenes\\mq032_03_epilogue\\civ_high_m_22_jap_30.anims",
+    "base\\localization\\en-us\\lipsync\\base\\quest\\minor_quests\\mq032\\scenes\\mq032_03_epilogue\\johnny.anims"
+  ],
+  "other_custom_maps": [
+    "mod\\arman3_lizzies_bds\\localization\\en-us.lipmap"
+  ],
+  "route_evidence": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\diagnostics\\quest_animation_parity_20261110_01\\scene_audit\\scene_route_results.json",
+  "route_evidence_sha256": "F7BF824D8F3BA49367633222C4B79866B0E6B0E866FCBFC5368D6E98E947C427"
+}

@@ -1,0 +1,3255 @@
+{
+  "status": "PASS_SD1_COOKED_PRESENTATION_AND_COMPLETION_CONTRACTS",
+  "plan_sha256": "CD06831B20B12C6E54AE1D7042DE5A4F2180C6F4D5E745185F3A25159D0B5877",
+  "cooked_sha256": "621D8F9B24EC0ECF4703251C9EFF6A0E13392DB1DBCF5190EE60152FE711B1ED",
+  "checks": 479,
+  "check_groups": {
+    "pins": 3,
+    "identity": 64,
+    "actor": 46,
+    "delta": 54,
+    "events": 7,
+    "speech": 1,
+    "timing": 1,
+    "phase": 120,
+    "fixture": 17,
+    "contract": 11,
+    "inventory": 3,
+    "compile": 152
+  },
+  "details": [
+    {
+      "group": "pins",
+      "name": "Exact two cooked resources and authoring plan",
+      "pass": true
+    },
+    {
+      "group": "pins",
+      "name": "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq036\\scenes\\mq036_scavengers.scene",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq036\\scenes\\mq036_scavengers.scene graph identities",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "Exact source actor is Johnny",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "Only three Johnny acquisition flags change in scene metadata",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "No independent prop or effect instance survives",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "All saved scene nodes and named entry/exit IDs retained",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "1 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "1 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "2 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "2 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "events",
+      "name": "3 removed events contain no dialogue",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "3 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "3 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "6 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "6 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "7 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "7 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "8 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "8 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "11 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "11 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "12 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "12 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "13 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "13 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "16 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "16 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "17 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "17 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "18 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "18 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "events",
+      "name": "21 removed events contain no dialogue",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "21 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "21 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "22 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "22 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "23 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "23 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "26 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "26 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "27 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "27 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "events",
+      "name": "28 removed events contain no dialogue",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "28 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "28 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "31 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "31 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "32 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "32 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "events",
+      "name": "33 removed events contain no dialogue",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "33 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "33 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "36 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "36 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "37 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "37 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "events",
+      "name": "38 removed events contain no dialogue",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "38 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "38 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "58 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "58 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "60 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "60 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "94 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "94 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "96 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "96 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "103 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "103 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "105 replaces missing-Johnny camera focus only",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "105 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "105 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "106 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "106 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "110 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "110 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "117 replaces missing-Johnny camera focus only",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "117 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "117 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "118 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "118 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "121 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "121 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "123 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "123 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "125 replaces missing-Johnny camera focus only",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "125 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "125 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "126 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "126 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "129 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "129 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "131 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "131 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "142 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "142 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "149 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "149 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "152 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "152 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "155 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "155 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "158 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "158 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "1048 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "1048 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "1055 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "1055 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "1071 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "1071 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "1073 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "1073 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "1090 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "1090 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "1112 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "1112 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "1115 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "1115 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "1117 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "1117 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "delta",
+      "name": "1127 exact complete cooked payload",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "1127 embedded quest socket schema",
+      "pass": true
+    },
+    {
+      "group": "events",
+      "name": "Exactly thirteen Johnny presentation events removed",
+      "pass": true
+    },
+    {
+      "group": "speech",
+      "name": "Every previously retained spoken event and time exact",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "1 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "1048 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "105 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "1055 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "1090 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "11 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "110 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "1112 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "1115 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "1117 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "1127 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "117 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "12 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "121 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "125 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "129 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "13 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "16 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "17 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "18 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "2 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "21 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "22 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "23 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "26 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "27 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "28 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "3 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "31 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "32 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "33 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "36 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "37 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "38 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "58 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "6 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "60 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "7 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "8 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "94 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "actor",
+      "name": "96 no reachable Johnny reference or command",
+      "pass": true
+    },
+    {
+      "group": "timing",
+      "name": "Wake/get-up and silent cut sections retain authored durations",
+      "pass": true
+    },
+    {
+      "group": "events",
+      "name": "Removed event IDs absent from serialized metadata",
+      "pass": true
+    },
+    {
+      "group": "pins",
+      "name": "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq036\\phases\\mq036_02_scavengers.questphase",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq036\\phases\\mq036_02_scavengers.questphase graph identities",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "Phase metadata, prefabs and embedded files retained",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "root saved nodes/entries",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root exact edge delta",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/0 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/1 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/3 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/7 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/8 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/9 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/14 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/24 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/31 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/33 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/40 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/45 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/46 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/48 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/49 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/50 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/51 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/53 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/54 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/56 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/58 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/59 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/60 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/61 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/62 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/63 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/64 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/66 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/67 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/68 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/69 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/70 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/71 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/72 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/77 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/78 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/82 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/84 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/85 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/86 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/87 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/99 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/117 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/35 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/38 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/83 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/95 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/141 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/148 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/168 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/170 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/139 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/173 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/176 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/177 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/197 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/204 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/206 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/207 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/208 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/215 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/217 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/219 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/220 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/221 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/222 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/223 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/224 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/226 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/230 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/231 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/232 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/233 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/234 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/175 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/245 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/171 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/172 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/269 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/227 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/270 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/216 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/289 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/290 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/297 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/300 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/304 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/305 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/308 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/338 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/343 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/111 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/346 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/347 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/351 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/352 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/353 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "root/40 saved nodes/entries",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/40 exact edge delta",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/40/0 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/40/1 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/40/9 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/40/14 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "root/64 saved nodes/entries",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/64 exact edge delta",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/64/0 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/64/2 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/64/3 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/64/4 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/64/7 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/64/8 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/64/9 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/64/10 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "root/223 saved nodes/entries",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/223 exact edge delta",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/223/536 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/223/537 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "identity",
+      "name": "root/224 saved nodes/entries",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/224 exact edge delta",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/224/1297 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/224/1298 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "root/224/1299 entire node contract",
+      "pass": true
+    },
+    {
+      "group": "phase",
+      "name": "Only auxiliary Johnny branch unreachable",
+      "pass": true
+    },
+    {
+      "group": "fixture",
+      "name": "waking_up_in delivers original named completion exits",
+      "pass": true
+    },
+    {
+      "group": "fixture",
+      "name": "waking_up_in gameplay precedes terminating cleanup by fifty ms",
+      "pass": true
+    },
+    {
+      "group": "fixture",
+      "name": "pc1_hack_in delivers original named completion exits",
+      "pass": true
+    },
+    {
+      "group": "fixture",
+      "name": "gear_loot_in delivers original named completion exits",
+      "pass": true
+    },
+    {
+      "group": "fixture",
+      "name": "pc2_hack_in delivers original named completion exits",
+      "pass": true
+    },
+    {
+      "group": "fixture",
+      "name": "sucker_in delivers original named completion exits",
+      "pass": true
+    },
+    {
+      "group": "fixture",
+      "name": "sucker_in gameplay precedes terminating cleanup by fifty ms",
+      "pass": true
+    },
+    {
+      "group": "fixture",
+      "name": "payback_in delivers original named completion exits",
+      "pass": true
+    },
+    {
+      "group": "fixture",
+      "name": "payback_in gameplay precedes terminating cleanup by fifty ms",
+      "pass": true
+    },
+    {
+      "group": "fixture",
+      "name": "scav_chat_1_in delivers original named completion exits",
+      "pass": true
+    },
+    {
+      "group": "fixture",
+      "name": "scav_chat_2_in delivers original named completion exits",
+      "pass": true
+    },
+    {
+      "group": "fixture",
+      "name": "elevator_in delivers original named completion exits",
+      "pass": true
+    },
+    {
+      "group": "fixture",
+      "name": "pc1_hack_in waits for player, never auto-loots or hacks",
+      "pass": true
+    },
+    {
+      "group": "fixture",
+      "name": "gear_loot_in waits for player, never auto-loots or hacks",
+      "pass": true
+    },
+    {
+      "group": "fixture",
+      "name": "pc2_hack_in waits for player, never auto-loots or hacks",
+      "pass": true
+    },
+    {
+      "group": "contract",
+      "name": "Native route ['33', 'Out', '176', 'Active']",
+      "pass": true
+    },
+    {
+      "group": "contract",
+      "name": "Native route ['176', 'Out', '168', 'elevator_in']",
+      "pass": true
+    },
+    {
+      "group": "contract",
+      "name": "Native route ['168', 'elevator_out', '35', 'In']",
+      "pass": true
+    },
+    {
+      "group": "contract",
+      "name": "Native route ['170', 'payback_johnny_out', '173', 'In2']",
+      "pass": true
+    },
+    {
+      "group": "contract",
+      "name": "Native route ['170', 'payback_out', '171', 'Succeeded']",
+      "pass": true
+    },
+    {
+      "group": "contract",
+      "name": "Native route ['171', 'Out', '172', 'Active']",
+      "pass": true
+    },
+    {
+      "group": "contract",
+      "name": "Native route ['172', 'Out', '204', 'In']",
+      "pass": true
+    },
+    {
+      "group": "contract",
+      "name": "Native route ['204', 'Out', '269', 'In']",
+      "pass": true
+    },
+    {
+      "group": "contract",
+      "name": "Native route ['269', 'Out', '173', 'In1']",
+      "pass": true
+    },
+    {
+      "group": "contract",
+      "name": "Player still must enter the elevator trigger",
+      "pass": true
+    },
+    {
+      "group": "contract",
+      "name": "Payback cleanup keeps native two-input AND",
+      "pass": true
+    },
+    {
+      "group": "fixture",
+      "name": "Payback AND waits for both original callbacks ('In1', 'In2')",
+      "pass": true
+    },
+    {
+      "group": "fixture",
+      "name": "Payback AND waits for both original callbacks ('In2', 'In1')",
+      "pass": true
+    },
+    {
+      "group": "inventory",
+      "name": "Exact full 1581 resource inventory",
+      "pass": true
+    },
+    {
+      "group": "inventory",
+      "name": "Only two private Sweet Dreams resources changed; KOLD exact",
+      "pass": true
+    },
+    {
+      "group": "inventory",
+      "name": "All fifty other package files exact",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "Complete inherited 148-source compile",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\ccxl_multicoloredhair.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\colioli\\npc_items_for_v_atelier_store-atelier-store.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\EquipmentEx\\EquipmentEx.Global.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\EquipmentEx\\EquipmentEx.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\FactFinder\\FactFinder.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\ImmersiveFirstPerson\\LookAt.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\ImmersiveFirstPerson\\References.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\Audio.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\ChoiceHubsActiveTweak.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\Classes.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\Compatibility\\DarkFuture.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\Compatibility\\NativeInteractionsFramework.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\Console.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\CreditsUIController.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\Data.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\ERUIController.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\LizziesBDsMain.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\Mappin.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\MenuUIController.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\NPCPuppet.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\OnlineFeatures.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\OnlyStaff.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\PlayerPuppet.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\Resources.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\Storage.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\LizziesBDs\\UI.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_ActivityStateR3.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_AfterlifeFacesR5.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_AfterlifeIdlesR3.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_AfterlifeInteractionsR8.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_AfterlifeNativeBootstrapA4.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_AfterlifeR1.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_B0AfterlifeMirror.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_B0Claire.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_B0CPZFood02.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_B0DeferredVendors.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_B0OrdinaryBars.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_B0OrdinaryVendors.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_B0SpecialServices.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_B0StoryEight.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_B0StoryServices.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_B0StoryZane.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_B0VendorShared.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_B0VendorVariants.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_GigsU10.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_Global.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_HistorySnapshotHS1.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_Housing.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_JohnnyVoiceJV1.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_JournalLabelJ1.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_LoadingCoverLC1.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_MistyViktorAuto.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_MistyViktorTerryR11.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_NCPDRepairN21.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_NCPDScannersN2.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_RestorationBaseline.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_RestrictionsR1.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_RestrictionsR2.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_RestrictionsR3.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_SideJobPilotS1.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_SideJobsS2.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_SideJobsS22.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_SideJobsS23.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_SideJobsS24.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_SideJobsS25.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_SideJobsS27.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_SideJobsS28.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_SideJobsS29.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_StreetkidAuto.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_TimeAuto.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_TowerJournalAuto.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\PTFR_Consolidated\\PTFR_ZetatechIdlesR12.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\Compat.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\Config.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\core\\AtelierActions.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\core\\AtelierTexts.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\core\\Classes.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\core\\Events.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\core\\Fields.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\core\\systems\\VirtualAtelierCartManager.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\core\\systems\\VirtualAtelierPreviewManager.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\core\\systems\\VirtualAtelierStoresSystem.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\core\\systems\\VirtualAtelierWeaponPreview.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\core\\VirtualCart.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\helpers\\ButtonHintsHelper.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\helpers\\CurrentPlayerZoneHelper.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\helpers\\InputHelper.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\helpers\\ItemsHelper.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\helpers\\NotificationTokensHelper.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\helpers\\WidgetsHelper.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\Logs.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\SetupNewSite.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\SetupNewTab.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\stores-list\\AtelierStoresCategoryTab.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\stores-list\\AtelierStoresDataView.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\stores-list\\AtelierStoresListController.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\stores-list\\AtelierStoresListItemController.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\stores-list\\ButtonHints.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\stores-list\\PlaceholderComponent.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\stores-list\\SearchEngineComponent.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\stores-list\\UnderConstructionComponent.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\TweakTooltips.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\vendor-preview\\EquipIndicators.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\vendor-preview\\FullscreenVendor.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\vendor-preview\\GarmentItemPreview.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\Version.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\virtual-store\\DuplicatesChecker.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\virtual-store\\HijackVendorController.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\virtual-store\\QuantityPickerVirtualPrice.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\virtual-store\\StateIndicators.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\virtual-store\\VirtualStoreController.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\virtual-store\\VirtualStoreDataView.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\virtual-store\\VirtualStoreHeaderController.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\virtual-store\\VirtualStoreItemController.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\virtual-store\\VirtualStoreTemplateClassifier.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\virtual-store-cart\\Style.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\virtual-store-cart\\VirtualAtelierControl.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\virtual-store-cart\\VirtualCartImageButton.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\scripts\\virtual-atelier-full\\virtual-store-cart\\VirtualCartTextButton.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\Codeware\\Scripts\\Codeware.Global.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\Codeware\\Scripts\\Codeware.Localization.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\Codeware\\Scripts\\Codeware.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\Codeware\\Scripts\\Codeware.UI.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\Codeware\\Scripts\\Codeware.UI.TextInput.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\ArchiveXL\\Scripts\\ArchiveXL.DynamicAppearance.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\ArchiveXL\\Scripts\\ArchiveXL.Global.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\ArchiveXL\\Scripts\\ArchiveXL.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\TweakXL\\Scripts\\TweakXL.Global.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\TweakXL\\Scripts\\TweakXL.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\mod_settings\\module.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\mod_settings\\packed.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\LizziesBDs\\Scripts\\LizziesBDs.Audio.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\LizziesBDs\\Scripts\\LizziesBDs.ChoiceHubsActiveTweak.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\LizziesBDs\\Scripts\\LizziesBDs.Classes.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\LizziesBDs\\Scripts\\LizziesBDs.Console.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\LizziesBDs\\Scripts\\LizziesBDs.CreditsUIController.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\LizziesBDs\\Scripts\\LizziesBDs.Data.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\LizziesBDs\\Scripts\\LizziesBDs.ERUIController.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\LizziesBDs\\Scripts\\LizziesBDs.LizziesBDsMain.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\LizziesBDs\\Scripts\\LizziesBDs.Mappin.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\LizziesBDs\\Scripts\\LizziesBDs.MenuUIController.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\LizziesBDs\\Scripts\\LizziesBDs.NPCPuppet.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\LizziesBDs\\Scripts\\LizziesBDs.OnlineFeatures.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\LizziesBDs\\Scripts\\LizziesBDs.PlayerPuppet.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\LizziesBDs\\Scripts\\LizziesBDs.Resources.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\LizziesBDs\\Scripts\\LizziesBDs.Storage.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\LizziesBDs\\Scripts\\LizziesBDs.UI.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\red4ext\\plugins\\LizziesBDs\\Scripts\\LizziesBDsLib.reds exact compiled bytes",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "Compiler/base cache retained C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\r6\\cache\\final.redscripts",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "Only normal sixteen-byte timestamp may refresh",
+      "pass": true
+    },
+    {
+      "group": "compile",
+      "name": "Compiler/base cache retained C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\engine\\tools\\scc.exe",
+      "pass": true
+    }
+  ],
+  "graph_deltas": {
+    "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq036\\scenes\\mq036_scavengers.scene": [
+      {
+        "kind": "NODE_PAYLOAD_CHANGED",
+        "graph": "scene",
+        "node": "1",
+        "native_sha256": "B0368ACAB530D603D3A728011D26DAD7F487ACC27CDC2794BA4039B7E9E69D39",
+        "restored_sha256": "00BC6DEDBD3FF4B484ADC301D82A13D33C470124432064E369141DB2914034DD",
+        "condition_changed": false,
+        "reward_changed": false
+      },
+      {
+        "kind": "NODE_PAYLOAD_CHANGED",
+        "graph": "scene",
+        "node": "1048",
+        "native_sha256": "8B4996351C7BE4BC9A87E958624E321EC0B5C3C2B4BD9687A2EFC5F7E473C0C9",
+        "restored_sha256": "B2ECC079DCD01C899E16E641F9EC745CC459A57CD6539EF1F5C13CB45F67054F",
+        "condition_changed": false,
+        "reward_changed": false
+      },
+      {
+        "kind": "NODE_PAYLOAD_CHANGED",
+        "graph": "scene",
+        "node": "105",
+        "native_sha256": "C446751B6011C3B47EA22E9287B9A906BBAC573518ED8C2DE65DE790914F7F59",
+        "restored_sha256": "7DA66E39A51FB17C3FD6F54CF7792FC0E3A7BB3E0B537D81565B10C2198E01CE",
+        "condition_changed": true,
+        "reward_changed": false
+      },
+      {
+        "kind": "NODE_PAYLOAD_CHANGED",
+        "graph": "scene",
+        "node": "117",
+        "native_sha256": "F47614D792CF587182FDDDB7A3A207A6AF8039CE847EC9E44AE21408480FF2AF",
+        "restored_sha256": "466E21AF66A3666165B1FB423F1B51EBD711AA4D4F02883CC594D94B53267322",
+        "condition_changed": true,
+        "reward_changed": false
+      },
+      {
+        "kind": "NODE_PAYLOAD_CHANGED",
+        "graph": "scene",
+        "node": "125",
+        "native_sha256": "E0D0738A54553F7B910F685AE25FE21115E516AB25D795305748B854345EB987",
+        "restored_sha256": "136AEF94AD43097CBD7F7EA59E0F406C37979E851896DD0766096DA4488B8AC3",
+        "condition_changed": true,
+        "reward_changed": false
+      },
+      {
+        "kind": "NODE_PAYLOAD_CHANGED",
+        "graph": "scene",
+        "node": "21",
+        "native_sha256": "BAE018C0A3BDB0A21324D3B8C3B0F639ABE382BFBFC2E96398B1582E83C2C762",
+        "restored_sha256": "9BAF55B689BA55210441D4539C34B51F7F0E3398A81EB558030627CC8086691E",
+        "condition_changed": false,
+        "reward_changed": false
+      },
+      {
+        "kind": "NODE_PAYLOAD_CHANGED",
+        "graph": "scene",
+        "node": "22",
+        "native_sha256": "C97917BA99396409FB1278634C0B971DF63AC6824236E85EA59DF958FCAAD0CF",
+        "restored_sha256": "C830D8D910FA58A8DBF1144AFA63716C808A173CD86148BCBE925D7707ECC164",
+        "condition_changed": false,
+        "reward_changed": false
+      },
+      {
+        "kind": "NODE_PAYLOAD_CHANGED",
+        "graph": "scene",
+        "node": "26",
+        "native_sha256": "3809E0FB03020B30AE418F2D0723A2789EE5BD1E653BEEAB89EDF2DD9220AEDA",
+        "restored_sha256": "6F82714A3FD6BEB53592952E8A52F0B125973F959C169CBFCADA7BB218F2A7F5",
+        "condition_changed": false,
+        "reward_changed": false
+      },
+      {
+        "kind": "NODE_PAYLOAD_CHANGED",
+        "graph": "scene",
+        "node": "28",
+        "native_sha256": "C02D0851662F0447F1BE298CC217D63C2D15878A1D5287F02805169B9B8DC514",
+        "restored_sha256": "7DB782AE834D77A990310ECB57B468B3CBB19C0D07225B2A73707B42DBC7917A",
+        "condition_changed": false,
+        "reward_changed": false
+      },
+      {
+        "kind": "NODE_PAYLOAD_CHANGED",
+        "graph": "scene",
+        "node": "3",
+        "native_sha256": "241DFE10C64DDE643D3AD2DBD7331394E028D565472A660B0D6C6E643E896089",
+        "restored_sha256": "69B8182B9FF3C69C9D672E983F248C64A9B493762F46A3C1885EFA5A0B781C7B",
+        "condition_changed": false,
+        "reward_changed": false
+      },
+      {
+        "kind": "NODE_PAYLOAD_CHANGED",
+        "graph": "scene",
+        "node": "33",
+        "native_sha256": "CFDB1A4AE70327143AC7D844408D83E28E7C39F0C779470BD3A57CF47411F1F4",
+        "restored_sha256": "502975DB742C91FFCE1AC4BE2A369996D38A313AB9A930F1053A17F7F4EB60D4",
+        "condition_changed": false,
+        "reward_changed": false
+      },
+      {
+        "kind": "NODE_PAYLOAD_CHANGED",
+        "graph": "scene",
+        "node": "38",
+        "native_sha256": "6BAE749F55B5389328BBFB477935AA6C9E1B0E12CE60786FDF0EC77300CC6A6A",
+        "restored_sha256": "96571967B3FBAEF98F1ABCE54E394467CF11300189D7CCF32BD25337833156A9",
+        "condition_changed": false,
+        "reward_changed": false
+      },
+      {
+        "kind": "EDGE_REMOVED",
+        "graph": "scene",
+        "edge": [
+          "1",
+          "0:0",
+          "152",
+          "0:1"
+        ],
+        "multiplicity": 1
+      },
+      {
+        "kind": "EDGE_REMOVED",
+        "graph": "scene",
+        "edge": [
+          "1048",
+          "0:0",
+          "149",
+          "0:1"
+        ],
+        "multiplicity": 1
+      },
+      {
+        "kind": "EDGE_REMOVED",
+        "graph": "scene",
+        "edge": [
+          "105",
+          "0:0",
+          "106",
+          "0:1"
+        ],
+        "multiplicity": 1
+      },
+      {
+        "kind": "EDGE_REMOVED",
+        "graph": "scene",
+        "edge": [
+          "117",
+          "0:0",
+          "118",
+          "0:1"
+        ],
+        "multiplicity": 1
+      },
+      {
+        "kind": "EDGE_REMOVED",
+        "graph": "scene",
+        "edge": [
+          "125",
+          "0:0",
+          "126",
+          "0:1"
+        ],
+        "multiplicity": 1
+      },
+      {
+        "kind": "EDGE_REMOVED",
+        "graph": "scene",
+        "edge": [
+          "21",
+          "2:0",
+          "123",
+          "0:1"
+        ],
+        "multiplicity": 1
+      },
+      {
+        "kind": "EDGE_REMOVED",
+        "graph": "scene",
+        "edge": [
+          "22",
+          "0:0",
+          "155",
+          "0:1"
+        ],
+        "multiplicity": 1
+      },
+      {
+        "kind": "EDGE_REMOVED",
+        "graph": "scene",
+        "edge": [
+          "26",
+          "0:0",
+          "1071",
+          "0:1"
+        ],
+        "multiplicity": 1
+      },
+      {
+        "kind": "EDGE_REMOVED",
+        "graph": "scene",
+        "edge": [
+          "28",
+          "2:0",
+          "131",
+          "0:1"
+        ],
+        "multiplicity": 1
+      },
+      {
+        "kind": "EDGE_REMOVED",
+        "graph": "scene",
+        "edge": [
+          "3",
+          "6:0",
+          "103",
+          "0:1"
+        ],
+        "multiplicity": 1
+      },
+      {
+        "kind": "EDGE_ADDED",
+        "graph": "scene",
+        "edge": [
+          "1",
+          "0:0",
+          "3",
+          "0:0"
+        ],
+        "multiplicity": 1
+      },
+      {
+        "kind": "EDGE_ADDED",
+        "graph": "scene",
+        "edge": [
+          "1048",
+          "0:0",
+          "1055",
+          "0:0"
+        ],
+        "multiplicity": 1
+      },
+      {
+        "kind": "EDGE_ADDED",
+        "graph": "scene",
+        "edge": [
+          "105",
+          "0:0",
+          "110",
+          "0:0"
+        ],
+        "multiplicity": 1
+      },
+      {
+        "kind": "EDGE_ADDED",
+        "graph": "scene",
+        "edge": [
+          "117",
+          "0:0",
+          "121",
+          "0:0"
+        ],
+        "multiplicity": 1
+      },
+      {
+        "kind": "EDGE_ADDED",
+        "graph": "scene",
+        "edge": [
+          "125",
+          "0:0",
+          "129",
+          "0:0"
+        ],
+        "multiplicity": 1
+      },
+      {
+        "kind": "EDGE_ADDED",
+        "graph": "scene",
+        "edge": [
+          "22",
+          "0:0",
+          "21",
+          "0:0"
+        ],
+        "multiplicity": 1
+      },
+      {
+        "kind": "EDGE_ADDED",
+        "graph": "scene",
+        "edge": [
+          "26",
+          "0:0",
+          "28",
+          "0:0"
+        ],
+        "multiplicity": 1
+      },
+      {
+        "kind": "BRANCH_BECAME_UNREACHABLE",
+        "graph": "scene",
+        "node": "103"
+      },
+      {
+        "kind": "BRANCH_BECAME_UNREACHABLE",
+        "graph": "scene",
+        "node": "106"
+      },
+      {
+        "kind": "BRANCH_BECAME_UNREACHABLE",
+        "graph": "scene",
+        "node": "1071"
+      },
+      {
+        "kind": "BRANCH_BECAME_UNREACHABLE",
+        "graph": "scene",
+        "node": "1073"
+      },
+      {
+        "kind": "BRANCH_BECAME_UNREACHABLE",
+        "graph": "scene",
+        "node": "118"
+      },
+      {
+        "kind": "BRANCH_BECAME_UNREACHABLE",
+        "graph": "scene",
+        "node": "123"
+      },
+      {
+        "kind": "BRANCH_BECAME_UNREACHABLE",
+        "graph": "scene",
+        "node": "126"
+      },
+      {
+        "kind": "BRANCH_BECAME_UNREACHABLE",
+        "graph": "scene",
+        "node": "131"
+      },
+      {
+        "kind": "BRANCH_BECAME_UNREACHABLE",
+        "graph": "scene",
+        "node": "142"
+      },
+      {
+        "kind": "BRANCH_BECAME_UNREACHABLE",
+        "graph": "scene",
+        "node": "149"
+      },
+      {
+        "kind": "BRANCH_BECAME_UNREACHABLE",
+        "graph": "scene",
+        "node": "152"
+      },
+      {
+        "kind": "BRANCH_BECAME_UNREACHABLE",
+        "graph": "scene",
+        "node": "155"
+      },
+      {
+        "kind": "BRANCH_BECAME_UNREACHABLE",
+        "graph": "scene",
+        "node": "158"
+      },
+      {
+        "kind": "RESOURCE_METADATA_CHANGED",
+        "native_sha256": "7E36DA9B2DF8D2DEC5C099C0CF9805581D6C46C0AC53B22488B23B9663E34B9A",
+        "restored_sha256": "8A9BC092C862B48D15FDCBBFC7C50B58A9001012B2F827B897BE52AF018146DF"
+      }
+    ],
+    "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq036\\phases\\mq036_02_scavengers.questphase": [
+      {
+        "kind": "NODE_PAYLOAD_CHANGED",
+        "graph": "root",
+        "node": "14",
+        "native_sha256": "A5ACA96590BF1CF8E57C005CBECA84F8D92CA1B30A5852A4899FE045F54B6B2F",
+        "restored_sha256": "41ACF9D1B836F39855884BB0210957A074BFACC3D464D1A2F462663E22FD4742",
+        "condition_changed": false,
+        "reward_changed": false
+      },
+      {
+        "kind": "NODE_PAYLOAD_CHANGED",
+        "graph": "root",
+        "node": "168",
+        "native_sha256": "1FA3F9BD89ADBAEEAD30893281C183D7CE12B6288EE0DC74DF05410111B26E75",
+        "restored_sha256": "D032536ED9DFBD35041B2BF997EAF35685D22C431B10D579AC0A58FC2D0E2CE6",
+        "condition_changed": false,
+        "reward_changed": false
+      },
+      {
+        "kind": "NODE_PAYLOAD_CHANGED",
+        "graph": "root",
+        "node": "170",
+        "native_sha256": "B7C2031E9C2A0D832AB4A338F6D2C2890D66EE93CA8859E9FDE76C4F5DF1312F",
+        "restored_sha256": "0DF9FE61BA24D3E088BFEE2F05AFDFF32981381A967AECD11BA3481741AFBACB",
+        "condition_changed": false,
+        "reward_changed": false
+      },
+      {
+        "kind": "NODE_PAYLOAD_CHANGED",
+        "graph": "root",
+        "node": "46",
+        "native_sha256": "3CD2F063CE32A7CF7458C2DE601C0C01FDE282060F86DDB68D84ECFE02192263",
+        "restored_sha256": "D203832E2F8486254636B9A9B1CF26EAA700AAF74E00939EA3F43430C578C30E",
+        "condition_changed": false,
+        "reward_changed": false
+      },
+      {
+        "kind": "EDGE_REMOVED",
+        "graph": "root",
+        "edge": [
+          "353",
+          "Out1",
+          "78",
+          "In"
+        ],
+        "multiplicity": 1
+      },
+      {
+        "kind": "BRANCH_BECAME_UNREACHABLE",
+        "graph": "root",
+        "node": "139"
+      },
+      {
+        "kind": "BRANCH_BECAME_UNREACHABLE",
+        "graph": "root",
+        "node": "45"
+      },
+      {
+        "kind": "BRANCH_BECAME_UNREACHABLE",
+        "graph": "root",
+        "node": "46"
+      },
+      {
+        "kind": "BRANCH_BECAME_UNREACHABLE",
+        "graph": "root",
+        "node": "53"
+      },
+      {
+        "kind": "BRANCH_BECAME_UNREACHABLE",
+        "graph": "root",
+        "node": "78"
+      }
+    ]
+  },
+  "flow_fixtures": [
+    {
+      "entry": "waking_up_in",
+      "manual_choice": true,
+      "visited": [
+        [
+          0,
+          "1"
+        ],
+        [
+          0,
+          "3"
+        ],
+        [
+          0,
+          "1127"
+        ],
+        [
+          2521,
+          "58"
+        ],
+        [
+          2521,
+          "94"
+        ],
+        [
+          2521,
+          "1115"
+        ],
+        [
+          3021,
+          "1117"
+        ],
+        [
+          15070,
+          "96"
+        ],
+        [
+          17926,
+          "1090"
+        ],
+        [
+          30413,
+          "1112"
+        ],
+        [
+          30414,
+          "60"
+        ],
+        [
+          30414,
+          "2"
+        ],
+        [
+          30414,
+          "105"
+        ],
+        [
+          30464,
+          "110"
+        ]
+      ],
+      "ends": [
+        [
+          30414,
+          "2",
+          "NonTerminating"
+        ],
+        [
+          30464,
+          "110",
+          "Terminating"
+        ]
+      ],
+      "held_choices": []
+    },
+    {
+      "entry": "pc1_hack_in",
+      "manual_choice": true,
+      "visited": [
+        [
+          0,
+          "6"
+        ],
+        [
+          0,
+          "8"
+        ],
+        [
+          0,
+          "7"
+        ]
+      ],
+      "ends": [
+        [
+          0,
+          "7",
+          "Terminating"
+        ]
+      ],
+      "held_choices": []
+    },
+    {
+      "entry": "gear_loot_in",
+      "manual_choice": true,
+      "visited": [
+        [
+          0,
+          "11"
+        ],
+        [
+          0,
+          "13"
+        ],
+        [
+          0,
+          "12"
+        ]
+      ],
+      "ends": [
+        [
+          0,
+          "12",
+          "Terminating"
+        ]
+      ],
+      "held_choices": []
+    },
+    {
+      "entry": "pc2_hack_in",
+      "manual_choice": true,
+      "visited": [
+        [
+          0,
+          "16"
+        ],
+        [
+          0,
+          "18"
+        ],
+        [
+          0,
+          "17"
+        ]
+      ],
+      "ends": [
+        [
+          0,
+          "17",
+          "Terminating"
+        ]
+      ],
+      "held_choices": []
+    },
+    {
+      "entry": "sucker_in",
+      "manual_choice": true,
+      "visited": [
+        [
+          0,
+          "22"
+        ],
+        [
+          0,
+          "21"
+        ],
+        [
+          7617,
+          "23"
+        ],
+        [
+          7617,
+          "125"
+        ],
+        [
+          7667,
+          "129"
+        ]
+      ],
+      "ends": [
+        [
+          7617,
+          "23",
+          "NonTerminating"
+        ],
+        [
+          7667,
+          "129",
+          "Terminating"
+        ]
+      ],
+      "held_choices": []
+    },
+    {
+      "entry": "payback_in",
+      "manual_choice": true,
+      "visited": [
+        [
+          0,
+          "26"
+        ],
+        [
+          0,
+          "28"
+        ],
+        [
+          7810,
+          "27"
+        ],
+        [
+          7810,
+          "117"
+        ],
+        [
+          7860,
+          "121"
+        ]
+      ],
+      "ends": [
+        [
+          7810,
+          "27",
+          "NonTerminating"
+        ],
+        [
+          7860,
+          "121",
+          "Terminating"
+        ]
+      ],
+      "held_choices": []
+    },
+    {
+      "entry": "scav_chat_1_in",
+      "manual_choice": true,
+      "visited": [
+        [
+          0,
+          "31"
+        ],
+        [
+          0,
+          "33"
+        ],
+        [
+          11512,
+          "32"
+        ]
+      ],
+      "ends": [
+        [
+          11512,
+          "32",
+          "Terminating"
+        ]
+      ],
+      "held_choices": []
+    },
+    {
+      "entry": "scav_chat_2_in",
+      "manual_choice": true,
+      "visited": [
+        [
+          0,
+          "36"
+        ],
+        [
+          0,
+          "38"
+        ],
+        [
+          6705,
+          "37"
+        ]
+      ],
+      "ends": [
+        [
+          6705,
+          "37",
+          "Terminating"
+        ]
+      ],
+      "held_choices": []
+    },
+    {
+      "entry": "elevator_in",
+      "manual_choice": true,
+      "visited": [
+        [
+          0,
+          "1048"
+        ],
+        [
+          0,
+          "1055"
+        ]
+      ],
+      "ends": [
+        [
+          0,
+          "1055",
+          "NonTerminating"
+        ]
+      ],
+      "held_choices": []
+    },
+    {
+      "entry": "pc1_hack_in",
+      "manual_choice": false,
+      "visited": [
+        [
+          0,
+          "6"
+        ],
+        [
+          0,
+          "8"
+        ]
+      ],
+      "ends": [],
+      "held_choices": [
+        "8"
+      ]
+    },
+    {
+      "entry": "gear_loot_in",
+      "manual_choice": false,
+      "visited": [
+        [
+          0,
+          "11"
+        ],
+        [
+          0,
+          "13"
+        ]
+      ],
+      "ends": [],
+      "held_choices": [
+        "13"
+      ]
+    },
+    {
+      "entry": "pc2_hack_in",
+      "manual_choice": false,
+      "visited": [
+        [
+          0,
+          "16"
+        ],
+        [
+          0,
+          "18"
+        ]
+      ],
+      "ends": [],
+      "held_choices": [
+        "18"
+      ]
+    },
+    {
+      "payback_AND_order": [
+        "In1",
+        "In2"
+      ],
+      "fired": [
+        false,
+        true
+      ]
+    },
+    {
+      "payback_AND_order": [
+        "In2",
+        "In1"
+      ],
+      "fired": [
+        false,
+        true
+      ]
+    }
+  ],
+  "changed_depots": [
+    "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq036\\phases\\mq036_02_scavengers.questphase",
+    "towercontinued\\sidejobs_s29\\native\\base\\quest\\minor_quests\\mq036\\scenes\\mq036_scavengers.scene"
+  ],
+  "archive_payloads": 1581,
+  "retained_archive_payloads": 1579,
+  "scripts_changed": 0,
+  "compile_inventory_sha256": "2ED27641D0D8C7E59A172B2DAB7A1DCE3A4CAA557DD79B93A0DEC7621405B205",
+  "new_depots": 0,
+  "new_ArchiveXL_phase_ids": 0,
+  "native_resource_overrides": 0,
+  "limits": "Static cooked graph, event timing and bounded acknowledgement fixtures. Engine actor absence, interruption/reload and gameplay pending. Completed current quest is preserved; no restart/migration.",
+  "game_writes": 0,
+  "save_writes": 0
+}

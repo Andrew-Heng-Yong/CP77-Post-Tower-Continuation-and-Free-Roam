@@ -1,0 +1,23 @@
+# Native real-time wait capture and reattachment
+
+14 November 2026. The direct q307 cutoff can now supply a diagnostic timer sample to the existing save-local history commit before its acknowledgement. The separate scheduler fixture held one wait through simulated ending time, installed a native timer on a rebuilt registration and delivered one callback after the original **8.9462251663208 seconds**. The prototype was built in the workspace. Genuine Tower suspension and reattachment are still pending.
+
+## Cutoff capture
+
+The sampler reads the native delay worker before expiry. The script-side reader checks the current quest system, direct Tower route, ending ticket, open gate, observed node and live registration revision. The sample expires on gate closure, callback delivery, unregister or session reset. The history commit stores the ticket, original node key and duration in four additive persistent fields, including a schema field written last. The capture hook runs before the existing `PTFRHS3_GateResult` acknowledgement. A missing timer lets the ordinary history acknowledgement or timeout proceed. The diagnostic record is separate from global-latest history import. The probe reads the scheduler and leaves the active wait running until the live hold boundary qualifies. [Cutoff code](CutoffProbe.cpp) · [Persistent fields](cutoff_members.reds) · [148-source compile receipt](compile_02/receipt.json)
+
+## Native hold and reattachment fixture
+
+The fixture removes the selected wait from a synthetic scheduler. It rejects stale owner generations, a mismatched node or ticket, a different handler class and conflicting live or saved timer IDs. A rebuilt registration receives a fresh scheduler ID. The handoff uses the stock real-time constructor and attach function, verifies the callback points to the rebuilt handler, and reads back the native node-to-timer mapping. Only then does it set the handler's timer ID. Failed attachment or mapping publication removes the new timer. [Handoff code](RealTimeHandoff.hpp)
+
+The test advances the replacement clock by 1.5 seconds, obtains the remaining time from the native save collector, then recreates the saved scheduler entry and runs the stock reload initializer against a fresh handler. Advancing to the recorded deadline sets native readiness and queues the reloaded parent slot once. The old handler and the first replacement stay quiet. The fixture substitutes a restored node mapping and scheduler entry for a full save file load. Support admission, graph execution and persistence of the completion receipt through game reload remain open. [60 scheduler, cutoff and reload checks](evidence_08/fixture_checks.txt)
+
+The fixture runs 73 bounded instruction and data slices from the pinned 2.5 executable. Its allocator, RTTI predicate setup and graph objects are synthetic. The probe build verifies 14 hook entry prefixes against the same executable. The compiled script overlay changes one source in the 148-source inventory. Archive and script inputs were compared before and after compilation. No mod deployment, Cyberpunk launch, save writes or native ABI calls in a game process occurred. [Native readback](evidence_08/assessment.json) · [Build receipt](build_10/build.json)
+
+## Live owner requirement
+
+The Manual Save 26 timer comes from a Kabuki civilian voiceset loop. Its base-game ancestor ends through root nodes 106 → 109 → 107 when q307 succeeds. The next voiceset requires a civilian from the original nested prefab. Two Kabuki timers of this kind appear in that pre-Tower save. The five later saved registration projections contain none from that resource. The fixture is scoped to timer mechanics. [Graph and save evidence](evidence_08/assessment.json)
+
+Two authored one-hour waits belong to restored quests. **Every Breath You Take** has an original base-game wait leading to a weather reset. Its park and another input to the same join are part of ownership review. **Go Your Own Way** has a wait that leads to Mr. Hands' phone choice checks. It resolves through a cut open-world parent and a separate bugfix parent. The current samples contain no live registration for either wait. The evidence records their original addresses and the EP1 cut destinations. [Source fixtures](evidence_08/assessment.json)
+
+Live integration requires a quest-worker ownership proof that can survive cleanup, a drained notification queue, protection for saves made during the hold, and a sole post-Tower phase with the required support and Johnny edits. The native attach routine assumes that proof is already available. The game-time clock and reload while suspended remain open.

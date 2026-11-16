@@ -1,0 +1,15 @@
+{
+  "changed_paths": [
+    "r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR1.reds",
+    "r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR3.reds"
+  ],
+  "core_paths": 51,
+  "source_checks": {
+    "tower_and_native_safety_gates": "MATCH",
+    "per_instance_conservation_and_tattoo_receipt": "MATCH",
+    "profile_mutation_ledger_and_recovery": "MATCH",
+    "refund_admission": "OWNED_TREATMENT_REQUIRED; RESIDUAL_ID_READBACK_REPORTED",
+    "live": "UNVERIFIED"
+  },
+  "manifest_sha256": "35C56B2010CFAB37907A4C44DAA09895BD404F780A7504B359B4D54AC58334CB"
+}

@@ -1,0 +1,1467 @@
+{
+  "status": "PASS_KM1_TYPED_GUARDS_AND_COMPLETE_DELTA",
+  "plan_sha256": "DBAFA85433BA0F72DA4F66EE62D616D1786B4F03146BAE1F04278BBA86E75A48",
+  "cooked_sha256": "B1D41C6A3280F827D61DC9B23636B2C948CC36A4B73487438EDF3DDA18F2874F",
+  "changes": [
+    {
+      "kind": "NODE_PAYLOAD_CHANGED",
+      "graph": "root",
+      "node": "65003",
+      "native_sha256": "E66221D155DF26417371A52E2573E7F0C382C3D29CFA08100C38C58C21DB4548",
+      "restored_sha256": "CE0177DF6821F8F509A9A3185D6E21DBA4527E46FD4F999B75EEFABB00C7128C",
+      "condition_changed": true,
+      "reward_changed": false
+    },
+    {
+      "kind": "NODE_PAYLOAD_CHANGED",
+      "graph": "root",
+      "node": "65004",
+      "native_sha256": "5F4B7B09FCAFD9459BD028D3E0ACCDB9C05B4E0B172811CBDD962FFE5880D6F7",
+      "restored_sha256": "CB6FC6BF143AAE67BC19D1AA4BBB62702ABC500C19F5D5D1C908992F6CE6666F",
+      "condition_changed": true,
+      "reward_changed": false
+    }
+  ],
+  "checks": [
+    {
+      "name": "65003 exact independent predicate transform",
+      "pass": true
+    },
+    {
+      "name": "65003 all 63 journal checks retained",
+      "pass": true
+    },
+    {
+      "name": "65003 active=-2 accepted only for 0/1",
+      "pass": true
+    },
+    {
+      "name": "65003 predecessor active=-2 fresh only",
+      "pass": true
+    },
+    {
+      "name": "65003 active=-1 accepted only for 0/1",
+      "pass": true
+    },
+    {
+      "name": "65003 predecessor active=-1 fresh only",
+      "pass": true
+    },
+    {
+      "name": "65003 active=0 accepted only for 0/1",
+      "pass": true
+    },
+    {
+      "name": "65003 predecessor active=0 fresh only",
+      "pass": true
+    },
+    {
+      "name": "65003 active=1 accepted only for 0/1",
+      "pass": true
+    },
+    {
+      "name": "65003 predecessor active=1 fresh only",
+      "pass": true
+    },
+    {
+      "name": "65003 active=2 accepted only for 0/1",
+      "pass": true
+    },
+    {
+      "name": "65003 predecessor active=2 fresh only",
+      "pass": true
+    },
+    {
+      "name": "65003 active=3 accepted only for 0/1",
+      "pass": true
+    },
+    {
+      "name": "65003 predecessor active=3 fresh only",
+      "pass": true
+    },
+    {
+      "name": "65003 protected fact PostTowerFreeRoamActive",
+      "pass": true
+    },
+    {
+      "name": "65003 protected fact PTFRP0_DR13",
+      "pass": true
+    },
+    {
+      "name": "65003 protected fact PTFRPA2_Finished",
+      "pass": true
+    },
+    {
+      "name": "65003 protected fact PTFRPA2_Fault",
+      "pass": true
+    },
+    {
+      "name": "65003 protected fact q307_done",
+      "pass": true
+    },
+    {
+      "name": "65003 protected fact q307_finished",
+      "pass": true
+    },
+    {
+      "name": "65003 protected fact q307_2079",
+      "pass": true
+    },
+    {
+      "name": "65003 protected fact q307_main_game_killed",
+      "pass": true
+    },
+    {
+      "name": "65003 protected fact q307_ep1_killed",
+      "pass": true
+    },
+    {
+      "name": "65003 protected fact q307_active",
+      "pass": true
+    },
+    {
+      "name": "65003 protected fact q307_debug_reset",
+      "pass": true
+    },
+    {
+      "name": "65003 protected fact q115_point_of_no_return",
+      "pass": true
+    },
+    {
+      "name": "65003 protected fact q305_johnny_scene_active",
+      "pass": true
+    },
+    {
+      "name": "65003 protected fact PTFRU9_Support_Issued",
+      "pass": true
+    },
+    {
+      "name": "65003 protected fact PTFRU9_Support_Fault",
+      "pass": true
+    },
+    {
+      "name": "65003 protected fact mq016_02_changed_mind",
+      "pass": true
+    },
+    {
+      "name": "65003 protected fact mq016_cryofreezer_opened",
+      "pass": true
+    },
+    {
+      "name": "65003 protected fact mq016_done",
+      "pass": true
+    },
+    {
+      "name": "65003 protected fact mq016_fusebox_active",
+      "pass": true
+    },
+    {
+      "name": "65003 protected fact mq016_hacked",
+      "pass": true
+    },
+    {
+      "name": "65003 protected fact mq016_recognized_bartmoss",
+      "pass": true
+    },
+    {
+      "name": "65003 protected fact mq016_saved_life",
+      "pass": true
+    },
+    {
+      "name": "65003 protected fact PTFRS29_mq016_bartmoss_Issued",
+      "pass": true
+    },
+    {
+      "name": "65003 protected fact PTFRS29_mq016_bartmoss_Entered",
+      "pass": true
+    },
+    {
+      "name": "65003 protected fact PTFRS29_mq016_bartmoss_Finished",
+      "pass": true
+    },
+    {
+      "name": "65003 protected fact PTFRS29_mq016_bartmoss_Fault",
+      "pass": true
+    },
+    {
+      "name": "65003 protected fact PTFRS29_mq016_bartmoss_Permit",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/01_open_coffin",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/01_open_coffin/mq016_cryofreezer",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/01_open_coffin/description",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/01_open_coffin/codex_link_netrunners",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/01_open_coffin/codex_link_afterlife",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/02_talk_with_johnny",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/02_talk_with_johnny/codex_link_netrunners",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/02_talk_with_johnny/codex_link_afterlife",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/02_talk_with_johnny/johnny",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/03_scan_coffin",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/03_scan_coffin/mq016_cryofreezer",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/03_scan_coffin/codex_link_netrunners",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/03_scan_coffin/codex_link_afterlife",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/04_take_cyberdeck",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/04_take_cyberdeck/mq016_bartmoss_cyberdeck",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/04_take_cyberdeck/codex_link_netrunners",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/04_take_cyberdeck/codex_link_afterlife",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/00_explore_landfill",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/00_explore_landfill/codex_link_netrunners",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/00_explore_landfill/codex_link_afterlife",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/00_explore_landfill/mq016_cryofreezer",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/01_talk_with_nix",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/01_talk_with_nix/nix",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/01_talk_with_nix/nix/01_q103_dvc_door_afterlife_bar_left",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/01_talk_with_nix/nix/02_q103_dvc_door_afterlife_netrunner_den",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/01_talk_with_nix/afterlife",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/01_talk_with_nix/codex_link_netrunners",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/01_talk_with_nix/codex_link_afterlife",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/01_talk_with_nix/codex_link_nix",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/02_follow_nix",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/02_follow_nix/nix",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/02_follow_nix/codex_link_netrunners",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/02_follow_nix/codex_link_afterlife",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/02_follow_nix/codex_link_nix",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/03_give_nix",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/03_give_nix/nix",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/03_give_nix/codex_link_netrunners",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/03_give_nix/codex_link_afterlife",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/03_give_nix/codex_link_nix",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/06_watch_bartmoss_log",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/06_watch_bartmoss_log/codex_link_netrunners",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/06_watch_bartmoss_log/codex_link_afterlife",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/01_talk_with_nix1",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/01_talk_with_nix1/nix",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/01_talk_with_nix1/codex_link_netrunners",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/01_talk_with_nix1/codex_link_afterlife",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/01_talk_with_nix1/codex_link_nix",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/04_wait_for_nix",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/04_wait_for_nix/codex_link_netrunners",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/04_wait_for_nix/codex_link_afterlife",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/04_wait_for_nix/codex_link_nix",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/05_find_way_to_help",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/05_find_way_to_help/codex_link_netrunners",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/05_find_way_to_help/codex_link_afterlife",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/05_find_way_to_help/codex_link_nix",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/06_talk_with_nix",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/06_talk_with_nix/nix",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/06_talk_with_nix/codex_link_netrunners",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/06_talk_with_nix/codex_link_afterlife",
+      "pass": true
+    },
+    {
+      "name": "65003 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/06_talk_with_nix/codex_link_nix",
+      "pass": true
+    },
+    {
+      "name": "65003 terminal quest state 3 protected",
+      "pass": true
+    },
+    {
+      "name": "65003 terminal quest state 4 protected",
+      "pass": true
+    },
+    {
+      "name": "65004 exact independent predicate transform",
+      "pass": true
+    },
+    {
+      "name": "65004 all 63 journal checks retained",
+      "pass": true
+    },
+    {
+      "name": "65004 active=-2 accepted only for 0/1",
+      "pass": true
+    },
+    {
+      "name": "65004 predecessor active=-2 fresh only",
+      "pass": true
+    },
+    {
+      "name": "65004 active=-1 accepted only for 0/1",
+      "pass": true
+    },
+    {
+      "name": "65004 predecessor active=-1 fresh only",
+      "pass": true
+    },
+    {
+      "name": "65004 active=0 accepted only for 0/1",
+      "pass": true
+    },
+    {
+      "name": "65004 predecessor active=0 fresh only",
+      "pass": true
+    },
+    {
+      "name": "65004 active=1 accepted only for 0/1",
+      "pass": true
+    },
+    {
+      "name": "65004 predecessor active=1 fresh only",
+      "pass": true
+    },
+    {
+      "name": "65004 active=2 accepted only for 0/1",
+      "pass": true
+    },
+    {
+      "name": "65004 predecessor active=2 fresh only",
+      "pass": true
+    },
+    {
+      "name": "65004 active=3 accepted only for 0/1",
+      "pass": true
+    },
+    {
+      "name": "65004 predecessor active=3 fresh only",
+      "pass": true
+    },
+    {
+      "name": "65004 protected fact PostTowerFreeRoamActive",
+      "pass": true
+    },
+    {
+      "name": "65004 protected fact PTFRP0_DR13",
+      "pass": true
+    },
+    {
+      "name": "65004 protected fact PTFRPA2_Finished",
+      "pass": true
+    },
+    {
+      "name": "65004 protected fact PTFRPA2_Fault",
+      "pass": true
+    },
+    {
+      "name": "65004 protected fact q307_done",
+      "pass": true
+    },
+    {
+      "name": "65004 protected fact q307_finished",
+      "pass": true
+    },
+    {
+      "name": "65004 protected fact q307_2079",
+      "pass": true
+    },
+    {
+      "name": "65004 protected fact q307_main_game_killed",
+      "pass": true
+    },
+    {
+      "name": "65004 protected fact q307_ep1_killed",
+      "pass": true
+    },
+    {
+      "name": "65004 protected fact q307_active",
+      "pass": true
+    },
+    {
+      "name": "65004 protected fact q307_debug_reset",
+      "pass": true
+    },
+    {
+      "name": "65004 protected fact q115_point_of_no_return",
+      "pass": true
+    },
+    {
+      "name": "65004 protected fact q305_johnny_scene_active",
+      "pass": true
+    },
+    {
+      "name": "65004 protected fact PTFRU9_Support_Issued",
+      "pass": true
+    },
+    {
+      "name": "65004 protected fact PTFRU9_Support_Fault",
+      "pass": true
+    },
+    {
+      "name": "65004 protected fact mq016_02_changed_mind",
+      "pass": true
+    },
+    {
+      "name": "65004 protected fact mq016_cryofreezer_opened",
+      "pass": true
+    },
+    {
+      "name": "65004 protected fact mq016_done",
+      "pass": true
+    },
+    {
+      "name": "65004 protected fact mq016_fusebox_active",
+      "pass": true
+    },
+    {
+      "name": "65004 protected fact mq016_hacked",
+      "pass": true
+    },
+    {
+      "name": "65004 protected fact mq016_recognized_bartmoss",
+      "pass": true
+    },
+    {
+      "name": "65004 protected fact mq016_saved_life",
+      "pass": true
+    },
+    {
+      "name": "65004 protected fact PTFRS29_mq016_bartmoss_Issued",
+      "pass": true
+    },
+    {
+      "name": "65004 protected fact PTFRS29_mq016_bartmoss_Entered",
+      "pass": true
+    },
+    {
+      "name": "65004 protected fact PTFRS29_mq016_bartmoss_Finished",
+      "pass": true
+    },
+    {
+      "name": "65004 protected fact PTFRS29_mq016_bartmoss_Fault",
+      "pass": true
+    },
+    {
+      "name": "65004 protected fact PTFRS29_mq016_bartmoss_Permit",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/01_open_coffin",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/01_open_coffin/mq016_cryofreezer",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/01_open_coffin/description",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/01_open_coffin/codex_link_netrunners",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/01_open_coffin/codex_link_afterlife",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/02_talk_with_johnny",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/02_talk_with_johnny/codex_link_netrunners",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/02_talk_with_johnny/codex_link_afterlife",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/02_talk_with_johnny/johnny",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/03_scan_coffin",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/03_scan_coffin/mq016_cryofreezer",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/03_scan_coffin/codex_link_netrunners",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/03_scan_coffin/codex_link_afterlife",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/04_take_cyberdeck",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/04_take_cyberdeck/mq016_bartmoss_cyberdeck",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/04_take_cyberdeck/codex_link_netrunners",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/04_take_cyberdeck/codex_link_afterlife",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/00_explore_landfill",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/00_explore_landfill/codex_link_netrunners",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/00_explore_landfill/codex_link_afterlife",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/01_warehouse/00_explore_landfill/mq016_cryofreezer",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/01_talk_with_nix",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/01_talk_with_nix/nix",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/01_talk_with_nix/nix/01_q103_dvc_door_afterlife_bar_left",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/01_talk_with_nix/nix/02_q103_dvc_door_afterlife_netrunner_den",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/01_talk_with_nix/afterlife",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/01_talk_with_nix/codex_link_netrunners",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/01_talk_with_nix/codex_link_afterlife",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/01_talk_with_nix/codex_link_nix",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/02_follow_nix",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/02_follow_nix/nix",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/02_follow_nix/codex_link_netrunners",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/02_follow_nix/codex_link_afterlife",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/02_follow_nix/codex_link_nix",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/03_give_nix",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/03_give_nix/nix",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/03_give_nix/codex_link_netrunners",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/03_give_nix/codex_link_afterlife",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/03_give_nix/codex_link_nix",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/06_watch_bartmoss_log",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/06_watch_bartmoss_log/codex_link_netrunners",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/06_watch_bartmoss_log/codex_link_afterlife",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/01_talk_with_nix1",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/01_talk_with_nix1/nix",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/01_talk_with_nix1/codex_link_netrunners",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/01_talk_with_nix1/codex_link_afterlife",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/01_talk_with_nix1/codex_link_nix",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/04_wait_for_nix",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/04_wait_for_nix/codex_link_netrunners",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/04_wait_for_nix/codex_link_afterlife",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/04_wait_for_nix/codex_link_nix",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/05_find_way_to_help",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/05_find_way_to_help/codex_link_netrunners",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/05_find_way_to_help/codex_link_afterlife",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/05_find_way_to_help/codex_link_nix",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/06_talk_with_nix",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/06_talk_with_nix/nix",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/06_talk_with_nix/codex_link_netrunners",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/06_talk_with_nix/codex_link_afterlife",
+      "pass": true
+    },
+    {
+      "name": "65004 active progress protected quests/minor_quest/mq016_bartmoss/02_afterlife/06_talk_with_nix/codex_link_nix",
+      "pass": true
+    },
+    {
+      "name": "65004 terminal quest state 3 protected",
+      "pass": true
+    },
+    {
+      "name": "65004 terminal quest state 4 protected",
+      "pass": true
+    },
+    {
+      "name": "All old graph nodes, edges, sockets and resource metadata retained",
+      "pass": true
+    },
+    {
+      "name": "Script has exactly one integer data change",
+      "pass": true
+    },
+    {
+      "name": "Script active range is precisely 0..1",
+      "pass": true
+    },
+    {
+      "name": "All seven other protected script facts stay zero",
+      "pass": true
+    },
+    {
+      "name": "Exact existing archive inventory",
+      "pass": true
+    },
+    {
+      "name": "Only the one private entry changed",
+      "pass": true
+    },
+    {
+      "name": "Only archive is pending packing",
+      "pass": true
+    },
+    {
+      "name": "Only S29 changed among staged package files",
+      "pass": true
+    },
+    {
+      "name": "Provider inventory remains exact",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable audio_1_general.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable audio_2_soundbanks.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable basegame_1_engine.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable basegame_2_mainmenu.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable basegame_3_nightcity_gi.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable basegame_3_nightcity_terrain.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable basegame_3_nightcity.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable basegame_4_animation.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable basegame_4_appearance.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable basegame_4_gamedata.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable basegame_5_video.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_ar_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_cs_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_de_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_en_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_en_voice.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_es-es_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_es-mx_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_fr_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_hu_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_it_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_ja_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_ko_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_pl_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_pt_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_ru_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_th_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_tr_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_ua_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_zh-cn_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_zh-tw_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable memoryresident_1_general.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable audio_1_general.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable ep1_1_nightcity_gi.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable ep1_1_nightcity_terrain.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable ep1_1_nightcity.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable ep1_2_gamedata.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_ar_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_cs_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_de_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_en_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_en_voice.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_es-es_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_es-mx_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_fr_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_hu_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_it_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_ja_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_ko_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_pl_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_pt_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_ru_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_th_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_tr_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_ua_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_zh-cn_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable lang_zh-tw_text.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable !_Arkhe_MAKEUP_Enhancer.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable !00_0HDetailedFemaleNPCS1.1.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable ##_Arkhe_UniversalSkinTone_BODY_VANILLA.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable 00_vtk_CleanArms_xBaebsae.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable 008_UV_Framework.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable aa_valorant_fade_nail_color.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable Arkhe_Beautiful_Iris_a02_Natural_Eyes_CCXL.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable Arkhe_Beautiful_Makeup_02_Base_CCXL.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable beaniebby Elsi Hair Texture Base.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable CCXL_icxrus_Heterochromia.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable ccxl-hairs__bby_elsi_bob_01_bethenny.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable ccxl-hairs__bby_elsi_bob_02_luann.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable ccxl-hairs__bby_elsi_bob_03_alex.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable ccxl-hairs__bby_elsi_bob_04_ramona.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable ccxl-hairs__bby_elsi_bob_05_jill.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable ccxl-hairs__bby_elsi_bob_06_kelly.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable ccxl-hairs__bby_elsi_bob_07_sonja.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable ccxl-hairs__bby_elsi_bob_08_aviva.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable ccxl-hairs__bby_elsi_bob_09_carole.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable ccxl-hairs__bby_elsi_bob_10_heather.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable ccxl-hairs__bby_elsi_bob_11_kristen.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable ccxl-hairs__bby_elsi_bob_12_tinsley.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable DP77_Bag Of Dicks.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable EquipmentEx.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable ImmersiveFirstPersonHeight.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable LizziesBDs.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable mch_02_eagul_Bob_template.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable mch_03_eagul_punk_pony.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable mch_04_eagul_messy_pony.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable mch_05_eagul_songbird_bob.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable mch_06_eagul_songbird_long.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable mch_07_eagul_rogue_old.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable mch_08_eagul_rogue_young.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable mch_09_eagul_songbird_messy_02.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable mch_10_eagul_nomad_02.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable mch_11_eagul_songbird_alternative.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable mch_12_eagul_songbird_alternative_mirrored.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable mch_13_eagul_songbird_free_side.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable mch_14_eagul_sidecut_sideswept.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable mch_15_eagul_sidecut_2.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable mch_16_eagul_buns_02.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable mch_17_eagul_buns_01.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable mch_18_eagul_fantasy_braids.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable mch_19_eagul_corpobun_punk_pony.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable mch_20_eagul_alt.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable mch_21_eagul_wizzy.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable mch_22_eagul_braided_bob.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable mch_23_eagul_nina.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable mch_24_eagul_afro_bun.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable mch_25_eagul_top_bun.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable mch_26_eagul_aurore.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable mch_multicolored_hair_core.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable NPCItemsForV_5_Mox.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable NPCItemsForV_EdgerunnerItems.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable NPCItemsForV_Underwear.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable NPCItemsForVAtelier.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable PinkyDude_REMOVER_texture_Panties.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable PRC_f_1_bottomlip_left_ball.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable PRC_f_13_Left_ear_2x2_rings.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable PRC_f_27_rightearlobe_ring_left.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable PRC_f_28_rightearlobe_ring_right.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable PRC_f_3_bottomlip_right_ball.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable PRC_f_49_ringseptum_bigger.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable PRC_z_999_Framework_128.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable Say_Something_Damn_It.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable VirtualAtelier.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable vtk_VanillaHD_Body_xBaebsae.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable VTK_VanillaHD_ExtraTextures_xBaebsae.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable vtk_VanillaHD_Head_Textures_xBaebsae.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable vtk_VanillaHD_Head_xBaebsae.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable xBaebsae_VanillaHD_Arms.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable xBaebsae_VanillaHD_Body.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable xBaebsae_VanillaHD_Cyberarms.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable xBaebsae_VanillaHD_Head.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable zDeceptiousQuestCore.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable zz_JLee_Unique_Nails_For_V_Core.archive",
+      "pass": true
+    },
+    {
+      "name": "Archive provider stable zzzz_PTFR_Combined.archive",
+      "pass": true
+    },
+    {
+      "name": "XL registrations byte-identical",
+      "pass": true
+    },
+    {
+      "name": "Complete registered-source compile passed",
+      "pass": true
+    }
+  ],
+  "changed_depots": [
+    "towercontinued\\sidejobs_s29\\entries\\mq016_bartmoss.questphase"
+  ],
+  "archive_members": 1581,
+  "retained_archive_members": 1580,
+  "new_depots": 0,
+  "new_ArchiveXL_phase_ids": 0,
+  "namespace_evidence": "Exact existing entry depot, all node IDs and graph edges retained; byte-identical XL; unique source provider across current archive inventory.",
+  "compile_result_sha256": "BF01E86C36B21C031B10C5975276C1F608EB2423C1F0975FB058C90BDBC0C2BC",
+  "limits": "Predicate evaluation and source/byte verification; no engine scheduling or gameplay pass.",
+  "game_writes": 0,
+  "save_writes": 0
+}

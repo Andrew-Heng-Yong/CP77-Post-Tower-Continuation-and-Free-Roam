@@ -13,8 +13,15 @@
   "selected_source_index": "prealpha/johnny_dialogue_index_20261107_02/index_05/dialogue.sqlite3",
   "actual_post_tower_coverage_denominator": "NOT_YET_MEASURED",
   "step3_started": true,
-  "next_action": "Await five-word-or-longer dialogue quotes or full short option labels for the two-quest YouTube pilot: KOLD MIRAGE and Sweet Dreams. Resolve spoken-event and choice identities separately; timestamps are optional unless matching is ambiguous.",
-  "step3_checkpoint": "prealpha/johnny_video_review_20261107_01/checkpoint.json",
-  "step3_status": "TWO_QUEST_VIDEO_REVIEW_AWAITING_USER_NOTES",
-  "step3_review_protocol": "prealpha/johnny_video_review_20261107_01/review_protocol.json"
+  "next_action": "Returned five-quest notes are source-reviewed: 72 Johnny and 46 V event targets plus eight conversation options. User reviews 17 additional Johnny occurrences/14 associated V replies and the proposed leave-connected bot choice wording; no five-quest implementation/deployment has been requested. Preserve KOLD acceptance and SD1 current installation.",
+  "step3_checkpoint": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\johnny_video_review_20261108_01\\checkpoint.json",
+  "step3_status": "FIVE_QUEST_NOTES_REVIEWED_ADDITIONAL_BRANCH_DECISIONS_PENDING",
+  "step3_review_protocol": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\johnny_video_review_20261108_01\\review_protocol.json",
+  "step4_started": true,
+  "step4_checkpoint": "prealpha/johnny_dialogue_pilot_jp1/checkpoint.json",
+  "step4_status": "KOLD_COMPLETE_SD1_INSTALLED_LIVE_TEST_PENDING_SUPPORTED_FIXTURE",
+  "kold_mirage_acceptance": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\kold_mirage_km2\\observations\\user_acceptance_20261108_01\\result.json",
+  "sweet_dreams_checkpoint": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\sweet_dreams_sd1\\checkpoint.json",
+  "sweet_dreams_status": "SD1_INSTALLED_LIVE_TEST_PENDING_SUPPORTED_FIXTURE",
+  "current_notes_review": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\johnny_video_review_20261108_01\\review_02\\REVIEW.md"
 }

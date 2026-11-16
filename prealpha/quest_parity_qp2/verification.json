@@ -1,0 +1,177 @@
+{
+  "status": "PASS_QP2_MERGED_RESOURCES_AND_SCRIPTS",
+  "baseline_sha256": "F486389865359BE7E28A5189FCCAF18704F0BDD6C065874637B0F0C0DC187028",
+  "entry": {
+    "depot": "towercontinued\\native_gigs_u9\\sts_ep1_06_entry.questphase",
+    "before": "FF95D12E4DA6C34BF97FBFADE6E8F98F7A657DC854E3D4904FEC69207C59B6BD",
+    "after": "009247C9E151B9C087363AA93ABD8E3E06975ACF1867A505CB80858163E37392",
+    "lease": "$/03_night_city/towercontinued/quest_parity_qp1/heavy_hearts_gig_areas",
+    "preserved_nested_caller": "towercontinued\\johnny_batch6\\sts_ep1_06\\sts_ep1_06_zembinsky.questphase",
+    "normalized_delta": "ONE_PHASE_INSTANCE_PREFAB"
+  },
+  "small_man": {
+    "added_edge": [
+      "618",
+      "0:0",
+      "210",
+      "0:1"
+    ],
+    "and_241_before": [
+      0
+    ],
+    "and_241_after": [
+      0,
+      1,
+      2
+    ],
+    "and_1891_after": [
+      0,
+      1
+    ],
+    "restored_event_payloads": 123,
+    "connected_end": "End 0",
+    "scope": "Stock versus unique installed providers; over-approximate non-cut named-scene routes, enforcing serialized scene AND input cardinality only. No native timing, phase liveness or save transition simulation.",
+    "garage": {
+      "ref": "$/03_night_city/#c_santo_domingo/arroyo/loc_sts_std_arr_12_gas_station_prefabMT3TCMQ/#mq017_pr_van_hideout/mq017_streetkid_03_confront_thugs_prefabJXQYF6A/#mq017_garage_area",
+      "node": 25,
+      "depot": "base\\worlds\\03_night_city\\_compiled\\default\\quest_2c1c6fb4f5331fdf.streamingsector",
+      "typed_limit": "WolvenKit 9.1 DynamicBaseClass to worldNode in garage sector"
+    }
+  },
+  "small_man_fixtures": 5,
+  "heavy_hearts": {
+    "markers": {
+      "#sts_sm_ep1_06_chats": {
+        "node": 2640,
+        "ref": "$/03_night_city/c_pacifica/combat_zone_prefabUEX7DCY/monument_av_prefabCJD7Q4Q/loc_sts_ep1_06_prefab7J2LN5A/loc_sts_ep1_06_openworld_prefabV7KAIGA/#loc_sts_ep1_06_streetstory/sts_ep1_06_chats_prefabDX4S3AY/#sts_sm_ep1_06_chats"
+      },
+      "#sts_sm_ep1_06_bouncer": {
+        "node": 2598,
+        "ref": "$/03_night_city/c_pacifica/combat_zone_prefabUEX7DCY/monument_av_prefabCJD7Q4Q/loc_sts_ep1_06_prefab7J2LN5A/loc_sts_ep1_06_openworld_prefabV7KAIGA/#loc_sts_ep1_06_streetstory/sts_ep1_06_bouncer_prefabZYBDKKA/#sts_sm_ep1_06_bouncer"
+      },
+      "#sts_sm_ep1_06_drug_dealer": {
+        "node": 2614,
+        "ref": "$/03_night_city/c_pacifica/combat_zone_prefabUEX7DCY/monument_av_prefabCJD7Q4Q/loc_sts_ep1_06_prefab7J2LN5A/loc_sts_ep1_06_openworld_prefabV7KAIGA/#loc_sts_ep1_06_streetstory/{sts_ep1_06_drug_dealer}_prefabE3MQF7Y/#sts_sm_ep1_06_drug_dealer"
+      },
+      "#sts_sm_ep1_06_client": {
+        "node": 2674,
+        "ref": "$/03_night_city/c_pacifica/combat_zone_prefabUEX7DCY/monument_av_prefabCJD7Q4Q/loc_sts_ep1_06_prefab7J2LN5A/loc_sts_ep1_06_openworld_prefabV7KAIGA/#loc_sts_ep1_06_streetstory/sts_ep1_06_client_prefabP7HUCDY/#sts_sm_ep1_06_client"
+      }
+    },
+    "gig_areas": [
+      {
+        "native_node": 117,
+        "ref": "$/03_night_city/c_pacifica/combat_zone_prefabUEX7DCY/monument_av_prefabCJD7Q4Q/loc_sts_ep1_06_prefab7J2LN5A/loc_sts_ep1_06_openworld_prefabV7KAIGA/#loc_sts_ep1_06_streetstory/#sts_ep1_06_tr_cleanup",
+        "placement_sha256": "587F41975ED572B9E043C6C5B45C4171CAFFC4429149C5167FED97A705944F38",
+        "new_node": 0
+      },
+      {
+        "native_node": 120,
+        "ref": "$/03_night_city/c_pacifica/combat_zone_prefabUEX7DCY/monument_av_prefabCJD7Q4Q/loc_sts_ep1_06_prefab7J2LN5A/loc_sts_ep1_06_openworld_prefabV7KAIGA/#loc_sts_ep1_06_streetstory/#sts_ep1_06_tr_init",
+        "placement_sha256": "04C1249CE9D7AA42BB7B3B1D70423090811CCC3B73ECF0A916F67BDF9577C62B",
+        "new_node": 1
+      },
+      {
+        "native_node": 131,
+        "ref": "$/03_night_city/c_pacifica/combat_zone_prefabUEX7DCY/monument_av_prefabCJD7Q4Q/loc_sts_ep1_06_prefab7J2LN5A/loc_sts_ep1_06_openworld_prefabV7KAIGA/#loc_sts_ep1_06_streetstory/sts_ep1_06_client_prefabP7HUCDY/#sts_ep1_06_tr_client",
+        "placement_sha256": "BAB8A0CB3714701671DAFB6949853D0F6A538C0CF01AA51CED375391596B672F",
+        "new_node": 2
+      },
+      {
+        "native_node": 142,
+        "ref": "$/03_night_city/c_pacifica/combat_zone_prefabUEX7DCY/monument_av_prefabCJD7Q4Q/loc_sts_ep1_06_prefab7J2LN5A/loc_sts_ep1_06_openworld_prefabV7KAIGA/#loc_sts_ep1_06_streetstory/{sts_ep1_06_drug_dealer}_prefabE3MQF7Y/#sts_ep1_06_tr_drug_dealer_interrupt",
+        "placement_sha256": "2B5C2846A76FC8BE8403C4F084B7945B8300548B8F776476FC15BDC98913660F",
+        "new_node": 3
+      },
+      {
+        "native_node": 149,
+        "ref": "$/03_night_city/c_pacifica/combat_zone_prefabUEX7DCY/monument_av_prefabCJD7Q4Q/loc_sts_ep1_06_prefab7J2LN5A/loc_sts_ep1_06_openworld_prefabV7KAIGA/#loc_sts_ep1_06_streetstory/sts_ep1_06_bouncer_prefabZYBDKKA/#sts_ep1_06_tr_bouncer",
+        "placement_sha256": "C3685CE776EC3A0562F8AE678C99ECF4B7AFD5EA0F900F11CE26EB47C642E259",
+        "new_node": 4
+      },
+      {
+        "native_node": 161,
+        "ref": "$/03_night_city/c_pacifica/combat_zone_prefabUEX7DCY/monument_av_prefabCJD7Q4Q/loc_sts_ep1_06_prefab7J2LN5A/loc_sts_ep1_06_openworld_prefabV7KAIGA/#loc_sts_ep1_06_streetstory/#sts_ep1_06_dealer_enter",
+        "placement_sha256": "5B694AAF0CD5C150B30428ECACE7FB2737686584C59BBB6701E843F5A9D7AD46",
+        "new_node": 5
+      }
+    ],
+    "ambient_areas": [
+      {
+        "native_node": 152,
+        "ref": "$/03_night_city/c_pacifica/combat_zone_prefabUEX7DCY/monument_av_prefabCJD7Q4Q/loc_sts_ep1_06_prefab7J2LN5A/loc_sts_ep1_06_openworld_prefabV7KAIGA/#loc_sts_ep1_06_streetstory/sts_ep1_06_chats_prefabDX4S3AY/#sts_ep1_06_tr_chat_kurtz_002",
+        "placement_sha256": "773E13766B124FE7526DD2A668991634EE29E2E51B00E5248D2D3227E95FA029",
+        "new_node": 0
+      },
+      {
+        "native_node": 159,
+        "ref": "$/03_night_city/c_pacifica/combat_zone_prefabUEX7DCY/monument_av_prefabCJD7Q4Q/loc_sts_ep1_06_prefab7J2LN5A/loc_sts_ep1_06_openworld_prefabV7KAIGA/#loc_sts_ep1_06_streetstory/sts_ep1_06_chats_prefabDX4S3AY/#sts_ep1_06_tr_chat_kurtz_001",
+        "placement_sha256": "518CF211742CAA5CEAB4E60534346B49231EB567199716F625864E489D4503F6",
+        "new_node": 1
+      }
+    ],
+    "ambient_callers": [
+      {
+        "input": "Start 0",
+        "scene": "ep1\\openworld\\street_stories\\sts_ep1_06_zembinsky\\scenes\\sts_ep1_06_chats.scene",
+        "actors": [
+          "chat_kurtz_001a",
+          "chat_kurtz_001b"
+        ],
+        "rearms": false
+      },
+      {
+        "input": "Start1",
+        "scene": "ep1\\openworld\\street_stories\\sts_ep1_06_zembinsky\\scenes\\sts_ep1_06_chats.scene",
+        "actors": [
+          "chat_kurtz_002a",
+          "chat_kurtz_002b"
+        ],
+        "rearms": false
+      },
+      {
+        "input": "dealing",
+        "scene": "ep1\\openworld\\street_stories\\sts_ep1_06_zembinsky\\scenes\\sts_ep1_06_drug_dealer.scene",
+        "actors": [
+          "drug_dealer"
+        ],
+        "rearms": true
+      }
+    ],
+    "archives_scanned": 134
+  },
+  "new_johnny_scene_events": 0,
+  "registration": {
+    "generated_node_id": 60197,
+    "xl_files": 54,
+    "phase_bindings": 828,
+    "native_parent_ids": [
+      0,
+      1,
+      2,
+      12,
+      27
+    ],
+    "xl_sha256": "C40807C52020363443CCD0245343BAEA3EA6702586FF813FC75AB5881AF5AE5B"
+  },
+  "native_judy_overrides": [
+    "base\\quest\\side_quests\\sq030\\phases\\sq030_msg_left_01.questphase",
+    "base\\quest\\side_quests\\sq030\\phases\\sq030_msg_left_02.questphase",
+    "base\\quest\\side_quests\\sq030\\phases\\sq030_msg_left_03.questphase"
+  ],
+  "retained_monk_map_sha256": "8CF46F202E58185AE366175C22BC72EE79623439F7010DDFC034BAEB0D96BE43",
+  "compile_sha256": "26C07BD5AC0104062B3B86EB970E45E659A1B9028F69B425D2152D3C3EE3AD42",
+  "compiled_sources": 148,
+  "component_proofs": {
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\quest_parity_qp1\\candidate_01\\verification.json": "D2E7DCAFBB34F4413E2D6B97A4D9287E647A56533C9C4DF8BBC607C7713E49E7",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\judy_travel_sms_20261106_01\\verification.json": "7FCE3EA7BD375B298C5E8E843D6CDCE4922B5EA87AA7F3AAE9076C4BBAC0F127",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\tower_handoff_th1\\provenance.json": "5978368286501CCC3419A1866C0D31F38102D8EAFA3369C4DD9142A019606E5D",
+    "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\profile_setup_ps1\\provenance.json": "26697D92EE2F2770367A050EB3E589C58B8128FC1C0D8BD8D658C6A79360EFAA"
+  },
+  "script_checks": [
+    "TH1 direct and rooftop routes",
+    "TH1 recovery and saved fields",
+    "PS1 combined cover and setup",
+    "QR20 exact method and tick"
+  ]
+}

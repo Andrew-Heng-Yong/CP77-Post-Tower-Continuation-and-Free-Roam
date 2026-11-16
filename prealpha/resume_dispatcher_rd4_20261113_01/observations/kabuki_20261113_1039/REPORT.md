@@ -1,0 +1,3 @@
+# Kabuki advanced Beat on the Brat
+
+In the 13 November 2026 RD4 session, the log records an initial Kabuki loss, a second native bout, and one win at 10:39:02 Toronto time. The 10:39:48 post-Tower AutoSave-5 records Kabuki Succeeded and the parent and the Arroyo, Glen and Rancho Coronado search objectives Active. The S22 owner receipt is set. This confirms the resumed Kabuki path through loss, retry and win on this fixture. Payout uniqueness, reload and the other bouts' execution were outside the observation. [Log and read-only save projection](evidence.json) · [Installed build](../../deployment_01/REPORT.md)

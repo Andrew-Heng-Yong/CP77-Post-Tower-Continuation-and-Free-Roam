@@ -1,0 +1,10 @@
+{
+  "scope": "Ongoing user-authorized mod installation/test; follow-up instruction: bruh just use global latest. Update the two snapshot scripts to HS4 candidate_02.",
+  "changed_paths": [
+    "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_HistorySnapshotHS1/init.lua",
+    "r6/scripts/PTFR_Consolidated/PTFR_HistorySnapshotHS1.reds"
+  ],
+  "manifest_sha256": "189449D1B41F52D011D922F36E3C9522E3020DB7160B59E0BB97D0E8F1852631",
+  "template_sha256": "D84D6A09FACD7BBC7B7BFBFAA7F8FD7278EB4B20F26879804A4A3195485EBBEB",
+  "gameplay": "User will test; no game launch"
+}

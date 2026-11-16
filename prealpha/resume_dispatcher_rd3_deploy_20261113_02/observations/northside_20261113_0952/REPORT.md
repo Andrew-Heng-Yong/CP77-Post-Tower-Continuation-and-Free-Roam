@@ -1,0 +1,5 @@
+# Northside completed and the tally reached 4/7
+
+On 13 November 2026 the user confirmed RD3 advanced Epistrophy to 4/7 after Northside. The session loaded the pre-ending snapshot at 09:48:34 Toronto time. The log records the native Northside introduction gate, cab commitment and follow-up phone transitions. The 09:52:47 post-Tower AutoSave-2 records Northside and its completion objective as Succeeded, the three previous cabs still completed, and the native scan count at four. The parent remains Active and the existing S22 support and quest receipts are set. [Session log excerpt](log_excerpt.json) · [Read-only save projection](completion_save.json) · [Installed build](../../deployment_01/REPORT.md)
+
+Wellsprings is the next gameplay check. The saved state has its completion fact absent and still has the shared controller issued. Starting from 4/7, approach and complete Wellsprings and verify 5/7. This checks progression to a second cab within the same restored quest. Reload after Northside, the other cabs and the family reward remain unverified.

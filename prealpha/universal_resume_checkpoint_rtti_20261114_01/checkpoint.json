@@ -1,0 +1,22 @@
+{
+  "step": 2,
+  "status": "WORKSPACE_REGISTRATION_REPAIR_VERIFIED_LIVE_STARTUP_PENDING",
+  "installed_core": "RD10_MEET_KIRK_CONTENT_LOCK",
+  "candidate": "candidate_02/receipt.json",
+  "candidate_sha256": "84EA250DAFDBBFF10AABC0C6947B0FFF7C943D97D71BF6593524CD80A7A0005D",
+  "checks": "checks_02/results.json",
+  "checks_sha256": "D2E914E7678A4A4FE0CC955E858BCEFAEFD3581E2EC89027998AE70DC494F5A5",
+  "compile": "compile_02/receipt.json",
+  "compile_sha256": "BC49973F2E83495F24E6DB42D39AECECF5600F97F0E55215701AA36D10C278E6",
+  "native_build": "build_02/build.json",
+  "native_build_sha256": "539D481C6DE25953EA48AC9FD690EA087B325E3A9890E652951D0F560B9DA0C0",
+  "report": "REPORT.md",
+  "registration_checks": 23,
+  "checkpoint_checks": 41,
+  "executable_registration_anchors": 6,
+  "compiled_sources": 148,
+  "original_rejected_lookup": "UNKNOWN_FROM_STARTUP_LOG",
+  "live_startup_verified": false,
+  "game_writes": 0,
+  "save_writes": 0
+}

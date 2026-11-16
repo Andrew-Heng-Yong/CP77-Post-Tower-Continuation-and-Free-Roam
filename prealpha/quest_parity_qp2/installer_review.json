@@ -1,0 +1,29 @@
+{
+  "status": "PASS_QP2_EIGHT_FILE_TRANSACTION_LITERAL_DELTA",
+  "predecessor_installer_sha256": "FCFB273272B4675CB2538E45E96417A520A9C99D196E5023A652A4280FC1FAB0",
+  "installer_sha256": "BD0F435D97AA94AEAC826D1997943EE3188FF8BBA22BAB51B7453E885BC69C88",
+  "manifest_sha256": "213053EFFDC1CF1E8C3DBFA2D99B82E442E1E920DBDDCE542B499688760370EF",
+  "substitutions": {
+    "# ML1 deployment over JB4. The requested monk fix changes one lip map.": "# QP2 deployment over ML1. The user authorized the combined repair install.",
+    "# Only the combined archive is in the write set.": "# The archive, ArchiveXL configuration and six scripts are in the write set.",
+    "# The archive replacement is atomic and journaled. An interrupted journal needs Recover.": "# The replacement set is journaled with per-file atomic replacement. An interrupted journal needs Recover.",
+    "$PinnedCoreManifestSHA='BAAC1D55CD0D993F549CAD12DBABA774C07BD2A2976939202A0A506B0C2BB055'": "$PinnedCoreManifestSHA='213053EFFDC1CF1E8C3DBFA2D99B82E442E1E920DBDDCE542B499688760370EF'",
+    "PTFR_ML1_JB4_CORE_V1": "PTFR_QP2_CORE_V1",
+    "PTFR_ML1_JB4_JOURNAL_V1": "PTFR_QP2_JOURNAL_V1",
+    "$manifest.source_epoch -cne 'ML1' -or $manifest.predecessor_epoch -cne 'JB4'": "$manifest.source_epoch -cne 'QP2' -or $manifest.predecessor_epoch -cne 'ML1'",
+    "recovery/core_ml1_jb4_02": "recovery/core_qp2_01",
+    "$wanted=@('archive/pc/mod/zzzz_PTFR_Combined.archive')": "$wanted=@('archive/pc/mod/zzzz_PTFR_Combined.archive','archive/pc/mod/zzzz_PTFR_Combined.archive.xl','r6/scripts/PTFR_Consolidated/PTFR_HistorySnapshotHS1.reds','r6/scripts/PTFR_Consolidated/PTFR_Housing.reds','r6/scripts/PTFR_Consolidated/PTFR_LoadingCoverLC1.reds','r6/scripts/PTFR_Consolidated/PTFR_RestorationBaseline.reds','r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR1.reds','r6/scripts/PTFR_Consolidated/PTFR_SideJobsS29.reds')",
+    "$changes.Count -ne 1": "$changes.Count -ne 8",
+    "Core51/one-archive scope drift": "Core51/eight-existing-file scope drift"
+  },
+  "allowed_replacements": [
+    "archive/pc/mod/zzzz_PTFR_Combined.archive",
+    "archive/pc/mod/zzzz_PTFR_Combined.archive.xl",
+    "r6/scripts/PTFR_Consolidated/PTFR_HistorySnapshotHS1.reds",
+    "r6/scripts/PTFR_Consolidated/PTFR_Housing.reds",
+    "r6/scripts/PTFR_Consolidated/PTFR_LoadingCoverLC1.reds",
+    "r6/scripts/PTFR_Consolidated/PTFR_RestorationBaseline.reds",
+    "r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR1.reds",
+    "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS29.reds"
+  ]
+}

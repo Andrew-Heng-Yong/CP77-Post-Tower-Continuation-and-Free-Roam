@@ -1,0 +1,9 @@
+# Meet Kirk content check
+
+The RD9 retest confirmed Kirk's phone cleanup and the distance check. AutoSave-6 still has the resume handler waiting on the `MinorQuestAndSts` condition before the journal update. The original quest uses that token before its main phase and briefing. The captured pre-Tower stage was already past that point and waiting for Kirk at the bar. [Retest evidence](../resume_dispatcher_rd9_observe_20261113_01/REPORT.md)
+
+The earned resume route now uses the game's native content-lock condition before proceeding. It waits when the game blocks quest activity. The fresh quest still uses its original scheduler token. The serialized diff verifies the two predicate substitutions, including the unchanged strict distance test and the standalone branch's Pacifica condition. The save path, handler IDs, original phone sequence and downstream journal and encounter graph retain their recorded identities. This is a scoped change to Meet Kirk.
+
+The archive readback matched all 1,748 members with one replaced private resource. The 148 REDscript source hashes matched RD9's compile, and 15 deployment and recovery fixture actions passed. The archive-only candidate was installed on 13 November 2026 at 21:12:46 Toronto time. All 51 Core paths, 26 dependencies and 379 save files verified, with rollback to RD9 ready. [Graph assessment](evidence_01/assessment.json) · [Installed manifest](deployment_01/installed_manifest_01.json) · [Rollback readiness](deployment_01/rollback_readiness.json)
+
+For the next controlled retest, load **Manual Save 27** and let the job check finish in free roam. Check the journal for **Small Man, Big Mouth → Meet Kirk** before traveling. If it appears, visit Kirk and Big Joe at El Coyote Cojo and continue through the garage. Save in a new slot after completion and check the journal after reloading. Gameplay and migration of saves already waiting on RD9 remain unverified.

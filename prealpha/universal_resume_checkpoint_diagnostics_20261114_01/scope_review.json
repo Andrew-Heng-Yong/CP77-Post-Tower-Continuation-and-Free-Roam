@@ -1,0 +1,9 @@
+{
+  "scope": "Replace only the checkpoint DLL with v0.1.3 diagnostics for the Reed cutoff capture failure.",
+  "changed_paths": [
+    "red4ext/plugins/PTFR_ExecutionCheckpoint/PTFR_ExecutionCheckpoint.dll"
+  ],
+  "candidate_sha256": "AFF002B4889ECF7780212D32FA93614C378EC8082FC4F23F1C2C29BD9C1C5197",
+  "predecessor_installed_manifest_sha256": "96C3D0F463FECD7953B2924927E36D358C3219042B8840657E4D8AC9071260E2",
+  "gameplay": "PENDING_DIAGNOSTIC_CUTOFF"
+}

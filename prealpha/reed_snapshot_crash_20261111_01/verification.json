@@ -1,0 +1,18 @@
+{
+  "status": "VERIFIED_OFFLINE",
+  "baseline": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\history_snapshot_cutoff\\deployment_01\\installed_manifest_01.json",
+  "before_sha256": "3DFC328E20F427770AF8A097A947FCF8A12C2EBEE3335F939E1322BE754F020A",
+  "after_sha256": "7DD5104975A6F11719339C92C8D8204F82D8E43ADCBEC25A7C2F3960B4220F2E",
+  "changed_paths": [
+    "r6/scripts/PTFR_Consolidated/PTFR_HistorySnapshotHS1.reds"
+  ],
+  "compile_sources": 148,
+  "semantic_checks": {
+    "catalogue_rows": 158,
+    "fact_fields": 4715,
+    "rows_containing_tower_cutoff_fact": 10,
+    "fact_transition_comparisons": 56580
+  },
+  "package": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\reed_snapshot_crash_20261111_01\\candidate_01\\package",
+  "gameplay": "UNVERIFIED"
+}

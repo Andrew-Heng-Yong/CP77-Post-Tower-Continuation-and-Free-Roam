@@ -1,0 +1,25 @@
+{
+  "changed_paths": [
+    "r6/scripts/PTFR_Consolidated/PTFR_LoadingCoverLC1.reds",
+    "r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR3.reds"
+  ],
+  "core_paths": 51,
+  "source_checks": {
+    "clock": {
+      "scope": "SOURCE_CHECKS_AND_CLOCK_MODEL",
+      "exact_checkpoint_and_midnight": "PASS",
+      "single_and_multiple_forward_skips": "PASS",
+      "rewind_and_reload_without_repeat_credit": "PASS",
+      "recoverable_fact_publication": "PASS",
+      "cap_and_external_override": "PASS",
+      "legacy_migration_and_next_checkpoint": "PASS",
+      "prior_morning_credit_preserved_at_evening": "PASS"
+    },
+    "pool": "LATEST_CAP_APPLIED_BEFORE_READBACK; ONE_DOWNWARD_CORRECTION; NO_TIMEOUT_FAULT",
+    "persistent_schema_and_profile_admission": "MATCH",
+    "cover": "STALE_ROOT_HIDDEN_BEFORE_DETACH; LIVE_INPUT_HANDLER_REQUIRES_OWNER",
+    "fast_travel": "NATIVE_CALLS_PRESERVED; READ_ONLY_TRACE",
+    "gameplay": "UNVERIFIED"
+  },
+  "manifest_sha256": "6CC09F06CBEDE896E7D2BFEF480405A2E58FEA47D39DD050BC3F7DBAE204C8A1"
+}

@@ -1,0 +1,158 @@
+--- a/r6/scripts/PTFR_Consolidated/PTFR_HistorySnapshotHS1.reds
++++ b/r6/scripts/PTFR_Consolidated/PTFR_HistorySnapshotHS1.reds
+@@ -2704,6 +2704,7 @@
+   private let capturePost: Bool;
+   private let lastCapture: Float;
+   private let captureStarted: Float;
++  private let towerCutoffPending: Bool;
+   private let detail: String;
+ 
+   public static func Get(game: GameInstance) -> ref<SnapshotStateHS1> {
+@@ -2731,11 +2732,15 @@
+   }
+   private func Tower() -> Bool { return CyberwarePolicy.Completed(this.GetGameInstance()) && this.Fact("q307_debug_reset")==0; }
+   private func OnAttach() -> Void { this.running=true; this.Restored(); }
+-  private func OnDetach() -> Void { this.jsonReadyHS2=false; this.Unregister(); this.running=false; this.epoch+=1; this.exported=false; }
++  private func OnDetach() -> Void {
++    this.jsonReadyHS2=false; this.Unregister(); this.running=false; this.epoch+=1; this.exported=false;
++    this.towerCutoffPending=false;
++  }
+   private func ResetRead() -> Void { this.cursor=0;this.pass=0;this.changed=false;ArrayClear(this.sample); }
+   public func Restored() -> Void {
+     this.jsonReadyHS2=false;this.jsonCursorHS2=0;ArrayClear(this.jsonRowsHS2);this.jsonHeaderHS2="";
+     this.Unregister();this.epoch+=1;this.exported=false;this.lastCapture=-100.0;this.ResetRead();
++    this.towerCutoffPending=false;
+     if this.schema!=0 && (this.schema!=1 || NotEquals(this.catalogue,SnapshotDataHS1.Fingerprint())) { this.faulted=true; }
+     if this.ready && (!this.Shape(this.rows) || this.revision<=0 || this.schema!=1) { this.faulted=true; }
+     if this.frozen && (!this.ready || (NotEquals(this.origin,n"pre_ending") && NotEquals(this.origin,n"post_ending_fallback"))) { this.faulted=true; }
+@@ -2747,6 +2752,7 @@
+       // An unfrozen old sample is not promoted to a verified pre-ending snapshot on load.
+       if this.ready { this.previousRows=this.rows; }
+       this.ready=false;this.origin=n"";this.fileToken=n"";
++      this.detail="Loaded after cutoff without a frozen pre-ending snapshot.";
+     }
+     this.Register(); if this.running { this.Schedule(); }
+   }
+@@ -2754,7 +2760,7 @@
+     if this.registered { return; }
+     let q=GameInstance.GetQuestsSystem(this.GetGameInstance());
+     ArrayPush(this.listeners,q.RegisterListener(n"q115_point_of_no_return",this,n"OnBoundary"));
+-    ArrayPush(this.listeners,q.RegisterListener(n"q307_point_of_no_return",this,n"OnBoundary"));this.registered=true;
++    ArrayPush(this.listeners,q.RegisterListener(n"q307_point_of_no_return",this,n"OnTowerBoundary"));this.registered=true;
+   }
+   private func Unregister() -> Void {
+     if !this.registered { return; }
+@@ -2767,18 +2773,67 @@
+   }
+   protected cb func OnBoundary(value: Int32) -> Bool {
+     if value<=0 || this.frozen || this.faulted { return false; }
+-    let jm=GameInstance.GetJournalManager(this.GetGameInstance());
+     let age=this.Now()-this.lastCapture;
+-    if this.ready && age>=0.0 && age<=6.0 && !this.Teardown() && IsDefined(jm) && !jm.HasAnyDelayedStateChanges() {
+-      // Check the exact snapshot again at the native boundary; changed history is not certified.
+-      let i=0;
+-      while i<SnapshotDataHS1.Count() { if !this.Same(this.rows[i],this.ReadRow(i)) { this.rows[i].stable=false; };i+=1; }
+-      if !this.Teardown() && !jm.HasAnyDelayedStateChanges() {
+-        this.frozen=true;this.origin=n"pre_ending";this.exported=false;this.fileToken=n"";
+-        this.detail="Pre-ending snapshot frozen; awaiting verified JSON export.";
+-      }
++    if this.LivePreEndingSample() && this.Fact("q307_point_of_no_return")==0 && age>=0.0 && age<=6.0 {
++      this.TryFreeze(false);
+     }
+     this.ResetRead();return false;
++  }
++  private func LivePreEndingSample() -> Bool {
++    return this.running && this.ready && this.lastCapture>=0.0 && Equals(this.origin,n"pre_ending_candidate");
++  }
++  protected cb func OnTowerBoundary(value: Int32) -> Bool {
++    if value!=1 || !this.running || this.frozen || this.faulted || this.Fact("q115_point_of_no_return")!=0 { return false; }
++    this.ResetRead();
++    if !this.LivePreEndingSample() {
++      this.detail="Reed pickup reached before a settled pre-ending snapshot was captured.";
++      ModLog(n"PTFR_HistorySnapshot",this.detail);
++      return false;
++    }
++    this.towerCutoffPending=true;
++    this.detail="Reed pickup observed. Checking the last settled pre-ending snapshot.";
++    // Try on the fact edge before the pickup graph starts the bulk journal changes.
++    // If readback or journal changes are pending, the simulation tick can recheck the saved sample.
++    if this.Fact("q307_point_of_no_return")==1 { this.FinishTowerCutoff(); }
++    return false;
++  }
++  private func TowerCutoffOpen() -> Bool {
++    // AV departure closes retries. A retry verifies only unchanged pre-ending rows.
++    return this.Fact("q307_point_of_no_return")==1 && this.Fact("q115_point_of_no_return")==0 &&
++      this.Fact("q307_active")==1 && this.Fact("q307_debug_reset")==0 && this.Fact("q307_av_fade_out")==0 &&
++      !this.Teardown();
++  }
++  private func FinishTowerCutoff() -> Void {
++    if !this.TowerCutoffOpen() {
++      this.towerCutoffPending=false;
++      this.detail="Reed pickup snapshot could not be verified before departure.";
++      ModLog(n"PTFR_HistorySnapshot",this.detail);
++      return;
++    }
++    // A delayed journal update can settle on a later simulation tick while V is still at pickup.
++    if this.TryFreeze(true) { this.towerCutoffPending=false; }
++  }
++  private func TryFreeze(tower: Bool) -> Bool {
++    let jm=GameInstance.GetJournalManager(this.GetGameInstance());
++    if this.Teardown() || !IsDefined(jm) || jm.HasAnyDelayedStateChanges() { return false; }
++    let stable: array<Bool>;
++    let i=0;
++    let stableCount=0;
++    while i<SnapshotDataHS1.Count() {
++      let cutoffIndex=tower ? ArrayFindFirst(SnapshotDataHS1.Facts(i),"q307_point_of_no_return") : -1;
++      let verified=this.rows[i].stable && this.Same(this.rows[i],this.ReadRow(i),cutoffIndex);
++      ArrayPush(stable,verified);
++      if verified { stableCount+=1; }
++      i+=1;
++    }
++    if this.Teardown() || (tower && !this.TowerCutoffOpen()) || jm.HasAnyDelayedStateChanges() { return false; }
++    i=0;
++    while i<ArraySize(stable) { this.rows[i].stable=stable[i];i+=1; }
++    this.frozen=true;this.origin=n"pre_ending";this.exported=false;this.fileToken=n"";
++    this.detail="Pre-ending snapshot frozen with "+ToString(stableCount)+"/"+ToString(SnapshotDataHS1.Count())+
++      " stable rows. Awaiting verified JSON export.";
++    ModLog(n"PTFR_HistorySnapshot",this.detail);
++    return true;
+   }
+   private func ReadRow(i: Int32) -> SnapshotRowHS1 {
+     let row: SnapshotRowHS1;row.stable=true;
+@@ -2798,12 +2853,17 @@
+     row.legacyCertified=IsDefined(legacy) && legacy.Certified(SnapshotDataHS1.ID(i));
+     return row;
+   }
+-  private func Same(a: SnapshotRowHS1,b: SnapshotRowHS1) -> Bool {
++  private func Same(a: SnapshotRowHS1,b: SnapshotRowHS1,cutoffIndex: Int32) -> Bool {
+     if ArraySize(a.states)!=ArraySize(b.states) || ArraySize(a.facts)!=ArraySize(b.facts) { return false; }
+     let k=0;while k<ArraySize(a.states) {
+       if a.states[k]!=b.states[k] || a.counters[k]!=b.counters[k] || a.optional[k]!=b.optional[k] || a.tracked[k]!=b.tracked[k] { return false; };k+=1;
+     }
+-    k=0;while k<ArraySize(a.facts) { if a.facts[k]!=b.facts[k] { return false; };k+=1; }return true;
++    k=0;while k<ArraySize(a.facts) {
++      // The native callback follows this one write. The saved value still comes from the pre-ending sample.
++      if a.facts[k]!=b.facts[k] && !(k==cutoffIndex && a.facts[k]==0 && b.facts[k]==1) { return false; }
++      k+=1;
++    }
++    return true;
+   }
+   private func Shape(rows: array<SnapshotRowHS1>) -> Bool {
+     if ArraySize(rows)!=SnapshotDataHS1.Count() { return false; }
+@@ -2818,6 +2878,7 @@
+     if !this.running || epoch!=this.epoch { return; }this.Schedule();
+     if this.faulted { return; }
+     if this.frozen { this.PrepareJSONHS2(); return; }
++    if this.towerCutoffPending { this.FinishTowerCutoff(); return; }
+     let game=this.GetGameInstance();let jm=GameInstance.GetJournalManager(game);
+     let player=GameInstance.GetPlayerSystem(game).GetLocalPlayerMainGameObject() as PlayerPuppet;
+     if !IsDefined(jm) || !IsDefined(player) || player.IsReplacer() || player.IsDead() || jm.HasAnyDelayedStateChanges() { this.ResetRead();return; }
+@@ -2832,7 +2893,7 @@
+     while budget<16 && this.cursor<SnapshotDataHS1.Count() {
+       row=this.ReadRow(this.cursor);
+       if this.pass==1 { ArrayPush(this.sample,row); }
+-      else { if !this.Same(this.sample[this.cursor],row) { this.sample[this.cursor].stable=false; } }
++      else { if !this.Same(this.sample[this.cursor],row,-1) { this.sample[this.cursor].stable=false; } }
+       this.cursor+=1;budget+=1;
+     }
+     if this.cursor<SnapshotDataHS1.Count() { return; }

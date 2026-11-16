@@ -1,0 +1,472 @@
+diff --git a/r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR1.reds b/r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR1.reds
+--- a/r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR1.reds
++++ b/r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR1.reds
+@@ -19,18 +19,55 @@
+     return GameInstance.GetScriptableSystemsContainer(game).Get(n"PTFR.RestrictionsR1.CyberwarePolicy") as CyberwarePolicy;
+   }
+   public static func Completed(game: GameInstance) -> Bool {
++    return Equals(CyberwarePolicy.CompletionBlocker(game), n"");
++  }
++  public static func CompletionBlocker(game: GameInstance) -> CName {
+     let q = GameInstance.GetQuestsSystem(game);
+-    return IsDefined(q) && q.GetFact(n"PostTowerFreeRoamActive") == 1 && q.GetFact(n"PTFRP0_DR13") == 1 &&
+-      q.GetFact(n"q307_done") == 1 && q.GetFact(n"q307_finished") == 1 && q.GetFact(n"q307_active") == 0 &&
+-      q.GetFact(n"q307_2079") == 1 && q.GetFact(n"q307_main_game_killed") == 1 && q.GetFact(n"q307_ep1_killed") == 1 &&
+-      q.GetFact(n"q305_johnny_scene_active") == 0 && q.GetFact(n"q115_point_of_no_return") == 0;
++    if !IsDefined(q) { return n"quest_system_unavailable"; }
++    if q.GetFact(n"q307_done") != 1 || q.GetFact(n"q307_finished") != 1 ||
++       q.GetFact(n"q307_active") != 0 || q.GetFact(n"q307_2079") != 1 {
++      return n"tower_cleanup_pending";
++    }
++    if q.GetFact(n"q307_main_game_killed") != 1 || q.GetFact(n"q307_ep1_killed") != 1 ||
++       q.GetFact(n"q305_johnny_scene_active") != 0 {
++      return n"tower_teardown_pending";
++    }
++    if q.GetFact(n"PostTowerFreeRoamActive") != 1 || q.GetFact(n"PTFRP0_DR13") != 1 {
++      return n"retained_return_pending";
++    }
++    let ponr = q.GetFact(n"q115_point_of_no_return");
++    if ponr == 0 { return n""; }
++    if ponr != 1 || q.GetFact(n"q307_debug_reset") != 0 || q.GetFact(n"q307_rooftop_chicken") != 0 ||
++       q.GetFact(n"q115_var_test_def") != 0 || q.GetFact(n"q115_suicide_ending") != 0 {
++      return n"q115_route_conflict";
++    }
++    // Both vanilla Reed routes from the Q115 roof converge on the native
++    // Q115 call and AV receipts. Retain the Q115 boundary as story history.
++    if q.GetFact(n"q307_start") != 1 || q.GetFact(n"q307_point_of_no_return") != 1 ||
++       q.GetFact(n"q307_rooftop_q115_seated") != 1 || q.GetFact(n"q307_q115_call_done") != 1 ||
++       q.GetFact(n"q307_confirm_av_done") != 1 || q.GetFact(n"q307_q115_wait") != 0 {
++      return n"q115_rooftop_unverified";
++    }
++    // The owned credits/arrival chain follows vanilla Q307 cleanup. This is
++    // setup admission only. Individual activity and history gates stay separate.
++    if q.GetFact(n"PTFRP0_DR02") != 1 || q.GetFact(n"PTFRP0_DR07") != 1 || q.GetFact(n"PTFRP0_DR12") != 1 ||
++       q.GetFact(n"PTFRPA2_Started") != 1 || q.GetFact(n"PTFRPA2_Teleported") != 1 ||
++       q.GetFact(n"PTFRPA3_CoverReleased") != 1 || q.GetFact(n"PTFRPA4_CameraAligned") != 1 ||
++       q.GetFact(n"PTFRPA2_ControlReady") != 1 {
++      return n"q115_retained_arrival_unverified";
++    }
++    return n"";
+   }
+   public static func Active(owner: ref<GameObject>) -> Bool {
+     let player = owner as PlayerPuppet;
+     if !IsDefined(player) || player.IsReplacer() { return false; }
+     if GameInstance.GetPlayerSystem(owner.GetGame()).GetLocalPlayerMainGameObject() != owner { return false; }
+-    let policy = CyberwarePolicy.Get(owner.GetGame());
+-    return IsDefined(policy) && policy.mode != 2 && CyberwarePolicy.Completed(owner.GetGame());
++    let game = owner.GetGame();
++    let policy = CyberwarePolicy.Get(game);
++    if !IsDefined(policy) || policy.mode == 2 || !CyberwarePolicy.Completed(game) { return false; }
++    let q = GameInstance.GetQuestsSystem(game);
++    // Recovery can validate history and saved ledgers while policy writes wait.
++    return q.GetFact(n"q115_point_of_no_return") == 0 || q.GetFact(n"PTFRPA2_Fault") == 0;
+   }
+   public static func Area(area: gamedataEquipmentArea) -> Bool {
+     return Equals(area, gamedataEquipmentArea.FrontalCortexCW) || Equals(area, gamedataEquipmentArea.SystemReplacementCW) ||
+diff --git a/r6/scripts/PTFR_Consolidated/PTFR_RestorationBaseline.reds b/r6/scripts/PTFR_Consolidated/PTFR_RestorationBaseline.reds
+--- a/r6/scripts/PTFR_Consolidated/PTFR_RestorationBaseline.reds
++++ b/r6/scripts/PTFR_Consolidated/PTFR_RestorationBaseline.reds
+@@ -1,6 +1,7 @@
+ module PTFR.RestorationBaseline
+ 
+ import PTFR.Housing.*
++import PTFR.RestrictionsR1.CyberwarePolicy
+ 
+ // Baseline-R1: startup for EXISTING native resources, not duplicate owners.
+ // No vanilla fact writer; counters, in-flight owners and interruptions retained.
+@@ -113,7 +114,7 @@
+       ToString(q.GetFact(n"apartment_on")) + "/" + ToString(q.GetFact(n"interior_manager_on")) +
+       " | Armed is permission only; native apartment trigger controls prompts. Native ownership is not rendered-geometry proof; public building and purchase rules are separate.";
+   }
+-  private func Startup(q: ref<QuestsSystem>, player: ref<PlayerPuppet>, p: Vector4) -> Void {
++  private func Startup(q: ref<QuestsSystem>, player: ref<PlayerPuppet>, p: Vector4, housingOnly: Bool) -> Void {
+     if q.GetFact(n"PTFRBASE_Suspended") != 0 { return; }
+     let game = this.GetGameInstance();
+     let scenes = GameInstance.GetSceneSystem(game).GetScriptInterface();
+@@ -137,6 +138,10 @@
+     let corridor = high == 1 && tier == 1 && dx*dx+dy*dy <= 3600.0 && AbsF(p.Z-122.869896) < 5.0
+       && (AbsF(dx) > 8.04180908 || AbsF(dy) > 8.04180908);
+     let h10Geometry = corridor || (high == 1 && tier == 1 && this.H10OffsiteReady(q,p));
++    if housingOnly {
++      this.RequestH10Geometry(q, h10Geometry);
++      return;
++    }
+     let coyoteOutside = this.D2(p,-1244.82678,-984.757996,12.0170002) > 64.0;
+     // PTFRB0NIDG_auto
+     if q.GetFact(n"PostTowerFreeRoamActive") == 1 &&
+@@ -426,6 +431,40 @@
+        q.GetFact(n"PTFRB0WV_Excluded") == 0 {
+       this.Set(q,n"PTFRB0WV_Enabled",1);
+     }
++    this.RequestH10Geometry(q, h10Geometry);
++    // Coyote public mirror
++    if coyoteOutside &&
++       q.GetFact(n"PostTowerFreeRoamActive") == 1 &&
++       q.GetFact(n"PTFRP0_DR13") == 1 &&
++       q.GetFact(n"q307_active") == 0 &&
++       q.GetFact(n"q307_done") == 1 &&
++       q.GetFact(n"q307_finished") == 1 &&
++       q.GetFact(n"q307_2079") == 1 &&
++       q.GetFact(n"q307_main_game_killed") == 1 &&
++       q.GetFact(n"q305_johnny_scene_active") == 0 &&
++       q.GetFact(n"q115_point_of_no_return") == 0 &&
++       q.GetFact(n"q000_done") == 1 &&
++       q.GetFact(n"mirror_interaction_disabled") == 0 &&
++       q.GetFact(n"PTFRCM1_Requested") == 0 &&
++       q.GetFact(n"PTFRCM2_Boot") == 1 &&
++       q.GetFact(n"PTFRCM2_Requested") == 0 &&
++       q.GetFact(n"PTFRCM2_Active") == 0 &&
++       q.GetFact(n"PTFRCM2_Interrupted") == 0 {
++      this.Set(q,n"PTFRCM2_Requested",1);
++    }
++    // Native Afterlife owner can bootstrap an unarmed completed-Tower save as
++    // well as switch a saved v5/v6 fallback. Never request both scene owners.
++    if q.GetFact(n"mirror_interaction_disabled") == 0 && q.GetFact(n"PTFRALMA1_Requested") == 0 && q.GetFact(n"PTFRALMA2_Boot") == 1 &&
++       q.GetFact(n"PTFRALMA2_Requested") == 0 && q.GetFact(n"PTFRALMA2_Active") == 0 &&
++       q.GetFact(n"PTFRALMA2_Interrupted") == 0 && q.GetFact(n"PTFRB0ALM_Active") == 0 &&
++       q.GetFact(n"PTFRB0ALM_Near") == 0 && q.GetFact(n"PTFRB0ALM_Interrupted") == 0 &&
++       (q.GetFact(n"PTFRB0ALM_Enabled") == 0 || q.GetFact(n"PTFRB0ALM_Enabled") == 1) &&
++       this.D2(p,-1438.97388,1039.22314,16.92) > 49.0 {
++      this.Set(q,n"PTFRB0ALM_Enabled",0);
++      if q.GetFact(n"PTFRB0ALM_Enabled") == 0 { this.Set(q,n"PTFRALMA2_Requested",1); }
++    }
++  }
++  private func RequestH10Geometry(q: ref<QuestsSystem>, h10Geometry: Bool) -> Void {
+     // PTFRB0H10_geometry
+     if h10Geometry &&
+        q.GetFact(n"PostTowerFreeRoamActive") == 1 &&
+@@ -529,38 +568,8 @@
+        q.GetFact(n"PTFRB0H10A_W_Rejected") == 0 {
+       this.Set(q,n"PTFRB0H10A_W_Request",1);
+     }
+-    // Coyote public mirror
+-    if coyoteOutside &&
+-       q.GetFact(n"PostTowerFreeRoamActive") == 1 &&
+-       q.GetFact(n"PTFRP0_DR13") == 1 &&
+-       q.GetFact(n"q307_active") == 0 &&
+-       q.GetFact(n"q307_done") == 1 &&
+-       q.GetFact(n"q307_finished") == 1 &&
+-       q.GetFact(n"q307_2079") == 1 &&
+-       q.GetFact(n"q307_main_game_killed") == 1 &&
+-       q.GetFact(n"q305_johnny_scene_active") == 0 &&
+-       q.GetFact(n"q115_point_of_no_return") == 0 &&
+-       q.GetFact(n"q000_done") == 1 &&
+-       q.GetFact(n"mirror_interaction_disabled") == 0 &&
+-       q.GetFact(n"PTFRCM1_Requested") == 0 &&
+-       q.GetFact(n"PTFRCM2_Boot") == 1 &&
+-       q.GetFact(n"PTFRCM2_Requested") == 0 &&
+-       q.GetFact(n"PTFRCM2_Active") == 0 &&
+-       q.GetFact(n"PTFRCM2_Interrupted") == 0 {
+-      this.Set(q,n"PTFRCM2_Requested",1);
+-    }
+-    // Native Afterlife owner can bootstrap an unarmed completed-Tower save as
+-    // well as switch a saved v5/v6 fallback. Never request both scene owners.
+-    if q.GetFact(n"mirror_interaction_disabled") == 0 && q.GetFact(n"PTFRALMA1_Requested") == 0 && q.GetFact(n"PTFRALMA2_Boot") == 1 &&
+-       q.GetFact(n"PTFRALMA2_Requested") == 0 && q.GetFact(n"PTFRALMA2_Active") == 0 &&
+-       q.GetFact(n"PTFRALMA2_Interrupted") == 0 && q.GetFact(n"PTFRB0ALM_Active") == 0 &&
+-       q.GetFact(n"PTFRB0ALM_Near") == 0 && q.GetFact(n"PTFRB0ALM_Interrupted") == 0 &&
+-       (q.GetFact(n"PTFRB0ALM_Enabled") == 0 || q.GetFact(n"PTFRB0ALM_Enabled") == 1) &&
+-       this.D2(p,-1438.97388,1039.22314,16.92) > 49.0 {
+-      this.Set(q,n"PTFRB0ALM_Enabled",0);
+-      if q.GetFact(n"PTFRB0ALM_Enabled") == 0 { this.Set(q,n"PTFRALMA2_Requested",1); }
+-    }
+-  }
++  }
++
+   // H6: publish paid-home permission independently of unrelated ambient scenes.
+   // The existing native owner still owns apartment/phone gates and all actions.
+   // This never starts, cuts or resets a scene, rebuilds geometry or takes money.
+@@ -657,7 +666,8 @@
+     if q.GetFact(n"q307_2079") != 1 { eligible = false; }
+     if q.GetFact(n"q307_main_game_killed") != 1 { eligible = false; }
+     if q.GetFact(n"q305_johnny_scene_active") != 0 { eligible = false; }
+-    if q.GetFact(n"q115_point_of_no_return") != 0 { eligible = false; }
++    let housingOnly = q.GetFact(n"q115_point_of_no_return") != 0;
++    if housingOnly && (!CyberwarePolicy.Completed(game) || q.GetFact(n"PTFRPA2_Fault") != 0) { eligible = false; }
+     if q.GetFact(n"q000_done") != 1 { eligible = false; }
+     // Keep watching across the real ending; never force completion or stop
+     // permanently just because this session attached before the credits.
+@@ -667,12 +677,14 @@
+     let player = players.GetLocalPlayerMainGameObject() as PlayerPuppet;
+     if !IsDefined(player) { this.Schedule(epoch,1.0); return; }
+     let p = player.GetWorldPosition();
+-    this.Set(q,n"PTFRBASE_Ready",1);
++    if !housingOnly { this.Set(q,n"PTFRBASE_Ready",1); }
+     this.HousingServicesH6(q,player,p);
+     if this.startupTicks <= 0 {
+-      this.Startup(q,player,p); this.startupTicks = this.H10GeometryReady() ? 10 : 2;
++      this.Startup(q,player,p,housingOnly); this.startupTicks = this.H10GeometryReady() ? 10 : 2;
+     }
+     this.startupTicks -= 1;
++    // Other owners keep their existing native boundary and admission rules.
++    if housingOnly { this.Schedule(epoch,1.0); return; }
+     this.Far(q,p,n"PTFRB0NIDG_Enabled", n"PTFRB0NIDG_Near", n"PTFRB0NIDG_Far",n"wat_nid_gunsmith_01_default_on",-1891.043210000,2730.455080000,7.454570000);
+     this.Far(q,p,n"PTFRB0NIDF_Enabled", n"PTFRB0NIDF_Near", n"PTFRB0NIDF_Far",n"wat_nid_foodshop_01_default_on",-1914.454350000,2739.485350000,10.898680000);
+     this.Far(q,p,n"PTFRB0NIDM_Enabled", n"PTFRB0NIDM_Near", n"PTFRB0NIDM_Far",n"wat_nid_medicstore_02_default_on",-1933.200810000,2744.163570000,10.450100000);
+diff --git a/r6/scripts/PTFR_Consolidated/PTFR_Housing.reds b/r6/scripts/PTFR_Consolidated/PTFR_Housing.reds
+--- a/r6/scripts/PTFR_Consolidated/PTFR_Housing.reds
++++ b/r6/scripts/PTFR_Consolidated/PTFR_Housing.reds
+@@ -1,6 +1,7 @@
+ module PTFR.Housing
+ import PTFR.LoadingCoverLC1.*
+ import Codeware.UI.*
++import PTFR.RestrictionsR1.CyberwarePolicy
+ import PTFR.RestrictionsR3.*
+ import PTFR.RestorationBaseline.*
+ 
+@@ -1056,6 +1057,7 @@
+     return IsDefined(profile) && profile.PTFRPAComplete() && !profile.PTFRPAFaulted();
+   }
+   private func MigrationContext() -> Bool {
++    if this.Fact("q115_point_of_no_return") != 0 && !CyberwarePolicy.Completed(this.GetGameInstance()) { return false; }
+     if !this.Tower() || !this.ProfileReady() || this.Fact("PTFRPA2_Started") != 1 || this.Fact("PTFRPA2_Teleported") != 1 ||
+       this.Fact("PTFRPA2_ControlReady") != 1 || this.Fact("PTFRPA2_Fault") != 0 || !this.H10Quiet() || !this.SafeActor(this.Player()) { return false; }
+     let ui = GameInstance.GetBlackboardSystem(this.GetGameInstance()).Get(GetAllBlackboardDefs().UI_System);
+@@ -1116,6 +1118,9 @@
+     }
+     let record = this.Record(id);
+     return this.schemaVersion == 1 && this.activated && this.RecordValid(record) && (record.purchaseState == 2 || record.purchaseState == 3);
++  }
++  public func LC1RecoveryHealthy() -> Bool {
++    return this.running && !this.inCall && this.Valid() && Equals(this.fault, n"");
+   }
+   public func HousingReadyForReveal() -> Bool {
+     if !this.Valid() || !this.activated || !this.Tower() || !this.ProfileReady() || NotEquals(this.fault, n"") || this.Fact("PTFRH1_Ready") != 1 || this.Fact("PTFRH1_Fault") != 0 { return false; }
+diff --git a/r6/scripts/PTFR_Consolidated/PTFR_HistorySnapshotHS1.reds b/r6/scripts/PTFR_Consolidated/PTFR_HistorySnapshotHS1.reds
+--- a/r6/scripts/PTFR_Consolidated/PTFR_HistorySnapshotHS1.reds
++++ b/r6/scripts/PTFR_Consolidated/PTFR_HistorySnapshotHS1.reds
+@@ -2847,6 +2847,7 @@
+     this.ResetRead();
+   }
+   public func Ready() -> Bool { return !this.faulted && this.ready && this.frozen && this.exported; }
++  public func Faulted() -> Bool { return this.faulted; }
+   public func CanExport() -> Bool { return this.running && this.jsonReadyHS2 && !this.faulted && this.ready && this.frozen; }
+   public func Epoch() -> Int32 { return this.epoch; }
+   public func Revision() -> Int32 { return this.revision; }
+@@ -2955,6 +2956,7 @@
+   private let running:Bool;
+   private let epoch:Int32;
+   private let stable:Int32;
++  private let blocker:CName;
+   public static func Get(game:GameInstance) -> ref<SnapshotRecoveryHS1> {
+     return GameInstance.GetScriptableSystemsContainer(game).Get(n"PTFR.HistorySnapshotHS1.SnapshotRecoveryHS1") as SnapshotRecoveryHS1;
+   }
+@@ -2962,21 +2964,46 @@
+   private func OnAttach() -> Void { this.running=true;this.Restored(); }
+   private func OnDetach() -> Void { this.running=false;this.epoch+=1; }
+   public func Restored() -> Void {
+-    this.epoch+=1;this.stable=0;
++    this.epoch+=1;this.stable=0;this.blocker=n"checking_saved_preparation";
+     if (this.schema!=0 && this.schema!=1) || (this.phase!=0 && (this.schema!=1 || this.originalFault!=2)) { this.phase=99; }
+     if this.running { this.Schedule(); }
+   }
+   private func Schedule() -> Void { GameInstance.GetDelaySystem(this.GetGameInstance()).DelayCallback(SnapshotRecoveryTickHS1.Create(this,this.epoch),0.25,false); }
+-  private func BaseReady() -> Bool {
+-    let game=this.GetGameInstance();let player=GameInstance.GetPlayerSystem(game).GetLocalPlayerMainGameObject() as PlayerPuppet;
+-    let profile=ProfilePolicy.Get(game);let entry=PreAlphaEntry.Get(game);
+-    return SnapshotStateHS1.StartupReady(game) && CyberwarePolicy.Completed(game) && this.Fact(n"q307_debug_reset")==0 &&
+-      IsDefined(entry) && entry.SnapshotInitializationHealthy() &&
+-      this.Fact(n"PTFRPA2_Started")==1 && this.Fact(n"PTFRPA2_Teleported")==1 &&
+-      this.Fact(n"PTFRPA2_ControlReady")==1 && this.Fact(n"PTFRPA3_CoverReleased")==1 &&
+-      this.Fact(n"PTFRPA4_CameraAligned")==1 && this.Fact(n"PTFRPA5O_Ready")==1 && this.Fact(n"PTFRPA5O_Done")==1 &&
+-      this.Fact(n"PTFRPA5O_NativeOut")==1 && this.Fact(n"PTFRPA5O_Fault")==0 && this.Fact(n"PTFRH1_Fault")==0 &&
+-      IsDefined(profile) && !profile.PTFRPAFaulted() && IsDefined(player) && BodyPolicy.Safe(player);
++  private func BaseBlocker() -> CName {
++    let game = this.GetGameInstance();
++    let ending = CyberwarePolicy.CompletionBlocker(game);
++    if NotEquals(ending, n"") { return ending; }
++    let entry = PreAlphaEntry.Get(game);
++    if this.Fact(n"q307_debug_reset") != 0 || !IsDefined(entry) || !entry.SnapshotInitializationHealthy() {
++      return n"entry_unverified";
++    }
++    if !SnapshotStateHS1.StartupReady(game) { return n"history_unverified"; }
++    if this.Fact(n"PTFRPA2_Started") != 1 || this.Fact(n"PTFRPA2_Teleported") != 1 ||
++       this.Fact(n"PTFRPA2_ControlReady") != 1 || this.Fact(n"PTFRPA3_CoverReleased") != 1 ||
++       this.Fact(n"PTFRPA4_CameraAligned") != 1 || this.Fact(n"PTFRPA5O_Ready") != 1 ||
++       this.Fact(n"PTFRPA5O_Done") != 1 || this.Fact(n"PTFRPA5O_NativeOut") != 1 || this.Fact(n"PTFRPA5O_Fault") != 0 {
++      return n"arrival_receipts_unverified";
++    }
++    let housing = HousingState.Get(game);
++    if !IsDefined(housing) || !housing.LC1RecoveryHealthy() || this.Fact(n"PTFRH1_Fault") != 0 {
++      return n"housing_ledger_unverified";
++    }
++    let profile = ProfilePolicy.Get(game);
++    let body = BodyPolicy.Get(game);
++    let chrome = CyberwarePolicy.Get(game);
++    if !IsDefined(profile) || profile.PTFRPAFaulted() || !IsDefined(body) || body.PTFRR3Faulted() ||
++       !IsDefined(chrome) || !chrome.PTFRR2Healthy() {
++      return n"profile_transaction_unverified";
++    }
++    let player = GameInstance.GetPlayerSystem(game).GetLocalPlayerMainGameObject() as PlayerPuppet;
++    let arrival = GameInstance.GetScriptableSystemsContainer(game).Get(n"PTFR.ActivityStateR3.PreAlphaArrivalPA1") as PreAlphaArrivalPA1;
++    if !IsDefined(player) || !BodyPolicy.Safe(player) || !IsDefined(arrival) || !arrival.LC1ControlReady() {
++      return n"live_control_unverified";
++    }
++    if profile.PTFRPAComplete() && (!body.PTFRR3Complete() || !profile.LC1LedgerValid(player)) {
++      return n"completed_profile_ledger_unverified";
++    }
++    return n"";
+   }
+   private func ExactFailedPreparation() -> Bool {
+     return this.Fact(n"PTFRPA2_Fault")==2 && this.Fact(n"PTFRPA2_Prepared")==0 &&
+@@ -2988,9 +3015,13 @@
+   public func Poll(epoch:Int32) -> Void {
+     if !this.running || epoch!=this.epoch { return; }this.Schedule();
+     if this.phase==3 || this.phase==99 { return; }
+-    if !this.BaseReady() { this.stable=0;return; }
++    if this.phase==0 && this.Fact(n"PTFRPA2_Fault")!=2 { return; }
++    if this.phase==0 && !this.ExactFailedPreparation() {
++      this.blocker=n"timeout_receipts_conflict";this.stable=0;return;
++    }
++    this.blocker=this.BaseBlocker();
++    if NotEquals(this.blocker,n"") { this.stable=0;return; }
+     if this.phase==0 {
+-      if !this.ExactFailedPreparation() { this.stable=0;return; }
+       this.stable+=1;if this.stable<4 { return; }
+       this.schema=1;this.originalFault=2;this.phase=1;this.stable=0;
+     }
+@@ -3000,20 +3031,26 @@
+       } else { if this.Fact(n"PTFRPA2_Fault")!=0 || this.Fact(n"PTFRPA2_Finished")!=0 { this.phase=99;return; } }
+       this.phase=2;return;
+     }
+-    if this.phase!=2 || this.Fact(n"PTFRPA2_Fault")!=0 { return; }
++    if this.phase!=2 { return; }
++    if this.Fact(n"PTFRPA2_Fault")!=0 { this.blocker=n"recovery_fault";this.stable=0;return; }
+     if this.Fact(n"PTFRPA2_Finished")==1 { this.phase=3;return; }
+     let game=this.GetGameInstance();let housing=HousingState.Get(game);let profile=ProfilePolicy.Get(game);
++    let player=GameInstance.GetPlayerSystem(game).GetLocalPlayerMainGameObject() as PlayerPuppet;
++    let chrome=CyberwarePolicy.Get(game);
+     let arrival=GameInstance.GetScriptableSystemsContainer(game).Get(n"PTFR.ActivityStateR3.PreAlphaArrivalPA1") as PreAlphaArrivalPA1;
+     let world=GameInstance.GetScriptableSystemsContainer(game).Get(n"PTFR.RestorationBaseline.RestorationBaseline") as RestorationBaseline;
+     if this.Fact(n"PTFRPA2_Prepared")!=1 || this.Fact(n"PTFRPA2_Reveal")!=1 || !IsDefined(arrival) || !arrival.Completed() ||
+       !IsDefined(housing) || !housing.HousingReadyForReveal() || !profile.PTFRPAComplete() || !IsDefined(world) || !world.H10GeometryReady() {
+-      this.stable=0;return;
++      this.blocker=n"preparation_receipts_pending";this.stable=0;return;
+     }
+-    if housing.Entitled("h10") && !world.H10ActionsArmed() { this.stable=0;return; }
++    if housing.Entitled("h10") && !world.H10ActionsArmed() { this.blocker=n"entitled_h10_owner_pending";this.stable=0;return; }
++    if !profile.LC1PhysicalReady() || !chrome.PTFRR2Ready(player) { this.blocker=n"profile_readback_pending";this.stable=0;return; }
+     this.stable+=1;if this.stable<4 { return; }
+     if this.SetOwned(n"PTFRPA2_Finished",1) { this.phase=3; } else { this.phase=99; }
+   }
+-  public func Status() -> String { return "HS1 preparation continuation phase="+ToString(this.phase)+" originalFault="+ToString(this.originalFault)+" (0 unused, 1 recorded, 2 resuming, 3 finished, 99 stopped)"; }
++  public func Resuming() -> Bool { return this.phase==1 || this.phase==2; }
++  public func SetupBlocker() -> CName { return this.phase==99 ? n"recovery_stopped" : this.blocker; }
++  public func Status() -> String { return "HS1 preparation continuation phase="+ToString(this.phase)+" originalFault="+ToString(this.originalFault)+" blocker="+NameToString(this.SetupBlocker()); }
+ }
+ public class SnapshotRecoveryTickHS1 extends DelayCallback {
+   private let owner:wref<SnapshotRecoveryHS1>;
+diff --git a/r6/scripts/PTFR_Consolidated/PTFR_LoadingCoverLC1.reds b/r6/scripts/PTFR_Consolidated/PTFR_LoadingCoverLC1.reds
+--- a/r6/scripts/PTFR_Consolidated/PTFR_LoadingCoverLC1.reds
++++ b/r6/scripts/PTFR_Consolidated/PTFR_LoadingCoverLC1.reds
+@@ -45,6 +45,7 @@
+   private let started: Float;
+   private let stableSince: Float;
+   private let stage: String;
++  private let stageReason: CName;
+   private let detail: String;
+   private let attachedAt: Float;
+   private let listener: Uint32;
+@@ -76,7 +77,7 @@
+   }
+   public func Restored() -> Void {
+     this.Unregister();this.Drop();this.epoch+=1;this.released=false;this.leaving=false;
+-    this.started=-1.0;this.stableSince=-1.0;this.attachedAt=-1.0;this.stage="";this.detail="";
++    this.started=-1.0;this.stableSince=-1.0;this.attachedAt=-1.0;this.stage="";this.detail="";this.stageReason=n"";
+     this.rendered=false;this.completedSteps=0;this.engineStarted=-1.0;this.lastHeartbeat=-1.0;
+     let game=this.GetGameInstance();let profile=ProfilePolicy.Get(game);let body=BodyPolicy.Get(game);let housing=HousingState.Get(game);
+     // A completed save may load in combat, with a weapon, or in a vehicle.
+@@ -111,10 +112,13 @@
+   // Compatibility entry point only. The setup cover has no exit action.
+   public func Leave(epoch:Int32) -> Void {}
+   private func SetStage(stage:String,detail:String) -> Void {
+-    if NotEquals(this.stage,stage) {
+-      ModLog(n"PTFR_LoadingLC3","elapsedSim="+ToString(this.Now()-this.started)+" stage="+stage+" | "+detail);
+-    }
+-    this.stage=stage;this.detail=detail;
++    this.SetStageReason(stage,detail,n"");
++  }
++  private func SetStageReason(stage:String,detail:String,reason:CName) -> Void {
++    if NotEquals(this.stage,stage) || NotEquals(this.stageReason,reason) {
++      ModLog(n"PTFR_LoadingLC3","build=TH1 elapsedSim="+ToString(this.Now()-this.started)+" stage="+stage+" reason="+NameToString(reason)+" | "+detail);
++    }
++    this.stage=stage;this.detail=detail;this.stageReason=reason;
+     if IsDefined(this.popup) { this.popup.UpdateText(stage,detail);this.popup.UpdateProgress(this.completedSteps,12); }
+   }
+   private func EndingFacts() -> String {
+@@ -122,7 +126,13 @@
+       " done/finished="+ToString(this.Fact(n"q307_done"))+"/"+ToString(this.Fact(n"q307_finished"))+
+       " q307active="+ToString(this.Fact(n"q307_active"))+" 2079="+ToString(this.Fact(n"q307_2079"))+
+       " killed="+ToString(this.Fact(n"q307_main_game_killed"))+"/"+ToString(this.Fact(n"q307_ep1_killed"))+
+-      " Johnny="+ToString(this.Fact(n"q305_johnny_scene_active"))+" PONR="+ToString(this.Fact(n"q115_point_of_no_return"));
++      " Johnny="+ToString(this.Fact(n"q305_johnny_scene_active"))+" PONR="+ToString(this.Fact(n"q115_point_of_no_return"))+
++      " Q307Start/PONR="+ToString(this.Fact(n"q307_start"))+"/"+ToString(this.Fact(n"q307_point_of_no_return"))+
++      " rooftop seated/call/confirm/wait="+ToString(this.Fact(n"q307_rooftop_q115_seated"))+"/"+
++      ToString(this.Fact(n"q307_q115_call_done"))+"/"+ToString(this.Fact(n"q307_confirm_av_done"))+"/"+ToString(this.Fact(n"q307_q115_wait"))+
++      " DR02/07/12="+ToString(this.Fact(n"PTFRP0_DR02"))+"/"+ToString(this.Fact(n"PTFRP0_DR07"))+"/"+ToString(this.Fact(n"PTFRP0_DR12"))+
++      " Q115 test/suicide="+ToString(this.Fact(n"q115_var_test_def"))+"/"+ToString(this.Fact(n"q115_suicide_ending"))+
++      " Q307 debug/roofTest="+ToString(this.Fact(n"q307_debug_reset"))+"/"+ToString(this.Fact(n"q307_rooftop_chicken"));
+   }
+   private func Heartbeat() -> Void {
+     if this.EngineNow()-this.lastHeartbeat<5.0 { return; }this.lastHeartbeat=this.EngineNow();
+@@ -153,7 +163,13 @@
+       !IsDefined(chrome) || !IsDefined(body) || !IsDefined(profile) || !IsDefined(housing) || !IsDefined(world) {
+       this.SetStage("Setup module unavailable","entry/arrival/history/chrome/body/profile/housing/world: "+ToString(IsDefined(entry))+"/"+ToString(IsDefined(arrival))+"/"+ToString(IsDefined(snapshot))+"/"+ToString(IsDefined(chrome))+"/"+ToString(IsDefined(body))+"/"+ToString(IsDefined(profile))+"/"+ToString(IsDefined(housing))+"/"+ToString(IsDefined(world)));return false;
+     }
+-    if !CyberwarePolicy.Completed(game) { this.SetStage("Finishing the ending handoff","Waiting for the native transition to finish.\n"+this.EndingFacts());return false; }
++    let ending = CyberwarePolicy.CompletionBlocker(game);
++    if NotEquals(ending,n"") {
++      let routeHold = Equals(ending,n"q115_route_conflict") || Equals(ending,n"q115_rooftop_unverified");
++      this.SetStageReason(routeHold ? "Tower route needs verification" : "Finishing the ending handoff",
++        NameToString(ending)+" | preparation fault="+ToString(this.Fact(n"PTFRPA2_Fault"))+"\n"+this.EndingFacts(),ending);
++      return false;
++    }
+     if !entry.SnapshotInitializationHealthy() { this.SetStage("Entry setup stopped","The entry module reports a fault; setup remains covered.");return false; }
+     if (this.Fact(n"PTFRPA2_Fault")!=0 && this.Fact(n"PTFRPA2_Fault")!=2) || this.Fact(n"PTFRPA5O_Fault")!=0 ||
+       this.Fact(n"PTFRH1_Fault")!=0 || profile.PTFRPAFaulted() || body.PTFRR3Faulted() || !chrome.PTFRR2Healthy() {
+@@ -164,9 +180,22 @@
+       this.SetStage("Setup stopped",cd1Flags+"\n"+(!chrome.PTFRR2Healthy() ? "Cyberware item-preservation check failed." : "A setup safety check failed.")+"\nCD1 details are in CET gamelog.log. Keep the original test save.");return false;
+     }
+     this.completedSteps=3;
+-    if !snapshot.Ready() { this.SetStage("Recording quest history",snapshot.Status());return false; }
++    if !snapshot.Ready() {
++      if snapshot.Faulted() { this.SetStageReason("Quest history setup stopped",snapshot.Status(),n"snapshot_fault"); }
++      else {
++        let exportReady=snapshot.CanExport();
++        this.SetStageReason(exportReady ? "Verifying quest history file" : "Recording quest history",snapshot.Status(),
++          exportReady ? n"snapshot_export_pending" : n"snapshot_capture_pending");
++      }
++      return false;
++    }
+     this.completedSteps=4;
+-    if this.Fact(n"PTFRPA2_Fault")==2 { this.SetStage("Resuming interrupted setup","Checking the saved preparation timeout before continuing.");return false; }
++    let recovery=SnapshotRecoveryHS1.Get(game);
++    if this.Fact(n"PTFRPA2_Fault")==2 {
++      this.SetStageReason("Checking interrupted setup",IsDefined(recovery) ? recovery.Status() : "Preparation recovery is unavailable.",
++        IsDefined(recovery) ? recovery.SetupBlocker() : n"recovery_module_unavailable");
++      return false;
++    }
+     if !arrival.Completed() { this.SetStage("Preparing arrival","Waiting for the camera, optics and normal player control.");return false; }
+     this.completedSteps=5;
+     if !profile.PTFRPAComplete() || !profile.LC1PhysicalReady() || !profile.LC1LedgerValid(player) || !body.PTFRR3Complete() || !chrome.PTFRR2Ready(player) {
+@@ -180,7 +209,10 @@
+     }
+     this.completedSteps=8;
+     if (!this.continuation && !entry.LC1DispatchChecked()) || this.Fact(n"PTFRPA2_Prepared")!=1 || this.Fact(n"PTFRPA2_Reveal")!=1 || this.Fact(n"PTFRPA2_Finished")!=1 {
+-      this.SetStage("Completing the handoff","Waiting for the final native arrival acknowledgement.");return false;
++      if IsDefined(recovery) && recovery.Resuming() {
++        this.SetStageReason("Completing recovered setup",recovery.Status(),recovery.SetupBlocker());
++      } else { this.SetStage("Completing the handoff","Waiting for the final native arrival acknowledgement."); }
++      return false;
+     }
+     this.completedSteps=9;
+     if !this.continuation && !SetupAdaptersLC1.Ready(game) { this.SetStage("Checking available jobs","Classifying supported jobs; preserving completed or unsupported progress.");return false; }
+@@ -205,7 +237,7 @@
+     if !this.Check() {
+       this.stableSince=-1.0;
+       this.Heartbeat();
+-      if this.EngineNow()-this.engineStarted>=120.0 && IsDefined(this.popup) {
++      if this.EngineNow()-this.engineStarted>=120.0 && IsDefined(this.popup) && Equals(this.stageReason,n"") {
+         this.popup.UpdateText("Setup is taking longer than expected",this.stage+"\n"+this.detail);
+       }
+       return;

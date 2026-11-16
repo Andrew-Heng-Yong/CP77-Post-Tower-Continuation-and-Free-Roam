@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "status": "INSTALLED_VERIFIED_LIVE_TEST_PENDING_SUPPORTED_FIXTURE",
+  "recorded_date": "2026-11-08",
+  "authorization": "User requested the analogous Sweet Dreams actor/interaction/timing edit and a proposed rewiring plan.",
+  "baseline": "KM2 installed; KOLD MIRAGE accepted complete.",
+  "scope": "Presentation-only cleanup. Preserve authored section durations, V recovery/get-up, every retained V/scav line, quest choices/journals, inventory/payment/refund, escape, elevator and Stefan outcomes. Resolve only dependencies on an absent Johnny actor while retaining native completion ports.",
+  "candidate_built": true,
+  "installed": true,
+  "game_writes": 1,
+  "save_writes": 0,
+  "next_action": "JB1 installed and verified; user may launch normally and test supported pre-scene fixtures in TEST_CARD.md. No resets. KOLD remains complete; Sweet Dreams and wider marker work unchanged.",
+  "candidate": "candidate_02",
+  "plan": "input_02/plan.json",
+  "explicit_visual_targets": [
+    "smoke",
+    "cigarette",
+    "title/nameplate",
+    "spawn/glitch effect",
+    "scanner identity",
+    "Johnny entity/shadow"
+  ],
+  "user_test_intent": "Current screenshot: start=1, done=1, items_retrieved=1, cancel_bd=0. No reset command provided; earlier intact genuine post-Tower fixture not qualified.",
+  "installed_manifest": "deployment_01/installed_manifest_01.json",
+  "preservation": "deployment_01/verification.json",
+  "verification": "verification.json",
+  "compile_inventory": "compile_inventory.json",
+  "archive_readback": "archive_readback.json",
+  "fixtures": "fixture_results.json",
+  "test_card": "TEST_CARD.md",
+  "game_launches": 0,
+  "current_successor_checkpoint": "C:\\Users\\Ayong\\Documents\\cp77 modding\\tower ws\\prealpha\\johnny_batch2_jb1\\checkpoint.json"
+}

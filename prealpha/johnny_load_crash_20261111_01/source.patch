@@ -1,0 +1,73 @@
+--- a/r6/scripts/PTFR_Consolidated/PTFR_JohnnyVoiceJV1.reds
++++ b/r6/scripts/PTFR_Consolidated/PTFR_JohnnyVoiceJV1.reds
+@@ -10,13 +10,19 @@
+ 
+   private func OnAttach() -> Void { this.running = true; this.Restored(); }
+   private func OnDetach() -> Void {
+-    this.running = false; this.epoch += 1; ArrayClear(this.actors);
++    this.running = false;
++    this.epoch += 1;
++    this.visuals = 0;
+   }
+   public func Restored() -> Void {
+-    // Do not clear registrations: NPC attachment and restore callbacks may
+-    // arrive in either order. Poll prunes expired/detached weak references.
++    this.QueueRequest(new JohnnyVoiceRestoreRequest());
++  }
++  private func OnJohnnyVoiceRestoreRequest(request: ref<JohnnyVoiceRestoreRequest>) -> Void {
++    if !this.running { return; }
++    // Attachment and restore requests may arrive in either order. Keep
++    // registered weak references and let the poll remove detached actors.
+     this.epoch += 1;
+-    if this.running { this.Schedule(); }
++    this.Schedule();
+   }
+   private func Schedule() -> Void {
+     GameInstance.GetDelaySystem(this.GetGameInstance()).DelayCallback(JohnnyVoiceTick.Create(this, this.epoch), ArraySize(this.actors) > 0 ? 0.10 : 1.0, false);
+@@ -31,6 +37,15 @@
+   }
+   public func Register(actor: wref<NPCPuppet>) -> Void {
+     if !IsDefined(actor) || actor.GetRecordID() != t"Character.Silverhand" { return; }
++    // NPC attachment may run on a game worker. Only the system's request
++    // handlers can change the registry or run its visibility scan.
++    let request = new JohnnyVoiceRegisterRequest();
++    request.actor = actor;
++    this.QueueRequest(request);
++  }
++  private func OnJohnnyVoiceRegisterRequest(request: ref<JohnnyVoiceRegisterRequest>) -> Void {
++    let actor = request.actor;
++    if !this.running || !IsDefined(actor) || actor.GetRecordID() != t"Character.Silverhand" { return; }
+     let i = 0;
+     while i < ArraySize(this.actors) {
+       if this.actors[i] == actor { this.Hide(actor); return; }
+@@ -56,7 +71,12 @@
+     return count;
+   }
+   public func Poll(epoch: Int32) -> Void {
+-    if !this.running || epoch != this.epoch { return; }
++    let request = new JohnnyVoicePollRequest();
++    request.epoch = epoch;
++    this.QueueRequest(request);
++  }
++  private func OnJohnnyVoicePollRequest(request: ref<JohnnyVoicePollRequest>) -> Void {
++    if !this.running || request.epoch != this.epoch { return; }
+     this.Schedule();
+     this.visuals = 0;
+     let i = ArraySize(this.actors) - 1;
+@@ -74,6 +94,16 @@
+     return "Johnny JV1: tower=" + ToString(this.CompletedTower()) + " tracked=" + ToString(ArraySize(this.actors)) +
+       " visualComponentsLastPoll=" + ToString(this.visuals) + " | visual-only candidate; audio/scene untouched; independent props not covered.";
+   }
++}
++
++public class JohnnyVoiceRestoreRequest extends ScriptableSystemRequest {}
++
++public class JohnnyVoiceRegisterRequest extends ScriptableSystemRequest {
++  public let actor: wref<NPCPuppet>;
++}
++
++public class JohnnyVoicePollRequest extends ScriptableSystemRequest {
++  public let epoch: Int32;
+ }
+ 
+ public class JohnnyVoiceTick extends DelayCallback {

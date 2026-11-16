@@ -17,8 +17,13 @@
   "actual_post_tower_coverage_denominator": "NOT_YET_MEASURED",
   "q303_required_work": false,
   "step3_started": true,
-  "next_action": "Await five-word-or-longer dialogue quotes or full short option labels for the two-quest YouTube pilot: KOLD MIRAGE and Sweet Dreams. Resolve spoken-event and choice identities separately; timestamps are optional unless matching is ambiguous.",
+  "next_action": "JP1 is installed and file-verified. Await the user in-game KOLD MIRAGE and Sweet Dreams pilot test; use the test card. Gameplay and already-active menu save transitions remain unqualified.",
   "step3_checkpoint": "prealpha/johnny_video_review_20261107_01/checkpoint.json",
-  "step3_status": "TWO_QUEST_VIDEO_REVIEW_AWAITING_USER_NOTES",
-  "step3_review_protocol": "prealpha/johnny_video_review_20261107_01/review_protocol.json"
+  "step3_status": "TWO_QUEST_DECISIONS_IMPORTED_JP1_INSTALLED",
+  "step3_review_protocol": "prealpha/johnny_video_review_20261107_01/review_protocol.json",
+  "step4_started": true,
+  "step4_checkpoint": "prealpha/johnny_dialogue_pilot_jp1/checkpoint.json",
+  "step4_status": "INSTALLED_VERIFIED_GAMEPLAY_PENDING",
+  "current_installed_delta": "prealpha/johnny_dialogue_pilot_jp1/deployment_01/installed_manifest_01.json",
+  "database_role": "VERIFIED_PRE_JP1_BASELINE_WITH_EXPLICIT_INSTALLED_DELTA"
 }

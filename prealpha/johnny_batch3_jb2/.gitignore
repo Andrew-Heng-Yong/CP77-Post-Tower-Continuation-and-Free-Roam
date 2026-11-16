@@ -1,0 +1,4 @@
+# Decoded game resources belong in local build evidence only.
+/input_*/towercontinued/
+/readback_*/[0-9]*.json
+/preflight_*.json

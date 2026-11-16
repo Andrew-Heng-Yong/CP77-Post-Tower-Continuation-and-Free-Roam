@@ -1,0 +1,22 @@
+{
+  "status": "PASS_JB1_ONE_ARCHIVE_TRANSACTION_LITERAL_DELTA",
+  "predecessor_installer_sha256": "FA7D9F391374144B26701BCD30DC52F1A8A3C6BB4BC22B2FDFCDBCB202D32E23",
+  "installer_sha256": "7B329FD8EB811CFFB9779BC3FBDC485C1D64B6BD15A2048D1362CC5447F7B405",
+  "manifest_sha256": "A97193CD93CA7D0087D3F4B8EC973ADAF16F907AEA52AFAF12E921574E6BCD44",
+  "allowed_replacements": [
+    "archive/pc/mod/zzzz_PTFR_Combined.archive"
+  ],
+  "reviewed_literal_changes": {
+    "# SD1 deployment. User requested Sweet Dreams Johnny presentation cleanup.": "# JB1 deployment. User approved the five-quest Johnny removal and native skips.",
+    "# Derived from the reviewed KM2 transaction. Only the consolidated archive may change.": "# Derived from the reviewed SD1 transaction. Only the consolidated archive may change.",
+    "$PinnedCoreManifestSHA='941EF88EA66E06B6AB1A075B09A39EA383E6162E6622BDB29D06020F87C364CC'": "$PinnedCoreManifestSHA='A97193CD93CA7D0087D3F4B8EC973ADAF16F907AEA52AFAF12E921574E6BCD44'",
+    "PTFR_SD1_JOURNAL_V1": "PTFR_JB1_JOURNAL_V1",
+    "'PTFR_SD1_CORE_V1'": "'PTFR_JB1_CORE_V1'",
+    "$manifest.source_epoch -cne 'SD1' -or $manifest.predecessor_epoch -cne 'KM2'": "$manifest.source_epoch -cne 'JB1' -or $manifest.predecessor_epoch -cne 'SD1'",
+    "('recovery/core_sd1_01')": "('recovery/core_jb1_01')"
+  },
+  "transaction_functions": "Inherited unchanged; only epoch, manifest pin, recovery namespace and scope comments differ.",
+  "package_member_count": 51,
+  "archive_member_count": 1581,
+  "unchanged_payloads": 1568
+}

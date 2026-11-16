@@ -1,0 +1,34 @@
+--- a/r6/scripts/PTFR_Consolidated/PTFR_HistorySnapshotHS1.reds
++++ b/r6/scripts/PTFR_Consolidated/PTFR_HistorySnapshotHS1.reds
+@@ -2820,8 +2820,7 @@
+     let i=0;
+     let stableCount=0;
+     while i<SnapshotDataHS1.Count() {
+-      let cutoffIndex=tower ? ArrayFindFirst(SnapshotDataHS1.Facts(i),"q307_point_of_no_return") : -1;
+-      let verified=this.rows[i].stable && this.Same(this.rows[i],this.ReadRow(i),cutoffIndex);
++      let verified=this.rows[i].stable && this.Same(this.rows[i],this.ReadRow(i),tower ? i : -1);
+       ArrayPush(stable,verified);
+       if verified { stableCount+=1; }
+       i+=1;
+@@ -2853,14 +2852,18 @@
+     row.legacyCertified=IsDefined(legacy) && legacy.Certified(SnapshotDataHS1.ID(i));
+     return row;
+   }
+-  private func Same(a: SnapshotRowHS1,b: SnapshotRowHS1,cutoffIndex: Int32) -> Bool {
++  private func Same(a: SnapshotRowHS1,b: SnapshotRowHS1,towerCutoffRow: Int32) -> Bool {
+     if ArraySize(a.states)!=ArraySize(b.states) || ArraySize(a.facts)!=ArraySize(b.facts) { return false; }
+     let k=0;while k<ArraySize(a.states) {
+       if a.states[k]!=b.states[k] || a.counters[k]!=b.counters[k] || a.optional[k]!=b.optional[k] || a.tracked[k]!=b.tracked[k] { return false; };k+=1;
+     }
+     k=0;while k<ArraySize(a.facts) {
+-      // The native callback follows this one write. The saved value still comes from the pre-ending sample.
+-      if a.facts[k]!=b.facts[k] && !(k==cutoffIndex && a.facts[k]==0 && b.facts[k]==1) { return false; }
++      if a.facts[k]!=b.facts[k] {
++        if towerCutoffRow<0 || a.facts[k]!=0 || b.facts[k]!=1 { return false; }
++        // Resolve only the differing fact from the same row used by ReadRow.
++        let names=SnapshotDataHS1.Facts(towerCutoffRow);
++        if k>=ArraySize(names) || NotEquals(StringToName(names[k]),n"q307_point_of_no_return") { return false; }
++      }
+       k+=1;
+     }
+     return true;

@@ -1,0 +1,29 @@
+{
+  "quest": "sts_ep1_12",
+  "title": "Treating Symptoms",
+  "socket": "ResumeGetInsideComplex",
+  "wrapper": 15393,
+  "main": 14592,
+  "body": 14592,
+  "support": [12644, 12895, 13277, 14551, 14760, 15398],
+  "private_depot": "towercontinued\\native_gigs_u9\\resume\\sts_ep1_12_body.questphase",
+  "graphs": {
+    "root": {
+      "input": 1000,
+      "phase_inputs": [154],
+      "edges": [[1000, "Out", 115, "In"], [1000, "Out", 154, "ResumeGetInsideComplex"]]
+    },
+    "root/154": {
+      "input": 1000,
+      "edges": [[1000, "Out", 20, "In"], [1000, "Out", 29, "In1"]]
+    }
+  },
+  "stage_graph": "root",
+  "stage_seeds": [115, 154],
+  "consumed_nodes": [103, 197, 209, 347, 348],
+  "completion": {
+    "cleanup": 12644,
+    "reward": [61, "QuestRewards.sts_ep1_12_reward"],
+    "credit": 14551
+  }
+}

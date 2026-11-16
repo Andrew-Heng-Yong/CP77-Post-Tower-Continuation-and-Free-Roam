@@ -1,0 +1,26 @@
+{
+  "status": "PASS_JB4_FOUR_FILE_TRANSACTION_LITERAL_DELTA",
+  "predecessor_installer_sha256": "85A849C1BDF5C1943514D4211235DD9A3AD26F357DC9D8B459D81BF69DF5FCDB",
+  "installer_sha256": "8865BFF2E268DBD551D841E84F6A7D3EC195B84B1E9EE3C3762543B738D00A72",
+  "manifest_sha256": "79270674415BDC0B129E9F2681791ED066ED9A2F9BEC10A58CA6E4B9B312F23E",
+  "allowed_replacements": [
+    "archive/pc/mod/zzzz_PTFR_Combined.archive",
+    "r6/scripts/PTFR_Consolidated/PTFR_ActivityStateR3.reds",
+    "r6/scripts/PTFR_Consolidated/PTFR_LoadingCoverLC1.reds",
+    "r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR3.reds"
+  ],
+  "substitutions": {
+    "# JB3 deployment. User approved installation of the cumulative Johnny removal build.": "# JB4 deployment. User approved the combined dialogue and setup update.",
+    "# Derived from JB1. The consolidated archive and the two listed scripts may change.": "# The consolidated archive and the three reviewed setup scripts may change.",
+    "# The three-file replacement is journaled, with per-file atomic replacement; Windows": "# The four-file replacement is journaled, with per-file atomic replacement. Windows",
+    "$PinnedCoreManifestSHA='B6F3046F80A89815561A81097F1E8D91B39FA32750FD44719F6798CD2AC27CCD'": "$PinnedCoreManifestSHA='79270674415BDC0B129E9F2681791ED066ED9A2F9BEC10A58CA6E4B9B312F23E'",
+    "PTFR_JB3_JOURNAL_V1": "PTFR_JB4_JOURNAL_V1",
+    "PTFR_JB3_CORE_V1": "PTFR_JB4_CORE_V1",
+    "$manifest.source_epoch -cne 'JB3'": "$manifest.source_epoch -cne 'JB4'",
+    "$manifest.predecessor_epoch -cne 'JB1'": "$manifest.predecessor_epoch -cne 'JB3'",
+    "recovery/core_jb3_01": "recovery/core_jb4_01",
+    "$wanted=@('archive/pc/mod/zzzz_PTFR_Combined.archive','r6/scripts/PTFR_Consolidated/PTFR_SideJobsS23.reds','r6/scripts/PTFR_Consolidated/PTFR_SideJobsS25.reds')": "$wanted=@('archive/pc/mod/zzzz_PTFR_Combined.archive','r6/scripts/PTFR_Consolidated/PTFR_ActivityStateR3.reds','r6/scripts/PTFR_Consolidated/PTFR_LoadingCoverLC1.reds','r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR3.reds')",
+    "$changes.Count -ne 3": "$changes.Count -ne 4",
+    "Core51/three-existing-file scope drift": "Core51/four-existing-file scope drift"
+  }
+}

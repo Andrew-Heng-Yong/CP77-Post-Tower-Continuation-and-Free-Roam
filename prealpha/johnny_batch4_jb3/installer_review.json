@@ -1,0 +1,19 @@
+{
+  "status": "PASS_JB3_THREE_FILE_TRANSACTION_LITERAL_DELTA",
+  "predecessor_installer_sha256": "BDE3D32F47AC7D98FBDCFDED0FC477335B33B2F7C0F2E83F2ABFBB2198A83767",
+  "installer_sha256": "85A849C1BDF5C1943514D4211235DD9A3AD26F357DC9D8B459D81BF69DF5FCDB",
+  "manifest_sha256": "B6F3046F80A89815561A81097F1E8D91B39FA32750FD44719F6798CD2AC27CCD",
+  "allowed_replacements": [
+    "archive/pc/mod/zzzz_PTFR_Combined.archive",
+    "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS23.reds",
+    "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS25.reds"
+  ],
+  "substitutions": {
+    "# JB2 deployment. User approved Batch 3 and the Prophet entry exclusion.": "# JB3 deployment. User approved installation of the cumulative Johnny removal build.",
+    "$PinnedCoreManifestSHA='6F56198224824B69F5073CC95A7D7708A9F08262707C48C61CE6A61593F9F1F4'": "$PinnedCoreManifestSHA='B6F3046F80A89815561A81097F1E8D91B39FA32750FD44719F6798CD2AC27CCD'",
+    "PTFR_JB2_JOURNAL_V1": "PTFR_JB3_JOURNAL_V1",
+    "PTFR_JB2_CORE_V1": "PTFR_JB3_CORE_V1",
+    "$manifest.source_epoch -cne 'JB2'": "$manifest.source_epoch -cne 'JB3'",
+    "recovery/core_jb2_01": "recovery/core_jb3_01"
+  }
+}

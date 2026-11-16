@@ -1,0 +1,8 @@
+{
+  "scope": "Fix the snapshot test crash and select verified pre-ending history automatically for the requested AutoSave-2 test.",
+  "changed_paths": [
+    "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_HistorySnapshotHS1/init.lua",
+    "r6/scripts/PTFR_Consolidated/PTFR_HistorySnapshotHS1.reds"
+  ],
+  "manifest_sha256": "F640B8C46D26A2BE061D4BF3966831F6A2377F5E9ECD057484CB2B0023CFFBDF"
+}

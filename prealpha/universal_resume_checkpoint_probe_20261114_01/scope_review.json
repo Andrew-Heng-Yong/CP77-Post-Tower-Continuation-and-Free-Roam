@@ -1,0 +1,10 @@
+{
+  "scope": "Install v0.1.4 checkpoint probe and the inline gate writer repair for the shared execution collector.",
+  "changed_paths": [
+    "r6/scripts/PTFR_Consolidated/PTFR_HistorySnapshotHS1.reds",
+    "red4ext/plugins/PTFR_ExecutionCheckpoint/PTFR_ExecutionCheckpoint.dll"
+  ],
+  "candidate_sha256": "C78C5D395E3715F86CFE7D089AFEB6B235DE567BEA5AFF3F525C93EF7B0EB4EB",
+  "predecessor_installed_manifest_sha256": "96C3D0F463FECD7953B2924927E36D358C3219042B8840657E4D8AC9071260E2",
+  "gameplay": "PENDING_MANUAL_PROBE_AND_GENUINE_CUTOFF"
+}

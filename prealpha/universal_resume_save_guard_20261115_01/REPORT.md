@@ -1,0 +1,9 @@
+# Step 3 save guard
+
+15 November 2026. The workspace guard uses one atomic value for the active save count and exclusive timer handoff. An admitted save keeps its permit through capture. A handoff can start only when that count reaches zero, and later save requests defer while it holds its permit. Permits release on scope exit and can move between workers. [Guard implementation](SaveGuard.hpp)
+
+The successor fixture gives the timer transfer a real handoff permit in place of the earlier modeled save-exclusion flag. An active save leaves the stock timer queued. The handoff keeps save admission closed through timer removal, registration retirement, notification drain and cleanup. A successful rollback gives admission back to saves after the original timer returns. The successful replacement branch restores both modeled clocks under the permit, opens admission after the real-time timer and native map agree, then exercises the stock real-time timer save and reload path. [Guarded handoff checks](run_03/handoff.txt)
+
+**50 checks passed** with warnings treated as errors. Nine exercise the guard directly, including overlapping saves, worker transfer and 128 contested acquisitions. Forty-one exercise the guarded timer handoff using the pinned engine slices and existing Reed timer inputs. [Guard checks](run_03/guard.txt) · [Build and inputs](run_03/assessment.json)
+
+Live activation still needs the engine save request to acquire the save permit before dispatch, retain it through capture and use a stock refusal or retry path on contention. The previously traced SaveSystems worker observes serialization after admission. The guarded fixtures ran in a stand-alone process, and the installed checkpoint remains v0.1.4. [Native save trace](../universal_resume_live_handoff_20261114_01/REPORT.md) · [Installed manifest](../universal_resume_checkpoint_probe_20261114_01/deployment_01/installed_manifest_01.json)
