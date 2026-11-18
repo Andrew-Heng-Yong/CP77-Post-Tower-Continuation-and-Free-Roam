@@ -1,0 +1,28 @@
+{
+  "status": "DUMP_MATCHED_ROOFTOP_SEAT_STAND_ANIMATION",
+  "crash_local": "2026-11-18T00:27:40-05:00",
+  "dump_sha256": "4262AA11D2EF768FE82C51B49133E953E8A3C8915148062657275DFFEA2FED17",
+  "executable_sha256": "D36E74C47592E9C656AE250078CB40B2BE63C782AF5BFBEFF2280D43E653FAB4",
+  "thread": 31532,
+  "fault": "Cyberpunk2077.exe+0x257b06",
+  "exception": "0xc0000005",
+  "instruction": "cmp dword ptr [rcx + 4], r11d",
+  "unwound_caller_rvas": [
+    "0x269c67",
+    "0x269c1b",
+    "0xbef206",
+    "0xbef0f5",
+    "0xbef046",
+    "0x4ab34f"
+  ],
+  "scene": "towercontinued\\misty_rooftop_seat\\sit.scene",
+  "scene_depot_hash": "0x2be93e62fd63d813",
+  "animation": "fpp_idle_stand",
+  "animation_hash": "0x5beec823a0e72c37",
+  "animation_name_rows": 2,
+  "animation_set_rows": 1,
+  "attempted_row": 1,
+  "matched_save": "AutoSave-10",
+  "attached_sav_sha256": "272FC7156168FA0190347A98653889B2AC6D796F8635E4ED18A62FFACE691B3A",
+  "limitation": "The dump establishes the failing animation lookup. It does not record whether a choice prompt was displayed earlier."
+}

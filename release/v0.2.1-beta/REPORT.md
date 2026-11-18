@@ -1,0 +1,13 @@
+# Post Tower Continuation and Free Roam v0.2.1-beta — 16 November 2026
+
+Packaged the current installation as a local beta release copy. It contains the exact 51 Core files from `WO1_STREET_OVERLAP_CLEANUP`, including the reported working street cleanup and the earlier KOLD MIRAGE start correction. [Street cleanup retest](../../prealpha/world_overlap_20261116_01/OBSERVATION_20261116.md) · [Core manifest](../../prealpha/world_overlap_20261116_01/work/deployment_01/installed_manifest_01.json)
+
+[Release ZIP](../../dist/v0.2.1-beta/Post-Tower-Continuation-and-Free-Roam-v0.2.1-beta.zip) · [SHA-256 file](../../dist/v0.2.1-beta/Post-Tower-Continuation-and-Free-Roam-v0.2.1-beta.zip.sha256)
+
+The 13,639,562-byte ZIP has SHA-256 `398CD3EFFEED85F1BDF790571AF769253851E04FA205DB55BFF8E924E30400F8`. All 55 entries passed CRC and byte verification. The four roots are `archive`, `bin`, `r6` and `readme`. The four reference files provide installation and cleanup instructions, the exact file inventory and the approved 124-path obsolete catalogue. Frameworks and development tools are installed separately. The Virtual Atelier guide's example reproduced the required corrected hash. [Package verification](../../dist/v0.2.1-beta/package-verification.json)
+
+The installed archive's verified 1,749 resources and ArchiveXL registration were packaged byte for byte. An offline compile used the 46 REDscript files extracted from the release ZIP and ten framework API sources from Codeware, ArchiveXL and TweakXL. The full 148-source compile is also recorded for the same Core payload on the existing local mod stack. The first isolated compile preparation detected a refreshed timestamp sidecar after the live playtest. The successful second attempt captured the new sidecar with the same compiler and base script bytes in a fresh workspace. [Isolated compile log](../../dist/v0.2.1-beta/qualification_02/compile/scc.log) · [Full compile record](../../prealpha/world_overlap_20261116_01/work/compile_01/assessment.json)
+
+The local installation check returned `ALREADY_INSTALLED_VERIFIED`. With the game and launcher closed, all 51 release files already matched their installed bytes and required no replacement. The check verified all 45 protected dependencies, the Atelier correction, CET bindings and the hashes of 439 save files. All catalogue obsolete paths were absent. [Installation receipt](../../dist/v0.2.1-beta/installation.json)
+
+This is a local release copy of the tested build. Fresh-install gameplay, wider quest progression and cross-version save upgrade fixtures remain unqualified. The older VD1 `v0.2.0-beta` package is a distinct snapshot. [Packaging source](package_local.py)

@@ -1,0 +1,114 @@
+{
+  "scope": "Saved variant overrides and authored geometry. Rendered brightness was not measured.",
+  "owner_node_hash": "0xabd74373424e4654",
+  "variant_cname_hash": "0x5d43736ac09dd496",
+  "owner": "$/03_night_city/c_watson/little_china/loc_q115_mistyc_mistys_ripperdoc_roof_prefabDR5IG6A/#loc_q115_mystic_mistys_ripperdoc_roof_lighting",
+  "defaults": {
+    "Q307_AV": 0,
+    "q116_neklace": 0,
+    "L_q116_05": 0,
+    "L_q115_02b": 0,
+    "L_q115_toss_pills": 0
+  },
+  "pickup_writes": [
+    [
+      2022,
+      "Q307_AV",
+      1
+    ],
+    [
+      3050,
+      "Q307_AV",
+      1
+    ]
+  ],
+  "q307_cleanup_explicit_roof_variant_writes": [],
+  "camera_automated": false,
+  "samples": [
+    {
+      "slot": "ManualSave-26",
+      "save_sha256": "6BEFAEE9EA1FA77A515C5A1EC9C867EA5B5DACB166D637D24B1423260E9C2AA4",
+      "inside_rooftop_volume_at_save": false,
+      "saved_roof_states": {
+        "Q307_AV": null,
+        "q116_neklace": null,
+        "L_q116_05": null,
+        "L_q115_02b": null,
+        "L_q115_toss_pills": null
+      },
+      "independent_clinic_controls": {
+        "Q307_VV": null,
+        "V_Default": null
+      },
+      "variant_owners_in_table": 1898
+    },
+    {
+      "slot": "AutoSave-16",
+      "save_sha256": "9467706D85BCE4849AE225A80D6141522E99540BAC39AA32A8A9AC62AF18585D",
+      "inside_rooftop_volume_at_save": false,
+      "saved_roof_states": {
+        "Q307_AV": 1,
+        "q116_neklace": null,
+        "L_q116_05": null,
+        "L_q115_02b": null,
+        "L_q115_toss_pills": null
+      },
+      "independent_clinic_controls": {
+        "Q307_VV": 1,
+        "V_Default": 0
+      },
+      "variant_owners_in_table": 1929
+    },
+    {
+      "slot": "ManualSave-32",
+      "save_sha256": "B5698BC909DD2CDDF34BA39E0DDE26E4480DD1769F9B4EE626717D8DBD2A622F",
+      "inside_rooftop_volume_at_save": false,
+      "saved_roof_states": {
+        "Q307_AV": 1,
+        "q116_neklace": null,
+        "L_q116_05": null,
+        "L_q115_02b": null,
+        "L_q115_toss_pills": null
+      },
+      "independent_clinic_controls": {
+        "Q307_VV": 1,
+        "V_Default": 0
+      },
+      "variant_owners_in_table": 1929
+    },
+    {
+      "slot": "AutoSave-9",
+      "save_sha256": "F241CD424F7A23A23CDB1DFED575C424383056A73D940AA4EFA285BD0E8A49BD",
+      "inside_rooftop_volume_at_save": false,
+      "saved_roof_states": {
+        "Q307_AV": 1,
+        "q116_neklace": null,
+        "L_q116_05": null,
+        "L_q115_02b": null,
+        "L_q115_toss_pills": null
+      },
+      "independent_clinic_controls": {
+        "Q307_VV": 1,
+        "V_Default": 0
+      },
+      "variant_owners_in_table": 1929
+    },
+    {
+      "slot": "AutoSave-10",
+      "save_sha256": "272FC7156168FA0190347A98653889B2AC6D796F8635E4ED18A62FFACE691B3A",
+      "inside_rooftop_volume_at_save": true,
+      "saved_roof_states": {
+        "Q307_AV": 1,
+        "q116_neklace": null,
+        "L_q116_05": null,
+        "L_q115_02b": null,
+        "L_q115_toss_pills": null
+      },
+      "independent_clinic_controls": {
+        "Q307_VV": 1,
+        "V_Default": 0
+      },
+      "variant_owners_in_table": 1929
+    }
+  ]
+}

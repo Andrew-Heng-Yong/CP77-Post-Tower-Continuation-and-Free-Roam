@@ -1,0 +1,7 @@
+# ManualSave-32 phone observation
+
+15 November 2026, Toronto. The user reports that the Tower ending cleared the phone's older visible messages; only Tower ending messages were visible immediately after this save loaded. They explicitly regard the old-message clearing as expected and confirmed that **phone message activation is working**: Ozob later sent a message that offered **Send in the Clowns** in the current run. Treat this as `USER_REPORTED_PASS` for that new offer only. Its objective progression, marker, completion, reward and save/reload were not separately reported. Do not request a repeat of this successful offer merely to recreate evidence.
+
+The read-only [ManualSave-31/32 projection](manual31_32_bartmoss_phone.json) shows the five selected Bartmoss child messages remained serialized as Active while the parent contact became Inactive after Tower, consistent with the old thread being absent from the phone UI. This is saved-journal evidence, not a claim that all phone histories or later messages are available. The installed QP2 contact repair has not been independently qualified on this fixture; the user's current instruction removes the old Bartmoss thread from the active bug queue. No phone, journal, fact, save or game file was changed by this observation.
+
+The [next gameplay card](TEST_CARD.md) uses the naturally offered Ozob job for progression and reload checks without repeating its successful message offer.

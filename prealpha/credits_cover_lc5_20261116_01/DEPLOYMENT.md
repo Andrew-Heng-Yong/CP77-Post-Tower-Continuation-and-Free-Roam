@@ -1,0 +1,9 @@
+# Credits cover installation
+
+Installed the revised Tower credits cover on 16 November 2026. The guarded transaction replaced `r6/scripts/PTFR_Consolidated/PTFR_LoadingCoverLC1.reds` after checking the game and both REDlauncher processes were closed. The installed script SHA-256 is `A1BC4150567153436C9418949B401AE9282D068F2CB03CB35AB685535326A362`. The installed manifest SHA-256 is `02E089A382D01A0542BA804CAA6B2892D2A411B8C25F755A8C503C1483D703DF`. [Installed manifest](work/deployment_01/installed_manifest_01.json)
+
+All 51 Core paths verified after installation. The transaction preserved the names and bytes of 439 save files and verified 48 protected files, including the current Lizzie’s Braindances inputs, the Atelier correction, and CET bindings. The prior script is available for rollback. Four isolated cases passed, covering install and rollback, interruption before and after replacement, and refusal while the game is open. [Fixture results](work/fixture_results.json) · [Rollback verification](work/deployment_01/rollback_readiness.json)
+
+To roll back the script, close the game and launcher and use PowerShell 7 to run `work/deploy_core.ps1 -Action ValidateRollback`, followed by `work/deploy_core.ps1 -Action Rollback` when rollback is requested. The operator verifies the live candidate and retained predecessor bytes before restoring the old script. Save files are snapshotted for preservation checks during the transaction. [Recovery journal](work/recovery/credits_cover_01/journal.json)
+
+The rendered handoff is pending. In a genuine Tower run, close credits during Rogue’s call as in the example clip, then record until setup clears and control returns. The recording should show continuous coverage across the point where Afterlife previously appeared. [Video and verification details](REPORT.md)

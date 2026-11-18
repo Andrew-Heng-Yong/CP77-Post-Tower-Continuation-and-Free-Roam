@@ -1,0 +1,19 @@
+{
+  "status": "PASS_OFFLINE",
+  "candidate_sha256": "FF043272463E7CEE53E367495DA589F18158F049A3F970455C56BD1FDAB111E0",
+  "core_files": 51,
+  "changed_from_staged": [
+    "archive/pc/mod/zzzz_PTFR_Combined.archive"
+  ],
+  "native_quest_phases": 19,
+  "quest_scenes": 14,
+  "removed_dialogue_events": 15,
+  "retained_dialogue_events": 310,
+  "remaining_choices": 68,
+  "private_lipmaps_appended": 2,
+  "archives_checked": 135,
+  "packed_members": 1768,
+  "game_writes": 0,
+  "save_writes": 0,
+  "gameplay": "pending"
+}

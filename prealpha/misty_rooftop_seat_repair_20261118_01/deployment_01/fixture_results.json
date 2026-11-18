@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "cases": [
+    "clean rollback",
+    "interrupted install",
+    "unknown archive drift"
+  ],
+  "game_writes": 0,
+  "save_writes": 0
+}

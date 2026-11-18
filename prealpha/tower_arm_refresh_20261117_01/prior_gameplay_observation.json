@@ -1,0 +1,17 @@
+{
+  "source_log": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\plugins\\cyber_engine_tweaks\\gamelog.log",
+  "source_log_sha256": "A3300C859F8C429E6BAD83143766B84C1B4BFB09CC67935C794FE4DB54DE9A33",
+  "photo_mode_cycle_log_excerpt": [
+    "[2026-11-17 12:26:43 UTC-05:00] [34456] [PTFR_PhotoRefresh] requested time=150474.296875",
+    "[2026-11-17 12:26:43 UTC-05:00] [34456] [PTFR_PhotoRefresh] native-active time=150474.296875",
+    "[2026-11-17 12:26:43 UTC-05:00] [29436] [PTFR_PhotoRefresh] menu-shown-covered time=150474.593750",
+    "[2026-11-17 12:26:45 UTC-05:00] [34456] [PTFR_PhotoRefresh] exit-requested time=150475.937500",
+    "[2026-11-17 12:26:45 UTC-05:00] [22720] [PTFR_PhotoRefresh] menu-hidden time=150475.937500",
+    "[2026-11-17 12:26:46 UTC-05:00] [34456] [PTFR_PhotoRefresh] gameplay-camera-restored time=150476.921875",
+    "[2026-11-17 12:26:46 UTC-05:00] [34456] [PTFR_CreditsCover] setup-released time=150476.921875"
+  ],
+  "user_observation": "arm is still missing, but torso is ok now",
+  "live_cycle_duration_engine_seconds": 2.625,
+  "visual_cover_observed": false,
+  "active_autosave_16_sha256": "4424A7C9D90CB35B2E70FBDDB4F3D5CBB17C603367D3064FF570B67732442486"
+}

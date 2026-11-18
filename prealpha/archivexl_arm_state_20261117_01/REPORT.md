@@ -1,0 +1,11 @@
+# ArchiveXL 1.28.7 arm-state comparison
+
+Before the update, RED4ext loaded ArchiveXL 1.28.0 on Cyberpunk 2077 2.50. During the 13:46 Tower test, CET recorded two stock-hands appearance reset requests. The user reported the reset failed. In the earlier paired holstered capture, the attachment entity ID matched across the vehicle round trip and both first-person arm components appeared on V after exit. [Paired capture](../../docs/post_tower_arm_component_capture_20261117.md)
+
+ArchiveXL 1.28.7 adds dependencies from the Hands slot to Chest and Torso so those appearances can refresh when handwear changes. The paired Tower capture inspected the RightArm attachment and V's first-person arm components. The effect of the new release on the Tower transition remains to be tested. [Official release](https://github.com/psiberx/cp2077-archive-xl/releases/tag/v1.28.7) · [Upstream change](https://github.com/psiberx/cp2077-archive-xl/commit/1cabd47fbfb12dc0542ced5ab344d18599dd1750)
+
+The official ZIP matched its published SHA-256. The update replaced eight ArchiveXL files and independently verified all 29 release paths. All 149 registered REDscript sources compiled with the release scripts. The three script changes only update their version comments. Fixture cases covered successful installation and rollback, interruption after two replacements, and refusal while the game is running. [Package inventory](work/package_review.json) · [Compile](work/compile_01/assessment.json) · [Fixtures](work/fixture_results.json)
+
+The closed-game installation verified 115 protected files, including the 51 Tower files, Immersive First Person, and the reviewed Virtual Atelier correction. All 499 save file hashes matched across the transaction. AutoSave-16 still matches the three-file Misty's alley checkpoint, and the eight displaced ArchiveXL files verified for rollback. [Active installation manifest](installed_manifest.json) · [Install and recovery receipt](work/install_receipt.json)
+
+For live verification, start the installed build, load AutoSave-16, and finish the ending normally. Check whether both arms are visible while holstered as soon as free roam returns. Take that observation before using a vehicle or any appearance command. ArchiveXL startup and the arm result are pending.

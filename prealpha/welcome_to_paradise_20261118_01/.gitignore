@@ -1,0 +1,13 @@
+/work/
+/compile_*/
+/candidate_*/package/
+/recovery/
+!/queries.json
+!/extra_queries.json
+!/private_queries.json
+!/native_edges.json
+!/quest_fields.json
+!/candidate_01/
+/candidate_01/*
+!/candidate_01/verification.json
+!/candidate_01/gate_and_lipmap_fixtures.json

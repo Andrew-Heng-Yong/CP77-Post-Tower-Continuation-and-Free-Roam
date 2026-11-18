@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "closed_on_all_progress_facts": 70,
+  "closed_journal_states": [
+    "Active",
+    "Succeeded",
+    "Failed"
+  ],
+  "preserved_lip_mappings": 50,
+  "additional_matching_lip_mappings": [
+    "mq061_12_kabuki_scene.scene",
+    "mq061_03_arasaka_memorial_scene.scene",
+    "mq061_07_rancho_scene.scene"
+  ],
+  "mode": "serialization fixtures"
+}

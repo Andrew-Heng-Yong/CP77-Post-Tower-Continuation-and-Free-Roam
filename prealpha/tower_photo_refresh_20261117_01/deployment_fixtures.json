@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "cases": [
+    "two-file install and exact rollback",
+    "interrupted first replacement recovery",
+    "unknown target drift refused before any restore"
+  ],
+  "game_writes": 0,
+  "save_writes": 0
+}

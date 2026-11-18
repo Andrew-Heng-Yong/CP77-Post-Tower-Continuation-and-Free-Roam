@@ -1,0 +1,11 @@
+# Sit and Get Up on Misty’s rooftop
+
+The original Tower rooftop scene uses the shared player chair workspot with entry 11. This build uses that workspot and the original V seat position and facing. The rooftop call panel provides the scene’s world reference. The scene uses its own Sit and Get Up choices and restores normal player control through the native workspot exit. [Serialized scene and placement](work/scene_01/manifest.json) · [Native providers](work/native_01/providers.json)
+
+The prompt becomes eligible within 2.5 metres of the seat after genuine Tower completion and free-roam control. It re-arms after a normal exit. An unused prompt closes when V leaves the area, and a seated interaction uses its own Get Up path. After a native interruption, the owner waits for V to leave and approach again. The scene and driver write private seating facts. [Driver](source/PTFR_MistyViktorAuto.reds) · [Native phase](work/scene_01/gate.json)
+
+The update changes the combined archive, its ArchiveXL file and the Misty/Viktor driver. All 1,749 predecessor archive members matched the baseline, and both private seat resources passed readback. The added phase ID 29566 passed collision checks against the native parent and the other EP1 registrations. [Archive readback](work/pack_01/readback.json)
+
+On 18 November the updated script registry and cache timestamp were captured in a fresh compile of all 149 REDscript sources. The seat resources and three replacement bytes matched the original staging. Five isolated deployment fixtures covered a clean install and rollback, interruption after each replacement, and detection of unknown file drift. [Installed candidate](candidate_02/core_manifest.json) · [Verification](candidate_02/verification.json) · [Fixtures](deployment_01/fixture_results.json)
+
+The closed-game installation verified all 51 Core paths, 93 protected dependency and preference files, 54 other ArchiveXL configurations and the size and timestamp of 134 other archive providers. All 523 save files matched the pre-install inventory and hashes. The three predecessor files were backed up and verified. The seated pose and repeat use remain untested in game. [Installed manifest](installed_manifest.json) · [Installation receipt](deployment_01/recovery/installed.json)

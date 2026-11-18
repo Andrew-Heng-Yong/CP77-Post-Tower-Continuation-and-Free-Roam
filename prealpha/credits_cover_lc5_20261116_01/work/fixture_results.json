@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "installer_sha256": "064BCE30527401C39A47F3C3AFFBD5386150BDC2B896CFAFA5617C3CF6A662E7",
+  "actions": [
+    {
+      "case": "rollback",
+      "action": "Install",
+      "status": "INSTALLED_VERIFIED",
+      "exit_code": 0
+    },
+    {
+      "case": "rollback",
+      "action": "Verify",
+      "status": "VERIFIED_AFTER",
+      "exit_code": 0
+    },
+    {
+      "case": "rollback",
+      "action": "ValidateRollback",
+      "status": "ROLLBACK_READY",
+      "exit_code": 0
+    },
+    {
+      "case": "rollback",
+      "action": "Rollback",
+      "status": "ROLLED_BACK_VERIFIED",
+      "exit_code": 0
+    },
+    {
+      "case": "rollback",
+      "action": "Verify",
+      "status": "VERIFIED_BEFORE",
+      "exit_code": 0
+    },
+    {
+      "case": "crash_after_stage",
+      "action": "Install",
+      "status": null,
+      "exit_code": 72
+    },
+    {
+      "case": "crash_after_stage",
+      "action": "Recover",
+      "status": "RECOVERED_BEFORE",
+      "exit_code": 0
+    },
+    {
+      "case": "crash_after_stage",
+      "action": "Verify",
+      "status": "VERIFIED_BEFORE",
+      "exit_code": 0
+    },
+    {
+      "case": "crash_after_replace",
+      "action": "Install",
+      "status": null,
+      "exit_code": 72
+    },
+    {
+      "case": "crash_after_replace",
+      "action": "Recover",
+      "status": "RECOVERED_BEFORE",
+      "exit_code": 0
+    },
+    {
+      "case": "crash_after_replace",
+      "action": "Verify",
+      "status": "VERIFIED_BEFORE",
+      "exit_code": 0
+    },
+    {
+      "case": "game_running",
+      "action": "Install",
+      "status": null,
+      "exit_code": 1
+    }
+  ]
+}

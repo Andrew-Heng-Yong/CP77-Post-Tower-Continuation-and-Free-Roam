@@ -1,0 +1,90 @@
+{
+  "status": "PASS",
+  "registered_sources": 149,
+  "game_log_time": "2026-11-18 12:49:20",
+  "points": {
+    "recorded_camera": [
+      -1541.432983,
+      1203.050781,
+      58.591278
+    ],
+    "chair": [
+      -1541.07068,
+      1201.8988,
+      57.0021973
+    ],
+    "landing_eye": [
+      -1551.01453,
+      1206.97974,
+      58.591278
+    ]
+  },
+  "areas": [
+    {
+      "area": "{T_Rooftop}",
+      "setup": 2940,
+      "definition": 207,
+      "contains": {
+        "recorded_camera": true,
+        "chair": true,
+        "landing_eye": true
+      },
+      "active_settings": [
+        "CameraAreaSettings",
+        "CloudAreaSettings",
+        "VolumetricFogAreaSettings"
+      ]
+    },
+    {
+      "area": "{T_Flight_Part_}2",
+      "setup": 412,
+      "definition": 189,
+      "contains": {
+        "recorded_camera": false,
+        "chair": false,
+        "landing_eye": false
+      },
+      "active_settings": [
+        "EnvironmentColorGroupsSettings"
+      ]
+    },
+    {
+      "area": "{T_Trailer}",
+      "setup": 413,
+      "definition": 190,
+      "contains": {
+        "recorded_camera": true,
+        "chair": true,
+        "landing_eye": true
+      },
+      "active_settings": [
+        "CloudAreaSettings",
+        "DistantFogAreaSettings",
+        "DistantProxiesSettings",
+        "EmissiveColorSettings",
+        "VolumetricFogAreaSettings"
+      ]
+    },
+    {
+      "area": "{T_Flight_Part_}1",
+      "setup": 414,
+      "definition": 191,
+      "contains": {
+        "recorded_camera": true,
+        "chair": true,
+        "landing_eye": true
+      },
+      "active_settings": [
+        "CloudAreaSettings",
+        "DistantFogAreaSettings",
+        "DistantProxiesSettings",
+        "EmissiveColorSettings",
+        "EnvironmentColorGroupsSettings",
+        "VolumetricFogAreaSettings"
+      ]
+    }
+  ],
+  "private_requests": 3,
+  "compiled_readback_sha256": "706B3984493A4908B47D106CC00805FFD8D040757E53E9878D53634AB9D2F5EC",
+  "gameplay": "PENDING"
+}

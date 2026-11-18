@@ -1,0 +1,269 @@
+{
+  "status": "STAGED_OFFLINE",
+  "baseline_sha256": "CED6C03DE5B242E5B3F934BCE79160FE60DEDBACADF673951F4258D2A113B404",
+  "predecessor_candidate_sha256": "FF043272463E7CEE53E367495DA589F18158F049A3F970455C56BD1FDAB111E0",
+  "changed_paths": [
+    "archive/pc/mod/zzzz_PTFR_Combined.archive",
+    "archive/pc/mod/zzzz_PTFR_Combined.archive.xl",
+    "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS29.reds"
+  ],
+  "core_files": [
+    {
+      "path": "archive/pc/mod/zzzz_PTFR_Combined.archive",
+      "bytes": 13381632,
+      "sha256": "E0E98ED087D8DF9E586FF94CFA439BE94885AEB7F795B12AD257F60ABD9FB0CB"
+    },
+    {
+      "path": "archive/pc/mod/zzzz_PTFR_Combined.archive.xl",
+      "bytes": 136218,
+      "sha256": "F00AFD6830B833B11F3C02B06D030A80342A26371FDDADA7B692C07CEF86CB05"
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_HistorySnapshotHS1/init.lua",
+      "bytes": 14320,
+      "sha256": "B1603F4C76DF217FA20AC24624E6381B8797DC0ACB7A671311F49F80B830CA0E"
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/mods/PTFR_PreAlpha/init.lua",
+      "bytes": 5728,
+      "sha256": "EA4479FC2E8538FAD837C2212B7065557F274185CF1DBCC68BBF07C9CD2DD2FC"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_ActivityStateR3.reds",
+      "bytes": 255415,
+      "sha256": "AB156E712213281E36231AAFD917E11FA82DD157B8C8B0E7433FA7C52830490A"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_AfterlifeFacesR5.reds",
+      "bytes": 22648,
+      "sha256": "D536145CB5F45D30E85669B343184753C1DD8E3A492ADACF4543F9E69F323074"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_AfterlifeIdlesR3.reds",
+      "bytes": 9293,
+      "sha256": "5899B6DC726B6D5EE74DC5DA21A9D39DDCE30028DABF161E0EF6D91ECD13128A"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_AfterlifeInteractionsR8.reds",
+      "bytes": 13232,
+      "sha256": "8E1F054C3AD9B1D5ACEDEA47EA90171D01474627B7EA74163E265B4BAC290CE7"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_AfterlifeNativeBootstrapA4.reds",
+      "bytes": 4849,
+      "sha256": "E908FD9894D3583C180BE8C8FE462EEE8904262B76B81984F037E36F6A6D431C"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_AfterlifeR1.reds",
+      "bytes": 3465,
+      "sha256": "65B8AE0074132281181263AD636A4590A7513B65A048164B0E2CE5F380B4CF70"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0AfterlifeMirror.reds",
+      "bytes": 3154,
+      "sha256": "51B4E455EA80BC958504F4B6EA9C8DF45DE99E8AD88961C5A37705900F169CF6"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0CPZFood02.reds",
+      "bytes": 8092,
+      "sha256": "9F1238DC73AA7B7BBFBA0F4BFFE43FD1F595F7486137E2ADA2DD5667194F319B"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0Claire.reds",
+      "bytes": 3671,
+      "sha256": "760790330C6783F103E9B8F94980297D9747E027830158CF6D5114C63F3E336B"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0DeferredVendors.reds",
+      "bytes": 4864,
+      "sha256": "510AF5E9FAE980213658263CF83F65034B74231BE8A6EFB3BCC57EA2B1EA2A77"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0OrdinaryBars.reds",
+      "bytes": 9619,
+      "sha256": "FEF1F5F1779FCA14D32BE892E30E2CA48C082E4CBB7C50199385BCE5EF829CE6"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0OrdinaryVendors.reds",
+      "bytes": 20426,
+      "sha256": "473E42266A54B49235B6A133617835B4A36A5D055FEAB60E2A787575DC565ABB"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0SpecialServices.reds",
+      "bytes": 8216,
+      "sha256": "7D4C86C748E6DD3856FB69B3E6286D7DA4BD9155F7CFE6BE192ECA2C5B942FF2"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0StoryEight.reds",
+      "bytes": 6086,
+      "sha256": "AF316AFC167E4B142E0DC8E58604126A25605CEE09A1B2D064E2A06EBA8C6273"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0StoryServices.reds",
+      "bytes": 4691,
+      "sha256": "CDAC6032029A087235E604E563B94698EC083FF80BEADF31B055100D324E0103"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0StoryZane.reds",
+      "bytes": 3712,
+      "sha256": "5F11C301EA96F1E794D9F9A9F29B53C55A324C865A6CFCD93E57B132D70DCC56"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0VendorShared.reds",
+      "bytes": 5194,
+      "sha256": "F9B5F3F8D08E050A4FABBC9AA4F13C8698FB25CEAE29163B1B2EB5B640C132FB"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_B0VendorVariants.reds",
+      "bytes": 10177,
+      "sha256": "B8513C33D4288894D078BFD63A43E242F6F1862EEB07F0F20D41C5F7C2AFC7CD"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_GigsU10.reds",
+      "bytes": 44360,
+      "sha256": "BA8DE611800530A9D6675FF47D1A208F607E2C8F8AA469BE6B6E49BA7E1EF8A3"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_Global.reds",
+      "bytes": 34305,
+      "sha256": "F6BC1F69F80F9D2F2AA495B026137EFC76F2D5B29C88B12F2C8D04A0954F9FDE"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_HistorySnapshotHS1.reds",
+      "bytes": 6563945,
+      "sha256": "5A85CEE5DBD26160E15DC516666699B298C7AEA34579EF8134BD380DB78CB617"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_Housing.reds",
+      "bytes": 80182,
+      "sha256": "CEA76580A7D7DB3B92963EE4F74F472ACE8C490FC9B8C9E79A3397B4253327FB"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_JohnnyVoiceJV1.reds",
+      "bytes": 5666,
+      "sha256": "B1EFB2935AEB6B6BFB34ABE72104E24722687C3E62E281C0B9161367B72B3837"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_JournalLabelJ1.reds",
+      "bytes": 1431,
+      "sha256": "EC73A2B370169E5890D8F8194E264F2E7D31F9A73FC6C899144CFB51DEEF1DA0"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_LoadingCoverLC1.reds",
+      "bytes": 54442,
+      "sha256": "B92CE4BA8E2D7AD19A8596B95A7F93443A00DE23E04EF6F22210F7C39CE32602"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_MistyViktorAuto.reds",
+      "bytes": 12709,
+      "sha256": "A5A8AFA1A7A02265ECFC2DFD4140BB7C2F839A81AB7F751AE22781E30E992818"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_MistyViktorTerryR11.reds",
+      "bytes": 8772,
+      "sha256": "B19F81B817237208BD9F18FEB6AA64BADC81E43BCF86B69B3D529453789439B7"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_NCPDRepairN21.reds",
+      "bytes": 23384,
+      "sha256": "8F4DDBF69C7BA62984B6236EEF9461EF16AC4D639D1FB50CDFE0C3FCB121BEB3"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_NCPDScannersN2.reds",
+      "bytes": 4455,
+      "sha256": "A6D7810B6A7657D3CD68013337DF83E63EE64EAB1425EC380A1D8603472CE7CD"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_RestorationBaseline.reds",
+      "bytes": 265472,
+      "sha256": "3C4279DBDE3AC7118904EFD009A54CB5D79BCF7AFEF1790EC3135BD2F0D1F3AB"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR1.reds",
+      "bytes": 71205,
+      "sha256": "E8AA89719590AEF994AE33193744D367DB8100D64F97BA832FF6DC9B392938A9"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR2.reds",
+      "bytes": 72219,
+      "sha256": "49A38CC6636F1D6D5AEAE21130FCBB1CB8B57C85942CFECBE7549FCB5832FE26"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_RestrictionsR3.reds",
+      "bytes": 293820,
+      "sha256": "AD67350D517D202BCD54DB4ABFBF17F5CA4BAE253B19616845956813DF49474C"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobPilotS1.reds",
+      "bytes": 12569,
+      "sha256": "E7725897767793879BA4D5C6FC390996B7DDFA565A51BBD7BF7538EBF4CB8889"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS2.reds",
+      "bytes": 211606,
+      "sha256": "839675C7BFAC6F7055A2DC18C9D2D410FD257814A6E4A95716D98EDCA8468E39"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS22.reds",
+      "bytes": 19301,
+      "sha256": "59E89CFD796585472BB47343F39896C622FEC67CB615EB98CEF270D1876E6139"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS23.reds",
+      "bytes": 80065,
+      "sha256": "9731BD04934317969596EBC505147DFA5A5DC4510F2B0EDA50FF949D3CDB948D"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS24.reds",
+      "bytes": 66202,
+      "sha256": "C43F0E42825CE919371C3B9B2CD392F0BB72F07A401C17C87BAD3F2FC7BA214F"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS25.reds",
+      "bytes": 110832,
+      "sha256": "62ED30F06A09449663B3C835A4FBD012A955C289E8E6218172E94E970F932D12"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS27.reds",
+      "bytes": 90996,
+      "sha256": "FB822EB9A6C2871D44129BE94DB0DE47BBAEC17B980986760BABA34211F551FF"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS28.reds",
+      "bytes": 29680,
+      "sha256": "01BBE91143F0255813A3E1E460C1EA065EA5B449799976CF4BC564D11000D8C0"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_SideJobsS29.reds",
+      "bytes": 242638,
+      "sha256": "09BB2406C53DD082E7956391194B7F9BFFB9499F89A9EC5573FE20BCCEDA0623"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_StreetkidAuto.reds",
+      "bytes": 3859,
+      "sha256": "30C9141D1093B20F354C0E77ADC0CB036BE8AC35BC907DA1084BDCCB764F6DC0"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_TimeAuto.reds",
+      "bytes": 3836,
+      "sha256": "9A531BAD92D5D79B4ECF3A9C02D55B3037E4D7A43F3409D3621F201C424E9EAA"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_TowerJournalAuto.reds",
+      "bytes": 3561,
+      "sha256": "F7AE504E79CC2B3983C9D7267B70F65AED25D7E9B95B9C70451C0CE10FA208A0"
+    },
+    {
+      "path": "r6/scripts/PTFR_Consolidated/PTFR_ZetatechIdlesR12.reds",
+      "bytes": 5208,
+      "sha256": "D4C2B4438E2803ED4C81B9AB12DCB503213FEBF8130C8E1A8D9A53FFA7CD4848"
+    },
+    {
+      "path": "r6/tweaks/TowerContinued_PreAlpha.yaml",
+      "bytes": 200,
+      "sha256": "4DBE8CD5C3BC6254900B6951919B346F6DCEB7BD9CE9C94FA4B4A27CB7704E05"
+    }
+  ],
+  "asset_assessment_sha256": "1089D48908476EC3331262B79B2A7FE1DA01646C4FCFB11FC0B378C56F5D2974",
+  "compile_assessment_sha256": "1447D463F0B6964713BAB54466B71755DD075F93F86E2DA095AF6E3EF6795D99"
+}

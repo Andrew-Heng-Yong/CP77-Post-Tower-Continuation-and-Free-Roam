@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "cases": [
+    "install and rollback",
+    "interrupt after archive",
+    "interrupt after script",
+    "refuse unknown drift"
+  ]
+}

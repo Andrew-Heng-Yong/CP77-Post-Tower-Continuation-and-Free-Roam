@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "registered_sources": 149,
+  "owner": "$/03_night_city/c_watson/little_china/loc_q115_mistyc_mistys_ripperdoc_roof_prefabDR5IG6A/#loc_q115_mystic_mistys_ripperdoc_roof_lighting",
+  "variant": "Q307_AV",
+  "requested_state": false,
+  "approach_radius_m": 80,
+  "saved_states": {
+    "ManualSave-26": null,
+    "AutoSave-16": 1,
+    "ManualSave-32": 1,
+    "AutoSave-9": 1,
+    "AutoSave-10": 1,
+    "AutoSave-15": 1,
+    "EndGameSave-124": 1
+  },
+  "pickup_members_by_type": {
+    "worldTriggerAreaNode": 4,
+    "worldReflectionProbeNode": 1,
+    "worldStaticLightNode": 6,
+    "worldCookedStaticMeshNode": 1,
+    "worldCookedCollisionNode": 1
+  },
+  "geometry_pivot_distances_m": {
+    "worldCookedStaticMeshNode": 634.99,
+    "worldCookedCollisionNode": 634.99
+  },
+  "readback_sha256": "E4A464BF173A99B3F3871065C74631E840D0AC25D077F5B493ADFB5FA8BA9643",
+  "user_CET_result": "Building detail returned",
+  "automated_gameplay": "PENDING",
+  "gameplay": "PENDING"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "cases": [
+    "exact install and rollback preserve external file and save",
+    "interrupted replacement restores exact old bytes",
+    "unknown changed file preserved for review"
+  ],
+  "game_writes": 0,
+  "save_writes": 0
+}

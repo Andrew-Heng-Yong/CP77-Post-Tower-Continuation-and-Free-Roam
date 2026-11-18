@@ -1,0 +1,13 @@
+# Cover for the Tower credits transition
+
+The subsequent installation is recorded in the [deployment report](DEPLOYMENT.md). The remaining notes describe the offline candidate.
+
+The staged candidate creates an opaque setup cover before the native credits close handler runs. It uses the permanent system notifications window, places the cover behind that window's existing content, and displays the setup controller's progress until the normal release. The session removes its canvas on pause, cancellation, restore, or detach. If the window is unavailable at close, the original handler proceeds and the cover retries while the handoff is active. [Source](PTFR_LoadingCoverLC1.reds) · [Original video finding](../../docs/credits_flash_review_20261116.md)
+
+The installed layer data confirms that the system notifications layer is enabled, active by default, permanent, unaffected by world fade, and independent of game input. A scan of 135 archives in the installed `archive/pc` tree resolved `base\gameplay\gui\ui_game.inklayers` to the base engine archive. [Layer capture](../../diagnostics/credits_flash_20261116_03/layers_01/providers.json) · [Codeware window API](https://github.com/psiberx/cp2077-codeware/blob/main/src/App/UI/inkLayerWrapper.hpp)
+
+The staged candidate passed compilation with all 149 current REDscript inputs. The last startup log lists 148. A newer Lizzie's Braindances installation supplied the additional source and seven updated dependency files. The build used the present files and recorded their hashes for preservation. [Compile proof](candidate_01/compile_01/assessment.json) · [Staged manifest](candidate_01/core_manifest_01.json)
+
+The compiled callback runs the cover before the original close path. The normal popup acknowledgement and camera readiness methods match the predecessor, and the cover adds no fact writes. Readback verified all 51 staged Core paths with one replacement. The staged manifest SHA-256 is `3195CA9A49E1D0C6DDCC08DE5868C59EBE47DCD9E5D5C73D07B3736EA6D33AAA`. [Independent review](../../diagnostics/credits_flash_20261116_03/compiled_review_01/assessment.json)
+
+Deployment and live rendering checks are pending. The first test is a genuine Tower ending with credits closed during Rogue's call. Record through setup and confirm the image stays covered between the last credit and the setup page. Continue until control returns and check movement and camera. The `PTFR_CreditsCover` log gives timestamps for the close, attachment, popup acknowledgement, and release. Check a second skipped call and a fully watched roll, then verify a normal continuation save reload and a non-Tower credits close. Include a pause or session exit if the setup is interrupted.
